@@ -28,286 +28,286 @@
 
 /////////////////////////AMMO UPGRADE/////////////////// CHARACTER COUNT FOR NEW LINE ~36!!!
 
-//M16 //556x45
-"weapon_upgrade_mk262_20i_std"					"U.S. Mk262 20i|556x45"
-"weapon_upgrade_mk262_20i_std_desc"			"Spread Frac(lower = accurate): 0.5\nDmg: 110 @ 1m to 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.7 | PlyrMult: 1.65\nCHEST: 1.6 | PlyrMult: 1.65\nSTOMACH: 1.6 | PlyrMult: 1.35\nARMS: 0.62 | PlyrMult: 0.9\nLEGS: 0.62 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 7.6m of wall\nTravel of 228m passes 2.9m of wall"
+//M16 //5.56x45mm
+"weapon_upgrade_mk262_20i_std"					"U.S. Mk262 20i|5.56x45mm"
+"weapon_upgrade_mk262_20i_std_desc"			"弹点散布(数值越低越精确): 0.5\n伤害: 110 @ 1m -- 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.7 | PlyrMult: 1.65\n胸: 1.6 | PlyrMult: 1.65\n腹: 1.6 | PlyrMult: 1.35\n臂: 0.62 | PlyrMult: 0.9\n腿: 0.62 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 7.6m\于 228m距离 穿透 2.9m"
 
-//M16 //556x45_hp
-"weapon_upgrade_mk262_20i"					"U.S. Mk262 OTM 20i|556x45"
-"weapon_upgrade_mk262_20i_desc"			"Spread Frac(lower = accurate): 0.5\nDmg: 110 @ 1m to 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.7 | PlyrMult: 1.65\nCHEST: 1.6 | PlyrMult: 1.65\nSTOMACH: 1.6 | PlyrMult: 1.35\nARMS: 0.62 | PlyrMult: 0.9\nLEGS: 0.62 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 7.6m of wall\nTravel of 228m passes 2.9m of wall"
+//M16 //5.56x45mm_hp
+"weapon_upgrade_mk262_20i"					"U.S. Mk262 OTM 20i|5.56x45mm"
+"weapon_upgrade_mk262_20i_desc"			"弹点散布(数值越低越精确): 0.5\n伤害: 110 @ 1m -- 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.7 | PlyrMult: 1.65\n胸: 1.6 | PlyrMult: 1.65\n腹: 1.6 | PlyrMult: 1.35\n臂: 0.62 | PlyrMult: 0.9\n腿: 0.62 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 7.6m\于 228m距离 穿透 2.9m"
 
-//m249 //556x45_hp
-"weapon_upgrade_mk262_m249_20i"					"U.S. Mk262 OTM 20i|556x45"
-"weapon_upgrade_mk262_m249_20i_desc"			"Spread Frac(lower = accurate): 0.5\nDmg: 110 @ 1m to 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.7 | PlyrMult: 1.65\nCHEST: 1.6 | PlyrMult: 1.65\nSTOMACH: 1.6 | PlyrMult: 1.35\nARMS: 0.62 | PlyrMult: 0.9\nLEGS: 0.62 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 7.6m of wall\nTravel of 228m passes 2.9m of wall"
+//m249 //5.56x45mm_hp
+"weapon_upgrade_mk262_m249_20i"					"U.S. Mk262 OTM 20i|5.56x45mm"
+"weapon_upgrade_mk262_m249_20i_desc"			"弹点散布(数值越低越精确): 0.5\n伤害: 110 @ 1m -- 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.7 | PlyrMult: 1.65\n胸: 1.6 | PlyrMult: 1.65\n腹: 1.6 | PlyrMult: 1.35\n臂: 0.62 | PlyrMult: 0.9\n腿: 0.62 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 7.6m\于 228m距离 穿透 2.9m"
 
-//mk46 //556x45_hp
-"weapon_upgrade_mk262_mk46_20i"					"U.S. Mk262 OTM 20i|556x45"
-"weapon_upgrade_mk262_mk46_20i_desc"			"Spread Frac(lower = accurate): 0.5\nDmg: 110 @ 1m to 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.7 | PlyrMult: 1.65\nCHEST: 1.6 | PlyrMult: 1.65\nSTOMACH: 1.6 | PlyrMult: 1.35\nARMS: 0.62 | PlyrMult: 0.9\nLEGS: 0.62 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 7.6m of wall\nTravel of 228m passes 2.9m of wall"
+//mk46 //5.56x45mm_hp
+"weapon_upgrade_mk262_mk46_20i"					"U.S. Mk262 OTM 20i|5.56x45mm"
+"weapon_upgrade_mk262_mk46_20i_desc"			"弹点散布(数值越低越精确): 0.5\n伤害: 110 @ 1m -- 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.7 | PlyrMult: 1.65\n胸: 1.6 | PlyrMult: 1.65\n腹: 1.6 | PlyrMult: 1.35\n臂: 0.62 | PlyrMult: 0.9\n腿: 0.62 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 7.6m\于 228m距离 穿透 2.9m"
 
-//m16 //556x45_ap
-"weapon_upgrade_m995"					"U.S. M995 AP|556x45"
-"weapon_upgrade_m995_desc"				"Spread Frac(lower = accurate): 1.5\nDmg: 110 @ 1m to 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.5 | PlyrMult: 1.65\nCHEST: 2.4 | PlyrMult: 1.65\nSTOMACH: 2.4 | PlyrMult: 1.35\nARMS: 0.22 | PlyrMult: 0.9\nLEGS: 0.22 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 7.6m of wall\nTravel of 228m passes 2.9m of wall"
+//m16 //5.56x45mm_ap
+"weapon_upgrade_m995"					"U.S. M995 AP|5.56x45mm"
+"weapon_upgrade_m995_desc"				"弹点散布(数值越低越精确): 1.5\n伤害: 110 @ 1m -- 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.5 | PlyrMult: 1.65\n胸: 2.4 | PlyrMult: 1.65\n腹: 2.4 | PlyrMult: 1.35\n臂: 0.22 | PlyrMult: 0.9\n腿: 0.22 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 7.6m\于 228m距离 穿透 2.9m"
 
-//m249 //556x45_ap
-"weapon_upgrade_m249_m995"					"U.S. M995 AP|556x45"
-"weapon_upgrade_m249_m995_desc"				"Spread Frac(lower = accurate): 1.5\nDmg: 110 @ 1m to 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.5 | PlyrMult: 1.65\nCHEST: 2.4 | PlyrMult: 1.65\nSTOMACH: 2.4 | PlyrMult: 1.35\nARMS: 0.22 | PlyrMult: 0.9\nLEGS: 0.22 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 7.6m of wall\nTravel of 228m passes 2.9m of wall"
+//m249 //5.56x45mm_ap
+"weapon_upgrade_m249_m995"					"U.S. M995 AP|5.56x45mm"
+"weapon_upgrade_m249_m995_desc"				"弹点散布(数值越低越精确): 1.5\n伤害: 110 @ 1m -- 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.5 | PlyrMult: 1.65\n胸: 2.4 | PlyrMult: 1.65\n腹: 2.4 | PlyrMult: 1.35\n臂: 0.22 | PlyrMult: 0.9\n腿: 0.22 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 7.6m\于 228m距离 穿透 2.9m"
 
-//mk46 //556x45_ap
-"weapon_upgrade_mk46_m995"					"U.S. M995 AP|556x45"
-"weapon_upgrade_mk46_m995_desc"				"Spread Frac(lower = accurate): 1.5\nDmg: 110 @ 1m to 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.5 | PlyrMult: 1.65\nCHEST: 2.4 | PlyrMult: 1.65\nSTOMACH: 2.4 | PlyrMult: 1.35\nARMS: 0.22 | PlyrMult: 0.9\nLEGS: 0.22 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 7.6m of wall\nTravel of 228m passes 2.9m of wall"
+//mk46 //5.56x45mm_ap
+"weapon_upgrade_mk46_m995"					"U.S. M995 AP|5.56x45mm"
+"weapon_upgrade_mk46_m995_desc"				"弹点散布(数值越低越精确): 1.5\n伤害: 110 @ 1m -- 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.5 | PlyrMult: 1.65\n胸: 2.4 | PlyrMult: 1.65\n腹: 2.4 | PlyrMult: 1.35\n臂: 0.22 | PlyrMult: 0.9\n腿: 0.22 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 7.6m\于 228m距离 穿透 2.9m"
 
-//MK48 //762x51_ap
-"weapon_upgrade_mk48_m993_ap"				"I.L. M61 AP|762x51"
-"weapon_upgrade_mk48_m993_ap_desc"			"Spread Frac(lower = accurate): 0.88\nDmg: 160 @ 1m to 100 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.77 | PlyrMult: 1.65\nCHEST: 2.67 | PlyrMult: 1.65\nSTOMACH: 2.67 | PlyrMult: 1.35\nARMS: 0.38 | PlyrMult: 0.9\nLEGS: 0.38 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 28.5m of wall\nTravel of 381m passes 15m of wall"
+//MK48 //7.62x51mm_ap
+"weapon_upgrade_mk48_m993_ap"				"I.L. M61 AP|7.62x51mm"
+"weapon_upgrade_mk48_m993_ap_desc"			"弹点散布(数值越低越精确): 0.88\n伤害: 160 @ 1m -- 100 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.77 | PlyrMult: 1.65\n胸: 2.67 | PlyrMult: 1.65\n腹: 2.67 | PlyrMult: 1.35\n臂: 0.38 | PlyrMult: 0.9\n腿: 0.38 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 28.5m\n于 381m距离 穿透 15m"
 
-//MK48 //762x51_hp
-"weapon_upgrade_mk48_prvi_hp"					"PRVI 168gr OTM|762x51"
-"weapon_upgrade_mk48_prvi_hp_desc"				"Spread Frac(lower = accurate): 0.75\nDmg: 160 @ 1m to 100 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.07 | PlyrMult: 1.65\nCHEST: 1.97 | PlyrMult: 1.65\nSTOMACH: 1.97 | PlyrMult: 1.35\nARMS: 0.78 | PlyrMult: 0.9\nLEGS: 0.78 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 7.6m of wall\nTravel of 228m passes 3.8m of wall"
-
-
-//Mk18, m4a1 //556x45_car_hp
-"weapon_upgrade_mk262_10i"					"U.S. Mk262 OTM 10i|556x45_CAR"
-"weapon_upgrade_mk262_10i_desc"			"Spread Frac(lower = accurate): 0.5\nDmg: 85 @ 1m to 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.7 | PlyrMult: 1.65\nCHEST: 1.6 | PlyrMult: 1.65\nSTOMACH: 1.6 | PlyrMult: 1.35\nARMS: 0.62 | PlyrMult: 0.9\nLEGS: 0.62 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 7.6m of wall\nTravel of 228m passes 2.9m of wall"
-
-//mk18, m4a1 //556x45_car_ap
-"weapon_upgrade_m995_car"					"U.S. M995 AP CAR|556x45_CAR"
-"weapon_upgrade_m995_car_desc"				"Spread Frac(lower = accurate): 1.5\nDmg: 85 @ 1m to 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.5 | PlyrMult: 1.65\nCHEST: 2.4 | PlyrMult: 1.65\nSTOMACH: 2.4 | PlyrMult: 1.35\nARMS: 0.22 | PlyrMult: 0.9\nLEGS: 0.22 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 7.6m of wall\nTravel of 228m passes 2.9m of wall"
-
-//M16 //556x45_sost
-"weapon_upgrade_mk318_20i"					"U.S. Mk318 OTM 20i|556x45_SOST"
-"weapon_upgrade_mk318_20i_desc"			"Spread Frac(lower = accurate): 1.25\nDmg: 110 @ 1m to 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.5 | PlyrMult: 1.65\nCHEST: 1.4 | PlyrMult: 1.65\nSTOMACH: 1.4 | PlyrMult: 1.35\nARMS: 0.72 | PlyrMult: 0.9\nLEGS: 0.72 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 18m of wall\nTravel of 228m passes 5.7m of wall"
-
-//m249 //556x45_sost
-"weapon_upgrade_mk318_m249_20i"					"U.S. Mk318 OTM 20i|556x45_SOST"
-"weapon_upgrade_mk318_m249_20i_desc"			"Spread Frac(lower = accurate): 1.25\nDmg: 110 @ 1m to 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.5 | PlyrMult: 1.65\nCHEST: 1.4 | PlyrMult: 1.65\nSTOMACH: 1.4 | PlyrMult: 1.35\nARMS: 0.72 | PlyrMult: 0.9\nLEGS: 0.72 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 18m of wall\nTravel of 228m passes 5.7m of wall"
-
-//Mk18 //556x45_sost_mk18
-"weapon_upgrade_mk318_10i"					"U.S. Mk318 OTM 10i|556x45_SOST"
-"weapon_upgrade_mk318_10i_desc"			"Spread Frac(lower = accurate): 1.25\nDmg: 100 @ 1m to 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.47 | PlyrMult: 1.65\nCHEST: 1.37 | PlyrMult: 1.65\nSTOMACH: 1.37 | PlyrMult: 1.35\nARMS: 0.75 | PlyrMult: 0.9\nLEGS: 0.75 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 19m of wall\nTravel of 228m passes 4.7m of wall"
+//MK48 //7.62x51mm_hp
+"weapon_upgrade_mk48_prvi_hp"					"PRVI 168gr OTM|7.62x51mm"
+"weapon_upgrade_mk48_prvi_hp_desc"				"弹点散布(数值越低越精确): 0.75\n伤害: 160 @ 1m -- 100 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.07 | PlyrMult: 1.65\n胸: 1.97 | PlyrMult: 1.65\n腹: 1.97 | PlyrMult: 1.35\n臂: 0.78 | PlyrMult: 0.9\n腿: 0.78 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 7.6m\n于 228m距离 穿透 3.8m"
 
 
-//mini14 //556x45_ap_13i
-"weapon_upgrade_m995_13i"					"U.S. M995 AP 13i|556x45"
-"weapon_upgrade_m995_13i_desc"				"Spread Frac(lower = accurate): 1.5\nDmg: 100 @ 1m to 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.5 | PlyrMult: 1.65\nCHEST: 2.4 | PlyrMult: 1.65\nSTOMACH: 2.4 | PlyrMult: 1.35\nARMS: 0.22 | PlyrMult: 0.9\nLEGS: 0.22 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 7.6m of wall\nTravel of 228m passes 2.9m of wall"
+//Mk18, m4a1 //5.56x45mm_car_hp
+"weapon_upgrade_mk262_10i"					"U.S. Mk262 OTM 10i|5.56x45mm_CAR"
+"weapon_upgrade_mk262_10i_desc"			"弹点散布(数值越低越精确): 0.5\n伤害: 85 @ 1m -- 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.7 | PlyrMult: 1.65\n胸: 1.6 | PlyrMult: 1.65\n腹: 1.6 | PlyrMult: 1.35\n臂: 0.62 | PlyrMult: 0.9\n腿: 0.62 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 7.6m\于 228m距离 穿透 2.9m"
+
+//mk18, m4a1 //5.56x45mm_car_ap
+"weapon_upgrade_m995_car"					"U.S. M995 AP CAR|5.56x45mm_CAR"
+"weapon_upgrade_m995_car_desc"				"弹点散布(数值越低越精确): 1.5\n伤害: 85 @ 1m -- 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.5 | PlyrMult: 1.65\n胸: 2.4 | PlyrMult: 1.65\n腹: 2.4 | PlyrMult: 1.35\n臂: 0.22 | PlyrMult: 0.9\n腿: 0.22 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 7.6m\于 228m距离 穿透 2.9m"
+
+//M16 //5.56x45mm_sost
+"weapon_upgrade_mk318_20i"					"U.S. Mk318 OTM 20i|5.56x45mm_SOST"
+"weapon_upgrade_mk318_20i_desc"			"弹点散布(数值越低越精确): 1.25\n伤害: 110 @ 1m -- 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.5 | PlyrMult: 1.65\n胸: 1.4 | PlyrMult: 1.65\n腹: 1.4 | PlyrMult: 1.35\n臂: 0.72 | PlyrMult: 0.9\n腿: 0.72 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 18m\n于 228m距离 穿透 5.7m"
+
+//m249 //5.56x45mm_sost
+"weapon_upgrade_mk318_m249_20i"					"U.S. Mk318 OTM 20i|5.56x45mm_SOST"
+"weapon_upgrade_mk318_m249_20i_desc"			"弹点散布(数值越低越精确): 1.25\n伤害: 110 @ 1m -- 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.5 | PlyrMult: 1.65\n胸: 1.4 | PlyrMult: 1.65\n腹: 1.4 | PlyrMult: 1.35\n臂: 0.72 | PlyrMult: 0.9\n腿: 0.72 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 18m\n于 228m距离 穿透 5.7m"
+
+//Mk18 //5.56x45mm_sost_mk18
+"weapon_upgrade_mk318_10i"					"U.S. Mk318 OTM 10i|5.56x45mm_SOST"
+"weapon_upgrade_mk318_10i_desc"			"弹点散布(数值越低越精确): 1.25\n伤害: 100 @ 1m -- 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.47 | PlyrMult: 1.65\n胸: 1.37 | PlyrMult: 1.65\n腹: 1.37 | PlyrMult: 1.35\n臂: 0.75 | PlyrMult: 0.9\n腿: 0.75 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 19m\n于 228m距离 穿透 4.7m"
 
 
-//mini14 //556x45_hp_13i
-"weapon_upgrade_mk262_13i"					"U.S. Mk262 OTM 13i|556x45"
-"weapon_upgrade_mk262_13i_desc"			"Spread Frac(lower = accurate): 0.5\nDmg: 100 @ 1m to 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.7 | PlyrMult: 1.65\nCHEST: 1.6 | PlyrMult: 1.65\nSTOMACH: 1.6 | PlyrMult: 1.35\nARMS: 0.62 | PlyrMult: 0.9\nLEGS: 0.62 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 7.6m of wall\nTravel of 228m passes 2.9m of wall"
+//mini14 //5.56x45mm_ap_13i
+"weapon_upgrade_m995_13i"					"U.S. M995 AP 13i|5.56x45mm"
+"weapon_upgrade_m995_13i_desc"				"弹点散布(数值越低越精确): 1.5\n伤害: 100 @ 1m -- 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.5 | PlyrMult: 1.65\n胸: 2.4 | PlyrMult: 1.65\n腹: 2.4 | PlyrMult: 1.35\n臂: 0.22 | PlyrMult: 0.9\n腿: 0.22 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 7.6m\于 228m距离 穿透 2.9m"
 
-//Mini14 //556x45_sost_13i
-"weapon_upgrade_mk318_13i"					"U.S. Mk318 OTM 13i|556x45"
-"weapon_upgrade_mk318_13i_desc"			"Spread Frac(lower = accurate): 1.25\nDmg: 110 @ 1m to 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.5 | PlyrMult: 1.65\nCHEST: 1.4 | PlyrMult: 1.65\nSTOMACH: 1.4 | PlyrMult: 1.35\nARMS: 0.72 | PlyrMult: 0.9\nLEGS: 0.72 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 18m of wall\nTravel of 228m passes 5.7m of wall"
 
-//m14 //762x51_ap
-"weapon_upgrade_m993"					"U.S. M993 AP|762x51"
-"weapon_upgrade_m993_desc"				"Spread Frac(lower = accurate): 0.88\nDmg: 160 @ 1m to 100 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.77 | PlyrMult: 1.65\nCHEST: 2.67 | PlyrMult: 1.65\nSTOMACH: 2.67 | PlyrMult: 1.35\nARMS: 0.38 | PlyrMult: 0.9\nLEGS: 0.38 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 28.5m of wall\nTravel of 381m passes 15m of wall"
+//mini14 //5.56x45mm_hp_13i
+"weapon_upgrade_mk262_13i"					"U.S. Mk262 OTM 13i|5.56x45mm"
+"weapon_upgrade_mk262_13i_desc"			"弹点散布(数值越低越精确): 0.5\n伤害: 100 @ 1m -- 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.7 | PlyrMult: 1.65\n胸: 1.6 | PlyrMult: 1.65\n腹: 1.6 | PlyrMult: 1.35\n臂: 0.62 | PlyrMult: 0.9\n腿: 0.62 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 7.6m\于 228m距离 穿透 2.9m"
 
-//Fal //762x51_ap
-"weapon_upgrade_m993_ins"				"I.L. M61 AP|762x51"
-"weapon_upgrade_m993_ins_desc"			"Spread Frac(lower = accurate): 0.88\nDmg: 160 @ 1m to 100 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.77 | PlyrMult: 1.65\nCHEST: 2.67 | PlyrMult: 1.65\nSTOMACH: 2.67 | PlyrMult: 1.35\nARMS: 0.38 | PlyrMult: 0.9\nLEGS: 0.38 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 28.5m of wall\nTravel of 381m passes 15m of wall"
+//Mini14 //5.56x45mm_sost_13i
+"weapon_upgrade_mk318_13i"					"U.S. Mk318 OTM 13i|5.56x45mm"
+"weapon_upgrade_mk318_13i_desc"			"弹点散布(数值越低越精确): 1.25\n伤害: 110 @ 1m -- 46 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.5 | PlyrMult: 1.65\n胸: 1.4 | PlyrMult: 1.65\n腹: 1.4 | PlyrMult: 1.35\n臂: 0.72 | PlyrMult: 0.9\n腿: 0.72 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 18m\n于 228m距离 穿透 5.7m"
 
-//fal //762x51_hp
-"weapon_upgrade_prvi"					"PRVI 168gr OTM|762x51"
-"weapon_upgrade_prvi_desc"				"Spread Frac(lower = accurate): 0.75\nDmg: 160 @ 1m to 100 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.07 | PlyrMult: 1.65\nCHEST: 1.97 | PlyrMult: 1.65\nSTOMACH: 1.97 | PlyrMult: 1.35\nARMS: 0.78 | PlyrMult: 0.9\nLEGS: 0.78 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 7.6m of wall\nTravel of 228m passes 3.8m of wall"
+//m14 //7.62x51mm_ap
+"weapon_upgrade_m993"					"U.S. M993 AP|7.62x51mm"
+"weapon_upgrade_m993_desc"				"弹点散布(数值越低越精确): 0.88\n伤害: 160 @ 1m -- 100 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.77 | PlyrMult: 1.65\n胸: 2.67 | PlyrMult: 1.65\n腹: 2.67 | PlyrMult: 1.35\n臂: 0.38 | PlyrMult: 0.9\n腿: 0.38 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 28.5m\n于 381m距离 穿透 15m"
 
-//L1a1  //762x51_ap
-"weapon_upgrade_m993_l1_ins"				"I.L. M61 L1 AP|762x51"
-"weapon_upgrade_m993_l1_ins_desc"			"Spread Frac(lower = accurate): 0.88\nDmg: 160 @ 1m to 100 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.77 | PlyrMult: 1.65\nCHEST: 2.67 | PlyrMult: 1.65\nSTOMACH: 2.67 | PlyrMult: 1.35\nARMS: 0.38 | PlyrMult: 0.9\nLEGS: 0.38 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 28.5m of wall\nTravel of 381m passes 15m of wall"
+//Fal //7.62x51mm_ap
+"weapon_upgrade_m993_ins"				"I.L. M61 AP|7.62x51mm"
+"weapon_upgrade_m993_ins_desc"			"弹点散布(数值越低越精确): 0.88\n伤害: 160 @ 1m -- 100 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.77 | PlyrMult: 1.65\n胸: 2.67 | PlyrMult: 1.65\n腹: 2.67 | PlyrMult: 1.35\n臂: 0.38 | PlyrMult: 0.9\n腿: 0.38 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 28.5m\n于 381m距离 穿透 15m"
 
-//l1a1 //762x51_hp
-"weapon_upgrade_prvi_l1"					"PRVI 168gr OTM|762x51"
-"weapon_upgrade_prvi_l1_desc"				"Spread Frac(lower = accurate): 0.75\nDmg: 160 @ 1m to 100 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.07 | PlyrMult: 1.65\nCHEST: 1.97 | PlyrMult: 1.65\nSTOMACH: 1.97 | PlyrMult: 1.35\nARMS: 0.78 | PlyrMult: 0.9\nLEGS: 0.78 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 7.6m of wall\nTravel of 228m passes 3.8m of wall"
+//fal //7.62x51mm_hp
+"weapon_upgrade_prvi"					"PRVI 168gr OTM|7.62x51mm"
+"weapon_upgrade_prvi_desc"				"弹点散布(数值越低越精确): 0.75\n伤害: 160 @ 1m -- 100 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.07 | PlyrMult: 1.65\n胸: 1.97 | PlyrMult: 1.65\n腹: 1.97 | PlyrMult: 1.35\n臂: 0.78 | PlyrMult: 0.9\n腿: 0.78 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 7.6m\n于 228m距离 穿透 3.8m"
 
-//m14 //762x51_hp_lr
-"weapon_upgrade_m118lr"					"U.S. M118LR OTM|762x51"
-"weapon_upgrade_m118lr_desc"			"Spread Frac(lower = accurate): 0.35\nDmg: 160 @ 1m to 100 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.97 | PlyrMult: 1.65\nCHEST: 1.87 | PlyrMult: 1.65\nSTOMACH: 1.87 | PlyrMult: 1.35\nARMS: 0.78 | PlyrMult: 0.9\nLEGS: 0.78 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 7.6m of wall\nTravel of 228m passes 3.8m of wall"
+//L1a1  //7.62x51mm_ap
+"weapon_upgrade_m993_l1_ins"				"I.L. M61 L1 AP|7.62x51mm"
+"weapon_upgrade_m993_l1_ins_desc"			"弹点散布(数值越低越精确): 0.88\n伤害: 160 @ 1m -- 100 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.77 | PlyrMult: 1.65\n胸: 2.67 | PlyrMult: 1.65\n腹: 2.67 | PlyrMult: 1.35\n臂: 0.38 | PlyrMult: 0.9\n腿: 0.38 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 28.5m\n于 381m距离 穿透 15m"
 
-//m14 //762x51_hp
-"weapon_upgrade_mk319"					"U.S. Mk319 OTM|762x51"
-"weapon_upgrade_mk319_desc"				"Spread Frac(lower = accurate): 0.75\nDmg: 160 @ 1m to 100 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.07 | PlyrMult: 1.65\nCHEST: 1.97 | PlyrMult: 1.65\nSTOMACH: 1.97 | PlyrMult: 1.35\nARMS: 0.78 | PlyrMult: 0.9\nLEGS: 0.78 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 7.6m of wall\nTravel of 228m passes 3.8m of wall"
+//l1a1 //7.62x51mm_hp
+"weapon_upgrade_prvi_l1"					"PRVI 168gr OTM|7.62x51mm"
+"weapon_upgrade_prvi_l1_desc"				"弹点散布(数值越低越精确): 0.75\n伤害: 160 @ 1m -- 100 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.07 | PlyrMult: 1.65\n胸: 1.97 | PlyrMult: 1.65\n腹: 1.97 | PlyrMult: 1.35\n臂: 0.78 | PlyrMult: 0.9\n腿: 0.78 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 7.6m\n于 228m距离 穿透 3.8m"
+
+//m14 //7.62x51mm_hp_lr
+"weapon_upgrade_m118lr"					"U.S. M118LR OTM|7.62x51mm"
+"weapon_upgrade_m118lr_desc"			"弹点散布(数值越低越精确): 0.35\n伤害: 160 @ 1m -- 100 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.97 | PlyrMult: 1.65\n胸: 1.87 | PlyrMult: 1.65\n腹: 1.87 | PlyrMult: 1.35\n臂: 0.78 | PlyrMult: 0.9\n腿: 0.78 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 7.6m\n于 228m距离 穿透 3.8m"
+
+//m14 //7.62x51mm_hp
+"weapon_upgrade_mk319"					"U.S. Mk319 OTM|7.62x51mm"
+"weapon_upgrade_mk319_desc"				"弹点散布(数值越低越精确): 0.75\n伤害: 160 @ 1m -- 100 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.07 | PlyrMult: 1.65\n胸: 1.97 | PlyrMult: 1.65\n腹: 1.97 | PlyrMult: 1.35\n臂: 0.78 | PlyrMult: 0.9\n腿: 0.78 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 7.6m\n于 228m距离 穿透 3.8m"
 
 //m107 //BMG_ap
 "weapon_upgrade_50bmg_ap"					"M903 SLAP|.50 BMG"
-"weapon_upgrade_50bmg_ap_desc"				"Spread Frac(lower = accurate): 0.42\nDmg: 405 @ 1m to 320 @ 762m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 8.4 | PlyrMult: 1.65\nCHEST: 8.3 | PlyrMult: 1.65\nSTOMACH: 8.3 | PlyrMult: 1.35\nARMS: 3.0 | PlyrMult: 0.9\nLEGS: 3.0 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 59m of wall\nTravel of 762m passes 40m of wall"
+"weapon_upgrade_50bmg_ap_desc"				"弹点散布(数值越低越精确): 0.42\n伤害: 405 @ 1m -- 320 @ 762m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 8.4 | PlyrMult: 1.65\n胸: 8.3 | PlyrMult: 1.65\n腹: 8.3 | PlyrMult: 1.35\n臂: 3.0 | PlyrMult: 0.9\n腿: 3.0 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 59m\n于 762m距离 穿透 40m"
 
 //m107 //BMG_hp
 "weapon_upgrade_50bmg_hp"					"M33 OTM|.50 BMG"
-"weapon_upgrade_50bmg_hp_desc"				"Spread Frac(lower = accurate): 0.12\nDmg: 405 @ 1m to 320 @ 762m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 7.5 | PlyrMult: 1.65\nCHEST: 7.4 | PlyrMult: 1.65\nSTOMACH: 7.4 | PlyrMult: 1.35\nARMS: 3.8 | PlyrMult: 0.9\nLEGS: 3.8 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 38m of wall\nTravel of 762m passes 28.6m of wall"
+"weapon_upgrade_50bmg_hp_desc"				"弹点散布(数值越低越精确): 0.12\n伤害: 405 @ 1m -- 320 @ 762m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 7.5 | PlyrMult: 1.65\n胸: 7.4 | PlyrMult: 1.65\n腹: 7.4 | PlyrMult: 1.35\n臂: 3.8 | PlyrMult: 0.9\n腿: 3.8 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 38m\n于 762m距离 穿透 28.6m"
 
-//m40a1 //762x51mm_hp
-"weapon_upgrade_mk316_mod"					"U.S. Mk316 MOD OTM|762x51mm"
-"weapon_upgrade_mk316_mod_desc"				"Spread Frac(lower = accurate): 0.28\nDmg: 200 @ 1m to 120 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 5.5 | PlyrMult: 1.65\nCHEST: 5.4 | PlyrMult: 1.65\nSTOMACH: 5.4 | PlyrMult: 1.35\nARMS: 1.8 | PlyrMult: 0.9\nLEGS: 1.8 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 19m of wall\nTravel of 381m passes 9.5m of wall"
+//m40a1 //7.62x51mmmm_hp
+"weapon_upgrade_mk316_mod"					"U.S. Mk316 MOD OTM|7.62x51mm"
+"weapon_upgrade_mk316_mod_desc"				"弹点散布(数值越低越精确): 0.28\n伤害: 200 @ 1m -- 120 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 5.5 | PlyrMult: 1.65\n胸: 5.4 | PlyrMult: 1.65\n腹: 5.4 | PlyrMult: 1.35\n臂: 1.8 | PlyrMult: 0.9\n腿: 1.8 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 19m\n于 381m距离 穿透 9.5m"
 
-//m40a1 //762x51mm_ap
-"weapon_upgrade_m993_bolt"					"U.S. M993 AP|762x51mm"
-"weapon_upgrade_m993_bolt_desc"				"Spread Frac(lower = accurate): 0.88\nDmg: 200 @ 1m to 120 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 6.4 | PlyrMult: 1.65\nCHEST: 6.3 | PlyrMult: 1.65\nSTOMACH: 6.3 | PlyrMult: 1.35\nARMS: 1.00 | PlyrMult: 0.9\nLEGS: 1.00 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 40m of wall\nTravel of 381m passes 20.1m of wall"
-
-
-//akm, sks //762x39_lc
-"weapon_upgrade_m67"					"Yugo M67 FMJ|762x39_LC"
-"weapon_upgrade_m67_desc"				"Spread Frac(lower = accurate): 0.83\nDmg: 110 @ 1m to 71 @ 240m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.07 | PlyrMult: 1.65\nCHEST: 1.97 | PlyrMult: 1.65\nSTOMACH: 1.97 | PlyrMult: 1.35\nARMS: 0.78 | PlyrMult: 0.9\nLEGS: 0.78 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 18.1m of wall\nTravel of 228m passes 8.5m of wall"
-
-//akm, vz58, sks //762x39_AP
-"weapon_upgrade_7n23"					"R.U. 7N23 AP|762x39"
-"weapon_upgrade_7n23_desc"				"Spread Frac(lower = accurate): 0.88\nDmg: 110 @ 1m to 85 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.67 | PlyrMult: 1.65\nCHEST: 2.57 | PlyrMult: 1.65\nSTOMACH: 2.57 | PlyrMult: 1.35\nARMS: 0.38 | PlyrMult: 0.9\nLEGS: 0.38 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 19m of wall\nTravel of 228m passes 9.5m of wall"
-
-//akm, vz58, sks //762x39_HP
-"weapon_upgrade_8m3"					"Saspan 8M3 JHP|762x39"
-"weapon_upgrade_8m3_desc"				"Spread Frac(lower = accurate): 0.67\nDmg: 110 @ 1m to 85 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.97 | PlyrMult: 1.65\nCHEST: 1.87 | PlyrMult: 1.65\nSTOMACH: 1.87 | PlyrMult: 1.35\nARMS: 0.78 | PlyrMult: 0.9\nLEGS: 0.78 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 8.5m of wall\nTravel of 228m passes 4.8m of wall"
-
-//rpk //762x39_lc
-"weapon_upgrade_rpk_m67"					"Yugo M67 FMJ|762x39_LC"
-"weapon_upgrade_rpk_m67_desc"				"Spread Frac(lower = accurate): 0.83\nDmg: 100 @ 1m to 71 @ 240m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.07 | PlyrMult: 1.65\nCHEST: 1.97 | PlyrMult: 1.65\nSTOMACH: 1.97 | PlyrMult: 1.35\nARMS: 0.78 | PlyrMult: 0.9\nLEGS: 0.78 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 18.1m of wall\nTravel of 228m passes 8.5m of wall"
-
-//rpk //762x39_AP
-"weapon_upgrade_rpk_7n23"					"R.U. 7N23 AP|762x39"
-"weapon_upgrade_rpk_7n23_desc"				"Spread Frac(lower = accurate): 0.88\nDmg: 100 @ 1m to 85 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.67 | PlyrMult: 1.65\nCHEST: 2.57 | PlyrMult: 1.65\nSTOMACH: 2.57 | PlyrMult: 1.35\nARMS: 0.38 | PlyrMult: 0.9\nLEGS: 0.38 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 19m of wall\nTravel of 228m passes 9.5m of wall"
-
-//rpk //762x39_HP
-"weapon_upgrade_rpk_8m3"					"Saspan 8M3 JHP|762x39"
-"weapon_upgrade_rpk_8m3_desc"				"Spread Frac(lower = accurate): 0.67\nDmg: 100 @ 1m to 85 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.97 | PlyrMult: 1.65\nCHEST: 1.87 | PlyrMult: 1.65\nSTOMACH: 1.87 | PlyrMult: 1.35\nARMS: 0.78 | PlyrMult: 0.9\nLEGS: 0.78 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 8.5m of wall\nTravel of 228m passes 4.8m of wall"
+//m40a1 //7.62x51mmmm_ap
+"weapon_upgrade_m993_栓动"					"U.S. M993 AP|7.62x51mm"
+"weapon_upgrade_m993_栓动_desc"				"弹点散布(数值越低越精确): 0.88\n伤害: 200 @ 1m -- 120 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 6.4 | PlyrMult: 1.65\n胸: 6.3 | PlyrMult: 1.65\n腹: 6.3 | PlyrMult: 1.35\n臂: 1.00 | PlyrMult: 0.9\n腿: 1.00 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 40m\n于 381m距离 穿透 20.1m"
 
 
-//rpk74m //545x39_AP
-"weapon_upgrade_rpk74m_7n34"					"R.U. 7N34 AP|545x39"
-"weapon_upgrade_rpk74m_7n34_desc"				"Spread Frac(lower = accurate): 0.88\nDmg: 85 @ 1m to 85 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.35 | PlyrMult: 1.65\nCHEST: 2.25 | PlyrMult: 1.65\nSTOMACH: 2.25 | PlyrMult: 1.35\nARMS: 0.32 | PlyrMult: 0.9\nLEGS: 0.32 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 9.5m of wall\nTravel of 152m passes 4.8m of wall"
+//akm, sks //7.62x39mm_lc
+"weapon_upgrade_m67"					"Yugo M67 FMJ|7.62x39mm_LC"
+"weapon_upgrade_m67_desc"				"弹点散布(数值越低越精确): 0.83\n伤害: 110 @ 1m -- 71 @ 240m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.07 | PlyrMult: 1.65\n胸: 1.97 | PlyrMult: 1.65\n腹: 1.97 | PlyrMult: 1.35\n臂: 0.78 | PlyrMult: 0.9\n腿: 0.78 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 18.1m\n于 228m距离 穿透 8.5m"
 
-//rpk74m //545x39_HP
-"weapon_upgrade_rpk74m_545sp"					"Barnaul 55gr JSP|545x39"
-"weapon_upgrade_rpk74m_545sp_desc"				"Spread Frac(lower = accurate): 0.7\nDmg: 85 @ 1m to 85 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.55 | PlyrMult: 1.65\nCHEST: 1.45 | PlyrMult: 1.65\nSTOMACH: 1.32 | PlyrMult: 1.35\nARMS: 0.72 | PlyrMult: 0.9\nLEGS: 0.72 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 3.8m of wall\nTravel of 152m passes 2.9m of wall"
+//akm, vz58, sks //7.62x39mm_AP
+"weapon_upgrade_7n23"					"R.U. 7N23 AP|7.62x39mm"
+"weapon_upgrade_7n23_desc"				"弹点散布(数值越低越精确): 0.88\n伤害: 110 @ 1m -- 85 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.67 | PlyrMult: 1.65\n胸: 2.57 | PlyrMult: 1.65\n腹: 2.57 | PlyrMult: 1.35\n臂: 0.38 | PlyrMult: 0.9\n腿: 0.38 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 19m\n于 228m距离 穿透 9.5m"
+
+//akm, vz58, sks //7.62x39mm_HP
+"weapon_upgrade_8m3"					"Saspan 8M3 JHP|7.62x39mm"
+"weapon_upgrade_8m3_desc"				"弹点散布(数值越低越精确): 0.67\n伤害: 110 @ 1m -- 85 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.97 | PlyrMult: 1.65\n胸: 1.87 | PlyrMult: 1.65\n腹: 1.87 | PlyrMult: 1.35\n臂: 0.78 | PlyrMult: 0.9\n腿: 0.78 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 8.5m\n于 228m距离 穿透 4.8m"
+
+//rpk //7.62x39mm_lc
+"weapon_upgrade_rpk_m67"					"Yugo M67 FMJ|7.62x39mm_LC"
+"weapon_upgrade_rpk_m67_desc"				"弹点散布(数值越低越精确): 0.83\n伤害: 100 @ 1m -- 71 @ 240m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.07 | PlyrMult: 1.65\n胸: 1.97 | PlyrMult: 1.65\n腹: 1.97 | PlyrMult: 1.35\n臂: 0.78 | PlyrMult: 0.9\n腿: 0.78 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 18.1m\n于 228m距离 穿透 8.5m"
+
+//rpk //7.62x39mm_AP
+"weapon_upgrade_rpk_7n23"					"R.U. 7N23 AP|7.62x39mm"
+"weapon_upgrade_rpk_7n23_desc"				"弹点散布(数值越低越精确): 0.88\n伤害: 100 @ 1m -- 85 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.67 | PlyrMult: 1.65\n胸: 2.57 | PlyrMult: 1.65\n腹: 2.57 | PlyrMult: 1.35\n臂: 0.38 | PlyrMult: 0.9\n腿: 0.38 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 19m\n于 228m距离 穿透 9.5m"
+
+//rpk //7.62x39mm_HP
+"weapon_upgrade_rpk_8m3"					"Saspan 8M3 JHP|7.62x39mm"
+"weapon_upgrade_rpk_8m3_desc"				"弹点散布(数值越低越精确): 0.67\n伤害: 100 @ 1m -- 85 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.97 | PlyrMult: 1.65\n胸: 1.87 | PlyrMult: 1.65\n腹: 1.87 | PlyrMult: 1.35\n臂: 0.78 | PlyrMult: 0.9\n腿: 0.78 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 8.5m\n于 228m距离 穿透 4.8m"
 
 
-//ak74, aks74u //545x39_hp
-"weapon_upgrade_545sp"					"Barnaul 55gr JSP|545x39"
-"weapon_upgrade_545sp_desc"				"Spread Frac(lower = accurate): 0.7\nDmg: 85 @ 1m to 85 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.55 | PlyrMult: 1.65\nCHEST: 1.45 | PlyrMult: 1.65\nSTOMACH: 1.32 | PlyrMult: 1.35\nARMS: 0.72 | PlyrMult: 0.9\nLEGS: 0.72 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 3.8m of wall\nTravel of 152m passes 2.9m of wall"
+//rpk74m //5.45x39mm_AP
+"weapon_upgrade_rpk74m_7n34"					"R.U. 7N34 AP|5.45x39mm"
+"weapon_upgrade_rpk74m_7n34_desc"				"弹点散布(数值越低越精确): 0.88\n伤害: 85 @ 1m -- 85 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.35 | PlyrMult: 1.65\n胸: 2.25 | PlyrMult: 1.65\n腹: 2.25 | PlyrMult: 1.35\n臂: 0.32 | PlyrMult: 0.9\n腿: 0.32 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 9.5m\n于 152m距离 穿透 4.8m"
 
-//ak74, aks74u //545x39_ap
-"weapon_upgrade_7n34"					"R.U. 7N34 AP|545x39"
-"weapon_upgrade_7n34_desc"				"Spread Frac(lower = accurate): 0.88\nDmg: 85 @ 1m to 85 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.35 | PlyrMult: 1.65\nCHEST: 2.25 | PlyrMult: 1.65\nSTOMACH: 2.25 | PlyrMult: 1.35\nARMS: 0.32 | PlyrMult: 0.9\nLEGS: 0.32 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 9.5m of wall\nTravel of 152m passes 4.8m of wall"
+//rpk74m //5.45x39mm_HP
+"weapon_upgrade_rpk74m_545sp"					"Barnaul 55gr JSP|5.45x39mm"
+"weapon_upgrade_rpk74m_545sp_desc"				"弹点散布(数值越低越精确): 0.7\n伤害: 85 @ 1m -- 85 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.55 | PlyrMult: 1.65\n胸: 1.45 | PlyrMult: 1.65\n腹: 1.32 | PlyrMult: 1.35\n臂: 0.72 | PlyrMult: 0.9\n腿: 0.72 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 3.8m\n于 152m距离 穿透 2.9m"
+
+
+//ak74, aks74u //5.45x39mm_hp
+"weapon_upgrade_545sp"					"Barnaul 55gr JSP|5.45x39mm"
+"weapon_upgrade_545sp_desc"				"弹点散布(数值越低越精确): 0.7\n伤害: 85 @ 1m -- 85 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.55 | PlyrMult: 1.65\n胸: 1.45 | PlyrMult: 1.65\n腹: 1.32 | PlyrMult: 1.35\n臂: 0.72 | PlyrMult: 0.9\n腿: 0.72 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 3.8m\n于 152m距离 穿透 2.9m"
+
+//ak74, aks74u //5.45x39mm_ap
+"weapon_upgrade_7n34"					"R.U. 7N34 AP|5.45x39mm"
+"weapon_upgrade_7n34_desc"				"弹点散布(数值越低越精确): 0.88\n伤害: 85 @ 1m -- 85 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.35 | PlyrMult: 1.65\n胸: 2.25 | PlyrMult: 1.65\n腹: 2.25 | PlyrMult: 1.35\n臂: 0.32 | PlyrMult: 0.9\n腿: 0.32 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 9.5m\n于 152m距离 穿透 4.8m"
 
 //Mosin //762x54mm_ap
 "weapon_upgrade_7N13"					"R.U. 7N13 AP|762x54mm"
-"weapon_upgrade_7N13_desc"				"Spread Frac(lower = accurate): 0.88\nDmg: 200 @ 1m to 120 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 6.4 | PlyrMult: 1.65\nCHEST: 6.3 | PlyrMult: 1.65\nSTOMACH: 6.3 | PlyrMult: 1.35\nARMS: 1.00 | PlyrMult: 0.9\nLEGS: 1.00 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 40m of wall\nTravel of 381m passes 20.1m of wall"
+"weapon_upgrade_7N13_desc"				"弹点散布(数值越低越精确): 0.88\n伤害: 200 @ 1m -- 120 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 6.4 | PlyrMult: 1.65\n胸: 6.3 | PlyrMult: 1.65\n腹: 6.3 | PlyrMult: 1.35\n臂: 1.00 | PlyrMult: 0.9\n腿: 1.00 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 40m\n于 381m距离 穿透 20.1m"
 
 //Mosin //762x54mm_sr
 "weapon_upgrade_7n14"					"R.U. 7N14 SR HP|762x54mm_SR"
-"weapon_upgrade_7n14_desc"				"Spread Frac(lower = accurate): 0.5\nDmg: 185 @ 1m to 125 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 5.7 | PlyrMult: 1.65\nCHEST: 5.6 | PlyrMult: 1.65\nSTOMACH: 5.6 | PlyrMult: 1.35\nARMS: 1.25 | PlyrMult: 0.9\nLEGS: 1.25 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 19m of wall\nTravel of 381m passes 11.4m of wall"
+"weapon_upgrade_7n14_desc"				"弹点散布(数值越低越精确): 0.5\n伤害: 185 @ 1m -- 125 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 5.7 | PlyrMult: 1.65\n胸: 5.6 | PlyrMult: 1.65\n腹: 5.6 | PlyrMult: 1.35\n臂: 1.25 | PlyrMult: 0.9\n腿: 1.25 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 19m\n于 381m距离 穿透 11.4m"
 
 //Mosin //762x54mm_hp
 "weapon_upgrade_cz148"					"C.Z. 148gr FMJ|762x54mm"
-"weapon_upgrade_cz148_desc"				"Spread Frac(lower = accurate): 0.28\nDmg: 200 @ 1m to 120 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 5.5 | PlyrMult: 1.65\nCHEST: 5.4 | PlyrMult: 1.65\nSTOMACH: 5.4 | PlyrMult: 1.35\nARMS: 1.8 | PlyrMult: 0.9\nLEGS: 1.8 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 19m of wall\nTravel of 381m passes 9.5m of wall"
+"weapon_upgrade_cz148_desc"				"弹点散布(数值越低越精确): 0.28\n伤害: 200 @ 1m -- 120 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 5.5 | PlyrMult: 1.65\n胸: 5.4 | PlyrMult: 1.65\n腹: 5.4 | PlyrMult: 1.35\n臂: 1.8 | PlyrMult: 0.9\n腿: 1.8 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 19m\n于 381m距离 穿透 9.5m"
 
 //SVD //762x54mm_ap
 "weapon_upgrade_7N13_svd"					"R.U. 7N13 AP|762x54mm"
-"weapon_upgrade_7N13_svd_desc"				"Spread Frac(lower = accurate): 0.88\nDmg: 200 @ 1m to 120 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 6.4 | PlyrMult: 1.65\nCHEST: 6.3 | PlyrMult: 1.65\nSTOMACH: 6.3 | PlyrMult: 1.35\nARMS: 1.00 | PlyrMult: 0.9\nLEGS: 1.00 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 40m of wall\nTravel of 381m passes 20.1m of wall"
+"weapon_upgrade_7N13_svd_desc"				"弹点散布(数值越低越精确): 0.88\n伤害: 200 @ 1m -- 120 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 6.4 | PlyrMult: 1.65\n胸: 6.3 | PlyrMult: 1.65\n腹: 6.3 | PlyrMult: 1.35\n臂: 1.00 | PlyrMult: 0.9\n腿: 1.00 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 40m\n于 381m距离 穿透 20.1m"
 
 //SVD //762x54mm_sr
 "weapon_upgrade_7n14_svd"					"R.U. 7N14 SR HP|762x54mm_SR"
-"weapon_upgrade_7n14_svd_desc"				"Spread Frac(lower = accurate): 0.5\nDmg: 185 @ 1m to 125 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 5.7 | PlyrMult: 1.65\nCHEST: 5.6 | PlyrMult: 1.65\nSTOMACH: 5.6 | PlyrMult: 1.35\nARMS: 1.25 | PlyrMult: 0.9\nLEGS: 1.25 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 19m of wall\nTravel of 381m passes 11.4m of wall"
+"weapon_upgrade_7n14_svd_desc"				"弹点散布(数值越低越精确): 0.5\n伤害: 185 @ 1m -- 125 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 5.7 | PlyrMult: 1.65\n胸: 5.6 | PlyrMult: 1.65\n腹: 5.6 | PlyrMult: 1.35\n臂: 1.25 | PlyrMult: 0.9\n腿: 1.25 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 19m\n于 381m距离 穿透 11.4m"
 
 //SVD //762x54mm_hp
 "weapon_upgrade_cz148_svd"					"C.Z. 148gr FMJ|762x54mm"
-"weapon_upgrade_cz148_svd_desc"				"Spread Frac(lower = accurate): 0.28\nDmg: 200 @ 1m to 120 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 5.5 | PlyrMult: 1.65\nCHEST: 5.4 | PlyrMult: 1.65\nSTOMACH: 5.4 | PlyrMult: 1.35\nARMS: 1.8 | PlyrMult: 0.9\nLEGS: 1.8 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 19m of wall\nTravel of 381m passes 9.5m of wall"
+"weapon_upgrade_cz148_svd_desc"				"弹点散布(数值越低越精确): 0.28\n伤害: 200 @ 1m -- 120 @ 381m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 5.5 | PlyrMult: 1.65\n胸: 5.4 | PlyrMult: 1.65\n腹: 5.4 | PlyrMult: 1.35\n臂: 1.8 | PlyrMult: 0.9\n腿: 1.8 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 19m\n于 381m距离 穿透 9.5m"
 
 
 //mp5, mp40 //9x19_ap
 "weapon_upgrade_smg_9vbr"					"VBR 6.3mm AP|9x19"
-"weapon_upgrade_smg_9vbr_desc"				"Spread Frac(lower = accurate): 0.0\nDmg: 80 @ 1m to 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.45 | PlyrMult: 1.65\nCHEST: 1.35 | PlyrMult: 1.65\nSTOMACH: 1.35 | PlyrMult: 1.35\nARMS: 0.45 | PlyrMult: 0.9\nLEGS: 0.45 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 10m of wall\nTravel of 152m passes 3.8m of wall"
+"weapon_upgrade_smg_9vbr_desc"				"弹点散布(数值越低越精确): 0.0\n伤害: 80 @ 1m -- 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.45 | PlyrMult: 1.65\n胸: 1.35 | PlyrMult: 1.65\n腹: 1.35 | PlyrMult: 1.35\n臂: 0.45 | PlyrMult: 0.9\n腿: 0.45 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 10m\n于 152m距离 穿透 3.8m"
 
 //mp5, mp40 //9x19_hp
 "weapon_upgrade_smg_9mmhp"					"147gr JHP|9x19"
-"weapon_upgrade_smg_9mmhp_desc"				"Spread Frac(lower = accurate): 0.0\nDmg: 80 @ 1m to 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.05 | PlyrMult: 1.65\nCHEST: 0.95 | PlyrMult: 1.65\nSTOMACH: 0.95 | PlyrMult: 1.35\nARMS: 0.65 | PlyrMult: 0.9\nLEGS: 0.65 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 3.3m of wall\nTravel of 152m passes 1.4m of wall"
+"weapon_upgrade_smg_9mmhp_desc"				"弹点散布(数值越低越精确): 0.0\n伤害: 80 @ 1m -- 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.05 | PlyrMult: 1.65\n胸: 0.95 | PlyrMult: 1.65\n腹: 0.95 | PlyrMult: 1.35\n臂: 0.65 | PlyrMult: 0.9\n腿: 0.65 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 3.3m\n于 152m距离 穿透 1.4m"
 
 //M9, m93r, makarov //9x19_ap
 "weapon_upgrade_9vbr"					"VBR 6.3mm AP|9x19"
-"weapon_upgrade_9vbr_desc"				"Spread Frac(lower = accurate): 0.0\nDmg: 80 @ 1m to 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.45 | PlyrMult: 1.65\nCHEST: 1.35 | PlyrMult: 1.65\nSTOMACH: 1.35 | PlyrMult: 1.35\nARMS: 0.45 | PlyrMult: 0.9\nLEGS: 0.45 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 10m of wall\nTravel of 152m passes 3.8m of wall"
+"weapon_upgrade_9vbr_desc"				"弹点散布(数值越低越精确): 0.0\n伤害: 80 @ 1m -- 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.45 | PlyrMult: 1.65\n胸: 1.35 | PlyrMult: 1.65\n腹: 1.35 | PlyrMult: 1.35\n臂: 0.45 | PlyrMult: 0.9\n腿: 0.45 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 10m\n于 152m距离 穿透 3.8m"
 
 //M9, m93r, makarov //9x19_hp
 "weapon_upgrade_9mmhp"					"147gr JHP|9x19"
-"weapon_upgrade_9mmhp_desc"				"Spread Frac(lower = accurate): 0.0\nDmg: 80 @ 1m to 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.05 | PlyrMult: 1.65\nCHEST: 0.95 | PlyrMult: 1.65\nSTOMACH: 0.95 | PlyrMult: 1.35\nARMS: 0.65 | PlyrMult: 0.9\nLEGS: 0.65 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 3.3m of wall\nTravel of 152m passes 1.4m of wall"
+"weapon_upgrade_9mmhp_desc"				"弹点散布(数值越低越精确): 0.0\n伤害: 80 @ 1m -- 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.05 | PlyrMult: 1.65\n胸: 0.95 | PlyrMult: 1.65\n腹: 0.95 | PlyrMult: 1.35\n臂: 0.65 | PlyrMult: 0.9\n腿: 0.65 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 3.3m\n于 152m距离 穿透 1.4m"
 
 //makarov //9x19_ap
 "weapon_upgrade_mak_9vbr"					"VBR 6.3mm AP|9x19"
-"weapon_upgrade_mak_9vbr_desc"				"Spread Frac(lower = accurate): 0.0\nDmg: 80 @ 1m to 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.45 | PlyrMult: 1.65\nCHEST: 1.35 | PlyrMult: 1.65\nSTOMACH: 1.35 | PlyrMult: 1.35\nARMS: 0.45 | PlyrMult: 0.9\nLEGS: 0.45 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 10m of wall\nTravel of 152m passes 3.8m of wall"
+"weapon_upgrade_mak_9vbr_desc"				"弹点散布(数值越低越精确): 0.0\n伤害: 80 @ 1m -- 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.45 | PlyrMult: 1.65\n胸: 1.35 | PlyrMult: 1.65\n腹: 1.35 | PlyrMult: 1.35\n臂: 0.45 | PlyrMult: 0.9\n腿: 0.45 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 10m\n于 152m距离 穿透 3.8m"
 
 //makarov //9x19_hp
 "weapon_upgrade_mak_9mmhp"					"147gr JHP|9x19"
-"weapon_upgrade_mak_9mmhp_desc"				"Spread Frac(lower = accurate): 0.0\nDmg: 80 @ 1m to 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.05 | PlyrMult: 1.65\nCHEST: 0.95 | PlyrMult: 1.65\nSTOMACH: 0.95 | PlyrMult: 1.35\nARMS: 0.65 | PlyrMult: 0.9\nLEGS: 0.65 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 3.3m of wall\nTravel of 152m passes 1.4m of wall"
+"weapon_upgrade_mak_9mmhp_desc"				"弹点散布(数值越低越精确): 0.0\n伤害: 80 @ 1m -- 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.05 | PlyrMult: 1.65\n胸: 0.95 | PlyrMult: 1.65\n腹: 0.95 | PlyrMult: 1.35\n臂: 0.65 | PlyrMult: 0.9\n腿: 0.65 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 3.3m\n于 152m距离 穿透 1.4m"
 
 //model10 revovlver //38special_ap
 "weapon_upgrade_m10_38_ap"					".38 Long Colt AP|38special"
-"weapon_upgrade_m10_38_ap_desc"				"Spread Frac(lower = accurate): 0.0\nDmg: 135 @ 1m to 102 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.8 | PlyrMult: 1.65\nCHEST: 1.7 | PlyrMult: 1.65\nSTOMACH: 1.7 | PlyrMult: 1.35\nARMS: 0.5 | PlyrMult: 0.9\nLEGS: 0.5 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 11.3m of wall\nTravel of 152m passes 6.6m of wall"
+"weapon_upgrade_m10_38_ap_desc"				"弹点散布(数值越低越精确): 0.0\n伤害: 135 @ 1m -- 102 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.8 | PlyrMult: 1.65\n胸: 1.7 | PlyrMult: 1.65\n腹: 1.7 | PlyrMult: 1.35\n臂: 0.5 | PlyrMult: 0.9\n腿: 0.5 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 11.3m\n于 152m距离 穿透 6.6m"
 
 
 //model10 revovlver //38special_hp
 "weapon_upgrade_m10_38_hp"					".38 Long Colt HP|38special"
-"weapon_upgrade_m10_38_hp_desc"				"Spread Frac(lower = accurate): 0.0\nDmg: 135 @ 1m to 102 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.3 | PlyrMult: 1.65\nCHEST: 1.2 | PlyrMult: 1.65\nSTOMACH: 1.2 | PlyrMult: 1.35\nARMS: 1.1 | PlyrMult: 0.9\nLEGS: 1.1 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 5.7m of wall\nTravel of 152m passes 4.2m of wall"
+"weapon_upgrade_m10_38_hp_desc"				"弹点散布(数值越低越精确): 0.0\n伤害: 135 @ 1m -- 102 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.3 | PlyrMult: 1.65\n胸: 1.2 | PlyrMult: 1.65\n腹: 1.2 | PlyrMult: 1.35\n臂: 1.1 | PlyrMult: 0.9\n腿: 1.1 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 5.7m\n于 152m距离 穿透 4.2m"
 
 //mr96 revovlver //357_ap
 "weapon_upgrade_mr96_357_ap"					".357 SW AP|357"
-"weapon_upgrade_mr96_357_ap_desc"				"Spread Frac(lower = accurate): 0.0\nDmg: 145 @ 1m to 112 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.1 | PlyrMult: 1.65\nCHEST: 2.0 | PlyrMult: 1.65\nSTOMACH: 2.0 | PlyrMult: 1.35\nARMS: 0.8 | PlyrMult: 0.9\nLEGS: 0.8 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 13.3m of wall\nTravel of 152m passes 8.5m of wall"
+"weapon_upgrade_mr96_357_ap_desc"				"弹点散布(数值越低越精确): 0.0\n伤害: 145 @ 1m -- 112 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.1 | PlyrMult: 1.65\n胸: 2.0 | PlyrMult: 1.65\n腹: 2.0 | PlyrMult: 1.35\n臂: 0.8 | PlyrMult: 0.9\n腿: 0.8 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 13.3m\n于 152m距离 穿透 8.5m"
 
 
 //mr96 revovlver //357_hp
 "weapon_upgrade_mr96_357_hp"					".357 SW HP|357"
-"weapon_upgrade_mr96_357_hp_desc"				"Spread Frac(lower = accurate): 0.0\nDmg: 145 @ 1m to 112 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.0 | PlyrMult: 1.65\nCHEST: 0.9 | PlyrMult: 1.65\nSTOMACH: 0.9 | PlyrMult: 1.35\nARMS: 0.8 | PlyrMult: 0.9\nLEGS: 0.8 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 3.8m of wall\nTravel of 152m passes 2.3m of wall"
+"weapon_upgrade_mr96_357_hp_desc"				"弹点散布(数值越低越精确): 0.0\n伤害: 145 @ 1m -- 112 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.0 | PlyrMult: 1.65\n胸: 0.9 | PlyrMult: 1.65\n腹: 0.9 | PlyrMult: 1.35\n臂: 0.8 | PlyrMult: 0.9\n腿: 0.8 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 3.8m\n于 152m距离 穿透 2.3m"
 
 //deagle  //50ae_ap
 "weapon_upgrade_deagle_50ae_ap"					".50 AE AP|50_AE"
-"weapon_upgrade_deagle_50ae_ap_desc"				"Spread Frac(lower = accurate): 0.0\nDmg: 155 @ 1m to 122 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.1 | PlyrMult: 1.65\nCHEST: 2.0 | PlyrMult: 1.65\nSTOMACH: 2.0 | PlyrMult: 1.35\nARMS: 0.8 | PlyrMult: 0.9\nLEGS: 0.8 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 13.3m of wall\nTravel of 152m passes 8.5m of wall"
+"weapon_upgrade_deagle_50ae_ap_desc"				"弹点散布(数值越低越精确): 0.0\n伤害: 155 @ 1m -- 122 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.1 | PlyrMult: 1.65\n胸: 2.0 | PlyrMult: 1.65\n腹: 2.0 | PlyrMult: 1.35\n臂: 0.8 | PlyrMult: 0.9\n腿: 0.8 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 13.3m\n于 152m距离 穿透 8.5m"
 
 
 //deagle  //50ae_hp
 "weapon_upgrade_deagle_50ae_hp"					".50 AE HP|50_AE"
-"weapon_upgrade_deagle_50ae_hp_desc"				"Spread Frac(lower = accurate): 0.0\nDmg: 155 @ 1m to 122 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.0 | PlyrMult: 1.65\nCHEST: 0.9 | PlyrMult: 1.65\nSTOMACH: 0.9 | PlyrMult: 1.35\nARMS: 0.8 | PlyrMult: 0.9\nLEGS: 0.8 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 3.8m of wall\nTravel of 152m passes 2.3m of wall"
+"weapon_upgrade_deagle_50ae_hp_desc"				"弹点散布(数值越低越精确): 0.0\n伤害: 155 @ 1m -- 122 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.0 | PlyrMult: 1.65\n胸: 0.9 | PlyrMult: 1.65\n腹: 0.9 | PlyrMult: 1.35\n臂: 0.8 | PlyrMult: 0.9\n腿: 0.8 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 3.8m\n于 152m距离 穿透 2.3m"
 
 
  //m45 //45acp_ap_pistol
 "weapon_upgrade_45vbrP_ap"					"VBR-B .45 AP|45_ACP"
-"weapon_upgrade_45vbrP_ap_desc"				"Spread Frac(lower = accurate): 0.0\nDmg: 95 @ 1m to 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.7 | PlyrMult: 1.65\nCHEST: 1.6 | PlyrMult: 1.65\nSTOMACH: 1.6 | PlyrMult: 1.35\nARMS: 0.4 | PlyrMult: 0.9\nLEGS: 0.4 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 10.4m of wall\nTravel of 152m passes 5.7m of wall"
+"weapon_upgrade_45vbrP_ap_desc"				"弹点散布(数值越低越精确): 0.0\n伤害: 95 @ 1m -- 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.7 | PlyrMult: 1.65\n胸: 1.6 | PlyrMult: 1.65\n腹: 1.6 | PlyrMult: 1.35\n臂: 0.4 | PlyrMult: 0.9\n腿: 0.4 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 10.4m\n于 152m距离 穿透 5.7m"
 
 
 //m45 //45acp_hp_pistol
 "weapon_upgrade_45p_hp"					"230gr JHP|45_ACP"
-"weapon_upgrade_45p_hp_desc"				"Spread Frac(lower = accurate): 0.0\nDmg: 95 @ 1m to 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 0.90 | PlyrMult: 1.65\nCHEST: 0.8 | PlyrMult: 1.65\nSTOMACH: 0.8 | PlyrMult: 1.35\nARMS: 0.7 | PlyrMult: 0.9\nLEGS: 0.7 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 2.9m of wall\nTravel of 152m passes 1.4m of wall"
+"weapon_upgrade_45p_hp_desc"				"弹点散布(数值越低越精确): 0.0\n伤害: 95 @ 1m -- 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 0.90 | PlyrMult: 1.65\n胸: 0.8 | PlyrMult: 1.65\n腹: 0.8 | PlyrMult: 1.35\n臂: 0.7 | PlyrMult: 0.9\n腿: 0.7 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 2.9m\n于 152m距离 穿透 1.4m"
 
 //mp7 4.6 x 30 mm //45acp_ap
 "weapon_upgrade_46hk_ap"					"DM11 AP|46x30mm"
-"weapon_upgrade_46hk_ap_desc"				"Spread Frac(lower = accurate): 0.0\nDmg: 95 @ 1m to 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.7 | PlyrMult: 1.65\nCHEST: 1.6 | PlyrMult: 1.65\nSTOMACH: 1.6 | PlyrMult: 1.35\nARMS: 0.4 | PlyrMult: 0.9\nLEGS: 0.4 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 10.4m of wall\nTravel of 152m passes 5.7m of wall"
+"weapon_upgrade_46hk_ap_desc"				"弹点散布(数值越低越精确): 0.0\n伤害: 95 @ 1m -- 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.7 | PlyrMult: 1.65\n胸: 1.6 | PlyrMult: 1.65\n腹: 1.6 | PlyrMult: 1.35\n臂: 0.4 | PlyrMult: 0.9\n腿: 0.4 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 10.4m\n于 152m距离 穿透 5.7m"
 
 //mp7 4.6 x 30 mm //45acp_hp
 "weapon_upgrade_46hk_hp"					"31gr LE_HP|46x30mm"
-"weapon_upgrade_46hk_hp_desc"				"Spread Frac(lower = accurate): 0.0\nDmg: 95 @ 1m to 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 0.90 | PlyrMult: 1.65\nCHEST: 0.8 | PlyrMult: 1.65\nSTOMACH: 0.8 | PlyrMult: 1.35\nARMS: 0.7 | PlyrMult: 0.9\nLEGS: 0.7 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 2.9m of wall\nTravel of 152m passes 1.4m of wall"
+"weapon_upgrade_46hk_hp_desc"				"弹点散布(数值越低越精确): 0.0\n伤害: 95 @ 1m -- 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 0.90 | PlyrMult: 1.65\n胸: 0.8 | PlyrMult: 1.65\n腹: 0.8 | PlyrMult: 1.35\n臂: 0.7 | PlyrMult: 0.9\n腿: 0.7 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 2.9m\n于 152m距离 穿透 1.4m"
 
 //ump45 //45acp_ap
 "weapon_upgrade_45vbr"					"VBR-B .45 AP|45_ACP"
-"weapon_upgrade_45vbr_desc"				"Spread Frac(lower = accurate): 0.0\nDmg: 95 @ 1m to 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.7 | PlyrMult: 1.65\nCHEST: 1.6 | PlyrMult: 1.65\nSTOMACH: 1.6 | PlyrMult: 1.35\nARMS: 0.4 | PlyrMult: 0.9\nLEGS: 0.4 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 10.4m of wall\nTravel of 152m passes 5.7m of wall"
+"weapon_upgrade_45vbr_desc"				"弹点散布(数值越低越精确): 0.0\n伤害: 95 @ 1m -- 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.7 | PlyrMult: 1.65\n胸: 1.6 | PlyrMult: 1.65\n腹: 1.6 | PlyrMult: 1.35\n臂: 0.4 | PlyrMult: 0.9\n腿: 0.4 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 10.4m\n于 152m距离 穿透 5.7m"
 
 //ump45 //45acp_hp
 "weapon_upgrade_45hp"					"230gr JHP|45_ACP"
-"weapon_upgrade_45hp_desc"				"Spread Frac(lower = accurate): 0.0\nDmg: 95 @ 1m to 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 0.90 | PlyrMult: 1.65\nCHEST: 0.8 | PlyrMult: 1.65\nSTOMACH: 0.8 | PlyrMult: 1.35\nARMS: 0.7 | PlyrMult: 0.9\nLEGS: 0.7 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 2.9m of wall\nTravel of 152m passes 1.4m of wall"
+"weapon_upgrade_45hp_desc"				"弹点散布(数值越低越精确): 0.0\n伤害: 95 @ 1m -- 52 @ 152m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 0.90 | PlyrMult: 1.65\n胸: 0.8 | PlyrMult: 1.65\n腹: 0.8 | PlyrMult: 1.35\n臂: 0.7 | PlyrMult: 0.9\n腿: 0.7 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 2.9m\n于 152m距离 穿透 1.4m"
 
 //Nothing
 "weapon_upgrade_9vbr_ins"				"S.E. M39/b AP"
-"weapon_upgrade_9vbr_desc_ins"			"Swedish armor-piercing ammo developed in the 40's, it developed a cop-killer reputation in the U.S. and was outlawed."
+"weapon_upgrade_9vbr_desc_ins"			"上世纪40年代瑞典产弹药，在美国有着"警察杀手"的恶名且被认定为非法弹药"
 
 //m1a1 762x33_hp
 "weapon_upgrade_30car_hp"				".30 Carbine 110gr JSP|762x33"
-"weapon_upgrade_30car_hp_desc"			"Spread Frac(lower = accurate): 1.5\nDmg: 100 @ 1m to 85 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.77 | PlyrMult: 1.65\nCHEST: 1.67 | PlyrMult: 1.65\nSTOMACH: 1.67 | PlyrMult: 1.35\nARMS: 0.78 | PlyrMult: 0.9\nLEGS: 0.78 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 7.6m of wall\nTravel of 228m passes 3.8m of wall"
+"weapon_upgrade_30car_hp_desc"			"弹点散布(数值越低越精确): 1.5\n伤害: 100 @ 1m -- 85 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.77 | PlyrMult: 1.65\n胸: 1.67 | PlyrMult: 1.65\n腹: 1.67 | PlyrMult: 1.35\n臂: 0.78 | PlyrMult: 0.9\n腿: 0.78 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 7.6m\n于 228m距离 穿透 3.8m"
 
 //m1a1 762x33_ap
 "weapon_upgrade_30car_ap"				"U.S. GI .30 110gr AP|762x33"
-"weapon_upgrade_30car_ap_desc"			"Spread Frac(lower = accurate): 1.5\nDmg: 100 @ 1m to 85 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 2.47 | PlyrMult: 1.65\nCHEST: 2.37 | PlyrMult: 1.65\nSTOMACH: 2.37 | PlyrMult: 1.35\nARMS: 0.28 | PlyrMult: 0.9\nLEGS: 0.28 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1m passes 17.1m of wall\nTravel of 228m passes 7.6m of wall"
+"weapon_upgrade_30car_ap_desc"			"弹点散布(数值越低越精确): 1.5\n伤害: 100 @ 1m -- 85 @ 228m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 2.47 | PlyrMult: 1.65\n胸: 2.37 | PlyrMult: 1.65\n腹: 2.37 | PlyrMult: 1.35\n臂: 0.28 | PlyrMult: 0.9\n腿: 0.28 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1m距离 穿透 17.1m\n于 228m距离 穿透 7.6m"
 
 "weapon_upgrade_slugs"					"Tactical Slug|1 slug"
-"weapon_upgrade_slugs_desc"				"Spread Frac(lower = accurate): 0.04\nDmg: 288 @ 15m to 40 @ 172m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.9 | PlyrMult: 1.65\nCHEST: 1.8 | PlyrMult: 1.65\nSTOMACH: 1.8 | PlyrMult: 1.35\nARMS: 0.8 | PlyrMult: 0.9\nLEGS: 0.8 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1.9m passes 14.2m of wall\nTravel of 152m passes 1.9 of wall"
+"weapon_upgrade_slugs_desc"				"弹点散布(数值越低越精确): 0.04\n伤害: 288 @ 15m -- 40 @ 172m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.9 | PlyrMult: 1.65\n胸: 1.8 | PlyrMult: 1.65\n腹: 1.8 | PlyrMult: 1.35\n臂: 0.8 | PlyrMult: 0.9\n腿: 0.8 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1.9m passes 14.2m\n于 152m距离 穿透 1.9"
 
 "weapon_upgrade_commbuck"				"Civvie Buck|9 pellets"
-"weapon_upgrade_commbuck_desc"			"Pellet Spread: 1.6\nDmg: 100 @ 15m to 25 @ 172m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.9 | PlyrMult: 1.65\nCHEST: 1.8 | PlyrMult: 1.65\nSTOMACH: 1.8 | PlyrMult: 1.35\nARMS: 0.8 | PlyrMult: 0.9\nLEGS: 0.8 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1.9m passes 2.9m of wall\nTravel of 152m passes <1m of wall"
+"weapon_upgrade_commbuck_desc"			"弹丸散布: 1.6\n伤害: 100 @ 15m -- 25 @ 172m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.9 | PlyrMult: 1.65\n胸: 1.8 | PlyrMult: 1.65\n腹: 1.8 | PlyrMult: 1.35\n臂: 0.8 | PlyrMult: 0.9\n腿: 0.8 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1.9m距离 穿透 2.9m\n于 152m距离 穿透 <1m"
 
 "weapon_upgrade_tacbuck"				"Tactical Buck|9 pellets"
-"weapon_upgrade_tacbuck_desc"			"Pellet Spread: 0.6\nDmg: 100 @ 15m to 25 @ 172m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\nHEAD: 1.9 | PlyrMult: 1.65\nCHEST: 1.8 | PlyrMult: 1.65\nSTOMACH: 1.8 | PlyrMult: 1.35\nARMS: 0.8 | PlyrMult: 0.9\nLEGS: 0.8 | PlyrMult: 0.8\nPenetration Power(Mat. alters depth):\nTravel of 1.9m passes 2.9m of wall\nTravel of 152m passes <1m of wall"
+"weapon_upgrade_tacbuck_desc"			"弹丸散布: 0.6\n伤害: 100 @ 15m -- 25 @ 172m\nAmmo/Plyr Mult. (Dmg * Am * Pm):\n头: 1.9 | PlyrMult: 1.65\n胸: 1.8 | PlyrMult: 1.65\n腹: 1.8 | PlyrMult: 1.35\n臂: 0.8 | PlyrMult: 0.9\n腿: 0.8 | PlyrMult: 0.8\n穿透力(材质影响穿深):\n于 1.9m距离 穿透 2.9m\n于 152m距离 穿透 <1m"
 
 "weapon_upgrade_ctrlbuck"				"Flite Control"
 "weapon_upgrade_ctrlbuck_desc"			"Notorious for its extremely tight patterning, this load by Federal Premium spreads less than 0.2 inch per yard."
@@ -317,7 +317,7 @@
 "aimpointcomp"							"红点瞄准镜"
 "aimpointcomp_desc"						"视野宽广且能快速捕捉目标的红点瞄具"
 "aimpointmag2x"							"红点瞄准镜 2倍"
-"aimpointmag2x_desc"					"安装了放大镜的红点瞄具，适合中距离射击"
+"aimpointmag2x_desc"					"安装了放大镜的红点瞄具, 适合中距离射击"
 
 "weapon_upgrade_pistoldot"			"红点瞄准镜"
 "weapon_upgrade_pistoldot_desc"		"可快速捕捉目标的简易红点瞄具"
@@ -349,211 +349,211 @@
 //////////////////////Weapons////////////////////
 
 //////////////////////SHOTGUNS///////////
-"weapon_m590"				"M590"
-"weapon_m590_desc"			"RPM: Pump | Weight: 38 Hg\nCaliber: Buckshot | Modes: Pump\nStandard Capacity: 8+1"
+"weapon_m590"				"M590 霰弹枪"
+"weapon_m590_desc"			"射速: 泵动 | 重量: 3.8千克\n口径: 铅弹 | 射击模式: 泵动\n默认弹容量: 8+1"
 
-"weapon_nova"				"NOVA TACTICAL"
-"weapon_nova_desc"			"Pump/Rel Speed: +15% | Weight: 33 Hg\nCaliber: Buckshot | Modes: Pump\nStandard Capacity: 5+1"
+"weapon_nova"				"NOVA 战术霰弹枪"
+"weapon_nova_desc"			"泵动/Rel Speed: +15% | 重量: 33千克\n口径: 铅弹 | 射击模式: 泵动\n默认弹容量: 5+1"
 
-"weapon_toz"				"TOZ"
-"weapon_toz_desc"			"RPM: Pump | Weight: 28 Hg\nCaliber: Buckshot | Modes: Pump\nStandard Capacity: 6+1"
-"weapon_spas12_dy"				"SPAS-12"
-"weapon_spas12_dy_desc"		"RPM: 100 | Weight: 42 Hg\nCaliber: Buckshot | Modes: Semi, Pump\nStandard Capacity: 8+1"
-"weapon_ksg_dy"				"KEL-TEC KSG"
-"weapon_ksg_dy_desc"		"RPM: Pump | Weight: 33 Hg\nCaliber: Buckshot | Modes: Pump\nStandard Capacity: 14+1"
+"weapon_toz"				"TOZ 霰弹枪"
+"weapon_toz_desc"			"射速: 泵动 | 重量: 2.8千克\n口径: 铅弹 | 射击模式: 泵动\n默认弹容量: 6+1"
+"weapon_spas12_dy"				"SPAS-12 霰弹枪"
+"weapon_spas12_dy_desc"		"射速: 100 | 重量: 4.2千克\n口径: 铅弹 | 射击模式: 半自动, 泵动\n默认弹容量: 8+1"
+"weapon_ksg_dy"				"KEL-TEC KSG 霰弹枪"
+"weapon_ksg_dy_desc"		"射速: 泵动 | 重量: 3.3千克\n口径: 铅弹 | 射击模式: 泵动\n默认弹容量: 14+1"
 /////////////////RIFLES//////////////
-"weapon_galil_dy"				"GALIL"
-"weapon_galil_dy_desc"			"RPM: 650 | Weight: 43 Hg\nCaliber: 556x45c | Modes: Semi, Full\nStandard Magazine Capacity: 30"
-"weapon_akmg"				"AKMS"
-"weapon_akmg_desc"			"RPM: 600 | Weight: 38 Hg\nCaliber: 762x39 | Modes: Semi, Full\nStandard Magazine Capacity: 30"
-"weapon_ak74"				"AK-74"
-"weapon_ak74_desc"			"RPM: 650 | Weight: 40 Hg\nCaliber: 545x39 | Modes: Semi, Full\nStandard Magazine Capacity: 30"
-"weapon_vz58"				"VZ. 58"
-"weapon_vz58_desc"			"RPM: 800 | Weight: 29 Hg\nCaliber: 762x39 | Modes: Semi, Full\nStandard Magazine Capacity: 30"
-"weapon_saiga12"				"Saiga-12"
-"weapon_saiga12_desc"			"RPM: 600 | Weight: 36 Hg\nCaliber: Buckshot | Modes: Semi, Full\nStandard Magazine Capacity: 8"
-"weapon_m4a1"				"M4A1"
-"weapon_m4a1_desc"			"RPM: 740 | Weight: 36 Hg\nCaliber: 556x45c | Modes: Semi, Full\nStandard Magazine Capacity: 30"
-"weapon_m16g"				"M16A4"
-"weapon_m16g_desc"			"RPM: 780 | Weight: 40 Hg\nCaliber: 556x45 | Modes: Semi, Burst\nStandard Magazine Capacity: 30"
-"weapon_mk18g"				"Mk18"
-"weapon_mk18g_desc"			"RPM: 950 | Weight: 34 Hg\nCaliber: 556x45c | Modes: Semi, Full\nStandard Magazine Capacity: 30"
-"weapon_mk14g"				"Mk14"
-"weapon_mk14g_desc"			"RPM: 710 | Weight: 63 Hg\nCaliber: 762x51 | Modes: Semi, Full\nStandard Magazine Capacity: 20"
-"weapon_m107"				"M107"
-"weapon_m107_desc"			"RPM: 240 | Weight: 144 Hg\nCaliber: .50 BMG | Modes: Semi\nStandard Magazine Capacity: 11"
-"weapon_falg"				"FAL"
-"weapon_falg_desc"			"RPM: 750 | Weight: 46 Hg\nCaliber: 762x51 | Modes: Semi, Full\nStandard Magazine Capacity: 20"
-"weapon_l1a1g"				"L1A1"
-"weapon_l1a1g_desc"			"RPM: 600 | Weight: 48 Hg\nCaliber: 762x51 | Modes: Semi\nStandard Magazine Capacity: 20"
-"weapon_acr_dy"				"ACR"
-"weapon_acr_dy_desc"			"RPM: 800 | Weight: 42 Hg\nCaliber: 556x45 | Modes: Semi, Full\nStandard Magazine Capacity: 30"
+"weapon_galil_dy"				"加利尔突击步枪"
+"weapon_galil_dy_desc"			"射速: 650 | 重量: 4.3千克\n口径: 5.56x45c mm | 射击模式: 半自动, 全自动\n默认弹容量: 30"
+"weapon_akmg"				"AKMS 突击步枪"
+"weapon_akmg_desc"			"射速: 600 | 重量: 3.8千克\n口径: 7.62x39mm | 射击模式: 半自动, 全自动\n默认弹容量: 30"
+"weapon_ak74"				"AK-74 突击步枪"
+"weapon_ak74_desc"			"射速: 650 | 重量: 4千克\n口径: 5.45x39mm | 射击模式: 半自动, 全自动\n默认弹容量: 30"
+"weapon_vz58"				"捷克 VZ. 58 突击步枪"
+"weapon_vz58_desc"			"射速: 800 | 重量: 2.9千克\n口径: 7.62x39mm | 射击模式: 半自动, 全自动\n默认弹容量: 30"
+"weapon_saiga12"				"Saiga-12 半自动霰弹枪"
+"weapon_saiga12_desc"			"射速: 600 | 重量: 3.6千克\n口径: 铅弹 | 射击模式: 半自动, 全自动\n默认弹容量: 8"
+"weapon_m4a1"				"M4A1 卡宾枪"
+"weapon_m4a1_desc"			"射速: 740 | 重量: 3.6千克\n口径: 5.56x45c mm | 射击模式: 半自动, 全自动\n默认弹容量: 30"
+"weapon_m16g"				"M16A4 突击步枪"
+"weapon_m16g_desc"			"射速: 780 | 重量: 4千克\n口径: 5.56x45mm | 射击模式: 半自动, 连发点射\n默认弹容量: 30"
+"weapon_mk18g"				"Mk18 短突击步枪"
+"weapon_mk18g_desc"			"射速: 950 | 重量: 3.4千克\n口径: 5.56x45c mm | 射击模式: 半自动, 全自动\n默认弹容量: 30"
+"weapon_mk14g"				"Mk14 精确射手步枪"
+"weapon_mk14g_desc"			"射速: 710 | 重量: 6.3千克\n口径: 7.62x51mm | 射击模式: 半自动, 全自动\n默认弹容量: 20"
+"weapon_m107"				"巴雷特 M107 反器材狙击步枪"
+"weapon_m107_desc"			"射速: 240 | 重量: 14.4千克\n口径: .50 BMG | 射击模式: 半自动\n默认弹容量: 11"
+"weapon_falg"				"FAL 自动步枪"
+"weapon_falg_desc"			"射速: 750 | 重量: 4.6千克\n口径: 7.62x51mm | 射击模式: 半自动, 全自动\n默认弹容量: 20"
+"weapon_l1a1g"				"L1A1 自动装填步枪"
+"weapon_l1a1g_desc"			"射速: 600 | 重量: 4.8千克\n口径: 7.62x51mm | 射击模式: 半自动\n默认弹容量: 20"
+"weapon_acr_dy"				"雷明顿 ACR 突击步枪"
+"weapon_acr_dy_desc"			"射速: 800 | 重量: 42千克\n口径: 5.56x45mm | 射击模式: 半自动, 全自动\n默认弹容量: 30"
 
-"weapon_ak12u_dy"				"AK12u Carbine"
-"weapon_ak12u_dy_desc"			"RPM: 680 | Weight: 32 Hg\nCaliber: 545x39 | Modes: Semi, Full\nStandard Magazine Capacity: 30"
-"weapon_g3a3_dy"				"G3A3"
-"weapon_g3a3_dy_desc"			"RPM: 600 | Weight: 44 Hg\nCaliber: 762x51 | Modes: Semi, Full\nStandard Magazine Capacity: 20"
+"weapon_ak12u_dy"				"AK12u 卡宾枪"
+"weapon_ak12u_dy_desc"			"射速: 680 | 重量: 3.2千克\n口径: 5.45x39mm | 射击模式: 半自动, 全自动\n默认弹容量: 30"
+"weapon_g3a3_dy"				"G3A3 突击步枪"
+"weapon_g3a3_dy_desc"			"射速: 600 | 重量: 4.4千克\n口径: 7.62x51mm | 射击模式: 半自动, 全自动\n默认弹容量: 20"
 
-"weapon_scarl_dy"				"SCAR-L"
-"weapon_scarl_dy_desc"			"RPM: 625 | Weight: 33 Hg\nCaliber: 556x45 | Modes: Semi, Full\nStandard Magazine Capacity: 30"
-"weapon_scar_mk20_dy"				"SSR"
-"weapon_scar_mk20_dy_desc"			"RPM: 625 | Weight: 52 Hg\nCaliber: 762x51 | Modes: Semi\nStandard Magazine Capacity: 20"
-"weapon_rfb_dy"				"KEL-TEC RFB"
-"weapon_rfb_dy_desc"			"RPM: 260 | Weight: 56 Hg\nCaliber: 762x51 | Modes: Semi\nStandard Magazine Capacity: 20"
+"weapon_scarl_dy"				"SCAR-L 突击步枪"
+"weapon_scarl_dy_desc"			"射速: 625 | 重量: 3.3千克\n口径: 5.56x45mm | 射击模式: 半自动, 全自动\n默认弹容量: 30"
+"weapon_scar_mk20_dy"				"Mk20 狙击支援步枪"
+"weapon_scar_mk20_dy_desc"			"射速: 625 | 重量: 5.2千克\n口径: 7.62x51mm | 射击模式: 半自动\n默认弹容量: 20"
+"weapon_rfb_dy"				"KEL-TEC RFB 步枪"
+"weapon_rfb_dy_desc"			"射速: 260 | 重量: 5.6千克\n口径: 7.62x51mm | 射击模式: 半自动\n默认弹容量: 20"
 "weapon_sig553_dy"				"SIG SG 553"
-"weapon_sig553_dy_desc"			"RPM: 700 | Weight: 34 Hg\nCaliber: 556x45 | Modes: Semi, Full\nStandard Magazine Capacity: 30"
-"weapon_g36_dy"				"G36C"
-"weapon_g36_dy_desc"			"RPM: 750 | Weight: 30 Hg\nCaliber: 556x45c | Modes: Semi, Full\nStandard Magazine Capacity: 30"
-"weapon_famas_dy"				"FAMAS"
-"weapon_famas_dy_desc"			"RPM: 1000 | Weight: 38 Hg\nCaliber: 556x45 | Modes: Semi, Full\nStandard Magazine Capacity: 25"
-"weapon_f2000_dy"				"F2000"
-"weapon_f2000_dy_desc"			"RPM: 850 | Weight: 38 Hg\nCaliber: 556x45c | Modes: Semi, Full\nStandard Magazine Capacity: 30"
-"weapon_sa80"				"L85A2"
-"weapon_sa80_desc"			"RPM: 650 | Weight: 50 Hg\nCaliber: 556x45c | Modes: Semi, Full\nStandard Magazine Capacity: 30"
-"weapon_mk18_m0"				"Mk18 Mod 0"
-"weapon_mk18_m0_desc"			"RPM: 950 | Weight: 34 Hg\nCaliber: 556x45c | Modes: Semi, Full\nStandard Magazine Capacity: 20"
+"weapon_sig553_dy_desc"			"射速: 700 | 重量: 3.4千克\n口径: 5.56x45mm | 射击模式: 半自动, 全自动\n默认弹容量: 30"
+"weapon_g36_dy"				"G36C 短突击步枪"
+"weapon_g36_dy_desc"			"射速: 750 | 重量: 3千克\n口径: 5.56x45c mm | 射击模式: 半自动, 全自动\n默认弹容量: 30"
+"weapon_famas_dy"				"FAMAS 突击步枪"
+"weapon_famas_dy_desc"			"射速: 1000 | 重量: 3.8千克\n口径: 5.56x45mm | 射击模式: 半自动, 全自动\n默认弹容量: 25"
+"weapon_f2000_dy"				"F2000 突击步枪"
+"weapon_f2000_dy_desc"			"射速: 850 | 重量: 3.8千克\n口径: 5.56x45c mm | 射击模式: 半自动, 全自动\n默认弹容量: 30"
+"weapon_sa80"				"L85A2 突击步枪"
+"weapon_sa80_desc"			"射速: 650 | 重量: 50千克\n口径: 5.56x45c mm | 射击模式: 半自动, 全自动\n默认弹容量: 30"
+"weapon_mk18_m0"				"Mk18 Mod 0 短突击步枪"
+"weapon_mk18_m0_desc"			"射速: 950 | 重量: 3.4千克\n口径: 5.56x45c mm | 射击模式: 半自动, 全自动\n默认弹容量: 20"
 
-"weapon_aug3"				"AUG3"
-"weapon_aug3_desc"			"RPM: 750 | Weight: 36 Hg\nCaliber: 556x45 | Modes: Semi, Burst, Full\nStandard Magazine Capacity: 30"
+"weapon_aug3"				"斯太尔 AUG 突击步枪"
+"weapon_aug3_desc"			"射速: 750 | 重量: 3.6千克\n口径: 5.56x45mm | 射击模式: 半自动, 连发点射, 全自动\n默认弹容量: 30"
 
 ///////////SNIPER RIFLES//////////////
-"weapon_sksg"				"SKS-D"
-"weapon_sksg_desc"			"RPM: 600 | Weight: 48 Hg\nCaliber: 762x39 | Modes: Semi\nStandard Magazine Capacity: 30"
-"weapon_ac556"				"AC-556"
-"weapon_ac556_desc"			"RPM: 775 | Weight: 29 Hg\nCaliber: 556x45i | Modes: Semi, Full\nStandard Magazine Capacity: 30"
-"weapon_mosing"				"MOSIN"
-"weapon_mosing_desc"		"RPM: Bolt | Weight: 42 Hg\nCaliber: 762x54mm | Modes: Bolt\nStandard Capacity: 5+30 Tac. Pouch"
-"weapon_m40a1g"				"M40A1"
-"weapon_m40a1g_desc"		"Bolt-Speed: +10% | Weight: 68 Hg\nCaliber: 762x51mm | Modes: Bolt\nStandard Capacity: 5+30 Tac. Pouch"
-"weapon_m1a1g"				"M1A1"
-"weapon_m1a1g_desc"			"RPM: 600 | Weight: 26 Hg\nCaliber: 762x33 | Modes: Semi\nStandard Magazine Capacity: 15"
-"weapon_m40a5_dy"			"M40A5"
-"weapon_m40a5_dy_desc"		"Bolt-Speed: +15% | Weight: 72 Hg\nCaliber: 762x51mm | Modes: Bolt\nStandard Capacity: 5+30 Tac. Pouch"
-"weapon_svdg"				"DRAGUNOV SVD"
-"weapon_svdg_desc"			"RPM: 480 | Weight: 50 Hg\nCaliber: 762x54mm | Modes: Semi\nStandard Magazine Capacity: 10"
+"weapon_sksg"				"SKS-D 半自动卡宾枪"
+"weapon_sksg_desc"			"射速: 600 | 重量: 4.8千克\n口径: 7.62x39mm | 射击模式: 半自动\n默认弹容量: 30"
+"weapon_ac556"				"AC-556 突击步枪"
+"weapon_ac556_desc"			"射速: 775 | 重量: 2.9千克\n口径: 5.56x45mm | 射击模式: 半自动, 全自动\n默认弹容量: 30"
+"weapon_mosing"				"莫辛纳甘狙击步枪"
+"weapon_mosing_desc"		"射速: 栓动 | 重量: 4.2千克\n口径: 7.62x54mm | 射击模式: 栓动\n默认弹容量: 5+30 Tac. Pouch"
+"weapon_m40a1g"				"M40A1 狙击步枪"
+"weapon_m40a1g_desc"		"栓动速度增益: +10% | 重量: 6.8千克\n口径: 7.62x51mm | 射击模式: 栓动\n默认弹容量: 5+30 Tac. Pouch"
+"weapon_m1a1g"				"M1A1 卡宾枪"
+"weapon_m1a1g_desc"			"射速: 600 | 重量: 2.6千克\n口径: 7.62x33mm | 射击模式: 半自动\n默认弹容量: 15"
+"weapon_m40a5_dy"			"M40A5 狙击步枪"
+"weapon_m40a5_dy_desc"		"栓动速度增益: +15% | 重量: 7.2千克\n口径: 7.62x51mm | 射击模式: 栓动\n默认弹容量: 5+30 Tac. Pouch"
+"weapon_svdg"				"德拉贡诺夫 SVD 狙击步枪"
+"weapon_svdg_desc"			"射速: 480 | 重量: 5千克\n口径: 762x54mm | 射击模式: 半自动\n默认弹容量: 10"
 
 /////////////////LMGS//////////////
-"weapon_rpkg"				"RPK"
-"weapon_rpkg_desc"			"RPM: 600 | Weight: 84 Hg\nCaliber: 762x39 | Modes: Semi, Full\nStandard Magazine Capacity: 75"
-"weapon_m249g"				"M249"
-"weapon_m249g_desc"			"RPM: 800 | Weight: 122 Hg\nCaliber: 556x45 | Modes: Full\nStandard Magazine Capacity: 200"
-"weapon_mk46g"				"MK46 Mod 0"
-"weapon_mk46g_desc"			"RPM: 730 | Weight: 93 Hg\nCaliber: 556x45 | Modes: Full\nStandard Magazine Capacity: 150"
-"weapon_mk48g"				"MK48 Mod 0"
-"weapon_mk48g_desc"			"RPM: 710 | Weight: 142 Hg\nCaliber: 762x51 | Modes: Full\nStandard Magazine Capacity: 100"
-"weapon_m60"				"M60"
-"weapon_m60_desc"			"RPM: 650 | Weight: 160 Hg\nCaliber: 762x51 | Modes: Full\nStandard Magazine Capacity: 100"
-"weapon_rpk74m_dy"				"RPK74M"
-"weapon_rpk74m_dy_desc"			"Draw: +10% | RPM: 650 | Weight: 74 Hg\nCaliber: 545x39 | Modes: Semi, Full\nStandard Magazine Capacity: 75"
+"weapon_rpkg"				"RPK 轻机枪"
+"weapon_rpkg_desc"			"射速: 600 | 重量: 8.4千克\n口径: 7.62x39mm | 射击模式: 半自动, 全自动\n默认弹容量: 75"
+"weapon_m249g"				"M249 轻机枪"
+"weapon_m249g_desc"			"射速: 800 | 重量: 12.2千克\n口径: 5.56x45mm | 射击模式: 全自动\n默认弹容量: 200"
+"weapon_mk46g"				"MK46 Mod 0 轻机枪"
+"weapon_mk46g_desc"			"射速: 730 | 重量: 9.3千克\n口径: 5.56x45mm | 射击模式: 全自动\n默认弹容量: 150"
+"weapon_mk48g"				"MK48 Mod 0 轻型机枪"
+"weapon_mk48g_desc"			"射速: 710 | 重量: 14.2千克\n口径: 7.62x51mm | 射击模式: 全自动\n默认弹容量: 100"
+"weapon_m60"				"M60 通用机枪"
+"weapon_m60_desc"			"射速: 650 | 重量: 16千克\n口径: 7.62x51mm | 射击模式: 全自动\n默认弹容量: 100"
+"weapon_rpk74m_dy"				"RPK74M 轻机枪"
+"weapon_rpk74m_dy_desc"			"切换时间增益: +10% | 射速: 650 | 重量: 7.4千克\n口径: 5.45x39mm | 射击模式: 半自动, 全自动\n默认弹容量: 75"
 
 
 
 //////////////SMGS/////////////
-"weapon_mp7_dy"				"MP7"
-"weapon_mp7_dy_desc"		"RPM: 950 | Weight: 21 Hg\nCaliber: 45acp | Modes: Semi, Full\nStandard Magazine Capacity: 30"
-"weapon_mac10_dy"				"MAC-10"
-"weapon_mac10_dy_desc"		"RPM: 1090 | Weight: 30 Hg\nCaliber: 9mm | Modes: Full\nStandard Magazine Capacity: 30"
-"weapon_uzi_dy"				"IMI UZI"
-"weapon_uzi_dy_desc"		"RPM: 600 | Weight: 30 Hg\nCaliber: 9mm | Modes: Semi, Full\nStandard Magazine Capacity: 32"
-"weapon_aks74ug"			"AKS-74U"
-"weapon_aks74ug_desc"		"RPM: 700 | Weight: 32 Hg\nCaliber: 545x39 | Modes: Semi, Full\nStandard Magazine Capacity: 30"
-"weapon_mp5g"				"MP5K"
-"weapon_mp5g_desc"			"Draw: +15% | RPM: 900 | Weight: 23 Hg\nCaliber: 9mm | Modes: Semi, Burst, Full\nStandard Magazine Capacity: 30"
-"weapon_ster_dy"				"Sterling"
-"weapon_ster_dy_desc"			"Draw: +15% | RPM: 600 | Weight: 31 Hg\nCaliber: 9mm | Modes: Full\nStandard Magazine Capacity: 34"
-"weapon_mp40g"				"MP40"
-"weapon_mp40g_desc"			"Draw: +15% | RPM: 550 | Weight: 36 Hg\nCaliber: 9mm | Modes: Full\nStandard Magazine Capacity: 32"
-"weapon_umpg"				"UMP-45"
-"weapon_umpg_desc"			"RPM: 600 | Weight: 28 Hg\nCaliber: 45acp | Modes: Semi, Burst, Full\nStandard Magazine Capacity: 25"
-"weapon_mp5a4_dy"				"MP5A4"
-"weapon_mp5a4_dy_desc"			"Draw: +15% | RPM: 850 | Weight: 32 Hg\nCaliber: 9mm | Modes: Semi, Burst, Full\nStandard Magazine Capacity: 30"
-"weapon_kriss"				"KRISS Vector"
-"weapon_kriss_desc"			"RPM: 1200 | Weight: 28 Hg\nCaliber: 45acp | Modes: Semi, Burst, Full\nStandard Magazine Capacity: 30"
-"weapon_czse3g"				"CZ SCORPION EVO-3"
-"weapon_czse3g_desc"			"RPM: 1150 | Weight: 28 Hg\nCaliber: 9mm | Modes: Semi, Burst, Full\nStandard Magazine Capacity: 30"
+"weapon_mp7_dy"				"MP7 冲锋枪"
+"weapon_mp7_dy_desc"		"射速: 950 | 重量: 2.1千克\n口径: .45acp | 射击模式: 半自动, 全自动\n默认弹容量: 30"
+"weapon_mac10_dy"				"MAC-10 冲锋枪"
+"weapon_mac10_dy_desc"		"射速: 1090 | 重量: 3千克\n口径: 9mm | 射击模式: 全自动\n默认弹容量: 30"
+"weapon_uzi_dy"				"IMI 乌兹冲锋枪"
+"weapon_uzi_dy_desc"		"射速: 600 | 重量: 3千克\n口径: 9mm | 射击模式: 半自动, 全自动\n默认弹容量: 32"
+"weapon_aks74ug"			"AKS-74U 短突击步枪"
+"weapon_aks74ug_desc"		"射速: 700 | 重量: 3.2千克\n口径: 5.45x39mm | 射击模式: 半自动, 全自动\n默认弹容量: 30"
+"weapon_mp5g"				"MP5K 冲锋枪"
+"weapon_mp5g_desc"			"切换时间增益: +15% | 射速: 900 | 重量: 2.3千克\n口径: 9mm | 射击模式: 半自动, 连发点射, 全自动\n默认弹容量: 30"
+"weapon_ster_dy"				"斯特林冲锋枪"
+"weapon_ster_dy_desc"			"切换时间增益: +15% | 射速: 600 | 重量: 3.1千克\n口径: 9mm | 射击模式: 全自动\n默认弹容量: 34"
+"weapon_mp40g"				"MP40 冲锋枪"
+"weapon_mp40g_desc"			"切换时间增益: +15% | 射速: 550 | 重量: 3.6千克\n口径: 9mm | 射击模式: 全自动\n默认弹容量: 32"
+"weapon_umpg"				"UMP-45 冲锋枪"
+"weapon_umpg_desc"			"射速: 600 | 重量: 28千克\n口径: .45acp | 射击模式: 半自动, 连发点射, 全自动\n默认弹容量: 25"
+"weapon_mp5a4_dy"				"MP5A4 冲锋枪"
+"weapon_mp5a4_dy_desc"			"切换时间增益: +15% | 射速: 850 | 重量: 3.2千克\n口径: 9mm | 射击模式: 半自动, 连发点射, 全自动\n默认弹容量: 30"
+"weapon_kriss"				"KRISS Vector 冲锋枪"
+"weapon_kriss_desc"			"射速: 1200 | 重量: 2.8千克\n口径: .45acp | 射击模式: 半自动, 连发点射, 全自动\n默认弹容量: 30"
+"weapon_czse3g"				"捷克蝎式 EVO 3 冲锋枪"
+"weapon_czse3g_desc"			"射速: 1150 | 重量: 2.8千克\n口径: 9mm | 射击模式: 半自动, 连发点射, 全自动\n默认弹容量: 30"
 
 ////////////////PISTOLS//////////
-"weapon_m45_dy"				"M45 MEUSOC"
-"weapon_m45_dy_desc"			"RPM: 600 | Weight: 16 Hg\nCaliber: 45acp | Modes: Semi\nStandard Magazine Capacity: 9"
+"weapon_m45_dy"				"M45 MEUSOC 手枪"
+"weapon_m45_dy_desc"			"射速: 600 | 重量: 1.6千克\n口径: .45acp | 射击模式: 半自动\n默认弹容量: 9"
 
-"weapon_makarov_dy"				"Makarov"
-"weapon_makarov_dy_desc"		"RPM: 700 | Weight: 9 Hg\nCaliber: 9mm | Modes: Semi\nStandard Magazine Capacity: 10"
+"weapon_makarov_dy"				"马卡洛夫手枪"
+"weapon_makarov_dy_desc"		"射速: 700 | 重量: 0.9千克\n口径: 9mm | 射击模式: 半自动\n默认弹容量: 10"
 
-"weapon_m93"				"m93r"
-"weapon_m93_desc"			"RPM: 1100 | Weight: 16 Hg\nCaliber: 9mm | Modes: Semi, Burst\nStandard Magazine Capacity: 18"
+"weapon_m93"				"m93r 手枪"
+"weapon_m93_desc"			"射速: 1100 | 重量: 1.6千克\n口径: 9mm | 射击模式: 半自动, 连发点射\n默认弹容量: 18"
 
-"weapon_glock18"				"GLOCK 18"
-"weapon_glock18_desc"			"RPM: 700 | Weight: 8 Hg\nCaliber: 9mm | Modes: Semi, Full\nStandard Magazine Capacity: 15"
+"weapon_glock18"				"GLOCK 18 手枪"
+"weapon_glock18_desc"			"射速: 700 | 重量: 0.8千克\n口径: 9mm | 射击模式: 半自动, 全自动\n默认弹容量: 15"
 
-"weapon_usp"				"HK USP"
-"weapon_usp_desc"			"RPM: 600 | Weight: 10 Hg\nCaliber: 45acp | Modes: Semi\nStandard Magazine Capacity: 12"
+"weapon_usp"				"HK USP 手枪"
+"weapon_usp_desc"			"射速: 600 | 重量: 1千克\n口径: .45acp | 射击模式: 半自动\n默认弹容量: 12"
 
-"weapon_model10_dy"				"MODEL 10"
-"weapon_model10_dy_desc"			"Draw: +20% | RPM: 380 | Weight: 12 Hg\nCaliber: 38special | Modes: Semi\nStandard Magazine Capacity: 6"
+"weapon_model10_dy"				"军警十型左轮手枪"
+"weapon_model10_dy_desc"			"切换时间增益: +20% | 射速: 380 | 重量: 1.2千克\n口径: .38special | 射击模式: 半自动\n默认弹容量: 6"
 
-"weapon_mr96_dy"				"Manurhin MR 96"
-"weapon_mr96_dy_desc"			"Draw: +20% | RPM: 320 | Weight: 16 Hg\nCaliber: 357sw | Modes: Semi\nStandard Magazine Capacity: 6"
-"weapon_deagle_dy"				"IMI 沙漠之鹰"
-"weapon_deagle_dy_desc"			"RPM: 360 | Weight: 22 Hg\nCaliber: 50ae | Modes: Semi\nStandard Magazine Capacity: 7"
+"weapon_mr96_dy"				"马努汉 MR 96 左轮手枪"
+"weapon_mr96_dy_desc"			"切换时间增益: +20% | 射速: 320 | 重量: 1.6千克\n口径: .357sw | 射击模式: 半自动\n默认弹容量: 6"
+"weapon_deagle_dy"				"IMI 沙漠之鹰手枪"
+"weapon_deagle_dy_desc"			"射速: 360 | 重量: 2.2千克\n口径: .50AE | 射击模式: 半自动\n默认弹容量: 7"
 
-"weapon_kingcobra_dy"				"COLT King Cobra"
-"weapon_kingcobra_dy_desc"			"Draw: +20% | RPM: 320 | Weight: 14 Hg\nCaliber: 357sw | Modes: Semi\nStandard Magazine Capacity: 6"
+"weapon_kingcobra_dy"				"柯尔特眼镜蛇左轮手枪"
+"weapon_kingcobra_dy_desc"			"切换时间增益: +20% | 射速: 320 | 重量: 1.4千克\n口径: .357sw | 射击模式: 半自动\n默认弹容量: 6"
   
 ////////////////EXPLOSIVES//////////////
 "weapon_f1g"				"F1 手雷"
-"weapon_f1g_desc"			"WWII-era defensive grenade with a wider lethal radius and correspondingly high chance of collateral damage."
+"weapon_f1g_desc"			"二战时期的自卫用手榴弹, 具有更大的杀伤半径, 额外伤害几率也相应更高"
 "weapon_m67g"				"M67 手雷"
-"weapon_m67g_desc"			"Det Dmg(less at max radius): 160\nMax Det Radius: 14m\nWeight: 5Hg/1.1lbs"
+"weapon_m67g_desc"			"爆炸伤害(从最高半径衰减): 160\n最高爆炸半径: 14m\n重量: 5千克/1.1磅"
 "weapon_m84_dy"				"M84 手雷"
-"weapon_m84_dy_desc"		"Blind Dur: Max 6sec.|Rad: 29m\nBlind: Yes|Deafen: Yes\nWeight: 3Hg/0.6lbs"
+"weapon_m84_dy_desc"		"致盲持续时间: 最高6秒|半径：29m\n致盲: 是 | 致聋: 是\n重量: 3千克/0.6磅"
 "weapon_stungrenMK3"		"MK3 闪光震撼弹"
-"weapon_stungrenMK3_desc"		"Stun Dur: Max 6sec.|Rad: 19m\nBlind: No|Deafen: Yes\nWeight: 3Hg/0.6lbs"
+"weapon_stungrenMK3_desc"		"效果持续时间: 最高12秒 | 半径：19m\n致盲: 否 | 致聋: 是\n重量: 3千克/0.6磅"
 "weapon_anm14_dy"			"AN-M14 燃烧弹"
-"weapon_anm14_dy_desc"		"Det Dmg: 100|Det Rad: 4.5m\nBurn Rad: 2-3m | Dur: 24sec.\nWeight: 10Hg/2.2lbs"
+"weapon_anm14_dy_desc"		"爆炸伤害: 100 | 爆炸半径: 4.5m\n燃烧半径: 2-3m | 持续时间: 24秒\n重量: 1千克/2.2磅"
 "weapon_molotov_dy"			"莫洛托夫燃烧瓶"
-"weapon_molotov_dy_desc"		"Det Dmg: 100|Det Rad: 4.5m\nBurn Rad: 4-5m | Dur: 24sec.\nWeight: 14Hg/3lbs"
-"weapon_c4_dy"			"C4"
-"weapon_c4_dy_desc"		"Det Dmg(less at max radius): 304\nMax Det Radius: 18m/4.5m walls\nWeight: 55Hg/12lbs"
+"weapon_molotov_dy_desc"		"爆炸伤害: 100 | 爆炸半径: 4.5m\n燃烧半径: 4-5m | 持续时间: 24秒\n重量: 1.4千克/3磅"
+"weapon_c4_dy"			"C4炸药"
+"weapon_c4_dy_desc"		"爆炸伤害(从最高半径衰减): 304\n最高爆炸半径: 18m/穿透半径: 4.5m\n重量: 5.5千克/12磅"
 //Underbarrels
 //m203
 "weapon_m203_dy_he"				"M203 榴弹"
-"weapon_m203_dy_he_desc"		"Det Dmg: 100|Det Rad: 4.5m\nBurn Rad: 2-3m | Dur: 16sec.\nRecoil reduction: Vertical: 5%\nWeight: 14Hg/3lbs"
+"weapon_m203_dy_he_desc"		"爆炸伤害: 100 | 爆炸半径: 4.5m\n燃烧半径: 2-3m | 持续时间: 16秒\n降低后坐力: 纵向偏移补偿: 5%\n重量: 1.4千克/3磅"
 "weapon_m203_incen"				"M203 燃烧弹"
-"weapon_m203_incen_desc"		"Det Dmg: 100|Det Rad: 4.5m\nBurn Rad: 2-3m | Dur: 16sec.\nRecoil reduction: Vertical: 5%\nWeight: 16Hg/3.5lbs"
+"weapon_m203_incen_desc"		"爆炸伤害: 100 | 爆炸半径: 4.5m\n燃烧半径: 2-3m | 持续时间: 16秒\n降低后坐力: 纵向偏移补偿: 5%\n重量: 1.6千克/3.5磅"
 "weapon_m203_dy_smoke"			"M203 烟雾弹"
-"weapon_m203_dy_smoke_desc"		"Provides Smokescreen on impact.\nArm time: 120ms\nRecoil reduction: Vertical: 5%\nWeight: 14Hg/3lbs"
+"weapon_m203_dy_smoke_desc"		"放出烟雾掩护\n扩散用时: 0.12秒\n降低后坐力: 纵向偏移补偿: 5%\n重量: 1.4千克/3磅"
 "weapon_m203_stungrenMK3"		"M203 闪光震撼弹"
-"weapon_m203_stungrenMK3_desc"	"Stun Dur: Max 6sec.|Stun Rad: 19m\nBlind: No|Deafen: Yes\nRecoil reduction: Vertical: 5%\nWeight: 16Hg/3.5lbs"
+"weapon_m203_stungrenMK3_desc"	"效果持续时间: 最高6秒 | 效果半径：19m\n致盲: 否 | 致聋: 是\n降低后坐力: 纵向偏移补偿: 5%\n重量: 1.6千克/3.5磅"
 //GP25
 "weapon_gp25_dy_he"				"GP-25 榴弹"
-"weapon_gp25_dy_he_desc"		"Det Dmg: 100|Det Rad: 4.5m\nBurn Rad: 2-3m | Dur: 16sec.\nRecoil reduction: Vertical: 5%\nWeight: 14Hg/3lbs"
+"weapon_gp25_dy_he_desc"		"爆炸伤害: 100 | 爆炸半径: 4.5m\n燃烧半径: 2-3m | 持续时间: 16秒\n降低后坐力: 纵向偏移补偿: 5%\n重量: 1.4千克/3磅"
 "weapon_gp25_incen"				"GP-25 燃烧弹"
-"weapon_gp25_incen_desc"		"Det Dmg: 100|Det Rad: 4.5m\nBurn Rad: 2-3m | Dur: 16sec.\nRecoil reduction: Vertical: 5%\nWeight: 16Hg/3.5lbs"
+"weapon_gp25_incen_desc"		"爆炸伤害: 100 | 爆炸半径: 4.5m\n燃烧半径: 2-3m | 持续时间: 16秒\n降低后坐力: 纵向偏移补偿: 5%\n重量: 1.6千克/3.5磅"
 "weapon_gp25_dy_smoke"			"GP-25 烟雾弹"
-"weapon_gp25_dy_smoke_desc"		"Provides Smokescreen on impact.\nArm time: 120ms\nRecoil reduction: Vertical: 5%\nWeight: 14Hg/3lbs"
+"weapon_gp25_dy_smoke_desc"		"放出烟雾掩护\n扩散用时: 0.12秒\n降低后坐力: 纵向偏移补偿: 5%\n重量: 1.4千克/3磅"
 "weapon_gp25_stungrenMK3"		"GP-25 闪光震撼弹"
-"weapon_gp25_stungrenMK3_desc"	"Stun Dur: Max 6sec.|Stun Rad: 19m\nBlind: No|Deafen: Yes\nRecoil reduction: Vertical: 5%\nWeight: 16Hg/3.5lbs"
+"weapon_gp25_stungrenMK3_desc"	"效果持续时间: 最高6秒 | 效果半径：19m\n致盲: 否 | 致聋: 是\n降低后坐力: 纵向偏移补偿: 5%\n重量: 1.6千克/3.5磅"
 //m320
 "weapon_m320_dy_he"				"M320 榴弹"
-"weapon_m320_dy_he_desc"		"Det Dmg: 100|Det Rad: 4.5m\nBurn Rad: 2-3m | Dur: 16sec.\nRecoil reduction: Vertical: 5%\nWeight: 15Hg/3.3lbs"
+"weapon_m320_dy_he_desc"		"爆炸伤害: 100 | 爆炸半径: 4.5m\n燃烧半径: 2-3m | 持续时间: 16秒\n降低后坐力: 纵向偏移补偿: 5%\n重量: 1.5千克/3.3磅"
 "weapon_m320_incen"				"M320 燃烧弹"
-"weapon_m320_incen_desc"		"Det Dmg: 100|Det Rad: 4.5m\nBurn Rad: 2-3m | Dur: 16sec.\nRecoil reduction: Vertical: 5%\nWeight: 17Hg/3.7lbs"
+"weapon_m320_incen_desc"		"爆炸伤害: 100 | 爆炸半径: 4.5m\n燃烧半径: 2-3m | 持续时间: 16秒\n降低后坐力: 纵向偏移补偿: 5%\n重量: 1.7千克/3.7磅"
 "weapon_m320_dy_smoke"			"M320 烟雾弹"
-"weapon_m320_dy_smoke_desc"		"Provides Smokescreen on impact.\nArm time: 120ms\nRecoil reduction: Vertical: 5%\nWeight: 15Hg/3.3lbs"
+"weapon_m320_dy_smoke_desc"		"放出烟雾掩护\n扩散用时: 0.12秒\n降低后坐力: 纵向偏移补偿: 5%\n重量: 1.5千克/3.3磅"
 "weapon_m320_stungrenMK3"		"M320 闪光震撼弹"
-"weapon_m320_stungrenMK3_desc"	"Stun Dur: Max 6sec.|Stun Rad: 19m\nBlind: No|Deafen: Yes\nRecoil reduction: Vertical: 5%\nWeight: 17Hg/3.7lbs"
+"weapon_m320_stungrenMK3_desc"	"效果持续时间: 最高6秒 | 效果半径：19m\n致盲: 否 | 致聋: 是\n降低后坐力: 纵向偏移补偿: 5%\n重量: 1.7千克/3.7磅"
 
 //Launchers
-"weapon_rpg7_dy"				"RPG-7"
-"weapon_rpg7_dy_desc"			"Det Dmg: 230|Det Rad: 14.2m\nPenetration Radius: 2.9m | Rockets: 2\nWeight: 78Hg/17.1lbs"
+"weapon_rpg7_dy"				"RPG-7 火箭发射器"
+"weapon_rpg7_dy_desc"			"爆炸伤害: 230 | 爆炸半径: 14.2m\n穿透半径: 2.9m | 携带量: 2\n重量: 7.8千克/17.1磅"
 "weapon_at4_dy"					"AT4 火箭发射器"
-"weapon_at4_dy_desc"			"Det Dmg: 300|Det Rad: 21m\nPen Rad: 5.7m | Rockets: 1\nWeight: 72Hg/15.8lbs"
+"weapon_at4_dy_desc"			"爆炸伤害: 300 | 爆炸半径: 21m\n穿透半径: 5.7m | 携带量: 1\n重量: 7.2千克/15.8磅"
 "weapon_law_dy"					"M72 LAW 火箭发射器"
-"weapon_law_dy_desc"			"Det Dmg: 210|Det Rad: 12.3m\nPen Rad: 1.9m | Rockets: 1\nWeight: 30Hg/5.5lbs"
+"weapon_law_dy_desc"			"爆炸伤害: 210 | 爆炸半径: 12.3m\n穿透半径: 1.9m | 携带量: 1\n重量: 3千克/5.5磅"
 
 //////////////////scopes////////////////////////
 "weapon_upgrade_scope_PKS_07"		"PKS-07 7倍瞄准镜"
-"weapon_upgrade_scope_PKS_07_desc"	"The PKS-07 is a 7x magnification Russian scope."
+"weapon_upgrade_scope_PKS_07_desc"	"7倍俄制瞄准镜"
 
 //////melee///
 
@@ -562,60 +562,60 @@
 
 ////////////////////armor////////////////////////
 
-"gear_nij_2_armor"			"NIJ II Vest"
-"gear_nij_2_armor_desc"			"伤害减少:\n胸部/腹部: 53%\n炸药减伤: 40%\n重量: 2公斤/4.5磅"
+"gear_nij_2_armor"			"NIJ II 防弹衣"
+"gear_nij_2_armor_desc"			"伤害减免:\n胸部/腹部: 53%\n爆炸抵抗: 40%\n重量: 2千克/4.5磅"
 
-"gear_nij_3a_armor"			"NIJ IIIa Vest"
-"gear_nij_3a_armor_desc"		"伤害减少:\n胸部/腹部: 58%\n炸药减伤: 40%\n重量: 3公斤/6.6磅"
+"gear_nij_3a_armor"			"NIJ IIIa 防弹衣"
+"gear_nij_3a_armor_desc"		"伤害减免:\n胸部/腹部: 58%\n爆炸抵抗: 40%\n重量: 3千克/6.6磅"
 
-"gear_SAPI_armor"			"SAPI Plate"
-"gear_SAPI_armor_desc"			"伤害减少:\n胸部: 77% | 腹部: 70%\n炸药减伤: 20%\n重量: 6.6公斤/14.6磅"
+"gear_SAPI_armor"			"SAPI 防弹插板"
+"gear_SAPI_armor_desc"			"伤害减免:\n胸部: 77% | 腹部: 70%\n爆炸抵抗: 20%\n重量: 6.6千克/14.6磅"
 
-"gear_ESAPI_armor"			"E-SAPI Plate"
-"gear_ESAPI_armor_desc"			"伤害减少:\n胸部: 80% | 腹部: 73%\n炸药减伤: 20%\n重量: 7.5公斤/16.6磅"
+"gear_ESAPI_armor"			"E-SAPI 防弹插板"
+"gear_ESAPI_armor_desc"			"伤害减免:\n胸部: 80% | 腹部: 73%\n爆炸抵抗: 20%\n重量: 7.5千克/16.6磅"
 
-"gear_AR500_armor"			"AR500 IV Plate"
-"gear_AR500_armor_desc"			"伤害减少:\n胸部: 83% | 腹部: 76%\n炸药减伤: 20%\n重量: 8.4公斤/18.6磅"
+"gear_AR500_armor"			"AR500 IV 防弹插板"
+"gear_AR500_armor_desc"			"伤害减免:\n胸部: 83% | 腹部: 76%\n爆炸抵抗: 20%\n重量: 8.4千克/18.6磅"
 
 "gear_daps_leba_armor1"		"DAPS-LEBA IIIa"
-"gear_daps_leba_armor1_desc"		"伤害减少:\n手臂: 30% | 腿部: 35%\n重量: 2.8公斤/6.2磅"
+"gear_daps_leba_armor1_desc"		"伤害减免:\n手臂: 30% | 腿部: 35%\n重量: 2.8千克/6.2磅"
 
 "gear_daps_armor1"			"DAPS IIIa"
-"gear_daps_armor1_desc"			"伤害减少:\n手臂: 30%\n重量: 3公斤/0.7磅"
+"gear_daps_armor1_desc"			"伤害减免:\n手臂: 30%\n重量: 3千克/0.7磅"
 
 "gear_leba_armor1"			"LEBA Kevlar IIIa"
-"gear_leba_armor1_desc"			"伤害减少:\n腿部: 35%\n重量: 1.7公斤/3.7磅"
+"gear_leba_armor1_desc"			"伤害减免:\n腿部: 35%\n重量: 1.7千克/3.7磅"
 
 "gear_lw_helmet_sitka"			"US-Mich Helm IIIa Goggles/Sitka"
-"gear_lw_helmet_sitka_desc"			"伤害减少:\nHead: 60%\n重量: 2.2公斤/4.8磅"
+"gear_lw_helmet_sitka_desc"			"伤害减免:\n头部: 60%\n重量: 2.2千克/4.8磅"
 "gear_lw_helmet"				"US-Mich Helm IIIa"
-"gear_lw_helmet_desc"			"伤害减少:\n头部: 60%\n重量: 2.2公斤/4.8磅"
+"gear_lw_helmet_desc"			"伤害减免:\n头部: 60%\n重量: 2.2千克/4.8磅"
 
-"gear_devgru_1"			"Mich-Helm II - DEFAULT"
-"gear_devgru_1_desc"			"Remove won't remove helm\nDamage Reduction:\nHead: 35%\nWeight: 14Hg/3.1磅"
+"gear_devgru_1"			"Mich-Helm II - 默认"
+"gear_devgru_1_desc"			"Remove won't remove helm\nDamage Reduction:\n头: 35%\n重量: 1.4千克/3.1磅"
 "gear_devgru_2"			"Mich-Helm IIa"
-"gear_devgru_2_desc"			"Default: Mich II 30%\nDamage Reduction:\nUpgrade to: 40%\nWeight: 18Hg/4.0磅"
+"gear_devgru_2_desc"			"Default: Mich II 30%\nDamage Reduction:\nUpgrade to: 40%\n重量: 1.8千克/4.0磅"
 "gear_devgru_3"			"Mich-Helm IIIa"
-"gear_devgru_3_desc"			"Default: Mich II 30%\nDamage Reduction:\nUpgrade to: 45%\nWeight: 22Hg/4.9磅"
+"gear_devgru_3_desc"			"Default: Mich II 30%\nDamage Reduction:\nUpgrade to: 45%\n重量: 2.2千克/4.9磅"
 "gear_bonnie_mask"			"奔尼帽-Sitka"
-"gear_bonnie_mask_desc"			"伤害减少: 无\n重量: 无"
+"gear_bonnie_mask_desc"			"伤害减免: 无\n重量: 无"
 "gear_bonnie_nomask"			"奔尼帽"
-"gear_bonnie_nomask_desc"			"伤害减少: None\n重量: 无"
+"gear_bonnie_nomask_desc"			"伤害减免: 无\n重量: 无"
 "gear_beanie_black"			"黑色奔尼帽"
-"gear_beanie_black_desc"			"伤害减少: 无\n重量: 无"
+"gear_beanie_black_desc"			"伤害减免: 无\n重量: 无"
 "gear_beanie_brown"			"褐色无边帽"
-"gear_beanie_brown_desc"			"伤害减少: 无\n重量: 无"
+"gear_beanie_brown_desc"			"伤害减免: 无\n重量: 无"
 "gear_cap_light"						"SF Cap Light"
-"gear_cap_light_desc"					"伤害减少: 无\n重量: 无"
+"gear_cap_light_desc"					"伤害减免: 无\n重量: 无"
 "gear_cap_light_spec"					"SF Cap Light Spec."
-"gear_cap_light_spec_desc"				"伤害减少: 无\n重量: 无"
+"gear_cap_light_spec_desc"				"伤害减免: 无\n重量: 无"
 "gear_cap_vip_dark"						"SF Cap Dark"
-"gear_cap_vip_dark_desc"				"伤害减少: 无\n重量: 无"
+"gear_cap_vip_dark_desc"				"伤害减免: 无\n重量: 无"
 
 "gear_tcap_light_spec"					"Tactical Cap Light Spec."
-"gear_tcap_light_spec_desc"				"Damage Reduction: None\nWeight: None"
+"gear_tcap_light_spec_desc"				"伤害减免: 无\n重量: 无"
 "gear_tcap_dark_spec"					"Tactical Cap Dark Spec."
-"gear_tcap_dark_spec_desc"				"Damage Reduction: None\nWeight: None"
+"gear_tcap_dark_spec_desc"				"伤害减免: 无\n重量: 无"
 
 //////////////////vest////////////////////////
 "gear_chest"							"Chest"
@@ -648,36 +648,36 @@
 "pistol_bag_2"							"Pistol Rig B"
 "pistol_bag_2_desc"						"2 Vest pouches totalling 4 extra sidearm magazines."
 
-"weapon_upgrade_12_magazine_extended_dy_desc"		"Extend magsize to 12 rounds."
-"weapon_upgrade_30_magazine_extended_dy_desc"		"Extend magsize to 30 rounds."
-"weapon_upgrade_42_magazine_extended_dy_desc"		"Extend magsize to 42 rounds."
-"weapon_upgrade_40_magazine_extended_dy_desc"		"Extend magsize to 40 rounds."
-"weapon_upgrade_75_magazine_extended_dy_desc"		"Extend magsize to 75 round drum."
-"weapon_upgrade_15_magazine_extended_dy_desc"		"Extend magsize to 15 rounds."
+"weapon_upgrade_12_magazine_extended_dy_desc"		"载弹量提高到12发"
+"weapon_upgrade_30_magazine_extended_dy_desc"		"载弹量提高到30发"
+"weapon_upgrade_42_magazine_extended_dy_desc"		"载弹量提高到42发"
+"weapon_upgrade_40_magazine_extended_dy_desc"		"载弹量提高到40发"
+"weapon_upgrade_75_magazine_extended_dy_desc"		"将弹匣更换为75发弹鼓"
+"weapon_upgrade_15_magazine_extended_dy_desc"		"载弹量提高到15发"
 
-"weapon_upgrade_beta_50_dy"							"Beta Magazine"
-"weapon_upgrade_50_magazine_extended_dy_desc"		"Extend magsize to 50 round beta drum."
+"weapon_upgrade_beta_50_dy"							"Beta弹鼓"
+"weapon_upgrade_50_magazine_extended_dy_desc"		"将弹匣更换为50发beta弹鼓"
 
-"weapon_upgrade_beta_75_dy"							"HC Beta Magazine"
-"weapon_upgrade_75_magazine_extended_dy_desc"		"Extends magsize to high capacity 75 round beta drum."
+"weapon_upgrade_beta_75_dy"							"HC Beta弹鼓"
+"weapon_upgrade_75_magazine_extended_dy_desc"		"将弹匣更换为75发高容量beta弹鼓"
 
-"weapon_upgrade_magazine_extended_usp_desc"		"Extends magsize for USP to 18 rounds"
-"weapon_upgrade_magazine_extended_glock18_desc"		"Extends magsize for Glock18 to 33 rounds"
+"weapon_upgrade_magazine_extended_usp_desc"		"将USP的载弹量提高到18发"
+"weapon_upgrade_magazine_extended_glock18_desc"		"将Glock18的载弹量提高到33发"
 
 "weapon_quick_reload_skill"					"快速装弹"
-"weapon_quick_reload_skill_desc"			"缩短15%的装弹速度."
+"weapon_quick_reload_skill_desc"			"缩短15%的装弹速度"
 
 "weapon_quick_draw_holster_skill"				"快速拔枪"
-"weapon_quick_draw_holster_skill_desc"			"缩短15%的拔枪速度."
+"weapon_quick_draw_holster_skill_desc"			"缩短15%的拔枪速度"
 
 "weapon_quick_draw_sling"				"战术枪带"
-"weapon_quick_draw_sling_desc"			"缩短15% 卡宾枪/SMG冲锋枪/步枪 拔出速度."
+"weapon_quick_draw_sling_desc"			"缩短15% 卡宾枪/SMG冲锋枪/步枪 拔出速度"
 
 "fast_bolt_action"				"快速栓动"
-"fast_bolt_action_desc"			"缩短15%的栓动速度."
+"fast_bolt_action_desc"			"缩短15%的栓动速度"
 
 "fast_pump_action"				"快速泵动"
-"fast_pump_action_desc"			"缩短15%的泵动速度."
+"fast_pump_action_desc"			"缩短15%的泵动速度"
 //////////////////gear////////////////////////
 
 "sec_sunglasses"						"Aviators"
