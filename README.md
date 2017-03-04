@@ -6,24 +6,8 @@ repsitory中的文件可以随意使用.
 关于翻译:   
 我们需要翻译的文件为resource/gnalvlsrealism_schinese.txt(原编码:UCS-2 Little Endian,现改为UTF-8 NO BOM)
 
-需要翻译的部分:
+需要翻译的部分:			
+已基本完工,目前正进行翻译补漏及润色环节.
 
-兵种  已完成     
-AMMO UPGRADE        
-Weapon Attachment Upgrades 描述部分未翻译      
-SHOTGUNS    
-RIFLES  
-SNIPER RIFLES   
-LMGS    
-SMGS    
-PISTOLS     
-EXPLOSIVES 描述部分未翻译      
-scopes      
-melee   已完成     
-armor   部分未翻译       
-vest    部分未翻译       
-gear    
-gui slots   已完成
-
-STF翻译组   
-Kud/Xiaooloong
+STF翻译组   	
+Kud/Xiaooloong/FireMaple

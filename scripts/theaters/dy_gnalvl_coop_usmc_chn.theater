@@ -33,7 +33,7 @@
 			"squads"
 			{
 				
-				"Assault Team [Alpha]"
+				"[A] 突击小组"
 				{
 					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
 					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
@@ -43,7 +43,7 @@
 					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
 				}
-				"Support Team [Bravo]"
+				"[B] 支援小组"
 				{
 					"#Squad_Gnalvl_TeamLeader"			"gnalvl_teamleader_usmc"
 					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_2"
@@ -52,7 +52,7 @@
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
 				}
-				"Recon Team [Charlie]"
+				"[c] 侦察小组"
 				{
 					"#Squad_Gnalvl_TeamLeader_Recon"	"Gnalvl_teamleader_recon_usmc"
 					"#Squad_Gnalvl_ReconMedic"			"gnalvl_recon_medic_usmc"

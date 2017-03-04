@@ -874,6 +874,7 @@
 				//Primaries
 				"weapon"			"weapon_rpk"
 				"weapon"			"weapon_m249"
+				"weapon"			"weapon_m60"
 				"weapon"			"weapon_galil_sar"
 				"weapon"			"weapon_rpk74m"
 				//"weapon"			"weapon_m16a4"
@@ -948,6 +949,7 @@
 				//Primaries
 				"weapon"			"weapon_rpk"
 				"weapon"			"weapon_m249"
+				"weapon"			"weapon_m60"
 				"weapon"			"weapon_galil_sar"
 				"weapon"			"weapon_rpk74m"
 				//"weapon"			"weapon_m16a4"
@@ -1037,6 +1039,8 @@
 				"weapon"			"weapon_mk20_scar"
 				"weapon"			"weapon_rfb"
 				"weapon"			"weapon_svd"
+				"weapon"			"weapon_m14"
+				"weapon"			"weapon_m107"
 				"weapon"			"weapon_aug3"
 
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
@@ -1299,6 +1303,7 @@
 				//Primaries
 				"weapon"			"weapon_sks"
 				"weapon"			"weapon_m14"
+				"weapon"			"weapon_m107"
 				"weapon"			"weapon_fal"
 				"weapon"			"weapon_m40a1"
 				"weapon"			"weapon_akm"
@@ -1381,6 +1386,7 @@
 				//Primaries
 				"weapon"			"weapon_sks"
 				"weapon"			"weapon_m14"
+				"weapon"			"weapon_m107"
 				"weapon"			"weapon_fal"
 				"weapon"			"weapon_m40a1"
 				"weapon"			"weapon_akm"
@@ -1472,6 +1478,8 @@
 				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_m40a1"
 				"weapon"			"weapon_m40a5"
+				"weapon"			"weapon_m14"
+				"weapon"			"weapon_m107"
 				"weapon"			"weapon_galil_sar"
 				"weapon"			"weapon_g3a3"
 				"weapon"			"weapon_acr"
