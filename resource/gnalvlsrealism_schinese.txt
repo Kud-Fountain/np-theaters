@@ -6,7 +6,7 @@
 { 
 
 "Team_Security"					"中美联合作战部队"
-"Team_Insurgents"				"叛乱分子"
+"Team_Insurgents"				"伊拉克和大叙利亚伊斯兰国部队"
 
 "Squad_Gnalvl_Rifleman"			"步枪手" //unassigned
 "Squad_Gnalvl_Marksman"			"神射手" //unassigned

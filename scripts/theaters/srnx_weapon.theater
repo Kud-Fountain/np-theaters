@@ -6836,7 +6836,7 @@
 			{
 				"spread"					"1.6 1.6 0.0"
 				"FireModes"					"pump"
-				"maxrange"					"6000"
+				"maxrange"					"8000"
 				"singleReload"				"1"
 				"tacticalreload"			"1"
 			}
@@ -6929,7 +6929,7 @@
 			{
 				"spread"					"1.4 1.4 0.0"
 				"FireModes"					"pump"
-				"maxrange"					"7000"
+				"maxrange"					"8000"
 				"singleReload"				"1"
 				"tacticalreload"			"1"
 			}
@@ -7123,7 +7123,7 @@
 			{
 				"spread"			"3.0 3.0 3.0"
 				"FireModes"			"semi, full"
-				"maxrange"			"6000"
+				"maxrange"			"6500"
 				"singleReload"		"0"
 			}
 			"ammo_clip"
@@ -7307,7 +7307,7 @@
 			{
 				"spread"				"1.5 4.2 0.0"
 				"FireModes"				"semi"
-				"maxrange"				"8000"
+				"maxrange"				"6000"
 				"singleReload"			"1"
 				"tacticalreload"			"1"
 			}

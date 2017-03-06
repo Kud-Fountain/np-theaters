@@ -331,7 +331,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_mk48"
+				"weapon"			"weapon_m60"
 				"weapon_upgrade"	"ammo_ap_mk48"
 				//Secondary
 				"weapon"			"weapon_kingcobra"
@@ -344,7 +344,7 @@
 			"allowed_weapons"
 			{
 				//Primary
-				"weapon"			"weapon_mk48"
+				"weapon"			"weapon_m60"
 				"weapon_upgrade"	"ammo_ap_mk48"
 				//Secondary
 				"weapon"			"weapon_kingcobra"

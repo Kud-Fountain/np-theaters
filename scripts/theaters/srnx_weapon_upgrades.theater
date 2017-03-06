@@ -4828,7 +4828,7 @@
 			{
 				"weapon"				"weapon_l1a1"
 			}
-			"ammo_type_override"			"762x51_hp_box_30rnd"
+			"ammo_type_override"			"762x51_hp_box_20rnd"
 			//gnalvl = "ammo_type_override"			"762x51_mag_hp"
 		}
 		"ammo_ap_l1a1"
@@ -4843,7 +4843,7 @@
 			{
 				"weapon"				"weapon_l1a1"
 			}
-			"ammo_type_override"			"762x51_ap_box_30rnd"
+			"ammo_type_override"			"762x51_ap_box_20rnd"
 			//gnalvl "ammo_type_override"			"762x51_mag_ap"
 		}
 		"ammo_hp_g3a3"
@@ -4857,7 +4857,7 @@
 			{
 				"weapon"				"weapon_g3a3"
 			}
-			"ammo_type_override"			"762x51_hp_box_30rnd"
+			"ammo_type_override"			"762x51_hp_box_20rnd"
 			//gnalvl = "ammo_type_override"			"762x51_mag_hp"
 		}
 		"ammo_ap_g3a3"
@@ -4872,7 +4872,7 @@
 			{
 				"weapon"				"weapon_g3a3"
 			}
-			"ammo_type_override"			"762x51_ap_box_30rnd"
+			"ammo_type_override"			"762x51_ap_box_20rnd"
 			//gnalvl "ammo_type_override"			"762x51_mag_ap"
 		}
 		// ========================================

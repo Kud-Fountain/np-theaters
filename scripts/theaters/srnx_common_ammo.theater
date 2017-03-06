@@ -2064,99 +2064,88 @@
 			"tracer_type"				"whiz_with_line"
 			"tracer_lowammo"			"7"
 		}
+				// ========================================
+		// BMG
 		// ========================================
-		// NOT MAGAZINES
-		// ========================================
-		
-		// ========================================
-		// m40a1
-		// ========================================
-		"762x51mm"
+		"50_bmg"
 		{
 			"import"				"default"
-			"SuppressionIncrement"			"130"
-			"brass_model"				"models/weapons/shells/762x51.mdl"
-			"carry"					"120"
-			"flags_clear"				"AMMO_USE_MAGAZINES"
+			"SuppressionIncrement"			"330"
+			"brass_model"				"models/weapons/shells/762x54.mdl"
 			"Damage"
 			{
-				"10"					"200"
-				"20000"					"120"
+				"10"					"405"
+				"40000"					"320"
 			}
 			"PenetrationPower"
 			{
-				"10"					"1400"
-				"20000"					"900"
+				"10"					"2400"
+				"40000"					"1900"
 			}
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"       "6.00"
-				"HITGROUP_CHEST"      "5.9"
-				"HITGROUP_STOMACH"    "5.9"
-				"HITGROUP_LEFTARM"    "1.4"
-				"HITGROUP_RIGHTARM"   "1.4"
-				"HITGROUP_LEFTLEG"    "1.4"
-				"HITGROUP_RIGHTLEG"   "1.4"
+				"HITGROUP_HEAD"       "8.00"
+				"HITGROUP_CHEST"      "7.9"
+				"HITGROUP_STOMACH"    "7.9"
+				"HITGROUP_LEFTARM"    "3.4"
+				"HITGROUP_RIGHTARM"   "3.4"
+				"HITGROUP_LEFTLEG"    "3.4"
+				"HITGROUP_RIGHTLEG"   "3.4"
 			}
 		}
-		
-		"762x51mm_hp"
+		"50_bmg_hp"
 		{
 			"import"				"default"
-			"SuppressionIncrement"			"130"
-			"brass_model"				"models/weapons/shells/762x51.mdl"
-			"carry"					"120"
-			"flags_clear"				"AMMO_USE_MAGAZINES"
+			"SuppressionIncrement"			"330"
+			"brass_model"				"models/weapons/shells/762x54.mdl"
 			"Damage"
 			{
-				"10"					"200"
-				"20000"					"120"
+				"10"					"405"
+				"40000"					"320"
 			}
       		"PenetrationPower"
 			{
-				"10"					"1000"
-				"20000"					"500"
+				"10"					"2000"
+				"40000"					"1500"
 			}
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"       "5.5"
-				"HITGROUP_CHEST"      "5.4"
-				"HITGROUP_STOMACH"    "5.4"
-				"HITGROUP_LEFTARM"    "1.8"
-				"HITGROUP_RIGHTARM"   "1.8"
-				"HITGROUP_LEFTLEG"    "1.8"
-				"HITGROUP_RIGHTLEG"   "1.8"
+				"HITGROUP_HEAD"       "7.5"
+				"HITGROUP_CHEST"      "7.4"
+				"HITGROUP_STOMACH"    "7.4"
+				"HITGROUP_LEFTARM"    "3.8"
+				"HITGROUP_RIGHTARM"   "3.8"
+				"HITGROUP_LEFTLEG"    "3.8"
+				"HITGROUP_RIGHTLEG"   "3.8"
 			}
 		}
-		"762x51mm_ap"
+		"50_bmg_ap"
 		{
 			"import"				"default"
-			"SuppressionIncrement"			"130"
-			"brass_model"				"models/weapons/shells/762x51.mdl"
-			"carry"					"120"
-			"flags_clear"				"AMMO_USE_MAGAZINES"
+			"SuppressionIncrement"			"330"
+			"brass_model"				"models/weapons/shells/762x54.mdl"
 			"Damage"
 			{
-				"10"					"200"
-				"20000"					"120"
+				"10"					"405"
+				"40000"					"320"
 			}
 			"PenetrationPower"
 			{
-				"10"					"2100"
-				"20000"					"1100"
+				"10"					"3100"
+				"40000"					"2100"
 			}
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"       "6.4"
-				"HITGROUP_CHEST"      "6.3"
-				"HITGROUP_STOMACH"    "6.3"
-				"HITGROUP_LEFTARM"    "1.00"
-				"HITGROUP_RIGHTARM"   "1.00"
-				"HITGROUP_LEFTLEG"    "1.00"
-				"HITGROUP_RIGHTLEG"   "1.00"
+				"HITGROUP_HEAD"       "8.4"
+				"HITGROUP_CHEST"      "8.3"
+				"HITGROUP_STOMACH"    "8.3"
+				"HITGROUP_LEFTARM"    "3.00"
+				"HITGROUP_RIGHTARM"   "3.00"
+				"HITGROUP_LEFTLEG"    "3.00"
+				"HITGROUP_RIGHTLEG"   "3.00"
 			}
 		}
-		// ========================================
+				// ========================================
 		// svd
 		// ========================================
 		"762x54mm_mag"
@@ -2264,88 +2253,100 @@
 			}
 
 		}
-
 		// ========================================
-		// BMG
+		// NOT MAGAZINES
 		// ========================================
-		"50_bmg"
+		
+		// ========================================
+		// m40a1
+		// ========================================
+		"762x51mm"
 		{
 			"import"				"default"
-			"SuppressionIncrement"			"330"
-			"brass_model"				"models/weapons/shells/762x54.mdl"
+			"SuppressionIncrement"			"130"
+			"brass_model"				"models/weapons/shells/762x51.mdl"
+			"carry"					"120"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
 			"Damage"
 			{
-				"10"					"405"
-				"40000"					"320"
+				"10"					"200"
+				"20000"					"120"
 			}
 			"PenetrationPower"
 			{
-				"10"					"2400"
-				"40000"					"1900"
+				"10"					"1400"
+				"20000"					"900"
 			}
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"       "8.00"
-				"HITGROUP_CHEST"      "7.9"
-				"HITGROUP_STOMACH"    "7.9"
-				"HITGROUP_LEFTARM"    "3.4"
-				"HITGROUP_RIGHTARM"   "3.4"
-				"HITGROUP_LEFTLEG"    "3.4"
-				"HITGROUP_RIGHTLEG"   "3.4"
+				"HITGROUP_HEAD"       "6.00"
+				"HITGROUP_CHEST"      "5.9"
+				"HITGROUP_STOMACH"    "5.9"
+				"HITGROUP_LEFTARM"    "1.4"
+				"HITGROUP_RIGHTARM"   "1.4"
+				"HITGROUP_LEFTLEG"    "1.4"
+				"HITGROUP_RIGHTLEG"   "1.4"
 			}
 		}
-		"50_bmg_hp"
+		
+		"762x51mm_hp"
 		{
 			"import"				"default"
-			"SuppressionIncrement"			"330"
-			"brass_model"				"models/weapons/shells/762x54.mdl"
+			"SuppressionIncrement"			"130"
+			"brass_model"				"models/weapons/shells/762x51.mdl"
+			"carry"					"120"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
 			"Damage"
 			{
-				"10"					"405"
-				"40000"					"320"
+				"10"					"200"
+				"20000"					"120"
 			}
       		"PenetrationPower"
 			{
-				"10"					"2000"
-				"40000"					"1500"
+				"10"					"1000"
+				"20000"					"500"
 			}
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"       "7.5"
-				"HITGROUP_CHEST"      "7.4"
-				"HITGROUP_STOMACH"    "7.4"
-				"HITGROUP_LEFTARM"    "3.8"
-				"HITGROUP_RIGHTARM"   "3.8"
-				"HITGROUP_LEFTLEG"    "3.8"
-				"HITGROUP_RIGHTLEG"   "3.8"
+				"HITGROUP_HEAD"       "5.5"
+				"HITGROUP_CHEST"      "5.4"
+				"HITGROUP_STOMACH"    "5.4"
+				"HITGROUP_LEFTARM"    "1.8"
+				"HITGROUP_RIGHTARM"   "1.8"
+				"HITGROUP_LEFTLEG"    "1.8"
+				"HITGROUP_RIGHTLEG"   "1.8"
 			}
 		}
-		"50_bmg_ap"
+		"762x51mm_ap"
 		{
 			"import"				"default"
-			"SuppressionIncrement"			"330"
-			"brass_model"				"models/weapons/shells/762x54.mdl"
+			"SuppressionIncrement"			"130"
+			"brass_model"				"models/weapons/shells/762x51.mdl"
+			"carry"					"120"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
 			"Damage"
 			{
-				"10"					"405"
-				"40000"					"320"
+				"10"					"200"
+				"20000"					"120"
 			}
 			"PenetrationPower"
 			{
-				"10"					"3100"
-				"40000"					"2100"
+				"10"					"2100"
+				"20000"					"1100"
 			}
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"       "8.4"
-				"HITGROUP_CHEST"      "8.3"
-				"HITGROUP_STOMACH"    "8.3"
-				"HITGROUP_LEFTARM"    "3.00"
-				"HITGROUP_RIGHTARM"   "3.00"
-				"HITGROUP_LEFTLEG"    "3.00"
-				"HITGROUP_RIGHTLEG"   "3.00"
+				"HITGROUP_HEAD"       "6.4"
+				"HITGROUP_CHEST"      "6.3"
+				"HITGROUP_STOMACH"    "6.3"
+				"HITGROUP_LEFTARM"    "1.00"
+				"HITGROUP_RIGHTARM"   "1.00"
+				"HITGROUP_LEFTLEG"    "1.00"
+				"HITGROUP_RIGHTLEG"   "1.00"
 			}
 		}
+
+
 		// ========================================
 		// mosin
 		// ========================================
@@ -2484,8 +2485,8 @@
 			"Damage"
 			{
 				"800"					"100"
-				"2000"					"38"
-				"7000"					"25"
+				"2000"					"15"
+				"7000"					"5"
 			}
 			"PenetrationPower"
 			{
@@ -2514,9 +2515,9 @@
 			"brass_sound"				"BOUNCE_SHOTSHELL"
 			"Damage"
 			{
-				"800"					"288"
-				"4500"					"144"
-				"9000"					"40"
+				"800"					"318"
+				"4500"					"174"
+				"9000"					"5"
 			}
 			"PenetrationPower"
 			{
