@@ -90,6 +90,7 @@
 				"weapon_upgrade"	"ammo_hp_akm"
 				//Secondary
 				"weapon"			"weapon_mp7"
+				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_hp_mp7"
 				//Explosive
 				"weapon"			"weapon_m84"
@@ -103,6 +104,7 @@
 				"weapon_upgrade"	"ammo_hp_akm"
 				//Secondary
 				"weapon"			"weapon_mp7"
+				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_hp_mp7"
 				//Explosive
 				"weapon"			"weapon_m84"
@@ -141,6 +143,7 @@
 				"weapon_upgrade"	"ammo_ap_l1a1"
 				//Secondary
 				"weapon"			"weapon_mac10"
+				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_ap_kriss"
 				//Explosive
 				"weapon"			"weapon_m84"
@@ -154,6 +157,7 @@
 				"weapon_upgrade"	"ammo_ap_l1a1"
 				//Secondary
 				"weapon"			"weapon_mac10"
+				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_ap_kriss"
 				//Explosive
 				"weapon"			"weapon_m84"
@@ -309,6 +313,7 @@
 				"weapon_upgrade"	"ammo_hp_m249"
 				//Secondary
 				"weapon"			"weapon_mp5"
+				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_ap_mp5"
 
 				//Explosive
@@ -752,6 +757,7 @@
 				"weapon_upgrade"	"ammo_ap_mosin"
 				//Secondary
 				"weapon"			"weapon_mac10"
+				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_ap_kriss"
 				//Explosive
 				"weapon"			"weapon_m18"
@@ -800,6 +806,7 @@
 				"weapon_upgrade"	"ammo_ap_svd"
 				//Secondary
 				"weapon"			"weapon_sterling"
+				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_hp_mp40"
 				//Explosive
 				"weapon"			"weapon_m18"
@@ -848,6 +855,7 @@
 				"weapon_upgrade"	"ammo_ap_g3a3"
 				//Secondary
 				"weapon"			"weapon_mac10"
+				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_hp_kriss"
 				//Explosive
 				"weapon"			"weapon_m18"
@@ -1187,6 +1195,7 @@
 
 				//Secondary
 				"weapon"			"weapon_mp40"
+				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_ap_mp40"
 				//Explosive
 				"weapon"			"weapon_anm14"

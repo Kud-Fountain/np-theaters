@@ -33,7 +33,7 @@
 			"squads"
 			{
 				
-				"Assault Team [Alpha]"
+				"突击小队 [A]"
 				{
 					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
 					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
@@ -43,7 +43,7 @@
 					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
 				}
-				"Support Team [Bravo]"
+				"支援小队 [B]"
 				{
 					"#Squad_Gnalvl_TeamLeader"			"gnalvl_teamleader_usmc"
 					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_2"
@@ -52,14 +52,23 @@
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
 				}
-				"Recon Team [Charlie]"
+				"突击小队 [C]"
 				{
 					"#Squad_Gnalvl_TeamLeader_Recon"	"Gnalvl_teamleader_recon_usmc"
 					"#Squad_Gnalvl_ReconMedic"			"gnalvl_recon_medic_usmc"
-					"#Squad_Gnalvl_Recon_Engineer"			"Gnalvl_recon_engineer_usmc"
+					"#Squad_Gnalvl_Recon_Engineer"		"Gnalvl_recon_engineer_usmc"
 					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
 					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_2"
 					"#Squad_Gnalvl_Spotter"				"Gnalvl_spotter_usmc"
+				}
+				"后勤小队 [D]"
+				{
+					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
+					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
+					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_2"
+					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_2"
+					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_2"
+					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
 				}
 			}
 		}
@@ -113,11 +122,11 @@
 					"Bot"		"standard_ins_1"
 					"Bot"		"mg_fighter_ins_1"		
 					"Bot"		"mg_fighter_ins_2" 		
-					"Bot"		"striker_ins_1" 		
-					"Bot"		"bomber_ins_1"			
+					"Bot"		"striker_ins_1"			
 					"Bot"		"sapper_ins_1"		
 					"Bot"		"sapper_ins_2"				
-					"Bot"		"scout_ins_1" 
+					"Bot"		"scout_ins_1"  		
+					"Bot"		"bomber_ins_1"
 				}	
 				
 			}

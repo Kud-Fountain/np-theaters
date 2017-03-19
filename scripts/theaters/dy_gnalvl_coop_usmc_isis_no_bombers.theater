@@ -1,6 +1,6 @@
 
 "#base" "srnx_base.theater"
-"#base"	"srnx_insurgents_military.theater"
+"#base"	"srnx_insurgents_isis.theater"
 "theater"
 {
 	"core"
@@ -99,7 +99,7 @@
 					"Bot"		"striker_ins_3"		
 					"Bot"		"sapper_ins_3"		
 					"Bot"		"striker_ins_6"		
-					"Bot"		"scout_ins_2"  		
+					"Bot"		"scout_ins_2" 		
 					"Bot"		"striker_ins_4"			
 				}
 
@@ -110,8 +110,8 @@
 					"Bot"		"standard_ins_3" 
 					"Bot"		"mg_fighter_ins_4"		
 					"Bot"		"mg_fighter_ins_5"  		
-					"Bot"		"scout_ins_3"		
-					"Bot"		"standard_ins_4"			
+					"Bot"		"scout_ins_3" 		
+					"Bot"		"striker_ins_5"			
 					"Bot"		"sapper_ins_4"			
 					"Bot"		"striker_ins_7"
 				}
@@ -126,7 +126,7 @@
 					"Bot"		"bomber_ins_1"			
 					"Bot"		"sapper_ins_1"		
 					"Bot"		"sapper_ins_2"				
-					"Bot"		"scout_ins_1" 	
+					"Bot"		"scout_ins_1" 
 				}	
 				
 			}

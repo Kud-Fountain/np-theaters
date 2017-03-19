@@ -136,82 +136,6 @@
 	"ammo"
 	{
 		//Reinit Single Loaded Ammo
-		"00buck"
-		{
-			"import"				"default"
-			//"import"    "9x19"
-			"SuppressionIncrement"		"30"
-			"bulletcount"				"9"
-			"carry"						"56"
-			"damageType"				"DMG_BUCKSHOT"
-			"brass_model"				"models/weapons/shells/12guage.mdl"
-			"brass_sound"				"BOUNCE_SHOTSHELL"
-			"Damage"
-			{
-				"800"					"100"
-				"2000"					"38"
-				"7000"					"25"
-			}
-			"PenetrationPower"
-			{
-				"1000"					"150"
-				"8000"					"60"
-			}
-			"DamageHitgroups"
-			{
-				"HITGROUP_HEAD"				"1.00"
-				"HITGROUP_CHEST"			"0.86"
-				"HITGROUP_STOMACH"			"0.86"
-				"HITGROUP_LEFTARM"			"0.8"
-				"HITGROUP_RIGHTARM"			"0.8"
-				"HITGROUP_LEFTLEG"			"0.8"
-				"HITGROUP_RIGHTLEG"			"0.8"
-			}
-		}
-		"slug"
-		{
-			"import"				"default"
-			//"import"    "9x19"
-			"SuppressionIncrement"		"30"
-			"bulletcount"				"1"
-			"damageType"				"DMG_BUCKSHOT"
-			"brass_model"				"models/weapons/shells/12guage.mdl"
-			"brass_sound"				"BOUNCE_SHOTSHELL"
-			"Damage"
-			{
-				"800"					"288"
-				"4500"					"144"
-				"9000"					"40"
-			}
-			"PenetrationPower"
-			{
-				"100"					"750"
-				"8000"					"10"
-			}
-			"DamageHitgroups"
-			{
-				"HITGROUP_HEAD"				"1.9"
-				"HITGROUP_CHEST"			"1.8"
-				"HITGROUP_STOMACH"			"1.8"
-				"HITGROUP_LEFTARM"			"0.8"
-				"HITGROUP_RIGHTARM"			"0.8"
-				"HITGROUP_LEFTLEG"			"0.8"
-				"HITGROUP_RIGHTLEG"			"0.8"
-			}
-			
-		}
-		"buckshot"
-		{
-			"import"				"00buck"
-			"carry"					"56"
-			"flags_clear"				"AMMO_USE_MAGAZINES"
-		}
-		"slugs"
-		{
-			"import"				"slug"
-			"carry"					"56"
-			"flags_clear"				"AMMO_USE_MAGAZINES"
-		}
 		// ========================================
 		// m40a1
 		// ========================================
@@ -312,7 +236,7 @@
 			"flags_clear"				"AMMO_USE_MAGAZINES"
 			"Damage"
 			{
-				"10"					"200"
+				"10"					"205"
 				"20000"					"120"
 			}
 			"PenetrationPower"
@@ -340,7 +264,7 @@
 			"flags_clear"				"AMMO_USE_MAGAZINES"
 			"Damage"
 			{
-				"10"					"200"
+				"10"					"205"
 				"20000"					"120"
 			}
       		"PenetrationPower"
@@ -368,7 +292,7 @@
 			"flags_clear"				"AMMO_USE_MAGAZINES"
 			"Damage"
 			{
-				"10"					"200"
+				"10"					"205"
 				"20000"					"120"
 			}
 			"PenetrationPower"
@@ -421,43 +345,6 @@
 			"import"					"762x54_7n14"
 			"carry"						"120"
       		"flags_clear"				"AMMO_USE_MAGAZINES" 
-		}
-		//L1a1
-		//Custom
-		"762x51_box_30rnd"
-		{
-			"import"    "762x51"
-			"magsize"	"30"
-		}
-		"762x51_hp_box_30rnd"
-		{
-			"import"    "762x51_hp"
-			"magsize"	"30"
-		}
-		"762x51_ap_box_30rnd"
-		{
-			"import"    "762x51_ap"
-			"magsize"	"30"
-		}
-		"762x51_box_20rnd"
-		{
-			"import"				"762x51"
-			"magsize"				"20"
-		}
-		"762x51_hp_box_20rnd"
-		{
-			"import"				"762x51_hp"
-			"magsize"				"20"
-		}
-		"762x51_ap_box_20rnd"
-		{
-			"import"				"762x51_ap"
-			"magsize"				"20"
-		}
-		"762x51_standard_box_20rnd"
-		{
-			"import"				"762x51_tracer"
-			"magsize"				"20"
 		}
 		// ========================================
 		// shotguns

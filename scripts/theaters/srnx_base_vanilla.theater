@@ -655,6 +655,9 @@
 				"weapon"			"weapon_czse3"
 				"weapon"			"weapon_mac10"
 				"weapon"			"weapon_kingcobra"
+				"weapon_upgrade"		"underbarrel_m203_smoke"
+				"weapon_upgrade"		"underbarrel_gp25_smoke"
+				"weapon_upgrade"		"underbarrel_m320_smoke"
 				//Explosives
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_anm14"
@@ -1229,6 +1232,9 @@
 				"weapon"			"weapon_mk20_scar"
 				"weapon"			"weapon_g3a3"
 				"weapon"			"weapon_sks"
+				"weapon_upgrade"		"underbarrel_m203_smoke"
+				"weapon_upgrade"		"underbarrel_gp25_smoke"
+				"weapon_upgrade"		"underbarrel_m320_smoke"
 				//Upgrades
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
