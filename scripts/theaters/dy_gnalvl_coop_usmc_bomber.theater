@@ -72,6 +72,14 @@
 					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_2"
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
 				}
+				"医疗小队 [E]"
+				{				
+					"#Squad_Gnalvl_ReconMedic"			"gnalvl_recon_medic_usmc"
+					"#Squad_Gnalvl_ReconMedic"			"gnalvl_recon_medic_usmc"
+					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
+					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
+					"#Squad_Gnalvl_Recon_Engineer"		"Gnalvl_recon_engineer_usmc"
+				}
 			}
 		}
 		"insurgents"
