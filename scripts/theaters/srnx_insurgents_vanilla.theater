@@ -233,7 +233,8 @@
 			{
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_leba1"
 				"weapon"			"weapon_knife"
 				
 				//Primary
@@ -265,6 +266,7 @@
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
+			//MLF Technics
 			"models"
 			{
 				"player"			"models/characters/insurgent_heavy.mdl"
@@ -272,9 +274,17 @@
 
 				"bodygroups"
 				{
-					"kit"					"2"
+					"kit"					"1"
 					"backpack"				"1"
 					"galsses"				"-1"
+				}
+				
+				"attachments"	
+				{
+					"helmet"
+					{
+						"model"			"models/characters/custom/mlf_helmet_head.mdl"
+					}
 				}
 			}
 			"buy_order" 
@@ -282,7 +292,6 @@
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_balance"
 				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
 				"weapon"			"weapon_knife"
 				
 				//Primary
@@ -316,6 +325,7 @@
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
+			//MLF Technics
 			"models"
 			{
 				"player"			"models/characters/insurgent_heavy.mdl"
@@ -323,9 +333,17 @@
 
 				"bodygroups"
 				{
-					"kit"					"2"
-					"backpack"				"-1"
+					"kit"					"1"
+					"backpack"				"1"
 					"galsses"				"-1"
+				}
+				
+				"attachments"	
+				{
+					"helmet"
+					{
+						"model"			"models/characters/custom/mlf_helmet_head.mdl"
+					}
 				}
 			}
 			"buy_order" 
@@ -333,7 +351,6 @@
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_balance"
 				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
 				"weapon"			"weapon_knife"
 				
 				//Primary
@@ -372,9 +389,17 @@
 
 				"bodygroups"
 				{
-					"kit"					"2"
-					"backpack"				"-1"
+					"kit"					"1"
+					"backpack"				"1"
 					"galsses"				"-1"
+				}
+				
+				"attachments"	
+				{
+					"helmet"
+					{
+						"model"			"models/characters/custom/mlf_helmet_head.mdl"
+					}
 				}
 			}
 			"buy_order" 
@@ -382,7 +407,7 @@
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_balance"
 				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
+				//"gear"				"srnx_BOT_leba1"
 				"weapon"			"weapon_knife"
 				
 				//Primary
@@ -529,7 +554,7 @@
 			{
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_p2_s6"
-				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_esapi"
 				"gear"				"srnx_BOT_leba1"
 				"gear"				"srnx_BOT_ins_helmet_black"
 				"weapon"			"weapon_knife"
@@ -922,7 +947,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_esapi"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -933,7 +958,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_esapi"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -963,7 +988,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_esapi"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -974,7 +999,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_esapi"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -1054,7 +1079,7 @@
 			{
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_esapi"
 				"gear"				"srnx_BOT_leba1"
 				"weapon"			"weapon_knife"
 				

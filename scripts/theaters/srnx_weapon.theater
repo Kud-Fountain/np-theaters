@@ -1454,8 +1454,8 @@
 			"melee"
 			{
 				"MeleeRange"				"75"
-				"MeleeDamage"				"60"
-				"MeleeDamageBehindBonus"	"200"
+				"MeleeDamage"				"2"
+				"MeleeDamageBehindBonus"	"5"
 				"MeleeDamageType"			"DMG_SLASH"
 				"MeleeWeaponIdleTime"		"2"
 				"SwingAttacks"

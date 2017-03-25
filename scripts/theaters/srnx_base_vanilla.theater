@@ -9,7 +9,7 @@
 	{
 		"precache"
 		{
-			"localize"	"resource/gnalvlsrealism_schinese.txt"
+			"localize"	"resource/gnalvlsrealism_%language%.txt"
 		}
 		"precache"
 		{
@@ -64,6 +64,9 @@
 			}
 			"allowed_items"
 			{
+				"weapon"			"weapon_m79"
+				"weapon"			"weapon_m79_smoke"
+				"weapon"			"weapon_m79_incen"
 				//Primaries
 				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_akm"
@@ -112,20 +115,20 @@
 				//Explosives
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_m84"
-				"weapon"			"weapon_anm14"
+				//"weapon"			"weapon_anm14"
 				"weapon"			"weapon_mk3"
 				"weapon_upgrade"		"underbarrel_m203_mk3"
-				"weapon_upgrade"		"underbarrel_m203_incendiary"
+				//"weapon_upgrade"		"underbarrel_m203_incendiary"
 				"weapon_upgrade"		"underbarrel_m203_he"
 				"weapon_upgrade"		"underbarrel_gp25_he"
-				"weapon_upgrade"		"underbarrel_gp25_incendiary"
+				//"weapon_upgrade"		"underbarrel_gp25_incendiary"
 				"weapon_upgrade"		"underbarrel_gp25_mk3"
 				"weapon_upgrade"		"underbarrel_m203_smoke"
 				"weapon_upgrade"		"underbarrel_gp25_smoke"
 				//m320s
 				"weapon_upgrade"		"underbarrel_m320_he"
 				"weapon_upgrade"		"underbarrel_m320_mk3"
-				"weapon_upgrade"		"underbarrel_m320_incendiary"
+				//"weapon_upgrade"		"underbarrel_m320_incendiary"
 				"weapon_upgrade"		"underbarrel_m320_smoke"
 				"weapon_upgrade"		"magazine_drum_75rd"
 				//pistols
@@ -215,15 +218,15 @@
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_anm14"
 				"weapon_upgrade"		"underbarrel_m203_mk3"
-				"weapon_upgrade"		"underbarrel_m203_incendiary"
+				//"weapon_upgrade"		"underbarrel_m203_incendiary"
 				"weapon_upgrade"		"underbarrel_m203_he"
 				"weapon_upgrade"		"underbarrel_gp25_he"
-				"weapon_upgrade"		"underbarrel_gp25_incendiary"
+				//"weapon_upgrade"		"underbarrel_gp25_incendiary"
 				"weapon_upgrade"		"underbarrel_gp25_mk3"
 				//m320s
 				"weapon_upgrade"		"underbarrel_m320_he"
 				"weapon_upgrade"		"underbarrel_m320_mk3"
-				"weapon_upgrade"		"underbarrel_m320_incendiary"
+				//"weapon_upgrade"		"underbarrel_m320_incendiary"
 				//Pistols
 				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"
@@ -309,7 +312,7 @@
 				//Explosives
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_m84"
-				"weapon"			"weapon_anm14"
+				//"weapon"			"weapon_anm14"
 				"weapon"			"weapon_mk3"
 				//Pistols
 				"weapon"			"weapon_model10"
@@ -554,6 +557,9 @@
 				"weapon"			"weapon_sig553"
 				"weapon"			"weapon_g36c"
 				"weapon"			"weapon_famas"
+				"weapon"			"weapon_m79"
+				"weapon"			"weapon_m79_smoke"
+				//"weapon"			"weapon_m79_incen"
 				//Secondaries
 				"weapon"			"weapon_m1a1"
 				"weapon"			"weapon_mini14"
@@ -569,15 +575,18 @@
 				"weapon"			"weapon_kriss"
 				"weapon"			"weapon_mk18_m0"
 				
+				"weapon_upgrade"		"underbarrel_m203_smoke"
+				"weapon_upgrade"		"underbarrel_gp25_smoke"
+				"weapon_upgrade"		"underbarrel_m320_smoke"
 				"weapon"			"weapon_mp7"
 				"weapon"			"weapon_czse3"
 				"weapon"			"weapon_mac10"
 				"weapon"			"weapon_kingcobra"
 				//Explosives
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_anm14"
+				//"weapon"			"weapon_anm14"
 				"weapon"			"weapon_c4_clicker"
-				"weapon"			"weapon_molotov"
+				//"weapon"			"weapon_molotov"
 				//Pistols
 				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"
@@ -636,6 +645,9 @@
 				"weapon"			"weapon_sig553"
 				"weapon"			"weapon_g36c"
 				"weapon"			"weapon_famas"
+				"weapon"			"weapon_m79"
+				"weapon"			"weapon_m79_smoke"
+				//"weapon"			"weapon_m79_incen"
 				//Secondaries
 				"weapon"			"weapon_m1a1"
 				"weapon"			"weapon_mini14"
@@ -660,9 +672,9 @@
 				"weapon_upgrade"		"underbarrel_m320_smoke"
 				//Explosives
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_anm14"
+				//"weapon"			"weapon_anm14"
 				"weapon"			"weapon_c4_clicker"
-				"weapon"			"weapon_molotov"
+				//"weapon"			"weapon_molotov"
 				//Pistols
 				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"
@@ -748,7 +760,7 @@
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_mk3"
 				"weapon"			"weapon_m18"
-				"weapon"			"weapon_anm14"
+				//"weapon"			"weapon_anm14"
 				"weapon"			"weapon_healthkit"
 				"weapon_upgrade"		"underbarrel_m203_smoke"
 				"weapon_upgrade"		"underbarrel_gp25_smoke"
@@ -832,7 +844,7 @@
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_mk3"
 				"weapon"			"weapon_m18"
-				"weapon"			"weapon_anm14"
+				//"weapon"			"weapon_anm14"
 				"weapon"			"weapon_healthkit"
 				"weapon_upgrade"		"underbarrel_m203_smoke"
 				"weapon_upgrade"		"underbarrel_gp25_smoke"
@@ -1070,17 +1082,17 @@
 				//Explosives
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_m84"
-				"weapon"			"weapon_anm14"
+				//"weapon"			"weapon_anm14"
 				"weapon_upgrade"		"underbarrel_m203_mk3"
-				"weapon_upgrade"		"underbarrel_m203_incendiary"
+				//"weapon_upgrade"		"underbarrel_m203_incendiary"
 				"weapon_upgrade"		"underbarrel_m203_he"
 				"weapon_upgrade"		"underbarrel_gp25_he"
-				"weapon_upgrade"		"underbarrel_gp25_incendiary"
+				//"weapon_upgrade"		"underbarrel_gp25_incendiary"
 				"weapon_upgrade"		"underbarrel_gp25_mk3"
 				//m320s
 				"weapon_upgrade"		"underbarrel_m320_he"
 				"weapon_upgrade"		"underbarrel_m320_mk3"
-				"weapon_upgrade"		"underbarrel_m320_incendiary"
+				//"weapon_upgrade"		"underbarrel_m320_incendiary"
 				//Pistols
 				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"
@@ -1173,7 +1185,7 @@
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_mk3"
-				"weapon"			"weapon_anm14"
+				//"weapon"			"weapon_anm14"
 				"weapon"			"weapon_healthkit"
 				"weapon_upgrade"	"underbarrel_m203_smoke"
 				"weapon_upgrade"		"underbarrel_gp25_smoke"
@@ -1232,6 +1244,9 @@
 				"weapon"			"weapon_mk20_scar"
 				"weapon"			"weapon_g3a3"
 				"weapon"			"weapon_sks"
+				"weapon"			"weapon_m79"
+				"weapon"			"weapon_m79_smoke"
+				//"weapon"			"weapon_m79_incen"
 				"weapon_upgrade"		"underbarrel_m203_smoke"
 				"weapon_upgrade"		"underbarrel_gp25_smoke"
 				"weapon_upgrade"		"underbarrel_m320_smoke"
@@ -1259,9 +1274,9 @@
 				"weapon"			"weapon_kingcobra"
 				//Explosives
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_anm14"
+				//"weapon"			"weapon_anm14"
 				"weapon"			"weapon_c4_clicker"
-				"weapon"			"weapon_molotov"
+				//"weapon"			"weapon_molotov"
 				//Pistols
 				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"
