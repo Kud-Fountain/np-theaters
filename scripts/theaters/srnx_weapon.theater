@@ -878,6 +878,272 @@
 				"clip_default"		"0"
 			}
 		}
+		"weapon_m79"    
+		{
+			"import"				"weapon_base"
+			"weapon_class"				"sniper_rifle"
+			"weapon_type"				"projectile"
+			"print_name"				"#weapon_m79_dy_he"
+			"print_desc"				"#weapon_m79_dy_he_desc"
+			"view_model"				"models/weapons/v_nam_m79.mdl"  
+			"world_model"				"models/weapons/w_m79.mdl" 
+			"rounds_per_minute"			"780"
+			"burst_delay"				"0.22"
+			"weapon_slot"				"primary"
+			"act_table"				"shot"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"30"	// (3.3kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +24[encumbrance]
+			"weapon_cost"				"0"
+			"fire_instantly"			"1"
+			"class_restricted"			"1"
+			"barrel_length"				"24"
+		
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-25"
+				"fov_plr_focus"				"-12"
+				"fov_wpn_default"			"68"
+				"fov_wpn_ironsight"			"72"
+				"fov_wpn_focus"				"75"
+			}
+			"viewmodel_offsets"
+			{
+				// x back, y left, z down
+				"VMOffsetStand"				"0.65 -0.10 0.5"
+			}
+			
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_m203.Single"
+				"shot_single_local"			"Weapon_m203.Single"
+				"shot_silent"				"Weapon_M16A4.SingleSilenced"
+				"shot_silent_local"			"Weapon_M16A4.SingleSilencedLocal"
+				"empty"					"Weapon_M16A4.Empty"
+				"clipin"				"Weapon_M16A4.Magin"
+				"clipout"				"Weapon_M16A4.Magout"
+				"boltback"				"Weapon_M16A4.Boltback"
+				"boltrelease"				"Weapon_M16A4.Boltrelease"
+				"rofdown"				"Weapon_M16A4.ROF"
+				"rofup"					"Weapon_M16A4.ROF"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"ins_weapon_m203"
+				"particle_muzzleflash_3rd"		"ins_weapon_m203"
+			}
+			"explosives"
+			{
+				"entity"				"grenade_m79"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-1.0 1.0"
+				"recoil_vertical_range"			"4.0 6.0"
+				"recoil_aim_punch"			"1.0 1.0"
+				"recoil_rest_rate"			"12"
+				"recoil_rest_delay"			"0"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"		"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"			"5"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
+			}
+		
+			
+			"ammo_clip"
+			{
+				"ammo_type"				"grenade_m79"
+				"clip_max"				"9"
+				"clip_max_rounds"			"1"	// 1 rpg per mag
+				"clip_default"				"4"
+			}
+			
+			"kitui_offset"
+			{
+				"position"				"25 -2 -1"
+			}
+			"team_access"				"security"
+		}
+		"weapon_m79_smoke"    
+		{
+			"import"				"weapon_base"
+			"weapon_class"				"sniper_rifle"
+			"weapon_type"				"projectile"
+			"print_name"				"#weapon_m79_dy_smoke"
+			"print_desc"				"#weapon_m79_dy_smoke_desc"
+			"view_model"				"models/weapons/v_nam_m79.mdl"  
+			"world_model"				"models/weapons/w_m79.mdl" 
+			"rounds_per_minute"			"780"
+			"burst_delay"				"0.22"
+			"weapon_slot"				"primary"
+			"act_table"				"shot"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"30"	// (3.3kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +24[encumbrance]
+			"weapon_cost"				"0"
+			"fire_instantly"			"1"
+			"class_restricted"			"1"
+			"barrel_length"				"24"
+
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-25"
+				"fov_plr_focus"				"-12"
+				"fov_wpn_default"			"68"
+				"fov_wpn_ironsight"			"72"
+				"fov_wpn_focus"				"75"
+			}
+			"viewmodel_offsets"
+			{
+				// x back, y left, z down
+				"VMOffsetStand"				"0.65 -0.10 0.5"
+			}
+			
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_m203.Single"
+				"shot_single_local"			"Weapon_m203.Single"
+				"shot_silent"				"Weapon_M16A4.SingleSilenced"
+				"shot_silent_local"			"Weapon_M16A4.SingleSilencedLocal"
+				"empty"					"Weapon_M16A4.Empty"
+				"clipin"				"Weapon_M16A4.Magin"
+				"clipout"				"Weapon_M16A4.Magout"
+				"boltback"				"Weapon_M16A4.Boltback"
+				"boltrelease"				"Weapon_M16A4.Boltrelease"
+				"rofdown"				"Weapon_M16A4.ROF"
+				"rofup"					"Weapon_M16A4.ROF"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"ins_weapon_m203"
+				"particle_muzzleflash_3rd"		"ins_weapon_m203"
+			}
+			"explosives"
+			{
+				"entity"				"grenade_m203_smoke"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-1.0 1.0"
+				"recoil_vertical_range"			"4.0 6.0"
+				"recoil_aim_punch"			"1.0 1.0"
+				"recoil_rest_rate"			"12"
+				"recoil_rest_delay"			"0"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"		"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"			"5"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
+			}
+		
+			
+			"ammo_clip"
+			{
+				"ammo_type"				"grenade_m79_smoke"
+				"clip_max"				"8"
+				"clip_max_rounds"			"1"	// 1 rpg per mag
+				"clip_default"				"5"
+			}
+			
+			"kitui_offset"
+			{
+				"position"				"25 -2 -1"
+			}
+			"team_access"				"security"
+		}
+		"weapon_m79_incen"    
+		{
+			"import"				"weapon_base"
+			"weapon_class"				"sniper_rifle"
+			"weapon_type"				"projectile"
+			"print_name"				"#weapon_m79_incen"
+			"print_desc"				"#weapon_m79_incen_desc"
+			"view_model"				"models/weapons/v_nam_m79.mdl"  
+			"world_model"				"models/weapons/w_m79.mdl" 
+			"rounds_per_minute"			"780"
+			"burst_delay"				"0.22"
+			"weapon_slot"				"primary"
+			"act_table"				"shot"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"40"	// (3.3kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +24[encumbrance]
+			"weapon_cost"				"0"
+			"fire_instantly"			"1"
+			"class_restricted"			"1"
+			"barrel_length"				"24"
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-25"
+				"fov_plr_focus"				"-12"
+				"fov_wpn_default"			"68"
+				"fov_wpn_ironsight"			"72"
+				"fov_wpn_focus"				"75"
+			}
+			"viewmodel_offsets"
+			{
+				// x back, y left, z down
+				"VMOffsetStand"				"0.65 -0.10 0.5"
+			}
+			
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_m203.Single"
+				"shot_single_local"			"Weapon_m203.Single"
+				"shot_silent"				"Weapon_M16A4.SingleSilenced"
+				"shot_silent_local"			"Weapon_M16A4.SingleSilencedLocal"
+				"empty"					"Weapon_M16A4.Empty"
+				"clipin"				"Weapon_M16A4.Magin"
+				"clipout"				"Weapon_M16A4.Magout"
+				"boltback"				"Weapon_M16A4.Boltback"
+				"boltrelease"				"Weapon_M16A4.Boltrelease"
+				"rofdown"				"Weapon_M16A4.ROF"
+				"rofup"					"Weapon_M16A4.ROF"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"ins_weapon_m203"
+				"particle_muzzleflash_3rd"		"ins_weapon_m203"
+			}
+			"explosives"
+			{
+				"entity"				"grenade_m79_incen"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-1.0 1.0"
+				"recoil_vertical_range"			"4.0 6.0"
+				"recoil_aim_punch"			"1.0 1.0"
+				"recoil_rest_rate"			"12"
+				"recoil_rest_delay"			"0"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"		"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"			"5"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
+			}
+		
+			
+			"ammo_clip"
+			{
+				"ammo_type"				"grenade_m79_incen"
+				"clip_max"				"9"
+				"clip_max_rounds"			"1"	// 1 rpg per mag
+				"clip_default"				"2"
+			}
+			
+			"kitui_offset"
+			{
+				"position"				"25 -2 -1"
+			}
+			"team_access"				"security"
+		}
 		//========================================
 		// REMOTE CONTROLLED EXPLOSIVES
 		//========================================
@@ -1455,7 +1721,7 @@
 			{
 				"MeleeRange"				"75"
 				"MeleeDamage"				"2"
-				"MeleeDamageBehindBonus"	"5"
+				"MeleeDamageBehindBonus"	"3"
 				"MeleeDamageType"			"DMG_SLASH"
 				"MeleeWeaponIdleTime"		"2"
 				"SwingAttacks"
@@ -1515,8 +1781,8 @@
 			"melee"
 			{
 				"MeleeRange"				"75"
-				"MeleeDamage"				"40"
-				"MeleeDamageBehindBonus"	"150"
+				"MeleeDamage"				"2"
+				"MeleeDamageBehindBonus"	"3"
 				"MeleeDamageType"			"DMG_SLASH"
 				"MeleeWeaponIdleTime"		"2"
 				"SwingAttacks"
@@ -8944,6 +9210,78 @@
 			"Health"				"50"
 			"ReactExplosions"			"1"
 			"ReactBullets"				"0"
+		}
+		"grenade_m79"
+		{
+			
+			"import"					"grenade_m203_he"
+			"Model"					"models/weapons/upgrades/a_projectile_m203.mdl"
+
+		}
+		"grenade_m79_smoke"
+		{
+			"import"					"baseGrenade"
+			"entity_class"				"grenade_smoke"
+			"Model"						"models/weapons/upgrades/a_projectile_m203.mdl"
+			"FuseTime"					"0"
+			"ImpactDetonation"			"1"
+			"RocketStartSpeed"			"3000"
+			"ArmDelay"					"0.05"
+			
+			"Health"						"50"
+			"ReactExplosions"				"1"
+			"ReactBullets"					"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"		"m203_smokegrenade"
+				"SmokeColor"			"40 35 33 252" // why does the alpha have to be set so damn high?
+			}
+			
+			"Sounds"
+			{
+				"DetonateSound"			"Weapon_m203.SmokeExplode"
+				"BounceSound"			"Weapon_M67.Bounce"
+			}
+		}
+		"grenade_m79_incen"
+		{
+			"import"			"baseGrenade"
+			"entity_class"		"grenade_aoe"
+			"Model"				"models/weapons/upgrades/a_projectile_m203.mdl"
+			"DamageType"		"DMG_BURN"
+			"DetonateDamage"	"100" // det damage is for when it first goes off
+			"DetonatePenetrationRadius" "0"
+			"DetonateDamageRadius"		"240"
+			"ShakeAmplitude"			"0"
+			"DetonateUnderwater"		"0"
+			"Elasticity"		"0.07"
+			"FuseTime"			"0"
+			"ImpactDetonation"	"1"
+			"ArmDelay"			"0.05"
+			"RocketStartSpeed"	"1500"
+			"Deafen"					"0"
+			"AreaDamageTime"			"16"
+			"AreaDamageFrequency"		"0.38"
+			"AreaDamageMinRadius"		"120"
+			"AreaDamageMaxRadius"		"160"
+			"AreaDamageGrowSpeed"		"20"
+			"AreaDamageAmount"			"76"
+			"Health"			"50"
+			"ReactExplosions"	"1"
+			"ReactBullets"		"1"
+			"Particles"
+			{
+				"DetonateParticle"		"ins_thermite_flame_c"
+				"DetonateWaterParticle"	"ins_thermite_flame_c"
+				"BroadcastAll"		"1"
+				"FollowOrigin"		"1"
+			}
+			"Sounds"
+			{
+				"DetonateSound"		"ANM14Incendiary.Burn"
+				"BounceSound"		"Weapon_M67.Bounce"
+			}
 		}
 
 	}

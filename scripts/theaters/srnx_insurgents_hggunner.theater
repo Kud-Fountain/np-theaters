@@ -251,7 +251,7 @@
 			{
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_esapi"
 				"gear"				"srnx_BOT_leba1"
 				"weapon"			"weapon_knife"
 				

@@ -266,32 +266,24 @@
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
-			//MLF Technics
 			"models"
 			{
-				"player"			"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
+				"player"				"models/characters/insurgent_hyopf.mdl"
+				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
 				{
-					"kit"					"1"
-					"backpack"				"1"
-					"galsses"				"-1"
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
 				}
-				
-				"attachments"	
-				{
-					"helmet"
-					{
-						"model"			"models/characters/custom/mlf_helmet_head.mdl"
-					}
-				}
+
 			}
 			"buy_order" 
 			{
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_esapi"
 				"weapon"			"weapon_knife"
 				
 				//Primary
@@ -384,30 +376,23 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"			"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
+				"player"				"models/characters/insurgent_ltopf.mdl"
+				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
 				{
-					"kit"					"1"
-					"backpack"				"1"
-					"galsses"				"-1"
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
 				}
-				
-				"attachments"	
-				{
-					"helmet"
-					{
-						"model"			"models/characters/custom/mlf_helmet_head.mdl"
-					}
-				}
+
 			}
 			"buy_order" 
 			{
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
-				//"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_leba1"
 				"weapon"			"weapon_knife"
 				
 				//Primary

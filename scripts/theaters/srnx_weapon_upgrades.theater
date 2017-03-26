@@ -529,6 +529,9 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_ump45"
+				"weapon"				"weapon_m79"
+				"weapon"				"weapon_m79_smoke"
+				"weapon"				"weapon_m79_incen"
 				"weapon"				"weapon_czse3"
 				"weapon"				"weapon_sks"
 				"weapon"				"weapon_svd"
@@ -623,6 +626,9 @@
 			"allowed_weapons"
 			{	
 				"weapon"				"weapon_ump45"
+				"weapon"				"weapon_m79"
+				"weapon"				"weapon_m79_smoke"
+				"weapon"				"weapon_m79_incen"
 
 				"weapon"				"weapon_czse3"
 				"weapon"				"weapon_sks"

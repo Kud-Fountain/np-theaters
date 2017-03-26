@@ -110,47 +110,47 @@
 		}
 		"grenade_m203_he"
 		{
-			"carry"					"3"
+			"carry"					"1"
 		}
 		"grenade_gp25_he"
 		{
-			"carry"					"3"
+			"carry"					"1"
 		}
 		"grenade_m203_smoke"
 		{
-			"carry"					"3"
+			"carry"					"1"
 		}
 		"grenade_gp25_smoke"
 		{
-			"carry"					"3"
+			"carry"					"1"
 		}
 		"grenade_m203_incendiary"
 		{
-			"carry"					"3"
+			"carry"					"1"
 		}
 		"grenade_gp25_incendiary"
 		{
-			"carry"					"3"
+			"carry"					"1"
 		}
 		"grenade_m203_mk3"
 		{
-			"carry"					"3"
+			"carry"					"1"
 		}
 		"grenade_gp25_mk3"
 		{
-			"carry"					"3"
+			"carry"					"1"
 		}
 		"grenade_anm14"
 		{
-			"carry"					"3"
+			"carry"					"1"
 		}
 		"grenade_molotov"
 		{
-			"carry"					"3"
+			"carry"					"1"
 		}
 		"grenade_flares"
 		{
-			"carry"					"2"
+			"carry"					"1"
 		}
 		
 		// ========================================
@@ -2096,13 +2096,13 @@
 			}
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"       "8.00"
-				"HITGROUP_CHEST"      "7.9"
-				"HITGROUP_STOMACH"    "7.9"
-				"HITGROUP_LEFTARM"    "3.4"
-				"HITGROUP_RIGHTARM"   "3.4"
-				"HITGROUP_LEFTLEG"    "3.4"
-				"HITGROUP_RIGHTLEG"   "3.4"
+				"HITGROUP_HEAD"       "3.5"
+				"HITGROUP_CHEST"      "3.0"
+				"HITGROUP_STOMACH"    "3.0"
+				"HITGROUP_LEFTARM"    "2.9"
+				"HITGROUP_RIGHTARM"   "2.9"
+				"HITGROUP_LEFTLEG"    "2.9"
+				"HITGROUP_RIGHTLEG"   "2.9"
 			}
 		}
 		"50_bmg_hp"
@@ -2122,13 +2122,13 @@
 			}
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"       "7.5"
-				"HITGROUP_CHEST"      "7.4"
-				"HITGROUP_STOMACH"    "7.4"
-				"HITGROUP_LEFTARM"    "3.8"
-				"HITGROUP_RIGHTARM"   "3.8"
-				"HITGROUP_LEFTLEG"    "3.8"
-				"HITGROUP_RIGHTLEG"   "3.8"
+				"HITGROUP_HEAD"       "3.4"
+				"HITGROUP_CHEST"      "3.1"
+				"HITGROUP_STOMACH"    "3.1"
+				"HITGROUP_LEFTARM"    "2.9"
+				"HITGROUP_RIGHTARM"   "2.9"
+				"HITGROUP_LEFTLEG"    "2.9"
+				"HITGROUP_RIGHTLEG"   "2.9"
 			}
 		}
 		"50_bmg_ap"
@@ -2148,13 +2148,13 @@
 			}
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"       "8.4"
-				"HITGROUP_CHEST"      "8.3"
-				"HITGROUP_STOMACH"    "8.3"
-				"HITGROUP_LEFTARM"    "3.00"
-				"HITGROUP_RIGHTARM"   "3.00"
-				"HITGROUP_LEFTLEG"    "3.00"
-				"HITGROUP_RIGHTLEG"   "3.00"
+				"HITGROUP_HEAD"       "3.8"
+				"HITGROUP_CHEST"      "3.3"
+				"HITGROUP_STOMACH"    "3.3"
+				"HITGROUP_LEFTARM"    "3.0"
+				"HITGROUP_RIGHTARM"   "3.0"
+				"HITGROUP_LEFTLEG"    "3.0"
+				"HITGROUP_RIGHTLEG"   "3.0"
 			}
 		}
 				// ========================================
