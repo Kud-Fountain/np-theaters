@@ -809,7 +809,7 @@
 			"print_desc"	"#gear_AR500_armor_desc"
 			"gear_slot"		"armor"
 			"gear_cost"		"0"
-			"gear_weight"	"150" // 75 (7.5kg) + 250 encumbrance
+			"gear_weight"	"130" // 75 (7.5kg) + 250 encumbrance
 			"DamageHitgroups"
 			{
 				//"HITGROUP_HEAD"				"1.00"	// death
@@ -819,13 +819,13 @@
 				//"HITGROUP_RIGHTARM"			"1.00"
 				//"HITGROUP_LEFTLEG"			"1.00"
 				//"HITGROUP_RIGHTLEG"			"1.00"
-				"HITGROUP_HEAD"				"0.005"
-				"HITGROUP_CHEST"			"0.005"
-				"HITGROUP_STOMACH"			"0.005"
-				"HITGROUP_LEFTARM"			"0.01"
-				"HITGROUP_RIGHTARM"			"0.01"
-				"HITGROUP_LEFTLEG"			"0.01"
-				"HITGROUP_RIGHTLEG"			"0.01"
+				"HITGROUP_HEAD"				"0.03"
+				"HITGROUP_CHEST"			"0.03"
+				"HITGROUP_STOMACH"			"0.03"
+				"HITGROUP_LEFTARM"			"0.04"
+				"HITGROUP_RIGHTARM"			"0.04"
+				"HITGROUP_LEFTLEG"			"0.04"
+				"HITGROUP_RIGHTLEG"			"0.04"
 			}
 			"explosive_damage_frac"		"0.04"
 			"team_access"				"insurgent"

@@ -6,29 +6,22 @@
 	{
 		
 		// Standard Model 1
-		"standard_ins_1"
+		"standard_insurgent_1"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"			"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"1"
-					"backpack"				"-1"
-					"glasses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //Doesn't matter COOP
 			}
-			
 			"buy_order" 
 			{
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_balance"
 				"gear"				"srnx_BOT_esapi"
 				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_tan"
 				"weapon"			"weapon_knife"
 				
 				//Primary
@@ -57,21 +50,14 @@
 			}
 		}
 		// Standard Model 2
-		"standard_ins_2"
+		"standard_insurgent_2"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"			"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"1"
-					"backpack"				"-1"
-					"glasses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
@@ -79,6 +65,7 @@
 				"gear"				"ins_BOT_carrier_p2_s6"
 				"gear"				"srnx_BOT_esapi"
 				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_maskah"
 				"weapon"			"weapon_knife"
 				
 				//Primary
@@ -87,7 +74,6 @@
 				"weapon_upgrade"	"ammo_hp_akm"
 				//Secondary
 				"weapon"			"weapon_mp7"
-				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_hp_mp7"
 				//Explosive
 				"weapon"			"weapon_m84"
@@ -101,7 +87,6 @@
 				"weapon_upgrade"	"ammo_hp_akm"
 				//Secondary
 				"weapon"			"weapon_mp7"
-				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_hp_mp7"
 				//Explosive
 				"weapon"			"weapon_m84"
@@ -109,27 +94,21 @@
 			}
 		}
 		// Standard Model 3
-		"standard_ins_3"
+		"standard_insurgent_3"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"			"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"0"
-					"backpack"				"-1"
-					"glasses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_balance"
 				"gear"				"srnx_BOT_sapi"
+				"gear"				"srnx_BOT_ins_helmet_lgreen"
 				"weapon"			"weapon_knife"
 				
 				//Primary
@@ -138,7 +117,6 @@
 				"weapon_upgrade"	"ammo_ap_l1a1"
 				//Secondary
 				"weapon"			"weapon_mac10"
-				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_ap_kriss"
 				//Explosive
 				"weapon"			"weapon_m84"
@@ -152,7 +130,6 @@
 				"weapon_upgrade"	"ammo_ap_l1a1"
 				//Secondary
 				"weapon"			"weapon_mac10"
-				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_ap_kriss"
 				//Explosive
 				"weapon"			"weapon_m84"
@@ -160,21 +137,14 @@
 			}
 		}
 		// Machinegunner FIGHTER Model 1
-		"mg_fighter_ins_1"
+		"mg_fighter_insurgent_1"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"			"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"1"
-					"backpack"				"-1"
-					"galsses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_fighter.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
@@ -182,6 +152,7 @@
 				"gear"				"ins_BOT_carrier_balance"
 				"gear"				"srnx_BOT_esapi"
 				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_maskah"
 				"weapon"			"weapon_knife"
 				
 				//Primary
@@ -213,28 +184,21 @@
 			}
 		}
 		// Machinegunner FIGHTER Model 2
-		"mg_fighter_ins_2"
+		"mg_fighter_insurgent_2"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"			"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"2"
-					"backpack"				"-1"
-					"galsses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_fighter.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
-				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_ins_helmet_dgreen"
 				"weapon"			"weapon_knife"
 				
 				//Primary
@@ -262,36 +226,22 @@
 			}
 		}
 		// Machinegunner HEAVY Model 3
-		"mg_fighter_ins_3"
+		"mg_fighter_insurgent_3"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
-			//MLF Technics
 			"models"
 			{
-				"player"			"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"1"
-					"backpack"				"1"
-					"galsses"				"-1"
-				}
-				
-				"attachments"	
-				{
-					"helmet"
-					{
-						"model"			"models/characters/custom/mlf_helmet_head.mdl"
-					}
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_balance"
 				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_k63"
 				"weapon"			"weapon_knife"
 				
 				//Primary
@@ -299,7 +249,6 @@
 				"weapon_upgrade"	"ammo_hp_m249"
 				//Secondary
 				"weapon"			"weapon_mp5"
-				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_ap_mp5"
 
 				//Explosive
@@ -313,7 +262,6 @@
 				"weapon_upgrade"	"ammo_hp_m249"
 				//Secondary
 				"weapon"			"weapon_mp5"
-				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_ap_mp5"
 
 				//Explosive
@@ -321,40 +269,26 @@
 			}
 		}
 		// Machinegunner FIGHTER Model 4
-		"mg_fighter_ins_4"
+		"mg_fighter_insurgent_4"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
-			//MLF Technics
 			"models"
 			{
-				"player"			"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"1"
-					"backpack"				"1"
-					"galsses"				"-1"
-				}
-				
-				"attachments"	
-				{
-					"helmet"
-					{
-						"model"			"models/characters/custom/mlf_helmet_head.mdl"
-					}
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_fighter.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_balance"
 				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_k63"
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_m60"
+				"weapon"			"weapon_mk48"
 				"weapon_upgrade"	"ammo_ap_mk48"
 				//Secondary
 				"weapon"			"weapon_kingcobra"
@@ -367,7 +301,7 @@
 			"allowed_weapons"
 			{
 				//Primary
-				"weapon"			"weapon_m60"
+				"weapon"			"weapon_mk48"
 				"weapon_upgrade"	"ammo_ap_mk48"
 				//Secondary
 				"weapon"			"weapon_kingcobra"
@@ -378,28 +312,20 @@
 			}
 		}
 		// Machinegunner FIGHTER Model 5
-		"mg_fighter_ins_5"
+		"mg_fighter_insurgent_5"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_ins_h.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"1"
-					"glasses"					"-1"
-					"kit"					"1"
-				}
-
+				"player"			"models/sernix_insurgents_isis/insurgent_fighter.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				"weapon"			"weapon_knife"
 				
@@ -429,28 +355,21 @@
 		}
 
 		// Striker MG Model 1
-		"striker_ins_1"
+		"striker_insurgent_1"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"			"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"1"
-					"backpack"				"-1"
-					"glasses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_machinegunner.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
-				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_sapi"
+				"gear"				"srnx_BOT_ins_helmet_dgreen"
 				"weapon"			"weapon_knife"
 				
 				//Primary
@@ -458,7 +377,6 @@
 				"weapon_upgrade"	"ammo_ap_akm"
 				//Secondary
 				"weapon"			"weapon_uzi"
-				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_hp_mp5"
 				//Explosive
 				"weapon"			"weapon_rpg7"
@@ -467,39 +385,33 @@
 			"allowed_weapons"
 			{
 				//Primary
-				"weapon"			"weapon_vz58"
-				"weapon_upgrade"	"ammo_ap_akm"
+				"weapon"			"weapon_l1a1"
+				"weapon_upgrade"	"magazine_extended_rifle_30rd"
+				"weapon_upgrade"	"ammo_ap_l1a1"
 				//Secondary
-				"weapon"			"weapon_uzi"
-				"weapon_upgrade"	"ammo_hp_mp5"
+				"weapon"			"weapon_mac10"
+				"weapon_upgrade"	"ammo_ap_kriss"
 				//Explosive
 				"weapon"			"weapon_rpg7"
-				
 				
 			}
 		}
 		// Striker MG Model 2
-		"striker_ins_2"
+		"striker_insurgent_2"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"			"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"1"
-					"backpack"				"-1"
-					"glasses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_machinegunner.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_p2_s6"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_sapi"
+				"gear"				"srnx_BOT_ins_helmet_lgreen"
 				"weapon"			"weapon_knife"
 				
 				//Primary
@@ -527,29 +439,22 @@
 			}
 		}
 		// Striker HEAVY Model 3
-		"striker_ins_3"
+		"striker_insurgent_3"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"			"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"2"
-					"backpack"				"1"
-					"galsses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_p2_s6"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
-				"gear"				"srnx_BOT_ins_helmet_black"
+				"gear"				"srnx_BOT_ins_helmet_k63"
 				"weapon"			"weapon_knife"
 				
 				//Primary
@@ -558,7 +463,6 @@
 				//Secondary
 				"weapon"			"weapon_mp40"
 				"weapon_upgrade"	"barrel_silencer_ins1"
-				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_ap_mp40"
 				//Explosive
 				"weapon"			"weapon_molotov"
@@ -579,21 +483,14 @@
 			}
 		}
 		// Striker MG Model 4
-		"striker_ins_4"
+		"striker_insurgent_4"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"			"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"1"
-					"backpack"				"-1"
-					"glasses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_machinegunner.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
@@ -601,6 +498,7 @@
 				"gear"				"ins_BOT_carrier_p2_s6"
 				"gear"				"srnx_BOT_esapi"
 				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_tan"
 				"weapon"			"weapon_knife"
 				
 				//Primary
@@ -609,7 +507,7 @@
 				//Secondary
 				"weapon"			"weapon_glock18"
 				"weapon_upgrade"	"magazine_extended_glock"
-				"weapon_upgrade"	"ammo_hp_m9"
+				"weapon_upgrade"	"ammo_hp_mp5"
 				//Explosive
 				"weapon"			"weapon_law"
 				
@@ -622,28 +520,21 @@
 				//Secondary
 				"weapon"			"weapon_glock18"
 				"weapon_upgrade"	"magazine_extended_glock"
-				"weapon_upgrade"	"ammo_hp_m9"
+				"weapon_upgrade"	"ammo_hp_mp5"
 				//Explosive
 				"weapon"			"weapon_law"
 				
 			}
 		}
 		// Striker MG Model 5
-		"striker_ins_5"
+		"striker_insurgent_5"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"			"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"1"
-					"backpack"				"-1"
-					"glasses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_machinegunner.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
@@ -679,29 +570,21 @@
 				
 			}
 		}
-		// Striker VIP Model 1
-		"striker_ins_vip_1"
+		// Striker MG Model 6
+		"striker_insurgent_6"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_insurgent.mdl"
-				"viewmodel_hands"			"models/weapons/v_hands_vip.mdl"
-			
-				"bodygroups"
-				{
-					"kit"					"0"
-					"backpack"				"-1"
-					"glasses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_machinegunner.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_p1_s6"
 				"gear"				"srnx_BOT_nij_3a"
-				"gear"				"srnx_BOT_leba1"
 				"weapon"			"weapon_knife"
 				
 				//Primary
@@ -728,21 +611,14 @@
 			}
 		}
 		// Scout LIGHT Model 1
-		"scout_ins_1"
+		"scout_insurgent_1"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"			"models/characters/insurgent_light.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"0"
-					"backpack"				"-1"
-					"glasses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
@@ -756,7 +632,6 @@
 				"weapon_upgrade"	"ammo_ap_mosin"
 				//Secondary
 				"weapon"			"weapon_mac10"
-				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_ap_kriss"
 				//Explosive
 				"weapon"			"weapon_m18"
@@ -776,21 +651,14 @@
 			}
 		}
 		// Scout LIGHT Model 2
-		"scout_ins_2"
+		"scout_insurgent_2"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_insurgent.mdl"
-				"viewmodel_hands"			"models/weapons/v_hands_vip.mdl"
-			
-				"bodygroups"
-				{
-					"kit"					"0"
-					"backpack"				"-1"
-					"glasses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
@@ -804,7 +672,6 @@
 				"weapon_upgrade"	"ammo_ap_svd"
 				//Secondary
 				"weapon"			"weapon_sterling"
-				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_hp_mp40"
 				//Explosive
 				"weapon"			"weapon_m18"
@@ -823,21 +690,14 @@
 			}
 		}
 		// Scout LIGHT Model 3
-		"scout_ins_3"
+		"scout_insurgent_3"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"			"models/characters/insurgent_light.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"0"
-					"backpack"				"-1"
-					"glasses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
@@ -845,14 +705,14 @@
 				"gear"				"ins_BOT_carrier_p1_s6"
 				"gear"				"srnx_BOT_nij_2"
 				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_lgreen"
 				"weapon"			"weapon_knife"
 				
 				//Primary
 				"weapon"			"weapon_g3a3"
-				"weapon_upgrade"	"ammo_ap_g3a3"
+				"weapon_ugprade"	"ammo_ap_g3a3"
 				//Secondary
 				"weapon"			"weapon_mac10"
-				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_hp_kriss"
 				//Explosive
 				"weapon"			"weapon_m18"
@@ -862,7 +722,7 @@
 			{
 				//Primary
 				"weapon"			"weapon_g3a3"
-				"weapon_upgrade"	"ammo_ap_g3a3"
+				"weapon_ugprade"	"ammo_ap_g3a3"
 				//Secondary
 				"weapon"			"weapon_mac10"
 				"weapon_upgrade"	"ammo_hp_kriss"
@@ -870,29 +730,22 @@
 				"weapon"			"weapon_m18"
 			}
 		}
-		// Scout VIP Model 1
-		"scout_ins_vip_1"
+		// Scout Model 4
+		"scout_insurgent_4"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_insurgent.mdl"
-				"viewmodel_hands"			"models/weapons/v_hands_vip.mdl"
-			
-				"bodygroups"
-				{
-					"kit"					"0"
-					"backpack"				"-1"
-					"glasses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_p1_s6"
 				"gear"				"srnx_BOT_nij_3a"
-				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_dgreen"
 				"weapon"			"weapon_knife"
 				
 				//Primary
@@ -918,30 +771,23 @@
 			}
 		}
 		// Bomber HEAVY Model 1
-		"bomber_ins_1"
+		"bomber_insurgent_1"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"			"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"2"
-					"backpack"				"1"
-					"galsses"				"-1"
-				}
-
+				"player"			"models/sernix_insurgents_isis/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //doesnt matter coop
 			}
 
 			"buy_order" 
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_k63"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
 				//Explosive
@@ -951,7 +797,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -960,28 +806,21 @@
 			}
 		}
 		// Bomber HEAVY Model 2
-		"bomber_ins_2"
+		"bomber_insurgent_2"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"			"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"2"
-					"backpack"				"1"
-					"galsses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //doesnt matter coop
 			}
 
 			"buy_order" 
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -992,7 +831,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -1001,27 +840,21 @@
 			}
 		}
 		// Sapper Model 1
-		"sapper_ins_1"
+		"sapper_insurgent_1"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"			"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"1"
-					"backpack"				"-1"
-					"glasses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_sapper.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_p2_s6"
 				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ins_helmet_maskah"
 				"weapon"			"weapon_knife"
 				
 				//Primary
@@ -1052,27 +885,20 @@
 			}
 		}
 		// Sapper Model 2
-		"sapper_ins_2"
+		"sapper_insurgent_2"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"			"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"1"
-					"backpack"				"-1"
-					"glasses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_sapper.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
 				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				"weapon"			"weapon_knife"
 				
@@ -1104,21 +930,14 @@
 			}
 		}
 		// Sapper Model 3
-		"sapper_ins_3"
+		"sapper_insurgent_3"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"			"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"1"
-					"backpack"				"-1"
-					"glasses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_sapper.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
@@ -1126,6 +945,7 @@
 				"gear"				"ins_BOT_carrier_p1_s6"
 				"gear"				"srnx_BOT_esapi"
 				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_maskah"
 				"weapon"			"weapon_knife"
 				
 				//Primary
@@ -1154,21 +974,14 @@
 			}
 		}
 		// Sapper Model 4
-		"sapper_ins_4"
+		"sapper_insurgent_4"
 		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"			"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
-
-				"bodygroups"
-				{
-					"kit"					"1"
-					"backpack"				"-1"
-					"glasses"				"-1"
-				}
+				"player"			"models/sernix_insurgents_isis/insurgent_sapper.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //Doesn't matter COOP
 			}
 			"buy_order" 
 			{
@@ -1202,16 +1015,3 @@
 
 	}		
 }
-
-
-
-/*
-					//Bot_Rigs
-					ins_BOT_carrier_more_primary, ins_BOT_carrier_more_secondary, ins_BOT_carrier_p3_s6,
-					ins_BOT_carrier_p2_s6, ins_BOT_carrier_p1_s6, ins_BOT_carrier_p0_s7
-					//Bot_Armors
-					srnx_BOT_nij_2, srnx_BOT_nij_3a, srnx_BOT_sapi, srnx_BOT_esapi, srnx_BOT_ar500, srnx_BOT_leba1
-					Helmets
-					srnx_BOT_ins_helmet_tan, srnx_BOT_ins_helmet_dgreen, srnx_BOT_ins_helmet_lgreen, 
-					srnx_BOT_ins_helmet_k63, srnx_BOT_ins_helmet_maskah
-				*/
