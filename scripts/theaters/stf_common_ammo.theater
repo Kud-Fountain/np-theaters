@@ -44,11 +44,6 @@
 			}
 		}
 
-		"healthkit"
-		{
-			"carry"					"1"
-		}
-		
 		"no_carry"	// dummy ammo type for weapons that have no backup ammo (at4)
 		{
 			"carry"					"0"
@@ -74,11 +69,11 @@
 		}
 		"grenade_m79_smoke"
 		{
-			"carry"					"10"
+			"carry"					"5"
 		}
 		"grenade_m79_incen"
 		{
-			"carry"					"10"
+			"carry"					"4"
 		}
 		"grenade_m67"
 		{
@@ -98,51 +93,51 @@
 		}
 		"grenade_mk3"
 		{
-			"carry"		"3"
+			"carry"					"3"
 		}
 		"grenade_c4"
 		{
-			"carry"					"1"
+			"carry"					"2"
 		}
 		"healthkit"
 		{
-			"carry"					"1"
+			"carry"					"2"
 		}
 		"grenade_m203_he"
 		{
-			"carry"					"3"
+			"carry"					"2"
 		}
 		"grenade_gp25_he"
 		{
-			"carry"					"3"
+			"carry"					"2"
 		}
 		"grenade_m203_smoke"
 		{
-			"carry"					"3"
+			"carry"					"2"
 		}
 		"grenade_gp25_smoke"
 		{
-			"carry"					"3"
+			"carry"					"2"
 		}
 		"grenade_m203_incendiary"
 		{
-			"carry"					"3"
+			"carry"					"2"
 		}
 		"grenade_gp25_incendiary"
 		{
-			"carry"					"3"
+			"carry"					"2"
 		}
 		"grenade_m203_mk3"
 		{
-			"carry"					"3"
+			"carry"					"2"
 		}
 		"grenade_gp25_mk3"
 		{
-			"carry"					"3"
+			"carry"					"2"
 		}
 		"grenade_anm14"
 		{
-			"carry"					"3"
+			"carry"					"2"
 		}
 		"grenade_molotov"
 		{

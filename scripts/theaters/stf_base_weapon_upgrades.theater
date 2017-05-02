@@ -88,8 +88,8 @@
 			
 			"recoil"
 			{
-				"recoil_lateral_frac"		"0.75"
-				"recoil_vertical_frac"		"0.875"
+				"recoil_lateral_frac"		"0.8"
+				"recoil_vertical_frac"		"0.9"
 			}
 			
 			"sway"

@@ -87,7 +87,7 @@
 				"weapon"			"weapon_f2000"
 				"weapon"			"weapon_aug3"
 				"weapon_upgrade"	"ammo_beta50"
-				"weapon_upgrade"	"ammo_beta75"
+				//"weapon_upgrade"	"ammo_beta75"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
 
@@ -139,12 +139,7 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_beanie"
-				"gear"				"srnx_beanie_brown"
-				"gear"				"srnx_bonnie_mask"
 				"gear"				"srnx_devgru_1"
-				"gear"				"srnx_tcap_dark_spec"
-				"gear"				"srnx_tcap_light_spec"
 
 			}
 		}
@@ -195,7 +190,7 @@
 				"weapon"			"weapon_aug3"
 
 				"weapon_upgrade"	"ammo_beta50"
-				"weapon_upgrade"	"ammo_beta75"
+				//"weapon_upgrade"	"ammo_beta75"
 				//Secondaries
 				"weapon"			"weapon_m1a1"
 				"weapon"			"weapon_mini14"
@@ -235,12 +230,7 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_beanie"
-				"gear"				"srnx_beanie_brown"
-				"gear"				"srnx_bonnie_mask"
 				"gear"				"srnx_devgru_1"
-				"gear"				"srnx_tcap_dark_spec"
-				"gear"				"srnx_tcap_light_spec"
 			}
 		}
 		"Gnalvl_pointman_usmc"
@@ -288,8 +278,9 @@
 				"weapon"			"weapon_g36c"
 				"weapon"			"weapon_famas"
 				"weapon_upgrade"	"ammo_beta50"
-				"weapon_upgrade"	"ammo_beta75"
-				"weapon_upgrade"	"magazine_drum_75rd"
+				//"weapon_upgrade"	"ammo_beta75"
+				//"weapon_upgrade"	"magazine_drum_75rd"
+				"weapon_upgrade"	"magazine_drum_50rd"
 
 
 				//Secondaries
@@ -322,12 +313,7 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_beanie"
-				"gear"				"srnx_beanie_brown"
-				"gear"				"srnx_bonnie_mask"
 				"gear"				"srnx_devgru_1"
-				"gear"				"srnx_tcap_dark_spec"
-				"gear"				"srnx_tcap_light_spec"
 			}
 		}
 		"Gnalvl_rifleman_at_usmc_1"
@@ -415,12 +401,7 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_beanie"
-				"gear"				"srnx_beanie_brown"
-				"gear"				"srnx_bonnie_mask"
 				"gear"				"srnx_devgru_1"
-				"gear"				"srnx_tcap_dark_spec"
-				"gear"				"srnx_tcap_light_spec"
 			}
 		}
 		"Gnalvl_rifleman_at_usmc_2"
@@ -507,12 +488,7 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_beanie"
-				"gear"				"srnx_beanie_brown"
-				"gear"				"srnx_bonnie_mask"
 				"gear"				"srnx_devgru_1"
-				"gear"				"srnx_tcap_dark_spec"
-				"gear"				"srnx_tcap_light_spec"
 			}
 		}
 		"Gnalvl_engineer_usmc_1"
@@ -595,12 +571,7 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_beanie"
-				"gear"				"srnx_beanie_brown"
-				"gear"				"srnx_bonnie_mask"
 				"gear"				"srnx_devgru_1"
-				"gear"				"srnx_tcap_dark_spec"
-				"gear"				"srnx_tcap_light_spec"
 			}
 		}
 		"Gnalvl_engineer_usmc_2"
@@ -683,12 +654,7 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_beanie"
-				"gear"				"srnx_beanie_brown"
-				"gear"				"srnx_bonnie_mask"
 				"gear"				"srnx_devgru_1"
-				"gear"				"srnx_tcap_dark_spec"
-				"gear"				"srnx_tcap_light_spec"
 			}
 		}
 		"gnalvl_medic_usmc_1"
@@ -857,6 +823,7 @@
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
+				"gear"				"srnx_devgru_1"
 			}
 		}	
 		"Gnalvl_support_usmc_1"
@@ -892,7 +859,7 @@
 				"weapon"			"weapon_rpk"
 				"weapon"			"weapon_m249"
 				"weapon"			"weapon_m60"
-				"weapon"			"weapon_galil_sar"
+				//"weapon"			"weapon_galil_sar"
 				"weapon"			"weapon_rpk74m"
 				//"weapon"			"weapon_m16a4"
 				//"weapon"			"weapon_m4a1"
@@ -901,7 +868,7 @@
 				"weapon"			"weapon_mk46"
 				"weapon"			"weapon_mk48"
 				//upgrades
-				"weapon_upgrade"	"magazine_drum_75rd"
+				//"weapon_upgrade"	"magazine_drum_75rd"
 				//"weapon_upgrade"	"ammo_beta75"
 
 				//Secondaries
@@ -931,6 +898,7 @@
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
+				"gear"				"srnx_devgru_1"
 
 			}
 		}
@@ -967,7 +935,7 @@
 				"weapon"			"weapon_rpk"
 				"weapon"			"weapon_m249"
 				"weapon"			"weapon_m60"
-				"weapon"			"weapon_galil_sar"
+				//"weapon"			"weapon_galil_sar"
 				"weapon"			"weapon_rpk74m"
 				//"weapon"			"weapon_m16a4"
 				//"weapon"			"weapon_m4a1"
@@ -976,7 +944,7 @@
 				"weapon"			"weapon_mk46"
 				"weapon"			"weapon_mk48"
 				//upgrades
-				"weapon_upgrade"	"magazine_drum_75rd"
+				//"weapon_upgrade"	"magazine_drum_75rd"
 				//"weapon_upgrade"	"ammo_beta75"
 
 				//Secondaries
@@ -1006,6 +974,7 @@
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
+				"gear"				"srnx_devgru_1"
 
 			}
 		}
@@ -1042,23 +1011,23 @@
 				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_sks"
 				"weapon"			"weapon_akm"
-				"weapon"			"weapon_ak74"
+				//"weapon"			"weapon_ak74"
 				"weapon"			"weapon_m16a4"
-				"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_sa80"
+				//"weapon"			"weapon_m4a1"
+				//"weapon"			"weapon_sa80"
 				"weapon"			"weapon_scar"
 				"weapon"			"weapon_mosin"
 				"weapon"			"weapon_g3a3"
-				"weapon"			"weapon_sig553"
-				"weapon"			"weapon_g36c"
-				"weapon"			"weapon_famas"
-				"weapon"			"weapon_f2000"
+				//"weapon"			"weapon_sig553"
+				//"weapon"			"weapon_g36c"
+				//"weapon"			"weapon_famas"
+				//"weapon"			"weapon_f2000"
 				"weapon"			"weapon_mk20_scar"
 				"weapon"			"weapon_rfb"
 				"weapon"			"weapon_svd"
 				"weapon"			"weapon_m14"
 				"weapon"			"weapon_m107"
-				"weapon"			"weapon_aug3"
+				//"weapon"			"weapon_aug3"
 
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
@@ -1101,12 +1070,7 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_beanie"
-				"gear"				"srnx_beanie_brown"
-				"gear"				"srnx_bonnie_mask"
 				"gear"				"srnx_devgru_1"
-				"gear"				"srnx_tcap_dark_spec"
-				"gear"				"srnx_tcap_light_spec"
 			}
 		}
 		"gnalvl_recon_medic_usmc"
@@ -1198,6 +1162,7 @@
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
+				"gear"				"srnx_devgru_1"
 			}
 		}
 
@@ -1285,12 +1250,7 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_beanie"
-				"gear"				"srnx_beanie_brown"
-				"gear"				"srnx_bonnie_mask"
 				"gear"				"srnx_devgru_1"
-				"gear"				"srnx_tcap_dark_spec"
-				"gear"				"srnx_tcap_light_spec"
 			}
 		}
 		"Gnalvl_marksman_usmc_1"
@@ -1369,12 +1329,7 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_beanie"
-				"gear"				"srnx_beanie_brown"
-				"gear"				"srnx_bonnie_mask"
 				"gear"				"srnx_devgru_1"
-				"gear"				"srnx_tcap_dark_spec"
-				"gear"				"srnx_tcap_light_spec"
 			}
 		}
 		"Gnalvl_marksman_usmc_2"
@@ -1452,12 +1407,7 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_beanie"
-				"gear"				"srnx_beanie_brown"
-				"gear"				"srnx_bonnie_mask"
 				"gear"				"srnx_devgru_1"
-				"gear"				"srnx_tcap_dark_spec"
-				"gear"				"srnx_tcap_light_spec"
 			}
 		}
 		"Gnalvl_spotter_usmc"
@@ -1540,11 +1490,13 @@
 				//Explosives
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_m84"
+				"weapon"			"weapon_mk3"
 				//Pistols
 				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
+				"gear"				"srnx_devgru_1"
 			}
 		}
 		

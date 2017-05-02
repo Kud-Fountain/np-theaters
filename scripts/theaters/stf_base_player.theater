@@ -28,6 +28,7 @@
 		//100 lbs = 454 hectograms
 		"weight"
 		{
+			"frac_jump_force_max_weight"			"1.0"
 			"min_weight"			"60" 
 			"max_weight"			"454" 
 		}
@@ -36,16 +37,16 @@
 			"frac_side_move"		"0.60"
 			"frac_back_move"		"0.65"
 			"frac_side_step"		"0.6"
-			"speed_prone"			"54"
-			"speed_crouch_walk"		"56"
-			"speed_crouch_run"		"100"
-			"speed_walk"			"90"
-			"speed_run"				"140" // def: 170
-			"speed_sprint"			"320" // def: 288
+			"speed_prone"			"48"
+			"speed_crouch_walk"		"50"
+			"speed_crouch_run"		"70"
+			"speed_walk"			"80" // def: 80
+			"speed_run"				"110" // def: 170
+			"speed_sprint"			"260" // def: 288
 			"AccelerationByWeight"
 			{
 				"60"				"4.4" //def: "4.20"
-				"454"				"3.9" //def: "4.10"
+				"454"				"4.0" //def: "4.10"
 			}
 			
 			"DecelerationByWeight"
@@ -62,10 +63,10 @@
 			}
 			"SprintSpeedFactorByStamina"
 			{
-				"0"					"0.7"
-				"20"				"0.8"
-				"40"				"0.9"
-				"70"				"1.0"
+				"0"					"0.6"
+				"20"				"0.7"
+				"40"				"0.8"
+				"70"				"0.9"
 				"100"				"1.0"
 			}
 
@@ -83,8 +84,11 @@
 		{
 			"StaminaMaxByWeight"
 			{
-				"60"				"120"
-				"454"				"35"
+				"60"				"200"
+				"113"				"180" // -20
+				"227"				"140" // -40
+				"340"				"80"  // -60
+				"454"				"30" // -50
 			}
 			"stamina_regain"		"5.50"
 			"stamina_sprint_take"	"6.00" 
