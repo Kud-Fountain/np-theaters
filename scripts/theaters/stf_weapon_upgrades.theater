@@ -426,7 +426,7 @@
 			
 			"magsize_override"			"75"
 			"maxcarry_override"			"4"
-			"reload_speed"				"0.75"
+			"reload_speed"				"0.85"
 			"draw_speed"				"0.75"
 
 			"recoil"
@@ -565,7 +565,7 @@
 			"weight"					"72" // Rough estimate of ammo weight + gameplay
 			"magsize_override"			"75"
 			"maxcarry_override"			"4"
-			"reload_speed"				"0.75"
+				
 			"draw_speed"				"0.75"
 			"recoil"
 			{

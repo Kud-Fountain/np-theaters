@@ -1,5 +1,5 @@
 
-"#base" "stf_19_sie_base.theater"
+"#base" "stf_base.theater"
 "#base"	"stf_insurgents_hggunner.theater"
 "theater"
 {
@@ -88,49 +88,49 @@
 				"Team1"	// assault team #1
 				{
 					//role name
-					"Bot"		"mg_fighter_ins_6"		
-					"Bot"		"mg_fighter_ins_7" 		
-					"Bot"		"mg_fighter_ins_6"		
-					"Bot"		"mg_fighter_ins_7" 				
-					"Bot"		"mg_fighter_ins_6"		
-					"Bot"		"mg_fighter_ins_7"								
-					"Bot"		"mg_fighter_ins_7"	 	
+					"Bot"		"juggernaut_1"
+					"Bot"		"juggernaut_2"		
+					"Bot"		"juggernaut_1"
+					"Bot"		"juggernaut_2"				
+					"Bot"		"juggernaut_1"
+					"Bot"		"juggernaut_2"			
+					"Bot"		"juggernaut_1"	 	
 				}
 
 				"Team2"	// Support team #2
 				{
 					//role name
-					"Bot"		"mg_fighter_ins_6"		
-					"Bot"		"mg_fighter_ins_7" 		
-					"Bot"		"mg_fighter_ins_6"		
-					"Bot"		"mg_fighter_ins_7"				
-					"Bot"		"mg_fighter_ins_6"		
-					"Bot"		"mg_fighter_ins_7"					
-					"Bot"		"mg_fighter_ins_7"				
+					"Bot"		"juggernaut_1"
+					"Bot"		"juggernaut_2"		
+					"Bot"		"juggernaut_1"
+					"Bot"		"juggernaut_2"				
+					"Bot"		"juggernaut_1"
+					"Bot"		"juggernaut_2"			
+					"Bot"		"juggernaut_1"			
 				}
 
 				"Team3"	// Recon team #3
 				{
 					//role name							
-					"Bot"		"mg_fighter_ins_6"		
-					"Bot"		"mg_fighter_ins_7" 		
-					"Bot"		"mg_fighter_ins_6"		
-					"Bot"		"mg_fighter_ins_7" 			
-					"Bot"		"mg_fighter_ins_6"		
-					"Bot"		"mg_fighter_ins_7" 					
-					"Bot"		"mg_fighter_ins_7"	
+					"Bot"		"juggernaut_3"
+					"Bot"		"juggernaut_4"		
+					"Bot"		"juggernaut_3"
+					"Bot"		"juggernaut_4"			
+					"Bot"		"juggernaut_3"
+					"Bot"		"juggernaut_4"			
+					"Bot"		"juggernaut_3"
 				}
 
 				"Team4"	// Support team #4
 				{
 					//role name							
-					"Bot"		"mg_fighter_ins_6"		
-					"Bot"		"mg_fighter_ins_7" 		
-					"Bot"		"mg_fighter_ins_6"		
-					"Bot"		"mg_fighter_ins_7" 			
-					"Bot"		"mg_fighter_ins_6"		
-					"Bot"		"mg_fighter_ins_7" 					
-					"Bot"		"mg_fighter_ins_7"
+					"Bot"		"juggernaut_3"
+					"Bot"		"juggernaut_4"		
+					"Bot"		"juggernaut_3"
+					"Bot"		"juggernaut_4"			
+					"Bot"		"juggernaut_3"
+					"Bot"		"juggernaut_4"			
+					"Bot"		"juggernaut_3"
 				}	
 				
 			}

@@ -91,14 +91,23 @@
 			{
 				"Team1"	// assault team #1
 				{
+					//M79s
+					//standard_ins_1 - he
+					//mg_fighter_ins_3 - he
+					//striker_ins_3 - incen
+					//striker_ins_5 smoke
+					//scout_ins_1 smoke
+					//scout_ins_2 smoke
+					//sapper_ins_1 incen
+					//sapper_ins_4 he
 					//role name
 					"Bot"		"standard_ins_1"
 					"Bot"		"mg_fighter_ins_1"		
 					"Bot"		"mg_fighter_ins_2" 		
 					"Bot"		"striker_ins_1" 		
-					"Bot"		"bomber_ins_1"			
-					"Bot"		"sapper_ins_1"		
-					"Bot"		"sapper_ins_2"				
+					"Bot"		"striker_ins_3"				
+					"Bot"		"sapper_ins_1" 		
+					"Bot"		"juggernaut_1" 				
 					"Bot"		"scout_ins_1" 	
 				}
 
@@ -107,25 +116,25 @@
 					//role name
 					"Bot"		"standard_ins_2" 
 					"Bot"		"mg_fighter_ins_3"		
-					"Bot"		"striker_ins_2" 		
-					"Bot"		"striker_ins_3"		
-					"Bot"		"sapper_ins_3"		
-					"Bot"		"striker_ins_vip_1"		
-					"Bot"		"scout_ins_2"  		
+					"Bot"		"striker_ins_2" 
+					"Bot"		"bomber_ins_1" 		
+					"Bot"		"juggernaut_2" 	
+					"Bot"		"striker_ins_vip_1"
+					"Bot"		"mg_fighter_ins_4" 		
 					"Bot"		"scout_ins_3"			
 				}
 
 				"Team3"	// Recon team #3
 				{
 					//role name							
-					"Bot"		"standard_ins_3" 
-					"Bot"		"mg_fighter_ins_4"		
-					"Bot"		"mg_fighter_ins_5" 		
-					"Bot"		"striker_ins_4" 		
-					"Bot"		"striker_ins_5"			
-					"Bot"		"sapper_ins_4"		
-					"Bot"		"bomber_ins_2"			
-					"Bot"		"scout_ins_vip_1"
+					"Bot"		"standard_ins_3"	
+					"Bot"		"bomber_ins_2"	
+					"Bot"		"juggernaut_3" 	 	
+					"Bot"		"striker_ins_4"	
+					"Bot"		"juggernaut_4" 		
+					"Bot"		"sapper_ins_4"	
+					"Bot"		"juggernaut_3"			
+					"Bot"		"juggernaut_1" 
 				}
 
 				"Team4"	// Support team #4 (Mirrors Team 1)
@@ -134,11 +143,11 @@
 					"Bot"		"standard_ins_1"
 					"Bot"		"mg_fighter_ins_1"		
 					"Bot"		"mg_fighter_ins_2" 		
-					"Bot"		"striker_ins_1" 		
-					"Bot"		"bomber_ins_1"			
+					"Bot"		"striker_ins_1"			
 					"Bot"		"sapper_ins_1"		
 					"Bot"		"sapper_ins_2"				
-					"Bot"		"scout_ins_1" 
+					"Bot"		"scout_ins_1" 		
+					"Bot"		"bomber_ins_1" 
 				}	
 				
 			}

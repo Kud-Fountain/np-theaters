@@ -42,7 +42,7 @@
 			"speed_crouch_run"		"70"
 			"speed_walk"			"80" // def: 80
 			"speed_run"				"110" // def: 170
-			"speed_sprint"			"260" // def: 288
+			"speed_sprint"			"280" // def: 288
 			"AccelerationByWeight"
 			{
 				"60"				"4.4" //def: "4.20"
@@ -63,9 +63,10 @@
 			}
 			"SprintSpeedFactorByStamina"
 			{
-				"0"					"0.6"
-				"20"				"0.7"
-				"40"				"0.8"
+				"0"					"0.55"
+				"20"				"0.6"
+				"40"				"0.7"
+				"60"				"0.8"
 				"70"				"0.9"
 				"100"				"1.0"
 			}

@@ -27,7 +27,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				"gear"				"srnx_BOT_ins_helmet_k63"
 				//Bomb Model (melee)
@@ -39,7 +39,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -69,7 +69,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -80,7 +80,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -111,7 +111,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				"gear"				"srnx_BOT_ins_helmet_maskah"
 				//Bomb Model (melee)
@@ -123,7 +123,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -153,7 +153,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -164,7 +164,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -195,7 +195,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				"gear"				"srnx_BOT_ins_helmet_dgreen"
 				//Bomb Model (melee)
@@ -207,7 +207,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -237,7 +237,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				"gear"				"srnx_BOT_ins_helmet_k63"
 				//Bomb Model (melee)
@@ -249,7 +249,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -280,7 +280,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -291,7 +291,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -321,7 +321,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				"gear"				"srnx_BOT_ins_helmet_maskah"
 				//Bomb Model (melee)
@@ -333,7 +333,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -363,7 +363,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -374,7 +374,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"
@@ -406,7 +406,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				"gear"				"srnx_BOT_ins_helmet_dgreen"
 				//Bomb Model (melee)
@@ -418,7 +418,7 @@
 			{
 				//Gear
 				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ar500"
 				"gear"				"srnx_BOT_leba1"
 				//Bomb Model (melee)
 				"weapon"			"weapon_suicide_bomb"

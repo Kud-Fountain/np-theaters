@@ -21,8 +21,10 @@
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_GENERIC"			"0.60"
 			}
 			"explosive_damage_frac"		"0.60"
+			"penetration_power_loss"	"40"
 			"team_access"				"security, insurgent"
 		}
 		"srnx_nij_3a"
@@ -42,8 +44,10 @@
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_GENERIC"			"0.60"
 			}
 			"explosive_damage_frac"		"0.60"
+			"penetration_power_loss"	"40"
 			
 			"team_access"				"security, insurgent"
 		}
@@ -64,8 +68,10 @@
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_GENERIC"			"0.80"
 			}
 			"explosive_damage_frac"		"0.80"
+			"penetration_power_loss"	"80"
 			
 			"team_access"				"security, insurgent"
 		}
@@ -86,8 +92,10 @@
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_GENERIC"			"0.80"
 			}
 			"explosive_damage_frac"		"0.80"
+			"penetration_power_loss"	"85"
 			
 			"team_access"				"security, insurgent"
 		}
@@ -107,8 +115,10 @@
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_GENERIC"			"0.80"
 			}
 			"explosive_damage_frac"		"0.80"
+			"penetration_power_loss"	"90"
 			"team_access"				"security, insurgent"
 		}
 		
@@ -129,7 +139,9 @@
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_GENERIC"			"0.02"
 			}
+			"penetration_power_loss"	"90"
 			"explosive_damage_frac"		"0.04"
 			"team_access"				"security, insurgent"
 		}
@@ -151,6 +163,7 @@
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
 			}
+			"penetration_power_loss"	"30"
 			
 			"team_access"				"security, insurgent"
 		}
@@ -171,6 +184,7 @@
 				"HITGROUP_LEFTLEG"			"0.60"
 				"HITGROUP_RIGHTLEG"			"0.60"
 			}
+			"penetration_power_loss"	"30"
 		
 			"team_access"				"security, insurgent"
 		}
@@ -191,6 +205,7 @@
 				"HITGROUP_LEFTLEG"			"0.60"
 				"HITGROUP_RIGHTLEG"			"0.60"
 			}
+			"penetration_power_loss"	"30"
 			"team_access"				"security, insurgent"
 		}
 		"srnx_super_armor2"
@@ -211,7 +226,7 @@
 				"HITGROUP_LEFTLEG"			"0.04"
 				"HITGROUP_RIGHTLEG"			"0.04"
 			}
-		
+			"penetration_power_loss"	"30"
 			"team_access"				"security, insurgent"
 		}
 		// "srnx_backpack_hack"
@@ -264,7 +279,7 @@
         {
             "print_name"    		"#gear_devgru_1"
             "print_desc"   			"#gear_devgru_1_desc"
-            "class_restricted"		"1" //When trying to restrict, may not work
+            "class_restricted"		"0" //When trying to restrict, may not work
             "gear_slot"             "head"
             "gear_cost"             "0"
             "gear_weight"   		"14"
@@ -274,6 +289,7 @@
             {
                 "HITGROUP_HEAD"        "0.65"
             }
+			"penetration_power_loss"	"20"
             "team_access"   		"security, insurgent"
         }
 		"srnx_devgru_2" // Devgru medium 2
@@ -291,6 +307,7 @@
                 "HITGROUP_HEAD"        "0.60"
             }
             "team_access"   		"security, insurgent"
+			"penetration_power_loss"	"25"
         }
 		"srnx_devgru_3" // Devgru mich 3
         {
@@ -306,6 +323,7 @@
             {
                 "HITGROUP_HEAD"        "0.55"
             }
+			"penetration_power_loss"	"30"
             "team_access"   		"security, insurgent"
         }
 		"srnx_devgru_super" // Devgru mich 3
@@ -322,6 +340,7 @@
             {
                 "HITGROUP_HEAD"        "0.03"
             }
+			"penetration_power_loss"	"30"
             "team_access"   		"security, insurgent"
         }
   //       "srnx_bonnie_mask" // Bonnie Hat 
@@ -805,8 +824,10 @@
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_GENERIC"			"0.60"
 			}
 			"explosive_damage_frac"		"0.60"
+			"penetration_power_loss"	"40"
 			
 			"team_access"				"insurgent"
 		}
@@ -827,8 +848,10 @@
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_GENERIC"			"0.60"
 			}
 			"explosive_damage_frac"		"0.60"
+			"penetration_power_loss"	"40"
 			
 			"team_access"				"insurgent"
 		}
@@ -849,8 +872,10 @@
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_GENERIC"			"0.80"
 			}
 			"explosive_damage_frac"		"0.80"
+			"penetration_power_loss"	"80"
 			
 			"team_access"				"insurgent"
 		}
@@ -871,8 +896,10 @@
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_GENERIC"			"0.80"
 			}
 			"explosive_damage_frac"		"0.80"
+			"penetration_power_loss"	"85"
 			
 			"team_access"				"insurgent"
 		}
@@ -892,9 +919,11 @@
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_GENERIC"			"0.80"
 			}
 			"explosive_damage_frac"		"0.80"
 			"team_access"				"insurgent"
+			"penetration_power_loss"	"90"
 		}
 		"srnx_BOT_leba1"
 		{
@@ -915,6 +944,7 @@
 			}
 		
 			"team_access"				"insurgent"
+			"penetration_power_loss"	"30"
 		}
         "srnx_BOT_ins_helmet_black"
         {
@@ -930,28 +960,48 @@
             {
                 "HITGROUP_HEAD"        "0.55"
             }
+			"penetration_power_loss"	"30"
             "team_access"   		"insurgent"
         }
-		"srnx_super_BOT_armor"
+		"srnx_BOT_juggernaut_armor"
 		{
-			"print_name"	"#gear_super_armor"
-			"print_desc"	"#gear_super_armor_desc"
+			"print_name"	"#gear_AR500_armor"
+			"print_desc"	"#gear_AR500_armor_desc"
 			"gear_slot"		"armor"
 			"gear_cost"		"0"
-			"gear_weight"	"50"  //75 (7.5kg) + 250 encumbrance
+			"gear_weight"	"120" // 75 (7.5kg) + 250 encumbrance
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"0.02"
-				"HITGROUP_CHEST"			"0.02"
-				"HITGROUP_STOMACH"			"0.02"
+				"HITGROUP_HEAD"				"1.00"
+				"HITGROUP_CHEST"			"0.03"
+				"HITGROUP_STOMACH"			"0.03"
 				"HITGROUP_LEFTARM"			"0.02"
-				"HITGROUP_RIGHTARM"			"0.03"
-				"HITGROUP_LEFTLEG"			"0.03"
-				"HITGROUP_RIGHTLEG"			"0.03"
+				"HITGROUP_RIGHTARM"			"0.02"
+				"HITGROUP_LEFTLEG"			"0.02"
+				"HITGROUP_RIGHTLEG"			"0.02"
+				"HITGROUP_GENERIC"			"0.02"
 			}
-			"explosive_damage_frac"		"0.03"
+			"penetration_power_loss"	"120"
+			"explosive_damage_frac"		"0.015"
 			"team_access"				"insurgent"
 		}
+        "srnx_BOT_ins_jugger_helmet_black"
+        {
+            "print_name"    		"#ins_helmet"
+            "print_desc"   			"#ins_helmet_desc"
+            "class_restricted"      "0"
+            "gear_slot"             "head"
+            "gear_cost"             "0"
+            "gear_weight"   		"25"
+			"entity"				"model"
+            "model"                 "models/characters/custom/mlf_helmet_head.mdl"
+            "DamageHitgroups"
+            {
+                "HITGROUP_HEAD"        "0.03"
+            }
+			"penetration_power_loss"	"100"
+            "team_access"   		"insurgent"
+        }
 		// "srnx_BOT_ins_helmet_dgreen" // Dark Green Helmet
   //       {
   //           "print_name"    		"#ins_helmet"
