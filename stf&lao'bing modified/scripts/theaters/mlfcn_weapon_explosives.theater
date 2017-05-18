@@ -1,0 +1,455 @@
+"#base" "base_explosives.theater"
+
+"theater"
+{
+	"explosives"
+	{
+		"grenade_m18"
+		{
+			"import"				"baseGrenade"
+			"entity_class"				"grenade_smoke"
+			"Model"					"models/weapons/w_m18.mdl"
+			"FuseTime"				"3.5"
+			"RocketStartSpeed"			"2500"
+			
+			"Particles"
+			{
+				"DetonateParticle"			"smokegrenade"
+				"SmokeColor"				"40 35 33 252"	// why does the alpha have to be set so damn high?
+			}
+			
+			"Sounds"
+			{
+				"DetonateSound"				"BaseSmokeEffect.Sound"
+				"BounceSound"				"Weapon_M18.Bounce"
+			}
+		}
+
+		"grenade_m84"
+		{
+			"import"				"baseGrenade"
+			"entity_class"				"grenade_flash"
+			"Model"					"models/weapons/w_m84.mdl"
+			"DetonateDamage"			"6.0"
+			"DetonateDamageRadius"			"1500"
+			"DetonateFlashDuration"			"12.0"
+			"DetonatePenetrationRadius"		"64" // this applies only to the deafen effect w/ flashes
+			"FlashDelay"				"0.05"
+			"DeafenDelay"				"0.25"
+			"FuseTime"				"1.8"
+			"Particles"
+			{
+				"DetonateParticle"			"ins_flashbang_explosion"
+				"DetonateWaterParticle"			"ins_water_explosion"
+			}
+			"Sounds"
+			{
+				"DetonateSound"				"BaseStunGrenade.Explode"
+				"BounceSound"				"Weapon_M84.Bounce"
+			}
+		}
+
+		"grenade_m67"
+		{
+			"import"				"baseGrenade"
+			"entity_class"				"grenade_frag"
+			"Model"					"models/weapons/w_m67.mdl"
+			"DetonateDamage"			"160"
+			"DetonatePenetrationRadius"		"40"
+			"DetonateDamageRadius"			"750"
+			"FuseTime"				"4"
+			"RocketStartSpeed"			"2000"
+			
+			"Health"				"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"			"ins_grenade_explosion"
+				"DetonateWaterParticle"			"ins_water_explosion"
+			}
+			"Sounds"
+			{
+				"DetonateSound"				"BaseGrenade.Explode"
+				"DetonateWaterSound"			"BaseGrenade.ExplodeWater"
+				"BounceSound"				"Weapon_M67.Bounce"
+			}
+		}
+
+		"grenade_f1"
+		{
+			"import"				"baseGrenade"
+			"entity_class"				"grenade_frag"
+			"Model"					"models/weapons/w_f1.mdl"
+			"DetonateDamage"			"160"
+			"DetonatePenetrationRadius"		"40"
+			"DetonateDamageRadius"			"750"
+			"FuseTime"				"4"
+			"RocketStartSpeed"			"2000"
+			
+			"Health"				"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"			"ins_grenade_explosion"
+				"DetonateWaterParticle"			"ins_water_explosion"
+			}
+			"Sounds"
+			{
+				"DetonateSound"				"BaseGrenade.Explode"
+				"BounceSound"				"Weapon_M67.Bounce"
+			}
+		}
+
+		"grenade_anm14"
+		{
+			"import"				"baseGrenade"
+			"entity_class"				"grenade_aoe"
+			"Model"					"models/weapons/w_anm14.mdl"
+			"DamageType"				"DMG_BURN, DMG_PREVENT_PHYSICS_FORCE"
+			"DetonateDamage"			"100"	// det damage is for when it first goes off
+			"DetonatePenetrationRadius"		"0"
+			"DetonateDamageRadius"			"240"
+			"FuseTime"				"1.8"
+			"DetonateUnderwater"			"0"
+			"Cookable"				"1"
+			"RocketStartSpeed"			"2000"
+			"ShakeAmplitude"			"0"
+			
+			"Deafen"				"0"
+			"AreaDamageTime"			"24"
+			"AreaDamageFrequency"			"0.38"
+			"AreaDamageMinRadius"			"120"
+			"AreaDamageMaxRadius"			"160"
+			"AreaDamageGrowSpeed"			"20"
+			"AreaDamageAmount"			"76"
+			
+			"Health"				"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"			"ins_thermite_explosion"
+				"DetonateWaterParticle"			"ins_thermite_explosion"
+				"BroadcastAll"				"1"
+				"FollowOrigin"				"1"
+			}
+			"Sounds"
+			{
+				"DetonateSound"				"ANM14Incendiary.Burn"
+				"BounceSound"				"ANM14Incendiary.Bounce"
+			}
+		}
+
+		"grenade_molotov"
+		{
+			"import"				"baseGrenade"
+			"entity_class"				"grenade_aoe"
+			"Model"					"models/weapons/w_molotov.mdl"
+			"DamageType"				"DMG_BURN, DMG_PREVENT_PHYSICS_FORCE"
+			"DetonateDamage"			"100"	// det damage is for when it first goes off
+			"DetonatePenetrationRadius"		"0"
+			"DetonateDamageRadius"			"240"
+			"FuseTime"				"0"
+			"Cookable"				"0"
+			"DetonateUnderwater"			"0"
+			"ImpactDetonation"			"1"
+			"RocketStartSpeed"			"2000"
+			"ShakeAmplitude"			"0"
+			"UseVPhysics"				"0"
+			
+			"Elasticity"				"0.0"
+			
+			"Deafen"				"0"
+			"AreaDamageTime"			"24"
+			"AreaDamageFrequency"			"0.44"
+			"AreaDamageMinRadius"			"240"
+			"AreaDamageMaxRadius"			"260"
+			"AreaDamageGrowSpeed"			"9"
+			"AreaDamageAmount"			"18"
+			
+			"Health"				"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"			"ins_molotov_explosion"
+				"DetonateWaterParticle"			"ins_molotov_explosion"
+				"TrailParticle"				"molotov_trail"
+				"BroadcastAll"				"1"
+				"FollowOrigin"				"1"
+				"NormalUp"				"1"
+			}
+			"Sounds"
+			{
+				"DetonateSound"				"Molotov.Burn"
+				"BounceSound"				"Weapon_M67.Bounce"
+				"ExtinguishSound"			"Molotov.Extinguish"
+			}
+		}
+
+		"grenade_flare"
+		{
+			"import"				"baseGrenade"
+			"entity_class"				"grenade_aoe"
+			"Model"					"models/weapons/w_flare_projectile.mdl"
+			"DamageType"				"DMG_BURN, DMG_PREVENT_PHYSICS_FORCE"
+			"DetonateDamage"			"1"	// det damage is for when it first goes off
+			"DetonatePenetrationRadius"		"0"
+			"DetonateDamageRadius"			"64"
+			"FuseTime"				"1.5"
+			"Cookable"				"0"
+			"DetonateUnderwater"			"0"
+			"RocketStartSpeed"			"2000"
+			"ShakeAmplitude"			"0"
+			
+			"Elasticity"				"0.1"
+			
+			"Deafen"				"0"
+			"AreaDamageTime"			"24"
+			"AreaDamageFrequency"			"0.5"
+			"AreaDamageMinRadius"			"75"
+			"AreaDamageMaxRadius"			"95"
+			"AreaDamageGrowSpeed"			"9"
+			"AreaDamageAmount"			"1"
+			
+			"Health"				"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"			"ins_flaregun_flare"
+				"DetonateWaterParticle"			"ins_flaregun_flare"
+				"TrailParticle"				"ins_flaregun_trail"
+				"BroadcastAll"				"1"
+				"FollowOrigin"				"1"
+				"NormalUp"				"1"
+			}
+			"Sounds"
+			{
+				"DetonateSound"				"Flare.Burn"
+				"BounceSound"				""
+			}
+		}
+
+		"grenade_m79_he"
+		{
+			"import"				"baseGrenade"
+			"entity_class"				"grenade_frag"
+			"Model"					"models/weapons/upgrades/a_projectile_m203.mdl"
+
+			"DetonateDamage"			"510"
+			"DetonatePenetrationRadius"		"40"
+			"DetonateDamageRadius"			"340"
+			"FuseTime"				"0"
+			"ImpactDetonation"			"1"
+			"ArmDelay"				"0.06"
+			"RocketStartSpeed"			"3000"
+			
+			"Health"				"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"			"ins_m203_explosion"
+				"DetonateWaterParticle"			"ins_m203_explosion"
+			}
+			"Sounds"
+			{
+				"DetonateSound"				"BaseGrenade.Explode"
+				"BounceSound"				"Weapon_M67.Bounce"
+			}
+		}
+
+		"grenade_m203_he"
+		{
+			"import"				"baseGrenade"
+			"entity_class"				"grenade_frag"
+			"Model"					"models/weapons/upgrades/a_projectile_m203.mdl"
+			
+			"DetonateDamage"			"170"
+			"DetonatePenetrationRadius"		"40"
+			"DetonateDamageRadius"			"600"
+			"FuseTime"				"0"
+			"ImpactDetonation"			"1"
+			"ArmDelay"				"0.12"
+			"RocketStartSpeed"			"3000"
+			
+			"Health"				"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"			"ins_m203_explosion"
+				"DetonateWaterParticle"			"ins_m203_explosion"
+			}
+			"Sounds"
+			{
+				"DetonateSound"				"BaseGrenade.Explode"
+				"BounceSound"				"Weapon_M67.Bounce"
+			}
+		}
+
+		"grenade_gp25_he"
+		{
+			"import"				"grenade_m203_he"
+			"Model"					"models/weapons/upgrades/a_projectile_gp25.mdl"
+		}
+
+		"grenade_m203_smoke"
+		{
+			"import"				"baseGrenade"
+			"entity_class"				"grenade_smoke"
+			"Model"					"models/weapons/upgrades/a_projectile_m203.mdl"
+			"FuseTime"				"0"
+			"ImpactDetonation"			"1"
+			"RocketStartSpeed"			"3000"
+			"ArmDelay"				"0.06"
+			
+			"Health"				"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"			"m203_smokegrenade"
+				"SmokeColor"				"40 35 33 252"	// why does the alpha have to be set so damn high?
+			}
+			
+			"Sounds"
+			{
+				"DetonateSound"				"Weapon_m203.SmokeExplode"
+				"BounceSound"				"Weapon_M67.Bounce"
+			}
+		}
+
+		"grenade_gp25_smoke"
+		{
+			"import"				"grenade_m203_smoke"
+			"Model"					"models/weapons/upgrades/a_projectile_gp25.mdl"
+		}
+
+		"rocket_at4"
+		{
+			"entity_class"				"rocket"
+			"Model"					"models/weapons/w_at4_projectile.mdl"
+
+			"DetonateDamage"			"230"
+			"DetonateDamageRadius"			"1000"
+			"DetonatePenetrationRadius"		"200"
+			"RocketTopSpeed"			"3500"	// you cannot go faster than 3500
+			"RocketStartSpeed"			"200"
+			"RocketAcceleration"			"400"
+			"RocketWobble"				"1"
+			"RocketWobbleFrequency"			"0.25"
+
+			"Particles"
+			{
+				"DetonateParticle"			"ins_rpg_explosion"
+				"DetonateWaterParticle"			"ins_water_explosion"
+				"TrailParticle"				"rockettrail"
+				"BackblastParticle"			"ins_weapon_rpg_backblast"
+			}
+			"Sounds"
+			{
+				"DetonateSound"				"Weapon_RPG7.Hit"
+				"LaunchSound"				"Weapon_RPG7.Loop"
+			}
+		}
+
+		"rocket_rpg7"
+		{
+			"entity_class"				"rocket"
+			"Model"					"models/weapons/w_rpg7_projectile.mdl"
+
+			"DetonateDamage"			"230"
+			"DetonateDamageRadius"			"1000"
+			"DetonatePenetrationRadius"		"200"
+			"RocketTopSpeed"			"3500"	// you cannot go faster than 3500
+			"RocketStartSpeed"			"200"
+			"RocketAcceleration"			"400"
+			"RocketWobble"				"1"
+			"RocketWobbleFrequency"			"0.25"
+
+			"Particles"
+			{
+				"DetonateParticle"			"ins_rpg_explosion"
+				"DetonateWaterParticle"			"ins_water_explosion"
+				"TrailParticle"				"rockettrail"
+				"BackblastParticle"			"ins_weapon_rpg_backblast"
+			}
+			"Sounds"
+			{
+				"DetonateSound"				"Weapon_RPG7.Hit"
+				"DetonateWaterSound"			"Weapon_RPG7.HitWater"
+				"LaunchSound"				"Weapon_RPG7.Loop"
+			}
+		}
+
+		"grenade_c4"
+		{
+			"import"				"baseGrenade"
+			"entity_class"				"remote"
+			"Model"					"models/weapons/w_c4.mdl"
+			
+			"DetonateDamage"			"304"
+			"DetonateDamageRadius"			"1200"
+			"DetonatePenetrationRadius"		"240"
+			"FuseTime"				"0.5"
+			
+			"Health"				"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"0"
+			
+			"Particles"
+			{
+				"DetonateParticle"			"ins_c4_explosion"
+				"DetonateWaterParticle"			"ins_water_explosion"
+			}
+			
+			"Sounds"
+			{
+				"DetonateSound"				"C4.Explode"
+				"DetonateWaterSound"			"C4.ExplodeWater"
+				"BounceSound"				"Weapon_C4.Bounce"
+			}
+		}
+
+		"grenade_ied"
+		{
+			"import"				"baseGrenade"
+			"entity_class"				"remote"
+			"Model"					"models/weapons/w_ied.mdl"
+			
+			"DetonateDamage"			"304"
+			"DetonateDamageRadius"			"1200"
+			"DetonatePenetrationRadius"		"240"
+			"FuseTime"				"0.5"
+			
+			"Health"				"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"0"
+			
+			"Particles"
+			{
+				"DetonateParticle"			"ins_c4_explosion"
+				"DetonateWaterParticle"			"ins_water_explosion"
+			}
+			
+			"Sounds"
+			{
+				"DetonateSound"				"IED.Explode"
+				"DetonateWaterSound"			"IED.ExplodeWater"
+				"BounceSound"				"Weapon_IED.Bounce"
+			}
+		}
+	}
+}
