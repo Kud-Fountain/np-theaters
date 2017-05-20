@@ -1,0 +1,123 @@
+"#base" "default_gear_test1.theater"
+
+"theater"
+{
+	"player_gear"
+	{
+		"sec_light_armor"
+		{
+			"gear_weight"				"84"	//3.8kg=8.4lb
+		}
+		"ins_light_armor"
+		{
+			"gear_weight"				"84" 
+		}
+
+		"sec_heavy_armor"
+		{
+			"gear_weight"				"164"	//7.4kg=16.4lb Originally the Interceptor Body Armor System weighed 16.4 pounds (7.4 kg), with the vest weighing 8.4 pounds (3.8 kg), and two plate inserts weighing four pounds (1.8 kg) each. This is lighter than the previous Ranger Body Armor fielded in Somalia which weighed 25.1 pounds (11.4 kg).
+		}
+		"ins_heavy_armor"
+		{
+			"gear_weight"				"164"
+		}
+
+		"sec_chest_rig"
+		{
+			"gear_weight"				"71"	//0.8x3+0.4x2=3.2=7.1lb	avg1.2+0.4)/2 0.7+0.1)/2
+			"class_restricted"			"1"
+			"extra_ammo"
+			{
+				"primary"       "3"	//1+3+3
+				"secondary"     "2"	//1+2+2
+				"explosive"		
+				{
+					"0"			"1"
+					//"1"			"0"
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"		"0"
+			}
+			"team_access"	"security"			
+		}
+		"sec_chest_carrier"
+		{
+			"gear_weight"				"123"	//0.8x5+0.4x4=5.6=12.3lb
+			"class_restricted"			"1"
+			"extra_ammo"
+			{
+				"primary"       "5"	//1+3+5
+				"secondary"     "4"	//1+2+4
+				"explosive"		
+				{
+					"0"			"1"
+					"1"			"1"
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"		"1"
+			}
+			"team_access"	"security"
+		}			
+
+		"ins_chest_rig"
+		{
+			"gear_weight"				"44"	//0.8x2+0.2x2=2=4.4lb avg0.3+0.1)/2
+		}
+		"ins_chest_carrier"
+		{
+			"gear_weight"				"71"	//0.8x3+0.2x4=3.2=7.1lb
+		}
+
+		"sec_dayvision"
+		{
+			"print_name"				"#sec_dayvision"
+			"print_desc"				"#gear_nvg_desc"
+			"gear_slot"				"accessory"
+			"gear_cost"				"1"
+			"gear_weight"				"30"
+			"entity"				"nvg"
+			"model"					"models/characters/a_nightvision.mdl"
+			"settings"
+			{
+				"material"				"dev/sec_nightvision"
+				"sound_on"				"Weapon_NVG.NvgOn"
+				"sound_off"				"Weapon_NVG.NvgOff"
+				"chromatic_aberation"			"0"
+				"dust_power"				"1.2"
+				
+				"fade_in_time"				"0.3"
+				"fade_in_hold"				"0.1"
+				"fade_in_tonemap"			"170"
+				
+				"fade_out_time"				"0.5"
+				"fade_out_hold"				"0.1"
+			}
+			"team_access"				"security"
+		}
+
+		"bulletproof_helmet" 
+        {
+            "print_name"    		"#bulletproof_helmet"
+            "print_desc"   			"#bulletproof_helmet_desc"
+            "class_restricted"		"1"
+            "gear_slot"             "head"
+            "gear_cost"             "3"
+            "gear_weight"   		"30"	//3lb
+ 			"entity"				"model"
+            "model"                 "models/characters/ins_helmet_head.mdl"
+           "DamageHitgroups"
+            {
+				"HITGROUP_HEAD"				"3.0"
+            }
+			"penetration_power_required" "200"
+			"penetration_power_loss"	"220"
+			"explosive_damage_frac"		"0.93"	//1/7/2=0.07
+
+			"team_access"   		"security, insurgent"
+        }
+	}
+}

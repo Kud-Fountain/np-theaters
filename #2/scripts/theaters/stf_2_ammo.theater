@@ -1,0 +1,280 @@
+"theater"
+{
+	"ammo"
+	{
+		// ========================================
+		// ROCKETS
+		// ========================================
+		
+		// ========================================
+		// ww2ROCKETS
+		// ========================================
+		"rocket_bazooka"
+		{
+			"carry"					"1"
+		}
+		
+		"rocket_panzerschreck"
+		{
+			"carry"					"1"
+		}
+
+		// ========================================
+		// ww2Grenades
+		// ========================================
+		"grenade_mk2"
+		{
+			"carry"					"4"
+		}
+		
+		"grenade_stielhandgranate"
+		{
+			"carry"					"4"
+		}
+
+		"grenade_no69"
+		{
+			"carry"					"2"
+		}
+
+		"grenade_geballteladung"
+		{
+			"carry"					"2"
+		}
+
+		"grenade_m79"
+		{
+			"carry"					"7"
+		}
+
+		// ========================================
+		// Bullets
+		// ========================================
+		"357magnum"	// COLT python
+		{
+			"import"				"38special"
+			"flags_clear"			"AMMO_USE_MAGAZINES"
+			"SuppressionIncrement"	"45"
+
+			"Damage"
+			{
+				"1"						"110"
+				"100"					"110"
+				"3000"					"76"
+				"8000"					"50"
+			}
+			"PenetrationPower"
+			{
+				"10"					"375"
+				"8000"					"150"
+			}
+			"PenetrationDamage"
+			{
+				"0"						"1"
+				"200"					"0.5"
+				"375"					"0.1"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"1.00"
+				"HITGROUP_CHEST"			"0.60"
+				"HITGROUP_STOMACH"			"0.60"
+				"HITGROUP_LEFTARM"			"1.50"
+				"HITGROUP_RIGHTARM"			"1.50"
+				"HITGROUP_LEFTLEG"			"1.50"
+				"HITGROUP_RIGHTLEG"			"1.50"
+			}
+		}
+
+		"flechett"
+		{
+			"import"				"00buck"
+			"PenetrationPower"
+			{
+				"1000"					"260"
+				"8000"					"20"
+			}
+			"PenetrationDamage"
+			{
+				"0"						"1"
+				"130"					"0.5"
+				"260"					"0.1"
+			}
+		}
+		
+		// ========================================
+		// shotguns
+		// ========================================
+		"flechette"
+		{
+			"import"				"flechett"
+			"carry"					"72"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+		}
+
+		// ========================================
+		// M1 Garand (7.62×63mm)
+		// ========================================
+		"762x63_clip"
+		{
+			"import"		"762x51_mag"
+			"carry"			"12"
+			"magsize"		"8"
+		}
+
+		// ========================================
+		// Thompson
+		// ========================================
+		"45acp_thompson"
+		{
+			"import"				"45acp"
+			"carry"					"12"
+			"magsize"				"20"
+		}
+
+		// ========================================
+		// G43 (7.92×57mm)
+		// ========================================
+		"792x57_clip"
+		{
+			"import"		"762x51_mag"
+			"carry"			"12"
+			"magsize"		"10"
+		}
+
+		// ========================================
+		// .30-06 Springfield Bren Lewis m1919
+		// ========================================
+		"30-06_belt"
+		{
+			"import"					"762x51"	//"30-06"
+			"carry"						"1"
+			"magsize"					"250"
+			"tracer_frequency"			"5"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"15"
+		}
+		
+		"303_brit_box_30rnd"
+		{
+			"import"					"762x51"	//"30-06"
+			"carry"						"10"
+			"magsize"					"30"
+			"tracer_frequency"			"10"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"5"
+		}
+
+		"303_brit_pan_47rnd"
+		{
+			"import"					"762x51"	//"30-06"
+			"carry"						"4"
+			"magsize"					"47"
+			"tracer_frequency"			"10"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"10"
+		}
+		
+		"303_brit_belt"
+		{
+			"import"					"762x51"
+			"carry"						"1"
+			"magsize"					"250"
+			"tracer_frequency"			"10"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"20" 
+		}
+		
+		// ========================================
+		// MG34 and MG42
+		// ========================================
+		"792x57_belt"
+		{
+			"import"					"762x51"	//"792x57"
+			"carry"						"1"
+			"magsize"					"250"
+			"tracer_frequency"			"10"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"20"
+		}
+
+		"792x57_drum"
+		{
+			"import"					"762x51"	//"792x57"
+			"carry"						"4"
+			"magsize"					"75"
+			"tracer_frequency"			"10"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"10"
+		}
+
+		// ========================================
+		// M60
+		// ========================================
+		"762x51_belt"
+		{
+			"import"					"762x51"
+			"carry"						"2"
+			"magsize"					"100"
+			"tracer_frequency"			"5"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"15"
+		}
+
+		"762x51_tracer_belt"
+		{
+			"import"					"762x51_tracer"
+			"carry"						"2"
+			"magsize"					"100"
+			"tracer_frequency"			"1"
+			"tracer_type"				"whiz_with_line"
+		}
+
+		"762x51_ap_belt"
+		{
+			"import"					"762x51_ap"
+			"carry"						"2"
+			"magsize"					"100"
+			"tracer_frequency"			"5"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"15"
+		}
+		
+		// ========================================
+		// p90
+		// ========================================
+		"57x28mm_p90"
+		{
+			"import"				"9x19"
+			"carry"					"12"
+			"magsize"				"50"
+
+			"Damage"
+			{
+				"10"					"60"
+				"16000"					"32"
+			}
+		}
+		
+		"57x28mm_hp_p90"
+		{
+			"import"				"9x19_hp"
+			"carry"					"12"
+			"magsize"				"50"
+		}
+		
+		"57x28mm_ap_p90"
+		{
+			"import"				"9x19_ap"
+			"carry"					"12"
+			"magsize"				"50"
+		}
+		
+		"57x28mm_tracer_p90"
+		{
+			"import"				"9x19_tracer"
+			"carry"					"12"
+			"magsize"				"50"
+		}
+	}
+}

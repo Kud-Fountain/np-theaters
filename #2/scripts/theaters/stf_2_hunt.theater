@@ -1,0 +1,15 @@
+"#base" "stf_2_checkpoint.theater"
+
+"theater"
+{	
+	"player_gear"
+	{
+		"?nightmap"
+		{
+			"sec_nightvision"
+			{
+				"gear_cost"		"0"
+			}
+		}
+	}
+}
