@@ -42,7 +42,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard.mdl"
+				"player"				"models/characters/security_light.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
@@ -73,6 +73,7 @@
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_vz58"
+				"weapon"             "weapon_type95"
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_sa80"
@@ -149,7 +150,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard.mdl"
+				"player"				"models/characters/security_light.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
@@ -178,6 +179,7 @@
 				"weapon"			"weapon_saiga12"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_ak74"
+				"weapon"            "weapon_type95"
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_sa80"
@@ -188,7 +190,6 @@
 				"weapon"			"weapon_g36c"
 				"weapon"			"weapon_f2000"
 				"weapon"			"weapon_aug3"
-
 				"weapon_upgrade"	"ammo_beta50"
 				//"weapon_upgrade"	"ammo_beta75"
 				//Secondaries
@@ -241,7 +242,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard.mdl"
+				"player"				"models/characters/security_heavy.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
@@ -326,7 +327,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard.mdl"
+				"player"				"models/characters/security_light.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
@@ -415,7 +416,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard.mdl"
+				"player"				"models/characters/security_light.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
@@ -502,7 +503,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_security.mdl"
+				"player"				"models/characters/security_light.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_vip.mdl"
 			
 				"bodygroups"
@@ -529,6 +530,7 @@
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_vz58"
 				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_p90"
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_sa80"
@@ -586,7 +588,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_security.mdl"
+				"player"				"models/characters/security_light.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_vip.mdl"
 			
 				"bodygroups"
@@ -613,6 +615,7 @@
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_vz58"
 				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_p90"
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_sa80"
@@ -701,6 +704,7 @@
 				"weapon"			"weapon_saiga12"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_p90"
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_sa80"
@@ -787,6 +791,7 @@
 				"weapon"			"weapon_saiga12"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_p90"
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_sa80"
@@ -869,6 +874,7 @@
 			{
 				//Primaries
 				"weapon"			"weapon_rpk"
+				"weapon"            "weapon_type95"
 				"weapon"			"weapon_m249"
 				"weapon"			"weapon_m60"
 				//"weapon"			"weapon_galil_sar"
@@ -880,6 +886,7 @@
 				"weapon"			"weapon_mk46"
 				"weapon"			"weapon_mk48"
 				//upgrades
+				"weapon_upgrade"	"ammo_beta75_t95"
 				//"weapon_upgrade"	"magazine_drum_75rd"
 				//"weapon_upgrade"	"ammo_beta75"
 
@@ -946,6 +953,7 @@
 			{
 				//Primaries
 				"weapon"			"weapon_rpk"
+				"weapon"            "weapon_type95"
 				"weapon"			"weapon_m249"
 				"weapon"			"weapon_m60"
 				//"weapon"			"weapon_galil_sar"
@@ -957,6 +965,7 @@
 				"weapon"			"weapon_mk46"
 				"weapon"			"weapon_mk48"
 				//upgrades
+				"weapon_upgrade"	"ammo_beta75_t95"
 				//"weapon_upgrade"	"magazine_drum_75rd"
 				//"weapon_upgrade"	"ammo_beta75"
 
@@ -1029,6 +1038,7 @@
 				//"weapon"			"weapon_m4a1"
 				//"weapon"			"weapon_sa80"
 				"weapon"			"weapon_scar"
+				"weapon"            "weapon_type95"
 				"weapon"			"weapon_mosin"
 				"weapon"			"weapon_g3a3"
 				//"weapon"			"weapon_sig553"
@@ -1122,6 +1132,7 @@
 				//Primaries
 				"weapon"			"weapon_fal"
 				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_p90"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_m16a4"
@@ -1187,7 +1198,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_security.mdl"
+				"player"				"models/characters/security_light.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_vip.mdl"
 
 				"bodygroups"
@@ -1210,6 +1221,7 @@
 			{
 				//Primaries
 				"weapon"			"weapon_akm"
+				"weapon"			"weapon_p90"
 				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_sa80"
 				"weapon"			"weapon_acr"
@@ -1557,9 +1569,10 @@
 				"weapon"			"weapon_mk46"
 				"weapon"			"weapon_mk48"
 				"weapon"			"weapon_vz58"
+				"weapon"            "weapon_type95"
 				//upgrades
 				"weapon_upgrade"	"magazine_drum_75rd"
-				//"weapon_upgrade"	"ammo_beta75"
+				"weapon_upgrade"	"ammo_beta75"
 
 				//Secondaries
 				"weapon"			"weapon_m1a1"

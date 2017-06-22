@@ -516,7 +516,7 @@
 			"upgrade_cost"				"0"
 			"class_restricted"			"1"
 			"team_acces"				"security, insurgent"
-			"weight"					"52" // Rough estimate of ammo weight + gameplay
+			"weight"					"42" // Rough estimate of ammo weight + gameplay
 			"magsize_override"			"50"
 			"maxcarry_override"			"4"
 			"reload_speed"				"0.8"
@@ -562,7 +562,7 @@
 			"upgrade_cost"				"0"
 			"class_restricted"			"1"
 			"team_acces"				"security, insurgent"
-			"weight"					"72" // Rough estimate of ammo weight + gameplay
+			"weight"					"52" // Rough estimate of ammo weight + gameplay
 			"magsize_override"			"75"
 			"maxcarry_override"			"4"
 				
@@ -577,6 +577,7 @@
 				"weapon"					"weapon_m16a4"
 				"weapon"					"weapon_m4a1"
 				"weapon"					"weapon_mk18"
+				//"weapon"                	"weapon_type95"
 			}
 			"viewmodel_attachments"
 			{
@@ -589,6 +590,7 @@
 						"weapon_m16a4"				"1.05"
 						"weapon_m4a1"				"1.05"
 						"weapon_mk18"				"1.05"
+						//"weapon_type95"				"1.05"
 					}
 				}
 			}
@@ -598,6 +600,29 @@
 				{
 					"model"				"models/weapons/upgrades/w_magazine_galil_75.mdl"							
 				}		
+			}
+		}
+		"ammo_beta75_t95"
+		{
+			"upgrade_slot"				"magazine"
+			"print_name"					"#weapon_upgrade_beta_75_dy"
+			"print_desc"					"#weapon_upgrade_75_beta_magazine_extended_dy_desc"
+			"upgrade_cost"				"0"
+			"class_restricted"			"1"
+			"team_acces"				"security, insurgent"
+			"weight"					"72" // Rough estimate of ammo weight + gameplay
+			"magsize_override"			"75"
+			"maxcarry_override"			"4"
+				
+			"draw_speed"				"0.75"
+			"recoil"
+			{
+				"recoil_vertical_frac"		"0.95"
+				"recoil_lateral_frac"		"1.05"
+			}
+			"allowed_weapons"
+			{
+				"weapon"                	"weapon_type95"
 			}
 		}
 		"magazine_speedloader"
@@ -644,8 +669,8 @@
 			"print_desc"				"#weapon_quick_draw_sling_desc"
 			"upgrade_cost"				"3"
 			"upgrade_slot"				"stock"
-			"draw_speed"				"1.15"
-			"holster_speed"				"1.15"
+			"draw_speed"				"2.00"
+			"holster_speed"				"2.00"
 			
 			"allowed_weapons"
 			{
@@ -678,6 +703,9 @@
 				"weapon"				"weapon_galil_sar"
 				"weapon"				"weapon_l1a1"
 				"weapon"				"weapon_sterling"
+				
+				"weapon"				"weapon_p90"
+				"weapon"              	"weapon_type95"
 				
 				"weapon"				"weapon_g36c"
 				"weapon"				"weapon_sig553"
@@ -717,8 +745,8 @@
 			"print_desc"				"#weapon_quick_draw_holster_skill_desc"
 			"upgrade_cost"				"3"
 			"upgrade_slot"				"stock"
-			"draw_speed"				"1.15"
-			"holster_speed"				"1.15"
+			"draw_speed"				"2.00"
+			"holster_speed"				"2.00"
 			
 			"allowed_weapons"
 			{
@@ -734,7 +762,7 @@
 				"weapon"				"weapon_deagle"
 			}
 			
-			"team_access"				"security"
+			"team_access"				"security,insurgent"
 		}
 		"quick_reload"
 		{
@@ -742,7 +770,7 @@
 			"print_desc"				"#weapon_quick_reload_skill_desc"
 			"upgrade_cost"				"3"
 			"upgrade_slot"				"aesthetic"
-			"reload_speed"				"1.15"
+			"reload_speed"				"2.00"
 			
 			"allowed_weapons"
 			{	
@@ -776,6 +804,9 @@
 				"weapon"				"weapon_galil_sar"
 				"weapon"				"weapon_l1a1"
 				"weapon"				"weapon_sterling"
+				
+				"weapon"				"weapon_p90"
+				"weapon"              	"weapon_type95"
 				
 				"weapon"				"weapon_g36c"
 				"weapon"				"weapon_sig553"
@@ -829,7 +860,7 @@
 				"weapon"				"weapon_gp25_mk3"
 			}
 			
-			"team_access"				"security"
+			"team_access"				"security,insurgent"
 		}
 		"fast_bolt_action"
 		{
@@ -837,7 +868,7 @@
 			"print_desc"				"#fast_bolt_action_desc"
 			"upgrade_cost"				"1"
 			"upgrade_slot"				"stock"
-			"bolt_speed"				"1.15"
+			"bolt_speed"				"2.00"
 			
 			"allowed_weapons"
 			{
@@ -846,7 +877,7 @@
 				"weapon"				"weapon_m40a5"
 			}
 			
-			"team_access"				"security"
+			"team_access"				"security,insurgent"
 		}
 		"fast_pump_action"
 		{
@@ -854,7 +885,7 @@
 			"print_desc"				"#fast_pump_action_desc"
 			"upgrade_cost"				"1"
 			"upgrade_slot"				"stock"
-			"bolt_speed"				"1.15"
+			"bolt_speed"				"2.00"
 			
 			"allowed_weapons"
 			{
@@ -865,7 +896,7 @@
 				"weapon"				"weapon_nova"
 			}
 			
-			"team_access"				"security"	
+			"team_access"				"security,insurgent"	
 		}	
 		"siderail_flashlight_rail"
 		{
@@ -1222,6 +1253,169 @@
 		// ========================================
 		// SHARED OPTIC ATTACHMENTS
 		// ========================================
+		
+		"barrel_heavybarrelsilencer"
+		{
+			"upgrade_slot"				"barrel"
+			"print_name"				"#barrel_heavybarrelsilencer"
+			"print_desc"				"同时拥有重枪管和消音器两种配件"
+			"weapon_abilities"			"silencer"
+			"particle_1p"				"muzzleflash_suppressed_1p"
+			"particle_3p"				"muzzleflash_suppressed_1p"
+			"particle_attach"			"muzzle_supp"
+			"length"					"12"
+			"weight"					"25"	//20+10
+			"upgrade_cost"				"5"
+			"class_restricted"			"0"
+			"team_access"				"security"
+			
+			"recoil"
+			{
+				"recoil_lateral_frac"			"1.0"
+				"recoil_vertical_frac"			"0.9"
+			}
+			
+			"sway"
+			{
+				"sway_speed_frac"			"0.4"
+			}
+
+			"spread_frac"  "0.4"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_galil"
+				"weapon"				"weapon_galil_sar"
+				"weapon"				"weapon_galil_762"
+				//new
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_p90"
+			}
+
+			"viewmodel_attachments"
+			{
+				"Suppressor"
+				{
+					"model"					"models/weapons/upgrades/a_suppressor_sec.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_m16a4"
+						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_mini14"
+						"weapon"				"weapon_galil"
+						"weapon"				"weapon_galil_sar"
+						"weapon"				"weapon_galil_762"
+						"weapon"				"weapon_m14"
+						"weapon"				"weapon_p90"
+					}
+
+					"scales"
+					{
+						"weapon_p90"				"0.75"
+						"weapon_m14"				"0.75"
+						"weapon_mini14"				"0.75"
+						"weapon_galil"				"0.8"
+						"weapon_galil_sar"			"0.8"
+						"weapon_galil_762"			"0.8"
+					}
+				}
+				"Suppressor_Mk18"
+				{
+					"model"					"models/weapons/upgrades/a_suppressor_sec2.mdl"
+
+					"weapons"
+					{
+						"weapon"				"weapon_mk18"
+					}
+				}
+			}
+
+			"world_attachments"
+			{
+				"Silencer"
+				{
+					"model"					"models/weapons/upgrades/w_sil_sec1.mdl"
+
+					"weapons"
+					{
+						"weapon"				"weapon_m16a4"
+						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_mini14"
+						"weapon"				"weapon_galil"
+						"weapon"				"weapon_galil_sar"
+						"weapon"				"weapon_galil_762"
+						"weapon"				"weapon_m14"
+						"weapon"				"weapon_p90"
+					}
+				}
+				"Silencer_Mk18"
+				{
+					"model"					"models/weapons/upgrades/w_sil_sec2.mdl"
+
+					"weapons"
+					{
+						"weapon"				"weapon_mk18"
+					}
+				}
+			}
+		}
+		
+		"barrel_heavybarrelsilencer2"
+		{
+			"upgrade_slot"				"barrel"
+			"print_name"				"#barrel_heavybarrelsilencer2"
+			"print_desc"				"同时拥有重枪管和消音器两种配件"
+			"weapon_abilities"			"silencer"
+			"particle_1p"				"muzzleflash_suppressed_1p"
+			"particle_3p"				"muzzleflash_suppressed_1p"
+			"particle_attach"			"muzzle_supp"
+			"length"					"12"
+			"weight"					"25"	//20+10
+			"upgrade_cost"				"5"
+			"class_restricted"			"0"
+			"team_access"				"security"
+
+			"recoil"
+			{
+				"recoil_lateral_frac"			"1.0"
+				"recoil_vertical_frac"			"0.9"
+			}
+			
+			"sway"
+			{
+				"sway_speed_frac"			"0.4"
+			}
+
+			"spread_frac"  "0.4"
+
+			"allowed_weapons"
+			{
+				//"weapon"				"weapon_galil"
+				"weapon"                		"weapon_type95"
+			}
+
+			"viewmodel_attachments"
+			{
+				"Suppressor_Default"
+				{
+					"model"					"models/weapons/upgrades/a_suppressor_ins.mdl"
+				}
+			}
+
+			"world_attachments"
+			{
+				"Silencer"
+				{
+					"model"					"models/weapons/upgrades/w_sil_ins1.mdl"
+				}
+			}
+		}
+		
 		"base_optic_rail"
 		{
 			"IsBase"				"1"
@@ -4618,7 +4812,74 @@
 			}
 			"ammo_type_override"			"buckshot"
 		}
-
+		// ========================================
+		// P90 SPECIFIC UPGRADES
+		// ========================================
+		"ammo_tracer_p90"
+		{
+			"import"				"base_ammo_tracer"
+			"upgrade_cost"				"0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_p90"
+			}
+			"ammo_type_override"			"57x28mm_tracer_p90"
+		}
+		"ammo_hp_p90"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_p90"
+			}
+			"ammo_type_override"			"57x28mm_hp_p90"
+		}
+		"ammo_ap_p90"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_p90"
+			}
+			"ammo_type_override"			"57x28mm_ap_p90"
+		}
+		
+		// ========================================
+		// TYPE-95 SPECIFIC UPGRADES
+		// ========================================
+		"ammo_tracer_m4"
+		{
+			"import"				"base_ammo_tracer"
+			"upgrade_cost"				"0"
+			"allowed_weapons"
+			{
+				"weapon"                		"weapon_type95"
+			}
+			"ammo_type_override"			"556_tracer_stanag_m4"
+		}
+		"ammo_hp_m4"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"0"
+			"allowed_weapons"
+			{
+				"weapon"                		"weapon_type95"
+			}
+			"ammo_type_override"			"556_hp_stanag_m4"
+		}
+		"ammo_ap_m4"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"0"
+			"allowed_weapons"
+			{
+				"weapon"                		"weapon_type95"
+			}
+			"ammo_type_override"			"556_ap_stanag_m4"
+		}
+		
 		// ========================================
 		// .38 REVOLVER SPECIFIC UPGRADES
 		// ========================================
@@ -6222,7 +6483,7 @@
 				"weapon"	                "weapon_scar"
 				"weapon"	                "weapon_mk20_scar"
 				"weapon"					"weapon_colt9mm"
-				
+				"weapon"                	"weapon_type95"
 			}
 			"viewmodel_attachments"
 			{
@@ -6243,6 +6504,7 @@
 						"weapon_f2000"              "0.5"
 						"weapon_g36c"				"0.5"
 						"weapon_colt9mm"			"0.5"
+						"weapon_type95"				"0.5"
 					}
 					"excluded_weapons"
 					{
@@ -6381,7 +6643,7 @@
 					"scales"
 					{
 						"weapon_m14"				"0.45"
-						"weapon_m107"				"0.45"
+						//"weapon_m107"				"0.45"
 						"weapon_mini14"				"0.45"
 						"weapon_m590"				"0.55"
 						"weapon_nova"				"0.55"
@@ -6395,7 +6657,7 @@
 					"weapons"
 					{
 						"weapon"			"weapon_m14"
-						"weapon"			"weapon_m107"
+						//"weapon"			"weapon_m107"
 						"weapon"			"weapon_mini14"
 						"weapon"			"weapon_m590"
 						"weapon"			"weapon_nova"

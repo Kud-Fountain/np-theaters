@@ -475,7 +475,7 @@
 			"print_name"	"#gear_chest_carrier1"
 			"print_desc"	"#gear_chest_carrier1_desc"
 			"gear_slot"		"vest"
-			"gear_cost"		"0"
+			"gear_cost"		"1"
 			"gear_weight"	"69" // 0.4 kg * 54.5
 			"extra_ammo"
 			{
@@ -497,7 +497,7 @@
 			"print_name"	"#gear_chest_carrier2"
 			"print_desc"	"#gear_chest_carrier2_desc"
 			"gear_slot"		"vest"
-			"gear_cost"		"0"
+			"gear_cost"		"2"
 			"gear_weight"	"79" // in hectograms
 			"extra_ammo"
 			{
@@ -519,7 +519,7 @@
 			"print_name"	"#gear_chest_carrier3"
 			"print_desc"	"#gear_chest_carrier3_desc"
 			"gear_slot"		"vest"
-			"gear_cost"		"0"
+			"gear_cost"		"3"
 			"gear_weight"	"93" // [5 (0.65) + 0.4 kg] 54.5
 			"extra_ammo"
 			{
@@ -542,7 +542,7 @@
 			"print_name"	"#gear_chest_rig1"
 			"print_desc"	"#gear_chest_rig1_desc"
 			"gear_slot"				"vest"
-			"gear_cost"		"0"
+			"gear_cost"		"1"
 			"gear_weight"	"77" // 2 (0.65 kg) * 54.5
 			"extra_ammo"
 			{
@@ -564,7 +564,7 @@
 			"print_name"	"#gear_chest_rig2"
 			"print_desc"	"#gear_chest_rig2_desc"
 			"gear_slot"		"vest"
-			"gear_cost"		"0"
+			"gear_cost"		"2"
 			"gear_weight"	"92" // 4 (0.65 kg) * 54.5
 			"extra_ammo"
 			{
@@ -586,7 +586,7 @@
 			"print_name"	"#gear_chest_rig3"
 			"print_desc"	"#gear_chest_rig3_desc"
 			"gear_slot"		"vest"
-			"gear_cost"		"0"
+			"gear_cost"		"3"
 			"gear_weight"	"106" // 4 (0.65 kg) * 54.5
 			//"class_restricted" "1"
 			"extra_ammo"

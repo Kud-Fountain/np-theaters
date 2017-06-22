@@ -905,15 +905,15 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"1.00"	// death
-				"HITGROUP_CHEST"			"0.28"  //0.14
-				"HITGROUP_STOMACH"			"0.28"  //0.14
+				"HITGROUP_CHEST"			"1.00"  //0.14
+				"HITGROUP_STOMACH"			"1.00"  //0.14
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
-				"HITGROUP_GENERIC"			"0.28"
+				"HITGROUP_GENERIC"			"1.00"
 			}
-			"explosive_damage_frac"		"0.2"
+			"explosive_damage_frac"		"1.00"
 			"penetration_power_loss"	"85"
 			
 			"team_access"				"insurgent"
@@ -952,10 +952,10 @@
 				"HITGROUP_HEAD"				"1.00"	// death
 				"HITGROUP_CHEST"			"1.00"
 				"HITGROUP_STOMACH"			"1.00"
-				"HITGROUP_LEFTARM"			"0.24"
-				"HITGROUP_RIGHTARM"			"0.24"
-				"HITGROUP_LEFTLEG"			"0.24"
-				"HITGROUP_RIGHTLEG"			"0.24"
+				"HITGROUP_LEFTARM"			"1.00"
+				"HITGROUP_RIGHTARM"			"1.00"
+				"HITGROUP_LEFTLEG"			"1.00"
+				"HITGROUP_RIGHTLEG"			"1.00"
 			}
 		
 			"team_access"				"insurgent"
@@ -973,7 +973,7 @@
             "model"                 "models/characters/ins_helmhd_opfr.mdl"
             "DamageHitgroups"
             {
-                "HITGROUP_HEAD"        "0.35"  //.55
+                "HITGROUP_HEAD"        "1.00"  //.55
             }
 			"penetration_power_loss"	"30"
             "team_access"   		"insurgent"
@@ -988,13 +988,13 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"1.00"
-				"HITGROUP_CHEST"			"0.02"
-				"HITGROUP_STOMACH"			"0.02"
-				"HITGROUP_LEFTARM"			"0.01"
-				"HITGROUP_RIGHTARM"			"0.01"
-				"HITGROUP_LEFTLEG"			"0.01"
-				"HITGROUP_RIGHTLEG"			"0.01"
-				"HITGROUP_GENERIC"			"0.01"
+				"HITGROUP_CHEST"			"0.025"
+				"HITGROUP_STOMACH"			"0.025"
+				"HITGROUP_LEFTARM"			"0.015"
+				"HITGROUP_RIGHTARM"			"0.015"
+				"HITGROUP_LEFTLEG"			"0.015"
+				"HITGROUP_RIGHTLEG"			"0.015"
+				"HITGROUP_GENERIC"			"0.015"
 			}
 			"penetration_power_loss"	"120"
 			"explosive_damage_frac"		"0.02"
@@ -1012,7 +1012,7 @@
             "model"                 "models/characters/custom/mlf_helmet_head.mdl"
             "DamageHitgroups"
             {
-                "HITGROUP_HEAD"        "0.02"
+                "HITGROUP_HEAD"        "0.03"
             }
 			"penetration_power_loss"	"100"
             "team_access"   		"insurgent"

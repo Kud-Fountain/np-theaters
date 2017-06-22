@@ -2555,6 +2555,41 @@
 			"carry"					"56"
 			"flags_clear"				"AMMO_USE_MAGAZINES"
 		}
+		// ========================================
+		// p90
+		// ========================================
+		"57x28mm_p90"
+		{
+			"import"				"9x19"
+			"carry"					"12"
+			"magsize"				"50"
+
+			"Damage"
+			{
+				"10"					"60"
+				"16000"					"32"
+			}
+		}
 		
+		"57x28mm_hp_p90"
+		{
+			"import"				"9x19_hp"
+			"carry"					"12"
+			"magsize"				"50"
+		}
+		
+		"57x28mm_ap_p90"
+		{
+			"import"				"9x19_ap"
+			"carry"					"12"
+			"magsize"				"50"
+		}
+		
+		"57x28mm_tracer_p90"
+		{
+			"import"				"9x19_tracer"
+			"carry"					"12"
+			"magsize"				"50"
+		}
 	}
 }

@@ -276,5 +276,55 @@
 			"carry"					"12"
 			"magsize"				"50"
 		}
+		
+		// ========================================
+		// mk.xix desert eagle
+		// ========================================
+		"50ae_pistol"
+		{
+			"import"				"50ae"
+			"carry"					"10"
+			"magsize"				"7"
+		}
+		"50ae_hp_pistol"
+		{
+			"import"				"50ae_hp"
+			"carry"					"10"
+			"magsize"				"7"
+		}
+		"50ae_ap_pistol"
+		{
+			"import"				"50ae_ap"
+			"carry"					"10"
+			"magsize"				"7"
+		}
+		"556_hp_stanag_m4"
+		{
+			"import"				"556x45_car_hp"
+		}
+		"556_ap_stanag_m4"
+		{
+			"import"				"556x45_car_ap"
+		}
+		"556_tracer_stanag_m4"
+		{
+			"import"				"556x45_car_tracer"
+		}
+		
+		// ========================================
+		// mosin
+		// ========================================
+		"762x54mm"
+		{
+			"import"				"762x54"
+			"carry"					"99"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+		}
+		"762x54mm_ap"
+		{
+			"import"				"762x54_ap"
+			"carry"					"99"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+		}
 	}
 }

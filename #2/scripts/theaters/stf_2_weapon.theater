@@ -51,6 +51,275 @@
 				"clip_default"				"2"
 			}
 		}
+		
+		"weapon_desert_eagle"
+		{
+			"import"				"pistol_base"
+			"weapon_class"				"pistol"
+			"print_name"				"#weapon_desert_eagle"
+			"print_desc"				"#weapon_desert_eagle_desc"
+			"view_model"				"models/weapons/v_de50.mdl"
+			"world_model"				"models/weapons/w_de50.mdl"
+			"rounds_per_minute"			"360"
+			"weapon_slot"				"secondary"
+			"act_table"				"pistol"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"96"
+			"weapon_cost"				"3"
+			"class_restricted"			"1"
+			"barrel_length"				"16"
+			
+			"viewmodel_attachments"
+			{
+				"standard_magazine"
+				{
+					"model"					"models/weapons/upgrades/a_magazine_de50_8.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+			}
+			"world_attachments"
+			{
+				"standard_magazine"
+				{
+					"model"					"models/weapons/upgrades/w_magazine_m45_8.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+			}
+			"fov"
+			{
+				"fov_plr_ironsight"			"-10"
+				"fov_plr_focus"				"-10"
+				"fov_wpn_default"			"59"
+				"fov_wpn_ironsight"			"59"
+				"fov_wpn_focus"				"64"
+			}
+			"viewmodel_offsets"
+			{
+				// x back, y left, z down
+				"VMOffsetStand"				"0.15 0.25 0.75"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_DE_50.Single"
+				"shot_single_local"			"Weapon_DE_50.SingleLocal"
+				"shot_silent"				"Weapon_DE_50.SingleSilenced"
+				"shot_silent_local"			"Weapon_DE_50.SingleSilencedLocal"
+				"empty"					"Weapon_DE_50.Empty"
+				"magin"					"Weapon_DE_50.Magin"
+				"magout"				"Weapon_DE_50.Magout"
+				"slide_back"				"Weapon_DE_50.slideback"
+				"slide_forward"				"Weapon_DE_50.slideforward"
+				"safety"				"Weapon_DE_50.safety"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_m9_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_m9_3rd"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-1.3 1.55"
+				"recoil_vertical_range"			"3.25 4.75"
+				"recoil_aim_punch"			"0.3 0.5"
+				"recoil_rest_rate"			"4"
+				"recoil_rest_delay"			"0.12"
+				"recoil_roll_range"			"-1.35 -1.35"
+				"recoil_roll_rest_rate"			"150"
+				"recoil_shot_reset_time"		"0.75"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_punch_additive_factor"		"1.0"	// How much of the view punch from the previous shot(s) get added to any additional shot fired (default 1.0)
+				"recoil_additional_rest_per_shot"	"0.5"
+				"recoil_freeaim_frac"			"0.6"
+				"recoil_ironsight_frac"			"0.8"
+			}
+			"ballistics"
+			{
+				"spread"				"0.4 0.4 0.4"
+				"FireModes"				"semi"
+				"bulletcount"				"1"
+				"maxrange"				"8000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"50ae_pistol"
+				"clip_max"				"12"
+				"clip_max_rounds"			"7"
+				"clip_default"				"3"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"pistol"
+			}
+			"kitui_offset"
+			{
+				"position"				"12 -3 0"
+			}
+			"team_access"				"insurgent, security"
+		}
+		
+		"weapon_gewehr_98"
+		{
+			"import"				"ballistic_base"
+			"weapon_class"				"sniper_rifle"
+			"weapon_cost"				"1"
+			"print_name"				"#weapon_gewehr_98"
+			"print_desc"				"#weapon_gewehr_98_desc"
+			"view_model"				"models/weapons/v_g98.mdl"
+			"world_model"				"models/weapons/w_g98.mdl"
+			"fire_cycle"				"0.2"
+			"weapon_slot"				"primary"
+			"act_table"				"bolt"
+			"weapon_abilities"			"ironsight"
+			"class_restricted"			"1"
+			"weapon_weight"				"320"	// (4.0kg[weapon] + (0.2kg[ammo] * (1+16)[mags]) )*10[kg->hg for int]  +32[encumbrance]
+			"barrel_length"				"38"
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-10"
+				"fov_plr_focus"				"-12"
+				"fov_wpn_default"			"56"
+				"fov_wpn_ironsight"			"60"
+				"fov_wpn_focus"				"58"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_Gew98.Single"
+				"shot_single_local"			"Weapon_Gew98.SingleLocal"
+				"shot_silent"				"Weapon_Gew98.SingleSilenced"
+				"shot_silent_local"			"Weapon_Gew98.SingleSilencedLocal"
+				"empty"					"Weapon_Gew98.Empty"
+				"clipin"				"Weapon_Gew98.Clipin"
+				"clipout"				"Weapon_Gew98.Clipout"
+				"boltback"				"Weapon_Gew98.Boltback"
+				"boltforward"				"Weapon_Gew98.Boltforward"
+				"hit"					"Weapon_Gew98.Hit"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_sks_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_sks_3rd"
+				"particle_tracer"			"weapon_tracers_green"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-2.2 3.4"
+				"recoil_vertical_range"			"5.5 6.4"
+				"recoil_aim_punch"			"0.8 0.95"
+				"recoil_rest_rate"			"12"
+				"recoil_rest_delay"			"0.05"
+				"recoil_roll_range"			"-5 -5"
+				"recoil_roll_rest_rate"			"70"
+			}
+			"ballistics"
+			{
+				"spread"				"0.08 0.08 0.08"
+				"FireModes"				"bolt"
+				"bulletcount"				"1"
+				"maxrange"				"40000"
+				"singleReload"				"1"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"762x54mm"
+				"clip_max"				"99"
+				"clip_max_rounds"			"5"
+				"clip_default"				"35"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"primary2"
+			}
+			"kitui_offset"
+			{
+				"position"				"38 -4 2.5"
+			}
+			"team_access"				"security, insurgent"
+		}
+		
+		"weapon_type95"
+		{
+			"import"				"ballistic_base"
+			"weapon_class"				"rifle_controlled_fire"
+			"print_name"				"#weapon_type95"
+			"print_desc"				"#weapon_type95_desc"
+			"view_model"				"models/weapons/v_qbz_95.mdl"
+			"world_model"				"models/weapons/w_qbz_95.mdl"
+			"rounds_per_minute"			"650"
+			"weapon_slot"				"primary"
+			"act_table"				"shortrifle"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"128"	// (3.25kg[weapon] + (0.7kg[ammo] * (3+7)[mags]) )*10[kg->hg for int]  +16[encumbrance]
+			"weapon_cost"				"3"
+			"barrel_length"				"20"
+			"class_restricted"			"1"
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-25"
+				"fov_plr_focus"				"-12"
+				"fov_wpn_default"			"60"
+				"fov_wpn_ironsight"			"66"
+				"fov_wpn_focus"				"71"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_M4a1.Single"
+				"shot_single_local"			"Weapon_M4a1.SingleLocal"
+				"shot_silent"				"Weapon_mk18.SingleSilenced"
+				"shot_silent_local"			"Weapon_mk18.SingleSilencedLocal"
+				"empty"					"Weapon_Mini14.Empty"
+				"clipin"				"Weapon_Mini14.Clipin"
+				"clipout"				"Weapon_Mini14.Clipout"
+				"boltback"				"Weapon_Mini14.Boltback"
+				"boltforward"				"Weapon_Mini14.Boltforward"
+				"hit"					"Weapon_Mini14.Hit"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_m14_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_m14_3rd"
+				"particle_tracer"			"weapon_tracers"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-0.8 1.05"
+				"recoil_vertical_range"			"2.55 2.85"
+				"recoil_aim_punch"			"0.4 0.7"
+				"recoil_rest_rate"			"5"
+				"recoil_rest_delay"			"0.12"
+				"recoil_roll_range"			"-1.5 -1.5"
+				"recoil_roll_rest_rate"			"150"
+				"recoil_freeaim_frac"			"0.3"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"		"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"			"8"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+			}
+			"ballistics"
+			{
+				"spread"				"0.20 0.20 0.20"
+				"FireModes"				"semi, burst, full"
+				"bulletcount"				"1"
+				"maxrange"				"10000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"556_stanag"
+				"clip_max"				"12"
+				"clip_max_rounds"			"30"
+				"clip_default"				"3"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"primary"
+			}
+			"kitui_offset"
+			{
+				"position"				"24 0 3"
+			}	
+			"team_access"				"security, insurgent"
+		}
 
 		"weapon_rpg7"
 		{
@@ -63,7 +332,7 @@
 			"weapon_class"				"launcher"
 			"weapon_type"				"projectile"
 			"print_name"				"#weapon_rpg7x2"	//"RPG7x2"
-			"print_desc"				"这世界没有什么事是一发RPG解决不了的，如果有，那就两发！"
+			"print_desc"				"RPG-7"
 			"single_use"				"0"
 			"view_model"				"models/weapons/v_rpg.mdl"
 			"world_model"				"models/weapons/w_rpg7.mdl"
@@ -147,7 +416,7 @@
 			"weapon_class"				"launcher"
 			"weapon_type"				"projectile"
 			"print_name"				"#weapon_at4x2"	//"AT4x2"
-			"print_desc"				"这世界没有什么事是一发AT4解决不了的，如果有，那就两发！"
+			"print_desc"				"AT4"
 			"single_use"				"0"
 			"view_model"				"models/weapons/v_at4.mdl"
 			"world_model"				"models/weapons/w_at4.mdl"
@@ -1830,6 +2099,7 @@
 			"team_access"				"security"
 		}
 		
+		//test
 		"weapon_karabiner_98k"
 		{
 			"import"				"ballistic_base"
@@ -1837,7 +2107,7 @@
 			"weapon_cost"				"2"
 			"print_name"				"#weapon_k98"
 			"print_desc"				"德国二战标准栓动步枪"
-			"view_model"				"models/weapons/v_kar98k.mdl"
+			"view_model"				"models/weapons/k98k/v_kar98k.mdl"
 			"world_model"				"models/weapons/w_kar98k.mdl"
 			"fire_cycle"				"0.2"
 			"closed_bolt"				"0"
@@ -2329,13 +2599,14 @@
 			"team_access"				"security,insurgent"
 		}
 		
+		//test
 		"weapon_m1_garand"
 		{
 			"import"				"ballistic_base"
 			"weapon_class"				"rifle_controlled_fire"
 			"print_name"				"#weapon_m1garand"
 			"print_desc"				"美国二战标准半自动步枪"
-			"view_model"				"models/weapons/v_garand.mdl"
+			"view_model"				"models/weapons/garand/v_garand.mdl"
 			"world_model"				"models/weapons/w_garand.mdl"
 			"rounds_per_minute"			"500"
 			"weapon_slot"				"primary"
@@ -5586,7 +5857,7 @@
 			"import"					"baseGrenade"
 			"entity_class"				"grenade_frag"
 			"Model"						"models/weapons/w_mk2.mdl"
-			"DetonateDamage"			"160"
+			"DetonateDamage"			"240"
 			"DetonatePenetrationRadius"	"40"
 			"DetonateDamageRadius"		"750"
 			"FuseTime"					"5"
@@ -5619,7 +5890,7 @@
 			"import"					"baseGrenade"
 			"entity_class"				"grenade_frag"
 			"Model"						"models/weapons/w_stielhandgranate.mdl"
-			"DetonateDamage"			"160"
+			"DetonateDamage"			"240"
 			"DetonatePenetrationRadius"	"40"
 			"DetonateDamageRadius"		"750"
 			"FuseTime"					"5"
@@ -5651,7 +5922,7 @@
 			"import"					"baseGrenade"
 			"entity_class"				"grenade_frag"
 			"Model"						"models/weapons/w_no69.mdl"
-			"DetonateDamage"			"160"
+			"DetonateDamage"			"240"
 			"DetonatePenetrationRadius"	"40"
 			"DetonateDamageRadius"		"750"
 			"FuseTime"					"5"	//"-1"
@@ -5684,7 +5955,7 @@
 			"import"					"baseGrenade"
 			"entity_class"				"grenade_frag"
 			"Model"						"models/weapons/w_nam_geballteladung.mdl"
-			"DetonateDamage"			"209"
+			"DetonateDamage"			"313" //209
 			"DetonatePenetrationRadius"	"40"
 			"DetonateDamageRadius"		"909"
 			"FuseTime"					"5"
@@ -5709,7 +5980,7 @@
 		{
 			"entity_class"				"rocket"
 			"Model"						"models/weapons/w_bazooka_projectile.mdl"
-			"DetonateDamage"			"180"
+			"DetonateDamage"			"270"
 			"DetonateDamageRadius"		"800"
 			"DetonatePenetrationRadius"	"160"
 			"RocketTopSpeed"			"3000"
@@ -5745,7 +6016,7 @@
 			"entity_class"					"grenade_frag"
 			"Model"							"models/weapons/w_bazooka_projectile.mdl"
 			
-			"DetonateDamage"				"200"
+			"DetonateDamage"				"300"
 			"DetonateDamageRadius"			"900"
 			"DetonatePenetrationRadius"		"180"
 			"FuseTime"						"0"
@@ -5779,7 +6050,7 @@
 		{
 			"entity_class"				"rocket"
 			"Model"						"models/weapons/w_bazooka_projectile.mdl"
-			"DetonateDamage"			"200"
+			"DetonateDamage"			"300"
 			"DetonateDamageRadius"		"900"
 			"DetonatePenetrationRadius"	"180"
 			"RocketTopSpeed"			"3000"
@@ -5813,7 +6084,7 @@
 		{
 			"entity_class"				"rocket"
 			"Model"					"models/weapons/w_at4_projectile.mdl"
-			"DetonateDamage"			"230"
+			"DetonateDamage"			"345" //230
 			"DetonateDamageRadius"			"1000"
 			"DetonatePenetrationRadius"		"200"
 			"RocketTopSpeed"			"3500"	// you cannot go faster than 3500
@@ -5841,7 +6112,7 @@
 			"entity_class"				"grenade_frag"
 			"Model"					"models/weapons/upgrades/a_projectile_m203.mdl"
 			
-			"DetonateDamage"			"170"
+			"DetonateDamage"			"255" //170
 			"DetonatePenetrationRadius"		"40"
 			"DetonateDamageRadius"			"600"
 			"FuseTime"				"0"
@@ -5872,7 +6143,7 @@
 			"entity_class"				"remote"
 			"Model"					"models/weapons/w_ied.mdl"
 			
-			"DetonateDamage"			"380"
+			"DetonateDamage"			"290"
 			"DetonateDamageRadius"			"1200"
 			"DetonatePenetrationRadius"		"240"
 			"FuseTime"				"1.0"

@@ -6,6 +6,7 @@
 	{
 		"security"
 		{
+			"name"		"#Team_Security"
 			"squads"
 			{
 				// assault squad
@@ -39,6 +40,7 @@
 		
 		"insurgents"
 		{
+			"name"		"#team_insurgents"
 			"squads"
 			{
 				"#Cell_Alpha"	// assault team #1
@@ -126,11 +128,20 @@
 			}
 			"allowed_items"
 			{
-				"weapon"			"weapon_m1a1"
-				"weapon"				"weapon_mp40"
+				//"weapon"			"weapon_m1a1"
+				//"weapon"				"weapon_mp40"
+				"weapon"			"weapon_m1carbine"
+				"weapon"			"weapon_nam_ithaca37"
+				"weapon"			"weapon_sawedoff"
 				"weapon"			"weapon_luger"
 				"weapon"			"weapon_p38"
-				"weapon"			"weapon_m3greasegun"
+				"weapon"			"weapon_c96"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m39"
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_ppk"
+				//"weapon"			"weapon_m3greasegun"
 				//"weapon"			"weapon_p90"
 				"weapon_upgrade"	"underbarrel_m203_he"
 				"weapon_upgrade"	"underbarrel_m203_smoke"
@@ -172,13 +183,15 @@
 				"gear"				"sec_heavy_armor"
 				"gear"				"sec_chest_carrier"
 				"weapon"			"weapon_knife"
+				"weapon"			"weapon_m14"
 			}
 			"allowed_items"
 			{
 				"weapon"			"weapon_g43"
-				"weapon"			"weapon_m1_garand"
-				"weapon"			"weapon_nam_m14"
+				"weapon"			"weapon_m1garand"
 				"weapon"			"weapon_sks"
+				"weapon"			"weapon_m14"
+				"weapon"			"weapon_gewehr_98"
 				"weapon"			"weapon_luger"
 				"weapon"			"weapon_p38"
 				"weapon_upgrade"	"underbarrel_m203_he"
@@ -233,7 +246,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_security.mdl"
+				"player"				"models/characters/security_light.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_vip.mdl"
 				"bodygroups"
 				{
@@ -255,7 +268,7 @@
 				"weapon"			"weapon_fg42"
 				"weapon"			"weapon_stg44"
 				"weapon"			"weapon_bar"
-				"weapon"			"weapon_bren_mk2"
+				//"weapon"			"weapon_type95"
 				"weapon"			"weapon_m16a1"
 				"weapon"			"weapon_m39"
 				"weapon"			"weapon_sawedoff"
@@ -293,7 +306,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard.mdl"
+				"player"				"models/characters/security_light.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 				"bodygroups"
 				{
@@ -315,6 +328,7 @@
 				"weapon"			"weapon_ppsh41"
 				"weapon"			"weapon_sterling"
 				"weapon"			"weapon_thompson"
+				"weapon"			"weapon_mp40"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_ppk"
 				"weapon_upgrade"		"underbarrel_m203_he"
@@ -369,8 +383,10 @@
 			{
 				"weapon"				"weapon_svd"
 				"weapon"				"weapon_nam_m14"
-				"weapon"				"weapon_m1_garand"
+				"weapon"				"weapon_m1garand"
+				"weapon"			"weapon_gewehr_98"
 				"weapon"				"weapon_g43"
+				//"weapon"				"weapon_m1a1"
 				"weapon"				"weapon_c96"
 				"weapon"				"weapon_m1911"
 				"weapon"				"weapon_m39"
@@ -409,7 +425,7 @@
 
 			"models"
 			{
-				"player"			"models/characters/security_standard.mdl"
+				"player"			"models/characters/security_heavy.mdl"
 				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
 				"bodygroups"
 				{
@@ -433,7 +449,7 @@
 				"weapon"			"weapon_izh43"
 				"weapon"			"weapon_nam_ithaca37"
 				"weapon"			"weapon_thompson_m1a1"
-				"weapon"			"weapon_p90"
+				//"weapon"			"weapon_p90"
 				"weapon"			"weapon_m1911"
 				"weapon"			"weapon_model10"
 				"weapon"			"weapon_sawedoff"
@@ -565,12 +581,12 @@
 				"gear"				"sec_light_armor"
 				"gear"				"sec_chest_rig"
 				"weapon"			"weapon_knife"
-				"weapon"			"weapon_k98"
+				"weapon"			"weapon_springfield"
 			}
 			"allowed_items"
 			{
-				"weapon"			"weapon_m40"
-				"weapon"			"weapon_karabiner_98k"
+				"weapon"			"weapon_k98"
+				"weapon"			"weapon_nam_m40a1"
 				"weapon"			"weapon_mosin"
 				"weapon"			"weapon_springfield"
 				"weapon"			"weapon_enfield"
@@ -632,6 +648,7 @@
 				"gear"				"sec_heavy_armor"
 				"gear"				"sec_chest_rig"
 				"weapon"			"weapon_knife"
+				"weapon"			"weapon_nam_ithaca37"
 			}
 			"allowed_items"
 			{
@@ -639,7 +656,7 @@
 				"weapon"			"weapon_izh43"
 				"weapon"			"weapon_nam_ithaca37"
 				"weapon"			"weapon_thompson_m1a1"
-				"weapon"			"weapon_p90"
+				//"weapon"			"weapon_p90"
 				"weapon"			"weapon_m1911"
 				"weapon"			"weapon_model10"
 				"weapon"			"weapon_sawedoff"
@@ -1350,13 +1367,12 @@
 			
 			"buy_order"
 			{
-				"weapon"				"weapon_m1_garand"
+				"weapon"				"weapon_sks"
 				//"weapon"				"weapon_mp40"
-				"weapon_upgrade"	            "ammo_ap_m1garand"
 				"weapon_upgrade"      "magazine_speedloader"
 				"weapon_upgrade"	       "fast_reload2"
 				"weapon_upgrade"		"fast_bolt2"
-				"optic_scope_9x"
+				"optic_scope_7x"
 				"weapon"			"weapon_makarov"
 				"weapon_upgrade"               "ammo_ap_makarov"
 				"weapon_upgrade"	"siderail_flashlight_pistol"
@@ -1373,7 +1389,7 @@
 				"weapon"				"weapon_makarov"
 				"weapon"				"weapon_rpg7"
 				"weapon"				"weapon_kabar"
-				"weapon"				"weapon_m1_garand"
+				"weapon"				"weapon_sks"
 			}
 		}
 		//

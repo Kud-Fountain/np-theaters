@@ -18,7 +18,7 @@
 			"obj_reset"				"20"	// points given when defenders reset the progress to 0% (if progress got to at least 50%)
 			"obj_capture_tick"			"10"	// attacking points given every 10%
 			"obj_reset_tick"			"10"	// defending points given every 10%
-			"cache_destroyed"			"20"
+			"cache_destroyed"			"100"
 			"intel_captured"			"100"
 			"vip_killed"				"100"
 			"safehouse_secured"			"100"
@@ -37,29 +37,30 @@
 			"frac_side_move"		"0.60"
 			"frac_back_move"		"0.65"
 			"frac_side_step"		"0.6"
-			"speed_prone"			"48"
-			"speed_crouch_walk"		"50"
-			"speed_crouch_run"		"70"
+			"frac_speed_water"			"0.72"
+			"speed_prone"			"54"
+			"speed_crouch_walk"		"46"
+			"speed_crouch_run"		"108"
 			"speed_walk"			"80" // def: 80
-			"speed_run"				"140" // def: 170
+			"speed_run"				"170" // def: 170
 			"speed_sprint"			"288" // def: 288
 			"AccelerationByWeight"
 			{
-				"60"				"4.4" //def: "4.20"
-				"454"				"4.0" //def: "4.10"
+				"60"				"4.2" //def: "4.20"
+				"454"				"4.1" //def: "4.10"
 			}
 			
 			"DecelerationByWeight"
 			{
 				"60"				"300.0" // these are much higher than acceleration values because it's loss in velocity per second
-				"454"				"650.0"
+				"454"				"450.0"
 			}
 			
 			"FrictionByWeight"
 			{
-				"60"				"4.4" //def 4.2
+				"60"				"4.2" //def 4.2
 				//"362"				"5.2"
-				"454"				"5.4" // def 5.0
+				"454"				"5.0" // def 5.0
 			}
 			"SprintSpeedFactorByStamina"
 			{
@@ -74,8 +75,8 @@
 		}
 		"turning"
 		{
-			"frac_turn_sprint"		"0.6"
-			"frac_turn_lean"		"0.9"
+			"frac_turn_sprint"			"0.85"
+			"frac_turn_lean"			"0.95"
 			"frac_turn_crawl"			"0.5"
 			"frac_turn_prone_limit"		"0.0"
 			"prone_yaw_limit_amount"	"80"
@@ -91,10 +92,10 @@
 				"340"				"80"  // -60
 				"454"				"30" // -50
 			}
-			"stamina_regain"		"5.50"
-			"stamina_sprint_take"	"6.00" 
-			"stamina_jump_take"		"20" // def 15
-			"stamina_dmg_take"		"0.35" //def .25
+			"stamina_regain"		"2.50"
+			"stamina_sprint_take"	"2.60" 
+			"stamina_jump_take"		"15" // def 15
+			"stamina_dmg_take"		"0.25" //def .25
 			//When landing from higher elevation (camera jerk)
 			"land_viewpunch_minvel"		"150"
 			"land_viewpunch_basepitch" 	"0.75"
@@ -142,7 +143,7 @@
 			"SpeedByWeight"
 			{
 				"60"				"240"
-				"454"				"80"
+				"454"				"180"
 			}
 		}
 		"lean"
@@ -158,7 +159,7 @@
 			"LeanSpeedByWeight"
 			{
 				"0"				"3.8"
-				"454"			"2.8"
+				"454"			"3.0"
 			}
 			"LeanViewModelSpeedByWeight"
 			{
@@ -168,7 +169,7 @@
 		}
 		"suppression"
 		{
-			"suppression_resistance"	"0.10"
+			"suppression_resistance"	"0.15"
 			"suppression_recovery_rate"	"25"
 		}
 		"damage"
