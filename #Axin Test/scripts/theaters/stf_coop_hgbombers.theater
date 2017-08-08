@@ -1,6 +1,7 @@
 
-"#base" "stf_base.theater"
-"#base"	"stf_insurgents.theater"
+//"#base" "stf_base.theater"
+"#base" "stf_base2.theater"
+"#base"	"srnx_insurgents_veterans2.theater"
 "theater"
 {
 	"core"
@@ -94,34 +95,34 @@
 					"Bot"		"juggernaut_2"				
 					"Bot"		"juggernaut_1"
 					"Bot"		"juggernaut_2"			
-					"Bot"		"juggernaut_1"	 	
+					"Bot"		"juggernaut_1"	
 				}
 
 				"Team2"	// Support team #2
 				{
 					//role name
-					"Bot"		"juggernaut_1"
-					"Bot"		"juggernaut_2"		
-					"Bot"		"juggernaut_1"
-					"Bot"		"juggernaut_2"				
-					"Bot"		"juggernaut_1"
-					"Bot"		"juggernaut_2"			
-					"Bot"		"juggernaut_1"			
+					"Bot"		"bomber_ins_1" 
+					"Bot"		"bomber_ins_2"		
+					"Bot"		"bomber_ins_1" 
+					"Bot"		"bomber_ins_2"		
+					"Bot"		"bomber_ins_1" 
+					"Bot"		"bomber_ins_2"	
+					"Bot"		"bomber_ins_1" 				
 				}
 
 				"Team3"	// Recon team #3
 				{
 					//role name							
-					"Bot"		"juggernaut_3"
-					"Bot"		"juggernaut_4"		
-					"Bot"		"juggernaut_3"
-					"Bot"		"juggernaut_4"			
-					"Bot"		"juggernaut_3"
-					"Bot"		"juggernaut_4"			
-					"Bot"		"juggernaut_3"
+					"Bot"		"bomber_ins_1" 
+					"Bot"		"bomber_ins_2"			
+					"Bot"		"bomber_ins_1" 
+					"Bot"		"bomber_ins_2"	 		
+					"Bot"		"bomber_ins_1" 
+					"Bot"		"bomber_ins_2"			
+					"Bot"		"bomber_ins_1" 	
 				}
 
-				"Team4"	// Support team #4
+				"Team4"	// Support team #4 (Mirrors Team 1)
 				{
 					//role name							
 					"Bot"		"juggernaut_3"
@@ -130,7 +131,7 @@
 					"Bot"		"juggernaut_4"			
 					"Bot"		"juggernaut_3"
 					"Bot"		"juggernaut_4"			
-					"Bot"		"juggernaut_3"
+					"Bot"		"juggernaut_3"		
 				}	
 				
 			}

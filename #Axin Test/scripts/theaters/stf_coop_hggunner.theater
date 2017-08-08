@@ -1,6 +1,7 @@
 
-"#base" "stf_base.theater"
-"#base"	"stf_insurgents.theater"
+//"#base" "stf_base.theater"
+"#base" "stf_base2.theater"
+"#base"	"srnx_insurgents_veterans2.theater"
 "theater"
 {
 	"core"

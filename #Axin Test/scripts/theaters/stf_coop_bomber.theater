@@ -1,6 +1,7 @@
 
-"#base" "stf_base.theater"
-"#base"	"stf_insurgents.theater"
+//"#base" "stf_base.theater"
+"#base" "stf_base2.theater"
+"#base"	"stf_insurgents_bombers.theater"
 "theater"
 {
 	"core"
@@ -88,49 +89,53 @@
 				"Team1"	// assault team #1
 				{
 					//role name
-					"Bot"		"juggernaut_1"
-					"Bot"		"juggernaut_2"		
-					"Bot"		"juggernaut_1"
-					"Bot"		"juggernaut_2"				
-					"Bot"		"juggernaut_1"
-					"Bot"		"juggernaut_2"			
-					"Bot"		"juggernaut_1"	 	
+					"Bot"		"bomber_ins_1"
+					"Bot"		"bomber_ins_2"		
+					"Bot"		"bomber_ins_3" 		
+					"Bot"		"bomber_ins_4" 		
+					"Bot"		"bomber_ins_5"			
+					"Bot"		"bomber_ins_6"		
+					"Bot"		"bomber_ins_7"				
+					"Bot"		"bomber_ins_8" 	
 				}
 
 				"Team2"	// Support team #2
 				{
 					//role name
-					"Bot"		"juggernaut_1"
-					"Bot"		"juggernaut_2"		
-					"Bot"		"juggernaut_1"
-					"Bot"		"juggernaut_2"				
-					"Bot"		"juggernaut_1"
-					"Bot"		"juggernaut_2"			
-					"Bot"		"juggernaut_1"			
+					"Bot"		"bomber_ins_9"
+					"Bot"		"bomber_ins_10"		
+					"Bot"		"bomber_ins_1" 		
+					"Bot"		"bomber_ins_2" 		
+					"Bot"		"bomber_ins_3"			
+					"Bot"		"bomber_ins_4"		
+					"Bot"		"bomber_ins_5"				
+					"Bot"		"bomber_ins_6" 			
 				}
 
 				"Team3"	// Recon team #3
 				{
 					//role name							
-					"Bot"		"juggernaut_3"
-					"Bot"		"juggernaut_4"		
-					"Bot"		"juggernaut_3"
-					"Bot"		"juggernaut_4"			
-					"Bot"		"juggernaut_3"
-					"Bot"		"juggernaut_4"			
-					"Bot"		"juggernaut_3"
+					"Bot"		"bomber_ins_7"
+					"Bot"		"bomber_ins_8"		
+					"Bot"		"bomber_ins_9" 		
+					"Bot"		"bomber_ins_10" 		
+					"Bot"		"bomber_ins_1"			
+					"Bot"		"bomber_ins_2"		
+					"Bot"		"bomber_ins_3"				
+					"Bot"		"bomber_ins_4" 	
 				}
 
 				"Team4"	// Support team #4
 				{
 					//role name							
-					"Bot"		"juggernaut_3"
-					"Bot"		"juggernaut_4"		
-					"Bot"		"juggernaut_3"
-					"Bot"		"juggernaut_4"			
-					"Bot"		"juggernaut_3"
-					"Bot"		"juggernaut_4"			
-					"Bot"		"juggernaut_3"
+					"Bot"		"bomber_ins_5"
+					"Bot"		"bomber_ins_6"		
+					"Bot"		"bomber_ins_7" 		
+					"Bot"		"bomber_ins_8" 		
+					"Bot"		"bomber_ins_9"			
+					"Bot"		"bomber_ins_10"		
+					"Bot"		"bomber_ins_1"				
+					"Bot"		"bomber_ins_2" 
 				}	
 				
 			}
@@ -228,6 +233,8 @@
 				"HITGROUP_RIGHTLEG"   "1.00"
 			}
 		}
+
+
 		// ========================================
 		// mosin
 		// ========================================

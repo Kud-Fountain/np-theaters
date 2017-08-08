@@ -1,0 +1,367 @@
+//Veteran Insurgents Loadout Balance
+
+"theater"
+{
+	"player_templates"
+	{
+		// Bomber HEAVY Model 1
+		"bomber_ins_1"
+		{	
+			"team"			"insurgents"
+			"print_name"	"BOT" 
+			"models"
+			{
+				"player"			"models/sernix_insurgents/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //doesnt matter coop
+			}
+
+			"buy_order" 
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_k63"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+			"allowed_weapons"
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+		}
+		// Bomber HEAVY Model 2
+		"bomber_ins_2"
+		{	
+			"team"			"insurgents"
+			"print_name"	"BOT" 
+			"models"
+			{
+				"player"			"models/sernix_insurgents_isis/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //doesnt matter coop
+			}
+
+			"buy_order" 
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+			"allowed_weapons"
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+		}
+		// Bomber HEAVY Model 3
+		"bomber_ins_3"
+		{	
+			"team"			"insurgents"
+			"print_name"	"BOT" 
+			"models"
+			{
+				"player"			"models/sernix_insurgents_military/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //doesnt matter coop
+			}
+
+			"buy_order" 
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_maskah"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+			"allowed_weapons"
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+		}
+		// Bomber HEAVY Model 4
+		"bomber_ins_4"
+		{	
+			"team"			"insurgents"
+			"print_name"	"BOT" 
+			"models"
+			{
+				"player"			"models/sernix_insurgents_military_des/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //doesnt matter coop
+			}
+
+			"buy_order" 
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+			"allowed_weapons"
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+		}
+		// Bomber HEAVY Model 5
+		"bomber_ins_5"
+		{	
+			"team"			"insurgents"
+			"print_name"	"BOT" 
+			"models"
+			{
+				"player"			"models/sernix_insurgents_reburb/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //doesnt matter coop
+			}
+
+			"buy_order" 
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_dgreen"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+			"allowed_weapons"
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+		}
+		// Bomber HEAVY Model 6
+		"bomber_ins_6"
+		{	
+			"team"			"insurgents"
+			"print_name"	"BOT" 
+			"models"
+			{
+				"player"			"models/sernix_insurgents_scy/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //doesnt matter coop
+			}
+
+			"buy_order" 
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_k63"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+			"allowed_weapons"
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+		}
+		// Bomber HEAVY Model 7
+		"bomber_ins_7"
+		{	
+			"team"			"insurgents"
+			"print_name"	"BOT" 
+			"models"
+			{
+				"player"			"models/sernix_insurgents_sernix_rebs/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //doesnt matter coop
+			}
+
+			"buy_order" 
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+			"allowed_weapons"
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+		}
+		// Bomber HEAVY Model 8
+		"bomber_ins_8"
+		{	
+			"team"			"insurgents"
+			"print_name"	"BOT" 
+			"models"
+			{
+				"player"			"models/sernix_insurgents/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //doesnt matter coop
+			}
+
+			"buy_order" 
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_maskah"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+			"allowed_weapons"
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+		}
+		// Bomber HEAVY Model 9
+		"bomber_ins_9"
+		{	
+			"team"			"insurgents"
+			"print_name"	"BOT" 
+			"models"
+			{
+				"player"			"models/sernix_insurgents_isis/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //doesnt matter coop
+			}
+
+			"buy_order" 
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+			"allowed_weapons"
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+		}
+		// Bomber HEAVY Model 10
+		"bomber_ins_10"
+		{	
+			"team"			"insurgents"
+			"print_name"	"BOT" 
+			"models"
+			{
+				"player"			"models/sernix_insurgents_military/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl" //doesnt matter coop
+			}
+
+			"buy_order" 
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_dgreen"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+			"allowed_weapons"
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+		}
+	}		
+}
+
+
+
+/*
+					//Bot_Rigs
+					ins_BOT_carrier_more_primary, ins_BOT_carrier_more_secondary, ins_BOT_carrier_p3_s6,
+					ins_BOT_carrier_p2_s6, ins_BOT_carrier_p1_s6, ins_BOT_carrier_p0_s7
+					//Bot_Armors
+					srnx_BOT_nij_2, srnx_BOT_nij_3a, srnx_BOT_sapi, srnx_BOT_esapi, srnx_BOT_ar500, srnx_BOT_leba1
+					Helmets
+					srnx_BOT_ins_helmet_tan, srnx_BOT_ins_helmet_dgreen, srnx_BOT_ins_helmet_lgreen, 
+					srnx_BOT_ins_helmet_k63, srnx_BOT_ins_helmet_maskah
+				*/

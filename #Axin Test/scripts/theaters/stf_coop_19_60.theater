@@ -1,0 +1,692 @@
+"#base" "srnx_base2.theater"
+"#base"	"srnx_insurgents_veterans2.theater"
+"theater"
+{
+	"core"
+	{
+		
+		"precache"
+		{
+			// default theater specific sounds
+			"sounds"			"scripts/ins_sounds_weapons.txt"
+			"sounds"			"scripts/ins_sounds_cues.txt"
+			"sounds"			"scripts/ins_sounds_voice.txt"
+			"sounds"			"scripts/ins_sounds_radial_security.txt"				
+			"sounds"			"scripts/ins_sounds_radial_insurgent.txt"				
+			"sounds"			"scripts/ins_sounds_responses_security.txt"
+			"sounds"			"scripts/ins_sounds_responses_insurgent.txt"
+			"sounds"			"scripts/ins_sounds_hq.txt"
+			
+			"particles"         "particles/gas_grenades.pcf"
+			
+			"resources"			"resource\ui\inventory\inventory.res"
+			"resources"			"resource\ui\inventory\gearmenu.res"
+			"resources"			"resource\ui\inventory\gearslot.res"
+			"resources"			"resource\ui\inventory\upgradeslot.res"
+			"resources"			"resource\ui\inventory\upgradetooltip.res"
+			
+			// coop specific
+			"sounds"			"scripts/ins_sounds_voice_coop.txt"
+			"sounds"			"scripts/ins_sounds_voice_survival.txt"	
+			//Custom sounds 
+			"sounds"			"scripts/dy_lua_sounds_v2.txt"
+			//"sounds"			"dy_lua_sounds_extrav2.txt"
+		}
+	}
+	"teams"
+	{
+		"security"
+		{
+			"name"		"#Team_Security"
+			"logo"		"gameui/fac_sec"
+
+			"squads"
+			{
+				
+				"突击小队 [A]"
+				{
+					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
+					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
+					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_1"			
+					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_1"
+					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
+					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
+					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
+				}
+				"支援小队 [B]"
+				{
+					"#Squad_Gnalvl_TeamLeader"			"gnalvl_teamleader_usmc"
+					//"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
+					//"#Squad_Gnalvl_Defender"			"Gnalvl_defender_usmc"
+					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_2"
+					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_2"
+					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_2"
+					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
+					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
+				}
+				"突击小队 [C]"
+				{
+					"#Squad_Gnalvl_TeamLeader_Recon"	"Gnalvl_teamleader_recon_usmc"
+					"#Squad_Gnalvl_ReconMedic"			"gnalvl_recon_medic_usmc"
+					"#Squad_Gnalvl_Recon_Engineer"		"Gnalvl_recon_engineer_usmc"
+					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
+					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_2"
+					"#Squad_Gnalvl_Spotter"				"Gnalvl_spotter_usmc"
+					//"#Squad_Gnalvl_2B"				"Gnalvl_spotter_2b"
+				}
+			}
+		}
+		"insurgents"
+		{
+			"name"		"#team_insurgents"
+			"logo"		"gameui/fac_ins"
+			
+			"squads"
+			{
+				"Cell 1"	// Assault team #1
+				{
+					//role name
+					"战士"				"standard_ins_1"
+					"重装战士"			"mg_fighter_ins_1"  	
+					"无畏战士"			"juggernaut_1"		
+					"突击战士"		"striker_ins_1"
+					"Grenadier Sapper"		"grenadier_ins_1"				
+					"Scout Longrifle"		"scout_ins_1"
+					"Shielder Pistolier"	"shielder_ins_1"	
+					"Breaker Sapper"		"sapper_ins_1" 	
+				}
+
+				"Cell 2"	// Assault team #2
+				{
+					//role name
+					"Fighter"				"standard_ins_2"
+					"Heavy Fighter"			"mg_fighter_ins_2"		
+					"Fighter Striker"		"striker_ins_2"
+					"Suicide Bomber"		"bomber_ins_1"
+					//"Juggernaut"			"juggernaut_2"		
+					"Striker Fighter"		"striker_ins_2"
+					"Shielder Pistolier"	"shielder_ins_2"
+					"Scout Longrifle"		"scout_ins_2"					
+				}
+
+				"Cell 3"	// Support team #3
+				{
+					//role name	
+					"Fighter"				"standard_ins_3"
+					"Gunner"				"hg_fighter_ins_1"
+					//"Juggernaut"			"juggernaut_3"
+					"Suicide Bomber"		"bomber_ins_2"
+					"Gunner"				"hg_fighter_ins_3"
+					"Striker Fighter"		"striker_ins_3"
+					"Gunner"				"hg_fighter_ins_2"
+					"Scout Rifleman"		"scout_ins_3"
+					"Breaker Sapper"		"sapper_ins_2"	
+				}
+
+				"Cell 4"	// Sabatoge team #4 (Mirrors Team 1)
+				{
+					//role name							
+					"Fighter"				"standard_ins_4"
+					"Scout Rifleman"		"scout_ins_4"
+					"Heavy Fighter"			"mg_fighter_ins_3"
+					"Striker Fighter"		"striker_ins_4"
+					"Suicide Bomber"		"bomber_ins_2"
+					"Grenadier Sapper"		"grenadier_ins_2"
+					"Breaker Sapper"		"sapper_ins_3"					
+					"Breaker Sapper"		"sapper_ins_4"
+				}
+				"Cell 5"	// Recon team #5
+				{	
+					"Fighter"				"standard_ins_5"
+					"Breaker Sapper"		"sapper_ins_3"
+					//"Juggernaut"			"juggernaut_4"
+					"Suicide Bomber"		"bomber_ins_2"
+					"Suicide Bomber"		"bomber_ins_1" 
+					"Striker/Fighter"		"striker_ins_5"
+					"Scout Vip Longrifle"	"scout_ins_vip_1"
+					"Striker Vip Fighter"	"striker_ins_vip_1"
+				}	
+				
+			}
+		}
+	}
+
+		
+	
+	
+	//must reinit ammo dumb but must be done
+	"ammo"
+	{
+		//Reinit Single Loaded Ammo
+		// ========================================
+		// shotguns
+		// ========================================
+		"10gbuck"
+		{
+			"import"					"default"
+			//"import"    "9x19"
+			"SuppressionIncrement"		"100"
+			"bulletcount"				"10"
+			"carry"						"56"
+			"damageType"				"DMG_BUCKSHOT"
+			"brass_model"				"models/weapons/shells/12guage.mdl"
+			"brass_sound"				"BOUNCE_SHOTSHELL"
+			"Damage"
+			{
+				"10"					"115.90"
+				"4000"					"95.60"
+				"8000"					"85.30"
+				"10000"					"75.15"
+			}
+			"PenetrationPower"
+			{
+				"10"					"618"
+				"4000"					"597"
+				"8000"					"486"	
+				"12000"					"375"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"1.02"
+				"HITGROUP_CHEST"			"0.95"
+				"HITGROUP_STOMACH"			"0.95"
+				"HITGROUP_LEFTARM"			"0.77"
+				"HITGROUP_RIGHTARM"			"0.77"
+				"HITGROUP_LEFTLEG"			"0.77"
+				"HITGROUP_RIGHTLEG"			"0.77"
+			}
+		}
+		"40mbuck"
+		{
+			"import"					"default"
+			//"import"    "9x19"
+			"SuppressionIncrement"		"100"
+			"bulletcount"				"40"
+			"damageType"				"DMG_BLAST"
+			"brass_model"				"models/weapons/shells/12guage.mdl"
+			"brass_sound"				"BOUNCE_SHOTSHELL"
+			"Damage"
+			{
+				"10"					"230.90"
+				"4000"					"210.60"
+				"8000"					"200.30"
+				"10000"					"190.15"
+			}
+			"PenetrationPower"
+			{
+				"0"					"971"
+				"4000"					"861"
+				"8000"					"756"	
+				"10000"					"645"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"1.97"
+				"HITGROUP_CHEST"			"1.88"
+				"HITGROUP_STOMACH"			"1.88"
+				"HITGROUP_LEFTARM"			"1.74"
+				"HITGROUP_RIGHTARM"			"1.74"
+				"HITGROUP_LEFTLEG"			"1.74"
+				"HITGROUP_RIGHTLEG"			"1.74"
+			}
+		}
+		"8gbuck"
+		{
+			"import"					"default"
+			//"import"    "9x19"
+			"SuppressionIncrement"		"75"
+			"bulletcount"				"8"
+			"carry"						"56"
+			"damageType"				"DMG_BUCKSHOT"
+			"brass_model"				"models/weapons/shells/12guage.mdl"
+			"brass_sound"				"BOUNCE_SHOTSHELL"
+			"Damage"
+			{
+				"10"				   "119.90"
+				"4000"					"98.60"
+				"8000"					"86.30"
+				"10000"					"64.15"
+			}
+			"PenetrationPower"
+			{
+				"10"					"628"
+				"4000"					"596"
+				"8000"					"484"	
+				"10000"					"372"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"1.05"
+				"HITGROUP_CHEST"			"0.97"
+				"HITGROUP_STOMACH"			"0.97"
+				"HITGROUP_LEFTARM"			"0.83"
+				"HITGROUP_RIGHTARM"			"0.83"
+				"HITGROUP_LEFTLEG"			"0.83"
+				"HITGROUP_RIGHTLEG"			"0.83"
+			}
+		}
+		"12gbuck"
+		{
+			"import"				"default"
+			//"import"    "9x19"
+			"SuppressionIncrement"		"150"
+			"bulletcount"				"12"
+			"carry"						"56"
+			"damageType"				"DMG_BUCKSHOT"
+			"brass_model"				"models/weapons/shells/12guage.mdl"
+			"brass_sound"				"BOUNCE_SHOTSHELL"
+			"Damage"
+			{
+				"10"				   "100.90"
+				"4000"					"90.60"
+				"8000"					"70.30"
+				"10000"					"50.15"
+			}
+			"PenetrationPower"
+			{
+				"10"					"600"
+				"4000"					"589"
+				"8000"					"476"	
+				"10000"					"363"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"0.97"
+				"HITGROUP_CHEST"			"0.86"
+				"HITGROUP_STOMACH"			"0.86"
+				"HITGROUP_LEFTARM"			"0.67"
+				"HITGROUP_RIGHTARM"			"0.67"
+				"HITGROUP_LEFTLEG"			"0.67"
+				"HITGROUP_RIGHTLEG"			"0.67"
+			}
+		}
+		"slug"
+		{
+			"import"				"default"
+			//"import"    "9x19"
+			"SuppressionIncrement"		"50"
+			"bulletcount"				"1"
+			"damageType"				"DMG_BUCKSHOT"
+			"brass_model"				"models/weapons/shells/12guage.mdl"
+			"brass_sound"				"BOUNCE_SHOTSHELL"
+			"Damage"
+			{
+				"10"					"800"
+				"6000"					"688"
+				"8000"					"465"
+				"12000"					"342"
+			}
+			"PenetrationPower"
+			{
+				"0"						"650"
+				"3000"					"500"
+				"6000"					"480"	
+				"12000"					"360"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"1.31"
+				"HITGROUP_CHEST"			"1.22"
+				"HITGROUP_STOMACH"			"1.22"
+				"HITGROUP_LEFTARM"			"0.95"
+				"HITGROUP_RIGHTARM"			"0.95"
+				"HITGROUP_LEFTLEG"			"0.95"
+				"HITGROUP_RIGHTLEG"			"0.95"
+			}
+			
+		}
+		"buckshot"
+		{
+			"import"				"10gbuck"
+			"carry"					"56"
+			"flags_clear"			"AMMO_USE_MAGAZINES"
+		}
+		"40mshot"
+		{
+			"import"				"40mbuck"
+			"flags_clear"			"AMMO_USE_MAGAZINES"
+		}
+		"12gshot"
+		{
+			"import"				"12gbuck"
+			"carry"					"56"
+			"flags_clear"			"AMMO_USE_MAGAZINES"
+		}
+		"8gshot"
+		{
+			"import"				"8gbuck"
+			"carry"					"56"
+			"flags_clear"			"AMMO_USE_MAGAZINES"
+		}
+		"slugs"
+		{
+			"import"				"slug"
+			"carry"					"56"
+			"flags_clear"			"AMMO_USE_MAGAZINES"
+		}
+		
+		// ========================================
+		// m40a1
+		// ========================================
+		"762x51mm"
+		{
+			"import"					"default"
+			"SuppressionIncrement"		"130"
+			"brass_model"				"models/weapons/shells/762x51.mdl"
+			"carry"					"120"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+			"Damage"
+			{
+				"10"					"240"
+				"7500"					"220"
+				"15000"					"200"
+				"30000"					"170"
+			}
+			"PenetrationPower"
+			{
+				"10"					"1950"
+				"7500"					"1700"
+				"15000"					"1500"
+				"30000"					"1200"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "9.00"
+				"HITGROUP_CHEST"      "7.96"
+				"HITGROUP_STOMACH"    "7.96"
+				"HITGROUP_LEFTARM"    "4.54"
+				"HITGROUP_RIGHTARM"   "4.54"
+				"HITGROUP_LEFTLEG"    "4.54"
+				"HITGROUP_RIGHTLEG"   "4.54"
+			}
+		}
+		
+		"762x51mm_hp"
+		{
+			"import"				"default"
+			"SuppressionIncrement"			"260"
+			"brass_model"				"models/weapons/shells/762x51.mdl"
+			"carry"					"240"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+			"Damage"
+			{
+				"10"					"265"
+				"7500"					"245"
+				"15000"					"205"
+				"30000"					"175"
+			}
+      		"PenetrationPower"
+			{
+				"10"					"1750"
+				"7500"					"1400"
+				"15000"					"1100"
+				"30000"					"1000"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "5.89"
+				"HITGROUP_CHEST"      "5.77"
+				"HITGROUP_STOMACH"    "5.77"
+				"HITGROUP_LEFTARM"    "6.86"
+				"HITGROUP_RIGHTARM"   "6.86"
+				"HITGROUP_LEFTLEG"    "6.86"
+				"HITGROUP_RIGHTLEG"   "6.86"
+			}
+		}
+		
+		"762x51_118"
+		{
+			"import"				"default"
+			"SuppressionIncrement"			"390"
+			"brass_model"				"models/weapons/shells/762x51.mdl"
+			"carry"					"360"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+			"Damage"
+			{
+				"10"					"235"
+				"7500"					"220"
+				"15000"					"205"
+				"30000"					"200"
+			}
+      		"PenetrationPower"
+			{
+				"10"					"1750"
+				"7500"					"1600"
+				"14000"					"1500"
+				"30000"					"1400"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "6.69"
+				"HITGROUP_CHEST"      "6.47"
+				"HITGROUP_STOMACH"    "6.47"
+				"HITGROUP_STOMACH"    "6.47"
+				"HITGROUP_LEFTARM"    "4.76"
+				"HITGROUP_RIGHTARM"   "4.76"
+				"HITGROUP_LEFTLEG"    "4.76"
+				"HITGROUP_RIGHTLEG"   "4.76"
+			}
+		}
+		
+		"762x51mm_ap"
+		{
+			"import"				"default"
+			"SuppressionIncrement"			"130"
+			"brass_model"				"models/weapons/shells/762x51.mdl"
+			"carry"					"120"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+			"Damage"
+			{
+				"10"					"250"
+				"7500"					"230"
+				"15000"					"210"
+				"30000"					"190"
+			}
+			"PenetrationPower"
+			{
+				"10"					"2100"
+				"7500"					"1800"
+				"15000"					"1600"
+				"30000"					"1400"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "8.47"
+				"HITGROUP_CHEST"      "8.36"
+				"HITGROUP_STOMACH"    "8.36"
+				"HITGROUP_LEFTARM"    "3.64"
+				"HITGROUP_RIGHTARM"   "3.64"
+				"HITGROUP_LEFTLEG"    "3.64"
+				"HITGROUP_RIGHTLEG"   "3.64"
+			}
+		}
+		"762x51mm_ml18"
+		{
+			"import"					"762x51_118"
+			"carry"						"120"
+      		"flags_clear"				"AMMO_USE_MAGAZINES" 
+			"tracer_frequency"			"1"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"5"
+		}
+		
+		// ========================================
+		// mosin
+		// ========================================
+		"762x54mm"
+		{
+			"import"					"default"
+			"SuppressionIncrement"		"130"
+			"brass_model"				"models/weapons/shells/762x51.mdl"
+			"carry"						"120"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+			"Damage"
+			{
+				"10"					"225"
+				"7500"					"195"
+				"15000"					"175"
+				"30000"					"165"
+			}
+			"PenetrationPower"
+			{
+				"10"					"1400"
+				"7500"					"1200"
+				"15000"					"1100"
+				"30000"					"900"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "9.00"
+				"HITGROUP_CHEST"      "7.96"
+				"HITGROUP_STOMACH"    "7.96"
+				"HITGROUP_LEFTARM"    "4.54"
+				"HITGROUP_RIGHTARM"   "4.54"
+				"HITGROUP_LEFTLEG"    "4.54"
+				"HITGROUP_RIGHTLEG"   "4.54"
+			}
+		}
+		"762x54mm_hp"
+		{
+			"import"					"default"
+			"SuppressionIncrement"		"260"
+			"brass_model"				"models/weapons/shells/762x51.mdl"
+			"carry"						"120"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+			"Damage"
+			{
+				"10"					"290"
+				"7500"					"260"
+				"15000"					"215"
+				"30000"					"195"
+			}
+      		"PenetrationPower"
+			{
+				"10"					"1800"
+				"7500"					"1700"
+				"15000"					"1500"
+				"30000"					"500"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "5.88"
+				"HITGROUP_CHEST"      "5.76"
+				"HITGROUP_STOMACH"    "5.76"
+				"HITGROUP_LEFTARM"    "6.87"
+				"HITGROUP_RIGHTARM"   "6.87"
+				"HITGROUP_LEFTLEG"    "6.87"
+				"HITGROUP_RIGHTLEG"   "6.87"
+			}
+		}
+		"762x54mm_ap"
+		{
+			"import"					"default"
+			"SuppressionIncrement"		"130"
+			"brass_model"				"models/weapons/shells/762x51.mdl"
+			"carry"						"120"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+			"Damage"
+			{
+				"10"					"235"
+				"7500"					"215"
+				"15000"					"190"
+				"20000"					"175"
+			}
+			"PenetrationPower"
+			{
+				"10"					"2100"
+				"7500"					"1700"
+				"15000"					"1500"
+				"30000"					"1100"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "8.58"
+				"HITGROUP_CHEST"      "8.36"
+				"HITGROUP_STOMACH"    "8.36"
+				"HITGROUP_LEFTARM"    "3.63"
+				"HITGROUP_RIGHTARM"   "3.63"
+				"HITGROUP_LEFTLEG"    "3.63"
+				"HITGROUP_RIGHTLEG"   "3.63"
+			}
+		}
+		"762x54_7n14"
+		{
+			"import"					"default"
+			"SuppressionIncrement"		"390"
+			"brass_model"				"models/weapons/shells/762x51.mdl"
+			"carry"						"120"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+			"Damage"
+			{
+				"10"					"225"
+				"7500"					"205"
+				"15000"					"195"
+				"30000"					"185"
+			}
+      		"PenetrationPower"
+			{
+				"10"					"1700"
+				"7500"					"1400"
+				"15000"					"1100"
+				"30000"					"900"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "6.98"
+				"HITGROUP_CHEST"      "6.86"
+				"HITGROUP_STOMACH"    "6.86"
+				"HITGROUP_LEFTARM"    "4.73"
+				"HITGROUP_RIGHTARM"   "4.73"
+				"HITGROUP_LEFTLEG"    "4.73"
+				"HITGROUP_RIGHTLEG"   "4.73"
+			}
+		}
+		"762x54mm_sr"
+		{
+			"import"					"762x54_7n14"
+			"carry"						"120"
+      		"flags_clear"				"AMMO_USE_MAGAZINES" 
+			"tracer_frequency"			"1"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"5"
+		}
+		
+		//L1a1
+		//Custom
+		"762x51_box_30rnd"
+		{
+			"import"    "762x51"
+			"magsize"	"30"
+		}
+		"762x51_hp_box_30rnd"
+		{
+			"import"    "762x51_hp"
+			"magsize"	"30"
+		}
+		"762x51_ap_box_30rnd"
+		{
+			"import"    "762x51_ap"
+			"magsize"	"30"
+		}
+		"762x51_box_20rnd"
+		{
+			"import"				"762x51"
+			"magsize"				"20"
+		}
+		"762x51_hp_box_20rnd"
+		{
+			"import"				"762x51_hp"
+			"magsize"				"20"
+		}
+		"762x51_ap_box_20rnd"
+		{
+			"import"				"762x51_ap"
+			"magsize"				"20"
+		}
+		"762x51_standard_box_20rnd"
+		{
+			"import"				"762x51_tracer"
+			"magsize"				"20"
+		}
+	}
+}

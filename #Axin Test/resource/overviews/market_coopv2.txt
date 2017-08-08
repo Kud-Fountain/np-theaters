@@ -1,0 +1,9 @@
+template
+{
+	material	overviews/market_coopv2	// texture file
+	pos_x		-5190		// X coordinate
+	pos_y		4409			// Y coordinate
+	scale		10.0			// scale used when taking the screenshot
+	rotate		0			//
+	zoom		1.3			// optimal zoom factor if map is shown in full size
+}

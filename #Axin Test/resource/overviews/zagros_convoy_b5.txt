@@ -1,0 +1,9 @@
+zagros_convoy_b5
+{
+	material	overviews/zagros_convoy_b5	// texture file
+	pos_x		-11786			// X coordinate
+	pos_y		3804			// Y coordinate
+	scale		18.0			// scale used when taking the screenshot
+	rotate		0			//
+	zoom		1.3			// optimal zoom factor if map is shown in full size
+}

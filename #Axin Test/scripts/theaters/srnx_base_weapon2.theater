@@ -1,0 +1,542 @@
+"theater"
+{	
+	"weapons"
+	{
+		"weapon_base"
+		{
+			"IsBase"						"1"
+			"weapon_cost"					"1"
+			"weapon_weight"					"60"
+			"barrel_length"					"21"
+
+			"bipod_length"					"26"
+			"bipod_height"					"10"
+			"bipod_yaw_limit"				"45"
+			"bipod_pitch_min"				"-20"
+			"bipod_pitch_max"				"35"
+			
+			"player_restrictions"
+			{
+				"allow_jump_shoot"		"0"
+				"allow_reload_sprint"	"0"
+				"allow_reload_jump"		"0"
+				"allow_reload_crawl"	"0"
+			}
+
+			"ironsights"
+			{
+				"GestureIronsights"		"delta_iron"
+				"in_time"				"0.25"
+				"out_time"				"0.2"
+			}
+			
+			"sway"
+			{
+				"sway_style"				"noise"	// set to "lissajous" for lissajous curve (insmod style), set to "noise" for perlin noise (random)
+				"sway_speed"				"0.5"
+				"SwayRadiusByStamina"
+				{
+					"0"						"7.50"
+					"10"					"7.00"
+					"20"					"6.50"
+					"30"					"6.00"
+					"40"					"5.50"
+					"50"					"5.00"
+					"60"					"4.50"
+					"70"					"4.00"
+					"80"					"3.50"
+					"90"					"3.00"
+					"100"					"2.50"
+					"110"					"2.00"
+					"120"					"1.50"
+					"130"					"1.00"
+					"140"					"0.50"
+					"150"					"0.25"
+					"160"					"0.12"
+					"170"					"0.06"
+					"180"					"0.03"
+					"190"					"0.015"
+					"200"					"0.0075"
+				}
+				"SwaySpeedByStamina"
+				{
+					"0"					"7.50"
+					"10"					"7.00"
+					"20"					"6.50"
+					"30"					"6.00"
+					"40"					"5.50"
+					"50"					"5.00"
+					"60"					"4.50"
+					"70"					"4.00"
+					"80"					"3.50"
+					"90"					"3.00"
+					"100"					"2.50"
+					"110"					"2.00"
+					"120"					"1.50"
+					"130"					"1.00"
+					"140"					"0.50"
+					"150"					"0.25"
+					"160"					"0.12"
+					"170"					"0.06"
+					"180"					"0.03"
+					"190"					"0.015"
+					"200"					"0.0075"
+				}
+				
+				"sway_radius_stand_frac"		"1.00"
+				"sway_radius_crouch_frac"		"0.80"
+				"sway_radius_prone_frac"		"0.60"
+				"sway_radius_bipod_frac"		"0.20"
+				"sway_radius_ironsight_frac"	"0.30"
+				"sway_radius_lean_frac"			"0.75"
+				"sway_amount_focus_frac"		"0.20"
+				"sway_speed_ironsight_frac"		"0.30"
+				"sway_speed_bipod_frac"			"0.20"
+				"sway_speed_focus_frac"			"0.15"
+				"sway_amount_focus_penalty"		"0.25"
+				"sway_speed_focus_penalty"		"0.50"
+				"sway_screen_ads_ratio"			"0.75"
+				"sway_viewmodel_ratio"			"0.75"
+				"sway_viewmodel_ads_ratio"		"0.00"
+				"sway_radius_interp_speed"		"2.50"
+				
+				"SwayRadiusFracBySpeed"
+				{
+					"0"						"5.500"
+					"10"					"5.250"
+					"20"					"5.000"
+					"30"					"4.750"
+					"40"					"4.500"
+					"50"					"4.250"
+					"60"					"4.000"
+					"70"					"3.750"
+					"80"					"3.500"
+					"90"					"3.250"
+					"100"					"2.000"
+					"110"					"2.750"
+					"120"					"2.500"
+					"130"					"2.250"
+					"140"					"1.750"
+					"150"					"1.500"
+					"160"					"1.250"
+					"170"					"1.000"
+					"180"					"0.750"
+					"190"					"0.500"
+					"200"					"0.250"
+				}
+				"SwaySpeedFracBySpeed"
+				{
+					"0"						"5.500"
+					"10"					"5.250"
+					"20"					"5.000"
+					"30"					"4.750"
+					"40"					"4.500"
+					"50"					"4.250"
+					"60"					"4.000"
+					"70"					"3.750"
+					"80"					"3.500"
+					"90"					"3.250"
+					"100"					"2.000"
+					"110"					"2.750"
+					"120"					"2.500"
+					"130"					"2.250"
+					"140"					"1.750"
+					"150"					"1.500"
+					"160"					"1.250"
+					"170"					"1.000"
+					"180"					"0.750"
+					"190"					"0.500"
+					"200"					"0.250"
+				}
+				"SwayRadiusBySuppression"
+				{
+					"0"						"15.00"
+					"10"					"14.50"
+					"20"					"14.00"	
+					"30"					"13.50"
+					"40"					"13.00"
+					"50"					"12.50"
+					"60"					"12.00"
+					"70"					"11.50"
+					"80"					"11.00"
+					"90"					"10.50"
+					"100"					"10.00"
+					"110"					"9.50"
+					"120"					"9.00"
+					"130"					"8.50"	
+					"140"					"8.00"
+					"150"					"7.50"
+					"160"					"7.00"
+					"170"					"6.50"
+					"180"					"6.00"
+					"190"					"5.50"
+					"200"					"5.00"
+				}
+				"SwaySpeedBySuppression"
+				{
+					"0"						"15.00"
+					"10"					"14.50"
+					"20"					"14.00"	
+					"30"					"13.50"
+					"40"					"13.00"
+					"50"					"12.50"
+					"60"					"12.00"
+					"70"					"11.50"
+					"80"					"11.00"
+					"90"					"10.50"
+					"100"					"10.00"
+					"110"					"9.50"
+					"120"					"9.00"
+					"130"					"8.50"	
+					"140"					"8.00"
+					"150"					"7.50"
+					"160"					"7.00"
+					"170"					"6.50"
+					"180"					"6.00"
+					"190"					"5.50"
+					"200"					"5.00"
+				}
+			}
+			"attachments"
+			{
+				// viewmode must match the world model names!!!
+				"attachment_muzzleflash"	"muzzle"
+				"attachment_shellejection"	"shell"
+				"attachment_laserpointer"	"laser"
+			}
+			"freeaim"
+			{
+				"freeaim_distance"				"10.50"
+				"freeaim_distance_bipod"		"10.50"
+				"freeaim_screenratio"			"0.90"
+				"freeaim_screenratio_bipod"		"0.90"
+
+				"freeaim_ads"					"0"
+				"freeaim_distance_ads"			"1.05"
+				"freeaim_screenratio_ads"		"0.90"
+
+				"freeaim_frac"					"1.00"
+				"freeaim_frac_ads"				"0.30"
+			}
+			"fov"
+			{
+				"fov_plr_ironsight"				"-25"
+				"fov_plr_focus"					"-10"
+				"fov_wpn_scope"					"0"
+			}
+			"recoil"
+			{
+				"recoil_additional_rest_per_shot"	"2.5"
+				"recoil_rest_max_shots"				"5"
+				"recoil_shot_reset_time"			"0.3"
+				"recoil_focus_frac"					"0.8"
+				"recoil_freeaim_frac"				"0.75"
+				"recoil_ironsight_frac"				"0.6"
+
+				"recoil_controller_frac"			"0.75"
+
+				"recoil_return_controller_only"		"1"
+				"recoil_return_frac"				"0.5"
+				"recoil_return_delay"				"0.06"
+				"recoil_return_speed"				"6"
+				"recoil_return_speed_per_shot"		"0.1"
+
+				"RecoilBaseFracByWeight"
+				{
+					"0"						"1.15"	
+					"51"					"1.125"				
+					"102"					"1.10"
+					"153"					"1.075"
+					"204"					"1.05"		
+					"255"					"1.025"			
+					"306"					"1.00"			
+					"357"					"0.975"
+					"408"					"0.950"
+					"459"					"0.925"			
+					"510"					"0.90"
+					"561"					"0.875"
+					"612"					"0.85"
+				}
+				
+				"RecoilIronSightFracByWeight"
+				{
+					"0"						"0.95"	
+					"51"					"0.925"				
+					"102"					"0.900"
+					"153"					"0.875"
+					"204"					"0.850"		
+					"255"					"0.825"			
+					"306"					"0.800"			
+					"357"					"0.725"
+					"408"					"0.70"
+					"459"					"0.675"			
+					"510"					"0.65"
+					"561"					"0.625"
+					"612"					"0.60"
+				}
+				
+				"RecoilBipodFracByWeight"
+				{
+					"0"						"0.55"	
+					"51"					"0.525"				
+					"102"					"0.50"
+					"153"					"0.475"
+					"204"					"0.45"		
+					"255"					"0.425"			
+					"306"					"0.40"			
+					"357"					"0.375"
+					"408"					"0.350"
+					"459"					"0.325"			
+					"510"					"0.20"
+					"561"					"0.275"
+					"612"					"0.25"
+				}
+				
+				"RecoilLeanFracByWeight"
+				{
+					"0"						"1.15"	
+					"51"					"1.125"				
+					"102"					"1.10"
+					"153"					"1.075"
+					"204"					"1.05"		
+					"255"					"1.025"			
+					"306"					"1.00"			
+					"357"					"0.975"
+					"408"					"0.950"
+					"459"					"0.925"			
+					"510"					"0.90"
+					"561"					"0.875"
+					"612"					"0.85"
+				}
+				
+				"RecoilMoveFracByWeight"
+				{
+					"0"						"1.25"	
+					"51"					"1.225"				
+					"102"					"1.20"
+					"153"					"1.175"
+					"204"					"1.15"		
+					"255"					"1.125"			
+					"306"					"1.10"			
+					"357"					"1.075"
+					"408"					"1.05"
+					"459"					"1.025"			
+					"510"					"0.975"
+					"561"					"0.95"
+					"612"					"0.925"
+				}
+				
+				"RecoilStandFracByWeight"
+				{
+					"0"						"1.15"	
+					"51"					"1.125"				
+					"102"					"1.10"
+					"153"					"1.075"
+					"204"					"1.05"		
+					"255"					"1.025"			
+					"306"					"1.00"			
+					"357"					"0.975"
+					"408"					"0.950"
+					"459"					"0.925"			
+					"510"					"0.90"
+					"561"					"0.875"
+					"612"					"0.85"
+				}
+				
+				"RecoilCrouchFracByWeight"
+				{
+					"0"						"0.90"	
+					"51"					"0.875"				
+					"102"					"0.85"
+					"153"					"0.825"
+					"204"					"0.80"		
+					"255"					"0.775"			
+					"306"					"0.750"			
+					"357"					"0.725"
+					"408"					"0.70"
+					"459"					"0.675"			
+					"510"					"0.65"
+					"561"					"0.625"
+					"612"					"0.60"
+				}
+				
+				"RecoilProneFracByWeight"
+				{
+					"0"						"0.65"	
+					"51"					"0.625"				
+					"102"					"0.60"
+					"153"					"0.575"
+					"204"					"0.55"		
+					"255"					"0.525"			
+					"306"					"0.50"			
+					"357"					"0.475"
+					"408"					"0.450"
+					"459"					"0.425"			
+					"510"					"0.40"
+					"561"					"0.375"
+					"612"					"0.35"
+				}
+				
+				"RecoilLowStaminaFracByWeight"
+				{
+					"0"						"1.15"	
+					"51"					"1.125"				
+					"102"					"1.10"
+					"153"					"1.075"
+					"204"					"1.05"		
+					"255"					"1.025"			
+					"306"					"1.00"			
+					"357"					"0.975"
+					"408"					"0.950"
+					"459"					"0.925"			
+					"510"					"0.90"
+					"561"					"0.875"
+					"612"					"0.85"
+				}
+				
+				"RecoilMaxFracByWeight"
+				{
+					"0"						"1.15"	
+					"51"					"1.125"				
+					"102"					"1.10"
+					"153"					"1.075"
+					"204"					"1.05"		
+					"255"					"1.025"			
+					"306"					"1.00"			
+					"357"					"0.975"
+					"408"					"0.950"
+					"459"					"0.925"			
+					"510"					"0.90"
+					"561"					"0.875"
+					"612"					"0.85"
+				}
+			}
+			
+			"use_hands"						"1"
+			"viewmodel_offsets"
+			{
+				// viewmodel stance offsets
+				// x back, y left, z down
+				"VMOffsetStand"					"-0.50 -0.10 0.60"
+				"VMOffsetStandMove"				"0.60 0.80 0.00"
+				"VMOffsetStandSprint"			"-0.07 0.05 0.25"
+				"VMOffsetCrouch"				"1.00 0.40 0.15"
+				"VMOffsetCrouchMove"			"1.00 0.80 0.00"
+				"VMOffsetProne"					"2.00 0.00 2.00"
+				"VMOffsetProneMove"				"-3.00 2.00 0.50"
+				"VMOffsetLeanLeft"				"1.25 1.25 1.25"	// Added on to the other offsets, and ignores spring
+				"VMOffsetLeanRight"				"1.25 -0.50 1.25"	// Added on to the other offsets, and ignores spring
+				"VMOffsetOffScreen"				"2.00 0.00 2.25"
+				
+				"ViewDipHeightOffset"			"64"
+				"ViewDipAngle"					"2.5"
+				"ViewDipAngleSpeed"				"0.1"
+				"ViewLandDipAmt"				"0.02"
+				
+				"ViewBobVert"					"0.9"
+				"ViewBobLat"					"0.9"
+				"ViewBobUp"						"0.5"
+				"ViewBobCycle"					"0.32"
+				
+				"ViewSwayScale"					"3"
+				"ViewSwayIronSightScale"		"0.5"
+				"ViewMaxSway"					"3.26"
+				
+				"ViewOffsetSpringConstant"		"20.5"
+				"ViewOffsetDampConstant"		"0.6"
+				"ViewOffsetViscousConstant"		"6.5"
+				"ViewOffsetSpringConstantSights" "45"
+				"ViewOffsetDampConstantSights"	 "0.3"
+				"ViewOffsetViscousConstantSights" "9"
+			}
+			"kitui_offset"
+			{
+				"position"				"35 0 4"
+				"angle"					"0 90 0"
+			}
+		}
+		
+		"ballistic_base"
+		{
+			"IsBase"						"1"
+			"import"						"weapon_base"
+			"weapon_type"					"ballistic"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"1"
+			}
+			"fov"
+			{
+				"fov_plr_ironsight"			"-20"
+				"fov_plr_focus"				"-20"
+				"fov_wpn_scope"				"0"
+				"fov_wpn_focus"				"0"
+			}
+			"particles"
+			{
+				"particle_muzzle_smoke"		"weapon_muzzle_smoke"
+			}
+			"bullet_whiz"
+			{
+				"BulletWhizHeadDistance"			"200"		// maximum distance between player head and bullet for a whiz to occur (old 800)
+				"BulletWhizSonicDistance"			"1400"		// maximum distance between player and bullet for a sonic whiz to occur (def 288) (984 = 25 meters approx) (old 400)
+				"BulletWhizMaxDot"					"1"
+				"BulletWhizMinDot"					"0"
+				"BulletWhizMaxVolume"				"1"
+				"BulletWhizMinVolume"				"0.5"
+			}
+		}
+		
+		"pistol_base"
+		{
+			"IsBase"						"1"
+			"import"						"ballistic_base"
+			"barrel_length"					"12"
+			
+			"freeaim"
+			{
+				"freeaim_distance_frac"			"0.80"
+			}
+			
+			"kitui_offset"
+			{
+				"position"				"20 3 2"
+				"angle"					"0 90 0"
+			}
+		}
+		
+		"weapon_grenade_base"
+		{
+			"IsBase"					"1"
+			"import"					"weapon_base"
+			"barrel_length"				"-1"
+			"weapon_type"				"grenade"
+			"weapon_slot"				"explosive"
+			"act_table"					"grenade"
+			
+			"explosives"
+			{
+				"GrenadeRollSpeed"			"425"
+				"GrenadeRollSpeedProne"		"350"
+				"GrenadeRollUpSpeed"		"250"
+				"GrenadeRollUpSpeedProne"	"200"
+				"GrenadeThrowSpeed"			"1000"
+				"GrenadeThrowSpeedProne"	"620"
+			}
+
+			"sounds"
+			{
+				"special1"					"Weapon_M67.SpoonEject"
+			}
+
+			"freeaim"
+			{
+				"freeaim_distance"			"0"
+				"freeaim_screenratio"			"0"	// if this is 0 and freeaim_distance is set, that will just mean sway gets applied
+			}
+		}
+	}
+}

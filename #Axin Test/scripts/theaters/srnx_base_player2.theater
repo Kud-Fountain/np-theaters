@@ -1,0 +1,356 @@
+"theater"
+{
+	"player_settings"
+	{
+		"scoring"
+		{
+			"kill"						"10" 
+			"kill_offensive"			"20"
+			"kill_defensive"			"20" 
+			"kill_headshot_bonus"		"10"	
+			"kill_savior"				"10"	
+			"kill_bonus_domination"		"10"	
+			"kill_bonus_revenge"		"10"	
+			"assist"					"10"	
+
+			"obj_captured"				"10"
+			"obj_neutralized"			"5"
+			"obj_reset"					"20"	// points given when defenders reset the progress to 0% (if progress got to at least 50%)
+			"obj_capture_tick"			"10"	// attacking points given every 10%
+			"obj_reset_tick"			"10"	// defending points given every 10%
+			"cache_destroyed"			"20"
+			"intel_captured"			"100"
+			"vip_killed"				"100"
+			"safehouse_secured"			"100"
+			"wave_complete"				"100"
+		}
+		// Weight is in hectograms 
+		//100 lbs = 454 hectograms
+		//135 lbs = 612 hectograms
+		
+		"weight"
+		{
+			"min_weight"			"0" 	
+			"max_weight"			"612" 
+			"frac_jump_force_max_weight"			"1.0"
+		}
+		
+		"speed"
+		{
+			"frac_side_move"		"0.60"
+			"frac_back_move"		"0.65"
+			"frac_side_step"		"0.6"
+			"speed_prone"			"54"
+			"speed_crouch_walk"		"46"
+			"speed_crouch_run"		"108"
+			"speed_walk"			"80" // def: 80
+			"speed_run"				"170" // def: 170
+			"speed_sprint"			"288" // def: 288
+			
+			"AccelerationByWeight"
+			{
+				"0"					"5.2"
+				"102"				"4.8" //def: "4.20"
+				"204"				"4.4"
+				"306"				"4.0"
+				"408"				"3.8"
+				"510"				"3.4" //def: "4.10"
+				"612"				"3.0"
+			}
+			
+			"DecelerationByWeight"  // these are much higher than acceleration values because it's loss in velocity per second
+			{
+				"0"					"125.0"
+				"102"				"250.0"
+				"204"				"500.0"
+				"306"				"750.0"
+				"408"				"1000.0"
+				"510"				"1250.0"
+				"612"				"1500.0"
+			}
+			
+			"FrictionByWeight"
+			{
+				"0"					"3.0"
+				"102"				"3.4" //def 4.2
+				"204"				"3.8"
+				"306"				"4.0"
+				"408"				"4.4"
+				"510"				"4.8" // def 5.0
+				"612"				"5.2"
+			}
+			
+			"SprintSpeedFactorByStamina"
+			{
+				"0"					"0.90"
+				"25"				"0.975"
+				"50"				"1.00"
+				"75"				"1.025"
+				"100"				"1.05"
+				"125"				"1.075"
+				"150"				"1.15"
+				"175"				"1.175"
+				"200"				"1.20"
+				"225"				"1.225"
+				"250"				"1.25"
+			}
+
+		}
+		
+		"turning"
+		{
+			"frac_turn_sprint"			"0.6"
+			"frac_turn_lean"			"0.9"
+			"frac_turn_crawl"			"0.5"
+			"frac_turn_prone_limit"		"0.0"
+			"prone_yaw_limit_amount"	"80"
+			"prone_yaw_limit_approach"	"20"
+		}
+		
+		"stamina"
+		{
+			"StaminaMaxByWeight"
+			{
+				"0"					"250"
+				"102"				"225"
+				"204"				"200"
+				"306"				"175"
+				"408"				"150"
+				"510"				"125"
+				"612"				"100"
+			}
+			
+			"stamina_regain"		"20.00"
+			"stamina_sprint_take"	"10.00"
+			"stamina_jump_take"		"20.00" // def 15
+			"stamina_dmg_take"		"0.25" //def .25
+			
+			//When landing from higher elevation (camera jerk)
+			"land_viewpunch_minvel"		"150"
+			"land_viewpunch_basepitch" 	"0.75"
+			"land_viewpunch_jumppitch" 	"0.05"
+			"land_viewpunch_landpitch" 	"0.01"
+			"land_viewpunch_maxangle"	"50.0"
+			"land_viewpunch_freeaim"	"1.0"
+			"land_viewpunch_viewkick"	"1.0"
+		}
+		
+		"focus"
+		{
+			"FocusTimeStamina"
+			{
+				"200"				"6.00" // def: 2.0
+				"190"				"5.75" // def: 2.0
+				"180"				"5.50" // def: 2.0
+				"170"				"5.25" // def: 5.0
+				"160"				"5.00" // def: 5.0
+				"150"				"4.75" // def: 5.0
+				"140"				"4.50" // def: 2.0
+				"130"				"4.25" // def: 2.0
+				"120"				"4.00" // def: 2.0
+				"110"				"3.75" // def: 2.0
+				"100"				"3.50" // def: 2.0
+				"90"				"3.25" // def: 2.0
+				"80"				"3.00" // def: 2.0
+				"70"				"2.75" // def: 5.0
+				"60"				"2.50" // def: 5.0
+				"50"				"2.25" // def: 5.0
+				"40"				"2.00" // def: 5.0
+				"30"				"1.75" // def: 5.0
+				"20"				"1.50" // def: 5.0
+				"10"				"1.25" // def: 5.0
+				"0"					"1.00" // def: 5.0
+			}
+
+			"FocusCooldownStamina"
+			{
+				"200"				"0.50" // def: 2.0
+				"190"				"0.75" // def: 2.0
+				"180"				"1.00" // def: 2.0
+				"170"				"1.25" // def: 5.0
+				"160"				"1.50" // def: 5.0
+				"150"				"1.75" // def: 5.0
+				"140"				"2.00" // def: 5.0
+				"130"				"2.25" // def: 5.0
+				"120"				"2.50" // def: 5.0
+				"110"				"2.75" // def: 5.0
+				"100"				"3.00" // def: 5.0
+				"90"				"3.25" // def: 2.0
+				"80"				"3.50" // def: 2.0
+				"70"				"3.75" // def: 5.0
+				"60"				"4.00" // def: 5.0
+				"50"				"4.25" // def: 5.0
+				"40"				"4.50" // def: 5.0
+				"30"				"4.75" // def: 5.0
+				"20"				"5.00" // def: 5.0
+				"10"				"5.25" // def: 5.0
+				"0"					"5.50" // def: 5.0
+			}
+
+			"FocusEffectivenessStamina"
+			{
+				"0"					"0.75"
+				"10"				"0.80" // def: 2.0
+				"20"				"0.85" // def: 2.0
+				"30"				"0.90" // def: 2.0
+				"40"				"0.95"
+				"50"				"1.00"
+				"60"				"1.05"
+				"70"				"1.10"
+				"80"				"1.15"
+				"90"				"1.20"
+				"100"				"1.25"
+				"110"				"1.30" // def: 2.0
+				"120"				"1.35" // def: 2.0
+				"130"				"1.40" // def: 2.0
+				"140"				"1.45"
+				"150"				"1.50"
+				"160"				"1.55"
+				"170"				"1.60"
+				"180"				"1.65"
+				"190"				"1.70"
+				"200"				"1.75"
+			}
+		}
+		
+		"slide"
+		{
+			"min_sprint_time"		"1.0" //no slide
+			// "min_sprint_time"		"1.2" Vanilla
+			"post_sprint_grace"		"0.04"
+			
+			"DistanceByWeight"
+			{
+				"0"					"0.85"
+				"102"				"0.75" //def 4.2
+				"204"				"0.65"
+				"306"				"0.55"
+				"408"				"0.45"
+				"510"				"0.35" // def 5.0
+				"612"				"0.25"
+			}
+			
+			"SpeedByWeight"
+			{
+				"0"					"260"
+				"102"				"240"
+				"204"				"220"
+				"306"				"200"
+				"408"				"160"
+				"510"				"140"
+				"612"				"120"
+			}
+		}
+		
+		"lean"
+		{
+			"lean_left_offset_stance"				"14 11 8"
+			"lean_right_offset_stance"				"27 25 8"
+			"lean_left_moving_offset_stance"		"8 5 4"
+			"lean_right_moving_offset_stance"		"12 8 6"
+			"lean_roll_offset_stance"				"10"
+			"lean_down_offset_stance"				"11"
+			"lean_down_offset_stance_crouch"		"2"
+			
+			"LeanSpeedByWeight"
+			{
+				"0"					"4.9"
+				"102"				"4.6"
+				"204"				"4.3"
+				"306"				"4.0"
+				"408"				"3.7"
+				"510"				"3.4"
+				"612"				"3.1"
+			}
+			
+			"LeanViewModelSpeedByWeight"
+			{
+				"0"					"18.0"
+				"102"				"15.0"
+				"204"				"12.0"
+				"306"				"9.0"
+				"408"				"6.0"
+				"510"				"3.0"
+				"612"				"1.5"
+			}
+		}
+		
+		"suppression"
+		{
+			"suppression_resistance"	"0"
+			"suppression_recovery_rate"	"100"
+		}
+		
+		"damage"
+		{
+			"damage_decay_rate"					"20"
+			"explosion_deafen_radius_factor"	"0.4"
+			"default_penetration_power"			"10"
+			"max_penetration_distance"			"300"
+			
+			"DamageHitgroups"
+			{
+				//"HITGROUP_HEAD"					"5.000" // death // gnalvl 10
+				//"HITGROUP_CHEST"					"4.875" // def: 1.00
+				//"HITGROUP_STOMACH"				"4.765" // def: 1.00
+				//"HITGROUP_LEFTARM"				"2.965" // def: 1.00
+				//"HITGROUP_RIGHTARM"				"2.965" // def: 1.00
+				//"HITGROUP_LEFTLEG"				"2.950" // def: 1.00
+				//"HITGROUP_RIGHTLEG"				"2.950" // def: 1.00
+				
+				//Old multiplier
+				
+				"HITGROUP_HEAD"					"5.000" // death // gnalvl 10
+				"HITGROUP_CHEST"				"3.985" // def: 1.00
+				"HITGROUP_STOMACH"				"3.975" // def: 1.00
+				"HITGROUP_LEFTARM"				"2.965" // def: 1.00
+				"HITGROUP_RIGHTARM"				"2.965" // def: 1.00
+				"HITGROUP_LEFTLEG"				"2.950" // def: 1.00
+				"HITGROUP_RIGHTLEG"				"2.950" // def: 1.00
+			}
+			"VelocityHitgroups"
+			{
+				"HITGROUP_HEAD"					"0.7" // death // gnalvl 10
+				"HITGROUP_CHEST"    			"0.5"
+				"HITGROUP_STOMACH"    			"0.5"
+				"HITGROUP_LEFTARM"    			"0.3"
+				"HITGROUP_RIGHTARM"   	 		"0.3"
+				"HITGROUP_LEFTLEG"    			"0.2"
+				"HITGROUP_RIGHTLEG"   	 		"0.2"
+			}
+			"BulletPenetrationPower"
+			{
+				"CHAR_TEX_ASPHALT"				"45" // Q ...Was 18
+				"CHAR_TEX_BRICK"				"50" // R
+				"CHAR_TEX_CARDBOARD"			"6"  // U or V ...Was 5
+				"CHAR_TEX_CARPET"				"20" // O ...Was 15
+				"CHAR_TEX_COMPUTER"				"20" // P
+				"CHAR_TEX_CONCRETE"				"50" // C
+				"CHAR_TEX_PLASTER"				"50" // O
+				"CHAR_TEX_DIRT"					"40" // D
+				"CHAR_TEX_FLESH"				"35" // F
+				"CHAR_TEX_FOLIAGE"				"30" // O
+				"CHAR_TEX_GLASS"				"2"  // ?
+				"CHAR_TEX_GRASS"				"40" // J ...Was 60
+				"CHAR_TEX_GRAVEL"				"39" // ? ...Was Undefined, behaved like 10
+				"CHAR_TEX_METAL"				"70" // M BEHAVES AS -50% VALUE, should act like 35 ...Was 60
+				"CHAR_TEX_METALPANEL"			"14" // N ...Was Undefined, possibly acts at 1/2 pwr
+				"CHAR_TEX_MUD"					"37" // D ...Was Undefined
+				"CHAR_TEX_PAPER"				"15" // U or V ...Was Undefined
+				"CHAR_TEX_PLASTIC"				"10" // L
+				"CHAR_TEX_ROCK"					"60" // O
+				"CHAR_TEX_RUBBER"				"8"  // ?SquareCharacter?
+				"CHAR_TEX_SAND"					"48" // N ...Was 60
+				"CHAR_TEX_SHEETROCK"			"5"	 // TODO
+				"CHAR_TEX_SLOSH"				"12" // TODO
+				"CHAR_TEX_TILE"					"40" // F ...Was 13
+				"CHAR_TEX_VENT"					"8"  // TODO
+				"CHAR_TEX_WOOD"					"30" // W BEHAVES AS -50% VALUE Should be raised w/ weak objs using panel
+				"CHAR_TEX_WOOD_PANEL"			"20" // W BEHAVES AS -50% VALUE ...Was Undefined				
+			}
+		}
+		"health"
+		{
+		}
+	}
+}

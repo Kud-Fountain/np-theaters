@@ -1,0 +1,4832 @@
+//Veteran Insurgents Loadout Balance
+
+"theater"
+{
+	"player_templates"
+	{
+	
+		//===================
+		//	   Fighters
+		//===================
+	
+		// Standard Model 1
+		"standard_ins_1"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Fighter" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_ltopf.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier2"
+				"gear"				"srnx_nij_2"
+				"gear"				"srnx_daps_leba4"
+				"gear"				"srnx_ins_helmet_tan"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_galil"
+				"weapon_upgrade"	"ammo_ap_galil"
+				//Secondary
+				"weapon"			"weapon_deagle"
+				"weapon_upgrade"	"ammo_hp_deagle"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_galil"
+				"weapon_upgrade"	"ammo_ap_galil"
+				//Secondary
+				"weapon"			"weapon_deagle"
+				"weapon_upgrade"	"ammo_ap_deagle"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 				
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// Standard Model 2
+		"standard_ins_2"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Fighter" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_ltopf.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier2"
+				"gear"				"srnx_esapi"
+				"gear"				"srnx_daps_leba3"
+				"gear"				"srnx_ins_helmet_maskah"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_akm"
+				"weapon_upgrade"	"ammo_ap_akm"
+				//Secondary
+				"weapon"			"weapon_czse3"
+				"weapon_upgrade"	"ammo_hp_mp5"
+				//Explosive
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_f1"
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_akm"
+				"weapon_upgrade"	"ammo_hp_akm"
+				//Secondary
+				"weapon"			"weapon_czse3"
+				"weapon_upgrade"	"ammo_hp_mp5"
+				
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+								//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 			
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// Standard Model 3
+		"standard_ins_3"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Fighter" 
+			"models"
+			{
+				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"0"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier2"
+				"gear"				"srnx_ar500"
+				"gear"				"srnx_daps_leba2"
+				"gear"				"srnx_ins_helmet_lgreen"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_l1a1"
+				"weapon_upgrade"	"magazine_extended_rifle_30rd"
+				"weapon_upgrade"	"ammo_ap_l1a1"
+				//Secondary
+				"weapon"			"weapon_mac10"
+				"weapon_upgrade"	"ammo_ap_kriss"
+				//Explosive
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_f1"
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_l1a1"
+				"weapon_upgrade"	"magazine_extended_rifle_30rd"
+				"weapon_upgrade"	"ammo_ap_l1a1"
+				//Secondary
+				"weapon"			"weapon_mac10"
+				"weapon_upgrade"	"ammo_ap_kriss"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+								//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// Standard Model 4
+		"standard_ins_4"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Fighter" 
+			"models"
+			{
+				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"0"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier2"
+				"gear"				"srnx_nij_3a"
+				"gear"				"srnx_daps_leba5"
+				"gear"				"srnx_ins_helmet_lgreen"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_vz58"
+				"weapon_upgrade"	"ammo_hp_akm"
+				//Secondary
+				"weapon"			"weapon_mac10"
+				"weapon_upgrade"	"ammo_ap_kriss"
+				//Explosive
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_f1"
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_vz58"
+				"weapon_upgrade"	"ammo_hp_akm"
+				//Secondary
+				"weapon"			"weapon_mac10"
+				"weapon_upgrade"	"ammo_ap_kriss"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+								//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// Standard Model 4
+		"standard_ins_5"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Fighter" 
+			"models"
+			{
+				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"0"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier2"
+				"gear"				"srnx_nij_3a"
+				"gear"				"srnx_daps_leba5"
+				"gear"				"srnx_ins_helmet_lgreen"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_ak74"
+				"weapon_upgrade"	"ammo_hp_ak74"
+				"weapon_upgrade"	"barrel_silencer_ins1"
+				//Secondary
+				"weapon"			"weapon_mac10"
+				"weapon_upgrade"	"ammo_ap_kriss"
+				//Explosive
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_f1"
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_ak74"
+				"weapon_upgrade"	"ammo_hp_ak74"
+				"weapon_upgrade"	"barrel_silencer_ins1"
+				//Secondary
+				"weapon"			"weapon_mac10"
+				"weapon_upgrade"	"ammo_ap_kriss"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+								//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+			//===================
+			//	Heavy Fighters
+			//===================
+		
+		// Machinegunner FIGHTER Model 1
+		"mg_fighter_ins_1"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Heavy Fighter" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_ltopf.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_rig3"
+				"gear"				"srnx_sapi"
+				"gear"				"srnx_daps_leba4"
+				"gear"				"srnx_ins_helmet_maskah"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_rpk"
+				//"weapon_upgrade"	"barrel_silencer_heavy"
+				"weapon_upgrade"	"ammo_hp_rpk"
+				//Secondary
+				"weapon"			"weapon_aks74u"
+				"weapon_upgrade"	"barrel_silencer_ins1"
+				"weapon_upgrade"	"ammo_hp_aks74u"
+
+				//Explosive
+				"weapon"			"weapon_f1"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_rpk"
+				//"weapon_upgrade"	"barrel_silencer_heavy"
+				"weapon_upgrade"	"ammo_hp_rpk"
+				//Secondary
+				"weapon"			"weapon_aks74u"
+				"weapon_upgrade"	"barrel_silencer_ins1"
+				"weapon_upgrade"	"ammo_hp_aks74u"
+				
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+								//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// Machinegunner FIGHTER Model 2
+		"mg_fighter_ins_2"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Heavy Fighter" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_hyopf.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_rig1"
+				"gear"				"srnx_ar500"
+				"gear"				"srnx_daps_leba"
+				"gear"				"srnx_ins_helmet_dgreen"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_rpk74m"
+				"weapon_upgrade"	"ammo_ap_rpk74m"
+				//Secondary
+				"weapon"			"weapon_mr96"
+				"weapon_upgrade"	"ammo_ap_mr96"
+
+				//Explosive
+				"weapon"			"weapon_f1"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_rpk74m"
+				"weapon_upgrade"	"ammo_ap_rpk74m"
+				//Secondary
+				"weapon"			"weapon_mr96"
+				"weapon_upgrade"	"ammo_ap_mr96"
+
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+								//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// Machinegunner FIGHTER Model 5
+		"mg_fighter_ins_3"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Machinegunner/Striker" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_ltopf.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier2"
+				"gear"				"srnx_esapi"
+				"gear"				"srnx_daps_leba3"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_bren_mk2"
+				"weapon_upgrade"	"ammo_ap_303"
+				//Secondary
+				"weapon"			"weapon_m1911"
+				"weapon_upgrade"	"ammo_hp_ump45"
+
+				//Explosive
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_f1"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_bren_mk2"
+				"weapon_upgrade"	"ammo_ap_303"
+				//Secondary
+				"weapon"			"weapon_kriss"
+				"weapon_upgrade"	"ammo_hp_kriss"
+
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+			//============
+			//	Gunners
+			//============
+		
+		// Machinegunner HEAVY Model 3
+		"hg_fighter_ins_1"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Fighter/HeavyMachinegunner" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_hyopf.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_rig1"
+				"gear"				"srnx_sapi"
+				"gear"				"srnx_daps_leba4"
+				"gear"				"srnx_ins_helmet_k63"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_mg42"
+				"weapon_upgrade"	"ammo_ap_792x57"
+				//Secondary
+				"weapon"			"weapon_m45"
+				"weapon_upgrade"	"ammo_hp_m45"
+
+				//Explosive
+				"weapon"			"weapon_f1"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_mg42"
+				"weapon_upgrade"	"ammo_ap_792x57"
+				//Secondary
+				"weapon"			"weapon_m45"
+				"weapon_upgrade"	"ammo_hp_m45"
+
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+								//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// Machinegunner FIGHTER Model 4
+		"hg_fighter_ins_2"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Fighter/HeavyMachinegunner" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_ltopf.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_rig1"
+				"gear"				"srnx_esapi"
+				"gear"				"srnx_daps_leba3"
+				"gear"				"srnx_ins_helmet_k63"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_m1919"
+				"weapon_upgrade"	"ammo_ap_30-06"
+				//Secondary
+				"weapon"			"weapon_kingcobra"
+				"weapon_upgrade"	"ammo_hp_mr96"
+
+				//Explosive
+				"weapon"			"weapon_anm14"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_m1919"
+				"weapon_upgrade"	"ammo_ap_30-06"
+				//Secondary
+				"weapon"			"weapon_kingcobra"
+				"weapon_upgrade"	"ammo_hp_mr96"
+
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+								//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// Machinegunner HEAVY Model 3
+		"hg_fighter_ins_3"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Fighter/HeavyMachinegunner" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_hyopf.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_rig1"
+				"gear"				"srnx_ar500"
+				"gear"				"srnx_daps_leba2"
+				"gear"				"srnx_ins_helmet_k63"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_mg34"
+				"weapon_upgrade"	"ammo_ap_792x57"
+				//Secondary
+				"weapon"			"weapon_m45"
+				"weapon_upgrade"	"ammo_hp_m45"
+
+				//Explosive
+				"weapon"			"weapon_f1"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_mg34"
+				"weapon_upgrade"	"ammo_ap_792x57"
+				//Secondary
+				"weapon"			"weapon_m45"
+				"weapon_upgrade"	"ammo_hp_m45"
+
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+								//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+			//===============
+			//	 Strikers
+			//===============
+		
+		// Striker MG Model 1
+		"striker_ins_1"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Fighter/Striker" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_stdopfor.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"2"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier2"
+				"gear"				"srnx_nij_3a"
+				"gear"				"srnx_daps_leba4"
+				"gear"				"srnx_ins_helmet_dgreen"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_vz58"
+				"weapon_upgrade"	"ammo_ap_akm"
+				//Secondary
+				"weapon"			"weapon_uzi2"
+				"weapon_upgrade"	"ammo_hp_mp5"
+				//Explosive
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_f1"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_vz58"
+				"weapon_upgrade"	"ammo_ap_akm"
+				//Secondary
+				"weapon"			"weapon_uzi2"
+				"weapon_upgrade"	"ammo_hp_mp5"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+								//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		// Striker MG Model 2
+		"striker_ins_2"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Fighter/Striker" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_stdopfor.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier2"
+				"gear"				"srnx_sapi"
+				"gear"				"srnx_daps_leba3"
+				"gear"				"srnx_ins_helmet_lgreen"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_ak74"
+				"weapon_upgrade"	"ammo_ap_ak74"
+				//Secondary
+				"weapon"			"weapon_toz"
+				"weapon_upgrade"	"tacbuck"
+				//Explosive
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_molotov"
+				
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_ak74"
+				"weapon_upgrade"	"ammo_ap_ak74"
+				//Secondary
+				"weapon"			"weapon_toz"
+				"weapon_upgrade"	"tacbuck"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+								//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		// Striker HEAVY Model 3
+		"striker_ins_3"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Breaker/Striker" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_ltopf.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier2"
+				"gear"				"srnx_esapi"
+				"gear"				"srnx_daps_leba2"
+				"gear"				"srnx_ins_helmet_k63"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_spas12"
+				"weapon_upgrade"	"tacbuck"
+				//Secondary
+				"weapon"			"weapon_mp40"
+				"weapon_upgrade"	"barrel_silencer_ins1"
+				"weapon_upgrade"	"ammo_ap_mp40"
+				//Explosive
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_molotov"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_spas12"
+				"weapon_upgrade"	"tacbuck"
+				//Secondary
+				"weapon"			"weapon_mp40"
+				"weapon_upgrade"	"barrel_silencer_ins1"
+				"weapon_upgrade"	"ammo_ap_mp40"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+								//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// Striker MG Model 4
+		"striker_ins_4"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Rifleman/Striker" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_stdopfor.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier2"
+				"gear"				"srnx_esapi"
+				"gear"				"srnx_daps_leba3"
+				"gear"				"srnx_ins_helmet_tan"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_sks"
+				"weapon_upgrade"	"ammo_ap_sks"
+				//Secondary
+				"weapon"			"weapon_glock18"
+				"weapon_upgrade"	"magazine_extended_glock"
+				"weapon_upgrade"	"ammo_hp_m9"
+				//Explosive
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_f1"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_sks"
+				"weapon_upgrade"	"ammo_ap_sks"
+				//Secondary
+				"weapon"			"weapon_glock18"
+				"weapon_upgrade"	"magazine_extended_glock"
+				"weapon_upgrade"	"ammo_hp_m9"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+								//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// Striker MG Model 5
+		"striker_ins_5"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Breaker/Striker" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_stdopfor.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier1"
+				"gear"				"srnx_ar500"
+				"gear"				"srnx_daps_leba4"
+				"gear"				"srnx_ins_helmet_dgreen"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_galil"
+				"weapon_upgrade"	"ammo_ap_galil"
+				"weapon_upgrade"	"magazine_drum_75rd"
+				//Secondary
+				"weapon"			"weapon_toz"
+				"weapon_upgrade"	"commbuck"
+				//Explosive
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_f1"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_galil"
+				"weapon_upgrade"	"ammo_ap_galil"
+				"weapon_upgrade"	"magazine_drum_75rd"
+				//Secondary
+				"weapon"			"weapon_toz"
+				"weapon_upgrade"	"commbuck"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+								//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// Striker VIP Model 1
+		"striker_ins_vip_1"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Breaker/Fighter" 
+			"models"
+			{
+				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier1"
+				"gear"				"srnx_esapi"
+				"gear"				"srnx_daps_leba3"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_m4a1"
+				"weapon_upgrade"	"ammo_beta50"
+				"weapon_upgrade"	"ammo_ap_m4"
+				//Secondary
+				"weapon"			"weapon_kriss"
+				"weapon_upgrade"	"ammo_hp_kriss"
+				//"weapon_upgrade"	"barrel_silencer_sec1"
+				//Explosive
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_f1"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_m4a1"
+				"weapon_upgrade"	"ammo_beta50"
+				"weapon_upgrade"	"ammo_ap_m4"
+				//Secondary
+				"weapon"			"weapon_kriss"
+				"weapon_upgrade"	"ammo_hp_kriss"
+				//"weapon_upgrade"	"barrel_silencer_sec1"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_l118a1"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+								//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+			//====================
+			//	Scouts/Rifleman
+			//====================
+		
+		// Scout LIGHT Model 1
+		"scout_ins_1"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Scout/LongRifle" 
+			"models"
+			{
+				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"2"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_rig1"
+				"gear"				"srnx_nij_2"
+				"gear"				"srnx_daps_leba"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_mosin"
+				"weapon_upgrade"	"ammo_ap_mosin"
+				"weapon_upgrade"	"optic_scope_7x"
+				//Secondary
+				"weapon"			"weapon_mac10"
+				"weapon_upgrade"	"ammo_ap_kriss"
+				//Explosive
+				"weapon"			"weapon_m18"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_mosin"
+				"weapon_upgrade"	"ammo_ap_mosin"
+				"weapon_upgrade"	"optic_scope_7x"
+				//Secondary
+				"weapon"			"weapon_mac10"
+				"weapon_upgrade"	"ammo_ap_kriss"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// Scout LIGHT Model 2
+		"scout_ins_2"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Scout/Longrifle" 
+			"models"
+			{
+				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_rig1"
+				"gear"				"srnx_nij_2"
+				"gear"				"srnx_daps_leba3"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_svd"
+				"weapon_upgrade"	"ammo_ap_svd"
+				"weapon_upgrade"	"optic_scope_7x"
+				//Secondary
+				"weapon"			"weapon_sterling"
+				"weapon_upgrade"	"ammo_hp_mp40"
+				//Explosive
+				"weapon"			"weapon_m18"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_svd"
+				"weapon_upgrade"	"ammo_ap_svd"
+				"weapon_upgrade"	"optic_scope_7x"
+				//Secondary
+				"weapon"			"weapon_sterling"
+				"weapon_upgrade"	"ammo_hp_mp40"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// Scout LIGHT Model 3
+		"scout_ins_3"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Scout/Riflemen" 
+			"models"
+			{
+				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_rig1"
+				"gear"				"srnx_sapi"
+				"gear"				"srnx_daps_leba2"
+				"gear"				"srnx_ins_helmet_lgreen"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_g3a3"
+				"weapon_upgrade"	"ammo_ap_g3a3"
+				//Secondary
+				"weapon"			"weapon_uzi2"
+				"weapon_upgrade"	"ammo_hp_mp5"
+				//Explosive
+				"weapon"			"weapon_m18"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_g3a3"
+				"weapon_upgrade"	"ammo_ap_g3a3"
+				//Secondary
+				"weapon"			"weapon_uzi2"
+				"weapon_upgrade"	"ammo_hp_mp5"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// Scout LIGHT Model 4
+		"scout_ins_4"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Scout/Riflemen" 
+			"models"
+			{
+				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_rig1"
+				"gear"				"srnx_nij_2"
+				"gear"				"srnx_daps_leba3"
+				"gear"				"srnx_ins_helmet_lgreen"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_sks"
+				"weapon_upgrade"	"ammo_ap_sks"
+				//"weapon_upgrade"	"magazine_extended_battle_rifle_30rd"
+				//Secondary
+				"weapon"			"weapon_uzi2"
+				"weapon_upgrade"	"ammo_hp_mp5"
+				//Explosive
+				"weapon"			"weapon_m18"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_sks"
+				"weapon_upgrade"	"ammo_ap_sks"
+				//"weapon_upgrade"	"magazine_extended_battle_rifle_30rd"
+				//Secondary
+				"weapon"			"weapon_uzi2"
+				"weapon_upgrade"	"ammo_hp_mp5"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// Scout VIP Model 1
+		"scout_ins_vip_1"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Scout/Riflemen" 
+			"models"
+			{
+				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"2"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_rig1"
+				"gear"				"srnx_nij_3a"
+				"gear"				"srnx_daps_leba2"
+				"gear"				"srnx_ins_helmet_dgreen"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_l118a1"
+				"weapon_upgrade"	"optic_scope_mk4"
+				"weapon_upgrade"	"ammo_ap_m40a1"
+				//Secondary
+				"weapon"			"weapon_kriss"
+				"weapon_upgrade"	"ammo_hp_kriss"
+				//Explosive
+				"weapon"			"weapon_m18"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_l118a1"
+				"weapon_upgrade"	"optic_scope_mk4"
+				"weapon_upgrade"	"ammo_ap_m40a1"
+				//Secondary
+				"weapon"			"weapon_kriss"
+				"weapon_upgrade"	"ammo_hp_kriss"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		//==================
+		//	Bombers/IEDS
+		//==================
+		
+		// Bomber HEAVY Model 1
+		"bomber_ins_1"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Suicide Bomber" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_ltopf.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"2"
+				}
+
+			}
+
+			"buy_order" 
+			{
+				//Gear
+				"gear"					"srnx_jugg"
+				//"gear"				"srnx_ins_helmet_k63"
+				//Bomb Model (melee)
+				//Explosive
+				"weapon"			"weapon_suicide_bomb"
+			}
+			"allowed_weapons"
+			{
+				//Gear
+				"gear"				"srnx_jugg"
+				"gear"				"srnx_ins_helmet_k63"
+				//Bomb Model (melee)
+				//Explosive
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"				
+			}
+		}
+		
+		// Bomber HEAVY Model 2
+		"bomber_ins_2"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Nuclear Suicide Bomber"
+			"models"
+			{
+				"player"				"models/characters/insurgent_ltopf.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"2"
+				}
+
+			}
+
+			"buy_order" 
+			{
+				//Gear
+				"gear"				"srnx_jugg"
+				//"gear"				"srnx_ins_helmet_k63"
+				//Bomb Model (melee)
+				//Explosive
+				"weapon"			"weapon_suicide_bomb"
+			}
+			"allowed_weapons"
+			{
+				//Gear
+				"gear"				"srnx_jugg"
+				//"gear"			"srnx_ins_helmet_k63"
+				//Bomb Model (melee)
+				//Explosive
+				//Gear
+				"gear"				"srnx_jugg"
+				"gear"				"srnx_ins_helmet_k63"
+				//Bomb Model (melee)
+				//Explosive
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"						
+			}
+		}
+		
+		//=====================
+		//	Sappers/Breakers
+		//=====================
+		
+		// Sapper Model 1
+		"sapper_ins_1"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Sapper/Striker"
+			"models"
+			{
+				"player"				"models/characters/insurgent_stdopfor.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier2"
+				"gear"				"srnx_nij_3a"
+				"gear"				"srnx_daps_leba"
+				"gear"				"srnx_ins_helmet_maskah"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_ksg"
+				//"weapon_upgrade"	"barrel_silencer_heavy"
+				"weapon_upgrade"	"tacbuck"
+				//Secondary
+				"weapon"			"weapon_mk18_m0"
+				"weapon_upgrade"	"magazine_extended_rifle_30rd"
+				"weapon_upgrade"	"ammo_hp_m4"
+				//Explosive
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_molotov"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_ksg"
+				//"weapon_upgrade"	"barrel_silencer_heavy"
+				"weapon_upgrade"	"tacbuck"
+				//Secondary
+				"weapon"			"weapon_mk18_m0"
+				"weapon_upgrade"	"magazine_extended_rifle_30rd"
+				"weapon_upgrade"	"ammo_hp_m4"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// Sapper Model 2
+		"sapper_ins_2"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Rifleman/Breaker" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_hyopf.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier2"
+				"gear"				"srnx_sapi"
+				"gear"				"srnx_daps_leba3"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_saiga12"
+				//"weapon_upgrade"	"magazine_extended_saiga_12rd"
+				"weapon_upgrade"	"commbuck"
+				//Secondary
+				"weapon"			"weapon_m1a1"
+				"weapon_upgrade"	"magazine_extended_carbine_30rd"
+				"weapon_upgrade"	"ammo_ap_m1a1"
+				//Explosive
+				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_f1"
+				
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_saiga12"
+				"weapon_upgrade"	"magazine_extended_saiga_12rd"
+				"weapon_upgrade"	"commbuck"
+				//Secondary
+				"weapon"			"weapon_m1a1"
+				"weapon_upgrade"	"magazine_extended_carbine_30rd"
+				"weapon_upgrade"	"ammo_ap_m1a1"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// Sapper Model 5
+		"sapper_ins_3"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Sapper/Striker"
+			"models"
+			{
+				"player"				"models/characters/insurgent_stdopfor.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier2"
+				"gear"				"srnx_nij_3a"
+				"gear"				"srnx_daps_leba2"
+				"gear"				"srnx_ins_helmet_maskah"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_dbarrel" 
+				//"weapon_upgrade"	"barrel_silencer_heavy"
+				"weapon_upgrade"	"commbuck"
+				//Secondary
+				"weapon"			"weapon_aks74u"
+				"weapon_upgrade"	"magazine_extended_rifle_35rd"
+				"weapon_upgrade"	"ammo_ap_aks74u"
+				//Explosive
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_molotov"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_dbarrel" 
+				//"weapon_upgrade"	"barrel_silencer_heavy"
+				"weapon_upgrade"	"commbuck"
+				//Secondary
+				"weapon"			"weapon_aks74u"
+				"weapon_upgrade"	"magazine_extended_rifle_35rd"
+				"weapon_upgrade"	"ammo_ap_aks74u"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// Sapper Model 5
+		"sapper_ins_4"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Sapper/Striker"
+			"models"
+			{
+				"player"				"models/characters/insurgent_stdopfor.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier2"
+				"gear"				"srnx_nij_3a"
+				"gear"				"srnx_daps_leba"
+				"gear"				"srnx_ins_helmet_maskah"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_dbarrel" 
+				//"weapon_upgrade"	"barrel_silencer_heavy"
+				"weapon_upgrade"	"tacbuck"
+				//Secondary
+				"weapon"			"weapon_aks74u"
+				"weapon_upgrade"	"magazine_extended_rifle_35rd"
+				"weapon_upgrade"	"ammo_ap_aks74u"
+				//Explosive
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_molotov"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_dbarrel" 
+				//"weapon_upgrade"	"barrel_silencer_heavy"
+				"weapon_upgrade"	"tacbuck"
+				//Secondary
+				"weapon"			"weapon_aks74u"
+				"weapon_upgrade"	"magazine_extended_rifle_35rd"
+				"weapon_upgrade"	"ammo_ap_aks74u"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		//======================
+		//	 Ballistic Guards
+		//======================
+		
+		"shielder_ins_1"
+		{
+			"team"			"insurgents" 
+			"models"
+			{
+				"player"			"models/characters/operators/w_op_body_srt_shield.mdl"
+				"viewmodel_hands"		"models/characters/operators/v_op_hands_srt_shield.mdl"
+			}
+			"buy_order"
+			{
+				//"gear"				"srnx_esapi"
+				//"gear"				"srnx_daps_leba3"
+				//"gear"				"srnx_ins_helmet_maskah"
+				"gear"				"bot_shield_heavy"
+				"gear"				"srnx_chest_rig2"
+				
+				"weapon"			"weapon_knife"
+				
+				"weapon"			"weapon_m93r2"
+				"weapon_upgrade"		"magazine_extended_glock"
+				"weapon_upgrade"		"ammo_hp_m9"
+			}
+			"allowed_items"
+			{
+				"gear"				"srnx_esapi"
+				"gear"				"srnx_daps_leba3"
+				"gear"				"srnx_ins_helmet_maskah"
+				"gear"				"bot_shield_heavy"
+				"gear"				"srnx_chest_rig2"
+				
+				"weapon"			"weapon_m93r2"
+				
+				"weapon_upgrade"	"magazine_extended_glock"
+				"weapon_upgrade"	"ammo_hp_m9"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 				
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+            }
+		}
+		
+		"shielder_ins_2"
+		{
+			"team"			"insurgents" 
+			"models"
+			{
+				"player"			"models/characters/operators/w_op_body_srt_shield.mdl"
+				"viewmodel_hands"		"models/characters/operators/v_op_hands_srt_shield.mdl"
+			}
+			"buy_order"
+			{
+				//"gear"			"srnx_ar500"
+				//"gear"				"srnx_daps_leba3"
+				//"gear"				"srnx_ins_helmet_maskah"
+				"gear"				"bot_shield_heavy"
+				"gear"				"srnx_chest_rig2"
+				
+				"weapon"			"weapon_knife"
+				
+				"weapon"			"weapon_glock18"
+				"weapon_upgrade"		"magazine_extended_glock"
+				"weapon_upgrade"		"ammo_hp_m9"
+			}
+			"allowed_items"
+			{
+				 "gear"				"srnx_sapi"
+				"gear"				"srnx_daps_leba4"
+				"gear"				"srnx_ins_helmet_maskah"
+				"gear"				"bot_shield_heavy"
+				"gear"				"srnx_chest_rig2"
+				
+				"weapon"			"weapon_glock18"
+				"weapon_upgrade"		"magazine_extended_glock"
+				"weapon_upgrade"		"ammo_hp_m9"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 				
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+            }
+		}
+		
+		//=======================
+		//	Grenadiers/Sappers
+		//=======================
+		
+		// Sapper Model 3
+		"grenadier_ins_1"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Riflemen/Breaker" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_stdopfor.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier1"
+				"gear"				"srnx_ar500"
+				"gear"				"srnx_daps_leba"
+				"gear"				"srnx_ins_helmet_maskah"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_bot_m79"
+				//Secondary
+				"weapon"			"weapon_sterling"
+				"weapon_upgrade"	"ammo_ap_mp40"
+				
+				//Explosive
+				"weapon"			"weapon_geballteladung"
+				"weapon"			"weapon_molotov"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_bot_m79"
+				//Secondary
+				"weapon"			"weapon_sterling"
+				"weapon_upgrade"	"ammo_ap_mp40"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// Sapper Model 4
+		"grenadier_ins_2"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Fighter/Breaker" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_stdopfor.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier1"
+				"gear"				"srnx_sapi"
+				"gear"				"srnx_daps_leba2"
+				"gear"				"srnx_ins_helmet_maskah"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_bot_m79"
+				//Secondary
+				"weapon"			"weapon_mp40"
+				"weapon_upgrade"	"ammo_ap_mp40"
+				//Explosive
+				"weapon"			"weapon_geballteladung"
+				"weapon"			"weapon_molotov"
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_bot_m79"
+				//Secondary
+				"weapon"			"weapon_mp40"
+				"weapon_upgrade"	"ammo_ap_mp40"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 	
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		=================
+		//Juggernauts
+		=================
+		
+		// juggernaut bot 1
+		"juggernaut_1"
+		{	
+			"team"			"insurgents"
+			"print_name"	"BOT" 
+			"models"
+			{
+				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				// "bodygroups"
+				// {
+				// 	"backpack"					"-1"
+				// 	"glasses"					"-1"
+				// 	"kit"					"-1"
+				// }
+
+			}
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_rig1"
+				"gear"				"srnx_juggernaut_armor"
+				"gear"				"srnx_ins_jugger_helmet_black"
+				"gear"				"srnx_daps_leba4"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				//Secondary
+				"weapon"			"weapon_czse3"
+				"weapon_upgrade"	"ammo_hp_mp5"
+				//Explosive
+				"weapon"			"weapon_m84"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				
+				//Secondary
+				"weapon"			"weapon_kriss"
+				"weapon_upgrade"	"ammo_hp_kriss"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 				
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_kriss"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// juggernaut bot 2
+		"juggernaut_2"
+		{	
+			"team"			"insurgents"
+			"print_name"	"BOT" 
+			"models"
+			{
+				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				// "bodygroups"
+				// {
+				// 	"backpack"					"-1"
+				// 	"glasses"					"-1"
+				// 	"kit"					"-1"
+				// }
+
+			}
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_rig1"
+				"gear"				"srnx_juggernaut_armor"
+				"gear"				"srnx_ins_jugger_helmet_black"
+				"gear"				"srnx_daps_leba4"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				
+				//Secondary
+				"weapon"			"weapon_p90smg"
+				"weapon_upgrade"	"ammo_hp_p90"
+
+				//Explosive
+				"weapon"			"weapon_m84"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				
+				//Secondary
+				"weapon"			"weapon_p90smg"
+				"weapon_upgrade"	"ammo_hp_p90"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_at4"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 				
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_p90smg"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// juggernaut bot 3
+		"juggernaut_3"
+		{	
+			"team"			"insurgents"
+			"print_name"	"BOT" 
+			"models"
+			{
+				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				// "bodygroups"
+				// {
+				// 	"backpack"					"-1"
+				// 	"glasses"					"-1"
+				// 	"kit"					"-1"
+				// }
+
+			}
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier2"
+				"gear"				"srnx_juggernaut_armor"
+				"gear"				"srnx_ins_jugger_helmet_black"
+				"gear"				"srnx_daps_leba4"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_m1014"
+				"weapon_upgrade"	"tacbuck"
+				//Secondary
+
+				//Explosive
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_m18"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_galil"
+				"weapon_upgrade"	"ammo_ap_galil"
+				//Secondary
+				"weapon"			"weapon_deagle"
+				"weapon_upgrade"	"ammo_ap_deagle"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_m1014"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 				
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+		
+		// juggernaut bot 4
+		"juggernaut_4"
+		{	
+			"team"			"insurgents"
+			"print_name"	"BOT" 
+			"models"
+			{
+				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				// "bodygroups"
+				// {
+				// 	"backpack"					"-1"
+				// 	"glasses"					"-1"
+				// 	"kit"					"-1"
+				// }
+
+			}
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"srnx_chest_carrier2"
+				"gear"				"srnx_juggernaut_armor"
+				"gear"				"srnx_ins_jugger_helmet_black"
+				"gear"				"srnx_daps_leba4"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_ksg"
+				"weapon_upgrade"	"tacbuck"
+				//Secondary
+
+				//Explosive
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_m18"
+				
+			}
+			"allowed_weapons"
+			{
+				//Primary
+				"weapon"			"weapon_galil"
+				"weapon_upgrade"	"ammo_ap_galil"
+				//Secondary
+				"weapon"			"weapon_deagle"
+				"weapon_upgrade"	"ammo_ap_deagle"
+				//Explosive
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_bazooka"
+				"weapon"			"weapon_m18"
+				
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_incendiary"
+				"weapon_upgrade"	"underbarrel_gp25_mk3"
+				
+				
+				//Primary Survival
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_galil"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_sig553"
+				"weapon"			"weapon_svd"
+				"weapon"			"weapon_l118a1"
+				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_dbarrel" 
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_bren_mk2" 				
+				
+				//Secondary Survival 
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_uzi2"
+				
+				// Pistols Survival
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m45"
+				
+				// Medkit
+				"weapon"			"weapon_healthkit"
+			}
+		}
+
+		// Survival Bots
+		
+		"template_survival_base_01_security"
+		{
+			"team"					"security"
+			"print_name"				"Security Force 01 Class"
+			
+			"models"
+			{
+				"player"				"models/characters/security_std_blue.mdl"
+				"viewmodel_hands"		"models/weapons/v_hdblu_sec_m.mdl"
+				
+				"bodygroups"
+				{	
+					"kit"					"0"
+					"backpack"				"-1"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_cap_light.mdl"
+						"fallback_for_slot"		"head"
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"					"srnx_chest_carrier1"
+				"gear"					"srnx_esapi"
+				"gear"					"srnx_daps_leba3"
+				"gear"					"srnx_lw_sf_sitka"
+				"weapon"				"weapon_kabar"
+				
+				"weapon"				"weapon_m4a1"
+				"weapon_upgrade"		"optic_aimpoint"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"siderail_flashlight_rail"
+				"weapon_upgrade"		"underbarrel_foregrip_sec1"
+				"weapon_upgrade"		"ammo_ap_m4"
+				
+				"weapon"				"weapon_m9"
+				"weapon_upgrade"		"siderail_flashlight_pistol"
+				"weapon_upgrade"		"ammo_hp_m9"
+				
+				"weapon"				"weapon_m67"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_m4a1"
+				"weapon_upgrade"		"optic_aimpoint"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"siderail_flashlight_rail"
+				"weapon_upgrade"		"underbarrel_foregrip_sec1"
+				"weapon_upgrade"		"ammo_ap_m4"
+				
+				"weapon"				"weapon_m9"
+				"weapon_upgrade"		"siderail_flashlight_pistol"
+				"weapon_upgrade"		"ammo_hp_m9"
+				
+				"weapon"				"weapon_m67"
+			}
+		}
+		
+		"template_survival_officer_01_security"
+		{
+			"team"					"security"
+			"print_name"				"Security Officer 01 Class"
+			
+			"models"
+			{
+				"player"				"models/characters/security_h_blu.mdl"
+				"viewmodel_hands"		"models/weapons/v_hdblu_sec_h.mdl"
+				
+				"bodygroups"
+				{	
+					"kit"					"1"
+					"backpack"				"-1"
+				}
+				
+				"attachments"
+				{
+					"headgear"
+					{
+						"model"                 "models/characters/us_cap_vip.mdl"
+						"fallback_for_slot"		"head"
+					}
+				}
+				//"helmet"				"models/sernix_security_sfod/us_helmet_head.mdl"
+			}
+			
+			"buy_order"
+			{
+				"gear"					"srnx_chest_carrier1"
+				"gear"					"srnx_sapi"
+				"gear"					"srnx_daps_leba2"
+				"gear"					"srnx_lw_sf_sitka"
+				"weapon"				"weapon_kabar"
+				
+				"weapon"				"weapon_mp5a4"
+				"weapon_upgrade"		"optic_eotech"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"siderail_flashlight_band"
+				"weapon_upgrade"		"barrel_silencer_sec1"
+				"weapon_upgrade"		"ammo_hp_mp5"
+				
+				"weapon"				"weapon_m18"
+				"weapon"				"weapon_tear_gas"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"				"weapon_mp5a4"
+				"weapon_upgrade"		"optic_eotech"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"siderail_flashlight_band"
+				"weapon_upgrade"		"barrel_silencer_sec1"
+				"weapon_upgrade"		"ammo_hp_mp5"
+				
+				"weapon"				"weapon_kabar"
+				
+				"weapon"				"weapon_m18"
+				"weapon"				"weapon_tear_gas"
+			}
+		}
+		
+		"template_survival_base_02_security"
+		{
+			"team"					"security"
+			"print_name"				"Security Force 02 Class"
+			
+			"models"
+			{
+				"player"				"models/characters/security_l_blu.mdl"
+				"viewmodel_hands"		"models/weapons/v_hdblu_sec_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"-1"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_cap_specialist.mdl"
+						"fallback_for_slot"		"head"
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"					"srnx_chest_carrier1"
+				"gear"					"srnx_sapi"
+				"gear"					"srnx_daps_leba2"
+				"gear"					"srnx_lw_sf_sitka"
+				"weapon"				"weapon_kabar"
+				
+				"weapon"				"weapon_m1014"
+				"weapon_upgrade"		"optic_eotech"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"siderail_flashlight_rail"
+				"weapon_upgrade"		"underbarrel_foregrip_sec2"
+				"weapon_upgrade"		"tacbuck"
+				
+				"weapon"				"weapon_m84"
+				"weapon"				"weapon_mk3"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_m1014"
+				"weapon_upgrade"		"optic_eotech"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"siderail_flashlight_rail"
+				"weapon_upgrade"		"underbarrel_foregrip_sec2"
+				"weapon_upgrade"		"tacbuck"
+				
+				"weapon"				"weapon_m84"
+				"weapon"				"weapon_mk3"
+			}
+		}
+		
+		"template_survival_officer_02_security"
+		{
+			"team"					"security"
+			"print_name"				"Security Officer 02 Class"
+			
+			"models"
+			{
+				"player"				"models/characters/security_l_del.mdl"
+				"viewmodel_hands"		"models/weapons/v_hddes_sec_l.mdl"
+				//"helmet"				"models/sernix_security_sfod/us_helmet_head.mdl"
+				
+				"bodygroups"
+				{	
+					"kit"					"1"
+					"backpack"				"-1"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_cap_light.mdl"
+						"fallback_for_slot"		"head"
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"					"srnx_chest_carrier1"
+				"gear"					"srnx_sapi"
+				"gear"					"srnx_daps_leba2"
+				"gear"					"srnx_lw_sf_sitka"
+				"weapon"				"weapon_kabar"
+				
+				"weapon"				"weapon_ump45"
+				"weapon_upgrade"		"optic_eotech"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"ammo_hp_ump45"
+				"weapon_upgrade"		"siderail_flashlight_band"
+				
+				
+				"weapon"				"weapon_m18"
+				"weapon"				"weapon_tear_gas"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"				"weapon_ump45"
+				"weapon_upgrade"		"optic_eotech"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"ammo_hp_ump45"
+				"weapon_upgrade"		"siderail_flashlight_band"
+				
+				
+				"weapon"				"weapon_m18"
+				"weapon"				"weapon_tear_gas"
+			}
+		}
+		
+		"template_survival_base_03_security"
+		{
+			"team"					"security"
+			"print_name"				"Security Force 03 Class"
+			
+			"models"
+			{
+				"player"				"models/characters/civilian_vip_sec_blue.mdl"
+				"viewmodel_hands"		"models/weapons/v_hdblu_vip.mdl"
+
+				"bodygroups"
+				{
+					"kit"					"0"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_cap_vip.mdl"
+						"fallback_for_slot"		"head"
+					}
+				}
+				//"helmet"				"models/sernix_security_sfod/us_helmet_head.mdl"
+			}
+			
+			"buy_order"
+			{
+				"gear"					"srnx_chest_carrier1"
+				"gear"					"srnx_ar500"
+				"gear"					"srnx_daps_leba4"
+				"gear"					"srnx_lw_sf_sitka"
+				"weapon"				"weapon_kabar"
+				
+				"weapon"				"weapon_m16a4"
+				"weapon_upgrade"		"optic_aimpoint"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"siderail_flashlight_rail"
+				"weapon_upgrade"		"underbarrel_foregrip_sec1"
+				"weapon_upgrade"		"ammo_sost_m16a4"
+				
+				"weapon"				"weapon_glock19"
+				"weapon_upgrade"		"ammo_hp_m45"
+				
+				"weapon"				"weapon_m67"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_m16a4"
+				"weapon_upgrade"		"optic_aimpoint"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"siderail_flashlight_rail"
+				"weapon_upgrade"		"underbarrel_foregrip_sec1"
+				"weapon_upgrade"		"ammo_sost_m16a4"
+				
+				"weapon"				"weapon_glock19"
+				"weapon_upgrade"		"ammo_hp_m45"
+				
+				"weapon"				"weapon_m67"
+			}
+		}
+		
+		"template_survival_officer_03_security"
+		{
+			"team"					"security"
+			"print_name"				"Security Officer 03 Class"
+			
+			"models"
+			{
+				"player"				"models/characters/security_std_desr.mdl"
+				"viewmodel_hands"		"models/weapons/v_hddel_sec_m.mdl"
+
+				"bodygroups"
+				{
+					"kit"					"2"
+					"backpack"				"-1"
+				}
+				
+				//"helmet"				"models/sernix_security_sfod/us_helmet_head.mdl"
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/srnx_helms/sr_beanie_brown_c.mdl"
+						"fallback_for_slot"		"head"
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"					"srnx_chest_carrier1"
+				"gear"					"srnx_esapi"
+				"gear"					"srnx_daps_leba3"
+				"gear"					"srnx_lw_sf_sitka"
+				"weapon"				"weapon_kabar"
+				
+				"weapon"				"weapon_mk18"
+				"weapon_upgrade"		"optic_aimpoint"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"siderail_flashlight_rail"
+				"weapon_upgrade"		"underbarrel_foregrip_sec1"
+				"weapon_upgrade"		"ammo_ap_m4"
+				
+				"weapon"				"weapon_glock19"
+				"weapon_upgrade"		"ammo_hp_m45"
+				
+				"weapon"				"weapon_c4"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_mk18"
+				"weapon_upgrade"		"optic_aimpoint"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"siderail_flashlight_rail"
+				"weapon_upgrade"		"underbarrel_foregrip_sec1"
+				"weapon_upgrade"		"ammo_ap_m4"
+				
+				"weapon"				"weapon_glock19"
+				"weapon_upgrade"		"ammo_hp_m45"
+				
+				"weapon"				"weapon_c4"
+			}
+		}
+		
+		"template_survival_base_04_security"
+		{
+			"team"					"security"
+			"print_name"				"Security Force 04 Class"
+			
+			"models"
+			{
+				"player"				"models/characters/civilian_vip_sec_delr.mdl"
+				"viewmodel_hands"		"models/weapons/v_hdblu_vip.mdl"
+
+				"bodygroups"
+				{
+					"kit"					"0"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_cap_vip.mdl"
+						"fallback_for_slot"		"head"
+					}
+				}
+				//"helmet"				"models/sernix_security_sfod/us_helmet_head.mdl"
+			}
+			
+			"buy_order"
+			{
+				"gear"					"srnx_chest_carrier1"
+				"gear"					"srnx_esapi"
+				"gear"					"srnx_daps_leba3"
+				"gear"					"srnx_lw_sf_sitka"
+				"weapon"				"weapon_kabar"
+				
+				"weapon"				"weapon_ksg"
+				"weapon_upgrade"		"optic_eotech"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"siderail_lasersight_shotgun_sec"
+				"weapon_upgrade"		"underbarrel_foregrip_sec2"
+				"weapon_upgrade"		"tacbuck"
+				
+				"weapon"				"weapon_glock19"
+				"weapon_upgrade"		"ammo_hp_m45"
+				
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_mk3"
+			}
+			"allowed_items"
+			{
+				"gear"					"srnx_chest_carrier1"
+				"gear"					"srnx_esapi"
+				"gear"					"srnx_daps_leba2"
+				"gear"					"srnx_lw_sf_sitka"
+				
+				"weapon"				"weapon_ksg"
+				"weapon_upgrade"		"optic_eotech"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"siderail_lasersight_shotgun_sec"
+				"weapon_upgrade"		"underbarrel_foregrip_sec2"
+				"weapon_upgrade"		"tacbuck"
+				
+				"weapon"				"weapon_glock19"
+				"weapon_upgrade"		"ammo_hp_m45"
+				
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_mk3"
+			}
+		}
+		
+		"template_survival_officer_04_security"
+		{
+			"team"					"security"
+			"print_name"				"Security Officer 04 Class"
+			
+			"models"
+			{
+				"player"				"models/characters/civilian_vip_sec_delr.mdl"
+				"viewmodel_hands"		"models/weapons/v_hdblu_vip.mdl"
+
+				"bodygroups"
+				{
+					"kit"					"0"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_cap_vip.mdl"
+						"fallback_for_slot"		"head"
+					}
+				}
+				//"helmet"				"models/sernix_security_sfod/us_helmet_head.mdl"
+			}
+			
+			"buy_order"
+			{
+				"gear"					"srnx_chest_carrier1"
+				"gear"					"srnx_sapi"
+				"gear"					"srnx_daps_leba2"
+				"gear"					"srnx_lw_sf_sitka"
+				"weapon"				"weapon_kabar"
+	
+				"weapon"				"weapon_m14"
+				"weapon_upgrade"		"optic_2xaimpoint"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"underbarrel_foregrip_sec2"
+				"weapon_upgrade"		"ammo_ap_m14"
+				
+				"weapon"				"weapon_mp7"
+				"weapon_upgrade"		"ammo_hp_mp7"
+				
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_m18"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"				"weapon_m14"
+				"weapon_upgrade"		"optic_2xaimpoint"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"underbarrel_foregrip_sec2"
+				"weapon_upgrade"		"ammo_ap_m14"
+				
+				"weapon"				"weapon_mp7"
+				"weapon_upgrade"		"ammo_hp_mp7"
+				
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_m18"
+			}
+		}
+		"template_survival_base_05_security"
+		{
+			"team"					"security"
+			"print_name"				"Security Force 05 Class"
+			
+			"models"
+			{
+				"player"				"models/characters/security_l_del.mdl"
+				"viewmodel_hands"		"models/weapons/v_hddes_sec_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"-1"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_cap_specialist.mdl"
+						"fallback_for_slot"		"head"
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"					"srnx_chest_carrier1"
+				"gear"					"srnx_sapi"
+				"gear"					"srnx_daps_leba2"
+				"gear"					"srnx_lw_sf_sitka"
+				"weapon"				"weapon_kabar"
+	
+				"weapon"				"weapon_m107"
+				"weapon_upgrade"		"optic_scope_mk4"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"underbarrel_foregrip_sec2"
+				"weapon_upgrade"		"ammo_ap_m107"
+				
+				"weapon"				"weapon_glock18"
+				"weapon_upgrade"		"ammo_tr_m9"
+				
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_anm14"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_m107"
+				"weapon_upgrade"		"optic_scope_mk4"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"underbarrel_foregrip_sec2"
+				"weapon_upgrade"		"ammo_ap_m107"
+				
+				"weapon"				"weapon_glock18"
+				"weapon_upgrade"		"ammo_tr_m9"
+				
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_anm14"
+			}
+		}
+		
+		"template_survival_officer_05_security"
+		{
+			"team"					"security"
+			"print_name"				"Security Officer 05 Class"
+			
+			"models"
+			{
+				"player"				"models/characters/civilian_vip_sec_blue.mdl"
+				"viewmodel_hands"		"models/weapons/v_hdblu_vip.mdl"
+
+				"bodygroups"
+				{
+					"kit"					"0"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_cap_vip.mdl"
+						"fallback_for_slot"		"head"
+					}
+				}
+				//"helmet"				"models/sernix_security_sfod/us_helmet_head.mdl"
+			}
+			
+			"buy_order"
+			{
+				"gear"					"snrx_ammo_pouch1"
+				"gear"					"srnx_ar500"
+				"gear"					"srnx_daps_leba4"
+				"gear"					"srnx_lw_sf_sitka"
+				"weapon"				"weapon_kabar"
+				
+				"weapon"				"weapon_m60"
+				"weapon_upgrade"		"optic_eotech"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"underbarrel_bipod"
+				"weapon_upgrade"		"magazine_extended_lmg2_200rd"
+				"weapon_upgrade"		"ammo_ap_mk48"
+				
+				"weapon"				"weapon_m93r"
+				"weapon_upgrade"		"ammo_ap_m9"
+				
+				"weapon"				"weapon_m18"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"				"weapon_m60"
+				"weapon_upgrade"		"optic_eotech"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"underbarrel_bipod"
+				"weapon_upgrade"		"magazine_extended_lmg2_200rd"
+				"weapon_upgrade"		"ammo_ap_mk48"
+				
+				"weapon"				"weapon_m93r"
+				"weapon_upgrade"		"ammo_ap_m9"
+				
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_m18"
+			}
+		}
+		
+		"template_survival_m249_security"
+		{
+			"team"					"security"
+			"print_name"				"Security M249 Class"
+			
+			"models"
+			{
+				"player"				"models/characters/security_h_blu.mdl"
+				"viewmodel_hands"		"models/weapons/v_hdblu_sec_h.mdl"
+				
+				"bodygroups"
+				{
+					"kit"					"2"
+					"backpack"				"-1"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_cap_specialist.mdl"
+						"fallback_for_slot"		"head"
+					}
+					
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"					"srnx_chest_carrier1"
+				"gear"					"srnx_ar500"
+				"gear"					"srnx_daps_leba4"
+				"gear"					"srnx_lw_sf_sitka"
+				"weapon"				"weapon_kabar"
+				
+				"weapon"				"weapon_m249"
+				"weapon_upgrade"		"optic_eotech"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"underbarrel_bipod"
+				"weapon_upgrade"		"ammo_ap_m249"
+				
+				"weapon"				"weapon_m93r"
+				"weapon_upgrade"		"ammo_ap_m9"
+				
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_m18"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"				"weapon_m249"
+				"weapon_upgrade"		"optic_eotech"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"underbarrel_bipod"
+				"weapon_upgrade"		"ammo_ap_m249"
+				
+				"weapon"				"weapon_m93r"
+				"weapon_upgrade"		"ammo_ap_m9"
+				
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_m18"
+			}
+		}
+		
+		"template_survival_at4_security"
+		{
+			"team"					"security"
+			"print_name"				"Security AT4 Class"
+			
+			"models"
+			{
+				"player"				"models/characters/security_l_del.mdl"
+				"viewmodel_hands"		"models/weapons/v_hddes_sec_l.mdl"
+				
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"-1"
+				}
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_cap_specialist.mdl"
+						"fallback_for_slot"		"head"
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"					"srnx_chest_carrier1"
+				"gear"					"srnx_esapi"
+				"gear"					"srnx_daps_leba3"
+				"gear"					"srnx_lw_sf_sitka"
+				"weapon"				"weapon_kabar"
+				
+				"weapon"				"weapon_m16a4"
+				"weapon_upgrade"		"optic_aimpoint"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"underbarrel_foregrip_sec1"
+				"weapon_upgrade"		"ammo_sost_m16a4"
+				
+				"weapon"				"weapon_m93r"
+				"weapon_upgrade"		"ammo_ap_m9"
+				
+				"weapon"				"weapon_at4"
+				"weapon"				"weapon_m67"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"				"weapon_m16a4"
+				"weapon_upgrade"		"optic_aimpoint"
+				
+				"weapon_upgrade"		"barrel_balancedbarrel"
+				"weapon_upgrade"		"frame_balanced"
+				"weapon_upgrade"		"srnx_stock_grip2"
+				
+				"weapon_upgrade"		"underbarrel_foregrip_sec1"
+				"weapon_upgrade"		"ammo_sost_m16a4"
+				
+				"weapon"				"weapon_m93r"
+				"weapon_upgrade"		"ammo_ap_m9"
+				
+				"weapon"				"weapon_at4"
+				"weapon"				"weapon_m67"
+			}
+		}
+	
+	}	
+}
+/*
+					//Bot_Rigs
+					ins_BOT_carrier_more_primary, ins_BOT_carrier_more_secondary, ins_BOT_carrier_p3_s6,
+					ins_BOT_carrier_p2_s6, ins_BOT_carrier_p1_s6, ins_BOT_carrier_p0_s7
+					//Bot_Armors
+					srnx_BOT_nij_2, srnx_BOT_nij_3a, srnx_BOT_sapi, srnx_BOT_esapi, srnx_BOT_ar500, srnx_BOT_leba1
+					Helmets
+					srnx_BOT_ins_helmet_tan, srnx_BOT_ins_helmet_dgreen, srnx_BOT_ins_helmet_lgreen, 
+					srnx_BOT_ins_helmet_k63, srnx_BOT_ins_helmet_maskah
+				*/
