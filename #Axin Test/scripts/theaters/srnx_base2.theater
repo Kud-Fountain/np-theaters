@@ -213,7 +213,7 @@
 				
 				"weapon"			"weapon_mk3"
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_anm14"
+				//"weapon"			"weapon_anm14"
 				
 				"gear"				"srnx_lw_sf_sitka"
 				"gear"				"srnx_chest_carrier3"
@@ -777,15 +777,20 @@
 				"weapon_upgrade"		"underbarrel_gp25_he"
 				"weapon_upgrade"		"underbarrel_m203_he"
 				
+				//"weapon_upgrade"		"underbarrel_m320_rt"
+				//"weapon_upgrade"		"underbarrel_gp25_rt"
+				//"weapon_upgrade"		"underbarrel_m203_rt"
 				"weapon"			"weapon_at4"
 				"weapon"			"weapon_rpg7"
 				"weapon"			"weapon_law"
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_mk3"
+				//Pistols
 				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_m93r2"
 				"weapon"			"weapon_m45"
+				"weapon"			"weapon_p2a1"
 				
 				//Gear
 				"gear"				"srnx_beanie"
@@ -891,26 +896,30 @@
 				"weapon_upgrade"		"underbarrel_gp25_he"
 				"weapon_upgrade"		"underbarrel_m203_he"
 				
+				//"weapon_upgrade"		"underbarrel_m320_rt"
+				//"weapon_upgrade"		"underbarrel_gp25_rt"
+				//"weapon_upgrade"		"underbarrel_m203_rt"
+				
 				"weapon"			"weapon_at4"
 				"weapon"			"weapon_rpg7"
 				"weapon"			"weapon_law"
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_mk3"
 				
-				/Pistols
+				//Pistols
 				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_m93r2"
 				"weapon"			"weapon_m45"
+				"weapon"			"weapon_p2a1"
 				
 				//Gear
-				"gear"				"srnx_beanie"
-				"gear"				"srnx_beanie_brown"
-				"gear"				"srnx_bonnie_mask"
-				"gear"				"srnx_devgru_1"
-				"gear"				"srnx_tcap_dark_spec"
-				"gear"				"srnx_tcap_light_spec"
-				
+				//"gear"				"srnx_beanie"
+				//"gear"				"srnx_beanie_brown"
+				//"gear"				"srnx_bonnie_mask"
+				//"gear"				"srnx_devgru_1"
+				//"gear"				"srnx_tcap_dark_spec"
+				//"gear"				"srnx_tcap_light_spec"
 				"gear"				"srnx_sling2"
 			}
 		}

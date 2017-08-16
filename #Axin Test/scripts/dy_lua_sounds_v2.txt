@@ -1,3 +1,154 @@
+// --------------------------
+// BRASS KNUCKLES
+// --------------------------
+
+"Weapon_BrassKnuckles.Draw"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.4"
+	"pitch"		"100"
+	"rndwave"
+	{
+        "wave"		"weapons/universal/uni_weapon_lower_01.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_02.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_03.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_04.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_05.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_06.wav"		
+    }
+}
+
+"Weapon_BrassKnuckles.Holster"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.3"
+	"pitch"		"100"
+	"rndwave"
+	{
+        "wave"		"weapons/universal/uni_weapon_lower_01.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_02.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_03.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_04.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_05.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_06.wav"			
+    }
+}
+
+"Weapon_BrassKnuckles.Ready_01"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.25"
+	"pitch"			    "95,105"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_ready_01.wav" 
+    }	
+}
+
+"Weapon_BrassKnuckles.Ready_02"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.4"
+	"pitch"			    "95,105"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_ready_02.wav" 
+    }	
+}
+
+"Weapon_BrassKnuckles.Knuckle_Slide_On_01"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.15"
+	"pitch"			    "99,101"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_knuckle_slideon_01.wav" 
+    }	
+}
+
+
+"Weapon_BrassKnuckles.Knuckle_Crack_Ready_01"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.15"
+	"pitch"			    "99,101"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_knuckle_ready_01.wav" 
+    }	
+}
+
+"Weapon_BrassKnuckles.Knuckle_Crack_Ready_02"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "99,101"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_knuckle_ready_02.wav" 
+    }	
+}
+
+"Weapon_BrassKnuckles.Melee"
+{
+	"channel"			"CHAN_STATIC"
+	"volume"		    "0.2"
+	"pitch"			    "95,105"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_01.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_02.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_03.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_04.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_05.wav" 	
+    }	
+}
+
+"Weapon_BrassKnuckles.HitWorld"
+{
+	"channel"			"CHAN_STATIC"
+	"volume"		    "0.25"
+	"pitch"			    "95,105"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_hitworld_01.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_hitworld_02.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_hitworld_03.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_hitworld_04.wav" 	
+    }	
+}
+
+"Weapon_BrassKnuckles.HitFlesh"
+{
+	"channel"			"CHAN_STATIC"
+	"volume"		    "0.25"
+	"pitch"			    "95,105"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_01.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_01A.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_01B.wav" 	
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_02.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_02A.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_02B.wav" 		
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_03.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_03A.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_03B.wav"
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_04.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_04A.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_04B.wav" 	
+    }	
+}
+
 "Weapon_Spas12.Single"
 {
 	"channel"		"CHAN_STATIC"

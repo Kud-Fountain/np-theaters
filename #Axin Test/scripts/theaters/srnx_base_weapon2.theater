@@ -538,5 +538,83 @@
 				"freeaim_screenratio"			"0"	// if this is 0 and freeaim_distance is set, that will just mean sway gets applied
 			}
 		}
+		
+		//"flamethrower_base"
+		//{
+		//	"import" 						"weapon_base"
+		//	"weapon_class" 					"flamethrower"
+		//	"act_table"						"smg_magheld"
+		//	"weapon_type"					"flamethrower"
+		//	"print_name"					"#weapon_flamethrower_brit"
+		//	"print_desc"					"#weapon_flamethrower_brit_desc"
+		//	"view_model"					"models/weapons/v_flame_lifebuoy.mdl"
+		//	"world_model"					"models/weapons/w_lufboy.mdl"	
+		//	"companion_gear"				"gear_fuel_tank"
+		//	"rounds_per_minute"				"1000"
+		//	"weapon_slot"					"primary"
+		//	"class_restricted"				"0"
+		//	"weapon_weight"					"100"
+		//	"weapon_abilities"				"ironsight"
+		//	"weapon_cost"					"0"
+		//	"class_restricted"				"0"
+		//	"barrel_length"					"34"
+		//	
+		//	"attachments"
+		//	{
+		//		"attachment_addon"		"flamethrower"
+		//	}			
+		//
+		//	"flamethrower"
+		//	{
+		//		"range"						"700"
+		//		"damage_far"				"10"
+		//		"damage_close"				"35"
+		//		"splash_radius"				"128"
+		//		"burn_duration"				"3"
+		//	}
+		//	
+		//	"fov"
+		//	{
+		//		"fov_plr_ironsight"			"-10"
+		//		"fov_plr_focus"				"-10"
+		//		"fov_wpn_default"			"74"
+		//		"fov_wpn_sprint"			"74"
+		//		"fov_wpn_ironsight"			"74"
+		//		"fov_wpn_focus"				"79"
+		//	}
+		//	"player_restrictions"
+		//	{
+		//		"allow_lean"				"1"
+		//		"allow_sprint"				"1"
+		//		"allow_jump"				"1"
+		//		"allow_sway"				"1"
+		//		}
+		//		"sounds"
+		//		{
+		//			"shot_single"				"Weapon_FlamethrowerNo2.Start"
+		//			"shot_single_local"			"Weapon_FlamethrowerNo2.StartLocal"
+		//		"shot_loop"					"Weapon_FlamethrowerNo2.Looping"
+		//		"shot_loop_local"			"Weapon_FlamethrowerNo2.LoopingLocal"
+		//		"shot_end"					"Weapon_FlamethrowerNo2.End"
+		//		"shot_end_local"			"Weapon_FlamethrowerNo2.EndLocal"
+		//		"empty"						"Weapon_FlamethrowerNo2.Empty"
+		//	}
+		//	"particles"
+		//	{
+		//		"particle_muzzleflash_1st"	"flamethrower"
+		//		"particle_muzzleflash_3rd"	"flamethrower"
+		//	}
+		//	"ammo_clip"
+		//	{
+		//		"ammo_type" 				"flame"
+		//		"clip_max_rounds"			"-1" 		
+		//		"clip_default"				"500" 		
+		//	}
+		//	"kitui_offset"
+		//	{
+		//		"position"				"32 0 3"
+		//	}
+		//	"team_access"	"security, insurgent"
+		//}
 	}
 }

@@ -1,4 +1,391 @@
 // --------------------------
+// FLAMETHROWER
+// --------------------------
+
+// --------------------------
+// BRASS KNUCKLES
+// --------------------------
+
+"Weapon_BrassKnuckles.Draw"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.4"
+	"pitch"		"100"
+	"rndwave"
+	{
+        "wave"		"weapons/universal/uni_weapon_lower_01.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_02.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_03.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_04.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_05.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_06.wav"		
+    }
+}
+
+"Weapon_BrassKnuckles.Holster"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.3"
+	"pitch"		"100"
+	"rndwave"
+	{
+        "wave"		"weapons/universal/uni_weapon_lower_01.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_02.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_03.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_04.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_05.wav"
+        "wave"		"weapons/universal/uni_weapon_lower_06.wav"			
+    }
+}
+
+"Weapon_BrassKnuckles.Ready_01"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.25"
+	"pitch"			    "95,105"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_ready_01.wav" 
+    }	
+}
+
+"Weapon_BrassKnuckles.Ready_02"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.4"
+	"pitch"			    "95,105"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_ready_02.wav" 
+    }	
+}
+
+"Weapon_BrassKnuckles.Knuckle_Slide_On_01"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.15"
+	"pitch"			    "99,101"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_knuckle_slideon_01.wav" 
+    }	
+}
+
+
+"Weapon_BrassKnuckles.Knuckle_Crack_Ready_01"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.15"
+	"pitch"			    "99,101"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_knuckle_ready_01.wav" 
+    }	
+}
+
+"Weapon_BrassKnuckles.Knuckle_Crack_Ready_02"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "99,101"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_knuckle_ready_02.wav" 
+    }	
+}
+
+"Weapon_BrassKnuckles.Melee"
+{
+	"channel"			"CHAN_STATIC"
+	"volume"		    "0.2"
+	"pitch"			    "95,105"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_01.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_02.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_03.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_04.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_05.wav" 	
+    }	
+}
+
+"Weapon_BrassKnuckles.HitWorld"
+{
+	"channel"			"CHAN_STATIC"
+	"volume"		    "0.25"
+	"pitch"			    "95,105"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_hitworld_01.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_hitworld_02.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_hitworld_03.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_hitworld_04.wav" 	
+    }	
+}
+
+"Weapon_BrassKnuckles.HitFlesh"
+{
+	"channel"			"CHAN_STATIC"
+	"volume"		    "0.25"
+	"pitch"			    "95,105"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_01.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_01A.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_01B.wav" 	
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_02.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_02A.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_02B.wav" 		
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_03.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_03A.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_03B.wav"
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_04.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_04A.wav" 
+	"wave"			"weapons/BrassKnuckles/BrassKnuckle_melee_flesh_04B.wav" 	
+    }	
+}
+
+// --------------------------
+// LIFEBOUY FLAMETHROWER No2
+// --------------------------
+
+"Weapon_FlamethrowerNo2.Start"
+{
+	"channel"		"CHAN_STREAM"
+	"volume"	    "1.0"
+	"pitch"			"90,105"
+	"soundlevel"  	"SNDLVL_80dB"
+	"rndwave"
+	{
+	"wave"	        ")weapons/FlamethrowerNo2/flamethrower_start.wav"	
+	}
+}
+
+"Weapon_FlamethrowerNo2.Looping"
+{
+	"channel"		"CHAN_STREAM"
+	"volume"	    "1.0"
+	"pitch"			"95,105"
+	"soundlevel"  	"SNDLVL_80dB"
+	"rndwave"
+	{
+	"wave"	        ")weapons/FlamethrowerNo2/flamethrower_looping.wav"	
+	}
+}
+
+"Weapon_FlamethrowerNo2.End"
+{
+	"channel"		"CHAN_STREAM"
+	"volume"	    "1.0"
+	"pitch"			"90,105"
+	"soundlevel"  	"SNDLVL_80dB"
+	"rndwave"
+	{
+	"wave"	        ")weapons/FlamethrowerNo2/flamethrower_end.wav"	
+	}
+}
+
+// LOCAL
+
+"Weapon_FlamethrowerNo2.StartLocal"
+{
+	"channel"		"CHAN_STREAM"
+	"volume"	    "1.0"
+	"pitch"			"90,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"rndwave"
+	{
+	"wave"	        "weapons/FlamethrowerNo2/flamethrower_start.wav"	
+	}
+}
+
+"Weapon_FlamethrowerNo2.LoopingLocal"
+{
+	"channel"		"CHAN_STREAM"
+	"volume"	    "1.0"
+	"pitch"			"95,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"rndwave"
+	{
+	"wave"	        "weapons/FlamethrowerNo2/flamethrower_looping.wav"	
+	}
+}
+
+"Weapon_FlamethrowerNo2.EndLocal"
+{
+	"channel"		"CHAN_STREAM"
+	"volume"	    "1.0"
+	"pitch"			"90,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"rndwave"
+	{
+	"wave"	        "weapons/FlamethrowerNo2/flamethrower_end.wav"	
+	}
+}
+
+//HANDLING
+
+"Weapon_FlamethrowerNo2.Empty"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"pitch"			"95,105"
+	"soundlevel"  	"SNDLVL_65dB"
+	"wave"	        "weapons/FlamethrowerNo2/handling/flamethrower_empty.wav"
+}
+
+
+//SPECIAL
+
+"Weapon_FlamethrowerNo2.BackpackDetonate"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_80dB"
+	"wave"	        "weapons/FlamethrowerNo2/handling/flamethrower_backpack_explode.wav"
+}
+
+"Weapon_FlamethrowerNo2.BackpackLeak"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_75dB"
+	"rndwave"
+	{
+	"wave"	        "weapons/FlamethrowerNo2/handling/flamethrower_tank_leak_01.wav"	
+	"wave"	        "weapons/FlamethrowerNo2/handling/flamethrower_tank_leak_02.wav"	
+	"wave"	        "weapons/FlamethrowerNo2/handling/flamethrower_tank_leak_03.wav"		
+	}
+}
+
+// --------------------------
+// GERMAN FLAMETHROWER No41
+// --------------------------
+
+"Weapon_FlamethrowerNo41.Start"
+{
+	"channel"		"CHAN_STREAM"
+	"volume"	    "1.0"
+	"pitch"			"90,105"
+	"soundlevel"  	"SNDLVL_80dB"
+	"rndwave"
+	{
+	"wave"	        ")weapons/FlamethrowerNo41/flamethrower_start.wav"	
+	}
+}
+
+"Weapon_FlamethrowerNo41.Looping"
+{
+	"channel"		"CHAN_STREAM"
+	"volume"	    "1.0"
+	"pitch"			"95,105"
+	"soundlevel"  	"SNDLVL_80dB"
+	"rndwave"
+	{
+	"wave"	        ")weapons/FlamethrowerNo41/flamethrower_looping.wav"	
+	}
+}
+
+"Weapon_FlamethrowerNo41.End"
+{
+	"channel"		"CHAN_STREAM"
+	"volume"	    "1.0"
+	"pitch"			"90,105"
+	"soundlevel"  	"SNDLVL_80dB"
+	"rndwave"
+	{
+	"wave"	        ")weapons/FlamethrowerNo41/flamethrower_end.wav"	
+	}
+}
+
+// LOCAL
+
+"Weapon_FlamethrowerNo41.StartLocal"
+{
+	"channel"		"CHAN_STREAM"
+	"volume"	    "1.0"
+	"pitch"			"90,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"rndwave"
+	{
+	"wave"	        "weapons/FlamethrowerNo41/flamethrower_start.wav"	
+	}
+}
+
+"Weapon_FlamethrowerNo41.LoopingLocal"
+{
+	"channel"		"CHAN_STREAM"
+	"volume"	    "1.0"
+	"pitch"			"95,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"rndwave"
+	{
+	"wave"	        "weapons/FlamethrowerNo41/flamethrower_looping.wav"	
+	}
+}
+
+"Weapon_FlamethrowerNo41.EndLocal"
+{
+	"channel"		"CHAN_STREAM"
+	"volume"	    "1.0"
+	"pitch"			"90,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"rndwave"
+	{
+	"wave"	        "weapons/FlamethrowerNo41/flamethrower_end.wav"	
+	}
+}
+
+
+//HANDLING
+
+"Weapon_FlamethrowerNo41.Empty"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"pitch"			"95,105"
+	"soundlevel"  	"SNDLVL_65dB"
+	"wave"	        "weapons/FlamethrowerNo41/handling/flamethrower_empty.wav"
+}
+
+
+//SPECIAL
+
+"Weapon_FlamethrowerNo41.BackpackDetonate"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_80dB"
+	"wave"	        "weapons/FlamethrowerNo41/handling/flamethrower_backpack_explode.wav"
+}
+
+"Weapon_FlamethrowerNo41.BackpackLeak"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_75dB"
+	"rndwave"
+	{
+	"wave"	        "weapons/FlamethrowerNo41/handling/flamethrower_tank_leak_01.wav"	
+	"wave"	        "weapons/FlamethrowerNo41/handling/flamethrower_tank_leak_02.wav"	
+	"wave"	        "weapons/FlamethrowerNo41/handling/flamethrower_tank_leak_03.wav"		
+	}
+}
+
+
+// --------------------------
 // TT-33
 // --------------------------
 

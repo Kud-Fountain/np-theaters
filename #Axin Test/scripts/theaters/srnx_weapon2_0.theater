@@ -6,10 +6,138 @@
 {
 	"weapons"
 	{
+		// ========================================
+		// FLAMETHROWER
+		// =======================================
+		
+		//"weapon_flamethrower"
+		//{
+		//	"import" 						"flamethrower_base"
+		//
+		//	"print_name"					"#weapon_flamethrower"
+		//	"print_desc"					"#weapon_flamethrower_desc"
+		//	"view_model"					"models/weapons/v_flame_werfer41.mdl"
+		//	"world_model"					"models/weapons/w_flammenwerfer41.mdl"	
+		//	"companion_gear"				"gear_fuel_tank_german"			
+		//	
+		//	"act_table"						"lmg"
+		//	
+		//	"weapon_cost"					"0"
+		//
+		//	"sounds"
+		//	{
+		//		"shot_single"				"Weapon_FlamethrowerNo41.Start"
+		//		"shot_single_local"			"Weapon_FlamethrowerNo41.StartLocal"
+		//		"shot_loop"					"Weapon_FlamethrowerNo41.Looping"
+		//		"shot_loop_local"			"Weapon_FlamethrowerNo41.LoopingLocal"
+		//		"shot_end"					"Weapon_FlamethrowerNo41.End"
+		//		"shot_end_local"			"Weapon_FlamethrowerNo41.EndLocal"
+		//		"empty"						"Weapon_FlamethrowerNo41.Empty"
+		//	}			
+		//	
+		//	"kitui_offset"
+		//	{
+		//		"position"					"20 -4 3"
+		//	}
+		//	
+		//	"team_access"	"security, insurgent"
+		//}
+		
 		//========================================
 		// ROCKETS
 		//========================================
-	
+		
+		//"weapon_panzerschreck"
+		//{
+		//	"import"					"weapon_base"
+		//	"weapon_class"				"launcher"
+		//	"weapon_type"				"projectile"
+		//	"print_name"				"#weapon_panzerschreck"
+		//	"print_desc"				"#weapon_panzerschreck_desc"
+		//	"single_use"				"0"
+		//	"view_model"				"models/weapons/v_panzerschreck.mdl"
+		//	"world_model"				"models/weapons/w_panzerschreck.mdl"
+		//	"weapon_slot"				"explosive"
+		//	"weapon_max_subslot"		"2"	// can only be in the first explosive slot
+		//	"act_table"					"launcher"
+		//	"class_restricted"			"0"
+		//	"weapon_weight"				"130"
+		//	"weapon_cost"				"0"
+		//	"weapon_abilities"			"ironsight"
+		//	"barrel_length"				"44"
+		//	
+		//	"sounds"
+		//	{
+		//		"shot_single"			"Weapon_panzerschreck.Single"
+		//		"shot_single_local"		"Weapon_panzerschreck.SingleLocal"
+		//		"empty"					"Weapon_RPG7.Empty"
+		//		"load"					"Weapon_RPG7.Load"
+		//		"unload"				"Weapon_RPG7.Unload"
+		//		"hit"					"Weapon_RPG7.Hit"
+		//	}
+		//	"recoil"
+		//	{
+		//		"recoil_lateral_range"		"-1.0 1.0"
+		//		"recoil_vertical_range"		"4.0 6.0"
+		//		"recoil_aim_punch"			"1.0 1.0"
+		//		"recoil_rest_rate"			"12"
+		//		"recoil_rest_delay"			"0"
+		//	}
+		//	"particles"
+		//	{
+		//		"particle_muzzleflash_1st"		"ins_weapon_rpg_frontblast"
+		//		"particle_muzzleflash_3rd"		"ins_weapon_rpg_frontblast"
+		//	}
+		//	"explosives"
+		//	{
+		//		"entity"				"rocket_panzerschreck"
+		//	}
+		//	"ammo_clip"
+		//	{
+		//		"ammo_type"					"rocket_panzerschreck"
+		//		"clip_max_rounds"			"1"	// 1 per mag
+		//		"clip_default"				"1"	// 1
+		//	}
+		//	"player_restrictions"
+		//	{
+		//		"allow_lean"				"1"
+		//		"allow_sprint"				"1"
+		//		"allow_jump"				"1"
+		//		"allow_sway"				"1"
+		//	}
+		//	"fov"
+		//	{
+		//		"fov_plr_ironsight"			"-15"
+		//		"fov_plr_focus"				"-7"
+		//		"fov_wpn_default"			"58"
+		//		"fov_wpn_ironsight"			"60"
+		//		"fov_wpn_focus"				"54"
+		//	}
+		//	
+		//	"ironsights"
+		//	{
+		//		"in_time"	"0.55"
+		//		"out_time"	"0.50"
+		//	}
+		//	
+		//	"melee"
+		//	{
+		//		"MeleeWeaponIdleTime"	"0.2"
+		//		"MeleeDamage"			"50"
+		//		"MeleeRange"			"60"
+		//	}
+		//	
+		//	"kitui_offset"
+		//	{
+		//		"position"				"30 0 2"
+		//	}
+		//	"attachments"
+		//	{
+		//		"attachment_addon"			"Launcher" //New attachment for RPGs - Brightside
+		//	}
+		//	"team_access"				"security, insurgent"
+		//}
+		
 		"weapon_bazooka"
 		{
 			"import"					"weapon_base"
@@ -802,9 +930,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"40mshot"
-				"clip_max"				"3"
-				"clip_max_rounds"		"1"
-				"clip_default"			"1"
+				//"clip_max"				"3"
+				"clip_max_rounds"		"4"
+				"clip_default"			"20"
 			}
 			"ballistics"
 			{
@@ -879,9 +1007,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"40mshot"
-				"clip_max"				"3"
-				"clip_max_rounds"		"1"
-				"clip_default"			"1"
+				//"clip_max"				"3"
+				"clip_max_rounds"		"4"
+				"clip_default"			"20"
 			}
 			"ballistics"
 			{
@@ -941,9 +1069,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"40mshot"
-				"clip_max"				"3"
-				"clip_max_rounds"		"1"
-				"clip_default"			"1"
+				//"clip_max"				"3"
+				"clip_max_rounds"		"4"
+				"clip_default"			"20"
 			}
 			"ballistics"
 			{
@@ -965,6 +1093,181 @@
 				"fov_wpn_focus"				"74"
 			}		
 		}
+		
+		//"weapon_m203_rt"
+		//{
+		//	"import"						"weapon_base"
+		//	"weapon_class"					"launcher"
+		//	"weapon_type"					"projectile"
+		//	"print_name"					"#weapon_m203_dy_rt"
+		//	"print_desc"					"#weapon_m203_dy_rt_desc"
+		//	"view_model"					"models/weapons/upgrades/a_gl_m203.mdl"
+		//	"world_model"					"models/weapons/upgrades/a_gl_m203.mdl"
+		//	"weapon_slot"					"primary"
+		//	"act_table"						"launcher"
+		//	"attached_act_suffix"			"_GLSETUP"
+		//	"attached_gesture"				"delta_glsetup"
+		//	"weapon_weight"					"14"
+		//	"weapon_cost"					"0"
+		//	"weapon_abilities"				"ironsight"
+		//	"fire_instantly"				"1"
+		//	
+		//	"sounds"
+		//	{
+		//		"shot_single"		 		"Weapon_m203.Single"
+		//		"shot_single_local"	 		"Weapon_m203.SingleLocal"
+		//		"empty"				 		"Weapon_m203.Empty"
+		//		"load"				 		"Weapon_RPG7.Load"
+		//		"unload"			 		"Weapon_RPG7.Unload"
+		//		"hit"				 		"Weapon_RPG7.Hit"
+		//	}
+		//	"recoil"
+		//	{
+		//		"recoil_lateral_range"		"-1.0 1.0"
+		//		"recoil_vertical_range"		"4.0 6.0"
+		//		"recoil_aim_punch"			"1.0 1.0"
+		//		"recoil_rest_rate"			"12"
+		//		"recoil_rest_delay"			"0"
+		//	}
+		//	"particles"
+		//	{
+		//		"particle_muzzleflash_1st"	"ins_weapon_m203"
+		//		"particle_muzzleflash_3rd"	"ins_weapon_m203"	
+		//	}
+		//	"explosives"
+		//	{
+		//		"entity"					"rocket_grenade"
+		//	}
+		//	"ammo_clip"
+		//	{
+		//		"ammo_type"					"grenade_m203_he"
+		//		"clip_max_rounds"			"1" // 1 gren per mag
+		//		"clip_default"				"0"
+		//	}
+		//	"freeaim"
+		//	{
+		//		"freeaim_distance"				"13"
+		//		"freeaim_screenratio"			"0.8"
+		//	}
+		//	"fov"
+		//	{
+		//		"fov_plr_ironsight"			"-5"
+		//		"fov_plr_focus"				"-10"
+		//		"fov_wpn_default"			"20"
+		//		"fov_wpn_ironsight"			"74"
+		//		"fov_wpn_focus"				"74"
+		//	}
+		//	"ironsights"
+		//	{
+		//		//"use_weapon_muzzle"			"1" //vanilla doesnt use
+		//		"GestureIronsights"			"delta_glsetup_iron"
+		//	}
+		//	
+		//	"team_access"					"security, insurgent"		
+		//}
+		
+		//"weapon_m320_rt"
+		//{
+		//	"import"						"weapon_base"
+		//	//"weapon_class"					"launcher"
+		//	"weapon_type"					"projectile"
+		//	"print_name"					"#weapon_m320_dy_rt"
+		//	"print_desc"					"#weapon_m320_dy_rt_desc"
+		//	"view_model"					"models/weapons/upgrades/a_sa_m203.mdl"
+		//	"world_model"					"models/weapons/upgrades/a_sa_m203.mdl"
+		//	"weapon_slot"					"primary"
+		//	"act_table"						"launcher"
+		//	"attached_act_suffix"			"_GLSETUP"
+		//	"attached_gesture"				"delta_glsetup"
+		//	"weapon_weight"					"15"
+		//	"weapon_cost"					"0"
+		//	"weapon_abilities"				"ironsight"
+		//	"fire_instantly"				"1"
+		//	
+		//	"sounds"
+		//	{
+		//		"shot_single"		 		"Weapon_m203.Single"
+		//		"shot_single_local"	 		"Weapon_m203.SingleLocal"
+		//		"empty"				 		"Weapon_m203.Empty"
+		//		"load"				 		"Weapon_RPG7.Load"
+		//		"unload"			 		"Weapon_RPG7.Unload"
+		//		"hit"				 		"Weapon_RPG7.Hit"
+		//	}
+		//	"recoil"
+		//	{
+		//		"recoil_lateral_range"		"-1.0 1.0"
+		//		"recoil_vertical_range"		"4.0 6.0"
+		//		"recoil_aim_punch"			"1.0 1.0"
+		//		"recoil_rest_rate"			"12"
+		//		"recoil_rest_delay"			"0"
+		//	}
+		//	"particles"
+		//	{
+		//		"particle_muzzleflash_1st"	"ins_weapon_m203"
+		//		"particle_muzzleflash_3rd"	"ins_weapon_m203"	
+		//	}
+		//	"explosives"
+		//	{
+		//		"entity"					"rocket_grenade"
+		//	}
+		//	"ammo_clip"
+		//	{
+		//		"ammo_type"					"grenade_m203_he"
+		//		"clip_max_rounds"			"1" // 1 gren per mag
+		//		"clip_default"				"0"
+		//	}
+		//	"freeaim"
+		//	{
+		//		"freeaim_distance"				"13"
+		//		"freeaim_screenratio"			"0.8"
+		//	}
+		//	"fov"
+		//	{
+		//		"fov_plr_ironsight"			"-5"
+		//		"fov_plr_focus"				"-10"
+		//		"fov_wpn_default"			"20"
+		//		"fov_wpn_ironsight"			"74"
+		//		"fov_wpn_focus"				"74"
+		//	}
+		//	"ironsights"
+		//	{
+		//		//"use_weapon_muzzle"			"1" //vanilla doesnt use
+		//		"GestureIronsights"			"delta_glsetup_iron"
+		//	}
+		//	
+		//	"team_access"					"security, insurgent"		
+		//}
+		
+		//"weapon_gp25_rt"
+		//{
+		//	"import"						"weapon_m203_he"
+		//	"print_name"					"#weapon_gp25_dy_rt"
+		//	"print_desc"					"#weapon_gp25_dy_rt_desc"	
+		//	"weapon_weight"					"15"
+		//	"weapon_cost"					"0"
+		//	"explosives"
+		//	{
+		//		"entity"					"rocket_grenade"
+		//	}
+		//	"sounds"
+		//	{
+		//		"shot_single"		 		"Weapon_gp30.Single"
+		//		"shot_single_local"	 		"Weapon_gp30.SingleLocal"
+		//	}	
+		//	"freeaim"
+		//	{
+		//		"freeaim_distance"				"15"
+		//		"freeaim_screenratio"			"0.8"
+		//	}
+		//	"fov"
+		//	{
+		//		"fov_plr_ironsight"			"-5"
+		//		"fov_plr_focus"				"-10"
+		//		"fov_wpn_default"			"20"
+		//		"fov_wpn_ironsight"			"74"
+		//		"fov_wpn_focus"				"74"
+		//	}		
+		//}
 		
 		"weapon_m203_he"
 		{
@@ -1009,7 +1312,6 @@
 			"explosives"
 			{
 				"entity"					"grenade_m203_he"
-				"remove_on_deplete"			"0"
 			}
 			"ammo_clip"
 			{
@@ -2093,10 +2395,10 @@
 		"weapon_p2a1"
 		{
 			"import"						"weapon_base"
-			"weapon_class"					"grenade_incendiary"
+			"weapon_class"					"other_explosive"
 			"weapon_type"					"projectile"
-			"print_name"					"#weapon_flaregun"
-			"print_desc"					"#weapon_flaregun_desc"
+			"print_name"					"#weapon_mini_rocket"
+			"print_desc"					"#weapon_mini_rocket_desc"
 			"view_model"					"models/weapons/v_p2a1.mdl"
 			"world_model"					"models/weapons/w_p2a1.mdl"
 			"weapon_slot"					"explosive"
@@ -2106,11 +2408,10 @@
 			"weapon_cost"					"0"
 			"weapon_abilities"				"ironsight"
 			"fire_instantly"				"1"
+			"class_restricted"				"1"
 			"explosives"
 			{
-				"entity"					"grenade_flare"
-				"GrenadeRollSpeed"			"500"
-				"GrenadeThrowSpeed"			"1000"
+				"entity"					"rocket_grenade"
 			}
 			"particles"
 			{
@@ -2121,7 +2422,7 @@
 			{
 				"ammo_type"					"grenade_flares"
 				"clip_max_rounds"			"1"
-				"clip_default"				"1"
+				"clip_default"				"4"
 			}
 			"fov"
 			{
@@ -2404,176 +2705,7 @@
 		//	}
 		//	"team_access"	"security, insurgent"
 		//}
-		"weapon_op_mellee_1"
-		{
-			"import"						"weapon_base"
-			"weapon_class"					"melee"
-			"weapon_type"					"melee"
-			"print_name"					"#weapon_op_mellee_1"
-			"print_desc"					"#weapon_op_mellee_1_desc"
-			"view_model"					"models/weapons/op_mellee/v_op_mellee_a.mdl"
-			"world_model"					"models/weapons/op_mellee/w_op_mellee_a.mdl"
-			"weapon_slot"					"melee"
-			"act_table"						"knife"
-			"weapon_weight"					"1"
-			"weapon_cost"					"0"
-			"ammo_clip"
-			{
-				"ammo_type"				"invalid"
-				"clip_max_rounds"			"-1"	// no clips
-				"clip_default"				"0"
-			}
-			"sounds"
-			{
-				"shot_single"				"Weapon_Knife.Single"
-				"melee_hit"					"Weapon_Knife.Melee_Hit"
-				"melee_hit_world"			"Weapon_Knife.Melee_HitWorld"
-			}
-			"melee"
-			{
-				"MeleeRange"				"75"
-				"MeleeDamage"				"60"
-				"MeleeDamageBehindBonus"	"200"
-				"MeleeDamageType"			"DMG_SLASH"
-				"MeleeWeaponIdleTime"		"2"
-				"SwingAttacks"
-				{
-					"slash1"
-					{
-						"Activity"				"ACT_VM_HITCENTER"
-						"PlayerAtivity"			"ACT_SHOOT_E2W_BAT"
-						"PlayerActivityIdle"	"ACT_SHOOT_E2W_IDLE_BAT"
-						"StartTime"				"0.1"
-						"EndTime"				"0.34"
-						"Duration"				"0.9"
-						"StartDirection"		"E"
-						"EndDirection"			"W"
-						"ForceDirection"		"15 -40 0"
-					}
-				}
-			}
-			"player_restrictions"
-			{
-				"allow_lean"				"0"
-				"allow_sprint"				"1"
-				"allow_jump"				"1"
-				"allow_sway"				"1"
-			}
-			"team_access"	"security, insurgent"
-		}
-		"weapon_op_mellee_2"
-		{
-			"import"						"weapon_base"
-			"weapon_class"					"melee"
-			"weapon_type"					"melee"
-			"print_name"					"#weapon_op_mellee_2"
-			"print_desc"					"#weapon_op_mellee_2_desc"
-			"view_model"					"models/weapons/op_mellee/v_op_mellee_b.mdl"
-			"world_model"					"models/weapons/op_mellee/w_op_mellee_b.mdl"
-			"weapon_slot"					"melee"
-			"act_table"						"knife"
-			"weapon_weight"					"0"
-			"weapon_cost"					"0"
-			"ammo_clip"
-			{
-				"ammo_type"				"invalid"
-				"clip_max_rounds"			"-1"	// no clips
-				"clip_default"				"0"
-			}
-			"sounds"
-			{
-				"shot_single"				"Weapon_Knife.Single"
-				"melee_hit"					"Weapon_Knife.Melee_Hit"
-				"melee_hit_world"			"Weapon_Knife.Melee_HitWorld"
-			}
-			"melee"
-			{
-				"MeleeRange"				"75"
-				"MeleeDamage"				"60"
-				"MeleeDamageBehindBonus"	"200"
-				"MeleeDamageType"			"DMG_SLASH"
-				"MeleeWeaponIdleTime"		"2"
-				"SwingAttacks"
-				{
-					"slash1"
-					{
-						"Activity"				"ACT_VM_HITCENTER"
-						"PlayerAtivity"			"ACT_SHOOT_E2W_BAT"
-						"PlayerActivityIdle"	"ACT_SHOOT_E2W_IDLE_BAT"
-						"StartTime"				"0.1"
-						"EndTime"				"0.34"
-						"Duration"				"0.9"
-						"StartDirection"		"E"
-						"EndDirection"			"W"
-						"ForceDirection"		"15 -40 0"
-					}
-				}
-			}
-			"player_restrictions"
-			{
-				"allow_lean"				"0"
-				"allow_sprint"				"1"
-				"allow_jump"				"1"
-				"allow_sway"				"1"
-			}
-		}
-		"weapon_op_mellee_3"
-		{
-			"import"						"weapon_base"
-			"weapon_class"					"melee"
-			"weapon_type"					"melee"
-			"print_name"					"#weapon_op_mellee_3"
-			"print_desc"					"#weapon_op_mellee_3_desc"
-			"view_model"					"models/weapons/op_mellee/v_op_mellee_c.mdl"
-			"world_model"					"models/weapons/op_mellee/w_op_mellee_c.mdl"
-			"weapon_slot"					"melee"
-			"act_table"						"knife"
-			"weapon_weight"					"1"
-			"weapon_cost"					"0"
-			"ammo_clip"
-			{
-				"ammo_type"				"invalid"
-				"clip_max_rounds"			"-1"	// no clips
-				"clip_default"				"0"
-			}
-			"sounds"
-			{
-				"shot_single"				"Weapon_Knife.Single"
-				"melee_hit"					"Weapon_Knife.Melee_Hit"
-				"melee_hit_world"			"Weapon_Knife.Melee_HitWorld"
-			}
-			"melee"
-			{
-				"MeleeRange"				"75"
-				"MeleeDamage"				"60"
-				"MeleeDamageBehindBonus"	"200"
-				"MeleeDamageType"			"DMG_SLASH"
-				"MeleeWeaponIdleTime"		"2"
-				"SwingAttacks"
-				{
-					"slash1"
-					{
-						"Activity"				"ACT_VM_HITCENTER"
-						"PlayerAtivity"			"ACT_SHOOT_E2W_BAT"
-						"PlayerActivityIdle"	"ACT_SHOOT_E2W_IDLE_BAT"
-						"StartTime"				"0.1"
-						"EndTime"				"0.34"
-						"Duration"				"0.9"
-						"StartDirection"		"E"
-						"EndDirection"			"W"
-						"ForceDirection"		"15 -40 0"
-					}
-				}
-			}
-			"player_restrictions"
-			{
-				"allow_lean"				"0"
-				"allow_sprint"				"1"
-				"allow_jump"				"1"
-				"allow_sway"				"1"
-			}
-			"team_access"	"security, insurgent"
-		}
+		
 		"weapon_kabar"
 		{
 			"import"						"weapon_base"
@@ -2704,54 +2836,62 @@
 			"team_access"	"security, insurgent"
 		}
 		
-		"weapon_claw"
+		"weapon_brassknuckles"
 		{
-			"import"						"weapon_base"
-			"weapon_class"					"melee"
-			"weapon_type"					"melee"
-			"print_name"					"#weapon_kabar"
-			"view_model"					"models/weapons/v_marinebayonet.mdl"
-			"world_model"					"models/weapons/w_marinebayonet.mdl"
-			"weapon_slot"					"melee"
-			"act_table"						"knife"
-			"weapon_weight"					"1"
-			"weapon_cost"					"0"
-			"class_restricted"				"0"
-			"barrel_length"					"-1"
+			"import"					"weapon_base"
+			"weapon_class"				"melee"
+			"weapon_type"				"melee"
+			"print_name"				"#weapon_brassknuckles"
+			"print_desc"				"#weapon_brassknuckles_desc"
+			"view_model"				"models/weapons/v_brassknuckles.mdl"
+			"world_model"				"models/weapons/w_brassknuckles.mdl"
+			"weapon_slot"				"melee"
+			"act_table"					"knife"
+			"weapon_weight"				"1"
+			"weapon_cost"				"0"
+			"class_restricted"			"0"
+			"barrel_length"				"-1"
+			
+			//"unlock"					"1"
 			
 			"ammo_clip"
 			{
-				"ammo_type"					"invalid"
-				"clip_max_rounds"			"-1" // no clips
-				"clip_default"				"0"
+				"ammo_type"				"invalid"
+				"clip_max_rounds"		"-1"	// no clips
+				"clip_default"			"0"
+			}
+			
+			"fov"
+			{
+				"fov_wpn_default"			"60"
 			}
 			
 			"sounds"
 			{
-				"shot_single"				"Weapon_Knife.Single"
-				"melee_hit"					"Weapon_Knife.Melee_Hit"
-				"melee_hit_world"			"Weapon_Knife.Melee_HitWorld"
+				"shot_single"			"Weapon_BrassKnuckles.Melee"
+				"melee_hit"				"Weapon_BrassKnuckles.HitFlesh"
+				"melee_hit_world"		"Weapon_BrassKnuckles.HitWorld"
 			}
 			"melee"
 			{
-				"MeleeRange"				"150"
-				"MeleeDamage"				"60"
-				"MeleeDamageBehindBonus"		"200"
-				"MeleeDamageType"			"DMG_SLASH"
-				"MeleeWeaponIdleTime"			"2"
+				"MeleeRange"				"75"
+				"MeleeDamage"				"25"
+				"MeleeDamageBehindBonus"	"200"
+				"MeleeDamageType"			"DMG_CRUSH"
+				"MeleeWeaponIdleTime"		"1"
 				"SwingAttacks"
 				{
 					"slash1"
 					{
 						"Activity"				"ACT_VM_HITCENTER"
-						"PlayerAtivity"				"ACT_SHOOT_E2W_BAT"
-						"PlayerActivityIdle"			"ACT_SHOOT_E2W_IDLE_BAT"
+						"PlayerAtivity"			"ACT_SHOOT_E2W_BAT"
+						"PlayerActivityIdle"	"ACT_SHOOT_E2W_IDLE_BAT"
 						"StartTime"				"0.1"
-						"EndTime"				"0.34"
-						"Duration"				"0.9"
-						"StartDirection"			"E"
-						"EndDirection"				"W"
-						"ForceDirection"			"15 -40 0"
+						"EndTime"				"0.3"
+						"Duration"				"0.6"
+						"StartDirection"		"E"
+						"EndDirection"			"W"
+						"ForceDirection"		"15 -40 0"
 					}
 				}
 			}
@@ -2767,7 +2907,13 @@
 				"recoil_rest_rate"			"5"
 				"recoil_rest_delay"			"0.1"
 			}
-			"team_access"	"security, insurgent"
+			
+			"kitui_offset"
+			{
+				"position"					"12 0 0"
+			}
+			
+			"team_access"					"insurgent"
 		}
 		
 		//This is the new entity for melee //Technically the kabar
@@ -2919,6 +3065,7 @@
 			"barrel_length"					"10"
 			
 			"reload_speed"					"1.20"
+			"holster_speed"					"1.075"
 			"draw_speed"					"1.15"
 			
 			"fov"
@@ -3013,6 +3160,7 @@
 			"barrel_length"					"10"
 			
 			"reload_speed"					"1.20"
+			"holster_speed"					"1.075"
 			"draw_speed"					"1.15"
 			
 			"fov"
@@ -3107,8 +3255,9 @@
 			"closed_bolt"				"0"
 			"trigger_delay"				"0.04"
 			
-			"reload_speed"					"1.20"
-			"draw_speed"					"1.15"
+			"reload_speed"					"1.125"
+			"holster_speed"					"1.15"
+			"draw_speed"					"1.075"
 
 			"fov"
 			{
@@ -7097,15 +7246,7 @@
 			"weapon_cost"					"0"
 			"weapon_weight"					"144" 
 			"barrel_length"					"49"
-			"draw_speed"					"0.4"
-			"reload_speed"					"0.65"
 			
-			//higher is slower
-			"ironsights"
-			{
-				"in_time"				"0.6"
-				"out_time"				"0.55"
-			}
 			"fov"
 			{
 				"fov_plr_ironsight"			"-25"
@@ -8717,7 +8858,7 @@
 			"print_desc"					"#weapon_m590_desc"
 			"view_model"					"models/weapons/v_m590.mdl"
 			"world_model"					"models/weapons/w_m590.mdl"
-			"fire_cycle"					"0.2"
+			"fire_cycle"					"0.125"
 			"weapon_slot"					"secondary"
 			"act_table"						"shot"
 			"weapon_abilities"				"ironsight"
@@ -11425,19 +11566,19 @@
 			"RocketStartSpeed"				"2000"
 			"ShakeAmplitude"				"0"
 			
-			"DetonateDamageRadius"	"750"
-			"Deafen"				"1"
+			"DetonateDamageRadius"			"250"
+			"Deafen"						"1"
 			
 			"AreaDamageTime"				"20"
 			"AreaDamageFrequency"			"0.15"
 			"AreaDamageMinRadius"			"250"
-			"AreaDamageMaxRadius"			"750"
-			"AreaDamageGrowSpeed"			"250"
+			"AreaDamageMaxRadius"			"1000"
+			"AreaDamageGrowSpeed"			"500"
 			"AreaDamageAmount"				"19"
 			
-			"Health"				"50"
-			"ReactExplosions"			"1"
-			"ReactBullets"				"1"
+			"Health"						"50"
+			"ReactExplosions"				"1"
+			"ReactBullets"					"1"
 			
 			"Particles"
 			{
@@ -11517,12 +11658,12 @@
 			"Elasticity"				"0.0"
 
 			"Deafen"					"0"
-			"AreaDamageTime"			"14"
-			"AreaDamageFrequency"		"0.44"
-			"AreaDamageMinRadius"		"240"
-			"AreaDamageMaxRadius"		"260"
-			"AreaDamageGrowSpeed"		"9"
-			"AreaDamageAmount"			"18"
+			"AreaDamageTime"			"16"
+			"AreaDamageFrequency"		"0.125"
+			"AreaDamageMinRadius"		"120"
+			"AreaDamageMaxRadius"		"140"
+			"AreaDamageGrowSpeed"		"60"
+			"AreaDamageAmount"			"38"
 			
 			"Health"						"50"
 			"ReactExplosions"				"1"
@@ -11562,8 +11703,8 @@
 			"Elasticity"				"0.1"
 
 			"Deafen"					"0"
-			"AreaDamageTime"			"18"
-			"AreaDamageFrequency"		"0.5"
+			"AreaDamageTime"			"24"
+			"AreaDamageFrequency"		"0.25"
 			"AreaDamageMinRadius"		"75"
 			"AreaDamageMaxRadius"		"95"
 			"AreaDamageGrowSpeed"		"9"
@@ -11594,9 +11735,9 @@
 			"entity_class"				"grenade_frag"
 			"Model"						"models/weapons/upgrades/a_projectile_m203.mdl"
 			
-			"DetonateDamage"			"170"
-			"DetonatePenetrationRadius" "40"
-			"DetonateDamageRadius"		"600"
+			"DetonateDamage"			"195"
+			"DetonatePenetrationRadius" "300"
+			"DetonateDamageRadius"		"700"
 			"SuppressionIncrement"		"600"
 			"ShakeAmplitude"			"1200"
 			"FuseTime"					"0"
@@ -11679,8 +11820,8 @@
 			"Model"						"models/weapons/upgrades/a_projectile_m203.mdl"
 			"FuseTime"					"0"
 			"ImpactDetonation"			"1"
-			"RocketStartSpeed"			"3000"
-			"ArmDelay"					"0.05"
+			"RocketStartSpeed"			"9000"
+			"ArmDelay"					"0.06"
 			"SuppressionIncrement"		"100"
 			"ShakeAmplitude"			"0"
 			
@@ -11751,20 +11892,20 @@
 			"SuppressionIncrement"		"100"
 			"ShakeAmplitude"			"0"
 			"DetonateUnderwater"		"0"
-			"Elasticity"		"0.07"
-			"FuseTime"			"0"
-			"ImpactDetonation"	"1"
-			"ArmDelay"			"0.06"
-			"RocketStartSpeed"	"3000"
+			"Elasticity"				"0.07"
+			"FuseTime"					"0.5"
+			"ImpactDetonation"			"0"
+			"ArmDelay"					"0.06"
+			"RocketStartSpeed"			"3000"
 			
-			"DetonateDamageRadius"	"750"
-			"Deafen"				"1"
+			"DetonateDamageRadius"		"250"
+			"Deafen"					"1"
 			
 			"AreaDamageTime"				"20"
 			"AreaDamageFrequency"			"0.15"
 			"AreaDamageMinRadius"			"250"
-			"AreaDamageMaxRadius"			"750"
-			"AreaDamageGrowSpeed"			"250"
+			"AreaDamageMaxRadius"			"1000"
+			"AreaDamageGrowSpeed"			"500"
 			"AreaDamageAmount"				"19"
 			
 			"Health"			"50"
@@ -11774,6 +11915,9 @@
 			{
 				"DetonateParticle"		"gasgrenade"		//"smokegrenade_color_yellow"
 				"SmokeColor"			"150 150 90 240" // why does the alpha have to be set so damn high?
+				"BroadcastAll"			"1"
+				"FollowOrigin"			"1"
+				"NormalUp"				"1"
 			}
 			"Sounds"
 			{
@@ -11800,6 +11944,58 @@
 			"RocketAcceleration"		"500"
 			"RocketWobble"				"1.00" //default 1 //previously 1.4
 			"RocketWobbleFrequency"		"0.50"
+			"Particles"
+			{
+				"DetonateParticle"		"ins_rpg_explosion"
+				"DetonateWaterParticle"	"ins_water_explosion"
+				"TrailParticle"			"rockettrail"
+				"BackblastParticle"		"ins_weapon_rpg_backblast"
+			}
+			"Sounds"
+			{
+				"DetonateSound"			"Weapon_RPG7.Hit"
+				"rocket_rpg7"			"Weapon_RPG7.Loop"
+			}
+		}
+		"rocket_at4_he"
+		{
+			"import"					"rocket_at4"
+
+			"Model"						"models/weapons/w_at4_projectile.mdl"
+			"DetonateDamage"			"273"	//previously 250
+			"DetonateDamageRadius"		"1562" //15% red //previously 1000
+			"DetonatePenetrationRadius" "156"  //25% reduction //previously 250
+			
+			"RocketTopSpeed"			"1500" // you cannot go faster than 3500
+			"RocketStartSpeed"			"125" // default 200
+			"RocketAcceleration"		"250"
+			
+			"Particles"
+			{
+				"DetonateParticle"			"ins_c4_explosion"
+				"DetonateWaterParticle"		"ins_water_explosion"
+				"TrailParticle"			"rockettrail"
+				"BackblastParticle"		"ins_weapon_rpg_backblast"
+			}
+			"Sounds"
+			{
+				"DetonateSound"			"Weapon_RPG7.Hit"
+				"rocket_rpg7"			"Weapon_RPG7.Loop"
+			}
+		}
+		"rocket_at4_pe"
+		{
+			"import"					"rocket_at4"
+
+			"Model"						"models/weapons/w_at4_projectile.mdl"
+			"DetonateDamage"			"456"	//previously 250
+			"DetonateDamageRadius"		"937" //15% red //previously 1000
+			"DetonatePenetrationRadius" "936"  //25% reduction //previously 250
+			
+			"RocketTopSpeed"			"3500" // you cannot go faster than 3500
+			"RocketStartSpeed"			"500" // default 200
+			"RocketAcceleration"		"1000"
+			
 			"Particles"
 			{
 				"DetonateParticle"		"ins_rpg_explosion"
@@ -11841,6 +12037,124 @@
 				"rocket_rpg7"				"Weapon_RPG7.Loop"
 			}
 		}
+		"grenade_in_rpg"
+		{
+			"import"					"baseGrenade"
+			"Model"						"models/weapons/w_rpg7_projectile.mdl"
+			"entity_class"				"grenade_aoe"
+			"DamageType"				"DMG_BURN, DMG_PREVENT_PHYSICS_FORCE"
+			"DetonateDamage"			"129"	// det damage is for when it first goes off
+			"DetonatePenetrationRadius"	"140"
+			"DetonateDamageRadius"		"356"
+			"SuppressionIncrement"		"725"
+			"FuseTime"					"-1"
+			"DetonateUnderwater"		"0"
+			"Cookable"					"1"
+			"VisibilityTimer"			"14"
+			"ShakeAmplitude"			"1450"
+			"ImpactDetonation"			"1"
+			"Deafen"					"0"
+			
+			"AreaDamageTime"			"30"
+			"AreaDamageFrequency"		"0.1"
+			"AreaDamageMinRadius"		"150"
+			"AreaDamageMaxRadius"		"350"
+			"AreaDamageGrowSpeed"		"50"
+			"AreaDamageAmount"			"90"
+			
+			"UseVPhysics"				"0"
+			
+			"Health"					"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"			""
+				"DetonateWaterParticle"		""
+				"BroadcastAll"				"1"
+			}
+			"Sounds"
+			{
+				"DetonateSound"				""
+			}
+		}
+		"rocket_rpg_in"
+		{
+			"import"					"rocket_rpg7"
+			
+			"DetonateDamage"			"0"
+			"DetonateDamageRadius"		"0"
+			"DetonatePenetrationRadius"	"0"
+			
+			"RocketSpawnedGrenade"		"grenade_in_rpg"
+			
+			"Particles"
+			{
+				"DetonateParticle"		""
+				"DetonateWaterParticle" ""
+			}
+			"Sounds"
+			{
+				"DetonateSound"				"Weapon_RPG7.Hit"
+				"DetonateWaterSound"		"Weapon_RPG7.HitWater"
+				"rocket_rpg7"				"Weapon_RPG7.Loop"			
+			}
+		}
+		"rocket_rpg7_he"
+		{
+			"import"					"rocket_rpg7"
+
+			"Model"						"models/weapons/w_rpg7_projectile.mdl"
+			"DetonateDamage"			"258"
+			"DetonateDamageRadius"		"1187" //15% red
+			"DetonatePenetrationRadius" "281"  //25% reduction
+			
+			"RocketTopSpeed"			"1625" // you cannot go faster than 3500
+			"RocketStartSpeed"			"125"
+			"RocketAcceleration"		"250"
+			
+			"Particles"
+			{
+				"DetonateParticle"		"ins_c4_explosion"
+				"DetonateWaterParticle"	"ins_water_explosion"
+				"TrailParticle"			"rockettrail"
+				"BackblastParticle"		"ins_weapon_rpg_backblast"
+			}
+			"Sounds"
+			{
+				"DetonateSound"				"Weapon_RPG7.Hit"
+				"DetonateWaterSound"		"Weapon_RPG7.HitWater"
+				"rocket_rpg7"				"Weapon_RPG7.Loop"
+			}
+		}
+		"rocket_rpg7_pe"
+		{
+			"import"					"rocket_rpg7"
+
+			"Model"						"models/weapons/w_rpg7_projectile.mdl"
+			"DetonateDamage"			"431"
+			"DetonateDamageRadius"		"712"  //15% red
+			"DetonatePenetrationRadius" "750"  //25% reduction
+			
+			"RocketTopSpeed"			"3500" // you cannot go faster than 3500
+			"RocketStartSpeed"			"500"
+			"RocketAcceleration"		"1000"
+			
+			"Particles"
+			{
+				"DetonateParticle"		"ins_rpg_explosion"
+				"DetonateWaterParticle"	"ins_water_explosion"
+				"TrailParticle"			"rockettrail"
+				"BackblastParticle"		"ins_weapon_rpg_backblast"
+			}
+			"Sounds"
+			{
+				"DetonateSound"				"Weapon_RPG7.Hit"
+				"DetonateWaterSound"		"Weapon_RPG7.HitWater"
+				"rocket_rpg7"				"Weapon_RPG7.Loop"
+			}
+		}
 		"rocket_law"
 		{
 			"entity_class"				"rocket"
@@ -11848,14 +12162,92 @@
 			"DetonateDamage" 			"295"
 			"DetonateDamageRadius"		"750" 
 			"DetonatePenetrationRadius" "187"
-			"SuppressionIncrement"		"250"
 			"SuppressionIncrement"		"500"
 			"ShakeAmplitude"			"1150"
 			"RocketTopSpeed" 			"3500" // you cannot go faster than 3500
-			"RocketStartSpeed" 			"250" // default 200
+			"RocketStartSpeed" 			"250"  // default 200
 			"RocketAcceleration" 		"500"
 			"RocketWobble" 				"1.40" //default 1
 			"RocketWobbleFrequency" 	"0.30"
+			"Particles"
+			{
+				"DetonateParticle"		"ins_rpg_explosion"
+				"DetonateWaterParticle"	"ins_water_explosion"
+				"TrailParticle"			"rockettrail"
+				"BackblastParticle"		"ins_weapon_rpg_backblast"
+			}
+			"Sounds"
+			{
+				"DetonateSound"			"Weapon_RPG7.Hit"
+				"rocket_rpg7"			"Weapon_RPG7.Loop"
+			}
+		}
+		"rocket_law_he"
+		{
+			"import"					"rocket_law"
+
+			"Model"						"models/weapons/w_law_projectile.mdl"
+			"DetonateDamage" 			"221"
+			"DetonateDamageRadius"		"937" 
+			"DetonatePenetrationRadius" "94"
+			
+			"RocketTopSpeed" 			"1750" // you cannot go faster than 3500
+			"RocketStartSpeed" 			"125"  // default 200
+			"RocketAcceleration" 		"250"
+			
+			"Particles"
+			{
+				"DetonateParticle"		"ins_c4_explosion"
+				"DetonateWaterParticle"	"ins_water_explosion"
+				"TrailParticle"			"rockettrail"
+				"BackblastParticle"		"ins_weapon_rpg_backblast"
+			}
+			"Sounds"
+			{
+				"DetonateSound"			"Weapon_RPG7.Hit"
+				"rocket_rpg7"			"Weapon_RPG7.Loop"
+			}
+		}
+		"rocket_law_pe"
+		{
+			"import"					"rocket_law"
+
+			"Model"						"models/weapons/w_law_projectile.mdl"
+			"DetonateDamage" 			"368"
+			"DetonateDamageRadius"		"563" 
+			"DetonatePenetrationRadius" "561"
+			
+			"RocketTopSpeed" 			"3500" // you cannot go faster than 3500
+			"RocketStartSpeed" 			"500"  // default 200
+			"RocketAcceleration" 		"1000"
+			
+			"Particles"
+			{
+				"DetonateParticle"		"ins_rpg_explosion"
+				"DetonateWaterParticle"	"ins_water_explosion"
+				"TrailParticle"			"rockettrail"
+				"BackblastParticle"		"ins_weapon_rpg_backblast"
+			}
+			"Sounds"
+			{
+				"DetonateSound"			"Weapon_RPG7.Hit"
+				"rocket_rpg7"			"Weapon_RPG7.Loop"
+			}
+		}
+		"rocket_grenade"
+		{
+			"entity_class"				"rocket"
+			"Model"						"models/weapons/w_flare_projectile.mdl"
+			"DetonateDamage" 			"245"
+			"DetonateDamageRadius"		"375" 
+			"DetonatePenetrationRadius" "93"
+			"SuppressionIncrement"		"500"
+			"ShakeAmplitude"			"625"
+			"RocketTopSpeed" 			"3500" // you cannot go faster than 3500
+			"RocketStartSpeed" 			"250" // default 200
+			"RocketAcceleration" 		"500"
+			"RocketWobble" 				"1.70" //default 1
+			"RocketWobbleFrequency" 	"0.60"
 			"Particles"
 			{
 				"DetonateParticle"		"ins_rpg_explosion"

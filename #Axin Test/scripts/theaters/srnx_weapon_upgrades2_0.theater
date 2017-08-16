@@ -20,7 +20,7 @@
 			"draw_speed"				"0.925"
 			
 			"magsize_override"			"15"
-			"maxcarry_override"			"7"
+			"maxcarry_override"			"10"
 
 			"allowed_weapons"
 			{
@@ -140,7 +140,7 @@
 			"draw_speed"				"0.925"
 			
 			"magsize_override" 			"18"
-			"maxcarry_override"			"7"
+			"maxcarry_override"			"10"
 			
 			"allowed_weapons"
 			{
@@ -188,7 +188,8 @@
 			"reload_speed"				"0.95"
 			"draw_speed"				"0.925"
 			
-			"magsize_override" "33"
+			"magsize_override" 			"33"
+			"maxcarry_override"			"10"
 			
 			"allowed_weapons"
 			{
@@ -258,7 +259,7 @@
 			"print_desc"				"#weapon_upgrade_30_magazine_extended_dy_desc"
 
 			"magsize_override"			"30"
-			"maxcarry_override"			"7"
+			"maxcarry_override"			"10"
 			
 			"reload_speed"				"0.95"
 			"draw_speed"				"0.925"
@@ -300,7 +301,7 @@
 			"print_desc"				"#weapon_upgrade_30_magazine_extended_dy_desc"
 
 			"magsize_override"			"30"
-			"maxcarry_override"			"5"
+			"maxcarry_override"			"10"
 			
 			"reload_speed"				"0.90"
 			"draw_speed"				"0.95"
@@ -344,7 +345,7 @@
 			"print_desc"				"#weapon_upgrade_15_magazine_extended_dy_desc"
 
 			"magsize_override"			"15"
-			"maxcarry_override"			"7"
+			"maxcarry_override"			"12"
 			
 			"reload_speed"				"1.10"
 			"draw_speed"				"1.15"
@@ -388,7 +389,7 @@
 			"print_desc"				"#weapon_upgrade_5s_magazine_extended_dy_desc"
 
 			"magsize_override"			"5"
-			"maxcarry_override"			"7"
+			"maxcarry_override"			"12"
 			
 			"reload_speed"				"1.25"
 			"draw_speed"				"1.20"
@@ -411,7 +412,7 @@
 			"print_desc"				"#weapon_upgrade_20s_magazine_extended_dy_desc"
 
 			"magsize_override"			"20"
-			"maxcarry_override"			"5"
+			"maxcarry_override"			"10"
 			
 			"reload_speed"				"0.75"
 			"draw_speed"				"0.80"
@@ -434,7 +435,7 @@
 			"print_desc"				"#weapon_upgrade_20_magazine_extended_dy_desc"
 
 			"magsize_override"			"20"
-			"maxcarry_override"			"7"
+			"maxcarry_override"			"12"
 			
 			"reload_speed"				"1.10"
 			"draw_speed"				"1.15"
@@ -466,7 +467,7 @@
 			"print_desc"				"#weapon_upgrade_40_magazine_extended_dy_desc"
 
 			"magsize_override"			"40"
-			"maxcarry_override"			"5"
+			"maxcarry_override"			"10"
 			
 			"reload_speed"				"0.925"
 			"draw_speed"				"0.95"
@@ -497,7 +498,7 @@
 			"print_desc"				"#weapon_upgrade_30u_magazine_extended_dy_desc"
 
 			"magsize_override"			"30"
-			"maxcarry_override"			"5"
+			"maxcarry_override"			"10"
 			
 			"reload_speed"				"0.95"
 			"draw_speed"				"0.975"
@@ -519,7 +520,7 @@
 			"print_desc"				"#weapon_upgrade_30_magazine_extended_dy_desc"
 
 			"magsize_override"			"30"
-			"maxcarry_override"			"6"
+			"maxcarry_override"			"10"
 			
 			"reload_speed"				"0.95"
 			"draw_speed"				"0.975"
@@ -539,7 +540,7 @@
 			"print_desc"				"#weapon_upgrade_20_magazine_extended_dy_desc"
 
 			"magsize_override"			"20"
-			"maxcarry_override"			"7"
+			"maxcarry_override"			"12"
 			
 			"reload_speed"				"1.10"
 			"draw_speed"				"1.15"
@@ -560,7 +561,7 @@
 			"print_desc"				"#weapon_upgrade_35_magazine_extended_dy_desc"
 			
 			"magsize_override"			"35"
-			"maxcarry_override"			"5"
+			"maxcarry_override"			"10"
 			
 			"reload_speed"				"0.95"
 			"draw_speed"				"0.875"
@@ -606,7 +607,7 @@
 			"print_desc"				"#weapon_upgrade_45_magazine_extended_dy_desc"
 
 			"magsize_override"			"45"
-			"maxcarry_override"			"5"
+			"maxcarry_override"			"8"
 			
 			"reload_speed"				"0.90"
 			"draw_speed"				"0.85"
@@ -652,7 +653,7 @@
 			"print_desc"				"#weapon_upgrade_25_magazine_extended_dy_desc"
 			
 			"magsize_override"			"25"
-			"maxcarry_override"			"7"
+			"maxcarry_override"			"12"
 			
 			"reload_speed"				"1.10"
 			"draw_speed"				"1.15"
@@ -688,7 +689,7 @@
 			"print_desc"				"#weapon_upgrade_35r_magazine_extended_dy_desc"
 
 			"magsize_override"			"35"
-			"maxcarry_override"			"6"
+			"maxcarry_override"			"10"
 			
 			"reload_speed"				"0.95"
 			"draw_speed"				"0.90"
@@ -725,7 +726,7 @@
 			"print_desc"				"#weapon_upgrade_42_magazine_extended_dy_desc"
 
 			"magsize_override"			"42"
-			"maxcarry_override"			"5"
+			"maxcarry_override"			"8"
 			
 			"reload_speed"				"0.92"
 			"draw_speed"				"0.93"
@@ -746,6 +747,7 @@
 			"print_desc"				"#weapon_upgrade_saiga12_magazine_extended_dy_desc"
 
 			"magsize_override"			"15"
+			//"maxcarry_override"			"5"
 			
 			"reload_speed"				"0.90"
 			"draw_speed"				"0.95"
@@ -1082,7 +1084,7 @@
 			"print_desc"				"#weapon_upgrade_75r_magazine_extended_dy_desc"
 			
 			"magsize_override"			"75"
-			"maxcarry_override"			"4"
+			"maxcarry_override"			"6"
 			
 			"reload_speed"				"0.90"
 			"draw_speed"				"0.80"
@@ -1114,52 +1116,52 @@
 				}			
 			}
 		}
-		"magazine_drum_150rd"
-		{
-			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"0"
-			"class_restricted"			"1"
-			"team_acces"				"security, insurgent"
-			"weight"					"30"
+		//"magazine_drum_150rd"
+		//{
+		//	"upgrade_slot"				"magazine"
+		//	"upgrade_cost"				"0"
+		//	"class_restricted"			"1"
+		//	"team_acces"				"security, insurgent"
+		//	"weight"					"30"
+		//	
+		//	"print_name"				"#weapon_upgrade_150r_magazine_drum"
+		//	"print_desc"				"#weapon_upgrade_150r_magazine_extended_dy_desc"
+		//	
+		//	"magsize_override"			"150"
+			//"maxcarry_override"			"3"
 			
-			"print_name"				"#weapon_upgrade_150r_magazine_drum"
-			"print_desc"				"#weapon_upgrade_150r_magazine_extended_dy_desc"
-			
-			"magsize_override"			"150"
-			"maxcarry_override"			"3"
-			
-			"reload_speed"				"0.75"
-			"draw_speed"				"0.80"
-
-			"allowed_weapons"
-			{
-				"weapon"				"weapon_rpk"
-				"weapon"				"weapon_rpk74m"
-			}
-		}
-		"magazine_drum_50rd"
-		{
-			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"0"
-			"class_restricted"			"1"
-			"team_acces"				"security, insurgent"
-			"weight"					"-20"
-			
-			"print_name"				"#weapon_upgrade_50r_magazine_drum"
-			"print_desc"				"#weapon_upgrade_50r_magazine_extended_dy_desc"
-			
-			"magsize_override"			"50"
-			"maxcarry_override"			"6"
-			
-			"reload_speed"				"1.25"
-			"draw_speed"				"1.10"
-
-			"allowed_weapons"
-			{
-				"weapon"				"weapon_rpk"
-				"weapon"				"weapon_rpk74m"
-			}
-		}
+		//	"reload_speed"				"0.75"
+		//	"draw_speed"				"0.80"
+		//
+		//	"allowed_weapons"
+		//	{
+		//		"weapon"				"weapon_rpk"
+		//		"weapon"				"weapon_rpk74m"
+		//	}
+		//}
+		//"magazine_drum_50rd"
+		//{
+		//	"upgrade_slot"				"magazine"
+		//	"upgrade_cost"				"0"
+		//	"class_restricted"			"1"
+		//	"team_acces"				"security, insurgent"
+		//	"weight"					"-20"
+		//	
+		//	"print_name"				"#weapon_upgrade_50r_magazine_drum"
+		//	"print_desc"				"#weapon_upgrade_50r_magazine_extended_dy_desc"
+		//	
+		//	"magsize_override"			"50"
+		//	//"maxcarry_override"			"6"
+		//	
+		//	"reload_speed"				"1.25"
+		//	"draw_speed"				"1.10"
+		//
+		//	"allowed_weapons"
+		//	{
+		//		"weapon"				"weapon_rpk"
+		//		"weapon"				"weapon_rpk74m"
+		//	}
+		//}
 		"magazine_extended_lmg_50rd"
 		{
 			"upgrade_slot"				"magazine"
@@ -1171,7 +1173,7 @@
 			"print_desc"				"#weapon_upgrade_50_magazine_extended_dy_desc"
 
 			"magsize_override"			"50"
-			"maxcarry_override"			"6"
+			"maxcarry_override"			"10"
 			
 			"reload_speed"				"1.25"
 			"draw_speed"				"1.10"
@@ -1193,7 +1195,7 @@
 			"print_desc"				"#weapon_upgrade_100_magazine_extended_dy_desc"
 
 			"magsize_override"			"100"
-			"maxcarry_override"			"5"
+			//"maxcarry_override"			"8"
 			
 			"reload_speed"				"1.25"
 			"draw_speed"				"1.10"
@@ -1237,7 +1239,7 @@
 			"print_desc"				"#weapon_upgrade_75_magazine_extended_dy_desc"
 
 			"magsize_override"			"75"
-			"maxcarry_override"			"6"
+			"maxcarry_override"			"8"
 			
 			"reload_speed"				"1.25"
 			"draw_speed"				"1.10"
@@ -1281,7 +1283,7 @@
 			"print_desc"				"#weapon_upgrade_50_magazine2_extended_dy_desc"
 
 			"magsize_override"			"50"
-			"maxcarry_override"			"6"
+			"maxcarry_override"			"8"
 			
 			"reload_speed"				"1.25"
 			"draw_speed"				"1.10"
@@ -1302,9 +1304,9 @@
 			"class_restricted"			"1"
 			"team_acces"				"security, insurgent"
 			"weight"					"18" // Rough estimate of ammo weight + gameplay
-			"magsize_override"			"50"
 			
-			"maxcarry_override"			"5"
+			"magsize_override"			"50"
+			"maxcarry_override"			"8"
 			
 			"reload_speed"				"0.90"
 			"draw_speed"				"0.95"
@@ -1348,7 +1350,7 @@
 			
 			"magsize_override"			"75"
 			
-			"maxcarry_override"			"4"
+			"maxcarry_override"			"6"
 			
 			"reload_speed"				"0.80"
 			"draw_speed"				"0.90"
@@ -9661,6 +9663,124 @@
 			"ammo_type_override"			"762x38_ap_box"
 		}
 		// ========================================
+		// ROCKETS & WARHEAD & GRENADES(EXPENSIVE)
+		// ========================================
+		//RPG-7
+		"magazine_rpg_he"
+		{
+			"upgrade_slot"				"ammo"
+			"upgrade_cost"				"0"
+			"weight"					"24" // Rough estimate of ammo weight + gameplay
+			
+			"print_name"				"#weapon_upgrade_rpg_he"
+			"print_desc"				"#weapon_upgrade_rpg_he_desc"
+			
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_rpg7"
+			}
+			
+			"explosive_override"			"rocket_rpg7_he"
+		}
+		//"magazine_rpg_in"
+		//{
+		//	"upgrade_slot"				"magazine"
+		//	"upgrade_cost"				"0"
+		//	"weight"					"6" // Rough estimate of ammo weight + gameplay
+		//	
+		//	"print_name"				"#weapon_upgrade_rpg_in"
+		//	"print_desc"				"#weapon_upgrade_rpg_in_desc"
+		//	
+		//	"allowed_weapons"
+		//	{
+		//		"weapon"					"weapon_rpg7"
+		//	}
+		//	
+		//	"explosive_override"			"rocket_rpg7_in"
+		//}
+		"magazine_rpg_pe"
+		{
+			"upgrade_slot"				"ammo"
+			"upgrade_cost"				"0"
+			"weight"					"12" // Rough estimate of ammo weight + gameplay
+			
+			"print_name"				"#weapon_upgrade_rpg_pe"
+			"print_desc"				"#weapon_upgrade_rpg_pe_desc"
+			
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_rpg7"
+			}
+			
+			"explosive_override"			"rocket_rpg7_pe"
+		}
+		//AT-4
+		"magazine_at4_he"
+		{
+			"upgrade_slot"				"ammo"
+			"upgrade_cost"				"0"
+			"weight"					"38" // Rough estimate of ammo weight + gameplay
+			
+			"print_name"				"#weapon_upgrade_at4_he"
+			"print_desc"				"#weapon_upgrade_at4_he_desc"
+			
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_at4"
+			}
+			
+			"explosive_override"			"rocket_at4_he"
+		}
+		"magazine_at4_pe"
+		{
+			"upgrade_slot"				"ammo"
+			"upgrade_cost"				"0"
+			"weight"					"18" // Rough estimate of ammo weight + gameplay
+			
+			"print_name"				"#weapon_upgrade_at4_pe"
+			"print_desc"				"#weapon_upgrade_at4_pe_desc"
+			
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_at4"
+			}
+			
+			"explosive_override"			"rocket_at4_pe"
+		}
+		//LAW
+		"magazine_law_he"
+		{
+			"upgrade_slot"				"ammo"
+			"upgrade_cost"				"0"
+			"weight"					"18" // Rough estimate of ammo weight + gameplay
+			
+			"print_name"				"#weapon_upgrade_law_he"
+			"print_desc"				"#weapon_upgrade_law_he_desc"
+			
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_law"
+			}
+			
+			"explosive_override"			"rocket_law_he"
+		}
+		"magazine_law_pe"
+		{
+			"upgrade_slot"				"ammo"
+			"upgrade_cost"				"0"
+			"weight"					"9" // Rough estimate of ammo weight + gameplay
+			
+			"print_name"				"#weapon_upgrade_law_pe"
+			"print_desc"				"#weapon_upgrade_law_pe_desc"
+			
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_law"
+			}
+			
+			"explosive_override"			"rocket_law_pe"
+		}
+		// ========================================
 		// NON-SPECIFIC UPGRADES (EXPENSIVE)
 		// ========================================
 		"underbarrel_foregrip_ins1"
@@ -11407,6 +11527,25 @@
 			}
 		}
 		
+		//"underbarrel_m203_rt"
+		//{
+		//	"import"					"underbarrel_m203_base"
+		//	"upgrade_cost"					"0"
+		//	"class_restricted"				"1"
+		//	"weight"						"22"
+		//	"print_name"				"#weapon_m203_dy_rt"
+		//	"print_desc"				"#weapon_m203_dy_rt_desc"
+		//	"attach_weapon"				"weapon_m203_rt"
+		//	
+		//	"viewmodel_attachments"
+		//	{
+		//		"Launcher"
+		//		{
+		//			"skin"					"0"
+		//		}
+		//	}
+		//}
+		
 		"underbarrel_m203_shg"
 		{
 			"import"				"underbarrel_m203_base"
@@ -11574,6 +11713,32 @@
 				}
 			}
 		}
+		
+		//"underbarrel_m320_rt"
+		//{
+		//	"import"				"underbarrel_m320_base"
+		//	"upgrade_cost"					"0"
+		//	"class_restricted"				"1"
+		//	"weight"						"18"
+		//	"print_name"				"#weapon_m320_dy_rt"
+		//	"print_desc"				"#weapon_m320_dy_rt_desc"
+		//	"attach_weapon"				"weapon_m320_rt"
+		//	"Launcher"
+		//	{
+		//		"model"					"models/weapons/upgrades/a_sa_m203.mdl"
+		//		"Gesture"				"delta_gl"
+		//		"ActSuffix"				"_GL"
+		//		"Main"					"1"
+		//	}
+		//	"viewmodel_attachments"
+		//	{
+		//		"Launcher"
+		//		{
+		//			"skin"					"0"
+		//		}
+		//	}
+		//}
+		
 		"underbarrel_m320_shg"
 		{
 			"import"				"underbarrel_m320_base"
@@ -11763,6 +11928,30 @@
 				"weapon"		"weapon_vz58"
 			}
 		}
+		
+		//"underbarrel_gp25_rt"
+		//{
+		//	"import"				"underbarrel_gp25_base"
+		//	"upgrade_cost"					"0"
+		//	"class_restricted"				"1"
+		//	"print_name"				"#weapon_gp25_dy_rt"
+		//	"print_desc"				"#weapon_gp25_dy_rt_desc"
+		//	"attach_weapon"				"weapon_gp25_he"
+		//	
+		//	"viewmodel_attachments"
+		//	{
+		//		"Launcher"
+		//		{
+		//			"skin"					"0"
+		//		}
+		//	}
+		//	"allowed_weapons"
+		//	{
+		//		"weapon"		"weapon_akm"
+		//		"weapon"		"weapon_ak74"
+		//		"weapon"		"weapon_vz58"
+		//	}
+		//}
 		
 		"underbarrel_gp25_shg"
 		{
