@@ -3117,7 +3117,7 @@
 				"spread"					"0.432 0.432 0.432"
 				"FireModes"					"semi"
 				"bulletcount"				"1"
-				"maxrange"					"6000"
+				"maxrange"					"8000"
 			}
 			"ammo_clip"
 			{
@@ -3217,7 +3217,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"5.7x28"
-				"clip_max_rounds"			"16"
+				"clip_max_rounds"			"21"
 				"clip_default"				"0"
 			}
 			"attachments"
@@ -3292,7 +3292,7 @@
 			{
 				"recoil_lateral_range"			"-0.8 1.0"
 				"recoil_vertical_range"			"1.0 2.6"
-				"recoil_aim_punch"			"0.5 0.8"
+				"recoil_aim_punch"			"0.7 0.8"
 				"recoil_rest_rate"			"4"
 				"recoil_rest_delay"			"0.18"
 				"recoil_roll_range"			"-0.6 -0.6"
@@ -3302,7 +3302,7 @@
 			}
 			"ballistics"
 			{
-				"spread"				"0.25 0.25 0.25"
+				"spread"				"0.5 0.5 0.5"
 				"FireModes"				"semi"
 				"bulletcount"			"1"
 				"maxrange"				"8000"
@@ -3313,7 +3313,7 @@
 				"ammo_type"				"38special"
 				"clip_max"				"8"
 				"clip_max_rounds"		"6"
-				"clip_default"			"1"
+				"clip_default"			"0"
 				"lose_rounds_reload"	"1"
 			}
 			"attachments"
@@ -3710,12 +3710,13 @@
 			"weapon_slot"				"secondary"
 			"act_table"					"pistol"
 			"weapon_abilities"			"ironsight"
-			"weapon_weight"				"11"	// (0.7kg[weapon] + (0.1kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +2[encumbrance]
+			"weapon_weight"				"16"	// (0.7kg[weapon] + (0.1kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +2[encumbrance]
 			"weapon_cost"				"0"
 			"class_restricted"			"0"
 			"barrel_length"				"16"
 			
 			"reload_speed"					"1.20"
+			"holster_speed"					"1.075"
 			"draw_speed"					"1.15"
 			
 			"viewmodel_attachments"
@@ -3789,9 +3790,10 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"				"45acp_pistol"
-				"clip_max"				"8"
-				"clip_max_rounds"			"8"
+				"ammo_type"					"45acp_pistol"
+				"magsize_override"			"15"
+				"clip_max"					"12"
+				"clip_max_rounds"			"15"
 				"clip_default"				"0"
 			}
 			"attachments"
@@ -3817,11 +3819,11 @@
 			"print_desc"				"#weapon_glock18_desc"
 			"view_model"				"models/weapons/v_glock18.mdl"
 			"world_model"				"models/weapons/w_glock18.mdl"
-			"rounds_per_minute"			"1150"
+			"rounds_per_minute"			"1200"
 			"weapon_slot"				"secondary"
 			"act_table"				"pistol"
 			"weapon_abilities"			"ironsight"
-			"weapon_weight"				"8"	// (0.7kg[weapon] + (0.1kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +2[encumbrance]
+			"weapon_weight"				"14"	// (0.7kg[weapon] + (0.1kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +2[encumbrance]
 			"weapon_cost"				"0"
 			"class_restricted"			"0"
 			"barrel_length"				"10"
@@ -3900,9 +3902,10 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"9x19mm"
-				"clip_max"				"8"
-				"clip_max_rounds"			"17"
-				"clip_default"				"1"
+				"magsize_override"			"15"
+				"clip_max"					"12"
+				"clip_max_rounds"			"15"
+				"clip_default"				"0"
 			}
 			"attachments"
 			{
@@ -4019,7 +4022,7 @@
 				"magsize_override"			"12"
 				"clip_max"				"8"
 				"clip_max_rounds"			"12"
-				"clip_default"				"1"
+				"clip_default"				"0"
 			}
 			"attachments"
 			{
@@ -4090,7 +4093,7 @@
 			"recoil"
 			{
 				"recoil_lateral_range"			"-1.0 1.25"
-				"recoil_vertical_range"			"2.15 3.05"
+				"recoil_vertical_range"			"2.25 3.05"
 				"recoil_aim_punch"			"0.4 0.6"
 				"recoil_rest_rate"			"4"
 				"recoil_rest_delay"			"0.12"
@@ -4101,7 +4104,7 @@
 			}
 			"ballistics"
 			{
-				"spread"				"0.35 0.35 0.35"
+				"spread"				"0.45 0.45 0.45"
 				"FireModes"				"semi"
 				"bulletcount"			"1"
 				"maxrange"				"11000"
@@ -4112,7 +4115,7 @@
 				"ammo_type"				"357sw"
 				"clip_max"				"8"
 				"clip_max_rounds"		"6"
-				"clip_default"			"1"
+				"clip_default"			"0"
 				"lose_rounds_reload"	"1"
 			}
 			"attachments"
@@ -4195,7 +4198,7 @@
 			}
 			"ballistics"
 			{
-				"spread"				"0.4 0.4 0.4"
+				"spread"				"0.3 0.3 0.3"
 				"FireModes"				"semi"
 				"bulletcount"			"1"
 				"maxrange"				"11000"
@@ -4206,7 +4209,7 @@
 				"ammo_type"				"357sw"
 				"clip_max"				"8"
 				"clip_max_rounds"		"6"
-				"clip_default"			"1"
+				"clip_default"			"0"
 				"lose_rounds_reload"	"1"
 			}
 			"attachments"
@@ -4398,7 +4401,7 @@
 			"recoil"
 			{
 				"recoil_lateral_range"				"-0.65 0.65"
-				"recoil_vertical_range"				"0.875 1.175"
+				"recoil_vertical_range"				"0.875 1.875"
 				"recoil_aim_punch"					"0.4 0.8"
 				"recoil_rest_rate"					"5"
 				"recoil_rest_delay"					"0.12"
@@ -4557,7 +4560,7 @@
 			"print_desc"					"#weapon_mk18g_desc"
 			"view_model"					"models/weapons/v_mk18.mdl"
 			"world_model"					"models/weapons/w_mk18.mdl"
-			"rounds_per_minute"				"740" // def 740
+			"rounds_per_minute"				"950" // def 740
 			"weapon_slot"					"primary"
 			"act_table"						"shortrifle"
 			"weapon_abilities"				"ironsight"
@@ -4750,7 +4753,7 @@
 			}
 			"ballistics"
 			{
-				"spread"					"0.02 0.02 0.02"
+				"spread"					"0.20 0.20 0.20"
 				"FireModes"					"semi, burst, full"
 				"bulletcount"				"1"
 				"maxrange"					"16000"
@@ -4857,8 +4860,8 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"		"-0.8 1.05"
-				"recoil_vertical_range"		"1.2 1.6"
+				"recoil_lateral_range"		"-0.75 0.875"
+				"recoil_vertical_range"		"1.0 1.2"
 				"recoil_aim_punch"					"0.4 0.7"
 				"recoil_rest_rate"					"5"
 				"recoil_rest_delay"					"0.12"
@@ -4969,7 +4972,7 @@
 			"recoil"
 			{
 				"recoil_lateral_range"			"-1 1.2"
-				"recoil_vertical_range"			"1.9 2.7"
+				"recoil_vertical_range"			"1.35 1.95"
 				"recoil_aim_punch"				"0.4 0.7"
 				"recoil_rest_rate"				"5"
 				"recoil_rest_delay"				"0.12"
@@ -5079,7 +5082,7 @@
 			"recoil"
 			{
 				"recoil_lateral_range"			"-1 1.2"
-				"recoil_vertical_range"			"1.9 2.7"
+				"recoil_vertical_range"			"1.25 1.95"
 				"recoil_aim_punch"				"0.4 0.7"
 				"recoil_rest_rate"				"5"
 				"recoil_rest_delay"				"0.12"
@@ -5184,7 +5187,7 @@
 			"recoil"
 			{
 				"recoil_lateral_range"				"-0.75 1.00"
-				"recoil_vertical_range"				"2.275 2.625"
+				"recoil_vertical_range"				"1.275 2.125"
 				"recoil_aim_punch"					"0.4 0.7"
 				"recoil_rest_rate"					"7"
 				"recoil_rest_delay"					"0.12"
@@ -5288,7 +5291,7 @@
 			"recoil"
 			{
 				"recoil_lateral_range"				"-0.65 0.80"
-				"recoil_vertical_range"				"1.5 1.95"
+				"recoil_vertical_range"				"1.25 2.15"
 				"recoil_aim_punch"					"0.5 0.7"
 				"recoil_rest_rate"					"7"
 				"recoil_rest_delay"					"0.12"
@@ -5302,7 +5305,7 @@
 			}
 			"ballistics"
 			{
-				"spread"					"0.2 0.2 0.2"
+				"spread"					"0.23 0.23 0.23"
 				"FireModes"					"semi, full"
 				"bulletcount"				"1"
 				"maxrange"					"16000"
@@ -5381,7 +5384,7 @@
 			{
 
 				"recoil_lateral_range"				"-0.65 0.90"
-				"recoil_vertical_range"				"1.5 1.8"
+				"recoil_vertical_range"				"1.25 1.8"
 				"recoil_aim_punch"					"0.4 0.7"
 				"recoil_rest_rate"				"5"
 				"recoil_rest_delay"				"0.15"
@@ -5396,7 +5399,7 @@
 			}
 			"ballistics"
 			{
-				"spread"				"0.20 0.20 3.20"
+				"spread"				"0.24 0.24 0.24"
 				"FireModes"				"semi, full"
 				"bulletcount"			"1"
 				"maxrange"				"16000"
@@ -5485,18 +5488,18 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"				"-1.25 1.15"
-				"recoil_vertical_range"				"2.465 2.725"
-				"recoil_aim_punch"					"0.7 1.0"
-				"recoil_rest_rate"					"6"
-				"recoil_rest_delay"					"0.18"
+				"recoil_lateral_range"				"-0.15 0.42"
+				"recoil_vertical_range"				"1.46 2.16"
+				"recoil_aim_punch"					"0.65 0.87"
+				"recoil_rest_rate"					"9"
+				"recoil_rest_delay"					"0.12"
 				"recoil_roll_range"					"-0.6 -0.6"
 				"recoil_roll_rest_rate"				"190"
 				
-				"recoil_additional_rest_per_shot" 	"3.7"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_additional_rest_per_shot" 	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
 				"recoil_shot_reset_time" 			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
-				"recoil_shot_max_shots" 			"5"		// Max number of shots to account for for the additional rest (default = 5)
-				"recoil_punch_additive_factor" 		"0.9"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				"recoil_shot_max_shots" 			"6"		// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor" 		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
 			}
 			"ballistics"
 			{
@@ -5619,7 +5622,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"					"762x51_mag"
+				"ammo_type"					"762x51_box_20rnd"
 				"clip_max"					"7"
 				"clip_max_rounds"			"20"
 				"clip_default"				"0"
@@ -5828,7 +5831,7 @@
 			}
 			"ballistics"
 			{
-				"spread"					".03 .02 .01"
+				"spread"					"0.13 0.13 0.13"
 				"FireModes"					"semi, full"
 				"bulletcount"				"1"
 				"maxrange"					"20000"
@@ -6055,8 +6058,8 @@
 			}
 			"ballistics"
 			{
-				"spread"				"0.19 0.19 0.19"
-				"FireModes"				"semi, full"
+				"spread"				"0.21 0.21 0.21"
+				"FireModes"				"semi, burst, full"
 				"bulletcount"				"1"
 				"maxrange"				"30000"
 			}
@@ -6144,7 +6147,7 @@
 			}
 			"ballistics"
 			{
-				"spread"				"0.19 0.19 0.19"
+				"spread"				"0.12 0.12 0.12"
 				"FireModes"				"semi"
 				"bulletcount"				"1"
 				"maxrange"				"30000"
@@ -6237,7 +6240,7 @@
 			}
 			"ballistics"
 			{
-				"spread"				"0.19 0.19 0.19"
+				"spread"				"0.17 0.17 0.17"
 				"FireModes"				"semi"
 				"bulletcount"				"1"
 				"maxrange"				"30000"
@@ -6335,7 +6338,7 @@
 			}
 			"ballistics"
 			{
-				"spread"				"0.22 0.22 0.22"
+				"spread"				"0.21 0.21 0.21"
 				"FireModes"				"semi, burst, full"
 				"bulletcount"				"1"
 				"maxrange"				"16000"
@@ -6626,9 +6629,9 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-0.8 0.85"
-				"recoil_vertical_range"			"1.75 2.0"
-				"recoil_aim_punch"			"0.4 0.6"
+				"recoil_lateral_range"			"-0.8 1.05"
+				"recoil_vertical_range"			"0.95 1.95"
+				"recoil_aim_punch"			"0.5 0.7"
 				"recoil_rest_rate"			"5"
 				"recoil_rest_delay"			"0.12"
 				"recoil_roll_range"			"-1.5 -1.5"
@@ -7245,7 +7248,7 @@
 			"weapon_abilities"				"ironsight"
 			"weapon_cost"					"0"
 			"weapon_weight"					"144" 
-			"barrel_length"					"49"
+			"barrel_length"					"40"
 			
 			"fov"
 			{
@@ -7277,9 +7280,9 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"				"-6.0 7.2"
-				"recoil_vertical_range"				"10.5 11.4"
-				"recoil_aim_punch"					"1.3 1.5"
+				"recoil_lateral_range"				"-4.0 5.2"
+				"recoil_vertical_range"				"8.5 9.4"
+				"recoil_aim_punch"					"1.2 1.4"
 				"recoil_rest_rate"					"7"
 				"recoil_rest_delay"					"0.18"
 				"recoil_roll_range"					"-1.8 -1.8"
@@ -7292,7 +7295,7 @@
 				
 				"RecoilBipodFracByWeight"
 				{
-					"0"						"0.6"
+					"0"						"0.4"
 				}
 			}
 			"ballistics"
@@ -7969,7 +7972,7 @@
 			"recoil"
 			{				
 				"recoil_lateral_range"				"-0.34 0.87"
-				"recoil_vertical_range"				"0.94 1.23"
+				"recoil_vertical_range"				"1.14 1.43"
 				"recoil_aim_punch"					"0.4 0.6"
 				"recoil_rest_rate"					"5"
 				"recoil_rest_delay"					"0.12"
@@ -8920,7 +8923,7 @@
 			}
 			"ballistics"
 			{
-				"spread"					"1.6 1.6 0.0"
+				"spread"					"2.15 2.15 2.15"
 				"FireModes"					"pump"
 				"maxrange"					"6000"
 				"singleReload"				"1"
@@ -9005,9 +9008,9 @@
 			}
 			"recoil"
 			{				
-				"recoil_lateral_range"				"-0.9 1.10"
-				"recoil_vertical_range"				"6.75 7.5"
-				"recoil_aim_punch"					"0.8 1.1"
+				"recoil_lateral_range"				"-1.0 1.20"
+				"recoil_vertical_range"				"7.75 8.5"
+				"recoil_aim_punch"					"0.8 1.2"
 				"recoil_rest_rate"					"24"
 				"recoil_rest_delay"					"0.15"
 				"recoil_roll_range"					"-1.50 -1.50"
@@ -9021,7 +9024,7 @@
 			}
 			"ballistics"
 			{
-				"spread"					"1.4 1.4 0.0"
+				"spread"					"2.05 2.05 2.05"
 				"FireModes"					"pump"
 				"maxrange"					"8000"
 				"singleReload"				"1"
@@ -9216,7 +9219,7 @@
 			"recoil"
 			{				
 				"recoil_lateral_range"				"-1.0 1.25"
-				"recoil_vertical_range"				"7.0 9.0"
+				"recoil_vertical_range"				"6.0 9.0"
 				"recoil_aim_punch"					"0.8 0.9"
 				"recoil_rest_rate"					"24"
 				"recoil_rest_delay"					"0.15"
@@ -9231,7 +9234,7 @@
 			}
 			"ballistics"  
 			{
-				"spread"					"1.6 1.6 0.0"
+				"spread"					"2.3 2.3 2.3"
 				"FireModes"					"pump"
 				"maxrange"					"4000"
 				"singleReload"				"1"
@@ -9327,9 +9330,9 @@
 			}
 			"recoil"
 			{				
-				"recoil_lateral_range"				"-1.0 1.25"
-				"recoil_vertical_range"				"7.75 8.5"
-				"recoil_aim_punch"					"0.5 1.6"
+				"recoil_lateral_range"				"-0.5 0.75"
+				"recoil_vertical_range"				"3.25 4.25"
+				"recoil_aim_punch"					"0.25 1.25"
 				"recoil_rest_rate"					"24"
 				"recoil_rest_delay"					"0.15"
 				"recoil_roll_range"					"-1.0 -1.25"
@@ -9342,7 +9345,7 @@
 			}
 			"ballistics"
 			{
-				"spread"			"3.0 3.0 3.0"
+				"spread"			"2.40 2.40 2.40"
 				"FireModes"			"semi, full"
 				"maxrange"			"8000"
 				"singleReload"		"0"
@@ -9433,7 +9436,7 @@
 			{
 
 				"recoil_lateral_range"			"-1.0 1.25"
-				"recoil_vertical_range"			"8.25 9.0"
+				"recoil_vertical_range"			"5.25 9.0"
 				"recoil_aim_punch"				"0.5 1.0"
 				"recoil_rest_rate"				"24"
 				"recoil_rest_delay"				"0.15"
@@ -9448,8 +9451,8 @@
 			}
 			"ballistics"
 			{
-				"spread"				"3.6 5.0 2.7"
-				"FireModes"				"semi, pump"
+				"spread"				"2.20 2.20 2.20"
+				"FireModes"				"pump, semi"
 				"maxrange"				"8000"
 				"singleReload"				"1"
 				"tacticalreload"			"1"
@@ -9549,7 +9552,7 @@
 			}
 			"ballistics"
 			{
-				"spread"				"1.5 4.2 0.0"
+				"spread"				"2.15 2.15 2.15"
 				"FireModes"				"semi"
 				"maxrange"				"8000"
 				"singleReload"			"1"
@@ -10228,7 +10231,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"					"556_m27"
+				"ammo_type"					"762x54_peg_150rnd"
 				"clip_max_rounds"			"150"
 				"clip_default"				"0"
 				"magsize_override"			"150"
@@ -10324,7 +10327,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"					"762x51_mag"
+				"ammo_type"					"762x51_m240_200rnd"
 				"clip_max_rounds"			"200"
 				"clip_default"				"0"
 				"magsize_override"			"200"
@@ -10828,19 +10831,17 @@
 			
 			"recoil"
 			{
-
-				"recoil_lateral_range"				"-0.95 1.4"
-				"recoil_vertical_range"				"1.4 2.4"
-				"recoil_aim_punch"					"0.5 0.8"
-				"recoil_rest_rate"					"5"
-				"recoil_rest_delay"					"0.12"
-				"recoil_roll_range"					"-1.5 -1.5"
-				"recoil_roll_rest_rate"				"150"	
-				
+				"recoil_lateral_range"				"-2.45 3.8"
+				"recoil_vertical_range"				"1.85 3.4"
+				"recoil_aim_punch"					"0.8 0.95"
+				"recoil_rest_rate"					"18"
+				"recoil_rest_delay"					"0.09"
+				"recoil_roll_range"					"-2 -2" // Vibration strength 
+				"recoil_roll_rest_rate"				"200"	// Vibration Speed 
 				"recoil_additional_rest_per_shot" 	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
-				"recoil_shot_reset_time" 			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_reset_time" 			"0.6"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 				"recoil_shot_max_shots" 			"5"		// Max number of shots to account for for the additional rest (default = 5)
-				"recoil_punch_additive_factor" 		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				"recoil_punch_additive_factor" 		"0.92"	// How much of the view punch from the previous shot(s) get added to any additional shot fired. 1 = all, 0 = none, 0.5 = half (default = 1.0)
 			}
 			"ballistics"
 			{
@@ -10852,7 +10853,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"762x38_drum"
-				"clip_max"					"4"
+				"clip_max"					"6"
 				"clip_max_rounds"			"75"
 				"clip_default"				"0"
 			}
@@ -10933,10 +10934,10 @@
 			"recoil"
 			{
 
-				"recoil_lateral_range"				"-1.15 1.2"
-				"recoil_vertical_range"				"-1.2 2.2"
-				"recoil_aim_punch"					"0.60 0.80"
-				"recoil_rest_rate"					"5"
+				"recoil_lateral_range"				"-2.30 3.6"
+				"recoil_vertical_range"				"1.45 3.2"
+				"recoil_aim_punch"					"0.6 0.8"
+				"recoil_rest_rate"					"16"
 				"recoil_rest_delay"					"0.12"
 				"recoil_roll_range"					"-1.5 -1.5"
 				"recoil_roll_rest_rate"				"150"	
@@ -11067,7 +11068,7 @@
 			{
 				"recoil_lateral_range"		"-2.2 3.4"
 				"recoil_vertical_range"		"5.5 6.4"
-				"recoil_aim_punch"			"0.8 0.95"
+				"recoil_aim_punch"			"1.8 1.95"
 				"recoil_rest_rate"			"12" 
 				"recoil_rest_delay"			"0.05"
 				"recoil_roll_range"			"-5 -5"
@@ -11254,7 +11255,7 @@
 			{
 				"recoil_lateral_range"		"-2.2 3.4"
 				"recoil_vertical_range"		"5.5 6.4"
-				"recoil_aim_punch"			"0.8 0.95"
+				"recoil_aim_punch"			"1.8 1.95"
 				"recoil_rest_rate"			"12" 
 				"recoil_rest_delay"			"0.05"
 				"recoil_roll_range"			"-5 -5"
@@ -11354,7 +11355,7 @@
 			{
 				"recoil_lateral_range"			"-2.0 3.2"
 				"recoil_vertical_range"			"5.1 6.0"
-				"recoil_aim_punch"			"0.7 0.85"
+				"recoil_aim_punch"			"1.7 1.85"
 				"recoil_rest_rate"			"12"
 				"recoil_rest_delay"			"0.05"
 				"recoil_roll_range"			"-5 -5"
@@ -11567,13 +11568,15 @@
 			"ShakeAmplitude"				"0"
 			
 			"DetonateDamageRadius"			"250"
+			"UseVPhysics"					"0"
+			
 			"Deafen"						"1"
 			
 			"AreaDamageTime"				"20"
 			"AreaDamageFrequency"			"0.15"
 			"AreaDamageMinRadius"			"250"
-			"AreaDamageMaxRadius"			"1000"
 			"AreaDamageGrowSpeed"			"500"
+			"AreaDamageMaxRadius"			"750"
 			"AreaDamageAmount"				"19"
 			
 			"Health"						"50"
@@ -11609,6 +11612,7 @@
 			"Cookable"						"0"
 			"RocketStartSpeed"				"2000"
 			"ShakeAmplitude"				"0"
+			//"UseVPhysics"					"0"
 			
 			"Elasticity"					"0.0"
 
@@ -11640,30 +11644,31 @@
 		}
 		"grenade_molotov"
 		{
-			"import"					"baseGrenade"
-			"entity_class"				"grenade_aoe"
-			"Model"						"models/weapons/w_molotov.mdl"
-			"DamageType"				"DMG_BURN, DMG_PREVENT_PHYSICS_FORCE"
-			"DetonateDamage"			"100" // det damage is for when it first goes off
-			"DetonatePenetrationRadius" "0"
-			"DetonateDamageRadius"		"140"
-			"SuppressionIncrement"		"100"
-			"FuseTime"					"0"
-			"Cookable"					"0"
-			"DetonateUnderwater"		"0"
-			"ImpactDetonation"			"1"
-			"RocketStartSpeed"			"2000"
-			"ShakeAmplitude"			"0"
+			"import"						"baseGrenade"
+			"entity_class"					"grenade_aoe"
+			"Model"							"models/weapons/w_molotov.mdl"
+			"DamageType"					"DMG_BURN, DMG_PREVENT_PHYSICS_FORCE"
+			"DetonateDamage"				"100" // det damage is for when it first goes off
+			"DetonatePenetrationRadius"		"0"
+			"DetonateDamageRadius"			"140"
+			"SuppressionIncrement"			"100"
+			"FuseTime"						"0"
+			"Cookable"						"0"
+			"DetonateUnderwater"			"0"
+			"ImpactDetonation"				"1"
+			"RocketStartSpeed"				"2000"
+			"ShakeAmplitude"				"0"
+			"UseVPhysics"					"0"
 
-			"Elasticity"				"0.0"
+			"Elasticity"					"0.0"
 
-			"Deafen"					"0"
-			"AreaDamageTime"			"16"
-			"AreaDamageFrequency"		"0.125"
-			"AreaDamageMinRadius"		"120"
-			"AreaDamageMaxRadius"		"140"
-			"AreaDamageGrowSpeed"		"60"
-			"AreaDamageAmount"			"38"
+			"Deafen"						"0"
+			"AreaDamageTime"				"16"
+			"AreaDamageFrequency"			"0.125"
+			"AreaDamageMinRadius"			"120"
+			"AreaDamageMaxRadius"			"140"
+			"AreaDamageGrowSpeed"			"60"
+			"AreaDamageAmount"				"38"
 			
 			"Health"						"50"
 			"ReactExplosions"				"1"
@@ -11680,8 +11685,9 @@
 			}
 			"Sounds"
 			{
-				"DetonateSound"			"Molotov.Burn"
-				"BounceSound"			"Weapon_M67.Bounce"
+				"DetonateSound"				"Molotov.Burn"
+				"BounceSound"				"Weapon_M67.Bounce"
+				"ExtinguishSound"			"Molotov.Extinguish"
 			}
 		}
 		"grenade_flare"
@@ -11782,6 +11788,7 @@
 			"ArmDelay"					"0.06"
 			"RocketStartSpeed"			"3000"
 			"Deafen"					"0"
+			//"UseVPhysics"				"0"
 			
 			"Elasticity"				"0.0"
 			
@@ -11855,15 +11862,17 @@
 			"DetonateDamageRadius"	"1250"
 			"SuppressionIncrement"	"100"
 			"ShakeAmplitude"		"0"
-			"Elasticity"		"0.07"
+			"Elasticity"		"0.06"
 			"FuseTime"			"0"
 			"ImpactDetonation"	"1"
-			"ArmDelay"			"0.12"
+			"ArmDelay"			"0.06"
 			"RocketStartSpeed"	"3000"
 			"Deafen"			"1"
+			
 			"Health"			"50"
 			"ReactExplosions"	"0"
 			"ReactBullets"		"0"
+			
 			"Particles"
 			{
 				"DetonateParticle"	"ins_flashbang_explosion"
@@ -11892,10 +11901,11 @@
 			"SuppressionIncrement"		"100"
 			"ShakeAmplitude"			"0"
 			"DetonateUnderwater"		"0"
-			"Elasticity"				"0.07"
+			"Elasticity"				"0.06"
 			"FuseTime"					"0.5"
 			"ImpactDetonation"			"0"
 			"ArmDelay"					"0.06"
+			"UseVPhysics"				"0"
 			"RocketStartSpeed"			"3000"
 			
 			"DetonateDamageRadius"		"250"
@@ -11904,7 +11914,7 @@
 			"AreaDamageTime"				"20"
 			"AreaDamageFrequency"			"0.15"
 			"AreaDamageMinRadius"			"250"
-			"AreaDamageMaxRadius"			"1000"
+			"AreaDamageMaxRadius"			"750"
 			"AreaDamageGrowSpeed"			"500"
 			"AreaDamageAmount"				"19"
 			
@@ -12239,8 +12249,8 @@
 			"entity_class"				"rocket"
 			"Model"						"models/weapons/w_flare_projectile.mdl"
 			"DetonateDamage" 			"245"
-			"DetonateDamageRadius"		"375" 
-			"DetonatePenetrationRadius" "93"
+			"DetonateDamageRadius"		"325" 
+			"DetonatePenetrationRadius" "186"
 			"SuppressionIncrement"		"500"
 			"ShakeAmplitude"			"625"
 			"RocketTopSpeed" 			"3500" // you cannot go faster than 3500
@@ -12250,14 +12260,17 @@
 			"RocketWobbleFrequency" 	"0.60"
 			"Particles"
 			{
-				"DetonateParticle"		"ins_rpg_explosion"
+				"DetonateParticle"		"ins_grenade_explosion"
 				"DetonateWaterParticle"	"ins_water_explosion"
-				"TrailParticle"			"rockettrail"
+				"TrailParticle"			"ins_flaregun_trail"
 				"BackblastParticle"		"ins_weapon_rpg_backblast"
+				"BroadcastAll"			"1"
+				"FollowOrigin"			"1"
+				"NormalUp"				"1"
 			}
 			"Sounds"
 			{
-				"DetonateSound"			"Weapon_RPG7.Hit"
+				"DetonateSound"			"BaseGrenade.Explode"
 				"rocket_rpg7"			"Weapon_RPG7.Loop"
 			}
 		}
@@ -12304,7 +12317,8 @@
 			"RocketStartSpeed"			"3000"			
 			"Health"					"50"
 			"ReactExplosions"			"1"
-			"ReactBullets"				"1"			
+			"ReactBullets"				"1"
+			
 			"Particles"
 			{
 				"DetonateParticle"			"ins_m203_explosion"
@@ -12453,15 +12467,15 @@
 			"entity_class"					"remote"
 			"Model"							"models/weapons/w_c4.mdl"
 			"DetonateDamage"				"400" // 20% reduction from default
-			"DetonateDamageRadius"			"1200" // 10% reduction from def
-			"DetonatePenetrationRadius" 	"600" // 25% reduction from default
+			"DetonateDamageRadius"			"1000" // 10% reduction from def
+			"DetonatePenetrationRadius" 	"500" // 25% reduction from default
 			"SuppressionIncrement"			"850"
 			"ShakeAmplitude"				"1700"
 			"FuseTime"						"0.5"
 			
-			"Health"						"50"
-			"ReactExplosions"				"1"
-			"ReactBullets"					"1"
+			"Health"						"500"
+			"ReactExplosions"				"0"
+			"ReactBullets"					"0"
 
 			"Particles"
 			{

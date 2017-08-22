@@ -523,8 +523,8 @@
 			//"penetration_power_required" "90"
 			//"penetration_power_loss"	"110"
 			
-			"penetration_power_required" "45"
-			"penetration_power_loss"	"13"
+			"penetration_power_required" "10"
+			"penetration_power_loss"	"5"
 			
 			"explosive_damage_frac"		"0.80"
 			
@@ -556,8 +556,8 @@
 			//"penetration_power_required" "100"
 			//"penetration_power_loss"	"120"
 			
-			"penetration_power_required" "50"
-			"penetration_power_loss"	"15"
+			"penetration_power_required" "40"
+			"penetration_power_loss"	"10"
 			
 			"explosive_damage_frac"		"0.85"
 			
@@ -589,8 +589,8 @@
 			//"penetration_power_required" "110"
 			//"penetration_power_loss"	"130"
 			
-			"penetration_power_required" "40"
-			"penetration_power_loss"	"20"
+			"penetration_power_required" "20"
+			"penetration_power_loss"	"10"
 			
 			"explosive_damage_frac"		"0.90"
 			
@@ -623,8 +623,8 @@
 			//"penetration_power_required" "120"
 			//"penetration_power_loss"	"140"
 			
-			"penetration_power_required" "60"
-			"penetration_power_loss"	"30"
+			"penetration_power_required" "30"
+			"penetration_power_loss"	"15"
 			
 			"explosive_damage_frac"		"0.95"
 			
@@ -657,8 +657,8 @@
 			//"penetration_power_required" "120"
 			//"penetration_power_loss"	"140"
 			
-			"penetration_power_required" "80"
-			"penetration_power_loss"	"40"
+			"penetration_power_required" "40"
+			"penetration_power_loss"	"20"
 			
 			"explosive_damage_frac"		"0.975"
 			
@@ -805,8 +805,8 @@
 				"HITGROUP_GENERIC"			"0.01"
 			}
 			
-			"penetration_power_required" "500"
-			"penetration_power_loss"	"250"
+			"penetration_power_required" "600"
+			"penetration_power_loss"	"300"
 			
 			"explosive_damage_frac"		"0.02"
 			"team_access"				"insurgent"
@@ -1120,7 +1120,7 @@
 			"print_desc"	"#gear_back_pack1_desc"
 			"gear_slot"		"vest"
 			"gear_cost"		"0"
-			"gear_weight"	"94" // 0.4 kg * 54.5
+			"gear_weight"	"98" // 0.4 kg * 54.5
 			
 			"extra_ammo"
 			{
@@ -1152,7 +1152,7 @@
 			"print_desc"	"#gear_back_pack2_desc"
 			"gear_slot"		"vest"
 			"gear_cost"		"0"
-			"gear_weight"	"128" // in hectograms
+			"gear_weight"	"124" // in hectograms
 			
 			"extra_ammo"
 			{
@@ -1184,7 +1184,7 @@
 			"print_desc"	"#gear_back_pack3_desc"
 			"gear_slot"		"vest"
 			"gear_cost"		"0"
-			"gear_weight"	"148" // [5 (0.65) + 0.4 kg] 54.5
+			"gear_weight"	"152" // [5 (0.65) + 0.4 kg] 54.5
 			
 			"extra_ammo"
 			{
@@ -1213,6 +1213,33 @@
 		//===========================
 		//	   Reinforced Armor
 		//===========================
+		
+		"srnx_flak0"
+		{
+			"print_name"	"#gear_flak0"
+			"print_desc"	"#gear_flak0_desc"
+			"gear_slot"		"misc1"
+			"gear_cost"		"0"
+			"gear_weight"	"16" // 4 (0.65 kg) * 54.5
+			
+			"DamageHitgroups"
+			{	
+				"HITGROUP_HEAD"				"0.99"
+				"HITGROUP_CHEST"			"0.99"
+				"HITGROUP_STOMACH"			"0.99"
+				"HITGROUP_LEFTARM"			"0.99"
+				"HITGROUP_RIGHTARM"			"0.99"
+				"HITGROUP_LEFTLEG"			"0.99"
+				"HITGROUP_RIGHTLEG"			"0.99"
+			}
+			
+			"penetration_power_required" "50"
+			"penetration_power_loss"	"25"
+			
+			"explosive_damage_frac"		"0.80"
+			
+			"team_access"				"security, insurgent"
+		}
 		
 		"srnx_flak1"
 		{
@@ -1294,6 +1321,34 @@
 			
 			"team_access"				"security, insurgent"
 		}
+		
+		"srnx_flak4"
+		{
+			"print_name"	"#gear_flak4"
+			"print_desc"	"#gear_flak4_desc"
+			"gear_slot"		"misc1"
+			"gear_cost"		"0"
+			"gear_weight"	"132" // 4 (0.65 kg) * 54.5
+			
+			"DamageHitgroups"
+			{	
+				"HITGROUP_HEAD"				"0.90"
+				"HITGROUP_CHEST"			"0.90"
+				"HITGROUP_STOMACH"			"0.90"
+				"HITGROUP_LEFTARM"			"0.90"
+				"HITGROUP_RIGHTARM"			"0.90"
+				"HITGROUP_LEFTLEG"			"0.90"
+				"HITGROUP_RIGHTLEG"			"0.90"
+			}
+			
+			"penetration_power_required" "250"
+			"penetration_power_loss"	"125"
+			
+			"explosive_damage_frac"		"0.975"
+			
+			"team_access"				"security, insurgent"
+		}
+		
 		//=================
 		//	   Items
 		//=================

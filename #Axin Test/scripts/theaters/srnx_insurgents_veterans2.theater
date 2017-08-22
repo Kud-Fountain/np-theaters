@@ -2712,7 +2712,7 @@
 			"buy_order" 
 			{
 				//Gear
-				"gear"					"srnx_jugg"
+				"gear"					"srnx_ied"
 				//"gear"				"srnx_ins_helmet_k63"
 				//Bomb Model (melee)
 				//Explosive
@@ -2811,7 +2811,7 @@
 			"buy_order" 
 			{
 				//Gear
-				"gear"				"srnx_jugg"
+				"gear"				"srnx_ied"
 				//"gear"				"srnx_ins_helmet_k63"
 				//Bomb Model (melee)
 				//Explosive

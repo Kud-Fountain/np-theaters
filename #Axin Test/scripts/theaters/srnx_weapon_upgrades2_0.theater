@@ -28,7 +28,7 @@
 				"weapon"				"weapon_m45"
 				"weapon"				"weapon_m1911"
 				//"weapon"				"weapon_m93r2"
-				"weapon"				"weapon_glock19"
+				//"weapon"				"weapon_glock19"
 				"weapon"				"weapon_deagle"
 			}
 			
@@ -185,8 +185,8 @@
 			"print_name"				"#weapon_upgrade_magazine_g18_extended"
 			"print_desc"				"#weapon_upgrade_magazine_extended_glock18_desc"
 			
-			"reload_speed"				"0.95"
-			"draw_speed"				"0.925"
+			"reload_speed"				"0.90"
+			"draw_speed"				"0.875"
 			
 			"magsize_override" 			"33"
 			"maxcarry_override"			"10"
@@ -197,6 +197,7 @@
 				"weapon"				"weapon_m93r2"
 				"weapon"				"weapon_m9"
 				"weapon"				"weapon_fiveseven"
+				"weapon"				"weapon_glock19"
 			}			
 			
 			"viewmodel_attachments"
@@ -221,6 +222,7 @@
 						"weapon"		"weapon_m93r2"
 						"weapon"		"weapon_m9"
 						"weapon"		"weapon_fiveseven"
+						"weapon"		"weapon_glock19"
 					}
 				}
 			}
@@ -244,6 +246,7 @@
 						"weapon"		"weapon_m93r2"
 						"weapon"		"weapon_m9"
 						"weapon"		"weapon_fiveseven"
+						"weapon"		"weapon_glock19"
 					}
 				}
 			}
@@ -563,7 +566,7 @@
 			"magsize_override"			"35"
 			"maxcarry_override"			"10"
 			
-			"reload_speed"				"0.95"
+			"reload_speed"				"0.90"
 			"draw_speed"				"0.875"
 			
 			"allowed_weapons"
@@ -609,7 +612,7 @@
 			"magsize_override"			"45"
 			"maxcarry_override"			"8"
 			
-			"reload_speed"				"0.90"
+			"reload_speed"				"0.85"
 			"draw_speed"				"0.85"
 			
 			"allowed_weapons"
@@ -691,7 +694,7 @@
 			"magsize_override"			"35"
 			"maxcarry_override"			"10"
 			
-			"reload_speed"				"0.95"
+			"reload_speed"				"0.90"
 			"draw_speed"				"0.90"
 			
 			"allowed_weapons"
@@ -728,8 +731,8 @@
 			"magsize_override"			"42"
 			"maxcarry_override"			"8"
 			
-			"reload_speed"				"0.92"
-			"draw_speed"				"0.93"
+			"reload_speed"				"0.85"
+			"draw_speed"				"0.90"
 
 			"allowed_weapons"
 			{
@@ -7645,17 +7648,7 @@
 		// ========================================
 		// AKM SPECIFIC UPGRADES
 		// ========================================
-		// "ammo_tracer_akm"
-		// {
-		// 	"import"				"base_ammo_tracer"
-		// 	"upgrade_cost"				"0"
-		// 	"allowed_weapons"
-		// 	{
-		// 		"weapon"				"weapon_akm"
-		// 		"weapon"				"weapon_vz58"
-		// 	}
-		// 	"ammo_type_override"			"762x38_tracer_box"
-		// }
+
 		"ammo_hp_akm"
 		{
 			"import"				"base_ammo_hp"
@@ -7716,16 +7709,7 @@
 		// ========================================
 		// AK-74 SPECIFIC UPGRADES
 		// ========================================
-		// "ammo_tracer_ak74"
-		// {
-		// 	"import"				"base_ammo_tracer"
-		// 	"upgrade_cost"				"0"
-		// 	"allowed_weapons"
-		// 	{
-		// 		"weapon"				"weapon_ak74"
-		// 	}
-		// 	"ammo_type_override"			"545x39_tracer"
-		// }
+		
 		"ammo_hp_ak74"
 		{
 			"import"				"base_ammo_hp"
@@ -7787,17 +7771,6 @@
 		// ========================================
 		// FAL/l1a1 SPECIFIC UPGRADES
 		// ========================================
-		
-		// "ammo_tracer_fal"
-		// {
-		// 	"import"				"base_ammo_tracer"
-		// 	"upgrade_cost"				"0"
-		// 	"allowed_weapons"
-		// 	{
-		// 		"weapon"				"weapon_fal"
-		// 	}
-		// 	"ammo_type_override"			"762x51_tracer_box_20rnd"
-		// }
 		
 		// ========================================
 		// FAL SPECIFIC UPGRADES
@@ -7941,17 +7914,6 @@
 		// GALIL SPECIFIC UPGRADES
 		// ========================================
 		
-		// "ammo_tracer_galil"
-		// {
-		// 	"import"					"base_ammo_tracer"
-		// 	"upgrade_cost"				"0"
-		// 	"allowed_weapons"
-		// 	{
-		// 		"weapon"				"weapon_galil"
-		// 	}
-		// 	"ammo_type_override"		"556_tracer_35box"
-		// }
-		
 		"ammo_hp_galil"
 		{
 			"import"						"base_ammo_hp"
@@ -8016,17 +7978,6 @@
 		// AKS74U SPECIFIC UPGRADES
 		// ========================================
 		
-		// "ammo_tracer_aks74u"
-		// {
-		// 	"import"				"base_ammo_tracer"
-		// 	"upgrade_cost"				"0"
-		// 	"allowed_weapons"
-		// 	{
-		// 		"weapon"				"weapon_aks74u"
-		// 	}
-		// 	"ammo_type_override"			"545x39_tracer"
-		// }
-		
 		"ammo_hp_aks74u"
 		{
 			"import"				"base_ammo_hp"
@@ -8084,16 +8035,6 @@
 		// ========================================
 		// M16A4/M4A1/FAMAS SPECIFIC UPGRADES
 		// ========================================
-		// "ammo_tracer_m16a4"
-		// {
-		// 	"import"				"base_ammo_tracer"
-		// 	"upgrade_cost"				"0"
-		// 	"allowed_weapons"
-		// 	{
-		// 		"weapon"				"weapon_m16a4"
-		// 	}
-		// 	"ammo_type_override"			"556_tracer_stanag"
-		// }
 		
 		// ========================================
 		// M16A4 SPECIFIC UPGRADES
@@ -8157,17 +8098,6 @@
 			}
 			"ammo_type_override"			"556_stanag_m16_sost"
 		}
-		// "ammo_tracer_m4"
-		// {
-		// 	"import"				"base_ammo_tracer"
-		// 	"upgrade_cost"				"0"
-		// 	"allowed_weapons"
-		// 	{
-		// 		"weapon"				"weapon_mk18"
-		// 		"weapon"				"weapon_m4a1"
-		// 	}
-		// 	"ammo_type_override"			"556_tracer_stanag_m4"
-		// }
 		
 		// ========================================
 		// FAMAS SPECIFIC UPGRADES
@@ -8301,17 +8231,6 @@
 		// MP5 SPECIFIC UPGRADES
 		// ========================================
 		
-		// "ammo_tracer_mp5"
-		// {
-		// 	"import"				"base_ammo_tracer"
-		// 	"upgrade_cost"				"0"
-		// 	"allowed_weapons"
-		// 	{
-		// 		"weapon"				"weapon_mp5"
-		// 	}
-		// 	"ammo_type_override"			"9x19mm_tracer_30rd"
-		// }
-		
 		"ammo_hp_mp5"
 		{
 			"import"				"base_ammo_hp"
@@ -8385,18 +8304,7 @@
 		// ========================================
 		// P90 SPECIFIC UPGRADES
 		// ========================================
-		
-		// "ammo_tracer_mp5"
-		// {
-		// 	"import"				"base_ammo_tracer"
-		// 	"upgrade_cost"				"0"
-		// 	"allowed_weapons"
-		// 	{
-		// 		"weapon"				"weapon_mp5"
-		// 	}
-		// 	"ammo_type_override"			"9x19mm_tracer_30rd"
-		// }
-		
+	
 		"ammo_hp_p90"
 		{
 			"import"				"base_ammo_hp"
@@ -8455,17 +8363,6 @@
 		// ========================================
 		// MP40 SPECIFIC UPGRADES
 		// ========================================
-		
-		// "ammo_tracer_mp40"
-		// {
-		// 	"import"				"base_ammo_tracer"
-		// 	"upgrade_cost"				"0"
-		// 	"allowed_weapons"
-		// 	{
-		// 		"weapon"				"weapon_mp40"
-		// 	}
-		// 	"ammo_type_override"			"9x19mm_tracer_30rd"
-		// }
 		
 		"ammo_hp_mp40"
 		{
@@ -8529,17 +8426,6 @@
 		// ========================================
 		// UMP45 SPECIFIC UPGRADES
 		// ========================================
-		
-		// "ammo_tracer_ump45"
-		// {
-		// 	"import"				"base_ammo_tracer"
-		// 	"upgrade_cost"				"0"
-		// 	"allowed_weapons"
-		// 	{
-		// 		"weapon"				"weapon_ump45"
-		// 	}
-		// 	"ammo_type_override"			"45acp_tracer"
-		// }
 		
 		"ammo_hp_ump45"
 		{
@@ -8720,17 +8606,7 @@
 		// ========================================
 		// MINI-14 SPECIFIC UPGRADES
 		// ========================================
-		// "ammo_tracer_mini14"
-		// {
-		// 	"import"				"base_ammo_tracer"
-		// 	"upgrade_cost"				"0"
-		// 	"allowed_weapons"
-		// 	{
-		// 		"weapon"				"weapon_mini14"
-		// 	}
-		// 	"ammo_type_override"			"556_tracer_box"
-		// }
-		
+	
 		"ammo_sost_mini14"
 		{
 			"import"						"base_ammo_hp"
@@ -8789,16 +8665,7 @@
 		// ========================================
 		// M1A1 SPECIFIC UPGRADES
 		// ========================================
-		// "ammo_tracer_m1a1"
-		// {
-		// 	"import"				"base_ammo_tracer"
-		// 	"upgrade_cost"				"0"
-		// 	"allowed_weapons"
-		// 	{
-		// 		"weapon"				"weapon_m1a1"
-		// 	}
-		// 	"ammo_type_override"			"30_carbine_tracer"
-		// }
+	
 		"ammo_hp_m1a1"
 		{
 			"import"				"base_ammo_hp"
@@ -8857,16 +8724,7 @@
 		// ========================================
 		// SKS SPECIFIC UPGRADES
 		// ========================================
-		// "ammo_tracer_sks"
-		// {
-		// 	"import"				"base_ammo_tracer"
-		// 	"upgrade_cost"				"0"
-		// 	"allowed_weapons"
-		// 	{
-		// 		"weapon"				"weapon_sks"
-		// 	}
-		// 	"ammo_type_override"			"762x38mm_tracer_clip"
-		// }
+	
 		"ammo_hp_sks"
 		{
 			"import"				"base_ammo_hp"

@@ -82,7 +82,7 @@
 			
 			"SprintSpeedFactorByStamina"
 			{
-				"0"					"0.90"
+				"0"					"0.95"
 				"25"				"0.975"
 				"50"				"1.00"
 				"75"				"1.025"
@@ -310,13 +310,13 @@
 			}
 			"VelocityHitgroups"
 			{
-				"HITGROUP_HEAD"					"0.7" // death // gnalvl 10
-				"HITGROUP_CHEST"    			"0.5"
-				"HITGROUP_STOMACH"    			"0.5"
-				"HITGROUP_LEFTARM"    			"0.3"
-				"HITGROUP_RIGHTARM"   	 		"0.3"
-				"HITGROUP_LEFTLEG"    			"0.2"
-				"HITGROUP_RIGHTLEG"   	 		"0.2"
+				"HITGROUP_HEAD"					"0.70" // death // gnalvl 10
+				"HITGROUP_CHEST"    			"0.50"
+				"HITGROUP_STOMACH"    			"0.50"
+				"HITGROUP_LEFTARM"    			"0.30"
+				"HITGROUP_RIGHTARM"   	 		"0.30"
+				"HITGROUP_LEFTLEG"    			"0.20"
+				"HITGROUP_RIGHTLEG"   	 		"0.20"
 			}
 			"BulletPenetrationPower"
 			{
