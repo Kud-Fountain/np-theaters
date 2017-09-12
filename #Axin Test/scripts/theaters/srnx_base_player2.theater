@@ -7,7 +7,7 @@
 			"kill"						"10" 
 			"kill_offensive"			"20"
 			"kill_defensive"			"20" 
-			"kill_headshot_bonus"		"10"	
+			"kill_headshot_bonus"		"25"	
 			"kill_savior"				"10"	
 			"kill_bonus_domination"		"10"	
 			"kill_bonus_revenge"		"10"	
@@ -32,7 +32,6 @@
 		{
 			"min_weight"			"0" 	
 			"max_weight"			"612" 
-			"frac_jump_force_max_weight"			"1.0"
 		}
 		
 		"speed"
@@ -123,7 +122,7 @@
 			"stamina_regain"		"20.00"
 			"stamina_sprint_take"	"10.00"
 			"stamina_jump_take"		"20.00" // def 15
-			"stamina_dmg_take"		"0.25" //def .25
+			"stamina_dmg_take"		"0.50" //def .25
 			
 			//When landing from higher elevation (camera jerk)
 			"land_viewpunch_minvel"		"150"
@@ -320,33 +319,33 @@
 			}
 			"BulletPenetrationPower"
 			{
-				"CHAR_TEX_ASPHALT"				"45" // Q ...Was 18
-				"CHAR_TEX_BRICK"				"50" // R
-				"CHAR_TEX_CARDBOARD"			"6"  // U or V ...Was 5
-				"CHAR_TEX_CARPET"				"20" // O ...Was 15
-				"CHAR_TEX_COMPUTER"				"20" // P
-				"CHAR_TEX_CONCRETE"				"50" // C
-				"CHAR_TEX_PLASTER"				"50" // O
-				"CHAR_TEX_DIRT"					"40" // D
-				"CHAR_TEX_FLESH"				"35" // F
-				"CHAR_TEX_FOLIAGE"				"30" // O
-				"CHAR_TEX_GLASS"				"2"  // ?
-				"CHAR_TEX_GRASS"				"40" // J ...Was 60
-				"CHAR_TEX_GRAVEL"				"39" // ? ...Was Undefined, behaved like 10
-				"CHAR_TEX_METAL"				"70" // M BEHAVES AS -50% VALUE, should act like 35 ...Was 60
-				"CHAR_TEX_METALPANEL"			"14" // N ...Was Undefined, possibly acts at 1/2 pwr
-				"CHAR_TEX_MUD"					"37" // D ...Was Undefined
-				"CHAR_TEX_PAPER"				"15" // U or V ...Was Undefined
-				"CHAR_TEX_PLASTIC"				"10" // L
-				"CHAR_TEX_ROCK"					"60" // O
-				"CHAR_TEX_RUBBER"				"8"  // ?SquareCharacter?
-				"CHAR_TEX_SAND"					"48" // N ...Was 60
-				"CHAR_TEX_SHEETROCK"			"5"	 // TODO
-				"CHAR_TEX_SLOSH"				"12" // TODO
-				"CHAR_TEX_TILE"					"40" // F ...Was 13
-				"CHAR_TEX_VENT"					"8"  // TODO
-				"CHAR_TEX_WOOD"					"30" // W BEHAVES AS -50% VALUE Should be raised w/ weak objs using panel
-				"CHAR_TEX_WOOD_PANEL"			"20" // W BEHAVES AS -50% VALUE ...Was Undefined				
+				"CHAR_TEX_ASPHALT"				"450" // Q ...Was 18
+				"CHAR_TEX_BRICK"				"500" // R
+				"CHAR_TEX_CARDBOARD"			"60"  // U or V ...Was 5
+				"CHAR_TEX_CARPET"				"200" // O ...Was 15
+				"CHAR_TEX_COMPUTER"				"200" // P
+				"CHAR_TEX_CONCRETE"				"500" // C
+				"CHAR_TEX_PLASTER"				"500" // O
+				"CHAR_TEX_DIRT"					"400" // D
+				"CHAR_TEX_FLESH"				"350" // F
+				"CHAR_TEX_FOLIAGE"				"300" // O
+				"CHAR_TEX_GLASS"				"20"  // ?
+				"CHAR_TEX_GRASS"				"400" // J ...Was 60
+				"CHAR_TEX_GRAVEL"				"390" // ? ...Was Undefined, behaved like 10
+				"CHAR_TEX_METAL"				"700" // M BEHAVES AS -50% VALUE, should act like 35 ...Was 60
+				"CHAR_TEX_METALPANEL"			"140" // N ...Was Undefined, possibly acts at 1/2 pwr
+				"CHAR_TEX_MUD"					"370" // D ...Was Undefined
+				"CHAR_TEX_PAPER"				"150" // U or V ...Was Undefined
+				"CHAR_TEX_PLASTIC"				"100" // L
+				"CHAR_TEX_ROCK"					"600" // O
+				"CHAR_TEX_RUBBER"				"80"  // ?SquareCharacter?
+				"CHAR_TEX_SAND"					"480" // N ...Was 60
+				"CHAR_TEX_SHEETROCK"			"50"	 // TODO
+				"CHAR_TEX_SLOSH"				"120" // TODO
+				"CHAR_TEX_TILE"					"400" // F ...Was 13
+				"CHAR_TEX_VENT"					"80"  // TODO
+				"CHAR_TEX_WOOD"					"300" // W BEHAVES AS -50% VALUE Should be raised w/ weak objs using panel
+				"CHAR_TEX_WOOD_PANEL"			"200" // W BEHAVES AS -50% VALUE ...Was Undefined				
 			}
 		}
 		"health"

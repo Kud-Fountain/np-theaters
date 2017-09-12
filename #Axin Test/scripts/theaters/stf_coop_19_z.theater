@@ -1,7 +1,6 @@
-
-//"#base" "stf_base.theater"
 "#base" "srnx_base2.theater"
 "#base"	"srnx_insurgents_veterans2.theater"
+
 "theater"
 {
 	"core"
@@ -28,8 +27,13 @@
 			"resources"			"resource\ui\inventory\upgradetooltip.res"
 			
 			// coop specific
-			"sounds"			"scripts/ins_sounds_voice_coop.txt"
-			"sounds"			"scripts/ins_sounds_voice_survival.txt"	
+			//"sounds"			"scripts/ins_sounds_voice_coop.txt"
+			//"sounds"			"scripts/ins_sounds_voice_survival.txt"
+			
+			"sounds"			"scripts/zom_sounds/ins_z_sounds_responses_insurgent.txt"
+			"sounds"			"scripts/zom_sounds/ins_z_sounds_voice_coop.txt"
+			"sounds"			"scripts/zom_sounds/ins_z_sounds_voice_survival.txt"
+			
 			//Custom sounds 
 			"sounds"			"scripts/dy_lua_sounds_v2.txt"
 			//"sounds"			"dy_lua_sounds_extrav2.txt"
@@ -45,7 +49,7 @@
 			"squads"
 			{
 				
-				"绐佸嚮灏忛槦 [A]"
+				"突击小队 [A]"
 				{
 					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
 					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
@@ -55,16 +59,19 @@
 					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
 				}
-				"鏀彺灏忛槦 [B]"
+				"支援小队 [B]"
 				{
 					"#Squad_Gnalvl_TeamLeader"			"gnalvl_teamleader_usmc"
+					//"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
+					//"#Squad_Gnalvl_Defender"			"Gnalvl_defender_usmc"
 					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_2"
 					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_2"
 					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_2"
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
+																						//"#Squad_Gnalvl_Defender"			"Gnalvl_defender_usmc"
 				}
-				"绐佸嚮灏忛槦 [C]"
+				"突击小队 [C]"
 				{
 					"#Squad_Gnalvl_TeamLeader_Recon"	"Gnalvl_teamleader_recon_usmc"
 					"#Squad_Gnalvl_ReconMedic"			"gnalvl_recon_medic_usmc"
@@ -72,6 +79,7 @@
 					"#Squad_Gnalvl_Rifleman_Mortar" 	"Gnalvl_mortar_usmc_2"
 					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
 					"#Squad_Gnalvl_Spotter"				"Gnalvl_spotter_usmc"
+																						//"#Squad_Gnalvl_2B"				"Gnalvl_spotter_2b"
 				}
 			}
 		}
@@ -82,54 +90,77 @@
 			
 			"squads"
 			{
-				"Team1"	// assault team #1
+				"Cell 1"	// Infected team #6
 				{
-					//role name
-					"Bot"		"juggernaut_1"
-					"Bot"		"juggernaut_2"		
-					"Bot"		"juggernaut_1"
-					"Bot"		"juggernaut_2"				
-					"Bot"		"juggernaut_1"
-					"Bot"		"juggernaut_2"			
-					"Bot"		"juggernaut_1"	
+					"Undead"				"zahji_ins_1"
+					"Undead"				"zahji_ins_2"
+					"Undead"				"zahji_ins_1"
+					"Undead"				"zahji_ins_3"
+					"Undead"				"zahji_ins_2"
+					"Undead"				"zahji_ins_3"
+					"Undead"				"zahji_ins_2"
+					"Undead"				"zahji_ins_1"
 				}
 
-				"Team2"	// Support team #2
+				"Cell 2"	// Infected team #6
 				{
-					//role name
-					"Bot"		"bomber_ins_1" 
-					"Bot"		"bomber_ins_2"		
-					"Bot"		"bomber_ins_1" 
-					"Bot"		"bomber_ins_2"		
-					"Bot"		"bomber_ins_1" 
-					"Bot"		"bomber_ins_2"	
-					"Bot"		"bomber_ins_1" 				
+					"Undead"				"zahji_ins_1"
+					"Undead"				"zahji_ins_2"
+					"Undead"				"zahji_ins_1"
+					"Undead"				"zahji_ins_3"
+					"Undead"				"zahji_ins_4"
+					"Undead"				"zahji_ins_3"
+					"Undead"				"zahji_ins_2"
+					"Undead"				"zahji_ins_1"
 				}
 
-				"Team3"	// Recon team #3
+				"Cell 3"	// Infected team #6
 				{
-					//role name							
-					"Bot"		"bomber_ins_1" 
-					"Bot"		"bomber_ins_2"			
-					"Bot"		"bomber_ins_1" 
-					"Bot"		"bomber_ins_2"	 		
-					"Bot"		"bomber_ins_1" 
-					"Bot"		"bomber_ins_2"			
-					"Bot"		"bomber_ins_1" 	
+					"Undead"				"zahji_ins_1"
+					"Undead"				"zahji_ins_2"
+					"Undead"				"zahji_ins_1"
+					"Undead"				"zahji_ins_3"
+					"Undead"				"zahji_ins_2"
+					"Undead"				"zahji_ins_3"
+					"Undead"				"zahji_ins_2"
+					"Undead"				"zahji_ins_1"
 				}
 
-				"Team4"	// Support team #4 (Mirrors Team 1)
+				"Cell 4"	// Infected team #6
 				{
-					//role name							
-					"Bot"		"juggernaut_3"
-					"Bot"		"juggernaut_4"		
-					"Bot"		"juggernaut_3"
-					"Bot"		"juggernaut_4"			
-					"Bot"		"juggernaut_3"
-					"Bot"		"juggernaut_4"			
-					"Bot"		"juggernaut_3"		
-				}	
+					"Undead"				"zahji_ins_1"
+					"Undead"				"zahji_ins_2"
+					"Undead"				"zahji_ins_1"
+					"Undead"				"zahji_ins_3"
+					"Undead"				"zahji_ins_4"
+					"Undead"				"zahji_ins_3"
+					"Undead"				"zahji_ins_2"
+					"Undead"				"zahji_ins_1"
+				}
 				
+				"Cell 5"	// Infected team #6
+				{
+					"Undead"				"zahji_ins_1"
+					"Undead"				"zahji_ins_2"
+					"Undead"				"zahji_ins_1"
+					"Undead"				"zahji_ins_3"
+					"Undead"				"zahji_ins_2"
+					"Undead"				"zahji_ins_3"
+					"Undead"				"zahji_ins_2"
+					"Undead"				"zahji_ins_1"
+				}
+				
+				"Cell 6"	// Infected team #6
+				{
+					"Undead"				"zahji_ins_1"
+					"Undead"				"zahji_ins_2"
+					"Undead"				"zahji_ins_1"
+					"Undead"				"zahji_ins_3"
+					"Undead"				"zahji_ins_2"
+					"Undead"				"zahji_ins_3"
+					"Undead"				"zahji_ins_2"
+					"Undead"				"zahji_ins_1"
+				}
 			}
 		}
 	}
@@ -297,9 +328,9 @@
 			}
 			"PenetrationPower"
 			{
-				"10"					"650"
-				"6000"					"500"
-				"8000"					"480"	
+				"0"						"650"
+				"3000"					"500"
+				"6000"					"480"	
 				"12000"					"360"
 			}
 			"DamageHitgroups"
@@ -379,7 +410,6 @@
 				"HITGROUP_RIGHTLEG"   "4.54"
 			}
 		}
-		
 		"762x51mm_hp"
 		{
 			"import"				"default"
@@ -412,7 +442,6 @@
 				"HITGROUP_RIGHTLEG"   "6.86"
 			}
 		}
-		
 		"762x51_118"
 		{
 			"import"				"default"
@@ -446,7 +475,6 @@
 				"HITGROUP_RIGHTLEG"   "4.76"
 			}
 		}
-		
 		"762x51mm_ap"
 		{
 			"import"				"default"
@@ -488,7 +516,6 @@
 			"tracer_type"				"whiz_with_line"
 			"tracer_lowammo"			"5"
 		}
-		
 		// ========================================
 		// mosin
 		// ========================================
@@ -524,6 +551,7 @@
 				"HITGROUP_RIGHTLEG"   "4.54"
 			}
 		}
+		
 		"762x54mm_hp"
 		{
 			"import"					"default"
@@ -747,7 +775,6 @@
 				"HITGROUP_RIGHTLEG"   "1.64"
 			}
 		}
-		
 		//=========================================
 		// .338	Clips/Magazines
 		//=========================================
@@ -771,6 +798,7 @@
 			"carry"						"12"
 			"magsize"					"5"
 		}
+		
 		".338_tr_mag"
 		{
 			"import"					".338_tr_mag"
@@ -791,30 +819,35 @@
 			"carry"						"12"
 			"magsize"				"30"
 		}
+		
 		"762x51_hp_box_30rnd"
 		{
 			"import"    			"762x51_s_hp"
 			"carry"						"12"
 			"magsize"				"30"
 		}
+		
 		"762x51_ap_box_30rnd"
 		{
 			"import"    			"762x51_s_ap"
 			"carry"						"12"
 			"magsize"				"30"
 		}
+		
 		"762x51_box_20rnd"
 		{
 			"import"				"762x51_s"
 			"carry"						"12"
 			"magsize"				"20"
 		}
+		
 		"762x51_hp_box_20rnd"
 		{
 			"import"				"762x51_s_hp"
 			"carry"						"12"
 			"magsize"				"20"
 		}
+		
 		"762x51_ap_box_20rnd"
 		{
 			"import"				"762x51_s_ap"

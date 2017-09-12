@@ -1,6 +1,6 @@
 
 //"#base" "stf_base.theater"
-"#base" "stf_base2.theater"
+"#base" "srnx_base2.theater"
 "#base"	"stf_insurgents_bombers.theater"
 "theater"
 {
@@ -69,8 +69,8 @@
 					"#Squad_Gnalvl_TeamLeader_Recon"	"Gnalvl_teamleader_recon_usmc"
 					"#Squad_Gnalvl_ReconMedic"			"gnalvl_recon_medic_usmc"
 					"#Squad_Gnalvl_Recon_Engineer"		"Gnalvl_recon_engineer_usmc"
+					"#Squad_Gnalvl_Rifleman_Mortar" 	"Gnalvl_mortar_usmc_2"
 					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
-					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_2"
 					"#Squad_Gnalvl_Spotter"				"Gnalvl_spotter_usmc"
 				}
 			}
@@ -78,6 +78,8 @@
 		"insurgents"
 		{
 			"name"		"#team_insurgents"
+			"logo"		"gameui/fac_ins"
+			
 			"squads"
 			{
 				"Team1"	// assault team #1
@@ -155,16 +157,16 @@
 			"Damage"
 			{
 				"10"					"115.90"
-				"4000"					"95.60"
-				"8000"					"85.30"
-				"10000"					"75.15"
+				"3000"					"95.60"
+				"6000"					"85.30"
+				"9000"					"75.15"
 			}
 			"PenetrationPower"
 			{
 				"10"					"618"
-				"4000"					"597"
-				"8000"					"486"	
-				"12000"					"375"
+				"3000"					"597"
+				"6000"					"486"	
+				"9000"					"375"
 			}
 			"DamageHitgroups"
 			{
@@ -188,17 +190,17 @@
 			"brass_sound"				"BOUNCE_SHOTSHELL"
 			"Damage"
 			{
-				"10"					"130.90"
-				"4000"					"110.60"
-				"8000"					"100.30"
-				"10000"					"90.15"
+				"10"					"230.90"
+				"4000"					"210.60"
+				"8000"					"200.30"
+				"12000"					"190.15"
 			}
 			"PenetrationPower"
 			{
-				"0"						"971"
+				"10"					"971"
 				"4000"					"861"
 				"8000"					"756"	
-				"10000"					"645"
+				"12000"					"645"
 			}
 			"DamageHitgroups"
 			{
@@ -224,16 +226,16 @@
 			"Damage"
 			{
 				"10"				   "119.90"
-				"4000"					"98.60"
-				"8000"					"86.30"
-				"10000"					"64.15"
+				"2000"					"98.60"
+				"4000"					"86.30"
+				"8000"					"64.15"
 			}
 			"PenetrationPower"
 			{
 				"10"					"628"
-				"4000"					"596"
-				"8000"					"484"	
-				"10000"					"372"
+				"2000"					"596"
+				"4000"					"484"	
+				"8000"					"372"
 			}
 			"DamageHitgroups"
 			{
@@ -292,16 +294,16 @@
 			"brass_sound"				"BOUNCE_SHOTSHELL"
 			"Damage"
 			{
-				"10"					"800"
-				"6000"					"688"
-				"8000"					"465"
-				"12000"					"342"
+				"10"					"400.00"
+				"6000"					"388.00"
+				"8000"					"265.00"
+				"12000"					"184.00"
 			}
 			"PenetrationPower"
 			{
-				"0"						"650"
-				"3000"					"500"
-				"6000"					"480"	
+				"10"					"650"
+				"6000"					"500"
+				"8000"					"480"	
 				"12000"					"360"
 			}
 			"DamageHitgroups"
@@ -325,7 +327,7 @@
 		"40mshot"
 		{
 			"import"				"40mbuck"
-			"carry"					"40"
+			"carry"					"6"
 			"flags_clear"			"AMMO_USE_MAGAZINES"
 		}
 		"12gshot"
@@ -677,6 +679,7 @@
 			"PenetrationPower"
 			{
 				"10"					"700"
+				"6000"					"500"
 				"12000"					"300"
 			}
 			"DamageHitgroups"
@@ -704,8 +707,9 @@
 			}
 			"PenetrationPower"
 			{
-				"10"					"700"
-				"12000"					"300"
+				"10"					"1000"
+				"6000"					"800"
+				"12000"					"600"
 			}
 			"DamageHitgroups"
 			{
@@ -732,8 +736,9 @@
 			}
 			"PenetrationPower"
 			{
-				"10"					"700"
-				"12000"					"300"
+				"10"					"1200"
+				"6000"					"1000"
+				"12000"					"800"
 			}
 			"DamageHitgroups"
 			{
@@ -786,43 +791,37 @@
 		//Custom
 		"762x51_box_30rnd"
 		{
-			"import"    "762x51"
+			"import"  				"762x51_s"
 			"carry"						"12"
 			"magsize"	"30"
 		}
 		"762x51_hp_box_30rnd"
 		{
-			"import"    "762x51_hp"
+			"import"    			"762x51_s_hp"
 			"carry"						"12"
 			"magsize"	"30"
 		}
 		"762x51_ap_box_30rnd"
 		{
-			"import"    "762x51_ap"
+			"import"    			"762x51_s_ap"
 			"carry"						"12"
 			"magsize"	"30"
 		}
 		"762x51_box_20rnd"
 		{
-			"import"				"762x51"
+			"import"				"762x51_s"
 			"carry"						"12"
 			"magsize"				"20"
 		}
 		"762x51_hp_box_20rnd"
 		{
-			"import"				"762x51_hp"
+			"import"				"762x51_s_hp"
 			"carry"						"12"
 			"magsize"				"20"
 		}
 		"762x51_ap_box_20rnd"
 		{
-			"import"				"762x51_ap"
-			"carry"						"12"
-			"magsize"				"20"
-		}
-		"762x51_standard_box_20rnd"
-		{
-			"import"				"762x51_tracer"
+			"import"				"762x51_s_ap"
 			"carry"						"12"
 			"magsize"				"20"
 		}
