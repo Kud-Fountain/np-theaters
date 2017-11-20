@@ -1,0 +1,64 @@
+"#base" "huashui_player.theater"
+
+"#base" "huashui_gear.theater"
+"#base" "huashui_weapon.theater"
+"#base" "huashui_weapon_upgrades.theater"
+
+"theater"
+{
+	"core"
+	{
+		"precache"
+		{
+			// default theater specific sounds
+			"localize"			"resource/nvzhuang_schinese.txt"
+			"sounds"			"scripts/ins_sounds_weapons.txt"
+			"sounds"			"scripts/ins_sounds_cues.txt"
+			"sounds"			"scripts/ins_sounds_voice.txt"
+			"sounds"			"scripts/ins_sounds_radial_security.txt"				
+			"sounds"			"scripts/ins_sounds_radial_insurgent.txt"			
+			"sounds"			"scripts/ins_sounds_responses_security.txt"
+			"sounds"			"scripts/ins_sounds_responses_insurgent.txt"
+			"sounds"			"scripts/ins_sounds_hq.txt"
+			"sounds"			"scripts/ins_sounds_voice_coop.txt"
+            "sounds"			"scripts/audio/doi_sounds_weapons.txt"
+            "sounds"			"scripts/audio/huashui_custom_sounds.txt"
+			// custom particles		//fix
+			//"particles"			"particles/doi_weapon_fx.pcf"
+		}
+	}
+	
+	"teams"
+	{
+		"security"
+		{
+			"name"					"#Team_Security"
+			"logo"					"gameui/fac_sec"
+		
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"siderail_lasersight_pistol"		"-1"
+					"barrel_silencer_integrated"		"-1"
+				}
+			}
+		}
+		
+		"insurgents"
+		{
+			"name"					"#Team_Insurgent"
+			"logo"					"gameui/fac_ins"
+			
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"optic_2xaimpoint"					"1"
+					"siderail_lasersight_band"			"1"
+					"barrel_silencer_pistol"			"1"
+				}
+			}
+		}
+	}
+}

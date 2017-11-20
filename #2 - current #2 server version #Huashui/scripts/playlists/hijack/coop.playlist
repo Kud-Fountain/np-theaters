@@ -1,0 +1,61 @@
+"playlist"
+{
+	"name"					"hijack"
+	"description"			"hijack"
+	"category"				"hidden" // Required: Menu category, should be "pvp", "coop", "solo" or "hidden"
+	
+	"require_maxplayers_min"		"1"
+	"require_maxplayers_max"		"49"
+
+	"sv_pure"
+	{
+		// This value will be used for sv_pure unless it has been defined serverside in a config or launch parameter.
+		"default"                       "0"
+	}
+	
+
+	
+	// Recommended convars, will be applied but are not enforced and
+	// can be changed by server operators.
+	//"cvars"
+	//{
+		// "CVAR"										"VALUE"
+		
+	//	"ambush"	// Gamemode specific cvars
+	//	{
+	//		// "CVAR"									"VALUE"
+	//	}
+	//}
+	
+	// Enforced convars, these will be unchangable.
+	//"forced_cvars"
+	//{
+	//	// "CVAR"										"VALUE"
+	//	
+	//	"ambush"	// Gamemode specific cvars
+	//	{
+	//		// "CVAR"									"VALUE"
+	//	}
+	//}
+
+	// Defines the filters available to players searching for a game.
+	"filters"
+	{
+		// Passworded server handling, by default this is 0 and hides _all_ passworded servers from the server results.
+		// Setting this to 1 will allow passworded servers to appear in the list and will prompt for a password on connection,
+		// this may be desired behaviour for playlists with a small server count or players who expect passworded servers.
+		"show_passworded_servers"	"0" 
+
+		// Minimum player count filter, removing this key will remove this filter.
+		"players"
+		{
+			"min"					"0"	// Minimum slider value, defaults to 0
+			"max"					"10"	// Maximum slider value, defaults to require_maxplayers_max value
+		}
+
+		// Mod support, if enabled a filter is added allowing people to include/exclude servers which have sv_pure -1 or 0
+		// and support workshop items
+		"mod_support"				"1"
+		
+	}
+

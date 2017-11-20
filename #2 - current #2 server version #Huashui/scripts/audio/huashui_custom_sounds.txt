@@ -1,0 +1,243 @@
+// --------------------------
+// No69 Frag Grenade
+// --------------------------
+
+"Weapon_No69.Explode"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+	"soundlevel"  	"SNDLVL_140dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+	"wave"	        ")weapons/no69/no69_detonate_01.wav"	
+	"wave"	        ")weapons/no69/no69_detonate_02.wav"	
+	"wave"	        ")weapons/no69/no69_detonate_03.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_speed_of_sound"
+			"import_stack" "INS_DistantVoiceSwap" 
+			
+			"Swap_trigger"
+			{
+			"input2" "1500"
+			}
+			
+			"voice_play_entry"
+			{
+				"entry_name" "Weapon_No69.ExplodeDistant"
+			}
+			
+
+        }
+	}
+}
+
+
+"Weapon_No69.ExplodeDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_110dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+	"wave"			")weapons/no69/no69_detonate_dist_01.wav"
+	"wave"			")weapons/no69/no69_detonate_dist_02.wav"
+	"wave"			")weapons/no69/no69_detonate_dist_03.wav"
+    } 	
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_speed_of_sound"
+			"import_stack" "INS_DistantVoiceSwap2" 
+			
+			"Swap_trigger2"
+			{
+			"input2" "5000"
+			}
+			
+			"voice_play_entry2"
+			{
+				"entry_name" "Weapon_No69.ExplodeFarDistant"
+			}
+        }
+	}
+}
+
+
+"Weapon_No69.ExplodeFarDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_150dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+	"wave"			")weapons/no69/no69_detonate_far_dist_01.wav"
+	"wave"			")weapons/no69/no69_detonate_far_dist_02.wav"
+	"wave"			")weapons/no69/no69_detonate_far_dist_03.wav"
+    } 	
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_speed_of_sound"
+			"import_stack" "INS_limit_start"
+		}
+	} 
+}
+
+
+// NEW HANDLING
+
+
+"Weapon_No69.ArmDraw"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+    "pitch"		"PITCH_NORM"
+	"wave"		"weapons/no69/handling/no69_armdraw.wav" 
+}
+
+"Weapon_No69.ArmThrow"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.45"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/no69/handling/no69_throw.wav" 
+}
+
+"Weapon_No69.CapOff"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.45"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/no69/handling/no69_capoff.wav" 
+}
+
+
+"Weapon_No69.Bounce"
+{
+	"channel"		    "CHAN_ITEM"
+	"volume"		    "0.5"
+	"soundlevel"	    "SNDLVL_80dB"
+	"pitch"			    "98,102"
+	"rndwave"
+	{
+	"wave"		"weapons/no69/no69_bounce_01.wav"
+	"wave"		"weapons/no69/no69_bounce_02.wav"
+	"wave"		"weapons/no69/no69_bounce_03.wav"
+    "wave"		"weapons/no69/no69_bounce_04.wav"
+	} 
+}
+
+// No69 EXPLODE WATER
+
+"Weapon_No69.ExplodeWater"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+	"soundlevel"  	"SNDLVL_140dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+	"wave"	        ")weapons/no69/water/no69_water_detonate_01.wav"	
+	"wave"	        ")weapons/no69/water/no69_water_detonate_02.wav"	
+	"wave"	        ")weapons/no69/water/no69_water_detonate_03.wav"		
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_speed_of_sound"
+			"import_stack" "INS_DistantVoiceSwap" 
+			
+			"Swap_trigger"
+			{
+			"input2" "1500"
+			}
+			
+			"voice_play_entry"
+			{
+				"entry_name" "Weapon_No69.ExplodeDistantWater"
+			}
+			
+
+        }
+	}
+}
+
+
+"Weapon_No69.ExplodeDistantWater"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_110dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+	"wave"			")weapons/no69/water/no69_water_detonate_dist_01.wav"
+	"wave"			")weapons/no69/water/no69_water_detonate_dist_02.wav"
+	"wave"			")weapons/no69/water/no69_water_detonate_dist_03.wav"
+    } 	
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_speed_of_sound"
+			"import_stack" "INS_DistantVoiceSwap2" 
+			
+			"Swap_trigger2"
+			{
+			"input2" "5000"
+			}
+			
+			"voice_play_entry2"
+			{
+				"entry_name" "Weapon_No69.ExplodeFarDistantWater"
+			}
+			
+
+        }
+	}
+}
+
+
+"Weapon_No69.ExplodeFarDistantWater"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_150dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+	"wave"			")weapons/no69/no69_detonate_far_dist_01.wav"
+	"wave"			")weapons/no69/no69_detonate_far_dist_02.wav"
+	"wave"			")weapons/no69/no69_detonate_far_dist_03.wav"
+    } 	
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_speed_of_sound"
+			"import_stack" "INS_limit_start"
+		}
+	}
+}

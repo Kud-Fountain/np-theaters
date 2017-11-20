@@ -1,0 +1,532 @@
+"#base" "default_weapon_upgrades.theater"
+
+"theater"
+{
+	"weapon_upgrades"
+	{
+		"underbarrel_m203_he"
+		{
+			"upgrade_cost"				"6"
+		}
+		"underbarrel_gp25_he"
+		{
+			"upgrade_cost"				"6"
+		}
+		"optic_kobra"
+		{
+			"team_access"				"security, insurgent"
+		}
+		"optic_scope_7x"
+		{
+			"team_access"				"security, insurgent"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_mosin"
+				"weapon"				"weapon_fal"
+				"weapon"				"weapon_sks"
+				"weapon"				"weapon_l1a1"
+			}
+		}
+		"optic_po4x24"
+		{
+			"team_access"				"security, insurgent"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_akm"
+				"weapon"				"weapon_ak74"
+				"weapon"				"weapon_aks74u"
+				"weapon"				"weapon_fal"
+				"weapon"				"weapon_galil"
+				"weapon"				"weapon_l1a1"
+				"weapon"				"weapon_m1a1"
+				"weapon"				"weapon_mosin"
+				"weapon"				"weapon_mp40"
+				"weapon"				"weapon_rpk"
+				"weapon"				"weapon_sks"
+				"weapon"				"weapon_sterling"
+
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_ump45"
+
+				"weapon"				"weapon_galil_sar"
+			}
+		}
+		"barrel_heavybarrel"
+		{
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_galil"
+				"weapon"				"weapon_galil_sar"
+
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_m249"
+			}
+		}
+		"ammo_hp_makarov"
+		{
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_makarov"
+				"weapon"				"weapon_ppk"
+				"weapon"				"weapon_luger"
+				"weapon"				"weapon_p38"
+			}
+		}
+		"ammo_ap_makarov"
+		{
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_makarov"
+				"weapon"				"weapon_ppk"
+				"weapon"				"weapon_luger"
+				"weapon"				"weapon_p38"
+			}
+		}
+		// ========================================
+		// Base Upgrades
+		// ========================================
+		
+		"base_optic_rail"
+		{
+			"IsBase"					"1"
+			"upgrade_slot"				"optics"
+			
+			"viewmodel_attachments"
+			{				
+				"ModKitG43"
+				{
+					"model"					"models/weapons/upgrades/a_modkit_g43.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_g43_sniper"
+					}
+				}
+				
+				"ModkitSpringfield"
+				{
+					"model"					"models/weapons/upgrades/a_modkit_mosin.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_springfield"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"ModkitG43"
+				{
+					"model"					"models/weapons/upgrades/w_modkit_4.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_g43_sniper"
+					}
+				}
+				
+				"ModkitSpringfield"
+				{
+					"model"					"models/weapons/upgrades/w_modkit_mosin.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_springfield"
+					}
+				}
+			}
+		}
+		
+		// ========================================
+		// Bayonets
+		// ========================================
+		
+		
+		// ========================================
+		// Slings
+		// ========================================
+		
+		"ww2_sling"
+		{
+			"upgrade_cost"				"1"
+			"upgrade_slot"				"siderail"
+			"print_name"				"#ww2_sling"
+			"print_desc"				"增加收枪拔枪速度"
+			
+			"class_restricted"			"0"
+			"team_access"				"security, insurgent"
+			
+			"draw_speed"				"1.8" //"1.3"
+			"holster_speed"				"2.1" //"1.6"
+			"draw_speed_next_weapon"	"1.7" //"1.2"
+			"holster_speed_prev_weapon"	"1.8" //"1.3"
+			
+			"allowed_weapons"
+			{
+				"weapon"			"weapon_springfield"
+				"weapon"			"weapon_k98"
+				"weapon"			"weapon_k98_sniper"
+				"weapon"			"weapon_g43"
+				"weapon"			"weapon_g43_sniper"
+				"weapon"			"weapon_m1garand"
+				"weapon"			"weapon_thompson"
+				"weapon"			"weapon_stg44"
+				"weapon"			"weapon_bar"
+
+				"weapon"			"weapon_m1912"
+			}
+		}
+		
+		// ========================================
+		// Extended Magazines
+		// ========================================
+		
+		"magazine_extended_thompson_30rd"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"1"
+			"team_access"				"security, insurgent"
+			
+			"print_name"				"#magazine_extended_thompson_30rd"
+			"print_desc"				"增加子弹容量至30发"
+
+			"magsize_override"			"30"
+
+			"weight"					"5"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_thompson"
+			}
+
+			"viewmodel_attachments"
+			{
+				"magazine_thompson"
+				{
+					"model"				"models/weapons/upgrades/a_thompson_mag_30.mdl"
+
+					"weapons"
+					{
+						"weapon"		"weapon_thompson"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"magazine_thompson_30"
+				{
+					"model"				"models/weapons/upgrades/w_thompson_mag_30.mdl"
+				}
+			}
+		}
+		
+		"magazine_extended_thompson_50rd"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"5"
+			"team_access"				"security, insurgent"
+			
+			"print_name"				"#magazine_extended_thompson_50rd"
+			"print_desc"				"增加子弹容量至50发"
+
+			"class_restricted"			"0"
+			
+			"magsize_override"			"50"
+			"maxcarry_override"			"6"
+
+			"weight"					"35"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_thompson"
+			}
+
+			"viewmodel_attachments"
+			{
+				"magazine_thompson"
+				{
+					"ActSuffix"			"_MAG1"
+					"model"				"models/weapons/upgrades/a_thompson_mag_50.mdl"
+
+					"weapons"
+					{
+						"weapon"		"weapon_thompson"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"magazine_thompson_50"
+				{
+					"model"				"models/weapons/upgrades/w_thompson_mag_50.mdl"
+				}
+			}
+		}
+		
+		// ========================================
+		// Foregrips
+		// ========================================
+		
+		"underbarrel_foregrip_thompson"
+		{
+			"import"					"base_foregrip"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_thompson"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"foregrip_thompson"
+				{
+					"model"					"models/weapons/upgrades/a_thompson_foregrip.mdl"
+					"Gesture"				"delta_foregrip"
+					"ActSuffix"				"_FOREGRIP"
+				}
+			}
+			
+			"world_attachments"
+			{
+				"foregrip_thompson"
+				{
+					"model"				"models/weapons/upgrades/w_thompson_foregrip.mdl"
+				}
+			}
+		}
+		
+		// ========================================
+		// Optics
+		// ========================================
+		
+		"optic_scope_7xii"
+		{
+			"import"					"base_optic_rail"
+			"print_name"				"#weapon_upgrade_scope_mosin"
+			"print_desc"				"#weapon_upgrade_scope_mosin_desc"
+			"class_restricted"			"1"
+			"upgrade_cost"				"4"
+			"team_access"				"security, insurgent"
+			
+			"sway"
+			{
+				"sway_radius_frac"		"1.8"
+				"sway_speed_frac"		"1.9"
+			}
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_springfield"
+				"weapon"				"weapon_k98_sniper"
+				"weapon"				"weapon_g43_sniper"
+			}
+			"viewmodel_attachments"
+			{
+				"7xscope_k98"
+				{
+					"model"					"models/weapons/upgrades/a_optic_kar98k.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_k98_sniper"
+					}
+				}
+				
+				"7xscope_springfield"
+				{
+					"model"					"models/weapons/upgrades/a_optic_mosin.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_springfield"
+					}
+				}
+				
+				"7xscope_g43"
+				{
+					"model"					"models/weapons/upgrades/a_optic_zf4.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_g43_sniper"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"Scope"
+				{
+					"model"					"models/weapons/upgrades/w_scope_mosin.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_springfield"
+						"weapon"				"weapon_g43_sniper"
+					}
+				}
+				
+				"Scope_kar98"
+				{
+					"model"					"models/weapons/upgrades/w_optic_kar98k.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_k98_sniper"
+					}
+				}
+			}
+			"optics_fov_override"
+			{
+				"fov_wpn_scope"				"10"
+				"fov_wpn_ironsight"			"37"
+				"fov_wpn_focus"				"43"
+				
+				"weapon_springfield"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"47"
+					"fov_wpn_focus"				"50"
+				}
+				
+				"weapon_k98_sniper"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"54"
+					"fov_wpn_focus"				"56"
+				}
+				
+				"weapon_g43_sniper"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"43"
+				}
+			}
+		}
+		
+		// ========================================
+		// Fast
+		// ========================================
+		
+		"fast_reload_2"
+		{
+			"upgrade_cost"				"1"
+			"upgrade_slot"				"aesthetic"
+			"print_name"				"#fast_reload_2"
+			"print_desc"				"单身三十年的二战老兵我就问你怕不怕"
+			
+			"class_restricted"			"0"
+			"team_access"				"security, insurgent"
+			
+			"reload_speed"				"2.3" //"1.8"
+			
+			"allowed_weapons"
+			{
+				"weapon"			"weapon_thompson"
+			}
+		}
+		"fast_reload"
+		{
+			"upgrade_cost"				"1"
+			"upgrade_slot"				"magazine"
+			"print_name"				"#fast_reload"
+			"print_desc"				"单身三十年的二战老兵我就问你怕不怕"
+			
+			"class_restricted"			"0"
+			"team_access"				"security, insurgent"
+			
+			"reload_speed"				"2.3" //"1.8"
+			
+			"allowed_weapons"
+			{
+				"weapon"			"weapon_springfield"
+				"weapon"			"weapon_k98"
+				"weapon"			"weapon_k98_sniper"
+				"weapon"			"weapon_g43"
+				"weapon"			"weapon_g43_sniper"
+				"weapon"			"weapon_m1garand"
+				"weapon"			"weapon_stg44"
+				"weapon"			"weapon_bar"
+				"weapon"			"weapon_m1919"
+				"weapon"			"weapon_mg42"
+				"weapon"			"weapon_ppk"
+				"weapon"			"weapon_luger"
+				"weapon"			"weapon_p38"
+				//"weapon"			"weapon_mosin"
+				//"weapon"			"weapon_m40a1"
+				//"weapon"			"weapon_model10"
+
+				"weapon"			"weapon_m1912"
+			}
+		}
+		"fast_bolt"
+		{
+			"upgrade_cost"				"2"
+			"upgrade_slot"				"stock"
+			"print_name"				"#fast_bolt"
+			"print_desc"				"我麒麟臂发作起来连我自己都怕"
+			
+			"class_restricted"			"0"
+			"team_access"				"security, insurgent"
+			
+			"bolt_speed"				"2.3" //"1.8"
+			
+			"allowed_weapons"
+			{
+				"weapon"			"weapon_springfield"
+				"weapon"			"weapon_k98"
+				"weapon"			"weapon_k98_sniper"
+				//"weapon"			"weapon_mosin"
+				//"weapon"			"weapon_m40a1"
+
+				"weapon"			"weapon_m1912"
+			}
+		}
+		"siderail_lasersight_band"
+		{
+			"team_access"				"insurgent"
+		}
+		"siderail_lasersight_shotgun_sec"
+		{
+			"team_access"				"insurgent"
+		}
+		"siderail_lasersight_shotgun_ins"
+		{
+			"team_access"				"insurgent"
+		}
+		"siderail_lasersight_pistol"
+		{
+			"team_access"				"insurgent"
+		}
+		"siderail_lasersight_rail"
+		{
+			"team_access"				"insurgent"
+		}
+	}
+}
