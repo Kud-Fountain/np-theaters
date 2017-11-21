@@ -1,0 +1,996 @@
+"#base" "death_squads_base_player_outpost.theater"
+"#base" "death_squads_base_common_ammo_test.theater"
+
+"#base" "death_squads_gear_test_outpost.theater"
+"#base" "death_squads_weapon.theater"
+"#base" "death_squads_custom_weapon.theater"
+"#base" "death_squads_weapon_upgrades.theater"
+
+"#base" "death_squads_base.theater"
+
+"theater"
+{
+	"core"
+	{
+		"precache"
+		{
+			// default theater specific sounds
+			"sounds"			"scripts/game_sounds_manifest.txt"
+			"sounds"			"scripts/ins_sounds_weapons.txt"
+			"sounds"			"scripts/ins_sounds_voice.txt"
+			"sounds"			"scripts/ins_sounds_radial_security.txt"				
+			"sounds"			"scripts/ins_sounds_radial_insurgent.txt"				
+			"sounds"			"scripts/ins_sounds_responses_security.txt"
+			"sounds"			"scripts/ins_sounds_responses_insurgent.txt"
+			"sounds"			"scripts/ins_sounds_hq.txt"
+			
+			// coop specific
+			"sounds"			"scripts/ins_sounds_voice_coop.txt"
+			"sounds"			"scripts/ins_sounds_voice_survival.txt"
+			// custom unfinsh
+			"sounds"			"scripts/armoryExpandedv3_sounds.txt"
+			"sounds"			"scripts/death_squads_sounds_cues.txt"
+			"localize"			"resource/ui/death_squads_x_armory_english_v1.txt"
+			// custom particles
+			"particles"			"particles/doi_weapon_fx.pcf"
+		}
+	}
+	
+	
+	"player_templates"
+	{
+		"template_anti_armor_master_security_coop"
+		{
+			"team"						"security"
+			"print_name"				"#Squad_Fireteam_Anti_Armor_Master"
+			
+			"models"
+			{
+				"player"				"models/characters/security_l_del.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_de_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"				"sec_heavy_armor"
+				"weapon"			"weapon_kabar"
+			}
+			"allowed_items"
+			{
+				//36gun
+				"gear"				"sec_light_armor"
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_rig"
+				"gear"				"sec_chest_carrier"
+				"gear"				"sec_anti_explosion_clothing"
+				"gear"               		"sec_nightvision"
+							// GRENADES
+				"weapon"			"weapon_p2a1"
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_f1"
+							// MELEE
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_gurkha"
+				// ========================================
+				// CUSTOM GEAR-------------CUSTOM
+				// ========================================
+				"gear"               		"sec_heavy_carrier"
+				// ========================================
+				// CUSTOM MELEE-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_katana"
+				"weapon"			"weapon_machete"
+				"weapon"			"weapon_parang"
+				"weapon"			"weapon_Ninjato2"
+				"weapon"			"weapon_NieR"
+				"weapon"			"weapon_brassknuckles"
+				"weapon"			"weapon_shovel"
+				"weapon"			"weapon_akm_bayonet"
+				// ========================================
+				// CUSTOM SNIPER RIFLES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_ae_l118a1"
+				"weapon"			"weapon_k98_sniper"
+				"weapon"			"weapon_springfield"
+				// ========================================
+				// CUSTOM HEALTHKIT-------------CUSTOM
+				// ========================================
+				// ========================================
+				// CUSTOM GRENADES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_stielhandgranate"
+				// SNIPER RIFLES
+				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_mosin"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					
+				}
+				"weapon_upgrade"
+				{
+
+				}
+			}
+		}
+		"template_breacher_security_coop"
+		{
+			"team"						"security"
+			"print_name"				"#Squad_Fireteam_Breacher"
+			
+			"models"
+			{
+				"player"				"models/characters/security_l_del.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_de_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"				"sec_light_armor"
+				"weapon"			"weapon_kabar"
+			}
+			"allowed_items"
+			{
+				"gear"				"sec_light_armor"
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_rig"
+				"gear"				"sec_chest_carrier"
+				"gear"               		"sec_nightvision"
+							// GRENADES
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_molotov"
+							// MELEE
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_gurkha"
+				// ========================================
+				// CUSTOM GEAR-------------CUSTOM
+				// ========================================
+				"gear"               		"sec_super_armor"
+				// ========================================
+				// CUSTOM MELEE-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_katana"
+				"weapon"			"weapon_machete"
+				"weapon"			"weapon_parang"
+				"weapon"			"weapon_Ninjato2"
+				"weapon"			"weapon_NieR"
+				"weapon"			"weapon_brassknuckles"
+				"weapon"			"weapon_shovel"
+				"weapon"			"weapon_akm_bayonet"
+				// ========================================
+				// CUSTOM SNIPER RIFLES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_ae_l118a1"
+				"weapon"			"weapon_k98_sniper"
+				"weapon"			"weapon_springfield"
+				// SNIPER RIFLES
+				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_mosin"
+			}
+			"cost_modifiers"
+			{
+				"gear"
+				{
+					
+				}
+				"weapon"
+				{
+					
+				}
+				"weapon_upgrade"
+				{
+					
+				}
+			}
+		}
+		"template_demolitions_security_coop"
+		{
+			"team"						"security"
+			"print_name"				"#Squad_Fireteam_Demolitions"
+			
+			"models"
+			{
+				"player"				"models/characters/security_l_del.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_de_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"				"sec_anti_explosion_clothing"
+				"weapon"			"weapon_kabar"
+			}
+			"allowed_items"
+			{
+				"gear"				"sec_light_armor"
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_rig"
+				"gear"				"sec_chest_carrier"
+				"gear"				"sec_anti_explosion_clothing"
+				"gear"               		"sec_nightvision"
+							// GRENADES
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_f1"
+							// MELEE
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_gurkha"
+				// ========================================
+				// CUSTOM GEAR-------------CUSTOM
+				// ========================================
+				"gear"               		"sec_heavy_carrier"
+				// ========================================
+				// CUSTOM MELEE-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_katana"
+				"weapon"			"weapon_machete"
+				"weapon"			"weapon_parang"
+				"weapon"			"weapon_Ninjato2"
+				"weapon"			"weapon_NieR"
+				"weapon"			"weapon_brassknuckles"
+				"weapon"			"weapon_shovel"
+				"weapon"			"weapon_akm_bayonet"
+				// ========================================
+				// CUSTOM HEALTHKIT-------------CUSTOM
+				// ========================================
+				// ========================================
+				// CUSTOM GRENADES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_stielhandgranate"
+				// ========================================
+				// CUSTOM SNIPER RIFLES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_ae_l118a1"
+				"weapon"			"weapon_k98_sniper"
+				"weapon"			"weapon_springfield"
+				// SNIPER RIFLES
+				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_mosin"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					
+				}
+				"weapon_upgrade"
+				{
+					
+				}
+			}
+		}
+		"template_designated_marksman_security_coop"
+		{
+			"team"						"security"
+			"print_name"				"#Squad_Fireteam_Designated_Marksman"
+			
+			"models"
+			{
+				"player"				"models/characters/security_l_del.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_de_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"				"sec_light_armor"
+				"weapon"			"weapon_kabar"
+			}
+			"allowed_items"
+			{	
+				"gear"				"sec_light_armor"
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_rig"
+				"gear"				"sec_chest_carrier"
+				"gear"               		"sec_nightvision"
+							// GRENADES
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_f1"
+							// MELEE
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_gurkha"
+				// ========================================
+				// CUSTOM MELEE-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_katana"
+				"weapon"			"weapon_machete"
+				"weapon"			"weapon_parang"
+				"weapon"			"weapon_Ninjato2"
+				"weapon"			"weapon_NieR"
+				"weapon"			"weapon_brassknuckles"
+				"weapon"			"weapon_shovel"
+				"weapon"			"weapon_akm_bayonet"
+				// ========================================
+				// CUSTOM SNIPER RIFLES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_ae_l118a1"
+				"weapon"			"weapon_k98_sniper"
+				"weapon"			"weapon_springfield"
+				// SNIPER RIFLES
+				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_mosin"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					
+				}
+				"weapon_upgrade"
+				{
+					
+				}
+			}
+		}
+		"template_grenadier_security_coop"
+		{
+			"team"						"security"
+			"print_name"				"#Squad_Fireteam_Grenadier"
+			
+			"models"
+			{
+				"player"				"models/characters/security_l_del.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_de_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"				"sec_heavy_armor"
+				"weapon"			"weapon_kabar"
+			}
+			"allowed_items"
+			{
+				"gear"				"sec_light_armor"
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_rig"
+				"gear"				"sec_chest_carrier"
+				"gear"				"sec_anti_explosion_clothing"
+				"gear"               		"sec_nightvision"
+							// GRENADES
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_molotov"
+							// MELEE
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_gurkha"
+				// ========================================
+				// CUSTOM GEAR-------------CUSTOM
+				// ========================================
+				"gear"               		"sec_heavy_carrier"
+				// ========================================
+				// CUSTOM MELEE-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_katana"
+				"weapon"			"weapon_machete"
+				"weapon"			"weapon_parang"
+				"weapon"			"weapon_Ninjato2"
+				"weapon"			"weapon_NieR"
+				"weapon"			"weapon_brassknuckles"
+				"weapon"			"weapon_shovel"
+				"weapon"			"weapon_akm_bayonet"
+				// ========================================
+				// CUSTOM HEALTHKIT-------------CUSTOM
+				// ========================================
+				// ========================================
+				// CUSTOM GRENADES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_stielhandgranate"
+				// ========================================
+				// CUSTOM SNIPER RIFLES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_ae_l118a1"
+				"weapon"			"weapon_k98_sniper"
+				"weapon"			"weapon_springfield"
+				// SNIPER RIFLES
+				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_mosin"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m84"						"-1"
+					"weapon_m18"						"-1"
+					"weapon_m67"						"-1"
+					"weapon_f1"						"-1"
+					"weapon_anm14"						"-2"
+					"weapon_molotov"					"-2"
+				}
+				"weapon_upgrade"
+				{
+					"underbarrel_m203_he"				"-4"
+					"underbarrel_m203_smoke"			"-2"
+					"underbarrel_gp25_he"				"-4"
+					"underbarrel_gp25_smoke"			"-2"
+				}
+			}
+		}
+		"template_melee_master_security_coop"
+		{
+			"team"						"security"
+			"print_name"				"#Squad_Fireteam_Melee_Master"
+			
+			"models"
+			{
+				"player"				"models/characters/security_l_del.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_de_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"				"sec_heavy_armor"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_katana"
+				"weapon"			"weapon_m590"
+			}
+			"allowed_items"
+			{
+				"gear"				"sec_light_armor"
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_rig"
+				"gear"				"sec_chest_carrier"
+				"gear"				"sec_anti_explosion_clothing"
+				"gear"               		"sec_nightvision"
+							// GRENADES
+				"weapon"			"weapon_p2a1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_molotov"
+							// MELEE
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_gurkha"
+				// ========================================
+				// CUSTOM GEAR-------------CUSTOM
+				// ========================================
+				"gear"               		"sec_super_armor"
+				// ========================================
+				// CUSTOM MELEE-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_katana"
+				"weapon"			"weapon_machete"
+				"weapon"			"weapon_parang"
+				"weapon"			"weapon_Ninjato2"
+				"weapon"			"weapon_NieR"
+				"weapon"			"weapon_brassknuckles"
+				"weapon"			"weapon_shovel"
+				"weapon"			"weapon_akm_bayonet"
+				// ========================================
+				// CUSTOM HEALTHKIT-------------CUSTOM
+				// ========================================
+				// ========================================
+				// CUSTOM GRENADES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_stielhandgranate"
+				// ========================================
+				// CUSTOM SNIPER RIFLES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_ae_l118a1"
+				"weapon"			"weapon_k98_sniper"
+				"weapon"			"weapon_springfield"
+				// SNIPER RIFLES
+				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_mosin"
+			}
+			"cost_modifiers"
+			{
+				"gear"   
+				{   
+					
+				}
+				"weapon"
+				{
+					
+				}
+				"weapon_upgrade"
+				{
+					
+				}
+			}
+		}
+		"template_recon_security_coop"
+		{
+			"team"						"security"
+			"print_name"				"#Squad_Fireteam_Recon"
+			
+			"models"
+			{
+				"player"				"models/characters/security_l_del.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_de_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}	
+			
+			"buy_order"
+			{
+				"gear"				"sec_light_armor"
+				"weapon"			"weapon_kabar"
+			}
+			"allowed_items"
+			{
+				"gear"				"sec_light_armor"
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_rig"
+				"gear"				"sec_chest_carrier"
+				"gear"               		"sec_nightvision"
+							// GRENADES
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_f1"
+							// MELEE
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_gurkha"
+				// ========================================
+				// CUSTOM GEAR-------------CUSTOM
+				// ========================================
+				"gear"               		"sec_super_armor"
+				// ========================================
+				// CUSTOM MELEE-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_katana"
+				"weapon"			"weapon_machete"
+				"weapon"			"weapon_parang"
+				"weapon"			"weapon_Ninjato2"
+				"weapon"			"weapon_NieR"
+				"weapon"			"weapon_brassknuckles"
+				"weapon"			"weapon_shovel"
+				"weapon"			"weapon_akm_bayonet"
+				// ========================================
+				// CUSTOM SNIPER RIFLES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_ae_l118a1"
+				"weapon"			"weapon_k98_sniper"
+				"weapon"			"weapon_springfield"
+				// SNIPER RIFLES
+				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_mosin"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+				
+				}
+				"weapon_upgrade"
+				{
+					
+				}
+			}
+		}
+		"template_rifleman_security_coop"
+		{
+			"team"						"security"
+			"print_name"				"#Squad_Fireteam_Rifleman"
+			
+			"models"
+			{
+				"player"				"models/characters/security_l_del.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_de_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"				"sec_heavy_armor"
+				"weapon"			"weapon_kabar"
+			}
+			"allowed_items"
+			{
+				"gear"				"sec_light_armor"
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_rig"
+				"gear"				"sec_chest_carrier"
+				"gear"               		"sec_nightvision"
+							// GRENADES
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_molotov"
+							// MELEE
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_gurkha"
+				// ========================================
+				// CUSTOM MELEE-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_katana"
+				"weapon"			"weapon_machete"
+				"weapon"			"weapon_parang"
+				"weapon"			"weapon_Ninjato2"
+				"weapon"			"weapon_NieR"
+				"weapon"			"weapon_brassknuckles"
+				"weapon"			"weapon_shovel"
+				"weapon"			"weapon_akm_bayonet"
+				// ========================================
+				// CUSTOM HEALTHKIT-------------CUSTOM
+				// ========================================
+				// ========================================
+				// CUSTOM GRENADES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_stielhandgranate"
+				// ========================================
+				// CUSTOM SNIPER RIFLES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_ae_l118a1"
+				"weapon"			"weapon_k98_sniper"
+				"weapon"			"weapon_springfield"
+				// SNIPER RIFLES
+				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_mosin"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+
+				}
+				"weapon_upgrade"
+				{
+					
+				}
+			}
+		}
+		"template_specialist_security_coop"
+		{
+			"team"					"security"
+			"print_name"				"#Squad_Fireteam_Specialist"
+			
+			"models"
+			{
+				"player"				"models/characters/security_l_del.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_de_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}	
+			
+			"buy_order"
+			{
+				"gear"				"sec_light_armor"
+				"weapon"			"weapon_kabar"
+			}
+			"allowed_items"
+			{
+				"gear"				"sec_light_armor"
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_rig"
+				"gear"				"sec_chest_carrier"
+				"gear"				"sec_anti_explosion_clothing"
+				"gear"               		"sec_nightvision"
+							// GRENADES
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_molotov"
+							// MELEE
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_gurkha"
+				// ========================================
+				// CUSTOM GEAR-------------CUSTOM
+				// ========================================
+				"gear"               		"sec_super_armor"
+				"gear"               		"sec_heavy_carrier"
+				// ========================================
+				// CUSTOM MELEE-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_katana"
+				"weapon"			"weapon_machete"
+				"weapon"			"weapon_parang"
+				"weapon"			"weapon_Ninjato2"
+				"weapon"			"weapon_NieR"
+				"weapon"			"weapon_brassknuckles"
+				"weapon"			"weapon_shovel"
+				"weapon"			"weapon_akm_bayonet"
+				// ========================================
+				// CUSTOM HEALTHKIT-------------CUSTOM
+				// ========================================
+				// ========================================
+				// CUSTOM GRENADES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_stielhandgranate"
+				// ========================================
+				// CUSTOM SNIPER RIFLES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_ae_l118a1"
+				"weapon"			"weapon_k98_sniper"
+				"weapon"			"weapon_springfield"
+				// SNIPER RIFLES
+				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_mosin"
+			}
+		}
+		"template_sniper_security_coop"
+		{
+			"team"						"security"
+			"print_name"				"#Squad_Fireteam_Sniper"
+			
+			"models"
+			{
+				"player"				"models/characters/security_l_del.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_de_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"				"sec_heavy_armor"
+				"weapon"			"weapon_kabar"
+			}
+			"allowed_items"
+			{
+				"gear"				"sec_light_armor"
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_rig"
+				"gear"				"sec_chest_carrier"
+				"gear"               		"sec_nightvision"
+							// GRENADES
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_f1"
+							// MELEE
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_gurkha"
+				// ========================================
+				// CUSTOM MELEE-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_katana"
+				"weapon"			"weapon_machete"
+				"weapon"			"weapon_parang"
+				"weapon"			"weapon_Ninjato2"
+				"weapon"			"weapon_NieR"
+				"weapon"			"weapon_brassknuckles"
+				"weapon"			"weapon_shovel"
+				"weapon"			"weapon_akm_bayonet"
+				// ========================================
+				// CUSTOM SNIPER RIFLES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_ae_l118a1"
+				"weapon"			"weapon_k98_sniper"
+				"weapon"			"weapon_springfield"
+				// SNIPER RIFLES
+				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_mosin"
+			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+
+				}
+			}
+		}
+		"template_support_security_coop"
+		{
+			"team"						"security"
+			"print_name"				"#Squad_Fireteam_Support"
+			
+			"models"
+			{
+				"player"				"models/characters/security_l_del.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_de_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"				"sec_heavy_armor"
+				"weapon"			"weapon_kabar"
+			}
+			"allowed_items"
+			{
+				"gear"				"sec_light_armor"
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_rig"
+				"gear"				"sec_chest_carrier"
+				"gear"               		"sec_nightvision"
+							// GRENADES
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_molotov"
+							// MELEE
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_gurkha"
+				// ========================================
+				// CUSTOM GEAR-------------CUSTOM
+				// ========================================
+				"gear"               		"sec_heavy_carrier"
+				// ========================================
+				// CUSTOM MELEE-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_katana"
+				"weapon"			"weapon_machete"
+				"weapon"			"weapon_parang"
+				"weapon"			"weapon_Ninjato2"
+				"weapon"			"weapon_NieR"
+				"weapon"			"weapon_brassknuckles"
+				"weapon"			"weapon_shovel"
+				"weapon"			"weapon_akm_bayonet"
+				// ========================================
+				// CUSTOM HEALTHKIT-------------CUSTOM
+				// ========================================
+				// ========================================
+				// CUSTOM GRENADES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_stielhandgranate"
+				// ========================================
+				// CUSTOM SNIPER RIFLES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_ae_l118a1"
+				"weapon"			"weapon_k98_sniper"
+				"weapon"			"weapon_springfield"
+				// SNIPER RIFLES
+				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_mosin"
+			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+				
+				}
+			}
+		}
+		"template_medic_security_coop"
+		{
+			"team"						"security"
+			"print_name"				"#Squad_Fireteam_Medic"
+			
+			"models"
+			{
+				"player"				"models/characters/security_l_del.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_de_l.mdl"
+				//"player"				"models/characters/security_h_dlm.mdl"
+				//"viewmodel_hands"		"models/weapons/v_hddes_sec_h.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"				"sec_light_armor"
+				"weapon"			"weapon_defib"
+			}
+			"allowed_items"
+			{
+				"gear"				"sec_light_armor"
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_rig"
+				"gear"				"sec_chest_carrier"
+				"gear"               		"sec_nightvision"
+							// GRENADES
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_f1"
+				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_molotov"
+							// MELEE
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_gurkha"
+				// ========================================
+				// CUSTOM GEAR-------------CUSTOM
+				// ========================================
+				"gear"               		"sec_super_armor"
+				// ========================================
+				// CUSTOM MELEE-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_katana"
+				"weapon"			"weapon_machete"
+				"weapon"			"weapon_parang"
+				"weapon"			"weapon_Ninjato2"
+				"weapon"			"weapon_NieR"
+				"weapon"			"weapon_brassknuckles"
+				"weapon"			"weapon_shovel"
+				"weapon"			"weapon_akm_bayonet"
+				// ========================================
+				// CUSTOM HEALTHKIT-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_defib"
+				"weapon"			"weapon_healthkit"
+				// ========================================
+				// CUSTOM GRENADES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_stielhandgranate"
+				// ========================================
+				// CUSTOM SNIPER RIFLES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_ae_l118a1"
+				"weapon"			"weapon_k98_sniper"
+				"weapon"			"weapon_springfield"
+				// SNIPER RIFLES
+				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_mosin"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+				
+				}
+				"weapon_upgrade"
+				{
+					
+				}
+			}
+		}
+	}
+}
