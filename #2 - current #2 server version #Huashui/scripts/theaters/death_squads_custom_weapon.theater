@@ -508,7 +508,7 @@
 			"act_table"					"knife"
 			"weapon_weight"				"1"
 			"weapon_cost"				"3"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"barrel_length"				"-1"
 			
 			"unlock"					"1"
@@ -1985,7 +1985,7 @@
 			"weapon_weight"				"100"
 			"weapon_cost"				"0"
 			"barrel_length"				"22"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			
 			"fov"
 			{
@@ -2214,7 +2214,7 @@
 			"weapon_weight"				"100"
 			"weapon_cost"				"3"
 			"barrel_length"				"28"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 
 			"viewmodel_attachments"
 			{
@@ -2669,7 +2669,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"160"	// (6.6kg[weapon] + (0.2kg[ammo] * (1+16)[mags]) )*10[kg->hg for int]  +32[encumbrance]
 			"barrel_length"				"38"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			
 			"viewmodel_attachments"
 			{
@@ -3131,7 +3131,7 @@
 			"weapon_cost"				"3"
 			"barrel_length"				"20"
 			"weapon_max_subslot"			"0"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			
 			"fov"
 			{
@@ -3964,7 +3964,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"80"	// (3.3kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"				"3"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"barrel_length"				"24"
 			
 			"viewmodel_attachments"
@@ -4961,7 +4961,7 @@
 			"weapon_weight"				"75"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"				"3"
 			"barrel_length"				"22"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			
 			"viewmodel_attachments"
 			{
@@ -5069,7 +5069,7 @@
 			"weapon_weight"				"110"	// (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"				"3"
 			"barrel_length"				"28"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 
 			"viewmodel_attachments"
 			{
@@ -5574,7 +5574,7 @@
 			"act_table"				"pistol"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"40"	// (0.7kg[weapon] + (0.1kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +2[encumbrance]
-			"weapon_cost"				"3"
+			"weapon_cost"				"5"
 			"class_restricted"			"0"
 			"barrel_length"				"16"
 			"weapon_max_subslot"			"0"
@@ -6092,8 +6092,8 @@
 			"act_table"				"pistol"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"30"
-			"weapon_cost"				"2"
-			"class_restricted"			"1"
+			"weapon_cost"				"3"
+			"class_restricted"			"0"
 			"barrel_length"				"16"
 			"closed_bolt"				"0"
 			"trigger_delay"				"0.04"
@@ -6184,7 +6184,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"23"
 			"weapon_cost"				"1"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"barrel_length"				"16"
 			"closed_bolt"				"0"
 			"trigger_delay"				"0.04"
@@ -6272,7 +6272,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"32"
 			"weapon_cost"				"2"
-			"class_restricted"			"0"////////////////////for mod
+			"class_restricted"			"1"////////////////////for mod
 			"barrel_length"				"16"
 			"weapon_max_subslot"			"0"
 			
@@ -6916,7 +6916,7 @@
 			"act_table"				"shortrifle"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"90"	// (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"weapon_cost"				"4"
+			"weapon_cost"				"5"
 			"class_restricted"			"1"
 			"barrel_length"				"22"	
 			
@@ -7136,7 +7136,7 @@
 			"act_table"				"shortrifle"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"89"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
-			"weapon_cost"				"5"
+			"weapon_cost"				"8"
 			"barrel_length"				"28"
 			"class_restricted"			"1"
 
@@ -7319,7 +7319,7 @@
 		{
 			"import"				"ballistic_base"
 			"weapon_class"				"shotgun"
-			"weapon_cost"				"3"
+			"weapon_cost"				"5"
 			"print_name"				"#weapon_ae_m1014"
 			"print_desc"				"#weapon_ae_m1014_desc"
 			"view_model"				"models/weapons/v_m1014.mdl"
@@ -7524,7 +7524,7 @@
 			"weapon_cost"				"3"
 			"barrel_length"				"16"
 			"weapon_max_subslot"			"0"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			
 			"fov"
 			{

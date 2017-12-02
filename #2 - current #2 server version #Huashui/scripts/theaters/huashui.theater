@@ -4,6 +4,10 @@
 "#base" "huashui_weapon.theater"
 "#base" "huashui_weapon_upgrades.theater"
 
+"#base" "death_squads_weapon_upgrades.theater"
+"#base"	"death_squads_custom_weapon.theater"
+"#base"	"death_squads_base_common_ammo_test.theater"
+
 "theater"
 {
 	"core"
@@ -12,6 +16,8 @@
 		{
 			// default theater specific sounds
 			"localize"			"resource/nvzhuang_schinese.txt"
+			"localize"			"resource/death_squads_x_armory_schinese_v1.txt"
+			"sounds"			"scripts/armoryexpandedv3_sounds.txt"
 			"sounds"			"scripts/ins_sounds_weapons.txt"
 			"sounds"			"scripts/ins_sounds_cues.txt"
 			"sounds"			"scripts/ins_sounds_voice.txt"

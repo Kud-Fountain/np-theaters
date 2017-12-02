@@ -79,17 +79,17 @@
 			"gear_cost"			"1"
 			"gear_weight"		"64"
 
-			"penetration_power_required"	"200"
-			"penetration_power_loss"		"150"
+			"penetration_power_required"	"100"
+			"penetration_power_loss"		"100"
 			"explosive_damage_frac"			"1.00"
 
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"		"1.0"
-				"HITGROUP_LEFTARM"	"1.0"
-				"HITGROUP_RIGHTARM"	"1.0"
-				"HITGROUP_LEFTLEG"	"1.0"
-				"HITGROUP_RIGHTLEG"	"1.0"
+				"HITGROUP_LEFTARM"	"0.55"
+				"HITGROUP_RIGHTARM"	"0.55"
+				"HITGROUP_LEFTLEG"	"0.65"
+				"HITGROUP_RIGHTLEG"	"0.65"
 			}
 
 			"team_access"	"insurgent"
@@ -105,17 +105,17 @@
 			"entity"				"model"
 			"model"					"models/characters/ins_helmet_head.mdl"
 
-			"penetration_power_required"	"150"
-			"penetration_power_loss"		"120"
+			"penetration_power_required"	"100"
+			"penetration_power_loss"		"100"
 			"explosive_damage_frac"			"1.00"
 
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"		"1.0"
-				"HITGROUP_LEFTARM"	"1.0"
-				"HITGROUP_RIGHTARM"	"1.0"
-				"HITGROUP_LEFTLEG"	"1.0"
-				"HITGROUP_RIGHTLEG"	"1.0"
+				"HITGROUP_LEFTARM"	"0.55"
+				"HITGROUP_RIGHTARM"	"0.55"
+				"HITGROUP_LEFTLEG"	"0.65"
+				"HITGROUP_RIGHTLEG"	"0.65"
 			}
 
 			"team_access"	"security"
@@ -274,6 +274,39 @@
 			
 			"team_access"				"security, insurgent"
 		}
+		"mechanix_green_gloves"
+		{
+			"print_name"				"#mechanix_green_gloves"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_mechanix_green.mdl"
+			
+			"team_access"				"security, insurgent"
+		}
+		"cyberpunk_gloves"
+		{
+			"print_name"				"#cyberpunk_gloves"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_cyberpunk.mdl"
+			
+			"team_access"				"security, insurgent"
+		}
+		"raiden_gloves"
+		{
+			"print_name"				"#raiden_gloves"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_raiden.mdl"
+			
+			"team_access"				"security, insurgent"
+		}
 		"ins_gloves_0"
 		{
 			"print_name"				"#ins_gloves_0"
@@ -424,11 +457,11 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"		"0.75" // this is 1.0, but it has to be here to be considered armoured
-				"HITGROUP_STOMACH"		"0.75"
+				"HITGROUP_CHEST"		"0.50" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_STOMACH"		"0.50"
 			}
 			
-			"penetration_power_required" "300"
+			"penetration_power_required" "250"
 			"penetration_power_loss"	"350"
 			"explosive_damage_frac"		"1.50"
 			
@@ -447,12 +480,12 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"		"1.0" // this is 1.0, but it has to be here to be considered armoured
-				"HITGROUP_STOMACH"		"1.0"
+				"HITGROUP_CHEST"		"0.50" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_STOMACH"		"0.50"
 			}
 			
-			"penetration_power_required" "250"
-			"penetration_power_loss"	"300"
+			"penetration_power_required" "200"
+			"penetration_power_loss"	"200"
 			"explosive_damage_frac"		"0.75"
 			
 			"player_model_override"		"models/characters/security_std_delr.mdl"
@@ -470,12 +503,12 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"		"1.0" // this is 1.0, but it has to be here to be considered armoured
-				"HITGROUP_STOMACH"		"1.0"
+				"HITGROUP_CHEST"		"0.50" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_STOMACH"		"0.50"
 			}
 			
 			"penetration_power_required" "200"
-			"penetration_power_loss"	"250"
+			"penetration_power_loss"	"200"
 			"explosive_damage_frac"		"0.75"
 			
 			"team_access"				"security"
@@ -491,12 +524,12 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"		"1.0" // this is 1.0, but it has to be here to be considered armoured
-				"HITGROUP_STOMACH"		"1.0"
+				"HITGROUP_CHEST"		"0.50" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_STOMACH"		"0.50"
 			}
 			
-			"penetration_power_required" "450"
-			"penetration_power_loss"	"500"
+			"penetration_power_required" "300"
+			"penetration_power_loss"	"400"
 			"explosive_damage_frac"		"0.5"
 			
 			"player_model_override"		"models/characters/security_h_del.mdl"
@@ -514,12 +547,12 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"		"1.0" // this is 1.0, but it has to be here to be considered armoured
-				"HITGROUP_STOMACH"		"1.0"
+				"HITGROUP_CHEST"		"0.50" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_STOMACH"		"0.50"
 			}
 			
-			"penetration_power_required" "400"
-			"penetration_power_loss"	"450"
+			"penetration_power_required" "300"
+			"penetration_power_loss"	"400"
 			"explosive_damage_frac"		"0.5"
 			
 			"team_access"				"security"
@@ -533,8 +566,8 @@
 			"gear_weight"		"180"
 			"class_restricted"			"1"
 
-			"penetration_power_required" "400"
-			"penetration_power_loss"	"450"
+			"penetration_power_required" "250"
+			"penetration_power_loss"	"400"
 			"explosive_damage_frac"			"0.10"
 
 			"DamageHitgroups"
@@ -562,7 +595,7 @@
 			"gear_weight"		"180"
 			"class_restricted"			"1"
 
-			"penetration_power_required" "350"
+			"penetration_power_required" "250"
 			"penetration_power_loss"	"400"
 			"explosive_damage_frac"			"0.10"
 
@@ -590,15 +623,14 @@
 			"gear_weight"		"128"
 			"class_restricted"			"0"
 
-			"penetration_power_required" "200"
-			"penetration_power_loss"	"350"
+			"penetration_power_required" "300"
+			"penetration_power_loss"	"400"
 			"explosive_damage_frac"			"0.75"
 
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"		"1.00"
-				"HITGROUP_CHEST"	"0.10"
-				"HITGROUP_STOMACH"	"0.10"
+				"HITGROUP_CHEST"	"0.25"
+				"HITGROUP_STOMACH"	"0.25"
 				"HITGROUP_LEFTARM"	"0.25"
 				"HITGROUP_RIGHTARM"	"0.25"
 				"HITGROUP_LEFTLEG"	"0.25"
@@ -619,19 +651,18 @@
 			"gear_weight"		"0"
 			"class_restricted"			"1"
 
-			"penetration_power_required" "250"
-			"penetration_power_loss"	"350"
+			"penetration_power_required" "300"
+			"penetration_power_loss"	"400"
 			"explosive_damage_frac"			"0.75"
 
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"		"1.00"
-				"HITGROUP_CHEST"	"0.05"
-				"HITGROUP_STOMACH"	"0.05"
-				"HITGROUP_LEFTARM"	"0.25"
-				"HITGROUP_RIGHTARM"	"0.25"
-				"HITGROUP_LEFTLEG"	"0.25"
-				"HITGROUP_RIGHTLEG"	"0.25"
+				"HITGROUP_CHEST"	"0.25"
+				"HITGROUP_STOMACH"	"0.25"
+				"HITGROUP_LEFTARM"	"0.20"
+				"HITGROUP_RIGHTARM"	"0.20"
+				"HITGROUP_LEFTLEG"	"0.20"
+				"HITGROUP_RIGHTLEG"	"0.20"
 			}
 			
 			"player_model_override"		"models/characters/civilian_vip_sec_blue.mdl"
@@ -648,19 +679,18 @@
 			"gear_weight"		"0"
 			"class_restricted"			"1"
 
-			"penetration_power_required" "250"
-			"penetration_power_loss"	"350"
+			"penetration_power_required" "300"
+			"penetration_power_loss"	"400"
 			"explosive_damage_frac"			"0.10"
 
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"		"1.00"
-				"HITGROUP_CHEST"	"0.05"
-				"HITGROUP_STOMACH"	"0.05"
-				"HITGROUP_LEFTARM"	"0.25"
-				"HITGROUP_RIGHTARM"	"0.25"
-				"HITGROUP_LEFTLEG"	"0.25"
-				"HITGROUP_RIGHTLEG"	"0.25"
+				"HITGROUP_CHEST"	"0.25"
+				"HITGROUP_STOMACH"	"0.25"
+				"HITGROUP_LEFTARM"	"0.20"
+				"HITGROUP_RIGHTARM"	"0.20"
+				"HITGROUP_LEFTLEG"	"0.20"
+				"HITGROUP_RIGHTLEG"	"0.20"
 			}
 
 			"team_access"	"security"

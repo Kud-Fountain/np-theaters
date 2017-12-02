@@ -1650,7 +1650,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"				"556_stanag"
+				"ammo_type"				"556_stanag_m4"
 				"clip_max"				"12"
 				"clip_max_rounds"			"30"
 				"clip_default"				"3"

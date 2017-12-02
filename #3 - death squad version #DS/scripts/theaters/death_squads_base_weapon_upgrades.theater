@@ -75,7 +75,7 @@
 			"print_name"				"#weapon_upgrade_slugs_rip"
 			"print_desc"				"#weapon_upgrade_slugs_rip_desc"
 			"ammo_type_override"			"slugs_rip"
-			"spread_frac"				"0.5"
+			"spread_frac"				"0.2"
 		}
 		"base_ammo_flechettes"
 		{
@@ -84,7 +84,7 @@
 			"print_name"				"#weapon_upgrade_flechettes"
 			"print_desc"				"#weapon_upgrade_flechettes_desc"
 			"ammo_type_override"			"flechettes"
-			"spread_frac"				"0.8"
+			"spread_frac"				"0.9"
 		}
 		"base_standard"
 		{

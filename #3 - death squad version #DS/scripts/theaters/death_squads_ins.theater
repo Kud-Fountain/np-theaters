@@ -181,7 +181,6 @@
 				"weapon"			"weapon_machete"
 				"weapon"			"weapon_parang"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_shovel"
 				"weapon"			"weapon_akm_bayonet"
 				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
@@ -191,7 +190,6 @@
 				// ========================================
 				// CUSTOM GRENADES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_stielhandgranate"
 				// ========================================
 				// CUSTOM LAUNCHERS-------------CUSTOM
 				// ========================================
@@ -336,7 +334,6 @@
 				"weapon"			"weapon_machete"
 				"weapon"			"weapon_parang"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_shovel"
 				"weapon"			"weapon_akm_bayonet"
 				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
@@ -346,7 +343,6 @@
 				// ========================================
 				// CUSTOM GRENADES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_stielhandgranate"
 				// ========================================
 				// CUSTOM SEMI-AUTO RIFLES-------------CUSTOM
 				// ========================================
@@ -427,7 +423,6 @@
 					"weapon_machete"			"-1"
 					"weapon_parang"				"-1"
 					"weapon_brassknuckles"			"-1"
-					"weapon_shovel"				"-1"
 					"weapon_akm_bayonet"			"-1"
 					"weapon_hatchet"			"-1"
 				// ========================================
@@ -540,7 +535,6 @@
 				"weapon"			"weapon_machete"
 				"weapon"			"weapon_parang"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_shovel"
 				"weapon"			"weapon_akm_bayonet"
 				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
@@ -550,7 +544,6 @@
 				// ========================================
 				// CUSTOM GRENADES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_stielhandgranate"
 				// ========================================
 				// CUSTOM LAUNCHERS-------------CUSTOM
 				// ========================================
@@ -700,7 +693,6 @@
 				"weapon"			"weapon_machete"
 				"weapon"			"weapon_parang"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_shovel"
 				"weapon"			"weapon_akm_bayonet"
 				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
@@ -710,7 +702,6 @@
 				// ========================================
 				// CUSTOM GRENADES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_stielhandgranate"
 				// ========================================
 				// CUSTOM LAUNCHERS-------------CUSTOM
 				// ========================================
@@ -787,7 +778,6 @@
 					"weapon_machete"					"-2"
 					"weapon_parang"						"-2"
 					"weapon_brassknuckles"					"-1"
-					"weapon_shovel"						"-1"
 					"weapon_akm_bayonet"					"-1"
 					"weapon_model10"					"-1"
 					"weapon_makarov"					"-1"
@@ -890,7 +880,6 @@
 				"weapon"			"weapon_machete"
 				"weapon"			"weapon_parang"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_shovel"
 				"weapon"			"weapon_akm_bayonet"
 				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
@@ -900,7 +889,6 @@
 				// ========================================
 				// CUSTOM GRENADES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_stielhandgranate"
 				// ========================================
 				// CUSTOM LAUNCHERS-------------CUSTOM
 				// ========================================
@@ -1054,7 +1042,6 @@
 				"weapon"			"weapon_machete"
 				"weapon"			"weapon_parang"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_shovel"
 				"weapon"			"weapon_akm_bayonet"
 				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
@@ -1064,7 +1051,6 @@
 				// ========================================
 				// CUSTOM GRENADES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_stielhandgranate"
 				// ========================================
 				// CUSTOM LAUNCHERS-------------CUSTOM
 				// ========================================
@@ -1139,7 +1125,6 @@
 					// ========================================
 					// CUSTOM GRENADES-------------CUSTOM
 					// ========================================
-					"weapon_stielhandgranate"				"-1"
 					// ========================================
 					// CUSTOM LAUNCHERS-------------CUSTOM
 					// ========================================
@@ -1218,7 +1203,6 @@
 				"weapon"			"weapon_machete"
 				"weapon"			"weapon_parang"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_shovel"
 				"weapon"			"weapon_akm_bayonet"
 				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
@@ -1228,7 +1212,6 @@
 				// ========================================
 				// CUSTOM GRENADES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_stielhandgranate"
 				// ========================================
 				// CUSTOM LAUNCHERS-------------CUSTOM
 				// ========================================
@@ -1379,7 +1362,6 @@
 				"weapon"			"weapon_machete"
 				"weapon"			"weapon_parang"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_shovel"
 				"weapon"			"weapon_akm_bayonet"
 				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
@@ -1389,7 +1371,6 @@
 				// ========================================
 				// CUSTOM GRENADES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_stielhandgranate"
 				// ========================================
 				// CUSTOM SEMI-AUTO RIFLES-------------CUSTOM
 				// ========================================

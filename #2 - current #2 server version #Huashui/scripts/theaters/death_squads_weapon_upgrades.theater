@@ -2264,7 +2264,7 @@
 			"print_name"				"#weapon_upgrade_hybridsight"
 			"print_desc"				"#weapon_upgrade_hybridsight_desc"
 			"team_access"				"security,insurgent"
-			"class_restricted"			"1"
+			"class_restricted"			"0"
 			
 			"allowed_weapons"
 			{
@@ -2835,7 +2835,7 @@
 			"print_name"				"#weapon_upgrade_2xaimpoint"
 			"print_desc"				"#weapon_upgrade_2xaimpoint_desc"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"1"
+			"class_restricted"			"0"
 			
 			"allowed_weapons"
 			{
@@ -3340,7 +3340,7 @@
 			"print_name"				"#weapon_upgrade_acog_2x"
 			"print_desc"				"#weapon_upgrade_acog_2x_desc"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"1"
+			"class_restricted"			"0"
 			
 			"allowed_weapons"
 			{
@@ -3845,7 +3845,7 @@
 			"print_name"				"#weapon_upgrade_aimpoint"
 			"print_desc"				"#weapon_upgrade_aimpoint_desc"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"1"
+			"class_restricted"			"0"
 			
 			"allowed_weapons"
 			{
@@ -4326,7 +4326,7 @@
 			"print_name"				"#weapon_upgrade_micro_t1"
 			"print_desc"				"#weapon_upgrade_micro_t1_desc"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"1"
+			"class_restricted"			"0"
 			
 			"allowed_weapons"
 			{
@@ -4807,7 +4807,7 @@
 			"print_name"				"#weapon_upgrade_barska"
 			"print_desc"				"#weapon_upgrade_barska_desc"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"1"
+			"class_restricted"			"0"
 			
 			"allowed_weapons"
 			{
@@ -5288,7 +5288,7 @@
 			"print_name"				"#weapon_upgrade_gitsreddot"
 			"print_desc"				"#weapon_upgrade_gitsreddot_desc"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"1"
+			"class_restricted"			"0"
 			
 			"allowed_weapons"
 			{
@@ -5769,7 +5769,7 @@
 			"print_name"				"#weapon_upgrade_elcan"
 			"print_desc"				"#weapon_upgrade_elcan_desc"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"1"
+			"class_restricted"			"0"
 			
 			"allowed_weapons"
 			{
@@ -6214,7 +6214,7 @@
 			"print_name"				"#weapon_upgrade_acogecos"
 			"print_desc"				"#weapon_upgrade_acogecos_desc"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"1"
+			"class_restricted"			"0"
 			
 			"allowed_weapons"
 			{
@@ -6659,7 +6659,7 @@
 			"print_name"				"#weapon_upgrade_pso4x"
 			"print_desc"				"#weapon_upgrade_pso4x_desc"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"1"
+			"class_restricted"			"0"
 			
 			"allowed_weapons"
 			{
@@ -7104,7 +7104,7 @@
 			"print_name"				"#weapon_upgrade_holographic"
 			"print_desc"				"#weapon_upgrade_holographic_desc"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"1"
+			"class_restricted"			"0"
 			
 			"allowed_weapons"
 			{
@@ -7633,7 +7633,7 @@
 			"print_name"				"#weapon_upgrade_kobra"
 			"print_desc"				"#weapon_upgrade_kobra_desc"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"1"
+			"class_restricted"			"0"
 			
 			"allowed_weapons"
 			{
@@ -8113,7 +8113,7 @@
 			"print_name"				"#weapon_upgrade_okp"
 			"print_desc"				"#weapon_upgrade_okp_desc"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"1"
+			"class_restricted"			"0"
 			
 			"allowed_weapons"
 			{
@@ -8593,7 +8593,7 @@
 			"print_name"				"#weapon_upgrade_po4x24"
 			"print_desc"				"#weapon_upgrade_po4x24_desc"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"1"
+			"class_restricted"			"0"
 			
 			"allowed_weapons"
 			{
@@ -9011,7 +9011,7 @@
 			"print_name"				"#weapon_upgrade_pso_1"
 			"print_desc"				"#weapon_upgrade_pso_1_desc"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"1"
+			"class_restricted"			"0"
 			
 			"allowed_weapons"
 			{
@@ -9429,7 +9429,7 @@
 			"print_name"				"#weapon_upgrade_anpvs_4"
 			"print_desc"				"#weapon_upgrade_anpvs_4_desc"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"1"
+			"class_restricted"			"0"
 			
 			"allowed_weapons"
 			{
