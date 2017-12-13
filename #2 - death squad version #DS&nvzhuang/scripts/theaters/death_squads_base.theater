@@ -1,0 +1,36 @@
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"name"					"#Team_Security"
+			"logo"					"gameui/fac_sec"
+		
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"siderail_lasersight_pistol"		"-1"
+					"barrel_silencer_integrated"		"-1"
+				}
+			}
+		}
+		
+		"insurgents"
+		{
+			"name"					"#Team_Insurgent"
+			"logo"					"gameui/fac_ins"
+			
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"optic_2xaimpoint"					"1"
+					"siderail_lasersight_band"			"1"
+					"barrel_silencer_pistol"			"1"
+				}
+			}
+		}
+	}
+}

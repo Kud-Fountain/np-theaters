@@ -25,11 +25,11 @@
 
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"		"1.0"
-				"HITGROUP_LEFTARM"	"0.55"
-				"HITGROUP_RIGHTARM"	"0.55"
-				"HITGROUP_LEFTLEG"	"0.65"
-				"HITGROUP_RIGHTLEG"	"0.65"
+				"HITGROUP_HEAD"		"1.5"
+				"HITGROUP_LEFTARM"	"0.65"
+				"HITGROUP_RIGHTARM"	"0.65"
+				"HITGROUP_LEFTLEG"	"0.75"
+				"HITGROUP_RIGHTLEG"	"0.75"
 			}
 			
 			"penetration_power_required"	"100"
@@ -48,11 +48,11 @@
 
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"		"1.0"
-				"HITGROUP_LEFTARM"	"0.55"
-				"HITGROUP_RIGHTARM"	"0.55"
-				"HITGROUP_LEFTLEG"	"0.65"
-				"HITGROUP_RIGHTLEG"	"0.65"
+				"HITGROUP_HEAD"		"1.5"
+				"HITGROUP_LEFTARM"	"0.65"
+				"HITGROUP_RIGHTARM"	"0.65"
+				"HITGROUP_LEFTLEG"	"0.75"
+				"HITGROUP_RIGHTLEG"	"0.75"
 			}
 
 			"penetration_power_required"	"100"
@@ -575,8 +575,8 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"		"0.50" // this is 1.0, but it has to be here to be considered armoured
-				"HITGROUP_STOMACH"		"0.50"
+				"HITGROUP_CHEST"		"0.65" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_STOMACH"		"0.65"
 			}
 			
 			"penetration_power_required" "200"
@@ -595,8 +595,8 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"		"0.50" // this is 1.0, but it has to be here to be considered armoured
-				"HITGROUP_STOMACH"		"0.50"
+				"HITGROUP_CHEST"		"0.65" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_STOMACH"		"0.65"
 			}
 			
 			"penetration_power_required" "200"
@@ -619,8 +619,8 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"		"0.50" // this is 1.0, but it has to be here to be considered armoured
-				"HITGROUP_STOMACH"		"0.50"
+				"HITGROUP_CHEST"		"0.65" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_STOMACH"		"0.60"
 			}
 			
 			"penetration_power_required" "300"
@@ -639,8 +639,8 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"		"0.50" // this is 1.0, but it has to be here to be considered armoured
-				"HITGROUP_STOMACH"		"0.50"
+				"HITGROUP_CHEST"		"0.65" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_STOMACH"		"0.60"
 			}
 			
 			"penetration_power_required" "300"
@@ -723,12 +723,12 @@
 
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"	"0.25"
-				"HITGROUP_STOMACH"	"0.25"
-				"HITGROUP_LEFTARM"	"0.25"
-				"HITGROUP_RIGHTARM"	"0.25"
-				"HITGROUP_LEFTLEG"	"0.25"
-				"HITGROUP_RIGHTLEG"	"0.25"
+				"HITGROUP_CHEST"	"0.35"
+				"HITGROUP_STOMACH"	"0.30"
+				"HITGROUP_LEFTARM"	"0.40"
+				"HITGROUP_RIGHTARM"	"0.40"
+				"HITGROUP_LEFTLEG"	"0.45"
+				"HITGROUP_RIGHTLEG"	"0.45"
 			}
 
 			"team_access"	"security"
@@ -748,12 +748,12 @@
 
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"	"0.25"
-				"HITGROUP_STOMACH"	"0.25"
-				"HITGROUP_LEFTARM"	"0.20"
-				"HITGROUP_RIGHTARM"	"0.20"
-				"HITGROUP_LEFTLEG"	"0.20"
-				"HITGROUP_RIGHTLEG"	"0.20"
+				"HITGROUP_CHEST"	"0.35"
+				"HITGROUP_STOMACH"	"0.30"
+				"HITGROUP_LEFTARM"	"0.40"
+				"HITGROUP_RIGHTARM"	"0.40"
+				"HITGROUP_LEFTLEG"	"0.45"
+				"HITGROUP_RIGHTLEG"	"0.45"
 			}
 
 			"team_access"	"security"
@@ -773,12 +773,12 @@
 
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"	"0.25"
-				"HITGROUP_STOMACH"	"0.25"
-				"HITGROUP_LEFTARM"	"0.20"
-				"HITGROUP_RIGHTARM"	"0.20"
-				"HITGROUP_LEFTLEG"	"0.20"
-				"HITGROUP_RIGHTLEG"	"0.20"
+				"HITGROUP_CHEST"	"0.35"
+				"HITGROUP_STOMACH"	"0.30"
+				"HITGROUP_LEFTARM"	"0.40"
+				"HITGROUP_RIGHTARM"	"0.40"
+				"HITGROUP_LEFTLEG"	"0.45"
+				"HITGROUP_RIGHTLEG"	"0.45"
 			}
 			
 			"player_model_override"		"models/characters/civilian_vip_insurgent.mdl"

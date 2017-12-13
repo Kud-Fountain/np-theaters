@@ -1062,76 +1062,76 @@
 			
 			"team_access"					"security, insurgent"
 		}
-		"weapon_parang"
-		{
-			"import"					"weapon_base"
-			"weapon_class"				"melee"
-			"weapon_type"				"melee"
-			"print_name"				"#weapon_parang"
-			"view_model"				"models/weapons/v_parang.mdl"
-			"world_model"				"models/weapons/w_parang.mdl"
-			"weapon_slot"				"secondary"
-			"act_table"					"knife"
-			"weapon_weight"				"15"
-			"weapon_cost"				"3"
-			"class_restricted"			"1"
-			"barrel_length"				"-1"
+		// "weapon_parang"
+		// {
+			// "import"					"weapon_base"
+			// "weapon_class"				"melee"
+			// "weapon_type"				"melee"
+			// "print_name"				"#weapon_parang"
+			// "view_model"				"models/weapons/v_parang.mdl"
+			// "world_model"				"models/weapons/w_parang.mdl"
+			// "weapon_slot"				"secondary"
+			// "act_table"					"knife"
+			// "weapon_weight"				"15"
+			// "weapon_cost"				"3"
+			// "class_restricted"			"1"
+			// "barrel_length"				"-1"
 			
-			"ammo_clip"
-			{
-				"ammo_type"				"invalid"
-				"clip_max_rounds"		"-1"	// no clips
-				"clip_default"			"0"
-			}
+			// "ammo_clip"
+			// {
+				// "ammo_type"				"invalid"
+				// "clip_max_rounds"		"-1"	// no clips
+				// "clip_default"			"0"
+			// }
 			
-			"sounds"
-			{
-				"shot_single"			"Weapon_Knife.Single"
-				"melee_hit"				"Weapon_Knife.Melee_Hit"
-				"melee_hit_world"		"Weapon_Knife.Melee_HitWorld"
-			}
+			// "sounds"
+			// {
+				// "shot_single"			"Weapon_Knife.Single"
+				// "melee_hit"				"Weapon_Knife.Melee_Hit"
+				// "melee_hit_world"		"Weapon_Knife.Melee_HitWorld"
+			// }
 			
-			"melee"
-			{
-				"MeleeRange"				"100"
-				"MeleeDamage"				"85"
-				"MeleeDamageBehindBonus"	"100"
-				"MeleeDamageType"			"DMG_SLASH"
-				"MeleeWeaponIdleTime"		"1"
+			// "melee"
+			// {
+				// "MeleeRange"				"100"
+				// "MeleeDamage"				"85"
+				// "MeleeDamageBehindBonus"	"100"
+				// "MeleeDamageType"			"DMG_SLASH"
+				// "MeleeWeaponIdleTime"		"1"
 				
-				"SwingAttacks"
-				{
-					"slash1"
-					{
-						"Activity"				"ACT_VM_HITCENTER"
-						"PlayerAtivity"			"ACT_SHOOT_E2W_BAT"
-						"PlayerActivityIdle"	"ACT_SHOOT_E2W_IDLE_BAT"
-						"StartTime"				"0.1"
-						"EndTime"				"0.34"
-						"Duration"				"0.9"
-						"StartDirection"		"E"
-						"EndDirection"			"W"
-						"ForceDirection"		"15 -40 0"
-					}
-				}
-			}
+				// "SwingAttacks"
+				// {
+					// "slash1"
+					// {
+						// "Activity"				"ACT_VM_HITCENTER"
+						// "PlayerAtivity"			"ACT_SHOOT_E2W_BAT"
+						// "PlayerActivityIdle"	"ACT_SHOOT_E2W_IDLE_BAT"
+						// "StartTime"				"0.1"
+						// "EndTime"				"0.34"
+						// "Duration"				"0.9"
+						// "StartDirection"		"E"
+						// "EndDirection"			"W"
+						// "ForceDirection"		"15 -40 0"
+					// }
+				// }
+			// }
 			
-			"player_restrictions"
-			{
-				"allow_lean"				"1"
-				"allow_sprint"				"1"
-				"allow_jump"				"1"
-				"allow_sway"				"1"
-			}
+			// "player_restrictions"
+			// {
+				// "allow_lean"				"1"
+				// "allow_sprint"				"1"
+				// "allow_jump"				"1"
+				// "allow_sway"				"1"
+			// }
 			
-			"recoil"
-			{
-				"recoil_rest_rate"			"3"
-				"recoil_rest_delay"			"0.1"
-			}
+			// "recoil"
+			// {
+				// "recoil_rest_rate"			"3"
+				// "recoil_rest_delay"			"0.1"
+			// }
 			
-			"team_access"					"security, insurgent"
-		}
+			// "team_access"					"security, insurgent"
+		// }
 
 		"weapon_brassknuckles"
 		{
@@ -8371,8 +8371,8 @@
 			"weapon_class"				"rifle_automatic_fire"
 			"print_name"				"#weapon_ae_colt9mm"
 			"print_desc"				"#weapon_ae_colt9mm_desc"
-			"view_model"				"models/weapons/v_c9mm.mdl"
-			"world_model"				"models/weapons/w_c9mm.mdl"
+			"view_model"				"models/weapons/v_ro635.mdl"
+			"world_model"				"models/weapons/w_ro635.mdl"
 			"rounds_per_minute"			"900"
 			"weapon_slot"				"secondary"
 			"act_table"				"shortrifle"
@@ -8387,21 +8387,41 @@
 			{
 				"flipsights"
 				{
-					"model"					"models/weapons/upgrades/a_carryhandle_c9.mdl"
+					"model"					"models/weapons/upgrades/a_carryhandle_m4.mdl"
 					"fallback_for_slot"			"optics"
 				}
 				"standard_m4a1"
 				{
-					"model"					"models/weapons/upgrades/a_standard_c9mm.mdl"
+					"model"					"models/weapons/upgrades/a_standard_m4a1.mdl"
 					"fallback_for_slot"			"underbarrel"
+				}
+				"standard2_m4a1"
+				{
+					"model"					"models/weapons/upgrades/a_standard2_m4a1.mdl"
+					"fallback_for_slot"			"underbarrel"
+				}
+				"standard3_m4a1"
+				{
+					"model"					"models/weapons/upgrades/a_standard3_m4a1.mdl"
+					"fallback_for_slot"			"siderail"
+				}
+				"standard_magazine"
+				{
+					"model"						"models/weapons/upgrades/a_magazine_ro635_32.mdl"
+					"fallback_for_slot"			"magazine"
 				}
 			}
 			"world_attachments"
 			{
 				"flipsights"
 				{
-					"model"					"models/weapons/upgrades/w_c9mmup3.mdl"
+					"model"					"models/weapons/upgrades/w_flipup3.mdl"
 					"fallback_for_slot"			"optics"
+				}
+				"standard_magazine"
+				{
+					"model"						"models/weapons/upgrades/w_magazine_ro635_32.mdl"
+					"fallback_for_slot"			"magazine"
 				}
 			}
 			"fov"
