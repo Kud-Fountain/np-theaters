@@ -5563,3 +5563,113 @@
     "soundlevel"	"SNDLVL_GUNFIRE"
 	"wave"	"armory_sounds/weapons/357mag_shot.wav"
 }
+
+// --------------------------
+// M1887 Shotgun
+// --------------------------
+
+
+"Weapon_m1887.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+	"wave"		    ")weapons/m1887/m1887_tp.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_m590.SingleDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                        "volume_accumulate"
+                        {
+                               "input3" "0.7"
+                        }
+
+		}
+	}
+
+}
+
+"Weapon_m1887.SingleLocal"
+{
+	"channel"	    "CHAN_WEAPON"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+    "wave"	"weapons/m1887/m1887_fp.wav"
+}
+
+// M1887 HANDLING
+
+"Weapon_m1887.BoltBack"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.35"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"				"weapons/m1887/handling/m1887_pumpback.wav" 
+}
+
+"Weapon_m1887.BoltRelease"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.35"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"				"weapons/m1887/handling/m1887_pumpforward.wav"
+}
+
+"Weapon_m1887.ShellInsert"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"				"weapons/m1887/handling/m1887_shell_insert_1.wav" 
+	"wave"				"weapons/m1887/handling/m1887_shell_insert_2.wav" 
+	"wave"				"weapons/m1887/handling/m1887_shell_insert_3.wav" 
+	}
+}
+
+"Weapon_m1887.ShellInsertSingle"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"				"weapons/m1887/handling/m1887_shell_insert_1.wav" 
+	"wave"				"weapons/m1887/handling/m1887_shell_insert_2.wav" 
+	"wave"				"weapons/m1887/handling/m1887_shell_insert_3.wav"
+	}
+}
