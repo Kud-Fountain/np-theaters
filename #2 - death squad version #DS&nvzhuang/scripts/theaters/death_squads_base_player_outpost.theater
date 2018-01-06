@@ -164,12 +164,12 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"3"	// death
-				"HITGROUP_CHEST"			"1.50"
-				"HITGROUP_STOMACH"			"1.00"
-				"HITGROUP_LEFTARM"			"0.70"
-				"HITGROUP_RIGHTARM"			"0.70"
-				"HITGROUP_LEFTLEG"			"0.80"
-				"HITGROUP_RIGHTLEG"			"0.80"
+				"HITGROUP_CHEST"			"2.00"
+				"HITGROUP_STOMACH"			"1.75"
+				"HITGROUP_LEFTARM"			"0.75"
+				"HITGROUP_RIGHTARM"			"0.75"
+				"HITGROUP_LEFTLEG"			"1.00"
+				"HITGROUP_RIGHTLEG"			"1.00"
 			}
 			"VelocityHitgroups"
 			{

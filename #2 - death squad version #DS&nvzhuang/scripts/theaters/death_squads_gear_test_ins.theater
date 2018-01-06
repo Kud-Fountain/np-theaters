@@ -28,7 +28,7 @@
 
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"		"1.0"
+				"HITGROUP_HEAD"		"1.5"
 			}
 
 			"penetration_power_required"	"300"
@@ -50,7 +50,7 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"		"1.0"
+				"HITGROUP_HEAD"		"1.5"
 			}
 
 			"penetration_power_required"	"350"
@@ -80,7 +80,7 @@
 			"gear_weight"		"64"
 
 			"penetration_power_required"	"100"
-			"penetration_power_loss"		"100"
+			"penetration_power_loss"		"50"
 			"explosive_damage_frac"			"1.00"
 
 			"DamageHitgroups"
@@ -88,8 +88,8 @@
 				"HITGROUP_HEAD"		"1.5"
 				"HITGROUP_LEFTARM"	"0.65"
 				"HITGROUP_RIGHTARM"	"0.65"
-				"HITGROUP_LEFTLEG"	"0.75"
-				"HITGROUP_RIGHTLEG"	"0.75"
+				"HITGROUP_LEFTLEG"	"0.80"
+				"HITGROUP_RIGHTLEG"	"0.80"
 			}
 
 			"team_access"	"insurgent"
@@ -106,7 +106,7 @@
 			"model"					"models/characters/ins_helmet_head.mdl"
 
 			"penetration_power_required"	"100"
-			"penetration_power_loss"		"100"
+			"penetration_power_loss"		"50"
 			"explosive_damage_frac"			"1.00"
 
 			"DamageHitgroups"
@@ -114,8 +114,8 @@
 				"HITGROUP_HEAD"		"1.5"
 				"HITGROUP_LEFTARM"	"0.65"
 				"HITGROUP_RIGHTARM"	"0.65"
-				"HITGROUP_LEFTLEG"	"0.75"
-				"HITGROUP_RIGHTLEG"	"0.75"
+				"HITGROUP_LEFTLEG"	"0.80"
+				"HITGROUP_RIGHTLEG"	"0.80"
 			}
 
 			"team_access"	"security"
@@ -502,7 +502,7 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"		"0.65" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_CHEST"		"0.75" // this is 1.0, but it has to be here to be considered armoured
 				"HITGROUP_STOMACH"		"0.65"
 			}
 			
@@ -525,7 +525,7 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"		"0.65" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_CHEST"		"0.75" // this is 1.0, but it has to be here to be considered armoured
 				"HITGROUP_STOMACH"		"0.65"
 			}
 			
@@ -546,7 +546,7 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"		"0.65" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_CHEST"		"0.70" // this is 1.0, but it has to be here to be considered armoured
 				"HITGROUP_STOMACH"		"0.60"
 			}
 			
@@ -569,7 +569,7 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"		"0.65" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_CHEST"		"0.70" // this is 1.0, but it has to be here to be considered armoured
 				"HITGROUP_STOMACH"		"0.60"
 			}
 			
@@ -646,17 +646,17 @@
 			"class_restricted"			"0"
 
 			"penetration_power_required" "300"
-			"penetration_power_loss"	"400"
+			"penetration_power_loss"	"450"
 			"explosive_damage_frac"			"0.75"
 
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"	"0.35"
-				"HITGROUP_STOMACH"	"0.30"
-				"HITGROUP_LEFTARM"	"0.40"
-				"HITGROUP_RIGHTARM"	"0.40"
-				"HITGROUP_LEFTLEG"	"0.45"
-				"HITGROUP_RIGHTLEG"	"0.45"
+				"HITGROUP_CHEST"	"0.50"
+				"HITGROUP_STOMACH"	"0.40"
+				"HITGROUP_LEFTARM"	"0.60"
+				"HITGROUP_RIGHTARM"	"0.60"
+				"HITGROUP_LEFTLEG"	"0.75"
+				"HITGROUP_RIGHTLEG"	"0.75"
 			}
 			
 			"player_model_override"		"models/characters/security_l_des.mdl"
@@ -674,17 +674,17 @@
 			"class_restricted"			"1"
 
 			"penetration_power_required" "300"
-			"penetration_power_loss"	"400"
+			"penetration_power_loss"	"450"
 			"explosive_damage_frac"			"0.75"
 
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"	"0.35"
-				"HITGROUP_STOMACH"	"0.30"
-				"HITGROUP_LEFTARM"	"0.40"
-				"HITGROUP_RIGHTARM"	"0.40"
-				"HITGROUP_LEFTLEG"	"0.45"
-				"HITGROUP_RIGHTLEG"	"0.45"
+				"HITGROUP_CHEST"	"0.50"
+				"HITGROUP_STOMACH"	"0.40"
+				"HITGROUP_LEFTARM"	"0.60"
+				"HITGROUP_RIGHTARM"	"0.60"
+				"HITGROUP_LEFTLEG"	"0.75"
+				"HITGROUP_RIGHTLEG"	"0.75"
 			}
 			
 			"player_model_override"		"models/characters/civilian_vip_sec_blue.mdl"
@@ -702,17 +702,17 @@
 			"class_restricted"			"1"
 
 			"penetration_power_required" "300"
-			"penetration_power_loss"	"400"
+			"penetration_power_loss"	"450"
 			"explosive_damage_frac"			"0.10"
 
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"	"0.35"
-				"HITGROUP_STOMACH"	"0.30"
-				"HITGROUP_LEFTARM"	"0.40"
-				"HITGROUP_RIGHTARM"	"0.40"
-				"HITGROUP_LEFTLEG"	"0.45"
-				"HITGROUP_RIGHTLEG"	"0.45"
+				"HITGROUP_CHEST"	"0.50"
+				"HITGROUP_STOMACH"	"0.40"
+				"HITGROUP_LEFTARM"	"0.60"
+				"HITGROUP_RIGHTARM"	"0.60"
+				"HITGROUP_LEFTLEG"	"0.75"
+				"HITGROUP_RIGHTLEG"	"0.75"
 			}
 
 			"team_access"	"security"

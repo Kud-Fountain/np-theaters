@@ -2,19 +2,6 @@
 {
 	"player_gear"
 	{
-		"xmas_head"
-		{
-			"print_name"				"#xmas_head"
-			"print_desc"				"#xmas_head_desc"
-			"gear_slot"				"head"
-			"gear_cost"				"-5"
-			"gear_weight"				"-20"	
-			
-			"entity"				"model"
-			"model"					"models/characters/helmet_head_xmas.mdl"
-			
-			"team_access"				"security, insurgent"
-		}
 		"sec_protection_group"
 		{
 			"print_name"		"#gear_protection_group"
@@ -81,7 +68,7 @@
 			"penetration_power_loss"		"500"
 			"explosive_damage_frac"			"0.20"
 			
-			"team_access"				"security, insurgent"
+			"team_access"				"insurgent"
 		}
 		"maska_helmet"
 		{
@@ -103,7 +90,7 @@
 			"penetration_power_loss"		"900"
 			"explosive_damage_frac"			"0.40"
 			
-			"team_access"				"security, insurgent"
+			"team_access"				"insurgent"
 		}
 		"sunglasses"
 		{
@@ -160,28 +147,6 @@
 			"viewmodel_hands_override"	"models/weapons/v_hands_deltaforce_vip.mdl"
 			
 			"team_access"				"security"
-		}
-		"leather_gloves_l"
-		{
-			"print_name"				"#leather_gloves_l"
-			"gear_slot"				"misc1"
-			"gear_cost"				"0"
-			"gear_weight"				"1"
-	
-			"viewmodel_hands_override"	"models/weapons/v_hands_leather_l.mdl"
-			
-			"team_access"				"security, insurgent"
-		}
-		"leather_gloves_h"
-		{
-			"print_name"				"#leather_gloves_h"
-			"gear_slot"				"misc1"
-			"gear_cost"				"0"
-			"gear_weight"				"1"
-	
-			"viewmodel_hands_override"	"models/weapons/v_hands_leather_h.mdl"
-			
-			"team_access"				"security, insurgent"
 		}
 		"tan_gloves_l"
 		{
@@ -279,94 +244,6 @@
 			"gear_weight"				"1"
 	
 			"viewmodel_hands_override"	"models/weapons/v_hands_urban_h.mdl"
-			
-			"team_access"				"security, insurgent"
-		}
-		"mowh_gloves_l"
-		{
-			"print_name"				"#mowh_gloves_l"
-			"gear_slot"				"misc1"
-			"gear_cost"				"0"
-			"gear_weight"				"1"
-	
-			"viewmodel_hands_override"	"models/weapons/v_hands_mowh_l.mdl"
-			
-			"team_access"				"security, insurgent"
-		}
-		"mowh_gloves_m"
-		{
-			"print_name"				"#mowh_gloves_m"
-			"gear_slot"				"misc1"
-			"gear_cost"				"0"
-			"gear_weight"				"1"
-	
-			"viewmodel_hands_override"	"models/weapons/v_hands_mowh_m.mdl"
-			
-			"team_access"				"security, insurgent"
-		}
-		"mowh_gloves_h"
-		{
-			"print_name"				"#mowh_gloves_h"
-			"gear_slot"				"misc1"
-			"gear_cost"				"0"
-			"gear_weight"				"1"
-	
-			"viewmodel_hands_override"	"models/weapons/v_hands_mowh_h.mdl"
-			
-			"team_access"				"security, insurgent"
-		}
-		"motorcycle_gloves"
-		{
-			"print_name"				"#motorcycle_gloves"
-			"gear_slot"				"misc1"
-			"gear_cost"				"0"
-			"gear_weight"				"1"
-	
-			"viewmodel_hands_override"	"models/weapons/v_hands_motorcycle.mdl"
-			
-			"team_access"				"security, insurgent"
-		}
-		"skeleton_gloves"
-		{
-			"print_name"				"#skeleton_gloves"
-			"gear_slot"				"misc1"
-			"gear_cost"				"0"
-			"gear_weight"				"1"
-	
-			"viewmodel_hands_override"	"models/weapons/v_hands_skeleton_gloves.mdl"
-			
-			"team_access"				"security, insurgent"
-		}
-		"mechanix_green_gloves"
-		{
-			"print_name"				"#mechanix_green_gloves"
-			"gear_slot"				"misc1"
-			"gear_cost"				"0"
-			"gear_weight"				"1"
-	
-			"viewmodel_hands_override"	"models/weapons/v_hands_mechanix_green.mdl"
-			
-			"team_access"				"security, insurgent"
-		}
-		"cyberpunk_gloves"
-		{
-			"print_name"				"#cyberpunk_gloves"
-			"gear_slot"				"misc1"
-			"gear_cost"				"0"
-			"gear_weight"				"1"
-	
-			"viewmodel_hands_override"	"models/weapons/v_hands_cyberpunk.mdl"
-			
-			"team_access"				"security, insurgent"
-		}
-		"raiden_gloves"
-		{
-			"print_name"				"#raiden_gloves"
-			"gear_slot"				"misc1"
-			"gear_cost"				"0"
-			"gear_weight"				"1"
-	
-			"viewmodel_hands_override"	"models/weapons/v_hands_raiden.mdl"
 			
 			"team_access"				"security, insurgent"
 		}
@@ -771,31 +648,6 @@
 			"viewmodel_hands_override"	"models/weapons/v_hands_de_vip.mdl"
 
 			"team_access"	"insurgent"
-		}
-		"sec_anti_ammo_clothing"
-		{
-			"print_name"		"#gear_anti_ammo_clothing"
-			"print_desc"		"#gear_anti_ammo_clothing_desc"
-			"gear_slot"			"armor"
-			"gear_cost"			"5"
-			"gear_weight"		"128"
-			"class_restricted"			"0"
-
-			"penetration_power_required" "300"
-			"penetration_power_loss"	"450"
-			"explosive_damage_frac"			"0.75"
-
-			"DamageHitgroups"
-			{
-				"HITGROUP_CHEST"	"0.50"
-				"HITGROUP_STOMACH"	"0.40"
-				"HITGROUP_LEFTARM"	"0.60"
-				"HITGROUP_RIGHTARM"	"0.60"
-				"HITGROUP_LEFTLEG"	"0.75"
-				"HITGROUP_RIGHTLEG"	"0.75"
-			}
-
-			"team_access"	"security"
 		}
 		"sec_super_armor"
 		{

@@ -113,6 +113,10 @@
 		{
 			"carry"	"6"
 		}
+		"grenade_m203_phosphorus"
+		{
+			"carry"	"4"
+		}
 		"grenade_gp25_he"
 		{
 			"carry"	"6"

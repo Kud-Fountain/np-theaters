@@ -14685,6 +14685,24 @@
 				}
 			}
 		}
+
+		"underbarrel_m203_phosphorus"
+		{
+			"import"				"underbarrel_m203_base"
+			"upgrade_cost"				"4"
+			"print_name"				"#weapon_m203_phosphorus"
+			"print_desc"				"#weapon_m203_phosphorus_desc"
+			"attach_weapon"				"weapon_m203_phosphorus"
+			"class_restricted"			"1"
+			
+			"viewmodel_attachments"
+			{
+				"Launcher"
+				{
+					"skin"					"0"
+				}
+			}
+		}
 		
 		"underbarrel_m203_smoke"
 		{

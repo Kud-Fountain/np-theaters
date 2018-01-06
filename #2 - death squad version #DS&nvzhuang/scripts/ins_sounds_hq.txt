@@ -2,11 +2,8 @@
 	//==========================
 	// 	SECURITY HQ - OBJECTIVES
 	//==========================
-"Error"
-{
 
-}
-"Player.Insurgent_TakenPoint_0"
+"Player.Security_TakenPoint_0"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -21,7 +18,7 @@
 	}
 }
 
-"Player.Insurgent_LostPoint_0"
+"Player.Security_LostPoint_0"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -36,7 +33,7 @@
 	}
 }
 
-"Player.Insurgent_DestroyedCache_0"
+"Player.Security_DestroyedCache_0"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -51,7 +48,7 @@
 	}
 }
 
-"Player.Insurgent_LostCache_0"
+"Player.Security_LostCache_0"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -66,7 +63,7 @@
 	}
 }
 
-"Player.Insurgent_TakenPoint_1"
+"Player.Security_TakenPoint_1"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -81,7 +78,7 @@
 	}
 }
 
-"Player.Insurgent_LostPoint_1"
+"Player.Security_LostPoint_1"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -96,7 +93,7 @@
 	}
 }
 
-"Player.Insurgent_DestroyedCache_1"
+"Player.Security_DestroyedCache_1"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -111,7 +108,7 @@
 	}
 }
 
-"Player.Insurgent_LostCache_1"
+"Player.Security_LostCache_1"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -126,7 +123,7 @@
 	}
 }
 
-"Player.Insurgent_TakenPoint_2"
+"Player.Security_TakenPoint_2"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -141,7 +138,7 @@
 	}
 }
 
-"Player.Insurgent_LostPoint_2"
+"Player.Security_LostPoint_2"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -156,7 +153,7 @@
 	}
 }
 
-"Player.Insurgent_DestroyedCache_2"
+"Player.Security_DestroyedCache_2"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -171,7 +168,7 @@
 	}
 }
 
-"Player.Insurgent_LostCache_2"
+"Player.Security_LostCache_2"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -186,7 +183,7 @@
 	}
 }
 
-"Player.Insurgent_TakenPoint_3"
+"Player.Security_TakenPoint_3"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -201,7 +198,7 @@
 	}
 }
 
-"Player.Insurgent_LostPoint_3"
+"Player.Security_LostPoint_3"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -216,7 +213,7 @@
 	}
 }
 
-"Player.Insurgent_DestroyedCache_3"
+"Player.Security_DestroyedCache_3"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -231,7 +228,7 @@
 	}
 }
 
-"Player.Insurgent_LostCache_3"
+"Player.Security_LostCache_3"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -246,7 +243,7 @@
 	}
 }
 
-"Player.Insurgent_TakenPoint_4"
+"Player.Security_TakenPoint_4"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -261,7 +258,7 @@
 	}
 }
 
-"Player.Insurgent_LostPoint_4"
+"Player.Security_LostPoint_4"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -276,7 +273,7 @@
 	}
 }
 
-"Player.Insurgent_DestroyedCache_4"
+"Player.Security_DestroyedCache_4"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -291,7 +288,7 @@
 	}
 }
 
-"Player.Insurgent_LostCache_4"
+"Player.Security_LostCache_4"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -307,7 +304,7 @@
 }
 
 //Foxtrot
-"Player.Insurgent_TakenPoint_5"
+"Player.Security_TakenPoint_5"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -322,7 +319,7 @@
 	}
 }
 
-"Player.Insurgent_LostPoint_5"
+"Player.Security_LostPoint_5"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -337,7 +334,7 @@
 	}
 }
 
-"Player.Insurgent_DestroyedCache_5"
+"Player.Security_DestroyedCache_5"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -352,7 +349,7 @@
 	}
 }
 
-"Player.Insurgent_LostCache_5"
+"Player.Security_LostCache_5"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -368,7 +365,7 @@
 }
 
 //Golf
-"Player.Insurgent_TakenPoint_6"
+"Player.Security_TakenPoint_6"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -383,7 +380,7 @@
 	}
 }
 
-"Player.Insurgent_LostPoint_6"
+"Player.Security_LostPoint_6"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -398,7 +395,7 @@
 	}
 }
 
-"Player.Insurgent_DestroyedCache_6"
+"Player.Security_DestroyedCache_6"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -413,7 +410,7 @@
 	}
 }
 
-"Player.Insurgent_LostCache_6"
+"Player.Security_LostCache_6"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -429,7 +426,7 @@
 }
 
 //Hotel
-"Player.Insurgent_TakenPoint_7"
+"Player.Security_TakenPoint_7"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -444,7 +441,7 @@
 	}
 }
 
-"Player.Insurgent_LostPoint_7"
+"Player.Security_LostPoint_7"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -459,7 +456,7 @@
 	}
 }
 
-"Player.Insurgent_DestroyedCache_7"
+"Player.Security_DestroyedCache_7"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -474,7 +471,7 @@
 	}
 }
 
-"Player.Insurgent_LostCache_7"
+"Player.Security_LostCache_7"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -490,7 +487,7 @@
 }
 
 //India
-"Player.Insurgent_TakenPoint_8"
+"Player.Security_TakenPoint_8"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -505,7 +502,7 @@
 	}
 }
 
-"Player.Insurgent_LostPoint_8"
+"Player.Security_LostPoint_8"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -520,7 +517,7 @@
 	}
 }
 
-"Player.Insurgent_DestroyedCache_8"
+"Player.Security_DestroyedCache_8"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -535,7 +532,7 @@
 	}
 }
 
-"Player.Insurgent_LostCache_8"
+"Player.Security_LostCache_8"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -551,7 +548,7 @@
 }
 
 //Juliet
-"Player.Insurgent_TakenPoint_9"
+"Player.Security_TakenPoint_9"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -566,7 +563,7 @@
 	}
 }
 
-"Player.Insurgent_LostPoint_9"
+"Player.Security_LostPoint_9"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -581,7 +578,7 @@
 	}
 }
 
-"Player.Insurgent_DestroyedCache_9"
+"Player.Security_DestroyedCache_9"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -596,7 +593,7 @@
 	}
 }
 
-"Player.Insurgent_LostCache_9"
+"Player.Security_LostCache_9"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -612,7 +609,7 @@
 }
 
 //Kilo
-"Player.Insurgent_TakenPoint_10"
+"Player.Security_TakenPoint_10"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -627,7 +624,7 @@
 	}
 }
 
-"Player.Insurgent_LostPoint_10"
+"Player.Security_LostPoint_10"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -642,7 +639,7 @@
 	}
 }
 
-"Player.Insurgent_DestroyedCache_10"
+"Player.Security_DestroyedCache_10"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -657,7 +654,7 @@
 	}
 }
 
-"Player.Insurgent_LostCache_10"
+"Player.Security_LostCache_10"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -673,7 +670,7 @@
 }
 
 //Lima
-"Player.Insurgent_TakenPoint_11"
+"Player.Security_TakenPoint_11"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -688,7 +685,7 @@
 	}
 }
 
-"Player.Insurgent_LostPoint_11"
+"Player.Security_LostPoint_11"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -703,7 +700,7 @@
 	}
 }
 
-"Player.Insurgent_DestroyedCache_11"
+"Player.Security_DestroyedCache_11"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -718,7 +715,7 @@
 	}
 }
 
-"Player.Insurgent_LostCache_11"
+"Player.Security_LostCache_11"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -734,7 +731,7 @@
 }
 
 //Mike
-"Player.Insurgent_TakenPoint_12"
+"Player.Security_TakenPoint_12"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -749,7 +746,7 @@
 	}
 }
 
-"Player.Insurgent_LostPoint_12"
+"Player.Security_LostPoint_12"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -764,7 +761,7 @@
 	}
 }
 
-"Player.Insurgent_DestroyedCache_12"
+"Player.Security_DestroyedCache_12"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -779,7 +776,7 @@
 	}
 }
 
-"Player.Insurgent_LostCache_12"
+"Player.Security_LostCache_12"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -794,7 +791,7 @@
 	}
 }
 
-"Player.Insurgent_CacheDiscovered_True"
+"Player.Security_CacheDiscovered_True"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -810,7 +807,7 @@
 	}
 }
 
-"Player.Insurgent_CacheDiscovered_False"
+"Player.Security_CacheDiscovered_False"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -826,7 +823,7 @@
 	}
 }
 
-"Player.Insurgent_Squad_Dead"
+"Player.Security_Squad_Dead"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -862,7 +859,7 @@
 	// 	INSURGENT HQ - OBJECTIVES
 	//===========================
 
-"Player.Security_TakenPoint_0"
+"Player.Insurgent_TakenPoint_0"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -877,7 +874,7 @@
 	}
 }
 
-"Player.Security_LostPoint_0"
+"Player.Insurgent_LostPoint_0"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -892,7 +889,7 @@
 	}
 }
 
-"Player.Security_DestroyedCache_0"
+"Player.Insurgent_DestroyedCache_0"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -907,7 +904,7 @@
 	}
 }
 
-"Player.Security_LostCache_0"
+"Player.Insurgent_LostCache_0"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -922,7 +919,7 @@
 	}
 }
 
-"Player.Security_TakenPoint_1"
+"Player.Insurgent_TakenPoint_1"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -937,7 +934,7 @@
 	}
 }
 
-"Player.Security_LostPoint_1"
+"Player.Insurgent_LostPoint_1"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -952,7 +949,7 @@
 	}
 }
 
-"Player.Security_DestroyedCache_1"
+"Player.Insurgent_DestroyedCache_1"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -967,7 +964,7 @@
 	}
 }
 
-"Player.Security_LostCache_1"
+"Player.Insurgent_LostCache_1"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -982,7 +979,7 @@
 	}
 }
 
-"Player.Security_TakenPoint_2"
+"Player.Insurgent_TakenPoint_2"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -997,7 +994,7 @@
 	}
 }
 
-"Player.Security_LostPoint_2"
+"Player.Insurgent_LostPoint_2"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1012,7 +1009,7 @@
 	}
 }
 
-"Player.Security_DestroyedCache_2"
+"Player.Insurgent_DestroyedCache_2"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1027,7 +1024,7 @@
 	}
 }
 
-"Player.Security_LostCache_2"
+"Player.Insurgent_LostCache_2"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1042,7 +1039,7 @@
 	}
 }
 
-"Player.Security_TakenPoint_3"
+"Player.Insurgent_TakenPoint_3"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1057,7 +1054,7 @@
 	}
 }
 
-"Player.Security_LostPoint_3"
+"Player.Insurgent_LostPoint_3"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1072,7 +1069,7 @@
 	}
 }
 
-"Player.Security_DestroyedCache_3"
+"Player.Insurgent_DestroyedCache_3"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1087,7 +1084,7 @@
 	}
 }
 
-"Player.Security_LostCache_3"
+"Player.Insurgent_LostCache_3"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1102,7 +1099,7 @@
 	}
 }
 
-"Player.Security_TakenPoint_4"
+"Player.Insurgent_TakenPoint_4"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1117,7 +1114,7 @@
 	}
 }
 
-"Player.Security_LostPoint_4"
+"Player.Insurgent_LostPoint_4"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1132,7 +1129,7 @@
 	}
 }
 
-"Player.Security_DestroyedCache_4"
+"Player.Insurgent_DestroyedCache_4"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1147,7 +1144,7 @@
 	}
 }
 
-"Player.Security_LostCache_4"
+"Player.Insurgent_LostCache_4"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1163,7 +1160,7 @@
 }
 
 //Foxtrot
-"Player.Security_TakenPoint_5"
+"Player.Insurgent_TakenPoint_5"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1178,7 +1175,7 @@
 	}
 }
 
-"Player.Security_LostPoint_5"
+"Player.Insurgent_LostPoint_5"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1193,7 +1190,7 @@
 	}
 }
 
-"Player.Security_DestroyedCache_5"
+"Player.Insurgent_DestroyedCache_5"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1208,7 +1205,7 @@
 	}
 }
 
-"Player.Security_LostCache_5"
+"Player.Insurgent_LostCache_5"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1224,7 +1221,7 @@
 }
 
 //Golf
-"Player.Security_TakenPoint_6"
+"Player.Insurgent_TakenPoint_6"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1239,7 +1236,7 @@
 	}
 }
 
-"Player.Security_LostPoint_6"
+"Player.Insurgent_LostPoint_6"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1254,7 +1251,7 @@
 	}
 }
 
-"Player.Security_DestroyedCache_6"
+"Player.Insurgent_DestroyedCache_6"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1269,7 +1266,7 @@
 	}
 }
 
-"Player.Security_LostCache_6"
+"Player.Insurgent_LostCache_6"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1285,7 +1282,7 @@
 }
 
 //Hotel
-"Player.Security_TakenPoint_7"
+"Player.Insurgent_TakenPoint_7"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1300,7 +1297,7 @@
 	}
 }
 
-"Player.Security_LostPoint_7"
+"Player.Insurgent_LostPoint_7"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1315,7 +1312,7 @@
 	}
 }
 
-"Player.Security_DestroyedCache_7"
+"Player.Insurgent_DestroyedCache_7"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1330,7 +1327,7 @@
 	}
 }
 
-"Player.Security_LostCache_7"
+"Player.Insurgent_LostCache_7"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1346,7 +1343,7 @@
 }
 
 //India
-"Player.Security_TakenPoint_8"
+"Player.Insurgent_TakenPoint_8"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1361,7 +1358,7 @@
 	}
 }
 
-"Player.Security_LostPoint_8"
+"Player.Insurgent_LostPoint_8"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1376,7 +1373,7 @@
 	}
 }
 
-"Player.Security_DestroyedCache_8"
+"Player.Insurgent_DestroyedCache_8"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1391,7 +1388,7 @@
 	}
 }
 
-"Player.Security_LostCache_8"
+"Player.Insurgent_LostCache_8"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1407,7 +1404,7 @@
 }
 
 //Juliet
-"Player.Security_TakenPoint_9"
+"Player.Insurgent_TakenPoint_9"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1422,7 +1419,7 @@
 	}
 }
 
-"Player.Security_LostPoint_9"
+"Player.Insurgent_LostPoint_9"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1437,7 +1434,7 @@
 	}
 }
 
-"Player.Security_DestroyedCache_9"
+"Player.Insurgent_DestroyedCache_9"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1452,7 +1449,7 @@
 	}
 }
 
-"Player.Security_LostCache_9"
+"Player.Insurgent_LostCache_9"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1468,7 +1465,7 @@
 }
 
 //Kilo
-"Player.Security_TakenPoint_10"
+"Player.Insurgent_TakenPoint_10"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1483,7 +1480,7 @@
 	}
 }
 
-"Player.Security_LostPoint_10"
+"Player.Insurgent_LostPoint_10"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1498,7 +1495,7 @@
 	}
 }
 
-"Player.Security_DestroyedCache_10"
+"Player.Insurgent_DestroyedCache_10"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1513,7 +1510,7 @@
 	}
 }
 
-"Player.Security_LostCache_10"
+"Player.Insurgent_LostCache_10"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1529,7 +1526,7 @@
 }
 
 //Lima
-"Player.Security_TakenPoint_11"
+"Player.Insurgent_TakenPoint_11"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1544,7 +1541,7 @@
 	}
 }
 
-"Player.Security_LostPoint_11"
+"Player.Insurgent_LostPoint_11"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1559,7 +1556,7 @@
 	}
 }
 
-"Player.Security_DestroyedCache_11"
+"Player.Insurgent_DestroyedCache_11"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1574,7 +1571,7 @@
 	}
 }
 
-"Player.Security_LostCache_11"
+"Player.Insurgent_LostCache_11"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1590,7 +1587,7 @@
 }
 
 //Mike
-"Player.Security_TakenPoint_12"
+"Player.Insurgent_TakenPoint_12"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1605,7 +1602,7 @@
 	}
 }
 
-"Player.Security_LostPoint_12"
+"Player.Insurgent_LostPoint_12"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1620,7 +1617,7 @@
 	}
 }
 
-"Player.Security_DestroyedCache_12"
+"Player.Insurgent_DestroyedCache_12"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1635,7 +1632,7 @@
 	}
 }
 
-"Player.Security_LostCache_12"
+"Player.Insurgent_LostCache_12"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1650,7 +1647,7 @@
 	}
 }
 
-"Player.Security_CacheDiscovered_True"
+"Player.Insurgent_CacheDiscovered_True"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1666,7 +1663,7 @@
 	}
 }
 
-"Player.Security_CacheDiscovered_False"
+"Player.Insurgent_CacheDiscovered_False"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1688,7 +1685,7 @@
 	// 	SECURITY HQ - START MATCH
 	//==========================
 
-"Player.Insurgent_StartSkirmish_Game"
+"Player.Security_StartSkirmish_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1701,7 +1698,7 @@
 	}
 }
 
-"Player.Insurgent_StartSkirmish_Round"
+"Player.Security_StartSkirmish_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1722,7 +1719,7 @@
 	}
 }
 
-"Player.Insurgent_StartFirefight_Game"
+"Player.Security_StartFirefight_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1735,7 +1732,7 @@
 	}
 }
 
-"Player.Insurgent_StartFirefight_Round"
+"Player.Security_StartFirefight_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1756,7 +1753,7 @@
 	}
 }
 
-"Player.Insurgent_StartPushAttack_Game"
+"Player.Security_StartPushAttack_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1769,7 +1766,7 @@
 	}
 }
 
-"Player.Insurgent_StartPushAttack_Round"
+"Player.Security_StartPushAttack_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1790,7 +1787,7 @@
 	}
 }
 
-"Player.Insurgent_StartPushDefend_Game"
+"Player.Security_StartPushDefend_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1803,7 +1800,7 @@
 	}
 }
 
-"Player.Insurgent_StartPushDefend_Round"
+"Player.Security_StartPushDefend_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1824,7 +1821,7 @@
 	}
 }
 
-"Player.Insurgent_PushLastStand_Defend"
+"Player.Security_PushLastStand_Defend"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1842,7 +1839,7 @@
 	}
 }
 
-"Player.Insurgent_PushLastStand_Attack"
+"Player.Security_PushLastStand_Attack"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1860,7 +1857,7 @@
 	}
 }
 
-"Player.Insurgent_StartEscortAttack_Game"
+"Player.Security_StartEscortAttack_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1874,7 +1871,7 @@
 	}
 }
 
-"Player.Insurgent_StartEscortAttack_Round"
+"Player.Security_StartEscortAttack_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1889,7 +1886,7 @@
 	}
 }
 
-"Player.Insurgent_StartEscortDefend_Game"
+"Player.Security_StartEscortDefend_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1902,7 +1899,7 @@
 	}
 }
 
-"Player.Insurgent_StartEscortDefend_Round"
+"Player.Security_StartEscortDefend_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1917,7 +1914,7 @@
 	}
 }
 
-"Player.Insurgent_StartStrikeAttack_Game"
+"Player.Security_StartStrikeAttack_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1930,7 +1927,7 @@
 	}
 }
 
-"Player.Insurgent_StartStrikeAttack_Round"
+"Player.Security_StartStrikeAttack_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1945,7 +1942,7 @@
 	}
 }
 
-"Player.Insurgent_StartStrikeDefend_Game"
+"Player.Security_StartStrikeDefend_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1958,7 +1955,7 @@
 	}
 }
 
-"Player.Insurgent_StartStrikeDefend_Round"
+"Player.Security_StartStrikeDefend_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1979,7 +1976,7 @@
 	}
 }
 
-"Player.Insurgent_StartSndAttack_Game"
+"Player.Security_StartSndAttack_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -1992,7 +1989,7 @@
 	}
 }
 
-"Player.Insurgent_StartSndAttack_Round"
+"Player.Security_StartSndAttack_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2007,7 +2004,7 @@
 	}
 }
 
-"Player.Insurgent_StartSndDefend_Game"
+"Player.Security_StartSndDefend_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2020,7 +2017,7 @@
 	}
 }
 
-"Player.Insurgent_StartSndDefend_Round"
+"Player.Security_StartSndDefend_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2045,7 +2042,7 @@
 
 //FLASHPOINT
 
-"Player.Insurgent_StartFlashpoint_Game"
+"Player.Security_StartFlashpoint_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2058,7 +2055,7 @@
 	}
 }
 
-"Player.Insurgent_StartFlashpoint_Round"
+"Player.Security_StartFlashpoint_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2082,7 +2079,7 @@
 
 //OCCUPY
 
-"Player.Insurgent_StartOccupy_Game"
+"Player.Security_StartOccupy_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2095,7 +2092,7 @@
 	}
 }
 
-"Player.Insurgent_StartOccupy_Round"
+"Player.Security_StartOccupy_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2117,7 +2114,7 @@
 }
 
 //Enemy have the Obj, but we have more waves
-"Player.Insurgent_Occupy_EnemyHaveObj_WeHaveMoreWaves"
+"Player.Security_Occupy_EnemyHaveObj_WeHaveMoreWaves"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2140,7 +2137,7 @@
 }
 
 //We have Obj and more waves, but the point is contested, if we clear it we win
-"Player.Insurgent_Occupy_WeHaveObj_WeHaveMoreWaves_PointContested"
+"Player.Security_Occupy_WeHaveObj_WeHaveMoreWaves_PointContested"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2163,7 +2160,7 @@
 }
 
 //We have the Obj, but enemy have more waves
-"Player.Insurgent_Occupy_WeHaveObj_EnemyHaveMoreWaves"
+"Player.Security_Occupy_WeHaveObj_EnemyHaveMoreWaves"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2187,7 +2184,7 @@
 
 //VENDETTA
 
-"Player.Insurgent_StartVendetta_Game"
+"Player.Security_StartVendetta_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2200,7 +2197,7 @@
 	}
 }
 
-"Player.Insurgent_StartVendetta_Round"
+"Player.Security_StartVendetta_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2225,7 +2222,7 @@
 
 // STRIKE NEW
 
-"Player.Insurgent_StartStrike2Attack_Game"
+"Player.Security_StartStrike2Attack_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2238,7 +2235,7 @@
 	}
 }
 
-"Player.Insurgent_StartStrike2Attack_Round"
+"Player.Security_StartStrike2Attack_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2258,7 +2255,7 @@
 	}
 }
 
-"Player.Insurgent_StartStrike2Defend_Game"
+"Player.Security_StartStrike2Defend_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2271,7 +2268,7 @@
 	}
 }
 
-"Player.Insurgent_StartStrike2Defend_Round"
+"Player.Security_StartStrike2Defend_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2293,7 +2290,7 @@
 	// 	INSURGENT HQ - START MATCH
 	//==========================
 
-"Player.Security_StartSkirmish_Game"
+"Player.Insurgent_StartSkirmish_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2306,7 +2303,7 @@
 	}
 }
 
-"Player.Security_StartSkirmish_Round"
+"Player.Insurgent_StartSkirmish_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2327,7 +2324,7 @@
 	}
 }
 
-"Player.Security_StartFirefight_Game"
+"Player.Insurgent_StartFirefight_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2340,7 +2337,7 @@
 	}
 }
 
-"Player.Security_StartFirefight_Round"
+"Player.Insurgent_StartFirefight_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2361,7 +2358,7 @@
 	}
 }
 
-"Player.Security_StartPushAttack_Game"
+"Player.Insurgent_StartPushAttack_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2374,7 +2371,7 @@
 	}
 }
 
-"Player.Security_StartPushAttack_Round"
+"Player.Insurgent_StartPushAttack_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2395,7 +2392,7 @@
 	}
 }
 
-"Player.Security_StartPushDefend_Game"
+"Player.Insurgent_StartPushDefend_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2408,7 +2405,7 @@
 	}
 }
 
-"Player.Security_StartPushDefend_Round"
+"Player.Insurgent_StartPushDefend_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2429,7 +2426,7 @@
 	}
 }
 
-"Player.Security_PushLastStand_Defend"
+"Player.Insurgent_PushLastStand_Defend"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2447,7 +2444,7 @@
 	}
 }
 
-"Player.Security_PushLastStand_Attack"
+"Player.Insurgent_PushLastStand_Attack"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2465,7 +2462,7 @@
 	}
 }
 
-"Player.Security_StartEscortAttack_Game"
+"Player.Insurgent_StartEscortAttack_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2479,7 +2476,7 @@
 	}
 }
 
-"Player.Security_StartEscortAttack_Round"
+"Player.Insurgent_StartEscortAttack_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2494,7 +2491,7 @@
 	}
 }
 
-"Player.Security_StartEscortDefend_Game"
+"Player.Insurgent_StartEscortDefend_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2507,7 +2504,7 @@
 	}
 }
 
-"Player.Security_StartEscortDefend_Round"
+"Player.Insurgent_StartEscortDefend_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2522,7 +2519,7 @@
 	}
 }
 
-"Player.Security_StartStrikeAttack_Game"
+"Player.Insurgent_StartStrikeAttack_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2535,7 +2532,7 @@
 	}
 }
 
-"Player.Security_StartStrikeAttack_Round"
+"Player.Insurgent_StartStrikeAttack_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2550,7 +2547,7 @@
 	}
 }
 
-"Player.Security_StartStrikeDefend_Game"
+"Player.Insurgent_StartStrikeDefend_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2563,7 +2560,7 @@
 	}
 }
 
-"Player.Security_StartStrikeDefend_Round"
+"Player.Insurgent_StartStrikeDefend_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2584,7 +2581,7 @@
 	}
 }
 
-"Player.Security_StartSndAttack_Game"
+"Player.Insurgent_StartSndAttack_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2597,7 +2594,7 @@
 	}
 }
 
-"Player.Security_StartSndAttack_Round"
+"Player.Insurgent_StartSndAttack_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2612,7 +2609,7 @@
 	}
 }
 
-"Player.Security_StartSndDefend_Game"
+"Player.Insurgent_StartSndDefend_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2625,7 +2622,7 @@
 	}
 }
 
-"Player.Security_StartSndDefend_Round"
+"Player.Insurgent_StartSndDefend_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2650,7 +2647,7 @@
 
 //FLASHPOINT
 
-"Player.Security_StartFlashpoint_Game"
+"Player.Insurgent_StartFlashpoint_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2663,7 +2660,7 @@
 	}
 }
 
-"Player.Security_StartFlashpoint_Round"
+"Player.Insurgent_StartFlashpoint_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2687,7 +2684,7 @@
 
 //OCCUPY
 
-"Player.Security_StartOccupy_Game"
+"Player.Insurgent_StartOccupy_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2700,7 +2697,7 @@
 	}
 }
 
-"Player.Security_StartOccupy_Round"
+"Player.Insurgent_StartOccupy_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2723,7 +2720,7 @@
 }
 
 //Enemy have the Obj, but we have more waves
-"Player.Security_Occupy_EnemyHaveObj_WeHaveMoreWaves"
+"Player.Insurgent_Occupy_EnemyHaveObj_WeHaveMoreWaves"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2746,7 +2743,7 @@
 }
 
 //We have Obj and more waves, but the point is contested, if we clear it we win
-"Player.Security_Occupy_WeHaveObj_WeHaveMoreWaves_PointContested"
+"Player.Insurgent_Occupy_WeHaveObj_WeHaveMoreWaves_PointContested"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2769,7 +2766,7 @@
 }
 
 //We have the Obj, but enemy have more waves
-"Player.Security_Occupy_WeHaveObj_EnemyHaveMoreWaves"
+"Player.Insurgent_Occupy_WeHaveObj_EnemyHaveMoreWaves"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2793,7 +2790,7 @@
 
 //VENDETTA
 
-"Player.Security_StartVendetta_Game"
+"Player.Insurgent_StartVendetta_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2806,7 +2803,7 @@
 	}
 }
 
-"Player.Security_StartVendetta_Round"
+"Player.Insurgent_StartVendetta_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2831,7 +2828,7 @@
 
 // STRIKE NEW
 
-"Player.Security_StartStrike2Attack_Game"
+"Player.Insurgent_StartStrike2Attack_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2844,7 +2841,7 @@
 	}
 }
 
-"Player.Security_StartStrike2Attack_Round"
+"Player.Insurgent_StartStrike2Attack_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2865,7 +2862,7 @@
 	}
 }
 
-"Player.Security_StartStrike2Defend_Game"
+"Player.Insurgent_StartStrike2Defend_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2878,7 +2875,7 @@
 	}
 }
 
-"Player.Security_StartStrike2Defend_Round"
+"Player.Insurgent_StartStrike2Defend_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2903,7 +2900,7 @@
 	// 	SECURITY HQ - RESTRICTED AREA
 	//==========================
 
-"Player.Insurgent_RestrictedArea"
+"Player.Security_RestrictedArea"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2925,7 +2922,7 @@
 	// 	INSURGENT HQ - RESTRICTED AREA
 	//==========================
 
-"Player.Security_RestrictedArea"
+"Player.Insurgent_RestrictedArea"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2947,7 +2944,7 @@
 	// 	SECURITY HQ - LAST MAN STANDING
 	//==========================
 
-"Player.Insurgent_LastManStanding"
+"Player.Security_LastManStanding"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -2963,6 +2960,7 @@
 		"wave"			"*hq\security\last10.ogg"
 	}
 	"soundentry_version" "2"
+
 	"operator_stacks"
 	{
 		"soundentry_operator_data"
@@ -3032,7 +3030,7 @@
 	// 	INSURGENT HQ - LAST MAN STANDING
 	//==========================
 
-"Player.Security_LastManStanding"
+"Player.Insurgent_LastManStanding"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3048,6 +3046,7 @@
 		"wave"			"*hq\insurgent\last10.ogg"
 	}
 	"soundentry_version" "2"
+
 	"operator_stacks"
 	{
 		"soundentry_operator_data"
@@ -3117,7 +3116,7 @@
 	// 	SECURITY HQ - FALLBACK
 	//==========================
 
-"Player.Insurgent_Fallback"
+"Player.Security_Fallback"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3141,7 +3140,7 @@
 	// 	INSURGENT HQ - FALLBACK
 	//==========================
 
-"Player.Security_Fallback"
+"Player.Insurgent_Fallback"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3165,7 +3164,7 @@
 	// 	SECURITY HQ - REINFORCEMENTS
 	//==========================
 
-"Player.Insurgent_ReinforcementsLow"
+"Player.Security_ReinforcementsLow"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3184,7 +3183,7 @@
 	}
 }
 
-"Player.Insurgent_ReinforcementsOut"
+"Player.Security_ReinforcementsOut"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3204,7 +3203,7 @@
 	}
 }
 
-"Player.Insurgent_EnemyOutOfReinforcements"
+"Player.Security_EnemyOutOfReinforcements"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3230,7 +3229,7 @@
 	// 	INSURGENT HQ - REINFORCEMENTS
 	//==========================
 
-"Player.Security_ReinforcementsLow"
+"Player.Insurgent_ReinforcementsLow"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3249,7 +3248,7 @@
 	}
 }
 
-"Player.Security_ReinforcementsOut"
+"Player.Insurgent_ReinforcementsOut"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3269,7 +3268,7 @@
 	}
 }
 
-"Player.Security_EnemyOutOfReinforcements"
+"Player.Insurgent_EnemyOutOfReinforcements"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3295,7 +3294,7 @@
 	// 	SECURITY HQ - CONTESTED
 	//==========================
 
-"Player.Insurgent_Contested_0"
+"Player.Security_Contested_0"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3313,7 +3312,7 @@
 	}
 }
 
-"Player.Insurgent_Contested_1"
+"Player.Security_Contested_1"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3331,7 +3330,7 @@
 	}
 }
 
-"Player.Insurgent_Contested_2"
+"Player.Security_Contested_2"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3349,7 +3348,7 @@
 	}
 }
 
-"Player.Insurgent_Contested_3"
+"Player.Security_Contested_3"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3367,7 +3366,7 @@
 	}
 }
 
-"Player.Insurgent_Contested_4"
+"Player.Security_Contested_4"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3386,7 +3385,7 @@
 }
 
 //Foxtrot
-"Player.Insurgent_Contested_5"
+"Player.Security_Contested_5"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3404,7 +3403,7 @@
 	}
 }
 //Golf
-"Player.Insurgent_Contested_6"
+"Player.Security_Contested_6"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3422,7 +3421,7 @@
 	}
 }
 //Hotel
-"Player.Insurgent_Contested_7"
+"Player.Security_Contested_7"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3440,7 +3439,7 @@
 	}
 }
 //India
-"Player.Insurgent_Contested_8"
+"Player.Security_Contested_8"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3459,7 +3458,7 @@
 	}
 }
 //Juliet
-"Player.Insurgent_Contested_9"
+"Player.Security_Contested_9"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3477,7 +3476,7 @@
 	}
 }
 //Kilo
-"Player.Insurgent_Contested_10"
+"Player.Security_Contested_10"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3496,7 +3495,7 @@
 }
 
 //Lima
-"Player.Insurgent_Contested_11"
+"Player.Security_Contested_11"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3515,7 +3514,7 @@
 }
 
 //Mike
-"Player.Insurgent_Contested_12"
+"Player.Security_Contested_12"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3538,7 +3537,7 @@
 	// 	INSURGENT HQ - CONTESTED
 	//==========================
 
-"Player.Security_Contested_0"
+"Player.Insurgent_Contested_0"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3556,7 +3555,7 @@
 	}
 }
 
-"Player.Security_Contested_1"
+"Player.Insurgent_Contested_1"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3574,7 +3573,7 @@
 	}
 }
 
-"Player.Security_Contested_2"
+"Player.Insurgent_Contested_2"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3592,7 +3591,7 @@
 	}
 }
 
-"Player.Security_Contested_3"
+"Player.Insurgent_Contested_3"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3610,7 +3609,7 @@
 	}
 }
 
-"Player.Security_Contested_4"
+"Player.Insurgent_Contested_4"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3629,7 +3628,7 @@
 }
 
 //Foxtrot
-"Player.Security_Contested_5"
+"Player.Insurgent_Contested_5"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3647,7 +3646,7 @@
 	}
 }
 //Golf
-"Player.Security_Contested_6"
+"Player.Insurgent_Contested_6"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3665,7 +3664,7 @@
 	}
 }
 //Hotel
-"Player.Security_Contested_7"
+"Player.Insurgent_Contested_7"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3683,7 +3682,7 @@
 	}
 }
 //India
-"Player.Security_Contested_8"
+"Player.Insurgent_Contested_8"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3702,7 +3701,7 @@
 	}
 }
 //Juliet
-"Player.Security_Contested_9"
+"Player.Insurgent_Contested_9"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3720,7 +3719,7 @@
 	}
 }
 //Kilo
-"Player.Security_Contested_10"
+"Player.Insurgent_Contested_10"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3739,7 +3738,7 @@
 }
 
 //Lima
-"Player.Security_Contested_11"
+"Player.Insurgent_Contested_11"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3758,7 +3757,7 @@
 }
 
 //Mike
-"Player.Security_Contested_12"
+"Player.Insurgent_Contested_12"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3781,7 +3780,7 @@
 	// 	SECURITY HQ - ATTACK
 	//==========================
 
-"Player.Insurgent_UnderAttack_0"
+"Player.Security_UnderAttack_0"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3796,7 +3795,7 @@
 	}
 }
 
-"Player.Insurgent_Attacking_0"
+"Player.Security_Attacking_0"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3811,7 +3810,7 @@
 	}
 }
 
-"Player.Insurgent_UnderAttack_1"
+"Player.Security_UnderAttack_1"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3826,7 +3825,7 @@
 	}
 }
 
-"Player.Insurgent_Attacking_1"
+"Player.Security_Attacking_1"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3841,7 +3840,7 @@
 	}
 }
 
-"Player.Insurgent_UnderAttack_2"
+"Player.Security_UnderAttack_2"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3856,7 +3855,7 @@
 	}
 }
 
-"Player.Insurgent_Attacking_2"
+"Player.Security_Attacking_2"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3871,7 +3870,7 @@
 	}
 }
 
-"Player.Insurgent_UnderAttack_3"
+"Player.Security_UnderAttack_3"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3886,7 +3885,7 @@
 	}
 }
 
-"Player.Insurgent_Attacking_3"
+"Player.Security_Attacking_3"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3901,7 +3900,7 @@
 	}
 }
 
-"Player.Insurgent_UnderAttack_4"
+"Player.Security_UnderAttack_4"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3916,7 +3915,7 @@
 	}
 }
 
-"Player.Insurgent_Attacking_4"
+"Player.Security_Attacking_4"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3932,7 +3931,7 @@
 }
 
 //Foxtrot
-"Player.Insurgent_UnderAttack_5"
+"Player.Security_UnderAttack_5"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3947,7 +3946,7 @@
 	}
 }
 
-"Player.Insurgent_Attacking_5"
+"Player.Security_Attacking_5"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3963,7 +3962,7 @@
 }
 
 //Golf
-"Player.Insurgent_UnderAttack_6"
+"Player.Security_UnderAttack_6"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3978,7 +3977,7 @@
 	}
 }
 
-"Player.Insurgent_Attacking_6"
+"Player.Security_Attacking_6"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -3994,7 +3993,7 @@
 }
 
 //Hotel
-"Player.Insurgent_UnderAttack_7"
+"Player.Security_UnderAttack_7"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4009,7 +4008,7 @@
 	}
 }
 
-"Player.Insurgent_Attacking_7"
+"Player.Security_Attacking_7"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4025,7 +4024,7 @@
 }
 
 //india
-"Player.Insurgent_UnderAttack_8"
+"Player.Security_UnderAttack_8"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4040,7 +4039,7 @@
 	}
 }
 
-"Player.Insurgent_Attacking_8"
+"Player.Security_Attacking_8"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4056,7 +4055,7 @@
 }
 
 //juliet
-"Player.Insurgent_UnderAttack_9"
+"Player.Security_UnderAttack_9"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4071,7 +4070,7 @@
 	}
 }
 
-"Player.Insurgent_Attacking_9"
+"Player.Security_Attacking_9"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4087,7 +4086,7 @@
 }
 
 //kilo
-"Player.Insurgent_UnderAttack_10"
+"Player.Security_UnderAttack_10"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4102,7 +4101,7 @@
 	}
 }
 
-"Player.Insurgent_Attacking_10"
+"Player.Security_Attacking_10"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4118,7 +4117,7 @@
 }
 
 //Lima
-"Player.Insurgent_UnderAttack_11"
+"Player.Security_UnderAttack_11"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4133,7 +4132,7 @@
 	}
 }
 
-"Player.Insurgent_Attacking_11"
+"Player.Security_Attacking_11"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4149,7 +4148,7 @@
 }
 
 //Mike
-"Player.Insurgent_UnderAttack_12"
+"Player.Security_UnderAttack_12"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4164,7 +4163,7 @@
 	}
 }
 
-"Player.Insurgent_Attacking_12"
+"Player.Security_Attacking_12"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4183,7 +4182,7 @@
 	// 	INSURGENT HQ - ATTACK
 	//==========================
 
-"Player.Security_UnderAttack_0"
+"Player.Insurgent_UnderAttack_0"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4198,7 +4197,7 @@
 	}
 }
 
-"Player.Security_Attacking_0"
+"Player.Insurgent_Attacking_0"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4213,7 +4212,7 @@
 	}
 }
 
-"Player.Security_UnderAttack_1"
+"Player.Insurgent_UnderAttack_1"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4228,7 +4227,7 @@
 	}
 }
 
-"Player.Security_Attacking_1"
+"Player.Insurgent_Attacking_1"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4243,7 +4242,7 @@
 	}
 }
 
-"Player.Security_UnderAttack_2"
+"Player.Insurgent_UnderAttack_2"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4258,7 +4257,7 @@
 	}
 }
 
-"Player.Security_Attacking_2"
+"Player.Insurgent_Attacking_2"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4273,7 +4272,7 @@
 	}
 }
 
-"Player.Security_UnderAttack_3"
+"Player.Insurgent_UnderAttack_3"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4288,7 +4287,7 @@
 	}
 }
 
-"Player.Security_Attacking_3"
+"Player.Insurgent_Attacking_3"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4303,7 +4302,7 @@
 	}
 }
 
-"Player.Security_UnderAttack_4"
+"Player.Insurgent_UnderAttack_4"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4318,7 +4317,7 @@
 	}
 }
 
-"Player.Security_Attacking_4"
+"Player.Insurgent_Attacking_4"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4334,7 +4333,7 @@
 }
 
 //Foxtrot
-"Player.Security_UnderAttack_5"
+"Player.Insurgent_UnderAttack_5"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4349,7 +4348,7 @@
 	}
 }
 
-"Player.Security_Attacking_5"
+"Player.Insurgent_Attacking_5"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4365,7 +4364,7 @@
 }
 
 //Golf
-"Player.Security_UnderAttack_6"
+"Player.Insurgent_UnderAttack_6"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4380,7 +4379,7 @@
 	}
 }
 
-"Player.Security_Attacking_6"
+"Player.Insurgent_Attacking_6"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4396,7 +4395,7 @@
 }
 
 //Hotel
-"Player.Security_UnderAttack_7"
+"Player.Insurgent_UnderAttack_7"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4411,7 +4410,7 @@
 	}
 }
 
-"Player.Security_Attacking_7"
+"Player.Insurgent_Attacking_7"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4427,7 +4426,7 @@
 }
 
 //india
-"Player.Security_UnderAttack_8"
+"Player.Insurgent_UnderAttack_8"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4442,7 +4441,7 @@
 	}
 }
 
-"Player.Security_Attacking_8"
+"Player.Insurgent_Attacking_8"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4458,7 +4457,7 @@
 }
 
 //juliet
-"Player.Security_UnderAttack_9"
+"Player.Insurgent_UnderAttack_9"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4473,7 +4472,7 @@
 	}
 }
 
-"Player.Security_Attacking_9"
+"Player.Insurgent_Attacking_9"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4489,7 +4488,7 @@
 }
 
 //kilo
-"Player.Security_UnderAttack_10"
+"Player.Insurgent_UnderAttack_10"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4504,7 +4503,7 @@
 	}
 }
 
-"Player.Security_Attacking_10"
+"Player.Insurgent_Attacking_10"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4520,7 +4519,7 @@
 }
 
 //Lima
-"Player.Security_UnderAttack_11"
+"Player.Insurgent_UnderAttack_11"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4535,7 +4534,7 @@
 	}
 }
 
-"Player.Security_Attacking_11"
+"Player.Insurgent_Attacking_11"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4551,7 +4550,7 @@
 }
 
 //Mike
-"Player.Security_UnderAttack_12"
+"Player.Insurgent_UnderAttack_12"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4566,7 +4565,7 @@
 	}
 }
 
-"Player.Security_Attacking_12"
+"Player.Insurgent_Attacking_12"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4581,7 +4580,7 @@
 	}
 }
 
-"Player.Security_Squad_Dead"
+"Player.Insurgent_Squad_Dead"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4624,8 +4623,7 @@
 	 
 	"rndwave"	
 	{
-		"wave"			"*hq\insurgent\strike_gamestart_attacking1.ogg"
-		"wave"			"*hq\insurgent\elimination_gamestart_attacking1.ogg"
+		"wave"			"*hq\coop\coopgamemodestart1.ogg"
 	}
 }
 
@@ -4638,26 +4636,15 @@
 	 
 	"rndwave"	
 	{
-		"wave"			"*hq\insurgent\strike_roundstart_attacking1.ogg"
-		"wave"			"*hq\insurgent\strike_roundstart_attacking2.ogg"
-		"wave"			"*hq\insurgent\strike_roundstart_attacking3.ogg"
-		"wave"			"*hq\insurgent\strike_roundstart_attacking4.ogg"
-		"wave"			"*hq\insurgent\strike_roundstart_attacking5.ogg"
-		"wave"			"*hq\insurgent\strike_roundstart_attacking6.ogg"
-		"wave"			"*hq\insurgent\strike_roundstart_attacking7.ogg"
-		"wave"			"*hq\insurgent\strike_roundstart_attacking8.ogg"
-		"wave"			"*hq\insurgent\strike_roundstart_attacking9.ogg"
-		"wave"			"*hq\insurgent\strike_roundstart_attacking10.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_attacking1.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_attacking2.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_attacking3.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_attacking4.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_attacking5.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_attacking6.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_attacking7.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_attacking8.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_attacking9.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_attacking10.ogg"
+		"wave"			"*hq\security\roundstart1.ogg"
+		"wave"			"*hq\security\roundstart2.ogg"
+		"wave"			"*hq\security\roundstart3.ogg"
+		"wave"			"*hq\security\roundstart4.ogg"
+		"wave"			"*hq\security\roundstart5.ogg"
+		"wave"			"*hq\security\roundstart6.ogg"
+		"wave"			"*hq\security\roundstart7.ogg"
+		"wave"			"*hq\security\roundstart8.ogg"
+		"wave"			"*hq\security\roundstart9.ogg"
 	}
 }
 
@@ -4674,27 +4661,33 @@
 	 
 	"rndwave"	
 	{
-		"wave"			"*hq\insurgent\elimination_gamestart_defending1.ogg"
-		"wave"			"*hq\insurgent\strike_roundstart_defending1.ogg"
-		"wave"			"*hq\insurgent\strike_roundstart_defending2.ogg"
-		"wave"			"*hq\insurgent\strike_roundstart_defending3.ogg"
-		"wave"			"*hq\insurgent\strike_roundstart_defending4.ogg"
-		"wave"			"*hq\insurgent\strike_roundstart_defending5.ogg"
-		"wave"			"*hq\insurgent\strike_roundstart_defending6.ogg"
-		"wave"			"*hq\insurgent\strike_roundstart_defending7.ogg"
-		"wave"			"*hq\insurgent\strike_roundstart_defending8.ogg"
-		"wave"			"*hq\insurgent\strike_roundstart_defending9.ogg"
-		"wave"			"*hq\insurgent\strike_roundstart_defending10.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_defending1.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_defending2.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_defending3.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_defending4.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_defending5.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_defending6.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_defending7.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_defending8.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_defending9.ogg"
-		"wave"			"*hq\insurgent\elimination_roundstart_defending10.ogg"
+		"wave"			"*hq\coop\counterattackstart1.ogg"
+		"wave"			"*hq\coop\counterattackstart2.ogg"
+		"wave"			"*hq\coop\counterattackstart3.ogg"
+		"wave"			"*hq\coop\counterattackstart4.ogg"
+		"wave"			"*hq\coop\counterattackstart5.ogg"
+		"wave"			"*hq\coop\counterattackstart6.ogg"
+		"wave"			"*hq\coop\counterattackstart7.ogg"
+		"wave"			"*hq\coop\counterattackstart8.ogg"
+		"wave"			"*hq\coop\counterattackstart9.ogg"
+		"wave"			"*hq\coop\counterattackstart10.ogg"
+		"wave"			"*hq\coop\counterattackstart11.ogg"
+		"wave"			"*hq\coop\counterattackstart12.ogg"
+		"wave"			"*hq\coop\counterattackstart13.ogg"
+		"wave"			"*hq\coop\counterattackstart14.ogg"
+		"wave"			"*hq\coop\counterattackstart15.ogg"
+		"wave"			"*hq\coop\counterattackstart16.ogg"
+		"wave"			"*hq\coop\counterattackstart17.ogg"
+		"wave"			"*hq\coop\counterattackstart18.ogg"
+		"wave"			"*hq\coop\counterattackstart19.ogg"
+		"wave"			"*hq\coop\counterattackstart20.ogg"
+		"wave"			"*hq\coop\counterattackstart21.ogg"
+		"wave"			"*hq\coop\counterattackstart22.ogg"
+		"wave"			"*hq\coop\counterattackstart23.ogg"
+		"wave"			"*hq\coop\counterattackstart24.ogg"
+		"wave"			"*hq\coop\counterattackstart25.ogg"	
+		"wave"			"*hq\coop\counterattackstart26.ogg"				
+
 	}
 }
 
@@ -4707,28 +4700,34 @@
 	 
 	"rndwave"	
 	{
-		"wave"			"*hq\survival\survival_nextwave1.ogg"
-		"wave"			"*hq\survival\survival_nextwave2.ogg"
-		"wave"			"*hq\survival\survival_nextwave3.ogg"
-		"wave"			"*hq\survival\survival_nextwave4.ogg"
-		"wave"			"*hq\survival\survival_nextwave5.ogg"
-		"wave"			"*hq\survival\survival_nextwave6.ogg"
-		"wave"			"*hq\survival\survival_nextwave7.ogg"
-		"wave"			"*hq\survival\survival_nextwave8.ogg"
-		"wave"			"*hq\survival\survival_nextwave9.ogg"
-		"wave"			"*hq\survival\survival_nextwave10.ogg"
-		"wave"			"*hq\survival\survival_nextwave11.ogg"
-		"wave"			"*hq\survival\survival_nextwave12.ogg"
-		"wave"			"*hq\survival\survival_nextwave13.ogg"
-		"wave"			"*hq\survival\survival_nextwave14.ogg"
-		"wave"			"*hq\survival\survival_nextwave15.ogg"
-		"wave"			"*hq\survival\survival_nextwave16.ogg"
-		"wave"			"*hq\survival\survival_nextwave17.ogg"
-		"wave"			"*hq\survival\survival_nextwave18.ogg"
-		"wave"			"*hq\survival\survival_nextwave19.ogg"
-		"wave"			"*hq\survival\survival_nextwave20.ogg"
-		"wave"			"*hq\survival\survival_nextwave21.ogg"
-		"wave"			"*hq\survival\survival_nextwave22.ogg"
+		"wave"			"*hq\coop\counterattackend1.ogg"
+		"wave"			"*hq\coop\counterattackend2.ogg"
+		"wave"			"*hq\coop\counterattackend3.ogg"
+		"wave"			"*hq\coop\counterattackend4.ogg"
+		"wave"			"*hq\coop\counterattackend5.ogg"
+		"wave"			"*hq\coop\counterattackend6.ogg"
+		"wave"			"*hq\coop\counterattackend7.ogg"
+		"wave"			"*hq\coop\counterattackend8.ogg"
+		"wave"			"*hq\coop\counterattackend9.ogg"
+		"wave"			"*hq\coop\counterattackend10.ogg"
+		"wave"			"*hq\coop\counterattackend11.ogg"
+		"wave"			"*hq\coop\counterattackend12.ogg"
+		"wave"			"*hq\coop\counterattackend13.ogg"
+		"wave"			"*hq\coop\counterattackend14.ogg"
+		"wave"			"*hq\coop\counterattackend15.ogg"
+		"wave"			"*hq\coop\counterattackend16.ogg"
+		"wave"			"*hq\coop\counterattackend17.ogg"
+		"wave"			"*hq\coop\counterattackend18.ogg"
+		"wave"			"*hq\coop\counterattackend19.ogg"
+		"wave"			"*hq\coop\counterattackend20.ogg"
+		"wave"			"*hq\coop\counterattackend21.ogg"
+		"wave"			"*hq\coop\counterattackend22.ogg"
+		"wave"			"*hq\coop\counterattackend23.ogg"
+		"wave"			"*hq\coop\counterattackend24.ogg"
+		"wave"			"*hq\coop\counterattackend25.ogg"		
+		"wave"			"*hq\coop\counterattackend26.ogg"		
+		"wave"			"*hq\coop\counterattackend27.ogg"			
+
 	}
 }
 
@@ -4736,7 +4735,7 @@
 // 	INFILTRATION - SEC
 //==========================
 
-"Player.Insurgent_StartInfiltration_Game"
+"Player.Security_StartInfiltration_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4749,7 +4748,7 @@
 	}
 }
 
-"Player.Insurgent_StartInfiltration_Round"
+"Player.Security_StartInfiltration_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4772,7 +4771,7 @@
 	}
 }
 
-"Player.Insurgent_Infiltration_CarrierDead"
+"Player.Security_Infiltration_CarrierDead"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4794,7 +4793,7 @@
 	}
 }
 
-"Player.Insurgent_Infiltration_InsCapturedIntel"
+"Player.Security_Infiltration_InsCapturedIntel"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4816,7 +4815,7 @@
 	}
 }
 
-"Player.Insurgent_Infiltration_InsTookIntel"
+"Player.Security_Infiltration_InsTookIntel"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4838,7 +4837,7 @@
 	}
 }
 
-"Player.Insurgent_Infiltration_SecCapturedIntel"
+"Player.Security_Infiltration_SecCapturedIntel"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4860,7 +4859,7 @@
 	}
 }
 
-"Player.Insurgent_Infiltration_SecTookIntel"
+"Player.Security_Infiltration_SecTookIntel"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4882,7 +4881,7 @@
 	}
 }
 
-"Player.Insurgent_Infiltration_KilledCarrier"
+"Player.Security_Infiltration_KilledCarrier"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4908,7 +4907,7 @@
 // 	INFILTRATION - INS
 //==========================
 
-"Player.Security_StartInfiltration_Game"
+"Player.Insurgent_StartInfiltration_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4921,7 +4920,7 @@
 	}
 }
 
-"Player.Security_StartInfiltration_Round"
+"Player.Insurgent_StartInfiltration_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4942,7 +4941,7 @@
 	}
 }
 
-"Player.Security_Infiltration_CarrierDead"
+"Player.Insurgent_Infiltration_CarrierDead"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4964,7 +4963,7 @@
 	}
 }
 
-"Player.Security_Infiltration_SecCapturedIntel"
+"Player.Insurgent_Infiltration_SecCapturedIntel"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -4986,7 +4985,7 @@
 	}
 }
 
-"Player.Security_Infiltration_SecTookIntel"
+"Player.Insurgent_Infiltration_SecTookIntel"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5008,7 +5007,7 @@
 	}
 }
 
-"Player.Security_Infiltration_InsCapturedIntel"
+"Player.Insurgent_Infiltration_InsCapturedIntel"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5030,7 +5029,7 @@
 	}
 }
 
-"Player.Security_Infiltration_InsTookIntel"
+"Player.Insurgent_Infiltration_InsTookIntel"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5052,7 +5051,7 @@
 	}
 }
 
-"Player.Security_Infiltration_KilledCarrier"
+"Player.Insurgent_Infiltration_KilledCarrier"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5357,7 +5356,7 @@
 // 	SURVIVAL
 //==========================
 
-"Player.Security_StartSurvival_Game"
+"Player.Insurgent_StartSurvival_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5370,7 +5369,7 @@
 	}
 }
 
-"Player.Security_StartSurvival_Round"
+"Player.Insurgent_StartSurvival_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5403,7 +5402,7 @@
 	}
 }
 
-"Player.Security_Survival_NextWave"
+"Player.Insurgent_Survival_NextWave"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5437,7 +5436,7 @@
 	}
 }
 
-"Player.Security_Survival_SecuredAlpha"
+"Player.Insurgent_Survival_SecuredAlpha"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5452,7 +5451,7 @@
 	}
 }
 
-"Player.Security_Survival_SecuredBravo"
+"Player.Insurgent_Survival_SecuredBravo"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5467,7 +5466,7 @@
 	}
 }
 
-"Player.Security_Survival_SecuredCharlie"
+"Player.Insurgent_Survival_SecuredCharlie"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5482,7 +5481,7 @@
 	}
 }
 
-"Player.Security_Survival_SecuredDelta"
+"Player.Insurgent_Survival_SecuredDelta"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5497,7 +5496,7 @@
 	}
 }
 
-"Player.Security_Survival_SecuredEcho"
+"Player.Insurgent_Survival_SecuredEcho"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5512,7 +5511,7 @@
 	}
 }
 
-"Player.Security_Survival_SecuredFoxtrot"
+"Player.Insurgent_Survival_SecuredFoxtrot"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5527,7 +5526,7 @@
 	}
 }
 
-"Player.Security_Survival_SecuredGolf"
+"Player.Insurgent_Survival_SecuredGolf"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5542,7 +5541,7 @@
 	}
 }
 
-"Player.Security_Survival_SecuredHotel"
+"Player.Insurgent_Survival_SecuredHotel"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5557,7 +5556,7 @@
 	}
 }
 
-"Player.Security_Survival_SecuredIndia"
+"Player.Insurgent_Survival_SecuredIndia"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5572,7 +5571,7 @@
 	}
 }
 
-"Player.Security_Survival_SecuredJuliet"
+"Player.Insurgent_Survival_SecuredJuliet"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5587,7 +5586,7 @@
 	}
 }
 
-"Player.Security_Survival_SecuredKilo"
+"Player.Insurgent_Survival_SecuredKilo"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5602,7 +5601,7 @@
 	}
 }
 
-"Player.Security_Survival_SecuredLima"
+"Player.Insurgent_Survival_SecuredLima"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5617,7 +5616,7 @@
 	}
 }
 
-"Player.Security_Survival_SecuredMike"
+"Player.Insurgent_Survival_SecuredMike"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5637,7 +5636,7 @@
 // 	ELIMINATION INS
 //==========================
 
-"Player.Security_StartElimination_Game_Attack"
+"Player.Insurgent_StartElimination_Game_Attack"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5650,7 +5649,7 @@
 	}
 }
 
-"Player.Security_StartElimination_Game_Defend"
+"Player.Insurgent_StartElimination_Game_Defend"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5663,7 +5662,7 @@
 	}
 }
 
-"Player.Security_StartElimination_Round_Attack"
+"Player.Insurgent_StartElimination_Round_Attack"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5686,7 +5685,7 @@
 	}
 }
 
-"Player.Security_StartElimination_Round_Defend"
+"Player.Insurgent_StartElimination_Round_Defend"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5713,7 +5712,7 @@
 //==========================
 
 
-"Player.Insurgent_StartElimination_Game_Attack"
+"Player.Security_StartElimination_Game_Attack"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5726,7 +5725,7 @@
 	}
 }
 
-"Player.Insurgent_StartElimination_Game_Defend"
+"Player.Security_StartElimination_Game_Defend"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5739,7 +5738,7 @@
 	}
 }
 
-"Player.Insurgent_StartElimination_Round_Attack"
+"Player.Security_StartElimination_Round_Attack"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5762,7 +5761,7 @@
 	}
 }
 
-"Player.Insurgent_StartElimination_Round_Defend"
+"Player.Security_StartElimination_Round_Defend"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5788,7 +5787,7 @@
 // 	NEW STRIKE INS
 //==========================
 
-"Player.Security_StartStrikeNew_Game_Attack"
+"Player.Insurgent_StartStrikeNew_Game_Attack"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5801,7 +5800,7 @@
 	}
 }
 
-"Player.Security_StartStrikeNew_Game_Defend"
+"Player.Insurgent_StartStrikeNew_Game_Defend"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5814,7 +5813,7 @@
 	}
 }
 
-"Player.Security_StartStrikeNew_Round_Attack"
+"Player.Insurgent_StartStrikeNew_Round_Attack"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5836,7 +5835,7 @@
 	}
 }
 
-"Player.Security_StartStrikeNew_Round_Defend"
+"Player.Insurgent_StartStrikeNew_Round_Defend"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5858,7 +5857,7 @@
 	}
 }
 
-"Player.Security_StrikeNew_ProtectLastCache"
+"Player.Insurgent_StrikeNew_ProtectLastCache"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5880,7 +5879,7 @@
 	}
 }
 
-"Player.Security_StrikeNew_DestroyLastCache"
+"Player.Insurgent_StrikeNew_DestroyLastCache"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5906,7 +5905,7 @@
 // 	NEW STRIKE SEC
 //==========================
 
-"Player.Insurgent_StartStrikeNew_Game_Attack"
+"Player.Security_StartStrikeNew_Game_Attack"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5919,7 +5918,7 @@
 	}
 }
 
-"Player.Insurgent_StartStrikeNew_Game_Defend"
+"Player.Security_StartStrikeNew_Game_Defend"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5932,7 +5931,7 @@
 	}
 }
 
-"Player.Insurgent_StartStrikeNew_Round_Attack"
+"Player.Security_StartStrikeNew_Round_Attack"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5954,7 +5953,7 @@
 	}
 }
 
-"Player.Insurgent_StartStrikeNew_Round_Defend"
+"Player.Security_StartStrikeNew_Round_Defend"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5976,7 +5975,7 @@
 	}
 }
 
-"Player.Insurgent_StrikeNew_ProtectLastCache"
+"Player.Security_StrikeNew_ProtectLastCache"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -5998,7 +5997,7 @@
 	}
 }
 
-"Player.Insurgent_StrikeNew_DestroyLastCache"
+"Player.Security_StrikeNew_DestroyLastCache"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6024,7 +6023,7 @@
 // 	OUTPOST
 //==========================
 
-"Player.Insurgent_StartOutpost_Game"
+"Player.Security_StartOutpost_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6038,7 +6037,7 @@
 }
 
 
-"Player.Insurgent_StartOutpost_Round"
+"Player.Security_StartOutpost_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6060,7 +6059,7 @@
 	}
 }
 
-"Player.Insurgent_StartOutpost_Round_Night"
+"Player.Security_StartOutpost_Round_Night"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6085,7 +6084,7 @@
 	}
 }
 
-"Player.Insurgent_Outpost_NextWave"
+"Player.Security_Outpost_NextWave"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6123,7 +6122,7 @@
 	}
 }
 
-"Player.Insurgent_Outpost_CacheDestroyed"
+"Player.Security_Outpost_CacheDestroyed"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6145,7 +6144,7 @@
 	}
 }
 
-"Player.Insurgent_Outpost_NextLevel_OneThrough20"
+"Player.Security_Outpost_NextLevel_OneThrough20"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6174,7 +6173,7 @@
 	}
 }
 
-"Player.Insurgent_Outpost_NextLevel_20AndAbove"
+"Player.Security_Outpost_NextLevel_20AndAbove"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6196,7 +6195,7 @@
 	}
 }
 
-"Player.Insurgent_Outpost_NextLevel_Level100"
+"Player.Security_Outpost_NextLevel_Level100"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6209,7 +6208,7 @@
 	}
 }
 
-"Player.Insurgent_Outpost_CacheTakesDamage"
+"Player.Security_Outpost_CacheTakesDamage"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6238,7 +6237,7 @@
 // 	OUTPOST ALT FOR MODDERS
 //==========================
 
-"Player.Insurgent_StartOutpostAlt_Game"
+"Player.Security_StartOutpostAlt_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6252,7 +6251,7 @@
 }
 
 
-"Player.Insurgent_StartOutpostAlt_Round"
+"Player.Security_StartOutpostAlt_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6275,7 +6274,7 @@
 	}
 }
 
-"Player.Insurgent_OutpostAlt_LostObjective"
+"Player.Security_OutpostAlt_LostObjective"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6302,7 +6301,7 @@
 	// 	SECURITY HQ - OBJECTIVE CLEAR
 	//================================
 
-"Player.Insurgent_AreaClear_0"
+"Player.Security_AreaClear_0"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6317,7 +6316,7 @@
 	}
 }
 
-"Player.Insurgent_AreaClear_1"
+"Player.Security_AreaClear_1"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6332,7 +6331,7 @@
 	}
 }
 
-"Player.Insurgent_AreaClear_2"
+"Player.Security_AreaClear_2"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6347,7 +6346,7 @@
 	}
 }
 
-"Player.Insurgent_AreaClear_3"
+"Player.Security_AreaClear_3"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6362,7 +6361,7 @@
 	}
 }
 
-"Player.Insurgent_AreaClear_4"
+"Player.Security_AreaClear_4"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6377,7 +6376,7 @@
 	}
 }
 
-"Player.Insurgent_AreaClear_5"
+"Player.Security_AreaClear_5"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6392,7 +6391,7 @@
 	}
 }
 
-"Player.Insurgent_AreaClear_6"
+"Player.Security_AreaClear_6"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6407,7 +6406,7 @@
 	}
 }
 
-"Player.Insurgent_AreaClear_7"
+"Player.Security_AreaClear_7"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6422,7 +6421,7 @@
 	}
 }
 
-"Player.Insurgent_AreaClear_8"
+"Player.Security_AreaClear_8"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6437,7 +6436,7 @@
 	}
 }
 
-"Player.Insurgent_AreaClear_9"
+"Player.Security_AreaClear_9"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6452,7 +6451,7 @@
 	}
 }
 
-"Player.Insurgent_AreaClear_10"
+"Player.Security_AreaClear_10"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6467,7 +6466,7 @@
 	}
 }
 
-"Player.Insurgent_AreaClear_11"
+"Player.Security_AreaClear_11"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6482,7 +6481,7 @@
 	}
 }
 
-"Player.Insurgent_AreaClear_12"
+"Player.Security_AreaClear_12"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6501,7 +6500,7 @@
 	// 	INSURGENT HQ - OBJECTIVE CLEAR
 	//================================
 
-"Player.Security_AreaClear_0"
+"Player.Insurgent_AreaClear_0"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6516,7 +6515,7 @@
 	}
 }
 
-"Player.Security_AreaClear_1"
+"Player.Insurgent_AreaClear_1"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6531,7 +6530,7 @@
 	}
 }
 
-"Player.Security_AreaClear_2"
+"Player.Insurgent_AreaClear_2"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6546,7 +6545,7 @@
 	}
 }
 
-"Player.Security_AreaClear_3"
+"Player.Insurgent_AreaClear_3"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6561,7 +6560,7 @@
 	}
 }
 
-"Player.Security_AreaClear_4"
+"Player.Insurgent_AreaClear_4"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6576,7 +6575,7 @@
 	}
 }
 
-"Player.Security_AreaClear_5"
+"Player.Insurgent_AreaClear_5"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6591,7 +6590,7 @@
 	}
 }
 
-"Player.Security_AreaClear_6"
+"Player.Insurgent_AreaClear_6"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6606,7 +6605,7 @@
 	}
 }
 
-"Player.Security_AreaClear_7"
+"Player.Insurgent_AreaClear_7"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6621,7 +6620,7 @@
 	}
 }
 
-"Player.Security_AreaClear_8"
+"Player.Insurgent_AreaClear_8"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6636,7 +6635,7 @@
 	}
 }
 
-"Player.Security_AreaClear_9"
+"Player.Insurgent_AreaClear_9"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6651,7 +6650,7 @@
 	}
 }
 
-"Player.Security_AreaClear_10"
+"Player.Insurgent_AreaClear_10"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6666,7 +6665,7 @@
 	}
 }
 
-"Player.Security_AreaClear_11"
+"Player.Insurgent_AreaClear_11"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6681,7 +6680,7 @@
 	}
 }
 
-"Player.Security_AreaClear_12"
+"Player.Insurgent_AreaClear_12"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6700,7 +6699,7 @@
 	// 	INSURGENT HQ - HERO CAP & ONE MINUTE WARNING
 	//==============================================
 	
-"Player.Security_Hero_Cap"
+"Player.Insurgent_Hero_Cap"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6722,7 +6721,7 @@
 	}
 }
 
-"Player.Security_One_Minute_Warning"
+"Player.Insurgent_One_Minute_Warning"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6744,7 +6743,7 @@
 	// 	SECURITY HQ - HERO CAP & ONE MINUTE WARNING
 	//==============================================
 	
-"Player.Insurgent_Hero_Cap"
+"Player.Security_Hero_Cap"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6766,7 +6765,7 @@
 	}
 }
 
-"Player.Insurgent_One_Minute_Warning"
+"Player.Security_One_Minute_Warning"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6788,7 +6787,7 @@
 // 	CONQUER
 //==========================
 
-"Player.Insurgent_StartConquer_Game"
+"Player.Security_StartConquer_Game"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6801,7 +6800,7 @@
 	}
 }
 
-"Player.Insurgent_StartConquer_Round"
+"Player.Security_StartConquer_Round"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6826,7 +6825,7 @@
 	}
 }
 
-"Player.Insurgent_Conquer_AllCachesDestroyed"
+"Player.Security_Conquer_AllCachesDestroyed"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6854,7 +6853,7 @@
 	}
 }
 
-"Player.Insurgent_Conquer_EnemyRetookObjective"
+"Player.Security_Conquer_EnemyRetookObjective"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"
@@ -6882,7 +6881,7 @@
 	}
 }
 
-"Player.Insurgent_Conquer_FoundCache"
+"Player.Security_Conquer_FoundCache"
 {
 	"channel"		"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_NORM"

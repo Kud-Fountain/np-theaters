@@ -150,7 +150,6 @@
 				"weapon"			"weapon_molotov"
 							// MELEE
 				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_gurkha"
 							// PISTOLS
 				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"
@@ -307,7 +306,6 @@
 				"weapon"			"weapon_molotov"
 							// MELEE
 				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_gurkha"
 							// PISTOLS
 				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"
@@ -510,7 +508,6 @@
 				"weapon"			"weapon_molotov"
 							// MELEE
 				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_gurkha"
 							// PISTOLS
 				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"
@@ -662,7 +659,6 @@
 				"weapon"			"weapon_molotov"
 							// MELEE
 				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_gurkha"
 							// PISTOLS
 				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"
@@ -849,7 +845,6 @@
 				"weapon"			"weapon_molotov"
 							// MELEE
 				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_gurkha"
 							// PISTOLS
 				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"
@@ -1011,7 +1006,6 @@
 				"weapon"			"weapon_molotov"
 							// MELEE
 				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_gurkha"
 							// PISTOLS
 				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"
@@ -1168,7 +1162,6 @@
 				"weapon"			"weapon_molotov"
 							// MELEE
 				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_gurkha"
 							// PISTOLS
 				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"
@@ -1321,7 +1314,6 @@
 				"weapon"			"weapon_molotov"
 							// MELEE
 				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_gurkha"
 							// PISTOLS
 				"weapon"			"weapon_model10"
 				"weapon"			"weapon_makarov"

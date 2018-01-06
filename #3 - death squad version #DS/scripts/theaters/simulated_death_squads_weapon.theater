@@ -57,7 +57,7 @@
 			{
 				"ammo_type"				"rocket_rpg7"	// "rocket_rpg7"
 				"clip_max_rounds"			"1"	// 1 rpg per mag
-				"clip_default"				"2"	// 1
+				"clip_default"				"1"	// 1
 			}
 			"player_restrictions"
 			{
@@ -82,7 +82,7 @@
 			{
 				"attachment_addon"			"launcher" //New attachment for RPGs - Brightside
 			}
-			"team_access"				"security, insurgent"
+			"team_access"				"insurgent"
 		}
 		"weapon_at4"
 		{
@@ -132,8 +132,8 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"no_carry"
-				"clip_max_rounds"			"2"	// 1 rpg per mag
-				"clip_default"				"2"
+				"clip_max_rounds"			"1"	// 1 rpg per mag
+				"clip_default"				"1"
 			}
 			"player_restrictions"
 			{
@@ -158,7 +158,7 @@
 			{
 				"attachment_addon"			"launcher" //New attachment for RPGs - Brightside
 			}
-			"team_access"				"security, insurgent"
+			"team_access"				"security"
 		}
 		// "weapon_m590_frag"
 		// {
@@ -706,7 +706,7 @@
 			{
 				"fov_wpn_default"			"69"
 			}
-			"team_access"				"security, insurgent"
+			"team_access"				"insurgent"
 		}
 		
 		// ========================================
@@ -786,7 +786,7 @@
 				"special1"				"Weapon_M67.SpoonEject"
 			}
 
-			"team_access"				"security, insurgent"
+			"team_access"				"insurgent"
 		}
 		"weapon_anm14"
 		{
@@ -825,7 +825,7 @@
 				"special1"				"Weapon_M67.SpoonEject"
 			}
 
-			"team_access"				"security, insurgent"
+			"team_access"				"security"
 		}
 		"weapon_molotov"
 		{
@@ -857,7 +857,7 @@
 				"clip_max_rounds"			"-1"	// no clips
 				"clip_default"				"1"
 			}
-			"team_access"				"security, insurgent"
+			"team_access"				"insurgent"
 		}
 		"weapon_p2a1"
 		{
@@ -1053,72 +1053,72 @@
 			}
 			"team_access"				"security, insurgent"
 		}
-		// "weapon_gurkha"
-		// {
-			// "import"				"weapon_base"
-			// "weapon_class"				"melee"
-			// "weapon_type"				"melee"
-			// "print_name"				"#weapon_gurkha"
-			// "view_model"				"models/weapons/v_gurkha2.mdl"
-			// "world_model"				"models/weapons/w_gurkha2.mdl"
-			// "weapon_slot"				"secondary"
-			// "act_table"				"knife"
-			// "weapon_weight"				"1"
-			// "weapon_cost"				"0"
-			// "class_restricted"			"0"
-			// "barrel_length"				"-1"
-			// "class_restricted"			"1"
+		"weapon_gurkha"
+		{
+			"import"				"weapon_base"
+			"weapon_class"				"melee"
+			"weapon_type"				"melee"
+			"print_name"				"#weapon_gurkha"
+			"view_model"				"models/weapons/v_gurkha2.mdl"
+			"world_model"				"models/weapons/w_gurkha2.mdl"
+			"weapon_slot"				"secondary"
+			"act_table"				"knife"
+			"weapon_weight"				"1"
+			"weapon_cost"				"0"
+			"class_restricted"			"0"
+			"barrel_length"				"-1"
+			"class_restricted"			"1"
 			
-			// "ammo_clip"
-			// {
-				// "ammo_type"				"invalid"
-				// "clip_max_rounds"			"-1"	// no clips
-				// "clip_default"				"0"
-			// }
+			"ammo_clip"
+			{
+				"ammo_type"				"invalid"
+				"clip_max_rounds"			"-1"	// no clips
+				"clip_default"				"0"
+			}
 			
-			// "sounds"
-			// {
-				// "shot_single"				"Weapon_Knife.Single"
-				// "melee_hit"				"Weapon_Knife.Melee_Hit"
-				// "melee_hit_world"			"Weapon_Knife.Melee_HitWorld"
-			// }
-			// "melee"
-			// {
-				// "MeleeRange"				"75"
-				// "MeleeDamage"				"60"
-				// "MeleeDamageBehindBonus"		"200"
-				// "MeleeDamageType"			"DMG_SLASH"
-				// "MeleeWeaponIdleTime"			"2"
-				// "SwingAttacks"
-				// {
-					// "slash1"
-					// {
-						// "Activity"				"ACT_VM_HITCENTER"
-						// "PlayerAtivity"				"ACT_SHOOT_E2W_BAT"
-						// "PlayerActivityIdle"			"ACT_SHOOT_E2W_IDLE_BAT"
-						// "StartTime"				"0.1"
-						// "EndTime"				"0.34"
-						// "Duration"				"0.9"
-						// "StartDirection"			"E"
-						// "EndDirection"				"W"
-						// "ForceDirection"			"15 -40 0"
-					// }
-				// }
-			// }
-			// "player_restrictions"
-			// {
-				// "allow_lean"				"1"
-				// "allow_sprint"				"1"
-				// "allow_jump"				"1"
-				// "allow_sway"				"1"
-			// }
-			// "recoil"
-			// {
-				// "recoil_rest_rate"			"5"
-				// "recoil_rest_delay"			"0.1"
-			// }
-			// "team_access"				"security, insurgent"
-		// }
+			"sounds"
+			{
+				"shot_single"				"Weapon_Knife.Single"
+				"melee_hit"				"Weapon_Knife.Melee_Hit"
+				"melee_hit_world"			"Weapon_Knife.Melee_HitWorld"
+			}
+			"melee"
+			{
+				"MeleeRange"				"75"
+				"MeleeDamage"				"60"
+				"MeleeDamageBehindBonus"		"200"
+				"MeleeDamageType"			"DMG_SLASH"
+				"MeleeWeaponIdleTime"			"2"
+				"SwingAttacks"
+				{
+					"slash1"
+					{
+						"Activity"				"ACT_VM_HITCENTER"
+						"PlayerAtivity"				"ACT_SHOOT_E2W_BAT"
+						"PlayerActivityIdle"			"ACT_SHOOT_E2W_IDLE_BAT"
+						"StartTime"				"0.1"
+						"EndTime"				"0.34"
+						"Duration"				"0.9"
+						"StartDirection"			"E"
+						"EndDirection"				"W"
+						"ForceDirection"			"15 -40 0"
+					}
+				}
+			}
+			"player_restrictions"
+			{
+				"allow_lean"				"1"
+				"allow_sprint"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"1"
+			}
+			"recoil"
+			{
+				"recoil_rest_rate"			"5"
+				"recoil_rest_delay"			"0.1"
+			}
+			"team_access"				"insurgent"
+		}
 		
 		// ========================================
 		// PISTOLS
@@ -2634,11 +2634,11 @@
 			"view_model"				"models/weapons/v_mini14.mdl"
 			"world_model"				"models/weapons/w_mini14.mdl"
 			"rounds_per_minute"			"720"
-			"weapon_slot"				"secondary"
+			"weapon_slot"				"primary"
 			"act_table"					"rifle_ak2"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"80"	// (2.9kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +16[encumbrance]
-			"weapon_cost"				"3"
+			"weapon_cost"				"2"
 			"barrel_length"				"20"
 			"weapon_max_subslot"			"0"
 			"class_restricted"			"1"
@@ -2808,11 +2808,11 @@
 			"view_model"				"models/weapons/v_m1a1.mdl"
 			"world_model"				"models/weapons/w_m1a1.mdl"
 			"rounds_per_minute"			"600"
-			"weapon_slot"				"secondary"
+			"weapon_slot"				"primary"
 			"act_table"					"rifle_ak2"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"64"	// (2.4kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +16[encumbrance]
-			"weapon_cost"				"4"
+			"weapon_cost"				"3"
 			"barrel_length"				"20"
 			"weapon_max_subslot"			"0"
 			"class_restricted"			"1"
@@ -3008,11 +3008,11 @@
 			"view_model"				"models/weapons/v_mp5kpdw.mdl"
 			"world_model"				"models/weapons/w_mp5k.mdl"
 			"rounds_per_minute"			"900"
-			"weapon_slot"				"secondary"
+			"weapon_slot"				"primary"
 			"act_table"					"pdw"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"64"	// (2.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
-			"weapon_cost"				"3"
+			"weapon_cost"				"2"
 			"barrel_length"				"16"
 			"weapon_max_subslot"			"0"
 			"class_restricted"			"1"
@@ -3098,11 +3098,11 @@
 			"world_model"				"models/weapons/w_mp40.mdl"
 			"rounds_per_minute"			"500"
 			"closed_bolt"				"0"
-			"weapon_slot"				"secondary"
+			"weapon_slot"				"primary"
 			"act_table"					"smg_magheld"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"64"	// (4.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
-			"weapon_cost"				"3"
+			"weapon_cost"				"2"
 			"barrel_length"				"16"
 			"weapon_max_subslot"			"0"
 			"class_restricted"			"1"
@@ -3187,11 +3187,11 @@
 			"print_desc"				"#weapon_sterling_desc"
 			"rounds_per_minute"			"600"
 			"closed_bolt"				"0"
-			"weapon_slot"				"secondary"
+			"weapon_slot"				"primary"
 			"act_table"					"sterling" // yes, its own special act_table
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"43"
-			"weapon_cost"				"3"
+			"weapon_cost"				"2"
 			"barrel_length"				"16"
 			"weapon_max_subslot"			"0"
 			"class_restricted"			"1"
@@ -3296,7 +3296,7 @@
 			"act_table"					"smg_foregrip"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"64"	// (2.5kg[weapon] + (0.7kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +8[encumbrance]
-			"weapon_cost"				"4"
+			"weapon_cost"				"3"
 			"barrel_length"				"18"
 			"weapon_max_subslot"			"0"
 			"class_restricted"			"1"
@@ -3379,11 +3379,11 @@
 			"view_model"				"models/weapons/v_aks74u.mdl"
 			"world_model"				"models/weapons/w_aks74u.mdl"
 			"rounds_per_minute"			"700"
-			"weapon_slot"				"secondary"
+			"weapon_slot"				"primary"
 			"act_table"					"rifle_ak"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"64"	// (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"weapon_cost"				"4"
+			"weapon_cost"				"3"
 			"barrel_length"				"16"
 			"weapon_max_subslot"			"0"
 			"class_restricted"			"1"
@@ -3482,12 +3482,12 @@
 		{
 			"import"				"ballistic_base"
 			"weapon_class"				"shotgun"
-			"weapon_cost"				"4"
+			"weapon_cost"				"3"
 			"print_name"				"#weapon_m590"
 			"print_desc"				"#weapon_m590_desc"
 			"view_model"				"models/weapons/v_m590.mdl"
 			"world_model"				"models/weapons/w_m590.mdl"
-			"weapon_slot"				"secondary"
+			"weapon_slot"				"primary"
 			"act_table"					"shot"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"80"	// (2.5kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +24[encumbrance]
@@ -3575,12 +3575,12 @@
 		{
 			"import"				"ballistic_base"
 			"weapon_class"				"shotgun"
-			"weapon_cost"				"4"
+			"weapon_cost"				"3"
 			"print_name"				"#weapon_toz"
 			"print_desc"				"#weapon_toz_desc"
 			"view_model"				"models/weapons/v_toz.mdl"
 			"world_model"				"models/weapons/w_toz.mdl"
-			"weapon_slot"				"secondary"
+			"weapon_slot"				"primary"
 			"act_table"					"shot"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"80"	// (3.2kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +24[encumbrance]
@@ -4337,7 +4337,7 @@
 				"BounceSound"				"Weapon_M67.Bounce"
 			}
 		}
-		"grenade_m203_phosphorus"//test
+		"grenade_m203_phosphorus"
 		{
 			"import"					"baseGrenade"
 			"entity_class"				"grenade_aoe"

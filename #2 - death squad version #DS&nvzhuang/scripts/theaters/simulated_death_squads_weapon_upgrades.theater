@@ -152,26 +152,6 @@
 				// "weapon"				"weapon_ae_spas12"
 			// }
 		// }
-		"ammo_ae_saiga12_frag"
-		{
-			"import"				"ammo_12g_frag_base"
-			"attach_weapon"				"weapon_ae_saiga12_frag"
-			
-			"allowed_weapons"
-			{
-				"weapon"				"weapon_ae_saiga12"
-			}
-		}
-		"ammo_aa12_frag"
-		{
-			"import"				"ammo_12g_frag_base"
-			"attach_weapon"				"weapon_aa12_frag"
-			
-			"allowed_weapons"
-			{
-				"weapon"				"weapon_aa12"
-			}
-		}
 		"an94_full_base"
 		{
 			"IsBase"				"1"
@@ -469,158 +449,6 @@
 				}
 			}
 		}
-		"magazine_extended_c_100rd"
-		{
-			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"4"
-			"team_access"				"security,insurgent"
-			"class_restricted"			"0"
-
-			"print_name"				"#weapon_upgrade_c_magazine_extended"
-			"print_desc"				"#weapon_upgrade_c_magazine_extended_desc"
-
-			"magsize_override"			"100"
-			"maxcarry_override"			"3"
-
-			"allowed_weapons"
-			{
-				"weapon"				"weapon_hk416"
-				"weapon"				"weapon_galil"
-				"weapon"				"weapon_galil_sar"
-				"weapon"				"weapon_fal"
-				"weapon"				"weapon_rfb"
-				"weapon"				"weapon_l1a1"
-				"weapon"				"weapon_g3a4"
-				"weapon"				"weapon_m1a"
-				"weapon"				"weapon_ae_colt9mm"
-			}
-
-			"viewmodel_attachments"
-			{
-				"magazine_c"
-				{
-					"model"				"models/weapons/upgrades/a_magazine_c_100.mdl"
-					"Main"				"1"
-
-					"weapons"
-					{
-						"weapon"				"weapon_hk416"
-						"weapon"				"weapon_galil"
-						"weapon"				"weapon_galil_sar"
-						"weapon"				"weapon_fal"
-						"weapon"				"weapon_l1a1"
-						"weapon"				"weapon_g3a4"
-						"weapon"				"weapon_m1a"
-					}
-				}
-				"magazine_c_ro635"
-				{
-					"model"				"models/weapons/upgrades/a_magazine_c_100_ro635.mdl"
-					"Main"				"1"
-
-					"weapons"
-					{
-						"weapon"				"weapon_ae_colt9mm"
-					}
-				}
-				"magazine_c_rfb"
-				{
-					"ActSuffix"			"_MAG1"
-					"model"				"models/weapons/upgrades/a_magazine_c_100_rfb.mdl"
-					"Main"				"1"
-
-					"weapons"
-					{
-						"weapon"				"weapon_rfb"
-					}
-				}
-				"magazine2_c_rfb"
-				{
-					"ActSuffix"			"_MAG1"
-					"model"				"models/weapons/upgrades/a_magazine2_c_100_rfb.mdl"
-					"Main"				"1"
-
-					"weapons"
-					{
-						"weapon"				"weapon_rfb"
-					}
-				}
-			}
-			"world_attachments"
-			{
-				"magazine_c"
-				{
-					"model"				"models/weapons/upgrades/w_magazine_c_100.mdl"
-					"weapons"
-					{
-						"weapon"				"weapon_hk416"
-						"weapon"				"weapon_galil"
-						"weapon"				"weapon_galil_sar"
-						"weapon"				"weapon_fal"
-						"weapon"				"weapon_l1a1"
-						"weapon"				"weapon_g3a4"
-						"weapon"				"weapon_m1a"
-					}
-				}
-				"magazine_c_ro635"
-				{
-					"model"				"models/weapons/upgrades/w_magazine_c_100_ro635.mdl"
-					"weapons"
-					{
-						"weapon"				"weapon_ae_colt9mm"
-					}
-				}
-				"magazine_c_rfb"
-				{
-					"model"				"models/weapons/upgrades/w_magazine_c_100_rfb.mdl"
-
-					"weapons"
-					{
-						"weapon"				"weapon_rfb"
-					}
-				}
-			}
-		}
-		"magazine_extended_c_100rd_9mm"
-		{
-			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"4"
-			"team_access"				"security,insurgent"
-			"class_restricted"			"0"
-
-			"print_name"				"#weapon_upgrade_c_magazine_extended"
-			"print_desc"				"#weapon_upgrade_c_magazine_extended_desc"
-
-			"magsize_override"			"100"
-			"maxcarry_override"			"3"
-
-			"allowed_weapons"
-			{
-				"weapon"			"weapon_ae_glock18"
-			}
-
-			"viewmodel_attachments"
-			{
-				"magazine_c_9mm"
-				{
-					"Act_Suffix"		"_MAG1"
-					"model"				"models/weapons/upgrades/a_magazine_c_100_9mm.mdl"
-					"Main"				"1"
-
-					"weapons"
-					{
-						"weapon"			"weapon_ae_glock18"
-					}
-				}
-			}
-			"world_attachments"
-			{
-				"magazine_c_9mm"
-				{
-					"model"				"models/weapons/upgrades/w_magazine_c_100_9mm.mdl"
-				}
-			}
-		}
 		"magazine_extended_rifle_30rd"
 		{
 			"upgrade_slot"				"magazine"
@@ -817,50 +645,6 @@
 				"weapon"			"weapon_mac10"
 			}
 			"ammo_type_override"			"45acp_rip"
-		}
-		"magazine_drum_saiga"
-		{
-			 "upgrade_slot"				"magazine"
-			 "upgrade_cost"				"3"
-			 "class_restricted"			"0"
-			 "team_acces"				"security,insurgent"
-			 "weight"				"24"			
-			 "print_name"				"#weapon_upgrade_magazine_extended"
-			 "print_desc"				"#weapon_upgrade_magazine_extended_desc"		
-			 "magsize_override"			"20"
-			 "maxcarry_override"			"4"
-
-			 "allowed_weapons"
-			 {
-					"weapon"				"weapon_ae_saiga12"
-			 }
-
-			 "viewmodel_attachments"
-			 {
-				 "magazine_saiga12"
-				 {
-					 "model"				"models/weapons/mags/a_saiga_drum_mag.mdl"
-					 "Main"					"1"
-
-					 "weapons"
-					 {
-						 "weapon"		"weapon_ae_saiga12"
-					 }
-				 }
-			 }
-			 "world_attachments"
-			 {
-				 "w_magazine_saiga12"
-				 {
-					 "model"				"models/weapons/mags/w_saiga_drum.mdl"
-					 "Main"					"1"
-
-					 "weapons"
-					 {
-						 "weapon"		"weapon_ae_saiga12"
-					 }
-				 }
-			 }
 		}
 		"magazine_drum_75rd"
 		{
@@ -1353,7 +1137,6 @@
 			"allowed_weapons"
 			{
 				"weapon"			"weapon_ae_m1garand"
-				"weapon"			"weapon_k98_sniper"
 				"weapon"			"weapon_springfield"
 			}
 
@@ -1371,16 +1154,6 @@
 					"weapons"
 					{
 						"weapon"			"weapon_ae_m1garand"
-					}
-				}
-				
-				"bayonet_kar98"
-				{
-					"model"				"models/weapons/upgrades/a_kar98k_bayonet.mdl"
-					
-					"weapons"
-					{
-						"weapon"			"weapon_k98_sniper"
 					}
 				}
 				"bayonet_springfield"
@@ -1402,16 +1175,6 @@
 					"weapons"
 					{
 						"weapon"			"weapon_ae_m1garand"
-					}
-				}
-				
-				"bayonet_kar98"
-				{
-					"model"				"models/weapons/upgrades/w_kar98k_bayonet.mdl"
-					
-					"weapons"
-					{
-						"weapon"			"weapon_k98_sniper"
 					}
 				}
 				"bayonet_springfield"
@@ -1440,7 +1203,6 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_springfield"
-				"weapon"				"weapon_k98_sniper"
 			}
 
 			"viewmodel_attachments"
@@ -1456,15 +1218,6 @@
 					"weapons"
 					{
 						"weapon"		"weapon_springfield"
-					}
-				}
-				"clip_kar98k"
-				{
-					"model"				"models/weapons/upgrades/a_kar98k_stripper_clip.mdl"
-					
-					"weapons"
-					{
-						"weapon"		"weapon_k98"
 					}
 				}
 			}			
@@ -1964,18 +1717,6 @@
 						"weapon"				"weapon_l1a1"
 					}
 				}
-
-				//g3a4Modkit
-				"ModKitg3a4"
-				{
-					"model"					"models/weapons/upgrades/a_modkit_g3a4.mdl"
-					
-					"weapons"
-					{
-						"weapon"				"weapon_g3a4"
-					}
-				}
-
 				//AKS74uModkit
 				"ModKit07"
 				{
@@ -1986,30 +1727,6 @@
 						"weapon"				"weapon_aks74u"
 					}
 				}
-
-				//STG44Modkit
-				"ModKitSTG44"
-				{
-					"model"					"models/weapons/upgrades/a_modkit_stg44.mdl"
-					
-					"weapons"
-					{
-
-						"weapon"				"weapon_stg44"
-					}
-				}
-
-				//AUGModkit
-				"ModKitAUG"
-				{
-					"model"					"models/weapons/upgrades/a_modkit_aug.mdl"
-					
-					"weapons"
-					{
-						"weapon"				"weapon_ae_aug"
-					}
-				}
-				
 				//M1A1Modkit
 				"ModKitM1A1"
 				{
@@ -2030,7 +1747,6 @@
 					{
 						"weapon"				"weapon_mp40"
 						"weapon"				"weapon_sks"
-						"weapon"				"weapon_ae_pm9"
 						"weapon"		"weapon_ae_dragunov"
 					}
 				}
@@ -2148,18 +1864,6 @@
 						"weapon"				"weapon_ae_aug"
 					}
 				}
-
-				//STG44modkit
-				"ModkitSTG44"
-				{
-					"model"					"models/weapons/upgrades/w_modkit_stg44.mdl"
-					
-					"weapons"
-					{
-						"weapon"				"weapon_stg44"
-					}
-				}
-				
 				//MP40/SKSmodkit
 				"Modkit4"
 				{
@@ -10746,27 +10450,11 @@
 				"sway_radius_frac"		"1.8"
 				"sway_speed_frac"		"1.9"
 			}
-
-			"weapon_mods"
-			{
-				"weapon_g43"
-				{
-					"sway"
-					{
-						"sway_amount_focus_frac"		"0.25"
-						"sway_speed_focus_frac"			"0.20"
-						"sway_radius_crouch_frac"		"0.75"
-						"sway_radius_prone_frac"		"0.50"
-					}
-				}
-			}
 			
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_springfield"
-				"weapon"				"weapon_k98_sniper"
 				"weapon"				"weapon_ae_m1garand"
-				"weapon"				"weapon_g43"
 			}
 			
 			"excluded_upgrades"
@@ -10776,19 +10464,6 @@
 			
 			"viewmodel_attachments"
 			{
-				"4xscope_g43"
-				{
-					"model"					"models/weapons/upgrades/a_optic_zf4.mdl"
-					"AnimIronSights"		"scope_zoom"
-					"AnimIdle"				"scope_idle"
-					"Gesture"				"delta_scope"
-					"Main"					"1"
-					
-					"weapons"
-					{
-						"weapon"			"weapon_g43"
-					}
-				}
 				"4xscope_springfield"
 				{
 					"model"					"models/weapons/upgrades/a_optic_springfield.mdl"
@@ -10800,19 +10475,6 @@
 					"weapons"
 					{
 						"weapon"			"weapon_springfield"
-					}
-				}
-				"4xscope_k98"
-				{
-					"model"					"models/weapons/upgrades/a_optic_kar98k_4x.mdl"
-					"AnimIronSights"		"scope_zoom"
-					"AnimIdle"				"scope_idle"
-					"Gesture"				"delta_scope_4x"
-					"Main"					"1"
-					
-					"weapons"
-					{
-						"weapon"			"weapon_k98_sniper"
 					}
 				}
 				"4xscope_garand"
@@ -10832,15 +10494,6 @@
 			
 			"world_attachments"
 			{
-				"Scope_G43"
-				{
-					"model"					"models/weapons/upgrades/w_scope_g43.mdl"
-					
-					"weapons"
-					{
-						"weapon"			"weapon_g43"
-					}
-				}
 				"Scope_springfield"
 				{
 					"model"					"models/weapons/upgrades/w_optic_springfield.mdl"
@@ -10848,15 +10501,6 @@
 					"weapons"
 					{
 						"weapon"				"weapon_springfield"
-					}
-				}
-				"Scope_kar98"
-				{
-					"model"					"models/weapons/upgrades/w_scope_g43.mdl"
-					
-					"weapons"
-					{
-						"weapon"				"weapon_k98_sniper"
 					}
 				}
 				"Scope_Garand"
@@ -10875,23 +10519,11 @@
 				"fov_wpn_ironsight"			"37"
 				"fov_wpn_focus"				"43"
 				
-				"weapon_g43"
-				{
-					"fov_wpn_scope"				"15"
-					"fov_wpn_ironsight"			"46"
-					"fov_wpn_focus"				"51"
-				}
 				"weapon_springfield"
 				{
 					"fov_wpn_scope"				"15"
 					"fov_wpn_ironsight"			"50"
 					"fov_wpn_focus"				"55"
-				}
-				"weapon_k98_sniper"
-				{
-					"fov_wpn_scope"				"15"
-					"fov_wpn_ironsight"			"45"
-					"fov_wpn_focus"				"50"
 				}
 				"weapon_ae_m1garand"
 				{
@@ -10923,16 +10555,6 @@
 						"sway_radius_prone_frac"		"0.50"
 					}
 				}
-				"weapon_k98_sniper"
-				{
-					"sway"
-					{
-						"sway_amount_focus_frac"		"0.25"
-						"sway_speed_focus_frac"			"0.20"
-						"sway_radius_crouch_frac"		"0.75"
-						"sway_radius_prone_frac"		"0.50"
-					}
-				}
 			}
 			
 			"allowed_weapons"
@@ -10941,9 +10563,7 @@
 				"weapon"				"weapon_fal"
 				"weapon"				"weapon_sks"
 				"weapon"				"weapon_l1a1"
-				"weapon"				"weapon_g3a4"
 				"weapon"                		"weapon_ae_dragunov"
-				"weapon"				"weapon_k98_sniper"
 				"weapon"				"weapon_springfield"
 			}
 
@@ -10967,19 +10587,6 @@
 						"weapon"				"weapon_mosin"
 					}
 				}
-				"7xscope_k98"
-				{
-					"model"					"models/weapons/upgrades/a_optic_kar98k.mdl"
-					"AnimIronSights"		"scope_zoom"
-					"AnimIdle"				"scope_idle"
-					"Gesture"				"delta_scope"
-					"Main"					"1"
-					
-					"weapons"
-					{
-						"weapon"			"weapon_k98_sniper"
-					}
-				}
 				"7xscope_fal"
 				{
 					"model"					"models/weapons/upgrades/a_optic_mosin_l.mdl"
@@ -10992,7 +10599,6 @@
 					{
 						"weapon"				"weapon_fal"
 						"weapon"				"weapon_l1a1"
-						"weapon"				"weapon_g3a4"
 					}
 				}
 				"7xscope_sks"
@@ -11035,18 +10641,8 @@
 						"weapon"				"weapon_mosin"
 						"weapon"				"weapon_fal"
 						"weapon"				"weapon_l1a1"
-						"weapon"				"weapon_g3a4"
 						"weapon"				"weapon_sks"
 						"weapon"            			"weapon_ae_dragunov"
-					}
-				}
-				"Scope_kar98"
-				{
-					"model"					"models/weapons/upgrades/w_optic_kar98k.mdl"
-					
-					"weapons"
-					{
-						"weapon"			"weapon_k98_sniper"
 					}
 				}
 				"Scope_springfield"
@@ -11083,23 +10679,11 @@
 					"fov_wpn_ironsight"			"54"
 					"fov_wpn_focus"				"59"
 				}
-				"weapon_g3a4"
-				{
-					"fov_wpn_scope"				"10"
-					"fov_wpn_ironsight"			"54"
-					"fov_wpn_focus"				"59"
-				}
 				"weapon_sks"
 				{
 					"fov_wpn_scope"				"10"
 					"fov_wpn_ironsight"			"45"
 					"fov_wpn_focus"				"53"
-				}
-				"weapon_k98_sniper"
-				{
-					"fov_wpn_scope"				"10"
-					"fov_wpn_ironsight"			"66"
-					"fov_wpn_focus"				"68"
 				}
 				"weapon_springfield"
 				{
@@ -11130,7 +10714,6 @@
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_m14"
-				"weapon"				"weapon_rfb"
 				"weapon"				"weapon_ae_m107"
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_hk417"
@@ -11169,7 +10752,6 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m1a"
-						"weapon"				"weapon_rfb"
 					}
 				}
 				"mk4scope_mk20"
@@ -11281,8 +10863,9 @@
 
 				"weapon_ae_f2000"
 				{
-					"fov_wpn_ironsight"			"66"
-					"fov_wpn_focus"				"68"
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"46"
+					"fov_wpn_focus"				"50"
 				}
 
 				"weapon_ae_m107"
@@ -11290,12 +10873,6 @@
 					"fov_wpn_scope"				"10"
 					"fov_wpn_ironsight"			"50"
 					"fov_wpn_focus"				"57"
-				}
-
-				"weapon_ae_f2000"
-				{
-					"fov_wpn_ironsight"			"66"
-					"fov_wpn_focus"				"68"
 				}
 			}
 			"world_attachments"
@@ -13792,8 +13369,6 @@
 				"weapon"				"weapon_an94"
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_stg44"
-				"weapon"				"weapon_ae_aug"
 				"weapon"				"weapon_galil"
 				"weapon"				"weapon_galil_sar"
 				"weapon"				"weapon_ae_ak12u"
@@ -13855,8 +13430,6 @@
 					"weapons"
 					{
 						"weapon"				"weapon_aks74u"
-						"weapon"				"weapon_stg44"
-						"weapon"				"weapon_ae_aug"
 						"weapon"				"weapon_ae_ak12u"
 					}
 				}
@@ -14816,18 +14389,6 @@
 						"weapon"		"weapon_springfield"
 					}
 				}
-				"Launcher_Kar98k"
-				{
-					"model"					"models/weapons/upgrades/a_kar98k_gl.mdl"
-					"Gesture"				"delta_gl"
-					"ActSuffix"				"_GL"
-					"Main"					"1"
-					
-					"weapons"
-					{
-						"weapon"		"weapon_k98_sniper"
-					}
-				}
 			}
 		}
 		
@@ -14863,28 +14424,6 @@
 				"Launcher"
 				{
 					"skin"					"1"
-				}
-			}
-		}
-		"underbarrel_rifle_grenade_k98"
-		{
-			"import"					"underbarrel_launcher_base"
-			"upgrade_cost"				"2"
-			"print_name"				"#weapon_rifle_grenade"
-			"print_desc"				"#weapon_rifle_grenade_k98_desc"
-			"attach_weapon"				"weapon_rifle_grenade_k98"
-			"class_restricted"		"0"
-			
-			"allowed_weapons"
-			{
-				"weapon"				"weapon_k98_sniper"
-			}
-			
-			"viewmodel_attachments"
-			{
-				"Launcher"
-				{
-					"skin"					"0"
 				}
 			}
 		}

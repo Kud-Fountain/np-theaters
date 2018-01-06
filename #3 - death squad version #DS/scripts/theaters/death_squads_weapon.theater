@@ -429,6 +429,78 @@
 			
 			"team_access"				"security, insurgent"
 		}
+		"weapon_m203_phosphorus"
+		{
+			"import"				"weapon_base"
+			"weapon_class"				"launcher"
+			"weapon_type"				"projectile"
+			"print_name"				"#weapon_m203_phosphorus"
+			"print_desc"				"#weapon_m203_phosphorus_desc"
+			"view_model"				"models/weapons/upgrades/a_gl_m203.mdl"
+			"world_model"				"models/weapons/upgrades/a_gl_m203.mdl"
+			"weapon_slot"				"primary"
+			"act_table"				"shortrifle"
+			"attached_act_suffix"			"_GLSETUP"
+			"attached_gesture"			"delta_glsetup"
+			"weapon_weight"				"32"
+			"weapon_cost"				"0"
+			"weapon_abilities"			"ironsight"
+			"fire_instantly"			"1"
+			"class_restricted"			"1"
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_m203.Single"
+				"shot_single_local"			"Weapon_m203.SingleLocal"
+				"empty"					"Weapon_m203.Empty"
+				"load"					"Weapon_RPG7.Load"
+				"unload"				"Weapon_RPG7.Unload"
+				"hit"					"Weapon_RPG7.Hit"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-1.0 1.0"
+				"recoil_vertical_range"			"4.0 6.0"
+				"recoil_aim_punch"			"1.0 1.0"
+				"recoil_rest_rate"			"12"
+				"recoil_rest_delay"			"0"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"ins_weapon_m203"
+				"particle_muzzleflash_3rd"		"ins_weapon_m203"
+			}
+			"explosives"
+			{
+				"entity"				"grenade_m203_phosphorus"
+				"remove_on_deplete"		"0"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"grenade_m203_phosphorus"
+				"clip_max_rounds"			"1"	// 1 rpg per mag
+				"clip_default"				"4"
+			}
+			"freeaim"
+			{
+				"freeaim_distance"			"13"
+				"freeaim_screenratio"			"0.8"
+			}
+			"fov"
+			{
+				"fov_plr_ironsight"			"-5"
+				"fov_plr_focus"				"-10"
+				"fov_wpn_default"			"20"
+				"fov_wpn_ironsight"			"74"
+				"fov_wpn_focus"				"74"
+			}
+			"ironsights"
+			{
+				"GestureIronsights"			"delta_glsetup_iron"
+			}
+			
+			"team_access"				"security, insurgent"
+		}
 		"weapon_gp25_he"
 		{
 			"import"				"weapon_m203_he"
@@ -981,72 +1053,72 @@
 			}
 			"team_access"				"security, insurgent"
 		}
-		"weapon_gurkha"
-		{
-			"import"				"weapon_base"
-			"weapon_class"				"melee"
-			"weapon_type"				"melee"
-			"print_name"				"#weapon_gurkha"
-			"view_model"				"models/weapons/v_gurkha2.mdl"
-			"world_model"				"models/weapons/w_gurkha2.mdl"
-			"weapon_slot"				"secondary"
-			"act_table"				"knife"
-			"weapon_weight"				"1"
-			"weapon_cost"				"0"
-			"class_restricted"			"0"
-			"barrel_length"				"-1"
-			"class_restricted"			"1"
+		// "weapon_gurkha"
+		// {
+			// "import"				"weapon_base"
+			// "weapon_class"				"melee"
+			// "weapon_type"				"melee"
+			// "print_name"				"#weapon_gurkha"
+			// "view_model"				"models/weapons/v_gurkha2.mdl"
+			// "world_model"				"models/weapons/w_gurkha2.mdl"
+			// "weapon_slot"				"secondary"
+			// "act_table"				"knife"
+			// "weapon_weight"				"1"
+			// "weapon_cost"				"0"
+			// "class_restricted"			"0"
+			// "barrel_length"				"-1"
+			// "class_restricted"			"1"
 			
-			"ammo_clip"
-			{
-				"ammo_type"				"invalid"
-				"clip_max_rounds"			"-1"	// no clips
-				"clip_default"				"0"
-			}
+			// "ammo_clip"
+			// {
+				// "ammo_type"				"invalid"
+				// "clip_max_rounds"			"-1"	// no clips
+				// "clip_default"				"0"
+			// }
 			
-			"sounds"
-			{
-				"shot_single"				"Weapon_Knife.Single"
-				"melee_hit"				"Weapon_Knife.Melee_Hit"
-				"melee_hit_world"			"Weapon_Knife.Melee_HitWorld"
-			}
-			"melee"
-			{
-				"MeleeRange"				"75"
-				"MeleeDamage"				"60"
-				"MeleeDamageBehindBonus"		"200"
-				"MeleeDamageType"			"DMG_SLASH"
-				"MeleeWeaponIdleTime"			"2"
-				"SwingAttacks"
-				{
-					"slash1"
-					{
-						"Activity"				"ACT_VM_HITCENTER"
-						"PlayerAtivity"				"ACT_SHOOT_E2W_BAT"
-						"PlayerActivityIdle"			"ACT_SHOOT_E2W_IDLE_BAT"
-						"StartTime"				"0.1"
-						"EndTime"				"0.34"
-						"Duration"				"0.9"
-						"StartDirection"			"E"
-						"EndDirection"				"W"
-						"ForceDirection"			"15 -40 0"
-					}
-				}
-			}
-			"player_restrictions"
-			{
-				"allow_lean"				"1"
-				"allow_sprint"				"1"
-				"allow_jump"				"1"
-				"allow_sway"				"1"
-			}
-			"recoil"
-			{
-				"recoil_rest_rate"			"5"
-				"recoil_rest_delay"			"0.1"
-			}
-			"team_access"				"security, insurgent"
-		}
+			// "sounds"
+			// {
+				// "shot_single"				"Weapon_Knife.Single"
+				// "melee_hit"				"Weapon_Knife.Melee_Hit"
+				// "melee_hit_world"			"Weapon_Knife.Melee_HitWorld"
+			// }
+			// "melee"
+			// {
+				// "MeleeRange"				"75"
+				// "MeleeDamage"				"60"
+				// "MeleeDamageBehindBonus"		"200"
+				// "MeleeDamageType"			"DMG_SLASH"
+				// "MeleeWeaponIdleTime"			"2"
+				// "SwingAttacks"
+				// {
+					// "slash1"
+					// {
+						// "Activity"				"ACT_VM_HITCENTER"
+						// "PlayerAtivity"				"ACT_SHOOT_E2W_BAT"
+						// "PlayerActivityIdle"			"ACT_SHOOT_E2W_IDLE_BAT"
+						// "StartTime"				"0.1"
+						// "EndTime"				"0.34"
+						// "Duration"				"0.9"
+						// "StartDirection"			"E"
+						// "EndDirection"				"W"
+						// "ForceDirection"			"15 -40 0"
+					// }
+				// }
+			// }
+			// "player_restrictions"
+			// {
+				// "allow_lean"				"1"
+				// "allow_sprint"				"1"
+				// "allow_jump"				"1"
+				// "allow_sway"				"1"
+			// }
+			// "recoil"
+			// {
+				// "recoil_rest_rate"			"5"
+				// "recoil_rest_delay"			"0.1"
+			// }
+			// "team_access"				"security, insurgent"
+		// }
 		
 		// ========================================
 		// PISTOLS
@@ -4263,6 +4335,49 @@
 			{
 				"DetonateSound"				"BaseGrenade.Explode"
 				"BounceSound"				"Weapon_M67.Bounce"
+			}
+		}
+		"grenade_m203_phosphorus"//test
+		{
+			"import"					"baseGrenade"
+			"entity_class"				"grenade_aoe"
+			"Model"					"models/weapons/upgrades/a_projectile_m203.mdl"
+			"DamageType"				"DMG_ACID, DMG_BURN, DMG_PREVENT_PHYSICS_FORCE"
+			"DetonateDamage"			"50"	// det damage is for when it first goes off
+			"DetonatePenetrationRadius"		"10"
+			"DetonateDamageRadius"			"240"
+			"FuseTime"				"-1"
+			"DetonateUnderwater"			"0"
+			"VisibilityTimer"			"14"
+			"RocketStartSpeed"			"3000"
+			"ArmDelay"				"0.12"
+			"ShakeAmplitude"			"0"
+			"ImpactDetonation"			"1"
+			"Deafen"				"0"
+			
+			"AreaDamageTime"			"15"
+			"AreaDamageFrequency"		"0.25"
+			"AreaDamageMinRadius"		"220"
+			"AreaDamageMaxRadius"		"300"
+			"AreaDamageGrowSpeed"		"10"
+			"AreaDamageAmount"			"25"
+			
+			"UseVPhysics"				"0"
+			
+			"Health"					"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"			"doi_WPgrenade_explosion"
+				"DetonateWaterParticle"		"doi_WPgrenade_explosion"
+				"BroadcastAll"				"1"
+			}
+			"Sounds"
+			{
+				"DetonateSound"				"ANM14Incendiary.Burn"
+				"BounceSound"				"ANM14Incendiary.Bounce"
 			}
 		}
 		"grenade_gp25_he"

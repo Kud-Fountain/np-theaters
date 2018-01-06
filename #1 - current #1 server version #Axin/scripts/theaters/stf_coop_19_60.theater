@@ -9,7 +9,8 @@
 		{
 			// default theater specific sounds
 			"sounds"			"scripts/ins_sounds_weapons.txt"
-			"sounds"			"scripts/ins_sounds_cues.txt"
+			//"sounds"			"scripts/ins_sounds_cues.txt"
+			"sounds"			"scripts/death_squads_sounds_cues.txt"
 			"sounds"			"scripts/ins_sounds_voice.txt"
 			"sounds"			"scripts/ins_sounds_radial_security.txt"				
 			"sounds"			"scripts/ins_sounds_radial_insurgent.txt"				

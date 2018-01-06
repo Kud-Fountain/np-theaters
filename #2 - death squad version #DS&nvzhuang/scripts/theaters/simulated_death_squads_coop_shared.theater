@@ -1,10 +1,10 @@
 "#base" "death_squads_base_player.theater"
-"#base" "death_squads_base_common_ammo_test.theater"
+"#base" "simulated_death_squads_base_common_ammo_test.theater"
 
-"#base" "death_squads_gear_test.theater"
-"#base" "death_squads_weapon.theater"
-"#base" "death_squads_custom_weapon.theater"
-"#base" "death_squads_weapon_upgrades.theater"
+"#base" "simulated_death_squads_gear_test.theater"
+"#base" "simulated_death_squads_weapon.theater"
+"#base" "simulated_death_squads_custom_weapon.theater"
+"#base" "simulated_death_squads_weapon_upgrades.theater"
 
 "#base" "death_squads_base.theater"
 
@@ -30,7 +30,7 @@
 			// custom unfinsh
 			"sounds"			"scripts/armoryExpandedv3_sounds.txt"
 			"sounds"			"scripts/death_squads_sounds_cues.txt"
-			"localize"			"resource/ui/death_squads_x_armory_schinese_v1.txt"
+			"localize"			"resource/ui/death_squads_x_armory_english_v1.txt"
 			// custom particles
 			"particles"			"particles/doi_weapon_fx.pcf"
 			"particles"			"particles/doi_explosion_fx.pcf"
@@ -64,142 +64,111 @@
 			
 			"buy_order"
 			{
-				"weapon"			"weapon_stg44"
-				"weapon"			"weapon_mateba"
+				"weapon"			"weapon_m14"
+				"weapon"			"weapon_m45"
 				"weapon"			"weapon_kabar"
-				"gear"				"sec_anti_explosion_clothing"
-				"gear"               		"sec_heavy_carrier"
 			}
 			"allowed_items"
 			{
 				"gear"				"sec_light_armor"
 				"gear"				"sec_heavy_armor"
-				"gear"				"sec_chest_rig"
-				"gear"				"sec_chest_carrier"
+				"gear"				"sec_protection_group"
 				"gear"				"sec_anti_explosion_clothing"
 				"gear"               		"sec_nightvision"
 							// ROCKETS
-				"weapon"			"weapon_rpg7"
 				"weapon"			"weapon_at4"
 							// REMOTE CONTROLLED EXPLOSIVES
 				"weapon"			"weapon_c4_clicker"
-				"weapon"			"weapon_c4_ied"
 							// GRENADES
 				"weapon"			"weapon_p2a1"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_f1"
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_molotov"
 							// MELEE
 				"weapon"			"weapon_kabar"
 							// PISTOLS
-				"weapon"			"weapon_model10"
 				"weapon"			"weapon_m45"
 				"weapon"			"weapon_m1911"
-				"weapon"			"weapon_m9"
-				"weapon"			"weapon_makarov"
-							// ASSAULT RIFLES
-				"weapon"			"weapon_m16a4"
-				"weapon"			"weapon_mk18"
-				"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_galil"
-				"weapon"			"weapon_galil_sar"
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_fal"
-							// SUB-MACHINE GUNS
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_ump45"
+							// SEMI-AUTOMATIC RIFLES AND CARBINES
+				"weapon"			"weapon_m14"
+				"weapon"			"weapon_m1a1"
 							// SHOTGUNS
 				"weapon"			"weapon_m590"
-				"weapon"			"weapon_toz"
+							// SNIPER RIFLES
+				"weapon"			"weapon_m40a1"
 				// ========================================
 				// CUSTOM GEAR-------------CUSTOM
 				// ========================================
-				"gear"               		"sec_super_armor"
 				"gear"               		"sec_heavy_carrier"
 				// ========================================
 				// CUSTOM MELEE-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_machete"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
-				// ========================================
-				// CUSTOM GRENADES-------------CUSTOM
-				// ========================================
+				"weapon"			"weapon_tanto"//hide
+				"weapon"			"weapon_shovel"//hide
+				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
 				// CUSTOM LAUNCHERS-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_panzerfaust"
 				"weapon"			"weapon_m72law"
 				"weapon"			"weapon_m79"
 				// ========================================
+				// CUSTOM SEMI-AUTO RIFLES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_ae_m1garand"
+				"weapon"			"weapon_m1a"
+				"weapon"			"weapon_ae_m107"
+				// ========================================
+				// CUSTOM LIGHT MACHINE GUNS-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_ae_m240"
+				// ========================================
+				// CUSTOM SNIPER RIFLES-------------CUSTOM
+				// ========================================
+				"weapon"			"weapon_ae_l118a1"
+				"weapon"			"weapon_springfield"
+				"weapon"			"weapon_m200"//new class 0
+				// ========================================
 				// CUSTOM ASSAULT RIFLES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_aug"
-				"weapon"			"weapon_ae_type95"
-				"weapon"			"weapon_ae_coltcommando"
-				"weapon"			"weapon_ae_cm901"
-				"weapon"			"weapon_ae_ak47"
-				"weapon"			"weapon_ae_ak12u"
-				"weapon"			"weapon_ae_acr"
 				"weapon"			"weapon_ae_scar"
-				"weapon"			"weapon_ae_g36c"
-				"weapon"			"weapon_ae_famas"
-				"weapon"			"weapon_ae_f2000"
-				"weapon"			"weapon_stg44"
-				"weapon"			"weapon_hk416"
-				"weapon"			"weapon_an94"
+				"weapon"			"weapon_hk417"//new class 0
 				// ========================================
 				// CUSTOM PISTOLS-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
-				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
-				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
-				"weapon"			"weapon_ae_glock18"
-				"weapon"			"weapon_ae_glock19"
 				"weapon"			"weapon_mateba"
 				"weapon"			"weapon_sw500"
+				"weapon"			"weapon_king_cobra"//new class 0
+				"weapon"			"weapon_p226"//new class 0
 				// ========================================
 				// CUSTOM SHOTGUNS-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_m1014"
 				"weapon"			"weapon_ae_m1912"
-				"weapon"			"weapon_ae_ksg"
 				"weapon"			"weapon_ae_spas12"
-				"weapon"			"weapon_ae_saiga12"
 				"weapon"			"weapon_aa12"
+				"weapon"			"weapon_m1887"//new class 0
 				// ========================================
 				// CUSTOM SUBMACHINE GUNS-------------CUSTOM
 				// ========================================
-				"weapon"        		"weapon_ae_mp7"
-				"weapon"        		"weapon_ae_pm9"
 				"weapon"        		"weapon_ae_p90"
-				"weapon"			"weapon_ae_mp5a4"
 				"weapon"			"weapon_ae_krissvector"
 				"weapon"			"weapon_ae_thompson"
-				"weapon"			"weapon_ae_uzi"
-				"weapon"			"weapon_ae_colt9mm"
-				"weapon"			"weapon_spectre_m4"
 				"weapon_upgrade"	"underbarrel_m203_he"
 				"weapon_upgrade"	"underbarrel_m203_phosphorus"
 				"weapon_upgrade"	"underbarrel_gp25_he"
-				"weapon_upgrade"	"optic_leupold6x"
+				"weapon_upgrade"	"optic_2xaimpoint"
 				"weapon_upgrade"	"optic_aimpoint"
-				"weapon_upgrade"	"optic_hybridsight"
-				"weapon_upgrade"	"optic_acogecos"
-				"weapon_upgrade"	"optic_okp"
+				"weapon_upgrade"	"optic_elcan"
 				"weapon_upgrade"	"optic_eotech"
-				"weapon_upgrade"	"optic_pso_1"
-				"weapon_upgrade"	"optic_pso4x"
+				"weapon_upgrade"	"optic_kobra"
+				"weapon_upgrade"	"optic_barska"
+				"weapon_upgrade"	"optic_leupold6x"
+				"weapon_upgrade"	"optic_acogecos"
 				"weapon_upgrade"	"optic_scope_7x"
 				"weapon_upgrade"	"optic_scope_mk4"
 			}
@@ -208,17 +177,13 @@
 				"weapon"
 				{
 					// ROCKETS
-					"weapon_rpg7"						"-2"
 					"weapon_at4"						"-2"
 					// REMOTE CONTROLLED EXPLOSIVES
 					"weapon_c4_clicker"					"-2"
-					"weapon_c4_ied"						"-2"
 					// GRENADES
 					"weapon_m67"						"-2"
-					"weapon_f1"						"-2"
 					// SHOTGUNS
 					"weapon_m590"						"-1"
-					"weapon_toz"						"-1"
 					// ========================================
 					// CUSTOM GRENADES-------------CUSTOM
 					// ========================================
@@ -226,7 +191,6 @@
 					// CUSTOM LAUNCHERS-------------CUSTOM
 					// ========================================
 					"weapon_m79"					"-2"
-					"weapon_ae_panzerfaust"				"-1"
 					"weapon_m72law"						"-1"
 				}
 				"weapon_upgrade"
@@ -255,136 +219,95 @@
 			
 			"buy_order"
 			{
+				"weapon"			"weapon_mp5"
+				"weapon"			"weapon_ae_glock18"
 				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_ae_m1014"
-				"weapon"			"weapon_m590"
-				"gear"				"sec_anti_ammo_clothing"
 			}
 			"allowed_items"
 			{
 				"gear"				"sec_light_armor"
 				"gear"				"sec_heavy_armor"
-				"gear"				"sec_chest_rig"
-				"gear"				"sec_chest_carrier"
+				"gear"				"sec_protection_group"
 				"gear"				"sec_anti_explosion_clothing"
 				"gear"               		"sec_nightvision"
 							// REMOTE CONTROLLED EXPLOSIVES
 				"weapon"			"weapon_c4_clicker"
-				"weapon"			"weapon_c4_ied"
 							// GRENADES
+				"weapon"			"weapon_p2a1"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_f1"
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_molotov"
 							// MELEE
 				"weapon"			"weapon_kabar"
 							// PISTOLS
-				"weapon"			"weapon_model10"
 				"weapon"			"weapon_m45"
 				"weapon"			"weapon_m1911"
 				"weapon"			"weapon_m9"
-				"weapon"			"weapon_makarov"
 							// ASSAULT RIFLES
-				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_galil"
-				"weapon"			"weapon_galil_sar"
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_fal"
-							// SUB-MACHINE GUNS
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_ump45"
 							// SHOTGUNS
 				"weapon"			"weapon_m590"
-				"weapon"			"weapon_toz"
-				// ========================================
-				// CUSTOM GEAR-------------CUSTOM
-				// ========================================
-				"gear"               		"sec_super_armor"
+							// SUB-MACHINE GUNS
+				"weapon"			"weapon_mp5"
+				"weapon"			"weapon_ump45"
 				// ========================================
 				// CUSTOM MELEE-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_katana"
 				"weapon"			"weapon_machete"
+				"weapon"			"weapon_parang"//hide
+				"weapon"			"weapon_Ninjato"//hide
 				"weapon"			"weapon_Ninjato2"
 				"weapon"			"weapon_NieR"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
-				// ========================================
-				// CUSTOM GRENADES-------------CUSTOM
-				// ========================================
-				// ========================================
-				// CUSTOM LAUNCHERS-------------CUSTOM
-				// ========================================
-				"weapon"			"weapon_ae_panzerfaust"
-				"weapon"			"weapon_m79"
+				"weapon"			"weapon_tanto"//hide
+				"weapon"			"weapon_shovel"//hide
+				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
 				// CUSTOM ASSAULT RIFLES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_aug"
-				"weapon"			"weapon_ae_type95"
 				"weapon"			"weapon_ae_coltcommando"
-				"weapon"			"weapon_ae_cm901"
-				"weapon"			"weapon_ae_ak47"
-				"weapon"			"weapon_ae_ak12u"
 				"weapon"			"weapon_ae_acr"
-				"weapon"			"weapon_ae_scar"
-				"weapon"			"weapon_ae_g36c"
-				"weapon"			"weapon_ae_famas"
-				"weapon"			"weapon_ae_f2000"
-				"weapon"			"weapon_stg44"
 				"weapon"			"weapon_hk416"
-				"weapon"			"weapon_an94"
+				"weapon"			"weapon_ar15"//new class 0
 				// ========================================
 				// CUSTOM PISTOLS-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
 				"weapon"			"weapon_ae_glock18"
 				"weapon"			"weapon_ae_glock19"
-				"weapon"			"weapon_mateba"
-				"weapon"			"weapon_sw500"
+				"weapon"			"weapon_p226"//new class 0
 				// ========================================
 				// CUSTOM SHOTGUNS-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_m1014"
 				"weapon"			"weapon_ae_m1912"
-				"weapon"			"weapon_ae_ksg"
 				"weapon"			"weapon_ae_spas12"
-				"weapon"			"weapon_ae_saiga12"
 				"weapon"			"weapon_aa12"
+				"weapon"			"weapon_m1887"//new class 0
 				// ========================================
 				// CUSTOM SUBMACHINE GUNS-------------CUSTOM
 				// ========================================
 				"weapon"        		"weapon_ae_mp7"
-				"weapon"        		"weapon_ae_pm9"
 				"weapon"        		"weapon_ae_p90"
 				"weapon"			"weapon_ae_mp5a4"
 				"weapon"			"weapon_ae_krissvector"
 				"weapon"			"weapon_ae_thompson"
-				"weapon"			"weapon_ae_uzi"
 				"weapon"			"weapon_ae_colt9mm"
-				"weapon"			"weapon_spectre_m4"
-				"weapon_upgrade"		"optic_leupold6x"
-				"weapon_upgrade"		"optic_aimpoint"
-				"weapon_upgrade"		"optic_hybridsight"
-				"weapon_upgrade"		"optic_acogecos"
-				"weapon_upgrade"		"optic_okp"
-				"weapon_upgrade"		"optic_eotech"
-				"weapon_upgrade"		"optic_pso_1"
-				"weapon_upgrade"		"optic_pso4x"
-				"weapon_upgrade"		"optic_kobra"
+				"weapon_upgrade"	"optic_2xaimpoint"
+				"weapon_upgrade"	"optic_aimpoint"
+				"weapon_upgrade"	"optic_elcan"
+				"weapon_upgrade"	"optic_eotech"
+				"weapon_upgrade"	"optic_kobra"
+				"weapon_upgrade"	"optic_barska"
+				"weapon_upgrade"	"optic_leupold6x"
+				"weapon_upgrade"	"optic_acogecos"
 			}
 			"cost_modifiers"
 			{
@@ -398,24 +321,17 @@
 				"weapon"
 				{
 					"weapon_m590"						"-2"
-					"weapon_toz"						"-2"
 					"weapon_ae_m1014"					"-2"
 					"weapon_ae_m1912"					"-2"
 					"weapon_ae_ksg"						"-1"
 					"weapon_ae_spas12"					"-1"
-					"weapon_ae_saiga12"					"-1"
 					"weapon_aa12"						"-1"
-					"weapon_sterling"					"-2"
-					"weapon_mp40"						"-2"
 					"weapon_mp5"						"-2"
 					"weapon_ump45"						"-1"
 					"weapon_ae_mp7"						"-2"
-					"weapon_ae_pm9"						"-2"
 					"weapon_ae_mp5a4"					"-2"
 					"weapon_ae_krissvector"					"-1"
-					"weapon_ae_uzi"						"-2"
 					"weapon_ae_p90"						"-1"
-					"weapon_spectre_m4"					"-1"
 				}
 				"weapon_upgrade"
 				{
@@ -446,27 +362,26 @@
 			
 			"buy_order"
 			{
-				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_m590"
-				"gear"				"sec_anti_explosion_clothing"
+				"weapon"			"weapon_sw500"
+				"weapon"			"weapon_kabar"
 			}
 			"allowed_items"
 			{
 				"gear"				"sec_light_armor"
 				"gear"				"sec_heavy_armor"
-				"gear"				"sec_chest_rig"
-				"gear"				"sec_chest_carrier"
+				"gear"				"sec_protection_group"
 				"gear"				"sec_anti_explosion_clothing"
 				"gear"               		"sec_nightvision"
+							// ROCKETS
+				"weapon"			"weapon_at4"
 							// REMOTE CONTROLLED EXPLOSIVES
 				"weapon"			"weapon_c4_clicker"
-				"weapon"			"weapon_c4_ied"
 							// GRENADES
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_f1"
+				"weapon"			"weapon_anm14"
 							// MELEE
 				"weapon"			"weapon_kabar"
 							// PISTOLS
@@ -474,25 +389,12 @@
 				"weapon"			"weapon_m45"
 				"weapon"			"weapon_m1911"
 				"weapon"			"weapon_m9"
-				"weapon"			"weapon_makarov"
 							// ASSAULT RIFLES
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_galil"
-				"weapon"			"weapon_galil_sar"
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_fal"
-							// SUB-MACHINE GUNS
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_ump45"
 							// SHOTGUNS
 				"weapon"			"weapon_m590"
-				"weapon"			"weapon_toz"
 				// ========================================
 				// CUSTOM GEAR-------------CUSTOM
 				// ========================================
@@ -500,80 +402,55 @@
 				// ========================================
 				// CUSTOM MELEE-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_machete"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
-				// ========================================
-				// CUSTOM GRENADES-------------CUSTOM
-				// ========================================
+				"weapon"			"weapon_tanto"//hide
+				"weapon"			"weapon_shovel"//hide
+				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
 				// CUSTOM LAUNCHERS-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_panzerfaust"
+				"weapon"			"weapon_m72law"
 				"weapon"			"weapon_m79"
 				// ========================================
 				// CUSTOM ASSAULT RIFLES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_aug"
-				"weapon"			"weapon_ae_type95"
 				"weapon"			"weapon_ae_coltcommando"
-				"weapon"			"weapon_ae_cm901"
-				"weapon"			"weapon_ae_ak47"
-				"weapon"			"weapon_ae_ak12u"
 				"weapon"			"weapon_ae_acr"
-				"weapon"			"weapon_ae_scar"
-				"weapon"			"weapon_ae_g36c"
-				"weapon"			"weapon_ae_famas"
-				"weapon"			"weapon_ae_f2000"
-				"weapon"			"weapon_stg44"
 				"weapon"			"weapon_hk416"
-				"weapon"			"weapon_an94"
+				"weapon"			"weapon_hk417"//new class 0
+				"weapon"			"weapon_ar15"//new class 0
 				// ========================================
 				// CUSTOM PISTOLS-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
-				"weapon"			"weapon_ae_glock18"
 				"weapon"			"weapon_ae_glock19"
 				"weapon"			"weapon_mateba"
 				"weapon"			"weapon_sw500"
+				"weapon"			"weapon_king_cobra"//new class 0
+				"weapon"			"weapon_p226"//new class 0
 				// ========================================
 				// CUSTOM SHOTGUNS-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_m1014"
 				"weapon"			"weapon_ae_m1912"
-				"weapon"			"weapon_ae_ksg"
 				"weapon"			"weapon_ae_spas12"
-				"weapon"			"weapon_ae_saiga12"
 				"weapon"			"weapon_aa12"
-				// ========================================
-				// CUSTOM SUBMACHINE GUNS-------------CUSTOM
-				// ========================================
-				"weapon"        		"weapon_ae_mp7"
-				"weapon"        		"weapon_ae_pm9"
-				"weapon"        		"weapon_ae_p90"
-				"weapon"			"weapon_ae_mp5a4"
-				"weapon"			"weapon_ae_krissvector"
-				"weapon"			"weapon_ae_thompson"
-				"weapon"			"weapon_ae_uzi"
-				"weapon"			"weapon_ae_colt9mm"
-				"weapon"			"weapon_spectre_m4"
+				"weapon"			"weapon_m1887"//new class 0
 				"weapon_upgrade"	"underbarrel_m203_he"
 				"weapon_upgrade"	"underbarrel_m203_phosphorus"
 				"weapon_upgrade"	"underbarrel_gp25_he"
-				"weapon_upgrade"		"optic_leupold6x"
-				"weapon_upgrade"		"optic_aimpoint"
-				"weapon_upgrade"		"optic_hybridsight"
-				"weapon_upgrade"		"optic_acogecos"
-				"weapon_upgrade"		"optic_okp"
-				"weapon_upgrade"		"optic_eotech"
-				"weapon_upgrade"		"optic_pso_1"
-				"weapon_upgrade"		"optic_pso4x"
-				"weapon_upgrade"		"optic_kobra"
+				"weapon_upgrade"	"optic_2xaimpoint"
+				"weapon_upgrade"	"optic_aimpoint"
+				"weapon_upgrade"	"optic_elcan"
+				"weapon_upgrade"	"optic_eotech"
+				"weapon_upgrade"	"optic_kobra"
+				"weapon_upgrade"	"optic_barska"
+				"weapon_upgrade"	"optic_leupold6x"
+				"weapon_upgrade"	"optic_acogecos"
 			}
 			"cost_modifiers"
 			{
@@ -581,26 +458,21 @@
 				{
 					// REMOTE CONTROLLED EXPLOSIVES
 					"weapon_c4_clicker"					"-2"
-					"weapon_c4_ied"						"-2"
 					// GRENADES
 					"weapon_m67"						"-2"
-					"weapon_f1"						"-2"
 					// SHOTGUNS
 					"weapon_m590"						"-1"
-					"weapon_toz"						"-1"
 					// ========================================
 					// CUSTOM GRENADES-------------CUSTOM
 					// ========================================
 					// ========================================
 					// CUSTOM LAUNCHERS-------------CUSTOM
 					// ========================================
-					"weapon_ae_panzerfaust"				"-2"
 					"weapon_m79"					"-2"
 				}
 				"weapon_upgrade"
 				{
 					"underbarrel_m203_he"				"-4"
-					"underbarrel_gp25_he"				"-4"
 				}
 			}
 		}
@@ -623,28 +495,23 @@
 			
 			"buy_order"
 			{
+				"weapon"			"weapon_m14"
+				"weapon"			"weapon_m9"
 				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_sks"
-				"weapon"			"weapon_ae_glock19"
-				"gear"				"sec_sniper_armor"
 			}
 			"allowed_items"
 			{	
 				"gear"				"sec_light_armor"
 				"gear"				"sec_heavy_armor"
-				"gear"				"sec_chest_rig"
-				"gear"				"sec_chest_carrier"
+				"gear"				"sec_protection_group"
 				"gear"               		"sec_nightvision"
 							// ROCKETS
-				"weapon"			"weapon_rpg7"
 				"weapon"			"weapon_at4"
 							// GRENADES
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_f1"
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_molotov"
 							// MELEE
 				"weapon"			"weapon_kabar"
 							// PISTOLS
@@ -652,40 +519,19 @@
 				"weapon"			"weapon_m45"
 				"weapon"			"weapon_m1911"
 				"weapon"			"weapon_m9"
-				"weapon"			"weapon_makarov"
-							// ASSAULT RIFLES
-				"weapon"			"weapon_m16a4"
-				"weapon"			"weapon_mk18"
-				"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_galil"
-				"weapon"			"weapon_galil_sar"
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_fal"
 							// SEMI-AUTOMATIC RIFLES AND CARBINES
-				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_mini14"
 				"weapon"			"weapon_m14"
 				"weapon"			"weapon_m1a1"
-				"weapon"			"weapon_sks"
-							// SUB-MACHINE GUNS
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_ump45"
 							// SNIPER RIFLES
 				"weapon"			"weapon_m40a1"
-				"weapon"			"weapon_mosin"
 				// ========================================
 				// CUSTOM MELEE-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_machete"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
-				// ========================================
-				// CUSTOM GRENADES-------------CUSTOM
-				// ========================================
+				"weapon"			"weapon_tanto"//hide
+				"weapon"			"weapon_shovel"//hide
+				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
 				// CUSTOM LAUNCHERS-------------CUSTOM
 				// ========================================
@@ -693,39 +539,25 @@
 				// ========================================
 				// CUSTOM SEMI-AUTO RIFLES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_dragunov"
 				"weapon"			"weapon_ae_m1garand"
-				"weapon"			"weapon_ae_m107"
 				"weapon"			"weapon_m1a"
+				"weapon"			"weapon_ae_m107"
 				// ========================================
 				// CUSTOM SNIPER RIFLES-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_l118a1"
-				"weapon"			"weapon_k98_sniper"
 				"weapon"			"weapon_springfield"
+				"weapon"			"weapon_m200"//new class 0
 				// ========================================
 				// CUSTOM ASSAULT RIFLES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_aug"
-				"weapon"			"weapon_ae_type95"
-				"weapon"			"weapon_ae_coltcommando"
-				"weapon"			"weapon_ae_cm901"
-				"weapon"			"weapon_ae_ak47"
-				"weapon"			"weapon_ae_ak12u"
-				"weapon"			"weapon_ae_acr"
 				"weapon"			"weapon_ae_scar"
-				"weapon"			"weapon_ae_g36c"
-				"weapon"			"weapon_ae_famas"
-				"weapon"			"weapon_ae_f2000"
-				"weapon"			"weapon_stg44"
-				"weapon"			"weapon_hk416"
-				"weapon"			"weapon_an94"
+				"weapon"			"weapon_hk417"//new class 0
 				// ========================================
 				// CUSTOM PISTOLS-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
@@ -733,25 +565,16 @@
 				"weapon"			"weapon_ae_glock19"
 				"weapon"			"weapon_mateba"
 				"weapon"			"weapon_sw500"
-				// ========================================
-				// CUSTOM SUBMACHINE GUNS-------------CUSTOM
-				// ========================================
-				"weapon"        		"weapon_ae_mp7"
-				"weapon"        		"weapon_ae_pm9"
-				"weapon"        		"weapon_ae_p90"
-				"weapon"			"weapon_ae_mp5a4"
-				"weapon"			"weapon_ae_krissvector"
-				"weapon"			"weapon_ae_thompson"
-				"weapon"			"weapon_ae_uzi"
-				"weapon"			"weapon_ae_colt9mm"
-				"weapon"			"weapon_spectre_m4"
-				"weapon_upgrade"		"optic_leupold6x"
+				"weapon"			"weapon_king_cobra"//new class 0
+				"weapon"			"weapon_p226"//new class 0
+				"weapon_upgrade"		"optic_2xaimpoint"
 				"weapon_upgrade"		"optic_aimpoint"
-				"weapon_upgrade"		"optic_hybridsight"
-				"weapon_upgrade"		"optic_acogecos"
-				"weapon_upgrade"		"optic_okp"
+				"weapon_upgrade"		"optic_elcan"
 				"weapon_upgrade"		"optic_eotech"
+				"weapon_upgrade"		"optic_kobra"
 				"weapon_upgrade"		"optic_anpvs_4"
+				"weapon_upgrade"		"optic_leupold6x"
+				"weapon_upgrade"		"optic_acogecos"
 				"weapon_upgrade"		"optic_scope_7x"
 				"weapon_upgrade"		"optic_scope_mk4"
 			}
@@ -814,53 +637,34 @@
 			
 			"buy_order"
 			{
-				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m4a1"
-				"weapon"        		"weapon_ae_mp7"
-				"gear"				"sec_anti_explosion_clothing"
-				"gear"               		"sec_heavy_carrier"
+				"weapon"			"weapon_m45"
+				"weapon"			"weapon_kabar"
 			}
 			"allowed_items"
 			{
 				"gear"				"sec_light_armor"
 				"gear"				"sec_heavy_armor"
-				"gear"				"sec_chest_rig"
-				"gear"				"sec_chest_carrier"
+				"gear"				"sec_protection_group"
 				"gear"				"sec_anti_explosion_clothing"
 				"gear"               		"sec_nightvision"
 							// GRENADES
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_f1"
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_molotov"
 							// MELEE
 				"weapon"			"weapon_kabar"
 							// PISTOLS
-				"weapon"			"weapon_model10"
 				"weapon"			"weapon_m45"
 				"weapon"			"weapon_m1911"
 				"weapon"			"weapon_m9"
-				"weapon"			"weapon_makarov"
 							// ASSAULT RIFLES
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_galil"
-				"weapon"			"weapon_galil_sar"
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_fal"
-							// SUB-MACHINE GUNS
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_ump45"
 							// SHOTGUNS
 				"weapon"			"weapon_m590"
-				"weapon"			"weapon_toz"
 				// ========================================
 				// CUSTOM GEAR-------------CUSTOM
 				// ========================================
@@ -868,83 +672,56 @@
 				// ========================================
 				// CUSTOM MELEE-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_machete"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
-				// ========================================
-				// CUSTOM GRENADES-------------CUSTOM
-				// ========================================
+				"weapon"			"weapon_tanto"//hide
+				"weapon"			"weapon_shovel"//hide
+				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
 				// CUSTOM LAUNCHERS-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_panzerfaust"
 				"weapon"			"weapon_m79"
 				// ========================================
 				// CUSTOM ASSAULT RIFLES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_aug"
-				"weapon"			"weapon_ae_type95"
 				"weapon"			"weapon_ae_coltcommando"
-				"weapon"			"weapon_ae_cm901"
-				"weapon"			"weapon_ae_ak47"
-				"weapon"			"weapon_ae_ak12u"
 				"weapon"			"weapon_ae_acr"
 				"weapon"			"weapon_ae_scar"
-				"weapon"			"weapon_ae_g36c"
-				"weapon"			"weapon_ae_famas"
-				"weapon"			"weapon_ae_f2000"
-				"weapon"			"weapon_stg44"
 				"weapon"			"weapon_hk416"
-				"weapon"			"weapon_an94"
+				"weapon"			"weapon_hk417"//new class 0
+				"weapon"			"weapon_ar15"//new class 0
 				// ========================================
 				// CUSTOM PISTOLS-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
 				"weapon"			"weapon_ae_glock18"
 				"weapon"			"weapon_ae_glock19"
 				"weapon"			"weapon_mateba"
-				"weapon"			"weapon_sw500"
+				"weapon"			"weapon_king_cobra"//new class 0
+				"weapon"			"weapon_p226"//new class 0
 				// ========================================
 				// CUSTOM SHOTGUNS-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_m1014"
 				"weapon"			"weapon_ae_m1912"
-				"weapon"			"weapon_ae_ksg"
 				"weapon"			"weapon_ae_spas12"
-				"weapon"			"weapon_ae_saiga12"
 				"weapon"			"weapon_aa12"
-				// ========================================
-				// CUSTOM SUBMACHINE GUNS-------------CUSTOM
-				// ========================================
-				"weapon"        		"weapon_ae_mp7"
-				"weapon"        		"weapon_ae_pm9"
-				"weapon"        		"weapon_ae_p90"
-				"weapon"			"weapon_ae_mp5a4"
-				"weapon"			"weapon_ae_krissvector"
-				"weapon"			"weapon_ae_thompson"
-				"weapon"			"weapon_ae_uzi"
-				"weapon"			"weapon_ae_colt9mm"
-				"weapon"			"weapon_spectre_m4"
+				"weapon"			"weapon_m1887"//new class 0
 				"weapon_upgrade"	"magazine_drum_75rd"
 				"weapon_upgrade"	"underbarrel_m203_he"
 				"weapon_upgrade"	"underbarrel_m203_phosphorus"
 				"weapon_upgrade"	"underbarrel_m203_smoke"
-				"weapon_upgrade"	"underbarrel_gp25_he"
-				"weapon_upgrade"	"underbarrel_gp25_smoke"
-				"weapon_upgrade"		"optic_leupold6x"
-				"weapon_upgrade"		"optic_aimpoint"
-				"weapon_upgrade"		"optic_hybridsight"
-				"weapon_upgrade"		"optic_acogecos"
-				"weapon_upgrade"		"optic_okp"
-				"weapon_upgrade"		"optic_eotech"
-				"weapon_upgrade"		"optic_pso_1"
-				"weapon_upgrade"		"optic_pso4x"
-				"weapon_upgrade"		"optic_kobra"
+				"weapon_upgrade"	"optic_2xaimpoint"
+				"weapon_upgrade"	"optic_aimpoint"
+				"weapon_upgrade"	"optic_elcan"
+				"weapon_upgrade"	"optic_eotech"
+				"weapon_upgrade"	"optic_kobra"
+				"weapon_upgrade"	"optic_barska"
+				"weapon_upgrade"	"optic_leupold6x"
+				"weapon_upgrade"	"optic_acogecos"
 			}
 			"cost_modifiers"
 			{
@@ -993,30 +770,25 @@
 			
 			"buy_order"
 			{
-				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_katana"
-				"weapon"			"weapon_ae_usp"
-				"gear"               		"sec_super_armor"
+				"weapon"			"weapon_ae_deagle"
+				"weapon"			"weapon_kabar"
 			}
 			"allowed_items"
 			{
 				"gear"				"sec_light_armor"
 				"gear"				"sec_heavy_armor"
-				"gear"				"sec_chest_rig"
-				"gear"				"sec_chest_carrier"
-				"gear"				"sec_anti_explosion_clothing"
+				"gear"               		"sec_super_armor"
+				"gear"				"sec_protection_group"
 				"gear"               		"sec_nightvision"
 							// REMOTE CONTROLLED EXPLOSIVES
 				"weapon"			"weapon_c4_clicker"
-				"weapon"			"weapon_c4_ied"
 							// GRENADES
 				"weapon"			"weapon_p2a1"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_f1"
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_molotov"
 							// MELEE
 				"weapon"			"weapon_kabar"
 							// PISTOLS
@@ -1024,106 +796,69 @@
 				"weapon"			"weapon_m45"
 				"weapon"			"weapon_m1911"
 				"weapon"			"weapon_m9"
-				"weapon"			"weapon_makarov"
 							// ASSAULT RIFLES
-				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_galil"
-				"weapon"			"weapon_galil_sar"
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_fal"
-							// SUB-MACHINE GUNS
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_ump45"
 							// SHOTGUNS
 				"weapon"			"weapon_m590"
-				"weapon"			"weapon_toz"
 				// ========================================
 				// CUSTOM GEAR-------------CUSTOM
 				// ========================================
-				"gear"               		"sec_super_armor"
+				"gear"               		"sec_heavy_carrier"
 				// ========================================
 				// CUSTOM MELEE-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_katana"
 				"weapon"			"weapon_machete"
+				"weapon"			"weapon_parang"//hide
+				"weapon"			"weapon_Ninjato"//hide
 				"weapon"			"weapon_Ninjato2"
 				"weapon"			"weapon_NieR"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
-				// ========================================
-				// CUSTOM GRENADES-------------CUSTOM
-				// ========================================
-				// ========================================
-				// CUSTOM LAUNCHERS-------------CUSTOM
-				// ========================================
-				"weapon"			"weapon_ae_panzerfaust"
-				"weapon"			"weapon_m79"
+				"weapon"			"weapon_tanto"//hide
+				"weapon"			"weapon_shovel"//hide
+				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
 				// CUSTOM ASSAULT RIFLES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_aug"
-				"weapon"			"weapon_ae_type95"
 				"weapon"			"weapon_ae_coltcommando"
-				"weapon"			"weapon_ae_cm901"
-				"weapon"			"weapon_ae_ak47"
-				"weapon"			"weapon_ae_ak12u"
-				"weapon"			"weapon_ae_acr"
-				"weapon"			"weapon_ae_scar"
-				"weapon"			"weapon_ae_g36c"
-				"weapon"			"weapon_ae_famas"
-				"weapon"			"weapon_ae_f2000"
-				"weapon"			"weapon_stg44"
 				"weapon"			"weapon_hk416"
-				"weapon"			"weapon_an94"
 				// ========================================
 				// CUSTOM PISTOLS-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
-				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
 				"weapon"			"weapon_ae_glock18"
 				"weapon"			"weapon_ae_glock19"
 				"weapon"			"weapon_mateba"
-				"weapon"			"weapon_sw500"
+				"weapon"			"weapon_king_cobra"//new class 0
+				"weapon"			"weapon_p226"//new class 0
 				// ========================================
 				// CUSTOM SHOTGUNS-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_m1014"
 				"weapon"			"weapon_ae_m1912"
-				"weapon"			"weapon_ae_ksg"
 				"weapon"			"weapon_ae_spas12"
-				"weapon"			"weapon_ae_saiga12"
-				"weapon"			"weapon_aa12"
+				"weapon"			"weapon_m1887"//new class 0
 				// ========================================
 				// CUSTOM SUBMACHINE GUNS-------------CUSTOM
 				// ========================================
 				"weapon"        		"weapon_ae_mp7"
-				"weapon"        		"weapon_ae_pm9"
 				"weapon"        		"weapon_ae_p90"
 				"weapon"			"weapon_ae_mp5a4"
 				"weapon"			"weapon_ae_krissvector"
 				"weapon"			"weapon_ae_thompson"
-				"weapon"			"weapon_ae_uzi"
 				"weapon"			"weapon_ae_colt9mm"
-				"weapon"			"weapon_spectre_m4"
-				"weapon_upgrade"		"optic_leupold6x"
-				"weapon_upgrade"		"optic_aimpoint"
-				"weapon_upgrade"		"optic_hybridsight"
-				"weapon_upgrade"		"optic_acogecos"
-				"weapon_upgrade"		"optic_okp"
-				"weapon_upgrade"		"optic_eotech"
-				"weapon_upgrade"		"optic_pso_1"
-				"weapon_upgrade"		"optic_pso4x"
-				"weapon_upgrade"		"optic_kobra"
+				"weapon_upgrade"	"optic_2xaimpoint"
+				"weapon_upgrade"	"optic_aimpoint"
+				"weapon_upgrade"	"optic_elcan"
+				"weapon_upgrade"	"optic_eotech"
+				"weapon_upgrade"	"optic_kobra"
+				"weapon_upgrade"	"optic_barska"
+				"weapon_upgrade"	"optic_leupold6x"
+				"weapon_upgrade"	"optic_acogecos"
 			}
 			"cost_modifiers"
 			{
@@ -1145,7 +880,6 @@
 					"weapon_m45"						"-1"
 					"weapon_m1911"						"-1"
 					"weapon_m9"						"-1"
-					"weapon_makarov"					"-1"
 					"weapon_ae_fn57"					"-1"
 					"weapon_ae_waltherp99"					"-1"
 					"weapon_ae_ppk"						"-1"
@@ -1157,23 +891,17 @@
 					"weapon_mateba"						"-1"
 					"weapon_sw500"						"-1"
 					// SUB-MACHINE GUNS
-					"weapon_sterling"					"-1"
-					"weapon_mp40"						"-1"
 					"weapon_mp5"						"-1"
-					"weapon_aks74u"						"-1"
 					"weapon_ump45"						"-1"
 					// ========================================
 					// CUSTOM SUBMACHINE GUNS-------------CUSTOM
 					// ========================================
 					"weapon_ae_mp7"						"-1"
-					"weapon_ae_pm9"						"-1"
 					"weapon_ae_p90"						"-1"
 					"weapon_ae_mp5a4"					"-1"
 					"weapon_ae_krissvector"					"-1"
 					"weapon_ae_thompson"					"-1"
-					"weapon_ae_uzi"						"-1"
 					"weapon_ae_colt9mm"					"-1"
-					"weapon_spectre_m4"					"-1"
 				}
 				"weapon_upgrade"
 				{
@@ -1200,138 +928,87 @@
 			
 			"buy_order"
 			{
-				"gear"				"sec_light_armor"
+				"weapon"			"weapon_mini14"
+				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_sks"
-				"weapon"			"weapon_ae_fn57"
 			}
 			"allowed_items"
 			{
 				"gear"				"sec_light_armor"
 				"gear"				"sec_heavy_armor"
-				"gear"				"sec_chest_rig"
-				"gear"				"sec_chest_carrier"
+				"gear"				"sec_protection_group"
 				"gear"               		"sec_nightvision"
 							// GRENADES
-				"weapon"			"weapon_p2a1"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_f1"
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_molotov"
 							// MELEE
 				"weapon"			"weapon_kabar"
 							// PISTOLS
-				"weapon"			"weapon_model10"
 				"weapon"			"weapon_m45"
 				"weapon"			"weapon_m1911"
 				"weapon"			"weapon_m9"
-				"weapon"			"weapon_makarov"
 							// ASSAULT RIFLES
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_galil"
-				"weapon"			"weapon_galil_sar"
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_fal"
 							// SEMI-AUTOMATIC RIFLES AND CARBINES
-				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_mini14"
 				"weapon"			"weapon_m14"
 				"weapon"			"weapon_m1a1"
-				"weapon"			"weapon_sks"
-							// SUB-MACHINE GUNS
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_ump45"
 							// SNIPER RIFLES
 				"weapon"			"weapon_m40a1"
-				"weapon"			"weapon_mosin"
 				// ========================================
 				// CUSTOM GEAR-------------CUSTOM
 				// ========================================
-				"gear"               		"sec_super_armor"
+				"gear"               		"sec_heavy_carrier"
 				// ========================================
 				// CUSTOM MELEE-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_katana"
-				"weapon"			"weapon_machete"
-				"weapon"			"weapon_Ninjato2"
-				"weapon"			"weapon_NieR"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
-				// ========================================
-				// CUSTOM GRENADES-------------CUSTOM
-				// ========================================
-				// ========================================
-				// CUSTOM SEMI-AUTO RIFLES-------------CUSTOM
-				// ========================================
-				"weapon"			"weapon_ae_dragunov"
-				"weapon"			"weapon_ae_m1garand"
-				"weapon"			"weapon_ae_m107"
-				"weapon"			"weapon_m1a"
+				"weapon"			"weapon_tanto"//hide
+				"weapon"			"weapon_shovel"//hide
+				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
 				// CUSTOM SNIPER RIFLES-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_l118a1"
-				"weapon"			"weapon_k98_sniper"
-				"weapon"			"weapon_springfield"
+				"weapon"			"weapon_m200"//new class 0
 				// ========================================
 				// CUSTOM ASSAULT RIFLES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_aug"
-				"weapon"			"weapon_ae_type95"
 				"weapon"			"weapon_ae_coltcommando"
-				"weapon"			"weapon_ae_cm901"
-				"weapon"			"weapon_ae_ak47"
-				"weapon"			"weapon_ae_ak12u"
 				"weapon"			"weapon_ae_acr"
-				"weapon"			"weapon_ae_scar"
-				"weapon"			"weapon_ae_g36c"
-				"weapon"			"weapon_ae_famas"
-				"weapon"			"weapon_ae_f2000"
-				"weapon"			"weapon_stg44"
 				"weapon"			"weapon_hk416"
-				"weapon"			"weapon_an94"
+				"weapon"			"weapon_ar15"//new class 0
 				// ========================================
 				// CUSTOM PISTOLS-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
-				"weapon"			"weapon_ae_deagle"
 				"weapon"			"weapon_ae_glock18"
 				"weapon"			"weapon_ae_glock19"
-				"weapon"			"weapon_mateba"
-				"weapon"			"weapon_sw500"
+				"weapon"			"weapon_p226"//new class 0
 				// ========================================
 				// CUSTOM SUBMACHINE GUNS-------------CUSTOM
 				// ========================================
 				"weapon"        		"weapon_ae_mp7"
-				"weapon"        		"weapon_ae_pm9"
 				"weapon"        		"weapon_ae_p90"
 				"weapon"			"weapon_ae_mp5a4"
 				"weapon"			"weapon_ae_krissvector"
-				"weapon"			"weapon_ae_thompson"
-				"weapon"			"weapon_ae_uzi"
 				"weapon"			"weapon_ae_colt9mm"
-				"weapon"			"weapon_spectre_m4"
 				"weapon_upgrade"	"underbarrel_m203_smoke"
 				"weapon_upgrade"	"underbarrel_gp25_smoke"
-				"weapon_upgrade"		"optic_leupold6x"
-				"weapon_upgrade"		"optic_aimpoint"
-				"weapon_upgrade"		"optic_hybridsight"
-				"weapon_upgrade"		"optic_acogecos"
-				"weapon_upgrade"		"optic_okp"
-				"weapon_upgrade"		"optic_eotech"
-				"weapon_upgrade"		"optic_pso4x"
+				"weapon_upgrade"	"optic_2xaimpoint"
+				"weapon_upgrade"	"optic_aimpoint"
+				"weapon_upgrade"	"optic_elcan"
+				"weapon_upgrade"	"optic_eotech"
+				"weapon_upgrade"	"optic_kobra"
+				"weapon_upgrade"	"optic_leupold6x"
+				"weapon_upgrade"	"optic_acogecos"
 				"weapon_upgrade"		"optic_anpvs_4"
 				"weapon_upgrade"		"optic_scope_7x"
 				"weapon_upgrade"		"optic_scope_mk4"
@@ -1341,23 +1018,16 @@
 				"weapon"
 				{
 					// SUB-MACHINE GUNS
-					"weapon_sterling"					"-1"
-					"weapon_mp40"						"-1"
 					"weapon_mp5"						"-1"
-					"weapon_aks74u"						"-1"
 					"weapon_ump45"						"-1"
 					// ========================================
 					// CUSTOM SUBMACHINE GUNS-------------CUSTOM
 					// ========================================
 					"weapon_ae_mp7"						"-1"
-					"weapon_ae_pm9"						"-1"
 					"weapon_ae_p90"						"-1"
 					"weapon_ae_mp5a4"					"-1"
 					"weapon_ae_krissvector"					"-1"
-					"weapon_ae_thompson"					"-1"
-					"weapon_ae_uzi"						"-1"
 					"weapon_ae_colt9mm"					"-1"
-					"weapon_spectre_m4"					"-1"
 				}
 				"weapon_upgrade"
 				{
@@ -1389,26 +1059,22 @@
 			
 			"buy_order"
 			{
-				"gear"				"sec_heavy_armor"
-				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m16a4"
-				"weapon"			"weapon_ae_waltherp99"
+				"weapon"			"weapon_m9"
+				"weapon"			"weapon_kabar"
 			}
 			"allowed_items"
 			{
 				"gear"				"sec_light_armor"
 				"gear"				"sec_heavy_armor"
-				"gear"				"sec_chest_rig"
-				"gear"				"sec_chest_carrier"
+				"gear"				"sec_protection_group"
+				"gear"				"sec_anti_explosion_clothing"
 				"gear"               		"sec_nightvision"
 							// GRENADES
-				"weapon"			"weapon_p2a1"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_f1"
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_molotov"
 							// MELEE
 				"weapon"			"weapon_kabar"
 							// PISTOLS
@@ -1416,76 +1082,46 @@
 				"weapon"			"weapon_m45"
 				"weapon"			"weapon_m1911"
 				"weapon"			"weapon_m9"
-				"weapon"			"weapon_makarov"
 							// ASSAULT RIFLES
 				"weapon"			"weapon_m16a4"
-				"weapon"			"weapon_mk18"
-				"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_galil"
-				"weapon"			"weapon_galil_sar"
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_fal"
 							// SEMI-AUTOMATIC RIFLES AND CARBINES
-				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_mini14"
 				"weapon"			"weapon_m14"
 				"weapon"			"weapon_m1a1"
-				"weapon"			"weapon_sks"
-							// SUB-MACHINE GUNS
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_ump45"
 							// SNIPER RIFLES
 				"weapon"			"weapon_m40a1"
-				"weapon"			"weapon_mosin"
+				// ========================================
+				// CUSTOM GEAR-------------CUSTOM
+				// ========================================
+				"gear"               		"sec_heavy_carrier"
 				// ========================================
 				// CUSTOM MELEE-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_machete"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
-				// ========================================
-				// CUSTOM GRENADES-------------CUSTOM
-				// ========================================
+				"weapon"			"weapon_tanto"//hide
+				"weapon"			"weapon_shovel"//hide
+				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
 				// CUSTOM SEMI-AUTO RIFLES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_dragunov"
 				"weapon"			"weapon_ae_m1garand"
-				"weapon"			"weapon_ae_m107"
 				"weapon"			"weapon_m1a"
 				// ========================================
 				// CUSTOM SNIPER RIFLES-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_l118a1"
-				"weapon"			"weapon_k98_sniper"
-				"weapon"			"weapon_springfield"
+				"weapon"			"weapon_m200"//new class 0
 				// ========================================
 				// CUSTOM ASSAULT RIFLES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_aug"
-				"weapon"			"weapon_ae_type95"
-				"weapon"			"weapon_ae_coltcommando"
-				"weapon"			"weapon_ae_cm901"
-				"weapon"			"weapon_ae_ak47"
-				"weapon"			"weapon_ae_ak12u"
-				"weapon"			"weapon_ae_acr"
 				"weapon"			"weapon_ae_scar"
-				"weapon"			"weapon_ae_g36c"
-				"weapon"			"weapon_ae_famas"
-				"weapon"			"weapon_ae_f2000"
-				"weapon"			"weapon_stg44"
-				"weapon"			"weapon_hk416"
-				"weapon"			"weapon_an94"
+				"weapon"			"weapon_hk417"//new class 0
+				"weapon"			"weapon_ar15"//new class 0
 				// ========================================
 				// CUSTOM PISTOLS-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
@@ -1493,29 +1129,19 @@
 				"weapon"			"weapon_ae_glock19"
 				"weapon"			"weapon_mateba"
 				"weapon"			"weapon_sw500"
-				// ========================================
-				// CUSTOM SUBMACHINE GUNS-------------CUSTOM
-				// ========================================
-				"weapon"        		"weapon_ae_mp7"
-				"weapon"        		"weapon_ae_pm9"
-				"weapon"        		"weapon_ae_p90"
-				"weapon"			"weapon_ae_mp5a4"
-				"weapon"			"weapon_ae_krissvector"
-				"weapon"			"weapon_ae_thompson"
-				"weapon"			"weapon_ae_uzi"
-				"weapon"			"weapon_ae_colt9mm"
-				"weapon"			"weapon_spectre_m4"
+				"weapon"			"weapon_king_cobra"//new class 0
+				"weapon"			"weapon_p226"//new class 0
 				"weapon_upgrade"	"magazine_drum_75rd"
-				"weapon_upgrade"		"optic_leupold6x"
-				"weapon_upgrade"		"optic_aimpoint"
-				"weapon_upgrade"		"optic_hybridsight"
-				"weapon_upgrade"		"optic_acogecos"
-				"weapon_upgrade"		"optic_okp"
-				"weapon_upgrade"		"optic_eotech"
-				"weapon_upgrade"		"optic_pso4x"
-				"weapon_upgrade"		"optic_anpvs_4"
-				"weapon_upgrade"		"optic_scope_7x"
-				"weapon_upgrade"		"optic_scope_mk4"
+				"weapon_upgrade"	"optic_2xaimpoint"
+				"weapon_upgrade"	"optic_aimpoint"
+				"weapon_upgrade"	"optic_elcan"
+				"weapon_upgrade"	"optic_eotech"
+				"weapon_upgrade"	"optic_kobra"
+				"weapon_upgrade"	"optic_leupold6x"
+				"weapon_upgrade"	"optic_acogecos"
+				"weapon_upgrade"	"optic_anpvs_4"
+				"weapon_upgrade"	"optic_scope_7x"
+				"weapon_upgrade"	"optic_scope_mk4"
 			}
 			"cost_modifiers"
 			{
@@ -1523,27 +1149,12 @@
 				{
 					// ASSAULT RIFLES
 					"weapon_m16a4"					"-1"
-					"weapon_mk18"					"-1"
-					"weapon_hk416"					"-2"
-					"weapon_m4a1"					"-1"
-					"weapon_galil"					"-1"
-					"weapon_galil_sar"				"-1"
-					"weapon_akm"					"-1"
-					"weapon_ak74"					"-1"
-					"weapon_fal"					"-2"
-					"weapon_l1a1"					"-2"
-					"weapon_ae_aug"					"-2"
-					"weapon_ae_type95"				"-2"
-					"weapon_ae_coltcommando"			"-2"
-					"weapon_ae_cm901"				"-2"
-					"weapon_ae_ak47"				"-2"
-					"weapon_ae_ak12u"				"-2"
-					"weapon_ae_acr"					"-2"
+					"weapon_hk417"					"-1"
 					"weapon_ae_scar"				"-2"
-					"weapon_ae_g36c"				"-2"
-					"weapon_ae_famas"				"-2"
-					"weapon_ae_f2000"				"-2"
-					"weapon_an94"					"-1"
+					"weapon_ar15"					"-1"
+					"weapon_m1a1"					"-1"
+					"weapon_m14"					"-1"
+					"weapon_mini14"					"-1"
 				}
 				"weapon_upgrade"
 				{
@@ -1570,33 +1181,27 @@
 			
 			"buy_order"
 			{
-				"gear"				"sec_light_armor"
+				"weapon"			"weapon_hk416"
+				"weapon"			"weapon_ae_glock19"
 				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_ae_deagle"
 			}
 			"allowed_items"
 			{
 				"gear"				"sec_light_armor"
 				"gear"				"sec_heavy_armor"
-				"gear"				"sec_chest_rig"
-				"gear"				"sec_chest_carrier"
+				"gear"				"sec_protection_group"
 				"gear"				"sec_anti_explosion_clothing"
 				"gear"               		"sec_nightvision"
 							// ROCKETS
-				"weapon"			"weapon_rpg7"
 				"weapon"			"weapon_at4"
 							// REMOTE CONTROLLED EXPLOSIVES
 				"weapon"			"weapon_c4_clicker"
-				"weapon"			"weapon_c4_ied"
 							// GRENADES
 				"weapon"			"weapon_p2a1"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_f1"
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_molotov"
 							// MELEE
 				"weapon"			"weapon_kabar"
 							// PISTOLS
@@ -1604,106 +1209,72 @@
 				"weapon"			"weapon_m45"
 				"weapon"			"weapon_m1911"
 				"weapon"			"weapon_m9"
-				"weapon"			"weapon_makarov"
 							// ASSAULT RIFLES
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_galil"
-				"weapon"			"weapon_galil_sar"
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_fal"
-							// LIGHT MACHINE GUNS
-				"weapon"			"weapon_m249"
-				"weapon"			"weapon_rpk"
 							// SEMI-AUTOMATIC RIFLES AND CARBINES
-				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_mini14"
 				"weapon"			"weapon_m14"
 				"weapon"			"weapon_m1a1"
-				"weapon"			"weapon_sks"
-							// SUB-MACHINE GUNS
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_ump45"
+							// LIGHT MACHINE GUNS
+				"weapon"			"weapon_m249"
 							// SHOTGUNS
 				"weapon"			"weapon_m590"
-				"weapon"			"weapon_toz"
 							// SNIPER RIFLES
 				"weapon"			"weapon_m40a1"
-				"weapon"			"weapon_mosin"
 				// ========================================
 				// CUSTOM GEAR-------------CUSTOM
 				// ========================================
-				"gear"               		"sec_super_armor"
 				"gear"               		"sec_heavy_carrier"
 				// ========================================
 				// CUSTOM MELEE-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_katana"
 				"weapon"			"weapon_machete"
+				"weapon"			"weapon_parang"//hide
+				"weapon"			"weapon_Ninjato"//hide
 				"weapon"			"weapon_Ninjato2"
 				"weapon"			"weapon_NieR"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
-				// ========================================
-				// CUSTOM GRENADES-------------CUSTOM
-				// ========================================
+				"weapon"			"weapon_tanto"//hide
+				"weapon"			"weapon_shovel"//hide
+				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
 				// CUSTOM LAUNCHERS-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_panzerfaust"
 				"weapon"			"weapon_m72law"
 				"weapon"			"weapon_m79"
 				// ========================================
-				// CUSTOM HEAVY MACHINE GUNS-------------CUSTOM
-				// ========================================
-				"weapon"			"weapon_ae_mg42"
-				"weapon"			"weapon_ae_m60"
-				// ========================================
 				// CUSTOM SEMI-AUTO RIFLES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_dragunov"
 				"weapon"			"weapon_ae_m1garand"
-				"weapon"			"weapon_ae_m107"
 				"weapon"			"weapon_m1a"
+				"weapon"			"weapon_ae_m107"
 				// ========================================
 				// CUSTOM LIGHT MACHINE GUNS-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_pecheneg"
 				"weapon"			"weapon_ae_m240"
 				// ========================================
 				// CUSTOM SNIPER RIFLES-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_l118a1"
-				"weapon"			"weapon_k98_sniper"
 				"weapon"			"weapon_springfield"
+				"weapon"			"weapon_m200"//new class 0
 				// ========================================
 				// CUSTOM ASSAULT RIFLES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_aug"
-				"weapon"			"weapon_ae_type95"
 				"weapon"			"weapon_ae_coltcommando"
-				"weapon"			"weapon_ae_cm901"
-				"weapon"			"weapon_ae_ak47"
-				"weapon"			"weapon_ae_ak12u"
 				"weapon"			"weapon_ae_acr"
 				"weapon"			"weapon_ae_scar"
-				"weapon"			"weapon_ae_g36c"
-				"weapon"			"weapon_ae_famas"
-				"weapon"			"weapon_ae_f2000"
-				"weapon"			"weapon_stg44"
 				"weapon"			"weapon_hk416"
-				"weapon"			"weapon_an94"
+				"weapon"			"weapon_hk417"//new class 0
+				"weapon"			"weapon_ar15"//new class 0
 				// ========================================
 				// CUSTOM PISTOLS-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
@@ -1711,41 +1282,36 @@
 				"weapon"			"weapon_ae_glock19"
 				"weapon"			"weapon_mateba"
 				"weapon"			"weapon_sw500"
+				"weapon"			"weapon_king_cobra"//new class 0
+				"weapon"			"weapon_p226"//new class 0
 				// ========================================
 				// CUSTOM SHOTGUNS-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_m1014"
 				"weapon"			"weapon_ae_m1912"
-				"weapon"			"weapon_ae_ksg"
 				"weapon"			"weapon_ae_spas12"
-				"weapon"			"weapon_ae_saiga12"
 				"weapon"			"weapon_aa12"
+				"weapon"			"weapon_m1887"//new class 0
 				// ========================================
 				// CUSTOM SUBMACHINE GUNS-------------CUSTOM
 				// ========================================
 				"weapon"        		"weapon_ae_mp7"
-				"weapon"        		"weapon_ae_pm9"
 				"weapon"        		"weapon_ae_p90"
 				"weapon"			"weapon_ae_mp5a4"
 				"weapon"			"weapon_ae_krissvector"
 				"weapon"			"weapon_ae_thompson"
-				"weapon"			"weapon_ae_uzi"
 				"weapon"			"weapon_ae_colt9mm"
-				"weapon"			"weapon_spectre_m4"
 				"weapon_upgrade"	"underbarrel_m203_he"
 				"weapon_upgrade"	"underbarrel_m203_phosphorus"
 				"weapon_upgrade"	"underbarrel_m203_smoke"
-				"weapon_upgrade"	"underbarrel_gp25_he"
-				"weapon_upgrade"	"underbarrel_gp25_smoke"
-				"weapon_upgrade"		"optic_leupold6x"
-				"weapon_upgrade"		"optic_aimpoint"
-				"weapon_upgrade"		"optic_hybridsight"
-				"weapon_upgrade"		"optic_acogecos"
-				"weapon_upgrade"		"optic_okp"
-				"weapon_upgrade"		"optic_eotech"
-				"weapon_upgrade"		"optic_pso4x"
-				"weapon_upgrade"		"optic_pso_1"
-				"weapon_upgrade"		"optic_kobra"
+				"weapon_upgrade"	"optic_2xaimpoint"
+				"weapon_upgrade"	"optic_aimpoint"
+				"weapon_upgrade"	"optic_elcan"
+				"weapon_upgrade"	"optic_eotech"
+				"weapon_upgrade"	"optic_kobra"
+				"weapon_upgrade"	"optic_barska"
+				"weapon_upgrade"	"optic_leupold6x"
+				"weapon_upgrade"	"optic_acogecos"
 			}
 		}
 		"template_sniper_security_coop"
@@ -1767,30 +1333,22 @@
 			
 			"buy_order"
 			{
-				"gear"				"sec_heavy_armor"
-				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m40a1"
-				"weapon"			"weapon_ae_beretta93r"
+				"weapon"			"weapon_m9"
+				"weapon"			"weapon_kabar"
 			}
 			"allowed_items"
 			{
 				"gear"				"sec_light_armor"
 				"gear"				"sec_heavy_armor"
-				"gear"				"sec_chest_rig"
-				"gear"				"sec_chest_carrier"
-				"gear"				"sec_anti_explosion_clothing"
+				"gear"				"sec_protection_group"
 				"gear"               		"sec_nightvision"
-							// ROCKETS
-				"weapon"			"weapon_rpg7"
-				"weapon"			"weapon_at4"
 							// GRENADES
 				"weapon"			"weapon_p2a1"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_f1"
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_molotov"
 							// MELEE
 				"weapon"			"weapon_kabar"
 							// PISTOLS
@@ -1798,80 +1356,44 @@
 				"weapon"			"weapon_m45"
 				"weapon"			"weapon_m1911"
 				"weapon"			"weapon_m9"
-				"weapon"			"weapon_makarov"
 							// ASSAULT RIFLES
 				"weapon"			"weapon_m16a4"
-				"weapon"			"weapon_mk18"
-				"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_galil"
-				"weapon"			"weapon_galil_sar"
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_fal"
 							// SEMI-AUTOMATIC RIFLES AND CARBINES
-				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_mini14"
 				"weapon"			"weapon_m14"
 				"weapon"			"weapon_m1a1"
-				"weapon"			"weapon_sks"
-							// SUB-MACHINE GUNS
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_ump45"
 							// SNIPER RIFLES
 				"weapon"			"weapon_m40a1"
-				"weapon"			"weapon_mosin"
 				// ========================================
 				// CUSTOM MELEE-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_machete"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
-				// ========================================
-				// CUSTOM GRENADES-------------CUSTOM
-				// ========================================
-				// ========================================
-				// CUSTOM LAUNCHERS-------------CUSTOM
-				// ========================================
-				"weapon"			"weapon_m72law"
+				"weapon"			"weapon_tanto"//hide
+				"weapon"			"weapon_shovel"//hide
+				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
 				// CUSTOM SEMI-AUTO RIFLES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_dragunov"
 				"weapon"			"weapon_ae_m1garand"
-				"weapon"			"weapon_ae_m107"
 				"weapon"			"weapon_m1a"
+				"weapon"			"weapon_ae_m107"
 				// ========================================
 				// CUSTOM SNIPER RIFLES-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_l118a1"
-				"weapon"			"weapon_k98_sniper"
 				"weapon"			"weapon_springfield"
+				"weapon"			"weapon_m200"//new class 0
 				// ========================================
 				// CUSTOM ASSAULT RIFLES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_aug"
-				"weapon"			"weapon_ae_type95"
-				"weapon"			"weapon_ae_coltcommando"
-				"weapon"			"weapon_ae_cm901"
-				"weapon"			"weapon_ae_ak47"
-				"weapon"			"weapon_ae_ak12u"
 				"weapon"			"weapon_ae_acr"
 				"weapon"			"weapon_ae_scar"
-				"weapon"			"weapon_ae_g36c"
-				"weapon"			"weapon_ae_famas"
-				"weapon"			"weapon_ae_f2000"
-				"weapon"			"weapon_stg44"
-				"weapon"			"weapon_hk416"
-				"weapon"			"weapon_an94"
+				"weapon"			"weapon_hk417"//new class 0
 				// ========================================
 				// CUSTOM PISTOLS-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
@@ -1879,28 +1401,18 @@
 				"weapon"			"weapon_ae_glock19"
 				"weapon"			"weapon_mateba"
 				"weapon"			"weapon_sw500"
-				// ========================================
-				// CUSTOM SUBMACHINE GUNS-------------CUSTOM
-				// ========================================
-				"weapon"        		"weapon_ae_mp7"
-				"weapon"        		"weapon_ae_pm9"
-				"weapon"        		"weapon_ae_p90"
-				"weapon"			"weapon_ae_mp5a4"
-				"weapon"			"weapon_ae_krissvector"
-				"weapon"			"weapon_ae_thompson"
-				"weapon"			"weapon_ae_uzi"
-				"weapon"			"weapon_ae_colt9mm"
-				"weapon"			"weapon_spectre_m4"
-				"weapon_upgrade"		"optic_leupold6x"
-				"weapon_upgrade"		"optic_aimpoint"
-				"weapon_upgrade"		"optic_hybridsight"
-				"weapon_upgrade"		"optic_acogecos"
-				"weapon_upgrade"		"optic_okp"
-				"weapon_upgrade"		"optic_eotech"
-				"weapon_upgrade"		"optic_pso4x"
-				"weapon_upgrade"		"optic_anpvs_4"
-				"weapon_upgrade"		"optic_scope_7x"
-				"weapon_upgrade"		"optic_scope_mk4"
+				"weapon"			"weapon_king_cobra"//new class 0
+				"weapon"			"weapon_p226"//new class 0
+				"weapon_upgrade"	"optic_2xaimpoint"
+				"weapon_upgrade"	"optic_aimpoint"
+				"weapon_upgrade"	"optic_elcan"
+				"weapon_upgrade"	"optic_eotech"
+				"weapon_upgrade"	"optic_kobra"
+				"weapon_upgrade"	"optic_anpvs_4"
+				"weapon_upgrade"	"optic_leupold6x"
+				"weapon_upgrade"	"optic_acogecos"
+				"weapon_upgrade"	"optic_scope_7x"
+				"weapon_upgrade"	"optic_scope_mk4"
 			}
 			"cost_modifiers"
 			{
@@ -1908,23 +1420,18 @@
 				{
 					// SNIPER RIFLES
 					"weapon_m40a1"					"-1"
-					"weapon_mosin"					"-1"
 					// ========================================
 					// CUSTOM SNIPER RIFLES-------------CUSTOM
 					// ========================================
 					"weapon_ae_l118a1"				"-1"
-					"weapon_k98_sniper"				"-1"
 					"weapon_springfield"				"-1"
 					// SEMI-AUTOMATIC RIFLES AND CARBINES
-					"weapon_l1a1"					"-1"
 					"weapon_mini14"					"-1"
 					"weapon_m14"					"-1"
 					"weapon_m1a1"					"-1"
-					"weapon_sks"					"-1"
 					// ========================================
 					// CUSTOM SEMI-AUTO RIFLES-------------CUSTOM
 					// ========================================
-					"weapon_ae_dragunov"				"-1"
 					"weapon_ae_m1garand"				"-1"
 					"weapon_ae_m107"				"-1"
 					"weapon_m1a"					"-1"
@@ -1959,53 +1466,37 @@
 			
 			"buy_order"
 			{
-				"gear"				"sec_heavy_armor"
-				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m249"
 				"weapon"			"weapon_ae_glock18"
+				"weapon"			"weapon_kabar"
 			}
 			"allowed_items"
 			{
 				"gear"				"sec_light_armor"
 				"gear"				"sec_heavy_armor"
-				"gear"				"sec_chest_rig"
-				"gear"				"sec_chest_carrier"
+				"gear"				"sec_protection_group"
 				"gear"               		"sec_nightvision"
-							// ROCKETS
-				"weapon"			"weapon_rpg7"
-				"weapon"			"weapon_at4"
 							// REMOTE CONTROLLED EXPLOSIVES
 				"weapon"			"weapon_c4_clicker"
-				"weapon"			"weapon_c4_ied"
 							// GRENADES
+				"weapon"			"weapon_p2a1"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_f1"
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_molotov"
 							// MELEE
 				"weapon"			"weapon_kabar"
+							// PISTOLS
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_m45"
+				"weapon"			"weapon_m1911"
+				"weapon"			"weapon_m9"
 							// ASSAULT RIFLES
+				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_galil"
-				"weapon"			"weapon_galil_sar"
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_fal"
 							// LIGHT MACHINE GUNS
 				"weapon"			"weapon_m249"
-				"weapon"			"weapon_rpk"
-							// SUB-MACHINE GUNS
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_ump45"
-							// SHOTGUNS
-				"weapon"			"weapon_m590"
-				"weapon"			"weapon_toz"
 				// ========================================
 				// CUSTOM GEAR-------------CUSTOM
 				// ========================================
@@ -2013,48 +1504,26 @@
 				// ========================================
 				// CUSTOM MELEE-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_machete"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
-				// ========================================
-				// CUSTOM HEALTHKIT-------------CUSTOM
-				// ========================================
-				// ========================================
-				// CUSTOM GRENADES-------------CUSTOM
-				// ========================================
-				// ========================================
-				// CUSTOM LAUNCHERS-------------CUSTOM
-				// ========================================
-				"weapon"			"weapon_ae_panzerfaust"
-				"weapon"			"weapon_m72law"
-				// ========================================
-				// CUSTOM HEAVY MACHINE GUNS-------------CUSTOM
-				// ========================================
-				"weapon"			"weapon_ae_mg42"
-				"weapon"			"weapon_ae_m60"
-				// ========================================
-				// CUSTOM SEMI-AUTO RIFLES-------------CUSTOM
-				// ========================================
-				"weapon"			"weapon_ae_m107"
+				"weapon"			"weapon_tanto"//hide
+				"weapon"			"weapon_shovel"//hide
+				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
 				// CUSTOM LIGHT MACHINE GUNS-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_pecheneg"
 				"weapon"			"weapon_ae_m240"
 				// ========================================
 				// CUSTOM ASSAULT RIFLES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_aug"
-				"weapon"			"weapon_ae_type95"
-				"weapon"			"weapon_stg44"
+				"weapon"			"weapon_ae_coltcommando"
+				"weapon"			"weapon_ae_acr"
 				"weapon"			"weapon_hk416"
-				"weapon"			"weapon_an94"
+				"weapon"			"weapon_ar15"//new class 0
 				// ========================================
 				// CUSTOM PISTOLS-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
@@ -2062,38 +1531,17 @@
 				"weapon"			"weapon_ae_glock19"
 				"weapon"			"weapon_mateba"
 				"weapon"			"weapon_sw500"
-				// ========================================
-				// CUSTOM SHOTGUNS-------------CUSTOM
-				// ========================================
-				"weapon"			"weapon_ae_m1014"
-				"weapon"			"weapon_ae_m1912"
-				"weapon"			"weapon_ae_ksg"
-				"weapon"			"weapon_ae_spas12"
-				"weapon"			"weapon_ae_saiga12"
-				"weapon"			"weapon_aa12"
-				// ========================================
-				// CUSTOM SUBMACHINE GUNS-------------CUSTOM
-				// ========================================
-				"weapon"        		"weapon_ae_mp7"
-				"weapon"        		"weapon_ae_pm9"
-				"weapon"        		"weapon_ae_p90"
-				"weapon"			"weapon_ae_mp5a4"
-				"weapon"			"weapon_ae_krissvector"
-				"weapon"			"weapon_ae_thompson"
-				"weapon"			"weapon_ae_uzi"
-				"weapon"			"weapon_ae_colt9mm"
-				"weapon"			"weapon_spectre_m4"
+				"weapon"			"weapon_king_cobra"//new class 0
+				"weapon"			"weapon_p226"//new class 0
 				"weapon_upgrade"	"magazine_drum_75rd"
-				"weapon_upgrade"		"optic_leupold6x"
-				"weapon_upgrade"		"optic_aimpoint"
-				"weapon_upgrade"		"optic_hybridsight"
-				"weapon_upgrade"		"optic_acogecos"
-				"weapon_upgrade"		"optic_okp"
-				"weapon_upgrade"		"optic_eotech"
-				"weapon_upgrade"		"optic_pso4x"
-				"weapon_upgrade"		"optic_kobra"
-				"weapon_upgrade"		"optic_scope_7x"
-				"weapon_upgrade"		"optic_scope_mk4"
+				"weapon_upgrade"	"optic_2xaimpoint"
+				"weapon_upgrade"	"optic_aimpoint"
+				"weapon_upgrade"	"optic_elcan"
+				"weapon_upgrade"	"optic_eotech"
+				"weapon_upgrade"	"optic_kobra"
+				"weapon_upgrade"	"optic_barska"
+				"weapon_upgrade"	"optic_leupold6x"
+				"weapon_upgrade"	"optic_acogecos"
 			}
 			"cost_modifiers"
 			{
@@ -2101,16 +1549,9 @@
 				{
 					// LIGHT MACHINE GUNS
 					"weapon_m249"				"-2"
-					"weapon_rpk"				"-2"
-					// ========================================
-					// CUSTOM HEAVY MACHINE GUNS-------------CUSTOM
-					// ========================================
-					"weapon_ae_mg42"			"-2"
-					"weapon_ae_m60"				"-2"
 					// ========================================
 					// CUSTOM LIGHT MACHINE GUNS-------------CUSTOM
 					// ========================================
-					"weapon_ae_pecheneg"			"-2"
 					"weapon_ae_m240"			"-2"
 				}
 				"weapon_upgrade"
@@ -2140,29 +1581,26 @@
 			
 			"buy_order"
 			{
-				"gear"				"sec_light_armor"
+				"weapon"			"weapon_m4a1"
+				"weapon"			"weapon_m45"
 				"weapon"			"weapon_defib"
-				"weapon"			"weapon_sks"
-				"weapon"			"weapon_sw500"
+				"weapon"			"weapon_healthkit"
 			}
 			"allowed_items"
 			{
 				"gear"				"sec_light_armor"
 				"gear"				"sec_heavy_armor"
-				"gear"				"sec_chest_rig"
-				"gear"				"sec_chest_carrier"
+				"gear"				"sec_protection_group"
 				"gear"				"sec_anti_explosion_clothing"
 				"gear"               		"sec_nightvision"
 							// REMOTE CONTROLLED EXPLOSIVES
 				"weapon"			"weapon_c4_clicker"
-				"weapon"			"weapon_c4_ied"
 							// GRENADES
+				"weapon"			"weapon_p2a1"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_f1"
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_molotov"
 							// MELEE
 				"weapon"			"weapon_kabar"
 							// PISTOLS
@@ -2170,76 +1608,48 @@
 				"weapon"			"weapon_m45"
 				"weapon"			"weapon_m1911"
 				"weapon"			"weapon_m9"
-				"weapon"			"weapon_makarov"
 							// ASSAULT RIFLES
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_galil"
-				"weapon"			"weapon_galil_sar"
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_fal"
 							// SEMI-AUTOMATIC RIFLES AND CARBINES
-				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_mini14"
 				"weapon"			"weapon_m14"
 				"weapon"			"weapon_m1a1"
-				"weapon"			"weapon_sks"
-							// SUB-MACHINE GUNS
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_ump45"
 				// ========================================
 				// CUSTOM GEAR-------------CUSTOM
 				// ========================================
-				"gear"               		"sec_super_armor"
+				"gear"               		"sec_heavy_carrier"
 				// ========================================
 				// CUSTOM MELEE-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_machete"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
+				"weapon"			"weapon_tanto"//hide
+				"weapon"			"weapon_shovel"//hide
+				"weapon"			"weapon_hatchet"//new class 0
 				// ========================================
 				// CUSTOM HEALTHKIT-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_defib"
 				"weapon"			"weapon_healthkit"
 				// ========================================
-				// CUSTOM GRENADES-------------CUSTOM
-				// ========================================
-				// ========================================
 				// CUSTOM SEMI-AUTO RIFLES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_dragunov"
 				"weapon"			"weapon_ae_m1garand"
-				"weapon"			"weapon_ae_m107"
-				"weapon"			"weapon_m1a"
 				// ========================================
 				// CUSTOM ASSAULT RIFLES-------------CUSTOM
 				// ========================================
-				"weapon"			"weapon_ae_aug"
-				"weapon"			"weapon_ae_type95"
 				"weapon"			"weapon_ae_coltcommando"
-				"weapon"			"weapon_ae_cm901"
-				"weapon"			"weapon_ae_ak47"
-				"weapon"			"weapon_ae_ak12u"
 				"weapon"			"weapon_ae_acr"
 				"weapon"			"weapon_ae_scar"
-				"weapon"			"weapon_ae_g36c"
-				"weapon"			"weapon_ae_famas"
-				"weapon"			"weapon_ae_f2000"
-				"weapon"			"weapon_stg44"
 				"weapon"			"weapon_hk416"
-				"weapon"			"weapon_an94"
+				"weapon"			"weapon_hk417"//new class 0
+				"weapon"			"weapon_ar15"//new class 0
 				// ========================================
 				// CUSTOM PISTOLS-------------CUSTOM
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
@@ -2247,29 +1657,27 @@
 				"weapon"			"weapon_ae_glock19"
 				"weapon"			"weapon_mateba"
 				"weapon"			"weapon_sw500"
+				"weapon"			"weapon_king_cobra"//new class 0
+				"weapon"			"weapon_p226"//new class 0
 				// ========================================
 				// CUSTOM SUBMACHINE GUNS-------------CUSTOM
 				// ========================================
 				"weapon"        		"weapon_ae_mp7"
-				"weapon"        		"weapon_ae_pm9"
 				"weapon"        		"weapon_ae_p90"
 				"weapon"			"weapon_ae_mp5a4"
 				"weapon"			"weapon_ae_krissvector"
 				"weapon"			"weapon_ae_thompson"
-				"weapon"			"weapon_ae_uzi"
 				"weapon"			"weapon_ae_colt9mm"
-				"weapon"			"weapon_spectre_m4"
 				"weapon_upgrade"	"underbarrel_m203_smoke"
 				"weapon_upgrade"	"underbarrel_gp25_smoke"
-				"weapon_upgrade"		"optic_leupold6x"
-				"weapon_upgrade"		"optic_aimpoint"
-				"weapon_upgrade"		"optic_hybridsight"
-				"weapon_upgrade"		"optic_acogecos"
-				"weapon_upgrade"		"optic_okp"
-				"weapon_upgrade"		"optic_eotech"
-				"weapon_upgrade"		"optic_pso4x"
-				"weapon_upgrade"		"optic_kobra"
-				"weapon_upgrade"		"optic_gitsreddot"
+				"weapon_upgrade"	"optic_2xaimpoint"
+				"weapon_upgrade"	"optic_aimpoint"
+				"weapon_upgrade"	"optic_elcan"
+				"weapon_upgrade"	"optic_eotech"
+				"weapon_upgrade"	"optic_kobra"
+				"weapon_upgrade"	"optic_barska"
+				"weapon_upgrade"	"optic_leupold6x"
+				"weapon_upgrade"	"optic_acogecos"
 			}
 			"cost_modifiers"
 			{
@@ -2277,7 +1685,6 @@
 				{
 					"sec_light_armor"					"-2"
 					"sec_heavy_armor"					"-2"
-					"sec_anti_ammo_clothing"				"-2"
 					"sec_anti_explosion_clothing"				"-2"
 				}
 				"weapon"
