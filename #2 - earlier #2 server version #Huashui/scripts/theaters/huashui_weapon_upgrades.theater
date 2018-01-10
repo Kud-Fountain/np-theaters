@@ -109,7 +109,7 @@
 					
 					"weapons"
 					{
-						"weapon"			"weapon_g43_sniper"
+						"weapon"			"weapon_g43"
 					}
 				}
 				
@@ -132,7 +132,7 @@
 					
 					"weapons"
 					{
-						"weapon"			"weapon_g43_sniper"
+						"weapon"			"weapon_g43"
 					}
 				}
 				
@@ -176,9 +176,7 @@
 			{
 				"weapon"			"weapon_springfield"
 				"weapon"			"weapon_k98"
-				"weapon"			"weapon_k98_sniper"
 				"weapon"			"weapon_g43"
-				"weapon"			"weapon_g43_sniper"
 				"weapon"			"weapon_m1garand"
 				"weapon"			"weapon_thompson"
 				"weapon"			"weapon_stg44"
@@ -330,8 +328,8 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_springfield"
-				"weapon"				"weapon_k98_sniper"
-				"weapon"				"weapon_g43_sniper"
+				"weapon"				"weapon_k98"
+				"weapon"				"weapon_g43"
 			}
 			"viewmodel_attachments"
 			{
@@ -345,7 +343,7 @@
 					
 					"weapons"
 					{
-						"weapon"			"weapon_k98_sniper"
+						"weapon"			"weapon_k98"
 					}
 				}
 				
@@ -373,7 +371,7 @@
 					
 					"weapons"
 					{
-						"weapon"				"weapon_g43_sniper"
+						"weapon"				"weapon_g43"
 					}
 				}
 			}
@@ -387,7 +385,7 @@
 					"weapons"
 					{
 						"weapon"				"weapon_springfield"
-						"weapon"				"weapon_g43_sniper"
+						"weapon"				"weapon_g43"
 					}
 				}
 				
@@ -397,7 +395,7 @@
 					
 					"weapons"
 					{
-						"weapon"				"weapon_k98_sniper"
+						"weapon"				"weapon_k98"
 					}
 				}
 			}
@@ -414,14 +412,14 @@
 					"fov_wpn_focus"				"50"
 				}
 				
-				"weapon_k98_sniper"
+				"weapon_k98"
 				{
 					"fov_wpn_scope"				"10"
 					"fov_wpn_ironsight"			"54"
 					"fov_wpn_focus"				"56"
 				}
 				
-				"weapon_g43_sniper"
+				"weapon_g43"
 				{
 					"fov_wpn_scope"				"10"
 					"fov_wpn_ironsight"			"40"
@@ -467,9 +465,7 @@
 			{
 				"weapon"			"weapon_springfield"
 				"weapon"			"weapon_k98"
-				"weapon"			"weapon_k98_sniper"
 				"weapon"			"weapon_g43"
-				"weapon"			"weapon_g43_sniper"
 				"weapon"			"weapon_m1garand"
 				"weapon"			"weapon_stg44"
 				"weapon"			"weapon_bar"
@@ -501,7 +497,6 @@
 			{
 				"weapon"			"weapon_springfield"
 				"weapon"			"weapon_k98"
-				"weapon"			"weapon_k98_sniper"
 				//"weapon"			"weapon_mosin"
 				//"weapon"			"weapon_m40a1"
 

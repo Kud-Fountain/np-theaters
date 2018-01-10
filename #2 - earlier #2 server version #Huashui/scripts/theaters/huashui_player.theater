@@ -4,20 +4,20 @@
 	{
 		"scoring"
 		{
-			"kill"						"5"
-			"kill_offensive"			"10"
-			"kill_defensive"			"10"
-			"kill_headshot_bonus"		"5"
+			"kill"						"1"
+			"kill_offensive"			"0"
+			"kill_defensive"			"0"
+			"kill_headshot_bonus"		"0"
 			"kill_savior"				"0"
 			"kill_bonus_domination"		"0"
 			"kill_bonus_revenge"		"0"
-			"assist"					"5"
+			"assist"					"0"
 			
 			"obj_captured"				"0"	// points given when capture zone changes ownership
 			"obj_neutralized"			"0"	// not actually used by any built-in modes
-			"obj_reset"					"0"	// points given when defenders reset the progress to 0% (if progress got to at least 50%)
+			"obj_reset"					"11"	// points given when defenders reset the progress to 0% (if progress got to at least 50%)
 			"obj_capture_tick"			"0"	// attacking points given every 10%
-			"obj_reset_tick"			"0"	// defending points given every 10%
+			"obj_reset_tick"			"13"	// defending points given every 10%
 			"cache_destroyed"			"0"
 			"intel_captured"			"0"
 			"vip_killed"				"0"
