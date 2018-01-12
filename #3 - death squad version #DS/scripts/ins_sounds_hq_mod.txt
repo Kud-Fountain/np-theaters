@@ -2956,75 +2956,11 @@
 	 
 	"rndwave"	
 	{
-		"wave"			"*hq\security\last6.ogg"
-		"wave"			"*hq\security\last7.ogg"
-		"wave"			"*hq\security\last8.ogg"
-		"wave"			"*hq\security\last9.ogg"
-		"wave"			"*hq\security\last10.ogg"
-	}
-	"soundentry_version" "2"
-	"operator_stacks"
-	{
-		"soundentry_operator_data"
-		{
-			"track_data"
-			{
-				"priority_override" "true"	
-				"start_point" "0.0"
-				"track_name" "main"
-				"priority" "1"	
-			}
-		}
-		"prestart_stack"
-		{
-			"sync_track_syncpoints"
-			{
-				"operator" "track_queue"
-				"syncpoint_list" "none"
-			}
-		}
-
-		"start_stack"
-		{
-			"stop_music"
-			{
-				"operator" "sys_stop_entries"
-				"input_max_entries" "0.000000"
-				"match_entity" "false"	
-				"match_substring" "true"
-				"match_this_entry" "false"
-				"match_entry" "Music"	
-			}
-			"block_entries"
-			{
-				"operator" "sys_block_entries"
-				"input_active" "1.0"	
-				"input_duration" "20.0"
-				"match_substring" "true"
-				"match_entry" "Music.TenSecCount"
-				"match_channel" "false"
-				"match_entity" "false"
-			}
-
-		}
-		"update_stack"
-		{
-			"import_stack"	"ins_update_music_stereo"
-			"volume_fade_out"
-			{
-				"input_max" "1.0"
-			}
-			"block_entries"
-			{
-				"input_active" "1.0"	
-				"match_entry" "Music.DeathCam"
-			}
-
-			"update_track"
-			{
-				"operator" "track_update"
-			}
-		}
+		"wave"			"*hq\security\last1.ogg"
+		"wave"			"*hq\security\last2.ogg"
+		"wave"			"*hq\security\last3.ogg"
+		"wave"			"*hq\security\last4.ogg"
+		"wave"			"*hq\security\last5.ogg"
 	}
 }
 
@@ -3041,75 +2977,11 @@
 	 
 	"rndwave"	
 	{
-		"wave"			"*hq\insurgent\last6.ogg"
-		"wave"			"*hq\insurgent\last7.ogg"
-		"wave"			"*hq\insurgent\last8.ogg"
-		"wave"			"*hq\insurgent\last9.ogg"
-		"wave"			"*hq\insurgent\last10.ogg"
-	}
-	"soundentry_version" "2"
-	"operator_stacks"
-	{
-		"soundentry_operator_data"
-		{
-			"track_data"
-			{
-				"priority_override" "true"	
-				"start_point" "0.0"
-				"track_name" "main"
-				"priority" "1"	
-			}
-		}
-		"prestart_stack"
-		{
-			"sync_track_syncpoints"
-			{
-				"operator" "track_queue"
-				"syncpoint_list" "none"
-			}
-		}
-
-		"start_stack"
-		{
-			"stop_music"
-			{
-				"operator" "sys_stop_entries"
-				"input_max_entries" "0.000000"
-				"match_entity" "false"	
-				"match_substring" "true"
-				"match_this_entry" "false"
-				"match_entry" "Music"	
-			}
-			"block_entries"
-			{
-				"operator" "sys_block_entries"
-				"input_active" "1.0"	
-				"input_duration" "20.0"
-				"match_substring" "true"
-				"match_entry" "Music.TenSecCount"
-				"match_channel" "false"
-				"match_entity" "false"
-			}
-
-		}
-		"update_stack"
-		{
-			"import_stack"	"ins_update_music_stereo"
-			"volume_fade_out"
-			{
-				"input_max" "1.0"
-			}
-			"block_entries"
-			{
-				"input_active" "1.0"	
-				"match_entry" "Music.DeathCam"
-			}
-
-			"update_track"
-			{
-				"operator" "track_update"
-			}
-		}
+		"wave"			"*hq\insurgent\last1.ogg"
+		"wave"			"*hq\insurgent\last2.ogg"
+		"wave"			"*hq\insurgent\last3.ogg"
+		"wave"			"*hq\insurgent\last4.ogg"
+		"wave"			"*hq\insurgent\last5.ogg"
 	}
 }
 

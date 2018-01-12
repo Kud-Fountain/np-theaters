@@ -191,6 +191,8 @@
 				"weapon"			"weapon_spectre_m4"
 				"weapon_upgrade"	"underbarrel_m203_he"
 				"weapon_upgrade"	"underbarrel_m203_phosphorus"
+				"weapon_upgrade"	"underbarrel_m320_he"
+				"weapon_upgrade"	"underbarrel_m320_phosphorus"
 				"weapon_upgrade"	"underbarrel_gp25_he"
 				"weapon_upgrade"	"optic_leupold6x"
 				"weapon_upgrade"	"optic_aimpoint"
@@ -232,6 +234,9 @@
 				"weapon_upgrade"
 				{
 					"underbarrel_m203_he"				"-4"
+					"underbarrel_m203_phosphorus"			"-4"
+					"underbarrel_m320_he"				"-4"
+					"underbarrel_m320_phosphorus"			"-4"
 					"underbarrel_gp25_he"				"-4"
 				}
 			}
@@ -564,6 +569,8 @@
 				"weapon"			"weapon_spectre_m4"
 				"weapon_upgrade"	"underbarrel_m203_he"
 				"weapon_upgrade"	"underbarrel_m203_phosphorus"
+				"weapon_upgrade"	"underbarrel_m320_he"
+				"weapon_upgrade"	"underbarrel_m320_phosphorus"
 				"weapon_upgrade"	"underbarrel_gp25_he"
 				"weapon_upgrade"		"optic_leupold6x"
 				"weapon_upgrade"		"optic_aimpoint"
@@ -600,6 +607,9 @@
 				"weapon_upgrade"
 				{
 					"underbarrel_m203_he"				"-4"
+					"underbarrel_m203_phosphorus"			"-4"
+					"underbarrel_m320_he"				"-4"
+					"underbarrel_m320_phosphorus"			"-4"
 					"underbarrel_gp25_he"				"-4"
 				}
 			}
@@ -934,6 +944,9 @@
 				"weapon_upgrade"	"underbarrel_m203_he"
 				"weapon_upgrade"	"underbarrel_m203_phosphorus"
 				"weapon_upgrade"	"underbarrel_m203_smoke"
+				"weapon_upgrade"	"underbarrel_m320_he"
+				"weapon_upgrade"	"underbarrel_m320_phosphorus"
+				"weapon_upgrade"	"underbarrel_m320_smoke"
 				"weapon_upgrade"	"underbarrel_gp25_he"
 				"weapon_upgrade"	"underbarrel_gp25_smoke"
 				"weapon_upgrade"		"optic_leupold6x"
@@ -969,6 +982,10 @@
 				{
 					"underbarrel_m203_he"				"-4"
 					"underbarrel_m203_smoke"			"-2"
+					"underbarrel_m203_phosphorus"			"-4"
+					"underbarrel_m320_he"				"-4"
+					"underbarrel_m320_smoke"			"-2"
+					"underbarrel_m320_phosphorus"			"-4"
 					"underbarrel_gp25_he"				"-4"
 					"underbarrel_gp25_smoke"			"-2"
 				}
@@ -1735,6 +1752,9 @@
 				"weapon_upgrade"	"underbarrel_m203_he"
 				"weapon_upgrade"	"underbarrel_m203_phosphorus"
 				"weapon_upgrade"	"underbarrel_m203_smoke"
+				"weapon_upgrade"	"underbarrel_m320_he"
+				"weapon_upgrade"	"underbarrel_m320_phosphorus"
+				"weapon_upgrade"	"underbarrel_m320_smoke"
 				"weapon_upgrade"	"underbarrel_gp25_he"
 				"weapon_upgrade"	"underbarrel_gp25_smoke"
 				"weapon_upgrade"		"optic_leupold6x"
@@ -2260,6 +2280,7 @@
 				"weapon"			"weapon_ae_colt9mm"
 				"weapon"			"weapon_spectre_m4"
 				"weapon_upgrade"	"underbarrel_m203_smoke"
+				"weapon_upgrade"	"underbarrel_m320_smoke"
 				"weapon_upgrade"	"underbarrel_gp25_smoke"
 				"weapon_upgrade"		"optic_leupold6x"
 				"weapon_upgrade"		"optic_aimpoint"

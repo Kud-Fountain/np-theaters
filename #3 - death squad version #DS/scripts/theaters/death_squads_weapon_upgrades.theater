@@ -1050,6 +1050,7 @@
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_hk416"
 				"weapon"			"weapon_m4a1"
+				"weapon"			"weapon_l85a2"
 				"weapon"			"weapon_ar15"
 				"weapon"			"weapon_galil"
 				"weapon"			"weapon_galil_sar"
@@ -1168,6 +1169,7 @@
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_hk416"
 				"weapon"			"weapon_m4a1"
+				"weapon"			"weapon_l85a2"
 				"weapon"			"weapon_ar15"
 				"weapon"			"weapon_galil"
 				"weapon"			"weapon_galil_sar"
@@ -1483,6 +1485,7 @@
 				"weapon"				"weapon_mk18"
 				"weapon"				"weapon_hk416"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_ar15"
 				"weapon"				"weapon_m14"
 				"weapon"				"weapon_ump45"
@@ -1493,7 +1496,6 @@
 				"weapon"				"weapon_ae_m107"
 				"weapon"				"weapon_ae_scar"
 				"weapon"				"weapon_m14"
-				"weapon"				"weapon_m4a1"
 				"weapon"				"weapon_ar15"
 				"weapon"				"weapon_ump45"
 				"weapon"				"weapon_ae_g36c"
@@ -1809,6 +1811,7 @@
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_hk416"
 				"weapon"			"weapon_m4a1"
+				"weapon"			"weapon_l85a2"
 				"weapon"			"weapon_ar15"
 				"weapon"			"weapon_galil"
 				"weapon"			"weapon_galil_sar"
@@ -2276,6 +2279,7 @@
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_ar15"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"				"weapon_ae_colt9mm"
@@ -2356,6 +2360,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"				"weapon_ae_coltcommando"
 						"weapon"				"weapon_ae_colt9mm"
@@ -2383,6 +2388,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"				"weapon_ae_coltcommando"
 						"weapon"				"weapon_ae_colt9mm"
@@ -2453,6 +2459,12 @@
 					"fov_wpn_focus"				"70"
 				}
 				"weapon_m4a1"
+				{
+					
+					"fov_wpn_ironsight"			"63"
+					"fov_wpn_focus"				"70"
+				}
+				"weapon_l85a2"
 				{
 					
 					"fov_wpn_ironsight"			"63"
@@ -2854,6 +2866,7 @@
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_ar15"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"				"weapon_ae_colt9mm"
@@ -2935,6 +2948,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"				"weapon_ae_colt9mm"
@@ -2962,6 +2976,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"				"weapon_ae_colt9mm"
@@ -3029,6 +3044,11 @@
 					"fov_wpn_focus"				"70"
 				}
 				"weapon_m4a1"
+				{
+					"fov_wpn_ironsight"			"63"
+					"fov_wpn_focus"				"70"
+				}
+				"weapon_l85a2"
 				{
 					"fov_wpn_ironsight"			"63"
 					"fov_wpn_focus"				"70"
@@ -3366,6 +3386,7 @@
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_ar15"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"				"weapon_ae_colt9mm"
@@ -3447,6 +3468,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"				"weapon_ae_colt9mm"
@@ -3474,6 +3496,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"				"weapon_ae_colt9mm"
@@ -3541,6 +3564,11 @@
 					"fov_wpn_focus"				"70"
 				}
 				"weapon_m4a1"
+				{
+					"fov_wpn_ironsight"			"63"
+					"fov_wpn_focus"				"70"
+				}
+				"weapon_l85a2"
 				{
 					"fov_wpn_ironsight"			"63"
 					"fov_wpn_focus"				"70"
@@ -3877,6 +3905,7 @@
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_ar15"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"				"weapon_ae_colt9mm"
@@ -3958,6 +3987,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"				"weapon_ae_colt9mm"
@@ -3985,6 +4015,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"				"weapon_ae_colt9mm"
@@ -4052,6 +4083,11 @@
 					"fov_wpn_focus"				"70"
 				}
 				"weapon_m4a1"
+				{
+					"fov_wpn_ironsight"			"63"
+					"fov_wpn_focus"				"70"
+				}
+				"weapon_l85a2"
 				{
 					"fov_wpn_ironsight"			"63"
 					"fov_wpn_focus"				"70"
@@ -4391,6 +4427,7 @@
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_ar15"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"				"weapon_ae_colt9mm"
@@ -4467,6 +4504,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"               			"weapon_ae_colt9mm"
@@ -4494,6 +4532,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"                		"weapon_ae_colt9mm"
@@ -4579,6 +4618,11 @@
 					"fov_wpn_focus"				"63"
 				}
 				"weapon_m4a1"
+				{
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"63"
+				}
+				"weapon_l85a2"
 				{
 					"fov_wpn_ironsight"			"55"
 					"fov_wpn_focus"				"63"
@@ -4878,6 +4922,7 @@
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_ar15"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"				"weapon_ae_colt9mm"
@@ -4954,6 +4999,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"               			"weapon_ae_colt9mm"
@@ -4981,6 +5027,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"                		"weapon_ae_colt9mm"
@@ -5066,6 +5113,11 @@
 					"fov_wpn_focus"				"63"
 				}
 				"weapon_m4a1"
+				{
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"63"
+				}
+				"weapon_l85a2"
 				{
 					"fov_wpn_ironsight"			"55"
 					"fov_wpn_focus"				"63"
@@ -5365,6 +5417,7 @@
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_ar15"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"				"weapon_ae_colt9mm"
@@ -5441,6 +5494,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"               			"weapon_ae_colt9mm"
@@ -5468,6 +5522,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"                		"weapon_ae_colt9mm"
@@ -5553,6 +5608,11 @@
 					"fov_wpn_focus"				"63"
 				}
 				"weapon_m4a1"
+				{
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"63"
+				}
+				"weapon_l85a2"
 				{
 					"fov_wpn_ironsight"			"55"
 					"fov_wpn_focus"				"63"
@@ -5852,6 +5912,7 @@
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_ar15"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"				"weapon_ae_colt9mm"
@@ -5928,6 +5989,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"               			"weapon_ae_colt9mm"
@@ -5955,6 +6017,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"                		"weapon_ae_colt9mm"
@@ -6040,6 +6103,11 @@
 					"fov_wpn_focus"				"63"
 				}
 				"weapon_m4a1"
+				{
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"63"
+				}
+				"weapon_l85a2"
 				{
 					"fov_wpn_ironsight"			"55"
 					"fov_wpn_focus"				"63"
@@ -6337,6 +6405,7 @@
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_ar15"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"				"weapon_ae_colt9mm"
@@ -6412,6 +6481,7 @@
 						"weapon"				"weapon_m16a4"
 						//"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"               			"weapon_ae_coltcommando"
 						"weapon"				"weapon_ae_colt9mm"
@@ -6439,6 +6509,7 @@
 						"weapon"				"weapon_m16a4"
 						//"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"				"weapon_ae_colt9mm"
@@ -6479,6 +6550,11 @@
 					"fov_wpn_focus"				"49"
 				}
 				"weapon_m4a1"
+				{
+					"fov_wpn_ironsight"			"62"
+					"fov_wpn_focus"				"64"
+				}
+				"weapon_l85a2"
 				{
 					"fov_wpn_ironsight"			"62"
 					"fov_wpn_focus"				"64"
@@ -6782,6 +6858,7 @@
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_ar15"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"				"weapon_ae_colt9mm"
@@ -6857,6 +6934,7 @@
 						"weapon"				"weapon_m16a4"
 						//"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"               			"weapon_ae_coltcommando"
 						"weapon"				"weapon_ae_colt9mm"
@@ -6884,6 +6962,7 @@
 						"weapon"				"weapon_m16a4"
 						//"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"				"weapon_ae_colt9mm"
@@ -6924,6 +7003,11 @@
 					"fov_wpn_focus"				"49"
 				}
 				"weapon_m4a1"
+				{
+					"fov_wpn_ironsight"			"62"
+					"fov_wpn_focus"				"64"
+				}
+				"weapon_l85a2"
 				{
 					"fov_wpn_ironsight"			"62"
 					"fov_wpn_focus"				"64"
@@ -7227,6 +7311,7 @@
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_ar15"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"				"weapon_ae_colt9mm"
@@ -7302,6 +7387,7 @@
 						"weapon"				"weapon_m16a4"
 						//"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"               			"weapon_ae_coltcommando"
 						"weapon"				"weapon_ae_colt9mm"
@@ -7329,6 +7415,7 @@
 						"weapon"				"weapon_m16a4"
 						//"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"				"weapon_ae_colt9mm"
@@ -7369,6 +7456,11 @@
 					"fov_wpn_focus"				"49"
 				}
 				"weapon_m4a1"
+				{
+					"fov_wpn_ironsight"			"62"
+					"fov_wpn_focus"				"64"
+				}
+				"weapon_l85a2"
 				{
 					"fov_wpn_ironsight"			"62"
 					"fov_wpn_focus"				"64"
@@ -7672,6 +7764,7 @@
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_ar15"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"                		"weapon_ae_colt9mm"
@@ -7799,6 +7892,7 @@
 						"weapon"		"weapon_hk417"
 						"weapon"		"weapon_m1a1"
 						"weapon"		"weapon_m4a1"
+						"weapon"		"weapon_l85a2"
 						"weapon"		"weapon_ar15"
 						"weapon"		"weapon_mini14"
 						"weapon"		"weapon_asval"
@@ -7845,6 +7939,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"				"weapon_ae_colt9mm"
@@ -8239,6 +8334,7 @@
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_ar15"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"                		"weapon_ae_colt9mm"
@@ -8322,6 +8418,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"				"weapon_ae_colt9mm"
@@ -8355,6 +8452,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"				"weapon_ae_colt9mm"
@@ -8501,6 +8599,11 @@
 					"fov_wpn_focus"				"70"
 				}
 				"weapon_m4a1"
+				{
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"70"
+				}
+				"weapon_l85a2"
 				{
 					"fov_wpn_ironsight"			"60"
 					"fov_wpn_focus"				"70"
@@ -8725,6 +8828,7 @@
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_ar15"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"                		"weapon_ae_colt9mm"
@@ -8808,6 +8912,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"				"weapon_ae_colt9mm"
@@ -8841,6 +8946,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"				"weapon_ae_colt9mm"
@@ -8987,6 +9093,11 @@
 					"fov_wpn_focus"				"70"
 				}
 				"weapon_m4a1"
+				{
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"70"
+				}
+				"weapon_l85a2"
 				{
 					"fov_wpn_ironsight"			"60"
 					"fov_wpn_focus"				"70"
@@ -9275,6 +9386,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 					}
@@ -9313,6 +9425,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"				"weapon_m249"
@@ -9693,6 +9806,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 					}
@@ -9731,6 +9845,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"				"weapon_m249"
@@ -10111,6 +10226,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 					}
@@ -10149,6 +10265,7 @@
 						"weapon"				"weapon_m16a4"
 						"weapon"				"weapon_hk417"
 						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_l85a2"
 						"weapon"				"weapon_ar15"
 						"weapon"                		"weapon_ae_coltcommando"
 						"weapon"				"weapon_m249"
@@ -12170,6 +12287,7 @@
 				"weapon"				"weapon_hk416"
 				"weapon"				"weapon_ae_f2000"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"				"weapon_ae_g36c"
 				"weapon"				"weapon_ae_acr"
@@ -12189,6 +12307,7 @@
 				"weapon"				"weapon_hk416"
 				"weapon"				"weapon_ae_f2000"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"				"weapon_ae_g36c"
 				"weapon"				"weapon_ae_acr"
@@ -12208,6 +12327,7 @@
 				"weapon"				"weapon_hk416"
 				"weapon"				"weapon_ae_f2000"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"				"weapon_ae_g36c"
 				"weapon"				"weapon_ae_acr"
@@ -12227,6 +12347,7 @@
 				"weapon"				"weapon_hk416"
 				"weapon"				"weapon_ae_f2000"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"				"weapon_ae_g36c"
 				"weapon"				"weapon_ae_acr"
@@ -12246,6 +12367,7 @@
 				"weapon"				"weapon_hk416"
 				"weapon"				"weapon_ae_f2000"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"				"weapon_ae_g36c"
 				"weapon"				"weapon_ae_acr"
@@ -13455,6 +13577,7 @@
 				"weapon"				"weapon_mk18"
 				"weapon"				"weapon_ae_cm901"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_ar15"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"				"weapon_ae_colt9mm"
@@ -13481,6 +13604,36 @@
 						"weapon_ae_colt9mm"			"0.5"
 						"weapon_ae_g36c"			"0.5"
 						"weapon_ae_acr"				"0.5"
+					}
+					
+					"weapons"
+					{
+						"weapon"				"weapon_m16a4"
+						"weapon"				"weapon_hk417"
+						"weapon"				"weapon_mk18"
+						"weapon"				"weapon_ae_cm901"
+						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_ar15"
+						"weapon"                		"weapon_ae_coltcommando"
+						"weapon"				"weapon_ae_colt9mm"
+						"weapon"	            		"weapon_ae_g36c"
+						"weapon"				"weapon_ae_acr"
+					}
+				}
+				"Foregrip_l85a2"
+				{
+					"model"					"models/weapons/upgrades/a_foregrip_l85a2.mdl"
+					"Gesture"				"delta_foregrip"
+					"ActSuffix"				"_FOREGRIP"
+					
+					"scales"
+					{
+						"weapon_l85a2"				"0.5"
+					}
+					
+					"weapons"
+					{
+						"weapon"				"weapon_l85a2"
 					}
 				}
 				"Standard_M16A4"
@@ -13549,6 +13702,29 @@
 				"Foregrip"
 				{
 					"model"					"models/weapons/upgrades/w_foregrip_sec1.mdl"
+
+					"weapons"
+					{
+						"weapon"				"weapon_m16a4"
+						"weapon"				"weapon_hk417"
+						"weapon"				"weapon_mk18"
+						"weapon"				"weapon_ae_cm901"
+						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_ar15"
+						"weapon"                		"weapon_ae_coltcommando"
+						"weapon"				"weapon_ae_colt9mm"
+						"weapon"	            		"weapon_ae_g36c"
+						"weapon"				"weapon_ae_acr"
+					}
+				}
+				"Foregrip_l85a2"
+				{
+					"model"					"models/weapons/upgrades/w_foregrip_l85a2.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_l85a2"
+					}
 				}
 			}
 		}
@@ -13634,6 +13810,7 @@
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_ar15"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"				"weapon_ae_colt9mm"
@@ -14101,6 +14278,7 @@
 				"weapon"				"weapon_m16a4"
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_ar15"
 				"weapon"                		"weapon_ae_coltcommando"
 				"weapon"				"weapon_ae_colt9mm"
@@ -14626,6 +14804,27 @@
 					"Gesture"				"delta_gl"
 					"ActSuffix"				"_GL"
 					"Main"					"1"
+
+					"weapons"
+					{
+						"weapon"				"weapon_m16a4"
+						"weapon"				"weapon_hk417"
+						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_ar15"
+						"weapon"                		"weapon_ae_coltcommando"
+					}
+				}
+				"Launcher_m320"
+				{
+					"model"					"models/weapons/upgrades/a_gl_m320.mdl"
+					"Gesture"				"delta_gl"
+					"ActSuffix"				"_GL"
+					"Main"					"1"
+
+					"weapons"
+					{
+						"weapon"				"weapon_l85a2"
+					}
 				}
 				
 				"Standard_M4A1"
@@ -14667,7 +14866,6 @@
 				"weapon"                		"weapon_ae_coltcommando"
 			}
 		}
-		
 		"underbarrel_m203_he"
 		{
 			"import"				"underbarrel_m203_base"
@@ -14709,6 +14907,95 @@
 			"import"				"underbarrel_m203_base"
 			"upgrade_cost"				"2"
 			"print_name"				"#weapon_m203_smoke"
+			"print_desc"				"#weapon_m203_smoke_desc"
+			"attach_weapon"				"weapon_m203_smoke"
+			"class_restricted"			"1"
+			
+			"viewmodel_attachments"
+			{
+				"Launcher"
+				{
+					"Skin"					"1"
+				}
+			}
+		}
+		"underbarrel_m320_base"
+		{
+			"IsBase"				"1"
+			"import"				"underbarrel_gl_base"
+			
+			"viewmodel_attachments"
+			{
+				"Launcher_m320"
+				{
+					"model"					"models/weapons/upgrades/a_gl_m320.mdl"
+					"Gesture"				"delta_gl"
+					"ActSuffix"				"_GL"
+					"Main"					"1"
+
+					"weapons"
+					{
+						"weapon"				"weapon_l85a2"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"gesture"					"ACT_GESTURE_GL"
+				
+				"Launcher"
+				{
+					"model"					"models/weapons/upgrades/w_m203.mdl"
+				}
+			}
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_l85a2"
+			}
+		}
+		"underbarrel_m320_he"
+		{
+			"import"				"underbarrel_m320_base"
+			"upgrade_cost"				"4"
+			"print_name"				"#weapon_m320_he"
+			"print_desc"				"#weapon_m203_he_desc"
+			"attach_weapon"				"weapon_m203_he"
+			"class_restricted"			"1"
+			
+			"viewmodel_attachments"
+			{
+				"Launcher"
+				{
+					"skin"					"0"
+				}
+			}
+		}
+
+		"underbarrel_m320_phosphorus"
+		{
+			"import"				"underbarrel_m320_base"
+			"upgrade_cost"				"4"
+			"print_name"				"#weapon_m320_phosphorus"
+			"print_desc"				"#weapon_m203_phosphorus_desc"
+			"attach_weapon"				"weapon_m203_phosphorus"
+			"class_restricted"			"1"
+			
+			"viewmodel_attachments"
+			{
+				"Launcher"
+				{
+					"skin"					"0"
+				}
+			}
+		}
+		
+		"underbarrel_m320_smoke"
+		{
+			"import"				"underbarrel_m320_base"
+			"upgrade_cost"				"2"
+			"print_name"				"#weapon_m320_smoke"
 			"print_desc"				"#weapon_m203_smoke_desc"
 			"attach_weapon"				"weapon_m203_smoke"
 			"class_restricted"			"1"
