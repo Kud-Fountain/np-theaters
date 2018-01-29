@@ -132,16 +132,16 @@
 				// "weapon"				"weapon_ae_m1912"
 			// }
 		// }
-		//"ammo_ae_ksg_frag"
-		//{
-			//"import"				"ammo_12g_frag_base"
-			//"attach_weapon"				"weapon_ae_ksg_frag"
+		"ammo_ae_ksg_frag"
+		{
+			"import"				"ammo_12g_frag_base"
+			"attach_weapon"				"weapon_ae_ksg_frag"
 			
-			//"allowed_weapons"
-			//{
+			"allowed_weapons"
+			{
 				"weapon"				"weapon_ae_ksg"
-			//}
-		//}
+			}
+		}
 		// "ammo_ae_spas12_frag"
 		// {
 			// "import"				"ammo_12g_frag_base"
@@ -1024,6 +1024,7 @@
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
+				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
@@ -1076,7 +1077,6 @@
 				"weapon"			"weapon_mp40"
 				"weapon"			"weapon_mp5"
 				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_groza"
 				"weapon"			"weapon_ump45"
 							//SHOTGUNS
 				"weapon"			"weapon_m590"
@@ -1196,7 +1196,6 @@
 				"weapon"			"weapon_mp40"
 				"weapon"			"weapon_mp5"
 				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_groza"
 				"weapon"			"weapon_ump45"
 							//SNIPERRIFLES
 				"weapon"			"weapon_m40a1"
@@ -1250,6 +1249,7 @@
 				//========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
+				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
@@ -1617,7 +1617,6 @@
 				"weapon"				"weapon_an94"
 				"weapon"				"weapon_akm"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"				"weapon_fal"
 				"weapon"				"weapon_rfb"
@@ -1741,6 +1740,7 @@
 				"weapon"				"weapon_makarov"
 				"weapon"				"weapon_ae_fn57"
 				"weapon"				"weapon_ae_waltherp99"
+				"weapon"				"weapon_ae_ppk"
 				"weapon"				"weapon_ae_usp"
 				"weapon"				"weapon_ae_deagle"
 				"weapon"				"weapon_ae_glock18"
@@ -1989,17 +1989,6 @@
 						"weapon"				"weapon_aks74u"
 					}
 				}
-				
-				//GrozaModkit
-				"ModKitGroza"
-				{
-					"model"					"models/weapons/upgrades/a_modkit_groza.mdl"
-					
-					"weapons"
-					{
-						"weapon"				"weapon_groza"
-					}
-				}
 
 				//STG44Modkit
 				"ModKitSTG44"
@@ -2160,17 +2149,6 @@
 					{
 						"weapon"				"weapon_aks74u"
 						"weapon"				"weapon_ae_aug"
-					}
-				}
-
-				//Grozamodkit
-				"ModkitGroza"
-				{
-					"model"					"models/weapons/upgrades/w_modkit_groza.mdl"
-					
-					"weapons"
-					{
-						"weapon"				"weapon_groza"
 					}
 				}
 
@@ -2350,7 +2328,6 @@
 				"weapon"				"weapon_ak74"
 				"weapon"				"weapon_an94"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"                		"weapon_ae_aug"
 				"weapon"				"weapon_fal"
@@ -2745,12 +2722,6 @@
 					"fov_wpn_ironsight"			"62"
 					"fov_wpn_focus"				"67"
 				}
-				"weapon_groza"
-				{
-					
-					"fov_wpn_ironsight"			"62"
-					"fov_wpn_focus"				"67"
-				}
 				"weapon_stg44"
 				{
 					
@@ -2945,7 +2916,6 @@
 				"weapon"				"weapon_ak74"
 				"weapon"				"weapon_an94"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"                		"weapon_ae_aug"
 				"weapon"				"weapon_fal"
@@ -3293,11 +3263,6 @@
 					"fov_wpn_ironsight"			"62"
 					"fov_wpn_focus"				"67"
 				}
-				"weapon_groza"
-				{
-					"fov_wpn_ironsight"			"62"
-					"fov_wpn_focus"				"67"
-				}
 				"weapon_stg44"
 				{
 					"fov_wpn_ironsight"			"62"
@@ -3471,7 +3436,6 @@
 				"weapon"				"weapon_ak74"
 				"weapon"				"weapon_an94"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"                		"weapon_ae_aug"
 				"weapon"				"weapon_fal"
@@ -3819,11 +3783,6 @@
 					"fov_wpn_ironsight"			"62"
 					"fov_wpn_focus"				"67"
 				}
-				"weapon_groza"
-				{
-					"fov_wpn_ironsight"			"62"
-					"fov_wpn_focus"				"67"
-				}
 				"weapon_stg44"
 				{
 					"fov_wpn_ironsight"			"62"
@@ -3996,7 +3955,6 @@
 				"weapon"				"weapon_ak74"
 				"weapon"				"weapon_an94"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"                		"weapon_ae_aug"
 				"weapon"				"weapon_fal"
@@ -4344,11 +4302,6 @@
 					"fov_wpn_ironsight"			"62"
 					"fov_wpn_focus"				"67"
 				}
-				"weapon_groza"
-				{
-					"fov_wpn_ironsight"			"62"
-					"fov_wpn_focus"				"67"
-				}
 				"weapon_stg44"
 				{
 					"fov_wpn_ironsight"			"62"
@@ -4521,7 +4474,6 @@
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_akm"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"				"weapon_ae_aug"
 				"weapon"				"weapon_fal"
@@ -4860,11 +4812,6 @@
 					"fov_wpn_ironsight"			"54"
 					"fov_wpn_focus"				"58"
 				}
-				"weapon_groza"
-				{
-					"fov_wpn_ironsight"			"54"
-					"fov_wpn_focus"				"58"
-				}
 				"weapon_stg44"
 				{
 					"fov_wpn_ironsight"			"54"
@@ -5022,7 +4969,6 @@
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_akm"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"				"weapon_ae_aug"
 				"weapon"				"weapon_fal"
@@ -5361,11 +5307,6 @@
 					"fov_wpn_ironsight"			"54"
 					"fov_wpn_focus"				"58"
 				}
-				"weapon_groza"
-				{
-					"fov_wpn_ironsight"			"54"
-					"fov_wpn_focus"				"58"
-				}
 				"weapon_stg44"
 				{
 					"fov_wpn_ironsight"			"54"
@@ -5523,7 +5464,6 @@
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_akm"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"				"weapon_ae_aug"
 				"weapon"				"weapon_fal"
@@ -5862,11 +5802,6 @@
 					"fov_wpn_ironsight"			"54"
 					"fov_wpn_focus"				"58"
 				}
-				"weapon_groza"
-				{
-					"fov_wpn_ironsight"			"54"
-					"fov_wpn_focus"				"58"
-				}
 				"weapon_stg44"
 				{
 					"fov_wpn_ironsight"			"54"
@@ -6024,7 +5959,6 @@
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_akm"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"				"weapon_ae_aug"
 				"weapon"				"weapon_fal"
@@ -6363,11 +6297,6 @@
 					"fov_wpn_ironsight"			"54"
 					"fov_wpn_focus"				"58"
 				}
-				"weapon_groza"
-				{
-					"fov_wpn_ironsight"			"54"
-					"fov_wpn_focus"				"58"
-				}
 				"weapon_stg44"
 				{
 					"fov_wpn_ironsight"			"54"
@@ -6521,7 +6450,6 @@
 				"weapon"				"weapon_an94"
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"				"weapon_ae_aug"
 				"weapon"				"weapon_fal"
@@ -6812,11 +6740,6 @@
 					"fov_wpn_ironsight"			"50"
 					"fov_wpn_focus"				"59"
 				}
-				"weapon_groza"
-				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"59"
-				}
 				"weapon_stg44"
 				{
 					"fov_wpn_ironsight"			"50"
@@ -6980,7 +6903,6 @@
 				"weapon"				"weapon_an94"
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"				"weapon_ae_aug"
 				"weapon"				"weapon_fal"
@@ -7271,11 +7193,6 @@
 					"fov_wpn_ironsight"			"50"
 					"fov_wpn_focus"				"59"
 				}
-				"weapon_groza"
-				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"59"
-				}
 				"weapon_stg44"
 				{
 					"fov_wpn_ironsight"			"50"
@@ -7439,7 +7356,6 @@
 				"weapon"				"weapon_an94"
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"				"weapon_ae_aug"
 				"weapon"				"weapon_fal"
@@ -7730,11 +7646,6 @@
 					"fov_wpn_ironsight"			"50"
 					"fov_wpn_focus"				"59"
 				}
-				"weapon_groza"
-				{
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"59"
-				}
 				"weapon_stg44"
 				{
 					"fov_wpn_ironsight"			"50"
@@ -7902,7 +7813,6 @@
 				"weapon"				"weapon_an94"
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"				"weapon_ae_aug"
 				"weapon"				"weapon_fal"
@@ -8253,11 +8163,6 @@
 					"fov_wpn_ironsight"			"72"
 					"fov_wpn_focus"				"76"
 				}
-				"weapon_groza"
-				{
-					"fov_wpn_ironsight"			"72"
-					"fov_wpn_focus"				"76"
-				}
 				"weapon_stg44"
 				{
 					"fov_wpn_ironsight"			"72"
@@ -8397,7 +8302,6 @@
 				"weapon"				"weapon_ak74"
 				"weapon"				"weapon_an94"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"				"weapon_ae_aug"
 				"weapon"				"weapon_fal"
@@ -8615,11 +8519,6 @@
 					"fov_wpn_focus"				"61"
 				}
 				"weapon_aks74u"
-				{
-					"fov_wpn_ironsight"			"66"
-					"fov_wpn_focus"				"71"
-				}
-				"weapon_groza"
 				{
 					"fov_wpn_ironsight"			"66"
 					"fov_wpn_focus"				"71"
@@ -8897,7 +8796,6 @@
 				"weapon"				"weapon_ak74"
 				"weapon"				"weapon_an94"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"				"weapon_ae_aug"
 				"weapon"				"weapon_fal"
@@ -9115,11 +9013,6 @@
 					"fov_wpn_focus"				"61"
 				}
 				"weapon_aks74u"
-				{
-					"fov_wpn_ironsight"			"66"
-					"fov_wpn_focus"				"71"
-				}
-				"weapon_groza"
 				{
 					"fov_wpn_ironsight"			"66"
 					"fov_wpn_focus"				"71"
@@ -9398,7 +9291,6 @@
 				"weapon"				"weapon_an94"
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"				"weapon_ae_aug"
 				"weapon"				"weapon_fal"
@@ -9606,11 +9498,6 @@
 					"fov_wpn_focus"				"61"
 				}
 				"weapon_aks74u"
-				{
-					"fov_wpn_ironsight"			"67"
-					"fov_wpn_focus"				"69"
-				}
-				"weapon_groza"
 				{
 					"fov_wpn_ironsight"			"67"
 					"fov_wpn_focus"				"69"
@@ -9824,7 +9711,6 @@
 				"weapon"				"weapon_an94"
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"				"weapon_ae_aug"
 				"weapon"				"weapon_fal"
@@ -10032,11 +9918,6 @@
 					"fov_wpn_focus"				"61"
 				}
 				"weapon_aks74u"
-				{
-					"fov_wpn_ironsight"			"67"
-					"fov_wpn_focus"				"69"
-				}
-				"weapon_groza"
 				{
 					"fov_wpn_ironsight"			"67"
 					"fov_wpn_focus"				"69"
@@ -10250,7 +10131,6 @@
 				"weapon"				"weapon_an94"
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"				"weapon_ae_aug"
 				"weapon"				"weapon_fal"
@@ -10458,11 +10338,6 @@
 					"fov_wpn_focus"				"61"
 				}
 				"weapon_aks74u"
-				{
-					"fov_wpn_ironsight"			"67"
-					"fov_wpn_focus"				"69"
-				}
-				"weapon_groza"
 				{
 					"fov_wpn_ironsight"			"67"
 					"fov_wpn_focus"				"69"
@@ -10778,11 +10653,6 @@
 					"fov_wpn_focus"				"61"
 				}
 				"weapon_aks74u"
-				{
-					"fov_wpn_ironsight"			"67"
-					"fov_wpn_focus"				"69"
-				}
-				"weapon_groza"
 				{
 					"fov_wpn_ironsight"			"67"
 					"fov_wpn_focus"				"69"
@@ -11881,49 +11751,49 @@
 			}
 			"ammo_type_override"			"357sig_fmj"
 		}
-		// // ========================================
-		// // PPK SPECIFIC UPGRADES
-		// // ========================================
-		// "ammo_jsp_ppk"
-		// {
-			// "import"				"base_ammo_jsp"
-			// "upgrade_cost"				"1"
-			// "allowed_weapons"
-			// {
-				// "weapon"				"weapon_ae_ppk"
-			// }
-			// "ammo_type_override"			"765x17mm_jsp"
-		// }
-		// "ammo_jhp_ppk"
-		// {
-			// "import"				"base_ammo_jhp"
-			// "upgrade_cost"				"2"
-			// "allowed_weapons"
-			// {
-				// "weapon"				"weapon_ae_ppk"
-			// }
-			// "ammo_type_override"			"765x17mm_jhp"
-		// }
-		// "ammo_ap_ppk"
-		// {
-			// "import"				"base_ammo_ap"
-			// "upgrade_cost"				"3"
-			// "allowed_weapons"
-			// {
-				// "weapon"				"weapon_ae_ppk"
-			// }
-			// "ammo_type_override"			"765x17mm_ap"
-		// }
-		// "ammo_fmj_ppk"
-		// {
-			// "import"				"base_ammo_fmj"
-			// "upgrade_cost"				"3"
-			// "allowed_weapons"
-			// {
-				// "weapon"				"weapon_ae_ppk"
-			// }
-			// "ammo_type_override"			"765x17mm_fmj"
-		// }
+		// ========================================
+		// PPK SPECIFIC UPGRADES
+		// ========================================
+		"ammo_jsp_ppk"
+		{
+			"import"				"base_ammo_jsp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_ae_ppk"
+			}
+			"ammo_type_override"			"765x17mm_jsp"
+		}
+		"ammo_jhp_ppk"
+		{
+			"import"				"base_ammo_jhp"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_ae_ppk"
+			}
+			"ammo_type_override"			"765x17mm_jhp"
+		}
+		"ammo_ap_ppk"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"3"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_ae_ppk"
+			}
+			"ammo_type_override"			"765x17mm_ap"
+		}
+		"ammo_fmj_ppk"
+		{
+			"import"				"base_ammo_fmj"
+			"upgrade_cost"				"3"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_ae_ppk"
+			}
+			"ammo_type_override"			"765x17mm_fmj"
+		}
 		//========================================
 		//M45SPECIFICUPGRADES
 		//========================================
@@ -12092,7 +11962,6 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_akm"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_stg44"
 			}
@@ -12105,7 +11974,6 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_akm"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_stg44"
 			}
@@ -12118,7 +11986,6 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_akm"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_stg44"
 			}
@@ -12131,7 +11998,6 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_akm"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_stg44"
 			}
@@ -12144,7 +12010,6 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_akm"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_stg44"
 			}
@@ -13522,7 +13387,6 @@
 			{
 				"weapon"				"weapon_akm"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_ak74"
 				"weapon"				"weapon_an94"
 				"weapon"				"weapon_stg44"
@@ -13564,18 +13428,6 @@
 					"weapons"
 					{
 						"weapon"				"weapon_aks74u"
-					}
-				}
-
-				"Foregrip_Groza"
-				{
-					"model"					"models/weapons/upgrades/a_woodgrips_groza.mdl"
-					"Gesture"				"delta_foregrip"
-					"ActSuffix"				"_FOREGRIP"
-					
-					"weapons"
-					{
-						"weapon"				"weapon_groza"
 					}
 				}
 
@@ -13678,16 +13530,6 @@
 					{
 						"weapon"				"weapon_aks74u"
 						"weapon"				"weapon_ae_aug"
-					}
-				}
-				
-				"Foregrip_Groza"
-				{
-					"model"					"models/weapons/upgrades/w_foregrip_groza.mdl"
-					
-					"weapons"
-					{
-						"weapon"				"weapon_groza"
 					}
 				}
 				
@@ -14008,7 +13850,6 @@
 				"weapon"				"weapon_an94"
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"				"weapon_ae_aug"
 			}
@@ -14053,7 +13894,6 @@
 						"weapon_akm"				"0.9"
 						"weapon_m1a1"				"0.75"
 						"weapon_aks74u"				"0.7"
-						"weapon_groza"				"0.7"
 						"weapon_stg44"				"0.7"
 						"weapon_ae_aug"				"0.7"
 						"weapon_ae_famas"			"0.75"
@@ -14129,7 +13969,6 @@
 				"weapon"				"weapon_an94"
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"				"weapon_ae_aug"
 				"weapon"				"weapon_galil"
@@ -14196,16 +14035,6 @@
 						"weapon"				"weapon_stg44"
 						"weapon"				"weapon_ae_aug"
 						"weapon"				"weapon_ae_ak12u"
-					}
-				}
-				
-				"Suppressor_Groza"
-				{
-					"model"					"models/weapons/upgrades/a_suppressor_groza.mdl"
-					
-					"weapons"
-					{
-						"weapon"				"weapon_groza"
 					}
 				}
 			}
@@ -14310,6 +14139,7 @@
 				"weapon"				"weapon_m45"
 				"weapon"				"weapon_ae_fn57"
 				"weapon"				"weapon_makarov"
+				"weapon"				"weapon_ae_ppk"
 				"weapon"				"weapon_m1911"
 				"weapon"				"weapon_ae_glock18"
 				"weapon"				"weapon_ae_glock19"
@@ -14580,7 +14410,6 @@
 				"weapon"				"weapon_ae_ak47"
 				"weapon"                		"weapon_ae_saiga12"
 				"weapon"				"weapon_aks74u"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_stg44"
 				"weapon"				"weapon_ae_aug"
 				"weapon"				"weapon_sks"
@@ -14700,6 +14529,7 @@
 				"weapon"				"weapon_p226"
 				"weapon"                		"weapon_ae_waltherp99"
 				"weapon"				"weapon_makarov"
+				"weapon"				"weapon_ae_ppk"
 				"weapon"				"weapon_m1911"
 				"weapon"				"weapon_m45"
 				"weapon"				"weapon_ae_fn57"
@@ -15204,16 +15034,7 @@
 						"weapon"				"weapon_akm"
 					}
 				}
-				"Standard_Groza"
-				{
-					"model"					"models/weapons/upgrades/a_standard_groza.mdl"
-					
-					"weapons"
-					{
-						"weapon"				"weapon_groza"
-					}
-				}
-				//abitofahacktorestorethestandardfixtureontheAK74
+				//abitofahacktorestorethestandardfixtureontheAK74;)
 				"Standard_AK74"
 				{
 					"model"					"models/weapons/upgrades/a_standard_ak74.mdl"
@@ -15242,16 +15063,6 @@
 						"weapon"				"weapon_akm"
 					}
 				}
-
-				"Standard_Groza"
-				{
-					"model"					"models/weapons/upgrades/w_standard_groza.mdl"
-					
-					"weapons"
-					{
-						"weapon"				"weapon_groza"
-					}
-				}
 				
 				"Standard_AK74"
 				{
@@ -15268,7 +15079,6 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_akm"
-				"weapon"				"weapon_groza"
 				"weapon"				"weapon_ak74"
 				"weapon"				"weapon_an94"
 			}

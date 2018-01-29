@@ -4745,40 +4745,5 @@
 				"BounceSound"				"Weapon_M67.Bounce"
 			}
 		}
-		"grenade_tnt"
-		{
-			"import"					"baseGrenade"
-			"entity_class"				"grenade_frag"
-			"Model"						"models/weapons/w_compb_allied.mdl"
-			"DetonateDamage"			"400"
-			"DetonatePenetrationRadius"	"120"
-			"DetonateDamageRadius"		"900"
-			"FuseTime"					"8"
-			"RocketStartSpeed"			"2000"
-			
-			"Health"					"50"
-			"ReactExplosions"			"1"
-			"ReactBullets"				"1"
-			"HighExplosive"				"1"
-
-			"ShakeAmplitude"			"300"
-			"ShakeFrequency"			"120"
-			"ShakeDuration"				"2.2"
-			"ShakeRadius"				"2000"
-			
-			"Particles"
-			{
-				"DetonateParticle"			"ins_c4_explosion"
-				"DetonateWaterParticle"			"ins_water_explosion"
-				"TrailParticle"				"weapon_compB_fuse"
-			}
-			"Sounds"
-			{
-				"DetonateSound"			"compositonB.Explode"
-				"DetonateWaterSound"	"compositonB.ExplodeWater"
-				"BounceSound"			"Weapon_compositonB.Bounce"
-				"LaunchSound"			"Weapon_compositonB.Fuse_Loop"
-			}
-		}
 	}
 }

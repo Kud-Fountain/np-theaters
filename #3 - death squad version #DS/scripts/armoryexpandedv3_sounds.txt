@@ -5757,3 +5757,529 @@
     "soundlevel"	"SNDLVL_GUNFIRE"
 	"wave"	"armory_sounds/weapons/l85a2_shot.wav"
 }
+
+// --------------------------
+// groza
+// --------------------------
+
+"Weapon_groza.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+	"wave"	        ")weapons/groza/groza_tp.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_groza.SingleDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                        "volume_accumulate"
+                        {
+                               "input3" "0.7"
+                        }
+
+		}
+	}
+}
+
+"Weapon_groza.SingleDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_110dB"
+	"wave"			")weapons/groza/groza_dist.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+		}
+	} 
+}
+
+"Weapon_groza.SingleLocal"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"	    "1.0"
+	"pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+    "wave"	        "weapons/groza/groza_fp.wav"	
+}
+
+"Weapon_groza.SingleSilenced"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_90dB"
+	"rndwave"
+	{
+	"wave"	        ")weapons/groza/groza_suppressed_tp.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_groza.SingleSilencedDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+		"volume_xfade_start_dist"
+		{
+			"input2" "100"
+		}	
+		"volume_xfade_end_dist"
+		{
+			"input2" "1200"
+		}	
+
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                        "volume_accumulate"
+                        {
+                               "input3" "0.7"
+                        }
+
+		}
+	}
+
+}
+
+"Weapon_groza.SingleSilencedDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_94dB"
+	"wave"			"weapons/universal/null.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+}
+} 
+}
+
+"Weapon_groza.SingleSilencedLocal"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"	        ")weapons/groza/groza_suppressed_fp.wav"	
+}
+
+// Groza HANDLING
+
+"Weapon_groza.MagRelease"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			    "weapons/groza/handling/groza_magrelease.wav" 
+}
+
+"Weapon_groza.Magin"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/groza/handling/groza_magin.wav" 
+}
+
+"Weapon_groza.Magout"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/groza/handling/groza_magout.wav" 
+}
+
+"Weapon_groza.MagoutRattle"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/groza/handling/groza_magout_rattle.wav" 
+}
+
+"Weapon_groza.Rattle"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/aks74u/handling/AKS_rattle.wav" 
+}
+
+"Weapon_groza.Boltback"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/groza/handling/groza_boltback.wav" 
+}
+
+"Weapon_groza.Boltrelease"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/groza/handling/groza_boltrelease.wav"  
+}
+
+"Weapon_groza.Empty"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/aks74u/handling/AKS_empty.wav"  
+}
+
+"Weapon_groza.ROF"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/aks74u/handling/AKS_fireselect_1.wav"  
+}
+
+// --------------------------
+// compositonB EXPLOSIVE
+// --------------------------
+
+"compositonB.Explode"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+	"soundlevel"  	"SNDLVL_140dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+	"wave"	        ")weapons/compositonB/compositonB_detonate_01.wav"	
+	"wave"	        ")weapons/compositonB/compositonB_detonate_02.wav"	
+	"wave"	        ")weapons/compositonB/compositonB_detonate_03.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_speed_of_sound"
+			"import_stack" "INS_DistantVoiceSwap" 
+			
+			"Swap_trigger"
+			{
+			"input2" "1500"
+			}
+			
+			"voice_play_entry"
+			{
+				"entry_name" "compositonB.ExplodeDistant"
+			}
+			
+
+        }
+	}
+}
+
+
+"compositonB.ExplodeDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_110dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+	"wave"			")weapons/compositonB/compositonB_detonate_dist_01.wav"	
+	"wave"			")weapons/compositonB/compositonB_detonate_dist_02.wav"	
+	"wave"			")weapons/compositonB/compositonB_detonate_dist_03.wav"	
+    } 	
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_speed_of_sound"
+			"import_stack" "INS_DistantVoiceSwap2" 
+			
+			"Swap_trigger2"
+			{
+			"input2" "5000"
+			}
+			
+			"voice_play_entry2"
+			{
+				"entry_name" "compositonB.ExplodeFarDistant"
+			}
+			
+
+        }
+	}
+}
+
+
+"compositonB.ExplodeFarDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_150dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+	"wave"			")weapons/compositonB/compositonB_detonate_far_dist_01.wav"	
+	"wave"			")weapons/compositonB/compositonB_detonate_far_dist_02.wav"	
+	"wave"			")weapons/compositonB/compositonB_detonate_far_dist_03.wav"	
+    } 	
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_speed_of_sound"
+			"import_stack" "INS_limit_start"
+		}
+
+
+} 
+}
+
+"Weapon_compositonB.Prime"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.3"
+    "pitch"		"PITCH_NORM"
+	"wave"		"weapons/compositonB/handling/compositonB_prime.wav" 
+}
+
+"Weapon_compositonB.Bounce"
+{
+	"channel"		    "CHAN_ITEM"
+	"volume"		    "0.5"
+	"soundlevel"	    "SNDLVL_75dB"
+	"pitch"			    "PITCH_NORM"
+	"rndwave"
+	{
+	"wave"				"weapons/compositonB/compositonB_bounce_01.wav" 
+	"wave"				"weapons/compositonB/compositonB_bounce_02.wav" 
+	"wave"				"weapons/compositonB/compositonB_bounce_03.wav" 
+	}
+}
+
+"Weapon_compositonB.Throw"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"			"0.45"
+	"pitch"				"PITCH_NORM"
+	"wave"		        "weapons/compositonB/handling/compositonB_throw.wav" 
+}
+
+"Weapon_compositonB.Plant_ArmMovement"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"			"0.3"
+	"pitch"				"PITCH_NORM"
+	"wave"		        "weapons/compositonB/handling/compositonB_plant_armmovement.wav" 
+}
+
+"Weapon_compositonB.Plant_Place"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"			"0.45"
+	"pitch"				"PITCH_NORM"
+	"wave"		        "weapons/compositonB/handling/compositonB_plant_place.wav" 
+}
+
+"Weapon_compositonB.Fuse_Loop"
+{
+	"channel"			"CHAN_STATIC"
+	"volume"			"1.0"
+	"soundlevel"  	    "SNDLVL_65dB"	
+	"pitch"				"PITCH_NORM"
+	"wave"		        "weapons/compositonB/handling/compositonB_fuse_loop.wav" 
+}
+
+// --------------------------
+// compositonB EXPLOSIVE WATER
+// --------------------------
+
+"compositonB.ExplodeWater"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+	"soundlevel"  	"SNDLVL_140dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+	"wave"	        ")weapons/compositonB/water/compositonB_water_detonate_01.wav"	
+	"wave"	        ")weapons/compositonB/water/compositonB_water_detonate_02.wav"	
+	"wave"	        ")weapons/compositonB/water/compositonB_water_detonate_03.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_speed_of_sound"
+			"import_stack" "INS_DistantVoiceSwap" 
+			
+			"Swap_trigger"
+			{
+			"input2" "1500"
+			}
+			
+			"voice_play_entry"
+			{
+				"entry_name" "compositonB.ExplodeDistantWater"
+			}
+			
+
+        }
+	}
+}
+
+
+"compositonB.ExplodeDistantWater"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_110dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+	"wave"			")weapons/compositonB/water/compositonB_water_detonate_dist_01.wav"	
+	"wave"			")weapons/compositonB/water/compositonB_water_detonate_dist_02.wav"	
+	"wave"			")weapons/compositonB/water/compositonB_water_detonate_dist_03.wav"	
+    } 	
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_speed_of_sound"
+			"import_stack" "INS_DistantVoiceSwap2" 
+			
+			"Swap_trigger2"
+			{
+			"input2" "5000"
+			}
+			
+			"voice_play_entry2"
+			{
+				"entry_name" "compositonB.ExplodeFarDistantWater"
+			}
+			
+
+        }
+	}
+}
+
+
+"compositonB.ExplodeFarDistantWater"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_150dB"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+	"wave"			")weapons/compositonB/compositonB_detonate_far_dist_01.wav"	
+	"wave"			")weapons/compositonB/compositonB_detonate_far_dist_02.wav"	
+	"wave"			")weapons/compositonB/compositonB_detonate_far_dist_03.wav"	
+    } 	
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_speed_of_sound"
+			"import_stack" "INS_limit_start"
+		}
+
+
+} 
+}

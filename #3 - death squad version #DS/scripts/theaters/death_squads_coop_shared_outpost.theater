@@ -32,7 +32,16 @@
 			"sounds"			"scripts/death_squads_sounds_cues.txt"
 			"localize"			"resource/ui/death_squads_x_armory_english_v1.txt"
 			// custom particles
+			// custom particles
 			"particles"			"particles/doi_weapon_fx.pcf"
+			"particles"			"particles/doi_explosion_fx.pcf"
+			"particles"			"particles/doi_explosion_fx_b.pcf"
+			"particles"			"particles/doi_explosion_fx_c.pcf"
+			"particles"			"particles/doi_explosion_fx_grenade.pcf"
+			"particles"			"particles/doi_explosion_fx_new.pcf"
+			"particles"			"particles/doi_explosions_smoke.pcf"
+			"particles"			"particles/ins_smokegrenade.pcf"
+			"particles"			"particles/ins_rockettrail.pcf"
 		}
 	}
 	

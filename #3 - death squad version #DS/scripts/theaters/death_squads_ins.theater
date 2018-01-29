@@ -224,7 +224,6 @@
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
@@ -365,7 +364,6 @@
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
@@ -438,7 +436,6 @@
 				// ========================================
 					"weapon_ae_fn57"			"-1"
 					"weapon_ae_waltherp99"			"-1"
-					"weapon_ae_ppk"				"-1"
 					"weapon_ae_beretta93r"			"-1"
 					"weapon_ae_usp"				"-1"
 					"weapon_ae_deagle"			"-1"
@@ -564,7 +561,6 @@
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
@@ -711,7 +707,6 @@
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
@@ -771,7 +766,6 @@
 					"weapon_makarov"					"-1"
 					"weapon_ae_fn57"					"-1"
 					"weapon_ae_waltherp99"					"-1"
-					"weapon_ae_ppk"						"-1"
 					"weapon_ae_beretta93r"					"-1"
 					"weapon_ae_usp"						"-1"
 					"weapon_ae_deagle"					"-1"
@@ -893,7 +887,6 @@
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
@@ -943,7 +936,6 @@
 					"weapon_makarov"				"-1"
 					"weapon_ae_fn57"				"-1"
 					"weapon_ae_waltherp99"				"-1"
-					"weapon_ae_ppk"					"-1"
 					"weapon_ae_beretta93r"				"-1"
 					"weapon_ae_usp"					"-1"
 					"weapon_ae_deagle"				"-1"
@@ -1054,7 +1046,6 @@
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
@@ -1218,7 +1209,6 @@
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"
@@ -1371,7 +1361,6 @@
 				// ========================================
 				"weapon"			"weapon_ae_fn57"
 				"weapon"			"weapon_ae_waltherp99"
-				"weapon"			"weapon_ae_ppk"
 				"weapon"			"weapon_ae_beretta93r"
 				"weapon"			"weapon_ae_usp"
 				"weapon"			"weapon_ae_deagle"

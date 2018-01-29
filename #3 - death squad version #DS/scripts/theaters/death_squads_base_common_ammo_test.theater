@@ -63,13 +63,17 @@
 		//========================================
 		//GRENADES
 		//========================================
-		"grenade_stielhandgranate"
-		{
-			"carry"	"4"
-		}
+		//"grenade_stielhandgranate"
+		//{
+			//"carry"	"4"
+		//}
 		"grenade_rifle"
 		{
 			"carry"	"5"
+		}
+		"grenade_compb"
+		{
+			"carry"	"2"
 		}
 		"grenade_m79_ammo"
 		{
@@ -1539,10 +1543,10 @@
 			"brass_model"	"models/weapons/shells/762x51.mdl"
 			"Damage"
 			{
-				"1"	"75"
-				"100"	"75"
-				"5000"	"40"
-				"18000"	"25"
+				"1"	"120"
+				"100"	"120"
+				"5000"	"80"
+				"18000"	"65"
 			}
 			"PenetrationPower"
 			{
