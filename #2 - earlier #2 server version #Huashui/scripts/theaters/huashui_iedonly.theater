@@ -39,6 +39,7 @@
 			{
 				"weapon_upgrade"
 				{
+					"siderail_lasersight_pistol"		"-1"
 					"barrel_silencer_integrated"		"-1"
 				}
 			}

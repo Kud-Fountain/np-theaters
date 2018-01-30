@@ -72,7 +72,7 @@
 			"team_access"					"security, insurgent"
 			"ammo_clip"
 			{
-				"clip_max"				"36"
+				"clip_max"				"42"
 				"clip_default"			"12"
 			}
 		}
@@ -107,7 +107,7 @@
 			"weapon_class"				"launcher"
 			"weapon_type"				"projectile"
 			"print_name"				"#weapon_rpg7x2"	//"RPG7x2"
-			"print_desc"				"这世界没有什么事是一发RPG解决不了的，如果有，那就两发！"
+			"print_desc"				"RPG-14"
 			"single_use"				"0"
 			"view_model"				"models/weapons/v_rpg.mdl"
 			"world_model"				"models/weapons/w_rpg7.mdl"
@@ -186,7 +186,7 @@
 			"weapon_class"				"launcher"
 			"weapon_type"				"projectile"
 			"print_name"				"#weapon_at4x2"	//"AT4x2"
-			"print_desc"				"这世界没有什么事是一发AT4解决不了的，如果有，那就两发！"
+			"print_desc"				"AT8"
 			"single_use"				"0"
 			"view_model"				"models/weapons/v_at4.mdl"
 			"world_model"				"models/weapons/w_at4.mdl"
@@ -344,7 +344,7 @@
 			"weapon_class"				"grenade_frag"
 			"weapon_type"				"grenade"
 			"print_name"				"#weapon_no69"	//"NO.69"
-			"print_desc"				"英军二战摔炮，你，值得拥有"
+			"print_desc"				"买DOI了吗？"
 			"view_model"				"models/weapons/v_no69.mdl"
 			"world_model"				"models/weapons/w_no69.mdl"
 			"weapon_slot"				"explosive"

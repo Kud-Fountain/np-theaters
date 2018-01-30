@@ -64,7 +64,7 @@
 				"fade_out_time"				"0.5"
 				"fade_out_hold"				"0.1"
 			}
-			"team_access"				"security"
+			"team_access"				"insurgent"
 		}
 	}
 }

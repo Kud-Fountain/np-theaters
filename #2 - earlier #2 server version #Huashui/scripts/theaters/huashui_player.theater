@@ -4,9 +4,9 @@
 	{
 		"scoring"
 		{
-			"kill"						"1"
-			"kill_offensive"			"0"
-			"kill_defensive"			"0"
+			"kill"						"2"
+			"kill_offensive"			"2"
+			"kill_defensive"			"2"
 			"kill_headshot_bonus"		"0"
 			"kill_savior"				"0"
 			"kill_bonus_domination"		"0"
