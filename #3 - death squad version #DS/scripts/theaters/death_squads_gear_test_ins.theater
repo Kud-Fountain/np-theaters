@@ -2,19 +2,19 @@
 {
 	"player_gear"
 	{
-		"xmas_head"
-		{
-			"print_name"				"#xmas_head"
-			"print_desc"				"#xmas_head_desc"
-			"gear_slot"				"head"
-			"gear_cost"				"-5"
-			"gear_weight"				"-20"	
+		// "xmas_head"
+		// {
+			// "print_name"				"#xmas_head"
+			// "print_desc"				"#xmas_head_desc"
+			// "gear_slot"				"head"
+			// "gear_cost"				"-5"
+			// "gear_weight"				"-20"	
 			
-			"entity"				"model"
-			"model"					"models/characters/helmet_head_xmas.mdl"
+			// "entity"				"model"
+			// "model"					"models/characters/helmet_head_xmas.mdl"
 			
-			"team_access"				"security, insurgent"
-		}
+			// "team_access"				"security, insurgent"
+		// }
 		"k63_helmet"
 		{
 			"print_name"				"#k63_helmet"
