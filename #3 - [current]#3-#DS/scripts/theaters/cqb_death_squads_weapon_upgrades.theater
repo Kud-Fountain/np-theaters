@@ -16,8 +16,10 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_benelli_nova"
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m500"
 				"weapon"				"weapon_ae_m1014"
 				"weapon"				"weapon_ae_m1912"
 				"weapon"				"weapon_ae_ksg"
@@ -35,8 +37,10 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_benelli_nova"
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m500"
 				"weapon"				"weapon_ae_m1014"
 				"weapon"				"weapon_ae_m1912"
 				"weapon"				"weapon_ae_ksg"
@@ -54,8 +58,10 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_benelli_nova"
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m500"
 				"weapon"				"weapon_ae_m1014"
 				"weapon"				"weapon_ae_m1912"
 				"weapon"				"weapon_ae_ksg"
@@ -73,8 +79,10 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_benelli_nova"
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m500"
 				"weapon"				"weapon_ae_m1014"
 				"weapon"				"weapon_ae_m1912"
 				"weapon"				"weapon_ae_ksg"
@@ -780,11 +788,11 @@
 		"speed_holster"
 		{
 			"print_name"				"#speed_holster"
-			"print_desc"				"#speed_holster_desc"
+			"print_desc"				"#speed_holster_cqb_desc"
 			"upgrade_cost"				"3"
 			"upgrade_slot"				"stock"
-			"draw_speed"				"1.2"
-			"holster_speed"				"1.2"
+			"draw_speed"				"1.7"
+			"holster_speed"				"1.7"
 			"class_restricted"			"0"
 			
 			"allowed_weapons"
@@ -798,6 +806,8 @@
 				"weapon"			"weapon_m1911"
 				"weapon"			"weapon_sw659"
 				"weapon"			"weapon_m9"
+				"weapon"			"weapon_gsh18"
+				"weapon"			"weapon_cz75"
 				"weapon"			"weapon_p220"
 				"weapon"			"weapon_p226"
 				"weapon"			"weapon_makarov"
@@ -814,11 +824,11 @@
 		"tactical_sling"
 		{
 			"print_name"				"#tactical_sling"
-			"print_desc"				"#tactical_sling_desc"
+			"print_desc"				"#tactical_sling_cqb_desc"
 			"upgrade_cost"				"3"
 			"upgrade_slot"				"stock"
-			"draw_speed"				"1.0"
-			"holster_speed"				"1.2"
+			"draw_speed"				"1.5"
+			"holster_speed"				"1.7"
 			"class_restricted"			"0"
 			
 			"allowed_weapons"
@@ -860,8 +870,10 @@
 				"weapon"			"weapon_ump45"
 							//SHOTGUNS
 				"weapon"			"weapon_m590"
+				"weapon"			"weapon_benelli_nova"
 				"weapon"			"weapon_m1887"
 				"weapon"			"weapon_toz"
+				"weapon"			"weapon_m500"
 							//SNIPERRIFLES
 				"weapon"			"weapon_m40a1"
 				"weapon"			"weapon_m200"
@@ -930,10 +942,10 @@
 		"quick_reload"
 		{
 			"print_name"				"#quick_reload"
-			"print_desc"				"#quick_reload_desc"
+			"print_desc"				"#quick_reload_cqb_desc"
 			"upgrade_cost"				"3"
 			"upgrade_slot"				"aesthetic"
-			"reload_speed"				"1.3"
+			"reload_speed"				"1.8"
 			"class_restricted"			"0"
 			
 			"allowed_weapons"
@@ -943,6 +955,8 @@
 				"weapon"			"weapon_m1911"
 				"weapon"			"weapon_sw659"
 				"weapon"			"weapon_m9"
+				"weapon"			"weapon_gsh18"
+				"weapon"			"weapon_cz75"
 				"weapon"			"weapon_p220"
 				"weapon"			"weapon_p226"
 				"weapon"			"weapon_makarov"
@@ -1056,18 +1070,20 @@
 		"quick_reload_shotgun"
 		{
 			"print_name"				"#quick_reload_shotgun"
-			"print_desc"				"#quick_reload_shotgun_desc"
+			"print_desc"				"#quick_reload_shotgun_cqb_desc"
 			"upgrade_cost"				"3"
 			"upgrade_slot"				"aesthetic"
-			"reload_speed"				"1.5"
+			"reload_speed"				"2.0"
 			"class_restricted"			"0"
 			
 			"allowed_weapons"
 			{
 				//SHOTGUNS
 				"weapon"			"weapon_m590"
+				"weapon"			"weapon_benelli_nova"
 				"weapon"			"weapon_m1887"
 				"weapon"			"weapon_toz"
+				"weapon"			"weapon_m500"
 				//========================================
 				//CUSTOMSHOTGUNS-------------CUSTOM
 				//========================================
@@ -1084,10 +1100,10 @@
 		"fast_bolt_action"
 		{
 			"print_name"				"#fast_bolt_action"
-			"print_desc"				"#fast_bolt_action_desc"
+			"print_desc"				"#fast_bolt_action_cqb_desc"
 			"upgrade_cost"				"3"
 			"upgrade_slot"				"stock"
-			"bolt_speed"				"1.5"
+			"bolt_speed"				"2.0"
 			"class_restricted"			"0"
 			
 			"allowed_weapons"
@@ -1107,17 +1123,19 @@
 		"fast_pump_action"
 		{
 			"print_name"				"#fast_pump_action"
-			"print_desc"				"#fast_pump_action_desc"
+			"print_desc"				"#fast_pump_action_cqb_desc"
 			"upgrade_cost"				"3"
 			"upgrade_slot"				"barrel"
-			"bolt_speed"				"1.2"
+			"bolt_speed"				"1.7"
 			"class_restricted"			"0"
 			
 			"allowed_weapons"
 			{
 				//SHOTGUNS
 				"weapon"			"weapon_m590"
+				"weapon"			"weapon_benelli_nova"
 				"weapon"			"weapon_toz"
+				"weapon"			"weapon_m500"
 				//========================================
 				//CUSTOMSHOTGUNS-------------CUSTOM
 				//========================================
@@ -1427,10 +1445,12 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_benelli_nova"
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_m40a1"
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m500"
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_ae_spas12"
 				"weapon"				"weapon_ae_ksg"
@@ -1447,6 +1467,7 @@
 					"weapons"
 					{
 						"weapon"			"weapon_m590"
+						"weapon"			"weapon_benelli_nova"
 						"weapon"			"weapon_m1887"
 						"weapon"			"weapon_m40a1"
 						"weapon"			"weapon_m200"
@@ -1465,6 +1486,7 @@
 					"weapons"
 					{
 						"weapon"			"weapon_toz"
+						"weapon"			"weapon_m500"
 						"weapon"			"weapon_mosin"
 					}	
 				}
@@ -1480,6 +1502,8 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m9"
+				"weapon"				"weapon_gsh18"
+				"weapon"				"weapon_cz75"
 				"weapon"				"weapon_p220"
 				"weapon"				"weapon_p226"
 				"weapon"				"weapon_m45"
@@ -1505,6 +1529,7 @@
 					"weapons"
 					{
 						"weapon"			"weapon_m9"
+						"weapon"			"weapon_cz75"
 						"weapon"			"weapon_ae_waltherp99"
 					}
 				}
@@ -1516,6 +1541,16 @@
 					"weapons"
 					{
 						"weapon"			"weapon_p228"
+					}
+				}
+				"flashlight_gsh18"
+				{
+					"model"					"models/weapons/upgrades/a_flashlight_gsh18.mdl"
+					"Main"					"1"
+
+					"weapons"
+					{
+						"weapon"			"weapon_gsh18"
 					}
 				}
 				"flashlight_p226"
@@ -1547,6 +1582,8 @@
 					"excluded_weapons"
 					{
 						"weapon"			"weapon_m9"
+						"weapon"			"weapon_gsh18"
+						"weapon"			"weapon_cz75"
 						"weapon"			"weapon_ae_waltherp99"
 						"weapon"			"weapon_ae_usp"
 						"weapon"			"weapon_p228"
@@ -1780,9 +1817,10 @@
 					{
 						"weapon"				"weapon_mp5"
 						"weapon"				"weapon_m590"
+						"weapon"				"weapon_benelli_nova"
 						"weapon"				"weapon_m1887"
 						"weapon"				"weapon_ae_p90"
-						"weapon"		"weapon_ae_mp5a4"
+						"weapon"				"weapon_ae_mp5a4"
 						"weapon"				"weapon_ae_mp7"
 						"weapon"				"weapon_ae_krissvector"
 						"weapon"				"weapon_ae_m1014"
@@ -1914,8 +1952,10 @@
 					{
 						"weapon"				"weapon_mp5"
 						"weapon"				"weapon_m590"
+						"weapon"				"weapon_benelli_nova"
 						"weapon"				"weapon_m1887"
 						"weapon"				"weapon_toz"
+						"weapon"				"weapon_m500"
 						"weapon"				"weapon_ae_p90"
 						"weapon"				"weapon_ae_mp7"
 						"weapon"		"weapon_ae_mp5a4"
@@ -1999,6 +2039,7 @@
 				"weapon"				"weapon_hk416"
 				"weapon"               			"weapon_ae_f2000"
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_benelli_nova"
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_ae_m1014"
 				"weapon"				"weapon_m14"
@@ -2050,6 +2091,7 @@
 				"weapon"				"weapon_mac10"
 				"weapon"                		"weapon_ae_beretta93r"
 				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m500"
 			}
 			
 			"viewmodel_attachments"
@@ -2285,6 +2327,12 @@
 					"fov_wpn_ironsight"			"60"
 					"fov_wpn_focus"				"68"
 				}
+				"weapon_benelli_nova"
+				{
+					
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"68"
+				}
 				"weapon_m1887"
 				{
 					
@@ -2513,6 +2561,12 @@
 					"fov_wpn_ironsight"			"46"
 					"fov_wpn_focus"				"54"
 				}
+				"weapon_m500"
+				{
+					
+					"fov_wpn_ironsight"			"46"
+					"fov_wpn_focus"				"54"
+				}
 				"weapon_ae_g36c"
 				{
 					
@@ -2593,6 +2647,7 @@
 				"weapon"				"weapon_hk416"
 				"weapon"               			"weapon_ae_f2000"
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_benelli_nova"
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_ae_m1014"
 				"weapon"				"weapon_m14"
@@ -2645,6 +2700,7 @@
 				"weapon"				"weapon_mac10"
 				"weapon"                		"weapon_ae_beretta93r"
 				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m500"
 			}
 			
 			"viewmodel_attachments"
@@ -2857,6 +2913,11 @@
 					"fov_wpn_ironsight"			"60"
 					"fov_wpn_focus"				"68"
 				}
+				"weapon_benelli_nova"
+				{
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"68"
+				}
 				"weapon_m1887"
 				{
 					"fov_wpn_ironsight"			"60"
@@ -3047,6 +3108,11 @@
 					"fov_wpn_ironsight"			"46"
 					"fov_wpn_focus"				"54"
 				}
+				"weapon_m500"
+				{
+					"fov_wpn_ironsight"			"46"
+					"fov_wpn_focus"				"54"
+				}
 				"weapon_ae_g36c"
 				{
 					"fov_wpn_ironsight"			"59"
@@ -3119,6 +3185,7 @@
 				"weapon"				"weapon_hk416"
 				"weapon"               			"weapon_ae_f2000"
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_benelli_nova"
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_ae_m1014"
 				"weapon"				"weapon_m14"
@@ -3171,6 +3238,7 @@
 				"weapon"				"weapon_mac10"
 				"weapon"                		"weapon_ae_beretta93r"
 				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m500"
 			}
 			
 			"viewmodel_attachments"
@@ -3383,6 +3451,11 @@
 					"fov_wpn_ironsight"			"60"
 					"fov_wpn_focus"				"68"
 				}
+				"weapon_benelli_nova"
+				{
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"68"
+				}
 				"weapon_m1887"
 				{
 					"fov_wpn_ironsight"			"60"
@@ -3573,6 +3646,11 @@
 					"fov_wpn_ironsight"			"46"
 					"fov_wpn_focus"				"54"
 				}
+				"weapon_m500"
+				{
+					"fov_wpn_ironsight"			"46"
+					"fov_wpn_focus"				"54"
+				}
 				"weapon_ae_g36c"
 				{
 					"fov_wpn_ironsight"			"59"
@@ -3644,6 +3722,7 @@
 				"weapon"				"weapon_hk416"
 				"weapon"               			"weapon_ae_f2000"
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_benelli_nova"
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_ae_m1014"
 				"weapon"				"weapon_m14"
@@ -3696,6 +3775,7 @@
 				"weapon"				"weapon_mac10"
 				"weapon"                		"weapon_ae_beretta93r"
 				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m500"
 			}
 			
 			"viewmodel_attachments"
@@ -3903,6 +3983,11 @@
 					"fov_wpn_ironsight"			"41"
 					"fov_wpn_focus"				"51"
 				}
+				"weapon_benelli_nova"
+				{
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"68"
+				}
 				"weapon_m590"
 				{
 					"fov_wpn_ironsight"			"60"
@@ -4098,6 +4183,11 @@
 					"fov_wpn_ironsight"			"46"
 					"fov_wpn_focus"				"54"
 				}
+				"weapon_m500"
+				{
+					"fov_wpn_ironsight"			"46"
+					"fov_wpn_focus"				"54"
+				}
 				"weapon_ae_g36c"
 				{
 					"fov_wpn_ironsight"			"59"
@@ -4172,6 +4262,7 @@
 				"weapon"				"weapon_hk416"
 				"weapon"				"weapon_ae_f2000"
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_weapon_benelli_nova"
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_ae_m1014"
 				"weapon"				"weapon_m14"
@@ -4219,6 +4310,7 @@
 				"weapon"				"weapon_mac10"
 				"weapon"                		"weapon_ae_beretta93r"
 				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m500"
 			}
 			
 			"viewmodel_attachments"
@@ -4454,6 +4546,11 @@
 					"fov_wpn_ironsight"			"56"
 					"fov_wpn_focus"				"64"
 				}
+				"weapon_benelli_nova"
+				{
+					"fov_wpn_ironsight"			"56"
+					"fov_wpn_focus"				"64"
+				}
 				"weapon_m1887"
 				{
 					"fov_wpn_ironsight"			"56"
@@ -4673,6 +4770,7 @@
 				"weapon"				"weapon_hk416"
 				"weapon"				"weapon_ae_f2000"
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_benelli_nova"
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_ae_m1014"
 				"weapon"				"weapon_m14"
@@ -4720,6 +4818,7 @@
 				"weapon"				"weapon_mac10"
 				"weapon"                		"weapon_ae_beretta93r"
 				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m500"
 			}
 			
 			"viewmodel_attachments"
@@ -4955,6 +5054,11 @@
 					"fov_wpn_ironsight"			"56"
 					"fov_wpn_focus"				"64"
 				}
+				"weapon_benelli_nova"
+				{
+					"fov_wpn_ironsight"			"56"
+					"fov_wpn_focus"				"64"
+				}
 				"weapon_m1887"
 				{
 					"fov_wpn_ironsight"			"56"
@@ -5174,6 +5278,7 @@
 				"weapon"				"weapon_hk416"
 				"weapon"				"weapon_ae_f2000"
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_benelli_nova"
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_ae_m1014"
 				"weapon"				"weapon_m14"
@@ -5221,6 +5326,7 @@
 				"weapon"				"weapon_mac10"
 				"weapon"                		"weapon_ae_beretta93r"
 				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m500"
 			}
 			
 			"viewmodel_attachments"
@@ -5456,6 +5562,11 @@
 					"fov_wpn_ironsight"			"56"
 					"fov_wpn_focus"				"64"
 				}
+				"weapon_benelli_nova"
+				{
+					"fov_wpn_ironsight"			"56"
+					"fov_wpn_focus"				"64"
+				}
 				"weapon_m1887"
 				{
 					"fov_wpn_ironsight"			"56"
@@ -5675,6 +5786,7 @@
 				"weapon"				"weapon_hk416"
 				"weapon"				"weapon_ae_f2000"
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_benelli_nova"
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_ae_m1014"
 				"weapon"				"weapon_m14"
@@ -5722,6 +5834,7 @@
 				"weapon"				"weapon_mac10"
 				"weapon"                		"weapon_ae_beretta93r"
 				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m500"
 			}
 			
 			"viewmodel_attachments"
@@ -5953,6 +6066,11 @@
 					"fov_wpn_focus"				"60"
 				}
 				"weapon_m590"
+				{
+					"fov_wpn_ironsight"			"56"
+					"fov_wpn_focus"				"64"
+				}
+				"weapon_benelli_nova"
 				{
 					"fov_wpn_ironsight"			"56"
 					"fov_wpn_focus"				"64"
@@ -7549,6 +7667,7 @@
 				"weapon"				"weapon_hk416"
 				"weapon"				"weapon_ae_f2000"
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_benelli_nova"
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_ae_m1014"
 				"weapon"				"weapon_m14"
@@ -7602,6 +7721,7 @@
 				"weapon"				"weapon_mac10"
 				"weapon"                		"weapon_ae_beretta93r"
 				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m500"
 			}
 			
 			"viewmodel_attachments"
@@ -7867,6 +7987,11 @@
 					"fov_wpn_ironsight"			"62"
 					"fov_wpn_focus"				"68"
 				}
+				"weapon_benelli_nova"
+				{
+					"fov_wpn_ironsight"			"62"
+					"fov_wpn_focus"				"68"
+				}
 				"weapon_m1887"
 				{
 					"fov_wpn_ironsight"			"62"
@@ -8012,6 +8137,11 @@
 					"fov_wpn_ironsight"			"60"
 					"fov_wpn_focus"				"66"
 				}
+				"weapon_m500"
+				{
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"66"
+				}
 				"weapon_galil"
 				{
 					"fov_wpn_ironsight"			"72"
@@ -8099,6 +8229,7 @@
 				"weapon"				"weapon_mac10"
 				"weapon"                		"weapon_ae_beretta93r"
 				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m500"
 				"weapon"				"weapon_ae_g36c"
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_ae_famas"
@@ -8126,6 +8257,7 @@
 				"weapon"				"weapon_hk416"
 				"weapon"				"weapon_ae_f2000"
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_benelli_nova"
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_ae_m1014"
 				"weapon"				"weapon_m14"
@@ -8368,6 +8500,11 @@
 					"fov_wpn_ironsight"			"54"
 					"fov_wpn_focus"				"60"
 				}
+				"weapon_m500"
+				{
+					"fov_wpn_ironsight"			"54"
+					"fov_wpn_focus"				"60"
+				}
 				"weapon_rpk"
 				{
 					"fov_wpn_ironsight"			"61"
@@ -8518,6 +8655,11 @@
 					"fov_wpn_ironsight"			"61"
 					"fov_wpn_focus"				"70"
 				}
+				"weapon_benelli_nova"
+				{
+					"fov_wpn_ironsight"			"61"
+					"fov_wpn_focus"				"70"
+				}
 				"weapon_m1887"
 				{
 					"fov_wpn_ironsight"			"61"
@@ -8599,6 +8741,7 @@
 				"weapon"				"weapon_mac10"
 				"weapon"                		"weapon_ae_beretta93r"
 				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m500"
 				"weapon"				"weapon_ae_g36c"
 				"weapon"				"weapon_ae_ak47"
 				"weapon"				"weapon_ae_famas"
@@ -8626,6 +8769,7 @@
 				"weapon"				"weapon_hk416"
 				"weapon"				"weapon_ae_f2000"
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_benelli_nova"
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_ae_m1014"
 				"weapon"				"weapon_m14"
@@ -8868,6 +9012,11 @@
 					"fov_wpn_ironsight"			"54"
 					"fov_wpn_focus"				"60"
 				}
+				"weapon_m500"
+				{
+					"fov_wpn_ironsight"			"54"
+					"fov_wpn_focus"				"60"
+				}
 				"weapon_rpk"
 				{
 					"fov_wpn_ironsight"			"61"
@@ -9014,6 +9163,11 @@
 					"fov_wpn_focus"				"56"
 				}
 				"weapon_m590"
+				{
+					"fov_wpn_ironsight"			"61"
+					"fov_wpn_focus"				"70"
+				}
+				"weapon_benelli_nova"
 				{
 					"fov_wpn_ironsight"			"61"
 					"fov_wpn_focus"				"70"
@@ -10984,6 +11138,8 @@
 			"allowed_weapons"
 			{
 				"weapon"		"weapon_m9"
+				"weapon"		"weapon_gsh18"
+				"weapon"		"weapon_cz75"
 				"weapon"		"weapon_sw659"
 				"weapon"		"weapon_p220"
 				"weapon"                "weapon_ae_waltherp99"
@@ -11003,6 +11159,8 @@
 			"allowed_weapons"
 			{
 				"weapon"		"weapon_m9"
+				"weapon"		"weapon_gsh18"
+				"weapon"		"weapon_cz75"
 				"weapon"		"weapon_sw659"
 				"weapon"		"weapon_p220"
 				"weapon"                "weapon_ae_waltherp99"
@@ -11022,6 +11180,8 @@
 			"allowed_weapons"
 			{
 				"weapon"		"weapon_m9"
+				"weapon"		"weapon_gsh18"
+				"weapon"		"weapon_cz75"
 				"weapon"		"weapon_sw659"
 				"weapon"		"weapon_p220"
 				"weapon"                "weapon_ae_waltherp99"
@@ -11041,6 +11201,8 @@
 			"allowed_weapons"
 			{
 				"weapon"		"weapon_m9"
+				"weapon"		"weapon_gsh18"
+				"weapon"		"weapon_cz75"
 				"weapon"		"weapon_sw659"
 				"weapon"		"weapon_p220"
 				"weapon"                "weapon_ae_waltherp99"
@@ -11060,6 +11222,8 @@
 			"allowed_weapons"
 			{
 				"weapon"		"weapon_m9"
+				"weapon"		"weapon_gsh18"
+				"weapon"		"weapon_cz75"
 				"weapon"		"weapon_sw659"
 				"weapon"		"weapon_p220"
 				"weapon"                "weapon_ae_waltherp99"
@@ -12242,6 +12406,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m500"
 			}
 			"viewmodel_attachments"
 			{
@@ -12254,6 +12419,7 @@
 					"scales"
 					{
 						"weapon_toz"				"0.5"
+						"weapon_m500"				"0.5"
 					}
 				}
 			}
@@ -12574,6 +12740,7 @@
 				"weapon"				"weapon_hk416"
 				"weapon"                		"weapon_ae_type95"
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_benelli_nova"
 				"weapon"				"weapon_ae_m1014"
 				"weapon"				"weapon_galil_sar"
 				"weapon"				"weapon_l1a1"
@@ -12598,6 +12765,7 @@
 						"weapon_mini14"				"0.45"
 						"weapon_ae_type95"			"0.45"
 						"weapon_m590"				"0.55"
+						"weapon_benelli_nova"			"0.55"
 						"weapon_ae_m1014"			"0.60"
 						"weapon_galil_sar"			"0.45"
 						"weapon_hk416"				"0.45"
@@ -12979,6 +13147,8 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m9"
+				"weapon"				"weapon_gsh18"
+				"weapon"				"weapon_cz75"
 				"weapon"				"weapon_p220"
 				"weapon"				"weapon_p226"
 				"weapon"                		"weapon_ae_waltherp99"
@@ -13036,6 +13206,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_benelli_nova"
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_ae_m1014"
 				"weapon"				"weapon_m249"
@@ -13044,6 +13215,7 @@
 				"weapon"				"weapon_ae_m60"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m500"
 				"weapon"				"weapon_ae_spas12"
 				"weapon"				"weapon_ae_ksg"
 			}
@@ -13057,8 +13229,10 @@
 					"weapons"
 					{
 						"weapon"				"weapon_m590"
+						"weapon"				"weapon_benelli_nova"
 						"weapon"				"weapon_m1887"
 						"weapon"				"weapon_toz"
+						"weapon"				"weapon_m500"
 						"weapon"				"weapon_ae_m1014"
 						"weapon"				"weapon_ae_spas12"
 						"weapon"				"weapon_ae_ksg"
@@ -13088,6 +13262,7 @@
 					"weapons"
 					{
 						"weapon"				"weapon_toz"
+						"weapon"				"weapon_m500"
 					}
 				}
 				
@@ -13098,6 +13273,7 @@
 					"excluded_weapons"
 					{
 						"weapon"				"weapon_toz"
+						"weapon"				"weapon_m500"
 					}
 				}
 
@@ -13289,6 +13465,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m590"
+				"weapon"				"weapon_benelli_nova"
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_ae_m1014"
 				"weapon"				"weapon_m40a1"
@@ -13324,6 +13501,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_toz"
+				"weapon"				"weapon_m500"
 				"weapon"				"weapon_mosin"
 			}
 			"viewmodel_attachments"
@@ -13344,6 +13522,8 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m9"
+				"weapon"				"weapon_gsh18"
+				"weapon"				"weapon_cz75"
 				"weapon"				"weapon_p220"
 				"weapon"				"weapon_p226"
 				"weapon"                		"weapon_ae_waltherp99"
@@ -13369,6 +13549,7 @@
 					"weapons"
 					{
 						"weapon"			"weapon_m9"
+						"weapon"			"weapon_cz75"
 						"weapon"			"weapon_p220"
 						"weapon"			"weapon_p226"
 						"weapon"            		"weapon_ae_waltherp99"
@@ -13383,6 +13564,16 @@
 					"weapons"
 					{
 						"weapon"			"weapon_ae_glock19"
+					}
+				}
+				"laser_gsh18"
+				{
+					"model"					"models/weapons/upgrades/a_laser_gsh18.mdl"
+					"Main"					"1"
+
+					"weapons"
+					{
+						"weapon"			"weapon_gsh18"
 					}
 				}
 				"laser_p228"
@@ -13403,6 +13594,8 @@
 					"excluded_weapons"
 					{
 						"weapon"			"weapon_m9"
+						"weapon"			"weapon_gsh18"
+						"weapon"			"weapon_cz75"
 						"weapon"			"weapon_p220"
 						"weapon"			"weapon_p226"
 						"weapon"            		"weapon_ae_waltherp99"

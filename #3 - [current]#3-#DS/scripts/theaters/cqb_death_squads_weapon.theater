@@ -2553,7 +2553,7 @@
 				"ammo_type"				"buckshot"
 				"clip_max"				"12"
 				"clip_max_rounds"			"8"
-				"clip_default"				"3"
+				"clip_default"				"4"
 				"magsize_override"			"8"
 			}
 			"attachments"
@@ -2647,7 +2647,7 @@
 				"ammo_type"				"buckshot"
 				"clip_max"				"12"
 				"clip_max_rounds"			"6"
-				"clip_default"				"3"
+				"clip_default"				"5"
 				"magsize_override"			"6"
 			}
 			"attachments"

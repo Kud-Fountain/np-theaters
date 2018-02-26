@@ -2,19 +2,93 @@
 {
 	"player_gear"
 	{
-		// "xmas_head"
-		// {
-			// "print_name"				"#xmas_head"
-			// "print_desc"				"#xmas_head_desc"
-			// "gear_slot"				"head"
-			// "gear_cost"				"-5"
-			// "gear_weight"				"-20"	
+		"xmas_head"
+		{
+			"print_name"				"#xmas_head"
+			"print_desc"				"#xmas_head_desc"
+			"gear_slot"				"head"
+			"gear_cost"				"-5"
+			"gear_weight"				"-20"	
 			
-			// "entity"				"model"
-			// "model"					"models/characters/helmet_head_xmas.mdl"
+			"entity"				"model"
+			"model"					"models/characters/helmet_head_xmas.mdl"
 			
-			// "team_access"				"security, insurgent"
-		// }
+			"team_access"				"security, insurgent"
+		}
+		"western_hat"
+		{
+			"print_name"				"#western_hat"
+			"print_desc"				"#western_hat_desc"
+			"gear_slot"				"head"
+			"gear_cost"				"-5"
+			"gear_weight"				"-20"	
+			
+			"entity"				"model"
+			"model"					"models/characters/western_hat.mdl"
+			
+			"team_access"				"security, insurgent"
+		}
+		"executioner_mask"
+		{
+			"print_name"				"#executioner_mask"
+			"print_desc"				"#executioner_mask_desc"
+			"gear_slot"				"head"
+			"gear_cost"				"2"
+			"gear_weight"				"-200"	
+			
+			"entity"				"model"
+			"model"					"models/characters/executioner_mask.mdl"
+			
+			"suppression_frac" "0.1"
+			
+			"team_access"				"security, insurgent"
+		}
+		"plague_doctor_mask"
+		{
+			"print_name"				"#plague_doctor_mask"
+			"print_desc"				"#plague_doctor_mask_desc"
+			"gear_slot"				"accessory"
+			"gear_cost"				"2"
+			"gear_weight"				"5"
+	
+			"entity"				"model"
+			"model"					"models/characters/plague_doctor_mask.mdl"
+
+			"DMG_BLAST_damage_frac"		"0.90"
+			"DMG_BULLET_damage_frac"	"0.90"
+			"DMG_BURN_damage_frac"		"0.90"
+			"DMG_ACID_damage_frac" 		"0.90"
+			"DMG_CLUB_damage_frac" 		"0.90"
+			"DMG_BUCKSHOT_damage_frac" 	"0.90"
+			"DMG_SLASH_damage_frac" 		"0.90"
+			"DMG_SHOCK_damage_frac" 		"0.90"
+			"DMG_PREVENT_PHYSICS_FORCE_damage_frac"	"0.90"
+			
+			"team_access"				"security, insurgent"
+		}
+		"plague_doctor_mask_leather"
+		{
+			"print_name"				"#plague_doctor_mask_leather"
+			"print_desc"				"#plague_doctor_mask_desc"
+			"gear_slot"				"accessory"
+			"gear_cost"				"-5"
+			"gear_weight"				"100"
+	
+			"entity"				"model"
+			"model"					"models/characters/plague_doctor_mask_leather.mdl"
+
+			"DMG_BLAST_damage_frac"		"0.90"
+			"DMG_BULLET_damage_frac"	"0.90"
+			"DMG_BURN_damage_frac"		"0.90"
+			"DMG_ACID_damage_frac" 		"0.90"
+			"DMG_CLUB_damage_frac" 		"0.90"
+			"DMG_BUCKSHOT_damage_frac" 	"0.90"
+			"DMG_SLASH_damage_frac" 		"0.90"
+			"DMG_SHOCK_damage_frac" 		"0.90"
+			"DMG_PREVENT_PHYSICS_FORCE_damage_frac"	"0.90"
+			
+			"team_access"				"security, insurgent"
+		}
 		"sec_protection_group"
 		{
 			"print_name"		"#gear_protection_group"
@@ -56,7 +130,7 @@
 			}
 
 			"penetration_power_required"	"100"
-			"penetration_power_loss"		"50"
+			"penetration_power_loss"		"100"
 			"explosive_damage_frac"			"1.00"
 
 			"team_access"	"insurgent"

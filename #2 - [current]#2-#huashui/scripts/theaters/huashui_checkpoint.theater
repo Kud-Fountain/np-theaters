@@ -1,8 +1,8 @@
-"#base" "huashui_iedonly.theater"
+"#base" "huashui.theater"
 
 "theater"
 {
-	"ver"	"20180125_6"
+	"ver"	"2018020201"
     "teams"
     {
         "security"
@@ -35,69 +35,69 @@
             {
                 "#Cell_Alpha"	//1
                 {
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
+                    "#Squad_Cell_Leader_Specialist"				"template_coop_specialist" 			//smoke
+                        "#Squad_Cell_Fighter"						"template_coop_fighter" 			//molotov
+                        "#Squad_Cell_Fighter"						"template_coop_fighter" 			//molotov
+                        "#Squad_Cell_Fighter"						"template_coop_fighter_ace" 		//frag
+                        "#Squad_Cell_Fighter"						"template_coop_fighter_ace" 		//frag
+                        "#Squad_Cell_Fighter"						"template_coop_fighter_shot" 		//toz
+                        "#Squad_Cell_Fighter"						"template_coop_fighter_shot" 		//toz
+                        "#Squad_Cell_Sapper"						"template_coop_sapper" 				//rpg
                 }
                 "#Cell_Bravo"	//2
                 {
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
+                    "#Squad_Cell_Leader_Specialist"				"template_coop_specialist" 			//smoke
+                        "#Squad_Cell_Fighter"						"template_coop_fighter" 			//molotov
+                        "#Squad_Cell_Fighter"						"template_coop_fighter" 			//molotov
+                        "#Squad_Cell_Fighter"						"template_coop_fighter_ace"			//frag
+                        "#Squad_Cell_Fighter"						"template_coop_fighter_ace"			//frag
+                        "#Squad_Cell_SharpShooter"					"template_coop_sharpshooter" 		//snipe
+                        "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
+                        "#Squad_Cell_Sapper"						"template_coop_sapper" 				//rpg
                 }
                 "#Cell_Charlie"	//3
                 {
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
+                    "#Squad_Cell_Leader_Specialist"				"template_coop_specialist" 			//smoke
+                        "#Squad_Cell_Fighter"						"template_coop_fighter_shot" 		//toz
+                        "#Squad_Cell_Fighter"						"template_coop_fighter_shot" 		//toz
+                        "#Squad_Cell_MachineGunner"					"template_coop_machinegunner"		//lmg
+                        "#Squad_Cell_MachineGunner"					"template_coop_machinegunner"		//lmg
+                        "#Squad_Cell_SharpShooter"					"template_coop_sharpshooter_ace"	//snipe
+                        "#Squad_Cell_SharpShooter"					"template_coop_sharpshooter"		//snipe
+                        "#Squad_Cell_Sapper"						"template_coop_sapper"				//rpg
                 }
                 "#Cell_Delta"	//4
                 {
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
+                    "#Squad_Cell_MachineGunner"					"template_coop_machinegunner" 		//lmg
+                        "#Squad_Cell_MachineGunner"					"template_coop_machinegunner" 		//lmg
+                        "#Squad_Cell_Fighter"						"template_coop_fighter" 			//molotov
+                        "#Squad_Cell_Fighter"						"template_coop_fighter" 			//molotov
+                        "#Squad_Cell_SharpShooter"					"template_coop_sharpshooter_ace" 	//snipe
+                        "#Squad_Cell_SharpShooter"					"template_coop_sharpshooter"		//snipe
+                        "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
+                        "#Squad_Cell_Sapper"						"template_coop_sapper" 				//rpg
                 }
                 "#Cell_Echo" 	//5
                 {
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
+                    "#Squad_Cell_Leader_Specialist"				"template_coop_specialist"			//smoke
+                        "#Squad_Cell_Fighter"						"template_coop_fighter" 			//molotov
+                        "#Squad_Cell_Fighter"						"template_coop_fighter" 			//molotov
+                        "#Squad_Cell_Fighter"						"template_coop_fighter_ace" 		//frag
+                        "#Squad_Cell_Fighter"						"template_coop_fighter_ace" 		//frag
+                        "#Squad_Cell_Fighter"						"template_coop_fighter_shot" 		//toz
+                        "#Squad_Cell_Fighter"						"template_coop_fighter_shot" 		//toz
+                        "#Squad_Cell_SharpShooter"					"template_coop_sharpshooter"		//snipe
                 }
                 "#Cell_Foxtrot" //6
                 {
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
-                     "#Squad_Cell_Bomber"						"template_bomber_insurgent" 		//ied
+                    "#Squad_Cell_Fighter"						"template_coop_fighter" 			//molotov
+                        "#Squad_Cell_Fighter"						"template_coop_fighter" 			//molotov
+                        "#Squad_Cell_Fighter"						"template_coop_fighter_ace" 		//frag
+                        "#Squad_Cell_Fighter"						"template_coop_fighter_ace" 		//frag
+                        "#Squad_Cell_MachineGunner"					"template_coop_machinegunner" 		//lmg
+                        "#Squad_Cell_MachineGunner"					"template_coop_machinegunner" 		//lmg
+                        "#Squad_Cell_SharpShooter"					"template_coop_sharpshooter_ace" 	//snipe
+                        "#Squad_Cell_SharpShooter"					"template_coop_sharpshooter_ace" 	//snipe
                 }
             }
         }
@@ -388,7 +388,7 @@
             {
                 "gear"
                 {
-                    "sec_heavy_armor"	"-2"
+                    "sec_heavy_armor"	"0"
                 }
                 "weapon_upgrade"
                 {
@@ -717,10 +717,10 @@
                 "gear"				"ins_heavy_armor"
                     "gear"				"ins_chest_rig"
                     //"weapon"			"weapon_m18"
-                    //"weapon"			"weapon_gurkha"
-                    //"weapon"			"weapon_makarov"
-                    //"weapon_upgrade"	"siderail_lasersight_pistol"
-                    //"weapon_upgrade"	"ammo_ap_makarov"
+                    "weapon"			"weapon_gurkha"
+                    "weapon"			"weapon_makarov"
+                    "weapon_upgrade"	"siderail_lasersight_pistol"
+                    "weapon_upgrade"	"ammo_ap_makarov"
                     "weapon"			"weapon_ied_throw"
             }
             "allowed_items"
