@@ -7,9 +7,9 @@ _文件可以随意使用._
 
 >服主:
 
-_Gunslinger_
-
 _Kud_
+
+_Gunslinger_
 
 
 >一级管理:
@@ -32,6 +32,8 @@ _中二酱_
 _爱宝宝的CAT_
 
 _MUSI_
+
+_FondlyWolf_
 
 
 **__翻译组__**
