@@ -433,8 +433,8 @@
 			
 			"melee"
 			{
-				"MeleeRange"				"90"
-				"MeleeDamage"				"80"
+				"MeleeRange"				"180"
+				"MeleeDamage"				"250"
 				"MeleeDamageBehindBonus"	"300"
 				"MeleeDamageType"			"DMG_SLASH"
 				"MeleeWeaponIdleTime"		"1"
@@ -786,9 +786,9 @@
 			
 			"melee"
 			{
-				"MeleeRange"				"140"
-				"MeleeDamage"				"130"
-				"MeleeDamageBehindBonus"	"50"
+				"MeleeRange"				"350"
+				"MeleeDamage"				"550"
+				"MeleeDamageBehindBonus"	"100"
 				"MeleeDamageType"			"DMG_SLASH"
 				"MeleeWeaponIdleTime"		"3"
 				
@@ -857,8 +857,8 @@
 			
 			"melee"
 			{
-				"MeleeRange"				"170"
-				"MeleeDamage"				"150"
+				"MeleeRange"				"400"
+				"MeleeDamage"				"600"
 				"MeleeDamageBehindBonus"	"150"
 				"MeleeDamageType"			"DMG_SLASH"
 				"MeleeWeaponIdleTime"		"5"
@@ -998,9 +998,9 @@
 			
 			"melee"
 			{
-				"MeleeRange"				"100"
-				"MeleeDamage"				"130"
-				"MeleeDamageBehindBonus"	"50"
+				"MeleeRange"				"330"
+				"MeleeDamage"				"570"
+				"MeleeDamageBehindBonus"	"100"
 				"MeleeDamageType"			"DMG_SLASH"
 				"MeleeWeaponIdleTime"		"1"
 				
@@ -1069,9 +1069,9 @@
 			
 			"melee"
 			{
-				"MeleeRange"				"120"
-				"MeleeDamage"				"80"
-				"MeleeDamageBehindBonus"	"90"
+				"MeleeRange"				"280"
+				"MeleeDamage"				"450"
+				"MeleeDamageBehindBonus"	"100"
 				"MeleeDamageType"			"DMG_SLASH"
 				"MeleeWeaponIdleTime"		"3"
 				
@@ -1208,8 +1208,8 @@
 			}
 			"melee"
 			{
-				"MeleeRange"				"75"
-				"MeleeDamage"				"70"
+				"MeleeRange"				"150"
+				"MeleeDamage"				"300"
 				"MeleeDamageBehindBonus"		"200"
 				"MeleeDamageType"			"DMG_SLASH"
 				"MeleeWeaponIdleTime"			"2"
@@ -1315,26 +1315,22 @@
 			"import"				"weapon_base"
 			"weapon_class"				"other_explosive"
 			"weapon_type"				"grenade"
-			"print_name"				"#weapon_healthkit_aus"
-			"print_desc"				"#weapon_healthkit_aus_desc"
+			"print_name"				"#weapon_healthkit"
+			"print_desc"				"#weapon_healthkit_desc"
 			"single_use"				"1"
 			"view_model"				"models/weapons/v_healthkit_sec.mdl"
 			"world_model"				"models/weapons/w_healthkit.mdl"
 			"weapon_slot"				"explosive"
-			"weapon_max_subslot"			"3"
+			"weapon_max_subslot"			"2"
 			"act_table"				"grenade"
-			"weapon_weight"				"15"
-			"weapon_cost"				"1"
+			"weapon_weight"				"0"
+			"weapon_cost"				"0"
 			"class_restricted"			"1"
 			"explosives"
 			{
 				"entity"				"healthkit"
-				"GrenadeRollSpeed"		"300"
-				"GrenadeRollSpeedProne"		"250"
-				"GrenadeRollUpSpeed"		"150"
-				"GrenadeRollUpSpeedProne"	"100"
-				"GrenadeThrowSpeed"		"400"
-				"GrenadeThrowSpeedProne"	"350"
+				"GrenadeRollSpeed"			"0"
+				"GrenadeThrowSpeed"			"320"
 			}
 			"ammo_clip"
 			{
@@ -1342,7 +1338,17 @@
 				"clip_max_rounds"			"-1"	// no clips
 				"clip_default"				"1"
 			}
-			"team_access"				"security, insurgent"
+			//"use_hands"					"1"
+			// "viewmodel_offsets"
+			// {
+			// 	"VMOffsetStand"				"-22.0 0.0 13.0"
+			// 	"VMOffsetStandSprint"			"-22.0 0.0 13.0"
+			// 	"VMOffsetCrouch"			"-20.0 0.0 11.0"
+			// 	"VMOffsetCrouchMove"			"-5.0 0.0 11.0"
+			// 	"VMOffsetProne"				"-19.0 0.0 9.0"
+			// 	"VMOffsetProneMove"			"-4.0 0.0 9.0"
+			// }
+			"team_access"				"security"
 		}
 		// ========================================
 		// CUSTOM LAUNCHERS
