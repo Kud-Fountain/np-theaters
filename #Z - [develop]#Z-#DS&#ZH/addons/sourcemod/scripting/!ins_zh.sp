@@ -3029,7 +3029,6 @@ public SHook_OnPreThink(client)
 	{
 		if (iFlags & INS_PL_SPAWNZONE)
 		{
-			Rank_AddPoints(client, 4, client);
 			LogToGame("Intel Captured by %N  (Kill flag %d)", client, g_iPointFlag);
 			g_bNoTakingCache = true;
 			AcceptEntityInput(g_iPointFlag, "Kill");
@@ -3271,7 +3270,6 @@ public SHook_OnPreThink(client)
 								vOrigin[2] += vMaxs[2]/2;
 								TE_SetupSparks(vOrigin, fDirection, 1, 1);
 								TE_SendToAll();
-								Rank_AddPoints(client, 2, client);
 								AcceptEntityInput(iAimTarget, "SetGlowColor");
 							}
 							else
@@ -3312,7 +3310,6 @@ public SHook_OnPreThink(client)
 									{
 										iHp = iMaxHp;
 										PrintCenterText(client, " ");
-										Rank_AddPoints(client, 2, client);
 										g_iPlayerBonusScore[client] += 100;
 										if (iMaxHp > 1250)
 										{
@@ -3767,7 +3764,6 @@ public SHook_OnPreThink(client)
 													WritePackCell(hData, EntIndexToEntRef(g_iPlayerTempProp[client]));
 													WritePackFloat(hData, GetGameTime());
 												}
-												Rank_AddPoints(client, 1, client);
 												SetEntityRenderMode(g_iPlayerTempProp[client], RENDER_NORMAL);
 												SetEntityRenderColor(g_iPlayerTempProp[client], 255, 255, 255, 255);
 												AcceptEntityInput(g_iPlayerTempProp[client], "SetGlowColor");
@@ -4004,8 +4000,6 @@ public SHook_OnPreThink(client)
 							if (iType == 0)
 							{
 								g_iPlayerBonusScore[client] += 40;
-								if (iNewHp-iHp >= CVAR_PLAYER_HEALTHKIT_HEAL_MIN || g_iPlayerBleeding[client] != 0 || g_iPlayerInfected[client] != 0)
-									Rank_AddPoints(client, 1, client);
 								if (iNewHp >= CVAR_PLAYER_HEALTHKIT_MIN_HEALTH)
 								{
 									SwapWeaponToPrimary(client);
@@ -4017,8 +4011,6 @@ public SHook_OnPreThink(client)
 							else if (iType == 1)
 							{
 								g_iPlayerBonusScore[client] += 100;
-								if (iNewHp-iHp >= CVAR_PLAYER_HEALTHKIT_HEAL_MIN || g_iPlayerBleeding[iTarget] != 0 || g_iPlayerInfected[iTarget] != 0)
-									Rank_AddPoints(client, 1, iTarget);
 								if (iNewHp >= CVAR_PLAYER_HEALTHKIT_MIN_HEALTH)
 								{
 									SwapWeaponToPrimary(client);
@@ -4050,8 +4042,6 @@ public SHook_OnPreThink(client)
 							if (iType == 0)
 							{
 								g_iPlayerBonusScore[client] += 20;
-								if (iNewHp-iHp >= CVAR_PLAYER_HEALTHKIT_HEAL_MIN || g_iPlayerBleeding[client] != 0 || g_iPlayerInfected[client] != 0)
-									Rank_AddPoints(client, 1, client);
 //								if (iNewHp >= CVAR_PLAYER_HEALTHKIT_MEDIC_MAX_HEALTH-15)
 								if (iNewHp >= CVAR_PLAYER_HEALTHKIT_MEDIC_MIN_HEALTH)
 								{
@@ -4069,8 +4059,6 @@ public SHook_OnPreThink(client)
 									g_bMedicForceToChange = false;
 									g_fMedicLastHealTime = g_fGameTime;
 								}
-								if (iNewHp-iHp >= CVAR_PLAYER_HEALTHKIT_HEAL_MIN || g_iPlayerBleeding[iTarget] != 0 || g_iPlayerInfected[iTarget] != 0)
-									Rank_AddPoints(client, 1, iTarget);
 //								if (iNewHp >= CVAR_PLAYER_HEALTHKIT_MEDIC_MAX_HEALTH-15)
 								if (iNewHp >= CVAR_PLAYER_HEALTHKIT_MEDIC_MIN_HEALTH)
 								{
@@ -7090,7 +7078,6 @@ public Action:ThinkTimer(Handle:timer)
 					}
 					else
 					{
-						Rank_AddPoints(client, 4, client);
 						LogToGame("Late Intel Captured by %N  (Kill flag %d)", client, g_iPointFlag);
 						g_bNoTakingCache = true;
 						AcceptEntityInput(g_iPointFlag, "Kill");
@@ -9653,7 +9640,6 @@ public Action:Timer_TeleportOnSpawn_Sec(Handle:timer, any:client)
 		vPos[2] += 6.0;
 		TeleportEntity(client, vPos, NULL_VECTOR, NULL_VECTOR);
 		PrintToChat(iTarget, "\x08%s%N \x01has deployed on you!", GetPlayerChatColor(client), client);
-		Rank_AddPoints(iTarget, 3, client);
 	}
 	return;
 }
@@ -10019,7 +10005,6 @@ public Action:Event_GrenadeDetonate(Handle:event, const String:name[], bool:dont
 					if (IsPlayerAlive(client)) FakeClientCommand(client, "say UAV ONLINE!");
 					LogToGame("%N has called for UAV", client);
 					PlayGameSoundToAll("Lua_sounds/uav_inbound.ogg");
-					Rank_AddPoints(client, 1, client);
 					g_iPlayerBonusScore[client] += 200;
 					g_fUAVLastTime = GetGameTime();
 				}
@@ -10840,7 +10825,6 @@ public Action:Event_PlayerDeathPre(Event event, const String:name[], bool:dontBr
 		{
 			if (iAttackerTeam == TEAM_SURVIVORS)
 			{
-				Rank_AddPoints(attacker, 7, client);
 				if (g_iZombieClass[client][VAR] < -1)
 				{
 					FakeClientCommand(attacker, "say IED Killed!");
@@ -10865,7 +10849,6 @@ public Action:Event_PlayerDeathPre(Event event, const String:name[], bool:dontBr
 		{
 			if (iAttackerTeam == TEAM_SURVIVORS)
 			{
-				Rank_AddPoints(attacker, 8, client);
 				// FakeClientCommand(attacker, "say Knight Killed!");
 			}
 		}
@@ -10898,10 +10881,6 @@ public Action:Event_PlayerDeathPre(Event event, const String:name[], bool:dontBr
 		if (iAttackerTeam == TEAM_SURVIVORS)
 		{
 			g_fLastKillTime[attacker] = GetGameTime();
-			if (StrEqual(weapon, "grenadedirect", false))
-			{
-				Rank_AddPoints(attacker, 10, client);
-			}
 		}
 	}
 
@@ -10994,12 +10973,10 @@ public Action:Event_PlayerDeathPre(Event event, const String:name[], bool:dontBr
 				}
 				else if (!StrEqual(weapon, "grenadedirect", false))
 				{
-					Rank_AddPoints(attacker, 11, client);
 //					PlayerYell(attacker, 5, false);
 				}
 				else
 				{
-					Rank_AddPoints(attacker, 10, client);
 					PlayerYell(attacker, 6, true);
 				}
 			}
@@ -11033,12 +11010,9 @@ public Action:Event_PlayerDeathPre(Event event, const String:name[], bool:dontBr
 	{
 		if (g_iLastHitgroup[client] != 1)
 			event.BroadcastDisabled = true;
-		else Rank_AddPoints(attacker, 5, client);
 	}
 	else if (g_iLastHitgroup[client] == 1)	// Knife, DirectHit Only
 	{
-		if (attacker > 0 && IsClientInGame(attacker))
-			Rank_AddPoints(attacker, 5, client);
 		if (!StrEqual(weapon, "grenadedirect", false))
 		{
 /*		//	String_ToUpper(weapon, weapon, sizeof(weapon));
@@ -11061,7 +11035,6 @@ public Action:Event_PlayerDeathPre(Event event, const String:name[], bool:dontBr
 		}
 		else
 		{
-			Rank_AddPoints(attacker, 10, client);
 			weapon = "GRENADE IMPACT  @  HEADSHOT";
 		}
 		SetEventInt(event, "weaponid", 0);
@@ -11430,7 +11403,6 @@ public Action:Timer_CounterAttackSetupRespawn(Handle:timer)
 				if (iNearestPlayer > 0 && IsClientInGame(iNearestPlayer))
 				{
 					PrintToChat(iNearestPlayer, "\x08%s%N \x01has deployed on you!", GetPlayerChatColor(iDeadPlayers[i]), iDeadPlayers[i]);
-					Rank_AddPoints(iNearestPlayer, 3, iDeadPlayers[i]);
 				}
 			}
 			// Sounds
@@ -12203,7 +12175,6 @@ public INS_OnPlayerResupplyed(client)
 	if (IsPlayerAlive(client))
 	{
 		EmitSoundToAll("Lua_sounds/ammo_pickup.wav", client, SNDCHAN_STATIC, _, _, 1.0);
-		Rank_AddPoints(client, 9, client);
 		if (g_iPLFBuyzone[client] == INVALID_ENT_REFERENCE)
 		{
 			LogToGame("[SPAWN ZONE] %N has been resupplyed", client);
