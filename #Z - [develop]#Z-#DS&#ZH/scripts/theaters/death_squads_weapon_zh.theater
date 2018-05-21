@@ -861,20 +861,22 @@
 		}
 		"weapon_p2a1"
 		{
-			"import"					"weapon_base"
+			"import"				"weapon_base"
 			"weapon_class"				"grenade_incendiary"
 			"weapon_type"				"projectile"
 			"print_name"				"#weapon_flaregun"
 			"print_desc"				"#weapon_flaregun_desc"
 			"view_model"				"models/weapons/v_p2a1.mdl"
 			"world_model"				"models/weapons/w_p2a1.mdl"
-			"weapon_slot"				"melee"
-			"act_table"					"pistol"
-			"weapon_weight"				"20"
+			"weapon_slot"				"explosive"
+			"weapon_max_subslot"			"0"
+			"act_table"				"pistol"
+			"weapon_weight"				"10"
 			"weapon_cost"				"1"
 			"weapon_abilities"			"ironsight"
-			"class_restricted"			"1"
 			"fire_instantly"			"1"
+			"class_restricted"			"1"
+
 			"explosives"
 			{
 				"entity"				"grenade_flare"
@@ -889,9 +891,8 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"grenade_flares"
-				"clip_max"				"0"
 				"clip_max_rounds"			"1"
-				"clip_default"				"0"
+				"clip_default"				"5"
 			}
 			"fov"
 			{
@@ -903,11 +904,6 @@
 			{
 				"shot_single"				"Weapon_p2a1.Single"
 				"shot_single_local"			"Weapon_p2a1.SingleLocal"
-			}
-			"ironsights"
-			{
-				"in_time"				"0.25"
-				"out_time"				"0.2"
 			}
 			"team_access"				"security, insurgent"
 		}
@@ -1002,11 +998,10 @@
 			"world_model"				"models/weapons/w_marinebayonet.mdl"
 			"weapon_slot"				"melee"
 			"act_table"				"knife"
-			"weapon_weight"				"1"
+			"weapon_weight"				"0"
 			"weapon_cost"				"0"
 			"class_restricted"			"0"
 			"barrel_length"				"-1"
-			"class_restricted"			"1"
 			
 			"ammo_clip"
 			{

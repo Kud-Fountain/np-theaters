@@ -69,7 +69,7 @@
 		//}
 		"grenade_rifle"
 		{
-			"carry"	"5"
+			"carry"	"2"
 		}
 		"grenade_compb"
 		{
@@ -77,73 +77,73 @@
 		}
 		"grenade_m79_ammo"
 		{
-			"carry"	"10"
+			"carry"	"4"
 		}
 		"grenade_m67"
 		{
-			"carry"	"4"
+			"carry"	"2"
 		}
 		"grenade_f1"
 		{
-			"carry"	"4"
+			"carry"	"2"
 		}
 		"grenade_m18"
 		{
-			"carry"	"4"
+			"carry"	"1"
 		}
 		"grenade_m84"
 		{
-			"carry"	"4"
+			"carry"	"1"
 		}
 		"grenade_c4"
 		{
-			"carry"	"2"
+			"carry"	"1"
 		}
 		"grenade_ied"
 		{
-			"carry"	"2"
+			"carry"	"1"
 		}
 		"grenade_12g_frag"
 		{
-			"carry"	"48"
+			"carry"	"0"
 		}
 		"grenade_12g_frag_m"
 		{
 			"flags"	"AMMO_USE_MAGAZINES"
 			"magsize"	"20"
-			"carry"	"6"
+			"carry"	"0"
 		}
 		"grenade_m203_he"
 		{
-			"carry"	"6"
+			"carry"	"2"
 		}
 		"grenade_m203_phosphorus"
 		{
-			"carry"	"4"
+			"carry"	"1"
 		}
 		"grenade_gp25_he"
 		{
-			"carry"	"6"
+			"carry"	"2"
 		}
 		"grenade_m203_smoke"
 		{
-			"carry"	"6"
+			"carry"	"1"
 		}
 		"grenade_gp25_smoke"
 		{
-			"carry"	"6"
+			"carry"	"1"
 		}
 		"grenade_anm14"
 		{
-			"carry"	"2"
+			"carry"	"1"
 		}
 		"grenade_molotov"
 		{
-			"carry"	"2"
+			"carry"	"1"
 		}
 		"grenade_flares"
 		{
-			"carry"	"5"
+			"carry"	"3"
 		}
 		//========================================
 		//Bullets

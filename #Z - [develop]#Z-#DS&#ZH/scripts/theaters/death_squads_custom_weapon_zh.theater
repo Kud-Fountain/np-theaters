@@ -433,8 +433,8 @@
 			
 			"melee"
 			{
-				"MeleeRange"				"180"
-				"MeleeDamage"				"250"
+				"MeleeRange"				"75"
+				"MeleeDamage"				"120"
 				"MeleeDamageBehindBonus"	"300"
 				"MeleeDamageType"			"DMG_SLASH"
 				"MeleeWeaponIdleTime"		"1"
@@ -766,7 +766,7 @@
 			"weapon_slot"				"primary"
 			"act_table"					"knife"
 			"weapon_weight"				"60"
-			"weapon_cost"				"4"
+			"weapon_cost"				"8"
 			"class_restricted"			"1"
 			"barrel_length"				"-1"
 			
@@ -786,8 +786,8 @@
 			
 			"melee"
 			{
-				"MeleeRange"				"350"
-				"MeleeDamage"				"550"
+				"MeleeRange"				"140"
+				"MeleeDamage"				"300"
 				"MeleeDamageBehindBonus"	"100"
 				"MeleeDamageType"			"DMG_SLASH"
 				"MeleeWeaponIdleTime"		"3"
@@ -837,7 +837,7 @@
 			"weapon_slot"				"primary"
 			"act_table"					"knife"
 			"weapon_weight"				"30"
-			"weapon_cost"				"5"
+			"weapon_cost"				"9"
 			"class_restricted"			"1"
 			"barrel_length"				"-1"
 			
@@ -857,8 +857,8 @@
 			
 			"melee"
 			{
-				"MeleeRange"				"400"
-				"MeleeDamage"				"600"
+				"MeleeRange"				"160"
+				"MeleeDamage"				"330"
 				"MeleeDamageBehindBonus"	"150"
 				"MeleeDamageType"			"DMG_SLASH"
 				"MeleeWeaponIdleTime"		"5"
@@ -978,7 +978,7 @@
 			"weapon_slot"				"primary"
 			"act_table"					"knife"
 			"weapon_weight"				"20"
-			"weapon_cost"				"4"
+			"weapon_cost"				"8"
 			"class_restricted"			"1"
 			"barrel_length"				"-1"
 			
@@ -998,8 +998,8 @@
 			
 			"melee"
 			{
-				"MeleeRange"				"330"
-				"MeleeDamage"				"570"
+				"MeleeRange"				"135"
+				"MeleeDamage"				"300"
 				"MeleeDamageBehindBonus"	"100"
 				"MeleeDamageType"			"DMG_SLASH"
 				"MeleeWeaponIdleTime"		"1"
@@ -1049,7 +1049,7 @@
 			"weapon_slot"				"secondary"
 			"act_table"					"knife"
 			"weapon_weight"				"15"
-			"weapon_cost"				"3"
+			"weapon_cost"				"7"
 			"class_restricted"			"1"
 			"barrel_length"				"-1"
 			
@@ -1069,8 +1069,8 @@
 			
 			"melee"
 			{
-				"MeleeRange"				"280"
-				"MeleeDamage"				"450"
+				"MeleeRange"				"115"
+				"MeleeDamage"				"216"
 				"MeleeDamageBehindBonus"	"100"
 				"MeleeDamageType"			"DMG_SLASH"
 				"MeleeWeaponIdleTime"		"3"
@@ -1190,7 +1190,7 @@
 			"weapon_slot"				"secondary"
 			"act_table"					"knife"
 			"weapon_weight"				"0"
-			"weapon_cost"				"1"
+			"weapon_cost"				"2"
 			"class_restricted"			"1"
 			"barrel_length"				"-1"
 			
@@ -1208,7 +1208,7 @@
 			}
 			"melee"
 			{
-				"MeleeRange"				"150"
+				"MeleeRange"				"75"
 				"MeleeDamage"				"300"
 				"MeleeDamageBehindBonus"		"200"
 				"MeleeDamageType"			"DMG_SLASH"
@@ -1315,8 +1315,8 @@
 			"import"				"weapon_base"
 			"weapon_class"				"other_explosive"
 			"weapon_type"				"grenade"
-			"print_name"				"#weapon_healthkit"
-			"print_desc"				"#weapon_healthkit_desc"
+			"print_name"				"#weapon_healthkit_aus"
+			"print_desc"				"#weapon_healthkit_aus_desc"
 			"single_use"				"1"
 			"view_model"				"models/weapons/v_healthkit_sec.mdl"
 			"world_model"				"models/weapons/w_healthkit.mdl"
@@ -1436,7 +1436,7 @@
 			"team_access"				"insurgent, security"
 		}
 
-		"weapon_m72law"
+		"weapon_law"
 		{
 			"import"				"weapon_base"
 			"weapon_class"				"launcher"
@@ -1447,17 +1447,18 @@
 			"view_model"				"models/weapons/v_m72law.mdl"
 			"world_model"				"models/weapons/w_m72law.mdl"
 			"weapon_slot"				"explosive"
-			"weapon_max_subslot"		"1"	// can only be in the first explosive slot
-			"act_table"					"launcher_at4"
-			"weapon_weight"				"100"
-			"weapon_cost"				"3"
+			"weapon_max_subslot"			"0"	// can only be in the first explosive slot
+			"act_table"				"launcher_at4"
+			"weapon_weight"				"0"
+			"weapon_cost"				"4"
 			"weapon_abilities"			"ironsight"
-			"barrel_length"				"40"
+			"barrel_length"				"0"
+			"class_restricted"			"0"	
 			
 			"sounds"
 			{
-				"shot_single"				"Weapon_AT4.Single"
-				"shot_single_local"			"Weapon_AT4.SingleLocal"
+				"shot_single"			"Weapon_Bazooka.Single"
+				"shot_single_local"		"Weapon_Bazooka.SingleLocal"
 				"empty"					"Weapon_RPG7.Empty"
 				"load"					"Weapon_RPG7.Load"
 				"unload"				"Weapon_RPG7.Unload"
@@ -1465,7 +1466,7 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"			"-1.0 1.0"
+				"recoil_lateral_range"			"-0.5 0.5"
 				"recoil_vertical_range"			"4.0 6.0"
 				"recoil_aim_punch"			"1.0 1.0"
 				"recoil_rest_rate"			"12"
@@ -1500,10 +1501,6 @@
 				"fov_wpn_default"			"60"
 				"fov_wpn_ironsight"			"48"
 				"fov_wpn_focus"				"48"
-			}
-			"kitui_offset"
-			{
-				"position"				"24 0 3"
 			}
 			"attachments"
 			{

@@ -159,7 +159,7 @@
 			
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_ae_saiga12"
+				//"weapon"				"weapon_ae_saiga12"
 			}
 		}
 		"ammo_aa12_frag"
@@ -169,7 +169,7 @@
 			
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_aa12"
+				//"weapon"				"weapon_aa12"
 			}
 		}
 		"an94_full_base"

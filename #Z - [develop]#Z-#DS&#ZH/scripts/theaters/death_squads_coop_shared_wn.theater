@@ -1,10 +1,10 @@
 "#base" "death_squads_base_player.theater"
-"#base" "death_squads_base_common_ammo_test.theater"
+"#base" "death_squads_base_common_ammo_test_zh.theater"
 
 "#base" "death_squads_gear_test_zh.theater"
-"#base" "death_squads_weapon.theater"
+"#base" "death_squads_weapon_zh.theater"
 "#base" "death_squads_custom_weapon_zh.theater"
-"#base" "death_squads_weapon_upgrades.theater"
+"#base" "death_squads_weapon_upgrades_zh.theater"
 
 "#base" "death_squads_base.theater"
 
@@ -83,7 +83,7 @@
 				"weapon"			"weapon_mateba"
 				"weapon"			"weapon_kabar"
 				"gear"				"sec_anti_explosion_clothing"
-				"gear"               		"sec_heavy_carrier"
+				//"gear"               		"sec_heavy_carrier"
 				"gear"					"gear_healthkit"
 			}
 			"allowed_items"
@@ -139,7 +139,7 @@
 				// CUSTOM GEAR-------------CUSTOM
 				// ========================================
 				//"gear"               		"sec_super_armor"
-				"gear"               		"sec_heavy_carrier"
+				//"gear"               		"sec_heavy_carrier"
 				// ========================================
 				// CUSTOM MELEE-------------CUSTOM
 				// ========================================
@@ -206,7 +206,7 @@
 				"weapon"			"weapon_ae_colt9mm"
 				"weapon"			"weapon_spectre_m4"
 				"weapon_upgrade"	"underbarrel_m203_he"
-				"weapon_upgrade"	"underbarrel_m203_phosphorus"
+				//"weapon_upgrade"	"underbarrel_m203_phosphorus"
 				"weapon_upgrade"	"underbarrel_m320_he"
 				"weapon_upgrade"	"underbarrel_m320_phosphorus"
 				"weapon_upgrade"	"underbarrel_gp25_he"
@@ -250,7 +250,7 @@
 				"weapon_upgrade"
 				{
 					"underbarrel_m203_he"				"-4"
-					"underbarrel_m203_phosphorus"			"-4"
+					//"underbarrel_m203_phosphorus"			"-4"
 					"underbarrel_m320_he"				"-4"
 					"underbarrel_m320_phosphorus"			"-4"
 					"underbarrel_gp25_he"				"-4"
@@ -524,7 +524,7 @@
 				// ========================================
 				// CUSTOM GEAR-------------CUSTOM
 				// ========================================
-				"gear"               		"sec_heavy_carrier"
+				//"gear"               		"sec_heavy_carrier"
 				// ========================================
 				// CUSTOM MELEE-------------CUSTOM
 				// ========================================
@@ -590,7 +590,7 @@
 				"weapon"			"weapon_ae_colt9mm"
 				"weapon"			"weapon_spectre_m4"
 				"weapon_upgrade"	"underbarrel_m203_he"
-				"weapon_upgrade"	"underbarrel_m203_phosphorus"
+				//"weapon_upgrade"	"underbarrel_m203_phosphorus"
 				"weapon_upgrade"	"underbarrel_m320_he"
 				"weapon_upgrade"	"underbarrel_m320_phosphorus"
 				"weapon_upgrade"	"underbarrel_gp25_he"
@@ -629,7 +629,7 @@
 				"weapon_upgrade"
 				{
 					"underbarrel_m203_he"				"-4"
-					"underbarrel_m203_phosphorus"			"-4"
+					//"underbarrel_m203_phosphorus"			"-4"
 					"underbarrel_m320_he"				"-4"
 					"underbarrel_m320_phosphorus"			"-4"
 					"underbarrel_gp25_he"				"-4"
@@ -852,7 +852,7 @@
 				"weapon"			"weapon_m4a1"
 				"weapon"        		"weapon_ae_mp7"
 				"gear"				"sec_anti_explosion_clothing"
-				"gear"               		"sec_heavy_carrier"
+				//"gear"               		"sec_heavy_carrier"
 				"gear"					"gear_healthkit"
 				"gear"					"gear_barricade"
 			}
@@ -902,7 +902,7 @@
 				// ========================================
 				// CUSTOM GEAR-------------CUSTOM
 				// ========================================
-				"gear"               		"sec_heavy_carrier"
+				//"gear"               		"sec_heavy_carrier"
 				// ========================================
 				// CUSTOM MELEE-------------CUSTOM
 				// ========================================
@@ -969,7 +969,7 @@
 				"weapon"			"weapon_spectre_m4"
 				"weapon_upgrade"	"magazine_drum_75rd"
 				"weapon_upgrade"	"underbarrel_m203_he"
-				"weapon_upgrade"	"underbarrel_m203_phosphorus"
+				//"weapon_upgrade"	"underbarrel_m203_phosphorus"
 				"weapon_upgrade"	"underbarrel_m203_smoke"
 				"weapon_upgrade"	"underbarrel_m320_he"
 				"weapon_upgrade"	"underbarrel_m320_phosphorus"
@@ -1009,7 +1009,7 @@
 				{
 					"underbarrel_m203_he"				"-4"
 					"underbarrel_m203_smoke"			"-2"
-					"underbarrel_m203_phosphorus"			"-4"
+					//"underbarrel_m203_phosphorus"			"-4"
 					"underbarrel_m320_he"				"-4"
 					"underbarrel_m320_smoke"			"-2"
 					"underbarrel_m320_phosphorus"			"-4"
@@ -1694,7 +1694,7 @@
 				// CUSTOM GEAR-------------CUSTOM
 				// ========================================
 				//"gear"               		"sec_super_armor"
-				"gear"               		"sec_heavy_carrier"
+				//"gear"               		"sec_heavy_carrier"
 				// ========================================
 				// CUSTOM MELEE-------------CUSTOM
 				// ========================================
@@ -1787,7 +1787,7 @@
 				"weapon"			"weapon_ae_colt9mm"
 				"weapon"			"weapon_spectre_m4"
 				"weapon_upgrade"	"underbarrel_m203_he"
-				"weapon_upgrade"	"underbarrel_m203_phosphorus"
+				//"weapon_upgrade"	"underbarrel_m203_phosphorus"
 				"weapon_upgrade"	"underbarrel_m203_smoke"
 				"weapon_upgrade"	"underbarrel_m320_he"
 				"weapon_upgrade"	"underbarrel_m320_phosphorus"
@@ -2023,6 +2023,8 @@
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m249"
 				"weapon"			"weapon_ae_glock18"
+				"gear"				"gear_healthkit"
+				"gear"				"gear_portable_radar"
 			}
 			"allowed_items"
 			{
@@ -2031,6 +2033,8 @@
 				"gear"				"sec_chest_rig"
 				"gear"				"sec_chest_carrier"
 				"gear"               		"sec_nightvision"
+				"gear"				"gear_healthkit"
+				"gear"				"gear_portable_radar"
 							// ROCKETS
 				"weapon"			"weapon_rpg7"
 				"weapon"			"weapon_at4"
@@ -2069,7 +2073,7 @@
 				// ========================================
 				// CUSTOM GEAR-------------CUSTOM
 				// ========================================
-				"gear"               		"sec_heavy_carrier"
+				//"gear"               		"sec_heavy_carrier"
 				// ========================================
 				// CUSTOM MELEE-------------CUSTOM
 				// ========================================

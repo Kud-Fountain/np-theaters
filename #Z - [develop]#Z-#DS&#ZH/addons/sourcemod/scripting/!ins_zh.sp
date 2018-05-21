@@ -10,7 +10,7 @@
 new bool:ZH_DEBUG					=						false;
 
 #define GAMEDESC "僵尸暴动 [中文版]"
-#define PLUGIN_VERSION "1.6.1"
+#define PLUGIN_VERSION "0.91/1.6.1"
 #define PLUGIN_DESCRIPTION "x_x"
 public Plugin:myinfo =
 {
@@ -29,8 +29,10 @@ public Plugin:myinfo =
 #define		TEAM_ZOMBIES		3
 
 /**			WEAPON INDEX VALUES			**/
-#define		WEAPON_FLAREGUN		121
-#define		WEAPON_HEALTHKIT	40
+#define		WEAPON_FLAREGUN		17
+#define		WEAPON_HEALTHKIT	59
+#define		WEAPON_LAW			14
+#define		WEAPON_AT4			2
 
 #define ZOMBIE_DUMMY_WEAPON					"weapon_model10"
 #define ZOMBIE_COMMON_INDEX					0
@@ -128,15 +130,15 @@ new Float:FCVAR_BOT_WEAPONCACHE_INTEL_MODE_CHANCE						=			10.10;
 
 // Player cvars
 new CVAR_PLAYER_HEALTH									=			100;
-new CVAR_PLAYER_GLOW_HEALTH								=			40;
-new CVAR_PLAYER_HEALTHKIT_HEAL_MIN						=			25;
-new CVAR_PLAYER_HEALTHKIT_HEAL_MAX						=			40; //50
+new CVAR_PLAYER_GLOW_HEALTH								=			45;
+new CVAR_PLAYER_HEALTHKIT_HEAL_MIN						=			20;
+new CVAR_PLAYER_HEALTHKIT_HEAL_MAX						=			25; //50
 /*new CVAR_PLAYER_HEALTHKIT_MEDIC_HEAL_MIN				=			50;
 new CVAR_PLAYER_HEALTHKIT_MEDIC_HEAL_MAX				=			70;		*/
-new CVAR_PLAYER_HEALTHKIT_MIN_HEALTH					=			30; //65
-new CVAR_PLAYER_HEALTHKIT_MAX_HEALTH					=			35; //75
-new CVAR_PLAYER_HEALTHKIT_MEDIC_MIN_HEALTH				=			40; //80
-new CVAR_PLAYER_HEALTHKIT_MEDIC_MAX_HEALTH				=			45; //90
+new CVAR_PLAYER_HEALTHKIT_MIN_HEALTH					=			45; //65
+new CVAR_PLAYER_HEALTHKIT_MAX_HEALTH					=			50; //75
+new CVAR_PLAYER_HEALTHKIT_MEDIC_MIN_HEALTH				=			70; //80
+new CVAR_PLAYER_HEALTHKIT_MEDIC_MAX_HEALTH				=			80; //90
 /*		No Random Healing HP Config
 new Float:FCVAR_PLAYER_HEALTHKIT_BANDAGE_BASE_TIME		=			1.2;	// seconds per 10 hp
 new Float:FCVAR_PLAYER_HEALTHKIT_BANDAGE_MIN_TIME		=			5.0;
@@ -152,7 +154,7 @@ new Float:FCVAR_PLAYER_HEALTHKIT_TEAMMATE_DISTANCE_MAX	=			140.0;
 //new CVAR_PLAYER_MEDIC_GLOW_PLAYERS_WHEN_LOWHP			=			60;
 new Float:FCVAR_PLAYER_NEARDEATH_FADEOUT_INTERVAL_MIN	=			30.0;
 new Float:FCVAR_PLAYER_NEARDEATH_FADEOUT_INTERVAL_MAX	=			60.0;
-new Float:FCVAR_PLAYER_MEDIC_REQUEST_COOLTIME			=			20.0;
+new Float:FCVAR_PLAYER_MEDIC_REQUEST_COOLTIME			=			5.0;
 /*		Specials	*/
 new Float:FCVAR_PLAYER_RECON_UAV_COOLDOWN				=			150.0;	// UAV RunTime(2.4*15 = 36s)+Delays
 
@@ -175,23 +177,23 @@ new Float:FCVAR_PLAYER_BURN_MAX_TIME					=			5.0;
 new Float:FCVAR_PLAYER_SPAWN_PROTECTION							=			6.66;
 new CVAR_PLAYER_REINFORCEMENT_RATIO								=			20;
 new CVAR_PLAYER_REINFORCEMENT_MIN								=			1;
-new CVAR_PLAYER_REINFORCEMENT_MAX								=			6;
-new Float:FCVAR_PLAYER_REINFORCEMENT_DEPLOY_TIME				=			90.0;
+new CVAR_PLAYER_REINFORCEMENT_MAX								=			6; //6
+new Float:FCVAR_PLAYER_REINFORCEMENT_DEPLOY_TIME				=			60.0; //90
 //new Float:FCVAR_PLAYER_REINFORCEMENT_COUNTER_DEPLOY_TIME		=			50.0;
 new Float:FCVAR_PLAYER_REINFORCEMENT_COUNTER_DEPLOY_TIME		=			999.0;
-new Float:FCVAR_PLAYER_REINFORCEMENT_END_TIME					=			80.0;
-new CVAR_PLAYER_REINFORCEMENT_MAX_PER_POINT						=			2;
+new Float:FCVAR_PLAYER_REINFORCEMENT_END_TIME					=			80.0; //80
+new CVAR_PLAYER_REINFORCEMENT_MAX_PER_POINT						=			1;
 new Float:FCVAR_PLAYER_BLEEDING_BULLET_CHANCE					=			8.88;
 //new Float:FCVAR_PLAYER_BLEEDING_EXPLOSIVE_CHANCE				=			44.44;
-new Float:FCVAR_PLAYER_BLEEDING_INTERVAL_MIN					=			5.0; //10
+new Float:FCVAR_PLAYER_BLEEDING_INTERVAL_MIN					=			8.0; //10
 new Float:FCVAR_PLAYER_BLEEDING_INTERVAL_MAX					=			10.0; //20
-new CVAR_PLAYER_BLEEDING_DAMAGE_MIN								=			15; //2
-new CVAR_PLAYER_BLEEDING_DAMAGE_MAX								=			20; //6
+new CVAR_PLAYER_BLEEDING_DAMAGE_MIN								=			9; //2
+new CVAR_PLAYER_BLEEDING_DAMAGE_MAX								=			15; //6
 new Float:FCVAR_PLAYER_INFECTION_CHANCE							=		50.0; //33.3
-new Float:FCVAR_PLAYER_INFECTION_TIMEINTERVAL_MIN				=		5.0;
-new Float:FCVAR_PLAYER_INFECTION_TIMEINTERVAL_MAX				=		10.0;
-new CVAR_PLAYER_INFECTION_DAMAGE_MIN 							=		15; //2
-new CVAR_PLAYER_INFECTION_DAMAGE_MAX 							=		20; //6
+new Float:FCVAR_PLAYER_INFECTION_TIMEINTERVAL_MIN				=		8.0; //10
+new Float:FCVAR_PLAYER_INFECTION_TIMEINTERVAL_MAX				=		10.0; //20
+new CVAR_PLAYER_INFECTION_DAMAGE_MIN 							=		9; //2
+new CVAR_PLAYER_INFECTION_DAMAGE_MAX 							=		15; //6
 new String:SCVAR_INFECTION_DAMAGE_CLASSNAME[128] 				=		"Infection";
 	// Bots
 new Float:FCVAR_BOT_RESPAWN_WHEN_LIVE_TOO_LONG					=			40.0;
@@ -214,7 +216,7 @@ new Float:FCVAR_BOT_REINFORCEMENT_COUNTER_END_TIME				=			5.0;
 new CVAR_BOT_REINFORCEMENT_MAX_PER_POINT						=			15;
 new Float:FCVAR_BOT_REINFORCEMENT_BACKATTACK_CHANCE				=			30.0;
 new Float:FCVAR_BOT_REINFORCEMENT_COUNTER_BACKATTACK_CHANCE		=			50.0;
-new Float:FCVAR_FINAL_COUNTERATTACK_TIME						=			240.0;
+new Float:FCVAR_FINAL_COUNTERATTACK_TIME						=			270.0;
 
 /*		HEARTBEATS		*/
 /*new Float:FCVAR_PLAYER_HEARTBEAT_INTERVAL				=			1.5;
@@ -225,17 +227,17 @@ new Float:FCVAR_PLAYER_HEARTBEAT_FAST_INTERVAL			=			0.8;	*/
 						**/
 new CVAR_ZOMBIE_COMMON_HEALTH_MIN						=		400;
 new CVAR_ZOMBIE_COMMON_HEALTH_MAX						=		500;
-new CVAR_ZOMBIE_COMMON_BOT_HEALTH_MIN					=		500; //300
-new CVAR_ZOMBIE_COMMON_BOT_HEALTH_MAX					=		600; //500
+new CVAR_ZOMBIE_COMMON_BOT_HEALTH_MIN					=		350; //300
+new CVAR_ZOMBIE_COMMON_BOT_HEALTH_MAX					=		500; //500
 new Float:FCVAR_ZOMBIE_COMMON_SIZE_MIN					=		0.90;
 new Float:FCVAR_ZOMBIE_COMMON_SIZE_MAX					=		1.10;
 new CVAR_ZOMBIE_COMMON_COLOR_RED						=		255;
 new CVAR_ZOMBIE_COMMON_COLOR_GREEN						=		255;
 new CVAR_ZOMBIE_COMMON_COLOR_BLUE						=		255;
-new Float:FCVAR_ZOMBIE_COMMON_SPEED_MIN					=		1.36; //1.14
-new Float:FCVAR_ZOMBIE_COMMON_SPEED_MAX					=		1.40; //1.16
-new Float:FCVAR_ZOMBIE_COMMON_BOT_SPEED_MIN				=		1.40; //1.15
-new Float:FCVAR_ZOMBIE_COMMON_BOT_SPEED_MAX				=		1.50; //1.25
+new Float:FCVAR_ZOMBIE_COMMON_SPEED_MIN					=		1.20; //1.14
+new Float:FCVAR_ZOMBIE_COMMON_SPEED_MAX					=		1.22; //1.16
+new Float:FCVAR_ZOMBIE_COMMON_BOT_SPEED_MIN				=		1.21; //1.15
+new Float:FCVAR_ZOMBIE_COMMON_BOT_SPEED_MAX				=		1.31; //1.25
 new Float:FCVAR_ZOMBIE_COMMON_DAMAGE_MIN 				=		12.0; //12
 new Float:FCVAR_ZOMBIE_COMMON_DAMAGE_MAX 				=		18.0; //18
 new Float:FCVAR_ZOMBIE_COMMON_DAMAGE_BACKATTACK_MIN 	=		24.0; //24
@@ -248,10 +250,10 @@ new CVAR_ZOMBIE_BLINKER_RESTRICT						=		0;
 new CVAR_ZOMBIE_BLINKER_MAX_SPAWN						=		-2;
 new Float:FCVAR_ZOMBIE_BLINKER_MAX_SPAWN_PER_SURVIVORS	=		0.4;
 new Float:FCVAR_ZOMBIE_BLINKER_MAX_SPAWN_PER_ZOMBIES	=		0.0;
-new CVAR_ZOMBIE_BLINKER_HEALTH_MIN						=		1500; //300
-new CVAR_ZOMBIE_BLINKER_HEALTH_MAX						=		2000; //360
-new CVAR_ZOMBIE_BLINKER_BOT_HEALTH_MIN					=		1500; //200
-new CVAR_ZOMBIE_BLINKER_BOT_HEALTH_MAX					=		2000; //360
+new CVAR_ZOMBIE_BLINKER_HEALTH_MIN						=		1000; //300
+new CVAR_ZOMBIE_BLINKER_HEALTH_MAX						=		1500; //360
+new CVAR_ZOMBIE_BLINKER_BOT_HEALTH_MIN					=		1000; //200
+new CVAR_ZOMBIE_BLINKER_BOT_HEALTH_MAX					=		1500; //360
 // new Float:FCVAR_ZOMBIE_BLINKER_PENALTY_TIME				=		60.0;
 // new Float:FCVAR_ZOMBIE_BLINKER_BOT_PENALTY_TIME			=		50.0;
 new Float:FCVAR_ZOMBIE_BLINKER_SIZE_MIN					=		0.92;
@@ -260,10 +262,10 @@ new CVAR_ZOMBIE_BLINKER_COLOR_RED						=		222;
 new CVAR_ZOMBIE_BLINKER_COLOR_GREEN						=		222;
 new CVAR_ZOMBIE_BLINKER_COLOR_BLUE						=		222;
 new CVAR_ZOMBIE_BLINKER_COLOR_ALPHA						=		177;
-new Float:FCVAR_ZOMBIE_BLINKER_SPEED_MIN				=		1.30; //1.14
-new Float:FCVAR_ZOMBIE_BLINKER_SPEED_MAX				=		1.35; //1.16
-new Float:FCVAR_ZOMBIE_BLINKER_BOT_SPEED_MIN			=		1.30; //1.12
-new Float:FCVAR_ZOMBIE_BLINKER_BOT_SPEED_MAX			=		1.34; //1.14
+new Float:FCVAR_ZOMBIE_BLINKER_SPEED_MIN				=		1.20; //1.14
+new Float:FCVAR_ZOMBIE_BLINKER_SPEED_MAX				=		1.22; //1.16
+new Float:FCVAR_ZOMBIE_BLINKER_BOT_SPEED_MIN			=		1.18; //1.12
+new Float:FCVAR_ZOMBIE_BLINKER_BOT_SPEED_MAX			=		1.20; //1.14
 new Float:FCVAR_ZOMBIE_BLINKER_DAMAGE_MIN 				=		10.0;
 new Float:FCVAR_ZOMBIE_BLINKER_DAMAGE_MAX 				=		16.0;
 new Float:FCVAR_ZOMBIE_BLINKER_DAMAGE_BACKATTACK_MIN 	=		20.0;
@@ -274,10 +276,10 @@ new CVAR_ZOMBIE_STALKER_RESTRICT						=		0;
 new CVAR_ZOMBIE_STALKER_MAX_SPAWN						=		-2;
 new Float:FCVAR_ZOMBIE_STALKER_MAX_SPAWN_PER_SURVIVORS	=		1.55;
 new Float:FCVAR_ZOMBIE_STALKER_MAX_SPAWN_PER_ZOMBIES	=		0.0;
-new CVAR_ZOMBIE_STALKER_HEALTH_MIN						=		1500; //300
-new CVAR_ZOMBIE_STALKER_HEALTH_MAX						=		2000; //400
-new CVAR_ZOMBIE_STALKER_BOT_HEALTH_MIN					=		1500; //200
-new CVAR_ZOMBIE_STALKER_BOT_HEALTH_MAX					=		2000; //300
+new CVAR_ZOMBIE_STALKER_HEALTH_MIN						=		1000; //300
+new CVAR_ZOMBIE_STALKER_HEALTH_MAX						=		1500; //400
+new CVAR_ZOMBIE_STALKER_BOT_HEALTH_MIN					=		1000; //200
+new CVAR_ZOMBIE_STALKER_BOT_HEALTH_MAX					=		1500; //300
 // new Float:FCVAR_ZOMBIE_STALKER_PENALTY_TIME				=		40.0;
 // new Float:FCVAR_ZOMBIE_STALKER_BOT_PENALTY_TIME			=		20.0;
 new Float:FCVAR_ZOMBIE_STALKER_SIZE_MIN					=		0.74;
@@ -285,24 +287,24 @@ new Float:FCVAR_ZOMBIE_STALKER_SIZE_MAX					=		0.77;
 new CVAR_ZOMBIE_STALKER_COLOR_RED						=		255;
 new CVAR_ZOMBIE_STALKER_COLOR_GREEN						=		255;
 new CVAR_ZOMBIE_STALKER_COLOR_BLUE						=		255;
-new Float:FCVAR_ZOMBIE_STALKER_SPEED_MIN				=		1.30; //1.20
-new Float:FCVAR_ZOMBIE_STALKER_SPEED_MAX				=		1.35; //1.22
-new Float:FCVAR_ZOMBIE_STALKER_BOT_SPEED_MIN			=		1.30; //1.10
-new Float:FCVAR_ZOMBIE_STALKER_BOT_SPEED_MAX			=		1.40; //1.16
+new Float:FCVAR_ZOMBIE_STALKER_SPEED_MIN				=		1.26; //1.20
+new Float:FCVAR_ZOMBIE_STALKER_SPEED_MAX				=		1.28; //1.22
+new Float:FCVAR_ZOMBIE_STALKER_BOT_SPEED_MIN			=		1.16; //1.10
+new Float:FCVAR_ZOMBIE_STALKER_BOT_SPEED_MAX			=		1.22; //1.16
 new Float:FCVAR_ZOMBIE_STALKER_DAMAGE_MIN 				=		10.0;
 new Float:FCVAR_ZOMBIE_STALKER_DAMAGE_MAX 				=		16.0;
 new Float:FCVAR_ZOMBIE_STALKER_DAMAGE_BACKATTACK_MIN 	=		20.0;
 new Float:FCVAR_ZOMBIE_STALKER_DAMAGE_BACKATTACK_MAX 	=		24.0;
 
-new Float:FCVAR_ZOMBIE_KNIGHT_CHANCE					=		12.4; //11.1
+new Float:FCVAR_ZOMBIE_KNIGHT_CHANCE					=		8.0; //11.1
 new CVAR_ZOMBIE_KNIGHT_RESTRICT							=		0;
 new CVAR_ZOMBIE_KNIGHT_MAX_SPAWN						=		-2;
 new Float:FCVAR_ZOMBIE_KNIGHT_MAX_SPAWN_PER_SURVIVORS	=		0.6;
 new Float:FCVAR_ZOMBIE_KNIGHT_MAX_SPAWN_PER_ZOMBIES		=		0.0;
 new CVAR_ZOMBIE_KNIGHT_HEALTH_MIN						=		5000; //2800
-new CVAR_ZOMBIE_KNIGHT_HEALTH_MAX						=		6800; //3400
-new CVAR_ZOMBIE_KNIGHT_BOT_HEALTH_MIN					=		4000; //1500
-new CVAR_ZOMBIE_KNIGHT_BOT_HEALTH_MAX					=		6000; //3000
+new CVAR_ZOMBIE_KNIGHT_HEALTH_MAX						=		5500; //3400
+new CVAR_ZOMBIE_KNIGHT_BOT_HEALTH_MIN					=		5200; //1500
+new CVAR_ZOMBIE_KNIGHT_BOT_HEALTH_MAX					=		5700; //3000
 // new Float:FCVAR_ZOMBIE_KNIGHT_PENALTY_TIME				=		50.0;
 // new Float:FCVAR_ZOMBIE_KNIGHT_BOT_PENALTY_TIME			=		30.0;
 new Float:FCVAR_ZOMBIE_KNIGHT_SIZE_MIN					=		1.50; //1.36
@@ -310,10 +312,10 @@ new Float:FCVAR_ZOMBIE_KNIGHT_SIZE_MAX					=		1.58; //1.44
 new CVAR_ZOMBIE_KNIGHT_COLOR_RED						=		255;
 new CVAR_ZOMBIE_KNIGHT_COLOR_GREEN						=		166;
 new CVAR_ZOMBIE_KNIGHT_COLOR_BLUE						=		166;
-new Float:FCVAR_ZOMBIE_KNIGHT_SPEED_MIN					=		1.3; //1.1
-new Float:FCVAR_ZOMBIE_KNIGHT_SPEED_MAX					=		1.36; //1.12
-new Float:FCVAR_ZOMBIE_KNIGHT_BOT_SPEED_MIN				=		1.3; //1.10
-new Float:FCVAR_ZOMBIE_KNIGHT_BOT_SPEED_MAX				=		1.40; //1.15
+new Float:FCVAR_ZOMBIE_KNIGHT_SPEED_MIN					=		1.16; //1.1
+new Float:FCVAR_ZOMBIE_KNIGHT_SPEED_MAX					=		1.18; //1.12
+new Float:FCVAR_ZOMBIE_KNIGHT_BOT_SPEED_MIN				=		1.16; //1.10
+new Float:FCVAR_ZOMBIE_KNIGHT_BOT_SPEED_MAX				=		1.21; //1.15
 new Float:FCVAR_ZOMBIE_KNIGHT_DAMAGE_MIN 				=		16.0;
 new Float:FCVAR_ZOMBIE_KNIGHT_DAMAGE_MAX 				=		20.0;
 new Float:FCVAR_ZOMBIE_KNIGHT_DAMAGE_BACKATTACK_MIN 	=		26.0;
@@ -327,10 +329,10 @@ new CVAR_ZOMBIE_BURNER_RESTRICT							=		0;
 new CVAR_ZOMBIE_BURNER_MAX_SPAWN						=		-2;
 new Float:FCVAR_ZOMBIE_BURNER_MAX_SPAWN_PER_SURVIVORS	=		1.15;
 new Float:FCVAR_ZOMBIE_BURNER_MAX_SPAWN_PER_ZOMBIES		=		0.0;
-new CVAR_ZOMBIE_BURNER_HEALTH_MIN						=		1500; //300
-new CVAR_ZOMBIE_BURNER_HEALTH_MAX						=		2000; //500
-new CVAR_ZOMBIE_BURNER_BOT_HEALTH_MIN					=		1500; //300
-new CVAR_ZOMBIE_BURNER_BOT_HEALTH_MAX					=		2000; //450
+new CVAR_ZOMBIE_BURNER_HEALTH_MIN						=		1000; //300
+new CVAR_ZOMBIE_BURNER_HEALTH_MAX						=		1500; //500
+new CVAR_ZOMBIE_BURNER_BOT_HEALTH_MIN					=		1000; //300
+new CVAR_ZOMBIE_BURNER_BOT_HEALTH_MAX					=		1500; //450
 // new Float:FCVAR_ZOMBIE_BURNER_PENALTY_TIME				=		40.0;
 // new Float:FCVAR_ZOMBIE_BURNER_BOT_PENALTY_TIME			=		30.0;
 new Float:FCVAR_ZOMBIE_BURNER_SIZE_MIN					=		0.95;
@@ -338,10 +340,10 @@ new Float:FCVAR_ZOMBIE_BURNER_SIZE_MAX					=		1.05;
 new CVAR_ZOMBIE_BURNER_COLOR_RED						=		99;
 new CVAR_ZOMBIE_BURNER_COLOR_GREEN						=		99;
 new CVAR_ZOMBIE_BURNER_COLOR_BLUE						=		99;
-new Float:FCVAR_ZOMBIE_BURNER_SPEED_MIN					=		1.30; //1.16
-new Float:FCVAR_ZOMBIE_BURNER_SPEED_MAX					=		1.40; //1.20
-new Float:FCVAR_ZOMBIE_BURNER_BOT_SPEED_MIN				=		1.35; //1.20
-new Float:FCVAR_ZOMBIE_BURNER_BOT_SPEED_MAX				=		1.40; //1.25
+new Float:FCVAR_ZOMBIE_BURNER_SPEED_MIN					=		1.22; //1.16
+new Float:FCVAR_ZOMBIE_BURNER_SPEED_MAX					=		1.26; //1.20
+new Float:FCVAR_ZOMBIE_BURNER_BOT_SPEED_MIN				=		1.26; //1.20
+new Float:FCVAR_ZOMBIE_BURNER_BOT_SPEED_MAX				=		1.31; //1.25
 new Float:FCVAR_ZOMBIE_BURNER_HURT_BULLET_DETONATE_CHANCE			=		0.5; //0.33
 new Float:FCVAR_ZOMBIE_BURNER_DAMAGE_MIN 				=		12.0;
 new Float:FCVAR_ZOMBIE_BURNER_DAMAGE_MAX 				=		18.0;
@@ -353,10 +355,10 @@ new CVAR_ZOMBIE_SMOKER_RESTRICT							=		0;
 new CVAR_ZOMBIE_SMOKER_MAX_SPAWN						=		-2;
 new Float:FCVAR_ZOMBIE_SMOKER_MAX_SPAWN_PER_SURVIVORS	=		0.255;
 new Float:FCVAR_ZOMBIE_SMOKER_MAX_SPAWN_PER_ZOMBIES		=		0.0;
-new CVAR_ZOMBIE_SMOKER_HEALTH_MIN						=		1500; //300
-new CVAR_ZOMBIE_SMOKER_HEALTH_MAX						=		2000; //350
-new CVAR_ZOMBIE_SMOKER_BOT_HEALTH_MIN					=		1500; //250
-new CVAR_ZOMBIE_SMOKER_BOT_HEALTH_MAX					=		2000; //350
+new CVAR_ZOMBIE_SMOKER_HEALTH_MIN						=		1000; //300
+new CVAR_ZOMBIE_SMOKER_HEALTH_MAX						=		1500; //350
+new CVAR_ZOMBIE_SMOKER_BOT_HEALTH_MIN					=		1000; //250
+new CVAR_ZOMBIE_SMOKER_BOT_HEALTH_MAX					=		1500; //350
 // new Float:FCVAR_ZOMBIE_SMOKER_PENALTY_TIME				=		60.0;
 // new Float:FCVAR_ZOMBIE_SMOKER_BOT_PENALTY_TIME			=		50.0;
 new Float:FCVAR_ZOMBIE_SMOKER_SIZE_MIN					=		0.95;
@@ -364,10 +366,10 @@ new Float:FCVAR_ZOMBIE_SMOKER_SIZE_MAX					=		1.05;
 new CVAR_ZOMBIE_SMOKER_COLOR_RED						=		188;
 new CVAR_ZOMBIE_SMOKER_COLOR_GREEN						=		188;
 new CVAR_ZOMBIE_SMOKER_COLOR_BLUE						=		188;
-new Float:FCVAR_ZOMBIE_SMOKER_SPEED_MIN					=		1.30; //1.10
-new Float:FCVAR_ZOMBIE_SMOKER_SPEED_MAX					=		1.40; //1.15
-new Float:FCVAR_ZOMBIE_SMOKER_BOT_SPEED_MIN				=		1.35; //1.20
-new Float:FCVAR_ZOMBIE_SMOKER_BOT_SPEED_MAX				=		1.45; //1.25
+new Float:FCVAR_ZOMBIE_SMOKER_SPEED_MIN					=		1.16; //1.10
+new Float:FCVAR_ZOMBIE_SMOKER_SPEED_MAX					=		1.21; //1.15
+new Float:FCVAR_ZOMBIE_SMOKER_BOT_SPEED_MIN				=		1.26; //1.20
+new Float:FCVAR_ZOMBIE_SMOKER_BOT_SPEED_MAX				=		1.31; //1.25
 new Float:FCVAR_ZOMBIE_SMOKER_DAMAGE_MIN 				=		12.0;
 new Float:FCVAR_ZOMBIE_SMOKER_DAMAGE_MAX 				=		16.0;
 new Float:FCVAR_ZOMBIE_SMOKER_DAMAGE_BACKATTACK_MIN 	=		20.0;
@@ -378,10 +380,10 @@ new CVAR_ZOMBIE_IED_RESTRICT									=		0;
 new CVAR_ZOMBIE_IED_MAX_SPAWN									=		-2;
 new Float:FCVAR_ZOMBIE_IED_MAX_SPAWN_PER_SURVIVORS				=		1.00;
 new Float:FCVAR_ZOMBIE_IED_MAX_SPAWN_PER_ZOMBIES				=		0.0;
-new CVAR_ZOMBIE_IED_HEALTH_MIN									=		1500; //300
-new CVAR_ZOMBIE_IED_HEALTH_MAX									=		2000; //350
-new CVAR_ZOMBIE_IED_BOT_HEALTH_MIN								=		1500; //200
-new CVAR_ZOMBIE_IED_BOT_HEALTH_MAX								=		2000; //320
+new CVAR_ZOMBIE_IED_HEALTH_MIN									=		1000; //300
+new CVAR_ZOMBIE_IED_HEALTH_MAX									=		1500; //350
+new CVAR_ZOMBIE_IED_BOT_HEALTH_MIN								=		1000; //200
+new CVAR_ZOMBIE_IED_BOT_HEALTH_MAX								=		1500; //320
 // new Float:FCVAR_ZOMBIE_IED_PENALTY_TIME							=		60.0;
 // new Float:FCVAR_ZOMBIE_IED_BOT_PENALTY_TIME						=		50.0;
 new Float:FCVAR_ZOMBIE_IED_SIZE_MIN								=		0.95;
@@ -389,10 +391,10 @@ new Float:FCVAR_ZOMBIE_IED_SIZE_MAX								=		1.10;
 new CVAR_ZOMBIE_IED_COLOR_RED									=		122;
 new CVAR_ZOMBIE_IED_COLOR_GREEN									=		122;
 new CVAR_ZOMBIE_IED_COLOR_BLUE									=		122;
-new Float:FCVAR_ZOMBIE_IED_SPEED_MIN							=		1.35; //1.20
-new Float:FCVAR_ZOMBIE_IED_SPEED_MAX							=		1.40; //1.30
-new Float:FCVAR_ZOMBIE_IED_BOT_SPEED_MIN						=		1.40; //1.20
-new Float:FCVAR_ZOMBIE_IED_BOT_SPEED_MAX						=		1.45; //1.30
+new Float:FCVAR_ZOMBIE_IED_SPEED_MIN							=		1.26; //1.20
+new Float:FCVAR_ZOMBIE_IED_SPEED_MAX							=		1.36; //1.30
+new Float:FCVAR_ZOMBIE_IED_BOT_SPEED_MIN						=		1.26; //1.20
+new Float:FCVAR_ZOMBIE_IED_BOT_SPEED_MAX						=		1.36; //1.30
 new Float:FCVAR_ZOMBIE_IED_DAMAGE_MIN 							=		12.0;
 new Float:FCVAR_ZOMBIE_IED_DAMAGE_MAX 							=		16.0;
 new Float:FCVAR_ZOMBIE_IED_DAMAGE_BACKATTACK_MIN 				=		20.0;
@@ -415,10 +417,10 @@ new CVAR_ZOMBIE_LEAPER_RESTRICT							=		0;
 new CVAR_ZOMBIE_LEAPER_MAX_SPAWN						=		-2;
 new Float:FCVAR_ZOMBIE_LEAPER_MAX_SPAWN_PER_SURVIVORS	=		1.33;
 new Float:FCVAR_ZOMBIE_LEAPER_MAX_SPAWN_PER_ZOMBIES		=		0.0;
-new CVAR_ZOMBIE_LEAPER_HEALTH_MIN						=		1500; //300
-new CVAR_ZOMBIE_LEAPER_HEALTH_MAX						=		2000; //400
-new CVAR_ZOMBIE_LEAPER_BOT_HEALTH_MIN					=		1500; //250
-new CVAR_ZOMBIE_LEAPER_BOT_HEALTH_MAX					=		2000; //350
+new CVAR_ZOMBIE_LEAPER_HEALTH_MIN						=		1000; //300
+new CVAR_ZOMBIE_LEAPER_HEALTH_MAX						=		1500; //400
+new CVAR_ZOMBIE_LEAPER_BOT_HEALTH_MIN					=		1000; //250
+new CVAR_ZOMBIE_LEAPER_BOT_HEALTH_MAX					=		1500; //350
 // new Float:FCVAR_ZOMBIE_LEAPER_PENALTY_TIME				=		40.0;
 // new Float:FCVAR_ZOMBIE_LEAPER_BOT_PENALTY_TIME			=		20.0;
 new Float:FCVAR_ZOMBIE_LEAPER_SIZE_MIN					=		0.92;
@@ -426,10 +428,10 @@ new Float:FCVAR_ZOMBIE_LEAPER_SIZE_MAX					=		0.96;
 new CVAR_ZOMBIE_LEAPER_COLOR_RED						=		120;
 new CVAR_ZOMBIE_LEAPER_COLOR_GREEN						=		102;
 new CVAR_ZOMBIE_LEAPER_COLOR_BLUE						=		255;
-new Float:FCVAR_ZOMBIE_LEAPER_SPEED_MIN				=		1.30; //1.20
-new Float:FCVAR_ZOMBIE_LEAPER_SPEED_MAX				=		1.40; //1.25
-new Float:FCVAR_ZOMBIE_LEAPER_BOT_SPEED_MIN				=		1.30; //1.20
-new Float:FCVAR_ZOMBIE_LEAPER_BOT_SPEED_MAX				=		1.40; //1.25
+new Float:FCVAR_ZOMBIE_LEAPER_SPEED_MIN				=		1.26; //1.20
+new Float:FCVAR_ZOMBIE_LEAPER_SPEED_MAX				=		1.31; //1.25
+new Float:FCVAR_ZOMBIE_LEAPER_BOT_SPEED_MIN				=		1.36; //1.20
+new Float:FCVAR_ZOMBIE_LEAPER_BOT_SPEED_MAX				=		1.46; //1.25
 new Float:FCVAR_ZOMBIE_LEAPER_DAMAGE_MIN 				=		10.0;
 new Float:FCVAR_ZOMBIE_LEAPER_DAMAGE_MAX 				=		16.0;
 new Float:FCVAR_ZOMBIE_LEAPER_DAMAGE_BACKATTACK_MIN 	=		20.0;
@@ -438,8 +440,8 @@ new Float:FCVAR_ZOMBIE_LEAPER_DAMAGE_BACKATTACK_MAX 	=		24.0;
 new Float:FCVAR_ZOMBIE_BURN_MIN_TIME					=			6.0;
 new Float:FCVAR_ZOMBIE_BURN_MAX_TIME					=			20.0;
 new Float:FCVAR_ZOMBIE_BURN_DAMAGE						=			5.0;
-new Float:FCVAR_ZOMBIE_BURN_BONUS_SPEED_MIN				=			0.0; //0.14
-new Float:FCVAR_ZOMBIE_BURN_BONUS_SPEED_MAX				=			0.0; //0.20
+new Float:FCVAR_ZOMBIE_BURN_BONUS_SPEED_MIN				=			0.18; //0.14
+new Float:FCVAR_ZOMBIE_BURN_BONUS_SPEED_MAX				=			0.24; //0.20
 new Float:FCVAR_ZOMBIE_BLEEDING_MIN_TIME				=			3.0;
 new Float:FCVAR_ZOMBIE_BLEEDING_MAX_TIME				=			6.0;
 new Float:FCVAR_ZOMBIE_BLEED_REDUCE_SPEED_MIN			=			0.06;
@@ -2185,7 +2187,7 @@ public Action:Command_Radial(client, args)
 			if (float(iHp)/float(CVAR_PLAYER_HEALTH) < 0.2)
 			{
 				iHp = 0;
-				Format(sHp, sizeof(sHp), "\x08%s死亡", COLOR_RED);
+				Format(sHp, sizeof(sHp), "\x08%s濒临死亡", COLOR_RED);
 			}
 			else if (float(iHp)/float(CVAR_PLAYER_HEALTH) <= 0.4)
 			{
@@ -2304,39 +2306,6 @@ public OnMapStart()
 		SDKHook(g_iPlayerResource, SDKHook_ThinkPost, SHook_PlayerResourceThinkPost);
 	else
 		LogError("Player Resource (%d) or Score Offset (%d) is invalid", g_iPlayerResource, g_iOffsetScore);
-/*
-	new pieces[4];
-	new longip = GetConVarInt(FindConVar("hostip"));
-
-	pieces[0] = (longip >> 24) & 0x000000FF;
-	pieces[1] = (longip >> 16) & 0x000000FF;
-	pieces[2] = (longip >> 8) & 0x000000FF;
-	pieces[3] = longip & 0x000000FF;
-
-	Format(NetIP, sizeof(NetIP), "%d.%d.%d.%d", pieces[0], pieces[1], pieces[2], pieces[3]);
-*/
-	new String:sPort[9], String:sIP[24];
-	GetConVarString(FindConVar("hostip"), sIP, sizeof(sIP));
-	GetConVarString(FindConVar("hostport"), sPort, sizeof(sPort));
-	if (StrEqual(sIP, "2038256820"))	// Tare
-	{
-		if (StrEqual(sPort, "27015")) ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [좀비 모드]");
-		else if (StrEqual(sPort, "27016")) ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [좀비 모드]  #2");
-//		else if (StrEqual(sPort, "27016")) ServerCommand("hostname #Lua's  Zombie Horde  [좀비 모드]  TEST @ 10:40 PM (KST)");
-		else ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [좀비 모드]  #3");
-	}
-	else if (StrEqual(sIP, "2040372824"))	// Home
-	{
-		if (StrEqual(sPort, "27015")) ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [좀비 모드]  @MONSTER");
-		else if (StrEqual(sPort, "27016")) ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [좀비 모드]  @MONSTER #2");
-		else ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [좀비 모드]  @MONSTER #3");
-	}
-	else
-	{
-		if (StrEqual(sPort, "27015")) ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [New York]");
-		else if (StrEqual(sPort, "27016")) ServerCommand("hostname [SG]WN|STF僵尸暴动测试服[中文|Lua|Test]");
-		else ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [New York]  #3");
-	}
 	g_bSkipCacheCheck = false;
 	g_iGamemode = 1;
 	decl String:_gamemode[32];
@@ -3014,7 +2983,7 @@ public SHook_OnPreThink(client)
 			LogToGame("Intel Captured by %N  (Kill flag %d)", client, g_iPointFlag);
 			g_bNoTakingCache = true;
 			AcceptEntityInput(g_iPointFlag, "Kill");
-			FakeClientCommand(client, "say Intel captured!");
+			FakeClientCommand(client, "say 情报已获取！");
 			if (g_iMedicPlayer != client)
 				SetEntProp(client, Prop_Send, "m_bGlowEnabled", 0);
 			g_iPointFlag = INVALID_ENT_REFERENCE;
@@ -3206,7 +3175,7 @@ public SHook_OnPreThink(client)
 				{
 					if (g_iPLFBuyzone[client] != INVALID_ENT_REFERENCE && g_iPLFBuyzone[client] == EntIndexToEntRef(iAimTarget))
 					{
-						PrintCenterText(client, "按 \"使用键 (F)\" 来重新补给\n \n弹药补给剩余量:  [%d / 4]", RoundToNearest(GetEntPropFloat(iAimTarget, Prop_Data, "m_flLocalTime")));
+						PrintCenterText(client, "按 \"装备配置键 (M)\" 来重新补给\n \n弹药补给剩余量:  [%d / 4]", RoundToNearest(GetEntPropFloat(iAimTarget, Prop_Data, "m_flLocalTime")));
 						if (GetClientButtons(client) & INS_USE && GetGameTime()-g_fPlayerLastChat[client] >= 1.0)
 						{
 							FakeClientCommand(client, "inventory_resupply");
@@ -3941,9 +3910,9 @@ public SHook_OnPreThink(client)
 								decl String:sSoundFile[128];
 //								if (iHp <= CVAR_PLAYER_GLOW_HEALTH || g_iPlayerBleeding[iTarget] != 0 || (g_fBurnTime[iTarget] != 0.0 || GetEntityFlags(iTarget)&FL_ONFIRE))
 								if (iHp > CVAR_PLAYER_GLOW_HEALTH)
-									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/letme/medic_letme_bandage%d.wav", GetRandomInt(1, 18));
+									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/letme/medic_letme_bandage%d.ogg", GetRandomInt(1, 18));
 								else
-									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/letme/medic_letme_heal%d.wav", GetRandomInt(1, 7));
+									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/letme/medic_letme_heal%d.ogg", GetRandomInt(1, 7));
 								EmitSoundToAll(sSoundFile, client, SNDCHAN_VOICE, _, _, 1.0);
 							}
 							if (bMedic && !g_bMedicForceToChange) g_fMedicLastHealTime = g_fGameTime;
@@ -3998,7 +3967,7 @@ public SHook_OnPreThink(client)
 									SwapWeaponToPrimary(client);
 									g_fLastMedicCall[iTarget] = 0.0;
 									decl String:sSoundFile[128];
-									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/healed/medic_healed%d.wav", GetRandomInt(1, 38));
+									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/healed/medic_healed%d.ogg", GetRandomInt(1, 38));
 									EmitSoundToAll(sSoundFile, client, SNDCHAN_VOICE, _, _, 1.0);
 									CreateTimer(GetRandomFloat(2.0, 2.5), Timer_MedicThanks, iTarget, TIMER_FLAG_NO_MAPCHANGE);
 									g_iPlayerHealthkitDeploy[client] = -1;
@@ -4006,7 +3975,7 @@ public SHook_OnPreThink(client)
 								else if (iAmmo <= 1)
 								{
 									decl String:sSoundFile[128];
-									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/thx/medic_thanks%d.wav", GetRandomInt(1, 20));
+									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/thx/medic_thanks%d.ogg", GetRandomInt(1, 20));
 									EmitSoundToAll(sSoundFile, iTarget, SNDCHAN_VOICE, _, _, 1.0);
 								}
 								PrintToChatAll("\x08%s%N \x01对\x08%s%N使用了医疗包   \x01(%d \x04-> \x01%d HP)", GetPlayerChatColor(client), client, GetPlayerChatColor(iTarget), iTarget, iHp, iNewHp);
@@ -4220,7 +4189,7 @@ public SHook_OnPreThink(client)
 				if (float(iHp)/float(CVAR_PLAYER_HEALTH) < 0.2)
 				{
 					iHp = 0;
-					Format(sHp, sizeof(sHp), "\x08%s死亡", COLOR_RED);
+					Format(sHp, sizeof(sHp), "\x08%s濒临死亡", COLOR_RED);
 				}
 				else if (float(iHp)/float(CVAR_PLAYER_HEALTH) <= 0.4)
 				{
@@ -5363,7 +5332,7 @@ public Action:HudTimer(Handle:timer)
 					if (float(iHp)/float(CVAR_PLAYER_HEALTH) <= 0.2)
 					{
 //						iHeartBeats = 2;
-						sHp = " 死亡 ";
+						sHp = " 濒临死亡 ";
 						bReqMedic = true;
 						if (g_fPlayerDeathFadeOutNextTime[client] != 0.0)
 						{
@@ -5864,7 +5833,7 @@ public Action:HudTimer(Handle:timer)
 						if (i >= CVAR_PLAYER_REINFORCEMENT_MAX)
 						{
 							if (g_fReinforcementPlayerDeployTime != 0.0)
-								Format(sStatus, sizeof(sStatus), "(%0.0f) Wait for next deployment...", g_fReinforcementPlayerDeployTime-g_fGameTime);
+								Format(sStatus, sizeof(sStatus), "(%0.0f) 等待下一波增援...", g_fReinforcementPlayerDeployTime-g_fGameTime);
 							else
 								sStatus = "Wait for next deployment...";
 						}
@@ -5874,7 +5843,7 @@ public Action:HudTimer(Handle:timer)
 								Format(sStatus, sizeof(sStatus), " %0.0f %s 后复活", g_fReinforcementPlayerDeployTime-g_fGameTime, g_fReinforcementPlayerDeployTime-g_fGameTime>9.9?"秒":"秒");
 							else
 								if (g_iLastSpecTarget[iPlayers[i]] > 0) Format(sStatus, sizeof(sStatus), "Deploying on %N ", g_iLastSpecTarget[iPlayers[i]]);
-								else sStatus = "Deploying...";
+								else sStatus = "部署中...";
 						}
 						PrintHintText(iPlayers[i], "支援\n位置. %d\n \n[%d / %d]\n %s ", i+1, iPlayerDeadCount, iPrintCount, sStatus);
 						/*
@@ -5895,7 +5864,7 @@ public Action:HudTimer(Handle:timer)
 								Format(sStatus, sizeof(sStatus), " %0.0f %s 后复活", g_fReinforcementPlayerDeployTime-g_fGameTime, g_fReinforcementPlayerDeployTime-g_fGameTime>9.9?"秒":"秒");
 								else sStatus = "Deploying...";
 							}
-							else sStatus = "Recruiting...";
+							else sStatus = "招募中...";
 							for (new s = 0;s < iLobbySize;s++)
 							{
 								if (iSpectators[s] > 0)
@@ -7066,7 +7035,7 @@ public Action:ThinkTimer(Handle:timer)
 						LogToGame("Late Intel Captured by %N  (Kill flag %d)", client, g_iPointFlag);
 						g_bNoTakingCache = true;
 						AcceptEntityInput(g_iPointFlag, "Kill");
-						FakeClientCommand(client, "say Intel captured! (Under 90s Forced Capture)");
+						FakeClientCommand(client, "say 情报已获取！ (Under 90s Forced Capture)");
 						if (g_iMedicPlayer != client)
 							SetEntProp(client, Prop_Send, "m_bGlowEnabled", 0);
 						g_iPointFlag = INVALID_ENT_REFERENCE;
@@ -8745,7 +8714,7 @@ public Action:Event_PlayerSpawn(Event event, const String:name[], bool:dontBroad
 				{
 					SetPanelTitle(panel, "你正在扮演 [医疗兵]");
 					DrawPanelText(panel, " ");
-					DrawPanelItem(panel, "使用[医疗包]来治疗你的队友 (3号槽位)");
+					DrawPanelItem(panel, "使用[医疗包]来治疗你的队友 (4号槽位)");
 					DrawPanelText(panel, " ");
 					DrawPanelText(panel, "请注意[有光圈的队友]");
 					DrawPanelItem(panel, "他们已受伤并需要你的治疗！");
@@ -10197,7 +10166,7 @@ public Action:Event_FlagPickUp(Handle:event, const String:name[], bool:dontBroad
 				SetEntData(g_iCPIndex[g_iCurrentControlPoint], g_iOffsetWeaponCacheGlow, 1);
 				vPos[2] += 2000.0;
 				TeleportEntity(g_iCPIndex[g_iCurrentControlPoint], vPos, NULL_VECTOR, NULL_VECTOR);
-				FakeClientCommand(client, "say Intel captured! (Bots only remain)");
+				FakeClientCommand(client, "say 情报已获取！ (Bots only remain)");
 			}
 			return Plugin_Continue;
 		}
@@ -10212,7 +10181,7 @@ public Action:Event_FlagPickUp(Handle:event, const String:name[], bool:dontBroad
 		if (g_sFlagSoundLast[0] != '\0') StopSoundAll(g_sFlagSoundLast, SNDCHAN_STATIC);
 		Format(g_sFlagSoundLast, sizeof(g_sFlagSoundLast), "hq/security/wetook%d.ogg", GetRandomInt(1, 10));
 		EmitSoundToAll(g_sFlagSoundLast, _, SNDCHAN_STATIC, _, _, 1.0);
-		DisplayInstructorHint(client, 8.0, 0.0, 0.0, true, true, "icon_tip", "icon_tip", "", true, {255, 255, 255}, "Back to base and capture the intel!");
+		DisplayInstructorHint(client, 8.0, 0.0, 0.0, true, true, "icon_tip", "icon_tip", "", true, {255, 255, 255}, "返回基地并获取情报！");
 //		PlayGameSoundToAll("Player.Security_Infiltration_SecTookIntel");		//	Sec pickup
 //		hq/security/wetook1~10.ogg
 		g_bDoNotPlayFlagPickUp = false;
@@ -10399,9 +10368,9 @@ public Action:Event_WeaponDeploy(Handle:event, const String:name[], bool:dontBro
 		}
 		else
 		{
-			if (g_iPlayerDeployedWeapon[client] == 47)	// #Deployed weapon_law rocket launcher (47)
+			if (g_iPlayerDeployedWeapon[client] == WEAPON_LAW)	// #Deployed weapon_law rocket launcher (47)
 				g_bWasFiredLAW[client] = true;
-			else if (g_iPlayerDeployedWeapon[client] == 3)	// #Deployed weapon_at4 rocket launcher(3)
+			else if (g_iPlayerDeployedWeapon[client] == WEAPON_AT4)	// #Deployed weapon_at4 rocket launcher(3)
 				g_bWasFiredLAW[client] = false;
 		}
 	}
@@ -10621,7 +10590,7 @@ public Handler_MedicMenu(Handle:menu, MenuAction:action, client, select)
 			{
 				SetPanelTitle(panel, "你正在扮演 [医疗兵]");
 				DrawPanelText(panel, " ");
-				DrawPanelItem(panel, "使用[医疗包]来治疗你的队友 (3号槽位)");
+				DrawPanelItem(panel, "使用[医疗包]来治疗你的队友 (4号槽位)");
 				DrawPanelText(panel, " ");
 				DrawPanelText(panel, "请注意[有光圈的队友]");
 				DrawPanelItem(panel, "他们已受伤并需要你的治疗！");
@@ -12043,11 +12012,11 @@ stock CreatePointFlag(client = -1, bool:bNotice = true)
 		if (bNotice)
 		{
 //			DisplayInstructorHint(0, 8.0, 0.0, 0.0, true, true, "icon_tip", "icon_tip", "", true, {255, 255, 255}, "Enemy has the intel, take it back to spawn!");
-			DisplayInstructorHint(client, 8.0, 0.0, 0.0, true, true, "icon_interact", "icon_interact", "", true, {255, 255, 255}, "Enemy has the intel for weapon cache!");
+			DisplayInstructorHint(client, 8.0, 0.0, 0.0, true, true, "icon_interact", "icon_interact", "", true, {255, 255, 255}, "敌人拥有武器储备的情报！");
 			CreatePointFlagSpawnGlow(-1, false);
 			SetEntPropFloat(client, Prop_Send, "m_flLaggedMovementValue", 0.1);
 			CreateTimer(2.0, Timer_MoveAgain, client, TIMER_FLAG_NO_MAPCHANGE);
-			PrintToChatAll("\x01Enemy has intel for weapon cache, \x08%sfind intel carrier \x01and \x08%sreturn it to spawn!", COLOR_INSURGENTS, COLOR_SECURITY);
+			PrintToChatAll("\x01敌人拥有武器储备的情报， \x08%s找到情报携带者 \x01并 \x08%s把情报归还至重生点", COLOR_INSURGENTS, COLOR_SECURITY);
 			LogToGame("Intel gamemode activated and player choosed \"%N\"", client);
 		}
 		else LogToGame("Point Flag has been recreated to \"%N\"", client);
@@ -12236,12 +12205,12 @@ stock SetPlayerSkin(client, bool:bGear = true)
 					{
 						SetEntProp(client, Prop_Data, "m_iAmmo", 2, _, GetEntProp(iWeapon, Prop_Data, "m_iPrimaryAmmoType"));
 						PrintToChat(client, "\x08%s你拥有一个 \x01医疗包\x08%s, 对自己 (\x01鼠标左键\x08%s) 或者 对队友 (\x01鼠标右键\x08%s) 使用", COLOR_DARKORANGE, COLOR_DARKORANGE, COLOR_DARKORANGE, COLOR_DARKORANGE);
-						PrintToChat(client, "(3号槽位)");
+						PrintToChat(client, "(4号槽位)");
 					}
 					else
 					{
 						SetEntProp(client, Prop_Data, "m_iAmmo", 5, _, GetEntProp(iWeapon, Prop_Data, "m_iPrimaryAmmoType"));
-						PrintToChat(client, "\x08%s你拥有一个 \x01医疗包 \x08%s[医疗兵]\x08%s, 对自己 (\x01鼠标左键\x08%s) 或者 对队友 (\x01Right Click\x08%s) 使用 \x01(3号槽位)", COLOR_DARKORANGE, COLOR_GOLD, COLOR_DARKORANGE, COLOR_DARKORANGE, COLOR_DARKORANGE);
+						PrintToChat(client, "\x08%s你拥有一个 \x01医疗包 \x08%s[医疗兵]\x08%s, 对自己 (\x01鼠标左键\x08%s) 或者 对队友 (\x01鼠标右键\x08%s) 使用 \x01(4号槽位)", COLOR_DARKORANGE, COLOR_GOLD, COLOR_DARKORANGE, COLOR_DARKORANGE, COLOR_DARKORANGE);
 					}
 					LogToGame("%N has given first aid (%d)", client, iWeapon);
 				}
@@ -12820,11 +12789,11 @@ stock PlayerYell(client, type = 0, bool:ignorecooltime = false, Float:chance = 1
 			case 9:		//	Request Medic
 			{
 				if (target == 0)	// Death
-					Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/medic_dying%d.wav", GetRandomInt(1, 3));
+					Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/medic_dying%d.ogg", GetRandomInt(1, 3));
 				else if (target == 1)	// Critical
-					Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/medic_critical%d.wav", GetRandomInt(1, 16));
+					Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/medic_critical%d.ogg", GetRandomInt(1, 16));
 				else //if (target == 2)	// Injured	// 3 Healthy
-					Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/medic_injured%d.wav", GetRandomInt(1, 22));
+					Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/medic_injured%d.ogg", GetRandomInt(1, 22));
 				decl Float:vOrigin[3];
 				GetClientEyePosition(client, vOrigin);
 				for (new j = 0;j < MAXPLAYER; j++)
@@ -13661,13 +13630,13 @@ PrecacheThings()
 	PrecacheSound("player/voice/responses/security/subordinate/damage/molotov_incendiary_detonated7.ogg");	*/
 	
 	// Medic
-	PrecacheSoundNumbers("lua_sounds/medic/medic_injured", ".wav", 1, 22, false);
-	PrecacheSoundNumbers("lua_sounds/medic/medic_critical", ".wav", 1, 16, false);
-	PrecacheSoundNumbers("lua_sounds/medic/medic_dying", ".wav", 1, 3, false);
-	PrecacheSoundNumbers("lua_sounds/medic/letme/medic_letme_bandage", ".wav", 1, 18, false);
-	PrecacheSoundNumbers("lua_sounds/medic/letme/medic_letme_heal", ".wav", 1, 7, false);
-	PrecacheSoundNumbers("lua_sounds/medic/healed/medic_healed", ".wav", 1, 38, false);
-	PrecacheSoundNumbers("lua_sounds/medic/thx/medic_thanks", ".wav", 1, 20, false);
+	PrecacheSoundNumbers("lua_sounds/medic/medic_injured", ".ogg", 1, 22, false);
+	PrecacheSoundNumbers("lua_sounds/medic/medic_critical", ".ogg", 1, 16, false);
+	PrecacheSoundNumbers("lua_sounds/medic/medic_dying", ".ogg", 1, 3, false);
+	PrecacheSoundNumbers("lua_sounds/medic/letme/medic_letme_bandage", ".ogg", 1, 18, false);
+	PrecacheSoundNumbers("lua_sounds/medic/letme/medic_letme_heal", ".ogg", 1, 7, false);
+	PrecacheSoundNumbers("lua_sounds/medic/healed/medic_healed", ".ogg", 1, 38, false);
+	PrecacheSoundNumbers("lua_sounds/medic/thx/medic_thanks", ".ogg", 1, 20, false);
 	
 //	PrecacheSoundNumbers("hq/security/enemyout", ".ogg", 1, 10, false);
 	PrecacheSoundNumbers("hq/security/wehave", ".ogg", 1, 10, false);

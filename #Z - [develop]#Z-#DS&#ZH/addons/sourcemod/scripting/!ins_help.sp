@@ -46,32 +46,32 @@ stock ShowHelpMenu(client, page = 0)
 	{
 		if (StrContains(language, "korea", false) == -1)
 		{
-			Format(textformat, sizeof(textformat), "#Lua Zombie Horde  -  Game Info\n ");
+		Format(textformat, sizeof(textformat), "#WN|STF-Lua åƒµå°¸æš´åŠ¨ - æ¸¸æˆæŒ‡å—\n ");
 			SetPanelTitle(PopupPanel,textformat);
-			Format(textformat, sizeof(textformat), "[Steam]  Group.Lua.kr\n[Discord]  Discord.Lua.kr\n ");
+			Format(textformat, sizeof(textformat), "[Steam]  \n[Discord]  \n ");
 			DrawPanelText(PopupPanel, textformat);
 
-			DrawPanelItem(PopupPanel, "Gamemode");				// 1
-			DrawPanelItem(PopupPanel, "Player Equipments");		// 2
+			DrawPanelItem(PopupPanel, "æ¸¸æˆæ¨¡å¼");				// 1
+			DrawPanelItem(PopupPanel, "ç©å®¶è£…å¤‡");		// 2
 //			DrawPanelItem(PopupPanel, "Zombie Classes");		// 3
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);			// 3
-			DrawPanelText(PopupPanel, "3. Zombie Classes (WIP)");	// 3 TEXT
-			DrawPanelItem(PopupPanel, "Chat Commands");			// 4
-			DrawPanelItem(PopupPanel, "TIPS\n ");				// 5
+			DrawPanelText(PopupPanel, "3. åƒµå°¸èŒä¸š (WIP)");	// 3 TEXT
+			DrawPanelItem(PopupPanel, "èŠå¤©æŒ‡ä»¤");			// 4
+			DrawPanelItem(PopupPanel, "æç¤º\n ");				// 5
 		}
 		else
 		{
-			Format(textformat, sizeof(textformat), "#Lua Zombie Horde  -  °ÔÀÓ Á¤º¸\n ");
+			Format(textformat, sizeof(textformat), "#Lua Zombie Horde  -  ê²Œì„ ì •ë³´\n ");
 			SetPanelTitle(PopupPanel,textformat);
-			Format(textformat, sizeof(textformat), "[½ºÆÀ]  Group.Lua.kr\n[µğ½ºÄÚµå]  Discord.Lua.kr\n ");
+			Format(textformat, sizeof(textformat), "[ìŠ¤íŒ€]  Group.Lua.kr\n[ë””ìŠ¤ì½”ë“œ]  Discord.Lua.kr\n ");
 			DrawPanelText(PopupPanel, textformat);
 
-			DrawPanelItem(PopupPanel, "°ÔÀÓ¸ğµå");			// 1
-			DrawPanelItem(PopupPanel, "ÇÃ·¹ÀÌ¾î Àåºñ");		// 2
-//			DrawPanelItem(PopupPanel, "Á»ºñ Á¾·ù");		// 3
+			DrawPanelItem(PopupPanel, "ê²Œì„ëª¨ë“œ");			// 1
+			DrawPanelItem(PopupPanel, "í”Œë ˆì´ì–´ ì¥ë¹„");		// 2
+//			DrawPanelItem(PopupPanel, "ì¢€ë¹„ ì¢…ë¥˜");		// 3
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);			// 3
-			DrawPanelText(PopupPanel, "3. Á»ºñ Á¾·ù (Á¦ÀÛÁß)");	// 3 TEXT
-			DrawPanelItem(PopupPanel, "Ã¤ÆÃ ¸í·É¾î");		// 4
+			DrawPanelText(PopupPanel, "3. ì¢€ë¹„ ì¢…ë¥˜ (ì œì‘ì¤‘)");	// 3 TEXT
+			DrawPanelItem(PopupPanel, "ì±„íŒ… ëª…ë ¹ì–´");		// 4
 			DrawPanelItem(PopupPanel, "TIPS\n ");		// 5
 		}
 	}
@@ -84,18 +84,18 @@ stock ShowHelpMenu(client, page = 0)
 				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[Gamemode]\n ");
 				SetPanelTitle(PopupPanel,textformat);
 
-				DrawPanelItem(PopupPanel, "Intel Capture");			// 11
-				DrawPanelItem(PopupPanel, "Hidden Weapon Cache");	// 12
-				DrawPanelItem(PopupPanel, "Evac Helicopter\n ");		// 13
+				DrawPanelItem(PopupPanel, "æƒ…æŠ¥è·å–");			// 11
+				DrawPanelItem(PopupPanel, "éšè—çš„æ­¦å™¨å‚¨å¤‡");	// 12
+				DrawPanelItem(PopupPanel, "æ’¤ç¦»ç›´å‡æœº\n ");		// 13
 			}
 			else
 			{
-				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[°ÔÀÓ¸ğµå]\n ");
+				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[ê²Œì„ëª¨ë“œ]\n ");
 				SetPanelTitle(PopupPanel,textformat);
 
-				DrawPanelItem(PopupPanel, "°í°¡Ä¡ Á¤º¸ È¸¼ö");	// 11
-				DrawPanelItem(PopupPanel, "¼û°ÜÁø ¹«±â Àº´ĞÃ³");	// 12
-				DrawPanelItem(PopupPanel, "Å»Ãâ¿ë Çï¸®ÄßÅÍ\n ");	// 13
+				DrawPanelItem(PopupPanel, "ê³ ê°€ì¹˜ ì •ë³´ íšŒìˆ˜");	// 11
+				DrawPanelItem(PopupPanel, "ìˆ¨ê²¨ì§„ ë¬´ê¸° ì€ë‹‰ì²˜");	// 12
+				DrawPanelItem(PopupPanel, "íƒˆì¶œìš© í—¬ë¦¬ì½¥í„°\n ");	// 13
 			}
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 14
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 15
@@ -104,25 +104,25 @@ stock ShowHelpMenu(client, page = 0)
 		{
 			if (StrContains(language, "korea", false) == -1)
 			{
-				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[Gamemode]  Intel capture\n ");
+				Format(textformat, sizeof(textformat), "#WN|STF-Lua åƒµå°¸æš´åŠ¨\n[æ¸¸æˆæ¨¡å¼]  è·å–æƒ…æŠ¥\n ");
 				SetPanelTitle(PopupPanel,textformat);
 
-				DrawPanelItem(PopupPanel, "Object:  Weapon Cache");
-				DrawPanelText(PopupPanel, "Weapon cache is gone until capture the intel\n ");
-				DrawPanelText(PopupPanel, "Flag will be appear to the enemy and glowing");
-				DrawPanelText(PopupPanel, "Kill the flag carrier and pick up the flag");
-				DrawPanelText(PopupPanel, "Return it to the base by following the blue line\n ");
+				DrawPanelItem(PopupPanel, "æ­¦å™¨å‚¨å¤‡");
+				DrawPanelText(PopupPanel, "åœ¨è·å–æƒ…æŠ¥ä¹‹å‰æ­¦å™¨å‚¨å¤‡å°†éšè—\n ");
+				DrawPanelText(PopupPanel, "æ——å¸œå°†ä¼šåœ¨æ•Œäººèº«ä¸Šæ˜¾ç¤ºå¹¶å¸¦å…‰åœˆ");
+				DrawPanelText(PopupPanel, "æ€æ­»æ——å¸œæºå¸¦è€…ç„¶åæ¡èµ·æ——å¸œ");
+				DrawPanelText(PopupPanel, "è·Ÿéšè“è‰²çš„çº¿è·¯è¿”å›åŸºåœ°\n ");
 			}
 			else
 			{
-				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[°ÔÀÓ¸ğµå]  °í°¡Ä¡ Á¤º¸ È¸¼ö\n ");
+				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[ê²Œì„ëª¨ë“œ]  ê³ ê°€ì¹˜ ì •ë³´ íšŒìˆ˜\n ");
 				SetPanelTitle(PopupPanel,textformat);
 
-				DrawPanelItem(PopupPanel, "¸ñÇ¥:  ¹«±â Àº´ĞÃ³");
-				DrawPanelText(PopupPanel, "°í°¡Ä¡ Á¤º¸¸¦ È¸¼öÇÏ±â Àü±îÁö ¹«±â Àº´ĞÃ³´Â »ç¶óÁü\n ");
-				DrawPanelText(PopupPanel, "Æ¯Á¤ Àû¿¡°Ô ±ê¹ßÀÌ »ı¼ºµÇ¸ç ºû³ª°Ô µË´Ï´Ù");
-				DrawPanelText(PopupPanel, "±ê¹ßÀ» °¡Áö°í ÀÖ´Â ÀûÀ» »ç»ìÇÏ°í ±ê¹ßÀ» È¹µæÇÏ¼¼¿ä");
-				DrawPanelText(PopupPanel, "È¹µæ ÈÄ ÆÄ¶õ ¼±À» µû¶ó ±âÁö¿¡ °í°¡Ä¡ Á¤º¸¸¦ È¸¼öÇÏ¼¼¿ä\n ");
+				DrawPanelItem(PopupPanel, "ëª©í‘œ:  ë¬´ê¸° ì€ë‹‰ì²˜");
+				DrawPanelText(PopupPanel, "ê³ ê°€ì¹˜ ì •ë³´ë¥¼ íšŒìˆ˜í•˜ê¸° ì „ê¹Œì§€ ë¬´ê¸° ì€ë‹‰ì²˜ëŠ” ì‚¬ë¼ì§\n ");
+				DrawPanelText(PopupPanel, "íŠ¹ì • ì ì—ê²Œ ê¹ƒë°œì´ ìƒì„±ë˜ë©° ë¹›ë‚˜ê²Œ ë©ë‹ˆë‹¤");
+				DrawPanelText(PopupPanel, "ê¹ƒë°œì„ ê°€ì§€ê³  ìˆëŠ” ì ì„ ì‚¬ì‚´í•˜ê³  ê¹ƒë°œì„ íšë“í•˜ì„¸ìš”");
+				DrawPanelText(PopupPanel, "íšë“ í›„ íŒŒë€ ì„ ì„ ë”°ë¼ ê¸°ì§€ì— ê³ ê°€ì¹˜ ì •ë³´ë¥¼ íšŒìˆ˜í•˜ì„¸ìš”\n ");
 			}
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 2
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 3
@@ -133,25 +133,25 @@ stock ShowHelpMenu(client, page = 0)
 		{
 			if (StrContains(language, "korea", false) == -1)
 			{
-				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[Gamemode]  Hidden Weapon Cache\n ");
+				Format(textformat, sizeof(textformat), "#WN|STF-Lua åƒµå°¸æš´åŠ¨\n[æ¸¸æˆæ¨¡å¼]  éšè—çš„æ­¦å™¨å‚¨å¤‡\n ");
 				SetPanelTitle(PopupPanel,textformat);
 
-				DrawPanelItem(PopupPanel, "Object:  Weapon Cache");
-				DrawPanelText(PopupPanel, "Weapon cache is gone until find the carrier\n ");
-				DrawPanelText(PopupPanel, "Enemy can take the weapon cache and moving around");
-				DrawPanelText(PopupPanel, "Kill enemies to find weapon cache carrier");
-				DrawPanelText(PopupPanel, "Also have a chance to suicide bomb with weapon cache\n ");
+				DrawPanelItem(PopupPanel, "æ­¦å™¨å‚¨å¤‡");
+				DrawPanelText(PopupPanel, "åœ¨æ‰¾åˆ°æºå¸¦è€…å‰æ­¦å™¨å‚¨å¤‡å°†éšè—\n ");
+				DrawPanelText(PopupPanel, "æ•Œäººå¯ä»¥æºå¸¦æ­¦å™¨å‚¨å¤‡å››å¤„ç§»åŠ¨");
+				DrawPanelText(PopupPanel, "æ€æ­»æ•Œäººä»¥æ‰¾åˆ°æ­¦å™¨å‚¨å¤‡æºå¸¦è€…");
+				DrawPanelText(PopupPanel, "æœ‰ä¸€å®šå‡ ç‡æ­¦å™¨å‚¨å¤‡å¸¦æœ‰è‡ªçˆ†ç‚¸å¼¹\n ");
 			}
 			else
 			{
-				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[°ÔÀÓ¸ğµå]  ¼û°ÜÁø ¹«±â Àº´ĞÃ³\n ");
+				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[ê²Œì„ëª¨ë“œ]  ìˆ¨ê²¨ì§„ ë¬´ê¸° ì€ë‹‰ì²˜\n ");
 				SetPanelTitle(PopupPanel,textformat);
 
-				DrawPanelItem(PopupPanel, "¸ñÇ¥:  ¹«±â Àº´ĞÃ³");
-				DrawPanelText(PopupPanel, "¿î¹İÀÚ¸¦ Ã£±â Àü±îÁö ¹«±â Àº´ĞÃ³´Â »ç¶óÁü\n ");
-				DrawPanelText(PopupPanel, "Àû±ºÀº ¹«±â Àº´ĞÃ³¸¦ °¡Áö°í ÁÖº¯À» µ¹¾Æ´Ù´Ò ¼öµµ ÀÖ½À´Ï´Ù");
-				DrawPanelText(PopupPanel, "Àû±ºÀ» »ç»ìÇÏ¸ç ¿î¹İÀÚ¸¦ Ã£¾Æ³»¼¼¿ä");
-				DrawPanelText(PopupPanel, "¶ÇÇÑ ¿î¹İÀÚ´Â ¹«±â Àº´ĞÃ³¿Í ÇÔ²² ÀÚÆøÇÒ ¼öµµ ÀÖ½À´Ï´Ù\n ");
+				DrawPanelItem(PopupPanel, "ëª©í‘œ:  ë¬´ê¸° ì€ë‹‰ì²˜");
+				DrawPanelText(PopupPanel, "ìš´ë°˜ìë¥¼ ì°¾ê¸° ì „ê¹Œì§€ ë¬´ê¸° ì€ë‹‰ì²˜ëŠ” ì‚¬ë¼ì§\n ");
+				DrawPanelText(PopupPanel, "ì êµ°ì€ ë¬´ê¸° ì€ë‹‰ì²˜ë¥¼ ê°€ì§€ê³  ì£¼ë³€ì„ ëŒì•„ë‹¤ë‹ ìˆ˜ë„ ìˆìŠµë‹ˆë‹¤");
+				DrawPanelText(PopupPanel, "ì êµ°ì„ ì‚¬ì‚´í•˜ë©° ìš´ë°˜ìë¥¼ ì°¾ì•„ë‚´ì„¸ìš”");
+				DrawPanelText(PopupPanel, "ë˜í•œ ìš´ë°˜ìëŠ” ë¬´ê¸° ì€ë‹‰ì²˜ì™€ í•¨ê»˜ ìí­í•  ìˆ˜ë„ ìˆìŠµë‹ˆë‹¤\n ");
 			}
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 2
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 3
@@ -162,7 +162,7 @@ stock ShowHelpMenu(client, page = 0)
 		{
 			if (StrContains(language, "korea", false) == -1)
 			{
-				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[Gamemode]  Evac Helicopter\n ");
+				Format(textformat, sizeof(textformat), "#WN|STF-Lua åƒµå°¸æš´åŠ¨\n[æ¸¸æˆæ¨¡å¼]  æ’¤ç¦»ç›´å‡æœº\n ");
 				SetPanelTitle(PopupPanel,textformat);
 
 				DrawPanelItem(PopupPanel, "Object:  Final Counter-Attack");
@@ -173,14 +173,14 @@ stock ShowHelpMenu(client, page = 0)
 			}
 			else
 			{
-				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[°ÔÀÓ¸ğµå]  Å»Ãâ¿ë Çï¸®ÄßÅÍ\n ");
+				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[ê²Œì„ëª¨ë“œ]  íƒˆì¶œìš© í—¬ë¦¬ì½¥í„°\n ");
 				SetPanelTitle(PopupPanel,textformat);
 
-				DrawPanelItem(PopupPanel, "¸ñÇ¥:  ¸¶Áö¸· Ä«¿îÅÍ-¾îÅÃ");
-				DrawPanelText(PopupPanel, "¸¶Áö¸· Ä«¿îÅÍ-¾îÅÃÀÌ ³¡³ª°¥ ¶§Âë ½ÃÀÛ\n ");
-				DrawPanelText(PopupPanel, "Å»Ãâ¿ë Çï¸®ÄßÅÍ´Â µµÂøÇÒ ¶§Âë °¡´Â °ÍÀÌ ÁÁ½À´Ï´Ù");
-				DrawPanelText(PopupPanel, "Å»ÃâÇÏ±â À§ÇØ¼­´Â ¸ğµç ÇÃ·¹ÀÌ¾î°¡ Å»Ãâ Áö¿ª ¾È¿¡ ÀÖ¾î¾ßÇÕ´Ï´Ù");
-				DrawPanelText(PopupPanel, "Å»ÃâÀÌ ¿Ï·áµÇ¸é ÂªÀº ½Ã°£ ³»¿¡ °ÔÀÓÀ» ½Â¸®ÇÏ°Ô µË´Ï´Ù\n ");
+				DrawPanelItem(PopupPanel, "ëª©í‘œ:  ë§ˆì§€ë§‰ ì¹´ìš´í„°-ì–´íƒ");
+				DrawPanelText(PopupPanel, "ë§ˆì§€ë§‰ ì¹´ìš´í„°-ì–´íƒì´ ëë‚˜ê°ˆ ë•Œì¯¤ ì‹œì‘\n ");
+				DrawPanelText(PopupPanel, "íƒˆì¶œìš© í—¬ë¦¬ì½¥í„°ëŠ” ë„ì°©í•  ë•Œì¯¤ ê°€ëŠ” ê²ƒì´ ì¢‹ìŠµë‹ˆë‹¤");
+				DrawPanelText(PopupPanel, "íƒˆì¶œí•˜ê¸° ìœ„í•´ì„œëŠ” ëª¨ë“  í”Œë ˆì´ì–´ê°€ íƒˆì¶œ ì§€ì—­ ì•ˆì— ìˆì–´ì•¼í•©ë‹ˆë‹¤");
+				DrawPanelText(PopupPanel, "íƒˆì¶œì´ ì™„ë£Œë˜ë©´ ì§§ì€ ì‹œê°„ ë‚´ì— ê²Œì„ì„ ìŠ¹ë¦¬í•˜ê²Œ ë©ë‹ˆë‹¤\n ");
 			}
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 2
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 3
@@ -205,14 +205,14 @@ stock ShowHelpMenu(client, page = 0)
 			}
 			else
 			{
-				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[ÇÃ·¹ÀÌ¾î Àåºñ]\n ");
+				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[í”Œë ˆì´ì–´ ì¥ë¹„]\n ");
 				SetPanelTitle(PopupPanel,textformat);
 
 				DrawPanelItem(PopupPanel, "UAV");		// 21
-				DrawPanelItem(PopupPanel, "ÀÀ±Ş Ä¡·áÅ¶");	// 22
-				DrawPanelItem(PopupPanel, "¹Ù¸®ÄÉÀÌµå");	// 23
-				DrawPanelItem(PopupPanel, "Æ÷ÅÍºí ·¹ÀÌ´õ");	// 24
-				DrawPanelItem(PopupPanel, "IED Àç¸Ó\n ");	// 25
+				DrawPanelItem(PopupPanel, "ì‘ê¸‰ ì¹˜ë£Œí‚·");	// 22
+				DrawPanelItem(PopupPanel, "ë°”ë¦¬ì¼€ì´ë“œ");	// 23
+				DrawPanelItem(PopupPanel, "í¬í„°ë¸” ë ˆì´ë”");	// 24
+				DrawPanelItem(PopupPanel, "IED ì¬ë¨¸\n ");	// 25
 			}
 		}
 		else if (page == 21)
@@ -229,13 +229,13 @@ stock ShowHelpMenu(client, page = 0)
 			}
 			else
 			{
-				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[ÇÃ·¹ÀÌ¾î Àåºñ]  UAV\n ");
+				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[í”Œë ˆì´ì–´ ì¥ë¹„]  UAV\n ");
 				SetPanelTitle(PopupPanel,textformat);
 
-				DrawPanelItem(PopupPanel, "»ç°Å¸®:  ¸Ê ÀüÃ¼");
-				DrawPanelText(PopupPanel, "P2A1 ÇÃ·¹¾î°ÇÀ» »ç¿ëÇÏ¿© ÀÛµ¿\n ");
-				DrawPanelText(PopupPanel, "ÀÏÁ¤ ½Ã°£µ¿¾È ¸ğµç Àû±ºÀÌ ºû³ª°Ô µË´Ï´Ù");
-				DrawPanelText(PopupPanel, "UAV ´Â ±ä ÄğÅ¸ÀÓÀ» °¡Áı´Ï´Ù\n ");
+				DrawPanelItem(PopupPanel, "ì‚¬ê±°ë¦¬:  ë§µ ì „ì²´");
+				DrawPanelText(PopupPanel, "P2A1 í”Œë ˆì–´ê±´ì„ ì‚¬ìš©í•˜ì—¬ ì‘ë™\n ");
+				DrawPanelText(PopupPanel, "ì¼ì • ì‹œê°„ë™ì•ˆ ëª¨ë“  ì êµ°ì´ ë¹›ë‚˜ê²Œ ë©ë‹ˆë‹¤");
+				DrawPanelText(PopupPanel, "UAV ëŠ” ê¸´ ì¿¨íƒ€ì„ì„ ê°€ì§‘ë‹ˆë‹¤\n ");
 			}
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 2
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 3
@@ -257,14 +257,14 @@ stock ShowHelpMenu(client, page = 0)
 			}
 			else
 			{
-				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[ÇÃ·¹ÀÌ¾î Àåºñ]  ÀÀ±Ş Ä¡·áÅ¶\n ");
+				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[í”Œë ˆì´ì–´ ì¥ë¹„]  ì‘ê¸‰ ì¹˜ë£Œí‚·\n ");
 				SetPanelTitle(PopupPanel,textformat);
 
-				DrawPanelItem(PopupPanel, "´ë»ó:  ÀÚ½Å ¶Ç´Â Å¸ ÇÃ·¹ÀÌ¾î");
-				DrawPanelText(PopupPanel, "ÀÚ½Å ¶Ç´Â Å¸ ÇÃ·¹ÀÌ¾îÀÇ »óÃ³¸¦ Ä¡·á\n ");
-				DrawPanelText(PopupPanel, "ÀÀ±Ş Ä¡·áÅ¶ Àåºñ ÈÄ [¿ŞÂÊ Å¬¸¯] À¸·Î ÀÚ°¡ Ä¡·á");
-				DrawPanelText(PopupPanel, "[¿À¸¥ÂÊ Å¬¸¯] À¸·Î Å¸ ÇÃ·¹ÀÌ¾î¸¦ Ä¡·áÇÕ´Ï´Ù");
-				DrawPanelText(PopupPanel, "¸Şµñ º´°ú´Â ´õ È¿°úÀûÀÌ°í ºü¸£°Ô Ä¡·áÇÒ ¼ö ÀÖ½À´Ï´Ù\n ");
+				DrawPanelItem(PopupPanel, "ëŒ€ìƒ:  ìì‹  ë˜ëŠ” íƒ€ í”Œë ˆì´ì–´");
+				DrawPanelText(PopupPanel, "ìì‹  ë˜ëŠ” íƒ€ í”Œë ˆì´ì–´ì˜ ìƒì²˜ë¥¼ ì¹˜ë£Œ\n ");
+				DrawPanelText(PopupPanel, "ì‘ê¸‰ ì¹˜ë£Œí‚· ì¥ë¹„ í›„ [ì™¼ìª½ í´ë¦­] ìœ¼ë¡œ ìê°€ ì¹˜ë£Œ");
+				DrawPanelText(PopupPanel, "[ì˜¤ë¥¸ìª½ í´ë¦­] ìœ¼ë¡œ íƒ€ í”Œë ˆì´ì–´ë¥¼ ì¹˜ë£Œí•©ë‹ˆë‹¤");
+				DrawPanelText(PopupPanel, "ë©”ë”• ë³‘ê³¼ëŠ” ë” íš¨ê³¼ì ì´ê³  ë¹ ë¥´ê²Œ ì¹˜ë£Œí•  ìˆ˜ ìˆìŠµë‹ˆë‹¤\n ");
 			}
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 2
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 3
@@ -285,13 +285,13 @@ stock ShowHelpMenu(client, page = 0)
 			}
 			else
 			{
-				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[ÇÃ·¹ÀÌ¾î Àåºñ]  ¹Ù¸®ÄÉÀÌµå\n ");
+				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[í”Œë ˆì´ì–´ ì¥ë¹„]  ë°”ë¦¬ì¼€ì´ë“œ\n ");
 				SetPanelTitle(PopupPanel,textformat);
 
-				DrawPanelItem(PopupPanel, "´ë»ó:  Áö»ó");
-				DrawPanelText(PopupPanel, "¾öÆóÇÒ ¼ö ÀÖ´Â ¹Ù¸®ÄÉÀÌµå¸¦ ¼³Ä¡\n ");
-				DrawPanelText(PopupPanel, "³ªÀÌÇÁ¸¦ Àåºñ ÈÄ [¿À¸¥ÂÊ Å¬¸¯] À¸·Î ¼³Ä¡ÇÕ´Ï´Ù");
-				DrawPanelText(PopupPanel, "¿£Áö´Ï¾î º´°ú´Â µ¥¹ÌÁö¸¦ ¹ŞÀº ¹Ù¸®ÄÉÀÌµå¸¦ ¼ö¸®ÇÒ ¼ö ÀÖ½À´Ï´Ù\n ");
+				DrawPanelItem(PopupPanel, "ëŒ€ìƒ:  ì§€ìƒ");
+				DrawPanelText(PopupPanel, "ì—„íí•  ìˆ˜ ìˆëŠ” ë°”ë¦¬ì¼€ì´ë“œë¥¼ ì„¤ì¹˜\n ");
+				DrawPanelText(PopupPanel, "ë‚˜ì´í”„ë¥¼ ì¥ë¹„ í›„ [ì˜¤ë¥¸ìª½ í´ë¦­] ìœ¼ë¡œ ì„¤ì¹˜í•©ë‹ˆë‹¤");
+				DrawPanelText(PopupPanel, "ì—”ì§€ë‹ˆì–´ ë³‘ê³¼ëŠ” ë°ë¯¸ì§€ë¥¼ ë°›ì€ ë°”ë¦¬ì¼€ì´ë“œë¥¼ ìˆ˜ë¦¬í•  ìˆ˜ ìˆìŠµë‹ˆë‹¤\n ");
 			}
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 2
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 3
@@ -312,13 +312,13 @@ stock ShowHelpMenu(client, page = 0)
 			}
 			else
 			{
-				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[ÇÃ·¹ÀÌ¾î Àåºñ]  Æ÷ÅÍºí ·¹ÀÌ´õ\n ");
+				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[í”Œë ˆì´ì–´ ì¥ë¹„]  í¬í„°ë¸” ë ˆì´ë”\n ");
 				SetPanelTitle(PopupPanel,textformat);
 
-				DrawPanelItem(PopupPanel, "»ç°Å¸®:  900 °ÉÀ½");
-				DrawPanelText(PopupPanel, "»ç°Å¸® ³»ÀÇ ÀûÀ» ¾Ë·ÁÁÖ´Â ¼³Ä¡¿ë Æ÷ÅÍºí ·¹ÀÌ´õ\n ");
-				DrawPanelText(PopupPanel, "³ªÀÌÇÁ¸¦ ÀåºñÈÄ [¿À¸¥ÂÊ Å¬¸¯] À¸·Î ¼³Ä¡ÇÕ´Ï´Ù");
-				DrawPanelText(PopupPanel, "°íÀå³¯ ¼ö ÀÖ´Â È®·üÀÌ ÀÖ½À´Ï´Ù\n ");
+				DrawPanelItem(PopupPanel, "ì‚¬ê±°ë¦¬:  900 ê±¸ìŒ");
+				DrawPanelText(PopupPanel, "ì‚¬ê±°ë¦¬ ë‚´ì˜ ì ì„ ì•Œë ¤ì£¼ëŠ” ì„¤ì¹˜ìš© í¬í„°ë¸” ë ˆì´ë”\n ");
+				DrawPanelText(PopupPanel, "ë‚˜ì´í”„ë¥¼ ì¥ë¹„í›„ [ì˜¤ë¥¸ìª½ í´ë¦­] ìœ¼ë¡œ ì„¤ì¹˜í•©ë‹ˆë‹¤");
+				DrawPanelText(PopupPanel, "ê³ ì¥ë‚  ìˆ˜ ìˆëŠ” í™•ë¥ ì´ ìˆìŠµë‹ˆë‹¤\n ");
 			}
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 2
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 3
@@ -339,13 +339,13 @@ stock ShowHelpMenu(client, page = 0)
 			}
 			else
 			{
-				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[ÇÃ·¹ÀÌ¾î Àåºñ]  IED Àç¸Ó\n ");
+				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[í”Œë ˆì´ì–´ ì¥ë¹„]  IED ì¬ë¨¸\n ");
 				SetPanelTitle(PopupPanel,textformat);
 
-				DrawPanelItem(PopupPanel, "»ç°Å¸®:  1200 °ÉÀ½");
-				DrawPanelText(PopupPanel, "»ç°Å¸® ³»ÀÇ ÀÚÆøº´ÀÇ Æø¹ß ½Ã°£À» ´Ã·ÁÁÖ´Â ¼³Ä¡¿ë IED Àç¸Ó\n ");
-				DrawPanelText(PopupPanel, "³ªÀÌÇÁ¸¦ ÀåºñÈÄ [¿À¸¥ÂÊ Å¬¸¯] À¸·Î ¼³Ä¡ÇÕ´Ï´Ù");
-				DrawPanelText(PopupPanel, "°íÀå³¯ ¼ö ÀÖ´Â È®·üÀÌ ÀÖ½À´Ï´Ù\n ");
+				DrawPanelItem(PopupPanel, "ì‚¬ê±°ë¦¬:  1200 ê±¸ìŒ");
+				DrawPanelText(PopupPanel, "ì‚¬ê±°ë¦¬ ë‚´ì˜ ìí­ë³‘ì˜ í­ë°œ ì‹œê°„ì„ ëŠ˜ë ¤ì£¼ëŠ” ì„¤ì¹˜ìš© IED ì¬ë¨¸\n ");
+				DrawPanelText(PopupPanel, "ë‚˜ì´í”„ë¥¼ ì¥ë¹„í›„ [ì˜¤ë¥¸ìª½ í´ë¦­] ìœ¼ë¡œ ì„¤ì¹˜í•©ë‹ˆë‹¤");
+				DrawPanelText(PopupPanel, "ê³ ì¥ë‚  ìˆ˜ ìˆëŠ” í™•ë¥ ì´ ìˆìŠµë‹ˆë‹¤\n ");
 			}
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 2
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 3
@@ -368,12 +368,12 @@ stock ShowHelpMenu(client, page = 0)
 			}
 			else
 			{
-				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[Àû±º Æ¯¼ö º´°ú]\n ");
+				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[ì êµ° íŠ¹ìˆ˜ ë³‘ê³¼]\n ");
 				SetPanelTitle(PopupPanel,textformat);
 
 				DrawPanelItem(PopupPanel, "LMG");		// 31
-				DrawPanelItem(PopupPanel, "¹İ¿ªÀÚ");		// 32
-				DrawPanelItem(PopupPanel, "ÀÚÆøº´\n ");	// 33
+				DrawPanelItem(PopupPanel, "ë°˜ì—­ì");		// 32
+				DrawPanelItem(PopupPanel, "ìí­ë³‘\n ");	// 33
 			}
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 34
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 35
@@ -392,13 +392,13 @@ stock ShowHelpMenu(client, page = 0)
 			}
 			else
 			{
-				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[Àû±º Æ¯¼ö º´°ú]  LMG\n ");
+				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[ì êµ° íŠ¹ìˆ˜ ë³‘ê³¼]  LMG\n ");
 				SetPanelTitle(PopupPanel,textformat);
 
-				DrawPanelItem(PopupPanel, "º´°ú:  LMG");
-				DrawPanelText(PopupPanel, "Å¸ º´°ú¿¡ ºñÇØ Å« ¸öÁı°ú ³ôÀº Ã¼·ÂÀ» º¸À¯\n ");
-				DrawPanelText(PopupPanel, "¹æ¾î±¸, Æø¹ß·ù, ROF ¸ğµå°¡ ÀåÂøµÈ ¸Ó½Å°ÇÀ» »ç¿ë");
-				DrawPanelText(PopupPanel, "¸Ó¸®¸¦ ³ë¸®¸é ½±°Ô Á¦¾ĞÇÒ ¼ö ÀÖ½À´Ï´Ù!\n ");
+				DrawPanelItem(PopupPanel, "ë³‘ê³¼:  LMG");
+				DrawPanelText(PopupPanel, "íƒ€ ë³‘ê³¼ì— ë¹„í•´ í° ëª¸ì§‘ê³¼ ë†’ì€ ì²´ë ¥ì„ ë³´ìœ \n ");
+				DrawPanelText(PopupPanel, "ë°©ì–´êµ¬, í­ë°œë¥˜, ROF ëª¨ë“œê°€ ì¥ì°©ëœ ë¨¸ì‹ ê±´ì„ ì‚¬ìš©");
+				DrawPanelText(PopupPanel, "ë¨¸ë¦¬ë¥¼ ë…¸ë¦¬ë©´ ì‰½ê²Œ ì œì••í•  ìˆ˜ ìˆìŠµë‹ˆë‹¤!\n ");
 			}
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 2
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 3
@@ -419,13 +419,13 @@ stock ShowHelpMenu(client, page = 0)
 			}
 			else
 			{
-				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[Àû±º Æ¯¼ö º´°ú]  ¹İ¿ªÀÚ\n ");
+				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[ì êµ° íŠ¹ìˆ˜ ë³‘ê³¼]  ë°˜ì—­ì\n ");
 				SetPanelTitle(PopupPanel,textformat);
 
-				DrawPanelItem(PopupPanel, "º´°ú:  ¾Èº¸Áö¿ø±º");
-				DrawPanelText(PopupPanel, "¾Èº¸Áö¿ø±º°ú °°Àº »ı±è»õ¸¦ ÇÑ º´°ú\n ");
-				DrawPanelText(PopupPanel, "UAV¿Í Æ÷ÅÍºí ·¹ÀÌ´õÀÇ È¿°ú¸¦ ¹ŞÁö ¾Ê´Â º´°úÀÔ´Ï´Ù");
-				DrawPanelText(PopupPanel, "¹æ¾î±¸, Æø¹ß·ù, °íÈ­·Â ¹«±â¸¦ »ç¿ë\n ");
+				DrawPanelItem(PopupPanel, "ë³‘ê³¼:  ì•ˆë³´ì§€ì›êµ°");
+				DrawPanelText(PopupPanel, "ì•ˆë³´ì§€ì›êµ°ê³¼ ê°™ì€ ìƒê¹€ìƒˆë¥¼ í•œ ë³‘ê³¼\n ");
+				DrawPanelText(PopupPanel, "UAVì™€ í¬í„°ë¸” ë ˆì´ë”ì˜ íš¨ê³¼ë¥¼ ë°›ì§€ ì•ŠëŠ” ë³‘ê³¼ì…ë‹ˆë‹¤");
+				DrawPanelText(PopupPanel, "ë°©ì–´êµ¬, í­ë°œë¥˜, ê³ í™”ë ¥ ë¬´ê¸°ë¥¼ ì‚¬ìš©\n ");
 			}
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 2
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 3
@@ -446,13 +446,13 @@ stock ShowHelpMenu(client, page = 0)
 			}
 			else
 			{
-				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[Àû±º Æ¯¼ö º´°ú]  ÀÚÆøº´\n ");
+				Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[ì êµ° íŠ¹ìˆ˜ ë³‘ê³¼]  ìí­ë³‘\n ");
 				SetPanelTitle(PopupPanel,textformat);
 
-				DrawPanelItem(PopupPanel, "º´°ú:  ÀÚÆøº´");
-				DrawPanelText(PopupPanel, "ºü¸¥ ¼Óµµ¿Í ÀÚÆø¿ë Æø¹ß¹°À» »ç¿ëÇÏ´Â º´°ú\n ");
-				DrawPanelText(PopupPanel, "ÀÚÆø¿ë Æø¹ß¹°À» ¼Õ¿¡ µé°í ÇÃ·¹ÀÌ¾î¸¦ ¹ß°ßÇÏ¸é ÅÍÆ®¸³´Ï´Ù");
-				DrawPanelText(PopupPanel, "¶ÇÇÑ Çìµå¼¦ÀÌ ¾Æ´Ò °æ¿ì »ç¸Á½Ã Æø¹ßÇÒ ¼öµµ ÀÖ½À´Ï´Ù\n ");
+				DrawPanelItem(PopupPanel, "ë³‘ê³¼:  ìí­ë³‘");
+				DrawPanelText(PopupPanel, "ë¹ ë¥¸ ì†ë„ì™€ ìí­ìš© í­ë°œë¬¼ì„ ì‚¬ìš©í•˜ëŠ” ë³‘ê³¼\n ");
+				DrawPanelText(PopupPanel, "ìí­ìš© í­ë°œë¬¼ì„ ì†ì— ë“¤ê³  í”Œë ˆì´ì–´ë¥¼ ë°œê²¬í•˜ë©´ í„°íŠ¸ë¦½ë‹ˆë‹¤");
+				DrawPanelText(PopupPanel, "ë˜í•œ í—¤ë“œìƒ·ì´ ì•„ë‹ ê²½ìš° ì‚¬ë§ì‹œ í­ë°œí•  ìˆ˜ë„ ìˆìŠµë‹ˆë‹¤\n ");
 			}
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 2
 			DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 3
@@ -477,16 +477,16 @@ stock ShowHelpMenu(client, page = 0)
 		}
 		else
 		{
-			Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[Ã¤ÆÃ ¸í·É¾î]\n ");
+			Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[ì±„íŒ… ëª…ë ¹ì–´]\n ");
 			SetPanelTitle(PopupPanel,textformat);
 
-			DrawPanelItem(PopupPanel, "·©Å© ½Ã½ºÅÛ");							// 41
+			DrawPanelItem(PopupPanel, "ë­í¬ ì‹œìŠ¤í…œ");							// 41
 			DrawPanelText(PopupPanel, "        rank");
-			DrawPanelText(PopupPanel, "        stats  (stats ´Ğ³×ÀÓ)");
+			DrawPanelText(PopupPanel, "        stats  (stats ë‹‰ë„¤ì„)");
 			DrawPanelText(PopupPanel, "        top10  (top0 - 1000)\n ");
-			DrawPanelItem(PopupPanel, "¸Ê ÅõÇ¥ ¹× ¹Ù²Ù±â");						// 42
+			DrawPanelItem(PopupPanel, "ë§µ íˆ¬í‘œ ë° ë°”ê¾¸ê¸°");						// 42
 			DrawPanelText(PopupPanel, "        rtv, rockthevote");
-			DrawPanelText(PopupPanel, "        (ÇÃ·¹ÀÌ¾î Áß 60%°¡ »ç¿ëÇØ¾ßÇÕ´Ï´Ù)\n ");
+			DrawPanelText(PopupPanel, "        (í”Œë ˆì´ì–´ ì¤‘ 60%ê°€ ì‚¬ìš©í•´ì•¼í•©ë‹ˆë‹¤)\n ");
 		}
 		DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 43
 		DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 44
@@ -515,16 +515,16 @@ stock ShowHelpMenu(client, page = 0)
 			Format(textformat, sizeof(textformat), "#Lua Zombie Horde\n[TIPS]\n ");
 			SetPanelTitle(PopupPanel,textformat);
 
-			DrawPanelItem(PopupPanel, "ºû³ª´Â ÇÃ·¹ÀÌ¾î");								// 51
-			DrawPanelText(PopupPanel, "        ¸Şµñ ¶Ç´Â Ä¡¸í»óÀ» ÀÔÀº ÇÃ·¹ÀÌ¾î\n ");
-			DrawPanelItem(PopupPanel, "ÃâÇ÷ ¶Ç´Â ³·Àº Ã¼·Â");					// 52
-			DrawPanelText(PopupPanel, "        First Aid »ç¿ë ¶Ç´Â ¸ŞµñÀ» Ã£¾Æ°¡¼­ ¿äÃ» (F Å°)");
-			DrawPanelText(PopupPanel, "        'Death' »óÅÂ½Ã ½Ã¾ß°¡ ¾îµÎ¿öÁü\n ");
-			DrawPanelItem(PopupPanel, "ºÒÀÌ ºÙÀ» °æ¿ì");									// 53
-			DrawPanelText(PopupPanel, "        ¾şµå·Á¼­ ºÒÀ» ²û\n ");
-			DrawPanelItem(PopupPanel, "Çìµå¼¦°ú ³ªÀÌÇÁ´Â ³ôÀº µ¥¹ÌÁö¸¦ º¸À¯\n ");					// 54
-			DrawPanelItem(PopupPanel, "Àû±º ÈÄ¹æ ½ºÆù");							// 55
-			DrawPanelText(PopupPanel, "        Àû±ºÀº ÈÄ¹æ¿¡¼­µµ ½ºÆùÇÕ´Ï´Ù\n ");
+			DrawPanelItem(PopupPanel, "ë¹›ë‚˜ëŠ” í”Œë ˆì´ì–´");								// 51
+			DrawPanelText(PopupPanel, "        ë©”ë”• ë˜ëŠ” ì¹˜ëª…ìƒì„ ì…ì€ í”Œë ˆì´ì–´\n ");
+			DrawPanelItem(PopupPanel, "ì¶œí˜ˆ ë˜ëŠ” ë‚®ì€ ì²´ë ¥");					// 52
+			DrawPanelText(PopupPanel, "        First Aid ì‚¬ìš© ë˜ëŠ” ë©”ë”•ì„ ì°¾ì•„ê°€ì„œ ìš”ì²­ (F í‚¤)");
+			DrawPanelText(PopupPanel, "        'Death' ìƒíƒœì‹œ ì‹œì•¼ê°€ ì–´ë‘ì›Œì§\n ");
+			DrawPanelItem(PopupPanel, "ë¶ˆì´ ë¶™ì„ ê²½ìš°");									// 53
+			DrawPanelText(PopupPanel, "        ì—ë“œë ¤ì„œ ë¶ˆì„ ë”\n ");
+			DrawPanelItem(PopupPanel, "í—¤ë“œìƒ·ê³¼ ë‚˜ì´í”„ëŠ” ë†’ì€ ë°ë¯¸ì§€ë¥¼ ë³´ìœ \n ");					// 54
+			DrawPanelItem(PopupPanel, "ì êµ° í›„ë°© ìŠ¤í°");							// 55
+			DrawPanelText(PopupPanel, "        ì êµ°ì€ í›„ë°©ì—ì„œë„ ìŠ¤í°í•©ë‹ˆë‹¤\n ");
 		}
 	}
 	else return;
@@ -534,7 +534,7 @@ stock ShowHelpMenu(client, page = 0)
 		if (StrContains(language, "korea", false) == -1)
 			DrawPanelItem(PopupPanel, "[Q]  Back");	// 6
 		else
-			DrawPanelItem(PopupPanel, "[Q]  µÚ·Î°¡±â");	// 6
+			DrawPanelItem(PopupPanel, "[Q]  ë’¤ë¡œê°€ê¸°");	// 6
 	}
 	else
 		DrawPanelItem(PopupPanel, "", ITEMDRAW_NOTEXT);	// 6
@@ -543,7 +543,7 @@ stock ShowHelpMenu(client, page = 0)
 	if (StrContains(language, "korea", false) == -1)
 		DrawPanelItem(PopupPanel, "[TAB]  Close");	// 9
 	else
-		DrawPanelItem(PopupPanel, "[TAB]  ´İ±â");	// 9
+		DrawPanelItem(PopupPanel, "[TAB]  ë‹«ê¸°");	// 9
 
 	if (!IsPlayerAlive(client))
 		SetEntProp(client, Prop_Send, "m_iHideHUD", HIDEHUD_HEALTH);
