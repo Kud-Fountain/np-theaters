@@ -21,11 +21,16 @@ public Plugin:myinfo =
 	url = "http://group.lua.kr"
 }
 
+#define		MAXPLAYER			12		// MAX SECURITY PLAYER SLOTS
+
 #define		TEAM_NONE			0
 #define		TEAM_SPECTATOR		1
 #define		TEAM_SURVIVORS		2
 #define		TEAM_ZOMBIES		3
-#define		MAXPLAYER			10
+
+/**			WEAPON INDEX VALUES			**/
+#define		WEAPON_FLAREGUN		121
+#define		WEAPON_HEALTHKIT	40
 
 #define ZOMBIE_DUMMY_WEAPON					"weapon_model10"
 #define ZOMBIE_COMMON_INDEX					0
@@ -80,7 +85,6 @@ enum ParticleAttachment_t
 	#define HITGROUP_GEAR        10            // alerts NPC, but doesn't do damage or bleed (1/100th damage)
 *///
 
-new Handle:g_hDB;
 new bool:g_bLateLoad	=	false;
 new DEBUGGING_ENABLED	=	0;
 new bool:g_bUpdatedSpawnPoint = false;
@@ -832,7 +836,6 @@ public OnPluginStart()
 
 //	HookConVarChange(g_hCvarUAVCounts, ConVarChanged);
 	LoadTranslations("common.phrases");
-	SQL_TConnect(LoadMySQLBase, "sourcebans");
 }
 
 public Action:NormalSoundHook(clients[64], &numClients, String:sample[PLATFORM_MAX_PATH], &entity, &channel, &Float:volume, &level, &pitch, &flags)
@@ -1106,28 +1109,6 @@ public Action:HQAudioHookNight(UserMsg:MsgId, Handle:hBitBuffer, const iPlayers[
 		return Plugin_Handled;
 	}
 	return Plugin_Continue;
-}
-
-public LoadMySQLBase(Handle:owner, Handle:hndl, const String:error[], any:data)
-{
-	if (hndl == INVALID_HANDLE)
-	{
-		LogToGame("Failed to connect: %s", error);
-		g_hDB = INVALID_HANDLE;
-		return;
-	}
-	else LogToGame("ZH DB: Connected");
-
-	g_hDB = hndl;
-	decl String:query[32];
-	FormatEx(query, sizeof(query), "SET NAMES \"UTF8\"");
-	SQL_TQuery(g_hDB, SQLErrorCheckCallback, query);
-}
-
-public SQLErrorCheckCallback(Handle:owner, Handle:hndl, const String:error[], any:data)
-{
-	if (!StrEqual("", error))
-		LogError("Last Connect SQL Error: %s", error);
 }
 
 public OnPluginEnd()
@@ -2526,6 +2507,7 @@ public OnMapStart()
 					}
 					if (IsPlayerAlive(client))
 					{
+						// #Resupply Check
 						new iKnife = GetPlayerWeaponByName(client, "weapon_kabar");
 						if (iKnife > MaxClients && IsValidEdict(iKnife))
 							iKnife = EntIndexToEntRef(iKnife);
@@ -3290,7 +3272,7 @@ public SHook_OnPreThink(client)
 						{
 							if (StrEqual(g_sPlayerClassTemplate[client], "template_demolitions_security_coop", true))
 							{
-								if (g_iPlayerDeployedWeapon[client] == 1 && GetClientButtons(client) & INS_USE)
+								if (g_iPlayerDeployedWeapon[client] == 1 && GetClientButtons(client) & INS_USE)	// #Deployed weapon_kabar (1)
 								{
 									new iHp = GetEntProp(iAimTarget, Prop_Data, "m_iHealth");
 									new iMaxHp = GetEntProp(iAimTarget, Prop_Data, "m_iMaxHealth");
@@ -3343,7 +3325,7 @@ public SHook_OnPreThink(client)
 		}
 	}
 	
-	if (iWorkStatus == 0 && g_iPlayerDeployedWeapon[client] == 1)
+	if (iWorkStatus == 0 && g_iPlayerDeployedWeapon[client] == 1)	// #Deployed weapon_kabar (1)
 	{
 		if (g_iPlayerCustomGear[client] > -1)
 		{
@@ -3824,7 +3806,7 @@ public SHook_OnPreThink(client)
 			}
 		}
 	}
-	if (iWorkStatus == 0 && g_iPlayerDeployedWeapon[client] == 40)
+	if (iWorkStatus == 0 && g_iPlayerDeployedWeapon[client] == WEAPON_HEALTHKIT)	// #Deployed weapon_healthkit (40)
 	{
 		iWorkStatus = 3;
 		if (Healthkit_HasHolding(client))
@@ -5158,6 +5140,7 @@ stock UpdateBotsConfig(iPlayers = 0, bool:bNotice = true, bool:bOnlyNoticeWhenUp
 		}
 	}
 
+	// #Bot Numbers
 	new iBotCount = 0;
 	switch(iPlayers)
 	{
@@ -6651,6 +6634,7 @@ public Action:ThinkTimer(Handle:timer)
 			new client = g_iPlayersList[i];
 			if (g_iPlayerLastKnife[client] != -1)
 			{
+				// #Resupply Check
 				new iKnife = GetPlayerWeaponByName(client, "weapon_kabar");
 				if (iKnife > MaxClients && IsValidEdict(iKnife))
 					iKnife = EntIndexToEntRef(iKnife);
@@ -7018,6 +7002,7 @@ public Action:ThinkTimer(Handle:timer)
 				g_iPlayerStance[client] = GetEntProp(client, Prop_Send, "m_iCurrentStance");
 				if (g_iPlayerLastKnife[client] != -1)
 				{
+					// #Resupply Check
 					new iKnife = GetPlayerWeaponByName(client, "weapon_kabar");
 					if (iKnife > MaxClients && IsValidEdict(iKnife))
 						iKnife = EntIndexToEntRef(iKnife);
@@ -8710,6 +8695,7 @@ public Action:Event_PlayerSpawn(Event event, const String:name[], bool:dontBroad
 				SetEntProp(client, Prop_Send, "m_iMaxHealth", CVAR_PLAYER_HEALTH);
 				SetEntProp(client, Prop_Send, "m_iHealth", CVAR_PLAYER_HEALTH);
 			}
+			// #Resupply Check
 			new iKnife = GetPlayerWeaponByName(client, "weapon_kabar");
 			if (iKnife <= MaxClients || !IsValidEdict(iKnife))
 				iKnife = GivePlayerItem(client, "weapon_kabar");
@@ -8743,6 +8729,7 @@ public Action:Event_PlayerSpawn(Event event, const String:name[], bool:dontBroad
 		}
 		else
 		{
+			// #Resupply Check
 			new iKnife = GetPlayerWeaponByName(client, "weapon_kabar");
 			if (iKnife <= MaxClients || !IsValidEdict(iKnife))
 				iKnife = GivePlayerItem(client, "weapon_kabar");
@@ -10344,7 +10331,7 @@ public Action:Event_WeaponDeploy(Handle:event, const String:name[], bool:dontBro
 			PrintCenterText(client, " ");
 		}
 	}
-	if (g_iPlayerDeployedWeapon[client] == 40)	// weapon_healthkit
+	if (g_iPlayerDeployedWeapon[client] == WEAPON_HEALTHKIT)	// #Deployed weapon_healthkit (40)
 	{
 		if (g_bUpdatedSpawnPoint)
 		{
@@ -10391,7 +10378,7 @@ public Action:Event_WeaponDeploy(Handle:event, const String:name[], bool:dontBro
 		{
 			g_fPlayerHealthkitBandaging[client] = 0.0;
 		}
-		if (g_iPlayerDeployedWeapon[client] == 121)	// P2A1 Flaregun
+		if (g_iPlayerDeployedWeapon[client] == WEAPON_FLAREGUN)	// #Deployed weapon_p2a1 flaregun (121)
 		{
 			if (g_fUAVLastTime != 0.0)
 			{
@@ -10412,9 +10399,9 @@ public Action:Event_WeaponDeploy(Handle:event, const String:name[], bool:dontBro
 		}
 		else
 		{
-			if (g_iPlayerDeployedWeapon[client] == 47)
+			if (g_iPlayerDeployedWeapon[client] == 47)	// #Deployed weapon_law rocket launcher (47)
 				g_bWasFiredLAW[client] = true;
-			else if (g_iPlayerDeployedWeapon[client] == 3)
+			else if (g_iPlayerDeployedWeapon[client] == 3)	// #Deployed weapon_at4 rocket launcher(3)
 				g_bWasFiredLAW[client] = false;
 		}
 	}
@@ -10484,7 +10471,7 @@ stock bool:Healthkit_CheckCondition(client, bool:medic, hp)
 public Action:Event_WeaponHolster(Handle:event, const String:name[], bool:dontBroadcast)
 {
 	new iWeaponId = GetEventInt(event, "weaponid");
-	if (iWeaponId == 40)	// weapon_healthkit
+	if (iWeaponId == WEAPON_HEALTHKIT)	// #Holstered weapon_healthkit (40)
 	{
 		new client = GetClientOfUserId(GetEventInt(event, "userid"));
 		g_iPlayerHealthkitDeploy[client] = -1;
@@ -10507,27 +10494,6 @@ public Action:Event_WeaponHolster(Handle:event, const String:name[], bool:dontBr
 	}
 }
 
-/*
-public Action:Event_PlayerHurt(Event event, const String:name[], bool:dontBroadcast)
-{
-	new client = GetClientOfUserId(GetEventInt(event, "userid"));
-	g_iLastHitgroup[client] = GetEventInt(event, "hitgroup");
-	new health = GetEventInt(event, "health");
-	if (health > 0)		// 
-	{
-		new attacker = GetClientOfUserId(GetEventInt(event, "attacker"));
-		if (client == attacker || attacker < 1 || attacker > MaxClients)
-			return Plugin_Continue;	// Ignore unknown attacker or hurt by self
-
-		new damagetype		=	GetEventInt(event, "damagebits");
-		new iVictimTeam		=	GetClientTeam(client);
-		new iAttackerTeam	=	GetClientTeam(attacker);
-//		if (damagetype & ~DMG_BURN && damagetype != 268435464 && GetClientTeam(attacker) == TEAM_SURVIVORS && GetClientTeam(client) == TEAM_SURVIVORS && )
-	}
-//	new damage = GetEventInt(event, "dmg_health");
-	return Plugin_Continue;
-}
-*/
 public Action:AimPunchReset(Handle:timer, any:attacker)
 {
 	if (attacker > 0 && IsClientInGame(attacker) && g_hFFTimer[attacker] == timer)
@@ -11167,6 +11133,7 @@ public Action:Event_RoundFreezeEnd(Handle:event, const String:name[], bool:dontB
 		if (IsLeader(client))
 			CreateCustomFlag(client);
 
+		// #Resupply Check
 		new iKnife = GetPlayerWeaponByName(client, "weapon_kabar");
 		if (iKnife <= MaxClients || !IsValidEdict(iKnife))
 			iKnife = GivePlayerItem(client, "weapon_kabar");
