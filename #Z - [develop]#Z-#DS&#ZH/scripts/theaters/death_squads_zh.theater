@@ -46,11 +46,10 @@
 					"#Zombie"								"template_zh_bot01"
 					"#Zombie"								"template_zh_bot02"
 					"#Zombie"								"template_zh_bot03"
-					//"#Zombie"								"template_zh_bot00"
+					"#Zombie"								"template_zh_bot00"
 					"#Zombie"								"template_zh_bot01"
 					"#Zombie"								"template_zh_bot02"
 					"#Zombie"								"template_zh_bot03"
-					"#Zombie_Bomber"						"template_bomber_insurgent"
 				}
 
 				"Zombies"
@@ -60,10 +59,9 @@
 					"#Zombie"								"template_zh_bot02"
 					"#Zombie"								"template_zh_bot03"
 					"#Zombie"								"template_zh_bot00"
-					//"#Zombie"								"template_zh_bot01"
+					"#Zombie"								"template_zh_bot01"
 					"#Zombie"								"template_zh_bot02"
 					"#Zombie"								"template_zh_bot03"
-					"#Zombie_Bomber"						"template_bomber_insurgent"
 				}
 
 				"Zombies"
@@ -295,141 +293,6 @@
 				}
 			}
 		}
-
-		"template_bomber_insurgent"
-		{
-			"team"					"insurgents"
-			"print_name"				"#Zombie_Bomber"
-			
-			"models"
-			{
-				"player"				"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"			"models/weapons/v_hands_ins_l.mdl"
-
-				"bodygoups"
-				{
-					"kit"					"0"
-					"backpack"				"0"
-				}
-
-				"attachments"
-				{
-					"helmet"
-					{
-						"model"			"models/characters/ins_k6_3_helmet.mdl"
-					}
-				}
-			}
-
-			"buy_order"
-			{
-				//"weapon"				"weapon_kabar"
-				"weapon"			"weapon_ied_throw"
-			}
-			"allowed_items"
-			{
-				"gear"				"ins_light_armor"
-				"gear"				"ins_heavy_armor"
-				"weapon"			"weapon_ied_throw"
-			}
-			"cost_modifiers"
-			{
-				"weapon"
-				{
-					"weapon_model10"	"99"
-					"weapon_waltherppk"	"99"
-					"weapon_sa1911"		"98"
-				}
-				"gear"
-				{
-					"ins_chest_rig"		"99"
-					"ins_chest_carrier"	"99"
-					"sec_nightvision"	"99"
-				}
-			}
-		}
-	}
-	
-	"weapons"
-	{
-		"weapon_ied_throw"
-		{
-		 	"import"					"weapon_grenade_base"
-		 	"weapon_class"				"grenade_frag"
-		 	"weapon_type"				"grenade"
-		 	"print_name"				"IED_THROW"
-		 	"print_desc"				"throwable ied"
-		 	"view_model"				"models/weapons/v_m67.mdl"
-		 	"world_model"				"models/weapons/w_ied.mdl"
-		 	"weapon_slot"				"explosive"
-		 	"act_table"					"grenade"
-		 	"weapon_weight"				"64"
-		 	"weapon_cost"				"4"
-		 	"class_restricted"			"1"
-
-		 	"fov"
-		 	{
-		 	 	"fov_wpn_default"		"65"
-		 	}
-
-		 	"explosives"
-		 	{
-		 	 	"entity"					"grenade_ied_throw"
-		 	 	//"GrenadeRollSpeed"			"300"
-		 	 	//"GrenadeRollSpeedProne"		"250"
-		 	 	//"GrenadeRollUpSpeed"		"150"
-		 	 	//"GrenadeRollUpSpeedProne"	"100"
-		 	 	//"GrenadeThrowSpeed"			"400"
-		 	 	//"GrenadeThrowSpeed"			"1000"
-		 	 	"GrenadeThrowSpeed"			"700"
-		 	 	//"GrenadeThrowSpeedProne"	"350"
-		 	 	//"GrenadeThrowSpeedProne"	"620"
-		 	 	"GrenadeThrowSpeedProne"	"450"
-		 	 	"RemoteDetonation"			"0"
-		 	}
-		 	"ammo_clip"
-		 	{
-		 	 	"ammo_type"					"grenade_c4"
-		 	 	"clip_max_rounds"			"-1"    // no clips
-		 	 	"clip_default"				"1"
-		 	}
-
-		 	"sounds"
-		 	{
-		 	 	"special1"					"Weapon_M67.SpoonEject"
-		 	}
-
-		 	"team_access"					"security, insurgent"
-		}
-		
-		"grenade_ied_throw"
-		{
-			"import"					"baseGrenade"
-			"entity_class"				"grenade_frag"
-			"Model"						"models/weapons/w_ied.mdl"
-			"DetonateDamage"			"380"
-			"DetonateDamageRadius"			"1200"
-			"DetonatePenetrationRadius"		"240"
-			"FuseTime"				"2.5"
-			"RocketStartSpeed"			"2000"
-
-			"Health"					"50"
-			"ReactExplosions"			"1"
-			"ReactBullets"				"1"
-
-			"Particles"
-			{
-				"DetonateParticle"			"ins_c4_explosion"
-				"DetonateWaterParticle"			"ins_water_explosion"
-			}
-
-			"Sounds"
-			{
-				"DetonateSound"				"IED.Explode"
-				"DetonateWaterSound"		"IED.ExplodeWater"
-				"BounceSound"				"Weapon_IED.Bounce"
-			}
-		}
 	}
 	
 	"player_gear"
@@ -449,6 +312,7 @@
 				"HITGROUP_LEFTLEG"			"0.60"
 				"HITGROUP_RIGHTLEG"			"0.60"
 			}
+		
 		}
 
 		"ins_light_armor"
@@ -480,6 +344,7 @@
 				"HITGROUP_LEFTLEG"			"0.40"
 				"HITGROUP_RIGHTLEG"			"0.40"
 			}
+			
 		}
 		
 		"sec_chest_rig"
@@ -495,6 +360,8 @@
 			{
 				"explosive"				"2"
 			}
+			
+			"class_restricted"			"1"
 		}
 		
 		"sec_chest_carrier"
@@ -513,6 +380,8 @@
 			{
 				"explosive"				"2"
 			}
+			
+			"class_restricted"			"1"
 		}
 		
 		"sec_tactical_carrier"
@@ -531,6 +400,8 @@
 			{
 				"explosive"				"3"
 			}
+			
+			"class_restricted"			"1"
 		}
 		
 		"gear_uav"

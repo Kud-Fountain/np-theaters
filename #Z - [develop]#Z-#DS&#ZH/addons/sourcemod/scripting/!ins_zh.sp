@@ -9,13 +9,13 @@
 
 new bool:ZH_DEBUG					=						false;
 
-#define GAMEDESC "Zombie Horde CP [China]"
+#define GAMEDESC "僵尸暴动 [中文版]"
 #define PLUGIN_VERSION "1.6.1"
 #define PLUGIN_DESCRIPTION "x_x"
 public Plugin:myinfo =
 {
 	name = "#Lua Zombie Horde Checkpoint [China]",
-	author = "D.Freddo, Kud",
+	author = "D.Freddo, Modified by:Kud",
 	description = PLUGIN_DESCRIPTION,
 	version = PLUGIN_VERSION,
 	url = "http://group.lua.kr"
@@ -107,7 +107,7 @@ new Float:FCVAR_HELICOPTER_EVAC_CHANCE					=			100.0;
 new g_iFixMapLocation = -1;
 
 // Game cvars
-new Float:FCVAR_GAME_COUNTERATTACK_ALWAYS_CHANCE		=			55.00;
+new Float:FCVAR_GAME_COUNTERATTACK_ALWAYS_CHANCE		=			100.00; //55
 new Float:FCVAR_GAME_COUNTERATTACK_WEAPON_CACHE_HEALTH	=			250.00;
 new Float:FCVAR_FLAG_BOT_RETURN_TIME					=			20.0;
 new Float:FCVAR_FLAG_BOT_RETURN_TIME_MAX				=			40.0;
@@ -124,24 +124,24 @@ new Float:FCVAR_BOT_WEAPONCACHE_INTEL_MODE_CHANCE						=			10.10;
 
 // Player cvars
 new CVAR_PLAYER_HEALTH									=			100;
-new CVAR_PLAYER_GLOW_HEALTH								=			30;
+new CVAR_PLAYER_GLOW_HEALTH								=			40;
 new CVAR_PLAYER_HEALTHKIT_HEAL_MIN						=			25;
-new CVAR_PLAYER_HEALTHKIT_HEAL_MAX						=			50;
+new CVAR_PLAYER_HEALTHKIT_HEAL_MAX						=			40; //50
 /*new CVAR_PLAYER_HEALTHKIT_MEDIC_HEAL_MIN				=			50;
 new CVAR_PLAYER_HEALTHKIT_MEDIC_HEAL_MAX				=			70;		*/
-new CVAR_PLAYER_HEALTHKIT_MIN_HEALTH					=			65;
-new CVAR_PLAYER_HEALTHKIT_MAX_HEALTH					=			75;
-new CVAR_PLAYER_HEALTHKIT_MEDIC_MIN_HEALTH				=			80;
-new CVAR_PLAYER_HEALTHKIT_MEDIC_MAX_HEALTH				=			90;
+new CVAR_PLAYER_HEALTHKIT_MIN_HEALTH					=			30; //65
+new CVAR_PLAYER_HEALTHKIT_MAX_HEALTH					=			35; //75
+new CVAR_PLAYER_HEALTHKIT_MEDIC_MIN_HEALTH				=			40; //80
+new CVAR_PLAYER_HEALTHKIT_MEDIC_MAX_HEALTH				=			45; //90
 /*		No Random Healing HP Config
 new Float:FCVAR_PLAYER_HEALTHKIT_BANDAGE_BASE_TIME		=			1.2;	// seconds per 10 hp
 new Float:FCVAR_PLAYER_HEALTHKIT_BANDAGE_MIN_TIME		=			5.0;
 new Float:FCVAR_PLAYER_HEALTHKIT_MEDIC_BANDAGE_BASE_TIME=			0.8;	// seconds per 10 hp
 new Float:FCVAR_PLAYER_HEALTHKIT_MEDIC_BANDAGE_MIN_TIME	=			4.5;	*/
-new Float:FCVAR_PLAYER_HEALTHKIT_BANDAGE_BASE_TIME		=			0.8;	// seconds per 10 hp
-new Float:FCVAR_PLAYER_HEALTHKIT_BANDAGE_MIN_TIME		=			3.5;
-new Float:FCVAR_PLAYER_HEALTHKIT_MEDIC_BANDAGE_BASE_TIME=			0.5;	// seconds per 10 hp
-new Float:FCVAR_PLAYER_HEALTHKIT_MEDIC_BANDAGE_MIN_TIME	=			3.0;
+new Float:FCVAR_PLAYER_HEALTHKIT_BANDAGE_BASE_TIME		=			1.2;	// seconds per 10 hp //0.8
+new Float:FCVAR_PLAYER_HEALTHKIT_BANDAGE_MIN_TIME		=			3.9;	//3.5
+new Float:FCVAR_PLAYER_HEALTHKIT_MEDIC_BANDAGE_BASE_TIME=			0.9;	// seconds per 10 hp //0.5
+new Float:FCVAR_PLAYER_HEALTHKIT_MEDIC_BANDAGE_MIN_TIME	=			3.4;	//3.0
 new bool:BCVAR_PLAYER_HEALTHKIT_MEDIC_INF_BANDAGE		=			true;
 new Float:FCVAR_PLAYER_HEALTHKIT_TEAMMATE_DISTANCE_INIT	=			90.0;
 new Float:FCVAR_PLAYER_HEALTHKIT_TEAMMATE_DISTANCE_MAX	=			140.0;
@@ -150,7 +150,7 @@ new Float:FCVAR_PLAYER_NEARDEATH_FADEOUT_INTERVAL_MIN	=			30.0;
 new Float:FCVAR_PLAYER_NEARDEATH_FADEOUT_INTERVAL_MAX	=			60.0;
 new Float:FCVAR_PLAYER_MEDIC_REQUEST_COOLTIME			=			20.0;
 /*		Specials	*/
-new Float:FCVAR_PLAYER_RECON_UAV_COOLDOWN				=			360.0;	// UAV RunTime(2.4*15 = 36s)+Delays
+new Float:FCVAR_PLAYER_RECON_UAV_COOLDOWN				=			150.0;	// UAV RunTime(2.4*15 = 36s)+Delays
 
 /*		YELLS		*/
 new Float:FCVAR_PLAYER_YELL_COOLDOWN_MIN				=			2.0;
@@ -179,18 +179,18 @@ new Float:FCVAR_PLAYER_REINFORCEMENT_END_TIME					=			80.0;
 new CVAR_PLAYER_REINFORCEMENT_MAX_PER_POINT						=			2;
 new Float:FCVAR_PLAYER_BLEEDING_BULLET_CHANCE					=			8.88;
 //new Float:FCVAR_PLAYER_BLEEDING_EXPLOSIVE_CHANCE				=			44.44;
-new Float:FCVAR_PLAYER_BLEEDING_INTERVAL_MIN					=			10.0;
-new Float:FCVAR_PLAYER_BLEEDING_INTERVAL_MAX					=			20.0;
-new CVAR_PLAYER_BLEEDING_DAMAGE_MIN								=			2;
-new CVAR_PLAYER_BLEEDING_DAMAGE_MAX								=			6;
-new Float:FCVAR_PLAYER_INFECTION_CHANCE							=		33.3;
-new Float:FCVAR_PLAYER_INFECTION_TIMEINTERVAL_MIN				=		10.0;
-new Float:FCVAR_PLAYER_INFECTION_TIMEINTERVAL_MAX				=		20.0;
-new CVAR_PLAYER_INFECTION_DAMAGE_MIN 							=		2;
-new CVAR_PLAYER_INFECTION_DAMAGE_MAX 							=		6;
+new Float:FCVAR_PLAYER_BLEEDING_INTERVAL_MIN					=			5.0; //10
+new Float:FCVAR_PLAYER_BLEEDING_INTERVAL_MAX					=			10.0; //20
+new CVAR_PLAYER_BLEEDING_DAMAGE_MIN								=			15; //2
+new CVAR_PLAYER_BLEEDING_DAMAGE_MAX								=			20; //6
+new Float:FCVAR_PLAYER_INFECTION_CHANCE							=		50.0; //33.3
+new Float:FCVAR_PLAYER_INFECTION_TIMEINTERVAL_MIN				=		5.0;
+new Float:FCVAR_PLAYER_INFECTION_TIMEINTERVAL_MAX				=		10.0;
+new CVAR_PLAYER_INFECTION_DAMAGE_MIN 							=		15; //2
+new CVAR_PLAYER_INFECTION_DAMAGE_MAX 							=		20; //6
 new String:SCVAR_INFECTION_DAMAGE_CLASSNAME[128] 				=		"Infection";
 	// Bots
-new Float:FCVAR_BOT_RESPAWN_WHEN_LIVE_TOO_LONG					=			50.0;
+new Float:FCVAR_BOT_RESPAWN_WHEN_LIVE_TOO_LONG					=			40.0;
 new Float:FCVAR_BOT_SPAWN_EXP_BURN_NO_DAMAGE_TIME				=			5.0;
 new CVAR_BOT_REINFORCEMENT_TOKEN_MIN							=			15;
 new CVAR_BOT_REINFORCEMENT_TOKEN_MIN_ALONE						=			5;
@@ -210,7 +210,7 @@ new Float:FCVAR_BOT_REINFORCEMENT_COUNTER_END_TIME				=			5.0;
 new CVAR_BOT_REINFORCEMENT_MAX_PER_POINT						=			15;
 new Float:FCVAR_BOT_REINFORCEMENT_BACKATTACK_CHANCE				=			30.0;
 new Float:FCVAR_BOT_REINFORCEMENT_COUNTER_BACKATTACK_CHANCE		=			50.0;
-new Float:FCVAR_FINAL_COUNTERATTACK_TIME						=			210.0;
+new Float:FCVAR_FINAL_COUNTERATTACK_TIME						=			240.0;
 
 /*		HEARTBEATS		*/
 /*new Float:FCVAR_PLAYER_HEARTBEAT_INTERVAL				=			1.5;
@@ -221,21 +221,21 @@ new Float:FCVAR_PLAYER_HEARTBEAT_FAST_INTERVAL			=			0.8;	*/
 						**/
 new CVAR_ZOMBIE_COMMON_HEALTH_MIN						=		400;
 new CVAR_ZOMBIE_COMMON_HEALTH_MAX						=		500;
-new CVAR_ZOMBIE_COMMON_BOT_HEALTH_MIN					=		300;
-new CVAR_ZOMBIE_COMMON_BOT_HEALTH_MAX					=		500;
+new CVAR_ZOMBIE_COMMON_BOT_HEALTH_MIN					=		500; //300
+new CVAR_ZOMBIE_COMMON_BOT_HEALTH_MAX					=		600; //500
 new Float:FCVAR_ZOMBIE_COMMON_SIZE_MIN					=		0.90;
 new Float:FCVAR_ZOMBIE_COMMON_SIZE_MAX					=		1.10;
 new CVAR_ZOMBIE_COMMON_COLOR_RED						=		255;
 new CVAR_ZOMBIE_COMMON_COLOR_GREEN						=		255;
 new CVAR_ZOMBIE_COMMON_COLOR_BLUE						=		255;
-new Float:FCVAR_ZOMBIE_COMMON_SPEED_MIN					=		1.14;
-new Float:FCVAR_ZOMBIE_COMMON_SPEED_MAX					=		1.16;
-new Float:FCVAR_ZOMBIE_COMMON_BOT_SPEED_MIN				=		1.15;
-new Float:FCVAR_ZOMBIE_COMMON_BOT_SPEED_MAX				=		1.25;
-new Float:FCVAR_ZOMBIE_COMMON_DAMAGE_MIN 				=		12.0;
-new Float:FCVAR_ZOMBIE_COMMON_DAMAGE_MAX 				=		18.0;
-new Float:FCVAR_ZOMBIE_COMMON_DAMAGE_BACKATTACK_MIN 	=		24.0;
-new Float:FCVAR_ZOMBIE_COMMON_DAMAGE_BACKATTACK_MAX 	=		28.0;
+new Float:FCVAR_ZOMBIE_COMMON_SPEED_MIN					=		1.36; //1.14
+new Float:FCVAR_ZOMBIE_COMMON_SPEED_MAX					=		1.40; //1.16
+new Float:FCVAR_ZOMBIE_COMMON_BOT_SPEED_MIN				=		1.40; //1.15
+new Float:FCVAR_ZOMBIE_COMMON_BOT_SPEED_MAX				=		1.50; //1.25
+new Float:FCVAR_ZOMBIE_COMMON_DAMAGE_MIN 				=		12.0; //12
+new Float:FCVAR_ZOMBIE_COMMON_DAMAGE_MAX 				=		18.0; //18
+new Float:FCVAR_ZOMBIE_COMMON_DAMAGE_BACKATTACK_MIN 	=		24.0; //24
+new Float:FCVAR_ZOMBIE_COMMON_DAMAGE_BACKATTACK_MAX 	=		28.0; //28
 /*
 new Float:FCVAR_ZOMBIE_BLINKER_BLINK_CHANCE				=		77.7;
 new Float:FCVAR_ZOMBIE_BLINKER_BLINK_DAMAGE_RATIO		=		0.4;
@@ -244,10 +244,10 @@ new CVAR_ZOMBIE_BLINKER_RESTRICT						=		0;
 new CVAR_ZOMBIE_BLINKER_MAX_SPAWN						=		-2;
 new Float:FCVAR_ZOMBIE_BLINKER_MAX_SPAWN_PER_SURVIVORS	=		0.4;
 new Float:FCVAR_ZOMBIE_BLINKER_MAX_SPAWN_PER_ZOMBIES	=		0.0;
-new CVAR_ZOMBIE_BLINKER_HEALTH_MIN						=		300;
-new CVAR_ZOMBIE_BLINKER_HEALTH_MAX						=		360;
-new CVAR_ZOMBIE_BLINKER_BOT_HEALTH_MIN					=		200;
-new CVAR_ZOMBIE_BLINKER_BOT_HEALTH_MAX					=		360;
+new CVAR_ZOMBIE_BLINKER_HEALTH_MIN						=		1500; //300
+new CVAR_ZOMBIE_BLINKER_HEALTH_MAX						=		2000; //360
+new CVAR_ZOMBIE_BLINKER_BOT_HEALTH_MIN					=		1500; //200
+new CVAR_ZOMBIE_BLINKER_BOT_HEALTH_MAX					=		2000; //360
 // new Float:FCVAR_ZOMBIE_BLINKER_PENALTY_TIME				=		60.0;
 // new Float:FCVAR_ZOMBIE_BLINKER_BOT_PENALTY_TIME			=		50.0;
 new Float:FCVAR_ZOMBIE_BLINKER_SIZE_MIN					=		0.92;
@@ -256,24 +256,24 @@ new CVAR_ZOMBIE_BLINKER_COLOR_RED						=		222;
 new CVAR_ZOMBIE_BLINKER_COLOR_GREEN						=		222;
 new CVAR_ZOMBIE_BLINKER_COLOR_BLUE						=		222;
 new CVAR_ZOMBIE_BLINKER_COLOR_ALPHA						=		177;
-new Float:FCVAR_ZOMBIE_BLINKER_SPEED_MIN				=		1.14;
-new Float:FCVAR_ZOMBIE_BLINKER_SPEED_MAX				=		1.16;
-new Float:FCVAR_ZOMBIE_BLINKER_BOT_SPEED_MIN			=		1.12;
-new Float:FCVAR_ZOMBIE_BLINKER_BOT_SPEED_MAX			=		1.14;
+new Float:FCVAR_ZOMBIE_BLINKER_SPEED_MIN				=		1.30; //1.14
+new Float:FCVAR_ZOMBIE_BLINKER_SPEED_MAX				=		1.35; //1.16
+new Float:FCVAR_ZOMBIE_BLINKER_BOT_SPEED_MIN			=		1.30; //1.12
+new Float:FCVAR_ZOMBIE_BLINKER_BOT_SPEED_MAX			=		1.34; //1.14
 new Float:FCVAR_ZOMBIE_BLINKER_DAMAGE_MIN 				=		10.0;
 new Float:FCVAR_ZOMBIE_BLINKER_DAMAGE_MAX 				=		16.0;
 new Float:FCVAR_ZOMBIE_BLINKER_DAMAGE_BACKATTACK_MIN 	=		20.0;
 new Float:FCVAR_ZOMBIE_BLINKER_DAMAGE_BACKATTACK_MAX 	=		24.0;
 */
-new Float:FCVAR_ZOMBIE_STALKER_CHANCE					=		24.4;
+new Float:FCVAR_ZOMBIE_STALKER_CHANCE					=		16.6; //24.4
 new CVAR_ZOMBIE_STALKER_RESTRICT						=		0;
 new CVAR_ZOMBIE_STALKER_MAX_SPAWN						=		-2;
 new Float:FCVAR_ZOMBIE_STALKER_MAX_SPAWN_PER_SURVIVORS	=		1.55;
 new Float:FCVAR_ZOMBIE_STALKER_MAX_SPAWN_PER_ZOMBIES	=		0.0;
-new CVAR_ZOMBIE_STALKER_HEALTH_MIN						=		300;
-new CVAR_ZOMBIE_STALKER_HEALTH_MAX						=		400;
-new CVAR_ZOMBIE_STALKER_BOT_HEALTH_MIN					=		200;
-new CVAR_ZOMBIE_STALKER_BOT_HEALTH_MAX					=		300;
+new CVAR_ZOMBIE_STALKER_HEALTH_MIN						=		1500; //300
+new CVAR_ZOMBIE_STALKER_HEALTH_MAX						=		2000; //400
+new CVAR_ZOMBIE_STALKER_BOT_HEALTH_MIN					=		1500; //200
+new CVAR_ZOMBIE_STALKER_BOT_HEALTH_MAX					=		2000; //300
 // new Float:FCVAR_ZOMBIE_STALKER_PENALTY_TIME				=		40.0;
 // new Float:FCVAR_ZOMBIE_STALKER_BOT_PENALTY_TIME			=		20.0;
 new Float:FCVAR_ZOMBIE_STALKER_SIZE_MIN					=		0.74;
@@ -281,35 +281,35 @@ new Float:FCVAR_ZOMBIE_STALKER_SIZE_MAX					=		0.77;
 new CVAR_ZOMBIE_STALKER_COLOR_RED						=		255;
 new CVAR_ZOMBIE_STALKER_COLOR_GREEN						=		255;
 new CVAR_ZOMBIE_STALKER_COLOR_BLUE						=		255;
-new Float:FCVAR_ZOMBIE_STALKER_SPEED_MIN				=		1.20;
-new Float:FCVAR_ZOMBIE_STALKER_SPEED_MAX				=		1.22;
-new Float:FCVAR_ZOMBIE_STALKER_BOT_SPEED_MIN			=		1.10;
-new Float:FCVAR_ZOMBIE_STALKER_BOT_SPEED_MAX			=		1.16;
+new Float:FCVAR_ZOMBIE_STALKER_SPEED_MIN				=		1.30; //1.20
+new Float:FCVAR_ZOMBIE_STALKER_SPEED_MAX				=		1.35; //1.22
+new Float:FCVAR_ZOMBIE_STALKER_BOT_SPEED_MIN			=		1.30; //1.10
+new Float:FCVAR_ZOMBIE_STALKER_BOT_SPEED_MAX			=		1.40; //1.16
 new Float:FCVAR_ZOMBIE_STALKER_DAMAGE_MIN 				=		10.0;
 new Float:FCVAR_ZOMBIE_STALKER_DAMAGE_MAX 				=		16.0;
 new Float:FCVAR_ZOMBIE_STALKER_DAMAGE_BACKATTACK_MIN 	=		20.0;
 new Float:FCVAR_ZOMBIE_STALKER_DAMAGE_BACKATTACK_MAX 	=		24.0;
 
-new Float:FCVAR_ZOMBIE_KNIGHT_CHANCE					=		11.1;
+new Float:FCVAR_ZOMBIE_KNIGHT_CHANCE					=		12.4; //11.1
 new CVAR_ZOMBIE_KNIGHT_RESTRICT							=		0;
 new CVAR_ZOMBIE_KNIGHT_MAX_SPAWN						=		-2;
 new Float:FCVAR_ZOMBIE_KNIGHT_MAX_SPAWN_PER_SURVIVORS	=		0.6;
 new Float:FCVAR_ZOMBIE_KNIGHT_MAX_SPAWN_PER_ZOMBIES		=		0.0;
-new CVAR_ZOMBIE_KNIGHT_HEALTH_MIN						=		2800;
-new CVAR_ZOMBIE_KNIGHT_HEALTH_MAX						=		3400;
-new CVAR_ZOMBIE_KNIGHT_BOT_HEALTH_MIN					=		1500;
-new CVAR_ZOMBIE_KNIGHT_BOT_HEALTH_MAX					=		3000;
+new CVAR_ZOMBIE_KNIGHT_HEALTH_MIN						=		5000; //2800
+new CVAR_ZOMBIE_KNIGHT_HEALTH_MAX						=		6800; //3400
+new CVAR_ZOMBIE_KNIGHT_BOT_HEALTH_MIN					=		4000; //1500
+new CVAR_ZOMBIE_KNIGHT_BOT_HEALTH_MAX					=		6000; //3000
 // new Float:FCVAR_ZOMBIE_KNIGHT_PENALTY_TIME				=		50.0;
 // new Float:FCVAR_ZOMBIE_KNIGHT_BOT_PENALTY_TIME			=		30.0;
-new Float:FCVAR_ZOMBIE_KNIGHT_SIZE_MIN					=		1.36;
-new Float:FCVAR_ZOMBIE_KNIGHT_SIZE_MAX					=		1.44;
+new Float:FCVAR_ZOMBIE_KNIGHT_SIZE_MIN					=		1.50; //1.36
+new Float:FCVAR_ZOMBIE_KNIGHT_SIZE_MAX					=		1.58; //1.44
 new CVAR_ZOMBIE_KNIGHT_COLOR_RED						=		255;
 new CVAR_ZOMBIE_KNIGHT_COLOR_GREEN						=		166;
 new CVAR_ZOMBIE_KNIGHT_COLOR_BLUE						=		166;
-new Float:FCVAR_ZOMBIE_KNIGHT_SPEED_MIN					=		1.1;
-new Float:FCVAR_ZOMBIE_KNIGHT_SPEED_MAX					=		1.12;
-new Float:FCVAR_ZOMBIE_KNIGHT_BOT_SPEED_MIN				=		1.10;
-new Float:FCVAR_ZOMBIE_KNIGHT_BOT_SPEED_MAX				=		1.15;
+new Float:FCVAR_ZOMBIE_KNIGHT_SPEED_MIN					=		1.3; //1.1
+new Float:FCVAR_ZOMBIE_KNIGHT_SPEED_MAX					=		1.36; //1.12
+new Float:FCVAR_ZOMBIE_KNIGHT_BOT_SPEED_MIN				=		1.3; //1.10
+new Float:FCVAR_ZOMBIE_KNIGHT_BOT_SPEED_MAX				=		1.40; //1.15
 new Float:FCVAR_ZOMBIE_KNIGHT_DAMAGE_MIN 				=		16.0;
 new Float:FCVAR_ZOMBIE_KNIGHT_DAMAGE_MAX 				=		20.0;
 new Float:FCVAR_ZOMBIE_KNIGHT_DAMAGE_BACKATTACK_MIN 	=		26.0;
@@ -318,15 +318,15 @@ new Float:FCVAR_ZOMBIE_KNIGHT_DAMAGE_BACKATTACK_MAX 	=		30.0;
 new Float:FCVAR_ZOMBIE_BURNER_ATTACK_BURN_CHANCE		=		66.6;
 new Float:FCVAR_ZOMBIE_BURNER_ATTACK_BURN_TIME_MIN		=		3.0;
 new Float:FCVAR_ZOMBIE_BURNER_ATTACK_BURN_TIME_MAX		=		6.6;
-new Float:FCVAR_ZOMBIE_BURNER_CHANCE					=		22.2;
+new Float:FCVAR_ZOMBIE_BURNER_CHANCE					=		16.6; //22.2
 new CVAR_ZOMBIE_BURNER_RESTRICT							=		0;
 new CVAR_ZOMBIE_BURNER_MAX_SPAWN						=		-2;
 new Float:FCVAR_ZOMBIE_BURNER_MAX_SPAWN_PER_SURVIVORS	=		1.15;
 new Float:FCVAR_ZOMBIE_BURNER_MAX_SPAWN_PER_ZOMBIES		=		0.0;
-new CVAR_ZOMBIE_BURNER_HEALTH_MIN						=		300;
-new CVAR_ZOMBIE_BURNER_HEALTH_MAX						=		500;
-new CVAR_ZOMBIE_BURNER_BOT_HEALTH_MIN					=		300;
-new CVAR_ZOMBIE_BURNER_BOT_HEALTH_MAX					=		450;
+new CVAR_ZOMBIE_BURNER_HEALTH_MIN						=		1500; //300
+new CVAR_ZOMBIE_BURNER_HEALTH_MAX						=		2000; //500
+new CVAR_ZOMBIE_BURNER_BOT_HEALTH_MIN					=		1500; //300
+new CVAR_ZOMBIE_BURNER_BOT_HEALTH_MAX					=		2000; //450
 // new Float:FCVAR_ZOMBIE_BURNER_PENALTY_TIME				=		40.0;
 // new Float:FCVAR_ZOMBIE_BURNER_BOT_PENALTY_TIME			=		30.0;
 new Float:FCVAR_ZOMBIE_BURNER_SIZE_MIN					=		0.95;
@@ -334,25 +334,25 @@ new Float:FCVAR_ZOMBIE_BURNER_SIZE_MAX					=		1.05;
 new CVAR_ZOMBIE_BURNER_COLOR_RED						=		99;
 new CVAR_ZOMBIE_BURNER_COLOR_GREEN						=		99;
 new CVAR_ZOMBIE_BURNER_COLOR_BLUE						=		99;
-new Float:FCVAR_ZOMBIE_BURNER_SPEED_MIN					=		1.16;
-new Float:FCVAR_ZOMBIE_BURNER_SPEED_MAX					=		1.20;
-new Float:FCVAR_ZOMBIE_BURNER_BOT_SPEED_MIN				=		1.20;
-new Float:FCVAR_ZOMBIE_BURNER_BOT_SPEED_MAX				=		1.25;
-new Float:FCVAR_ZOMBIE_BURNER_HURT_BULLET_DETONATE_CHANCE			=		0.33;
+new Float:FCVAR_ZOMBIE_BURNER_SPEED_MIN					=		1.30; //1.16
+new Float:FCVAR_ZOMBIE_BURNER_SPEED_MAX					=		1.40; //1.20
+new Float:FCVAR_ZOMBIE_BURNER_BOT_SPEED_MIN				=		1.35; //1.20
+new Float:FCVAR_ZOMBIE_BURNER_BOT_SPEED_MAX				=		1.40; //1.25
+new Float:FCVAR_ZOMBIE_BURNER_HURT_BULLET_DETONATE_CHANCE			=		0.5; //0.33
 new Float:FCVAR_ZOMBIE_BURNER_DAMAGE_MIN 				=		12.0;
 new Float:FCVAR_ZOMBIE_BURNER_DAMAGE_MAX 				=		18.0;
 new Float:FCVAR_ZOMBIE_BURNER_DAMAGE_BACKATTACK_MIN 	=		24.0;
 new Float:FCVAR_ZOMBIE_BURNER_DAMAGE_BACKATTACK_MAX 	=		28.0;
 
-new Float:FCVAR_ZOMBIE_SMOKER_CHANCE					=		11.1;
+new Float:FCVAR_ZOMBIE_SMOKER_CHANCE					=		16.6; //11.1
 new CVAR_ZOMBIE_SMOKER_RESTRICT							=		0;
 new CVAR_ZOMBIE_SMOKER_MAX_SPAWN						=		-2;
 new Float:FCVAR_ZOMBIE_SMOKER_MAX_SPAWN_PER_SURVIVORS	=		0.255;
 new Float:FCVAR_ZOMBIE_SMOKER_MAX_SPAWN_PER_ZOMBIES		=		0.0;
-new CVAR_ZOMBIE_SMOKER_HEALTH_MIN						=		300;
-new CVAR_ZOMBIE_SMOKER_HEALTH_MAX						=		350;
-new CVAR_ZOMBIE_SMOKER_BOT_HEALTH_MIN					=		250;
-new CVAR_ZOMBIE_SMOKER_BOT_HEALTH_MAX					=		350;
+new CVAR_ZOMBIE_SMOKER_HEALTH_MIN						=		1500; //300
+new CVAR_ZOMBIE_SMOKER_HEALTH_MAX						=		2000; //350
+new CVAR_ZOMBIE_SMOKER_BOT_HEALTH_MIN					=		1500; //250
+new CVAR_ZOMBIE_SMOKER_BOT_HEALTH_MAX					=		2000; //350
 // new Float:FCVAR_ZOMBIE_SMOKER_PENALTY_TIME				=		60.0;
 // new Float:FCVAR_ZOMBIE_SMOKER_BOT_PENALTY_TIME			=		50.0;
 new Float:FCVAR_ZOMBIE_SMOKER_SIZE_MIN					=		0.95;
@@ -360,24 +360,24 @@ new Float:FCVAR_ZOMBIE_SMOKER_SIZE_MAX					=		1.05;
 new CVAR_ZOMBIE_SMOKER_COLOR_RED						=		188;
 new CVAR_ZOMBIE_SMOKER_COLOR_GREEN						=		188;
 new CVAR_ZOMBIE_SMOKER_COLOR_BLUE						=		188;
-new Float:FCVAR_ZOMBIE_SMOKER_SPEED_MIN					=		1.10;
-new Float:FCVAR_ZOMBIE_SMOKER_SPEED_MAX					=		1.15;
-new Float:FCVAR_ZOMBIE_SMOKER_BOT_SPEED_MIN				=		1.20;
-new Float:FCVAR_ZOMBIE_SMOKER_BOT_SPEED_MAX				=		1.25;
+new Float:FCVAR_ZOMBIE_SMOKER_SPEED_MIN					=		1.30; //1.10
+new Float:FCVAR_ZOMBIE_SMOKER_SPEED_MAX					=		1.40; //1.15
+new Float:FCVAR_ZOMBIE_SMOKER_BOT_SPEED_MIN				=		1.35; //1.20
+new Float:FCVAR_ZOMBIE_SMOKER_BOT_SPEED_MAX				=		1.45; //1.25
 new Float:FCVAR_ZOMBIE_SMOKER_DAMAGE_MIN 				=		12.0;
 new Float:FCVAR_ZOMBIE_SMOKER_DAMAGE_MAX 				=		16.0;
 new Float:FCVAR_ZOMBIE_SMOKER_DAMAGE_BACKATTACK_MIN 	=		20.0;
 new Float:FCVAR_ZOMBIE_SMOKER_DAMAGE_BACKATTACK_MAX 	=		24.0;
 
-new Float:FCVAR_ZOMBIE_IED_CHANCE								=		12.22;
+new Float:FCVAR_ZOMBIE_IED_CHANCE								=		16.66; //12.22
 new CVAR_ZOMBIE_IED_RESTRICT									=		0;
 new CVAR_ZOMBIE_IED_MAX_SPAWN									=		-2;
 new Float:FCVAR_ZOMBIE_IED_MAX_SPAWN_PER_SURVIVORS				=		1.00;
 new Float:FCVAR_ZOMBIE_IED_MAX_SPAWN_PER_ZOMBIES				=		0.0;
-new CVAR_ZOMBIE_IED_HEALTH_MIN									=		300;
-new CVAR_ZOMBIE_IED_HEALTH_MAX									=		350;
-new CVAR_ZOMBIE_IED_BOT_HEALTH_MIN								=		200;
-new CVAR_ZOMBIE_IED_BOT_HEALTH_MAX								=		320;
+new CVAR_ZOMBIE_IED_HEALTH_MIN									=		1500; //300
+new CVAR_ZOMBIE_IED_HEALTH_MAX									=		2000; //350
+new CVAR_ZOMBIE_IED_BOT_HEALTH_MIN								=		1500; //200
+new CVAR_ZOMBIE_IED_BOT_HEALTH_MAX								=		2000; //320
 // new Float:FCVAR_ZOMBIE_IED_PENALTY_TIME							=		60.0;
 // new Float:FCVAR_ZOMBIE_IED_BOT_PENALTY_TIME						=		50.0;
 new Float:FCVAR_ZOMBIE_IED_SIZE_MIN								=		0.95;
@@ -385,10 +385,10 @@ new Float:FCVAR_ZOMBIE_IED_SIZE_MAX								=		1.10;
 new CVAR_ZOMBIE_IED_COLOR_RED									=		122;
 new CVAR_ZOMBIE_IED_COLOR_GREEN									=		122;
 new CVAR_ZOMBIE_IED_COLOR_BLUE									=		122;
-new Float:FCVAR_ZOMBIE_IED_SPEED_MIN							=		1.20;
-new Float:FCVAR_ZOMBIE_IED_SPEED_MAX							=		1.30;
-new Float:FCVAR_ZOMBIE_IED_BOT_SPEED_MIN						=		1.20;
-new Float:FCVAR_ZOMBIE_IED_BOT_SPEED_MAX						=		1.30;
+new Float:FCVAR_ZOMBIE_IED_SPEED_MIN							=		1.35; //1.20
+new Float:FCVAR_ZOMBIE_IED_SPEED_MAX							=		1.40; //1.30
+new Float:FCVAR_ZOMBIE_IED_BOT_SPEED_MIN						=		1.40; //1.20
+new Float:FCVAR_ZOMBIE_IED_BOT_SPEED_MAX						=		1.45; //1.30
 new Float:FCVAR_ZOMBIE_IED_DAMAGE_MIN 							=		12.0;
 new Float:FCVAR_ZOMBIE_IED_DAMAGE_MAX 							=		16.0;
 new Float:FCVAR_ZOMBIE_IED_DAMAGE_BACKATTACK_MIN 				=		20.0;
@@ -406,15 +406,15 @@ new Float:FCVAR_ZOMBIE_LEAPER_LEAP_DISTANCE_MAX			=			1200.0;
 new Float:FCVAR_ZOMBIE_LEAPER_LEAP_DELAY_MIN			=			0.5;
 new Float:FCVAR_ZOMBIE_LEAPER_LEAP_DELAY_MAX			=			1.2;
 new Float:FCVAR_ZOMBIE_LEAP_READY_SPEED					=			0.33;
-new Float:FCVAR_ZOMBIE_LEAPER_CHANCE					=		12.12;
+new Float:FCVAR_ZOMBIE_LEAPER_CHANCE					=		16.6; //12.12
 new CVAR_ZOMBIE_LEAPER_RESTRICT							=		0;
 new CVAR_ZOMBIE_LEAPER_MAX_SPAWN						=		-2;
 new Float:FCVAR_ZOMBIE_LEAPER_MAX_SPAWN_PER_SURVIVORS	=		1.33;
 new Float:FCVAR_ZOMBIE_LEAPER_MAX_SPAWN_PER_ZOMBIES		=		0.0;
-new CVAR_ZOMBIE_LEAPER_HEALTH_MIN						=		300;
-new CVAR_ZOMBIE_LEAPER_HEALTH_MAX						=		400;
-new CVAR_ZOMBIE_LEAPER_BOT_HEALTH_MIN					=		250;
-new CVAR_ZOMBIE_LEAPER_BOT_HEALTH_MAX					=		350;
+new CVAR_ZOMBIE_LEAPER_HEALTH_MIN						=		1500; //300
+new CVAR_ZOMBIE_LEAPER_HEALTH_MAX						=		2000; //400
+new CVAR_ZOMBIE_LEAPER_BOT_HEALTH_MIN					=		1500; //250
+new CVAR_ZOMBIE_LEAPER_BOT_HEALTH_MAX					=		2000; //350
 // new Float:FCVAR_ZOMBIE_LEAPER_PENALTY_TIME				=		40.0;
 // new Float:FCVAR_ZOMBIE_LEAPER_BOT_PENALTY_TIME			=		20.0;
 new Float:FCVAR_ZOMBIE_LEAPER_SIZE_MIN					=		0.92;
@@ -422,10 +422,10 @@ new Float:FCVAR_ZOMBIE_LEAPER_SIZE_MAX					=		0.96;
 new CVAR_ZOMBIE_LEAPER_COLOR_RED						=		120;
 new CVAR_ZOMBIE_LEAPER_COLOR_GREEN						=		102;
 new CVAR_ZOMBIE_LEAPER_COLOR_BLUE						=		255;
-new Float:FCVAR_ZOMBIE_LEAPER_SPEED_MIN				=		1.20;
-new Float:FCVAR_ZOMBIE_LEAPER_SPEED_MAX				=		1.25;
-new Float:FCVAR_ZOMBIE_LEAPER_BOT_SPEED_MIN				=		1.20;
-new Float:FCVAR_ZOMBIE_LEAPER_BOT_SPEED_MAX				=		1.25;
+new Float:FCVAR_ZOMBIE_LEAPER_SPEED_MIN				=		1.30; //1.20
+new Float:FCVAR_ZOMBIE_LEAPER_SPEED_MAX				=		1.40; //1.25
+new Float:FCVAR_ZOMBIE_LEAPER_BOT_SPEED_MIN				=		1.30; //1.20
+new Float:FCVAR_ZOMBIE_LEAPER_BOT_SPEED_MAX				=		1.40; //1.25
 new Float:FCVAR_ZOMBIE_LEAPER_DAMAGE_MIN 				=		10.0;
 new Float:FCVAR_ZOMBIE_LEAPER_DAMAGE_MAX 				=		16.0;
 new Float:FCVAR_ZOMBIE_LEAPER_DAMAGE_BACKATTACK_MIN 	=		20.0;
@@ -434,8 +434,8 @@ new Float:FCVAR_ZOMBIE_LEAPER_DAMAGE_BACKATTACK_MAX 	=		24.0;
 new Float:FCVAR_ZOMBIE_BURN_MIN_TIME					=			6.0;
 new Float:FCVAR_ZOMBIE_BURN_MAX_TIME					=			20.0;
 new Float:FCVAR_ZOMBIE_BURN_DAMAGE						=			5.0;
-new Float:FCVAR_ZOMBIE_BURN_BONUS_SPEED_MIN				=			0.14;
-new Float:FCVAR_ZOMBIE_BURN_BONUS_SPEED_MAX				=			0.20;
+new Float:FCVAR_ZOMBIE_BURN_BONUS_SPEED_MIN				=			0.0; //0.14
+new Float:FCVAR_ZOMBIE_BURN_BONUS_SPEED_MAX				=			0.0; //0.20
 new Float:FCVAR_ZOMBIE_BLEEDING_MIN_TIME				=			3.0;
 new Float:FCVAR_ZOMBIE_BLEEDING_MAX_TIME				=			6.0;
 new Float:FCVAR_ZOMBIE_BLEED_REDUCE_SPEED_MIN			=			0.06;
@@ -1840,7 +1840,7 @@ public Action:Timer_EvacHelicopter(Handle:timer, any:refentity)
 		g_fRoundTimeLeft = 90.0;
 //		SetTimerPause(true);
 //		RequestFrame(RoundTime, 3600.0);
-		PrintToChatAll("\x08%sEvac Helicopter Arrived!  \x01leave in \x0490s \x01!", COLOR_GOLD);
+		PrintToChatAll("\x08%s撤离直升机已到达！  \x01请在 \x0490秒内撤离 \x01！", COLOR_GOLD);
 //		PrintToChatAll("\x08%sEvac Helicopter Arrived!", COLOR_GOLD);
 		PlayGameSoundToAll("Training.Warehouse.Driver.1");
 		if (g_iHeliEvacParticle == INVALID_ENT_REFERENCE || !IsValidEntity(g_iHeliEvacParticle) || EntRefToEntIndex(g_iHeliEvacParticle) <= MaxClients)
@@ -2155,13 +2155,13 @@ public Action:Timer_EvacHelicopter(Handle:timer, any:refentity)
 		// if (g_bHeliEvacStarted)
 			// PrintCenterTextAll("[%d / %d]  Go to the Evac Helicopter", iEvacPlayers, iPlayers);
 		if (g_bHeliEvacStarted)
-			PrintCenterTextAll("[%d / %d]  Evac Helicopter  leave in %0.1f", iEvacPlayers, iPlayers, g_fRoundTimeLeft);
+			PrintCenterTextAll("[%d / %d]  撤离直升机将在 %0.1f 秒后离开", iEvacPlayers, iPlayers, g_fRoundTimeLeft);
 
 		if (iEvacPlayers > 0 && iEvacPlayers >= iPlayers)
 		{
 			PlayGameSoundToAll("Training.Warehouse.Vip.40.1");
 			PlayGameSoundToAll("ui/vote_success.wav");
-			PrintToChatAll("\x08%sEvac Complete!  \x01leave in \x0420s \x01!", COLOR_GOLD);
+			PrintToChatAll("\x08%s撤离完毕！  \x01将在 \x0420秒后离开 \x01！", COLOR_GOLD);
 			g_fHeliEvacTime = g_fGameTime+20.0;
 			SetRoundTime(20.0);
 			HelicopterSpawn(_, _, 9, true);
@@ -2179,7 +2179,7 @@ public Action:Timer_EvacHelicopter(Handle:timer, any:refentity)
 				AcceptEntityInput(ent, "EndRound");
 			}
 		}
-		else PrintCenterTextAll("Evac Complete!  leave in %0.1f", g_fHeliEvacTime-g_fGameTime);
+		else PrintCenterTextAll("撤离完毕！  在 %0.1f 秒后离开", g_fHeliEvacTime-g_fGameTime);
 	}
 	return Plugin_Continue;
 }
@@ -2204,32 +2204,32 @@ public Action:Command_Radial(client, args)
 			if (float(iHp)/float(CVAR_PLAYER_HEALTH) < 0.2)
 			{
 				iHp = 0;
-				Format(sHp, sizeof(sHp), "\x08%sDeath", COLOR_RED);
+				Format(sHp, sizeof(sHp), "\x08%s死亡", COLOR_RED);
 			}
 			else if (float(iHp)/float(CVAR_PLAYER_HEALTH) <= 0.4)
 			{
 				iHp = 1;
-				Format(sHp, sizeof(sHp), "\x08%sCritical", COLOR_DARKORANGE);
+				Format(sHp, sizeof(sHp), "\x08%s严重受伤", COLOR_DARKORANGE);
 			}
 			else if (float(iHp)/float(CVAR_PLAYER_HEALTH) < 0.8)
 			{
 				iHp = 2;
-				Format(sHp, sizeof(sHp), "\x08%sInjured", COLOR_LIGHTGOLDENRODYELLOW);
+				Format(sHp, sizeof(sHp), "\x08%s受伤", COLOR_LIGHTGOLDENRODYELLOW);
 			}
 			else
 			{
 				iHp = 3;
-				Format(sHp, sizeof(sHp), "\x08%sHealthy", COLOR_GREEN);
+				Format(sHp, sizeof(sHp), "\x08%s健康", COLOR_GREEN);
 			}
 			if (g_fBurnTime[client] != 0.0 || GetEntityFlags(client)&FL_ONFIRE)
-				Format(sHp, sizeof(sHp), "%s  \x08%sOn Fire", sHp, COLOR_MAROON);
+				Format(sHp, sizeof(sHp), "%s  \x08%s着火", sHp, COLOR_MAROON);
 			if (g_iPlayerBleeding[client] != 0)
-				Format(sHp, sizeof(sHp), "%s  \x08%sBleeding", sHp, COLOR_DARKSLATEBLUE);
-			if (StrContains(sHp, "Healthy", true) != -1 && g_iPlayerBleeding[client] == 0 && StrContains(sHp, "On Fire", true) == -1)
+				Format(sHp, sizeof(sHp), "%s  \x08%s失血", sHp, COLOR_DARKSLATEBLUE);
+			if (StrContains(sHp, "健康", true) != -1 && g_iPlayerBleeding[client] == 0 && StrContains(sHp, "着火", true) == -1)
 				return Plugin_Handled;
 			else
 			{
-				FakeClientCommand(client, "say Request Medic!  (%s)", sHp);
+				FakeClientCommand(client, "say 需要医疗兵帮助！  (%s)", sHp);
 				g_fLastMedicCall[client] = g_fGameTime;
 				PlayerYell(client, 9, true, _, iHp);
 				return Plugin_Handled;
@@ -2339,21 +2339,21 @@ public OnMapStart()
 	GetConVarString(FindConVar("hostport"), sPort, sizeof(sPort));
 	if (StrEqual(sIP, "2038256820"))	// Tare
 	{
-		if (StrEqual(sPort, "27015")) ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [���� ���]");
-		else if (StrEqual(sPort, "27016")) ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [���� ���]  #2");
-//		else if (StrEqual(sPort, "27016")) ServerCommand("hostname #Lua's  Zombie Horde  [���� ���]  TEST @ 10:40 PM (KST)");
-		else ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [���� ���]  #3");
+		if (StrEqual(sPort, "27015")) ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [좀비 모드]");
+		else if (StrEqual(sPort, "27016")) ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [좀비 모드]  #2");
+//		else if (StrEqual(sPort, "27016")) ServerCommand("hostname #Lua's  Zombie Horde  [좀비 모드]  TEST @ 10:40 PM (KST)");
+		else ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [좀비 모드]  #3");
 	}
 	else if (StrEqual(sIP, "2040372824"))	// Home
 	{
-		if (StrEqual(sPort, "27015")) ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [���� ���]  @MONSTER");
-		else if (StrEqual(sPort, "27016")) ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [���� ���]  @MONSTER #2");
-		else ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [���� ���]  @MONSTER #3");
+		if (StrEqual(sPort, "27015")) ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [좀비 모드]  @MONSTER");
+		else if (StrEqual(sPort, "27016")) ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [좀비 모드]  @MONSTER #2");
+		else ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [좀비 모드]  @MONSTER #3");
 	}
 	else
 	{
 		if (StrEqual(sPort, "27015")) ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [New York]");
-		else if (StrEqual(sPort, "27016")) ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [New York]  #2");
+		else if (StrEqual(sPort, "27016")) ServerCommand("hostname [SG]WN|STF僵尸暴动测试服[中文|Lua|Test]");
 		else ServerCommand("hostname #Lua's  Zombie Horde  Checkpoint x_x [New York]  #3");
 	}
 	g_bSkipCacheCheck = false;
@@ -3224,7 +3224,7 @@ public SHook_OnPreThink(client)
 				{
 					if (g_iPLFBuyzone[client] != INVALID_ENT_REFERENCE && g_iPLFBuyzone[client] == EntIndexToEntRef(iAimTarget))
 					{
-						PrintCenterText(client, "Press \"USE (F)\" to Resupply\n \nAmmo Crate Stock:  [%d / 4]", RoundToNearest(GetEntPropFloat(iAimTarget, Prop_Data, "m_flLocalTime")));
+						PrintCenterText(client, "按 \"使用键 (F)\" 来重新补给\n \n弹药补给剩余量:  [%d / 4]", RoundToNearest(GetEntPropFloat(iAimTarget, Prop_Data, "m_flLocalTime")));
 						if (GetClientButtons(client) & INS_USE && GetGameTime()-g_fPlayerLastChat[client] >= 1.0)
 						{
 							FakeClientCommand(client, "inventory_resupply");
@@ -3252,14 +3252,14 @@ public SHook_OnPreThink(client)
 									LogToGame("%N is fixed portable radar %d", client, iAimTarget);
 									SetVariantColor({100, 100, 255, 255});
 									SetEntityModel(iAimTarget, "models/static_props/sec_hub.mdl");
-									FakeClientCommand(client, "say Portable Radar Fixed!");
+									FakeClientCommand(client, "say 便携雷达已修复！");
 								}
 								else
 								{
 									LogToGame("%N is ied jammer radar %d", client, iAimTarget);
 									SetVariantColor({100, 255, 100, 255});
 									SetEntityModel(iAimTarget, "models/static_props/ins_radio.mdl");
-									FakeClientCommand(client, "say IED Jammer Fixed!");
+									FakeClientCommand(client, "say IED干扰器已修复！");
 								}
 								new Float:fDirection[3];
 								fDirection[0] = GetRandomFloat(-1.0, 1.0);
@@ -3275,9 +3275,9 @@ public SHook_OnPreThink(client)
 							else
 							{
 								if (StrContains(sModelPath, "sec_hub", true) != -1)
-									PrintCenterText(client, "Press \"USE (F)\" to Fix  Portable Radar");
+									PrintCenterText(client, "按 \"使用键 (F)\" 来修复便捷雷达");
 								else
-									PrintCenterText(client, "Press \"USE (F)\" to Fix  IED Jammer");
+									PrintCenterText(client, "按 \"使用键 (F)\" 来修复IED干扰器");
 							}
 						}
 					}
@@ -3288,7 +3288,7 @@ public SHook_OnPreThink(client)
 						GetClientAbsOrigin(client, vTargetOrigin);
 						if (GetVectorDistance(vOrigin, vTargetOrigin) <= 80.0)
 						{
-							if (StrEqual(g_sPlayerClassTemplate[client], "template_coop_engineer", true))
+							if (StrEqual(g_sPlayerClassTemplate[client], "template_demolitions_security_coop", true))
 							{
 								if (g_iPlayerDeployedWeapon[client] == 1 && GetClientButtons(client) & INS_USE)
 								{
@@ -3305,7 +3305,7 @@ public SHook_OnPreThink(client)
 									vOrigin[2] += vMaxs[2]/2;
 									TE_SetupSparks(vOrigin, fDirection, 1, 1);
 									TE_SendToAll();
-									if (iHp < iMaxHp) PrintCenterText(client, "Repairing... [%d  /  %d]", iHp, iMaxHp);
+									if (iHp < iMaxHp) PrintCenterText(client, "修复中... [%d  /  %d]", iHp, iMaxHp);
 									else
 									{
 										iHp = iMaxHp;
@@ -3315,13 +3315,13 @@ public SHook_OnPreThink(client)
 										{
 											LogToGame("%N is fixed barricade %d", client, iAimTarget);
 											SetEntPropFloat(iAimTarget, Prop_Data, "m_flLocalTime", 0.0);
-											FakeClientCommand(client, "say Barricade Repaired!");
+											FakeClientCommand(client, "say 路障已修复！");
 										}
 										else
 										{
 											LogToGame("%N is fixed barricade %d for the last time", client, iAimTarget);
 											SetEntPropFloat(iAimTarget, Prop_Data, "m_flLocalTime", 2.0);
-											FakeClientCommand(client, "say Barricade Repaired but it won't hold longer!");
+											FakeClientCommand(client, "say 路障已修复但撑不了多久了！");
 										}
 									}
 									new iColor = RoundToNearest((float(iHp) / 2000.0) * 255.0);
@@ -3333,9 +3333,9 @@ public SHook_OnPreThink(client)
 									SetEntProp(iAimTarget, Prop_Data, "m_iHealth", iHp);
 									DispatchKeyValue(iAimTarget, "targetname", "LuaCustomModel");
 								}
-								else PrintCenterText(client, "Press \"USE (F) with Knife\" to Repair  Barricade");
+								else PrintCenterText(client, "按 \"使用键 (F) 和切出刀\" 来维修路障");
 							}
-							else PrintCenterText(client, "Call \"Engineers\" to Repair  Barricade");
+							else PrintCenterText(client, "呼叫 \"爆破手\" 来维修路障");
 						}
 					}
 				}
@@ -3385,13 +3385,13 @@ public SHook_OnPreThink(client)
 							new String:sModelPath[128];
 							GetEntPropString(g_iPlayerTempProp[client], Prop_Data, "m_ModelName", sModelPath, sizeof(sModelPath));
 							if (StrContains(sModelPath, "sec_hub", true) != -1)
-								PrintToChatAll("\x04Portable Radar \x01is removed for replace by \x08%s%N", GetPlayerChatColor(client), client);
+								PrintToChatAll("\x04便携雷达 \x01已被移除并被替换为 \x08%s%N", GetPlayerChatColor(client), client);
 							else if (StrContains(sModelPath, "ins_radio", true) != -1)
-								PrintToChatAll("\x04IED Jammer \x01is removed for replace by \x08%s%N", GetPlayerChatColor(client), client);
+								PrintToChatAll("\x04IED干扰器 \x01已被移除并被替换为 \x08%s%N", GetPlayerChatColor(client), client);
 							else if (StrContains(sModelPath, "ammocrate", true) != -1)
-								PrintToChatAll("\x04Ammo Crate \x01is removed for replace by \x08%s%N", GetPlayerChatColor(client), client);
+								PrintToChatAll("\x04弹药箱 \x01已被移除并被替换为 \x08%s%N", GetPlayerChatColor(client), client);
 							else if (StrContains(sModelPath, "sandbagwall", true) != -1 || StrContains(sModelPath, "prop_fortification_hesco", true) != -1 || StrContains(sModelPath, "barrier", true) != -1)
-								PrintToChatAll("\x04Barricade \x01is removed for replace by \x08%s%N", GetPlayerChatColor(client), client);
+								PrintToChatAll("\x04路障 \x01已被移除并被替换为 \x08%s%N", GetPlayerChatColor(client), client);
 							RequestFrame(DeleteEntity, EntIndexToEntRef(g_iPlayerTempProp[client]));
 						}
 						g_iPlayerTempProp[client] = -1;
@@ -3565,7 +3565,7 @@ public SHook_OnPreThink(client)
 											if (g_fGameTime-g_fPlayerLastChat[client] >= 3.0)
 											{
 												g_fPlayerLastChat[client] = g_fGameTime;
-												FakeClientCommand(client, "say Installing Portable Radar...");
+												FakeClientCommand(client, "say 正在布置便携雷达...");
 											}
 										}
 										else if (g_iPlayerCustomGear[client] == 16)
@@ -3574,7 +3574,7 @@ public SHook_OnPreThink(client)
 											if (g_fGameTime-g_fPlayerLastChat[client] >= 3.0)
 											{
 												g_fPlayerLastChat[client] = g_fGameTime;
-												FakeClientCommand(client, "say Installing IED Jammer...");
+												FakeClientCommand(client, "say 正在布置IED干扰器...");
 											}
 										}
 										else if (g_iPlayerCustomGear[client] == 17)
@@ -3583,7 +3583,7 @@ public SHook_OnPreThink(client)
 											if (g_fGameTime-g_fPlayerLastChat[client] >= 3.0)
 											{
 												g_fPlayerLastChat[client] = g_fGameTime;
-												FakeClientCommand(client, "say Installing Barricade...");
+												FakeClientCommand(client, "say 正在布置路障...");
 											}
 										}
 										else if (g_iPlayerCustomGear[client] == 18)
@@ -3592,7 +3592,7 @@ public SHook_OnPreThink(client)
 											if (g_fGameTime-g_fPlayerLastChat[client] >= 3.0)
 											{
 												g_fPlayerLastChat[client] = g_fGameTime;
-												FakeClientCommand(client, "say Installing Ammo Crate...");
+												FakeClientCommand(client, "say 正在布置弹药箱...");
 											}
 										}
 //										g_fPlayerTempPropTimestamp[client] = g_fGameTime+1.0;
@@ -3610,13 +3610,13 @@ public SHook_OnPreThink(client)
 //										else
 										if (vAngle[0] >= 340.0 && vAngle[0] <= 395.0)
 										{
-											PrintCenterText(client, "Bad location, find other location to install");
+											PrintCenterText(client, "该位置无法放置，请选择其他位置");
 											SetEntityRenderColor(g_iPlayerTempProp[client], 255, 100, 100, 200);
 											TeleportEntity(g_iPlayerTempProp[client], g_vPlayerTempPropOrigin[client], vAngle, NULL_VECTOR);
 										}
 										else
 										{
-											PrintCenterText(client, "Bad location, only placeable on the flat ground");
+											PrintCenterText(client, "该位置无法放置，只能在平地布置");
 											TeleportEntity(g_iPlayerTempProp[client], Float:{-4000.0, 0.0, -4000.0}, NULL_VECTOR, NULL_VECTOR);
 										}
 										g_fPlayerTempPropTimestamp[client] = g_fGameTime+60.0;
@@ -3630,13 +3630,13 @@ public SHook_OnPreThink(client)
 									{
 										if (vAngle[0] < 340.0 || vAngle[0] > 395.0)
 										{
-											PrintCenterText(client, "Bad location, only placeable on the flat ground");
+											PrintCenterText(client, "该位置无法放置，只能在平地布置");
 //											SetEntityRenderColor(g_iPlayerTempProp[client], 255, 255, 255, 0);
 											TeleportEntity(g_iPlayerTempProp[client], Float:{-4000.0, 0.0, -4000.0}, NULL_VECTOR, NULL_VECTOR);
 										}
 										else
 										{
-											PrintCenterText(client, "Too far away  (%0.1f m)", fDistance*0.01905);
+											PrintCenterText(client, "距离过远  (%0.1f 米)", fDistance*0.01905);
 											SetEntityRenderColor(g_iPlayerTempProp[client], 255, 100, 100, 200);
 											TeleportEntity(g_iPlayerTempProp[client], g_vPlayerTempPropOrigin[client], vAngle, NULL_VECTOR);
 										}
@@ -3699,9 +3699,9 @@ public SHook_OnPreThink(client)
 												TE_SendToAll();
 												new iAlpha = 80+RoundToNearest(175*(8.0-fRemainTime)/10);
 												if (g_iPlayerCustomGear[client] == 15)
-													PrintCenterText(client, "Installing Portable Radar...\n\n%0.1f s", fRemainTime);
+													PrintCenterText(client, "正在布置便携雷达...\n\n%0.1f s", fRemainTime);
 												else if (g_iPlayerCustomGear[client] == 16)
-													PrintCenterText(client, "Installing IED Jammer...\n\n%0.1f s", fRemainTime);
+													PrintCenterText(client, "正在布置IED干扰器...\n\n%0.1f s", fRemainTime);
 												else if (g_iPlayerCustomGear[client] == 17)
 												{
 													if (iAlpha < 180)
@@ -3711,12 +3711,12 @@ public SHook_OnPreThink(client)
 														if (StrContains(sModelPath, "prop_fortification_hesco", true) != -1)
 															iAlpha = 180;
 													}
-													PrintCenterText(client, "Installing Barricade...\n\n%0.1f s", fRemainTime);
+													PrintCenterText(client, "正在布置路障...\n\n%0.1f s", fRemainTime);
 												}
 												else if (g_iPlayerCustomGear[client] == 18)
 												{
 													if (iAlpha < 180) iAlpha = 180;
-													PrintCenterText(client, "Installing Ammo Crate...\n\n%0.1f s", fRemainTime);
+													PrintCenterText(client, "正在布置弹药箱...\n\n%0.1f s", fRemainTime);
 												}
 												SetEntityRenderColor(g_iPlayerTempProp[client], 255, 255, 255, iAlpha);
 											}
@@ -3730,7 +3730,7 @@ public SHook_OnPreThink(client)
 												if (g_iPlayerCustomGear[client] == 15)
 												{
 													g_iPlayerBonusScore[client] += 100;
-													FakeClientCommand(client, "say Portable Radar Installed!");
+													FakeClientCommand(client, "say 便携雷达已布置！");
 													SetVariantColor({100, 100, 255, 255});
 													new Handle:hData;
 													CreateDataTimer(1.0, Timer_GearPortableRadar, hData, TIMER_FLAG_NO_MAPCHANGE|TIMER_REPEAT);
@@ -3740,7 +3740,7 @@ public SHook_OnPreThink(client)
 												else if (g_iPlayerCustomGear[client] == 16)
 												{
 													g_iPlayerBonusScore[client] += 100;
-													FakeClientCommand(client, "say IED Jammer Installed!");
+													FakeClientCommand(client, "say IED干扰器已布置！");
 													SetVariantColor({100, 255, 100, 255});
 													new Handle:hData;
 													CreateDataTimer(0.5, Timer_GearIEDJammer, hData, TIMER_FLAG_NO_MAPCHANGE|TIMER_REPEAT);
@@ -3751,13 +3751,13 @@ public SHook_OnPreThink(client)
 												{
 													g_iPlayerBonusScore[client] += 100;
 													SetVariantColor({255, 255, 255, 255});
-													FakeClientCommand(client, "say Barricade Installed!");
+													FakeClientCommand(client, "say 路障已布置！");
 												}
 												else if (g_iPlayerCustomGear[client] == 18)
 												{
 													g_iPlayerBonusScore[client] += 200;
 													SetEntPropFloat(g_iPlayerTempProp[client], Prop_Data, "m_flLocalTime", 4.0);
-													FakeClientCommand(client, "say Ammo Crate Installed!");
+													FakeClientCommand(client, "say 弹药箱已布置！");
 													SetVariantColor({255, 255, 102, 255});
 													new Handle:hData;
 													CreateDataTimer(0.1, Timer_GearAmmoCrate, hData, TIMER_FLAG_NO_MAPCHANGE|TIMER_REPEAT);
@@ -3780,12 +3780,12 @@ public SHook_OnPreThink(client)
 												HookSingleEntityOutput(g_iPlayerTempProp[client], "OnHealthChanged", OnGearDamaged, false);
 											}
 										}
-										else PrintCenterText(client, "Install Cancelled");
+										else PrintCenterText(client, "已取消布置");
 									}
-									else PrintCenterText(client, "Install Cancelled");
+									else PrintCenterText(client, "已取消布置");
 									CloseHandle(hTrace);
 								}
-								else PrintCenterText(client, "Install Cancelled, Too far away (%0.1f m)", fDistance*0.01905);
+								else PrintCenterText(client, "已取消布置, 距离过远 (%0.1f 米)", fDistance*0.01905);
 								if (bFailed)
 								{
 									LogToGame("%N is failed installing gear id %d (%d)", client, g_iPlayerCustomGear[client], g_iPlayerTempProp[client]);
@@ -3815,7 +3815,7 @@ public SHook_OnPreThink(client)
 						LogToGame("%N is cancelled installing gear id %d (%d)", client, g_iPlayerCustomGear[client], g_iPlayerTempProp[client]);
 						RequestFrame(DeleteEntity, EntIndexToEntRef(g_iPlayerTempProp[client]));
 						g_iPlayerTempProp[client] = -1;
-						PrintCenterText(client, "Install Cancelled");
+						PrintCenterText(client, "已取消布置");
 						g_fPlayerTempPropCooldown[client] = GetGameTime()+0.6;
 					}
 					g_fPlayerTempPropTimestamp[client] = 0.0;
@@ -3947,11 +3947,11 @@ public SHook_OnPreThink(client)
 							SetEntProp(client, Prop_Data, "m_bDuckEnabled", 1);
 						}*/
 						if (iType == 0)
-							PrintCenterText(client, "Bandaging...\n\n%0.1f s", fRemainTime);
+							PrintCenterText(client, "正在绑绷带...\n\n%0.1f 秒", fRemainTime);
 						else if (iType == 1)
 						{
-							PrintCenterText(client, "Bandaging...\n\n%N    %0.1f s", iTarget, fRemainTime);
-							PrintCenterText(iTarget, "Bandaging...\n\n%N    %0.1f s", client, fRemainTime);
+							PrintCenterText(client, "正在绑绷带...\n\n%N    %0.1f 秒", iTarget, fRemainTime);
+							PrintCenterText(iTarget, "正在绑绷带...\n\n%N    %0.1f 秒", client, fRemainTime);
 							if (g_iLastHealTarget[client] != iTarget || g_fGameTime-g_fLastHealingTime[client] >= 15.0)
 							{
 								g_iLastHealTarget[client] = iTarget;
@@ -3959,9 +3959,9 @@ public SHook_OnPreThink(client)
 								decl String:sSoundFile[128];
 //								if (iHp <= CVAR_PLAYER_GLOW_HEALTH || g_iPlayerBleeding[iTarget] != 0 || (g_fBurnTime[iTarget] != 0.0 || GetEntityFlags(iTarget)&FL_ONFIRE))
 								if (iHp > CVAR_PLAYER_GLOW_HEALTH)
-									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/letme/medic_letme_bandage%d.ogg", GetRandomInt(1, 22));
+									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/letme/medic_letme_bandage%d.wav", GetRandomInt(1, 18));
 								else
-									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/letme/medic_letme_heal%d.ogg", GetRandomInt(1, 10));
+									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/letme/medic_letme_heal%d.wav", GetRandomInt(1, 7));
 								EmitSoundToAll(sSoundFile, client, SNDCHAN_VOICE, _, _, 1.0);
 							}
 							if (bMedic && !g_bMedicForceToChange) g_fMedicLastHealTime = g_fGameTime;
@@ -3969,8 +3969,8 @@ public SHook_OnPreThink(client)
 					}
 					else
 					{
-						PrintCenterText(client, "Healed !");
-						if (iType == 1) PrintCenterText(iTarget, "Healed !");
+						PrintCenterText(client, "已治疗 ！");
+						if (iType == 1) PrintCenterText(iTarget, "已治疗 ！");
 						// StopSound(client, SNDCHAN_STATIC, "Lua_sounds/bandaging.wav");
 						EmitSoundToAll("player/focus_exhale.wav", iTarget, SNDCHAN_STATIC, _, _, 1.0);
 						new iAmmoOffset = GetEntProp(g_iPlayerHealthkitDeploy[client], Prop_Data, "m_iPrimaryAmmoType");
@@ -4006,7 +4006,7 @@ public SHook_OnPreThink(client)
 									g_fLastMedicCall[client] = 0.0;
 									g_iPlayerHealthkitDeploy[client] = -1;
 								}
-								PrintToChatAll("\x08%s%N \x01has used first aid for himself!   (%d \x04-> \x01%d HP)", GetPlayerChatColor(client), client, iHp, iNewHp);
+								PrintToChatAll("\x08%s%N \x01对自己使用了医疗包   (%d \x04-> \x01%d HP)", GetPlayerChatColor(client), client, iHp, iNewHp);
 							}
 							else if (iType == 1)
 							{
@@ -4016,7 +4016,7 @@ public SHook_OnPreThink(client)
 									SwapWeaponToPrimary(client);
 									g_fLastMedicCall[iTarget] = 0.0;
 									decl String:sSoundFile[128];
-									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/healed/medic_healed%d.ogg", GetRandomInt(1, 39));
+									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/healed/medic_healed%d.wav", GetRandomInt(1, 38));
 									EmitSoundToAll(sSoundFile, client, SNDCHAN_VOICE, _, _, 1.0);
 									CreateTimer(GetRandomFloat(2.0, 2.5), Timer_MedicThanks, iTarget, TIMER_FLAG_NO_MAPCHANGE);
 									g_iPlayerHealthkitDeploy[client] = -1;
@@ -4024,10 +4024,10 @@ public SHook_OnPreThink(client)
 								else if (iAmmo <= 1)
 								{
 									decl String:sSoundFile[128];
-									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/thx/medic_thanks%d.ogg", GetRandomInt(1, 20));
+									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/thx/medic_thanks%d.wav", GetRandomInt(1, 20));
 									EmitSoundToAll(sSoundFile, iTarget, SNDCHAN_VOICE, _, _, 1.0);
 								}
-								PrintToChatAll("\x08%s%N \x01has used first aid for \x08%s%N   \x01(%d \x04-> \x01%d HP)", GetPlayerChatColor(client), client, GetPlayerChatColor(iTarget), iTarget, iHp, iNewHp);
+								PrintToChatAll("\x08%s%N \x01对\x08%s%N使用了医疗包   \x01(%d \x04-> \x01%d HP)", GetPlayerChatColor(client), client, GetPlayerChatColor(iTarget), iTarget, iHp, iNewHp);
 							}
 						}
 						else
@@ -4049,7 +4049,7 @@ public SHook_OnPreThink(client)
 									g_fLastMedicCall[client] = 0.0;
 									g_iPlayerHealthkitDeploy[client] = -1;
 								}
-								PrintToChatAll("\x08%s[MEDIC]  \x08%s%N \x01has used first aid for himself!   (%d \x04-> \x01%d HP)", COLOR_GOLD, GetPlayerChatColor(client), client, iHp, iNewHp);
+								PrintToChatAll("\x08%s[医疗]  \x08%s%N \x01对自己使用了医疗包   (%d \x04-> \x01%d HP)", COLOR_GOLD, GetPlayerChatColor(client), client, iHp, iNewHp);
 							}
 							else if (iType == 1)
 							{
@@ -4065,12 +4065,12 @@ public SHook_OnPreThink(client)
 									// SwapWeaponToPrimary(client);
 									g_fLastMedicCall[iTarget] = 0.0;
 									decl String:sSoundFile[128];
-									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/healed/medic_healed%d.ogg", GetRandomInt(1, 39));
+									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/healed/medic_healed%d.wav", GetRandomInt(1, 38));
 									EmitSoundToAll(sSoundFile, client, SNDCHAN_VOICE, _, _, 1.0);
 									CreateTimer(GetRandomFloat(2.0, 2.5), Timer_MedicThanks, iTarget, TIMER_FLAG_NO_MAPCHANGE);
 									g_iPlayerHealthkitDeploy[client] = -1;
 								}
-								PrintToChatAll("\x08%s[MEDIC]  \x08%s%N \x01has used first aid for \x08%s%N   \x01(%d \x04-> \x01%d HP)", COLOR_GOLD, GetPlayerChatColor(client), client, GetPlayerChatColor(iTarget), iTarget, iHp, iNewHp);
+								PrintToChatAll("\x08%s[MEDIC]  \x08%s%N \x01对\x08%s%N使用了医疗包   \x01(%d \x04-> \x01%d HP)", COLOR_GOLD, GetPlayerChatColor(client), client, GetPlayerChatColor(iTarget), iTarget, iHp, iNewHp);
 							}
 						}
 /*						if (g_iPlayerManager != -1 && g_iOffsetAssists != -1)
@@ -4101,7 +4101,7 @@ public SHook_OnPreThink(client)
 						if (!Healthkit_CheckCondition(client, bMedic, iHp))
 						{
 							iTarget = -1;
-							PrintCenterText(client, "\n\nHealthy enough  (%d HP)", iHp);
+							PrintCenterText(client, "\n\n无需治疗  (%d HP)", iHp);
 						}
 					}
 					else if (iType == 1)
@@ -4167,13 +4167,13 @@ public SHook_OnPreThink(client)
 									}
 									else
 									{
-										PrintCenterText(client, "%N\n\nToo far away  (%0.1f m)", iTarget, fDistance*0.01905);
+										PrintCenterText(client, "%N\n\n距离过远  (%0.1f 米)", iTarget, fDistance*0.01905);
 										iTarget = -1;
 									}
 								}
 								else
 								{
-									PrintCenterText(client, "%N\n\nHealthy enough  (%d HP)", iTarget, iHp);
+									PrintCenterText(client, "%N\n\n无需治疗  (%d HP)", iTarget, iHp);
 									iTarget = -1;
 								}
 							}
@@ -4238,34 +4238,34 @@ public SHook_OnPreThink(client)
 				if (float(iHp)/float(CVAR_PLAYER_HEALTH) < 0.2)
 				{
 					iHp = 0;
-					Format(sHp, sizeof(sHp), "\x08%sDeath", COLOR_RED);
+					Format(sHp, sizeof(sHp), "\x08%s死亡", COLOR_RED);
 				}
 				else if (float(iHp)/float(CVAR_PLAYER_HEALTH) <= 0.4)
 				{
 					iHp = 1;
-					Format(sHp, sizeof(sHp), "\x08%sCritical", COLOR_DARKORANGE);
+					Format(sHp, sizeof(sHp), "\x08%s严重受伤", COLOR_DARKORANGE);
 				}
 				else if (float(iHp)/float(CVAR_PLAYER_HEALTH) <= 0.7)
 				{
 					iHp = 2;
-					Format(sHp, sizeof(sHp), "\x08%sInjured", COLOR_YELLOW);
+					Format(sHp, sizeof(sHp), "\x08%s受伤", COLOR_YELLOW);
 				}
 				else
 				{
 					iHp = 3;
-					Format(sHp, sizeof(sHp), "\x08%sHealthy", COLOR_GREEN);
+					Format(sHp, sizeof(sHp), "\x08%s健康", COLOR_GREEN);
 				}
 				if (g_fBurnTime[client] != 0.0 || GetEntityFlags(client)&FL_ONFIRE)
-					Format(sHp, sizeof(sHp), "%s  \x08%sOn Fire", sHp, COLOR_MAROON);
+					Format(sHp, sizeof(sHp), "%s  \x08%s着火", sHp, COLOR_MAROON);
 				if (g_iPlayerBleeding[client] != 0)
-					Format(sHp, sizeof(sHp), "%s  \x08%sBleeding", sHp, COLOR_BROWN);
+					Format(sHp, sizeof(sHp), "%s  \x08%s失血", sHp, COLOR_BROWN);
 				if (g_iPlayerInfected[client] != 0)
-					Format(sHp, sizeof(sHp), "%s  \x08%sInfected", sHp, COLOR_PURPLE);
+					Format(sHp, sizeof(sHp), "%s  \x08%s被感染", sHp, COLOR_PURPLE);
 				// if (StrContains(sHp, "Healthy", true) == -1 || g_iPlayerBleeding[client] != 0 || g_iPlayerInfected[client] != 0 || StrContains(sHp, "On Fire", true) != -1)
-				if (StrContains(sHp, "Healthy", true) == -1 || g_iPlayerBleeding[client] != 0 || g_iPlayerInfected[client] != 0)
+				if (StrContains(sHp, "健康", true) == -1 || g_iPlayerBleeding[client] != 0 || g_iPlayerInfected[client] != 0)
 				{
 					SetEntProp(client, Prop_Send, "m_bGlowEnabled", 1);
-					PrintToChatAll("\x08%s%N : \x01Request Medic!  (%s\x01)", GetPlayerChatColor(client), client, sHp);
+					PrintToChatAll("\x08%s%N : \x01呼叫医疗兵！  (%s\x01)", GetPlayerChatColor(client), client, sHp);
 					g_fLastMedicCall[client] = g_fGameTime+FCVAR_PLAYER_MEDIC_REQUEST_COOLTIME;
 					PlayerYell(client, 9, true, _, iHp);
 				}
@@ -4428,11 +4428,11 @@ public void OnGearDamaged(const char[] output, int caller, int activator, float 
 				if (iFixMaxHp > iHp)
 				{
 					if (iFixMaxHp < 1500) iFixMaxHp = 1000;
-					DisplayInstructorHint(caller, 5.0, 0.0, 1000.0, true, true, "icon_interact", "icon_interact", "", true, {255, 215, 0}, "Barricade is damaged!  Call Engineers to Repair!");
+					DisplayInstructorHint(caller, 5.0, 0.0, 1000.0, true, true, "icon_interact", "icon_interact", "", true, {255, 215, 0}, "路障被破坏了！呼叫爆破手来进行修理！");
 					SetEntProp(caller, Prop_Data, "m_iMaxHealth", iFixMaxHp);
 					SetEntPropFloat(caller, Prop_Data, "m_flLocalTime", 1.0);
 					DispatchKeyValue(caller, "targetname", "LuaCustomModel");
-					PrintToChatAll("\x04Barricade \x01is damaged!  \x08%sCall Engineers to Repair!", COLOR_GOLD);
+					PrintToChatAll("\x04路障 \x01被破坏了。  \x08%s呼叫爆破手来进行修理！", COLOR_GOLD);
 				}
 			}
 		}
@@ -4457,12 +4457,12 @@ public void OnGearDamaged(const char[] output, int caller, int activator, float 
 		{
 			if (activator > 0 && activator <= MaxClients && IsClientInGame(activator))
 			{
-				PrintToChatAll("\x04Portable Radar \x01is destroyed by \x08%s%N ", GetPlayerChatColor(activator), activator);
+				PrintToChatAll("\x04便携雷达 \x01 已被 \x08%s%N 摧毁 ", GetPlayerChatColor(activator), activator);
 				LogToGame("Portable Radar %d is destroyed by %N", caller, activator);
 			}
 			else
 			{
-				PrintToChatAll("\x04Portable Radar \x01is destroyed");
+				PrintToChatAll("\x04便携雷达 \x01已被摧毁");
 				LogToGame("Portable Radar %d is destroyed by #%d", caller, activator);
 			}
 			switch(GetRandomInt(0, 2))
@@ -4479,13 +4479,13 @@ public void OnGearDamaged(const char[] output, int caller, int activator, float 
 		{
 			if (activator > 0 && activator <= MaxClients && IsClientInGame(activator))
 			{
-				PrintToChatAll("\x04IED Jammer \x01is destroyed by \x08%s%N ", GetPlayerChatColor(activator), activator);
-				LogToGame("IED Jammer %d is destroyed by %N", caller, activator);
+				PrintToChatAll("\x04IED干扰器 \x01已被 \x08%s%N 摧毁", GetPlayerChatColor(activator), activator);
+				LogToGame("IED干扰器 %d 已被 %N 摧毁", caller, activator);
 			}
 			else
 			{
-				PrintToChatAll("\x04IED Jammer \x01is destroyed");
-				LogToGame("IED Jammer %d is destroyed by #%d", caller, activator);
+				PrintToChatAll("\x04IED干扰器 \x01已被摧毁");
+				LogToGame("IED干扰器 %d 已被 #%d 摧毁", caller, activator);
 			}
 			switch(GetRandomInt(0, 2))
 			{
@@ -4501,13 +4501,13 @@ public void OnGearDamaged(const char[] output, int caller, int activator, float 
 		{
 			if (activator > 0 && activator <= MaxClients && IsClientInGame(activator))
 			{
-				PrintToChatAll("\x04Ammo Crate \x01is destroyed by \x08%s%N ", GetPlayerChatColor(activator), activator);
-				LogToGame("Ammo Crate %d is destroyed by %N", caller, activator);
+				PrintToChatAll("\x04弹药箱 \x01已被 \x08%s%N 摧毁", GetPlayerChatColor(activator), activator);
+				LogToGame("弹药箱 %d 已被 %N 摧毁", caller, activator);
 			}
 			else
 			{
-				PrintToChatAll("\x04Ammo Crate \x01is destroyed");
-				LogToGame("Ammo Crate %d is destroyed by #%d", caller, activator);
+				PrintToChatAll("\x04弹药箱 \x01已被摧毁");
+				LogToGame("弹药箱 %d 已被 #%d 摧毁", caller, activator);
 			}
 			PlayGameSoundToAll("ui/sfx/crate_01.wav");
 		}
@@ -4515,12 +4515,12 @@ public void OnGearDamaged(const char[] output, int caller, int activator, float 
 		{
 			if (activator > 0 && activator <= MaxClients && IsClientInGame(activator))
 			{
-				PrintToChatAll("\x04Barricade \x01is destroyed by \x08%s%N ", GetPlayerChatColor(activator), activator);
+				PrintToChatAll("\x04路障 \x01已被 \x08%s%N 摧毁", GetPlayerChatColor(activator), activator);
 				LogToGame("Barricade %d is destroyed by %N", caller, activator);
 			}
 			else
 			{
-				PrintToChatAll("\x04Barricade \x01is destroyed");
+				PrintToChatAll("\x04路障 \x01已被摧毁");
 				LogToGame("Barricade %d is destroyed by #%d", caller, activator);
 			}
 			PlayGameSoundToAll("Vehicle.ExplodeFarDistant");
@@ -4535,7 +4535,7 @@ public Action:Timer_MedicThanks(Handle:timer, any:client)
 	if (!IsClientInGame(client) || !IsPlayerAlive(client)) return;
 	
 	decl String:sSoundFile[128];
-	Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/thx/medic_thanks%d.ogg", GetRandomInt(1, 20));
+	Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/thx/medic_thanks%d.wav", GetRandomInt(1, 20));
 	EmitSoundToAll(sSoundFile, client, SNDCHAN_VOICE, _, _, 1.0);
 }
 
@@ -4566,13 +4566,13 @@ public Action:Timer_GearPortableRadar(Handle:timer, Handle:data)
 							case 1: PlayGameSoundToAll("soundscape/emitters/oneshot/broken_tv_02.ogg");
 							case 2: PlayGameSoundToAll("soundscape/emitters/oneshot/broken_tv_03.ogg");
 						}
-						DisplayInstructorHint(EntRefToEntIndex(refentity), 5.0, 0.0, 1000.0, true, true, "icon_interact", "icon_interact", "", true, {255, 215, 0}, "Portable Radar is broken!  Fix it!");
+						DisplayInstructorHint(EntRefToEntIndex(refentity), 5.0, 0.0, 1000.0, true, true, "icon_interact", "icon_interact", "", true, {255, 215, 0}, "便携雷达被破坏了！快修理！");
 						SetVariantColor({255, 100, 100, 255});
 						AcceptEntityInput(refentity, "SetGlowColor");
 						SetEntPropEnt(refentity, Prop_Data, "m_hOwnerEntity", 0);
 						SetEntityModel(refentity, "models/static_props/sec_hub_burned.mdl");
 						DispatchKeyValue(refentity, "targetname", "LuaCustomModel");
-						PrintToChatAll("\x04Portable Radar \x01is broken!  \x08%sFix it!", COLOR_GOLD);
+						PrintToChatAll("\x04便携雷达 \x01被破坏了。  \x08%s快修理！", COLOR_GOLD);
 						new Float:vOrigin[3];
 						GetEntPropVector(refentity, Prop_Data, "m_vecAbsOrigin", vOrigin);
 						new Float:fDirection[3];
@@ -4628,7 +4628,7 @@ public Action:Timer_GearPortableRadar(Handle:timer, Handle:data)
 				case 1: PlayGameSoundToAll("soundscape/emitters/oneshot/broken_tv_02.ogg");
 				case 2: PlayGameSoundToAll("soundscape/emitters/oneshot/broken_tv_03.ogg");
 			}
-			PrintToChatAll("\x04Portable Radar \x01is out of battery!");
+			PrintToChatAll("\x04便携雷达 \x01已经没有电了！");
 			if (g_iGearRadarModel[1] != -1)
 			{
 				SetEntPropEnt(refentity, Prop_Data, "m_hOwnerEntity", MaxClients+2);
@@ -4690,13 +4690,13 @@ public Action:Timer_GearIEDJammer(Handle:timer, Handle:data)
 							case 1: PlayGameSoundToAll("soundscape/emitters/oneshot/broken_tv_02.ogg");
 							case 2: PlayGameSoundToAll("soundscape/emitters/oneshot/broken_tv_03.ogg");
 						}
-						DisplayInstructorHint(EntRefToEntIndex(refentity), 5.0, 0.0, 1000.0, true, true, "icon_interact", "icon_interact", "", true, {255, 215, 0}, "IED Jammer is broken!  Fix it!");
+						DisplayInstructorHint(EntRefToEntIndex(refentity), 5.0, 0.0, 1000.0, true, true, "icon_interact", "icon_interact", "", true, {255, 215, 0}, "IED干扰器被破坏了！快修理！");
 						SetVariantColor({255, 100, 100, 255});
 						AcceptEntityInput(refentity, "SetGlowColor");
 						SetEntPropEnt(refentity, Prop_Data, "m_hOwnerEntity", 0);
 						SetEntityModel(refentity, "models/static_props/ins_radio_burned.mdl");
 						DispatchKeyValue(refentity, "targetname", "LuaCustomModel");
-						PrintToChatAll("\x04IED Jammer \x01is broken!  \x08%sFix it!", COLOR_GOLD);
+						PrintToChatAll("\x04IED干扰器 \x01被破坏了。  \x08%s快修理！", COLOR_GOLD);
 						new Float:vOrigin[3];
 						GetEntPropVector(refentity, Prop_Data, "m_vecAbsOrigin", vOrigin);
 						new Float:fDirection[3];
@@ -4764,7 +4764,7 @@ public Action:Timer_GearIEDJammer(Handle:timer, Handle:data)
 				case 1: PlayGameSoundToAll("soundscape/emitters/oneshot/broken_tv_02.ogg");
 				case 2: PlayGameSoundToAll("soundscape/emitters/oneshot/broken_tv_03.ogg");
 			}
-			PrintToChatAll("\x04IED Jammer \x01is out of battery!");
+			PrintToChatAll("\x04IED干扰器 \x01已经没有电了！");
 			if (g_iGearIEDJammerModel[1] != -1)
 			{
 				SetEntPropEnt(refentity, Prop_Data, "m_hOwnerEntity", MaxClients+2);
@@ -4835,7 +4835,7 @@ public Action:Timer_GearAmmoCrate(Handle:timer, Handle:data)
 			}
 			LogToGame("Ammo Crate %d is out of stock", refentity);
 			PlayGameSoundToAll("ui/sfx/crate_01.wav");
-			PrintToChatAll("\x04Ammo Crate \x01is out of stock!");
+			PrintToChatAll("\x04弹药箱 \x01已经没有库存了！");
 			if (g_iGearAmmoCrateModel[1] != -1)
 			{
 				SetEntPropEnt(refentity, Prop_Data, "m_hOwnerEntity", MaxClients+2);
@@ -4993,12 +4993,12 @@ public Action:LoadSpawnTimer(Handle:timer)
 				if (fPercent < 10.00)
 				{
 					if (fPercent == 0.00) fPercent = 0.5/float(g_iNumControlPoints*4)*100.0;
-					PrintToChatAll("\x01Loading Map Info...    \x08%s%0.2f %%", COLOR_BLUE, fPercent);
+					PrintToChatAll("\x01读取地图信息...    \x08%s%0.2f %%", COLOR_BLUE, fPercent);
 					LogToGame("Loading Map Info...     %0.2f %%", fPercent);
 				}
 				else
 				{
-					PrintToChatAll("\x01Loading Map Info...   \x08%s%0.2f %%", COLOR_BLUE, fPercent);
+					PrintToChatAll("\x01读取地图信息...   \x08%s%0.2f %%", COLOR_BLUE, fPercent);
 					LogToGame("Loading Map Info...   %0.2f %%", fPercent);
 				}
 			}
@@ -5010,12 +5010,12 @@ public Action:LoadSpawnTimer(Handle:timer)
 					new Float:fPercent = float((g_iCurrentControlPoint*4)+1)/float(g_iNumControlPoints*4)*100.0;
 					if (fPercent < 10.00)
 					{
-						PrintToChatAll("\x01Loading Map Info...    \x08%s%0.2f %%", COLOR_BLUE, fPercent);
+						PrintToChatAll("\x01读取地图信息...    \x08%s%0.2f %%", COLOR_BLUE, fPercent);
 						LogToGame("Loading Map Info...    %0.2f %%", fPercent);
 					}
 					else
 					{
-						PrintToChatAll("\x01Loading Map Info...   \x08%s%0.2f %%", COLOR_BLUE, fPercent);
+						PrintToChatAll("\x01读取地图信息...   \x08%s%0.2f %%", COLOR_BLUE, fPercent);
 						LogToGame("Loading Map Info...   %0.2f %%", fPercent);
 					}
 					g_bCounterAttack = false;
@@ -5077,8 +5077,8 @@ public Action:LoadSpawnTimer(Handle:timer)
 						}
 						LogToGame("ins_spawnpoint (Total %d) has been removed", iCount);	*/
 						g_bCounterAttack = false;
-						PrintToChatAll("\x01Loading Map Info...   \x08%s100.00 %%", COLOR_GREEN);
-						PrintToChatAll("\x08%s(%d) Map Info Loading Complete, restart the game...", COLOR_GOLD, g_iSpawnPointsInfoMaxIndex+1);
+						PrintToChatAll("\x01读取地图信息...   \x08%s100.00 %%", COLOR_GREEN);
+						PrintToChatAll("\x08%s(%d) 地图信息读取完毕，正在重启游戏...", COLOR_GOLD, g_iSpawnPointsInfoMaxIndex+1);
 						LogToGame("Loading Map Info...   100.00 %%");
 						LogToGame("(%d) Map Info Loading Complete, restart the game...", g_iSpawnPointsInfoMaxIndex+1);
 						new ent = FindEntityByClassname(-1, "ins_rulesproxy");
@@ -5184,9 +5184,9 @@ stock UpdateBotsConfig(iPlayers = 0, bool:bNotice = true, bool:bOnlyNoticeWhenUp
 		bUpdate = true;
 	if (bNotice && bUpdate)
 	{
-		if (iBotCount >= 18) PrintToChatAll("\x08%sZombies :  \x04Hell on Earth", COLOR_INSURGENTS);
-		else if (iBotCount >= 14) PrintToChatAll("\x08%sZombies :  \x05Hard Time", COLOR_INSURGENTS);
-		else PrintToChatAll("\x08%sZombies :  \x01Normal", COLOR_INSURGENTS);
+		if (iBotCount >= 18) PrintToChatAll("\x08%s僵尸： \x04地狱", COLOR_INSURGENTS);
+		else if (iBotCount >= 14) PrintToChatAll("\x08%s僵尸：  \x05困难", COLOR_INSURGENTS);
+		else PrintToChatAll("\x08%s僵尸：  \x01正常", COLOR_INSURGENTS);
 	}
 }
 
@@ -5207,9 +5207,9 @@ public Action:HudTimer(Handle:timer)
 			if (!IsClientInGame(client) || IsFakeClient(client)) continue;
 			GetClientInfo(client, "cl_language", language, sizeof(language));
 			if (StrContains(language, "korea", false) == -1)
-				PrintHintText(client, "Type \n \n /HELP \n \n on chat for game info");
+				PrintHintText(client, "在聊天窗口输入 \n \n /HELP \n \n 来获取帮助信息");
 			else
-				PrintHintText(client, "ä��â�� \n \n /HELP \n \n �� �Է��Ͻø� ���� ������ ���ɴϴ�");
+				PrintHintText(client, "채팅창에 \n \n /HELP \n \n 를 입력하시면 게임 정보가 나옵니다");
 
 			if (g_fPlayerAmbientTime[client] <= g_fGameTime)
 			{
@@ -5349,7 +5349,7 @@ public Action:HudTimer(Handle:timer)
 								else
 								{
 									RespawnPlayer(client, 0);
-									PrintToChatAll("\x01Player \x08%s%N \x01has been respawned for un-stuck", GetPlayerChatColor(client), client);
+									PrintToChatAll("\x01玩家 \x08%s%N \x01 因为卡住而被重新复活了", GetPlayerChatColor(client), client);
 								}
 							}
 							else
@@ -5363,10 +5363,10 @@ public Action:HudTimer(Handle:timer)
 						if (vNearest[0] != -9000.0)
 						{
 							TeleportEntity(client, vNearest, NULL_VECTOR, NULL_VECTOR);
-							PrintToChatAll("\x01Player \x08%s%N \x01has been teleported for un-stuck", GetPlayerChatColor(client), client);
+							PrintToChatAll("\x01玩家 \x08%s%N \x01 因为卡住而被传送了", GetPlayerChatColor(client), client);
 						}
 					}
-					else if (iStuckTime >= 500) PrintCenterText(client, "Stuck detected\nTeleport in...   %0.1fs", (float(g_iStuckCheckTime)-float(iStuckTime))/1000.0);
+					else if (iStuckTime >= 500) PrintCenterText(client, "被实体卡住了\n将在 %0.1f 秒后传送", (float(g_iStuckCheckTime)-float(iStuckTime))/1000.0);
 				}
 			
 				if (iHp <= CVAR_PLAYER_GLOW_HEALTH || g_iPlayerBleeding[client] != 0 || g_iPlayerInfected[client] != 0 || (g_fLastMedicCall[client] != 0.0 && g_fLastMedicCall[client] >= g_fGameTime))
@@ -5376,11 +5376,11 @@ public Action:HudTimer(Handle:timer)
 				iPlayerAliveCount++;
 				if (!IsFakeClient(client))
 				{
-					new String:sHp[128] = " Healthy ", bool:bReqMedic = false;
+					new String:sHp[128] = " 健康 ", bool:bReqMedic = false;
 					if (float(iHp)/float(CVAR_PLAYER_HEALTH) <= 0.2)
 					{
 //						iHeartBeats = 2;
-						sHp = " Death ";
+						sHp = " 死亡 ";
 						bReqMedic = true;
 						if (g_fPlayerDeathFadeOutNextTime[client] != 0.0)
 						{
@@ -5405,12 +5405,12 @@ public Action:HudTimer(Handle:timer)
 						if (float(iHp)/float(CVAR_PLAYER_HEALTH) <= 0.4)
 						{
 	//						iHeartBeats = 1;
-							sHp = " Critical ";
+							sHp = " 严重受伤 ";
 							bReqMedic = true;
 						}
 						else if (float(iHp)/float(CVAR_PLAYER_HEALTH) <= 0.7)
 						{
-							sHp = " Injured ";
+							sHp = " 受伤 ";
 							bReqMedic = true;
 						}
 					}
@@ -5418,19 +5418,19 @@ public Action:HudTimer(Handle:timer)
 					if (g_fBurnTime[client] != 0.0 || GetEntityFlags(client)&FL_ONFIRE)
 					{
 //						bReqMedic = true;
-						sStatus = "On Fire";
+						sStatus = "着火";
 					}
 					if (g_iPlayerBleeding[client] != 0)
 					{
 						bReqMedic = true;
-						if (sStatus[0] != '\0') Format(sStatus, sizeof(sStatus), "%s | Bleeding", sStatus);
-						else sStatus = "Bleeding";
+						if (sStatus[0] != '\0') Format(sStatus, sizeof(sStatus), "%s | 失血", sStatus);
+						else sStatus = "失血";
 					}
 					if (g_iPlayerInfected[client] != 0)
 					{
 						bReqMedic = true;
-						if (sStatus[0] != '\0') Format(sStatus, sizeof(sStatus), "%s | Infected", sStatus);
-						else sStatus = "Infected";
+						if (sStatus[0] != '\0') Format(sStatus, sizeof(sStatus), "%s | 感染", sStatus);
+						else sStatus = "感染";
 					}
 					if (sStatus[0] != '\0') Format(sHp, sizeof(sHp), " %s \n \n%s", sStatus, sHp);
 					if ((g_fLastMedicCall[client] != 0.0 && g_fLastMedicCall[client] >= g_fGameTime) || g_iMedicPlayer == client || g_iSecurityAlive <= 1)
@@ -5440,14 +5440,14 @@ public Action:HudTimer(Handle:timer)
 						if (!g_bCounterAttackReadyTime)
 							PrintHintText(client, "%s", sHp);
 						else
-							PrintHintText(client, "%s\n \n [Get Ready for Horde] ", sHp);
+							PrintHintText(client, "%s\n \n [准备好应对尸潮] ", sHp);
 					}
 					else
 					{
 						if (!g_bCounterAttackReadyTime)
-							PrintHintText(client, "%s\n [F]  Request Medic ", sHp);
+							PrintHintText(client, "%s\n [F]  呼叫医疗兵 ", sHp);
 						else
-							PrintHintText(client, "%s\n [Get Ready for Horde] \n [F]  Request Medic ", sHp);
+							PrintHintText(client, "%s\n [准备好应对尸潮] \n [F]  呼叫医疗兵 ", sHp);
 					}
 					/*
 							Line 1:			UAV [300 / 100]
@@ -5799,8 +5799,8 @@ public Action:HudTimer(Handle:timer)
 //					if (g_fLastEdictCheck-g_fGameTime <= 1.0) g_fLastEdictCheck = g_fGameTime+3.0;
 					g_fReinforcementPlayerDeployTime = 0.0;
 					g_iReinforcementPlayerCount++;
-					PrintCenterTextAll("Our Reinforcement have arrived!\n \n \n \n \n \n \n \n \n \n \n ");
-					LogToGame("Survivors Team has been deployed! (Times: %d)", g_iReinforcementPlayerCount);
+					PrintCenterTextAll("我们的支援已经到达了！\n \n \n \n \n \n \n \n \n \n \n ");
+					LogToGame("幸存者队伍已被部署 (次数: %d)", g_iReinforcementPlayerCount);
 					if (iPlayerAliveCount == 1 && iPlayerDeadCount > 1)
 						PlayGameSoundToAll("Player.Security_Hero_Cap");
 					else
@@ -5877,7 +5877,7 @@ public Action:HudTimer(Handle:timer)
 						g_iLastSpecTarget[iPlayers[i]] = GetEntPropEnt(iPlayers[i], Prop_Send, "m_hObserverTarget");
 						if (g_iLastSpecTarget[iPlayers[i]] < 1 || g_iLastSpecTarget[iPlayers[i]] > MaxClients || !IsClientInGame(g_iLastSpecTarget[iPlayers[i]]) || !IsPlayerAlive(g_iLastSpecTarget[iPlayers[i]]))
 							g_iLastSpecTarget[iPlayers[i]] = -1;
-						new String:sStatus[32] = "Recruiting...";
+						new String:sStatus[32] = "正在招募中...";
 						if (i >= CVAR_PLAYER_REINFORCEMENT_MAX)
 						{
 							if (g_fReinforcementPlayerDeployTime != 0.0)
@@ -5888,12 +5888,12 @@ public Action:HudTimer(Handle:timer)
 						else if (g_fReinforcementPlayerDeployTime != 0.0)
 						{
 							if (g_fReinforcementPlayerDeployTime-g_fGameTime > 5.9)
-								Format(sStatus, sizeof(sStatus), "Deploy in %0.0f %s", g_fReinforcementPlayerDeployTime-g_fGameTime, g_fReinforcementPlayerDeployTime-g_fGameTime>9.9?"seconds":"second");
+								Format(sStatus, sizeof(sStatus), " %0.0f %s 后复活", g_fReinforcementPlayerDeployTime-g_fGameTime, g_fReinforcementPlayerDeployTime-g_fGameTime>9.9?"秒":"秒");
 							else
 								if (g_iLastSpecTarget[iPlayers[i]] > 0) Format(sStatus, sizeof(sStatus), "Deploying on %N ", g_iLastSpecTarget[iPlayers[i]]);
 								else sStatus = "Deploying...";
 						}
-						PrintHintText(iPlayers[i], "Reinforcement\nPosition. %d\n \n[%d / %d]\n %s ", i+1, iPlayerDeadCount, iPrintCount, sStatus);
+						PrintHintText(iPlayers[i], "支援\n位置. %d\n \n[%d / %d]\n %s ", i+1, iPlayerDeadCount, iPrintCount, sStatus);
 						/*
 								Line 1:		Reinforcement
 								Line 2:		 Position. 2
@@ -5909,14 +5909,14 @@ public Action:HudTimer(Handle:timer)
 							if (g_fReinforcementPlayerDeployTime != 0.0)
 							{
 								if (g_fReinforcementPlayerDeployTime-g_fGameTime > 5.9)
-								Format(sStatus, sizeof(sStatus), "Deploy in %0.0f %s", g_fReinforcementPlayerDeployTime-g_fGameTime, g_fReinforcementPlayerDeployTime-g_fGameTime>9.9?"seconds":"second");
+								Format(sStatus, sizeof(sStatus), " %0.0f %s 后复活", g_fReinforcementPlayerDeployTime-g_fGameTime, g_fReinforcementPlayerDeployTime-g_fGameTime>9.9?"秒":"秒");
 								else sStatus = "Deploying...";
 							}
 							else sStatus = "Recruiting...";
 							for (new s = 0;s < iLobbySize;s++)
 							{
 								if (iSpectators[s] > 0)
-									PrintHintText(iSpectators[s], "Reinforcement\nStatus\n \n[%d / %d]\n %s ", iPlayerDeadCount, iPrintCount, sStatus);
+									PrintHintText(iSpectators[s], "支援\n状态\n \n[%d / %d]\n %s ", iPlayerDeadCount, iPrintCount, sStatus);
 								else break;
 							}
 						}
@@ -5932,7 +5932,7 @@ public Action:HudTimer(Handle:timer)
 							for (new s = 0;s < iLobbySize;s++)
 							{
 								if (iSpectators[s] > 0)
-									PrintHintText(iSpectators[s], "Reinforcement\nStatus\n \n \n Deployed ");
+									PrintHintText(iSpectators[s], "支援\n状态\n \n \n 已部署 ");
 								else break;
 							}
 						}
@@ -5946,9 +5946,9 @@ public Action:HudTimer(Handle:timer)
 			for (new i = 0;i < iLobbySize;i++)
 			{
 				if (iPlayers[i] > 0)
-					PrintHintText(iPlayers[i], " \n \nOut of Reinforcement\n \n ");
+					PrintHintText(iPlayers[i], " \n \n没有支援了\n \n ");
 				if (iSpectators[i] > 0)
-					PrintHintText(iSpectators[i], " \n \nOut of Reinforcement\n \n ");
+					PrintHintText(iSpectators[i], " \n \n没有支援了\n \n ");
 			}
 		}
 /*		else
@@ -6296,7 +6296,7 @@ public Action:HudTimer(Handle:timer)
 							{
 								case 0:
 								{
-//												���� �ݼ� ���� ����
+//												안쪽 금속 센서 스폰
 									bUpdated = true;
 									iSpawnLocation = -1;
 									g_iNextSpawnPointsIndex = 4;
@@ -6308,7 +6308,7 @@ public Action:HudTimer(Handle:timer)
 								}
 								case 1:
 								{
-//												��� ����
+//												골목 스폰
 									bUpdated = true;
 									iSpawnLocation = 1;
 									g_iNextSpawnPointsIndex = 9;
@@ -6325,7 +6325,7 @@ public Action:HudTimer(Handle:timer)
 								}
 								case 2:
 								{
-//												���� ������ �� ����
+//												지하 추자장 쪽 스폰
 									bUpdated = true;
 									iSpawnLocation = -1;
 									g_iNextSpawnPointsIndex = 11;
@@ -6344,7 +6344,7 @@ public Action:HudTimer(Handle:timer)
 								}
 								case 3:
 								{
-//												���� ������� �ݼ� ���� ������ ��ǻ�� �� ���� ����
+//												지하 주차장과 금속 센서 사이의 컴퓨터 방 안쪽 스폰
 									bUpdated = true;
 									iSpawnLocation = -1;
 									g_iNextSpawnPointsIndex = 8;
@@ -6366,7 +6366,7 @@ public Action:HudTimer(Handle:timer)
 							{
 								case 0:
 								{
-//												���Ϸ� ���� ���� ������
+//												사일로 옆문 지하 계단통로
 									bUpdated = true;
 									iSpawnLocation = 1;
 									g_iNextSpawnPointsIndex = 8;
@@ -6382,7 +6382,7 @@ public Action:HudTimer(Handle:timer)
 								}
 								case 1:
 								{
-//												�ݴ��� ����
+//												반대편 숲속
 									bUpdated = true;
 									iSpawnLocation = 1;
 									g_iNextSpawnPointsIndex = 15;
@@ -6405,7 +6405,7 @@ public Action:HudTimer(Handle:timer)
 								}
 								case 2:
 								{
-//												A���� ����
+//												A거점 스폰
 									bUpdated = true;
 									iSpawnLocation = 1;
 									g_iNextSpawnPointsIndex = 18;
@@ -6588,7 +6588,7 @@ public Action:Timer_FadeOutCall(Handle:timer, any:client)
 		case 7: sSoundFile = "player/voice/botsurvival/subordinate/flashbanged21.ogg";
 	}
 	EmitSoundToAll(sSoundFile, client, SNDCHAN_VOICE, _, _, 1.0);
-	FakeClientCommand(client, "say I can't see!  (Low HP Black out)");
+	FakeClientCommand(client, "say 我什么都看不到了！  (低血量黑屏)");
 }
 
 public Action:Timer_FadeIn(Handle:timer, any:client)
@@ -6609,7 +6609,7 @@ public Action:Timer_EnemyOutOfReinforcements(Handle:timer)
 	{
 //		PlayGameSoundToAll("Player.Security_EnemyOutOfReinforcements");
 		ZH_ZombieAlert();
-		PrintToChatAll("\x08%sZombies \x01is \x03out of fresh bodies...", COLOR_INSURGENTS);
+		PrintToChatAll("\x08%s僵尸 \x01已 \x03纷至沓来...", COLOR_INSURGENTS);
 		LogToGame("Zombies is out of fresh bodies...");
 	}
 }
@@ -6631,7 +6631,7 @@ public Action:Timer_SecurityOutOfReinforcements(Handle:timer)
 	if (g_bReinforcementPlayerEnd && GetGameState() == 4)
 	{
 		PlayGameSoundToAll("Player.Security_ReinforcementsOut");
-		PrintToChatAll("\x08%sSurvivors \x01is \x03out of reinforcement!", COLOR_SECURITY);
+		PrintToChatAll("\x08%s幸存者 \x01 \x03已经没有多余的支援了！", COLOR_SECURITY);
 		LogToGame("Survivors is out of reinforcement!");
 	}
 }
@@ -6642,7 +6642,7 @@ public Action:ThinkTimer(Handle:timer)
 	g_fGameTime = GetGameTime();
 	if (g_iGameState == 3 && g_bUpdatedSpawnPoint)
 	{
-		PrintCenterTextAll("AIM  FOR  THE  HEAD");
+		PrintCenterTextAll("瞄 准 头 部");
 		for (new i = 0;i < MAXPLAYER;i++)
 		{
 			if (g_iPlayersList[i] == -1 || !IsPlayerAlive(g_iPlayersList[i]))
@@ -6681,15 +6681,15 @@ public Action:ThinkTimer(Handle:timer)
 				if (g_iSecurityAlive > 1)
 				{
 					g_bMedicForceToChange = true;
-					PrintToChat(g_iMedicPlayer, "\x05If you not healing teammate, \x08%sClass will be change", COLOR_RED);
-					PrintToChat(g_iMedicPlayer, "\x05If you not healing teammate, \x08%sClass will be change", COLOR_RED);
+					PrintToChat(g_iMedicPlayer, "\x05如果你不治疗你的队友， \x08%s你的职业将会被变更", COLOR_RED);
+					PrintToChat(g_iMedicPlayer, "\x05如果你不治疗你的队友， \x08%s你的职业将会被变更", COLOR_RED);
 				}
 				else g_fMedicLastHealTime += 60.0;
 			}
 		}
 		else if (g_fGameTime-g_fMedicLastHealTime >= 240.8 && g_fGameTime-g_fMedicLastHealTime <= g_fGameTime-g_fMedicLastHealTime < 240.0)
 		{
-			PrintToChat(g_iMedicPlayer, "\x05If you not healing teammate in \x0160s\x05, \x08%sClass will be change", COLOR_RED);
+			PrintToChat(g_iMedicPlayer, "\x05在 \x0160 秒内不治疗你的队友\x05， \x08%s你的职业将会被变更", COLOR_RED);
 		}
 	}
 	for (new client = 1;client <= MaxClients;client++)
@@ -6772,13 +6772,13 @@ public Action:ThinkTimer(Handle:timer)
 						if (iTeam == TEAM_SURVIVORS)
 						{
 							// FakeClientCommand(client, "say I'm bleeding!");
-							PrintToChat(client, "\x08%sYou are bleeding now! use \x01First Aid \x08%s!", COLOR_DARKORANGE, COLOR_DARKORANGE);
+							PrintToChat(client, "\x08%s你正处于出血状态！ 使用 \x01医疗包 \x08%s！", COLOR_DARKORANGE, COLOR_DARKORANGE);
 							ClientScreenShake(client, SHAKE_START, GetRandomFloat(10.0, 15.0), GetRandomFloat(10.0, 15.0), GetRandomFloat(1.00, 2.00));
 							if (!IsLightModel(client))
 								Format(sSound, sizeof(sSound), "player/voice/responses/security/subordinate/unsuppressed/wounded%d.ogg", GetRandomInt(1, 19));
 							else
 								Format(sSound, sizeof(sSound), "player/voice/responses/security/leader/unsuppressed/wounded%d.ogg", GetRandomInt(1, 18));
-							DisplayInstructorHint(client, 5.0, 0.0, 3.0, true, true, "icon_alert", "icon_alert", "", true, {255, 255, 255}, "Bleeding!  Use [First Aid]");
+							DisplayInstructorHint(client, 5.0, 0.0, 3.0, true, true, "icon_alert", "icon_alert", "", true, {255, 255, 255}, "失血状态！使用[医疗包]");
 						}
 						else Format(sSound, sizeof(sSound), "player/voice/responses/insurgent/subordinate/unsuppressed/wounded1.ogg");
 						EmitSoundToAll(sSound, client, SNDCHAN_VOICE, _, _, 1.0);
@@ -7038,7 +7038,7 @@ public Action:ThinkTimer(Handle:timer)
 				{
 					g_fProtectionTime[client] = 0.0;
 					SetEntProp(client, Prop_Data, "m_takedamage", 2, 1);
-					PrintToChat(client, "\x01(( \x08%sSpawn Protection OFF\x01 ))", COLOR_BLUEVIOLET);
+					PrintToChat(client, "\x01(( \x08%s重生保护关闭\x01 ))", COLOR_BLUEVIOLET);
 				}
 				if (g_iPlayerInfected[client] != 0)
 				{
@@ -7054,9 +7054,9 @@ public Action:ThinkTimer(Handle:timer)
 						{
 							new String:sSound[256];
 							// FakeClientCommand(client, "say *cough cough*");
-							PrintToChat(client, "\x08%sYou are infected! use \x01First Aid \x08%s!", COLOR_DARKORANGE, COLOR_DARKORANGE);
+							PrintToChat(client, "\x08%s你被感染了！ 使用 \x01医疗包 \x08%s！", COLOR_DARKORANGE, COLOR_DARKORANGE);
 							ClientScreenShake(client, SHAKE_START, GetRandomFloat(10.0, 15.0), GetRandomFloat(10.0, 15.0), GetRandomFloat(1.00, 2.00));
-							DisplayInstructorHint(client, 5.0, 0.0, 3.0, true, true, "icon_alert", "icon_alert", "", true, {255, 255, 255}, "Infected!  Use [First Aid]");
+							DisplayInstructorHint(client, 5.0, 0.0, 3.0, true, true, "icon_alert", "icon_alert", "", true, {255, 255, 255}, "已被感染！  使用【医疗包】");
 							Format(sSound, sizeof(sSound), "Lua_sounds/zombiehorde/survivors/cough%d.wav", GetRandomInt(1, 4));
 							EmitSoundToAll(sSound, client, SNDCHAN_VOICE, _, _, 1.0);
 							ClientCommand(client, "playgamesound Lua_sounds/zombiehorde/survivors/infection%d.ogg", GetRandomInt(1, 3));
@@ -7153,7 +7153,7 @@ public Action:Timer_JihadNotice(Handle:timer, any:client)
 {
 	if (!IsClientInGame(client) || !IsPlayerAlive(client) || g_iGameState != 4) return;
 
-	FakeClientCommand(client, "say IED, IED!!!");
+	FakeClientCommand(client, "say IED，IED！！！");
 	switch(GetRandomInt(0, 5))
 	{
 		case 0: EmitSoundToAll("player/voice/responses/security/subordinate/suppressed/suppressed11.ogg", client, SNDCHAN_VOICE, _, _, 1.0);
@@ -7169,7 +7169,7 @@ public Action:Timer_JihadNoticeIEDJammer(Handle:timer, any:client)
 {
 	if (!IsClientInGame(client) || !IsPlayerAlive(client) || g_iGameState != 4) return;
 
-	FakeClientCommand(client, "say IED!!! (Delayed by IED Jammer)");
+	FakeClientCommand(client, "say IED！！！ (已被IED干扰器干扰)");
 	switch(GetRandomInt(0, 5))
 	{
 		case 0: EmitSoundToAll("player/voice/responses/security/subordinate/suppressed/suppressed11.ogg", client, SNDCHAN_VOICE, _, _, 1.0);
@@ -7715,14 +7715,14 @@ public Action:SHook_OnTakeDamage(victim, &attacker, &inflictor, &Float:damage, &
 			{
 				if (vTeam == TEAM_SURVIVORS && g_fBurnTime[victim] <= g_fGameTime)
 				{
-					DisplayInstructorHint(victim, 5.0, 0.0, 3.0, true, true, "icon_fire", "icon_fire", "", true, {255, 255, 255}, "On Fire!  [Prone] Now!");
+					DisplayInstructorHint(victim, 5.0, 0.0, 3.0, true, true, "icon_fire", "icon_fire", "", true, {255, 255, 255}, "着火了！快[趴下]！");
 					decl String:sSoundFile[128];
 					if (!IsLightModel(victim))
 						Format(sSoundFile, sizeof(sSoundFile), "player/voice/responses/security/subordinate/damage/molotov_incendiary_detonated%d.ogg", GetRandomInt(6, 7));
 					else
 						Format(sSoundFile, sizeof(sSoundFile), "player/voice/responses/security/leader/damage/molotov_incendiary_detonated%d.ogg", GetRandomInt(4, 5));
 					EmitSoundToAll(sSoundFile, victim, SNDCHAN_STATIC, _, _, 1.0);
-					PrintToChat(victim, "\x08%sYou are on fire! \x01extinguish fire by \x08%sProne \x01!", COLOR_DARKORANGE, COLOR_DARKORANGE);
+					PrintToChat(victim, "\x08%s你着火了！ \x01按 \x08%s趴下 \x01来熄灭火焰！", COLOR_DARKORANGE, COLOR_DARKORANGE);
 				}
 				if (vTeam == TEAM_ZOMBIES) g_iPlayerBleeding[victim] = 0;
 				g_iBurnedBy[victim] = attacker;
@@ -7741,14 +7741,14 @@ public Action:SHook_OnTakeDamage(victim, &attacker, &inflictor, &Float:damage, &
 			{
 				if (vTeam == TEAM_SURVIVORS && g_fBurnTime[victim] <= g_fGameTime)
 				{
-					DisplayInstructorHint(victim, 5.0, 0.0, 3.0, true, true, "icon_fire", "icon_fire", "", true, {255, 255, 255}, "On Fire!  [Prone] Now!");
+					DisplayInstructorHint(victim, 5.0, 0.0, 3.0, true, true, "icon_fire", "icon_fire", "", true, {255, 255, 255}, "着火了！快[趴下]！");
 					decl String:sSoundFile[128];
 					if (!IsLightModel(victim))
 						Format(sSoundFile, sizeof(sSoundFile), "player/voice/responses/security/subordinate/damage/molotov_incendiary_detonated%d.ogg", GetRandomInt(6, 7));
 					else
 						Format(sSoundFile, sizeof(sSoundFile), "player/voice/responses/security/leader/damage/molotov_incendiary_detonated%d.ogg", GetRandomInt(4, 5));
 					EmitSoundToAll(sSoundFile, victim, SNDCHAN_STATIC, _, _, 1.0);
-					PrintToChat(victim, "\x08%sYou are on fire! \x01extinguish fire by \x08%sProne \x01!", COLOR_DARKORANGE, COLOR_DARKORANGE);
+					PrintToChat(victim, "\x08%s你着火了！ \x01按 \x08%s趴下 \x01来熄灭火焰！", COLOR_DARKORANGE, COLOR_DARKORANGE);
 				}
 				if (vTeam == TEAM_ZOMBIES) g_iPlayerBleeding[victim] = 0;
 				g_iBurnedBy[victim] = attacker;
@@ -7941,9 +7941,9 @@ public Action:SHook_OnTakeDamage(victim, &attacker, &inflictor, &Float:damage, &
 				g_iZombieClass[victim][VAR] = -g_iZombieClass[victim][VAR];
 				CreateTimer(0.0, Timer_JihadExplode, victim, TIMER_FLAG_NO_MAPCHANGE);
 				if (IsPlayerAlive(attacker))
-					FakeClientCommand(attacker, "say IED Explode!");
+					FakeClientCommand(attacker, "say IED爆炸了！");
 				else
-					PrintToChatAll("\x08%sIED Explode \x01by \x08%s%N", COLOR_INSURGENTS, GetPlayerChatColor(attacker), attacker);
+					PrintToChatAll("\x08%sIED被 \x01 \x08%s%N引爆了", COLOR_INSURGENTS, GetPlayerChatColor(attacker), attacker);
 			}
 		}
 		else if (g_iZombieClass[victim][CLASS] == ZOMBIE_BURNER_INDEX)
@@ -7966,7 +7966,7 @@ public Action:SHook_OnTakeDamage(victim, &attacker, &inflictor, &Float:damage, &
 						}
 					}
 					CreateTimer(0.0, Timer_JihadExplode, victim, TIMER_FLAG_NO_MAPCHANGE);
-					if (IsPlayerAlive(attacker)) FakeClientCommand(attacker, "say Burner Explode!");
+					if (IsPlayerAlive(attacker)) FakeClientCommand(attacker, "say 燃烧僵尸爆炸了！");
 				}
 			}
 		}
@@ -8097,13 +8097,13 @@ public Action:SHook_OnTakeDamage(victim, &attacker, &inflictor, &Float:damage, &
 							decl String:sSoundFile[128];
 							if (vTeam == TEAM_SURVIVORS && g_fBurnTime[victim] <= g_fGameTime)
 							{
-								DisplayInstructorHint(victim, 5.0, 0.0, 3.0, true, true, "icon_fire", "icon_fire", "", true, {255, 255, 255}, "On Fire!  [Prone] Now!");
+								DisplayInstructorHint(victim, 5.0, 0.0, 3.0, true, true, "icon_fire", "icon_fire", "", true, {255, 255, 255}, "着火了！快[趴下]！");
 								if (!IsLightModel(victim))
 									Format(sSoundFile, sizeof(sSoundFile), "player/voice/responses/security/subordinate/damage/molotov_incendiary_detonated%d.ogg", GetRandomInt(6, 7));
 								else
 									Format(sSoundFile, sizeof(sSoundFile), "player/voice/responses/security/leader/damage/molotov_incendiary_detonated%d.ogg", GetRandomInt(4, 5));
 								EmitSoundToAll(sSoundFile, victim, SNDCHAN_STATIC, _, _, 1.0);
-								PrintToChat(victim, "\x08%sYou are on fire! \x01extinguish fire by \x08%sProne \x01!", COLOR_DARKORANGE, COLOR_DARKORANGE);
+								PrintToChat(victim, "\x08%s你着火了！ \x01按 \x08%s趴下 \x01来熄灭火焰！", COLOR_DARKORANGE, COLOR_DARKORANGE);
 							}
 							g_iBurnedBy[victim] = attacker;
 							g_fBurnTime[victim] = g_fGameTime+GetRandomFloat(FCVAR_ZOMBIE_BURNER_ATTACK_BURN_TIME_MIN, FCVAR_ZOMBIE_BURNER_ATTACK_BURN_TIME_MAX);
@@ -8234,7 +8234,7 @@ public Action:Timer_NoticeBleeding(Handle:timer, any:client)
 	if (GetClientTeam(client) == TEAM_SURVIVORS)
 	{
 		SetEntProp(client, Prop_Send, "m_bGlowEnabled", 1);
-		PrintToChat(client, "\x08%sYou are bleeding now! use \x01First Aid \x08%s!", COLOR_DARKORANGE, COLOR_DARKORANGE);
+		PrintToChat(client, "\x08%s你正处于出血状态！ 使用 \x01医疗包 \x08%s！", COLOR_DARKORANGE, COLOR_DARKORANGE);
 		if (!IsLightModel(client))
 			Format(sSound, sizeof(sSound), "player/voice/responses/security/subordinate/unsuppressed/wounded%d.ogg", GetRandomInt(1, 19));
 		else
@@ -8253,7 +8253,7 @@ public Action:Timer_NoticeInfected(Handle:timer, any:client)
 	if (!IsClientInGame(client) || !IsPlayerAlive(client)) return;
 
 	SetEntityRenderColor(client, 145, 255, 145, 255);
-	PrintToChat(client, "\x08%sYou are infected now! use \x01First Aid \x08%s!", COLOR_DARKORANGE, COLOR_DARKORANGE);
+	PrintToChat(client, "\x08%s你已被感染，使用 \x01医疗包 \x08%s！", COLOR_DARKORANGE, COLOR_DARKORANGE);
 }
 
 public Action:ObjectOnTakeDamage(victim, &attacker, &inflictor, &Float:damage, &damagetype, &weapon, Float:damageForce[3], Float:damagePosition[3])
@@ -8343,7 +8343,7 @@ public Action:ObjectOnTakeDamage(victim, &attacker, &inflictor, &Float:damage, &
 							{
 								if (GetRandomInt(0, 1) == 0) PlaySoundOnPlayer(attacker, "player/voice/botsurvival/subordinate/incominggrenade7.ogg");
 								else PlaySoundOnPlayer(attacker, "player/voice/botsurvival/subordinate/incominggrenade8.ogg");
-								FakeClientCommand(attacker, "say RUN!");
+								FakeClientCommand(attacker, "say 快跑！");
 							}
 							fTime = GetRandomFloat(0.5, 1.5);
 							g_hWeaponCacheFireExplode = CreateTimer(fTime, ExplodeWeaponCache, victim, TIMER_FLAG_NO_MAPCHANGE);
@@ -8378,7 +8378,7 @@ public Action:ObjectOnTakeDamage(victim, &attacker, &inflictor, &Float:damage, &
 							if (attacker > 0 && attacker <= MaxClients && IsClientInGame(attacker) && IsPlayerAlive(attacker))
 							{
 								PlaySoundOnPlayer(attacker, "player/voice/botsurvival/subordinate/incominggrenade24.ogg");
-								FakeClientCommand(attacker, "say Fuck...");
+								FakeClientCommand(attacker, "say 操...");
 							}
 							fTime = GetRandomFloat(0.5, 1.0);
 							g_hWeaponCacheFireExplode = CreateTimer(fTime, ExplodeWeaponCache, victim, TIMER_FLAG_NO_MAPCHANGE);
@@ -8459,7 +8459,7 @@ public Action:ObjectOnTakeDamage(victim, &attacker, &inflictor, &Float:damage, &
 				if (g_fWeaponCacheHealth <= 0.1 && g_fWeaponCacheHealth > -9999.9)
 				{
 					g_fWeaponCacheHealth = -9999.9;
-					PrintToChatAll("\x08%sWeapon Cache \x01destroyed by \x08%sInsurgent Forces", COLOR_SECURITY, COLOR_INSURGENTS);
+					PrintToChatAll("\x08%s武器储备 \x01已被 \x08%s叛乱分子破坏", COLOR_SECURITY, COLOR_INSURGENTS);
 					CreateTimer(0.0, ExplosionEffect, victim, TIMER_FLAG_NO_MAPCHANGE);
 					PlayGameSoundToAll("Player.Security_Outpost_CacheDestroyed");
 					new ent = FindEntityByClassname(-1, "ins_rulesproxy");
@@ -8502,7 +8502,7 @@ public Action:ObjectOnTakeDamage(victim, &attacker, &inflictor, &Float:damage, &
 						g_fCacheLastHitTime = g_fGameTime+5.0;
 						PlayGameSoundToAll("Player.Security_Outpost_CacheTakesDamage");
 					}
-					PrintToChatAll("\x08%sWeapon Cache \x05%0.0f \x01/ \x05%0.0f", COLOR_GOLD, g_fWeaponCacheHealth, FCVAR_GAME_COUNTERATTACK_WEAPON_CACHE_HEALTH);
+					PrintToChatAll("\x08%s武器储备 \x05%0.0f \x01/ \x05%0.0f", COLOR_GOLD, g_fWeaponCacheHealth, FCVAR_GAME_COUNTERATTACK_WEAPON_CACHE_HEALTH);
 				}
 			}
 			else
@@ -8609,18 +8609,18 @@ public Action:Event_PlayerPickSquad(Handle:event, const String:name[], bool:dont
 			g_iMedicPlayer = client;
 			g_fMedicLastHealTime = GetGameTime();
 			g_bMedicForceToChange = false;
-			PrintToChatAll("\x08%sNew Medic Player :  \x08%s%N", COLOR_GOLD, GetPlayerChatColor(client), client);
+			PrintToChatAll("\x08%s新医疗玩家：  \x08%s%N", COLOR_GOLD, GetPlayerChatColor(client), client);
 		}
 		else
 		{
 			g_bHasSquad[client] = false;
 			new Float:fBanTime = g_fMedicBannedTime[client]-GetGameTime();
 			ChangeClientTeam(client, TEAM_SPECTATOR);
-			PrintCenterText(client, "You are banned to playing medic for %0.0fs\n \nYou need to heal players as medic", fBanTime);
-			PrintToChat(client, "\x04You are banned to playing medic for \x01%0.0fs, \x05You need to heal players as medic", fBanTime);
-			PrintToChat(client, "\x04You are banned to playing medic for \x01%0.0fs, \x05You need to heal players as medic", fBanTime);
-			PrintToChat(client, "\x04You are banned to playing medic for \x01%0.0fs, \x05You need to heal players as medic", fBanTime);
-			PrintToChat(client, "\x04You are banned to playing medic for \x01%0.0fs, \x05You need to heal players as medic", fBanTime);
+			PrintCenterText(client, "在 %0.0f 秒内你将不能扮演医疗兵\n \n作为医疗兵你需要治疗你的队友", fBanTime);
+			PrintToChat(client, "\x04在 \x01%0.0f 秒内你将不能扮演医疗兵, \x05作为医疗兵你需要治疗你的队友", fBanTime);
+			PrintToChat(client, "\x04在 \x01%0.0f 秒内你将不能扮演医疗兵, \x05作为医疗兵你需要治疗你的队友", fBanTime);
+			PrintToChat(client, "\x04在 \x01%0.0f 秒内你将不能扮演医疗兵, \x05作为医疗兵你需要治疗你的队友", fBanTime);
+			PrintToChat(client, "\x04在 \x01%0.0f 秒内你将不能扮演医疗兵, \x05作为医疗兵你需要治疗你的队友", fBanTime);
 			if (GetRandomInt(0, 3) != 0)
 				ClientCommand(client, "playgamesound Radial_Security.Subordinate_%s_Negative_Radio", GetRandomInt(0, 3) != 0 ? "UnSupp" : "Supp");
 			else
@@ -8735,7 +8735,7 @@ public Action:Event_PlayerSpawn(Event event, const String:name[], bool:dontBroad
 				g_fProtectionTime[client] = !g_bCounterAttack?g_fGameTime:g_fGameTime/1.5;
 			}
 			SetEntProp(client, Prop_Data, "m_takedamage", 0, 1);
-			PrintToChat(client, "\x01(( \x08%sSpawn Protection\x01 ))", COLOR_AZURE);
+			PrintToChat(client, "\x01(( \x08%s重生保护\x01 ))", COLOR_AZURE);
 			if (IsLeader(client))
 			{
 				CreateTimer(0.05, Timer_CreateCustomFlag, client, TIMER_FLAG_NO_MAPCHANGE);
@@ -8756,29 +8756,29 @@ public Action:Event_PlayerSpawn(Event event, const String:name[], bool:dontBroad
 				new Handle:panel = CreatePanel();
 				if (StrContains(language, "korea", false) == -1)
 				{
-					SetPanelTitle(panel, "You are playing as  [MEDIC]");
+					SetPanelTitle(panel, "你正在扮演 [医疗兵]");
 					DrawPanelText(panel, " ");
-					DrawPanelItem(panel, "Heal players with your [First Aid]  (Slot 3)");
+					DrawPanelItem(panel, "使用[医疗包]来治疗你的队友 (3号槽位)");
 					DrawPanelText(panel, " ");
-					DrawPanelText(panel, "Watch out for [Glowing Players]");
-					DrawPanelItem(panel, "They are wounded and need you to heal !");
+					DrawPanelText(panel, "请注意[有光圈的队友]");
+					DrawPanelItem(panel, "他们已受伤并需要你的治疗！");
 					DrawPanelText(panel, " ");
 					DrawPanelText(panel, " ");
-					DrawPanelText(panel, "If you not trying to heal teammate over 5mins, Class will be change");
-					DrawPanelItem(panel, "Confirm and Close");
+					DrawPanelText(panel, "如果你在5分钟之内不治疗队友，你的职业将会被强制变更");
+					DrawPanelItem(panel, "确认并关闭");
 				}
 				else
 				{
-					SetPanelTitle(panel, "����� ����  [�޵�] ������ �÷��� ���Դϴ�");
+					SetPanelTitle(panel, "당신은 지금  [메딕] 병과로 플레이 중입니다");
 					DrawPanelText(panel, " ");
-					DrawPanelItem(panel, "[First Aid] �� ����� �Ʊ��� ġ���ϼ���  (3�� ����)");
+					DrawPanelItem(panel, "[First Aid] 를 사용해 아군을 치료하세요  (3번 슬롯)");
 					DrawPanelText(panel, " ");
-					DrawPanelText(panel, "[������ �÷��̾�] ���� �ֽ��ϼ���");
-					DrawPanelItem(panel, "�׷��� �÷��̾���� ġ�ᰡ �ʿ��մϴ� !");
+					DrawPanelText(panel, "[빛나는 플레이어] 들을 주시하세요");
+					DrawPanelItem(panel, "그러한 플레이어들은 치료가 필요합니다 !");
 					DrawPanelText(panel, " ");
 					DrawPanelText(panel, " ");
-					DrawPanelText(panel, "5�� �Ѱ� �Ʊ��� ġ������ ���� ��� ������ ������ ����˴ϴ�.");
-					DrawPanelItem(panel, "Ȯ�� �� �ݱ�");
+					DrawPanelText(panel, "5분 넘게 아군을 치료하지 않을 경우 강제로 병과가 변경됩니다.");
+					DrawPanelItem(panel, "확인 및 닫기");
 				}
 				SendPanelToClient(panel, client, Handler_MedicMenu, 0);
 				CloseHandle(panel);
@@ -9639,7 +9639,7 @@ public Action:Timer_TeleportOnSpawn_Sec(Handle:timer, any:client)
 		GetClientAbsOrigin(iTarget, vPos);
 		vPos[2] += 6.0;
 		TeleportEntity(client, vPos, NULL_VECTOR, NULL_VECTOR);
-		PrintToChat(iTarget, "\x08%s%N \x01has deployed on you!", GetPlayerChatColor(client), client);
+		PrintToChat(iTarget, "\x08%s%N \x01在你身边部署了！", GetPlayerChatColor(client), client);
 	}
 	return;
 }
@@ -9786,12 +9786,12 @@ public Action:Event_ExplosiveDeployed(Handle:event, const String:name[], bool:do
 					SetEntityGlowProp(entity, sModelPath, {255, 69, 0, 255}, 600.0);	*/
 				if (!IsFakeClient(client))
 				{
-					decl String:sPrefix[18] = "Throwing a";
-					if (StrEqual(sWeaponName, "grenade_molotov")) sWeaponName = "Molotov";
-					else if (StrEqual(sWeaponName, "grenade_anm14")) sWeaponName = "AN-M14 Incendiary";
-					else if (StrEqual(sWeaponName, "grenade_f1")) sWeaponName = "F1 Frag";
-					else if (StrEqual(sWeaponName, "grenade_m67")) sWeaponName = "M67 Frag";
-					else if (StrEqual(sWeaponName, "grenade_m26a2")) sWeaponName = "M26A2 Impact Frag";
+					decl String:sPrefix[18] = "正在扔";
+					if (StrEqual(sWeaponName, "grenade_molotov")) sWeaponName = "燃烧瓶";
+					else if (StrEqual(sWeaponName, "grenade_anm14")) sWeaponName = "AN-M14燃烧弹";
+					else if (StrEqual(sWeaponName, "grenade_f1")) sWeaponName = "F1手雷";
+					else if (StrEqual(sWeaponName, "grenade_m67")) sWeaponName = "M67手雷";
+					else if (StrEqual(sWeaponName, "grenade_m26a2")) sWeaponName = "M26A2冲击弹";
 					else if (StrEqual(sWeaponName, "grenade_geballteladung")) sWeaponName = "Geballte Ladung";
 					else if (StrEqual(sWeaponName, "grenade_m84"))
 					{
@@ -9799,10 +9799,10 @@ public Action:Event_ExplosiveDeployed(Handle:event, const String:name[], bool:do
 						LogToGame("%N is throwing a M84 Flashbang", client);
 						sWeaponName = "M84 Flashbang";
 					}
-					else if (StrEqual(sWeaponName, "grenade_m18")) sWeaponName = "M18 Smoke";
-					else if (StrEqual(sWeaponName, "grenade_m18_impact")) sWeaponName = "M18 Impact Smoke";
+					else if (StrEqual(sWeaponName, "grenade_m18")) sWeaponName = "M18烟雾弹";
+					else if (StrEqual(sWeaponName, "grenade_m18_impact")) sWeaponName = "M18烟雾榴弹";
 					else if (StrEqual(sWeaponName, "grenade_rifle_enfield")){
-						sPrefix = "Firing";
+						sPrefix = "正在发射";
 						sWeaponName = "Enfield Grenade";
 					}
 					else if (StrEqual(sWeaponName, "grenade_hafthohlladung")){
@@ -9810,45 +9810,45 @@ public Action:Event_ExplosiveDeployed(Handle:event, const String:name[], bool:do
 						sWeaponName = "Planted";
 					}
 					else if (StrEqual(sWeaponName, "grenade_m203_he")){
-						sPrefix = "Firing";
-						sWeaponName = "M203 HE";
+						sPrefix = "正在发射";
+						sWeaponName = "M203榴弹";
 					}
 					else if (StrEqual(sWeaponName, "grenade_m203_smoke")){
-						sPrefix = "Firing";
-						sWeaponName = "M203 Smoke";
+						sPrefix = "正在发射";
+						sWeaponName = "M203烟雾弹";
 					}
 					else if (StrEqual(sWeaponName, "grenade_m203_incid")){
-						sPrefix = "Firing";
-						sWeaponName = "M203 Incendiary";
+						sPrefix = "正在发射";
+						sWeaponName = "M203燃烧弹";
 					}
 					else if (StrEqual(sWeaponName, "grenade_gp25_he")){
-						sPrefix = "Firing";
-						sWeaponName = "GP-25 HE";
+						sPrefix = "正在发射";
+						sWeaponName = "GP-25榴弹";
 					}
 					else if (StrEqual(sWeaponName, "grenade_gp25_smoke")){
-						sPrefix = "Firing";
-						sWeaponName = "GP-25 Smoke";
+						sPrefix = "正在发射";
+						sWeaponName = "GP-25烟雾弹";
 					}
 					else if (StrEqual(sWeaponName, "grenade_m79")){
-						sPrefix = "Firing";
-						sWeaponName = "M79 HE";
+						sPrefix = "正在发射";
+						sWeaponName = "M79榴弹";
 					}
 					else if (StrEqual(sWeaponName, "grenade_m79_napalm")){
-						sPrefix = "Firing";
-						sWeaponName = "M79 Napalm";
+						sPrefix = "正在发射";
+						sWeaponName = "M79燃烧弹";
 					}
 					else if (StrEqual(sWeaponName, "grenade_m79_smoke")){
-						sPrefix = "Firing";
-						sWeaponName = "M79 Smoke";
+						sPrefix = "正在发射";
+						sWeaponName = "M79烟雾弹";
 					}
 					else if (StrEqual(sWeaponName, "rocket_rpg7")){
-						sPrefix = "Launching";
+						sPrefix = "正在发射";
 						sWeaponName = "RPG-7";
 						PlayerYell(client, 4, true);
 					}
 					else if (StrEqual(sWeaponName, "rocket_at4")){
 						// It can be m72 law too
-						sPrefix = "Launching";
+						sPrefix = "正在发射";
 						if (g_bWasFiredLAW[client]) sWeaponName = "M72 LAW";
 						else sWeaponName = "AT-4";
 						PlayerYell(client, 4, true);
@@ -9858,18 +9858,18 @@ public Action:Event_ExplosiveDeployed(Handle:event, const String:name[], bool:do
 						sWeaponName = "Flare";
 					}	*/
 					else if (StrEqual(sWeaponName, "healthkit")){
-						sPrefix = "Deploying";
-						sWeaponName = "First Aid";
+						sPrefix = "正在部署";
+						sWeaponName = "医疗包";
 					}
 					else if (StrEqual(sWeaponName, "grenade_c4")){
 						sPrefix = "";
-//						sPrefix = "Planting";
+//						sPrefix = "正在部署";
 //						sWeaponName = "C4";
 						RequestFrame(CheckPlantedC4, EntIndexToEntRef(entity));
 					}
 					else if (StrEqual(sWeaponName, "grenade_ied")){
-						sPrefix = "IED";
-						sWeaponName = "Out";
+						sPrefix = "扔";
+						sWeaponName = "IED";
 					}
 //					CreateTimer(0.1, Timer_GrenadeYellCheck, EntIndexToEntRef(entity), TIMER_REPEAT|TIMER_FLAG_NO_MAPCHANGE);
 					if (sPrefix[0] != '\0') FakeClientCommand(client, "say %s %s!", sPrefix, sWeaponName);
@@ -9924,10 +9924,10 @@ public CheckPlantedC4(any:entity)
 			DispatchKeyValue(ent, "OnBreak", output);
 */
 			if (client > 0 && client <= MaxClients && IsClientInGame(client))
-				FakeClientCommand(client, "say C4 Planted!");
+				FakeClientCommand(client, "say C4已布置！");
 		}
 		else if (client > 0 && client <= MaxClients && IsClientInGame(client))
-			FakeClientCommand(client, "say C4 Out!");
+			FakeClientCommand(client, "say 扔C4了！");
 	}
 }
 /*
@@ -10002,7 +10002,7 @@ public Action:Event_GrenadeDetonate(Handle:event, const String:name[], bool:dont
 					g_iUAVCount = GetConVarInt(g_hCvarUAVCounts)+1;
 					CreateTimer(0.0, Timer_UAVOnline, client, TIMER_FLAG_NO_MAPCHANGE);
 					g_hUAVTimer = CreateTimer(2.4, Timer_UAVOnline, client, TIMER_REPEAT|TIMER_FLAG_NO_MAPCHANGE);
-					if (IsPlayerAlive(client)) FakeClientCommand(client, "say UAV ONLINE!");
+					if (IsPlayerAlive(client)) FakeClientCommand(client, "say 无人机已上线！");
 					LogToGame("%N has called for UAV", client);
 					PlayGameSoundToAll("Lua_sounds/uav_inbound.ogg");
 					g_iPlayerBonusScore[client] += 200;
@@ -10050,7 +10050,7 @@ public Action:Timer_UAVOnline(Handle:timer, any:client)
 			g_hUAVTimer = INVALID_HANDLE;
 			g_bUAVOnline = false;
 			if (IsClientInGame(client) && IsPlayerAlive(client) && g_iGameState == 4)
-				FakeClientCommand(client, "say UAV OFFLINE!");
+				FakeClientCommand(client, "say 无人机已下线！");
 		}
 	}
 	else
@@ -10065,7 +10065,7 @@ public Action:Timer_UAVOnline(Handle:timer, any:client)
 		g_hUAVTimer = INVALID_HANDLE;
 		g_bUAVOnline = false;
 		if (IsClientInGame(client) && IsPlayerAlive(client) && g_iGameState == 4)
-			FakeClientCommand(client, "say UAV OFFLINE!");
+			FakeClientCommand(client, "say 无人机已下线！");
 	}
 }
 
@@ -10298,7 +10298,7 @@ public Action:CheckSpec(Handle:timer, any:client)
 {
 	if (IsClientInGame(client) && WelcomeToTheCompany[client] == 0 && !IsFakeClient(client)){
 		ChangeClientTeam(client, 1);
-		PrintToChat(client, "\x08%sYour moved to spectators for afk", COLOR_VALVE);
+		PrintToChat(client, "\x08%s因挂机时间太长，你已被移动到观察者", COLOR_VALVE);
 	}
 }
 
@@ -10406,7 +10406,7 @@ public Action:Event_WeaponDeploy(Handle:event, const String:name[], bool:dontBro
 						ClientCommand(client, "invprev");
 					}
 					else SwapWeaponToPrimary(client);
-					PrintToChat(client, "\x05UAV \x01is on cooldown for \x08%s%0.1fs", COLOR_SALMON, (FCVAR_PLAYER_RECON_UAV_COOLDOWN+g_fUAVLastTime)-g_fGameTime);
+					PrintToChat(client, "\x05无人机 \x01在 \x08%s%0.1f 秒内冷却完毕", COLOR_SALMON, (FCVAR_PLAYER_RECON_UAV_COOLDOWN+g_fUAVLastTime)-g_fGameTime);
 				}
 			}
 		}
@@ -10548,7 +10548,7 @@ public Action:Timer_MoveToSurvivors(Handle:timer, any:client)
 
 public Action:Timer_LostMedic(Handle:timer, any:client)
 {
-	if (IsClientInGame(client)) PrintToChatAll("\x01Player \x08%s%N \x01has been lost class due to not healing teammate as \x08%sMedic", GetPlayerChatColor(client), client, COLOR_GOLD);
+	if (IsClientInGame(client)) PrintToChatAll("\x01玩家 \x08%s%N \x01已丧失 \x08%s医疗资格", GetPlayerChatColor(client), client, COLOR_GOLD);
 }
 
 public Action:Event_PlayerDeath(Event event, const String:name[], bool:dontBroadcast)
@@ -10653,29 +10653,29 @@ public Handler_MedicMenu(Handle:menu, MenuAction:action, client, select)
 			new Handle:panel = CreatePanel();
 			if (StrContains(language, "korea", false) == -1)
 			{
-				SetPanelTitle(panel, "You are playing as  [MEDIC]");
+				SetPanelTitle(panel, "你正在扮演 [医疗兵]");
 				DrawPanelText(panel, " ");
-				DrawPanelItem(panel, "Heal players with your [First Aid]  (Slot 3)");
+				DrawPanelItem(panel, "使用[医疗包]来治疗你的队友 (3号槽位)");
 				DrawPanelText(panel, " ");
-				DrawPanelText(panel, "Watch out for [Glowing Players]");
-				DrawPanelItem(panel, "They are wounded and need you to heal !");
+				DrawPanelText(panel, "请注意[有光圈的队友]");
+				DrawPanelItem(panel, "他们已受伤并需要你的治疗！");
 				DrawPanelText(panel, " ");
 				DrawPanelText(panel, " ");
-				DrawPanelText(panel, "If you not trying to heal teammate over 5mins, Class will be change");
-				DrawPanelItem(panel, "Confirm and Close");
+				DrawPanelText(panel, "如果你在5分钟之内不治疗队友，你的职业将会被强制变更");
+				DrawPanelItem(panel, "确认并关闭");
 			}
 			else
 			{
-				SetPanelTitle(panel, "����� ����  [�޵�] ������ �÷��� ���Դϴ�");
+				SetPanelTitle(panel, "당신은 지금  [메딕] 병과로 플레이 중입니다");
 				DrawPanelText(panel, " ");
-				DrawPanelItem(panel, "[First Aid] �� ����� �Ʊ��� ġ���ϼ���  (3�� ����)");
+				DrawPanelItem(panel, "[First Aid] 를 사용해 아군을 치료하세요  (3번 슬롯)");
 				DrawPanelText(panel, " ");
-				DrawPanelText(panel, "[������ �÷��̾�] ���� �ֽ��ϼ���");
-				DrawPanelItem(panel, "�׷��� �÷��̾���� ġ�ᰡ �ʿ��մϴ� !");
+				DrawPanelText(panel, "[빛나는 플레이어] 들을 주시하세요");
+				DrawPanelItem(panel, "그러한 플레이어들은 치료가 필요합니다 !");
 				DrawPanelText(panel, " ");
 				DrawPanelText(panel, " ");
-				DrawPanelText(panel, "5�� �Ѱ� �Ʊ��� ġ������ ���� ��� ������ ������ ����˴ϴ�.");
-				DrawPanelItem(panel, "Ȯ�� �� �ݱ�");
+				DrawPanelText(panel, "5분 넘게 아군을 치료하지 않을 경우 강제로 병과가 변경됩니다.");
+				DrawPanelItem(panel, "확인 및 닫기");
 			}
 			SendPanelToClient(panel, client, Handler_MedicMenu, 0);
 			CloseHandle(panel);
@@ -10788,7 +10788,7 @@ public Action:Event_PlayerDeathPre(Event event, const String:name[], bool:dontBr
 				g_bPlayerTempPropSetup[client] = false;
 			}
 		}
-		PrintHintText(client, "DEAD");
+		PrintHintText(client, "已死亡");
 		PrintCenterText(client, " ");
 		if (iAttackerTeam == TEAM_ZOMBIES)
 		{
@@ -10827,7 +10827,7 @@ public Action:Event_PlayerDeathPre(Event event, const String:name[], bool:dontBr
 			{
 				if (g_iZombieClass[client][VAR] < -1)
 				{
-					FakeClientCommand(attacker, "say IED Killed!");
+					FakeClientCommand(attacker, "say 已击杀IED！");
 					g_iPlayerBonusScore[attacker] += 20;
 				}
 			}
@@ -10896,7 +10896,7 @@ public Action:Event_PlayerDeathPre(Event event, const String:name[], bool:dontBr
 			if (iAttackerTeam == TEAM_SURVIVORS && iTeam == TEAM_SURVIVORS)
 			{
 				PlayGameSoundToAll("Lua_sounds/teamkiller.wav");
-				PrintToChatAll("\x08%s%N \x01has team killed by \x04%N", COLOR_SECURITY, client, attacker);
+				PrintToChatAll("\x08%s%N \x01已被 \x04%N 友军击杀", COLOR_SECURITY, client, attacker);
 				LogToGame("%N has team killed by %N", client, attacker);
 				LogMessage("%N has team killed by %N", client, attacker);
 				if (g_fPlayerDrugTime[attacker] == 0.0)
@@ -10922,7 +10922,7 @@ public Action:Event_PlayerDeathPre(Event event, const String:name[], bool:dontBr
 			if (StrContains(weapon, "cache", false) == -1)
 			{
 				PlayGameSoundToAll("Lua_sounds/teamkiller.wav");
-				PrintToChatAll("\x08%s%N \x01has team killed by \x04%N", COLOR_SECURITY, client, attacker);
+				PrintToChatAll("\x08%s%N \x01已被 \x04%N 友军击杀", COLOR_SECURITY, client, attacker);
 				LogToGame("%N has team killed by %N", client, attacker);
 				LogMessage("%N has team killed by %N", client, attacker);
 				if (g_fPlayerDrugTime[attacker] == 0.0)
@@ -11279,7 +11279,7 @@ public Action:Event_RoundEnd(Handle:event, const String:name[], bool:dontBroadca
 		{
 			PlayGameSoundToAll("Music.LostRound_Security");
 			EmitSoundToAll("Lua_sounds/warsaw.ogg", _, SNDCHAN_AUTO, _, _, 1.0);
-			PrintToChatAll("\x05[ZH]   \x01The Survivors have escaped !");
+			PrintToChatAll("\x05[ZH]   \x01幸存者已逃离！");
 //			PlayGameSoundToAll("soundscape/emitters/oneshot/air_siren.ogg");
 			switch(GetRandomInt(0, 1))
 			{
@@ -11402,11 +11402,11 @@ public Action:Timer_CounterAttackSetupRespawn(Handle:timer)
 				TeleportEntity(iDeadPlayers[i], vNearest, NULL_VECTOR, NULL_VECTOR);
 				if (iNearestPlayer > 0 && IsClientInGame(iNearestPlayer))
 				{
-					PrintToChat(iNearestPlayer, "\x08%s%N \x01has deployed on you!", GetPlayerChatColor(iDeadPlayers[i]), iDeadPlayers[i]);
+					PrintToChat(iNearestPlayer, "\x08%s%N \x01已在你身边部署！", GetPlayerChatColor(iDeadPlayers[i]), iDeadPlayers[i]);
 				}
 			}
 			// Sounds
-			PrintCenterTextAll("Our Reinforcement have arrived!\n \n \n \n \n \n \n \n \n \n \n ");
+			PrintCenterTextAll("我们的支援已经到达了！\n \n \n \n \n \n \n \n \n \n \n \n ");
 			if (g_iCPType[g_iCurrentControlPoint] != 0)
 			{
 				if (GetRandomInt(0, 2) != 0)
@@ -12171,7 +12171,7 @@ public Action:Timer_SetNetClassName(Handle:timer, any:client)
 
 public INS_OnPlayerResupplyed(client)
 {
-	PrintToChat(client, "\x05 >>> \x01For more game infomation, type \x08%s/HELP", COLOR_GOLD);
+	PrintToChat(client, "\x05 >>> \x01如需要更多帮助信息，请输入 \x08%s/HELP", COLOR_GOLD);
 	if (IsPlayerAlive(client))
 	{
 		EmitSoundToAll("Lua_sounds/ammo_pickup.wav", client, SNDCHAN_STATIC, _, _, 1.0);
@@ -12198,7 +12198,7 @@ public INS_OnPlayerResupplyed(client)
 		else
 		{
 			LogToGame("[AMMO CRATE] %N has been resupplyed (%d / %d)", client, g_iPLFBuyzone[client], EntRefToEntIndex(g_iPLFBuyzone[client]));
-			PrintToChatAll("\x01Player \x08%s%N \x01has been resupplyed from \x04Ammo Crate", GetPlayerChatColor(client), client);
+			PrintToChatAll("\x01玩家 \x08%s%N  使用了\x04弹药箱\x01并重新补给了", GetPlayerChatColor(client), client);
 			SetEntProp(client, Prop_Send, "m_iHealth", g_iPlayerLastHP[client]);
 			SetEntPropFloat(g_iPLFBuyzone[client], Prop_Data, "m_flLocalTime", GetEntPropFloat(g_iPLFBuyzone[client], Prop_Data, "m_flLocalTime")-1.0);
 			SetPlayerSkin(client, g_iPlayerCustomGear[client] > 0?true:false);
@@ -12268,13 +12268,13 @@ stock SetPlayerSkin(client, bool:bGear = true)
 					if (g_iMedicPlayer != client)
 					{
 						SetEntProp(client, Prop_Data, "m_iAmmo", 2, _, GetEntProp(iWeapon, Prop_Data, "m_iPrimaryAmmoType"));
-						PrintToChat(client, "\x08%sYou have a \x01First Aid\x08%s, use yourself (\x01Left Click\x08%s) or teammate (\x01Right Click\x08%s)", COLOR_DARKORANGE, COLOR_DARKORANGE, COLOR_DARKORANGE, COLOR_DARKORANGE);
-						PrintToChat(client, "(Slot 3)");
+						PrintToChat(client, "\x08%s你拥有一个 \x01医疗包\x08%s, 对自己 (\x01鼠标左键\x08%s) 或者 对队友 (\x01鼠标右键\x08%s) 使用", COLOR_DARKORANGE, COLOR_DARKORANGE, COLOR_DARKORANGE, COLOR_DARKORANGE);
+						PrintToChat(client, "(3号槽位)");
 					}
 					else
 					{
 						SetEntProp(client, Prop_Data, "m_iAmmo", 5, _, GetEntProp(iWeapon, Prop_Data, "m_iPrimaryAmmoType"));
-						PrintToChat(client, "\x08%sYou have a \x01First Aid \x08%s[Medic]\x08%s, use yourself (\x01Left Click\x08%s) or teammate (\x01Right Click\x08%s)  \x01(Slot 3)", COLOR_DARKORANGE, COLOR_GOLD, COLOR_DARKORANGE, COLOR_DARKORANGE, COLOR_DARKORANGE);
+						PrintToChat(client, "\x08%s你拥有一个 \x01医疗包 \x08%s[医疗兵]\x08%s, 对自己 (\x01鼠标左键\x08%s) 或者 对队友 (\x01Right Click\x08%s) 使用 \x01(3号槽位)", COLOR_DARKORANGE, COLOR_GOLD, COLOR_DARKORANGE, COLOR_DARKORANGE, COLOR_DARKORANGE);
 					}
 					LogToGame("%N has given first aid (%d)", client, iWeapon);
 				}
@@ -12286,7 +12286,7 @@ stock SetPlayerSkin(client, bool:bGear = true)
 				{
 					if (g_iPlayerLastKnife[client] != INVALID_ENT_REFERENCE && g_iPlayerLastKnife[client] != -1)
 					{
-						PrintToChat(client, "\x08%sYou have a \x01Portable Radar\x08%s, Placeable by knife (\x01Right Click\x08%s)", COLOR_DARKORANGE, COLOR_DARKORANGE, COLOR_DARKORANGE);
+						PrintToChat(client, "\x08%s你拥有一个 \x01便携雷达\x08%s, 可使用小刀布置 (\x01鼠标右键\x08%s)", COLOR_DARKORANGE, COLOR_DARKORANGE, COLOR_DARKORANGE);
 						LogToGame("%N has set knife for portable radar (%d)", client, g_iPlayerLastKnife[client]);
 
 	/*					if (g_iTomahawkModel[1] != -1)
@@ -12299,7 +12299,7 @@ stock SetPlayerSkin(client, bool:bGear = true)
 				{
 					if (g_iPlayerLastKnife[client] != INVALID_ENT_REFERENCE && g_iPlayerLastKnife[client] != -1)
 					{
-						PrintToChat(client, "\x08%sYou have a \x01IED Jammer\x08%s, Placeable by knife (\x01Right Click\x08%s)", COLOR_DARKORANGE, COLOR_DARKORANGE, COLOR_DARKORANGE);
+						PrintToChat(client, "\x08%s你拥有一个 \x01IED干扰器\x08%s, 可使用小刀布置 (\x01鼠标右键\x08%s)", COLOR_DARKORANGE, COLOR_DARKORANGE, COLOR_DARKORANGE);
 						LogToGame("%N has set knife for ied jammer (%d)", client, g_iPlayerLastKnife[client]);
 
 	/*					if (g_iTomahawkModel[1] != -1)
@@ -12312,7 +12312,7 @@ stock SetPlayerSkin(client, bool:bGear = true)
 				{
 					if (g_iPlayerLastKnife[client] != INVALID_ENT_REFERENCE && g_iPlayerLastKnife[client] != -1)
 					{
-						PrintToChat(client, "\x08%sYou have a \x01Barricade\x08%s, Placeable by knife (\x01Right Click\x08%s)", COLOR_DARKORANGE, COLOR_DARKORANGE, COLOR_DARKORANGE);
+						PrintToChat(client, "\x08%s你拥有一个 \x01路障\x08%s, 可使用小刀布置 (\x01鼠标右键\x08%s)", COLOR_DARKORANGE, COLOR_DARKORANGE, COLOR_DARKORANGE);
 						LogToGame("%N has set knife for barricade (%d)", client, g_iPlayerLastKnife[client]);
 
 	/*					if (g_iTomahawkModel[1] != -1)
@@ -12325,7 +12325,7 @@ stock SetPlayerSkin(client, bool:bGear = true)
 				{
 					if (g_iPlayerLastKnife[client] != INVALID_ENT_REFERENCE && g_iPlayerLastKnife[client] != -1)
 					{
-						PrintToChat(client, "\x08%sYou have a \x01Ammo Crate\x08%s, Placeable by knife (\x01Right Click\x08%s)", COLOR_DARKORANGE, COLOR_DARKORANGE, COLOR_DARKORANGE);
+						PrintToChat(client, "\x08%s你拥有一个 \x01弹药箱\x08%s, 可使用小刀布置 (\x01鼠标右键\x08%s)", COLOR_DARKORANGE, COLOR_DARKORANGE, COLOR_DARKORANGE);
 						LogToGame("%N has set knife for ammo crate (%d)", client, g_iPlayerLastKnife[client]);
 
 	/*					if (g_iTomahawkModel[1] != -1)
@@ -12475,22 +12475,30 @@ public Action:OnChatMessage(&author, Handle:recipients, String:name[], String:me
 		if (IsLeader(author))
 		{
 			if (g_iMedicPlayer == author)
-				Format(name, 255, "\x08%s[MEDIC]  %s", COLOR_GOLD, name);
+				Format(name, 255, "\x08%s[医疗]  %s", COLOR_GOLD, name);
 			else
-				Format(name, 255, "\x08%s[RECON]  %s", COLOR_GOLD, name);
+				Format(name, 255, "\x08%s[侦察]  %s", COLOR_GOLD, name);
 		}
 		else
 		{
-			if (StrEqual(g_sPlayerClassTemplate[author], "template_coop_engineer", false))
-				Format(name, 255, "\x08%s[Engineer]  %s", COLOR_WHITE, name);
-			else if (StrEqual(g_sPlayerClassTemplate[author], "template_coop_specialist", false))
-				Format(name, 255, "\x08%s[Specialist]  %s", COLOR_WHITE, name);
-			else if (StrEqual(g_sPlayerClassTemplate[author], "template_coop_rifleman", false))
-				Format(name, 255, "\x08%s[Rifleman]  %s", COLOR_WHITE, name);
-			else if (StrEqual(g_sPlayerClassTemplate[author], "template_coop_sniper", false))
-				Format(name, 255, "\x08%s[Sniper]  %s", COLOR_WHITE, name);
-			else if (StrEqual(g_sPlayerClassTemplate[author], "template_coop_lmg", false))
-				Format(name, 255, "\x08%s[Supporter]  %s", COLOR_WHITE, name);
+			if (StrEqual(g_sPlayerClassTemplate[author], "template_demolitions_security_coop", false))
+				Format(name, 255, "\x08%s[爆破]  %s", COLOR_WHITE, name);
+			else if (StrEqual(g_sPlayerClassTemplate[author], "template_anti_armor_master_security_coop", false))
+				Format(name, 255, "\x08%s[破甲]  %s", COLOR_WHITE, name);
+			else if (StrEqual(g_sPlayerClassTemplate[author], "template_melee_master_security_coop", false))
+				Format(name, 255, "\x08%s[刀剑]  %s", COLOR_WHITE, name);
+			else if (StrEqual(g_sPlayerClassTemplate[author], "template_specialist_security_coop", false))
+				Format(name, 255, "\x08%s[专家]  %s", COLOR_WHITE, name);
+			else if (StrEqual(g_sPlayerClassTemplate[author], "template_rifleman_security_coop", false))
+				Format(name, 255, "\x08%s[步枪]  %s", COLOR_WHITE, name);
+			else if (StrEqual(g_sPlayerClassTemplate[author], "template_sniper_security_coop", false))
+				Format(name, 255, "\x08%s[狙击]  %s", COLOR_WHITE, name);
+			else if (StrEqual(g_sPlayerClassTemplate[author], "template_breacher_security_coop", false))
+				Format(name, 255, "\x08%s[破障]  %s", COLOR_WHITE, name);
+			else if (StrEqual(g_sPlayerClassTemplate[author], "template_grenadier_security_coop", false))
+				Format(name, 255, "\x08%s[榴弹]  %s", COLOR_WHITE, name);
+			else if (StrEqual(g_sPlayerClassTemplate[author], "template_support_security_coop", false))
+				Format(name, 255, "\x08%s[支援]  %s", COLOR_WHITE, name);
 		}
 		return Plugin_Changed;
 	}
@@ -12845,11 +12853,11 @@ stock PlayerYell(client, type = 0, bool:ignorecooltime = false, Float:chance = 1
 			case 9:		//	Request Medic
 			{
 				if (target == 0)	// Death
-					Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/medic_dying%d.ogg", GetRandomInt(1, 3));
+					Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/medic_dying%d.wav", GetRandomInt(1, 3));
 				else if (target == 1)	// Critical
-					Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/medic_critical%d.ogg", GetRandomInt(1, 8));
+					Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/medic_critical%d.wav", GetRandomInt(1, 16));
 				else //if (target == 2)	// Injured	// 3 Healthy
-					Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/medic_injured%d.ogg", GetRandomInt(1, 17));
+					Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/medic_injured%d.wav", GetRandomInt(1, 22));
 				decl Float:vOrigin[3];
 				GetClientEyePosition(client, vOrigin);
 				for (new j = 0;j < MAXPLAYER; j++)
@@ -13686,13 +13694,13 @@ PrecacheThings()
 	PrecacheSound("player/voice/responses/security/subordinate/damage/molotov_incendiary_detonated7.ogg");	*/
 	
 	// Medic
-	PrecacheSoundNumbers("lua_sounds/medic/medic_injured", ".ogg", 1, 17, false);
-	PrecacheSoundNumbers("lua_sounds/medic/medic_critical", ".ogg", 1, 8, false);
-	PrecacheSoundNumbers("lua_sounds/medic/medic_dying", ".ogg", 1, 3, false);
-	PrecacheSoundNumbers("lua_sounds/medic/letme/medic_letme_bandage", ".ogg", 1, 22, false);
-	PrecacheSoundNumbers("lua_sounds/medic/letme/medic_letme_heal", ".ogg", 1, 10, false);
-	PrecacheSoundNumbers("lua_sounds/medic/healed/medic_healed", ".ogg", 1, 39, false);
-	PrecacheSoundNumbers("lua_sounds/medic/thx/medic_thanks", ".ogg", 1, 20, false);
+	PrecacheSoundNumbers("lua_sounds/medic/medic_injured", ".wav", 1, 22, false);
+	PrecacheSoundNumbers("lua_sounds/medic/medic_critical", ".wav", 1, 16, false);
+	PrecacheSoundNumbers("lua_sounds/medic/medic_dying", ".wav", 1, 3, false);
+	PrecacheSoundNumbers("lua_sounds/medic/letme/medic_letme_bandage", ".wav", 1, 18, false);
+	PrecacheSoundNumbers("lua_sounds/medic/letme/medic_letme_heal", ".wav", 1, 7, false);
+	PrecacheSoundNumbers("lua_sounds/medic/healed/medic_healed", ".wav", 1, 38, false);
+	PrecacheSoundNumbers("lua_sounds/medic/thx/medic_thanks", ".wav", 1, 20, false);
 	
 //	PrecacheSoundNumbers("hq/security/enemyout", ".ogg", 1, 10, false);
 	PrecacheSoundNumbers("hq/security/wehave", ".ogg", 1, 10, false);

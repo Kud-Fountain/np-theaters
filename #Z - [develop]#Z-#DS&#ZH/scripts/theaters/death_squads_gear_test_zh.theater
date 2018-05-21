@@ -7,7 +7,7 @@
 			"print_name"				"#xmas_head"
 			"print_desc"				"#xmas_head_desc"
 			"gear_slot"				"head"
-			"gear_cost"				"-5"
+			"gear_cost"				"0"
 			"gear_weight"				"-20"	
 			
 			"entity"				"model"
@@ -20,7 +20,7 @@
 			"print_name"				"#western_hat"
 			"print_desc"				"#western_hat_desc"
 			"gear_slot"				"head"
-			"gear_cost"				"-5"
+			"gear_cost"				"0"
 			"gear_weight"				"-20"	
 			
 			"entity"				"model"
@@ -71,7 +71,7 @@
 			"print_name"				"#plague_doctor_mask_leather"
 			"print_desc"				"#plague_doctor_mask_desc"
 			"gear_slot"				"accessory"
-			"gear_cost"				"-5"
+			"gear_cost"				"2"
 			"gear_weight"				"100"
 	
 			"entity"				"model"
@@ -555,131 +555,6 @@
 			"gear_weight"				"1"
 	
 			"viewmodel_hands_override"	"models/weapons/v_hands_sniper.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_0"
-		{
-			"print_name"				"#sec_character_0"
-			"print_desc"				"#sec_character_desc"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/security_light.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_1"
-		{
-			"print_name"				"#sec_character_1"
-			"print_desc"				"#sec_character_desc"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/security_standard.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_2"
-		{
-			"print_name"				"#sec_character_2"
-			"print_desc"				"#sec_character_desc"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/security_heavy.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_3"
-		{
-			"print_name"				"#sec_character_3"
-			"print_desc"				"#sec_character_desc"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/civilian_vip_security.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_custom_0"
-		{
-			"print_name"				"#sec_character_custom_0"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/security_l_des.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_custom_1"
-		{
-			"print_name"				"#sec_character_custom_1"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/security_std_desr.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_custom_2"
-		{
-			"print_name"				"#sec_character_custom_2"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/security_h_des.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_custom_3"
-		{
-			"print_name"				"#sec_character_custom_3"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/civilian_vip_sec_desr.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_custom_4"
-		{
-			"print_name"				"#sec_character_custom_4"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/security_std_delr.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_custom_5"
-		{
-			"print_name"				"#sec_character_custom_5"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/security_h_del.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_custom_6"
-		{
-			"print_name"				"#sec_character_custom_6"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/civilian_vip_sec_blue.mdl"
 			
 			"team_access"				"security"
 		}
