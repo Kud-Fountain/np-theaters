@@ -11089,8 +11089,7 @@ public Action:Event_RoundFreezeEnd(Handle:event, const String:name[], bool:dontB
 	g_iGameState = 4;
 	ObjectUpdate_Do(1);
 	g_iNextSpawnPointsIndex = -1;
-	g_fMedicLastHealTime[client] = GetGameTime();
-	g_fThunderSound = g_fMedicLastHealTime[client]+GetRandomFloat(5.0, 60.0);
+	g_fThunderSound = GetGameTime()+GetRandomFloat(5.0, 60.0);
 //	SetWeaponCacheModel(-1, false);
 //	g_bSkipSpawnCheck = true;
 	for (new j = 0;j < MAXPLAYER; j++)
@@ -11098,6 +11097,7 @@ public Action:Event_RoundFreezeEnd(Handle:event, const String:name[], bool:dontB
 		if (g_iPlayersList[j] == -1 || !IsPlayerAlive(g_iPlayersList[j]))
 			continue;
 		new client = g_iPlayersList[j];
+		g_fMedicLastHealTime[client] = GetGameTime();
 		if (IsLeader(client))
 			CreateCustomFlag(client);
 
