@@ -480,7 +480,7 @@
 			"print_desc"				"#weapon_upgrade_c_magazine_extended_desc"
 
 			"magsize_override"			"100"
-			"maxcarry_override"			"3"
+			"maxcarry_override"			"5"
 
 			"allowed_weapons"
 			{
@@ -592,7 +592,7 @@
 			"print_desc"				"#weapon_upgrade_c_magazine_extended_desc"
 
 			"magsize_override"			"100"
-			"maxcarry_override"			"3"
+			"maxcarry_override"			"5"
 
 			"allowed_weapons"
 			{
@@ -828,7 +828,7 @@
 			 "print_name"				"#weapon_upgrade_magazine_extended"
 			 "print_desc"				"#weapon_upgrade_magazine_extended_desc"		
 			 "magsize_override"			"20"
-			 "maxcarry_override"			"4"
+			 "maxcarry_override"			"6"
 
 			 "allowed_weapons"
 			 {
@@ -874,7 +874,7 @@
 			"print_desc"				"#weapon_upgrade_magazine_extended_desc"
 			
 			"magsize_override"			"75"
-			"maxcarry_override"			"4"
+			"maxcarry_override"			"6"
 
 			"allowed_weapons"
 			{

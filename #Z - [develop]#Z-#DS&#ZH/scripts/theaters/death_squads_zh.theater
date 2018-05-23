@@ -12,24 +12,24 @@
 				// assault squad
 				"#Survivors_Squad_Alpha"	// small arms
 				{
-					"#Squad_Fireteam_Medic"				"template_coop_medic"
 					"#Squad_Fireteam_Leader_Anti_Armor_Master"	"template_anti_armor_master_security_coop"
 					//"#Squad_Fireteam_Breacher"			"template_breacher_security_coop"
 					"#Squad_Fireteam_Demolitions"			"template_demolitions_security_coop"
 					"#Squad_Fireteam_Grenadier"			"template_grenadier_security_coop"
 					"#Squad_Fireteam_Specialist"			"template_specialist_security_coop"
 					"#Squad_Fireteam_Support"			"template_support_security_coop"
+					"#Squad_Fireteam_Medic"				"template_coop_medic"
 				}
 				// Investigation squad 
 				"#Survivors_Squad_Bravo"	// small arms
 				{
-					"#Squad_Fireteam_Medic"				"template_coop_medic"
 					"#Squad_Fireteam_Leader_Melee_Master"		"template_melee_master_security_coop"
 					"#Squad_Fireteam_Designated_Marksman"		"template_designated_marksman_security_coop"
 					"#Squad_Fireteam_Recon"				"template_recon_security_coop"
 					"#Squad_Fireteam_Rifleman"			"template_rifleman_security_coop"
 					"#Squad_Fireteam_Sniper"			"template_sniper_security_coop"
 					//"#Squad_Fireteam_Support"			"template_support_security_coop"
+					"#Squad_Fireteam_Medic"				"template_coop_medic"
 				}
 			}
 		}
