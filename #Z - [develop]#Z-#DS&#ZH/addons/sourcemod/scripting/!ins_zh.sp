@@ -3996,8 +3996,8 @@ public SHook_OnPreThink(client)
 								if (iNewHp >= CVAR_PLAYER_HEALTHKIT_MEDIC_MIN_HEALTH)
 								{
 									// SwapWeaponToPrimary(client);
+									// g_iPlayerHealthkitDeploy[client] = -1;
 									g_fLastMedicCall[client] = 0.0;
-									g_iPlayerHealthkitDeploy[client] = -1;
 								}
 								PrintToChatAll("\x08%s[医疗]  \x08%s%N \x01对自己使用了医疗包   (%d \x04-> \x01%d HP)", COLOR_GOLD, GetPlayerChatColor(client), client, iHp, iNewHp);
 							}
@@ -4013,12 +4013,12 @@ public SHook_OnPreThink(client)
 								if (iNewHp >= CVAR_PLAYER_HEALTHKIT_MEDIC_MIN_HEALTH)
 								{
 									// SwapWeaponToPrimary(client);
+									// g_iPlayerHealthkitDeploy[client] = -1;
 									g_fLastMedicCall[iTarget] = 0.0;
 									decl String:sSoundFile[128];
 									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/healed/medic_healed%d.wav", GetRandomInt(1, 38));
 									EmitSoundToAll(sSoundFile, client, SNDCHAN_VOICE, _, _, 1.0);
 									CreateTimer(GetRandomFloat(2.0, 2.5), Timer_MedicThanks, iTarget, TIMER_FLAG_NO_MAPCHANGE);
-									g_iPlayerHealthkitDeploy[client] = -1;
 								}
 								PrintToChatAll("\x08%s[MEDIC]  \x08%s%N \x01对\x08%s%N使用了医疗包   \x01(%d \x04-> \x01%d HP)", COLOR_GOLD, GetPlayerChatColor(client), client, GetPlayerChatColor(iTarget), iTarget, iHp, iNewHp);
 							}
