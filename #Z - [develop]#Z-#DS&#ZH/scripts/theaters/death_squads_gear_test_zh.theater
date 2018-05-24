@@ -33,8 +33,8 @@
 			"print_name"				"#executioner_mask"
 			"print_desc"				"#executioner_mask_desc"
 			"gear_slot"				"head"
-			"gear_cost"				"2"
-			"gear_weight"				"-200"	
+			"gear_cost"				"0"
+			"gear_weight"				"-20"	
 			
 			"entity"				"model"
 			"model"					"models/characters/executioner_mask.mdl"
@@ -48,7 +48,7 @@
 			"print_name"				"#plague_doctor_mask"
 			"print_desc"				"#plague_doctor_mask_desc"
 			"gear_slot"				"accessory"
-			"gear_cost"				"2"
+			"gear_cost"				"1"
 			"gear_weight"				"5"
 	
 			"entity"				"model"
@@ -71,7 +71,7 @@
 			"print_name"				"#plague_doctor_mask_leather"
 			"print_desc"				"#plague_doctor_mask_desc"
 			"gear_slot"				"accessory"
-			"gear_cost"				"2"
+			"gear_cost"				"1"
 			"gear_weight"				"100"
 	
 			"entity"				"model"
@@ -162,7 +162,7 @@
 			"print_name"				"#maska_helmet"
 			"print_desc"				"#maska_helmet_desc"
 			"gear_slot"				"head"
-			"gear_cost"				"3"
+			"gear_cost"				"2"
 			"gear_weight"				"50"	
 			
 			"entity"				"model"
@@ -563,13 +563,13 @@
 			"print_name"				"#gear_sniper_armor"
 			"print_desc"				"#gear_sniper_armor_desc"
 			"gear_slot"				"armor"
-			"gear_cost"				"2"
+			"gear_cost"				"3"
 			"gear_weight"				"32"	// 25 (2.5kg) + 75 encumbrance
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"		"0.50" // this is 1.0, but it has to be here to be considered armoured
-				"HITGROUP_STOMACH"		"0.50"
+				"HITGROUP_CHEST"		"0.60" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_STOMACH"		"0.55"
 			}
 			
 			"penetration_power_required" "250"
@@ -585,12 +585,12 @@
 			"print_name"				"#gear_light_armor"
 			"print_desc"				"#gear_light_armor_desc"
 			"gear_slot"				"armor"
-			"gear_cost"				"3"
+			"gear_cost"				"2"
 			"gear_weight"				"32"	// 25 (2.5kg) + 75 encumbrance
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"		"0.75" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_CHEST"		"0.70" // this is 1.0, but it has to be here to be considered armoured
 				"HITGROUP_STOMACH"		"0.65"
 			}
 			
@@ -628,13 +628,13 @@
 			"print_name"				"#gear_heavy_armor"
 			"print_desc"				"#gear_heavy_armor_desc"
 			"gear_slot"				"armor"
-			"gear_cost"				"4"
+			"gear_cost"				"3"
 			"gear_weight"				"64"	// 75 (7.5kg) + 250 encumbrance
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"		"0.70" // this is 1.0, but it has to be here to be considered armoured
-				"HITGROUP_STOMACH"		"0.60"
+				"HITGROUP_CHEST"		"0.60" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_STOMACH"		"0.55"
 			}
 			
 			"penetration_power_required" "300"
@@ -670,13 +670,13 @@
 			"print_name"		"#gear_anti_explosion_clothing"
 			"print_desc"		"#gear_anti_explosion_clothing_desc"
 			"gear_slot"			"armor"
-			"gear_cost"			"5"
+			"gear_cost"			"4"
 			"gear_weight"		"180"
 			"class_restricted"			"1"
 
 			"penetration_power_required" "250"
 			"penetration_power_loss"	"400"
-			"explosive_damage_frac"			"0.10"
+			"explosive_damage_frac"			"0.20"
 
 			"DamageHitgroups"
 			{
@@ -689,7 +689,7 @@
 				"HITGROUP_RIGHTLEG"	"0.85"
 			}
 
-			"player_model_override"		"models/characters/anti_heavy_de.mdl"
+			"player_model_override"		"models/characters/security_light.mdl"
 
 			"team_access"	"security"
 		}
@@ -726,7 +726,7 @@
 			"print_name"		"#gear_anti_ammo_clothing"
 			"print_desc"		"#gear_anti_ammo_clothing_desc"
 			"gear_slot"			"armor"
-			"gear_cost"			"5"
+			"gear_cost"			"4"
 			"gear_weight"		"128"
 			"class_restricted"			"0"
 
@@ -807,8 +807,8 @@
 			"gear_weight"				"32"	// 22 (2.2kg) + 24 encumbrance
 			"extra_ammo"
 			{
-				"primary"	"3"
-				"secondary"	"1"
+				"primary"	"5"
+				"secondary"	"3"
 				"explosive"
 				{
 					"0"	"1"//slot0+1,total2
@@ -867,8 +867,8 @@
 			"gear_weight"				"64"	// 50 (5.0kg) + 50 encumbrance
 			"extra_ammo"
 			{
-				"primary"	"4"
-				"secondary"	"2"
+				"primary"	"7"
+				"secondary"	"4"
 				"explosive"
 				{
 					"0"	"1"//slot0+1,total2

@@ -18,7 +18,7 @@
 			"player_restrictions"
 			{
 				"allow_jump_shoot"	"1"
-				"allow_reload_sprint"	"1"
+				"allow_reload_sprint"	"0"
 				"allow_reload_jump"	"0"
 				"allow_reload_crawl"	"0"
 			}

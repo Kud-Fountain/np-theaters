@@ -6,6 +6,189 @@
 	"weapons"
 	{
 		// ========================================
+		// DEFIB & MED KITS
+		// ========================================
+		"weapon_healthkit"
+		{
+			"import"				"weapon_base"
+			"weapon_class"				"other_explosive"
+			"weapon_type"				"grenade"
+			"print_name"				"#weapon_healthkit_aus"
+			"print_desc"				"#weapon_healthkit_aus_desc"
+			"single_use"				"1"
+			"view_model"				"models/weapons/v_healthkit_sec.mdl"
+			"world_model"				"models/weapons/w_healthkit.mdl"
+			"weapon_slot"				"explosive"
+			"weapon_max_subslot"			"2"
+			"act_table"				"grenade"
+			"weapon_weight"				"0"
+			"weapon_cost"				"0"
+			"class_restricted"			"1"
+			"explosives"
+			{
+				"entity"				"healthkit"
+				"GrenadeRollSpeed"			"0"
+				"GrenadeThrowSpeed"			"320"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"healthkit"
+				"clip_max_rounds"			"-1"	// no clips
+				"clip_default"				"1"
+			}
+			//"use_hands"					"1"
+			// "viewmodel_offsets"
+			// {
+			// 	"VMOffsetStand"				"-22.0 0.0 13.0"
+			// 	"VMOffsetStandSprint"			"-22.0 0.0 13.0"
+			// 	"VMOffsetCrouch"			"-20.0 0.0 11.0"
+			// 	"VMOffsetCrouchMove"			"-5.0 0.0 11.0"
+			// 	"VMOffsetProne"				"-19.0 0.0 9.0"
+			// 	"VMOffsetProneMove"			"-4.0 0.0 9.0"
+			// }
+			"team_access"				"security"
+		}
+		
+		"weapon_m18"
+		{
+			"import"				"weapon_grenade_base"
+			"weapon_class"				"grenade_smoke"
+			"weapon_type"				"grenade"
+			"print_name"				"#weapon_m18"
+			"print_desc"				"#weapon_m18_desc"
+			"view_model"				"models/weapons/v_m18.mdl"
+			"world_model"				"models/weapons/w_m18.mdl"
+			"weapon_slot"				"explosive"
+			"act_table"				"grenade"
+			"weapon_weight"				"0"
+			"weapon_cost"				"1"
+			"class_restricted"			"1"		
+			
+			"fov"
+			{
+				"fov_wpn_default"			"65"
+			}
+			
+			"explosives"
+			{
+				"entity"				"grenade_m18"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"grenade_m18"
+				"clip_max_rounds"			"-1"	// no clips
+				"clip_default"				"1"
+			}
+
+			"sounds"
+			{
+				"special1"				"Weapon_M67.SpoonEject"
+			}
+
+			"team_access"				"security, insurgent"
+		}
+		
+		"weapon_m203_smoke"
+		{
+			"import"				"weapon_base"
+			"weapon_class"				"launcher"
+			"weapon_type"				"projectile"
+			"print_name"				"#weapon_m203_smoke"
+			"print_desc"				"#weapon_m203_smoke_desc"
+			"view_model"				"models/weapons/upgrades/a_gl_m203.mdl"
+			"world_model"				"models/weapons/upgrades/a_gl_m203.mdl"
+			"weapon_slot"				"primary"
+			"act_table"				"shortrifle"
+			"attached_act_suffix"			"_GLSETUP"
+			"attached_gesture"			"delta_glsetup"
+			"weapon_weight"				"0"
+			"weapon_cost"				"1"
+			"weapon_abilities"			"ironsight"
+			"fire_instantly"			"1"	
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_m203.Single"
+				"shot_single_local"			"Weapon_m203.SingleLocal"
+				"empty"					"Weapon_m203.Empty"
+				"load"					"Weapon_RPG7.Load"
+				"unload"				"Weapon_RPG7.Unload"
+				"hit"					"Weapon_RPG7.Hit"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-1.0 1.0"
+				"recoil_vertical_range"			"4.0 6.0"
+				"recoil_aim_punch"			"1.0 1.0"
+				"recoil_rest_rate"			"12"
+				"recoil_rest_delay"			"0"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"ins_weapon_m203"
+				"particle_muzzleflash_3rd"		"ins_weapon_m203"
+			}
+			"explosives"
+			{
+				"entity"				"grenade_m203_smoke"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"grenade_m203_smoke"
+				"clip_max_rounds"			"1"	// 1 rpg per mag
+				"clip_default"				"0"
+			}
+			"freeaim"
+			{
+				"freeaim_distance"			"13"
+				"freeaim_screenratio"			"0.8"
+			}
+			"fov"
+			{
+				"fov_plr_ironsight"			"-5"
+				"fov_plr_focus"				"-10"
+				"fov_wpn_default"			"20"
+				"fov_wpn_ironsight"			"74"
+				"fov_wpn_focus"				"74"
+			}
+			"ironsights"
+			{
+				"GestureIronsights"			"delta_glsetup_iron"
+			}
+			
+			"team_access"				"security, insurgent"
+		}
+		"weapon_gp25_smoke"
+		{
+			"import"				"weapon_m203_smoke"
+			"weapon_cost"				"1"
+			"print_name"				"#weapon_gp25_smoke"
+			"print_desc"				"#weapon_m203_smoke_desc"		
+			
+			"explosives"
+			{
+				"entity"				"grenade_gp25_smoke"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_gp30.Single"
+				"shot_single_local"			"Weapon_gp30.SingleLocal"
+			}
+			"freeaim"
+			{
+				"freeaim_distance"			"13"
+				"freeaim_screenratio"			"0.8"
+			}
+			"fov"
+			{
+				"fov_plr_ironsight"			"-5"
+				"fov_plr_focus"				"-10"
+				"fov_wpn_default"			"20"
+				"fov_wpn_ironsight"			"74"
+				"fov_wpn_focus"				"74"
+			}
+		}
+		// ========================================
 		// ROCKETS
 		// ========================================
 		"weapon_rpg7"
@@ -529,105 +712,6 @@
 				"fov_wpn_focus"				"74"
 			}
 		}
-		"weapon_m203_smoke"
-		{
-			"import"				"weapon_base"
-			"weapon_class"				"launcher"
-			"weapon_type"				"projectile"
-			"print_name"				"#weapon_m203_smoke"
-			"print_desc"				"#weapon_m203_smoke_desc"
-			"view_model"				"models/weapons/upgrades/a_gl_m203.mdl"
-			"world_model"				"models/weapons/upgrades/a_gl_m203.mdl"
-			"weapon_slot"				"primary"
-			"act_table"				"shortrifle"
-			"attached_act_suffix"			"_GLSETUP"
-			"attached_gesture"			"delta_glsetup"
-			"weapon_weight"				"32"
-			"weapon_cost"				"0"
-			"weapon_abilities"			"ironsight"
-			"fire_instantly"			"1"
-			"class_restricted"			"1"
-			"sounds"
-			{
-				"shot_single"				"Weapon_m203.Single"
-				"shot_single_local"			"Weapon_m203.SingleLocal"
-				"empty"					"Weapon_m203.Empty"
-				"load"					"Weapon_RPG7.Load"
-				"unload"				"Weapon_RPG7.Unload"
-				"hit"					"Weapon_RPG7.Hit"
-			}
-			"recoil"
-			{
-				"recoil_lateral_range"			"-1.0 1.0"
-				"recoil_vertical_range"			"4.0 6.0"
-				"recoil_aim_punch"			"1.0 1.0"
-				"recoil_rest_rate"			"12"
-				"recoil_rest_delay"			"0"
-			}
-			"particles"
-			{
-				"particle_muzzleflash_1st"		"ins_weapon_m203"
-				"particle_muzzleflash_3rd"		"ins_weapon_m203"
-			}
-			"explosives"
-			{
-				"entity"				"grenade_m203_smoke"
-				"remove_on_deplete"		"0"
-			}
-			"ammo_clip"
-			{
-				"ammo_type"				"grenade_m203_smoke"
-				"clip_max_rounds"			"1"	// 1 rpg per mag
-				"clip_default"				"6"
-			}
-			"freeaim"
-			{
-				"freeaim_distance"			"13"
-				"freeaim_screenratio"			"0.8"
-			}
-			"fov"
-			{
-				"fov_plr_ironsight"			"-5"
-				"fov_plr_focus"				"-10"
-				"fov_wpn_default"			"20"
-				"fov_wpn_ironsight"			"74"
-				"fov_wpn_focus"				"74"
-			}
-			"ironsights"
-			{
-				"GestureIronsights"			"delta_glsetup_iron"
-			}
-			
-			"team_access"				"security, insurgent"
-		}
-		"weapon_gp25_smoke"
-		{
-			"import"				"weapon_m203_smoke"
-			"print_name"				"#weapon_gp25_smoke"
-			"print_desc"				"#weapon_m203_smoke_desc"
-			"explosives"
-			{
-				"entity"				"grenade_gp25_smoke"
-			}
-			"sounds"
-			{
-				"shot_single"				"Weapon_gp30.Single"
-				"shot_single_local"			"Weapon_gp30.SingleLocal"
-			}
-			"freeaim"
-			{
-				"freeaim_distance"			"13"
-				"freeaim_screenratio"			"0.8"
-			}
-			"fov"
-			{
-				"fov_plr_ironsight"			"-5"
-				"fov_plr_focus"				"-10"
-				"fov_wpn_default"			"20"
-				"fov_wpn_ironsight"			"74"
-				"fov_wpn_focus"				"74"
-			}
-		}
 		
 		// ========================================
 		// REMOTE CONTROLLED EXPLOSIVES
@@ -646,7 +730,7 @@
 			"weapon_max_subslot"			"1"	// can only be in the first explosive slot
 			"act_table"				"grenade"
 			"weapon_weight"				"32"
-			"weapon_cost"				"4"
+			"weapon_cost"				"3"
 			"class_restricted"			"1"
 			"explosives"
 			{
@@ -683,7 +767,7 @@
 			"weapon_max_subslot"			"1"	// can only be in the first explosive slot
 			"act_table"				"grenade"
 			"weapon_weight"				"32"
-			"weapon_cost"				"4"
+			"weapon_cost"				"3"
 			"class_restricted"			"1"
 			"explosives"
 			{
@@ -905,44 +989,6 @@
 				"shot_single"				"Weapon_p2a1.Single"
 				"shot_single_local"			"Weapon_p2a1.SingleLocal"
 			}
-			"team_access"				"security, insurgent"
-		}
-		"weapon_m18"
-		{
-			"import"				"weapon_grenade_base"
-			"weapon_class"				"grenade_smoke"
-			"weapon_type"				"grenade"
-			"print_name"				"#weapon_m18"
-			"print_desc"				"#weapon_m18_desc"
-			"view_model"				"models/weapons/v_m18.mdl"
-			"world_model"				"models/weapons/w_m18.mdl"
-			"weapon_slot"				"explosive"
-			"act_table"				"grenade"
-			"weapon_weight"				"6"
-			"weapon_cost"				"1"
-			"class_restricted"			"0"
-			
-			"fov"
-			{
-				"fov_wpn_default"			"65"
-			}
-			
-			"explosives"
-			{
-				"entity"				"grenade_m18"
-			}
-			"ammo_clip"
-			{
-				"ammo_type"				"grenade_m18"
-				"clip_max_rounds"			"-1"	// no clips
-				"clip_default"				"1"
-			}
-
-			"sounds"
-			{
-				"special1"				"Weapon_M67.SpoonEject"
-			}
-
 			"team_access"				"security, insurgent"
 		}
 		"weapon_m84"
@@ -1282,7 +1328,7 @@
 				"ammo_type"				"38special"
 				"clip_max"				"72"
 				"clip_max_rounds"		"6"
-				"clip_default"			"60"
+				"clip_default"			"30"
 				"lose_rounds_reload"	"1"
 			}
 			"attachments"
@@ -1390,7 +1436,7 @@
 				"ammo_type"				"45acp_pistol"
 				"clip_max"				"10"
 				"clip_max_rounds"			"7"
-				"clip_default"				"5"
+				"clip_default"				"1"
 			}
 			"attachments"
 			{
@@ -1496,7 +1542,7 @@
 				"clip_max"				"10"
 				"magsize_override"			"8"
 				"clip_max_rounds"			"8"
-				"clip_default"				"5"
+				"clip_default"				"1"
 			}
 			"attachments"
 			{
@@ -1607,7 +1653,7 @@
 				"ammo_type"				"45acp_pistol"
 				"clip_max"				"10"
 				"clip_max_rounds"			"7"
-				"clip_default"				"5"
+				"clip_default"				"1"
 			}
 			"attachments"
 			{
@@ -3074,7 +3120,7 @@
 				"ammo_type"				"9x19mm_smg"
 				"clip_max"				"12"
 				"clip_max_rounds"			"30"
-				"clip_default"				"3"
+				"clip_default"				"1"
 			}
 			"attachments"
 			{
@@ -3163,7 +3209,7 @@
 				"magsize_override"			"32"
 				"clip_max"					"12"
 				"clip_max_rounds"			"32"
-				"clip_default"				"3"
+				"clip_default"				"1"
 			}
 			"attachments"
 			{
@@ -3252,7 +3298,7 @@
 				"magsize_override"			"34"
 				"clip_max"					"12"
 				"clip_max_rounds"			"34"
-				"clip_default"				"3"
+				"clip_default"				"1"
 			}
 			"viewmodel_attachments"
 			{
@@ -3356,7 +3402,7 @@
 				"ammo_type"				"45acp"
 				"clip_max"				"12"
 				"clip_max_rounds"			"25"
-				"clip_default"				"3"
+				"clip_default"				"1"
 			}
 			"attachments"
 			{
@@ -3460,7 +3506,7 @@
 				"ammo_type"				"545x39"
 				"clip_max"				"12"
 				"clip_max_rounds"			"30"
-				"clip_default"				"3"
+				"clip_default"				"1"
 			}
 			"attachments"
 			{
@@ -3556,7 +3602,7 @@
 				"ammo_type"				"buckshot"
 				"clip_max"				"12"
 				"clip_max_rounds"			"8"
-				"clip_default"				"3"
+				"clip_default"				"1"
 				"magsize_override"			"8"
 			}
 			"attachments"
@@ -3650,7 +3696,7 @@
 				"ammo_type"				"buckshot"
 				"clip_max"				"12"
 				"clip_max_rounds"			"6"
-				"clip_default"				"3"
+				"clip_default"				"1"
 				"magsize_override"			"6"
 			}
 			"attachments"
@@ -3759,10 +3805,10 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"556_m27"
-				"clip_max"				"5"
-				"clip_max_rounds"			"100"
-				"magsize_override"			"100"
-				"clip_default"				"2"
+				"clip_max"				"3"
+				"clip_max_rounds"			"150"
+				"magsize_override"			"150"
+				"clip_default"				"1"
 			}
 			"attachments"
 			{
@@ -3852,9 +3898,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"762x38_drum"
-				"clip_max"				"6"
-				"clip_max_rounds"			"75"
-				"clip_default"				"3"
+				"clip_max"				"3"
+				"clip_max_rounds"			"150"
+				"clip_default"				"1"
 			}
 			"sounds"
 			{
@@ -3978,9 +4024,9 @@
 				//"clip_max_rounds"			"5"
 				//"clip_default"				"4"
 				//"magsize_override"			"5"
-				"clip_max"					"60"
+				"clip_max"					"100"
 				"clip_max_rounds"			"5"
-				"clip_default"				"40"
+				"clip_default"				"50"
 			}
 			"attachments"
 			{
@@ -4062,9 +4108,9 @@
 				//"clip_max_rounds"			"5"
 				//"clip_default"				"4"
 				//"magsize_override"			"5"
-				"clip_max"					"60"
+				"clip_max"					"100"
 				"clip_max_rounds"			"5"
-				"clip_default"				"40"
+				"clip_default"				"50"
 			}
 			"attachments"
 			{
@@ -4080,26 +4126,6 @@
 	
 	"explosives"
 	{
-		"grenade_m18"
-		{
-			"import"				"baseGrenade"
-			"entity_class"				"grenade_smoke"
-			"Model"					"models/weapons/w_m18.mdl"
-			"FuseTime"				"3.5"
-			"RocketStartSpeed"			"2500"
-			
-			"Particles"
-			{
-				"DetonateParticle"			"smokegrenade"
-				"SmokeColor"				"40 35 33 252"	// why does the alpha have to be set so damn high?
-			}
-			
-			"Sounds"
-			{
-				"DetonateSound"				"BaseSmokeEffect.Sound"
-				"BounceSound"				"Weapon_M18.Bounce"
-			}
-		}
 		"grenade_m84"
 		{
 			"import"				"baseGrenade"
@@ -4384,37 +4410,6 @@
 			"import"				"grenade_m203_he"
 			"Model"					"models/weapons/upgrades/a_projectile_gp25.mdl"
 		}
-		"grenade_m203_smoke"
-		{
-			"import"				"baseGrenade"
-			"entity_class"				"grenade_smoke"
-			"Model"					"models/weapons/upgrades/a_projectile_m203.mdl"
-			"FuseTime"				"0"
-			"ImpactDetonation"			"1"
-			"RocketStartSpeed"			"3000"
-			"ArmDelay"				"0.06"
-			
-			"Health"				"50"
-			"ReactExplosions"			"1"
-			"ReactBullets"				"1"
-			
-			"Particles"
-			{
-				"DetonateParticle"			"m203_smokegrenade"
-				"SmokeColor"				"40 35 33 252"	// why does the alpha have to be set so damn high?
-			}
-			
-			"Sounds"
-			{
-				"DetonateSound"				"Weapon_m203.SmokeExplode"
-				"BounceSound"				"Weapon_M67.Bounce"
-			}
-		}
-		"grenade_gp25_smoke"
-		{
-			"import"				"grenade_m203_smoke"
-			"Model"					"models/weapons/upgrades/a_projectile_gp25.mdl"
-		}
 		"rocket_at4"
 		{
 			"entity_class"				"rocket"
@@ -4631,20 +4626,6 @@
 				"DetonateSound"				"BaseGrenade.Explode"
 				"BounceSound"				"Weapon_M67.Bounce"
 			}
-		}
-		"healthkit"
-		{
-			"import"				"baseGrenade"
-			"entity_class"				"remote"
-			"Model"					"models/weapons/w_healthkit.mdl"
-			
-			"DetonateDamage"			"0"
-			"DetonateDamageRadius"			"0"
-			"DetonatePenetrationRadius"		"0"
-			
-			"Health"				"50"
-			"ReactExplosions"			"1"
-			"ReactBullets"				"0"
 		}
 		"grenade_rifle_springfield"
 		{

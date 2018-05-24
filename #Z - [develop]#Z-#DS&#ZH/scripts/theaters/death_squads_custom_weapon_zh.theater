@@ -64,7 +64,7 @@
 			"weapon_weight"				"30"
 			"weapon_cost"				"3"
 			"barrel_length"				"-1"
-			"class_restricted"			"0"//new class 0
+			"class_restricted"			"1"//new class 0
 			"explosives"
 			{
 				"entity"					"grenade_tnt"
@@ -157,7 +157,7 @@
 			{
 				"ammo_type"					"grenade_rifle"
 				"clip_max_rounds"			"1"	// 1 rpg per mag
-				"clip_default"				"5"
+				"clip_default"				"3"
 			}
 			"freeaim"
 			{
@@ -1310,46 +1310,6 @@
 			}
 			"team_access"	"security, insurgent"
 		}
-		"weapon_healthkit"
-		{
-			"import"				"weapon_base"
-			"weapon_class"				"other_explosive"
-			"weapon_type"				"grenade"
-			"print_name"				"#weapon_healthkit_aus"
-			"print_desc"				"#weapon_healthkit_aus_desc"
-			"single_use"				"1"
-			"view_model"				"models/weapons/v_healthkit_sec.mdl"
-			"world_model"				"models/weapons/w_healthkit.mdl"
-			"weapon_slot"				"explosive"
-			"weapon_max_subslot"			"2"
-			"act_table"				"grenade"
-			"weapon_weight"				"0"
-			"weapon_cost"				"0"
-			"class_restricted"			"1"
-			"explosives"
-			{
-				"entity"				"healthkit"
-				"GrenadeRollSpeed"			"0"
-				"GrenadeThrowSpeed"			"320"
-			}
-			"ammo_clip"
-			{
-				"ammo_type"				"healthkit"
-				"clip_max_rounds"			"-1"	// no clips
-				"clip_default"				"1"
-			}
-			//"use_hands"					"1"
-			// "viewmodel_offsets"
-			// {
-			// 	"VMOffsetStand"				"-22.0 0.0 13.0"
-			// 	"VMOffsetStandSprint"			"-22.0 0.0 13.0"
-			// 	"VMOffsetCrouch"			"-20.0 0.0 11.0"
-			// 	"VMOffsetCrouchMove"			"-5.0 0.0 11.0"
-			// 	"VMOffsetProne"				"-19.0 0.0 9.0"
-			// 	"VMOffsetProneMove"			"-4.0 0.0 9.0"
-			// }
-			"team_access"				"security"
-		}
 		// ========================================
 		// CUSTOM LAUNCHERS
 		// ========================================
@@ -2456,10 +2416,10 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"762x51_mag"
-				"clip_max"				"5"
-				"clip_max_rounds"			"100"
+				"clip_max"				"3"
+				"clip_max_rounds"			"150"
 				"clip_default"				"2"
-				"magsize_override"			"100"
+				"magsize_override"			"150"
 			}
 			"attachments"
 			{
@@ -2568,7 +2528,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"762x51_mag"
-				"clip_max"				"5"
+				"clip_max"				"3"
 				"clip_max_rounds"			"150"
 				"clip_default"				"2"
 				"magsize_override"			"150"
@@ -2679,7 +2639,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"762x51_mag"
-				"clip_max"				"5"
+				"clip_max"				"2"
 				"clip_max_rounds"			"200"
 				"clip_default"				"1"
 				"magsize_override"			"200"
@@ -2786,7 +2746,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"408ct"
-				"clip_max"				"84"
+				"clip_max"				"100"
 				"clip_max_rounds"			"7"
 				"clip_default"				"63"
 			}
@@ -2886,9 +2846,9 @@
 				//"clip_max_rounds"			"10"
 				//"clip_default"				"4"
 				//"magsize_override"			"10"
-				"clip_max"					"60"
+				"clip_max"					"100"
 				"clip_max_rounds"			"10"
-				"clip_default"				"40"
+				"clip_default"				"50"
 			}
 			"attachments"
 			{
@@ -2998,9 +2958,9 @@
 				//"clip_max_rounds"			"5"
 				//"clip_default"				"4"
 				//"magsize_override"			"5"
-				"clip_max"					"60"
+				"clip_max"					"100"
 				"clip_max_rounds"			"5"
-				"clip_default"				"40"
+				"clip_default"				"50"
 			}
 			
 			"attachments"
@@ -3142,9 +3102,9 @@
 				//"clip_max_rounds"			"5"
 				//"clip_default"				"4"
 				//"magsize_override"			"5"
-				"clip_max"					"60"
+				"clip_max"					"100"
 				"clip_max_rounds"			"5"
-				"clip_default"				"40"
+				"clip_default"				"50"
 			}
 			
 			"attachments"
@@ -3236,7 +3196,7 @@
 				"ammo_type"				"9x39mm"
 				"clip_max"				"12"
 				"clip_max_rounds"			"20"
-				"clip_default"				"8"
+				"clip_default"				"5"
 				"magsize_override"			"20"
 			}
 			"attachments"
@@ -5089,7 +5049,7 @@
 				"ammo_type"				"556_stanag_m4"
 				"clip_max"				"12"
 				"clip_max_rounds"			"40"
-				"clip_default"				"3"
+				"clip_default"				"1"
 				"magsize_override"			"40"
 			}
 			"attachments"
@@ -5495,7 +5455,7 @@
 				"ammo_type"				"9x19mm"
 				"clip_max"				"12"
 				"clip_max_rounds"			"17"
-				"clip_default"				"5"
+				"clip_default"				"1"
 				"magsize_override"			"17"
 			}
 			"attachments"
@@ -5591,7 +5551,7 @@
 				"ammo_type"				"9x19mm"
 				"clip_max"				"12"
 				"clip_max_rounds"			"15"
-				"clip_default"				"5"
+				"clip_default"				"1"
 			}
 			"viewmodel_attachments"
 			{
@@ -5698,7 +5658,7 @@
 				"ammo_type"				"45acp_pistol"
 				"clip_max"				"12"
 				"clip_max_rounds"			"12"
-				"clip_default"				"5"
+				"clip_default"				"1"
 				"magsize_override"			"12"
 			}
 			"attachments"
@@ -5807,7 +5767,7 @@
 				"ammo_type"				"50ae"
 				"clip_max"				"12"
 				"clip_max_rounds"			"7"
-				"clip_default"				"8"
+				"clip_default"				"2"
 			}
 			"attachments"
 			{
@@ -5912,7 +5872,7 @@
 				"ammo_type"				"9x19mm"
 				"clip_max"				"12"
 				"clip_max_rounds"			"17"
-				"clip_default"				"5"
+				"clip_default"				"1"
 				"magsize_override"			"17"
 			}
 			"attachments"
@@ -6024,7 +5984,7 @@
 				"ammo_type"				"9x19mm"
 				"clip_max"				"12"
 				"clip_max_rounds"			"15"
-				"clip_default"				"5"
+				"clip_default"				"1"
 				"magsize_override"			"15"
 			}
 			"attachments"
@@ -6128,7 +6088,7 @@
 				"ammo_type"				"57x28"
 				"clip_max"				"10"
 				"clip_max_rounds"			"20"
-				"clip_default"				"3"
+				"clip_default"				"1"
 			}
 			"attachments"
 			{
@@ -6214,7 +6174,7 @@
 				"ammo_type"			"44special"
 				"clip_max"			"72"
 				"clip_max_rounds"		"6"
-				"clip_default"			"60"
+				"clip_default"			"18"
 				"lose_rounds_reload"	"1"
 			}
 			"attachments"
@@ -6304,7 +6264,7 @@
 				"ammo_type"				"500magnum"
 				"clip_max"				"80"
 				"clip_max_rounds"		"5"
-				"clip_default"			"65"
+				"clip_default"			"15"
 				"lose_rounds_reload"	"1"
 			}
 			"attachments"
@@ -6392,7 +6352,7 @@
 				"ammo_type"				"38special"
 				"clip_max"				"72"
 				"clip_max_rounds"		"6"
-				"clip_default"			"60"
+				"clip_default"			"18"
 				"lose_rounds_reload"	"1"
 			}
 			"attachments"
@@ -6479,7 +6439,7 @@
 				"ammo_type"				"10x22mm"
 				"clip_max"				"10"
 				"clip_max_rounds"			"15"
-				"clip_default"				"4"
+				"clip_default"				"1"
 			}
 			"attachments"
 			{
@@ -6566,8 +6526,8 @@
 				"ammo_type"				"buckshot"
 				"clip_max"				"12"
 				"clip_max_rounds"			"5"
-				"clip_default"				"6"
-				"magsize_override"			"5"
+				"clip_default"				"1"
+				"magsize_override"			"3"
 			}
 			"attachments"
 			{
@@ -6650,7 +6610,7 @@
 				"ammo_type"				"buckshot"
 				"clip_max"				"12"
 				"clip_max_rounds"			"8"
-				"clip_default"				"3"
+				"clip_default"				"1"
 				"magsize_override"			"8"
 			}
 			"attachments"
@@ -7815,7 +7775,7 @@
 				"magsize_override"			"32"
 				"clip_max"					"12"
 				"clip_max_rounds"			"32"
-				"clip_default"				"3"
+				"clip_default"				"1"
 			}
 			"viewmodel_attachments"
 			{
@@ -7918,7 +7878,7 @@
 				"ammo_type"				"9x19mm"
 				"clip_max"				"12"
 				"clip_max_rounds"			"25"
-				"clip_default"				"4"
+				"clip_default"				"1"
 				"magsize_override"			"25"
 			}
 			"attachments"
@@ -8008,7 +7968,7 @@
 				"ammo_type"				"9x19mm_smg"
 				"clip_max"				"12"
 				"clip_max_rounds"			"30"
-				"clip_default"				"4"
+				"clip_default"				"1"
 			}
 			"attachments"
 			{
@@ -8096,7 +8056,7 @@
 				"ammo_type"				"9x19mm_smg"
 				"clip_max"				"12"
 				"clip_max_rounds"			"50"
-				"clip_default"				"4"
+				"clip_default"				"0"
 				"magsize_override"			"50"
 			}
 			"attachments"
@@ -8186,7 +8146,7 @@
 				"ammo_type"				"46x30mm_smg"
 				"clip_max"				"12"
 				"clip_max_rounds"			"40"
-				"clip_default"				"3"
+				"clip_default"				"1"
 			}
 			"attachments"
 			{
@@ -8276,7 +8236,7 @@
 				"ammo_type"				"45acp"
 				"clip_max"				"12"
 				"clip_max_rounds"		"25"
-				"clip_default"			"4"
+				"clip_default"			"1"
 				"magsize_override"		"25"
 			}
 			"attachments"
@@ -8367,7 +8327,7 @@
 				"clip_max"				"12"
 				"magsize_override"			"50"
 				"clip_max_rounds"			"50"
-				"clip_default"				"4"
+				"clip_default"				"0"
 			}
 			"attachments"
 			{
@@ -8488,7 +8448,7 @@
 				"ammo_type"				"45acp"
 				"clip_max"				"12"
 				"clip_max_rounds"		"20"
-				"clip_default"			"4"
+				"clip_default"			"1"
 			}
 			"attachments"
 			{
@@ -8578,7 +8538,7 @@
 				"clip_max"					"12"
 				"clip_max_rounds"			"32"
 				"magsize_override"			"32"
-				"clip_default"				"4"
+				"clip_default"				"1"
 			}
 			"attachments"
 			{
@@ -8718,7 +8678,7 @@
 				"clip_max"				"14"
 				"magsize_override"			"32"
 				"clip_max_rounds"			"32"
-				"clip_default"				"4"
+				"clip_default"				"1"
 			}
 			"attachments"
 			{

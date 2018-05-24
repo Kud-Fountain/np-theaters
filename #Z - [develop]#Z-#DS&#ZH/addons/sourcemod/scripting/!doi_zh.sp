@@ -9,8 +9,8 @@
 
 new bool:ZH_DEBUG					=						false;
 
-#define GAMEDESC "僵尸暴动 [中文版]"
-#define PLUGIN_VERSION "0.93/1.6.1"
+#define GAMEDESC "僵尸暴动DOI [中文版]"
+#define PLUGIN_VERSION "0.10/1.6.1"
 #define PLUGIN_DESCRIPTION "x_x"
 public Plugin:myinfo =
 {

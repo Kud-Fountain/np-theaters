@@ -297,6 +297,20 @@
 	
 	"weapons"
 	{
+		"weapon_healthkit"
+		{
+			"weapon_weight"				"20"
+			"weapon_slot"					"melee"
+			"weapon_weight"				"20"
+			"weapon_cost"				"1"
+			"class_restricted"			"1"
+			"ammo_clip"
+			{
+				"clip_max"					"3"
+				"clip_default"				"3"
+			}
+		}
+		
 		"weapon_kabar"
 		{
 			"import"				"weapon_base"
@@ -383,24 +397,6 @@
 			"ironsights"
 			{
 				"in_time"				"0.35"
-				"out_time"				"0.2"
-			}
-			"team_access"				"security"
-		}
-		
-		"weapon_m203_incid"
-		{
-			"weapon_weight"				"64"
-			"class_restricted"			"1"
-			"ammo_clip"
-			{
-				"ammo_type"				"grenade_m203_incid"
-				"clip_max_rounds"			"1"
-				"clip_default"				"1"
-			}
-			"ironsights"
-			{
-				"in_time"				"0.3"
 				"out_time"				"0.2"
 			}
 			"team_access"				"security"

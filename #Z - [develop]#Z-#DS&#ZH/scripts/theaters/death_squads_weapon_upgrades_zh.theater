@@ -295,7 +295,7 @@
 		"magazine_extended_glock18"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"3"
 			"team_access"				"security,insurgent"
 			"class_restricted"			"0"
 
@@ -351,7 +351,7 @@
 		"magazine_extended_pistol_30"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"3"
 			"team_access"				"security,insurgent"
 			"class_restricted"			"0"
 
@@ -479,8 +479,8 @@
 			"print_name"				"#weapon_upgrade_c_magazine_extended"
 			"print_desc"				"#weapon_upgrade_c_magazine_extended_desc"
 
-			"magsize_override"			"100"
-			"maxcarry_override"			"5"
+			"magsize_override"			"110"
+			"maxcarry_override"			"3"
 
 			"allowed_weapons"
 			{
@@ -591,8 +591,8 @@
 			"print_name"				"#weapon_upgrade_c_magazine_extended"
 			"print_desc"				"#weapon_upgrade_c_magazine_extended_desc"
 
-			"magsize_override"			"100"
-			"maxcarry_override"			"5"
+			"magsize_override"			"110"
+			"maxcarry_override"			"3"
 
 			"allowed_weapons"
 			{
@@ -870,11 +870,11 @@
 			"team_acces"				"security,insurgent"
 			"weight"				"24"
 			
-			"print_name"				"#weapon_upgrade_magazine_drum"
-			"print_desc"				"#weapon_upgrade_magazine_extended_desc"
+			"print_name"				"95发扩容弹匣"
+			"print_desc"				"95发扩容弹匣"
 			
-			"magsize_override"			"75"
-			"maxcarry_override"			"6"
+			"magsize_override"			"95"
+			"maxcarry_override"			"3"
 
 			"allowed_weapons"
 			{
@@ -15071,24 +15071,7 @@
 				}
 			}
 		}
-		
-		"underbarrel_m203_smoke"
-		{
-			"import"				"underbarrel_m203_base"
-			"upgrade_cost"				"2"
-			"print_name"				"#weapon_m203_smoke"
-			"print_desc"				"#weapon_m203_smoke_desc"
-			"attach_weapon"				"weapon_m203_smoke"
-			"class_restricted"			"1"
-			
-			"viewmodel_attachments"
-			{
-				"Launcher"
-				{
-					"Skin"					"1"
-				}
-			}
-		}
+
 		"underbarrel_m320_base"
 		{
 			"IsBase"				"1"
@@ -15157,24 +15140,6 @@
 				"Launcher"
 				{
 					"skin"					"0"
-				}
-			}
-		}
-		
-		"underbarrel_m320_smoke"
-		{
-			"import"				"underbarrel_m320_base"
-			"upgrade_cost"				"2"
-			"print_name"				"#weapon_m320_smoke"
-			"print_desc"				"#weapon_m203_smoke_desc"
-			"attach_weapon"				"weapon_m203_smoke"
-			"class_restricted"			"1"
-			
-			"viewmodel_attachments"
-			{
-				"Launcher"
-				{
-					"Skin"					"1"
 				}
 			}
 		}
@@ -15325,24 +15290,7 @@
 				}
 			}
 		}
-		
-		"underbarrel_gp25_smoke"
-		{
-			"import"				"underbarrel_gp25_base"
-			"upgrade_cost"				"2"
-			"print_name"				"#weapon_gp25_smoke"
-			"print_desc"				"#weapon_m203_smoke_desc"
-			"attach_weapon"				"weapon_gp25_smoke"
-			"class_restricted"			"1"
-			
-			"viewmodel_attachments"
-			{
-				"Launcher"
-				{
-					"skin"					"1"
-				}
-			}
-		}
+
 		"underbarrel_rifle_grenade_k98"
 		{
 			"import"					"underbarrel_launcher_base"
