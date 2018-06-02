@@ -788,11 +788,11 @@
 		"speed_holster"
 		{
 			"print_name"				"#speed_holster"
-			"print_desc"				"#speed_holster_cqb_desc"
+			"print_desc"				"#speed_holster_desc"
 			"upgrade_cost"				"3"
 			"upgrade_slot"				"stock"
-			"draw_speed"				"1.7"
-			"holster_speed"				"1.7"
+			"draw_speed"				"1.2"
+			"holster_speed"				"1.2"
 			"class_restricted"			"0"
 			
 			"allowed_weapons"
@@ -824,11 +824,11 @@
 		"tactical_sling"
 		{
 			"print_name"				"#tactical_sling"
-			"print_desc"				"#tactical_sling_cqb_desc"
+			"print_desc"				"#tactical_sling_desc"
 			"upgrade_cost"				"3"
 			"upgrade_slot"				"stock"
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.7"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.2"
 			"class_restricted"			"0"
 			
 			"allowed_weapons"
@@ -942,10 +942,10 @@
 		"quick_reload"
 		{
 			"print_name"				"#quick_reload"
-			"print_desc"				"#quick_reload_cqb_desc"
+			"print_desc"				"#quick_reload_desc"
 			"upgrade_cost"				"3"
 			"upgrade_slot"				"aesthetic"
-			"reload_speed"				"1.8"
+			"reload_speed"				"1.3"
 			"class_restricted"			"0"
 			
 			"allowed_weapons"
@@ -1070,10 +1070,10 @@
 		"quick_reload_shotgun"
 		{
 			"print_name"				"#quick_reload_shotgun"
-			"print_desc"				"#quick_reload_shotgun_cqb_desc"
+			"print_desc"				"#quick_reload_shotgun_desc"
 			"upgrade_cost"				"3"
 			"upgrade_slot"				"aesthetic"
-			"reload_speed"				"2.0"
+			"reload_speed"				"1.5"
 			"class_restricted"			"0"
 			
 			"allowed_weapons"
@@ -1100,10 +1100,10 @@
 		"fast_bolt_action"
 		{
 			"print_name"				"#fast_bolt_action"
-			"print_desc"				"#fast_bolt_action_cqb_desc"
+			"print_desc"				"#fast_bolt_action_desc"
 			"upgrade_cost"				"3"
 			"upgrade_slot"				"stock"
-			"bolt_speed"				"2.0"
+			"bolt_speed"				"1.5"
 			"class_restricted"			"0"
 			
 			"allowed_weapons"
@@ -1123,10 +1123,10 @@
 		"fast_pump_action"
 		{
 			"print_name"				"#fast_pump_action"
-			"print_desc"				"#fast_pump_action_cqb_desc"
+			"print_desc"				"#fast_pump_action_desc"
 			"upgrade_cost"				"3"
 			"upgrade_slot"				"barrel"
-			"bolt_speed"				"1.7"
+			"bolt_speed"				"1.2"
 			"class_restricted"			"0"
 			
 			"allowed_weapons"

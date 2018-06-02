@@ -5049,7 +5049,7 @@
 				"ammo_type"				"556_stanag_m4"
 				"clip_max"				"12"
 				"clip_max_rounds"			"40"
-				"clip_default"				"1"
+				"clip_default"				"5"
 				"magsize_override"			"40"
 			}
 			"attachments"

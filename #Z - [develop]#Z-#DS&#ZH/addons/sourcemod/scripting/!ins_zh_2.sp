@@ -576,8 +576,7 @@ new Float:g_fUAVLastTime = 0.0;
 #define MAX_SPAWNPOINT				28
 #define MAX_SPAWNPOINT_ENTITIES		1024
 #define MAX_SPAWNPOINT_INFOS		8192
-new g_iSpawnPointsRef[MAX_SPAWNPOINT_ENTITIES]
-, g_iSpawnPointsIndex = -1;
+new g_iSpawnPointsRef[MAX_SPAWNPOINT_ENTITIES], g_iSpawnPointsIndex = -1;
 new g_iSpawnZoneRef[MAX_SPAWNZONE_ENTITIES], g_iSpawnZoneIndex = -1;
 new g_iSpawnPointsInfo[MAX_SPAWNPOINT_INFOS][4], g_iSpawnPointsInfoMaxIndex = -1;
 //	g_iSpawnPointsInfo[index][0: spawnpoint index | 1: counter attack | 2: CP | 3: Team] = spawnpoint ref
@@ -5114,15 +5113,15 @@ stock UpdateBotsConfig(iPlayers = 0, bool:bNotice = true, bool:bOnlyNoticeWhenUp
 	new iBotCount = 0;
 	switch(iPlayers)
 	{
-		case 11, 12: iBotCount = 32;
-		case 9, 10: iBotCount = 29;	
-		case 7, 8: iBotCount = 24;
-		case 5, 6: iBotCount = 21;
-		case 4: iBotCount = 16;
-		case 3: iBotCount = 13;
+		case 11, 12: iBotCount = 22;
+		case 9, 10: iBotCount = 20;	
+		case 7, 8: iBotCount = 17;
+		case 5, 6: iBotCount = 14;
+		case 4: iBotCount = 13;
+		case 3: iBotCount = 11;
 		case 2: iBotCount = 8;
-		case 0, 1: iBotCount = 4;
-		default: iBotCount = 35;
+		case 0, 1: iBotCount = 3;
+		default: iBotCount = 26;
 	}
 //	iBotCount = 2;
 	new bool:bUpdate = false;
@@ -5137,9 +5136,9 @@ stock UpdateBotsConfig(iPlayers = 0, bool:bNotice = true, bool:bOnlyNoticeWhenUp
 		bUpdate = true;
 	if (bNotice && bUpdate)
 	{
-		if (iBotCount >= 29) PrintToChatAll("\x08%s僵尸： \x04地狱", COLOR_INSURGENTS);
-		else if (iBotCount >= 21) PrintToChatAll("\x08%s僵尸：  \x05困难", COLOR_INSURGENTS);
-		else if (iBotCount >= 13) PrintToChatAll("\x08%s僵尸：  \x05正常", COLOR_INSURGENTS);
+		if (iBotCount >= 18) PrintToChatAll("\x08%s僵尸： \x04地狱", COLOR_INSURGENTS);
+		else if (iBotCount >= 14) PrintToChatAll("\x08%s僵尸：  \x05困难", COLOR_INSURGENTS);
+		else if (iBotCount >= 9) PrintToChatAll("\x08%s僵尸：  \x05正常", COLOR_INSURGENTS);
 		else PrintToChatAll("\x08%s僵尸：  \x01简单", COLOR_INSURGENTS);
 	}
 }

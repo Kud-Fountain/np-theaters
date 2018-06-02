@@ -5,7 +5,7 @@
 	"category"				"hidden" // Required: Menu category, should be "pvp", "coop", "solo" or "hidden"
 	
 	"require_maxplayers_min"		"1"
-	"require_maxplayers_max"		"49"
+	//"require_maxplayers_max"		"49"
 
 	"sv_pure"
 	{

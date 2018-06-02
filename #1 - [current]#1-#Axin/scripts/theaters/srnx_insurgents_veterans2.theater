@@ -16,8 +16,8 @@
 			"print_name"	"Fighter" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_ltopf.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -126,8 +126,8 @@
 			"print_name"	"Fighter" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_ltopf.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -236,8 +236,8 @@
 			"print_name"	"Fighter" 
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -347,8 +347,8 @@
 			"print_name"	"Fighter" 
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -456,8 +456,8 @@
 			"print_name"	"Fighter" 
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -571,8 +571,8 @@
 			"print_name"	"Heavy Fighter" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_ltopf.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
 
 				"bodygroups"
 				{
@@ -686,8 +686,8 @@
 			"print_name"	"Heavy Fighter" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_hyopf.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
 
 				"bodygroups"
 				{
@@ -797,8 +797,8 @@
 			"print_name"	"Machinegunner/Striker" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_ltopf.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
 
 				"bodygroups"
 				{
@@ -912,8 +912,8 @@
 			"print_name"	"Fighter/HeavyMachinegunner" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_hyopf.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
 
 				"bodygroups"
 				{
@@ -1023,8 +1023,8 @@
 			"print_name"	"Fighter/HeavyMachinegunner" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_ltopf.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
 
 				"bodygroups"
 				{
@@ -1134,8 +1134,8 @@
 			"print_name"	"Fighter/HeavyMachinegunner" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_hyopf.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
 
 				"bodygroups"
 				{
@@ -1249,8 +1249,8 @@
 			"print_name"	"Fighter/Striker" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_stdopfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -1358,8 +1358,8 @@
 			"print_name"	"Fighter/Striker" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_stdopfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -1468,8 +1468,8 @@
 			"print_name"	"Breaker/Striker" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_ltopf.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -1580,8 +1580,8 @@
 			"print_name"	"Rifleman/Striker" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_stdopfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -1692,8 +1692,8 @@
 			"print_name"	"Breaker/Striker" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_stdopfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -1804,7 +1804,7 @@
 			"print_name"	"Breaker/Fighter" 
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
+				"player"				"models/characters/insurgent_standard.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -1922,8 +1922,8 @@
 			"print_name"	"Scout/LongRifle" 
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
 
 				"bodygroups"
 				{
@@ -2033,8 +2033,8 @@
 			"print_name"	"Scout/Longrifle" 
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
 
 				"bodygroups"
 				{
@@ -2144,8 +2144,8 @@
 			"print_name"	"Scout/Riflemen" 
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
 
 				"bodygroups"
 				{
@@ -2254,8 +2254,8 @@
 			"print_name"	"Scout/Riflemen" 
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
 
 				"bodygroups"
 				{
@@ -2367,8 +2367,8 @@
 			"print_name"	"Scout/Riflemen" 
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
 
 				"bodygroups"
 				{
@@ -2476,8 +2476,8 @@
 			"print_name"	"Scout/Ambusher"
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
 				
 				"bodygroups"
 				{
@@ -2590,8 +2590,8 @@
 			"print_name"	"Scout/Riflemen" 
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_ins_opfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
 
 				"bodygroups"
 				{
@@ -2706,8 +2706,8 @@
 			"print_name"	"Suicide Bomber" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_ltopf.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
 
 				"bodygroups"
 				{
@@ -2805,8 +2805,8 @@
 			"print_name"	"Nuclear Suicide Bomber"
 			"models"
 			{
-				"player"				"models/characters/insurgent_ltopf.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
 
 				"bodygroups"
 				{
@@ -2913,8 +2913,8 @@
 			"print_name"	"Sapper/Striker"
 			"models"
 			{
-				"player"				"models/characters/insurgent_stdopfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -3027,8 +3027,8 @@
 			"print_name"	"Rifleman/Breaker" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_hyopf.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -3141,8 +3141,8 @@
 			"print_name"	"Sapper/Striker"
 			"models"
 			{
-				"player"				"models/characters/insurgent_stdopfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -3257,8 +3257,8 @@
 			"print_name"	"Sapper/Striker"
 			"models"
 			{
-				"player"				"models/characters/insurgent_stdopfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -3373,8 +3373,8 @@
 			"print_name"	"Sapper/Striker"
 			"models"
 			{
-				"player"				"models/characters/insurgent_stdopfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -3678,8 +3678,8 @@
 			"print_name"	"Riflemen/Breaker" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_stdopfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -3787,8 +3787,8 @@
 			"print_name"	"Fighter/Breaker" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_stdopfor.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"			"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{

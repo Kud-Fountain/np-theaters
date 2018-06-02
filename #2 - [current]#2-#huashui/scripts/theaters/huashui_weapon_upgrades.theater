@@ -167,10 +167,10 @@
 			"class_restricted"			"0"
 			"team_access"				"security, insurgent"
 			
-			"draw_speed"				"1.8" //"1.3"
-			"holster_speed"				"2.1" //"1.6"
-			"draw_speed_next_weapon"	"1.7" //"1.2"
-			"holster_speed_prev_weapon"	"1.8" //"1.3"
+			"draw_speed"				"1.3"
+			"holster_speed"				"1.6"
+			"draw_speed_next_weapon"	"1.2"
+			"holster_speed_prev_weapon"	"1.3"
 			
 			"allowed_weapons"
 			{
@@ -442,7 +442,7 @@
 			"class_restricted"			"0"
 			"team_access"				"security, insurgent"
 			
-			"reload_speed"				"2.3" //"1.8"
+			"reload_speed"				"1.8"
 			
 			"allowed_weapons"
 			{
@@ -459,7 +459,7 @@
 			"class_restricted"			"0"
 			"team_access"				"security, insurgent"
 			
-			"reload_speed"				"2.3" //"1.8"
+			"reload_speed"				"1.8"
 			
 			"allowed_weapons"
 			{
@@ -491,16 +491,31 @@
 			"class_restricted"			"0"
 			"team_access"				"security, insurgent"
 			
-			"bolt_speed"				"2.3" //"1.8"
+			"bolt_speed"				"1.8"
 			
 			"allowed_weapons"
 			{
 				"weapon"			"weapon_springfield"
 				"weapon"			"weapon_k98"
-				//"weapon"			"weapon_mosin"
-				//"weapon"			"weapon_m40a1"
+				//"weapon"			"weapon_m1912"
+			}
+		}
+        "fast_bolt_modern"
+		{
+			"upgrade_cost"				"3"
+			"upgrade_slot"				"stock"
+			"print_name"				"#fast_bolt"
+			"print_desc"				"平衡？"
 
-				"weapon"			"weapon_m1912"
+			"class_restricted"			"0"
+			"team_access"				"security, insurgent"
+
+			"bolt_speed"				"1.8"
+
+			"allowed_weapons"
+			{
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_m40a1"
 			}
 		}
 		"siderail_lasersight_band"

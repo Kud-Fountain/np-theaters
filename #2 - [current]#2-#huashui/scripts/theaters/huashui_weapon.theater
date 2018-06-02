@@ -13,8 +13,7 @@
 		}
 		"weapon_ump45"
 		{
-			"weapon_cost"					"3"
-			"weapon_slot"					"secondary"
+			"weapon_cost"					"2"
 			"ammo_clip"
 			{
 				"clip_default"				"2"
@@ -22,7 +21,6 @@
 		}
 		"weapon_m590"
 		{
-			"weapon_slot"					"secondary"
 			"ammo_clip"
 			{
 				"clip_default"				"16"
@@ -149,7 +147,7 @@
 			{
 				"ammo_type"				"rocket_rpg7"	// "rocket_rpg7"
 				"clip_max_rounds"			"1"	// 1 rpg per mag
-				"clip_default"				"0"	// 1
+				"clip_default"				"1"	// 1
 			}
 			"player_restrictions"
 			{
@@ -701,7 +699,7 @@
 			"print_desc"				"美国二战泵动式喷子"
 			"view_model"				"models/weapons/v_m1912.mdl"
 			"world_model"				"models/weapons/w_m1912.mdl"
-			"weapon_slot"				"secondary"
+			"weapon_slot"				"primary"
 			"act_table"					"shot"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"160"	// (2.5kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +24[encumbrance]
@@ -1310,8 +1308,8 @@
 			}
 			"particles"
 			{
-				"particle_muzzleflash_1st"		"muzzleflash_m16_1p"	//"muzzleflash_thompson_1p"
-				"particle_muzzleflash_3rd"		"muzzleflash_m16_3rd"	//"muzzleflash_thompson_3rd"
+				"particle_muzzleflash_1st"		"muzzleflash_ump_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_ump_3rd"
 				"particle_tracer"				"weapon_tracers"
 			}
 			"recoil"
@@ -1698,8 +1696,8 @@
 			
 			"particles"
 			{
-				"particle_muzzleflash_1st"		"muzzleflash_akm_1p"	//"muzzleflash_m1919_1p"
-				"particle_muzzleflash_3rd"		"muzzleflash_akm_3rd"	//"muzzleflash_m1919_3rd"
+				"particle_muzzleflash_1st"		"muzzleflash_m249_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_m249_3rd"
 				"particle_tracer"				"weapon_tracers"
 			}
 			
@@ -1841,8 +1839,8 @@
 			
 			"particles"
 			{
-				"particle_muzzleflash_1st"		"muzzleflash_akm_1p"	//"muzzleflash_mg42_1p"
-				"particle_muzzleflash_3rd"		"muzzleflash_akm_3rd"	//"muzzleflash_mg42_3rd"
+				"particle_muzzleflash_1st"		"muzzleflash_m249_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_m249_3rd"
 				"particle_tracer"				"weapon_tracers_green"
 			}
 			
