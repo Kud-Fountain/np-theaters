@@ -3337,7 +3337,7 @@
 			"world_model"				"models/weapons/w_ump45.mdl"
 			"rounds_per_minute"			"600"
 			"bursts"				"1"
-			"weapon_slot"				"primary"
+			"weapon_slot"				"secondary"
 			"act_table"					"smg_foregrip"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"64"	// (2.5kg[weapon] + (0.7kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +8[encumbrance]

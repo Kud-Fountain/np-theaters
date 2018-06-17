@@ -1,0 +1,812 @@
+"#base" "death_squads_coop_shared_wn_hard.theater"
+
+"theater" {
+
+	"teams" {
+	
+		"security"
+		{
+			"name"		"#Survivors"
+			"squads"
+			{
+				// assault squad
+				"#Survivors_Squad_Alpha"	// small arms
+				{
+					"#Squad_Fireteam_Leader_Anti_Armor_Master"	"template_anti_armor_master_security_coop"
+					//"#Squad_Fireteam_Breacher"			"template_breacher_security_coop"
+					"#Squad_Fireteam_Demolitions"			"template_demolitions_security_coop"
+					"#Squad_Fireteam_Grenadier"			"template_grenadier_security_coop"
+					"#Squad_Fireteam_Specialist"			"template_specialist_security_coop"
+					"#Squad_Fireteam_Support"			"template_support_security_coop"
+					"#Squad_Fireteam_Medic"				"template_coop_medic"
+				}
+				// Investigation squad 
+				"#Survivors_Squad_Bravo"	// small arms
+				{
+					"#Squad_Fireteam_Leader_Melee_Master"		"template_melee_master_security_coop"
+					"#Squad_Fireteam_Designated_Marksman"		"template_designated_marksman_security_coop"
+					"#Squad_Fireteam_Recon"				"template_recon_security_coop"
+					"#Squad_Fireteam_Rifleman"			"template_rifleman_security_coop"
+					"#Squad_Fireteam_Sniper"			"template_sniper_security_coop"
+					//"#Squad_Fireteam_Support"			"template_support_security_coop"
+					"#Squad_Fireteam_Medic"				"template_coop_medic"
+				}
+			}
+		}
+		
+		"insurgents"
+		{
+			"name"		"#Zombies"
+			"logo"					"gameui/fac_ins"
+			"squads"
+			{
+				"Zombies"
+				{
+					"#Zombie"								"template_zh_bot00"
+					"#Zombie"								"template_zh_bot01"
+					"#Zombie"								"template_zh_bot02"
+					"#Zombie"								"template_zh_bot03"
+					"#Zombie"								"template_zh_bot00"
+					"#Zombie"								"template_zh_bot01"
+					"#Zombie"								"template_zh_bot02"
+					"#Zombie"								"template_zh_bot03"
+				}
+
+				"Zombies"
+				{
+					"#Zombie"								"template_zh_bot00"
+					"#Zombie"								"template_zh_bot01"
+					"#Zombie"								"template_zh_bot02"
+					"#Zombie"								"template_zh_bot03"
+					"#Zombie"								"template_zh_bot00"
+					"#Zombie"								"template_zh_bot01"
+					"#Zombie"								"template_zh_bot02"
+					"#Zombie"								"template_zh_bot03"
+				}
+
+				"Zombies"
+				{
+					"#Zombie"								"template_zh_bot00"
+					"#Zombie"								"template_zh_bot01"
+					"#Zombie"								"template_zh_bot02"
+					"#Zombie"								"template_zh_bot03"
+					"#Zombie"								"template_zh_bot00"
+					"#Zombie"								"template_zh_bot01"
+					"#Zombie"								"template_zh_bot02"
+					"#Zombie"								"template_zh_bot03"
+				}
+
+				"Zombies"
+				{
+					"#Zombie"								"template_zh_bot00"
+					"#Zombie"								"template_zh_bot01"
+					"#Zombie"								"template_zh_bot02"
+					"#Zombie"								"template_zh_bot03"
+					"#Zombie"								"template_zh_bot00"
+					"#Zombie"								"template_zh_bot01"
+					"#Zombie"								"template_zh_bot02"
+					"#Zombie"								"template_zh_bot03"
+				}
+
+				"Zombies"
+				{
+					"#Zombie"								"template_zh_bot00"
+					"#Zombie"								"template_zh_bot01"
+					"#Zombie"								"template_zh_bot02"
+					"#Zombie"								"template_zh_bot03"
+					"#Zombie"								"template_zh_bot00"
+					"#Zombie"								"template_zh_bot01"
+					"#Zombie"								"template_zh_bot02"
+					"#Zombie"								"template_zh_bot03"
+				}
+			}
+		}
+	}
+	
+	"player_templates"
+	{
+		// #Bots
+		"template_zh_bot00"
+		{
+			"team"					"insurgents"
+			"print_name"				"#Zombie"
+			
+			"models"
+			{
+				"player"				"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_ins_l.mdl"
+
+				"bodygoups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+			}
+			"allowed_items"
+			{
+				"gear"				"ins_light_armor"
+				"gear"				"ins_heavy_armor"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_model10"	"99"
+					"weapon_waltherppk"	"99"
+					"weapon_sa1911"		"98"
+				}
+				"gear"
+				{
+					"ins_chest_rig"		"99"
+					"ins_chest_carrier"	"99"
+					"sec_nightvision"	"99"
+				}
+			}
+		}
+
+		"template_zh_bot01"
+		{
+			"team"					"insurgents"
+			"print_name"				"#Zombie"
+			
+			"models"
+			{
+				"player"				"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_ins_l.mdl"
+
+				"bodygoups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+			}
+			"allowed_items"
+			{
+				"gear"				"ins_light_armor"
+				"gear"				"ins_heavy_armor"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_model10"	"99"
+					"weapon_waltherppk"	"99"
+					"weapon_sa1911"		"98"
+				}
+				"gear"
+				{
+					"ins_chest_rig"		"99"
+					"ins_chest_carrier"	"99"
+					"sec_nightvision"	"99"
+				}
+			}
+		}
+		
+		"template_zh_bot02"
+		{
+			"team"					"insurgents"
+			"print_name"				"#Zombie"
+			
+			"models"
+			{
+				"player"				"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_ins_l.mdl"
+
+				"bodygoups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ins_helmet_head.mdl"
+					}
+				}
+			}
+
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+			}
+			"allowed_items"
+			{
+				"gear"				"ins_light_armor"
+				"gear"				"ins_heavy_armor"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_model10"	"99"
+					"weapon_waltherppk"	"99"
+					"weapon_sa1911"		"98"
+				}
+				"gear"
+				{
+					"ins_chest_rig"		"99"
+					"ins_chest_carrier"	"99"
+					"sec_nightvision"	"99"
+				}
+			}
+		}
+		
+		"template_zh_bot03"
+		{
+			"team"					"insurgents"
+			"print_name"				"#Zombie"
+			
+			"models"
+			{
+				"player"				"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_ins_l.mdl"
+
+				"bodygoups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ins_k6_3_helmet.mdl"
+					}
+				}
+			}
+
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+			}
+			"allowed_items"
+			{
+				"gear"				"ins_light_armor"
+				"gear"				"ins_heavy_armor"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_model10"	"99"
+					"weapon_waltherppk"	"99"
+					"weapon_sa1911"		"98"
+				}
+				"gear"
+				{
+					"ins_chest_rig"		"99"
+					"ins_chest_carrier"	"99"
+					"sec_nightvision"	"99"
+				}
+			}
+		}
+	}
+	
+	"weapons"
+	{
+		"weapon_healthkit"
+		{
+			"weapon_weight"				"20"
+			"weapon_slot"					"melee"
+			"weapon_weight"				"20"
+			"weapon_cost"				"1"
+			"class_restricted"			"1"
+			"ammo_clip"
+			{
+				"clip_max"					"3"
+				"clip_default"				"3"
+			}
+		}
+		
+		"weapon_kabar"
+		{
+			"import"				"weapon_base"
+			"weapon_class"				"melee"
+			"weapon_type"				"melee"
+			"print_name"				"#weapon_kabar"
+			"view_model"				"models/weapons/v_marinebayonet.mdl"
+			"world_model"				"models/weapons/w_marinebayonet.mdl"
+			"weapon_slot"				"melee"
+			"act_table"				"knife"
+			"weapon_weight"				"0"
+			"weapon_cost"				"0"
+			"class_restricted"			"0"
+			"barrel_length"				"-1"
+			
+			"ammo_clip"
+			{
+				"ammo_type"				"invalid"
+				"clip_max_rounds"			"-1"	// no clips
+				"clip_default"				"0"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_Knife.Single"
+				"melee_hit"				"Weapon_Knife.Melee_Hit"
+				"melee_hit_world"			"Weapon_Knife.Melee_HitWorld"
+			}
+			"melee"
+			{
+				"MeleeRange"				"75"
+				"MeleeDamage"				"60"
+				"MeleeDamageBehindBonus"		"200"
+				"MeleeDamageType"			"DMG_SLASH"
+				"MeleeWeaponIdleTime"			"2"
+				"SwingAttacks"
+				{
+					"slash1"
+					{
+						"Activity"				"ACT_VM_HITCENTER"
+						"PlayerAtivity"				"ACT_SHOOT_E2W_BAT"
+						"PlayerActivityIdle"			"ACT_SHOOT_E2W_IDLE_BAT"
+						"StartTime"				"0.1"
+						"EndTime"				"0.34"
+						"Duration"				"0.9"
+						"StartDirection"			"E"
+						"EndDirection"				"W"
+						"ForceDirection"			"15 -40 0"
+					}
+				}
+			}
+			"player_restrictions"
+			{
+				"allow_lean"				"1"
+				"allow_sprint"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"1"
+			}
+			"recoil"
+			{
+				"recoil_rest_rate"			"5"
+				"recoil_rest_delay"			"0.1"
+			}
+			"team_access"				"security, insurgent"
+		}
+		
+		"weapon_at4"
+		{
+			"weapon_weight"				"180"
+			"weapon_cost"				"2"
+			"barrel_length"				"40"
+			"class_restricted"			"0"
+			"weapon_requirements"		"firing_ironsights"
+			"player_restrictions"
+			{
+				"allow_jump_shoot"		"0"
+				"allow_reload_sprint"	"0"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"no_carry"
+				"clip_max_rounds"			"1"	// 1 rpg per mag
+				"clip_default"				"1"
+			}
+			"ironsights"
+			{
+				"in_time"				"0.35"
+				"out_time"				"0.2"
+			}
+			"team_access"				"security"
+		}
+
+		"weapon_m203_he"
+		{
+			"weapon_weight"				"64"
+			"class_restricted"			"1"
+			"ammo_clip"
+			{
+				"ammo_type"				"grenade_m203_he"
+				"clip_max_rounds"			"1"
+				"clip_default"				"2"
+			}
+			"ironsights"
+			{
+				"in_time"				"0.3"
+				"out_time"				"0.2"
+			}
+			"team_access"				"security"
+		}
+
+		"weapon_m203_smoke"
+		{
+			"weapon_weight"				"64"
+			"class_restricted"			"1"
+			"ammo_clip"
+			{
+				"ammo_type"				"grenade_m203_smoke"
+				"clip_max_rounds"			"1"
+				"clip_default"				"1"
+			}
+			"ironsights"
+			{
+				"in_time"				"0.3"
+				"out_time"				"0.2"
+			}
+			"team_access"				"security"
+		}
+
+		"weapon_gp25_he"
+		{
+			// Import m203 he
+			"weapon_weight"				"64"
+			"class_restricted"			"1"
+			"ironsights"
+			{
+				"in_time"				"0.3"
+				"out_time"				"0.2"
+			}
+			"team_access"				"security"
+		}
+
+		"weapon_gp25_smoke"
+		{
+			// Import m203 smoke
+			"weapon_weight"				"64"
+			"class_restricted"			"1"
+			"ironsights"
+			{
+				"in_time"				"0.3"
+				"out_time"				"0.2"
+			}
+			"team_access"				"security"
+		}
+
+		"weapon_c4_clicker"
+		{
+			"weapon_max_subslot"		"0"
+			"weapon_weight"				"48"
+			"weapon_cost"				"4"
+			"class_restricted"			"0"
+			"ammo_clip"
+			{
+				"ammo_type"				"grenade_c4"
+				"clip_max"				"1"
+				"clip_max_rounds"			"-1"
+				"clip_default"				"1"
+			}
+			"team_access"				"security"
+		}
+		
+		"weapon_c4_ied"
+		{
+			"weapon_max_subslot"		"0"
+			"weapon_weight"				"64"
+			"weapon_cost"				"4"
+			"class_restricted"			"0"
+			"ammo_clip"
+			{
+				"ammo_type"				"grenade_c4"
+				"clip_max"				"1"
+				"clip_max_rounds"			"-1"
+				"clip_default"				"1"
+			}
+			"team_access"				"security"
+		}
+		
+		"weapon_m67"
+		{
+			"weapon_min_subslot"		"1"
+			"weapon_weight"				"19"
+			"weapon_cost"				"1"
+			"class_restricted"			"0"
+			"team_access"				"security"
+		}
+		"weapon_f1"
+		{
+			"weapon_min_subslot"		"1"
+			"weapon_weight"				"27"
+			"weapon_cost"				"1"
+			"class_restricted"			"0"
+			"team_access"				"security"
+		}
+		
+		"weapon_anm14"
+		{
+			"weapon_min_subslot"		"1"
+			"weapon_max_subslot"		"1"
+			"weapon_weight"				"32"
+			"weapon_cost"				"3"
+			"class_restricted"			"0"
+			"team_access"				"security"
+		}
+		
+		"weapon_molotov"
+		{
+			"weapon_min_subslot"		"1"
+			"weapon_max_subslot"		"1"
+			"weapon_weight"				"20"
+			"weapon_cost"				"2"
+			"class_restricted"			"0"
+			"team_access"				"security"
+		}
+
+		"weapon_m18"
+		{
+			"weapon_min_subslot"		"1"
+			"weapon_max_subslot"		"2"
+			"weapon_weight"				"12"
+			"weapon_cost"				"1"
+			"class_restricted"			"0"
+			"team_access"				"security"
+		}
+		
+		"weapon_law"    
+		{
+			"weapon_weight"				"170"
+			"weapon_cost"				"2"
+			"barrel_length"				"36"
+			"class_restricted"			"0"
+			"weapon_requirements"		"firing_ironsights"
+			"player_restrictions"
+			{
+				"allow_jump_shoot"		"0"
+				"allow_reload_sprint"	"0"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"no_carry"
+				"clip_max_rounds"			"1"	// 1 rpg per mag
+				"clip_default"				"1"
+			}
+			"ironsights"
+			{
+				"in_time"				"0.35"
+				"out_time"				"0.2"
+			}
+			"team_access"				"security"
+		}
+	}
+	
+	"player_gear"
+	{
+		"sec_light_armor"
+		{
+			"gear_cost"					"1"
+			"gear_weight"				"48"
+
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"0.20"
+				"HITGROUP_CHEST"			"0.30"
+				"HITGROUP_STOMACH"			"0.30"
+				"HITGROUP_LEFTARM"			"0.60"
+				"HITGROUP_RIGHTARM"			"0.60"
+				"HITGROUP_LEFTLEG"			"0.60"
+				"HITGROUP_RIGHTLEG"			"0.60"
+			}
+		
+		}
+
+		"ins_light_armor"
+		{
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"1.00"
+				"HITGROUP_CHEST"			"0.40"
+				"HITGROUP_STOMACH"			"0.40"
+				"HITGROUP_LEFTARM"			"1.00"
+				"HITGROUP_RIGHTARM"			"1.00"
+				"HITGROUP_LEFTLEG"			"1.00"
+				"HITGROUP_RIGHTLEG"			"1.00"
+			}
+		}
+		
+		"sec_heavy_armor"
+		{
+			"gear_cost"					"2"
+			"gear_weight"				"98"
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"0.20"
+				"HITGROUP_CHEST"			"0.10"
+				"HITGROUP_STOMACH"			"0.10"
+				"HITGROUP_LEFTARM"			"0.40"
+				"HITGROUP_RIGHTARM"			"0.40"
+				"HITGROUP_LEFTLEG"			"0.40"
+				"HITGROUP_RIGHTLEG"			"0.40"
+			}
+			
+		}
+		
+		"sec_chest_rig"
+		{
+			"gear_weight"				"32"
+			"extra_ammo"
+			{
+				"primary"				"2"
+				"secondary"				"2"
+				"explosive"				"0"
+			}
+			"weapon_slots"
+			{
+				"explosive"				"2"
+			}
+			
+			"class_restricted"			"1"
+		}
+		
+		"sec_chest_carrier"
+		{
+			"gear_weight"				"76"
+			"extra_ammo"
+			{
+				"primary"				"4"
+				"secondary"				"4"
+				"explosive"
+				{
+					"0"					"1"
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"				"2"
+			}
+			
+			"class_restricted"			"1"
+		}
+		
+		"sec_tactical_carrier"
+		{
+			"gear_weight"				"120"
+			"extra_ammo"
+			{
+				"primary"				"6"
+				"secondary"				"6"
+				"explosive"
+				{
+					"0"					"2"
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"				"3"
+			}
+			
+			"class_restricted"			"1"
+		}
+		
+		"gear_uav"
+		{
+			"print_name"				"#gear_uav"
+			"print_desc"				"#gear_uav_desc"
+			"gear_cost"				"1"
+			"gear_weight"				"20"
+			"gear_slot"					"head"
+			 
+			"weapon_slots"
+			{
+				"melee"		"2"
+			}
+			
+			"class_restricted"			"1"
+			"team_access"				"security"
+		}
+		
+		"gear_healthkit"
+		{
+			"print_name"				"#gear_healthkit"
+			"print_desc"				"#gear_healthkit_desc"
+			"gear_cost"				"1"
+			"gear_weight"				"20"
+			"gear_slot"					"backpack"
+			
+			"weapon_slots"
+			{
+				"melee"		"2"
+			}
+			
+			"class_restricted"		"1"
+			"team_access"				"security"
+		}
+
+		"primary_sling"
+		{
+			"gear_cost"				"1"
+			"gear_weight"				"12"
+			"gear_slot"				"accessory"
+			
+			"weapon_slots"
+			{
+				"primary"	"1"
+				"secondary"	"-1"
+			}
+			"class_restricted"		"1"
+		}
+		
+		"secondary_sling"
+		{
+			"gear_cost"				"1"
+			"gear_weight"				"12"
+			"gear_slot"				"accessory"
+			
+			"weapon_slots"
+			{
+				"primary"	"-1"
+				"secondary"	"1"
+			}
+			"class_restricted"		"1"
+		}
+		
+		"gear_portable_radar"
+		{
+			"print_name"				"#gear_portable_radar"
+			"print_desc"				"#gear_portable_radar_desc"
+			"gear_cost"				"1"
+			"gear_weight"				"50"
+			"gear_slot"					"head"
+
+			"weapon_slots"
+			{
+				"melee"		"2"
+			}
+
+			"class_restricted"			"1"
+			"team_access"				"security"
+		}
+		
+		"gear_ied_jammer"
+		{
+			"print_name"				"#gear_ied_jammer"
+			"print_desc"				"#gear_ied_jammer_desc"
+			"gear_cost"				"1"
+			"gear_weight"				"50"
+			"gear_slot"					"head"
+
+			"weapon_slots"
+			{
+				"melee"		"2"
+			}
+
+			"class_restricted"			"1"
+			"team_access"				"security"
+		}
+		
+		"gear_barricade"
+		{
+			"print_name"				"#gear_barricade"
+			"print_desc"				"#gear_barricade_desc"
+			"gear_cost"				"1"
+			"gear_weight"				"100"
+			"gear_slot"					"head"
+
+			"weapon_slots"
+			{
+				"melee"		"2"
+			}
+
+			"class_restricted"			"1"
+			"team_access"				"security"
+		}
+		
+		"gear_ammocrate"
+		{
+			"print_name"				"#gear_ammocrate"
+			"print_desc"				"#gear_ammocrate_desc"
+			"gear_cost"					"2"
+			"gear_weight"				"200"
+			"gear_slot"					"head"
+
+			"weapon_slots"
+			{
+				"melee"		"2"
+			}
+
+			"class_restricted"			"1"
+			"team_access"				"security"
+		}
+	}
+}

@@ -480,7 +480,7 @@
 			"print_desc"				"#weapon_upgrade_c_magazine_extended_desc"
 
 			"magsize_override"			"110"
-			"maxcarry_override"			"3"
+			"maxcarry_override"			"2"
 
 			"allowed_weapons"
 			{
@@ -591,12 +591,12 @@
 			"print_name"				"#weapon_upgrade_c_magazine_extended"
 			"print_desc"				"#weapon_upgrade_c_magazine_extended_desc"
 
-			"magsize_override"			"110"
-			"maxcarry_override"			"3"
+			"magsize_override"			"100"
+			"maxcarry_override"			"0"
 
 			"allowed_weapons"
 			{
-				"weapon"			"weapon_ae_glock18"
+				//"weapon"			"weapon_ae_glock18"
 			}
 
 			"viewmodel_attachments"
@@ -874,7 +874,7 @@
 			"print_desc"				"95发扩容弹匣"
 			
 			"magsize_override"			"95"
-			"maxcarry_override"			"3"
+			"maxcarry_override"			"2"
 
 			"allowed_weapons"
 			{
