@@ -3805,7 +3805,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"556_m27"
-				"clip_max"				"3"
+				"clip_max"				"1"
 				"clip_max_rounds"			"150"
 				"magsize_override"			"150"
 				"clip_default"				"1"
@@ -3898,7 +3898,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"762x38_drum"
-				"clip_max"				"2"
+				"clip_max"				"1"
 				"clip_max_rounds"			"150"
 				"clip_default"				"1"
 			}

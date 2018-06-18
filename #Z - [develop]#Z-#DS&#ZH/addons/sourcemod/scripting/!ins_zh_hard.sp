@@ -131,7 +131,7 @@ new Float:FCVAR_BOT_WEAPONCACHE_INTEL_MODE_CHANCE						=			10.10;
 
 // Player cvars
 new CVAR_PLAYER_HEALTH									=			100;
-new CVAR_PLAYER_GLOW_HEALTH								=			60;
+new CVAR_PLAYER_GLOW_HEALTH								=			55;
 new CVAR_PLAYER_HEALTHKIT_HEAL_MIN						=			20;
 new CVAR_PLAYER_HEALTHKIT_HEAL_MAX						=			25; //50
 /*new CVAR_PLAYER_HEALTHKIT_MEDIC_HEAL_MIN				=			50;
@@ -182,7 +182,7 @@ new CVAR_PLAYER_REINFORCEMENT_MAX								=			6; //6
 new Float:FCVAR_PLAYER_REINFORCEMENT_DEPLOY_TIME				=			60.0; //90
 //new Float:FCVAR_PLAYER_REINFORCEMENT_COUNTER_DEPLOY_TIME		=			50.0;
 new Float:FCVAR_PLAYER_REINFORCEMENT_COUNTER_DEPLOY_TIME		=			999.0;
-new Float:FCVAR_PLAYER_REINFORCEMENT_END_TIME					=			80.0; //80
+new Float:FCVAR_PLAYER_REINFORCEMENT_END_TIME					=			0.0; //80
 new CVAR_PLAYER_REINFORCEMENT_MAX_PER_POINT						=			1;
 new Float:FCVAR_PLAYER_BLEEDING_BULLET_CHANCE					=			8.88;
 //new Float:FCVAR_PLAYER_BLEEDING_EXPLOSIVE_CHANCE				=			44.44;
@@ -231,7 +231,7 @@ new CVAR_ZOMBIE_COMMON_HEALTH_MAX						=		500;
 new CVAR_ZOMBIE_COMMON_BOT_HEALTH_MIN					=		350; //300
 new CVAR_ZOMBIE_COMMON_BOT_HEALTH_MAX					=		500; //500
 new Float:FCVAR_ZOMBIE_COMMON_SIZE_MIN					=		0.90;
-new Float:FCVAR_ZOMBIE_COMMON_SIZE_MAX					=		1.10;
+new Float:FCVAR_ZOMBIE_COMMON_SIZE_MAX					=		1.00;
 new CVAR_ZOMBIE_COMMON_COLOR_RED						=		255;
 new CVAR_ZOMBIE_COMMON_COLOR_GREEN						=		255;
 new CVAR_ZOMBIE_COMMON_COLOR_BLUE						=		255;
@@ -336,8 +336,8 @@ new CVAR_ZOMBIE_BURNER_BOT_HEALTH_MIN					=		1000; //300
 new CVAR_ZOMBIE_BURNER_BOT_HEALTH_MAX					=		1500; //450
 // new Float:FCVAR_ZOMBIE_BURNER_PENALTY_TIME				=		40.0;
 // new Float:FCVAR_ZOMBIE_BURNER_BOT_PENALTY_TIME			=		30.0;
-new Float:FCVAR_ZOMBIE_BURNER_SIZE_MIN					=		0.95;
-new Float:FCVAR_ZOMBIE_BURNER_SIZE_MAX					=		1.05;
+new Float:FCVAR_ZOMBIE_BURNER_SIZE_MIN					=		0.9;
+new Float:FCVAR_ZOMBIE_BURNER_SIZE_MAX					=		1.0;
 new CVAR_ZOMBIE_BURNER_COLOR_RED						=		99;
 new CVAR_ZOMBIE_BURNER_COLOR_GREEN						=		99;
 new CVAR_ZOMBIE_BURNER_COLOR_BLUE						=		99;
@@ -362,8 +362,8 @@ new CVAR_ZOMBIE_SMOKER_BOT_HEALTH_MIN					=		1000; //250
 new CVAR_ZOMBIE_SMOKER_BOT_HEALTH_MAX					=		1500; //350
 // new Float:FCVAR_ZOMBIE_SMOKER_PENALTY_TIME				=		60.0;
 // new Float:FCVAR_ZOMBIE_SMOKER_BOT_PENALTY_TIME			=		50.0;
-new Float:FCVAR_ZOMBIE_SMOKER_SIZE_MIN					=		0.95;
-new Float:FCVAR_ZOMBIE_SMOKER_SIZE_MAX					=		1.05;
+new Float:FCVAR_ZOMBIE_SMOKER_SIZE_MIN					=		0.9;
+new Float:FCVAR_ZOMBIE_SMOKER_SIZE_MAX					=		1.0;
 new CVAR_ZOMBIE_SMOKER_COLOR_RED						=		188;
 new CVAR_ZOMBIE_SMOKER_COLOR_GREEN						=		188;
 new CVAR_ZOMBIE_SMOKER_COLOR_BLUE						=		188;
@@ -387,8 +387,8 @@ new CVAR_ZOMBIE_IED_BOT_HEALTH_MIN								=		1000; //200
 new CVAR_ZOMBIE_IED_BOT_HEALTH_MAX								=		1500; //320
 // new Float:FCVAR_ZOMBIE_IED_PENALTY_TIME							=		60.0;
 // new Float:FCVAR_ZOMBIE_IED_BOT_PENALTY_TIME						=		50.0;
-new Float:FCVAR_ZOMBIE_IED_SIZE_MIN								=		0.95;
-new Float:FCVAR_ZOMBIE_IED_SIZE_MAX								=		1.10;
+new Float:FCVAR_ZOMBIE_IED_SIZE_MIN								=		0.9;
+new Float:FCVAR_ZOMBIE_IED_SIZE_MAX								=		1.0;
 new CVAR_ZOMBIE_IED_COLOR_RED									=		122;
 new CVAR_ZOMBIE_IED_COLOR_GREEN									=		122;
 new CVAR_ZOMBIE_IED_COLOR_BLUE									=		122;
@@ -424,8 +424,8 @@ new CVAR_ZOMBIE_LEAPER_BOT_HEALTH_MIN					=		1000; //250
 new CVAR_ZOMBIE_LEAPER_BOT_HEALTH_MAX					=		1500; //350
 // new Float:FCVAR_ZOMBIE_LEAPER_PENALTY_TIME				=		40.0;
 // new Float:FCVAR_ZOMBIE_LEAPER_BOT_PENALTY_TIME			=		20.0;
-new Float:FCVAR_ZOMBIE_LEAPER_SIZE_MIN					=		0.92;
-new Float:FCVAR_ZOMBIE_LEAPER_SIZE_MAX					=		0.96;
+new Float:FCVAR_ZOMBIE_LEAPER_SIZE_MIN					=		0.9;
+new Float:FCVAR_ZOMBIE_LEAPER_SIZE_MAX					=		1.0;
 new CVAR_ZOMBIE_LEAPER_COLOR_RED						=		120;
 new CVAR_ZOMBIE_LEAPER_COLOR_GREEN						=		102;
 new CVAR_ZOMBIE_LEAPER_COLOR_BLUE						=		255;
@@ -1542,7 +1542,7 @@ public Action:Timer_HeliEvacPositionStore(Handle:timer)
 	GetEntPropVector(0, Prop_Data, "m_WorldMaxs", vWorldMaxs);
 	for (new client = 1;client <= MaxClients;client++)
 	{
-		if (IsClientInGame(client) && IsPlayerAlive(client))
+		if (IsClientInGame(client) && IsPlayerAlive(client) && GetClientTeam(client) == TEAM_SURVIVORS)
 		{
 			new Float:vOrigin[3];
 			GetClientHeadOrigin(client, vOrigin, 15.0);
@@ -11291,6 +11291,78 @@ public Action:Timer_CounterAttackSetupRespawn(Handle:timer)
 
 		// Teleport respawn players to player who nearest from object or weapon cache, for the capture point there should be a Prop info
 //		new iCapPlayers[MAXPLAYERS_INS+1] = {-1, ...}, iCapPlayerCount = 0;
+		new iDeadPlayers[MAXPLAYERS_INS+1] = {-1, ...}, iDeadPlayerCount = 0;
+		for (new j = 0;j < MAXPLAYER; j++)
+		{
+			if (g_iPlayersList[j] == -1) continue;
+			new client = g_iPlayersList[j];
+			if (g_bHasSquad[client] && !IsPlayerAlive(client))
+				iDeadPlayers[iDeadPlayerCount++] = client;
+		}
+		if (iDeadPlayerCount > 0 /*&& iCapPlayerCount > 0*/)
+		{
+			new Float:vTargetPos[3], Float:fDistance, Float:fNearestDistance = 2000.0, Float:vNearest[3] = {-9000.0, 0.0, 0.0}, iNearestPlayer = -1;
+			for (new j = 0;j < MAXPLAYER; j++)
+			{
+				if (g_iPlayersList[j] == -1 || !IsPlayerAlive(g_iPlayersList[j]))
+					continue;
+				new i = g_iPlayersList[j];
+				GetClientAbsOrigin(i, vTargetPos);
+				fDistance = GetVectorDistance(vTargetPos, g_vCPPositions[g_iCurrentControlPoint]);
+				if (fDistance <= fNearestDistance)
+				{
+					vNearest[0] = vTargetPos[0];
+					vNearest[1] = vTargetPos[1];
+					vNearest[2] = vTargetPos[2];
+					fNearestDistance = fDistance;
+					iNearestPlayer = i;
+				}
+			}
+			if (iNearestPlayer != -1)
+			{
+				vNearest[2] += 2.0;
+			}
+			else
+			{
+				vNearest[0] = g_vCPPositions[g_iCurrentControlPoint][0];
+				vNearest[1] = g_vCPPositions[g_iCurrentControlPoint][1];
+				vNearest[2] = g_vCPPositions[g_iCurrentControlPoint][2];
+				if (g_iCPType[g_iCurrentControlPoint] == 0) vNearest[2] += 12.0;
+			}
+/*			new iRandomCapPlayer = iCapPlayers[GetRandomInt(0, iCapPlayerCount-1)];
+			decl Float:vPos[3];
+			GetClientAbsOrigin(iRandomCapPlayer, vPos);
+			vPos[2] += 6.0;	*/
+			for (new i = 0;i < iDeadPlayerCount;i++)
+			{
+				RespawnPlayer(iDeadPlayers[i], 0);
+				TeleportEntity(iDeadPlayers[i], vNearest, NULL_VECTOR, NULL_VECTOR);
+				if (iNearestPlayer > 0 && IsClientInGame(iNearestPlayer))
+				{
+					PrintToChat(iNearestPlayer, "\x08%s%N \x01已在你身边部署！", GetPlayerChatColor(iDeadPlayers[i]), iDeadPlayers[i]);
+				}
+			}
+			// Sounds
+			PrintCenterTextAll("我们的支援已经到达了！\n \n \n \n \n \n \n \n \n \n \n \n ");
+			if (g_iCPType[g_iCurrentControlPoint] != 0)
+			{
+				if (GetRandomInt(0, 2) != 0)
+				{
+					new String:sSoundFile[64];
+					switch(GetRandomInt(1, 6))
+					{
+						case 1: sSoundFile = "Lua_sounds/defend01.ogg";
+						case 2: sSoundFile = "hq/security/defendcache5.ogg";
+						case 3: sSoundFile = "hq/security/vendetta1.ogg";
+						case 4, 5, 6: Format(sSoundFile, sizeof(sSoundFile), "hq/security/wehave%d.ogg", GetRandomInt(1, 10));
+					}
+					EmitSoundToAll(sSoundFile, _, SNDCHAN_AUTO, _, _, 1.0);
+				}
+				else PlayGameSoundToAll("Player.Security_Outpost_NextLevel_OneThrough20");
+			}
+			g_fReinforcementBotDeployTime = 0.0;
+			g_fReinforcementPlayerDeployTime = 0.0;
+		}			
 		g_hCounterAttackRespawnTimer = INVALID_HANDLE;
 	}
 }

@@ -479,8 +479,8 @@
 			"print_name"				"#weapon_upgrade_c_magazine_extended"
 			"print_desc"				"#weapon_upgrade_c_magazine_extended_desc"
 
-			"magsize_override"			"110"
-			"maxcarry_override"			"2"
+			"magsize_override"			"150"
+			"maxcarry_override"			"1"
 
 			"allowed_weapons"
 			{

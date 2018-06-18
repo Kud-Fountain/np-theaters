@@ -29,7 +29,7 @@
 			"sounds"			"scripts/ins_sounds_voice_survival.txt"
 			// custom unfinish
 			"sounds"			"scripts/armoryExpandedv3_sounds.txt"
-			"sounds"			"scripts/death_squads_sounds_cues.txt"
+			"sounds"			"scripts/death_squads_sounds_cues_fix.txt"
 			"localize"			"resource/ui/death_squads_x_armory_schinese_v1.txt"
 			// lua
 			//"sounds"			"scripts/Lua_HOECP_Armory_sounds.txt"

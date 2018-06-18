@@ -13,11 +13,11 @@
 				"#Survivors_Squad_Alpha"	// small arms
 				{
 					"#Squad_Fireteam_Leader_Anti_Armor_Master"	"template_anti_armor_master_security_coop"
-					//"#Squad_Fireteam_Breacher"			"template_breacher_security_coop"
+					"#Squad_Fireteam_Breacher"			"template_breacher_security_coop"
 					"#Squad_Fireteam_Demolitions"			"template_demolitions_security_coop"
 					"#Squad_Fireteam_Grenadier"			"template_grenadier_security_coop"
 					"#Squad_Fireteam_Specialist"			"template_specialist_security_coop"
-					"#Squad_Fireteam_Support"			"template_support_security_coop"
+					//"#Squad_Fireteam_Support"			"template_support_security_coop"
 					"#Squad_Fireteam_Medic"				"template_coop_medic"
 				}
 				// Investigation squad 
