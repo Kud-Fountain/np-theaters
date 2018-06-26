@@ -1,0 +1,1070 @@
+"theater"
+{
+	"player_gear"
+	{
+		"sec_protection_group"
+		{
+			"print_name"		"#gear_protection_group"
+			"print_desc"		"#gear_protection_group_desc"
+			"gear_slot"		"head"
+			"gear_cost"			"1"
+			"gear_weight"		"64"
+
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"		"1.5"
+				"HITGROUP_LEFTARM"	"0.65"
+				"HITGROUP_RIGHTARM"	"0.65"
+				"HITGROUP_LEFTLEG"	"0.80"
+				"HITGROUP_RIGHTLEG"	"0.80"
+			}
+			
+			"penetration_power_required"	"100"
+			"penetration_power_loss"		"50"
+			"explosive_damage_frac"			"1.00"
+
+			"team_access"	"security"
+		}
+		"ins_protection_group"
+		{
+			"print_name"		"#gear_protection_group"
+			"print_desc"		"#gear_protection_group_desc"
+			"gear_slot"		"head"
+			"gear_cost"			"1"
+			"gear_weight"		"64"
+
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"		"1.5"
+				"HITGROUP_LEFTARM"	"0.65"
+				"HITGROUP_RIGHTARM"	"0.65"
+				"HITGROUP_LEFTLEG"	"0.80"
+				"HITGROUP_RIGHTLEG"	"0.80"
+			}
+
+			"penetration_power_required"	"100"
+			"penetration_power_loss"		"50"
+			"explosive_damage_frac"			"1.00"
+
+			"team_access"	"insurgent"
+		}
+		"k63_helmet"
+		{
+			"print_name"				"#k63_helmet"
+			"print_desc"				"#k63_helmet_desc"
+			"gear_slot"				"head"
+			"gear_cost"				"2"
+			"gear_weight"				"40"	
+			
+			"entity"				"model"
+			"model"					"models/characters/k63_helmet.mdl"
+
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"		"1.5"
+			}
+
+			"penetration_power_required"	"300"
+			"penetration_power_loss"		"500"
+			"explosive_damage_frac"			"0.20"
+			
+			"team_access"				"insurgent"
+		}
+		"maska_helmet"
+		{
+			"print_name"				"#maska_helmet"
+			"print_desc"				"#maska_helmet_desc"
+			"gear_slot"				"head"
+			"gear_cost"				"3"
+			"gear_weight"				"50"	
+			
+			"entity"				"model"
+			"model"					"models/characters/maska_helmet.mdl"
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"		"1.5"
+			}
+
+			"penetration_power_required"	"350"
+			"penetration_power_loss"		"900"
+			"explosive_damage_frac"			"0.40"
+			
+			"team_access"				"insurgent"
+		}
+		"sunglasses"
+		{
+			"print_name"				"#sunglasses"
+			"gear_slot"				"accessory"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"entity"				"model"
+			"model"					"models/characters/nam/sunglasses.mdl"
+			
+			"team_access"				"security, insurgent"
+		}
+		"deltaforce_gloves_l"
+		{
+			"print_name"				"#deltaforce_gloves_l"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_deltaforce_l.mdl"
+			
+			"team_access"				"security"
+		}
+		"deltaforce_gloves_m"
+		{
+			"print_name"				"#deltaforce_gloves_m"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_deltaforce_m.mdl"
+			
+			"team_access"				"security"
+		}
+		"deltaforce_gloves_h"
+		{
+			"print_name"				"#deltaforce_gloves_h"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_deltaforce_h.mdl"
+			
+			"team_access"				"security"
+		}
+		"deltaforce_gloves_vip"
+		{
+			"print_name"				"#deltaforce_gloves_vip"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_deltaforce_vip.mdl"
+			
+			"team_access"				"security"
+		}
+		"tan_gloves_l"
+		{
+			"print_name"				"#tan_gloves_l"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_tan_l.mdl"
+			
+			"team_access"				"security, insurgent"
+		}
+		"tan_gloves_m"
+		{
+			"print_name"				"#tan_gloves_m"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_tan_m.mdl"
+			
+			"team_access"				"security, insurgent"
+		}
+		"tan_gloves_h"
+		{
+			"print_name"				"#tan_gloves_h"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_tan_h.mdl"
+			
+			"team_access"				"security, insurgent"
+		}
+		"erdl_gloves_l"
+		{
+			"print_name"				"#erdl_gloves_l"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_erdl_l.mdl"
+			
+			"team_access"				"security, insurgent"
+		}
+		"erdl_gloves_m"
+		{
+			"print_name"				"#erdl_gloves_m"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_erdl_m.mdl"
+			
+			"team_access"				"security, insurgent"
+		}
+		"erdl_gloves_h"
+		{
+			"print_name"				"#erdl_gloves_h"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_erdl_h.mdl"
+			
+			"team_access"				"security, insurgent"
+		}
+		"urban_gloves_l"
+		{
+			"print_name"				"#urban_gloves_l"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_urban_l.mdl"
+			
+			"team_access"				"security, insurgent"
+		}
+		"urban_gloves_m"
+		{
+			"print_name"				"#urban_gloves_m"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_urban_m.mdl"
+			
+			"team_access"				"security, insurgent"
+		}
+		"urban_gloves_h"
+		{
+			"print_name"				"#urban_gloves_h"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_urban_h.mdl"
+			
+			"team_access"				"security, insurgent"
+		}
+		"sec_gloves_0"
+		{
+			"print_name"				"#sec_gloves_0"
+			"print_desc"				"#sec_gloves_desc"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_sec_l.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_gloves_1"
+		{
+			"print_name"				"#sec_gloves_1"
+			"print_desc"				"#sec_gloves_desc"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_sec_m.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_gloves_2"
+		{
+			"print_name"				"#sec_gloves_2"
+			"print_desc"				"#sec_gloves_desc"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_sec_h.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_gloves_3"
+		{
+			"print_name"				"#sec_gloves_3"
+			"print_desc"				"#sec_gloves_desc"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_vip.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_gloves_custom_0"
+		{
+			"print_name"				"#sec_gloves_custom_0"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_de_l.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_gloves_custom_1"
+		{
+			"print_name"				"#sec_gloves_custom_1"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_de_m.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_gloves_custom_2"
+		{
+			"print_name"				"#sec_gloves_custom_2"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_de_h.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_gloves_custom_3"
+		{
+			"print_name"				"#sec_gloves_custom_3"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_de_vip.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_gloves_custom_4"
+		{
+			"print_name"				"#sec_gloves_custom_4"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_anti_h.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_gloves_custom_5"
+		{
+			"print_name"				"#sec_gloves_custom_5"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_sniper.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_character_0"
+		{
+			"print_name"				"#sec_character_0"
+			"print_desc"				"#sec_character_desc"
+			"gear_slot"				"backpack"
+			"gear_cost"				"0"
+			"gear_weight"				"1"	
+			
+			"player_model_override"		"models/characters/security_light.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_character_1"
+		{
+			"print_name"				"#sec_character_1"
+			"print_desc"				"#sec_character_desc"
+			"gear_slot"				"backpack"
+			"gear_cost"				"0"
+			"gear_weight"				"1"	
+			
+			"player_model_override"		"models/characters/security_standard.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_character_2"
+		{
+			"print_name"				"#sec_character_2"
+			"print_desc"				"#sec_character_desc"
+			"gear_slot"				"backpack"
+			"gear_cost"				"0"
+			"gear_weight"				"1"	
+			
+			"player_model_override"		"models/characters/security_heavy.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_character_3"
+		{
+			"print_name"				"#sec_character_3"
+			"print_desc"				"#sec_character_desc"
+			"gear_slot"				"backpack"
+			"gear_cost"				"0"
+			"gear_weight"				"1"	
+			
+			"player_model_override"		"models/characters/civilian_vip_security.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_character_custom_0"
+		{
+			"print_name"				"#sec_character_custom_0"
+			"gear_slot"				"backpack"
+			"gear_cost"				"0"
+			"gear_weight"				"1"	
+			
+			"player_model_override"		"models/characters/security_l_des.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_character_custom_1"
+		{
+			"print_name"				"#sec_character_custom_1"
+			"gear_slot"				"backpack"
+			"gear_cost"				"0"
+			"gear_weight"				"1"	
+			
+			"player_model_override"		"models/characters/security_std_desr.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_character_custom_2"
+		{
+			"print_name"				"#sec_character_custom_2"
+			"gear_slot"				"backpack"
+			"gear_cost"				"0"
+			"gear_weight"				"1"	
+			
+			"player_model_override"		"models/characters/security_h_des.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_character_custom_3"
+		{
+			"print_name"				"#sec_character_custom_3"
+			"gear_slot"				"backpack"
+			"gear_cost"				"0"
+			"gear_weight"				"1"	
+			
+			"player_model_override"		"models/characters/civilian_vip_sec_desr.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_character_custom_4"
+		{
+			"print_name"				"#sec_character_custom_4"
+			"gear_slot"				"backpack"
+			"gear_cost"				"0"
+			"gear_weight"				"1"	
+			
+			"player_model_override"		"models/characters/security_std_delr.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_character_custom_5"
+		{
+			"print_name"				"#sec_character_custom_5"
+			"gear_slot"				"backpack"
+			"gear_cost"				"0"
+			"gear_weight"				"1"	
+			
+			"player_model_override"		"models/characters/security_h_del.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_character_custom_6"
+		{
+			"print_name"				"#sec_character_custom_6"
+			"gear_slot"				"backpack"
+			"gear_cost"				"0"
+			"gear_weight"				"1"	
+			
+			"player_model_override"		"models/characters/civilian_vip_sec_blue.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_sniper_armor"
+		{
+			"print_name"				"#gear_sniper_armor"
+			"print_desc"				"#gear_sniper_armor_desc"
+			"gear_slot"				"armor"
+			"gear_cost"				"2"
+			"gear_weight"				"32"	// 25 (2.5kg) + 75 encumbrance
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_CHEST"		"0.50" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_STOMACH"		"0.50"
+			}
+			
+			"penetration_power_required" "250"
+			"penetration_power_loss"	"350"
+			"explosive_damage_frac"		"1.50"
+			
+			"player_model_override"		"models/characters/sniper_security.mdl"
+			
+			"team_access"				"security"
+		}
+		"sec_light_armor"
+		{
+			"print_name"				"#gear_light_armor"
+			"print_desc"				"#gear_light_armor_desc"
+			"gear_slot"				"armor"
+			"gear_cost"				"3"
+			"gear_weight"				"32"	// 25 (2.5kg) + 75 encumbrance
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_CHEST"		"0.75" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_STOMACH"		"0.65"
+			}
+			
+			"penetration_power_required" "200"
+			"penetration_power_loss"	"200"
+			"explosive_damage_frac"		"0.75"
+			
+			"team_access"				"security"
+		}
+		"ins_light_armor"
+		{
+			"print_name"				"#gear_light_armor"
+			"print_desc"				"#gear_light_armor_desc"
+			"gear_slot"				"armor"
+			"gear_cost"				"3"
+			"gear_weight"				"32"	// 25 (2.5kg) + 75 encumbrance
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_CHEST"		"0.75" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_STOMACH"		"0.65"
+			}
+			
+			"penetration_power_required" "200"
+			"penetration_power_loss"	"200"
+			"explosive_damage_frac"		"0.75"
+			
+			"viewmodel_hands_override"	"models/weapons/v_hands_ins_l.mdl"
+			
+			"team_access"				"insurgent"
+		}
+		
+		"sec_heavy_armor"
+		{
+			"print_name"				"#gear_heavy_armor"
+			"print_desc"				"#gear_heavy_armor_desc"
+			"gear_slot"				"armor"
+			"gear_cost"				"4"
+			"gear_weight"				"64"	// 75 (7.5kg) + 250 encumbrance
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_CHEST"		"0.70" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_STOMACH"		"0.60"
+			}
+			
+			"penetration_power_required" "300"
+			"penetration_power_loss"	"400"
+			"explosive_damage_frac"		"0.5"
+			
+			"team_access"				"security"
+		}
+		"ins_heavy_armor"
+		{
+			"print_name"				"#gear_heavy_armor"
+			"print_desc"				"#gear_heavy_armor_desc"
+			"gear_slot"				"armor"
+			"gear_cost"				"4"
+			"gear_weight"				"64"	// 75 (7.5kg) + 250 encumbrance
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_CHEST"		"0.70" // this is 1.0, but it has to be here to be considered armoured
+				"HITGROUP_STOMACH"		"0.60"
+			}
+			
+			"penetration_power_required" "300"
+			"penetration_power_loss"	"400"
+			"explosive_damage_frac"		"0.5"
+			
+			"viewmodel_hands_override"	"models/weapons/v_hands_ins_h.mdl"
+			
+			"team_access"				"insurgent"
+		}
+		"sec_anti_explosion_clothing"
+		{
+			"print_name"		"#gear_anti_explosion_clothing"
+			"print_desc"		"#gear_anti_explosion_clothing_desc"
+			"gear_slot"			"armor"
+			"gear_cost"			"5"
+			"gear_weight"		"180"
+			"class_restricted"			"1"
+
+			"penetration_power_required" "250"
+			"penetration_power_loss"	"400"
+			"explosive_damage_frac"			"0.10"
+
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"		"0.85"
+				"HITGROUP_CHEST"	"0.85"
+				"HITGROUP_STOMACH"	"0.85"
+				"HITGROUP_LEFTARM"	"0.85"
+				"HITGROUP_RIGHTARM"	"0.85"
+				"HITGROUP_LEFTLEG"	"0.85"
+				"HITGROUP_RIGHTLEG"	"0.85"
+			}
+
+			"player_model_override"		"models/characters/anti_heavy_de.mdl"
+
+			"team_access"	"security"
+		}
+		"ins_anti_explosion_clothing"
+		{
+			"print_name"		"#gear_anti_explosion_clothing"
+			"print_desc"		"#gear_anti_explosion_clothing_desc"
+			"gear_slot"			"armor"
+			"gear_cost"			"5"
+			"gear_weight"		"180"
+			"class_restricted"			"1"
+
+			"penetration_power_required" "250"
+			"penetration_power_loss"	"400"
+			"explosive_damage_frac"			"0.10"
+
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"		"0.85"
+				"HITGROUP_CHEST"	"0.85"
+				"HITGROUP_STOMACH"	"0.85"
+				"HITGROUP_LEFTARM"	"0.85"
+				"HITGROUP_RIGHTARM"	"0.85"
+				"HITGROUP_LEFTLEG"	"0.85"
+				"HITGROUP_RIGHTLEG"	"0.85"
+			}
+			"player_model_override"		"models/characters/anti_heavy.mdl"
+			"viewmodel_hands_override"	"models/weapons/v_hands_de_vip.mdl"
+
+			"team_access"	"insurgent"
+		}
+		"sec_super_armor"
+		{
+			"print_name"		"#gear_super_armor"
+			"print_desc"		"#gear_super_armor_desc"
+			"gear_slot"			"armor"
+			"gear_cost"			"8"
+			"gear_weight"		"0"
+			"class_restricted"			"1"
+
+			"penetration_power_required" "300"
+			"penetration_power_loss"	"450"
+			"explosive_damage_frac"			"0.10"
+
+			"DamageHitgroups"
+			{
+				"HITGROUP_CHEST"	"0.50"
+				"HITGROUP_STOMACH"	"0.40"
+				"HITGROUP_LEFTARM"	"0.60"
+				"HITGROUP_RIGHTARM"	"0.60"
+				"HITGROUP_LEFTLEG"	"0.75"
+				"HITGROUP_RIGHTLEG"	"0.75"
+			}
+
+			"team_access"	"security"
+		}
+		"ins_super_armor"
+		{
+			"print_name"		"#gear_super_armor"
+			"print_desc"		"#gear_super_armor_desc"
+			"gear_slot"			"armor"
+			"gear_cost"			"8"
+			"gear_weight"		"0"
+			"class_restricted"			"1"
+
+			"penetration_power_required" "300"
+			"penetration_power_loss"	"450"
+			"explosive_damage_frac"			"0.75"
+
+			"DamageHitgroups"
+			{
+				"HITGROUP_CHEST"	"0.50"
+				"HITGROUP_STOMACH"	"0.40"
+				"HITGROUP_LEFTARM"	"0.60"
+				"HITGROUP_RIGHTARM"	"0.60"
+				"HITGROUP_LEFTLEG"	"0.75"
+				"HITGROUP_RIGHTLEG"	"0.75"
+			}
+			
+			"viewmodel_hands_override"	"models/weapons/v_hands_vip.mdl"
+
+			"team_access"	"insurgent"
+		}
+		"sec_chest_rig"
+		{
+			"print_name"				"#gear_chest_rig"
+			"print_desc"				"#gear_chest_rig_desc"
+			"gear_slot"				"vest"
+			"gear_cost"				"2"
+			"gear_weight"				"32"	// 22 (2.2kg) + 24 encumbrance
+			"extra_ammo"
+			{
+				"primary"	"1"
+				"secondary"	"0"
+				"explosive"
+				{
+					"0"	"1"//slot0+1,total2
+					"1"	"1"//slot1+1,total2
+					//total4
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"	"1"//slot0+slot1
+				"secondary"	"1"//slot0+slot1
+			}
+			"player_model_bodygroups"
+			{
+				"kit"		"1"
+				"backpack"	"2"
+			}
+			"team_access"				"security"
+		}
+		"ins_chest_rig"
+		{
+			"print_name"				"#gear_chest_rig"
+			"print_desc"				"#gear_chest_rig_desc"
+			"gear_slot"				"vest"
+			"gear_cost"				"2"
+			"gear_weight"				"32"	// 22 (2.2kg) + 24 encumbrance
+			"extra_ammo"
+			{
+				"primary"	"1"
+				"secondary"	"1"
+				"explosive"
+				{
+					"0"	"1"//slot0+1,total2
+					"1"	"1"//slot1+1,total2
+					//total4
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"	"1"//slot0+slot1
+				"secondary"	"1"//slot0+slot1
+			}
+			"player_model_bodygroups"
+			{
+				"kit"		"1"
+				"backpack"	"2"
+			}
+			"team_access"				"insurgent"
+		}
+		"sec_chest_carrier"
+		{
+			"print_name"				"#gear_chest_carrier"
+			"print_desc"				"#gear_chest_carrier_desc"
+			"gear_slot"				"vest"
+			"gear_cost"				"4"
+			"gear_weight"				"64"	// 50 (5.0kg) + 50 encumbrance
+			"extra_ammo"
+			{
+				"primary"	"2"
+				"secondary"	"1"
+				"explosive"
+				{
+					"0"	"1"//slot0+1,total2
+					"1"	"1"//slot1+1,total2
+					"2"	"1"//slot2+1,total2
+					//total6
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"	"2"//slot0+slot1+slot2
+				"secondary"	"1"//slot0+slot1
+			}
+			"player_model_bodygroups"
+			{
+				"kit"		"2"
+				"backpack"	"1"
+			}
+			"team_access"				"security"
+		}
+		"ins_chest_carrier"
+		{
+			"print_name"				"#gear_chest_carrier"
+			"print_desc"				"#gear_chest_carrier_desc"
+			"gear_slot"				"vest"
+			"gear_cost"				"4"
+			"gear_weight"				"64"	// 50 (5.0kg) + 50 encumbrance
+			"extra_ammo"
+			{
+				"primary"	"2"
+				"secondary"	"2"
+				"explosive"
+				{
+					"0"	"1"//slot0+1,total2
+					"1"	"1"//slot1+1,total2
+					"2"	"1"//slot2+1,total2
+					//total6
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"	"2"//slot0+slot1+slot2
+				"secondary"	"1"//slot0+slot1
+			}
+			"player_model_bodygroups"
+			{
+				"kit"		"2"
+				"backpack"	"1"
+			}
+			"team_access"				"insurgent"
+		}
+		"sec_heavy_carrier"
+		{
+			"print_name"		"#gear_heavy_carrier"
+			"print_desc"		"#gear_heavy_carrier_desc"
+			"gear_slot"		"vest"
+			"gear_cost"		"5"
+			"gear_weight"		"150"//50(5.0kg)+50encumbrance
+			"class_restricted"	"1"
+
+			"extra_ammo"
+			{
+				"primary"	"2"
+				"secondary"	"2"
+				"explosive"
+				{
+					"0"	"1"//slot0+1,total2
+					"1"	"1"//slot1+1,total2
+					"2"	"1"//slot2+1,total2
+					"3"	"1"//slot2+1,total2
+					//total8
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"	"3"//slot0+slot1+slot2+slot3
+				"secondary"	"1"//slot0+slot1
+			}
+			"player_model_bodygroups"
+			{
+				"kit"		"2"
+				"backpack"	"1"
+			}
+
+			"team_access"	"security"
+		}
+		"sec_nightvision"
+		{
+			"print_name"	"#gear_nvg"
+			"print_desc"	"#gear_nvg_desc"
+			"gear_slot"	"accessory"
+			"gear_cost"	"1"
+			"gear_weight"	"15"
+			"entity"	"nvg"
+			"model"		"models/characters/a_nightvision.mdl"
+
+			"settings"
+			{
+				"material"			"dev/sec_nightvision"
+				"sound_on"			"Weapon_NVG.NvgOn"
+				"sound_off"			"Weapon_NVG.NvgOff"
+				"chromatic_aberation"		"0"
+				"dust_power"			"1.2"
+				"fade_in_time"			"0.3"
+				"fade_in_hold"			"0.1"
+				"fade_in_tonemap"		"170"
+				"fade_out_time"			"0.5"
+				"fade_out_hold"			"0.1"
+			}
+
+			"team_access"	"security"
+		}
+		"ins_nightvision"
+		{
+			"print_name"	"#gear_nvg"
+			"print_desc"	"#gear_nvg_desc"
+			"gear_slot"	"accessory"
+			"gear_cost"	"1"
+			"gear_weight"	"15"
+			"entity"	"nvg"
+			"model"		"models/characters/a_nightvision.mdl"
+
+			"settings"
+			{
+				"material"			"dev/ins_nightvision"
+				"sound_on"			"Weapon_NVG.InsNvgOn"
+				"sound_off"			"Weapon_NVG.InsNvgOff"
+				"chromatic_aberation"		"0"
+				"dust_power"			"1.2"
+				"fade_in_time"			"0.3"
+				"fade_in_hold"			"0.1"
+				"fade_in_tonemap"		"170"
+				"fade_out_time"			"0.5"
+				"fade_out_hold"			"0.1"
+			}
+
+			"team_access"	"insurgent"
+		}
+		"sec_nightvision_red"
+		{
+			"print_name"	"#gear_nvg_red"
+			"print_desc"	"#gear_nvg_desc"
+			"gear_slot"	"accessory"
+			"gear_cost"	"1"
+			"gear_weight"	"15"
+			"entity"	"nvg"
+			"model"		"models/characters/a_nightvision.mdl"
+
+			"settings"
+			{
+				"material"			"dev/sec_nightvision_red"
+				"sound_on"			"Weapon_NVG.NvgOn"
+				"sound_off"			"Weapon_NVG.NvgOff"
+				"chromatic_aberation"		"0"
+				"dust_power"			"1.2"
+				"fade_in_time"			"0.3"
+				"fade_in_hold"			"0.1"
+				"fade_in_tonemap"		"170"
+				"fade_out_time"			"0.5"
+				"fade_out_hold"			"0.1"
+			}
+
+			"team_access"	"security"
+		}
+		"ins_nightvision_red"
+		{
+			"print_name"	"#gear_nvg_red"
+			"print_desc"	"#gear_nvg_desc"
+			"gear_slot"	"accessory"
+			"gear_cost"	"1"
+			"gear_weight"	"15"
+			"entity"	"nvg"
+			"model"		"models/characters/a_nightvision.mdl"
+
+			"settings"
+			{
+				"material"			"dev/ins_nightvision_red"
+				"sound_on"			"Weapon_NVG.InsNvgOn"
+				"sound_off"			"Weapon_NVG.InsNvgOff"
+				"chromatic_aberation"		"0"
+				"dust_power"			"1.2"
+				"fade_in_time"			"0.3"
+				"fade_in_hold"			"0.1"
+				"fade_in_tonemap"		"170"
+				"fade_out_time"			"0.5"
+				"fade_out_hold"			"0.1"
+			}
+
+			"team_access"	"insurgent"
+		}
+		"sec_nightvision_blue"
+		{
+			"print_name"	"#gear_nvg_blue"
+			"print_desc"	"#gear_nvg_desc"
+			"gear_slot"	"accessory"
+			"gear_cost"	"1"
+			"gear_weight"	"15"
+			"entity"	"nvg"
+			"model"		"models/characters/a_nightvision.mdl"
+
+			"settings"
+			{
+				"material"			"dev/sec_nightvision_blue"
+				"sound_on"			"Weapon_NVG.NvgOn"
+				"sound_off"			"Weapon_NVG.NvgOff"
+				"chromatic_aberation"		"0"
+				"dust_power"			"1.2"
+				"fade_in_time"			"0.3"
+				"fade_in_hold"			"0.1"
+				"fade_in_tonemap"		"170"
+				"fade_out_time"			"0.5"
+				"fade_out_hold"			"0.1"
+			}
+
+			"team_access"	"security"
+		}
+		"ins_nightvision_blue"
+		{
+			"print_name"	"#gear_nvg_blue"
+			"print_desc"	"#gear_nvg_desc"
+			"gear_slot"	"accessory"
+			"gear_cost"	"1"
+			"gear_weight"	"15"
+			"entity"	"nvg"
+			"model"		"models/characters/a_nightvision.mdl"
+
+			"settings"
+			{
+				"material"			"dev/ins_nightvision_blue"
+				"sound_on"			"Weapon_NVG.InsNvgOn"
+				"sound_off"			"Weapon_NVG.InsNvgOff"
+				"chromatic_aberation"		"0"
+				"dust_power"			"1.2"
+				"fade_in_time"			"0.3"
+				"fade_in_hold"			"0.1"
+				"fade_in_tonemap"		"170"
+				"fade_out_time"			"0.5"
+				"fade_out_hold"			"0.1"
+			}
+
+			"team_access"	"insurgent"
+		}
+		"sec_nightvision_grey"
+		{
+			"print_name"	"#gear_nvg_grey"
+			"print_desc"	"#gear_nvg_desc"
+			"gear_slot"	"accessory"
+			"gear_cost"	"1"
+			"gear_weight"	"15"
+			"entity"	"nvg"
+			"model"		"models/characters/a_nightvision.mdl"
+
+			"settings"
+			{
+				"material"			"dev/sec_nightvision_grey"
+				"sound_on"			"Weapon_NVG.NvgOn"
+				"sound_off"			"Weapon_NVG.NvgOff"
+				"chromatic_aberation"		"0"
+				"dust_power"			"1.2"
+				"fade_in_time"			"0.3"
+				"fade_in_hold"			"0.1"
+				"fade_in_tonemap"		"170"
+				"fade_out_time"			"0.5"
+				"fade_out_hold"			"0.1"
+			}
+
+			"team_access"	"security"
+		}
+		"ins_nightvision_grey"
+		{
+			"print_name"	"#gear_nvg_grey"
+			"print_desc"	"#gear_nvg_desc"
+			"gear_slot"	"accessory"
+			"gear_cost"	"1"
+			"gear_weight"	"15"
+			"entity"	"nvg"
+			"model"		"models/characters/a_nightvision.mdl"
+
+			"settings"
+			{
+				"material"			"dev/ins_nightvision_grey"
+				"sound_on"			"Weapon_NVG.InsNvgOn"
+				"sound_off"			"Weapon_NVG.InsNvgOff"
+				"chromatic_aberation"		"0"
+				"dust_power"			"1.2"
+				"fade_in_time"			"0.3"
+				"fade_in_hold"			"0.1"
+				"fade_in_tonemap"		"170"
+				"fade_out_time"			"0.5"
+				"fade_out_hold"			"0.1"
+			}
+
+			"team_access"	"insurgent"
+		}
+	}
+}
