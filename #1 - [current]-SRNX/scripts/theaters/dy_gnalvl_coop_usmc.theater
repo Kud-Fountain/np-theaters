@@ -143,7 +143,10 @@
 					"Bot"		"sapper_ins_3"
 					"Bot"		"standard_ins_3"
 					"Bot"		"standard_ins_4"			
-					"Bot"		"mg_fighter_ins_5"	
+					"Bot"		"mg_fighter_ins_5"
+					"Bot"		"scout_ins_1"
+					"Bot"		"scout_ins_2"
+					"Bot"		"mg_fighter_ins_5"
 					//"Bot"		"bomber_ins_3" 	
 					//"Bot"		"bomber_ins_4" 
 				}	

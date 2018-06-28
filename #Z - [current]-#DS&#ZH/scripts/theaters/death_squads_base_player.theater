@@ -36,7 +36,7 @@
 			"frac_side_move"			"0.50"
 			"frac_back_move"			"0.55"
 			"frac_side_step"			"0.5"
-			"frac_speed_water"			"0.72"
+			"frac_speed_water"			"0.85"
 			"speed_prone"				"44"
 			"speed_crouch_walk"			"36"
 			"speed_crouch_run"			"98"
