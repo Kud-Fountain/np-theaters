@@ -730,7 +730,7 @@
 			"weapon_max_subslot"			"1"	// can only be in the first explosive slot
 			"act_table"				"grenade"
 			"weapon_weight"				"32"
-			"weapon_cost"				"3"
+			"weapon_cost"				"4"
 			"class_restricted"			"1"
 			"explosives"
 			{
@@ -767,7 +767,7 @@
 			"weapon_max_subslot"			"1"	// can only be in the first explosive slot
 			"act_table"				"grenade"
 			"weapon_weight"				"32"
-			"weapon_cost"				"3"
+			"weapon_cost"				"4"
 			"class_restricted"			"1"
 			"explosives"
 			{
@@ -1044,7 +1044,7 @@
 			"world_model"				"models/weapons/w_marinebayonet.mdl"
 			"weapon_slot"				"melee"
 			"act_table"				"knife"
-			"weapon_weight"				"0"
+			"weapon_weight"				"1"
 			"weapon_cost"				"0"
 			"class_restricted"			"0"
 			"barrel_length"				"-1"

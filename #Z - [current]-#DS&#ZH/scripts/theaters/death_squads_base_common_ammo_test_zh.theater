@@ -1169,6 +1169,30 @@
 			"tracer_type"	"whiz_with_line"
 			"tracer_lowammo"	"4"
 		}
+		"858x70mm"
+		{
+			"import"	"default"
+			"SuppressionIncrement"	"90"
+			"flags_clear"	"AMMO_USE_MAGAZINES"
+			"carry"	"120"
+			"brass_model"	"models/weapons/shells/762x54.mdl"
+			"Damage"
+			{
+				"10"	"240"
+				"20000"	"200"
+			}
+			"PenetrationPower"
+			{
+				"10"	"2000"
+				"20000"	"1450"
+			}
+			"PenetrationDamage"
+			{
+				"0"	"1.0"
+				"750"	"0.5"
+				"1200"	"0.1"
+			}
+		}
 		"9x19"
 		{
 			"import"	"default"

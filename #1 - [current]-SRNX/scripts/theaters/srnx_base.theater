@@ -755,6 +755,7 @@
 				
 				"weapon"			"weapon_sa80"
 				"weapon"			"weapon_defib"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig2"
 				"gear"				"srnx_esapi"
@@ -804,7 +805,7 @@
 				"weapon"			"weapon_mk3"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_healthkit"
+				//"weapon"			"weapon_healthkit"
 				"weapon_upgrade"		"underbarrel_m203_smoke"
 				"weapon_upgrade"		"underbarrel_gp25_smoke"
 				//m320s
@@ -850,6 +851,7 @@
 				
 				"weapon"			"weapon_sa80"
 				"weapon"			"weapon_defib"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig2"
 				"gear"				"srnx_esapi"
@@ -899,7 +901,7 @@
 				"weapon"			"weapon_mk3"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_healthkit"
+				//"weapon"			"weapon_healthkit"
 				"weapon_upgrade"		"underbarrel_m203_smoke"
 				"weapon_upgrade"		"underbarrel_gp25_smoke"
 				//m320s
@@ -1278,7 +1280,7 @@
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_mk3"
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_healthkit"
+				//"weapon"			"weapon_healthkit"
 				"weapon_upgrade"	"underbarrel_m203_smoke"
 				"weapon_upgrade"		"underbarrel_gp25_smoke"
 				//m320s

@@ -617,8 +617,8 @@ new Handle:g_hDB;
 /////////////////////////////////////
 
 #define PLUGIN_VERSION "1.7.0"
-#define SERVER_VERSION "5.5.1"
-#define GAMEDESC "经典核心服"
+#define SERVER_VERSION "5.5.1b"
+#define GAMEDESC "经典核心服[SRNX]"
 #define PLUGIN_DESCRIPTION "Respawn dead players via admincommand or by queues"
 #define UPDATE_URL	"http://ins.jballou.com/sourcemod/update-respawn.txt"
 

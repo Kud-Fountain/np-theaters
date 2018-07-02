@@ -70,7 +70,8 @@
 					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_2"
 					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_2"
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
-					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
+					//"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
+					"#Squad_Gnalvl_Spotter"				"Gnalvl_spotter_usmc"
 				}
 				"Seal Team [Charlie]"
 				{
@@ -81,7 +82,6 @@
 					"#Squad_Gnalvl_Recon_Engineer"		"Gnalvl_recon_engineer_usmc"
 					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
 					//"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_2"
-					//"#Squad_Gnalvl_Spotter"				"Gnalvl_spotter_usmc"
 				}
 			}
 		}
@@ -138,13 +138,13 @@
 				"Team3"	// Recon team #3 - 8 Bots
 				{
 					//role name		
-					//"Bot"		"bomber_ins_2"	
+					"Bot"		"bomber_ins_2"	
 					"Bot"		"sapper_ins_2"				
 					"Bot"		"sapper_ins_3"
 					"Bot"		"standard_ins_3"
 					"Bot"		"standard_ins_4"			
 					"Bot"		"mg_fighter_ins_5"
-					"Bot"		"scout_ins_1"
+					//"Bot"		"scout_ins_1"
 					"Bot"		"scout_ins_2"
 					"Bot"		"mg_fighter_ins_5"
 					//"Bot"		"bomber_ins_3" 	
