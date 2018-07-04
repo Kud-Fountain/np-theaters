@@ -9147,12 +9147,12 @@
 		{
 			"entity_class"				"rocket"
 			"Model"						"models/weapons/w_rpg7_projectile.mdl"
-			"DetonateDamage"			"230"
-			"DetonateDamageRadius"		"750" //25% reduction
-			"DetonatePenetrationRadius" "150"  //25% reduction
-			"RocketTopSpeed"			"3500" // you cannot go faster than 3500
-			"RocketStartSpeed"			"200"
-			"RocketAcceleration"		"400"
+			"DetonateDamage"			"245" //230
+			"DetonateDamageRadius"		"600" //25% reduction //750
+			"DetonatePenetrationRadius" "120"  //25% reduction //150
+			"RocketTopSpeed"			"3150" // you cannot go faster than 3500 //3500
+			"RocketStartSpeed"			"220" //200
+			"RocketAcceleration"		"360" //400
 			"RocketWobble"				"1.4" //default 1
 			"RocketWobbleFrequency"		"0.25"
 			"Particles"
@@ -9228,7 +9228,7 @@
 			"entity_class"				"remote"
 			"Model"						"models/weapons/w_ied.mdl"
 
-			"DetonateDamage"				"280" // 26% reduction from default //20% decrease for all //280
+			"DetonateDamage"				"308" // 26% reduction from default //280
 			"DetonateDamageRadius"			"1170" // 25% reduction from def //900
 			"DetonatePenetrationRadius" 	"200" // 17% reduction from default //200
 			"FuseTime"						"0.5"

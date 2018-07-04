@@ -22,6 +22,7 @@
 			"sounds"			"scripts/ins_sounds_voice_coop.txt"
 			//Custom sounds 
 			"sounds"			"scripts/dy_lua_sounds_v1_2.txt"
+			"sounds"			"scripts/counter_attack_custom_cues.txt"
 		}
 	}
 	"teams"
@@ -138,13 +139,13 @@
 				"Team3"	// Recon team #3 - 8 Bots
 				{
 					//role name		
-					"Bot"		"bomber_ins_2"	
+					//"Bot"		"bomber_ins_2"	
 					"Bot"		"sapper_ins_2"				
 					"Bot"		"sapper_ins_3"
 					"Bot"		"standard_ins_3"
 					"Bot"		"standard_ins_4"			
 					"Bot"		"mg_fighter_ins_5"
-					//"Bot"		"scout_ins_1"
+					"Bot"		"scout_ins_1"
 					"Bot"		"scout_ins_2"
 					"Bot"		"mg_fighter_ins_5"
 					//"Bot"		"bomber_ins_3" 	
