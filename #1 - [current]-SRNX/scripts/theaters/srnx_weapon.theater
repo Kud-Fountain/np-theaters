@@ -956,7 +956,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"grenade_m79"
-				"clip_max"				"12"
+				"clip_max"				"1"
 				"clip_max_rounds"			"1"	// 1 rpg per mag
 				"clip_default"				"0"
 			}
@@ -1133,7 +1133,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"grenade_m79_incen"
-				"clip_max"				"6"
+				"clip_max"				"1"
 				"clip_max_rounds"			"1"	// 1 rpg per mag
 				"clip_default"				"0"
 			}
@@ -1178,7 +1178,7 @@
 			{
 				"ammo_type"					"grenade_c4"
 				"clip_max_rounds"			"-1" // no clips
-				"clip_default"				"2"
+				"clip_default"				"1"
 			}
 			"team_access"					"security, insurgent"
 		}
@@ -1213,7 +1213,7 @@
 			{
 				"ammo_type"					"grenade_c4"
 				"clip_max_rounds"			"-1" // no clips
-				"clip_default"				"2"
+				"clip_default"				"1"
 			}
 			"fov"
 			{
@@ -1239,7 +1239,7 @@
 			"act_table"				"grenade"
 			"weapon_weight"				"14"
 			"weapon_cost"				"3"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"explosives"
 			{
 				"entity"				"healthkit"
@@ -9123,7 +9123,7 @@
 			"entity_class"				"rocket"
 			"Model"						"models/weapons/w_at4_projectile.mdl"
 			"DetonateDamage"			"300"	//previously 250
-			"DetonateDamageRadius"		"1100" //10% increase over vanilla
+			"DetonateDamageRadius"		"1210" //10% increase over vanilla //1100
 			"DetonatePenetrationRadius" "300"  //66% increase //previously 200
 			"RocketTopSpeed"			"3500" // you cannot go faster than 3500
 			"RocketStartSpeed"			"600" // default 200
@@ -9148,11 +9148,11 @@
 			"entity_class"				"rocket"
 			"Model"						"models/weapons/w_rpg7_projectile.mdl"
 			"DetonateDamage"			"245" //230
-			"DetonateDamageRadius"		"600" //25% reduction //750
-			"DetonatePenetrationRadius" "120"  //25% reduction //150
-			"RocketTopSpeed"			"3150" // you cannot go faster than 3500 //3500
-			"RocketStartSpeed"			"220" //200
-			"RocketAcceleration"		"360" //400
+			"DetonateDamageRadius"		"825" //25% reduction //750
+			"DetonatePenetrationRadius" "150"  //25% reduction //150
+			"RocketTopSpeed"			"3500" // you cannot go faster than 3500 //3500
+			"RocketStartSpeed"			"200" //200
+			"RocketAcceleration"		"400" //400
 			"RocketWobble"				"1.4" //default 1
 			"RocketWobbleFrequency"		"0.25"
 			"Particles"
@@ -9174,7 +9174,7 @@
 			"entity_class"				"rocket"
 			"Model"						"models/weapons/w_law_projectile.mdl"
 			"DetonateDamage" "210"
-			"DetonateDamageRadius" "650" 
+			"DetonateDamageRadius" "748"	//650
 			"DetonatePenetrationRadius" "100"
 			"RocketTopSpeed" "3000" // you cannot go faster than 3500
 			"RocketStartSpeed" "150" // default 200
@@ -9228,9 +9228,9 @@
 			"entity_class"				"remote"
 			"Model"						"models/weapons/w_ied.mdl"
 
-			"DetonateDamage"				"308" // 26% reduction from default //280
+			"DetonateDamage"				"322" // 26% reduction from default //280
 			"DetonateDamageRadius"			"1170" // 25% reduction from def //900
-			"DetonatePenetrationRadius" 	"200" // 17% reduction from default //200
+			"DetonatePenetrationRadius" 	"230" // 17% reduction from default //200
 			"FuseTime"						"0.5"
 
 			"Health"						"50"

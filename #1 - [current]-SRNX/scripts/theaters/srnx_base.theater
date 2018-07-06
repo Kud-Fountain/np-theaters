@@ -1776,6 +1776,13 @@
 				"gear"				"srnx_chest_carrier2"
 				"gear"				"srnx_chest_carrier3"
 			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_anm14"		"-1"
+				}
+			}
 		}
 		// juggernaut bot 1
 		"juggernaut_1"

@@ -70,8 +70,8 @@
 					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_2"
 					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_2"
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
-					//"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
-					"#Squad_Gnalvl_Spotter"				"Gnalvl_spotter_usmc"
+					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
+					//"#Squad_Gnalvl_Spotter"				"Gnalvl_spotter_usmc"
 				}
 				"Seal Team [Charlie]"
 				{

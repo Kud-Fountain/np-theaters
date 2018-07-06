@@ -65,7 +65,7 @@
 		// ========================================
 		"grenade_m79"
 		{
-			"carry"					"10"
+			"carry"					"0"
 		}
 		"grenade_m79_smoke"
 		{
@@ -73,7 +73,7 @@
 		}
 		"grenade_m79_incen"
 		{
-			"carry"					"4"
+			"carry"					"0"
 		}
 		"grenade_m67"
 		{
@@ -97,7 +97,7 @@
 		}
 		"grenade_c4"
 		{
-			"carry"					"2"
+			"carry"					"1"
 		}
 		"healthkit"
 		{
@@ -121,11 +121,11 @@
 		}
 		"grenade_m203_incendiary"
 		{
-			"carry"					"2"
+			"carry"					"1"
 		}
 		"grenade_gp25_incendiary"
 		{
-			"carry"					"2"
+			"carry"					"1"
 		}
 		"grenade_m203_mk3"
 		{
@@ -137,15 +137,15 @@
 		}
 		"grenade_anm14"
 		{
-			"carry"					"2"
+			"carry"					"1"
 		}
 		"grenade_molotov"
 		{
-			"carry"					"3"
+			"carry"					"1"
 		}
 		"grenade_flares"
 		{
-			"carry"					"2"
+			"carry"					"1"
 		}
 		
 		// ========================================
