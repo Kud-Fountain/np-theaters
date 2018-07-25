@@ -642,7 +642,7 @@
 		{
 			"print_name"				"#weapon_quick_draw_sling"
 			"print_desc"				"#weapon_quick_draw_sling_desc"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"upgrade_slot"				"stock"
 			"draw_speed"				"1.15"
 			"holster_speed"				"1.15"
@@ -740,7 +740,7 @@
 		{
 			"print_name"				"#weapon_quick_reload_skill"
 			"print_desc"				"#weapon_quick_reload_skill_desc"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"upgrade_slot"				"aesthetic"
 			"reload_speed"				"1.15"
 			

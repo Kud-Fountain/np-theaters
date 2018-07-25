@@ -147,7 +147,6 @@
 				// ========================================
 				"weapon"			"weapon_machete"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
 				// ========================================
 				// CUSTOM GRENADES-------------CUSTOM
 				// ========================================
@@ -190,7 +189,6 @@
 				// CUSTOM SHOTGUNS-------------CUSTOM
 				// ========================================
 				//"weapon"			"weapon_ae_m1014"
-				"weapon"			"weapon_ae_m1912"
 				"weapon"			"weapon_ae_ksg"
 				"weapon"			"weapon_ae_spas12"
 				//"weapon"			"weapon_ae_saiga12"
@@ -280,7 +278,6 @@
 			{
 				"weapon"			"weapon_kabar"
 				//"weapon"			"weapon_ae_m1014"
-				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_m590"
 				"gear"				"sec_anti_ammo_clothing"
 				"gear"					"gear_healthkit"
@@ -341,10 +338,8 @@
 				// ========================================
 				"weapon"			"weapon_katana"
 				"weapon"			"weapon_machete"
-				"weapon"			"weapon_Ninjato2"
 				"weapon"			"weapon_NieR"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
 				// ========================================
 				// CUSTOM GRENADES-------------CUSTOM
 				// ========================================
@@ -386,7 +381,6 @@
 				// CUSTOM SHOTGUNS-------------CUSTOM
 				// ========================================
 				//"weapon"			"weapon_ae_m1014"
-				"weapon"			"weapon_ae_m1912"
 				"weapon"			"weapon_ae_ksg"
 				"weapon"			"weapon_ae_spas12"
 				//"weapon"			"weapon_ae_saiga12"
@@ -426,8 +420,7 @@
 				{
 					"weapon_m590"						"-2"
 					"weapon_toz"						"-2"
-					//"weapon_ae_m1014"					"-2"
-					"weapon_ae_m1912"					"-2"
+					"weapon_ae_m1014"					"-2"
 					"weapon_ae_ksg"						"-1"
 					"weapon_ae_spas12"					"-1"
 					//"weapon_ae_saiga12"					"-1"
@@ -533,7 +526,6 @@
 				// ========================================
 				"weapon"			"weapon_machete"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
 				// ========================================
 				// CUSTOM GRENADES-------------CUSTOM
 				// ========================================
@@ -575,7 +567,6 @@
 				// CUSTOM SHOTGUNS-------------CUSTOM
 				// ========================================
 				//"weapon"			"weapon_ae_m1014"
-				"weapon"			"weapon_ae_m1912"
 				"weapon"			"weapon_ae_ksg"
 				"weapon"			"weapon_ae_spas12"
 				//"weapon"			"weapon_ae_saiga12"
@@ -721,7 +712,6 @@
 				// ========================================
 				"weapon"			"weapon_machete"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
 				// ========================================
 				// CUSTOM GRENADES-------------CUSTOM
 				// ========================================
@@ -909,7 +899,6 @@
 				// ========================================
 				"weapon"			"weapon_machete"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
 				// ========================================
 				// CUSTOM GRENADES-------------CUSTOM
 				// ========================================
@@ -951,7 +940,6 @@
 				// CUSTOM SHOTGUNS-------------CUSTOM
 				// ========================================
 				//"weapon"			"weapon_ae_m1014"
-				"weapon"			"weapon_ae_m1912"
 				"weapon"			"weapon_ae_ksg"
 				"weapon"			"weapon_ae_spas12"
 				//"weapon"			"weapon_ae_saiga12"
@@ -1101,10 +1089,8 @@
 				// ========================================
 				"weapon"			"weapon_katana"
 				"weapon"			"weapon_machete"
-				"weapon"			"weapon_Ninjato2"
 				"weapon"			"weapon_NieR"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
 				// ========================================
 				// CUSTOM GRENADES-------------CUSTOM
 				// ========================================
@@ -1146,7 +1132,6 @@
 				// CUSTOM SHOTGUNS-------------CUSTOM
 				// ========================================
 				//"weapon"			"weapon_ae_m1014"
-				"weapon"			"weapon_ae_m1912"
 				"weapon"			"weapon_ae_ksg"
 				"weapon"			"weapon_ae_spas12"
 				//"weapon"			"weapon_ae_saiga12"
@@ -1185,10 +1170,8 @@
 				{
 					"weapon_katana"						"-2"
 					"weapon_machete"					"-2"
-					"weapon_Ninjato2"					"-2"
 					"weapon_NieR"						"-2"
 					"weapon_brassknuckles"					"-1"
-					"weapon_akm_bayonet"					"-1"
 					"weapon_model10"					"-1"
 					"weapon_m45"						"-1"
 					"weapon_m1911"						"-1"
@@ -1312,10 +1295,8 @@
 				// ========================================
 				"weapon"			"weapon_katana"
 				"weapon"			"weapon_machete"
-				"weapon"			"weapon_Ninjato2"
 				"weapon"			"weapon_NieR"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
 				// ========================================
 				// CUSTOM GRENADES-------------CUSTOM
 				// ========================================
@@ -1498,7 +1479,6 @@
 				// ========================================
 				"weapon"			"weapon_machete"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
 				// ========================================
 				// CUSTOM GRENADES-------------CUSTOM
 				// ========================================
@@ -1700,10 +1680,8 @@
 				// ========================================
 				"weapon"			"weapon_katana"
 				"weapon"			"weapon_machete"
-				"weapon"			"weapon_Ninjato2"
 				"weapon"			"weapon_NieR"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
 				// ========================================
 				// CUSTOM GRENADES-------------CUSTOM
 				// ========================================
@@ -1769,7 +1747,6 @@
 				// CUSTOM SHOTGUNS-------------CUSTOM
 				// ========================================
 				//"weapon"			"weapon_ae_m1014"
-				"weapon"			"weapon_ae_m1912"
 				"weapon"			"weapon_ae_ksg"
 				"weapon"			"weapon_ae_spas12"
 				//"weapon"			"weapon_ae_saiga12"
@@ -1889,7 +1866,6 @@
 				// ========================================
 				"weapon"			"weapon_machete"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
 				// ========================================
 				// CUSTOM GRENADES-------------CUSTOM
 				// ========================================
@@ -2079,7 +2055,6 @@
 				// ========================================
 				"weapon"			"weapon_machete"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
 				// ========================================
 				// CUSTOM HEALTHKIT-------------CUSTOM
 				// ========================================
@@ -2129,7 +2104,6 @@
 				// CUSTOM SHOTGUNS-------------CUSTOM
 				// ========================================
 				//"weapon"			"weapon_ae_m1014"
-				"weapon"			"weapon_ae_m1912"
 				"weapon"			"weapon_ae_ksg"
 				"weapon"			"weapon_ae_spas12"
 				//"weapon"			"weapon_ae_saiga12"
@@ -2269,7 +2243,6 @@
 				// ========================================
 				"weapon"			"weapon_machete"
 				"weapon"			"weapon_brassknuckles"
-				"weapon"			"weapon_akm_bayonet"
 				// ========================================
 				// CUSTOM HEALTHKIT-------------CUSTOM
 				// ========================================

@@ -162,7 +162,7 @@
 			"print_name"				"#maska_helmet"
 			"print_desc"				"#maska_helmet_desc"
 			"gear_slot"				"head"
-			"gear_cost"				"2"
+			"gear_cost"				"3"
 			"gear_weight"				"50"	
 			
 			"entity"				"model"
@@ -170,11 +170,11 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"		"1.5"
+				"HITGROUP_HEAD"		"1.0"
 			}
 
-			"penetration_power_required"	"350"
-			"penetration_power_loss"		"900"
+			"penetration_power_required"	"400"
+			"penetration_power_loss"		"600"
 			"explosive_damage_frac"			"0.40"
 			
 			"team_access"				"security, insurgent"

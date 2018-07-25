@@ -1328,7 +1328,7 @@
 				"ammo_type"				"38special"
 				"clip_max"				"72"
 				"clip_max_rounds"		"6"
-				"clip_default"			"30"
+				"clip_default"			"60"
 				"lose_rounds_reload"	"1"
 			}
 			"attachments"
@@ -4632,6 +4632,42 @@
 			"import"					"baseGrenade"
 			"entity_class"				"grenade_frag"
 			"Model"						"models/weapons/w_grenade_springfield.mdl"
+			
+			"DetonateDamage"			"175"
+			"DetonatePenetrationRadius"	"40"
+			"DetonateDamageRadius"		"750"
+			"FuseTime"					"0"
+			"ImpactDetonation"			"1"
+			"ArmDelay"					"0"
+			"RocketStartSpeed"			"2500"
+			
+			"Health"					"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
+
+			"ShakeAmplitude"			"200"
+			"ShakeFrequency"			"120"
+			"ShakeDuration"				"2"
+			"ShakeRadius"				"750"
+			
+			"Particles"
+			{
+				"TrailParticle"				"grenadetrail"
+				"DetonateParticle"			"ins_m203_explosion"
+				"DetonateWaterParticle"			"ins_m203_explosion"
+			}
+			"Sounds"
+			{
+				"DetonateSound"			"Weapon_mk2.Explode"
+				"DetonateWaterSound"	"Weapon_mk2.ExplodeWater"
+				"BounceSound"			"Weapon_mk2.Bounce"
+			}
+		}
+		"grenade_rifle_enfield"
+		{
+			"import"					"baseGrenade"
+			"entity_class"				"grenade_frag"
+			"Model"						"models/weapons/w_grenade_enfield.mdl"
 			
 			"DetonateDamage"			"175"
 			"DetonatePenetrationRadius"	"40"

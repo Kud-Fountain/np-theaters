@@ -178,19 +178,19 @@
 			"upgrade_slot"				"aesthetic"
 			"class_restricted"			"0"
 		}
-		"an94_full_iron"
-		{
-			"import"				"an94_full_base"
-			"print_name"				"#weapon_upgrade_an94_full_iron"
-			"print_desc"				"#weapon_upgrade_an94_full_iron_desc"
-			"attach_weapon"				"weapon_an94_full_iron"
-			"upgrade_cost"				"0"
+		// "an94_full_iron"
+		// {
+			// "import"				"an94_full_base"
+			// "print_name"				"#weapon_upgrade_an94_full_iron"
+			// "print_desc"				"#weapon_upgrade_an94_full_iron_desc"
+			// "attach_weapon"				"weapon_an94_full_iron"
+			// "upgrade_cost"				"0"
 			
-			"allowed_weapons"
-			{
-				"weapon"				"weapon_an94"
-			}
-		}
+			// "allowed_weapons"
+			// {
+				// "weapon"				"weapon_an94"
+			// }
+		// }
 		"an94_full_optic"
 		{
 			"import"				"an94_full_base"
@@ -986,6 +986,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m200"
+				"weapon"				"weapon_msr"
 			}
 
 			"viewmodel_attachments"
@@ -997,6 +998,7 @@
 					"weapons"
 					{
 						"weapon"		"weapon_m200"
+						"weapon"		"weapon_msr"
 					}
 				}
 			}
@@ -1070,6 +1072,7 @@
 				"weapon"			"weapon_m1a1"
 				"weapon"			"weapon_g43"
 				"weapon"			"weapon_sks"
+				"weapon"			"weapon_wa2000"
 							//SUB-MACHINEGUNS
 				"weapon"			"weapon_sterling"
 				"weapon"			"weapon_mac10"
@@ -1084,6 +1087,7 @@
 				"weapon"			"weapon_toz"
 							//SNIPERRIFLES
 				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_msr"
 				"weapon"			"weapon_m200"
 				"weapon"			"weapon_mosin"
 				//========================================
@@ -1108,6 +1112,7 @@
 				//========================================
 				"weapon"			"weapon_ae_l118a1"
 				"weapon"			"weapon_k98_sniper"
+				"weapon"			"weapon_enfield"
 				"weapon"			"weapon_springfield"
 				//========================================
 				//CUSTOMASSAULTRIFLES-------------CUSTOM
@@ -1190,6 +1195,7 @@
 				"weapon"			"weapon_m1a1"
 				"weapon"			"weapon_g43"
 				"weapon"			"weapon_sks"
+				"weapon"			"weapon_wa2000"
 							//SUB-MACHINEGUNS
 				"weapon"			"weapon_sterling"
 				"weapon"			"weapon_mac10"
@@ -1200,6 +1206,7 @@
 				"weapon"			"weapon_ump45"
 							//SNIPERRIFLES
 				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_msr"
 				"weapon"			"weapon_m200"
 				"weapon"			"weapon_mosin"
 				//========================================
@@ -1224,6 +1231,7 @@
 				//========================================
 				"weapon"			"weapon_ae_l118a1"
 				"weapon"			"weapon_k98_sniper"
+				"weapon"			"weapon_enfield"
 				"weapon"			"weapon_springfield"
 				//========================================
 				//CUSTOMASSAULTRIFLES-------------CUSTOM
@@ -1310,6 +1318,7 @@
 			{
 				//SNIPERRIFLES
 				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_msr"
 				"weapon"			"weapon_mosin"
 				//========================================
 				//CUSTOMSNIPERRIFLES-------------CUSTOM
@@ -1317,6 +1326,7 @@
 				"weapon"			"weapon_ae_l118a1"
 				"weapon"			"weapon_m200"
 				"weapon"			"weapon_k98_sniper"
+				"weapon"			"weapon_enfield"
 				"weapon"			"weapon_springfield"
 			}
 		}
@@ -1342,6 +1352,121 @@
 				"weapon"			"weapon_ae_spas12"			
 			}
 		}
+		"clothwrap_weapons"
+		{
+			"upgrade_cost"				"0"
+			"upgrade_slot"				"barrel"
+			"print_name"				"#clothwrap"
+			"print_desc"				"#clothwrap_desc"
+			"class_restricted"			"0"
+						
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_springfield"
+				"weapon"				"weapon_k98_sniper"
+				"weapon"				"weapon_enfield"
+				"weapon"				"weapon_ae_m1garand"
+				"weapon"				"weapon_g43"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"clothwrap_springfield"
+				{
+					"model"				"models/weapons/upgrades/a_clothwrap_springfield.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_springfield"
+					}
+				}
+				"clothwrap_k98"
+				{
+					"model"				"models/weapons/upgrades/a_clothwrap_kar98k.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_k98_sniper"
+					}
+				}
+				"clothwrap_enfield"
+				{
+					"model"				"models/weapons/upgrades/a_clothwrap_enfield.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_enfield"
+					}
+				}
+				"clothwrap_garand"
+				{
+					"model"				"models/weapons/upgrades/a_clothwrap_garand.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_ae_m1garand"
+					}
+				}
+				"clothwrap_g43"
+				{
+					"model"				"models/weapons/upgrades/a_clothwrap_g43.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_g43"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"clothwrap_springfield"
+				{
+					"model"				"models/weapons/upgrades/w_clothwrap_springfield.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_springfield"
+					}
+				}
+				"clothwrap_k98"
+				{
+					"model"				"models/weapons/upgrades/w_clothwrap_kar98k.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_k98_sniper"
+					}
+				}
+				"clothwrap_enfield"
+				{
+					"model"				"models/weapons/upgrades/w_clothwrap_enfield.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_enfield"
+					}
+				}
+				"clothwrap_garand"
+				{
+					"model"				"models/weapons/upgrades/w_clothwrap_garand.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_ae_m1garand"
+					}
+				}
+				"clothwrap_g43"
+				{
+					"model"				"models/weapons/upgrades/w_clothwrap_g43.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_g43"
+					}
+				}
+			}
+		}
 		"default_bayonet"
 		{
 			"upgrade_cost"				"0"
@@ -1357,6 +1482,7 @@
 				"weapon"			"weapon_ae_m1garand"
 				"weapon"			"weapon_k98_sniper"
 				"weapon"			"weapon_springfield"
+				"weapon"			"weapon_enfield"
 			}
 
 			"excluded_upgrades"
@@ -1366,6 +1492,15 @@
 			
 			"viewmodel_attachments"
 			{
+				"bayonet_enfield"
+				{
+					"model"				"models/weapons/upgrades/a_enfield_bayonet_spike.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_enfield"
+					}
+				}
 				"bayonet_m1garand"
 				{
 					"model"				"models/weapons/upgrades/a_bayonet.mdl"
@@ -1397,6 +1532,15 @@
 			}
 			"world_attachments"
 			{
+				"bayonet_enfield"
+				{
+					"model"				"models/weapons/upgrades/w_enfield_bayonet_spike.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_enfield"
+					}
+				}
 				"bayonet_m1garand"
 				{
 					"model"				"models/weapons/upgrades/w_bayonet.mdl"
@@ -1443,6 +1587,7 @@
 			{
 				"weapon"				"weapon_springfield"
 				"weapon"				"weapon_k98_sniper"
+				"weapon"				"weapon_enfield"
 			}
 
 			"viewmodel_attachments"
@@ -1450,6 +1595,15 @@
 				"magazine_clip"
 				{
 					"ActSuffix"			"_CLIP"
+				}
+				"clip_enfield"
+				{
+					"model"				"models/weapons/upgrades/a_enfield_stripper_clip.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_enfield"
+					}
 				}
 				"clip_springfield"
 				{
@@ -1630,6 +1784,7 @@
 				"weapon"				"weapon_mp40"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
+				"weapon"				"weapon_wa2000"
 				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_mac10"
 				"weapon"                		"weapon_ae_beretta93r"
@@ -1684,6 +1839,7 @@
 				"weapon"				"weapon_m590"
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_toz"
 				"weapon"				"weapon_mosin"
@@ -1704,6 +1860,7 @@
 						"weapon"			"weapon_m590"
 						"weapon"			"weapon_m1887"
 						"weapon"			"weapon_m40a1"
+						"weapon"			"weapon_msr"
 						"weapon"			"weapon_m200"
 						"weapon"			"weapon_ae_spas12"
 						"weapon"			"weapon_ae_ksg"
@@ -1832,8 +1989,10 @@
 				"weapon"			"weapon_m1a1"
 				"weapon"			"weapon_g43"
 				"weapon"			"weapon_sks"
+				"weapon"			"weapon_wa2000"
 				//SNIPERRIFLES
 				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_msr"
 				"weapon"			"weapon_m200"
 				"weapon"			"weapon_mosin"
 				//========================================
@@ -1858,6 +2017,7 @@
 				//========================================
 				"weapon"			"weapon_ae_l118a1"
 				"weapon"			"weapon_k98_sniper"
+				"weapon"			"weapon_enfield"
 				"weapon"			"weapon_springfield"
 				//========================================
 				//CUSTOMASSAULTRIFLES-------------CUSTOM
@@ -2309,6 +2469,7 @@
 				"weapon"               			"weapon_ae_m60"
 				"weapon"				"weapon_m249"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"               			"weapon_ae_l118a1"
 				"weapon"				"weapon_mk18"
@@ -2361,6 +2522,7 @@
 				"weapon"				"weapon_ae_pm9"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
+				"weapon"				"weapon_wa2000"
 				"weapon"                		"weapon_ae_dragunov"
 				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_mac10"
@@ -2541,6 +2703,12 @@
 					"fov_wpn_ironsight"			"39"
 					"fov_wpn_focus"				"47"
 				}
+				"weapon_msr"
+				{
+	
+					"fov_wpn_ironsight"			"39"
+					"fov_wpn_focus"				"47"
+				}
 				"weapon_m200"
 				{
 	
@@ -2799,6 +2967,12 @@
 					"fov_wpn_ironsight"			"66"
 					"fov_wpn_focus"				"71"
 				}
+				"weapon_wa2000"
+				{
+	
+					"fov_wpn_ironsight"			"66"
+					"fov_wpn_focus"				"71"
+				}
 				"weapon_ae_dragunov"
 				{
 					
@@ -2903,6 +3077,7 @@
 				"weapon"               			"weapon_ae_m60"
 				"weapon"				"weapon_m249"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"               			"weapon_ae_l118a1"
 				"weapon"				"weapon_mk18"
@@ -2956,6 +3131,7 @@
 				"weapon"				"weapon_ae_pm9"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
+				"weapon"				"weapon_wa2000"
 				"weapon"                		"weapon_ae_dragunov"
 				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_mac10"
@@ -3123,6 +3299,11 @@
 					"fov_wpn_ironsight"			"39"
 					"fov_wpn_focus"				"47"
 				}
+				"weapon_msr"
+				{
+					"fov_wpn_ironsight"			"39"
+					"fov_wpn_focus"				"47"
+				}
 				"weapon_m200"
 				{
 					"fov_wpn_ironsight"			"39"
@@ -3338,6 +3519,11 @@
 					"fov_wpn_ironsight"			"66"
 					"fov_wpn_focus"				"71"
 				}
+				"weapon_wa2000"
+				{
+					"fov_wpn_ironsight"			"66"
+					"fov_wpn_focus"				"71"
+				}
 				"weapon_ae_dragunov"
 				{
 					"fov_wpn_ironsight"			"66"
@@ -3429,6 +3615,7 @@
 				"weapon"               			"weapon_ae_m60"
 				"weapon"				"weapon_m249"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"               			"weapon_ae_l118a1"
 				"weapon"				"weapon_mk18"
@@ -3482,6 +3669,7 @@
 				"weapon"				"weapon_ae_pm9"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
+				"weapon"				"weapon_wa2000"
 				"weapon"                		"weapon_ae_dragunov"
 				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_mac10"
@@ -3649,6 +3837,11 @@
 					"fov_wpn_ironsight"			"39"
 					"fov_wpn_focus"				"47"
 				}
+				"weapon_msr"
+				{
+					"fov_wpn_ironsight"			"39"
+					"fov_wpn_focus"				"47"
+				}
 				"weapon_m200"
 				{
 					"fov_wpn_ironsight"			"39"
@@ -3864,6 +4057,11 @@
 					"fov_wpn_ironsight"			"66"
 					"fov_wpn_focus"				"71"
 				}
+				"weapon_wa2000"
+				{
+					"fov_wpn_ironsight"			"66"
+					"fov_wpn_focus"				"71"
+				}
 				"weapon_ae_dragunov"
 				{
 					"fov_wpn_ironsight"			"66"
@@ -3954,6 +4152,7 @@
 				"weapon"               			"weapon_ae_m60"
 				"weapon"				"weapon_m249"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"               			"weapon_ae_l118a1"
 				"weapon"				"weapon_mk18"
@@ -4007,6 +4206,7 @@
 				"weapon"				"weapon_ae_pm9"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
+				"weapon"				"weapon_wa2000"
 				"weapon"                		"weapon_ae_dragunov"
 				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_mac10"
@@ -4174,6 +4374,11 @@
 					"fov_wpn_ironsight"			"39"
 					"fov_wpn_focus"				"47"
 				}
+				"weapon_msr"
+				{
+					"fov_wpn_ironsight"			"39"
+					"fov_wpn_focus"				"47"
+				}
 				"weapon_m200"
 				{
 					"fov_wpn_ironsight"			"39"
@@ -4389,6 +4594,11 @@
 					"fov_wpn_ironsight"			"66"
 					"fov_wpn_focus"				"71"
 				}
+				"weapon_wa2000"
+				{
+					"fov_wpn_ironsight"			"66"
+					"fov_wpn_focus"				"71"
+				}
 				"weapon_ae_dragunov"
 				{
 					"fov_wpn_ironsight"			"66"
@@ -4482,6 +4692,7 @@
 				"weapon"				"weapon_ae_m240"
 				"weapon"				"weapon_ae_m60"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_mk18"
@@ -4530,6 +4741,7 @@
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
+				"weapon"				"weapon_wa2000"
 				"weapon"                		"weapon_ae_dragunov"
 				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_mac10"
@@ -4800,6 +5012,11 @@
 					"fov_wpn_ironsight"			"42"
 					"fov_wpn_focus"				"50"
 				}
+				"weapon_msr"
+				{
+					"fov_wpn_ironsight"			"42"
+					"fov_wpn_focus"				"50"
+				}
 				"weapon_m200"
 				{
 					"fov_wpn_ironsight"			"42"
@@ -4886,6 +5103,11 @@
 					"fov_wpn_focus"				"58"
 				}
 				"weapon_sks"
+				{
+					"fov_wpn_ironsight"			"58"
+					"fov_wpn_focus"				"62"
+				}
+				"weapon_wa2000"
 				{
 					"fov_wpn_ironsight"			"58"
 					"fov_wpn_focus"				"62"
@@ -4983,6 +5205,7 @@
 				"weapon"				"weapon_ae_m240"
 				"weapon"				"weapon_ae_m60"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_mk18"
@@ -5031,6 +5254,7 @@
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
+				"weapon"				"weapon_wa2000"
 				"weapon"                		"weapon_ae_dragunov"
 				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_mac10"
@@ -5301,6 +5525,11 @@
 					"fov_wpn_ironsight"			"42"
 					"fov_wpn_focus"				"50"
 				}
+				"weapon_msr"
+				{
+					"fov_wpn_ironsight"			"42"
+					"fov_wpn_focus"				"50"
+				}
 				"weapon_m200"
 				{
 					"fov_wpn_ironsight"			"42"
@@ -5387,6 +5616,11 @@
 					"fov_wpn_focus"				"58"
 				}
 				"weapon_sks"
+				{
+					"fov_wpn_ironsight"			"58"
+					"fov_wpn_focus"				"62"
+				}
+				"weapon_wa2000"
 				{
 					"fov_wpn_ironsight"			"58"
 					"fov_wpn_focus"				"62"
@@ -5484,6 +5718,7 @@
 				"weapon"				"weapon_ae_m240"
 				"weapon"				"weapon_ae_m60"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_mk18"
@@ -5532,6 +5767,7 @@
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
+				"weapon"				"weapon_wa2000"
 				"weapon"                		"weapon_ae_dragunov"
 				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_mac10"
@@ -5802,6 +6038,11 @@
 					"fov_wpn_ironsight"			"42"
 					"fov_wpn_focus"				"50"
 				}
+				"weapon_msr"
+				{
+					"fov_wpn_ironsight"			"42"
+					"fov_wpn_focus"				"50"
+				}
 				"weapon_m200"
 				{
 					"fov_wpn_ironsight"			"42"
@@ -5888,6 +6129,11 @@
 					"fov_wpn_focus"				"58"
 				}
 				"weapon_sks"
+				{
+					"fov_wpn_ironsight"			"58"
+					"fov_wpn_focus"				"62"
+				}
+				"weapon_wa2000"
 				{
 					"fov_wpn_ironsight"			"58"
 					"fov_wpn_focus"				"62"
@@ -5985,6 +6231,7 @@
 				"weapon"				"weapon_ae_m240"
 				"weapon"				"weapon_ae_m60"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_mk18"
@@ -6033,10 +6280,11 @@
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
-				"weapon"                		"weapon_ae_dragunov"
+				"weapon"				"weapon_wa2000"
+				"weapon"                "weapon_ae_dragunov"
 				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_mac10"
-				"weapon"                		"weapon_ae_beretta93r"
+				"weapon"                "weapon_ae_beretta93r"
 				"weapon"				"weapon_toz"
 			}
 			
@@ -6303,6 +6551,11 @@
 					"fov_wpn_ironsight"			"42"
 					"fov_wpn_focus"				"50"
 				}
+				"weapon_msr"
+				{
+					"fov_wpn_ironsight"			"42"
+					"fov_wpn_focus"				"50"
+				}
 				"weapon_m200"
 				{
 					"fov_wpn_ironsight"			"42"
@@ -6389,6 +6642,11 @@
 					"fov_wpn_focus"				"58"
 				}
 				"weapon_sks"
+				{
+					"fov_wpn_ironsight"			"58"
+					"fov_wpn_focus"				"62"
+				}
+				"weapon_wa2000"
 				{
 					"fov_wpn_ironsight"			"58"
 					"fov_wpn_focus"				"62"
@@ -6484,6 +6742,7 @@
 				"weapon"				"weapon_ae_m240"
 				"weapon"				"weapon_ae_m60"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_mk18"
@@ -6532,6 +6791,7 @@
 				"weapon"				"weapon_ae_pm9"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
+				"weapon"				"weapon_wa2000"
 				"weapon"                		"weapon_ae_dragunov"
 				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_mac10"
@@ -6727,6 +6987,11 @@
 					"fov_wpn_ironsight"			"39"
 					"fov_wpn_focus"				"44"
 				}
+				"weapon_msr"
+				{
+					"fov_wpn_ironsight"			"39"
+					"fov_wpn_focus"				"44"
+				}
 				"weapon_m200"
 				{
 					"fov_wpn_ironsight"			"39"
@@ -6857,6 +7122,11 @@
 					"fov_wpn_ironsight"			"58"
 					"fov_wpn_focus"				"60"
 				}
+				"weapon_wa2000"
+				{
+					"fov_wpn_ironsight"			"58"
+					"fov_wpn_focus"				"60"
+				}
 				"weapon_ae_dragunov"
 				{
 					"fov_wpn_ironsight"			"58"
@@ -6943,6 +7213,7 @@
 				"weapon"				"weapon_ae_m240"
 				"weapon"				"weapon_ae_m60"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_mk18"
@@ -6991,10 +7262,11 @@
 				"weapon"				"weapon_ae_pm9"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
-				"weapon"                		"weapon_ae_dragunov"
+				"weapon"				"weapon_wa2000"
+				"weapon"                "weapon_ae_dragunov"
 				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_mac10"
-				"weapon"                		"weapon_ae_beretta93r"
+				"weapon"                "weapon_ae_beretta93r"
 			}
 			
 			"viewmodel_attachments"
@@ -7186,6 +7458,11 @@
 					"fov_wpn_ironsight"			"39"
 					"fov_wpn_focus"				"44"
 				}
+				"weapon_msr"
+				{
+					"fov_wpn_ironsight"			"39"
+					"fov_wpn_focus"				"44"
+				}
 				"weapon_m200"
 				{
 					"fov_wpn_ironsight"			"39"
@@ -7316,6 +7593,11 @@
 					"fov_wpn_ironsight"			"58"
 					"fov_wpn_focus"				"60"
 				}
+				"weapon_wa2000"
+				{
+					"fov_wpn_ironsight"			"58"
+					"fov_wpn_focus"				"60"
+				}
 				"weapon_ae_dragunov"
 				{
 					"fov_wpn_ironsight"			"58"
@@ -7402,6 +7684,7 @@
 				"weapon"				"weapon_ae_m240"
 				"weapon"				"weapon_ae_m60"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_mk18"
@@ -7450,10 +7733,11 @@
 				"weapon"				"weapon_ae_pm9"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
-				"weapon"                		"weapon_ae_dragunov"
+				"weapon"				"weapon_wa2000"
+				"weapon"                "weapon_ae_dragunov"
 				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_mac10"
-				"weapon"                		"weapon_ae_beretta93r"
+				"weapon"                "weapon_ae_beretta93r"
 			}
 			
 			"viewmodel_attachments"
@@ -7645,6 +7929,11 @@
 					"fov_wpn_ironsight"			"39"
 					"fov_wpn_focus"				"44"
 				}
+				"weapon_msr"
+				{
+					"fov_wpn_ironsight"			"39"
+					"fov_wpn_focus"				"44"
+				}
 				"weapon_m200"
 				{
 					"fov_wpn_ironsight"			"39"
@@ -7775,6 +8064,11 @@
 					"fov_wpn_ironsight"			"58"
 					"fov_wpn_focus"				"60"
 				}
+				"weapon_wa2000"
+				{
+					"fov_wpn_ironsight"			"58"
+					"fov_wpn_focus"				"60"
+				}
 				"weapon_ae_dragunov"
 				{
 					"fov_wpn_ironsight"			"58"
@@ -7859,6 +8153,7 @@
 				"weapon"                		"weapon_ae_colt9mm"
 				"weapon"				"weapon_m249"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_mk18"
@@ -7913,10 +8208,11 @@
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
-				"weapon"                		"weapon_ae_dragunov"
+				"weapon"				"weapon_wa2000"
+				"weapon"                "weapon_ae_dragunov"
 				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_mac10"
-				"weapon"                		"weapon_ae_beretta93r"
+				"weapon"                "weapon_ae_beretta93r"
 				"weapon"				"weapon_toz"
 			}
 			
@@ -8168,6 +8464,11 @@
 					"fov_wpn_ironsight"			"52"
 					"fov_wpn_focus"				"58"
 				}
+				"weapon_msr"
+				{
+					"fov_wpn_ironsight"			"52"
+					"fov_wpn_focus"				"58"
+				}
 				"weapon_m200"
 				{
 					"fov_wpn_ironsight"			"52"
@@ -8303,6 +8604,11 @@
 					"fov_wpn_ironsight"			"76"
 					"fov_wpn_focus"				"83"
 				}
+				"weapon_wa2000"
+				{
+					"fov_wpn_ironsight"			"76"
+					"fov_wpn_focus"				"83"
+				}
 				"weapon_ae_dragunov"
 				{
 					"fov_wpn_ironsight"			"76"
@@ -8410,10 +8716,11 @@
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
-				"weapon"                		"weapon_ae_dragunov"
+				"weapon"				"weapon_wa2000"
+				"weapon"                "weapon_ae_dragunov"
 				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_mac10"
-				"weapon"                		"weapon_ae_beretta93r"
+				"weapon"                "weapon_ae_beretta93r"
 				"weapon"				"weapon_toz"
 				"weapon"				"weapon_ae_g36c"
 				"weapon"				"weapon_ae_ak47"
@@ -8432,10 +8739,11 @@
 				"weapon"				"weapon_m4a1"
 				"weapon"				"weapon_l85a2"
 				"weapon"				"weapon_ar15"
-				"weapon"                		"weapon_ae_coltcommando"
-				"weapon"                		"weapon_ae_colt9mm"
-				"weapon"                		"weapon_ae_cm901"
+				"weapon"                "weapon_ae_coltcommando"
+				"weapon"                "weapon_ae_colt9mm"
+				"weapon"                "weapon_ae_cm901"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_mk18"
@@ -8659,6 +8967,11 @@
 					"fov_wpn_ironsight"			"65"
 					"fov_wpn_focus"				"70"
 				}
+				"weapon_wa2000"
+				{
+					"fov_wpn_ironsight"			"65"
+					"fov_wpn_focus"				"70"
+				}
 				"weapon_ae_dragunov"
 				{
 					"fov_wpn_ironsight"			"65"
@@ -8819,6 +9132,11 @@
 					"fov_wpn_ironsight"			"48"
 					"fov_wpn_focus"				"56"
 				}
+				"weapon_msr"
+				{
+					"fov_wpn_ironsight"			"48"
+					"fov_wpn_focus"				"56"
+				}
 				"weapon_m200"
 				{
 					"fov_wpn_ironsight"			"48"
@@ -8910,10 +9228,11 @@
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
-				"weapon"                		"weapon_ae_dragunov"
+				"weapon"				"weapon_wa2000"
+				"weapon"                "weapon_ae_dragunov"
 				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_mac10"
-				"weapon"                		"weapon_ae_beretta93r"
+				"weapon"                "weapon_ae_beretta93r"
 				"weapon"				"weapon_toz"
 				"weapon"				"weapon_ae_g36c"
 				"weapon"				"weapon_ae_ak47"
@@ -8936,6 +9255,7 @@
 				"weapon"                		"weapon_ae_colt9mm"
 				"weapon"                		"weapon_ae_cm901"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_mk18"
@@ -9159,6 +9479,11 @@
 					"fov_wpn_ironsight"			"65"
 					"fov_wpn_focus"				"70"
 				}
+				"weapon_wa2000"
+				{
+					"fov_wpn_ironsight"			"65"
+					"fov_wpn_focus"				"70"
+				}
 				"weapon_ae_dragunov"
 				{
 					"fov_wpn_ironsight"			"65"
@@ -9319,6 +9644,11 @@
 					"fov_wpn_ironsight"			"48"
 					"fov_wpn_focus"				"56"
 				}
+				"weapon_msr"
+				{
+					"fov_wpn_ironsight"			"48"
+					"fov_wpn_focus"				"56"
+				}
 				"weapon_m200"
 				{
 					"fov_wpn_ironsight"			"48"
@@ -9409,6 +9739,7 @@
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
+				"weapon"				"weapon_wa2000"
 
 				// security weapons
 				"weapon"				"weapon_galil_sar"
@@ -9416,6 +9747,7 @@
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_m249"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_mk18"
@@ -9470,6 +9802,7 @@
 						"weapon"				"weapon_ae_pm9"
 						"weapon"				"weapon_ump45"
 						"weapon"				"weapon_sks"
+						"weapon"				"weapon_wa2000"
 						"weapon"				"weapon_sterling"
 						"weapon"				"weapon_mac10"
 						"weapon"                		"weapon_ae_beretta93r"
@@ -9527,6 +9860,7 @@
 						"weapon"				"weapon_ae_pm9"
 						"weapon"				"weapon_ump45"
 						"weapon"				"weapon_sks"
+						"weapon"				"weapon_wa2000"
 						"weapon"				"weapon_sterling"
 						"weapon"				"weapon_mac10"
 						"weapon"                		"weapon_ae_beretta93r"
@@ -9655,6 +9989,11 @@
 					"fov_wpn_ironsight"			"53"
 					"fov_wpn_focus"				"57"
 				}
+				"weapon_wa2000"
+				{
+					"fov_wpn_ironsight"			"53"
+					"fov_wpn_focus"				"57"
+				}
 				"weapon_sterling"
 				{
 					"fov_wpn_ironsight"			"45"
@@ -9741,6 +10080,11 @@
 					"fov_wpn_focus"				"48"
 				}
 				"weapon_m40a1"
+				{
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"45"
+				}
+				"weapon_msr"
 				{
 					"fov_wpn_ironsight"			"40"
 					"fov_wpn_focus"				"45"
@@ -9835,6 +10179,7 @@
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
+				"weapon"				"weapon_wa2000"
 
 				// security weapons
 				"weapon"				"weapon_galil_sar"
@@ -9842,6 +10187,7 @@
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_m249"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_mk18"
@@ -9896,6 +10242,7 @@
 						"weapon"				"weapon_ae_pm9"
 						"weapon"				"weapon_ump45"
 						"weapon"				"weapon_sks"
+						"weapon"				"weapon_wa2000"
 						"weapon"				"weapon_sterling"
 						"weapon"				"weapon_mac10"
 						"weapon"                		"weapon_ae_beretta93r"
@@ -9953,6 +10300,7 @@
 						"weapon"				"weapon_ae_pm9"
 						"weapon"				"weapon_ump45"
 						"weapon"				"weapon_sks"
+						"weapon"				"weapon_wa2000"
 						"weapon"				"weapon_sterling"
 						"weapon"				"weapon_mac10"
 						"weapon"                		"weapon_ae_beretta93r"
@@ -10081,6 +10429,11 @@
 					"fov_wpn_ironsight"			"53"
 					"fov_wpn_focus"				"57"
 				}
+				"weapon_wa2000"
+				{
+					"fov_wpn_ironsight"			"53"
+					"fov_wpn_focus"				"57"
+				}
 				"weapon_sterling"
 				{
 					"fov_wpn_ironsight"			"45"
@@ -10167,6 +10520,11 @@
 					"fov_wpn_focus"				"48"
 				}
 				"weapon_m40a1"
+				{
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"45"
+				}
+				"weapon_msr"
 				{
 					"fov_wpn_ironsight"			"40"
 					"fov_wpn_focus"				"45"
@@ -10261,6 +10619,7 @@
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_sks"
+				"weapon"				"weapon_wa2000"
 
 				// security weapons
 				"weapon"				"weapon_galil_sar"
@@ -10268,6 +10627,7 @@
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_m249"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_mk18"
@@ -10291,6 +10651,7 @@
 				"weapon"				"weapon_ae_g36c"
 				"weapon"				"weapon_ae_famas"
 				"weapon"				"weapon_ae_scar"
+				"weapon"				"weapon_ae_m107"
 			}
 			
 			"viewmodel_attachments"
@@ -10322,6 +10683,7 @@
 						"weapon"				"weapon_ae_pm9"
 						"weapon"				"weapon_ump45"
 						"weapon"				"weapon_sks"
+						"weapon"				"weapon_wa2000"
 						"weapon"				"weapon_sterling"
 						"weapon"				"weapon_mac10"
 						"weapon"                		"weapon_ae_beretta93r"
@@ -10379,6 +10741,7 @@
 						"weapon"				"weapon_ae_pm9"
 						"weapon"				"weapon_ump45"
 						"weapon"				"weapon_sks"
+						"weapon"				"weapon_wa2000"
 						"weapon"				"weapon_sterling"
 						"weapon"				"weapon_mac10"
 						"weapon"                		"weapon_ae_beretta93r"
@@ -10507,6 +10870,11 @@
 					"fov_wpn_ironsight"			"53"
 					"fov_wpn_focus"				"57"
 				}
+				"weapon_wa2000"
+				{
+					"fov_wpn_ironsight"			"53"
+					"fov_wpn_focus"				"57"
+				}
 				"weapon_sterling"
 				{
 					"fov_wpn_ironsight"			"45"
@@ -10593,6 +10961,11 @@
 					"fov_wpn_focus"				"48"
 				}
 				"weapon_m40a1"
+				{
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"45"
+				}
+				"weapon_msr"
 				{
 					"fov_wpn_ironsight"			"40"
 					"fov_wpn_focus"				"45"
@@ -10827,6 +11200,11 @@
 					"fov_wpn_ironsight"			"53"
 					"fov_wpn_focus"				"57"
 				}
+				"weapon_wa2000"
+				{
+					"fov_wpn_ironsight"			"53"
+					"fov_wpn_focus"				"57"
+				}
 				"weapon_ae_dragunov"
 				{
 					"fov_wpn_ironsight"			"53"
@@ -10913,6 +11291,11 @@
 					"fov_wpn_focus"				"48"
 				}
 				"weapon_m40a1"
+				{
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"45"
+				}
+				"weapon_msr"
 				{
 					"fov_wpn_ironsight"			"40"
 					"fov_wpn_focus"				"45"
@@ -11012,6 +11395,7 @@
 			{
 				"weapon"				"weapon_springfield"
 				"weapon"				"weapon_k98_sniper"
+				"weapon"				"weapon_enfield"
 				"weapon"				"weapon_ae_m1garand"
 				"weapon"				"weapon_g43"
 			}
@@ -11023,6 +11407,19 @@
 			
 			"viewmodel_attachments"
 			{
+				"4xscope_enfield"
+				{
+					"model"					"models/weapons/upgrades/a_optic_enfield.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_enfield"
+					}
+				}
 				"4xscope_g43"
 				{
 					"model"					"models/weapons/upgrades/a_optic_zf4.mdl"
@@ -11079,6 +11476,15 @@
 			
 			"world_attachments"
 			{
+				"Scope_enfield"
+				{
+					"model"					"models/weapons/upgrades/w_optic_enfield.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_enfield"
+					}
+				}
 				"Scope_G43"
 				{
 					"model"					"models/weapons/upgrades/w_scope_g43.mdl"
@@ -11122,6 +11528,12 @@
 				"fov_wpn_ironsight"			"37"
 				"fov_wpn_focus"				"43"
 				
+				"weapon_enfield"
+				{
+					"fov_wpn_scope"				"15"
+					"fov_wpn_ironsight"			"58"
+					"fov_wpn_focus"				"62"
+				}
 				"weapon_g43"
 				{
 					"fov_wpn_scope"				"15"
@@ -11180,6 +11592,16 @@
 						"sway_radius_prone_frac"		"0.50"
 					}
 				}
+				"weapon_enfield"
+				{
+					"sway"
+					{
+						"sway_amount_focus_frac"		"0.25"
+						"sway_speed_focus_frac"			"0.20"
+						"sway_radius_crouch_frac"		"0.75"
+						"sway_radius_prone_frac"		"0.50"
+					}
+				}
 			}
 			
 			"allowed_weapons"
@@ -11187,11 +11609,13 @@
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_fal"
 				"weapon"				"weapon_sks"
+				"weapon"				"weapon_wa2000"
 				"weapon"				"weapon_l1a1"
 				"weapon"				"weapon_g3a4"
-				"weapon"                		"weapon_ae_dragunov"
+				"weapon"                "weapon_ae_dragunov"
 				"weapon"				"weapon_k98_sniper"
 				"weapon"				"weapon_springfield"
+				"weapon"				"weapon_enfield"
 			}
 
 			"excluded_upgrades"
@@ -11212,6 +11636,19 @@
 					"weapons"
 					{
 						"weapon"				"weapon_mosin"
+					}
+				}
+				"7xscope_enfield"
+				{
+					"model"					"models/weapons/upgrades/a_optic_enfield_7x.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope_7x"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_enfield"
 					}
 				}
 				"7xscope_k98"
@@ -11256,6 +11693,19 @@
 						"weapon"                		"weapon_ae_dragunov"
 					}
 				}
+				"7xscope_wa2000"
+				{
+					"model"					"models/weapons/upgrades/a_optic_wa2000_m.mdl"
+					"AnimIronSights"			"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_wa2000"
+					}
+				}
 				"7xscope_springfield"
 				{
 					"model"					"models/weapons/upgrades/a_optic_springfield_7x.mdl"
@@ -11284,7 +11734,17 @@
 						"weapon"				"weapon_l1a1"
 						"weapon"				"weapon_g3a4"
 						"weapon"				"weapon_sks"
-						"weapon"            			"weapon_ae_dragunov"
+						"weapon"				"weapon_wa2000"
+						"weapon"            	"weapon_ae_dragunov"
+					}
+				}
+				"Scope_enfield"
+				{
+					"model"					"models/weapons/upgrades/w_optic_enfield.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_enfield"
 					}
 				}
 				"Scope_kar98"
@@ -11312,6 +11772,12 @@
 				"fov_wpn_ironsight"			"37"
 				"fov_wpn_focus"				"43"
 				
+				"weapon_enfield"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"59"
+					"fov_wpn_focus"				"62"
+				}
 				"weapon_mosin"
 				{
 					"fov_wpn_scope"				"10"
@@ -11337,6 +11803,12 @@
 					"fov_wpn_focus"				"59"
 				}
 				"weapon_sks"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"45"
+					"fov_wpn_focus"				"53"
+				}
+				"weapon_wa2000"
 				{
 					"fov_wpn_scope"				"10"
 					"fov_wpn_ironsight"			"45"
@@ -11374,6 +11846,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_m14"
@@ -11399,6 +11872,20 @@
 					{
 						"weapon"				"weapon_m40a1"
 						"weapon"				"weapon_ae_l118a1"
+					}
+				}
+				
+				"scope_msr"
+				{
+					"model"					"models/weapons/upgrades/a_optic_msr.mdl"
+					"AnimIronSights"			"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_msr"
 					}
 				}
 				
@@ -11461,6 +11948,13 @@
 					"fov_wpn_focus"				"50"
 				}
 				
+				"weapon_msr"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"46"
+					"fov_wpn_focus"				"50"
+				}
+				
 				"weapon_ae_l118a1"
 				{
 					"fov_wpn_scope"				"10"
@@ -11485,13 +11979,6 @@
 					"fov_wpn_ironsight"			"50"
 					"fov_wpn_focus"				"57"
 				}
-				"weapon_m40a1"
-				{
-					"fov_wpn_scope"				"10"
-					"fov_wpn_ironsight"			"46"
-					"fov_wpn_focus"				"50"
-				}
-				
 				"weapon_ae_l118a1"
 				{
 					"fov_wpn_scope"				"10"
@@ -11554,6 +12041,7 @@
 					"weapons"
 					{
 						"weapon"				"weapon_m40a1"
+						"weapon"				"weapon_msr"
 						"weapon"				"weapon_ae_l118a1"
 						"weapon"				"weapon_m14"
 						"weapon"				"weapon_rfb"
@@ -13034,7 +13522,9 @@
 			{
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_k98_sniper"
+				"weapon"				"weapon_enfield"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_springfield"
 			}
@@ -13048,7 +13538,9 @@
 			{
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_k98_sniper"
+				"weapon"				"weapon_enfield"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_springfield"
 			}
@@ -13062,7 +13554,9 @@
 			{
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_k98_sniper"
+				"weapon"				"weapon_enfield"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_springfield"
 			}
@@ -13076,11 +13570,24 @@
 			{
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_k98_sniper"
+				"weapon"				"weapon_enfield"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_springfield"
 			}
 			"ammo_type_override"			"762x53mm_fmj"
+		}
+		"ammo_fmj_lapua338"
+		{
+			"import"				"base_ammo_fmj"
+			"print_name"				"#weapon_upgrade_fmj_lapua338"
+			"upgrade_cost"				"4"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_msr"
+			}
+			"ammo_type_override"			"858x70mm"
 		}
 		
 		//========================================
@@ -13093,6 +13600,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m14"
+				"weapon"				"weapon_wa2000"
 				"weapon"				"weapon_ae_scar"
 				"weapon"				"weapon_ae_m240"
 				"weapon"				"weapon_ae_m60"
@@ -13110,6 +13618,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m14"
+				"weapon"				"weapon_wa2000"
 				"weapon"				"weapon_ae_scar"
 				"weapon"				"weapon_ae_m240"
 				"weapon"				"weapon_ae_m60"
@@ -13127,6 +13636,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m14"
+				"weapon"				"weapon_wa2000"
 				"weapon"				"weapon_ae_scar"
 				"weapon"				"weapon_ae_m240"
 				"weapon"				"weapon_ae_m60"
@@ -13144,6 +13654,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m14"
+				"weapon"				"weapon_wa2000"
 				"weapon"				"weapon_ae_scar"
 				"weapon"				"weapon_ae_m240"
 				"weapon"				"weapon_ae_m60"
@@ -13951,6 +14462,23 @@
 				"Foregrip"
 				{
 					"model"					"models/weapons/upgrades/w_foregrip_sec2.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_m14"
+						"weapon"				"weapon_m1a"
+						"weapon"				"weapon_mini14"
+						"weapon"				"weapon_hk416"
+						"weapon"                		"weapon_ae_type95"
+						"weapon"				"weapon_m590"
+						"weapon"				"weapon_ae_m1014"
+						"weapon"				"weapon_galil_sar"
+						"weapon"				"weapon_l1a1"
+						"weapon"				"weapon_g3a4"
+						"weapon" 				"weapon_ae_famas"
+						"weapon"				"weapon_ae_spas12"
+						"weapon"				"weapon_ae_ksg"
+					}
 				}
 			}
 		}
@@ -13984,6 +14512,7 @@
 				"weapon"				"weapon_ae_krissvector"
 				"weapon"				"weapon_ump45"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_l1a1"
@@ -13997,7 +14526,8 @@
 				//forcoop
 				"weapon"				"weapon_m1a1"
 				"weapon"				"weapon_sks"
-				"weapon"                		"weapon_ae_dragunov"
+				"weapon"				"weapon_wa2000"
+				"weapon"                "weapon_ae_dragunov"
 				"weapon"				"weapon_mp40"
 				"weapon"				"weapon_ae_pm9"
 				"weapon"				"weapon_fal"
@@ -14032,9 +14562,11 @@
 						"weapon_ae_krissvector"  		"0.75"
 						"weapon_ump45"				"0.75"
 						"weapon_m40a1"				"1.0"
+						"weapon_msr"				"1.0"
 						"weapon_m200"				"1.0"
 						"weapon_ae_l118a1"			"1.0"
 						"weapon_sks"				"0.85"
+						"weapon_wa2000"				"0.85"
 						"weapon_ae_dragunov"			"0.85"
 						"weapon_mp40"				"0.72"
 						"weapon_ae_pm9"				"0.72"
@@ -14118,7 +14650,8 @@
 			{
 				"weapon"				"weapon_m1a1"
 				"weapon"				"weapon_sks"
-				"weapon"                		"weapon_ae_dragunov"
+				"weapon"				"weapon_wa2000"
+				"weapon"                "weapon_ae_dragunov"
 				"weapon"				"weapon_mp40"
 				"weapon"				"weapon_ae_pm9"
 				"weapon"				"weapon_fal"
@@ -14148,6 +14681,7 @@
 					{
 						"weapon_m1a1"				".5"
 						"weapon_sks"				"0.85"
+						"weapon_wa2000"				"0.85"
 						"weapon_ae_dragunov"        		"0.85"
 						"weapon_mp40"				"0.72"
 						"weapon_ae_pm9"				"0.72"
@@ -14160,7 +14694,8 @@
 					{
 						"weapon"				"weapon_m1a1"
 						"weapon"				"weapon_sks"
-						"weapon"                		"weapon_ae_dragunov"
+						"weapon"				"weapon_wa2000"
+						"weapon"                "weapon_ae_dragunov"
 						"weapon"				"weapon_mp40"
 						"weapon"				"weapon_ae_pm9"
 						"weapon"				"weapon_fal"
@@ -14584,7 +15119,8 @@
 				"weapon"				"weapon_stg44"
 				"weapon"				"weapon_ae_aug"
 				"weapon"				"weapon_sks"
-				"weapon"                		"weapon_ae_dragunov"
+				"weapon"				"weapon_wa2000"
+				"weapon"                "weapon_ae_dragunov"
 				"weapon"				"weapon_mp40"
 				"weapon"				"weapon_ae_pm9"
 				"weapon"				"weapon_fal"
@@ -14645,6 +15181,7 @@
 				"weapon"				"weapon_m1887"
 				"weapon"				"weapon_ae_m1014"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_ae_spas12"
@@ -14761,6 +15298,7 @@
 				"weapon"				"weapon_m1a"
 				"weapon"				"weapon_ae_m107"
 				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_msr"
 				"weapon"				"weapon_m200"
 				"weapon"				"weapon_ae_l118a1"
 				"weapon"				"weapon_m16a4"
@@ -14771,7 +15309,8 @@
 				"weapon"				"weapon_g3a4"
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_sks"
-				"weapon"                		"weapon_ae_dragunov"
+				"weapon"				"weapon_wa2000"
+				"weapon"                "weapon_ae_dragunov"
 				"weapon"				"weapon_galil"
 				"weapon"				"weapon_aa12"
 				"weapon"				"weapon_galil_sar"
@@ -14838,6 +15377,16 @@
 						"weapon"				"weapon_ae_l118a1"
 					}
 				}
+				
+				"Bipod_MSR"
+				{
+					"model"					"models/weapons/upgrades/a_bipod_msr.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_msr"
+					}
+				}
 
 				"Bipod_M200"
 				{
@@ -14882,6 +15431,15 @@
 						"weapon"                		"weapon_ae_dragunov"
 					}
 				}
+				"Bipod_wa2000"
+				{
+					"model"					"models/weapons/upgrades/a_bipod_wa2000.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_wa2000"
+					}
+				}
 				
 				"Bipod_GALIL"
 				{
@@ -14904,6 +15462,7 @@
 					"weapons"
 					{
 						"weapon"				"weapon_m40a1"
+						"weapon"				"weapon_msr"
 						"weapon"				"weapon_ae_m107"
 						"weapon"				"weapon_ae_l118a1"
 						"weapon"				"weapon_ae_scar"
@@ -14936,7 +15495,8 @@
 						"weapon"				"weapon_g3a4"
 						"weapon"				"weapon_mosin"
 						"weapon"				"weapon_sks"
-						"weapon"                		"weapon_ae_dragunov"
+						"weapon"				"weapon_wa2000"
+						"weapon"                "weapon_ae_dragunov"
 						"weapon"				"weapon_rfb"
 					}
 				}
@@ -15071,7 +15631,24 @@
 				}
 			}
 		}
-
+		
+		"underbarrel_m203_smoke"
+		{
+			"import"				"underbarrel_m203_base"
+			"upgrade_cost"				"2"
+			"print_name"				"#weapon_m203_smoke"
+			"print_desc"				"#weapon_m203_smoke_desc"
+			"attach_weapon"				"weapon_m203_smoke"
+			"class_restricted"			"1"
+			
+			"viewmodel_attachments"
+			{
+				"Launcher"
+				{
+					"Skin"					"1"
+				}
+			}
+		}
 		"underbarrel_m320_base"
 		{
 			"IsBase"				"1"
@@ -15140,6 +15717,24 @@
 				"Launcher"
 				{
 					"skin"					"0"
+				}
+			}
+		}
+		
+		"underbarrel_m320_smoke"
+		{
+			"import"				"underbarrel_m320_base"
+			"upgrade_cost"				"2"
+			"print_name"				"#weapon_m320_smoke"
+			"print_desc"				"#weapon_m203_smoke_desc"
+			"attach_weapon"				"weapon_m203_smoke"
+			"class_restricted"			"1"
+			
+			"viewmodel_attachments"
+			{
+				"Launcher"
+				{
+					"Skin"					"1"
 				}
 			}
 		}
@@ -15270,6 +15865,18 @@
 						"weapon"		"weapon_k98_sniper"
 					}
 				}
+				"Launcher_enfield"
+				{
+					"model"					"models/weapons/upgrades/a_enfield_gl.mdl"
+					"Gesture"				"delta_gl"
+					"ActSuffix"				"_GL"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_enfield"
+					}
+				}
 			}
 		}
 		
@@ -15290,7 +15897,24 @@
 				}
 			}
 		}
-
+		
+		"underbarrel_gp25_smoke"
+		{
+			"import"				"underbarrel_gp25_base"
+			"upgrade_cost"				"2"
+			"print_name"				"#weapon_gp25_smoke"
+			"print_desc"				"#weapon_m203_smoke_desc"
+			"attach_weapon"				"weapon_gp25_smoke"
+			"class_restricted"			"1"
+			
+			"viewmodel_attachments"
+			{
+				"Launcher"
+				{
+					"skin"					"1"
+				}
+			}
+		}
 		"underbarrel_rifle_grenade_k98"
 		{
 			"import"					"underbarrel_launcher_base"
@@ -15325,6 +15949,28 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_springfield"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"Launcher"
+				{
+					"skin"					"0"
+				}
+			}
+		}
+		"underbarrel_rifle_grenade"
+		{
+			"import"					"underbarrel_launcher_base"
+			"upgrade_cost"				"2"
+			"print_name"				"#weapon_rifle_grenade"
+			"print_desc"				"#weapon_rifle_grenade_desc"
+			"attach_weapon"				"weapon_rifle_grenade"
+			"class_restricted"		"0"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_enfield"
 			}
 			
 			"viewmodel_attachments"
