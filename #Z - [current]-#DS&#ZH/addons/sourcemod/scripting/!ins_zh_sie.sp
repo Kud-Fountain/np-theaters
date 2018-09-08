@@ -5114,15 +5114,15 @@ stock UpdateBotsConfig(iPlayers = 0, bool:bNotice = true, bool:bOnlyNoticeWhenUp
 	new iBotCount = 0;
 	switch(iPlayers)
 	{
-		case 11, 12: iBotCount = 32;
-		case 9, 10: iBotCount = 32;	 //29
-		case 7, 8: iBotCount = 32;
-		case 5, 6: iBotCount = 32;
-		case 4: iBotCount = 32;
-		case 3: iBotCount = 32;
-		case 2: iBotCount = 32;
-		case 0, 1: iBotCount = 32;
-		default: iBotCount = 35;
+		case 11, 12: iBotCount = 37;
+		case 9, 10: iBotCount = 37;	 //29
+		case 7, 8: iBotCount = 37;
+		case 5, 6: iBotCount = 37;
+		case 4: iBotCount = 37;
+		case 3: iBotCount = 37;
+		case 2: iBotCount = 37;
+		case 0, 1: iBotCount = 37;
+		default: iBotCount = 37;
 	}
 //	iBotCount = 2;
 	new bool:bUpdate = false;

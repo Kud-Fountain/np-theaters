@@ -297,7 +297,7 @@ new Float:FCVAR_ZOMBIE_STALKER_DAMAGE_MAX 				=		16.0;
 new Float:FCVAR_ZOMBIE_STALKER_DAMAGE_BACKATTACK_MIN 	=		20.0;
 new Float:FCVAR_ZOMBIE_STALKER_DAMAGE_BACKATTACK_MAX 	=		24.0;
 
-new Float:FCVAR_ZOMBIE_KNIGHT_CHANCE					=		1.0; //11.1
+new Float:FCVAR_ZOMBIE_KNIGHT_CHANCE					=		2.0; //11.1
 new CVAR_ZOMBIE_KNIGHT_RESTRICT							=		0;
 new CVAR_ZOMBIE_KNIGHT_MAX_SPAWN						=		-2;
 new Float:FCVAR_ZOMBIE_KNIGHT_MAX_SPAWN_PER_SURVIVORS	=		0.6;
@@ -5114,15 +5114,15 @@ stock UpdateBotsConfig(iPlayers = 0, bool:bNotice = true, bool:bOnlyNoticeWhenUp
 	new iBotCount = 0;
 	switch(iPlayers)
 	{
-		case 11, 12: iBotCount = 32;
-		case 9, 10: iBotCount = 29;	
-		case 7, 8: iBotCount = 24;
-		case 5, 6: iBotCount = 21;
-		case 4: iBotCount = 16;
+		case 11, 12: iBotCount = 37;
+		case 9, 10: iBotCount = 32;	
+		case 7, 8: iBotCount = 29;
+		case 5, 6: iBotCount = 24;
+		case 4: iBotCount = 21;
 		case 3: iBotCount = 13;
 		case 2: iBotCount = 8;
 		case 0, 1: iBotCount = 4;
-		default: iBotCount = 35;
+		default: iBotCount = 37;
 	}
 //	iBotCount = 2;
 	new bool:bUpdate = false;
