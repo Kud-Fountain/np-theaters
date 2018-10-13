@@ -3,7 +3,6 @@
 
 #pragma semicolon 1
 #pragma unused cvarVersion
-#include <sourcemod> 
 #include <sdktools>
 #include <sdkhooks>
 #undef REQUIRE_PLUGIN
@@ -703,9 +702,15 @@ void IEDEffect(int ent, int client)
 	DispatchKeyValue(particle, "effect_name", "ins_car_explosion");
 	DispatchSpawn(particle);
 	SetVariantString(name);
+	
+	CreateTimer(1.0, Timer_IEDEffect, particle);
+	CreateTimer(8.0, DeleteParticle, particle);
+}
+
+public Action Timer_IEDEffect(Handle timer, int particle)
+{
 	ActivateEntity(particle);
 	AcceptEntityInput(particle, "start");
-	CreateTimer(30.0, DeleteParticle, particle);
 }
 
 public Action DeleteParticle(Handle timer, int particle)

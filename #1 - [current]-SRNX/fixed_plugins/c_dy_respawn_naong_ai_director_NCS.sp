@@ -406,7 +406,7 @@ new
 	g_iCvar_SpawnMode,
 	
 	//Dynamic Respawn cvars 
-	g_DynamicRespawn_Distance_mult,
+	Float:g_DynamicRespawn_Distance_mult,
 	g_dynamicSpawnCounter_Perc,
 	g_dynamicSpawn_Perc,
 
@@ -507,13 +507,13 @@ new
 	g_mp_player_resupply_coop_delay_base_org,
 	g_bot_attack_aimpenalty_amt_close_org,
 	g_bot_attack_aimpenalty_amt_far_org,
-	g_bot_attack_aimpenalty_time_close_org,
-	g_bot_attack_aimpenalty_time_far_org,
-	g_bot_aim_aimtracking_base_org,
-	g_bot_aim_aimtracking_frac_impossible_org,
-	g_bot_aim_angularvelocity_frac_impossible_org,
-	g_bot_aim_angularvelocity_frac_sprinting_target_org,
-	g_bot_aim_attack_aimtolerance_frac_impossible_org,
+	Float:g_bot_attack_aimpenalty_time_close_org,
+	Float:g_bot_attack_aimpenalty_time_far_org,
+	Float:g_bot_aim_aimtracking_base_org,
+	Float:g_bot_aim_aimtracking_frac_impossible_org,
+	Float:g_bot_aim_angularvelocity_frac_impossible_org,
+	Float:g_bot_aim_angularvelocity_frac_sprinting_target_org,
+	Float:g_bot_aim_attack_aimtolerance_frac_impossible_org,
 	Float:g_bot_attackdelay_frac_difficulty_impossible_org,
 	Float:g_bot_attack_aimtolerance_newthreat_amt_org,
 	Float:g_bot_attack_aimtolerance_newthreat_amt_mult,
@@ -604,7 +604,6 @@ database.cfg
 
 // SOME DEFINES
 #define MAX_LINE_WIDTH 60
-#define PLUGIN_VERSION "1.4"
 
 // STATS TIME (SET DAYS AFTER STATS ARE DELETE OF NONACTIVE PLAYERS)
 #define PLAYER_STATSOLD 30
@@ -630,7 +629,7 @@ new Handle:g_hDB;
 
 #define PLUGIN_VERSION "1.7.0"
 #define SERVER_VERSION "5.5.1c"
-#define GAMEDESC "¾­µäºËĞÄ·ş[SRNX]"
+#define GAMEDESC "ç»å…¸æ ¸å¿ƒæœ[SRNX]"
 #define PLUGIN_DESCRIPTION "Respawn dead players via admincommand or by queues"
 #define UPDATE_URL	"http://ins.jballou.com/sourcemod/update-respawn.txt"
 
@@ -660,7 +659,7 @@ public OnPluginStart()
 	RegConsoleCmd("sm_test", test); 
 	RegConsoleCmd("sm_hints", Toggle_Hints); 
 
-    RegConsoleCmd("sm_serverhelp", serverhelp); 
+	RegConsoleCmd("sm_serverhelp", serverhelp); 
 	//Create player array list
 	g_playerArrayList = CreateArray();
 	//g_badSpawnPos_Array = CreateArray();
@@ -886,10 +885,10 @@ public OnPluginStart()
 	
 
 	//if (GetConVarInt(sm_enable_squad_spawning) == 1)
-    	RegConsoleCmd("sm_ss", SquadSpawn); 
-    	RegConsoleCmd("vip", Cmd_VIP, "Check for info about VIP");
+	RegConsoleCmd("sm_ss", SquadSpawn); 
+	RegConsoleCmd("vip", Cmd_VIP, "Check for info about VIP");
 
-	CreateConVar("Lua_Ins_Healthkit", PLUGIN_VERSION, PLUGIN_DESCRIPTION, FCVAR_NOTIFY | FCVAR_PLUGIN | FCVAR_DONTRECORD);
+	CreateConVar("Lua_Ins_Healthkit", PLUGIN_VERSION, PLUGIN_DESCRIPTION, FCVAR_NOTIFY | FCVAR_DONTRECORD);
 	
 
 	if ((m_hMyWeapons = FindSendPropInfo("CBasePlayer", "m_hMyWeapons")) == -1) {
@@ -1161,9 +1160,9 @@ void UpdateRespawnCvars()
 	{
 		g_iRespawnCount[2] = g_iRespawnCount[2] + 10;
 		g_iRespawnSeconds = (g_iRespawnSeconds / 2);
-		new cvar_mp_maxrounds = FindConVar("mp_maxrounds");
+		ConVar cvar_mp_maxrounds = FindConVar("mp_maxrounds");
 		SetConVarInt(cvar_mp_maxrounds, 2, true, true);
-		new cvar_sm_botspawns_min_player_distance = FindConVar("sm_botspawns_min_player_distance");
+		ConVar cvar_sm_botspawns_min_player_distance = FindConVar("sm_botspawns_min_player_distance");
 		SetConVarFloat(cvar_sm_botspawns_min_player_distance, 2000.0, true, true);
 		PrintToChatAll("************EASTER EGG ROUND************");
 		PrintToChatAll("******NO WHINING, BE NICE, HAVE FUN*****");
@@ -1380,7 +1379,7 @@ public OnMapStart()
 
 	//Load Dynamic Loadouts?
 	//if (g_iCvar_multi_loadout_enabled == 1)
-		Dynamic_Loadouts();
+	Dynamic_Loadouts();
 
 	//Wait until players ready to enable spawn checking
 	g_playersReady = false;
@@ -1472,7 +1471,7 @@ public OnMapStart()
 //Dynamic Loadouts
 void Dynamic_Loadouts()
 {
-	new Float:fRandom = GetRandomFloat(0.0, 1.0);
+	//new Float:fRandom = GetRandomFloat(0.0, 1.0);
 	new Handle:hTheaterOverride = FindConVar("mp_theater_override");
 	SetConVarString(hTheaterOverride, "dy_gnalvl_coop_usmc", true, false);	
 	
@@ -1609,8 +1608,8 @@ public Action:Timer_MapStart(Handle:Timer)
 	ResetInsurgencyLives();
 	
 	// Ammo tracking timer
-	 //if (GetConVarInt(sm_respawn_enable_track_ammo) == 1)
-	 	//CreateTimer(1.0, Timer_GearMonitor,_ , TIMER_REPEAT | TIMER_FLAG_NO_MAPCHANGE);
+	// if (GetConVarInt(sm_respawn_enable_track_ammo) == 1)
+	// 	CreateTimer(1.0, Timer_GearMonitor,_ , TIMER_REPEAT | TIMER_FLAG_NO_MAPCHANGE);
 	
 	// Enemy reinforcement announce timer
 	if (g_isConquer != 1 && g_isOutpost != 1) 
@@ -1670,7 +1669,7 @@ public Action:Timer_MapStart(Handle:Timer)
 	g_bot_attack_aimpenalty_amt_far_mult = 40;
 	g_bot_attackdelay_frac_difficulty_impossible_mult = 0.03;
 	g_bot_attack_aimpenalty_time_close_mult = 0.15;
-	g_bot_attack_aimpenalty_time_far_mult = 2;
+	g_bot_attack_aimpenalty_time_far_mult = 2.0;
 	g_coop_delay_penalty_base = 800;
 	g_bot_aim_aimtracking_base = 0.05;
 	g_bot_aim_aimtracking_frac_impossible =  0.05;
@@ -1811,8 +1810,8 @@ public Action:Timer_EliteBots(Handle:Timer)
 	//new counterAlwaysCvar = GetConVarInt(FindConVar("mp_checkpoint_counterattack_always"));
 	if (Ins_InCounterAttack())
 	{
-		new validAntenna = -1;
-		validAntenna = FindValid_Antenna();
+		//new validAntenna = -1;
+		//validAntenna = FindValid_Antenna();
 		
 		if ((acp+1) == ncp)
 		{
@@ -1841,8 +1840,8 @@ public Action:Timer_EliteBots(Handle:Timer)
 			// 	// Announce
 			// 	decl String:textToPrintChat[64];
 			// 	decl String:textToPrint[64];
-			// 	Format(textToPrintChat, sizeof(textToPrintChat), "Í¨Ñ¶¹ÊÕÏ£¬¼ÜÉèµçÌ¨(IED¸ÉÈÅÆ÷)»ñÈ¡µĞ¾üÇé±¨¡£");
-			// 	Format(textToPrint, sizeof(textToPrintChat), "Í¨Ñ¶¹ÊÕÏ£¬¼ÜÉèµçÌ¨(IED¸ÉÈÅÆ÷)»ñÈ¡µĞ¾üÇé±¨¡£");
+			// 	Format(textToPrintChat, sizeof(textToPrintChat), "é€šè®¯æ•…éšœï¼Œæ¶è®¾ç”µå°(IEDå¹²æ‰°å™¨)è·å–æ•Œå†›æƒ…æŠ¥ã€‚");
+			// 	Format(textToPrint, sizeof(textToPrintChat), "é€šè®¯æ•…éšœï¼Œæ¶è®¾ç”µå°(IEDå¹²æ‰°å™¨)è·å–æ•Œå†›æƒ…æŠ¥ã€‚");
 			// 	PrintHintTextToAll(textToPrint);
 			// 	PrintToChatAll(textToPrintChat);
 			// }
@@ -1857,7 +1856,7 @@ void RespawnPlayer(client, target)
 	if(IsClientInGame(target) && !IsClientTimingOut(target) && g_client_last_classstring[target][0] && playerPickSquad[target] == 1 && !IsPlayerAlive(target) && team == TEAM_1_SEC)
 	{
 		// Write a log
-		LogAction(client, target, "\"%L\" ¸´»îÁË \"%L\"", client, target);
+		LogAction(client, target, "\"%L\" å¤æ´»äº† \"%L\"", client, target);
 		
 		// Call forcerespawn fucntion
 		SDKCall(g_hForceRespawn, target);
@@ -1870,7 +1869,7 @@ void ForceRespawnPlayer(client, target)
 	if(IsClientInGame(target) && !IsClientTimingOut(target) && g_client_last_classstring[target][0] && playerPickSquad[target] == 1 && team == TEAM_1_SEC)
 	{
 		// Write a log
-		LogAction(client, target, "\"%L\" ¸´»îÁË \"%L\"", client, target);
+		LogAction(client, target, "\"%L\" å¤æ´»äº† \"%L\"", client, target);
 		
 		// Call forcerespawn fucntion
 		SDKCall(g_hForceRespawn, target);
@@ -1891,9 +1890,9 @@ public Action:Timer_WaveSpawning(Handle:Timer)
 			g_secWave_Timer <= 3)
 		{
 			decl String:textToPrintChat[64];
-			decl String:textToPrint[64];
-			Format(textToPrintChat, sizeof(textToPrintChat), "½«ÔÚ %d ÃëºóÔöÔ®", g_secWave_Timer);
-			//Format(textToPrint, sizeof(textToPrint), "½«ÔÚ %d ÃëºóÍÅ¶ÓÔöÔ®", g_secWave_Timer);
+			//decl String:textToPrint[64];
+			Format(textToPrintChat, sizeof(textToPrintChat), "å°†åœ¨ %d ç§’åå¢æ´", g_secWave_Timer);
+			//Format(textToPrint, sizeof(textToPrint), "å°†åœ¨ %d ç§’åå›¢é˜Ÿå¢æ´", g_secWave_Timer);
 			//PrintHintTextToAll(textToPrint);
 			PrintToChatAll(textToPrintChat);
 		}
@@ -1901,8 +1900,8 @@ public Action:Timer_WaveSpawning(Handle:Timer)
 		//Reset Wave SEC timer and announce respawn
 		if (g_secWave_Timer <= 0)
 		{
-			PrintHintTextToAll("ÔöÔ®ÒÑµ½´ï£¡");
-			PrintToChatAll("ÔöÔ®ÒÑµ½´ï£¡");
+			PrintHintTextToAll("å¢æ´å·²åˆ°è¾¾ï¼");
+			PrintToChatAll("å¢æ´å·²åˆ°è¾¾ï¼");
 
 			new validAntenna = -1;
 			validAntenna = FindValid_Antenna();
@@ -2014,6 +2013,8 @@ public Action:Timer_WaveSpawning(Handle:Timer)
 		//	}
 		//}
 	}
+
+	return Plugin_Continue;
 }
 
 // Check and inform player status
@@ -2038,17 +2039,17 @@ public Action:Timer_PlayerStatus(Handle:Timer)
 				// Player connected or changed squad
 				if (g_iHurtFatal[client] == -1)
 				{
-					PrintCenterText(client, "Äã¸ü»»ÁËÖ°Òµ¡£ÇëµÈ´ıÏÂ´Î¼¯Ìå¸´»î¡£");
+					PrintCenterText(client, "ä½ æ›´æ¢äº†èŒä¸šã€‚è¯·ç­‰å¾…ä¸‹æ¬¡é›†ä½“å¤æ´»ã€‚");
 				}
 
 				new String:woundType[128];
-				woundType = "ÉËº¦";
+				woundType = "ä¼¤å®³";
 				if (g_playerWoundType[client] == 0)
-					woundType = "ÇáÉË";
+					woundType = "è½»ä¼¤";
 				else if (g_playerWoundType[client] == 1)
-					woundType = "ÖĞ¶ÈÉË";
+					woundType = "ä¸­åº¦ä¼¤";
 				else if (g_playerWoundType[client] == 2)
-					woundType = "ÖØÉË";
+					woundType = "é‡ä¼¤";
 
 				if (!g_iCvar_respawn_enable || g_iRespawnCount[2] == -1 || g_iSpawnTokens[client] <= 0)
 				{
@@ -2056,21 +2057,21 @@ public Action:Timer_PlayerStatus(Handle:Timer)
 					if (g_iHurtFatal[client] == 1)
 					{
 						decl String:fatal_hint[255];
-						Format(fatal_hint, 255,"ÄãËÀÓÚ %i µãÖÂÃüÉËº¦£¬ÇëµÈ´ıÏÂ´Î¼¯Ìå¸´»î£¨ÓàÃüºÄ¾¡£©", g_clientDamageDone[client]);
+						Format(fatal_hint, 255,"ä½ æ­»äº %i ç‚¹è‡´å‘½ä¼¤å®³ï¼Œè¯·ç­‰å¾…ä¸‹æ¬¡é›†ä½“å¤æ´»ï¼ˆä½™å‘½è€—å°½ï¼‰", g_clientDamageDone[client]);
 						PrintCenterText(client, "%s", fatal_hint);
 					}
 					// Player was killed
 					else if (g_iHurtFatal[client] == 0 && !Ins_InCounterAttack())
 					{
 						decl String:wound_hint[255];
-						Format(wound_hint, 255,"ÄãÊÜµ½ %d µã %s£¬ÇëÄÍĞÄµÈ´ıÒ½ÁÆ±ø¾ÈÔ®£¨ÓàÃüºÄ¾¡£© (ÓàÃüºÄ¾¡)", g_clientDamageDone[client], woundType);
+						Format(wound_hint, 255,"ä½ å—åˆ° %d ç‚¹ %sï¼Œè¯·è€å¿ƒç­‰å¾…åŒ»ç–—å…µæ•‘æ´ï¼ˆä½™å‘½è€—å°½ï¼‰ (ä½™å‘½è€—å°½)", g_clientDamageDone[client], woundType);
 						PrintCenterText(client, "%s", wound_hint);
 					}
 					// Player was killed during counter attack
 					else if (g_iHurtFatal[client] == 0 && Ins_InCounterAttack())
 					{
 						decl String:wound_hint[255];
-						Format(wound_hint, 255,"ÄãÔÚµĞ¾ü·´¹¥ÖĞÊÜµ½ %d µã %s£¬Èç¹ûÓÎÏ·¼´½«½áÊø£¬ÇëÎğºô½ĞÒ½ÁÆ±ø£¨ÓàÃüºÄ¾¡£©", g_clientDamageDone[client], woundType);
+						Format(wound_hint, 255,"ä½ åœ¨æ•Œå†›åæ”»ä¸­å—åˆ° %d ç‚¹ %sï¼Œå¦‚æœæ¸¸æˆå³å°†ç»“æŸï¼Œè¯·å‹¿å‘¼å«åŒ»ç–—å…µï¼ˆä½™å‘½è€—å°½ï¼‰", g_clientDamageDone[client], woundType);
 						PrintCenterText(client, "%s", wound_hint);
 					}
 				}
@@ -2102,8 +2103,8 @@ public Action:Timer_Enemies_Remaining(Handle:Timer)
 		// Announce
 		decl String:textToPrintChat[64];
 		decl String:textToPrint[64];
-		Format(textToPrintChat, sizeof(textToPrintChat), "µĞ¾ü´æ»î£º%d | µĞ¾üÊ£ÓàÔöÔ®£º%d", alive_insurgents, g_iRemaining_lives_team_ins);
-		Format(textToPrint, sizeof(textToPrint), "µĞ¾ü´æ»î£º%d | µĞ¾üÊ£ÓàÔöÔ®£º%d", alive_insurgents ,g_iRemaining_lives_team_ins);
+		Format(textToPrintChat, sizeof(textToPrintChat), "æ•Œå†›å­˜æ´»ï¼š%d | æ•Œå†›å‰©ä½™å¢æ´ï¼š%d", alive_insurgents, g_iRemaining_lives_team_ins);
+		Format(textToPrint, sizeof(textToPrint), "æ•Œå†›å­˜æ´»ï¼š%d | æ•Œå†›å‰©ä½™å¢æ´ï¼š%d", alive_insurgents ,g_iRemaining_lives_team_ins);
 		PrintHintTextToAll(textToPrint);
 		PrintToChatAll(textToPrintChat);
 
@@ -2121,11 +2122,11 @@ public Action:Timer_Enemies_Remaining(Handle:Timer)
 		// Announce
 		decl String:textToPrintChat[64];
 		decl String:textToPrint[64];
-		Format(textToPrintChat, sizeof(textToPrintChat), "Í¨Ñ¶¹ÊÕÏ£¬¼ÜÉèµçÌ¨(IED¸ÉÈÅÆ÷)»ñÈ¡µĞ¾üÇé±¨");
-		Format(textToPrint, sizeof(textToPrintChat), "Í¨Ñ¶¹ÊÕÏ£¬¼ÜÉèµçÌ¨(IED¸ÉÈÅÆ÷)»ñÈ¡µĞ¾üÇé±¨");
+		Format(textToPrintChat, sizeof(textToPrintChat), "é€šè®¯æ•…éšœï¼Œæ¶è®¾ç”µå°(IEDå¹²æ‰°å™¨)è·å–æ•Œå†›æƒ…æŠ¥");
+		Format(textToPrint, sizeof(textToPrintChat), "é€šè®¯æ•…éšœï¼Œæ¶è®¾ç”µå°(IEDå¹²æ‰°å™¨)è·å–æ•Œå†›æƒ…æŠ¥");
 		PrintHintTextToAll(textToPrint);
 		PrintToChatAll(textToPrintChat);
-		Format(textToPrintChat, sizeof(textToPrintChat), "¸ÉÈÅÆ÷ÒÑ¼¤»î£¡ | ¸´»îÊ±¼ä½«Ëõ¶Ì£º %d Ãë", 0);
+		Format(textToPrintChat, sizeof(textToPrintChat), "å¹²æ‰°å™¨å·²æ¿€æ´»ï¼ | å¤æ´»æ—¶é—´å°†ç¼©çŸ­ï¼š %d ç§’", 0);
 		PrintToChatAll(textToPrintChat);
 	}
 	return Plugin_Continue;
@@ -2145,8 +2146,8 @@ void AI_Director_RandomEnemyReinforce()
 			// Get bot count
 			new minBotCount = (g_iRespawn_lives_team_ins / 5);
 			g_iRemaining_lives_team_ins = g_iRemaining_lives_team_ins + minBotCount;
-			Format(textToPrint, sizeof(textToPrint), "·ü»÷µÄÔöÔ®ÒÑÌí¼Óµ½ÏÖÓĞµÄÔöÔ®²¨ÊıÖĞ!");
-			Format(textToPrint, sizeof(textToPrintChat), "·ü»÷µÄÔöÔ®ÒÑÌí¼Óµ½ÏÖÓĞµÄÔöÔ®²¨ÊıÖĞ!");
+			Format(textToPrint, sizeof(textToPrint), "ä¼å‡»çš„å¢æ´å·²æ·»åŠ åˆ°ç°æœ‰çš„å¢æ´æ³¢æ•°ä¸­!");
+			Format(textToPrint, sizeof(textToPrintChat), "ä¼å‡»çš„å¢æ´å·²æ·»åŠ åˆ°ç°æœ‰çš„å¢æ´æ³¢æ•°ä¸­!");
 			
 			//AI Director Reinforcement START
 			g_AIDir_BotReinforceTriggered = true;
@@ -2164,8 +2165,8 @@ void AI_Director_RandomEnemyReinforce()
 				new fCommsChance = GetRandomInt(1, 100);
 				if (fCommsChance > 50)
 				{
-					Format(textToPrintChat, sizeof(textToPrintChat), "Í¨Ñ¶¹ÊÕÏ£¬¼ÜÉèµçÌ¨(IED¸ÉÈÅÆ÷)»ñÈ¡µĞ¾üÇé±¨¡£");
-					Format(textToPrint, sizeof(textToPrintChat), "Í¨Ñ¶¹ÊÕÏ£¬¼ÜÉèµçÌ¨(IED¸ÉÈÅÆ÷)»ñÈ¡µĞ¾üÇé±¨¡£");
+					Format(textToPrintChat, sizeof(textToPrintChat), "é€šè®¯æ•…éšœï¼Œæ¶è®¾ç”µå°(IEDå¹²æ‰°å™¨)è·å–æ•Œå†›æƒ…æŠ¥ã€‚");
+					Format(textToPrint, sizeof(textToPrintChat), "é€šè®¯æ•…éšœï¼Œæ¶è®¾ç”µå°(IEDå¹²æ‰°å™¨)è·å–æ•Œå†›æƒ…æŠ¥ã€‚");
 					PrintHintTextToAll(textToPrint);
 					PrintToChatAll(textToPrintChat);
 				}
@@ -2195,7 +2196,7 @@ void AI_Director_RandomEnemyReinforce()
 			}
 			
 			//Reset bot back spawning to default
-			CreateTimer(45, Timer_ResetBotFlankSpawning, _);
+			CreateTimer(45.0, Timer_ResetBotFlankSpawning);
 		//}
 	}
 	else
@@ -2225,13 +2226,13 @@ void AI_Director_RandomEnemyReinforce()
 
 
 		//Reset bot back spawning to default
-		CreateTimer(45, Timer_ResetBotFlankSpawning, _);
+		CreateTimer(45.0, Timer_ResetBotFlankSpawning);
 
 		// Get random duration
 		//new fRandomInt = GetRandomInt(1, 4);
 
-		Format(textToPrint, sizeof(textToPrint), "µĞ¾üµÄ·ü»÷ÔöÔ®¼´½«µ½´ï!");
-		Format(textToPrint, sizeof(textToPrintChat), "µĞ¾üµÄ·ü»÷ÔöÔ®¼´½«µ½´ï!");
+		Format(textToPrint, sizeof(textToPrint), "æ•Œå†›çš„ä¼å‡»å¢æ´å³å°†åˆ°è¾¾!");
+		Format(textToPrint, sizeof(textToPrintChat), "æ•Œå†›çš„ä¼å‡»å¢æ´å³å°†åˆ°è¾¾!");
 
 		//AI Director Reinforcement START
 		g_AIDir_BotReinforceTriggered = true;
@@ -2250,8 +2251,8 @@ void AI_Director_RandomEnemyReinforce()
 			new fCommsChance = GetRandomInt(1, 100);
 			if (fCommsChance > 50)
 			{
-				Format(textToPrintChat, sizeof(textToPrintChat), "Í¨Ñ¶¹ÊÕÏ£¬¼ÜÉèµçÌ¨(IED¸ÉÈÅÆ÷)»ñÈ¡µĞ¾üÇé±¨¡£");
-				Format(textToPrint, sizeof(textToPrintChat), "Í¨Ñ¶¹ÊÕÏ£¬¼ÜÉèµçÌ¨(IED¸ÉÈÅÆ÷)»ñÈ¡µĞ¾üÇé±¨¡£");
+				Format(textToPrintChat, sizeof(textToPrintChat), "é€šè®¯æ•…éšœï¼Œæ¶è®¾ç”µå°(IEDå¹²æ‰°å™¨)è·å–æ•Œå†›æƒ…æŠ¥ã€‚");
+				Format(textToPrint, sizeof(textToPrintChat), "é€šè®¯æ•…éšœï¼Œæ¶è®¾ç”µå°(IEDå¹²æ‰°å™¨)è·å–æ•Œå†›æƒ…æŠ¥ã€‚");
 				PrintHintTextToAll(textToPrint);
 				PrintToChatAll(textToPrintChat);
 			}
@@ -2285,13 +2286,13 @@ public Action:Timer_EnemyReinforce(Handle:Timer)
 				//Format(textToPrintChat, sizeof(textToPrintChat), "[INTEL]Friendlies spawn on Counter-Attacks, Capture the Point!");
 				if (g_isHunt == 1)
 				{
-					Format(textToPrint, sizeof(textToPrint), "µĞ¾üÔöÔ®½«ÔÚ %d Ãëºóµ½´ï | ¾¡¿ìÕ¼Áì¼ì²éµã/´İ»Ù¾ü±¸!", g_iReinforceTime);
-					Format(textToPrintChat, sizeof(textToPrintChat), "µĞ¾üÔöÔ®½«ÔÚ %d Ãëºóµ½´ï | ¾¡¿ìÕ¼Áì¼ì²éµã/´İ»Ù¾ü±¸!", g_iReinforceTime);
+					Format(textToPrint, sizeof(textToPrint), "æ•Œå†›å¢æ´å°†åœ¨ %d ç§’ååˆ°è¾¾ | å°½å¿«å é¢†æ£€æŸ¥ç‚¹/æ‘§æ¯å†›å¤‡!", g_iReinforceTime);
+					Format(textToPrintChat, sizeof(textToPrintChat), "æ•Œå†›å¢æ´å°†åœ¨ %d ç§’ååˆ°è¾¾ | å°½å¿«å é¢†æ£€æŸ¥ç‚¹/æ‘§æ¯å†›å¤‡!", g_iReinforceTime);
 				}
 				else
 				{
-					Format(textToPrint, sizeof(textToPrint), "µĞ¾üÔöÔ®½«ÔÚ %d Ãëºóµ½´ï | ¾¡¿ìÕ¼Áì¼ì²éµã!", g_iReinforceTime);
-					Format(textToPrintChat, sizeof(textToPrintChat), "µĞ¾üÔöÔ®½«ÔÚ %d Ãëºóµ½´ï | ¾¡¿ìÕ¼Áì¼ì²éµã!", g_iReinforceTime);
+					Format(textToPrint, sizeof(textToPrint), "æ•Œå†›å¢æ´å°†åœ¨ %d ç§’ååˆ°è¾¾ | å°½å¿«å é¢†æ£€æŸ¥ç‚¹!", g_iReinforceTime);
+					Format(textToPrintChat, sizeof(textToPrintChat), "æ•Œå†›å¢æ´å°†åœ¨ %d ç§’ååˆ°è¾¾ | å°½å¿«å é¢†æ£€æŸ¥ç‚¹!", g_iReinforceTime);
 				}
 
 				PrintHintTextToAll(textToPrint);
@@ -2306,8 +2307,8 @@ public Action:Timer_EnemyReinforce(Handle:Timer)
 				if (fCommsChance > 50)
 				{
 					// Announce
-					Format(textToPrintChat, sizeof(textToPrintChat), "Í¨Ñ¶¹ÊÕÏ£¬¼ÜÉèµçÌ¨(IED¸ÉÈÅÆ÷)»ñÈ¡µĞ¾üÇé±¨");
-					Format(textToPrint, sizeof(textToPrintChat), "Í¨Ñ¶¹ÊÕÏ£¬¼ÜÉèµçÌ¨(IED¸ÉÈÅÆ÷)»ñÈ¡µĞ¾üÇé±¨");
+					Format(textToPrintChat, sizeof(textToPrintChat), "é€šè®¯æ•…éšœï¼Œæ¶è®¾ç”µå°(IEDå¹²æ‰°å™¨)è·å–æ•Œå†›æƒ…æŠ¥");
+					Format(textToPrint, sizeof(textToPrintChat), "é€šè®¯æ•…éšœï¼Œæ¶è®¾ç”µå°(IEDå¹²æ‰°å™¨)è·å–æ•Œå†›æƒ…æŠ¥");
 					PrintHintTextToAll(textToPrint);
 					PrintToChatAll(textToPrintChat);
 				}
@@ -2319,9 +2320,9 @@ public Action:Timer_EnemyReinforce(Handle:Timer)
 			
 			//Format(textToPrintChat, sizeof(textToPrintChat), "[INTEL]Friendlies spawn on Counter-Attacks, Capture the Point!");
 			if (g_isHunt == 1)
-				Format(textToPrint, sizeof(textToPrint), "µĞ¾üÔöÔ®½«ÔÚ %d Ãëºóµ½´ï | ¾¡¿ìÕ¼Áì¼ì²éµã/´İ»Ù¾ü±¸!", g_iReinforceTime);
+				Format(textToPrint, sizeof(textToPrint), "æ•Œå†›å¢æ´å°†åœ¨ %d ç§’ååˆ°è¾¾ | å°½å¿«å é¢†æ£€æŸ¥ç‚¹/æ‘§æ¯å†›å¤‡!", g_iReinforceTime);
 			else
-				Format(textToPrint, sizeof(textToPrint), "µĞ¾üÔöÔ®½«ÔÚ %d Ãëºóµ½´ï | ¾¡¿ìÕ¼Áì¼ì²éµã!", g_iReinforceTime);
+				Format(textToPrint, sizeof(textToPrint), "æ•Œå†›å¢æ´å°†åœ¨ %d ç§’ååˆ°è¾¾ | å°½å¿«å é¢†æ£€æŸ¥ç‚¹!", g_iReinforceTime);
 
 			PrintHintTextToAll(textToPrint);
 			//PrintToChatAll(textToPrintChat);
@@ -2339,8 +2340,8 @@ public Action:Timer_EnemyReinforce(Handle:Timer)
 					// Get bot count
 					new minBotCount = (g_iRespawn_lives_team_ins / 4);
 					g_iRemaining_lives_team_ins = g_iRemaining_lives_team_ins + minBotCount;
-					Format(textToPrint, sizeof(textToPrint), "µĞ¾üÔöÔ®ÒÑ¼ÓÇ¿!");
-					Format(textToPrintChat, sizeof(textToPrintChat), "µĞ¾üÔöÔ®ÒÑ¼ÓÇ¿!");
+					Format(textToPrint, sizeof(textToPrint), "æ•Œå†›å¢æ´å·²åŠ å¼º!");
+					Format(textToPrintChat, sizeof(textToPrintChat), "æ•Œå†›å¢æ´å·²åŠ å¼º!");
 					
 					//AI Director Reinforcement START
 					g_AIDir_BotReinforceTriggered = true;
@@ -2358,8 +2359,8 @@ public Action:Timer_EnemyReinforce(Handle:Timer)
 						new fCommsChance = GetRandomInt(1, 100);
 						if (fCommsChance > 50)
 						{
-							Format(textToPrintChat, sizeof(textToPrintChat), "Í¨Ñ¶¹ÊÕÏ£¬¼ÜÉèµçÌ¨(IED¸ÉÈÅÆ÷)»ñÈ¡µĞ¾üÇé±¨");
-							Format(textToPrint, sizeof(textToPrintChat), "Í¨Ñ¶¹ÊÕÏ£¬¼ÜÉèµçÌ¨(IED¸ÉÈÅÆ÷)»ñÈ¡µĞ¾üÇé±¨");
+							Format(textToPrintChat, sizeof(textToPrintChat), "é€šè®¯æ•…éšœï¼Œæ¶è®¾ç”µå°(IEDå¹²æ‰°å™¨)è·å–æ•Œå†›æƒ…æŠ¥");
+							Format(textToPrint, sizeof(textToPrintChat), "é€šè®¯æ•…éšœï¼Œæ¶è®¾ç”µå°(IEDå¹²æ‰°å™¨)è·å–æ•Œå†›æƒ…æŠ¥");
 							PrintHintTextToAll(textToPrint);
 							PrintToChatAll(textToPrintChat);
 						}
@@ -2389,13 +2390,13 @@ public Action:Timer_EnemyReinforce(Handle:Timer)
 					}
 					
 					//Reset bot back spawning to default
-					CreateTimer(45, Timer_ResetBotFlankSpawning, _);
+					CreateTimer(45.0, Timer_ResetBotFlankSpawning);
 
 				}
 				else
 				{
-					Format(textToPrint, sizeof(textToPrint), "µĞ¾üÔöÔ®ÒÑµ½´ï×î´óÖµ");
-					Format(textToPrintChat, sizeof(textToPrintChat), "µĞ¾üÔöÔ®ÒÑµ½´ï×î´óÖµ");
+					Format(textToPrint, sizeof(textToPrint), "æ•Œå†›å¢æ´å·²åˆ°è¾¾æœ€å¤§å€¼");
+					Format(textToPrintChat, sizeof(textToPrintChat), "æ•Œå†›å¢æ´å·²åˆ°è¾¾æœ€å¤§å€¼");
 					if (validAntenna != -1 || g_jammerRequired == 0)
 					{
 						PrintHintTextToAll(textToPrint);
@@ -2406,8 +2407,8 @@ public Action:Timer_EnemyReinforce(Handle:Timer)
 						new fCommsChance = GetRandomInt(1, 100);
 						if (fCommsChance > 50)
 						{
-							Format(textToPrintChat, sizeof(textToPrintChat), "Í¨Ñ¶¹ÊÕÏ£¬¼ÜÉèµçÌ¨(IED¸ÉÈÅÆ÷)»ñÈ¡µĞ¾üÇé±¨");
-							Format(textToPrint, sizeof(textToPrintChat), "Í¨Ñ¶¹ÊÕÏ£¬¼ÜÉèµçÌ¨(IED¸ÉÈÅÆ÷)»ñÈ¡µĞ¾üÇé±¨");
+							Format(textToPrintChat, sizeof(textToPrintChat), "é€šè®¯æ•…éšœï¼Œæ¶è®¾ç”µå°(IEDå¹²æ‰°å™¨)è·å–æ•Œå†›æƒ…æŠ¥");
+							Format(textToPrint, sizeof(textToPrintChat), "é€šè®¯æ•…éšœï¼Œæ¶è®¾ç”µå°(IEDå¹²æ‰°å™¨)è·å–æ•Œå†›æƒ…æŠ¥");
 							PrintHintTextToAll(textToPrint);
 							PrintToChatAll(textToPrintChat);
 						}
@@ -2450,13 +2451,13 @@ public Action:Timer_EnemyReinforce(Handle:Timer)
 
 
 				//Reset bot back spawning to default
-				CreateTimer(45, Timer_ResetBotFlankSpawning, _);
+				CreateTimer(45.0, Timer_ResetBotFlankSpawning);
 
 				// Get random duration
 				//new fRandomInt = GetRandomInt(1, 4);
 				
-				Format(textToPrint, sizeof(textToPrint), "µĞ¾üÔöÔ®ÒÑµ½´ï!");
-				Format(textToPrintChat, sizeof(textToPrintChat), "µĞ¾üÔöÔ®ÒÑµ½´ï!");
+				Format(textToPrint, sizeof(textToPrint), "æ•Œå†›å¢æ´å·²åˆ°è¾¾!");
+				Format(textToPrintChat, sizeof(textToPrintChat), "æ•Œå†›å¢æ´å·²åˆ°è¾¾!");
 				
 				//AI Director Reinforcement START
 				g_AIDir_BotReinforceTriggered = true;
@@ -2475,8 +2476,8 @@ public Action:Timer_EnemyReinforce(Handle:Timer)
 					new fCommsChance = GetRandomInt(1, 100);
 					if (fCommsChance > 50)
 					{
-						Format(textToPrintChat, sizeof(textToPrintChat), "Í¨Ñ¶¹ÊÕÏ£¬¼ÜÉèµçÌ¨(IED¸ÉÈÅÆ÷)»ñÈ¡µĞ¾üÇé±¨");
-						Format(textToPrint, sizeof(textToPrintChat), "Í¨Ñ¶¹ÊÕÏ£¬¼ÜÉèµçÌ¨(IED¸ÉÈÅÆ÷)»ñÈ¡µĞ¾üÇé±¨");
+						Format(textToPrintChat, sizeof(textToPrintChat), "é€šè®¯æ•…éšœï¼Œæ¶è®¾ç”µå°(IEDå¹²æ‰°å™¨)è·å–æ•Œå†›æƒ…æŠ¥");
+						Format(textToPrint, sizeof(textToPrintChat), "é€šè®¯æ•…éšœï¼Œæ¶è®¾ç”µå°(IEDå¹²æ‰°å™¨)è·å–æ•Œå†›æƒ…æŠ¥");
 						PrintHintTextToAll(textToPrint);
 						PrintToChatAll(textToPrintChat);
 					}
@@ -2532,7 +2533,7 @@ public Action:Timer_CheckEnemyStatic(Handle:Timer)
 							capDistance = GetVectorDistance(enemyPos,m_vCPPositions[m_nActivePushPointIndex]);
 						}
 						else 
-							capDistance = 801;
+							capDistance = 801.0;
 						// If enemy position is static, kill him
 						if (tDistance <= 150 && Check_NearbyPlayers(enemyBot) && (capDistance > 800 || g_botStaticGlobal[enemyBot] > 120)) 
 						{
@@ -2584,7 +2585,7 @@ public Action:Timer_CheckEnemyStatic(Handle:Timer)
 							capDistance = GetVectorDistance(enemyPos,m_vCPPositions[m_nActivePushPointIndex]);
 						}
 						else 
-							capDistance = 801;
+							capDistance = 801.0;
 						// If enemy position is static, kill him
 						if (tDistance <= 150 && (capDistance > 800) && Check_NearbyPlayers(enemyBot))// || g_botStaticGlobal[enemyBot] > 120)) 
 						{
@@ -2643,7 +2644,7 @@ public Action:Timer_CheckEnemyAway(Handle:Timer)
 							capDistance = GetVectorDistance(enemyPos,m_vCPPositions[m_nActivePushPointIndex]);
 						}
 						else 
-							capDistance = 801;
+							capDistance = 801.0;
 						// If enemy position is static, kill him
 						if (tDistance <= 150 && capDistance > 2500) 
 						{
@@ -2726,7 +2727,7 @@ void AddLifeForStaticKilling(client)
 	}
 }
 
-//
+
 void CalculateBotCount()
 {
 	// Respawn type 1
@@ -2809,22 +2810,22 @@ void SetPlayerAmmo(client)
 		 //}
 		
 		  //Check primary weapon
-		 if (primaryWeapon != -1 && IsValidEntity(primaryWeapon))
-		 {
-		 	//PrintToServer("PlayerClip %i, playerAmmo %i, PrimaryWeapon %d",playerClip[client][0],playerAmmo[client][0], primaryWeapon); 
-		 	SetPrimaryAmmo(client, primaryWeapon, playerClip[client][0], 0); //primary clip
-		 	Client_SetWeaponPlayerAmmoEx(client, primaryWeapon, playerAmmo[client][0]); //primary
-		 	//PrintToServer("SETWEAPON 1");
-		 }
+		if (primaryWeapon != -1 && IsValidEntity(primaryWeapon))
+		{
+			//PrintToServer("PlayerClip %i, playerAmmo %i, PrimaryWeapon %d",playerClip[client][0],playerAmmo[client][0], primaryWeapon); 
+			SetPrimaryAmmo(client, primaryWeapon, playerClip[client][0], 0); //primary clip
+			Client_SetWeaponPlayerAmmoEx(client, primaryWeapon, playerAmmo[client][0]); //primary
+			//PrintToServer("SETWEAPON 1");
+		}
 		
 		 // Check secondary weapon
-		 if (secondaryWeapon != -1 && IsValidEntity(secondaryWeapon))
-		 {
-		 	//PrintToServer("PlayerClip %i, playerAmmo %i, PrimaryWeapon %d",playerClip[client][1],playerAmmo[client][1], primaryWeapon); 
-		 	SetPrimaryAmmo(client, secondaryWeapon, playerClip[client][1], 1); //secondary clip
-		 	Client_SetWeaponPlayerAmmoEx(client, secondaryWeapon, playerAmmo[client][1]); //secondary
-		 	//PrintToServer("SETWEAPON 2");
-		 }
+		if (secondaryWeapon != -1 && IsValidEntity(secondaryWeapon))
+		{
+			//PrintToServer("PlayerClip %i, playerAmmo %i, PrimaryWeapon %d",playerClip[client][1],playerAmmo[client][1], primaryWeapon); 
+			SetPrimaryAmmo(client, secondaryWeapon, playerClip[client][1], 1); //secondary clip
+			Client_SetWeaponPlayerAmmoEx(client, secondaryWeapon, playerAmmo[client][1]); //secondary
+			//PrintToServer("SETWEAPON 2");
+		}
 		
 		// Check grenades
 		if (playerGrenades != -1 && IsValidEntity(playerGrenades)) // We need to figure out what slots are defined#define Slot_HEgrenade 11, #define Slot_Flashbang 12, #define Slot_Smokegrenade 13
@@ -2906,7 +2907,7 @@ void GetPlayerAmmo(client)
 public Action:Event_PlayerReload_Pre(Handle:event, const String:name[], bool:dontBroadcast)
 {
 	new client = GetClientOfUserId(GetEventInt(event, "userid"));
-	new m_iTeam = GetClientTeam(client);
+	//new m_iTeam = GetClientTeam(client);
 
 	if (IsFakeClient(client) && playerInRevivedState[client] == false) {
 		return Plugin_Continue;
@@ -2918,6 +2919,8 @@ public Action:Event_PlayerReload_Pre(Handle:event, const String:name[], bool:don
 	// Call respawn timer
 	//if (playerInRevivedState[client])
 	//	CreateTimer(0.01, Timer_ForceReload, client, TIMER_REPEAT);
+
+	return Plugin_Continue;
 }
 public Action:Event_OnFlashPlayerPre(Handle:event, const String:name[], bool:dontBroadcast)
 {
@@ -2974,49 +2977,49 @@ public Action:ResupplyListener(client, const String:cmd[], argc)
 #####################################################################
 #####################################################################
 */
-stock GetInsSpawnGround(spawnPoint, Float:vecSpawn[3])
+stock Float:GetInsSpawnGround(spawnPoint, Float:vecSpawn[3])
 {
-    new Float:fGround[3];
-    vecSpawn[2] += 15.0;
-    
-    TR_TraceRayFilter(vecSpawn, Float:{90.0,0.0,0.0}, MASK_PLAYERSOLID, RayType_Infinite, TRDontHitSelf, spawnPoint);
-    if (TR_DidHit())
-    {
-        TR_GetEndPosition(fGround);
-        return fGround;
-    }
-    return vecSpawn;
+	new Float:fGround[3];
+	vecSpawn[2] += 15.0;
+	
+	TR_TraceRayFilter(vecSpawn, Float:{90.0,0.0,0.0}, MASK_PLAYERSOLID, RayType_Infinite, TRDontHitSelf, spawnPoint);
+	if (TR_DidHit())
+	{
+		TR_GetEndPosition(fGround);
+		return fGround;
+	}
+	return vecSpawn;
 }
 stock GetClientGround(client)
 {
-    
-    new Float:fOrigin[3], Float:fGround[3];
+	
+	new Float:fOrigin[3], Float:fGround[3];
 	GetClientAbsOrigin(client,fOrigin);
 
-    fOrigin[2] += 15.0;
-    
-    TR_TraceRayFilter(fOrigin, Float:{90.0,0.0,0.0}, MASK_PLAYERSOLID, RayType_Infinite, TRDontHitSelf, client);
-    if (TR_DidHit())
-    {
-        TR_GetEndPosition(fGround);
-        fOrigin[2] -= 15.0;
-        return fGround[2];
-    }
-    return 0.0;
+	fOrigin[2] += 15.0;
+	
+	TR_TraceRayFilter(fOrigin, Float:{90.0,0.0,0.0}, MASK_PLAYERSOLID, RayType_Infinite, TRDontHitSelf, client);
+	if (TR_DidHit())
+	{
+		TR_GetEndPosition(fGround);
+		fOrigin[2] -= 15.0;
+		return fGround[2];
+	}
+	return 0.0;
 }
  
-CheckSpawnPoint(Float:vecSpawn[3],client,Float:tObjectiveDistance,Int:m_nActivePushPointIndex) {
+CheckSpawnPoint(float vecSpawn[3], int client, float tObjectiveDistance, int m_nActivePushPointIndex) {
 //Ins_InCounterAttack
 	new m_iTeam = GetClientTeam(client);
 	new Float:distance,Float:furthest,Float:closest=-1.0;
 	new Float:vecOrigin[3];
-	new Float:tBadPos[3];
+	//new Float:tBadPos[3];
 
 	GetClientAbsOrigin(client,vecOrigin);
-	new Float:tMinPlayerDistMult = 0;
+	new Float:tMinPlayerDistMult = 0.0;
 
 	new acp = (Ins_ObjectiveResource_GetProp("m_nActivePushPointIndex") - 1);
-	new acp2 = m_nActivePushPointIndex;
+	int acp2 = m_nActivePushPointIndex;
 	new ncp = Ins_ObjectiveResource_GetProp("m_iNumControlPoints");
 	if (acp == acp2 && !Ins_InCounterAttack())
 	{
@@ -3078,12 +3081,13 @@ CheckSpawnPoint(Float:vecSpawn[3],client,Float:tObjectiveDistance,Int:m_nActiveP
 	}
 
 
-			new fRandomInt = GetRandomInt(1, 100);
+	new fRandomInt = GetRandomInt(1, 100);
 	//If final point respawn around last point, not final point
 	if ((((acp+1) == ncp) || Ins_InCounterAttack()) && fRandomInt <= 10)
 	{
 		new m_nActivePushPointIndexFinal = Ins_ObjectiveResource_GetProp("m_nActivePushPointIndex");
-		m_nActivePushPointIndexFinal -= 1;
+		if (m_nActivePushPointIndexFinal > 0)
+			m_nActivePushPointIndexFinal -= 1;
 		distance = GetVectorDistance(vecSpawn,m_vCPPositions[m_nActivePushPointIndexFinal]);
 		if (distance > (tObjectiveDistance)) {// && (fRandomFloat <= g_dynamicSpawn_Perc)) {
 			 return 0;
@@ -3151,7 +3155,7 @@ CheckSpawnPoint(Float:vecSpawn[3],client,Float:tObjectiveDistance,Int:m_nActiveP
 	PrintToServer("CHECKSPAWN | m_nActivePushPointIndex: %d",m_nActivePushPointIndex);
 	return 1;
 } 
-CheckSpawnPointPlayers(Float:vecSpawn[3],client, tObjectiveDistance) {
+CheckSpawnPointPlayers(Float:vecSpawn[3],client, Float:tObjectiveDistance) {
 //Ins_InCounterAttack
 	new m_iTeam = GetClientTeam(client);
 	new Float:distance,Float:furthest,Float:closest=-1.0;
@@ -3248,7 +3252,8 @@ CheckSpawnPointPlayers(Float:vecSpawn[3],client, tObjectiveDistance) {
 	if ((((acp+1) == ncp) || Ins_InCounterAttack()) && fRandomInt < 25)
 	{
 		new m_nActivePushPointIndexFinal = Ins_ObjectiveResource_GetProp("m_nActivePushPointIndex");
-		m_nActivePushPointIndexFinal -= 1;
+		if (m_nActivePushPointIndexFinal > 0)
+			m_nActivePushPointIndexFinal -= 1;
 		objDistance = GetVectorDistance(vecSpawn,m_vCPPositions[m_nActivePushPointIndexFinal]);
 		if (objDistance > (tObjectiveDistance)) {// && (fRandomFloat <= g_dynamicSpawn_Perc)) {
 			 return 0;
@@ -3337,13 +3342,13 @@ public GetPushPointIndex(Float:fRandomFloat, client)
 }
 
 float GetSpawnPoint_SpawnPoint(client) {
-	int m_iTeam = GetClientTeam(client);
-	int m_iTeamNum;
+	//int m_iTeam = GetClientTeam(client);
+	//int m_iTeamNum;
 	float vecSpawn[3];
 	float vecOrigin[3];
 	float distance;
 	GetClientAbsOrigin(client,vecOrigin);
-	new Float:fRandomFloat = GetRandomFloat(0, 1.0);
+	new Float:fRandomFloat = GetRandomFloat(0.0, 1.0);
 
 	//PrintToServer("GetSpawnPoint_SpawnPoint Call");
 	// Get the number of control points
@@ -3358,23 +3363,23 @@ float GetSpawnPoint_SpawnPoint(client) {
 
 				
 	new point = FindEntityByClassname(-1, "ins_spawnpoint");
-	new Float:tObjectiveDistance = g_flMinObjectiveDistance;
+	float tObjectiveDistance = g_flMinObjectiveDistance;
 	while (point != -1) {
 		//m_iTeamNum = GetEntProp(point, Prop_Send, "m_iTeamNum");
 		//if (m_iTeamNum == m_iTeam) {
-			GetEntPropVector(point, Prop_Send, "m_vecOrigin", vecSpawn);
-			Ins_ObjectiveResource_GetPropVector("m_vCPPositions",m_vCPPositions[m_nActivePushPointIndex],m_nActivePushPointIndex);
-			distance = GetVectorDistance(vecSpawn,m_vCPPositions[m_nActivePushPointIndex]);
-			if (CheckSpawnPoint(vecSpawn,client,tObjectiveDistance,m_nActivePushPointIndex)) {
-				vecSpawn = GetInsSpawnGround(point, vecSpawn);
-				//new m_nActivePushPointIndex = Ins_ObjectiveResource_GetProp("m_nActivePushPointIndex");
-				PrintToServer("FOUND! m_nActivePushPointIndex: %d %N (%d) spawnpoint %d Distance: %f tObjectiveDistance: %f g_flMinObjectiveDistance %f RAW ACP: %d",m_nActivePushPointIndex, client, client, point, distance, tObjectiveDistance, g_flMinObjectiveDistance, acp);
-				return vecSpawn;
-			}
-			else
-			{
-				tObjectiveDistance += 4.0;
-			}
+		GetEntPropVector(point, Prop_Send, "m_vecOrigin", vecSpawn);
+		Ins_ObjectiveResource_GetPropVector("m_vCPPositions",m_vCPPositions[m_nActivePushPointIndex],m_nActivePushPointIndex);
+		distance = GetVectorDistance(vecSpawn,m_vCPPositions[m_nActivePushPointIndex]);
+		if (CheckSpawnPoint(vecSpawn,client,tObjectiveDistance,m_nActivePushPointIndex) == 1) {
+			vecSpawn = GetInsSpawnGround(point, vecSpawn);
+			//new m_nActivePushPointIndex = Ins_ObjectiveResource_GetProp("m_nActivePushPointIndex");
+			PrintToServer("FOUND! m_nActivePushPointIndex: %d %N (%d) spawnpoint %d Distance: %f tObjectiveDistance: %f g_flMinObjectiveDistance %f RAW ACP: %d",m_nActivePushPointIndex, client, client, point, distance, tObjectiveDistance, g_flMinObjectiveDistance, acp);
+			return vecSpawn;
+		}
+		else
+		{
+			tObjectiveDistance += 4.0;
+		}
 		//}
 		point = FindEntityByClassname(point, "ins_spawnpoint");
 	}
@@ -3385,20 +3390,20 @@ float GetSpawnPoint_SpawnPoint(client) {
 	while (point2 != -1) {
 		//m_iTeamNum = GetEntProp(point2, Prop_Send, "m_iTeamNum");
 		//if (m_iTeamNum == m_iTeam) {
-			GetEntPropVector(point2, Prop_Send, "m_vecOrigin", vecSpawn);
+		GetEntPropVector(point2, Prop_Send, "m_vecOrigin", vecSpawn);
 
-			Ins_ObjectiveResource_GetPropVector("m_vCPPositions",m_vCPPositions[m_nActivePushPointIndex],m_nActivePushPointIndex);
-			distance = GetVectorDistance(vecSpawn,m_vCPPositions[m_nActivePushPointIndex]);
-			if (CheckSpawnPoint(vecSpawn,client,tObjectiveDistance,m_nActivePushPointIndex)) {
-				vecSpawn = GetInsSpawnGround(point2, vecSpawn);
-				//new m_nActivePushPointIndex = Ins_ObjectiveResource_GetProp("m_nActivePushPointIndex");
-				PrintToServer("FOUND! m_nActivePushPointIndex: %d %N (%d) spawnpoint %d Distance: %f tObjectiveDistance: %f g_flMinObjectiveDistance %f RAW ACP: %d",m_nActivePushPointIndex, client, client, point2, distance, tObjectiveDistance, g_flMinObjectiveDistance, acp);
-				return vecSpawn;
-			}
-			else
-			{
-				tObjectiveDistance += 4.0;
-			}
+		Ins_ObjectiveResource_GetPropVector("m_vCPPositions",m_vCPPositions[m_nActivePushPointIndex],m_nActivePushPointIndex);
+		distance = GetVectorDistance(vecSpawn,m_vCPPositions[m_nActivePushPointIndex]);
+		if (CheckSpawnPoint(vecSpawn,client,tObjectiveDistance,m_nActivePushPointIndex) == 1) {
+			vecSpawn = GetInsSpawnGround(point2, vecSpawn);
+			//new m_nActivePushPointIndex = Ins_ObjectiveResource_GetProp("m_nActivePushPointIndex");
+			PrintToServer("FOUND! m_nActivePushPointIndex: %d %N (%d) spawnpoint %d Distance: %f tObjectiveDistance: %f g_flMinObjectiveDistance %f RAW ACP: %d",m_nActivePushPointIndex, client, client, point2, distance, tObjectiveDistance, g_flMinObjectiveDistance, acp);
+			return vecSpawn;
+		}
+		else
+		{
+			tObjectiveDistance += 4.0;
+		}
 		//}
 		point2 = FindEntityByClassname(point2, "ins_spawnpoint");
 	}
@@ -3409,19 +3414,19 @@ float GetSpawnPoint_SpawnPoint(client) {
 	while (point3 != -1) {
 		//m_iTeamNum = GetEntProp(point3, Prop_Send, "m_iTeamNum");
 		//if (m_iTeamNum == m_iTeam) {
-			GetEntPropVector(point3, Prop_Send, "m_vecOrigin", vecSpawn);
-			Ins_ObjectiveResource_GetPropVector("m_vCPPositions",m_vCPPositions[m_nActivePushPointIndex],m_nActivePushPointIndex);
-			distance = GetVectorDistance(vecSpawn,m_vCPPositions[m_nActivePushPointIndex]);
-			if (CheckSpawnPoint(vecSpawn,client,tObjectiveDistance,m_nActivePushPointIndex)) {
-				vecSpawn = GetInsSpawnGround(point3, vecSpawn);
+		GetEntPropVector(point3, Prop_Send, "m_vecOrigin", vecSpawn);
+		Ins_ObjectiveResource_GetPropVector("m_vCPPositions",m_vCPPositions[m_nActivePushPointIndex],m_nActivePushPointIndex);
+		distance = GetVectorDistance(vecSpawn,m_vCPPositions[m_nActivePushPointIndex]);
+		if (CheckSpawnPoint(vecSpawn,client,tObjectiveDistance,m_nActivePushPointIndex) == 1) {
+			vecSpawn = GetInsSpawnGround(point3, vecSpawn);
 				//new m_nActivePushPointIndex = Ins_ObjectiveResource_GetProp("m_nActivePushPointIndex");
-				PrintToServer("FOUND! m_nActivePushPointIndex: %d %N (%d) spawnpoint %d Distance: %f tObjectiveDistance: %f g_flMinObjectiveDistance %f RAW ACP: %d",m_nActivePushPointIndex, client, client, point3, distance, tObjectiveDistance, g_flMinObjectiveDistance, acp);
-				return vecSpawn;
-			}
-			else
-			{
-				tObjectiveDistance += 4.0;
-			}
+			PrintToServer("FOUND! m_nActivePushPointIndex: %d %N (%d) spawnpoint %d Distance: %f tObjectiveDistance: %f g_flMinObjectiveDistance %f RAW ACP: %d",m_nActivePushPointIndex, client, client, point3, distance, tObjectiveDistance, g_flMinObjectiveDistance, acp);
+			return vecSpawn;
+		}
+		else
+		{
+			tObjectiveDistance += 4.0;
+		}
 		//}
 		point3 = FindEntityByClassname(point3, "ins_spawnpoint");
 	}
@@ -3441,20 +3446,20 @@ float GetSpawnPoint_SpawnPoint(client) {
 	while (pointFinal != -1) {
 		//m_iTeamNum = GetEntProp(pointFinal, Prop_Send, "m_iTeamNum");
 		//if (m_iTeamNum == m_iTeam) {
-			GetEntPropVector(pointFinal, Prop_Send, "m_vecOrigin", vecSpawn);
+		GetEntPropVector(pointFinal, Prop_Send, "m_vecOrigin", vecSpawn);
 			
-			Ins_ObjectiveResource_GetPropVector("m_vCPPositions",m_vCPPositions[m_nActivePushPointIndex],m_nActivePushPointIndex);
-			distance = GetVectorDistance(vecSpawn,m_vCPPositions[m_nActivePushPointIndex]);
-			if (CheckSpawnPoint(vecSpawn,client,tObjectiveDistance,m_nActivePushPointIndex)) {
-				vecSpawn = GetInsSpawnGround(pointFinal, vecSpawn);
-				//new m_nActivePushPointIndex = Ins_ObjectiveResource_GetProp("m_nActivePushPointIndex");
-				PrintToServer("FINAL PASS FOUND! m_nActivePushPointIndex: %d %N (%d) spawnpoint %d Distance: %f tObjectiveDistance: %f g_flMinObjectiveDistance: %f RAW ACP: %d",m_nActivePushPointIndex, client, client, pointFinal, distance, tObjectiveDistance, g_flMinObjectiveDistance, acp);
-				return vecSpawn;
-			}
-			else
-			{
-				tObjectiveDistance += 4.0;
-			}
+		Ins_ObjectiveResource_GetPropVector("m_vCPPositions",m_vCPPositions[m_nActivePushPointIndex],m_nActivePushPointIndex);
+		distance = GetVectorDistance(vecSpawn,m_vCPPositions[m_nActivePushPointIndex]);
+		if (CheckSpawnPoint(vecSpawn,client,tObjectiveDistance,m_nActivePushPointIndex) == 1) {
+			vecSpawn = GetInsSpawnGround(pointFinal, vecSpawn);
+			//new m_nActivePushPointIndex = Ins_ObjectiveResource_GetProp("m_nActivePushPointIndex");
+			PrintToServer("FINAL PASS FOUND! m_nActivePushPointIndex: %d %N (%d) spawnpoint %d Distance: %f tObjectiveDistance: %f g_flMinObjectiveDistance: %f RAW ACP: %d",m_nActivePushPointIndex, client, client, pointFinal, distance, tObjectiveDistance, g_flMinObjectiveDistance, acp);
+			return vecSpawn;
+		}
+		else
+		{
+			tObjectiveDistance += 4.0;
+		}
 		//}
 		pointFinal = FindEntityByClassname(pointFinal, "ins_spawnpoint");
 	}
@@ -3554,7 +3559,7 @@ public Action:Event_Spawn(Handle:event, const String:name[], bool:dontBroadcast)
 	g_botStaticGlobal[client] = 0;
 
 	// Get the number of control points
-	new ncp = Ins_ObjectiveResource_GetProp("m_iNumControlPoints");
+	//new ncp = Ins_ObjectiveResource_GetProp("m_iNumControlPoints");
 	
 	// Get active push point
 	new acp = Ins_ObjectiveResource_GetProp("m_nActivePushPointIndex");
@@ -3564,27 +3569,27 @@ public Action:Event_Spawn(Handle:event, const String:name[], bool:dontBroadcast)
 
 	if  (g_playersReady && g_botsReady == 1)
 	{
-		int m_iTeam = GetClientTeam(client);
-		int m_iTeamNum;
+		//int m_iTeam = GetClientTeam(client);
+		//int m_iTeamNum;
 		float vecSpawn[3];
-		float vecOrigin[3];
+		//float vecOrigin[3];
 		GetClientAbsOrigin(client,vecOrigin);
 					
 		new point = FindEntityByClassname(-1, "ins_spawnpoint");
 		new Float:tObjectiveDistance = g_flMinObjectiveDistance;
-		int iCanSpawn = CheckSpawnPointPlayers(vecOrigin,client, tObjectiveDistance);
+		int iCanSpawn = CheckSpawnPointPlayers(vecOrigin, client, tObjectiveDistance);
 		while (point != -1) {
 			//m_iTeamNum = GetEntProp(point, Prop_Send, "m_iTeamNum");
 			//if (m_iTeamNum == m_iTeam) {
-				GetEntPropVector(point, Prop_Send, "m_vecOrigin", vecSpawn);
-				iCanSpawn = CheckSpawnPointPlayers(vecOrigin,client, tObjectiveDistance);
-				if (iCanSpawn == 1) {
-					break;
-				}
-				else
-				{
-					tObjectiveDistance += 6.0;
-				}
+			GetEntPropVector(point, Prop_Send, "m_vecOrigin", vecSpawn);
+			iCanSpawn = CheckSpawnPointPlayers(vecOrigin,client, tObjectiveDistance);
+			if (iCanSpawn == 1) {
+				break;
+			}
+			else
+			{
+				tObjectiveDistance += 6.0;
+			}
 			//}
 			point = FindEntityByClassname(point, "ins_spawnpoint");
 		}
@@ -3823,11 +3828,11 @@ int GetBestHidingSpot(client, iteration=0)
 // When player connected server, intialize variable
 public OnClientPutInServer(client)
 {
-		g_trackKillDeaths[client] = 0;
-		playerPickSquad[client] = 0;
-		g_iHurtFatal[client] = -1;
-		g_playerFirstJoin[client] = 1;
-		g_iPlayerRespawnTimerActive[client] = 0;
+	g_trackKillDeaths[client] = 0;
+	playerPickSquad[client] = 0;
+	g_iHurtFatal[client] = -1;
+	g_playerFirstJoin[client] = 1;
+	g_iPlayerRespawnTimerActive[client] = 0;
 	
 	//SDKHook(client, SDKHook_PreThinkPost, SHook_OnPreThink);
 	new String:sNickname[64];
@@ -3848,10 +3853,10 @@ public Action:Event_PlayerConnect(Handle:event, const String:name[], bool:dontBr
 {
 	new client = GetClientOfUserId(GetEventInt(event, "userid"));
 	
-		playerPickSquad[client] = 0;
-		g_iHurtFatal[client] = -1;
-		g_playerFirstJoin[client] = 1;
-		g_iPlayerRespawnTimerActive[client] = 0;
+	playerPickSquad[client] = 0;
+	g_iHurtFatal[client] = -1;
+	g_playerFirstJoin[client] = 1;
+	g_iPlayerRespawnTimerActive[client] = 0;
 		
 	
 	//g_fPlayerLastChat[client] = GetGameTime();
@@ -3904,7 +3909,7 @@ public Action:Event_RoundStart(Handle:event, const String:name[], bool:dontBroad
 	//Round_Start CVAR Sets ------------------ START -- vs using HookConVarChange
 
 	//Show scoreboard when dead DISABLED
-	new cvar_scoreboard = FindConVar("sv_hud_scoreboard_show_score_dead");
+	ConVar cvar_scoreboard = FindConVar("sv_hud_scoreboard_show_score_dead");
 	SetConVarInt(cvar_scoreboard, 0, true, false);
 
 
@@ -4038,7 +4043,7 @@ public Action:Event_RoundEnd_Pre(Handle:event, const String:name[], bool:dontBro
 	g_vip_obj_ready = 1;
 
 	//Show scoreboard when dead ENABLED
-	new cvar_scoreboard = FindConVar("sv_hud_scoreboard_show_score_dead");
+	ConVar cvar_scoreboard = FindConVar("sv_hud_scoreboard_show_score_dead");
 	SetConVarInt(cvar_scoreboard, 1, true, false);
 
 
@@ -4057,7 +4062,7 @@ public Action:Event_RoundEnd_Pre(Handle:event, const String:name[], bool:dontBro
 		{
 			decl String:sBuf[255];
 			// Hint to iMedic
-			Format(sBuf, 255,"[Ò½ÁÆ×´Ì¬] %N: HP: %d | ¸´»î´ÎÊı: %d", client, g_iStatHeals[client], g_iStatRevives[client]);
+			Format(sBuf, 255,"[åŒ»ç–—çŠ¶æ€] %N: HP: %d | å¤æ´»æ¬¡æ•°: %d", client, g_iStatHeals[client], g_iStatRevives[client]);
 			PrintHintText(client, "%s", sBuf);
 			PrintToChatAll("%s", sBuf);
 		}
@@ -4166,9 +4171,9 @@ public Action:Event_ControlPointCaptured_Pre(Handle:event, const String:name[], 
 		int m_iTeam = GetClientTeam(client);
 		if (IsFakeClient(client) && m_iTeam == TEAM_2_INS)
 		{
-			g_badSpawnPos_Track[client][0] = 0;
-			g_badSpawnPos_Track[client][1] = 0;
-			g_badSpawnPos_Track[client][2] = 0;
+			g_badSpawnPos_Track[client][0] = 0.0;
+			g_badSpawnPos_Track[client][1] = 0.0;
+			g_badSpawnPos_Track[client][2] = 0.0;
 		}
 	} 
 
@@ -4234,7 +4239,7 @@ public Action:Event_ControlPointCaptured_Pre(Handle:event, const String:name[], 
 		
 	}
 	// Set counter attack duration to server
-	new Handle:cvar_ca_dur;
+	ConVar cvar_ca_dur;
 	
 
 
@@ -4264,7 +4269,7 @@ public Action:Event_ControlPointCaptured_Pre(Handle:event, const String:name[], 
 		if (g_iCvar_final_counterattack_type == 2)
 		{
 			new tCvar_CounterDelayValue = GetConVarInt(FindConVar("mp_checkpoint_counterattack_delay_finale"));
-			CreateTimer((tCvar_CounterDelayValue), Timer_FinaleCounterAssignLives, _);
+			CreateTimer(view_as<float>(tCvar_CounterDelayValue), Timer_FinaleCounterAssignLives, _);
 		}
 	}
 	// Normal counter attack
@@ -4291,8 +4296,8 @@ public Action:Event_ControlPointCaptured_Pre(Handle:event, const String:name[], 
 		SetConVarInt(cvar, 1, true, false);
 		if (largeCounterEnabled)
 		{
-			PrintHintTextToAll("´óÁ¿µÄµĞ¾üÕıÔÚ·´¹¥£¬×¼±¸ºÃ·ÀÊØ¼ì²éµã");
-			PrintToChatAll("´óÁ¿µÄµĞ¾üÕıÔÚ·´¹¥£¬×¼±¸ºÃ·ÀÊØ¼ì²éµã");
+			PrintHintTextToAll("å¤§é‡çš„æ•Œå†›æ­£åœ¨åæ”»ï¼Œå‡†å¤‡å¥½é˜²å®ˆæ£€æŸ¥ç‚¹");
+			PrintToChatAll("å¤§é‡çš„æ•Œå†›æ­£åœ¨åæ”»ï¼Œå‡†å¤‡å¥½é˜²å®ˆæ£€æŸ¥ç‚¹");
 		}
 
 
@@ -4302,12 +4307,12 @@ public Action:Event_ControlPointCaptured_Pre(Handle:event, const String:name[], 
 		
 		//Create Counter End Timer
 		g_isEliteCounter = 1;
-		CreateTimer((cvar_ca_dur + 1), Timer_CounterAttackEnd, _);
+		CreateTimer(view_as<float>(cvar_ca_dur.IntValue + 1.0), Timer_CounterAttackEnd);
 
 		if (g_elite_counter_attacks == 1)
 		{
 			EnableDisableEliteBotCvars(1, 0);
-			new tCvar = FindConVar("ins_bot_count_checkpoint_max");
+			ConVar tCvar = FindConVar("ins_bot_count_checkpoint_max");
 			new tCvarIntValue = GetConVarInt(FindConVar("ins_bot_count_checkpoint_max"));
 			tCvarIntValue += 3;
 			SetConVarInt(tCvar, tCvarIntValue, true, false);
@@ -4327,12 +4332,12 @@ public Action:Event_ControlPointCaptured_Pre(Handle:event, const String:name[], 
 		
 		//Create Counter End Timer
 		g_isEliteCounter = 1;
-		CreateTimer((cvar_ca_dur + 1), Timer_CounterAttackEnd, _);
+		CreateTimer(view_as<float>(cvar_ca_dur.IntValue + 1), Timer_CounterAttackEnd);
 
 		if (g_elite_counter_attacks == 1)
 		{
 			EnableDisableEliteBotCvars(1, 1);
-			new tCvar = FindConVar("ins_bot_count_checkpoint_max");
+			ConVar tCvar = FindConVar("ins_bot_count_checkpoint_max");
 			new tCvarIntValue = GetConVarInt(FindConVar("ins_bot_count_checkpoint_max"));
 			tCvarIntValue += 3;
 			SetConVarInt(tCvar, tCvarIntValue, true, false);
@@ -4411,8 +4416,8 @@ public Action:Event_ControlPointCaptured(Handle:event, const String:name[], bool
 								
 								nSupplyPoint += nRandSupplyReward;
 								nAvailableSupplyPoint += nRandSupplyReward;
-								PrintToChat(client, "\x04VIP\x01 ÒÑÕ¼Áì¼ì²éµã\nÄã±»½±ÀøÁË \x04%i\x01 µã²¹¸øµã", nRandSupplyReward);
-								PrintHintText(client,"VIPÕ¼ÁìÁË¼ì²éµã\n½±Àø %i µã²¹¸øµã", nRandSupplyReward);
+								PrintToChat(client, "\x04VIP\x01 å·²å é¢†æ£€æŸ¥ç‚¹\nä½ è¢«å¥–åŠ±äº† \x04%i\x01 ç‚¹è¡¥ç»™ç‚¹", nRandSupplyReward);
+								PrintHintText(client,"VIPå é¢†äº†æ£€æŸ¥ç‚¹\nå¥–åŠ± %i ç‚¹è¡¥ç»™ç‚¹", nRandSupplyReward);
 							}
 
 							//Set client nSupplyPoint
@@ -4537,9 +4542,9 @@ public Action:Event_ObjectDestroyed_Pre(Handle:event, const String:name[], bool:
 		int m_iTeam = GetClientTeam(client);
 		if (IsFakeClient(client) && m_iTeam == TEAM_2_INS)
 		{
-			g_badSpawnPos_Track[client][0] = 0;
-			g_badSpawnPos_Track[client][1] = 0;
-			g_badSpawnPos_Track[client][2] = 0;
+			g_badSpawnPos_Track[client][0] = 0.0;
+			g_badSpawnPos_Track[client][1] = 0.0;
+			g_badSpawnPos_Track[client][2] = 0.0;
 		}
 	} 
 
@@ -4604,7 +4609,7 @@ public Action:Event_ObjectDestroyed_Pre(Handle:event, const String:name[], bool:
 		largeCounterEnabled = true;
 	}
 	// Set counter attack duration to server
-	new Handle:cvar_ca_dur;
+	ConVar cvar_ca_dur;
 	
 	// Final counter attack
 	if ((acp+1) == ncp)
@@ -4642,8 +4647,8 @@ public Action:Event_ObjectDestroyed_Pre(Handle:event, const String:name[], bool:
 		SetConVarInt(cvar, 1, true, false);
 		if (largeCounterEnabled)
 		{
-			PrintHintTextToAll("´óÁ¿µÄµĞ¾üÕıÔÚ·´¹¥£¬×¼±¸ºÃ·ÀÊØ¼ì²éµã");
-			PrintToChatAll("´óÁ¿µÄµĞ¾üÕıÔÚ·´¹¥£¬×¼±¸ºÃ·ÀÊØ¼ì²éµã");
+			PrintHintTextToAll("å¤§é‡çš„æ•Œå†›æ­£åœ¨åæ”»ï¼Œå‡†å¤‡å¥½é˜²å®ˆæ£€æŸ¥ç‚¹");
+			PrintToChatAll("å¤§é‡çš„æ•Œå†›æ­£åœ¨åæ”»ï¼Œå‡†å¤‡å¥½é˜²å®ˆæ£€æŸ¥ç‚¹");
 		}
 		g_AIDir_TeamStatus -= 5;
 		// Call music timer
@@ -4651,12 +4656,12 @@ public Action:Event_ObjectDestroyed_Pre(Handle:event, const String:name[], bool:
 
 		//Create Counter End Timer
 		g_isEliteCounter = 1;
-		CreateTimer((cvar_ca_dur + 1), Timer_CounterAttackEnd, _);
+		CreateTimer(view_as<float>(cvar_ca_dur.IntValue + 1), Timer_CounterAttackEnd);
 
 		if (g_elite_counter_attacks == 1)
 		{
 			EnableDisableEliteBotCvars(1, 0);
-			new tCvar = FindConVar("ins_bot_count_checkpoint_max");
+			ConVar tCvar = FindConVar("ins_bot_count_checkpoint_max");
 			new tCvarIntValue = GetConVarInt(FindConVar("ins_bot_count_checkpoint_max"));
 			tCvarIntValue += 3;
 			SetConVarInt(tCvar, tCvarIntValue, true, false);
@@ -4676,12 +4681,12 @@ public Action:Event_ObjectDestroyed_Pre(Handle:event, const String:name[], bool:
 		
 		//Create Counter End Timer
 		g_isEliteCounter = 1;
-		CreateTimer((cvar_ca_dur + 1), Timer_CounterAttackEnd, _);
+		CreateTimer(view_as<float>(cvar_ca_dur.IntValue + 1), Timer_CounterAttackEnd);
 
 		if (g_elite_counter_attacks == 1)
 		{
 			EnableDisableEliteBotCvars(1, 1);
-			new tCvar = FindConVar("ins_bot_count_checkpoint_max");
+			ConVar tCvar = FindConVar("ins_bot_count_checkpoint_max");
 			new tCvarIntValue = GetConVarInt(FindConVar("ins_bot_count_checkpoint_max"));
 			tCvarIntValue += 3;
 			SetConVarInt(tCvar, tCvarIntValue, true, false);
@@ -4708,8 +4713,8 @@ public Action:Event_ObjectDestroyed(Handle:event, const String:name[], bool:dont
 	{
 		g_huntCacheDestroyed = true;
 		//g_iReinforceTime = g_iReinforceTime + g_huntReinforceCacheAdd;
-		PrintHintTextToAll("¾ü±¸ÒÑ´İ»Ù£¬Çå³ıÊ£ÓàµĞÈË¶áÈ¡Ê¤Àû");
-		PrintToChatAll("¾ü±¸ÒÑ´İ»Ù£¬Çå³ıÊ£ÓàµĞÈË¶áÈ¡Ê¤Àû");
+		PrintHintTextToAll("å†›å¤‡å·²æ‘§æ¯ï¼Œæ¸…é™¤å‰©ä½™æ•Œäººå¤ºå–èƒœåˆ©");
+		PrintToChatAll("å†›å¤‡å·²æ‘§æ¯ï¼Œæ¸…é™¤å‰©ä½™æ•Œäººå¤ºå–èƒœåˆ©");
 		
 	}
 	// Checkpoint
@@ -4920,7 +4925,7 @@ public Action:Event_ObjectDestroyed_Post(Handle:event, const String:name[], bool
 //Command Actions START
 public Action:serverhelp(client, args) 
 { 
-	PrintToChat(client, "[·şÎñÆ÷°ïÖú] ä¯ÀÀ SERNIX.DYNU.COM (Ó¢ÎÄ°æ)À´»ñÈ¡±¾·şÎñÆ÷µÄ¸ü¶à×ÊÑ¶/Ö¸ÄÏ.");
+	PrintToChat(client, "[æœåŠ¡å™¨å¸®åŠ©] æµè§ˆ SERNIX.DYNU.COM (è‹±æ–‡ç‰ˆ)æ¥è·å–æœ¬æœåŠ¡å™¨çš„æ›´å¤šèµ„è®¯/æŒ‡å—.");
 	return Plugin_Handled;
 }
 //VIP Info Command (Credits: INS Server)
@@ -4946,7 +4951,7 @@ public Action:SquadSpawn(client, args)
 		StrContains(g_client_last_classstring[client], "gnalvl_teamleader_usmc") > -1 ||
 		StrContains(g_client_last_classstring[client], "Gnalvl_teamleader_recon_usmc") > -1) )
 	{
-		PrintToChat(client, "[Ğ¡¶Ó¸´»î] µ±ÄãÊÇ¶Ó³¤µÄÊ±ºò²»ÄÜÊ¹ÓÃ¸ÃÏµÍ³!");
+		PrintToChat(client, "[å°é˜Ÿå¤æ´»] å½“ä½ æ˜¯é˜Ÿé•¿çš„æ—¶å€™ä¸èƒ½ä½¿ç”¨è¯¥ç³»ç»Ÿ!");
 		g_squadSpawnEnabled[client] = 0;
 		return Plugin_Handled;
 	}
@@ -4954,12 +4959,12 @@ public Action:SquadSpawn(client, args)
 	if (g_squadSpawnEnabled[client] == 1)
 	{
 		g_squadSpawnEnabled[client] = 0;
-		PrintToChat(client, "[Ğ¡¶Ó¸´»î] Ğ¡¶Ó¸´»îÒÑ¹Ø±Õ!");
+		PrintToChat(client, "[å°é˜Ÿå¤æ´»] å°é˜Ÿå¤æ´»å·²å…³é—­!");
 	}
 	else
 	{
 		g_squadSpawnEnabled[client] = 1;
-		PrintToChat(client, "[Ğ¡¶Ó¸´»î] Ğ¡¶Ó¸´»îÒÑÆôÓÃ!");
+		PrintToChat(client, "[å°é˜Ÿå¤æ´»] å°é˜Ÿå¤æ´»å·²å¯ç”¨!");
 
 	}
 	return Plugin_Handled;
@@ -5109,9 +5114,9 @@ public Action:Timer_SquadSpawn_Notify(Handle:timer, any:data)
 			continue;
 
 		new iTeam = GetClientTeam(tClient);
-		if (g_squadSpawnEnabled[tClient] == 1 && iTeam == TEAM_1_SEC && !IsPlayerAlive(tClient) && (!StrContains(g_client_last_classstring[tClient], "Gnalvl_squadleader_usmc") > -1) &&
-			(!StrContains(g_client_last_classstring[tClient], "gnalvl_teamleader_usmc") > -1) &&
-			(!StrContains(g_client_last_classstring[tClient], "Gnalvl_teamleader_recon_usmc") > -1))
+		if (g_squadSpawnEnabled[tClient] == 1 && iTeam == TEAM_1_SEC && !IsPlayerAlive(tClient) && (StrContains(g_client_last_classstring[tClient], "Gnalvl_squadleader_usmc") > -1) &&
+			(StrContains(g_client_last_classstring[tClient], "gnalvl_teamleader_usmc") > -1) &&
+			(StrContains(g_client_last_classstring[tClient], "Gnalvl_teamleader_recon_usmc") > -1))
 		{
 			if (g_iRespawnTimeRemaining[tClient] > 0 && g_iSpawnTokens[tClient] > 0)
 			{
@@ -5172,17 +5177,17 @@ public Action:Timer_SquadSpawn_Notify(Handle:timer, any:data)
 	//If valid squad leader and valid teammate spawning print to chat
 	if (tSL_HasSpawner == 1)
 	{
-		Format(sNotifyLeader, sizeof(sNotifyLeader),"[Ğ¡¶Ó¸´»î] ÄãµÄ¶ÓÔ± %N ½«»áÔÚ %d Ãëºó½øĞĞÔöÔ®!", tSL_lowestClient, g_iRespawnTimeRemaining[tSL_lowestClient]);
+		Format(sNotifyLeader, sizeof(sNotifyLeader),"[å°é˜Ÿå¤æ´»] ä½ çš„é˜Ÿå‘˜ %N å°†ä¼šåœ¨ %d ç§’åè¿›è¡Œå¢æ´!", tSL_lowestClient, g_iRespawnTimeRemaining[tSL_lowestClient]);
 		PrintCenterText(tSquadLeader, sNotifyLeader);
 	}
 	if (tTL_HasSpawner == 1)
 	{
-		Format(sNotifyLeader, sizeof(sNotifyLeader),"[Ğ¡¶Ó¸´»î] ÄãµÄ¶ÓÔ± %N ½«»áÔÚ %d Ãëºó½øĞĞÔöÔ®!", tTL_lowestClient, g_iRespawnTimeRemaining[tTL_lowestClient]);
+		Format(sNotifyLeader, sizeof(sNotifyLeader),"[å°é˜Ÿå¤æ´»] ä½ çš„é˜Ÿå‘˜ %N å°†ä¼šåœ¨ %d ç§’åè¿›è¡Œå¢æ´!", tTL_lowestClient, g_iRespawnTimeRemaining[tTL_lowestClient]);
 		PrintCenterText(tTeamLeader, sNotifyLeader);
 	}
 	if (tRTL_HasSpawner == 1)
 	{
-		Format(sNotifyLeader, sizeof(sNotifyLeader),"[Ğ¡¶Ó¸´»î] ÄãµÄ¶ÓÔ± %N ½«»áÔÚ %d Ãëºó½øĞĞÔöÔ®!", tRTL_lowestClient, g_iRespawnTimeRemaining[tRTL_lowestClient]);
+		Format(sNotifyLeader, sizeof(sNotifyLeader),"[å°é˜Ÿå¤æ´»] ä½ çš„é˜Ÿå‘˜ %N å°†ä¼šåœ¨ %d ç§’åè¿›è¡Œå¢æ´!", tRTL_lowestClient, g_iRespawnTimeRemaining[tRTL_lowestClient]);
 		PrintCenterText(tReconTeamLeader, sNotifyLeader);
 	}
 
@@ -5241,7 +5246,7 @@ public GetSquadLeader(client)
 void EnableDisableEliteBotCvars(tEnabled, isFinale)
 {
 	new Float:tCvarFloatValue;
-	new Int:tCvarIntValue;
+	int tCvarIntValue;
 	new Handle:tCvar;
 	if (tEnabled == 1)
 	{
@@ -5283,8 +5288,8 @@ void EnableDisableEliteBotCvars(tEnabled, isFinale)
 
 		tCvar = FindConVar("bot_attack_aimtolerance_newthreat_amt");
 		tCvarIntValue = GetConVarInt(FindConVar("bot_attack_aimtolerance_newthreat_amt"));
-		tCvarIntValue = tCvarIntValue - g_bot_attack_aimtolerance_newthreat_amt_mult;
-		SetConVarFloat(tCvar, tCvarIntValue, true, false);
+		tCvarIntValue = tCvarIntValue - view_as<int>(g_bot_attack_aimtolerance_newthreat_amt_mult);
+		SetConVarFloat(tCvar, tCvarFloatValue, true, false);
 
 		tCvar = FindConVar("bot_aim_aimtracking_base");
 		tCvarFloatValue = GetConVarFloat(FindConVar("bot_aim_aimtracking_base"));
@@ -5353,8 +5358,8 @@ void EnableDisableEliteBotCvars(tEnabled, isFinale)
 
 public Action:cmd_kill(client, args) {
 	g_trackKillDeaths[client] += 1;
-	PrintToChatAll("\x05%N\x01 Ê¹ÓÃÁË×ÔÉ±ÃüÁî¡£Ê¹ÓÃ´ÎÊı£º%d | ×ÔÉ±Ë¢µ¯Ò©ÊÇ±»½ûÖ¹µÄĞĞÎª", client, g_trackKillDeaths[client]);
-	PrintToChat(client, "\x04 ÄãÊ¹ÓÃÃüÁî×ÔÉ±ÁË¡£Ê¹ÓÃ´ÎÊı£º%d", g_trackKillDeaths[client]);
+	PrintToChatAll("\x05%N\x01 ä½¿ç”¨äº†è‡ªæ€å‘½ä»¤ã€‚ä½¿ç”¨æ¬¡æ•°ï¼š%d | è‡ªæ€åˆ·å¼¹è¯æ˜¯è¢«ç¦æ­¢çš„è¡Œä¸º", client, g_trackKillDeaths[client]);
+	PrintToChat(client, "\x04 ä½ ä½¿ç”¨å‘½ä»¤è‡ªæ€äº†ã€‚ä½¿ç”¨æ¬¡æ•°ï¼š%d", g_trackKillDeaths[client]);
 	return Plugin_Handled;
 }
 // On finale counter attack, add lives back to insurgents to trigger unlimited respawns (this is redundant code now and may use for something else)
@@ -5402,36 +5407,36 @@ public Action:Timer_CounterAttackEnd(Handle:Timer)
 		//g_iReinforceTime = g_iReinforceTime_AD_Temp;
 		
 		// Reset respawn token
-		ResetInsurgencyLives();
-		if (g_iCvar_respawn_reset_type && g_isCheckpoint)
-			ResetSecurityLives();
+	ResetInsurgencyLives();
+	if (g_iCvar_respawn_reset_type && g_isCheckpoint)
+		ResetSecurityLives();
 		
 		// Stop counter-attack music
 		//StopCounterAttackMusic();
 		
 		// Reset variable
-		g_bIsCounterAttackTimerActive = false;
+	g_bIsCounterAttackTimerActive = false;
 		
-		new Handle:cvar = INVALID_HANDLE;
-		cvar = FindConVar("mp_checkpoint_counterattack_always");
-		SetConVarInt(cvar, 0, true, false);
+	new Handle:cvar = INVALID_HANDLE;
+	cvar = FindConVar("mp_checkpoint_counterattack_always");
+	SetConVarInt(cvar, 0, true, false);
 		
-		for (new client = 0; client < MaxClients; client++) {
-			if (!IsValidClient(client) || client <= 0)
-				continue;
-			if (!IsClientInGame(client))
-				continue;
-			int m_iTeam = GetClientTeam(client);
-			if (IsFakeClient(client) && m_iTeam == TEAM_2_INS)
-			{
-				g_badSpawnPos_Track[client][0] = 0;
-				g_badSpawnPos_Track[client][1] = 0;
-				g_badSpawnPos_Track[client][2] = 0;
-			}
-		} 
+	for (new client = 0; client < MaxClients; client++) {
+		if (!IsValidClient(client) || client <= 0)
+			continue;
+		if (!IsClientInGame(client))
+			continue;
+		int m_iTeam = GetClientTeam(client);
+		if (IsFakeClient(client) && m_iTeam == TEAM_2_INS)
+		{
+			g_badSpawnPos_Track[client][0] = 0.0;
+			g_badSpawnPos_Track[client][1] = 0.0;
+			g_badSpawnPos_Track[client][2] = 0.0;
+		}
+	} 
 
 		//PrintToServer("[RESPAWN] Counter-attack is over.");
-		return Plugin_Stop;
+	return Plugin_Stop;
 	//}
 	
 	//return Plugin_Continue;
@@ -5457,9 +5462,9 @@ void ResetSecurityLives()
 	// Disable if counquer
 	//if (g_isConquer == 1 || g_isOutpost == 1) return;
 		// The number of control points
-	new ncp = Ins_ObjectiveResource_GetProp("m_iNumControlPoints");
+	//new ncp = Ins_ObjectiveResource_GetProp("m_iNumControlPoints");
 	// Active control poin
-	new acp = Ins_ObjectiveResource_GetProp("m_nActivePushPointIndex");
+	//new acp = Ins_ObjectiveResource_GetProp("m_nActivePushPointIndex");
 
 
 	// Return if respawn is disabled
@@ -5599,35 +5604,35 @@ public Action:Event_PlayerPickSquad_Post( Handle:event, const String:name[], boo
 	// class Tag
 	if (StrContains(g_client_last_classstring[client], "medic") > -1)
 	{
-		NP_Users_SetTag(client, "Ò½ÁÆ");
+		NP_Users_SetTag(client, "åŒ»ç–—");
 	}
 	else if (StrContains(g_client_last_classstring[client], "engineer") > -1)
 	{
-		NP_Users_SetTag(client, "¹¤³Ì");
+		NP_Users_SetTag(client, "å·¥ç¨‹");
 	}
 	else if (StrContains(g_client_last_classstring[client], "leader") > -1)
 	{
-		NP_Users_SetTag(client, "¶Ó³¤");
+		NP_Users_SetTag(client, "é˜Ÿé•¿");
 	}
 	else if (StrContains(g_client_last_classstring[client], "marksman") > -1)
 	{
-		NP_Users_SetTag(client, "¾Ñ»÷");
+		NP_Users_SetTag(client, "ç‹™å‡»");
 	}
 	else if (StrContains(g_client_last_classstring[client], "spotter") > -1)
 	{
-		NP_Users_SetTag(client, "ÉñÉä");
+		NP_Users_SetTag(client, "ç¥å°„");
 	}
 	else if (StrContains(g_client_last_classstring[client], "pointman") > -1)
 	{
-		NP_Users_SetTag(client, "²½Ç¹(¶¨µã)");
+		NP_Users_SetTag(client, "æ­¥æª(å®šç‚¹)");
 	}
 	else if (StrContains(g_client_last_classstring[client], "support") > -1)
 	{
-		NP_Users_SetTag(client, "»úÇ¹");
+		NP_Users_SetTag(client, "æœºæª");
 	}
 	else if (StrContains(g_client_last_classstring[client], "rifleman_at") > -1)
 	{
-		NP_Users_SetTag(client, "²½Ç¹(AT)");
+		NP_Users_SetTag(client, "æ­¥æª(AT)");
 	}
 	else if (StrContains(g_client_last_classstring[client], "vip") > -1)
 	{
@@ -5929,7 +5934,7 @@ public Action:Event_PlayerDeath(Handle:event, const String:name[], bool:dontBroa
 	// Get player ID
 	new client = GetClientOfUserId(GetEventInt(event, "userid"));
 	
-    g_iPlayerBGroups[client] = GetEntProp(client, Prop_Send, "m_nBody");
+	g_iPlayerBGroups[client] = GetEntProp(client, Prop_Send, "m_nBody");
 
 	//PrintToServer("BodyGroups: %d", g_iPlayerBGroups[client]);
 
@@ -6043,7 +6048,7 @@ public Action:Event_PlayerDeath(Handle:event, const String:name[], bool:dontBroa
 					{
 						// Cannot respawn anymore
 						decl String:sChat[128];
-						Format(sChat, 128,"Äã²»ÄÜ±»¸´»îÁË£¨ÓàÃüºÄ¾¡£©");
+						Format(sChat, 128,"ä½ ä¸èƒ½è¢«å¤æ´»äº†ï¼ˆä½™å‘½è€—å°½ï¼‰");
 						PrintToChat(client, "%s", sChat);
 					}
 				}
@@ -6086,7 +6091,7 @@ public Action:Event_PlayerDeath(Handle:event, const String:name[], bool:dontBroa
 				{
 					// Cannot respawn anymore
 					decl String:sChat[128];
-					Format(sChat, 128,"Äã²»ÄÜ±»¸´»îÁË£¨ÓàÃüºÄ¾¡£©");
+					Format(sChat, 128,"ä½ ä¸èƒ½è¢«å¤æ´»äº†ï¼ˆä½™å‘½è€—å°½ï¼‰");
 					PrintToChat(client, "%s", sChat);
 				}
 			}
@@ -6101,7 +6106,7 @@ public Action:Event_PlayerDeath(Handle:event, const String:name[], bool:dontBroa
 				{
 					// Cannot respawn anymore
 					decl String:sChat[128];
-					Format(sChat, 128,"Äã²»ÄÜ±»¸´»îÁË£¨ÓàÃüºÄ¾¡£©");
+					Format(sChat, 128,"ä½ ä¸èƒ½è¢«å¤æ´»äº†ï¼ˆä½™å‘½è€—å°½ï¼‰");
 					PrintToChat(client, "%s", sChat);
 				}
 			}
@@ -6118,34 +6123,34 @@ public Action:Event_PlayerDeath(Handle:event, const String:name[], bool:dontBroa
 	decl String:fatal_hint[64];
 	decl String:woundType[64];
 	if (g_playerWoundType[client] == 0)
-		woundType = "ÇáÉË";
+		woundType = "è½»ä¼¤";
 	else if (g_playerWoundType[client] == 1)
-		woundType = "ÖĞ¶ÈÉË";
+		woundType = "ä¸­åº¦ä¼¤";
 	else if (g_playerWoundType[client] == 2)
-		woundType = "ÖØÉË";
+		woundType = "é‡ä¼¤";
 
 		// Display death message
-		if (g_fCvar_fatal_chance > 0.0)
+	if (g_fCvar_fatal_chance > 0.0)
+	{
+		if (g_iHurtFatal[client] == 1 && !IsFakeClient(client))
 		{
-			if (g_iHurtFatal[client] == 1 && !IsFakeClient(client))
-			{
-				Format(fatal_hint, 255,"ÄãËÀÓÚ %i µãÖÂÃüÉËº¦", g_clientDamageDone[client]);
-				PrintHintText(client, "%s", fatal_hint);
-				PrintToChat(client, "%s", fatal_hint);
-			}
-			else
-			{
-				Format(wound_hint, 255,"ÄãÊÜµ½ %i µã %s £¬ÇëµÈ´ıÒ½ÁÆ±øµÄ¾ÈÔ®", g_clientDamageDone[client], woundType);
-				PrintHintText(client, "%s", wound_hint);
-				PrintToChat(client, "%s", wound_hint);
-			}
+			Format(fatal_hint, 255,"ä½ æ­»äº %i ç‚¹è‡´å‘½ä¼¤å®³", g_clientDamageDone[client]);
+			PrintHintText(client, "%s", fatal_hint);
+			PrintToChat(client, "%s", fatal_hint);
 		}
 		else
 		{
-			Format(wound_hint, 255,"ÄãÊÜµ½ %i µã %s £¬ÇëµÈ´ıÒ½ÁÆ±øµÄ¾ÈÔ®", g_clientDamageDone[client], woundType);
+			Format(wound_hint, 255,"ä½ å—åˆ° %i ç‚¹ %s ï¼Œè¯·ç­‰å¾…åŒ»ç–—å…µçš„æ•‘æ´", g_clientDamageDone[client], woundType);
 			PrintHintText(client, "%s", wound_hint);
 			PrintToChat(client, "%s", wound_hint);
 		}
+	}
+	else
+	{
+		Format(wound_hint, 255,"ä½ å—åˆ° %i ç‚¹ %s ï¼Œè¯·ç­‰å¾…åŒ»ç–—å…µçš„æ•‘æ´", g_clientDamageDone[client], woundType);
+		PrintHintText(client, "%s", wound_hint);
+		PrintToChat(client, "%s", wound_hint);
+	}
 	
 		
 	// Update remaining life
@@ -6270,8 +6275,8 @@ public CreateBotRespawnTimer(client)
 		(!Ins_InCounterAttack() && ((StrContains(g_client_last_classstring[client], "bomber") > -1) || 
 			(StrContains(g_client_last_classstring[client], "juggernaut") > -1)))) //make sure its a bot bomber
 	{
-		new fRandomFloat = GetRandomFloat(0, 1);
-		new tSpecRespawnDelay = 0;
+		//float fRandomFloat = GetRandomFloat(0.0, 1.0);
+		//new tSpecRespawnDelay = 0;
 
 		if (g_cqc_map_enabled == 1 && Ins_InCounterAttack())
 		{
@@ -6352,12 +6357,11 @@ public Action:RespawnPlayerRevive(Handle:Timer, any:client)
 	SDKCall(g_hForceRespawn, client);
 	
 	// If set 'sm_respawn_enable_track_ammo', restore player's ammo
-	 if (playerRevived[client] == true && g_iCvar_enable_track_ammo == 1)
-	 {
-	 	playerInRevivedState[client] = true;
+	if (playerRevived[client] == true && g_iCvar_enable_track_ammo == 1)
+	{
+		playerInRevivedState[client] = true;
 	 	//SetPlayerAmmo(client); //AmmoResupply_Player(client, 0, 0, 1);
-
-	 }		
+	}		
 	
 	//Set wound health
 	new iHealth = GetClientHealth(client);
@@ -6451,8 +6455,6 @@ public Action:RespawnPlayerCounter(Handle:Timer, any:client)
 	g_fRagdollPosition[client][1] = 0.0;
 	g_fRagdollPosition[client][2] = 0.0;
 }
-
-
 // Respawn bot
 public Action:RespawnBot(Handle:Timer, any:client)
 {
@@ -6593,20 +6595,20 @@ public Action:Timer_PlayerRespawn(Handle:Timer, any:client)
 					if (g_squadSpawnEnabled[client] == 1)
 					{
 						if (g_squadLeader[client] == -1)
-							Format(sRemainingTime, sizeof(sRemainingTime),"[Ğ¡¶Ó¸´»îÏµÍ³Æô¶¯|ÊäÈë /ss À´´ò¿ª/¹Ø±Õ´ËÏµÍ³] ÕâÊÇÄãÊ×´Î¼ÓÈëÕ½¶·. ÇÒĞ¡¶ÓÖĞÃ»ÓĞ¶Ó³¤! Äã½«ÔÚ %d ÃëºóÕı³£¸´»î (Ê£ÓàÉúÃü:%d) ", g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
+							Format(sRemainingTime, sizeof(sRemainingTime),"[å°é˜Ÿå¤æ´»ç³»ç»Ÿå¯åŠ¨|è¾“å…¥ /ss æ¥æ‰“å¼€/å…³é—­æ­¤ç³»ç»Ÿ] è¿™æ˜¯ä½ é¦–æ¬¡åŠ å…¥æˆ˜æ–—. ä¸”å°é˜Ÿä¸­æ²¡æœ‰é˜Ÿé•¿! ä½ å°†åœ¨ %d ç§’åæ­£å¸¸å¤æ´» (å‰©ä½™ç”Ÿå‘½:%d) ", g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
 						else if (IsValidClient(g_squadLeader[client]) && IsClientInGame(g_squadLeader[client]) && playerPickSquad[g_squadLeader[client]] == 1)
 						{	
 							if (Ins_InCounterAttack())
-								Format(sRemainingTime, sizeof(sRemainingTime),"[Ğ¡¶Ó¸´»îÏµÍ³Æô¶¯|ÊäÈë /ss À´´ò¿ª/¹Ø±Õ´ËÏµÍ³] ÕâÊÇÄãÊ×´Î¼ÓÈëÕ½¶·. µ±Ç°ÕıÔÚ½øĞĞ·´¹¥»ØºÏ! Äã½«ÔÚ %d ÃëºóÕı³£¸´»î (Ê£ÓàÉúÃü:%d) ", g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
+								Format(sRemainingTime, sizeof(sRemainingTime),"[å°é˜Ÿå¤æ´»ç³»ç»Ÿå¯åŠ¨|è¾“å…¥ /ss æ¥æ‰“å¼€/å…³é—­æ­¤ç³»ç»Ÿ] è¿™æ˜¯ä½ é¦–æ¬¡åŠ å…¥æˆ˜æ–—. å½“å‰æ­£åœ¨è¿›è¡Œåæ”»å›åˆ! ä½ å°†åœ¨ %d ç§’åæ­£å¸¸å¤æ´» (å‰©ä½™ç”Ÿå‘½:%d) ", g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
 							else if (IsPlayerAlive(g_squadLeader[client]))
-								Format(sRemainingTime, sizeof(sRemainingTime),"[Ğ¡¶Ó¸´»îÏµÍ³Æô¶¯|ÊäÈë /ss À´´ò¿ª/¹Ø±Õ´ËÏµÍ³] ÕâÊÇÄãÊ×´Î¼ÓÈëÕ½¶·. Äã½«ÔÚ %d ÃëºóÔÚ %N Éí±ß¸´»î (Ê£ÓàÉúÃü:%d) ", g_iRespawnTimeRemaining[client], g_squadLeader[client], g_iSpawnTokens[client]);
+								Format(sRemainingTime, sizeof(sRemainingTime),"[å°é˜Ÿå¤æ´»ç³»ç»Ÿå¯åŠ¨|è¾“å…¥ /ss æ¥æ‰“å¼€/å…³é—­æ­¤ç³»ç»Ÿ] è¿™æ˜¯ä½ é¦–æ¬¡åŠ å…¥æˆ˜æ–—. ä½ å°†åœ¨ %d ç§’ååœ¨ %N èº«è¾¹å¤æ´» (å‰©ä½™ç”Ÿå‘½:%d) ", g_iRespawnTimeRemaining[client], g_squadLeader[client], g_iSpawnTokens[client]);
 							else
-								Format(sRemainingTime, sizeof(sRemainingTime),"[Ğ¡¶Ó¸´»îÏµÍ³Æô¶¯|ÊäÈë /ss À´´ò¿ª/¹Ø±Õ´ËÏµÍ³] ÕâÊÇÄãÊ×´Î¼ÓÈëÕ½¶·. ¶Ó³¤: %N ÒÑ¾­ËÀÍö! Äã½«ÔÚ %d ÃëºóÕı³£¸´»î (Ê£ÓàÉúÃü:%d) ", g_squadLeader[client], g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
+								Format(sRemainingTime, sizeof(sRemainingTime),"[å°é˜Ÿå¤æ´»ç³»ç»Ÿå¯åŠ¨|è¾“å…¥ /ss æ¥æ‰“å¼€/å…³é—­æ­¤ç³»ç»Ÿ] è¿™æ˜¯ä½ é¦–æ¬¡åŠ å…¥æˆ˜æ–—. é˜Ÿé•¿: %N å·²ç»æ­»äº¡! ä½ å°†åœ¨ %d ç§’åæ­£å¸¸å¤æ´» (å‰©ä½™ç”Ÿå‘½:%d) ", g_squadLeader[client], g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
 						}
 
 					}
 					else
-						Format(sRemainingTime, sizeof(sRemainingTime),"[Ğ¡¶Ó¸´»îÏµÍ³Æô¶¯|ÊäÈë /ss À´´ò¿ª/¹Ø±Õ´ËÏµÍ³] ÕâÊÇÄãÊ×´Î¼ÓÈëÕ½¶·.  Äã½«ÔÚ %d Ãëºó¸´»î (Ê£ÓàÉúÃü:%d) ", g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
+						Format(sRemainingTime, sizeof(sRemainingTime),"[å°é˜Ÿå¤æ´»ç³»ç»Ÿå¯åŠ¨|è¾“å…¥ /ss æ¥æ‰“å¼€/å…³é—­æ­¤ç³»ç»Ÿ] è¿™æ˜¯ä½ é¦–æ¬¡åŠ å…¥æˆ˜æ–—.  ä½ å°†åœ¨ %d ç§’åå¤æ´» (å‰©ä½™ç”Ÿå‘½:%d) ", g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
 						
 					PrintCenterText(client, sRemainingTime);
 				}
@@ -6617,18 +6619,18 @@ public Action:Timer_PlayerRespawn(Handle:Timer, any:client)
 				new tIsFatal = false;
 				if (g_iHurtFatal[client] == 1)
 				{
-					woundType = "ÖÂÃüÉË";
+					woundType = "è‡´å‘½ä¼¤";
 					tIsFatal = true;
 				}
 				else
 				{
-					woundType = "ÉËº¦";
+					woundType = "ä¼¤å®³";
 					if (g_playerWoundType[client] == 0)
-						woundType = "ÇáÉË";
+						woundType = "è½»ä¼¤";
 					else if (g_playerWoundType[client] == 1)
-						woundType = "ÖĞ¶ÈÉË";
+						woundType = "ä¸­åº¦ä¼¤";
 					else if (g_playerWoundType[client] == 2)
-						woundType = "ÖØÉË";
+						woundType = "é‡ä¼¤";
 				}
 				// Print remaining time to center text area
 				if (!IsFakeClient(client))
@@ -6636,16 +6638,16 @@ public Action:Timer_PlayerRespawn(Handle:Timer, any:client)
 					if (g_squadSpawnEnabled[client] == 1)
 					{
 						if (g_squadLeader[client] == -1)
-								Format(sRemainingTime, sizeof(sRemainingTime),"[Ğ¡¶Ó¸´»îÏµÍ³Æô¶¯|ÊäÈë /ss À´´ò¿ª/¹Ø±Õ´ËÏµÍ³] ÄãÊÜµ½ %d µã %s | ÇëÄÍĞÄµÈ´ıÒ½ÁÆ±øµÄ¾ÈÔ®\n\n                Ğ¡¶ÓÖĞÃ»ÓĞ¶Ó³¤!Äã½«ÔÚ %d ÃëºóÕı³£¸´»î (Ê£ÓàÉúÃü:%d) ", g_clientDamageDone[client], woundType, g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
+								Format(sRemainingTime, sizeof(sRemainingTime),"[å°é˜Ÿå¤æ´»ç³»ç»Ÿå¯åŠ¨|è¾“å…¥ /ss æ¥æ‰“å¼€/å…³é—­æ­¤ç³»ç»Ÿ] ä½ å—åˆ° %d ç‚¹ %s | è¯·è€å¿ƒç­‰å¾…åŒ»ç–—å…µçš„æ•‘æ´\n\n                å°é˜Ÿä¸­æ²¡æœ‰é˜Ÿé•¿!ä½ å°†åœ¨ %d ç§’åæ­£å¸¸å¤æ´» (å‰©ä½™ç”Ÿå‘½:%d) ", g_clientDamageDone[client], woundType, g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
 						else if (IsValidClient(g_squadLeader[client]) && IsClientInGame(g_squadLeader[client]) && playerPickSquad[g_squadLeader[client]] == 1)
 						{
 
 							if (Ins_InCounterAttack())
-								Format(sRemainingTime, sizeof(sRemainingTime),"[Ğ¡¶Ó¸´»îÏµÍ³Æô¶¯|ÊäÈë /ss À´´ò¿ª/¹Ø±Õ´ËÏµÍ³] ÄãÊÜµ½ %d µã %s | ÇëÄÍĞÄµÈ´ıÒ½ÁÆ±øµÄ¾ÈÔ®\n\n                µ±Ç°ÕıÔÚ½øĞĞ·´¹¥»ØºÏ! Äã½«ÔÚ %d ÃëºóÕı³£¸´»î (Ê£ÓàÉúÃü:%d)  ", g_clientDamageDone[client], woundType, g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
+								Format(sRemainingTime, sizeof(sRemainingTime),"[å°é˜Ÿå¤æ´»ç³»ç»Ÿå¯åŠ¨|è¾“å…¥ /ss æ¥æ‰“å¼€/å…³é—­æ­¤ç³»ç»Ÿ] ä½ å—åˆ° %d ç‚¹ %s | è¯·è€å¿ƒç­‰å¾…åŒ»ç–—å…µçš„æ•‘æ´\n\n                å½“å‰æ­£åœ¨è¿›è¡Œåæ”»å›åˆ! ä½ å°†åœ¨ %d ç§’åæ­£å¸¸å¤æ´» (å‰©ä½™ç”Ÿå‘½:%d)  ", g_clientDamageDone[client], woundType, g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
 							else if (IsPlayerAlive(g_squadLeader[client]))
-								Format(sRemainingTime, sizeof(sRemainingTime),"[Ğ¡¶Ó¸´»îÏµÍ³Æô¶¯|ÊäÈë /ss À´´ò¿ª/¹Ø±Õ´ËÏµÍ³] ÄãÊÜµ½ %d µã %s | ÇëÄÍĞÄµÈ´ıÒ½ÁÆ±øµÄ¾ÈÔ®\n\n                Äã½«ÔÚ %d ÃëºóÔÚ %N Éí±ß¸´»î (Ê£ÓàÉúÃü:%d) ", g_clientDamageDone[client], woundType, g_iRespawnTimeRemaining[client], g_squadLeader[client], g_iSpawnTokens[client]);
+								Format(sRemainingTime, sizeof(sRemainingTime),"[å°é˜Ÿå¤æ´»ç³»ç»Ÿå¯åŠ¨|è¾“å…¥ /ss æ¥æ‰“å¼€/å…³é—­æ­¤ç³»ç»Ÿ] ä½ å—åˆ° %d ç‚¹ %s | è¯·è€å¿ƒç­‰å¾…åŒ»ç–—å…µçš„æ•‘æ´\n\n                ä½ å°†åœ¨ %d ç§’ååœ¨ %N èº«è¾¹å¤æ´» (å‰©ä½™ç”Ÿå‘½:%d) ", g_clientDamageDone[client], woundType, g_iRespawnTimeRemaining[client], g_squadLeader[client], g_iSpawnTokens[client]);
 							else
-								Format(sRemainingTime, sizeof(sRemainingTime),"[Ğ¡¶Ó¸´»îÏµÍ³Æô¶¯|ÊäÈë /ss À´´ò¿ª/¹Ø±Õ´ËÏµÍ³] ÄãÊÜµ½ %d µã %s | ÇëÄÍĞÄµÈ´ıÒ½ÁÆ±øµÄ¾ÈÔ®\n\n                ¶Ó³¤: %N ÒÑ¾­ËÀÍö! Äã½«ÔÚ %d ÃëºóÕı³£¸´»î (Ê£ÓàÉúÃü:%d)  ", g_clientDamageDone[client], woundType, g_squadLeader[client], g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
+								Format(sRemainingTime, sizeof(sRemainingTime),"[å°é˜Ÿå¤æ´»ç³»ç»Ÿå¯åŠ¨|è¾“å…¥ /ss æ¥æ‰“å¼€/å…³é—­æ­¤ç³»ç»Ÿ] ä½ å—åˆ° %d ç‚¹ %s | è¯·è€å¿ƒç­‰å¾…åŒ»ç–—å…µçš„æ•‘æ´\n\n                é˜Ÿé•¿: %N å·²ç»æ­»äº¡! ä½ å°†åœ¨ %d ç§’åæ­£å¸¸å¤æ´» (å‰©ä½™ç”Ÿå‘½:%d)  ", g_clientDamageDone[client], woundType, g_squadLeader[client], g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
 						}
 
 					}
@@ -6654,11 +6656,11 @@ public Action:Timer_PlayerRespawn(Handle:Timer, any:client)
 					{
 						if (tIsFatal)
 						{
-							Format(sRemainingTime, sizeof(sRemainingTime),"[Ğ¡¶Ó¸´»îÏµÍ³Æô¶¯|ÊäÈë /ss À´´ò¿ª/¹Ø±Õ´ËÏµÍ³] ÄãÊÜµ½ %d µã %s\n\n                Äã½«ÔÚ %d Ãëºó¸´»î (Ê£ÓàÉúÃü:%d) ", g_clientDamageDone[client], woundType, g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
+							Format(sRemainingTime, sizeof(sRemainingTime),"[å°é˜Ÿå¤æ´»ç³»ç»Ÿå¯åŠ¨|è¾“å…¥ /ss æ¥æ‰“å¼€/å…³é—­æ­¤ç³»ç»Ÿ] ä½ å—åˆ° %d ç‚¹ %s\n\n                ä½ å°†åœ¨ %d ç§’åå¤æ´» (å‰©ä½™ç”Ÿå‘½:%d) ", g_clientDamageDone[client], woundType, g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
 						}
 						else
 						{
-							Format(sRemainingTime, sizeof(sRemainingTime),"[Ğ¡¶Ó¸´»îÏµÍ³Æô¶¯|ÊäÈë /ss À´´ò¿ª/¹Ø±Õ´ËÏµÍ³] ÄãÊÜµ½ %d µã %s | ÇëÄÍĞÄµÈ´ıÒ½ÁÆ±øµÄ¾ÈÔ®\n\n                Äã½«ÔÚ %d Ãëºó¸´»î (Ê£ÓàÉúÃü:%d) ", g_clientDamageDone[client], woundType, g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
+							Format(sRemainingTime, sizeof(sRemainingTime),"[å°é˜Ÿå¤æ´»ç³»ç»Ÿå¯åŠ¨|è¾“å…¥ /ss æ¥æ‰“å¼€/å…³é—­æ­¤ç³»ç»Ÿ] ä½ å—åˆ° %d ç‚¹ %s | è¯·è€å¿ƒç­‰å¾…åŒ»ç–—å…µçš„æ•‘æ´\n\n                ä½ å°†åœ¨ %d ç§’åå¤æ´» (å‰©ä½™ç”Ÿå‘½:%d) ", g_clientDamageDone[client], woundType, g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
 						}
 					}
 					PrintCenterText(client, sRemainingTime);
@@ -6692,10 +6694,10 @@ public Action:Timer_PlayerRespawn(Handle:Timer, any:client)
 			
 			// Print remaining time to center text area
 			if (!IsFakeClient(client))
-				PrintCenterText(client, "ÄãÒÑ¸´»î£¨Ê£ÓàÉúÃü£º%d£©", g_iSpawnTokens[client]);
+				PrintCenterText(client, "ä½ å·²å¤æ´»ï¼ˆå‰©ä½™ç”Ÿå‘½ï¼š%dï¼‰", g_iSpawnTokens[client]);
 
 			//Lets confirm squad spawn
-			new tSquadSpawned = false;
+			new bool:tSquadSpawned = false;
 
 			//Spawn on Squad Leader Action
 			if (!Ins_InCounterAttack() && g_squadSpawnEnabled[client] == 1 && g_squadLeader[client] != -1 && IsPlayerAlive(g_squadLeader[client]) && playerPickSquad[g_squadLeader[client]] == 1)
@@ -6705,7 +6707,7 @@ public Action:Timer_PlayerRespawn(Handle:Timer, any:client)
 					new Float:tSquadLeadPos[3];
 					GetClientAbsOrigin(g_squadLeader[client], tSquadLeadPos);
 					TeleportEntity(client, tSquadLeadPos, NULL_VECTOR, NULL_VECTOR);
-					PrintHintText(g_squadLeader[client], "%N Ğ¡¶Ó³ÉÔ±ÔÚÄãÕâÀï¸´»î!", client);
+					PrintHintText(g_squadLeader[client], "%N å°é˜Ÿæˆå‘˜åœ¨ä½ è¿™é‡Œå¤æ´»!", client);
 					tSquadSpawned = true;
 					g_AIDir_TeamStatus += 2;
 				}
@@ -6731,9 +6733,9 @@ public Action:Timer_PlayerRespawn(Handle:Timer, any:client)
 			if (!g_respawn_mode_team_sec)
 			{
 				if (g_squadSpawnEnabled[client] == 1 && tSquadSpawned == true)
-					PrintToChatAll("\x05%N\x01 Ğ¡¶Ó¸´»îÔÚ %N", client, g_squadLeader[client]);
+					PrintToChatAll("\x05%N\x01 å°é˜Ÿå¤æ´»åœ¨ %N", client, g_squadLeader[client]);
 				else
-					PrintToChatAll("\x05%N\x01 ÒÑ¸´»î", client);
+					PrintToChatAll("\x05%N\x01 å·²å¤æ´»", client);
 			}
 			// Reset variable
 			g_iPlayerRespawnTimerActive[client] = 0;
@@ -6833,18 +6835,18 @@ public Action:Timer_ReviveMonitor(Handle:timer, any:data)
 
 						decl String:woundType[64];
 						if (g_playerWoundType[iInjured] == 0)
-							woundType = "ÇáÉË";
+							woundType = "è½»ä¼¤";
 						else if (g_playerWoundType[iInjured] == 1)
-							woundType = "ÖĞ¶ÈÉË";
+							woundType = "ä¸­åº¦ä¼¤";
 						else if (g_playerWoundType[iInjured] == 2)
-							woundType = "ÖØÉË";
+							woundType = "é‡ä¼¤";
 
 						// Hint to iMedic
-						Format(sBuf, 255,"¾ÈÔ® %N £¬»¹Ê£ %i Ãë£¨%s£©", iInjured, g_iReviveRemainingTime[iInjured], woundType);
+						Format(sBuf, 255,"æ•‘æ´ %N ï¼Œè¿˜å‰© %i ç§’ï¼ˆ%sï¼‰", iInjured, g_iReviveRemainingTime[iInjured], woundType);
 						PrintHintText(iMedic, "%s", sBuf);
 						
 						// Hint to victim
-						Format(sBuf, 255,"%N ÕıÔÚ¾ÈÄã £¬»¹Ê£ %i Ãë£¨%s£©", iMedic, g_iReviveRemainingTime[iInjured], woundType);
+						Format(sBuf, 255,"%N æ­£åœ¨æ•‘ä½  ï¼Œè¿˜å‰© %i ç§’ï¼ˆ%sï¼‰", iMedic, g_iReviveRemainingTime[iInjured], woundType);
 						PrintHintText(iInjured, "%s", sBuf);
 						
 						// Decrease revive remaining time
@@ -6858,22 +6860,22 @@ public Action:Timer_ReviveMonitor(Handle:timer, any:data)
 					{	
 						decl String:woundType[64];
 						if (g_playerWoundType[iInjured] == 0)
-							woundType = "ÇáÉË";
+							woundType = "è½»ä¼¤";
 						else if (g_playerWoundType[iInjured] == 1)
-							woundType = "ÖĞ¶ÈÉË";
+							woundType = "ä¸­åº¦ä¼¤";
 						else if (g_playerWoundType[iInjured] == 2)
-							woundType = "ÖØÉË";
+							woundType = "é‡ä¼¤";
 
 						// Chat to all
-						Format(sBuf, 255,"\x05%N\x01 ¾ÈÆğÁË %s µÄ \x03%N", iMedic, woundType, iInjured);
+						Format(sBuf, 255,"\x05%N\x01 æ•‘èµ·äº† %s çš„ \x03%N", iMedic, woundType, iInjured);
 						PrintToChatAll("%s", sBuf);
 						
 						// Hint to iMedic
-						Format(sBuf, 255,"Äã¾ÈÆğÁË %s µÄ %N", woundType, iInjured);
+						Format(sBuf, 255,"ä½ æ•‘èµ·äº† %s çš„ %N", woundType, iInjured);
 						PrintHintText(iMedic, "%s", sBuf);
 						
 						// Hint to victim
-						Format(sBuf, 255,"%N ¾ÈÆğÁË %s µÄÄã", iMedic, woundType);
+						Format(sBuf, 255,"%N æ•‘èµ·äº† %s çš„ä½ ", iMedic, woundType);
 						PrintHintText(iInjured, "%s", sBuf);
 						
 						// Add kill bonus to iMedic
@@ -6894,7 +6896,7 @@ public Action:Timer_ReviveMonitor(Handle:timer, any:data)
 						new iReviveCap = GetConVarInt(sm_revive_cap_for_bonus);
 
 						// Hint to iMedic
-						Format(sBuf, 255,"Äã´Ó %s ÖĞ¾ÈÆğÁË \x04%N\x01 | ÔÚ½±Àø¸´»î´ÎÊıÇ°Äã»¹Òª¾ÈÆğ: \x04%d\x01 ÈË", woundType, iInjured, (iReviveCap - g_playerMedicRevivessAccumulated[iMedic]));
+						Format(sBuf, 255,"ä½ ä» %s ä¸­æ•‘èµ·äº† \x04%N\x01 | åœ¨å¥–åŠ±å¤æ´»æ¬¡æ•°å‰ä½ è¿˜è¦æ•‘èµ·: \x04%d\x01 äºº", woundType, iInjured, (iReviveCap - g_playerMedicRevivessAccumulated[iMedic]));
 						PrintHintText(iMedic, "%s", sBuf);
 						// Add score bonus to iMedic (doesn't work)
 						//iScore = GetPlayerScore(iMedic);
@@ -6994,17 +6996,17 @@ public Action:Timer_ReviveMonitor(Handle:timer, any:data)
 						{
 							decl String:woundType[64];
 							if (g_playerWoundType[iInjured] == 0)
-								woundType = "ÇáÉË";
+								woundType = "è½»ä¼¤";
 							else if (g_playerWoundType[iInjured] == 1)
-								woundType = "ÖĞ¶ÈÉË";
+								woundType = "ä¸­åº¦ä¼¤";
 							else if (g_playerWoundType[iInjured] == 2)
-								woundType = "ÖØÉË";
+								woundType = "é‡ä¼¤";
 							// Hint to NonMedic
-							Format(sBuf, 255,"¾ÈÔ® %N £¬»¹Ê£ %i Ãë£¨%s£©", iInjured, g_iReviveNonMedicRemainingTime[iInjured], woundType);
+							Format(sBuf, 255,"æ•‘æ´ %N ï¼Œè¿˜å‰© %i ç§’ï¼ˆ%sï¼‰", iInjured, g_iReviveNonMedicRemainingTime[iInjured], woundType);
 							PrintHintText(iMedic, "%s", sBuf);
 							
 							// Hint to victim
-							Format(sBuf, 255,"%N ÕıÔÚ¾ÈÄã £¬»¹Ê£ %i Ãë£¨%s£©", iMedic, g_iReviveNonMedicRemainingTime[iInjured], woundType);
+							Format(sBuf, 255,"%N æ­£åœ¨æ•‘ä½  ï¼Œè¿˜å‰© %i ç§’ï¼ˆ%sï¼‰", iMedic, g_iReviveNonMedicRemainingTime[iInjured], woundType);
 							PrintHintText(iInjured, "%s", sBuf);
 							
 							// Decrease revive remaining time
@@ -7029,22 +7031,22 @@ public Action:Timer_ReviveMonitor(Handle:timer, any:data)
 					{	
 						decl String:woundType[64];
 						if (g_playerWoundType[iInjured] == 0)
-							woundType = "ÇáÉË";
+							woundType = "è½»ä¼¤";
 						else if (g_playerWoundType[iInjured] == 1)
-							woundType = "ÖĞ¶ÈÉË";
+							woundType = "ä¸­åº¦ä¼¤";
 						else if (g_playerWoundType[iInjured] == 2)
-							woundType = "ÖØÉË";
+							woundType = "é‡ä¼¤";
 
 						// Chat to all
-						Format(sBuf, 255,"\x05%N\x01 ¾ÈÆğÁË %s µÄ \x03%N", iMedic, woundType, iInjured);
+						Format(sBuf, 255,"\x05%N\x01 æ•‘èµ·äº† %s çš„ \x03%N", iMedic, woundType, iInjured);
 						PrintToChatAll("%s", sBuf);
 						
 						// Hint to iMedic
-						Format(sBuf, 255,"Äã¾ÈÆğÁË %s µÄ %N", woundType, iInjured);
+						Format(sBuf, 255,"ä½ æ•‘èµ·äº† %s çš„ %N", woundType, iInjured);
 						PrintHintText(iMedic, "%s", sBuf);
 						
 						// Hint to victim
-						Format(sBuf, 255,"%N ¾ÈÆğÁË %s µÄÄã", iMedic, woundType);
+						Format(sBuf, 255,"%N æ•‘èµ·äº† %s çš„ä½ ", iMedic, woundType);
 						PrintHintText(iInjured, "%s", sBuf);
 						
 						// Add kill bonus to iMedic
@@ -7064,7 +7066,7 @@ public Action:Timer_ReviveMonitor(Handle:timer, any:data)
 						new iReviveCap = GetConVarInt(sm_revive_cap_for_bonus);
 
 						// Hint to iMedic
-						Format(sBuf, 255,"Äã´Ó %s ÖĞĞ­Öú¾ÈÆğÁË %N | ÔÚ½±Àø¸´»î´ÎÊıÇ°Äã»¹Òª¾ÈÆğ: %d ÈË", woundType, iInjured, (iReviveCap - g_playerMedicRevivessAccumulated[iMedic]));
+						Format(sBuf, 255,"ä½ ä» %s ä¸­ååŠ©æ•‘èµ·äº† %N | åœ¨å¥–åŠ±å¤æ´»æ¬¡æ•°å‰ä½ è¿˜è¦æ•‘èµ·: %d äºº", woundType, iInjured, (iReviveCap - g_playerMedicRevivessAccumulated[iMedic]));
 						PrintHintText(iMedic, "%s", sBuf);
 						// Add score bonus to iMedic (doesn't work)
 						//iScore = GetPlayerScore(iMedic);
@@ -7078,7 +7080,7 @@ public Action:Timer_ReviveMonitor(Handle:timer, any:data)
 							//if (iBonus > 1)
 							//	Format(sBuf2, 255,"Awarded %i kills and %i score for revive", iBonus, 10);
 							//else
-							Format(sBuf2, 255,"Äã¾ÈÆğÁË %d ÃûÍæ¼Ò,ÄãµÄ¿É¸´»î´ÎÊıÔö¼ÓÁË %i", iReviveCap, 1);
+							Format(sBuf2, 255,"ä½ æ•‘èµ·äº† %d åç©å®¶,ä½ çš„å¯å¤æ´»æ¬¡æ•°å¢åŠ äº† %i", iReviveCap, 1);
 							PrintToChat(iMedic, "%s", sBuf2);
 						}
 
@@ -7187,7 +7189,7 @@ public Action:Timer_MedicMonitor(Handle:timer)
 							// if (iBonus > 1)
 							// 	Format(sBuf2, 255,"Awarded %i kills for healing %i in HP of other players.", iBonus, iHealthCap);
 							// else
-							Format(sBuf2, 255,"ÄãµÄÀÛ¼ÆÖÎÁÆÑªÁ¿´ïµ½ÁË %d µã,ÄãµÄ¿É¸´»î´ÎÊıÔö¼ÓÁË %i.", iHealthCap, 1);
+							Format(sBuf2, 255,"ä½ çš„ç´¯è®¡æ²»ç–—è¡€é‡è¾¾åˆ°äº† %d ç‚¹,ä½ çš„å¯å¤æ´»æ¬¡æ•°å¢åŠ äº† %i.", iHealthCap, 1);
 							
 							PrintToChat(medic, "%s", sBuf2);
 						}
@@ -7202,20 +7204,20 @@ public Action:Timer_MedicMonitor(Handle:timer)
 
 							iHealth = 100;
 							//Client_PrintToChatAll(false, "{OG}%N{N} healed {OG}%N", medic, iTarget);
-							PrintToChatAll("\x05%N\x01 ÖÎÁÆÁË \x05%N", medic, iTarget);
-							PrintHintText(iTarget, "Äã±» %N ÖÎÁÆ(HP: %i)", medic, iHealth);
+							PrintToChatAll("\x05%N\x01 æ²»ç–—äº† \x05%N", medic, iTarget);
+							PrintHintText(iTarget, "ä½ è¢« %N æ²»ç–—(HP: %i)", medic, iHealth);
 							decl String:sBuf[255];
-							Format(sBuf, 255,"ÄãÍêÈ«ÖÎÁÆÁË \x04%N\x01 | ÔÚ½±Àø¸´»î´ÎÊıÇ°Äã»¹ÓĞ \x04%d\x01 µãĞèÒªÖÎÁÆ", iTarget, (iHealthCap - g_playerMedicHealsAccumulated[medic]));
+							Format(sBuf, 255,"ä½ å®Œå…¨æ²»ç–—äº† \x04%N\x01 | åœ¨å¥–åŠ±å¤æ´»æ¬¡æ•°å‰ä½ è¿˜æœ‰ \x04%d\x01 ç‚¹éœ€è¦æ²»ç–—", iTarget, (iHealthCap - g_playerMedicHealsAccumulated[medic]));
 							PrintHintText(medic, "%s", sBuf);
 							PrintToChat(medic, "%s", sBuf);
 						}
 						else
 						{
-							PrintHintText(iTarget, "²»ÒªÒÆ¶¯£¬%N ÕıÔÚÖÎÁÆÄã(HP: %i)", medic, iHealth);
+							PrintHintText(iTarget, "ä¸è¦ç§»åŠ¨ï¼Œ%N æ­£åœ¨æ²»ç–—ä½ (HP: %i)", medic, iHealth);
 						}
 						
 						SetEntityHealth(iTarget, iHealth);
-						PrintHintText(medic, "%N\nHP: %i\n\nÕıÔÚÊ¹ÓÃ³ı²üÆ÷ÖÎÁÆ: %i", iTarget, iHealth, g_iHeal_amount_paddles);
+						PrintHintText(medic, "%N\nHP: %i\n\næ­£åœ¨ä½¿ç”¨é™¤é¢¤å™¨æ²»ç–—: %i", iTarget, iHealth, g_iHeal_amount_paddles);
 					}
 					else
 					{
@@ -7242,7 +7244,7 @@ public Action:Timer_MedicMonitor(Handle:timer)
 							// if (iBonus > 1)
 							// 	Format(sBuf2, 255,"Awarded %i kills for healing %i in HP of other players.", iBonus, iHealthCap);
 							// else
-							Format(sBuf2, 255,"ÄãµÄÀÛ¼ÆÖÎÁÆÑªÁ¿´ïµ½ÁË %d µã,ÄãµÄ¿É¸´»î´ÎÊıÔö¼ÓÁË %i.", 1, iHealthCap);
+							Format(sBuf2, 255,"ä½ çš„ç´¯è®¡æ²»ç–—è¡€é‡è¾¾åˆ°äº† %d ç‚¹,ä½ çš„å¯å¤æ´»æ¬¡æ•°å¢åŠ äº† %i.", 1, iHealthCap);
 							
 							PrintToChat(medic, "%s", sBuf2);
 						}
@@ -7257,20 +7259,20 @@ public Action:Timer_MedicMonitor(Handle:timer)
 							iHealth = 100;
 							
 							//Client_PrintToChatAll(false, "{OG}%N{N} healed {OG}%N", medic, iTarget);
-							PrintToChatAll("\x05%N\x01 ÖÎÁÆÁË \x05%N", medic, iTarget);
-							PrintHintText(iTarget, "Äã±» %N ÖÎÁÆ(HP: %i)", medic, iHealth);
+							PrintToChatAll("\x05%N\x01 æ²»ç–—äº† \x05%N", medic, iTarget);
+							PrintHintText(iTarget, "ä½ è¢« %N æ²»ç–—(HP: %i)", medic, iHealth);
 							decl String:sBuf[255];
-							Format(sBuf, 255,"ÄãÍêÈ«ÖÎÁÆÁË \x04%N\x01 | ÔÚ½±Àø¸´»î´ÎÊıÇ°Äã»¹ÓĞ \x04%d\x01 µãĞèÒªÖÎÁÆ", iTarget, (iHealthCap - g_playerMedicHealsAccumulated[medic]));
+							Format(sBuf, 255,"ä½ å®Œå…¨æ²»ç–—äº† \x04%N\x01 | åœ¨å¥–åŠ±å¤æ´»æ¬¡æ•°å‰ä½ è¿˜æœ‰ \x04%d\x01 ç‚¹éœ€è¦æ²»ç–—", iTarget, (iHealthCap - g_playerMedicHealsAccumulated[medic]));
 							PrintHintText(medic, "%s", sBuf);
 							PrintToChat(medic, "%s", sBuf);
 						}
 						else
 						{
-							PrintHintText(iTarget, "²»ÒªÒÆ¶¯£¬%N ÕıÔÚÖÎÁÆÄã(HP: %i)", medic, iHealth);
+							PrintHintText(iTarget, "ä¸è¦ç§»åŠ¨ï¼Œ%N æ­£åœ¨æ²»ç–—ä½ (HP: %i)", medic, iHealth);
 						}
 						
 						SetEntityHealth(iTarget, iHealth);
-						PrintHintText(medic, "%N\nHP: %i\n\nÊ¹ÓÃ¼±¾È°üÖÎÁÆ: %i", iTarget, iHealth, g_iHeal_amount_medPack);
+						PrintHintText(medic, "%N\nHP: %i\n\nä½¿ç”¨æ€¥æ•‘åŒ…æ²»ç–—: %i", iTarget, iHealth, g_iHeal_amount_medPack);
 					}
 					else
 					{
@@ -7314,11 +7316,11 @@ public Action:Timer_MedicMonitor(Handle:timer)
 						if (iHealth >= g_medicHealSelf_max)
 						{
 							iHealth = g_medicHealSelf_max;
-							PrintHintText(medic, "ÄãÖÎÁÆÁËÄã×Ô¼º (HP: %i) | ×î´ó: %i", iHealth, g_medicHealSelf_max);
+							PrintHintText(medic, "ä½ æ²»ç–—äº†ä½ è‡ªå·± (HP: %i) | æœ€å¤§: %i", iHealth, g_medicHealSelf_max);
 						}
 						else 
 						{
-							PrintHintText(medic, "×ÔĞĞÖÎÁÆÖĞ (HP: %i) | ×î´ó: %i", iHealth, g_medicHealSelf_max);
+							PrintHintText(medic, "è‡ªè¡Œæ²»ç–—ä¸­ (HP: %i) | æœ€å¤§: %i", iHealth, g_medicHealSelf_max);
 						}
 						SetEntityHealth(medic, iHealth);
 					}
@@ -7352,7 +7354,7 @@ public Action:Timer_MedicMonitor(Handle:timer)
 					if (tDistance < fReviveDistance && ClientCanSeeVector(medic, vecTargetPos, fReviveDistance))
 					{
 						// Check weapon
-						new ActiveWeapon = GetEntPropEnt(medic, Prop_Data, "m_hActiveWeapon");
+						ActiveWeapon = GetEntPropEnt(medic, Prop_Data, "m_hActiveWeapon");
 						if (ActiveWeapon < 0)
 							continue;
 
@@ -7405,21 +7407,21 @@ public Action:Timer_MedicMonitor(Handle:timer)
 								iHealth = g_nonMedic_maxHealOther;
 								
 								//Client_PrintToChatAll(false, "{OG}%N{N} healed {OG}%N", medic, iTarget);
-								//PrintToChatAll("\x05%N\x01 ÖÎÁÆÁË \x05%N", medic, iTarget);
-								PrintHintText(iTarget, "·ÇÒ½ÁÆ±ø %N Ö»ÄÜÖÎÁÆ %i µãÉúÃü", medic, iHealth);
+								//PrintToChatAll("\x05%N\x01 æ²»ç–—äº† \x05%N", medic, iTarget);
+								PrintHintText(iTarget, "éåŒ»ç–—å…µ %N åªèƒ½æ²»ç–— %i ç‚¹ç”Ÿå‘½", medic, iHealth);
 								
 								decl String:sBuf[255];
-								Format(sBuf, 255,"ÄãÒÑ¾­ÖÎÁÆÁË \x04%N\x01 | Äã»¹ÒªÖÎÁÆ \x04%d\x01 HPÀ´»ñµÃ¶îÍâµÄÉúÃü½±Àø", iTarget, (iHealthCap - g_playerNonMedicHealsAccumulated[medic]));
+								Format(sBuf, 255,"ä½ å·²ç»æ²»ç–—äº† \x04%N\x01 | ä½ è¿˜è¦æ²»ç–— \x04%d\x01 HPæ¥è·å¾—é¢å¤–çš„ç”Ÿå‘½å¥–åŠ±", iTarget, (iHealthCap - g_playerNonMedicHealsAccumulated[medic]));
 								PrintHintText(medic, "%s", sBuf);
 								PrintToChat(medic, "%s", sBuf);
 							}
 							else
 							{
-								PrintHintText(iTarget, "²»Òª¶¯£¬%N ÕıÔÚÖÎÁÆÄã(HP: %i)", medic, iHealth);
+								PrintHintText(iTarget, "ä¸è¦åŠ¨ï¼Œ%N æ­£åœ¨æ²»ç–—ä½ (HP: %i)", medic, iHealth);
 							}
 							
 							SetEntityHealth(iTarget, iHealth);
-							PrintHintText(medic, "%N\nHP: %i\n\nÖÎÁÆÖĞ", iTarget, iHealth);
+							PrintHintText(medic, "%N\nHP: %i\n\næ²»ç–—ä¸­", iTarget, iHealth);
 						}
 						else
 						{
@@ -7428,7 +7430,7 @@ public Action:Timer_MedicMonitor(Handle:timer)
 								PrintHintText(medic, "%N\nHP: %i", iTarget, iHealth);
 							}
 							else if (iHealth >= g_nonMedic_maxHealOther)
-								PrintHintText(medic, "%N\nHP: %i (ÄãÖ»ÄÜÖÎÁÆÕâÃ´¶àÁË)", iTarget, iHealth);
+								PrintHintText(medic, "%N\nHP: %i (ä½ åªèƒ½æ²»ç–—è¿™ä¹ˆå¤šäº†)", iTarget, iHealth);
 
 						}
 					}
@@ -7439,7 +7441,7 @@ public Action:Timer_MedicMonitor(Handle:timer)
 					new bool:bCanHealMedpack = false;
 					
 					// Check weapon
-					new ActiveWeapon = GetEntPropEnt(medic, Prop_Data, "m_hActiveWeapon");
+					ActiveWeapon = GetEntPropEnt(medic, Prop_Data, "m_hActiveWeapon");
 					if (ActiveWeapon < 0)
 						continue;
 					decl String:sWeapon[32];
@@ -7460,11 +7462,11 @@ public Action:Timer_MedicMonitor(Handle:timer)
 							if (iHealth >= g_nonMedicHealSelf_max)
 							{
 								iHealth = g_nonMedicHealSelf_max;
-								PrintHintText(medic, "ÄãÖÎÁÆÁËÄã×Ô¼º (HP: %i) | ×î´ó: %i", iHealth, g_nonMedicHealSelf_max);
+								PrintHintText(medic, "ä½ æ²»ç–—äº†ä½ è‡ªå·± (HP: %i) | æœ€å¤§: %i", iHealth, g_nonMedicHealSelf_max);
 							}
 							else
 							{
-								PrintHintText(medic, "×ÔĞĞÖÎÁÆÖĞ (HP: %i) | ×î´ó: %i", iHealth, g_nonMedicHealSelf_max);
+								PrintHintText(medic, "è‡ªè¡Œæ²»ç–—ä¸­ (HP: %i) | æœ€å¤§: %i", iHealth, g_nonMedicHealSelf_max);
 							}
 							
 							SetEntityHealth(medic, iHealth);
@@ -7494,40 +7496,41 @@ public Action:Timer_VIPCheck_Main(Handle:timer, any:data)
 	//Only count down if not in counter
 	if (!Ins_InCounterAttack() && g_vip_obj_count >= 0)
 		g_vip_obj_count--;
+	else
+		return Plugin_Continue;
 
 	//PrintToServer("[VIP] g_vip_obj_count: %i ", g_vip_obj_count);
 
 	decl String:textToPrintChat[128];
 	//decl String:textToPrint[64];
 	// Announce every 10 seconds
-	if (g_vip_obj_count > 0 && (g_vip_obj_count % 45 == 0 || g_vip_obj_count < 4 || g_vip_obj_count == 10 || g_vip_obj_count == 20))
+	if (g_vip_obj_count > 0 && (g_iCvar_vip_obj_time - g_vip_obj_count) % 10 == 0)
 	{				
 		
 		//Format(textToPrint, sizeof(textToPrint), "Capture point with VIP in %d second to receive bonus supply!", g_vip_obj_count);
-		Format(textToPrintChat, sizeof(textToPrintChat), "\x04VIP ±ØĞëÔÚ %d ÃëÄÚÕ¼Áì¼ì²éµãÀ´Îª¶ÓÎé»ñµÃ¶îÍâµÄ²¹¸øµã£¡", g_vip_obj_count);
-		PrintToChatAll("¿ÉÆÆ»µµÄÈÎÎñÄ¿±êÒ²¿ÉÒÔ»ñµÃµãÊı¡£");
+		Format(textToPrintChat, sizeof(textToPrintChat), "\x04VIP å¿…é¡»åœ¨ %d ç§’å†…å é¢†æ£€æŸ¥ç‚¹æ¥ä¸ºé˜Ÿä¼è·å¾—é¢å¤–çš„è¡¥ç»™ç‚¹ï¼", g_vip_obj_count);
+		PrintToChatAll("ç°åœ¨æ²¡æœ‰å¯ç ´åçš„ä»»åŠ¡ç›®æ ‡ã€‚");
 		PrintHintTextToAll(textToPrintChat);
 		PrintToChatAll(textToPrintChat);
 		if (g_nVIP_ID == 0)
 		{
-			Format(textToPrintChat, sizeof(textToPrintChat), "µ±Ç°¶ÓÎéÖĞÃ»ÓĞ \x04VIP\x01 | Õ¼Áì¼ì²éµã½«²»»á»ñµÃ¶îÍâµÄ²¹¸øµã¡£");
+			Format(textToPrintChat, sizeof(textToPrintChat), "å½“å‰é˜Ÿä¼ä¸­æ²¡æœ‰ \x04VIP\x01 | å é¢†æ£€æŸ¥ç‚¹å°†ä¸ä¼šè·å¾—é¢å¤–çš„è¡¥ç»™ç‚¹ã€‚");
 			//PrintHintTextToAll(textToPrint);
 			PrintToChatAll(textToPrintChat);
+			//PrintCenterText(textToPrintChat);
 		}
 	}
 	if (g_vip_obj_count == 0 && g_vip_obj_ready != 0)
 	{
-		g_vip_obj_ready = 0;
-		PrintHintTextToAll("\x04VIP Ã»ÓĞÔÚ %d ÃëÄÚÕ¼Áì¼ì²éµã£¬¸½¼ÓÈÎÎñÊ§°Ü¡£", g_iCvar_vip_obj_time);
-		PrintToChatAll("\x04VIP Ã»ÓĞÔÚ %d ÃëÄÚÕ¼Áì¼ì²éµã£¬¸½¼ÓÈÎÎñÊ§°Ü¡£", g_iCvar_vip_obj_time);
-
-		if (g_nVIP_ID == 0)
+		if (g_nVIP_ID != 0)
 		{
-			Format(textToPrintChat, sizeof(textToPrintChat), "µ±Ç°¶ÓÎéÖĞÃ»ÓĞ \x04VIP\x01 | Õ¼Áì¼ì²éµã½«²»»á»ñµÃ¶îÍâµÄ²¹¸øµã¡£");
-			//PrintHintTextToAll(textToPrint);
-			PrintToChatAll(textToPrintChat);
+			g_vip_obj_ready = 0;
+			PrintHintTextToAll("\x04VIP æ²¡æœ‰åœ¨ %d ç§’å†…å é¢†æ£€æŸ¥ç‚¹ï¼Œé™„åŠ ä»»åŠ¡å¤±è´¥ã€‚", g_iCvar_vip_obj_time);
+			PrintToChatAll("\x04VIP æ²¡æœ‰åœ¨ %d ç§’å†…å é¢†æ£€æŸ¥ç‚¹ï¼Œé™„åŠ ä»»åŠ¡å¤±è´¥ã€‚", g_iCvar_vip_obj_time);
 		}
 	}
+
+	return Plugin_Continue;
 }
 
 //Main AI Director Tick
@@ -7560,7 +7563,7 @@ public Action:Timer_AIDirector_Main(Handle:timer, any:data)
 		g_AIDir_ChangeCond_Counter = 0;
 		g_AIDir_ChangeCond_Rand = GetRandomInt(g_AIDir_ChangeCond_Min, g_AIDir_ChangeCond_Max);
 		PrintToServer("[AI_DIRECTOR] STATUS: %i | SetDifficulty CALLED", g_AIDir_TeamStatus);
-		AI_Director_SetDifficulty(g_AIDir_TeamStatus, g_AIDir_TeamStatus_max);
+		AI_Director_SetDifficulty();
 	}
 
 	if (g_AIDir_AmbushCond_Counter >= g_AIDir_AmbushCond_Rand)
@@ -7634,7 +7637,7 @@ public Action:Timer_AmmoResupply(Handle:timer, any:data)
 					}
 					decl String:sBuf[255];
 					// Hint to client
-					Format(sBuf, 255,"ÕıÔÚ²¹¸øµ¯Ò©: »¹ÓĞ %d Ãë | µ¯Ò©ÏäÊ£ÓàÊ¹ÓÃ´ÎÊı: %d", g_resupplyCounter[client], g_ammoResupplyAmt[validAmmoCache]);
+					Format(sBuf, 255,"æ­£åœ¨è¡¥ç»™å¼¹è¯: è¿˜æœ‰ %d ç§’ | å¼¹è¯ç®±å‰©ä½™ä½¿ç”¨æ¬¡æ•°: %d", g_resupplyCounter[client], g_ammoResupplyAmt[validAmmoCache]);
 					PrintHintText(client, "%s", sBuf);
 					if (g_resupplyCounter[client] <= 0)
 					{
@@ -7649,7 +7652,7 @@ public Action:Timer_AmmoResupply(Handle:timer, any:data)
 							if(validAmmoCache != -1)
 								AcceptEntityInput(validAmmoCache, "kill");
 						}
-						Format(sBuf, 255,"ÒÑÖØĞÂ²¹¸ø! µ¯Ò©ÏäÊ£ÓàÊ¹ÓÃ´ÎÊı: %d", g_ammoResupplyAmt[validAmmoCache]);
+						Format(sBuf, 255,"å·²é‡æ–°è¡¥ç»™! å¼¹è¯ç®±å‰©ä½™ä½¿ç”¨æ¬¡æ•°: %d", g_ammoResupplyAmt[validAmmoCache]);
 						
 						PrintHintText(client, "%s", sBuf);
 						PrintToChat(client, "%s", sBuf);
@@ -7669,7 +7672,7 @@ public AmmoResupply_Player(client, primaryRemove, secondaryRemove, grenadesRemov
 	new Float:tempOrigin[3];
 	GetClientAbsOrigin(client,plyrOrigin);
 	tempOrigin = plyrOrigin;
-	tempOrigin[2] = -5000;
+	tempOrigin[2] = -5000.0;
 
 	//TeleportEntity(client, tempOrigin, NULL_VECTOR, NULL_VECTOR);
 	//ForcePlayerSuicide(client);
@@ -7693,7 +7696,7 @@ public AmmoResupply_Player(client, primaryRemove, secondaryRemove, grenadesRemov
 	ForceRespawnPlayer(client, client);
 	TeleportEntity(client, plyrOrigin, NULL_VECTOR, NULL_VECTOR);
 	RemoveWeapons(client, primaryRemove, secondaryRemove, grenadesRemove);
-	PrintHintText(client, "µ¯Ò©ÒÑÖØĞÂ²¹¸ø!");
+	PrintHintText(client, "å¼¹è¯å·²é‡æ–°è¡¥ç»™!");
 	playerInRevivedState[client] = false;
 	// //Give back life
 	// new iDeaths = GetClientDeaths(client) - 1;
@@ -7746,7 +7749,6 @@ public RemoveWeapons(client, primaryRemove, secondaryRemove, grenadesRemove)
 //Find Valid Prop
 public FindValidProp_InDistance(client)
 {
-
 	new prop;
 	while ((prop = FindEntityByClassname(prop, "prop_dynamic_override")) != -1)
 	{
@@ -7801,7 +7803,7 @@ public Action:Timer_AmbientRadio(Handle:timer, any:data)
 			if (fRandomChance < 50)
 			{	
 				new Handle:hDatapack;
-				new fRandomFloat = GetRandomFloat(1.0, 30.0);
+				float fRandomFloat = GetRandomFloat(1.0, 30.0);
 				//CreateTimer(fRandomFloat, Timer_PlayAmbient);
 				CreateDataTimer(fRandomFloat, Timer_PlayAmbient, hDatapack);
 				WritePackCell(hDatapack, client);
@@ -7860,7 +7862,7 @@ public Action:Timer_NearestBody(Handle:timer, any:data)
 	
 	decl String:sDirection[64];
 	decl String:sDistance[64];
-    decl String:sHeight[6];
+	decl String:sHeight[6];
 
 	// Client loop
 	for (new medic = 1; medic <= MaxClients; medic++)
@@ -7929,11 +7931,11 @@ public Action:Timer_NearestBody(Handle:timer, any:data)
 				// Get distance string
 				sDistance = GetDistanceString(fNearestDistance);
 				// Get height string
-                sHeight = GetHeightString(fMedicPosition, fInjuredPosition);
+				sHeight = GetHeightString(fMedicPosition, fInjuredPosition);
 				
 				// Print iNearestInjured dead body's distance and direction text
 				//PrintCenterText(medic, "Nearest dead: %N (%s)", iNearestInjured, sDistance);
-				PrintCenterText(medic, "×î½üÉËÔ±£º%N ( %s | %s | %s )", iNearestInjured, sDistance, sDirection, sHeight);
+				PrintCenterText(medic, "æœ€è¿‘ä¼¤å‘˜ï¼š%N ( %s | %s | %s )", iNearestInjured, sDistance, sDirection, sHeight);
 				new Float:beamPos[3];
 				beamPos = fInjuredPosition;
 				beamPos[2] += 0.3;
@@ -8079,28 +8081,28 @@ String:GetDirectionString(Float:fClientAngles[3], Float:fClientPosition[3], Floa
 	// Now geht the direction
 	// Up
 	if (fDiff >= -22.5 && fDiff < 22.5)
-		Format(sDirection, sizeof(sDirection), "Ç°·½");//"\xe2\x86\x91");
+		Format(sDirection, sizeof(sDirection), "å‰æ–¹");//"\xe2\x86\x91");
 	// right up
 	else if (fDiff >= 22.5 && fDiff < 67.5)
-		Format(sDirection, sizeof(sDirection), "ÓÒÇ°");//"\xe2\x86\x97");
+		Format(sDirection, sizeof(sDirection), "å³å‰");//"\xe2\x86\x97");
 	// right
 	else if (fDiff >= 67.5 && fDiff < 112.5)
-		Format(sDirection, sizeof(sDirection), "ÓÒ²à");//"\xe2\x86\x92");
+		Format(sDirection, sizeof(sDirection), "å³ä¾§");//"\xe2\x86\x92");
 	// right down
 	else if (fDiff >= 112.5 && fDiff < 157.5)
-		Format(sDirection, sizeof(sDirection), "ÓÒºó");//"\xe2\x86\x98");
+		Format(sDirection, sizeof(sDirection), "å³å");//"\xe2\x86\x98");
 	// down
 	else if (fDiff >= 157.5 || fDiff < -157.5)
-		Format(sDirection, sizeof(sDirection), "ºó·½");//"\xe2\x86\x93");
+		Format(sDirection, sizeof(sDirection), "åæ–¹");//"\xe2\x86\x93");
 	// down left
 	else if (fDiff >= -157.5 && fDiff < -112.5)
-		Format(sDirection, sizeof(sDirection), "×óºó");//"\xe2\x86\x99");
+		Format(sDirection, sizeof(sDirection), "å·¦å");//"\xe2\x86\x99");
 	// left
 	else if (fDiff >= -112.5 && fDiff < -67.5)
-		Format(sDirection, sizeof(sDirection), "×ó²à");//"\xe2\x86\x90");
+		Format(sDirection, sizeof(sDirection), "å·¦ä¾§");//"\xe2\x86\x90");
 	// left up
 	else if (fDiff >= -67.5 && fDiff < -22.5)
-		Format(sDirection, sizeof(sDirection), "×óÇ°");//"\xe2\x86\x96");
+		Format(sDirection, sizeof(sDirection), "å·¦å‰");//"\xe2\x86\x96");
 	
 	return sDirection;
 }
@@ -8118,12 +8120,12 @@ String:GetDistanceString(Float:fDistance)
 		fTempDistance = fTempDistance * 3.2808399;
 
 		// Feet
-		Format(sResult, sizeof(sResult), "%.0f Ó¢³ß", fTempDistance);
+		Format(sResult, sizeof(sResult), "%.0f è‹±å°º", fTempDistance);
 	}
 	else
 	{
 		// Meter
-		Format(sResult, sizeof(sResult), "%.0f Ã×", fTempDistance);
+		Format(sResult, sizeof(sResult), "%.0f ç±³", fTempDistance);
 	}
 	
 	return sResult;
@@ -8142,15 +8144,15 @@ String:GetHeightString(Float:fClientPosition[3], Float:fTargetPosition[3])
 	
 	if (fClientPosition[2]+64 < fTargetPosition[2])
 	{
-		s = "ÉÏ·½";
+		s = "ä¸Šæ–¹";
 	}
 	else if (fClientPosition[2]-64 > fTargetPosition[2])
 	{
-		s = "ÏÂ·½";
+		s = "ä¸‹æ–¹";
 	}
 	else
 	{
-		s = "Ë®Æ½";
+		s = "æ°´å¹³";
 	}
 	
 	return s;
@@ -8883,7 +8885,7 @@ public FindValid_Antenna()
 // 		//PrintToServer("Last Connect SQL Error: %s", error);
 // 		return;
 // 	}
-    
+	
 // 	// Declare variables
 // 	decl RAscore;
 // 	decl RAkills;
@@ -9252,7 +9254,7 @@ public OnEntityDestroyed(entity)
 		{
 			g_ammoResupplyAmt[entity] = 0; 
 		}
-    }
+	}
 }
 
 public OnEntityCreated(entity, const String:classname[])
@@ -9342,9 +9344,12 @@ public Action:GrenadeScreamCheckTimer(Handle:timer, any:entity)
 	else
 		KillTimer(timer);
 
-	for (new client = 1;client <= MaxClients;client++)
+	for (int client = 1; client <= MaxClients; client++)
 	{
-		if (client <= 0 || !IsClientInGame(client) || !IsClientConnected(client))
+		if (client <= 0)
+			continue;
+
+		if(!IsClientInGame(client) || !IsClientConnected(client))
 			continue;
 
 		if (IsFakeClient(client))
@@ -9498,13 +9503,13 @@ public Action:Healthkit(Handle:timer, Handle:hDatapack)
 									{
 										//EmitSoundToAll("Lua_sounds/healthkit_complete.wav", client, SNDCHAN_STATIC, _, _, 1.0);
 										iHealth = 100;
-										PrintCenterText(client, "Ò½ÁÆ°üÊ£ÓàÁ¿£º%i", g_healthPack_Amount[entity]);
-										PrintHintText(client, "Ò½ÁÆÕıÔÚĞ­ÖúÖÎÁÆÄã(HP: %i)", iHealth);
+										PrintCenterText(client, "åŒ»ç–—åŒ…å‰©ä½™é‡ï¼š%i", g_healthPack_Amount[entity]);
+										PrintHintText(client, "åŒ»ç–—æ­£åœ¨ååŠ©æ²»ç–—ä½ (HP: %i)", iHealth);
 									}
 									else 
 									{
-										PrintCenterText(client, "Ò½ÁÆ°üÊ£Óà£º%i", g_healthPack_Amount[entity]);
-										PrintHintText(client, "ÈºÌåÖÎÁÆÇøÓòÕıÔÚÖÎÁÆÄã(HP: %i)", iHealth);
+										PrintCenterText(client, "åŒ»ç–—åŒ…å‰©ä½™ï¼š%i", g_healthPack_Amount[entity]);
+										PrintHintText(client, "ç¾¤ä½“æ²»ç–—åŒºåŸŸæ­£åœ¨æ²»ç–—ä½ (HP: %i)", iHealth);
 										switch(GetRandomInt(1, 6))
 										{
 											case 1: EmitSoundToAll("weapons/universal/uni_crawl_l_01.wav", client, SNDCHAN_VOICE, _, _, 1.0);
@@ -9543,27 +9548,27 @@ public Action:Healthkit(Handle:timer, Handle:hDatapack)
 									//PrintToServer("DEBUG 10");
 											//EmitSoundToAll("Lua_sounds/healthkit_complete.wav", client, SNDCHAN_STATIC, _, _, 1.0);
 											iHealth = g_nonMedicHealSelf_max;
-											PrintCenterText(client, "Ò½ÁÆ°üÊ£Óà£º%i", g_healthPack_Amount[entity]);
-											PrintHintText(client, "ÄãÖÎÁÆÁËÄã×Ô¼º (HP: %i) | ×î´ó: %i", iHealth, g_nonMedicHealSelf_max);
+											PrintCenterText(client, "åŒ»ç–—åŒ…å‰©ä½™ï¼š%i", g_healthPack_Amount[entity]);
+											PrintHintText(client, "ä½ æ²»ç–—äº†ä½ è‡ªå·± (HP: %i) | æœ€å¤§: %i", iHealth, g_nonMedicHealSelf_max);
 										}
 										else 
 										{
-											PrintCenterText(client, "Ò½ÁÆ°üÊ£Óà£º%i", g_healthPack_Amount[entity]);
-											PrintHintText(client, "×ÔĞĞÖÎÁÆÖĞ (HP: %i) | ×î´ó: %i", iHealth, g_nonMedicHealSelf_max);
+											PrintCenterText(client, "åŒ»ç–—åŒ…å‰©ä½™ï¼š%i", g_healthPack_Amount[entity]);
+											PrintHintText(client, "è‡ªè¡Œæ²»ç–—ä¸­ (HP: %i) | æœ€å¤§: %i", iHealth, g_nonMedicHealSelf_max);
 										}
 
 										SetEntityHealth(client, iHealth);
 									}
 									else 
 									{
-										PrintCenterText(client, "Ò½ÁÆ°üÊ£Óà£º%i", g_healthPack_Amount[entity]);
-										PrintHintText(client, "ÄãÖÎÁÆÁËÄã×Ô¼º (HP: %i) | ×î´ó: %i", iHealth, g_nonMedicHealSelf_max);
+										PrintCenterText(client, "åŒ»ç–—åŒ…å‰©ä½™ï¼š%i", g_healthPack_Amount[entity]);
+										PrintHintText(client, "ä½ æ²»ç–—äº†ä½ è‡ªå·± (HP: %i) | æœ€å¤§: %i", iHealth, g_nonMedicHealSelf_max);
 									}
 
 								}
 								else if (iHealth < g_nonMedicHealSelf_max && !(StrContains(sWeapon, "weapon_knife") > -1))
 								{
-										PrintHintText(client, "¸½½üÃ»ÓĞÒ½ÁÆ±ø£¬ÇëÄÃ³öØ°Ê×À´×Ô¾È (HP: %i)", iHealth);
+										PrintHintText(client, "é™„è¿‘æ²¡æœ‰åŒ»ç–—å…µï¼Œè¯·æ‹¿å‡ºåŒ•é¦–æ¥è‡ªæ•‘ (HP: %i)", iHealth);
 								}
 							}
 							
@@ -9571,7 +9576,7 @@ public Action:Healthkit(Handle:timer, Handle:hDatapack)
 					} //Medic assist area heal and self heal
 					else if ((StrContains(g_client_last_classstring[client], "medic") > -1))
 					{
-						 decl Float:fPlayerOrigin[3];
+						decl Float:fPlayerOrigin[3];
 						GetClientEyePosition(client, fPlayerOrigin);
 						if (GetVectorDistance(fPlayerOrigin, fOrigin) <= Healthkit_Radius)
 						{
@@ -9590,7 +9595,7 @@ public Action:Healthkit(Handle:timer, Handle:hDatapack)
 							// Get weapon class name
 							decl String:sWeapon[32];
 							GetEdictClassname(ActiveWeapon, sWeapon, sizeof(sWeapon));
-							new bool:bCanHealPaddle = false;
+							//new bool:bCanHealPaddle = false;
 							if (((StrContains(sWeapon, "weapon_defib") > -1) || (StrContains(sWeapon, "weapon_knife") > -1) || (StrContains(sWeapon, "weapon_kabar") > -1)))
 							{
 								//PrintToServer("DEBUG 3");
@@ -9607,13 +9612,13 @@ public Action:Healthkit(Handle:timer, Handle:hDatapack)
 										{
 											//EmitSoundToAll("Lua_sounds/healthkit_complete.wav", client, SNDCHAN_STATIC, _, _, 1.0);
 											iHealth = 100;
-											PrintCenterText(client, "Ò½ÁÆ°üÊ£Óà£º%i", g_healthPack_Amount[entity]);
-											PrintHintText(client, "Ò½ÁÆÕıÔÚĞ­ÖúÖÎÁÆÄã(HP: %i)", iHealth);
+											PrintCenterText(client, "åŒ»ç–—åŒ…å‰©ä½™ï¼š%i", g_healthPack_Amount[entity]);
+											PrintHintText(client, "åŒ»ç–—æ­£åœ¨ååŠ©æ²»ç–—ä½ (HP: %i)", iHealth);
 										}
 										else 
 										{
-											PrintCenterText(client, "Ò½ÁÆ°üÊ£Óà£º%i", g_healthPack_Amount[entity]);
-											PrintHintText(client, "×Ô¾ÈÇøÓòÖÎÁÆÖĞ (HP: %i)", iHealth);
+											PrintCenterText(client, "åŒ»ç–—åŒ…å‰©ä½™ï¼š%i", g_healthPack_Amount[entity]);
+											PrintHintText(client, "è‡ªæ•‘åŒºåŸŸæ²»ç–—ä¸­ (HP: %i)", iHealth);
 										}
 
 										SetEntityHealth(client, iHealth);
@@ -9629,19 +9634,19 @@ public Action:Healthkit(Handle:timer, Handle:hDatapack)
 										{
 											//EmitSoundToAll("Lua_sounds/healthkit_complete.wav", client, SNDCHAN_STATIC, _, _, 1.0);
 											iHealth = g_medicHealSelf_max;
-											PrintCenterText(client, "Ò½ÁÆ°üÊ£Óà£º%i", g_healthPack_Amount[entity]);
-											PrintHintText(client, "ÄãÊ¹ÓÃÁË×Ô¾ÈÇøÓòÖÎÁÆÁË×Ô¼º (HP: %i) | ×î´ó: %i", iHealth, g_medicHealSelf_max);
+											PrintCenterText(client, "åŒ»ç–—åŒ…å‰©ä½™ï¼š%i", g_healthPack_Amount[entity]);
+											PrintHintText(client, "ä½ ä½¿ç”¨äº†è‡ªæ•‘åŒºåŸŸæ²»ç–—äº†è‡ªå·± (HP: %i) | æœ€å¤§: %i", iHealth, g_medicHealSelf_max);
 										}
 										else 
 										{
-											PrintCenterText(client, "Ò½ÁÆ°üÊ£Óà£º%i", g_healthPack_Amount[entity]);
-											PrintHintText(client, "×Ô¾ÈÇøÓòÖÎÁÆÖĞ (HP: %i) | ×î´ó: %i", iHealth, g_medicHealSelf_max);
+											PrintCenterText(client, "åŒ»ç–—åŒ…å‰©ä½™ï¼š%i", g_healthPack_Amount[entity]);
+											PrintHintText(client, "è‡ªæ•‘åŒºåŸŸæ²»ç–—ä¸­ (HP: %i) | æœ€å¤§: %i", iHealth, g_medicHealSelf_max);
 										}
 									}
 									else 
 									{
-										PrintCenterText(client, "Ò½ÁÆ°üÊ£Óà£º%i", g_healthPack_Amount[entity]);
-										PrintHintText(client, "ÄãÖÎÁÆÁËÄã×Ô¼º (HP: %i) | ×î´ó: %i", iHealth, g_medicHealSelf_max);
+										PrintCenterText(client, "åŒ»ç–—åŒ…å‰©ä½™ï¼š%i", g_healthPack_Amount[entity]);
+										PrintHintText(client, "ä½ æ²»ç–—äº†ä½ è‡ªå·± (HP: %i) | æœ€å¤§: %i", iHealth, g_medicHealSelf_max);
 									}
 								}
 							}
@@ -9793,14 +9798,14 @@ public Check_NearbyMedicsRevive(client, iInjured)
 
 					decl String:woundType[64];
 					if (g_playerWoundType[iInjured] == 0)
-						woundType = "ÇáÉË";
+						woundType = "è½»ä¼¤";
 					else if (g_playerWoundType[iInjured] == 1)
-						woundType = "ÖĞ¶ÈÉË";
+						woundType = "ä¸­åº¦ä¼¤";
 					else if (g_playerWoundType[iInjured] == 2)
-						woundType = "ÖØÉË";
+						woundType = "é‡ä¼¤";
 					decl String:sBuf[255];
 					// Chat to all
-					Format(sBuf, 255,"\x05%N\x01 ´Ó %s ÖĞĞ­Öú¾ÈÆğÁË \x03%N", friendlyMedic, iInjured, woundType);
+					Format(sBuf, 255,"\x05%N\x01 ä» %s ä¸­ååŠ©æ•‘èµ·äº† \x03%N", friendlyMedic, iInjured, woundType);
 					PrintToChatAll("%s", sBuf);
 					
 					// Add kill bonus to friendlyMedic
@@ -9823,7 +9828,7 @@ public Check_NearbyMedicsRevive(client, iInjured)
 					g_playerMedicRevivessAccumulated[friendlyMedic]++;
 					new iReviveCap = GetConVarInt(sm_revive_cap_for_bonus);
 					// Hint to friendlyMedic
-					Format(sBuf, 255,"Äã´Ó %s ÖĞĞ­Öú¾ÈÆğÁË \x04%N\x01 | ÔÚ½±Àø¸´»î´ÎÊıÇ°Äã»¹Òª¾ÈÆğ: \x04%d\x01 ÈË", woundType, iInjured, (iReviveCap - g_playerMedicRevivessAccumulated[friendlyMedic]));
+					Format(sBuf, 255,"ä½ ä» %s ä¸­ååŠ©æ•‘èµ·äº† \x04%N\x01 | åœ¨å¥–åŠ±å¤æ´»æ¬¡æ•°å‰ä½ è¿˜è¦æ•‘èµ·: \x04%d\x01 äºº", woundType, iInjured, (iReviveCap - g_playerMedicRevivessAccumulated[friendlyMedic]));
 					PrintHintText(friendlyMedic, "%s", sBuf);
 
 					if (g_playerMedicRevivessAccumulated[friendlyMedic] >= iReviveCap)
@@ -9834,7 +9839,7 @@ public Check_NearbyMedicsRevive(client, iInjured)
 						// if (iBonus > 1)
 						// 	Format(sBuf2, 255,"Awarded %i kills and %i score for assisted revive", iBonus, 10);
 						// else
-						Format(sBuf2, 255,"Äã¾ÈÆğÁË %d ÃûÍæ¼Ò,ÄãµÄ¿É¸´»î´ÎÊıÔö¼ÓÁË %i", iReviveCap, 1);
+						Format(sBuf2, 255,"ä½ æ•‘èµ·äº† %d åç©å®¶,ä½ çš„å¯å¤æ´»æ¬¡æ•°å¢åŠ äº† %i", iReviveCap, 1);
 						PrintToChat(friendlyMedic, "%s", sBuf2);
 					}
 				}
@@ -9901,24 +9906,24 @@ stock Effect_SetMarkerAtPos(client,Float:pos[3],Float:intervall,color[4]){
 public Action Event_PlayerTeam(Handle event, const char[] name, bool dontBroadcast)
 {
 	
-		int client = GetClientOfUserId(GetEventInt(event, "userid"));
+	int client = GetClientOfUserId(GetEventInt(event, "userid"));
 
-		if (client > 0) // Check the client is not console/world?
-			if (IsValidClient(client))
+	if (client > 0) // Check the client is not console/world?
+		if (IsValidClient(client))
+		{
+			new m_iTeam = GetClientTeam(client);
+			if (!IsFakeClient(client) && m_iTeam == TEAM_SPEC)
 			{
-				new m_iTeam = GetClientTeam(client);
-				if (!IsFakeClient(client) && m_iTeam == TEAM_SPEC)
-				{
-					//remove network ragdoll associated with player
-					new playerRag = EntRefToEntIndex(g_iClientRagdolls[client]);
-					if(playerRag > 0 && IsValidEdict(playerRag) && IsValidEntity(playerRag))
-						RemoveRagdoll(client);
-				}
-				if((m_iTeam == TEAM_SPEC) && (client == g_nVIP_ID))
-				{
-					g_nVIP_ID = 0;
-				}
+				//remove network ragdoll associated with player
+				new playerRag = EntRefToEntIndex(g_iClientRagdolls[client]);
+				if(playerRag > 0 && IsValidEdict(playerRag) && IsValidEntity(playerRag))
+					RemoveRagdoll(client);
 			}
+			if((m_iTeam == TEAM_SPEC) && (client == g_nVIP_ID))
+			{
+				g_nVIP_ID = 0;
+			}
+		}
 
 	return Plugin_Continue;
 }
@@ -9933,14 +9938,15 @@ public AI_Director_ResetReinforceTimers()
 		g_iReinforceTime_AD_Temp = (g_AIDir_ReinforceTimer_Orig);
 		g_iReinforceTimeSubsequent_AD_Temp = (g_AIDir_ReinforceTimer_SubOrig);
 }
-public AI_Director_SetDifficulty(g_AIDir_TeamStatus, g_AIDir_TeamStatus_max) 
+
+public AI_Director_SetDifficulty() 
 {
 	AI_Director_ResetReinforceTimers();
 
 	//AI Director Local Scaling Vars
 	new 
 		AID_ReinfAdj_low = 10, AID_ReinfAdj_med = 20, AID_ReinfAdj_high = 30, AID_ReinfAdj_pScale = 0,
-		Float:AID_SpecDelayAdj_low = 10, Float:AID_SpecDelayAdj_med = 20, Float:AID_SpecDelayAdj_high = 30, Float:AID_SpecDelayAdj_pScale_Pro = 0, Float:AID_SpecDelayAdj_pScale_Con = 0,
+		Float:AID_SpecDelayAdj_low = 10.0, Float:AID_SpecDelayAdj_med = 20.0, Float:AID_SpecDelayAdj_high = 30.0,Float:AID_SpecDelayAdj_pScale_Pro = 0.0, Float:AID_SpecDelayAdj_pScale_Con = 0.0,
 		AID_AmbChance_vlow = 10, AID_AmbChance_low = 15, AID_AmbChance_med = 20, AID_AmbChance_high = 25, AID_AmbChance_pScale = 0;
 	new AID_SetDiffChance_pScale = 0;
 
@@ -9949,22 +9955,22 @@ public AI_Director_SetDifficulty(g_AIDir_TeamStatus, g_AIDir_TeamStatus_max)
 	if (tTeamSecCount <= 6)
 	{
 		AID_ReinfAdj_pScale = 8;
-		AID_SpecDelayAdj_pScale_Pro = 30;
-		AID_SpecDelayAdj_pScale_Con = 10;
+		AID_SpecDelayAdj_pScale_Pro = 30.0;
+		AID_SpecDelayAdj_pScale_Con = 10.0;
 	}
 	else if (tTeamSecCount >= 7 && tTeamSecCount <= 12)
 	{
 		AID_ReinfAdj_pScale = 4;
-		AID_SpecDelayAdj_pScale_Pro = 20;
-		AID_SpecDelayAdj_pScale_Con = 20;
+		AID_SpecDelayAdj_pScale_Pro = 20.0;
+		AID_SpecDelayAdj_pScale_Con = 20.0;
 		AID_AmbChance_pScale = 5;
 		AID_SetDiffChance_pScale = 5;
 	}
 	else if (tTeamSecCount >= 13)
 	{
 		AID_ReinfAdj_pScale = 8;
-		AID_SpecDelayAdj_pScale_Pro = 10;
-		AID_SpecDelayAdj_pScale_Con = 30;
+		AID_SpecDelayAdj_pScale_Pro = 10.0;
+		AID_SpecDelayAdj_pScale_Con = 30.0;
 		AID_AmbChance_pScale = 10;
 		AID_SetDiffChance_pScale = 10;
 	}
@@ -9998,8 +10004,8 @@ public AI_Director_SetDifficulty(g_AIDir_TeamStatus, g_AIDir_TeamStatus_max)
 
 		//Mod specialized bot spawn interval
 		g_fCvar_respawn_delay_team_ins_spec = ((cvarSpecDelay - AID_SpecDelayAdj_high) - AID_SpecDelayAdj_pScale_Con);
-		if (g_fCvar_respawn_delay_team_ins_spec <= 0)
-			g_fCvar_respawn_delay_team_ins_spec = 1;
+		if (g_fCvar_respawn_delay_team_ins_spec <= 0.0)
+			g_fCvar_respawn_delay_team_ins_spec = 1.0;
 
 		//DEBUG: Track Current Difficulty setting
 		g_AIDir_CurrDiff = 5;
@@ -10072,8 +10078,8 @@ public AI_Director_SetDifficulty(g_AIDir_TeamStatus, g_AIDir_TeamStatus_max)
 
 		//Mod specialized bot spawn interval
 		g_fCvar_respawn_delay_team_ins_spec = ((cvarSpecDelay - AID_SpecDelayAdj_med) - AID_SpecDelayAdj_pScale_Con);
-		if (g_fCvar_respawn_delay_team_ins_spec <= 0)
-			g_fCvar_respawn_delay_team_ins_spec = 1;
+		if (g_fCvar_respawn_delay_team_ins_spec <= 0.0)
+			g_fCvar_respawn_delay_team_ins_spec = 1.0;
 
 		//DEBUG: Track Current Difficulty setting
 		g_AIDir_CurrDiff = 3;
@@ -10092,8 +10098,8 @@ public AI_Director_SetDifficulty(g_AIDir_TeamStatus, g_AIDir_TeamStatus_max)
 
 		//Mod specialized bot spawn interval
 		g_fCvar_respawn_delay_team_ins_spec = ((cvarSpecDelay - AID_SpecDelayAdj_high) - AID_SpecDelayAdj_pScale_Con);
-		if (g_fCvar_respawn_delay_team_ins_spec <= 0)
-			g_fCvar_respawn_delay_team_ins_spec = 1;
+		if (g_fCvar_respawn_delay_team_ins_spec <= 0.0)
+			g_fCvar_respawn_delay_team_ins_spec = 1.0;
 
 		//DEBUG: Track Current Difficulty setting
 		g_AIDir_CurrDiff = 4;
@@ -10133,7 +10139,7 @@ public AI_Director_SetDifficulty(g_AIDir_TeamStatus, g_AIDir_TeamStatus_max)
 //          OnButtonPress(client, button, buttons); 
 //        }
 //    }
-      
+	  
 //      g_LastButtons[client] = buttons;
 //  }
 //    return Plugin_Continue;
@@ -10236,7 +10242,7 @@ OnButtonRelease(client, button)
 {
   ////PrintToServer("BUTTON RELEASE");
   
-    // do stuff
+	// do stuff
 }
 
 //##################### ON BUTTON PRESS END ######################
