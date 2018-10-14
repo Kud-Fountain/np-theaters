@@ -2,19 +2,22 @@
 
 #pragma semicolon 1
 
-ConVar g_cvarExplodePlayer;
 #define SOUND_BOOM1 "weapons/ied/ied_detonate_02.wav"
+
+ConVar  g_cvarExplodeRadius,
+		g_cvarExplodePlayer;
 
 public Plugin:myinfo = 
 {
-	name = "nekomiya bomb",
+	name = "Death Explode",
 	author = "Gunslinger",
-	description = "",
+	description = "Explode when player dead.",
 	version = "1.0",
 	url = ""
 };
 
 public void OnPluginStart() {
+	g_cvarExplodeRadius = CreateConVar("sm_explode_radius", "1145", "Sets who explosions radius");
 	g_cvarExplodePlayer = CreateConVar("sm_explode_player", "", "Set player who death will explode");
 	AutoExecConfig(false);
 
@@ -46,14 +49,14 @@ public Action DeathCallback(Event event, const char[] name, bool dontBroadcast)
 }
 
 void PerformExplode(int client) {
+	int radius = GetConVarInt(g_cvarExplodeRadius);
+
 	float location[3];
 	GetClientAbsOrigin(client, location);
 
 	EmitAmbientSound(SOUND_BOOM1, location, client, SNDLEVEL_RAIDSIREN);
-	//EmitAmbientSound(SOUND_BOOM2, location, client, SNDLEVEL_RAIDSIREN);
  
 	int particle = CreateEntityByName("info_particle_system");
-	int explosion = CreateEntityByName("env_explosion_ins");
 
 	char name[64];
 	TeleportEntity(particle, location, NULL_VECTOR, NULL_VECTOR);
@@ -64,15 +67,34 @@ void PerformExplode(int client) {
 	DispatchSpawn(particle);
 	SetVariantString(name);
 	ActivateEntity(particle);
-
-	TeleportEntity(explosion, location, NULL_VECTOR, NULL_VECTOR);
-	DispatchKeyValue(explosion, "szExplosiveName", "grenade_ied");
-	DispatchSpawn(explosion);
-	ActivateEntity(explosion);
-
-	AcceptEntityInput(explosion, "Explode");
 	AcceptEntityInput(particle, "start");
-	CreateTimer(8.0, DeleteParticle, particle);
+	CreateTimer(5.0, DeleteParticle, particle);
+
+	HurtOtherPlayers(client, radius, true);
+}
+
+void HurtOtherPlayers(int target, int radius, bool teamonly) {
+	int maxClients = GetMaxClients();
+	float vec[3];
+	GetClientAbsOrigin(target, vec);
+	for (int i = 1; i < maxClients; ++i) {
+		if (!IsClientInGame(i) || !IsPlayerAlive(i) || target == i
+				|| (teamonly && GetClientTeam(i) != GetClientTeam(target)))
+			continue;
+		
+		float pos[3];
+		GetClientEyePosition(i, pos);
+		float distance = GetVectorDistance(vec, pos);
+		if (distance > radius)
+			continue;
+
+		int damage = 250;
+		damage = RoundToFloor(damage * (radius - distance) / radius);
+		if (damage >= 100)
+			ForcePlayerSuicide(i);
+		else
+			SlapPlayer(i, damage, false);
+	}
 }
 
 public Action DeleteParticle(Handle timer, int particle)

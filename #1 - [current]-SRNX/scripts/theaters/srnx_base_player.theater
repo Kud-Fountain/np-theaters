@@ -4,7 +4,7 @@
 	{
 		"scoring"
 		{
-			"kill"						"10" 
+			"kill"						"20" 
 			"kill_offensive"			"20"
 			"kill_defensive"			"20" 
 			"kill_headshot_bonus"		"10"	

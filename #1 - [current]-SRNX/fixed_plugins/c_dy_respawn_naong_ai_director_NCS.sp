@@ -52,6 +52,10 @@
 #define Healthkit_Healing_Per_Tick_Min		1
 #define Healthkit_Healing_Per_Tick_Max		3
 
+#define	INS_USE (1 << 6)
+
+#define MAXPLAYERS_INS 49
+
 //Lua Healing Variables
 new g_iBeaconBeam;
 new g_iBeaconHalo;
@@ -114,19 +118,19 @@ new
 new
 	g_iEnableRevive = 0,
 	g_GiveBonusLives = 0,
-	g_iRespawnTimeRemaining[MAXPLAYERS+1],
-	g_iReviveRemainingTime[MAXPLAYERS+1],
-	g_iReviveNonMedicRemainingTime[MAXPLAYERS+1],
-	g_iPlayerRespawnTimerActive[MAXPLAYERS+1],
-	g_iSpawnTokens[MAXPLAYERS+1],
-	g_iHurtFatal[MAXPLAYERS+1],
-	g_iClientRagdolls[MAXPLAYERS+1],
-	g_iNearestBody[MAXPLAYERS+1],
-	g_botStaticGlobal[MAXPLAYERS+1],
-	g_resupplyCounter[MAXPLAYERS+1],
+	g_iRespawnTimeRemaining[MAXPLAYERS_INS+1],
+	g_iReviveRemainingTime[MAXPLAYERS_INS+1],
+	g_iReviveNonMedicRemainingTime[MAXPLAYERS_INS+1],
+	g_iPlayerRespawnTimerActive[MAXPLAYERS_INS+1],
+	g_iSpawnTokens[MAXPLAYERS_INS+1],
+	g_iHurtFatal[MAXPLAYERS_INS+1],
+	g_iClientRagdolls[MAXPLAYERS_INS+1],
+	g_iNearestBody[MAXPLAYERS_INS+1],
+	g_botStaticGlobal[MAXPLAYERS_INS+1],
+	g_resupplyCounter[MAXPLAYERS_INS+1],
 	g_ammoResupplyAmt[MAX_ENTITIES+1],
-	g_trackKillDeaths[MAXPLAYERS+1],
-	Float:g_badSpawnPos_Track[MAXPLAYERS+1][3],
+	g_trackKillDeaths[MAXPLAYERS_INS+1],
+	Float:g_badSpawnPos_Track[MAXPLAYERS_INS+1][3],
 	g_iRespawnCount[4],
 	g_huntReinforceCacheAdd = 120,
 	bool:g_huntCacheDestroyed = false,
@@ -134,27 +138,27 @@ new
 	bool:g_easterEggRound = false,
 	bool:g_easterEggFlag = false,
 	g_removeBotGrenadeChance = 50,
-	Float:g_fPlayerPosition[MAXPLAYERS+1][3],
-	Float:g_fDeadPosition[MAXPLAYERS+1][3],
-	Float:g_fRagdollPosition[MAXPLAYERS+1][3],
-	Float:g_vecOrigin[MAXPLAYERS+1][3],
-	g_iPlayerBGroups[MAXPLAYERS+1],
-	g_spawnFrandom[MAXPLAYERS+1],
-	g_squadSpawnEnabled[MAXPLAYERS+1] = 1,
-	g_squadLeader[MAXPLAYERS+1],
-	g_enemySpawnTimer[MAXPLAYERS+1],
-	g_LastButtons[MAXPLAYERS+1],
-	g_extendMapVote[MAXPLAYERS+1] = 0,
+	Float:g_fPlayerPosition[MAXPLAYERS_INS+1][3],
+	Float:g_fDeadPosition[MAXPLAYERS_INS+1][3],
+	Float:g_fRagdollPosition[MAXPLAYERS_INS+1][3],
+	Float:g_vecOrigin[MAXPLAYERS_INS+1][3],
+	g_iPlayerBGroups[MAXPLAYERS_INS+1],
+	g_spawnFrandom[MAXPLAYERS_INS+1],
+	g_squadSpawnEnabled[MAXPLAYERS_INS+1] = 1,
+	g_squadLeader[MAXPLAYERS_INS+1],
+	g_enemySpawnTimer[MAXPLAYERS_INS+1],
+	g_LastButtons[MAXPLAYERS_INS+1],
+	g_extendMapVote[MAXPLAYERS_INS+1] = 0,
 	Float:g_fRespawnPosition[3];
 
 //Ammo Amounts
 new
-	playerClip[MAXPLAYERS + 1][2], // Track primary and secondary ammo
-	playerAmmo[MAXPLAYERS + 1][4], // track player ammo based on weapon slot 0 - 4
-	playerPrimary[MAXPLAYERS + 1],
-	playerSecondary[MAXPLAYERS + 1];
-//	playerGrenadeType[MAXPLAYERS + 1][10], //track player grenade types
-//	playerRole[MAXPLAYERS + 1]; // tracks player role so if it changes while wounded, he dies
+	playerClip[MAXPLAYERS_INS + 1][2], // Track primary and secondary ammo
+	playerAmmo[MAXPLAYERS_INS + 1][4], // track player ammo based on weapon slot 0 - 4
+	playerPrimary[MAXPLAYERS_INS + 1],
+	playerSecondary[MAXPLAYERS_INS + 1];
+//	playerGrenadeType[MAXPLAYERS_INS + 1][10], //track player grenade types
+//	playerRole[MAXPLAYERS_INS + 1]; // tracks player role so if it changes while wounded, he dies
 
 // These steam ids remove from having a donor tag on request
 	//[1] = 1 STRING, [64] = 40 character limit per string
@@ -181,32 +185,32 @@ new
 	g_isMapInit,
 	g_iRoundStatus = 0, //0 is over, 1 is active
 	bool:g_bIsCounterAttackTimerActive = false,
-	g_clientDamageDone[MAXPLAYERS+1],
-	playerPickSquad[MAXPLAYERS + 1],
-	bool:playerRevived[MAXPLAYERS + 1],
-	bool:playerInRevivedState[MAXPLAYERS + 1],
+	g_clientDamageDone[MAXPLAYERS_INS+1],
+	playerPickSquad[MAXPLAYERS_INS + 1],
+	bool:playerRevived[MAXPLAYERS_INS + 1],
+	bool:playerInRevivedState[MAXPLAYERS_INS + 1],
 	bool:g_preRoundInitial = false,
-	String:g_client_last_classstring[MAXPLAYERS+1][64],
-	String:g_client_org_nickname[MAXPLAYERS+1][64],
-	Float:g_enemyTimerPos[MAXPLAYERS+1][3],	// Kill Stray Enemy Bots Globals
-	Float:g_enemyTimerAwayPos[MAXPLAYERS+1][3],	// Kill Stray Enemy Bots Globals
-	g_playerActiveWeapon[MAXPLAYERS + 1],
-	g_plyrGrenScreamCoolDown[MAXPLAYERS+1],
-	g_plyrFireScreamCoolDown[MAXPLAYERS+1],
-	g_playerMedicHealsAccumulated[MAXPLAYERS+1],
-	g_playerMedicRevivessAccumulated[MAXPLAYERS+1],
-	g_playerNonMedicHealsAccumulated[MAXPLAYERS+1],
-	g_playerNonMedicRevive[MAXPLAYERS+1],
-	g_playerWoundType[MAXPLAYERS+1],
-	g_playerWoundTime[MAXPLAYERS+1],
-	g_hintCoolDown[MAXPLAYERS+1] = 30,
-	bool:g_hintsEnabled[MAXPLAYERS+1] = true,
-	Float:g_fPlayerLastChat[MAXPLAYERS+1] = {0.0, ...},
+	String:g_client_last_classstring[MAXPLAYERS_INS+1][64],
+	String:g_client_org_nickname[MAXPLAYERS_INS+1][64],
+	Float:g_enemyTimerPos[MAXPLAYERS_INS+1][3],	// Kill Stray Enemy Bots Globals
+	Float:g_enemyTimerAwayPos[MAXPLAYERS_INS+1][3],	// Kill Stray Enemy Bots Globals
+	g_playerActiveWeapon[MAXPLAYERS_INS + 1],
+	g_plyrGrenScreamCoolDown[MAXPLAYERS_INS+1],
+	g_plyrFireScreamCoolDown[MAXPLAYERS_INS+1],
+	g_playerMedicHealsAccumulated[MAXPLAYERS_INS+1],
+	g_playerMedicRevivessAccumulated[MAXPLAYERS_INS+1],
+	g_playerNonMedicHealsAccumulated[MAXPLAYERS_INS+1],
+	g_playerNonMedicRevive[MAXPLAYERS_INS+1],
+	g_playerWoundType[MAXPLAYERS_INS+1],
+	g_playerWoundTime[MAXPLAYERS_INS+1],
+	g_hintCoolDown[MAXPLAYERS_INS+1] = 30,
+	bool:g_hintsEnabled[MAXPLAYERS_INS+1] = true,
+	Float:g_fPlayerLastChat[MAXPLAYERS_INS+1] = {0.0, ...},
 
 	//Wave Based Arrays 
-	g_WaveSpawnActive[MAXPLAYERS+1],
+	g_WaveSpawnActive[MAXPLAYERS_INS+1],
 
-	g_playerFirstJoin[MAXPLAYERS+1];
+	g_playerFirstJoin[MAXPLAYERS_INS+1];
 
 // Player Distance Plugin //Credits to author = "Popoklopsi", url = "http://popoklopsi.de"
 // unit to use 1 = feet, 0 = meters
@@ -609,26 +613,34 @@ database.cfg
 #define PLAYER_STATSOLD 30
 
 // STATS DEFINATION FOR PLAYERS
-new g_iStatScore[MAXPLAYERS+1];
-new g_iStatKills[MAXPLAYERS+1];
-new g_iStatDeaths[MAXPLAYERS+1];
-new g_iStatHeadShots[MAXPLAYERS+1];
-new g_iStatSuicides[MAXPLAYERS+1];
-new g_iStatRevives[MAXPLAYERS+1];
-new g_iStatHeals[MAXPLAYERS+1];
-new g_iUserInit[MAXPLAYERS+1];
-new g_iUserFlood[MAXPLAYERS+1];
-new g_iUserPtime[MAXPLAYERS+1];
-new String:g_sSteamIdSave[MAXPLAYERS+1][255];
-new g_iRank[MAXPLAYERS+1];
+new g_iStatScore[MAXPLAYERS_INS+1];
+new g_iStatKills[MAXPLAYERS_INS+1];
+new g_iStatDeaths[MAXPLAYERS_INS+1];
+new g_iStatHeadShots[MAXPLAYERS_INS+1];
+new g_iStatSuicides[MAXPLAYERS_INS+1];
+new g_iStatRevives[MAXPLAYERS_INS+1];
+new g_iStatHeals[MAXPLAYERS_INS+1];
+new g_iUserInit[MAXPLAYERS_INS+1];
+new g_iUserFlood[MAXPLAYERS_INS+1];
+new g_iUserPtime[MAXPLAYERS_INS+1];
+new String:g_sSteamIdSave[MAXPLAYERS_INS+1][255];
+new g_iRank[MAXPLAYERS_INS+1];
 
 // HANDLE OF DATABASE
 new Handle:g_hDB;
 //
+
+int g_iOffsetScore = -1;
+int g_iPlayerBonusScore[MAXPLAYERS_INS+1];
+float g_iCallMedic[MAXPLAYERS_INS+1];
+ConVar sm_callmediccd;
+bool g_bMedicHealing[MAXPLAYERS_INS+1];
+int g_iPlayerBleeding[MAXPLAYERS_INS+1] = 0;
+
 /////////////////////////////////////
 
-#define PLUGIN_VERSION "1.7.0"
-#define SERVER_VERSION "5.5.1c"
+#define PLUGIN_VERSION "1.7.1"
+#define SERVER_VERSION "5.5.1d"
 #define GAMEDESC "经典核心服[SRNX]"
 #define PLUGIN_DESCRIPTION "Respawn dead players via admincommand or by queues"
 #define UPDATE_URL	"http://ins.jballou.com/sourcemod/update-respawn.txt"
@@ -636,8 +648,8 @@ new Handle:g_hDB;
 // Plugin info
 public Plugin:myinfo =
 {
-	name = "[INS] Player Respawn",
-	author = "Jared Ballou (Contributor: Daimyo, naong)(translate:Kud)",
+	name = "[INS] Player Respawn Redux",
+	author = "Jared Ballou (Redux by Gunslinger)(Contributor: Daimyo, naong)(translate:Kud)",
 	version = PLUGIN_VERSION,
 	description = PLUGIN_DESCRIPTION,
 	url = "http://jballou.com"
@@ -881,8 +893,8 @@ public OnPluginStart()
 	sm_vip_min_sp_reward = CreateConVar("sm_vip_min_sp_reward", "1", "Minimum supply points awarded to team when VIP completes objective");
 	sm_vip_max_sp_reward = CreateConVar("sm_vip_max_sp_reward", "3", "Maximum supply points awarded to team when VIP completes objective");
 	sm_vip_enabled = CreateConVar("sm_vip_enabled", "1", "Disable or Enable VIP features 0/1");
-	
-	
+
+	sm_callmediccd = CreateConVar("sm_callmediccd", "8.0", "Cold down time for calling medic");
 
 	//if (GetConVarInt(sm_enable_squad_spawning) == 1)
 	RegConsoleCmd("sm_ss", SquadSpawn); 
@@ -902,6 +914,9 @@ public OnPluginStart()
 	if ((m_flNextSecondaryAttack = FindSendPropInfo("CBaseCombatWeapon", "m_flNextSecondaryAttack")) == -1) {
 		SetFailState("Fatal Error: Unable to find property offset \"CBaseCombatWeapon::m_flNextSecondaryAttack\" !");
 	}
+
+	if ((g_iOffsetScore = FindSendPropInfo("CINSPlayerResource", "m_iPlayerScore")) == -1)
+		SetFailState("Fatal Error: Unable to find property offset \"CINSPlayerResource::m_iPlayerScore\" !");
 
 	// Add admin respawn console command
 	RegAdminCmd("sm_respawn", Command_Respawn, ADMFLAG_SLAY, "sm_respawn <#userid|name>");
@@ -1462,10 +1477,27 @@ public OnMapStart()
 	PrecacheSound("sernx_lua_sounds/radio/radio7.ogg");
 	PrecacheSound("sernx_lua_sounds/radio/radio8.ogg");
 
+	// Medic
+	PrecacheSoundNumbers("lua_sounds/medic/medic_injured", ".ogg", 1, 22, false);
+	PrecacheSoundNumbers("lua_sounds/medic/medic_critical", ".ogg", 1, 16, false);
+	PrecacheSoundNumbers("lua_sounds/medic/medic_dying", ".ogg", 1, 3, false);
+	PrecacheSoundNumbers("lua_sounds/medic/letme/medic_letme_bandage", ".ogg", 1, 18, false);
+	PrecacheSoundNumbers("lua_sounds/medic/letme/medic_letme_heal", ".ogg", 1, 7, false);
+	PrecacheSoundNumbers("lua_sounds/medic/healed/medic_healed", ".ogg", 1, 38, false);
+	PrecacheSoundNumbers("lua_sounds/medic/thx/medic_thanks", ".ogg", 1, 20, false);
+
+	// Bleed
+	PrecacheSoundNumbers("player/voice/responses/security/subordinate/unsuppressed/wounded", ".ogg", 1, 19, false);
+
 
 	// Wait for navmesh
 	CreateTimer(2.0, Timer_MapStart);
 	g_preRoundInitial = true;
+
+	if (g_iOffsetScore != -1)
+		SDKHook(GetPlayerResourceEntity(), SDKHook_ThinkPost, SHook_PlayerResourceThinkPost);
+
+	CreateTimer(7.0, HudTimer, _, TIMER_FLAG_NO_MAPCHANGE|TIMER_REPEAT);
 }
 
 //Dynamic Loadouts
@@ -1698,6 +1730,8 @@ public Action:Timer_MapStart(Handle:Timer)
 	if (g_isCheckpoint)
 		CreateTimer(1.0, Timer_CheckEnemyAway,_ , TIMER_REPEAT | TIMER_FLAG_NO_MAPCHANGE);
 	
+	for (int i = 0; i < MAXPLAYERS_INS; i++)
+		g_iPlayerBonusScore[i] = 0;
 }
 
 public OnMapEnd()
@@ -2113,7 +2147,7 @@ public Action:Timer_Enemies_Remaining(Handle:Timer)
 			timeReduce = 3;
 
 		new jammerSpawnReductionAmt = (g_iRespawnSeconds / timeReduce);
-		Format(textToPrintChat, sizeof(textToPrintChat), "[INTEL]Jammer Active! | Reinforce time reduced by: %d seconds", jammerSpawnReductionAmt);
+		Format(textToPrintChat, sizeof(textToPrintChat), "干扰器已激活！ | 增援时间减少: %d 秒", jammerSpawnReductionAmt);
 		PrintToChatAll(textToPrintChat);
 
 	}
@@ -3514,6 +3548,8 @@ public Action:Event_Spawn(Handle:event, const String:name[], bool:dontBroadcast)
 		}
 	}
 
+	g_iPlayerBleeding[client] = 0;
+
 	g_resupplyCounter[client] = GetConVarInt(sm_resupply_delay);
 	//For first joining players 
 	if (g_playerFirstJoin[client] == 1 && !IsFakeClient(client))
@@ -3838,6 +3874,8 @@ public OnClientPutInServer(client)
 	new String:sNickname[64];
 	Format(sNickname, sizeof(sNickname), "%N", client);
 	g_client_org_nickname[client] = sNickname;
+
+	SDKHook(client, SDKHook_OnTakeDamage, OnTakeDamageHook);
 }
 
 public OnClientDisconnect(client)
@@ -3857,6 +3895,8 @@ public Action:Event_PlayerConnect(Handle:event, const String:name[], bool:dontBr
 	g_iHurtFatal[client] = -1;
 	g_playerFirstJoin[client] = 1;
 	g_iPlayerRespawnTimerActive[client] = 0;
+
+	g_iPlayerBonusScore[client] = 0;
 		
 	
 	//g_fPlayerLastChat[client] = GetGameTime();
@@ -3982,12 +4022,13 @@ public Action:Event_RoundStart(Handle:event, const String:name[], bool:dontBroad
 
 	if (g_easterEggRound == true)
 	{
-		PrintToChatAll("************EASTER EGG ROUND************");
-		PrintToChatAll("******NO WHINING, BE NICE, HAVE FUN*****");
-		PrintToChatAll("******MAX ROUNDS CHANGED TO 2!**********");
-		PrintToChatAll("******WORK TOGETHER, ADAPT!*************");
-		PrintToChatAll("************EASTER EGG ROUND************");
+		PrintToChatAll("************彩蛋局已开启!************");
+		PrintToChatAll("******请务必瞬间爆炸*****");
+		PrintToChatAll("******最大局数提升到2!**********");
+		PrintToChatAll("******一起行动吧!*************");
+		PrintToChatAll("************彩蛋局************");
 	}
+
 	return Plugin_Continue;
 }
 
@@ -4062,7 +4103,7 @@ public Action:Event_RoundEnd_Pre(Handle:event, const String:name[], bool:dontBro
 		{
 			decl String:sBuf[255];
 			// Hint to iMedic
-			Format(sBuf, 255,"[医疗状态] %N: HP: %d | 复活次数: %d", client, g_iStatHeals[client], g_iStatRevives[client]);
+			Format(sBuf, 255,"[医疗状态] %N: 治疗次数: %d | 复活次数: %d", client, g_iStatHeals[client], g_iStatRevives[client]);
 			PrintHintText(client, "%s", sBuf);
 			PrintToChatAll("%s", sBuf);
 		}
@@ -4754,7 +4795,8 @@ public Action:Event_ObjectDestroyed(Handle:event, const String:name[], bool:dont
 									
 									nSupplyPoint += nRandSupplyReward;
 									nAvailableSupplyPoint += nRandSupplyReward;
-									PrintToChat(client, "VIP has destroyed point\nYou have received %i supply point(s) as reward", nRandSupplyReward);
+									PrintToChat(client, "\x04VIP\x01破坏了军备\n你被奖励了 \x04%i\x01 点补给点", nRandSupplyReward);
+									PrintHintText(client,"VIP破坏了检查点\n奖励 %i 点补给点", nRandSupplyReward);
 								}
 
 								//Set client nSupplyPoint
@@ -4803,7 +4845,8 @@ public Action:Event_ObjectDestroyed(Handle:event, const String:name[], bool:dont
 								
 								nSupplyPoint += nRandSupplyReward;
 								nAvailableSupplyPoint += nRandSupplyReward;
-								PrintToChat(client, "VIP has destroyed point\nYou have received %i supply point(s) as reward", nRandSupplyReward);
+								PrintToChat(client, "VIP已破坏了军备\n你获得了 %i 点", nRandSupplyReward);
+								PrintHintText(client,"VIP破坏了检查点\n奖励 %i 点补给点", nRandSupplyReward);
 							}
 
 							//Set client nSupplyPoint
@@ -5933,6 +5976,9 @@ public Action:Event_PlayerDeath(Handle:event, const String:name[], bool:dontBroa
 	
 	// Get player ID
 	new client = GetClientOfUserId(GetEventInt(event, "userid"));
+
+	if (!client || !attacker)
+		return Plugin_Continue;
 	
 	g_iPlayerBGroups[client] = GetEntProp(client, Prop_Send, "m_nBody");
 
@@ -6255,12 +6301,6 @@ void RemoveRagdoll(client)
 	}	
 }
 
-// This handles revives by medics
-public CreateReviveTimer(client)
-{
-	CreateTimer(0.0, RespawnPlayerRevive, client);
-}
-
 // Handles spawns when counter attack starts
 public CreateCounterRespawnTimer(client)
 {
@@ -6346,7 +6386,7 @@ public CreatePlayerRespawnTimer(client)
 }
 
 // Revive player
-public Action:RespawnPlayerRevive(Handle:Timer, any:client)
+void RespawnPlayerRevive(int client)
 {
 	// Exit if client is not in game
 	if (!IsClientInGame(client)) return;
@@ -6399,7 +6439,7 @@ public Action:RespawnPlayerRevive(Handle:Timer, any:client)
 
 	g_AIDir_TeamStatus = AI_Director_SetMinMax(g_AIDir_TeamStatus, g_AIDir_TeamStatus_min, g_AIDir_TeamStatus_max);
 
-	
+	CreateTimer(GetRandomFloat(2.0, 2.5), Timer_MedicThanks, client, TIMER_FLAG_NO_MAPCHANGE);
 }
 
 // Do post revive stuff
@@ -6594,7 +6634,7 @@ public Action:Timer_PlayerRespawn(Handle:Timer, any:client)
 				{
 					if (g_squadSpawnEnabled[client] == 1)
 					{
-						if (g_squadLeader[client] == -1)
+						if (g_squadLeader[client] == -1 && g_squadLeader[client] != 0)
 							Format(sRemainingTime, sizeof(sRemainingTime),"[小队复活系统启动|输入 /ss 来打开/关闭此系统] 这是你首次加入战斗. 且小队中没有队长! 你将在 %d 秒后正常复活 (剩余生命:%d) ", g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
 						else if (IsValidClient(g_squadLeader[client]) && IsClientInGame(g_squadLeader[client]) && playerPickSquad[g_squadLeader[client]] == 1)
 						{	
@@ -6637,7 +6677,7 @@ public Action:Timer_PlayerRespawn(Handle:Timer, any:client)
 				{
 					if (g_squadSpawnEnabled[client] == 1)
 					{
-						if (g_squadLeader[client] == -1)
+						if (g_squadLeader[client] == -1 && g_squadLeader[client] != 0)
 								Format(sRemainingTime, sizeof(sRemainingTime),"[小队复活系统启动|输入 /ss 来打开/关闭此系统] 你受到 %d 点 %s | 请耐心等待医疗兵的救援\n\n                小队中没有队长!你将在 %d 秒后正常复活 (剩余生命:%d) ", g_clientDamageDone[client], woundType, g_iRespawnTimeRemaining[client], g_iSpawnTokens[client]);
 						else if (IsValidClient(g_squadLeader[client]) && IsClientInGame(g_squadLeader[client]) && playerPickSquad[g_squadLeader[client]] == 1)
 						{
@@ -6925,7 +6965,10 @@ public Action:Timer_ReviveMonitor(Handle:timer, any:data)
 						
 						// Call revive function
 						g_playerNonMedicRevive[iInjured] = 0;
-						CreateReviveTimer(iInjured);
+						RespawnPlayerRevive(iInjured);
+
+						// Add medic's score
+						g_iPlayerBonusScore[iMedic] += 50;
 						
 						//PrintToServer("##########PLAYER REVIVED %s ############", playerRevived[iInjured]);
 						continue;
@@ -7096,7 +7139,7 @@ public Action:Timer_ReviveMonitor(Handle:timer, any:data)
 						
 						g_playerNonMedicRevive[iInjured] = 1;
 						// Call revive function
-						CreateReviveTimer(iInjured);
+						RespawnPlayerRevive(iInjured);
 						RemovePlayerItem(iMedic,ActiveWeapon);
 						//Switch to knife after removing kit
 						ChangePlayerWeaponSlot(iMedic, 2);
@@ -7173,6 +7216,7 @@ public Action:Timer_MedicMonitor(Handle:timer)
 				{
 					if (iHealth < 100)
 					{
+						int iHealthOld = iHealth;
 						iHealth += g_iHeal_amount_paddles;
 						g_playerMedicHealsAccumulated[medic] += g_iHeal_amount_paddles;
 						new iHealthCap = GetConVarInt(sm_heal_cap_for_bonus);
@@ -7210,14 +7254,40 @@ public Action:Timer_MedicMonitor(Handle:timer)
 							Format(sBuf, 255,"你完全治疗了 \x04%N\x01 | 在奖励复活次数前你还有 \x04%d\x01 点需要治疗", iTarget, (iHealthCap - g_playerMedicHealsAccumulated[medic]));
 							PrintHintText(medic, "%s", sBuf);
 							PrintToChat(medic, "%s", sBuf);
+
+							SetEntProp(iTarget, Prop_Send, "m_bGlowEnabled", 0);
+
+							decl String:sSoundFile[128];
+							Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/healed/medic_healed%d.ogg", GetRandomInt(1, 38));
+							EmitSoundToAll(sSoundFile, medic, SNDCHAN_VOICE, _, _, 1.0);
+							CreateTimer(GetRandomFloat(2.0, 2.5), Timer_MedicThanks, iTarget, TIMER_FLAG_NO_MAPCHANGE);
+
+							g_bMedicHealing[medic] = false;
 						}
 						else
 						{
 							PrintHintText(iTarget, "不要移动，%N 正在治疗你(HP: %i)", medic, iHealth);
+
+							if(!g_bMedicHealing[medic])
+							{
+								decl String:sSoundFile[128];
+								if (iHealthOld > 55)
+									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/letme/medic_letme_bandage%d.ogg", GetRandomInt(1, 18));
+								else
+									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/letme/medic_letme_heal%d.ogg", GetRandomInt(1, 7));
+								EmitSoundToAll(sSoundFile, medic, SNDCHAN_VOICE, _, _, 1.0);
+							}
+							
+							g_bMedicHealing[medic] = true;
 						}
 						
 						SetEntityHealth(iTarget, iHealth);
 						PrintHintText(medic, "%N\nHP: %i\n\n正在使用除颤器治疗: %i", iTarget, iHealth, g_iHeal_amount_paddles);
+
+						// Add medic's score
+						g_iPlayerBonusScore[medic] += RoundToNearest((iHealth - iHealthOld) * 0.5);
+
+						g_iPlayerBleeding[iTarget] = 0;
 					}
 					else
 					{
@@ -7228,6 +7298,7 @@ public Action:Timer_MedicMonitor(Handle:timer)
 				{
 					if (iHealth < 100)
 					{
+						int iHealthOld = iHealth;
 						iHealth += g_iHeal_amount_medPack;
 						g_playerMedicHealsAccumulated[medic] += g_iHeal_amount_medPack;
 						new iHealthCap = GetConVarInt(sm_heal_cap_for_bonus);
@@ -7256,6 +7327,7 @@ public Action:Timer_MedicMonitor(Handle:timer)
 							g_iStatHeals[medic]++;
 							//
 							////////////////////////
+
 							iHealth = 100;
 							
 							//Client_PrintToChatAll(false, "{OG}%N{N} healed {OG}%N", medic, iTarget);
@@ -7265,14 +7337,40 @@ public Action:Timer_MedicMonitor(Handle:timer)
 							Format(sBuf, 255,"你完全治疗了 \x04%N\x01 | 在奖励复活次数前你还有 \x04%d\x01 点需要治疗", iTarget, (iHealthCap - g_playerMedicHealsAccumulated[medic]));
 							PrintHintText(medic, "%s", sBuf);
 							PrintToChat(medic, "%s", sBuf);
+
+							SetEntProp(iTarget, Prop_Send, "m_bGlowEnabled", 0);
+
+							decl String:sSoundFile[128];
+							Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/healed/medic_healed%d.ogg", GetRandomInt(1, 38));
+							EmitSoundToAll(sSoundFile, medic, SNDCHAN_VOICE, _, _, 1.0);
+							CreateTimer(GetRandomFloat(2.0, 2.5), Timer_MedicThanks, iTarget, TIMER_FLAG_NO_MAPCHANGE);
+
+							g_bMedicHealing[medic] = false;
 						}
 						else
 						{
 							PrintHintText(iTarget, "不要移动，%N 正在治疗你(HP: %i)", medic, iHealth);
+
+							if(!g_bMedicHealing[medic])
+							{
+								decl String:sSoundFile[128];
+								if (iHealthOld > 55)
+									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/letme/medic_letme_bandage%d.ogg", GetRandomInt(1, 18));
+								else
+									Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/letme/medic_letme_heal%d.ogg", GetRandomInt(1, 7));
+								EmitSoundToAll(sSoundFile, medic, SNDCHAN_VOICE, _, _, 1.0);
+							}
+
+							g_bMedicHealing[medic] = true;
 						}
 						
 						SetEntityHealth(iTarget, iHealth);
 						PrintHintText(medic, "%N\nHP: %i\n\n使用急救包治疗: %i", iTarget, iHealth, g_iHeal_amount_medPack);
+
+						// Add medic's score
+						g_iPlayerBonusScore[medic] += RoundToNearest((iHealth - iHealthOld) * 0.5);
+
+						g_iPlayerBleeding[iTarget] = 0;
 					}
 					else
 					{
@@ -7323,6 +7421,8 @@ public Action:Timer_MedicMonitor(Handle:timer)
 							PrintHintText(medic, "自行治疗中 (HP: %i) | 最大: %i", iHealth, g_medicHealSelf_max);
 						}
 						SetEntityHealth(medic, iHealth);
+
+						g_iPlayerBleeding[medic] = 0;
 					}
 				}
 			}
@@ -7376,6 +7476,7 @@ public Action:Timer_MedicMonitor(Handle:timer)
 					{
 						if (iHealth < g_nonMedic_maxHealOther)
 						{
+							int iHealthOld = iHealth;
 							iHealth += g_nonMedicHeal_amount;
 							g_playerNonMedicHealsAccumulated[medic] += g_nonMedicHeal_amount;
 							new iHealthCap = GetConVarInt(sm_heal_cap_for_bonus);
@@ -7414,10 +7515,29 @@ public Action:Timer_MedicMonitor(Handle:timer)
 								Format(sBuf, 255,"你已经治疗了 \x04%N\x01 | 你还要治疗 \x04%d\x01 HP来获得额外的生命奖励", iTarget, (iHealthCap - g_playerNonMedicHealsAccumulated[medic]));
 								PrintHintText(medic, "%s", sBuf);
 								PrintToChat(medic, "%s", sBuf);
+
+								decl String:sSoundFile[128];
+								Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/healed/medic_healed%d.ogg", GetRandomInt(1, 38));
+								EmitSoundToAll(sSoundFile, medic, SNDCHAN_VOICE, _, _, 1.0);
+								CreateTimer(GetRandomFloat(2.0, 2.5), Timer_MedicThanks, iTarget, TIMER_FLAG_NO_MAPCHANGE);
+
+								g_bMedicHealing[medic] = false;
 							}
 							else
 							{
 								PrintHintText(iTarget, "不要动，%N 正在治疗你(HP: %i)", medic, iHealth);
+
+								if(!g_bMedicHealing[medic])
+								{
+									decl String:sSoundFile[128];
+									if (iHealthOld > 55)
+										Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/letme/medic_letme_bandage%d.ogg", GetRandomInt(1, 18));
+									else
+										Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/letme/medic_letme_heal%d.ogg", GetRandomInt(1, 7));
+									EmitSoundToAll(sSoundFile, medic, SNDCHAN_VOICE, _, _, 1.0);
+								}
+
+								g_bMedicHealing[medic] = true;
 							}
 							
 							SetEntityHealth(iTarget, iHealth);
@@ -9302,9 +9422,11 @@ public Action:FireScreamCheckTimer(Handle:timer, any:entity)
  
 	for (new client = 1;client <= MaxClients;client++)
 	{
-		if (client <= 0 || !IsClientInGame(client) || !IsClientConnected(client))
+		if (client <= 0)
 			continue;
-		if (owner <= 0 || !IsClientInGame(owner) || !IsClientConnected(owner))
+		if (owner <= 0 || owner > MaxClients)
+			continue;
+		if (!IsClientInGame(client) || !IsClientConnected(client) || !IsClientInGame(owner) || !IsClientConnected(owner))
 			continue;
 		if (IsFakeClient(client))
 			continue;
@@ -9346,7 +9468,7 @@ public Action:GrenadeScreamCheckTimer(Handle:timer, any:entity)
 
 	for (int client = 1; client <= MaxClients; client++)
 	{
-		if (client <= 0)
+		if (client <= 0 || owner <= 0 || owner > MaxClients)
 			continue;
 
 		if(!IsClientInGame(client) || !IsClientConnected(client))
@@ -9805,7 +9927,7 @@ public Check_NearbyMedicsRevive(client, iInjured)
 						woundType = "重伤";
 					decl String:sBuf[255];
 					// Chat to all
-					Format(sBuf, 255,"\x05%N\x01 从 %s 中协助救起了 \x03%N", friendlyMedic, iInjured, woundType);
+					Format(sBuf, 255,"\x05%N\x01 从 %s 中协助救起了 \x03%N", friendlyMedic, woundType, iInjured);
 					PrintToChatAll("%s", sBuf);
 					
 					// Add kill bonus to friendlyMedic
@@ -9842,6 +9964,9 @@ public Check_NearbyMedicsRevive(client, iInjured)
 						Format(sBuf2, 255,"你救起了 %d 名玩家,你的可复活次数增加了 %i", iReviveCap, 1);
 						PrintToChat(friendlyMedic, "%s", sBuf2);
 					}
+
+					// Add medic's score
+					g_iPlayerBonusScore[friendlyMedic] += 25;
 				}
 			}
 		}
@@ -9860,7 +9985,7 @@ public Check_NearbyMedicsRevive(client, iInjured)
 stock Effect_SetMarkerAtPos(client,Float:pos[3],Float:intervall,color[4]){
 
 	
-	/*static Float:lastMarkerTime[MAXPLAYERS+1] = {0.0,...};
+	/*static Float:lastMarkerTime[MAXPLAYERS_INS+1] = {0.0,...};
 	new Float:gameTime = GetGameTime();
 	
 	if(lastMarkerTime[client] > gameTime){
@@ -10311,5 +10436,280 @@ OnButtonRelease(client, button)
 //		return;
 //}
 
+
+public void SHook_PlayerResourceThinkPost(entity)
+{
+	new iTotalScore[MaxClients+1];
+	GetEntDataArray(entity, g_iOffsetScore, iTotalScore, MaxClients+1);
+	for (new i = 1; i <= MaxClients;i++)
+	{
+		if (IsClientInGame(i) && g_iPlayerBonusScore[i] > 0)
+			iTotalScore[i] += g_iPlayerBonusScore[i];
+	}
+	SetEntDataArray(entity, g_iOffsetScore, iTotalScore, MaxClients+1);
+}
+
+public Action OnTakeDamageHook(int victim, int &attacker, int &inflictor, float &damage, int &damagetype)
+{
+	if (attacker <= 0 || attacker > MAXPLAYERS_INS || victim <= 0 || victim > MAXPLAYERS_INS)
+		return Plugin_Continue;
+		
+	if (StrContains(g_client_last_classstring[attacker], "medic") > -1 && GetClientTeam(victim) == TEAM_1_SEC && GetClientTeam(attacker) == TEAM_1_SEC)
+	{
+		damage = 0.0;
+		return Plugin_Changed;
+	}
+
+	new team = GetClientTeam(victim);
+	new bBleeding = false;
+	if (!g_iPlayerBleeding[victim])
+	{
+		if (team == TEAM_1_SEC)
+		{
+			if (damagetype & DMG_BULLET)
+			{
+				if (GetRandomFloat(0.1, 100.00) <= 20.0)
+					bBleeding = true;
+			}
+			else if (damagetype & DMG_BLAST)
+			{
+				if (GetRandomFloat(0.1, 100.00) <= 20.0)
+					bBleeding = true;
+			}
+			else if (damagetype & DMG_SLASH)
+			{
+				if (GetRandomFloat(0.1, 100.00) <= 25.0)
+					bBleeding = true;
+			}
+
+			if (bBleeding)
+			{
+				CreateTimer(5.0, Timer_Bleeding, victim, TIMER_REPEAT | TIMER_FLAG_NO_MAPCHANGE);
+				g_iPlayerBleeding[victim] = attacker;
+			}
+		}
+	}
+
+	return Plugin_Continue;
+}
+
+public Action:OnPlayerRunCmd(client, &buttons, &impulse, Float:vel[3], Float:angles[3], &weapon)
+{
+	if(!IsClientInGame(client) || !IsPlayerAlive(client))
+		return Plugin_Continue;
+
+	if(!(buttons & INS_USE))
+		return Plugin_Continue;
+
+	if (g_iCallMedic[client] > GetGameTime())
+		return Plugin_Continue;
+
+	new iHp = GetEntProp(client, Prop_Send, "m_iHealth");
+	new String:sHp[128];
+	if (float(iHp)/100.0 < 0.2)
+	{
+		iHp = 0;
+		Format(sHp, sizeof(sHp), "%s濒临死亡", "\x08FF4040FF");
+	}
+	else if (float(iHp)/100.0 <= 0.4)
+	{
+		iHp = 1;
+		Format(sHp, sizeof(sHp), "%s严重受伤", "\x08FF8C00FF");
+	}
+	else if (float(iHp)/100.0 <= 0.7)
+	{
+		iHp = 2;
+		Format(sHp, sizeof(sHp), "%s受伤", "\x08FFFF00FF");
+	}
+	else
+	{
+		iHp = 3;
+		Format(sHp, sizeof(sHp), "%s健康", "\x083EFF3EFF");
+	}
+
+	if (g_iPlayerBleeding[client] != 0)
+	{
+		Format(sHp, sizeof(sHp), "%s | %s失血", sHp, "\x08FF4040FF");
+	}
+
+	if (iHp < 3)
+	{
+		SetEntProp(client, Prop_Send, "m_bGlowEnabled", 1);
+		PrintToChatAll("\x05%N : \x01呼叫医疗兵！  (%s\x01)", client, sHp);
+		g_iCallMedic[client] = GetGameTime() + sm_callmediccd.FloatValue;
+		CallMedic(client, iHp);
+	}
+
+	return Plugin_Continue;
+}
+
+void CallMedic(int client, int hp)
+{
+	char sSoundFile[256];
+
+	if (hp == 0)	// Death
+		Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/medic_dying%d.ogg", GetRandomInt(1, 3));
+	else if (hp == 1)	// Critical
+		Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/medic_critical%d.ogg", GetRandomInt(1, 16));
+	else //if (hp == 2)	// Injured	// 3 Healthy
+		Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/medic_injured%d.ogg", GetRandomInt(1, 22));
+	decl Float:vOrigin[3];
+	GetClientEyePosition(client, vOrigin);
+	for (new i = 1;i < MAXPLAYERS_INS; i++)
+	{
+		if (!IsClientInGame(i))
+			continue;
+		if (!IsPlayerAlive(i))
+			continue;
+		decl Float:vTargetOrigin[3];
+		GetClientEyePosition(i, vTargetOrigin);
+		new Float:fDistance = GetVectorDistance(vOrigin, vTargetOrigin);
+		if (fDistance >= 650.0)
+		{
+			new Float:fVol = 0.1;
+			if (fDistance <= 800.0) fVol = 0.4;
+			else if (fDistance <= 1000.0) fVol = 0.3;
+			else if (fDistance <= 1200.0) fVol = 0.2;
+			EmitSoundToClient(i, sSoundFile, _, SNDCHAN_AUTO, _, _, fVol);
+		}
+	}
+	EmitSoundToAll(sSoundFile, client, SNDCHAN_STATIC, _, _, 1.0);
+}
+
+stock PrecacheSoundNumbers(const String:soundprefix[], const String:soundpost[], number_begin, number_end, bool:zeroforlownumber = false)
+{
+	decl String:soundfileformat[512];
+	for (new i = number_begin;i <= number_end;i++)
+	{
+		if (zeroforlownumber && i < 10 && i > -1)
+			Format(soundfileformat, sizeof(soundfileformat), "%s0%d%s", soundprefix, i, soundpost);
+		else
+			Format(soundfileformat, sizeof(soundfileformat), "%s%d%s", soundprefix, i, soundpost);
+		PrecacheSound(soundfileformat);
+//		PrintToServer("Precached Sound: %s", soundfileformat);
+	}
+	return true;
+}
+
+public Action:Timer_MedicThanks(Handle:timer, any:client)
+{
+	if (!IsClientInGame(client) || !IsPlayerAlive(client)) return;
+	
+	decl String:sSoundFile[128];
+	Format(sSoundFile, sizeof(sSoundFile), "lua_sounds/medic/thx/medic_thanks%d.ogg", GetRandomInt(1, 20));
+	EmitSoundToAll(sSoundFile, client, SNDCHAN_VOICE, _, _, 1.0);
+}
+
+public Action:HudTimer(Handle:timer)
+{
+	for (new i = 1;i < MAXPLAYERS_INS; i++)
+	{
+		if (!IsClientInGame(i) || !IsPlayerAlive(i)) continue;
+
+		int iHp = GetEntProp(i, Prop_Send, "m_iHealth");
+		char sHp[128];
+		if (float(iHp)/100.0 < 0.2)
+		{
+			iHp = 0;
+			Format(sHp, sizeof(sHp), "濒临死亡");
+		}
+		else if (float(iHp)/100.0 <= 0.4)
+		{
+			iHp = 1;
+			Format(sHp, sizeof(sHp), "严重受伤");
+		}
+		else if (float(iHp)/100.0 <= 0.7)
+		{
+			iHp = 2;
+			Format(sHp, sizeof(sHp), "受伤");
+		}
+		else
+		{
+			iHp = 3;
+			Format(sHp, sizeof(sHp), "健康");
+		}
+
+		if (g_iPlayerBleeding[i] != 0)
+		{
+			Format(sHp, sizeof(sHp), "%s | 失血", sHp);
+		}
+
+		if (iHp < 3 && !(StrContains(g_client_last_classstring[i], "medic") > -1))
+			PrintHintText(i, "%s\n按 [F] 呼叫医疗兵 ", sHp);
+		else
+			PrintHintText(i, "%s", sHp);
+	}
+}
+
+public Action Timer_Bleeding(Handle timer, int client)
+{
+	if (!IsClientInGame(client) || !IsPlayerAlive(client))
+	{
+		g_iPlayerBleeding[client] = 0;
+		return Plugin_Stop;
+	}
+		
+	if (g_iPlayerBleeding[client] != 0)
+	{
+		int iHealth = GetEntProp(client, Prop_Send, "m_iHealth");
+		int iBleedDamage = GetRandomInt(20, 25);
+		bool bMajorBleeding = (float(iBleedDamage) >= 25.0/1.5) ? true : false;
+
+		if (g_iPlayerBleeding[client] > 0 && g_iPlayerBleeding[client] <= MaxClients && IsClientInGame(g_iPlayerBleeding[client]))
+			Entity_Hurt(client, iBleedDamage, g_iPlayerBleeding[client], DMG_SLASH, "Bleeding");
+		else
+			Entity_Hurt(client, iBleedDamage, -1, DMG_SLASH, "Bleeding");
+
+		if ((iHealth -= iBleedDamage) >= 0)
+		{
+			char sSound[256];
+			Format(sSound, sizeof(sSound), "player/voice/responses/security/subordinate/unsuppressed/wounded%d.ogg", GetRandomInt(1, 19));
+			EmitSoundToAll(sSound, client, SNDCHAN_VOICE, _, _, 1.0);
+
+			int particle = CreateEntityByName("info_particle_system");
+			if (particle > MaxClients && IsValidEntity(particle))
+			{
+				char addoutput[64];
+				DispatchKeyValue(particle, "classname", "LuaTempParticle");
+				SetEntPropEnt(particle, Prop_Data, "m_hOwnerEntity", client);
+				if (!bMajorBleeding)
+				{
+					DispatchKeyValue(particle, "effect_name", "gore_blood_droplets_short");
+					Format(addoutput, sizeof(addoutput), "OnUser1 !self:kill::%f:1", GetRandomFloat(3.0, 4.0));
+				}
+				else
+				{
+					DispatchKeyValue(particle, "effect_name", "gore_blood_droplets_long");
+					Format(addoutput, sizeof(addoutput), "OnUser1 !self:kill::%f:1", GetRandomFloat(4.0, 6.0));
+				}
+				SetVariantString("!activator");
+				AcceptEntityInput(particle, "SetParent", client, particle, 0);
+				switch(GetRandomInt(0, 2))
+				{
+					case 0: SetVariantString("eyes");
+					case 1: SetVariantString("primary");
+					case 2:
+					{
+						if (GetRandomInt(0, 1) == 0)
+							SetVariantString("lknee");
+						else
+							SetVariantString("rknee");
+					}
+				}
+				AcceptEntityInput(particle, "SetParentAttachment", particle, particle, 0);
+				DispatchSpawn(particle);
+				AcceptEntityInput(particle, "start");
+				ActivateEntity(particle);
+				SetVariantString(addoutput);
+				AcceptEntityInput(particle, "AddOutput");
+				AcceptEntityInput(particle, "FireUser1");
+			}
+		}
+	}
+	else
+		return Plugin_Stop;
+
+	return Plugin_Continue;
+}
 
 //################## ON PRETHINK END #########################
