@@ -2615,8 +2615,11 @@ public Action:Timer_CheckEnemyStatic(Handle:Timer)
 						if (g_isCheckpoint == 1)
 						{
 							new m_nActivePushPointIndex = Ins_ObjectiveResource_GetProp("m_nActivePushPointIndex");
-							Ins_ObjectiveResource_GetPropVector("m_vCPPositions",m_vCPPositions[m_nActivePushPointIndex],m_nActivePushPointIndex);
-							capDistance = GetVectorDistance(enemyPos,m_vCPPositions[m_nActivePushPointIndex]);
+							if (m_nActivePushPointIndex != -1)
+							{
+								Ins_ObjectiveResource_GetPropVector("m_vCPPositions",m_vCPPositions[m_nActivePushPointIndex],m_nActivePushPointIndex);
+								capDistance = GetVectorDistance(enemyPos,m_vCPPositions[m_nActivePushPointIndex]);
+							}
 						}
 						else 
 							capDistance = 801.0;
@@ -2722,8 +2725,11 @@ public Action:Timer_CheckEnemyAway(Handle:Timer)
 						if (g_isCheckpoint == 1)
 						{
 							new m_nActivePushPointIndex = Ins_ObjectiveResource_GetProp("m_nActivePushPointIndex");
-							Ins_ObjectiveResource_GetPropVector("m_vCPPositions",m_vCPPositions[m_nActivePushPointIndex],m_nActivePushPointIndex);
-							capDistance = GetVectorDistance(enemyPos,m_vCPPositions[m_nActivePushPointIndex]);
+							if (m_nActivePushPointIndex != -1)
+							{
+								Ins_ObjectiveResource_GetPropVector("m_vCPPositions",m_vCPPositions[m_nActivePushPointIndex],m_nActivePushPointIndex);
+								capDistance = GetVectorDistance(enemyPos,m_vCPPositions[m_nActivePushPointIndex]);
+							}
 						}
 						// If enemy position is static, kill him
 						if (tDistance <= 150 && capDistance > 1200) 
@@ -3897,7 +3903,8 @@ public Action:Event_PlayerConnect(Handle:event, const String:name[], bool:dontBr
 	g_iPlayerRespawnTimerActive[client] = 0;
 
 	g_iPlayerBonusScore[client] = 0;
-		
+	
+	g_iCallMedic[client] = 0.0;
 	
 	//g_fPlayerLastChat[client] = GetGameTime();
 	
@@ -6498,9 +6505,10 @@ public Action:RespawnPlayerCounter(Handle:Timer, any:client)
 // Respawn bot
 public Action:RespawnBot(Handle:Timer, any:client)
 {
+	if (!IsClientInGame(client)) return;
 
 	// Exit if client is not in game
-	if (IsPlayerAlive(client) || !IsClientInGame(client) || g_iRoundStatus == 0) return;
+	if (IsPlayerAlive(client) || g_iRoundStatus == 0) return;
 
 	decl String:sModelName[64];
 	GetClientModel(client, sModelName, sizeof(sModelName));
@@ -6616,6 +6624,9 @@ public Action:Timer_ForceReload(Handle:Timer, any:client)
 public Action:Timer_PlayerRespawn(Handle:Timer, any:client)
 {
 	decl String:sRemainingTime[256];
+
+	// Exit if client is not in game
+	if (!client) return Plugin_Stop;
 	
 	// Exit if client is not in game
 	if (!IsClientInGame(client)) return Plugin_Stop; // empty class name
@@ -6739,20 +6750,26 @@ public Action:Timer_PlayerRespawn(Handle:Timer, any:client)
 			//Lets confirm squad spawn
 			new bool:tSquadSpawned = false;
 
-			//Spawn on Squad Leader Action
-			if (!Ins_InCounterAttack() && g_squadSpawnEnabled[client] == 1 && g_squadLeader[client] != -1 && IsPlayerAlive(g_squadLeader[client]) && playerPickSquad[g_squadLeader[client]] == 1)
+			if (g_squadLeader[client] != 0)
 			{
-				if (IsValidClient(g_squadLeader[client]) && IsClientInGame(g_squadLeader[client]))
+				if (IsClientInGame(g_squadLeader[client]))
 				{
-					new Float:tSquadLeadPos[3];
-					GetClientAbsOrigin(g_squadLeader[client], tSquadLeadPos);
-					TeleportEntity(client, tSquadLeadPos, NULL_VECTOR, NULL_VECTOR);
-					PrintHintText(g_squadLeader[client], "%N 小队成员在你这里复活!", client);
-					tSquadSpawned = true;
-					g_AIDir_TeamStatus += 2;
+					//Spawn on Squad Leader Action
+					if (!Ins_InCounterAttack() && g_squadSpawnEnabled[client] == 1 && g_squadLeader[client] != -1 && IsPlayerAlive(g_squadLeader[client]) && playerPickSquad[g_squadLeader[client]] == 1)
+					{
+						if (IsValidClient(g_squadLeader[client]) && IsClientInGame(g_squadLeader[client]))
+						{
+							new Float:tSquadLeadPos[3];
+							GetClientAbsOrigin(g_squadLeader[client], tSquadLeadPos);
+							TeleportEntity(client, tSquadLeadPos, NULL_VECTOR, NULL_VECTOR);
+							PrintHintText(g_squadLeader[client], "%N 小队成员在你这里复活!", client);
+							tSquadSpawned = true;
+							g_AIDir_TeamStatus += 2;
+						}
+					}
 				}
 			}
-
+			
 			// Get ragdoll position
 			new playerRag = EntRefToEntIndex(g_iClientRagdolls[client]);
 			
@@ -10495,13 +10512,18 @@ public Action OnTakeDamageHook(int victim, int &attacker, int &inflictor, float 
 
 public Action:OnPlayerRunCmd(client, &buttons, &impulse, Float:vel[3], Float:angles[3], &weapon)
 {
+	float time = GetEngineTime();
+
 	if(!IsClientInGame(client) || !IsPlayerAlive(client))
 		return Plugin_Continue;
 
 	if(!(buttons & INS_USE))
 		return Plugin_Continue;
 
-	if (g_iCallMedic[client] > GetGameTime())
+	if (g_iCallMedic[client] > time)
+		return Plugin_Continue;
+
+	if (StrContains(g_client_last_classstring[client], "medic") > -1)
 		return Plugin_Continue;
 
 	new iHp = GetEntProp(client, Prop_Send, "m_iHealth");
@@ -10536,7 +10558,7 @@ public Action:OnPlayerRunCmd(client, &buttons, &impulse, Float:vel[3], Float:ang
 	{
 		SetEntProp(client, Prop_Send, "m_bGlowEnabled", 1);
 		PrintToChatAll("\x05%N : \x01呼叫医疗兵！  (%s\x01)", client, sHp);
-		g_iCallMedic[client] = GetGameTime() + sm_callmediccd.FloatValue;
+		g_iCallMedic[client] = time + sm_callmediccd.FloatValue;
 		CallMedic(client, iHp);
 	}
 

@@ -1132,6 +1132,7 @@
 		"wave"  "*cues/Zodiacchase.ogg"
 		"wave"  "*cues/toglory.ogg"
 		"wave"  "*cues/warsawtheme.ogg"
+		"wave"	"*cues/exodus.ogg"
 	}
 }
 

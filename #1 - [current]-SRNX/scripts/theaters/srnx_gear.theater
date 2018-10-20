@@ -9,6 +9,7 @@
 			"print_name"			"#gear_increaseweight"
 			"print_desc"			"#gear_increaseweight_desc"
 			"gear_slot"				"backpack"
+			"class_restricted"		"1"
 			"gear_cost"				"1"
 			"gear_weight"			"-30"
 			
@@ -19,6 +20,7 @@
 			"print_name"			"#gear_bootspeed"
 			"print_desc"			"#gear_bootspeed_desc"
 			"gear_slot"				"backpack"
+			"class_restricted"		"1"
 			"gear_cost"				"1"
 			"gear_weight"			"0"
 			
