@@ -60,10 +60,11 @@
 				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
-				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_devgru_1_a"
-				"gear"				"srnx_esapi"
-				"gear"				"srnx_daps_leba1"
+				"gear"				"gear_uav"
+				//"gear"				"srnx_chest_rig2"
+				//"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_esapi"
+				//"gear"				"srnx_daps_leba1"
 			}
 			"allowed_items"
 			{
@@ -140,14 +141,15 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
+				"gear"				"gear_uav"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
-				"gear"				"srnx_chest_rig4"
+				//"gear"				"srnx_chest_rig3"
+				//"gear"				"srnx_chest_rig4"
 				"gear"				"srnx_chest_carrier1"
 				"gear"				"srnx_chest_carrier2"
-				"gear"				"srnx_chest_carrier3"
+				//"gear"				"srnx_chest_carrier3"
 
 			}
 		}
@@ -176,10 +178,11 @@
 				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
-				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_esapi"
-				"gear"				"srnx_daps_leba1"
-				"gear"				"srnx_devgru_1_a"
+				"gear"				"gear_uav"
+				//"gear"				"srnx_chest_rig2"
+				//"gear"				"srnx_esapi"
+				//"gear"				"srnx_daps_leba1"
+				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
 			{
@@ -242,14 +245,15 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
+				"gear"				"gear_uav"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
-				"gear"				"srnx_chest_rig4"
+				//"gear"				"srnx_chest_rig3"
+				//"gear"				"srnx_chest_rig4"
 				"gear"				"srnx_chest_carrier1"
 				"gear"				"srnx_chest_carrier2"
-				"gear"				"srnx_chest_carrier3"
+				//"gear"				"srnx_chest_carrier3"
 			}
 		}
 		"Gnalvl_pointman_usmc"
@@ -281,7 +285,7 @@
 				"gear"				"srnx_chest_rig2"
 				"gear"				"srnx_esapi"
 				"gear"				"srnx_daps_leba1"
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
 			{
@@ -300,10 +304,13 @@
 				"weapon"			"weapon_sig553"
 				"weapon"			"weapon_g36c"
 				"weapon"			"weapon_famas"
-				"weapon_upgrade"	"ammo_beta50"
+				//"weapon_upgrade"	"ammo_beta50"
 				//"weapon_upgrade"	"ammo_beta75"
 				//"weapon_upgrade"	"magazine_drum_75rd"
-				"weapon_upgrade"	"magazine_drum_50rd"
+				//"weapon_upgrade"	"magazine_drum_50rd"
+				"weapon_upgrade"	"fast_gunner_sp"
+				"weapon_upgrade"	"fast_gunner_sp_shotgun"
+				"weapon_upgrade"	"fast_gunner_sp_pis"
 
 
 				//Secondaries
@@ -336,14 +343,23 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
-				"gear"				"srnx_chest_rig4"
+				//"gear"				"srnx_chest_rig3"
+				//"gear"				"srnx_chest_rig4"
 				"gear"				"srnx_chest_carrier1"
 				"gear"				"srnx_chest_carrier2"
-				"gear"				"srnx_chest_carrier3"
+				//"gear"				"srnx_chest_carrier3"
+			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					//"speed_holster"		"1"
+					//"tactical_sling"	"1"
+					//"quick_reload"		"1"
+				}
 			}
 		}
 		"Gnalvl_rifleman_at_usmc_1"
@@ -376,7 +392,7 @@
 				"gear"				"srnx_chest_rig2"
 				"gear"				"srnx_esapi"
 				"gear"				"srnx_daps_leba1"
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 
 			}
 			"allowed_items"
@@ -426,8 +442,8 @@
 				"weapon_upgrade"		"underbarrel_gp25_he"
 				"weapon_upgrade"		"underbarrel_m203_he"
 				"weapon"			"weapon_at4"
-				"weapon"			"weapon_rpg7"
-				"weapon"			"weapon_law"
+				//"weapon"			"weapon_rpg7"
+				//"weapon"			"weapon_law"
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_mk3"
 				"weapon"			"weapon_model10"
@@ -435,14 +451,14 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
-				"gear"				"srnx_chest_rig4"
+				//"gear"				"srnx_chest_rig3"
+				//"gear"				"srnx_chest_rig4"
 				"gear"				"srnx_chest_carrier1"
 				"gear"				"srnx_chest_carrier2"
-				"gear"				"srnx_chest_carrier3"
+				//"gear"				"srnx_chest_carrier3"
 			}
 		}
 		"Gnalvl_rifleman_at_usmc_2"
@@ -474,7 +490,7 @@
 				"gear"				"srnx_chest_rig2"
 				"gear"				"srnx_esapi"
 				"gear"				"srnx_daps_leba1"
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 
 			}
 			"allowed_items"
@@ -523,8 +539,8 @@
 				"weapon_upgrade"		"underbarrel_gp25_he"
 				"weapon_upgrade"		"underbarrel_m203_he"
 				"weapon"			"weapon_at4"
-				"weapon"			"weapon_rpg7"
-				"weapon"			"weapon_law"
+				//"weapon"			"weapon_rpg7"
+				//"weapon"			"weapon_law"
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_mk3"
 				"weapon"			"weapon_model10"
@@ -532,14 +548,14 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
-				"gear"				"srnx_chest_rig4"
+				//"gear"				"srnx_chest_rig3"
+				//"gear"				"srnx_chest_rig4"
 				"gear"				"srnx_chest_carrier1"
 				"gear"				"srnx_chest_carrier2"
-				"gear"				"srnx_chest_carrier3"
+				//"gear"				"srnx_chest_carrier3"
 			}
 		}
 		"Gnalvl_engineer_usmc_1"
@@ -565,11 +581,12 @@
 			{
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_mk18"
-				"weapon"			"weapon_c4_clicker"
-				"gear"				"srnx_chest_carrier_eng2"
-				"gear"				"srnx_esapi"
-				"gear"				"srnx_daps_leba1"
-				"gear"				"srnx_devgru_1_a"
+				//"weapon"			"weapon_c4_clicker"
+				"gear"				"gear_ammocrate"
+				//"gear"				"srnx_chest_carrier_eng2"
+				//"gear"				"srnx_esapi"
+				//"gear"				"srnx_daps_leba1"
+				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
 			{
@@ -625,14 +642,15 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
+				"gear"				"gear_ammocrate"
 				"gear"				"srnx_chest_carrier_eng1"
 				"gear"				"srnx_chest_carrier_eng2"
-				"gear"				"srnx_chest_carrier_eng3"
+				//"gear"				"srnx_chest_carrier_eng3"
 				"gear"				"srnx_chest_rig_eng1"
 				"gear"				"srnx_chest_rig_eng2"
-				"gear"				"srnx_chest_rig_eng3"
-				"gear"				"srnx_chest_rig_eng4"
+				//"gear"				"srnx_chest_rig_eng3"
+				//"gear"				"srnx_chest_rig_eng4"
 			}
 		}
 		"Gnalvl_engineer_usmc_2"
@@ -658,11 +676,12 @@
 			{
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_mk18"
-				"weapon"			"weapon_c4_clicker"
-				"gear"				"srnx_chest_carrier_eng2"
-				"gear"				"srnx_esapi"
-				"gear"				"srnx_daps_leba1"
-				"gear"				"srnx_devgru_1_a"
+				//"weapon"			"weapon_c4_clicker"
+				"gear"				"gear_ammocrate"
+				//"gear"				"srnx_chest_carrier_eng2"
+				//"gear"				"srnx_esapi"
+				//"gear"				"srnx_daps_leba1"
+				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
 			{
@@ -720,14 +739,15 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
+				"gear"				"gear_ammocrate"
 				"gear"				"srnx_chest_carrier_eng1"
 				"gear"				"srnx_chest_carrier_eng2"
-				"gear"				"srnx_chest_carrier_eng3"
+				//"gear"				"srnx_chest_carrier_eng3"
 				"gear"				"srnx_chest_rig_eng1"
 				"gear"				"srnx_chest_rig_eng2"
-				"gear"				"srnx_chest_rig_eng3"
-				"gear"				"srnx_chest_rig_eng4"
+				//"gear"				"srnx_chest_rig_eng3"
+				//"gear"				"srnx_chest_rig_eng4"
 			}
 		}
 		"gnalvl_medic_usmc_1"
@@ -760,7 +780,7 @@
 				"gear"				"srnx_chest_rig2"
 				"gear"				"srnx_esapi"
 				"gear"				"srnx_daps_leba1"
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
 			{
@@ -816,14 +836,14 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//gear
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
-				"gear"				"srnx_chest_rig4"
+				//"gear"				"srnx_chest_rig3"
+				//"gear"				"srnx_chest_rig4"
 				"gear"				"srnx_chest_carrier1"
 				"gear"				"srnx_chest_carrier2"
-				"gear"				"srnx_chest_carrier3"
+				//"gear"				"srnx_chest_carrier3"
 			}
 		}	
 		"gnalvl_medic_usmc_2"
@@ -856,7 +876,7 @@
 				"gear"				"srnx_chest_rig2"
 				"gear"				"srnx_esapi"
 				"gear"				"srnx_daps_leba1"
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
 			{
@@ -912,14 +932,14 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
-				"gear"				"srnx_chest_rig4"
+				//"gear"				"srnx_chest_rig3"
+				//"gear"				"srnx_chest_rig4"
 				"gear"				"srnx_chest_carrier1"
 				"gear"				"srnx_chest_carrier2"
-				"gear"				"srnx_chest_carrier3"
+				//"gear"				"srnx_chest_carrier3"
 			}
 		}	
 		"Gnalvl_support_usmc_1"
@@ -950,7 +970,7 @@
 				"gear"				"srnx_chest_rig_mg2"
 				"gear"				"srnx_esapi"
 				"gear"				"srnx_daps_leba1"
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
 			{
@@ -969,6 +989,7 @@
 				//upgrades
 				//"weapon_upgrade"	"magazine_drum_75rd"
 				//"weapon_upgrade"	"ammo_beta75"
+				"weapon_upgrade"	"tactical_sling_sup"
 
 				//Secondaries
 				"weapon"			"weapon_m1a1"
@@ -998,14 +1019,21 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//GEAR
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig_mg1"
 				"gear"				"srnx_chest_rig_mg2"
-				"gear"				"srnx_chest_rig_mg3"
+				//"gear"				"srnx_chest_rig_mg3"
 				"gear"				"srnx_chest_carrier_mg1"
 				"gear"				"srnx_chest_carrier_mg2"
-				"gear"				"srnx_chest_carrier_mg3"
+				//"gear"				"srnx_chest_carrier_mg3"
 
+			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"tactical_sling"		"-1"
+				}
 			}
 		}
 		"Gnalvl_support_usmc_2"
@@ -1036,7 +1064,7 @@
 				"gear"				"srnx_chest_rig_mg2"
 				"gear"				"srnx_esapi"
 				"gear"				"srnx_daps_leba1"
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
 			{
@@ -1055,6 +1083,7 @@
 				//upgrades
 				//"weapon_upgrade"	"magazine_drum_75rd"
 				//"weapon_upgrade"	"ammo_beta75"
+				"weapon_upgrade"	"tactical_sling_sup"
 
 				//Secondaries
 				"weapon"			"weapon_m1a1"
@@ -1084,14 +1113,21 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig_mg1"
 				"gear"				"srnx_chest_rig_mg2"
-				"gear"				"srnx_chest_rig_mg3"
+				//"gear"				"srnx_chest_rig_mg3"
 				"gear"				"srnx_chest_carrier_mg1"
 				"gear"				"srnx_chest_carrier_mg2"
-				"gear"				"srnx_chest_carrier_mg3"
+				//"gear"				"srnx_chest_carrier_mg3"
 
+			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"tactical_sling"		"-1"
+				}
 			}
 		}
 		"Gnalvl_teamleader_recon_usmc"
@@ -1119,10 +1155,11 @@
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_m67"
-				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_esapi"
-				"gear"				"srnx_daps_leba1"
-				"gear"				"srnx_devgru_1_a"
+				"gear"				"gear_uav"
+				//"gear"				"srnx_chest_rig2"
+				//"gear"				"srnx_esapi"
+				//"gear"				"srnx_daps_leba1"
+				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
 			{
@@ -1189,14 +1226,15 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
+				"gear"				"gear_uav"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
-				"gear"				"srnx_chest_rig4"
+				//"gear"				"srnx_chest_rig3"
+				//"gear"				"srnx_chest_rig4"
 				"gear"				"srnx_chest_carrier1"
 				"gear"				"srnx_chest_carrier2"
-				"gear"				"srnx_chest_carrier3"
+				//"gear"				"srnx_chest_carrier3"
 			}
 		}
 		"gnalvl_recon_medic_usmc"
@@ -1227,7 +1265,7 @@
 				"gear"				"srnx_chest_rig2"
 				"gear"				"srnx_esapi"
 				"gear"				"srnx_daps_leba1"
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
 			{
@@ -1291,14 +1329,14 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
-				"gear"				"srnx_chest_rig4"
+				//"gear"				"srnx_chest_rig3"
+				//"gear"				"srnx_chest_rig4"
 				"gear"				"srnx_chest_carrier1"
 				"gear"				"srnx_chest_carrier2"
-				"gear"				"srnx_chest_carrier3"
+				//"gear"				"srnx_chest_carrier3"
 			}
 		}
 
@@ -1325,11 +1363,12 @@
 			{
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_fal"
-				"weapon"			"weapon_c4_clicker"
-				"gear"				"srnx_chest_carrier_eng2"
-				"gear"				"srnx_esapi"
-				"gear"				"srnx_daps_leba1"
-				"gear"				"srnx_devgru_1_a"
+				//"weapon"			"weapon_c4_clicker"
+				"gear"				"gear_ammocrate"
+				//"gear"				"srnx_chest_carrier_eng2"
+				//"gear"				"srnx_esapi"
+				//"gear"				"srnx_daps_leba1"
+				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
 			{
@@ -1392,14 +1431,15 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
+				"gear"				"gear_ammocrate"
 				"gear"				"srnx_chest_carrier_eng1"
 				"gear"				"srnx_chest_carrier_eng2"
-				"gear"				"srnx_chest_carrier_eng3"
+				//"gear"				"srnx_chest_carrier_eng3"
 				"gear"				"srnx_chest_rig_eng1"
 				"gear"				"srnx_chest_rig_eng2"
-				"gear"				"srnx_chest_rig_eng3"
-				"gear"				"srnx_chest_rig_eng4"
+				//"gear"				"srnx_chest_rig_eng3"
+				//"gear"				"srnx_chest_rig_eng4"
 			}
 		}
 		"Gnalvl_marksman_usmc_1"
@@ -1451,6 +1491,8 @@
 				//Upgrades
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
+				"weapon_upgrade"	"quick_reload_marks"
+				"weapon_upgrade"	"fast_bolt_action_marks"
 				//Secondaries
 				"weapon"			"weapon_m1a1"
 				"weapon"			"weapon_mini14"
@@ -1480,14 +1522,22 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
-				"gear"				"srnx_chest_rig4"
+				//"gear"				"srnx_chest_rig3"
+				//"gear"				"srnx_chest_rig4"
 				"gear"				"srnx_chest_carrier1"
 				"gear"				"srnx_chest_carrier2"
-				"gear"				"srnx_chest_carrier3"
+				//"gear"				"srnx_chest_carrier3"
+			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"fast_bolt_action"		"-1"
+					"quick_reload"			"-1"
+				}
 			}
 		}
 		"Gnalvl_marksman_usmc_2"
@@ -1538,6 +1588,8 @@
 				//Upgrades
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
+				"weapon_upgrade"	"quick_reload_marks"
+				"weapon_upgrade"	"fast_bolt_action_marks"
 				//Secondaries
 				"weapon"			"weapon_m1a1"
 				"weapon"			"weapon_mini14"
@@ -1567,14 +1619,22 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
-				"gear"				"srnx_chest_rig4"
+				//"gear"				"srnx_chest_rig3"
+				//"gear"				"srnx_chest_rig4"
 				"gear"				"srnx_chest_carrier1"
 				"gear"				"srnx_chest_carrier2"
-				"gear"				"srnx_chest_carrier3"
+				//"gear"				"srnx_chest_carrier3"
+			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"fast_bolt_action"		"-1"
+					"quick_reload"			"-1"
+				}
 			}
 		}
 		"Gnalvl_spotter_usmc"
@@ -1667,14 +1727,14 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
-				"gear"				"srnx_chest_rig4"
+				//"gear"				"srnx_chest_rig3"
+				//"gear"				"srnx_chest_rig4"
 				"gear"				"srnx_chest_carrier1"
 				"gear"				"srnx_chest_carrier2"
-				"gear"				"srnx_chest_carrier3"
+				//"gear"				"srnx_chest_carrier3"
 			}
 		}
 		"Gnalvl_vip_usmc"
@@ -1726,8 +1786,8 @@
 				// "weapon"			"weapon_g3a3"
 				// "weapon"			"weapon_acr"
 				// "weapon"			"weapon_scar"
-				// "weapon"			"weapon_mk20_scar"
-				// "weapon"			"weapon_rfb"
+				"weapon"			"weapon_mk20_scar"
+				"weapon"			"weapon_rfb"
 				// "weapon"			"weapon_sig553"
 				// "weapon"			"weapon_g36c"
 				// "weapon"			"weapon_famas"
@@ -1767,20 +1827,23 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
-				"gear"				"srnx_devgru_1_a"
+				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
-				"gear"				"srnx_chest_rig4"
+				//"gear"				"srnx_chest_rig3"
+				//"gear"				"srnx_chest_rig4"
 				"gear"				"srnx_chest_carrier1"
 				"gear"				"srnx_chest_carrier2"
-				"gear"				"srnx_chest_carrier3"
+				//"gear"				"srnx_chest_carrier3"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_anm14"		"-1"
+					"weapon_anm14"		"-2"
+					"weapon_mk20_scar"	"1"
+					"weapon_rfb"	"1"
+					
 				}
 			}
 		}
@@ -1814,10 +1877,13 @@
 				"weapon"			"weapon_vz58"
 				"weapon_upgrade"	"magazine_drum_75rd"
 				"weapon_upgrade"	"ammo_ap_akm"
+				"weapon_upgrade"	"quick_reload"
+				"weapon_upgrade"	"juggernaut_sp"
 				//Secondary
 				"weapon"			"weapon_kingcobra"
 				"weapon_upgrade"	"ammo_hp_mr96"
-
+				"weapon_upgrade"	"juggernaut_sp"
+				
 				//Explosive
 				"weapon"			"weapon_rpg7"
 				
@@ -1834,6 +1900,7 @@
 				"weapon"			"weapon_vz58"
 				"weapon_upgrade"	"magazine_drum_75rd"
 				"weapon_upgrade"	"ammo_ap_akm"
+				"weapon_upgrade"	"juggernaut_sp"
 				//Secondary
 				"weapon"			"weapon_kingcobra"
 				"weapon_upgrade"	"ammo_hp_mr96"
@@ -1869,11 +1936,13 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_rpk"
-				"weapon_upgrade"	"ammo_ap_rpk"
+				"weapon"			"weapon_m107"
+				"weapon_upgrade"	"ammo_ap_m107"
+				"weapon_upgrade"	"juggernaut_sp"
 				//Secondary
 				"weapon"			"weapon_aks74u"
 				"weapon_upgrade"	"ammo_hp_aks74u"
+				"weapon_upgrade"	"juggernaut_sp"
 
 				//Explosive
 				"weapon"			"weapon_rpg7"
@@ -1888,8 +1957,11 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_rpk"
-				"weapon_upgrade"	"ammo_ap_rpk"
+				//"weapon"			"weapon_rpk"
+				//"weapon_upgrade"	"ammo_ap_rpk"
+				"weapon"			"weapon_m107"
+				"weapon_upgrade"	"ammo_ap_m107"
+				"weapon_upgrade"	"juggernaut_sp"
 				//Secondary
 				"weapon"			"weapon_aks74u"
 				"weapon_upgrade"	"ammo_hp_aks74u"

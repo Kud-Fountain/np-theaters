@@ -13,12 +13,12 @@
 			"kill_bonus_revenge"		"10"	
 			"assist"					"10"	
 
-			"obj_captured"				"10"
+			"obj_captured"				"200"
 			"obj_neutralized"			"5"
 			"obj_reset"					"20"	// points given when defenders reset the progress to 0% (if progress got to at least 50%)
 			"obj_capture_tick"			"10"	// attacking points given every 10%
 			"obj_reset_tick"			"10"	// defending points given every 10%
-			"cache_destroyed"			"20"
+			"cache_destroyed"			"300"
 			"intel_captured"			"100"
 			"vip_killed"				"100"
 			"safehouse_secured"			"100"
@@ -46,30 +46,39 @@
 			"speed_sprint"			"288" // def: 288
 			"AccelerationByWeight"
 			{
-				"60"				"4.4" //def: "4.20"
-				"454"				"4.0" //def: "4.10"
+				//"60"				"4.4" //def: "4.20"
+				"0"					"4.4"
+				"114"				"4.4" //def: "4.10"
+				"227"				"4.0"
+				"454"				"3.0"
 			}
 			
 			"DecelerationByWeight"
 			{
-				"60"				"300.0" // these are much higher than acceleration values because it's loss in velocity per second
-				"454"				"650.0"
+				//"60"				"300.0" // these are much higher than acceleration values because it's loss in velocity per second
+				"0"					"250.0"
+				"114"				"250.0"
+				"227"				"400.0"
+				"454"				"720.0"
 			}
 			
 			"FrictionByWeight"
 			{
-				"60"				"4.4" //def 4.2
+				//"60"				"4.4" //def 4.2
 				//"362"				"5.2"
-				"454"				"5.0" // def 5.0
+				"0"					"4.4"
+				"114"				"4.4"
+				"227"				"4.8" // def 5.0
+				"454"				"5.8"
 			}
 			"SprintSpeedFactorByStamina"
 			{
-				"0"					"0.55"
-				"20"				"0.6"
-				"40"				"0.7"
-				"60"				"0.8"
-				"70"				"0.9"
-				"100"				"1.0"
+				"0"					"0.65"
+				"20"				"0.7"
+				"40"				"0.8"
+				"60"				"0.9"
+				"70"				"1.0"
+				"100"				"1.1"
 			}
 
 		}
@@ -86,10 +95,11 @@
 		{
 			"StaminaMaxByWeight"
 			{
-				"60"				"200"
-				"113"				"180" // -20
+				"0"					"210"
+				//"60"				"200"
+				"114"				"210" // -20
 				"227"				"140" // -40
-				"340"				"80"  // -60
+				//"340"				"80"  // -60
 				"454"				"30" // -50
 			}
 			"stamina_regain"		"5.50"
@@ -136,14 +146,18 @@
 			
 			"DistanceByWeight"
 			{
-				"60"				"0.6"
-				"454"				"0.5"
+				"0"				"0.9"
+				"114"			"0.9"
+				"227"			"0.7"
+				"454"				"0.2"
 			}
 			
 			"SpeedByWeight"
 			{
-				"60"				"260"
-				"454"				"100"
+				"0"					"290"
+				"114"				"290"
+				"227"				"220"
+				"454"				"105"
 			}
 		}
 		"lean"
@@ -159,12 +173,16 @@
 			"LeanSpeedByWeight"
 			{
 				"0"				"3.8"
-				"454"			"2.8"
+				"114"			"3.8"
+				"227"			"3.2"
+				"454"			"2.2"
 			}
 			"LeanViewModelSpeedByWeight"
 			{
 				"60"				"7"
-				"454"				"2"
+				"114"				"7"
+				"227"				"5"
+				"454"				"1"
 			}
 		}
 		"suppression"

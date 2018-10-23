@@ -86,9 +86,9 @@ new g_iPlayerEquipGear;
 // Handle for revive
 new Handle:g_hForceRespawn;
 new Handle:g_hGameConfig;
-new g_cqcMapsArray[][] = {"chateau_tunnels_v2","congress_coop","cargo_redux9","game_day_coopv1_3",
+/* new g_cqcMapsArray[][] = {"chateau_tunnels_v2","congress_coop","cargo_redux9","game_day_coopv1_3",
 				"launch_control_coopv1_5","bunker_busting_coop_ws","gizab_b1_coop",
-				"inferno_checkpoint_b2","nightfall_coopv1_1","caves_coop"};
+				"inferno_checkpoint_b2","nightfall_coopv1_1","caves_coop"}; */
 
 // AI Director Variables
 new
@@ -639,11 +639,11 @@ int g_iPlayerBleeding[MAXPLAYERS_INS+1] = 0;
 
 /////////////////////////////////////
 
-#define PLUGIN_VERSION "1.7.1"
-#define SERVER_VERSION "5.5.1d"
+#define PLUGIN_VERSION "1.7.2"
+#define SERVER_VERSION "5.6.0"
 #define GAMEDESC "经典核心服[SRNX]"
 #define PLUGIN_DESCRIPTION "Respawn dead players via admincommand or by queues"
-#define UPDATE_URL	"http://ins.jballou.com/sourcemod/update-respawn.txt"
+//#define UPDATE_URL	"http://ins.jballou.com/sourcemod/update-respawn.txt"
 
 // Plugin info
 public Plugin:myinfo =
@@ -4278,7 +4278,7 @@ public Action:Event_ControlPointCaptured_Pre(Handle:event, const String:name[], 
 	new fRandomInt = GetRandomInt(g_counterAttack_min_dur_sec, g_counterAttack_max_dur_sec);
 	new fRandomIntCounterLarge = GetRandomInt(1, 100);
 	new largeCounterEnabled = false;
-	if (fRandomIntCounterLarge <= 15)
+	if (fRandomIntCounterLarge <= 0)
 	{
 		fRandomInt = (fRandomInt * 2);
 		new fRandomInt2 = GetRandomInt(60, 90);
@@ -4473,6 +4473,8 @@ public Action:Event_ControlPointCaptured(Handle:event, const String:name[], bool
 							SetEntProp(client, Prop_Send, "m_nAvailableTokens", nAvailableSupplyPoint);
 						}
 					}
+
+					g_iPlayerBonusScore[clientCapper] += 150;
 				
 					break;
 			}
@@ -4649,7 +4651,7 @@ public Action:Event_ObjectDestroyed_Pre(Handle:event, const String:name[], bool:
 	new fRandomInt = GetRandomInt(g_counterAttack_min_dur_sec, g_counterAttack_max_dur_sec);
 	new fRandomIntCounterLarge = GetRandomInt(1, 100);
 	new largeCounterEnabled = false;
-	if (fRandomIntCounterLarge <= 15)
+	if (fRandomIntCounterLarge <= 0)
 	{
 		fRandomInt = (fRandomInt * 2);
 		new fRandomInt2 = GetRandomInt(90, 180);
@@ -4811,6 +4813,8 @@ public Action:Event_ObjectDestroyed(Handle:event, const String:name[], bool:dont
 								SetEntProp(client, Prop_Send, "m_nAvailableTokens", nAvailableSupplyPoint);
 							}
 						}
+
+						g_iPlayerBonusScore[clientCapper] += 250;
 					
 						break;
 				}
@@ -5674,7 +5678,7 @@ public Action:Event_PlayerPickSquad_Post( Handle:event, const String:name[], boo
 	}
 	else if (StrContains(g_client_last_classstring[client], "pointman") > -1)
 	{
-		NP_Users_SetTag(client, "步枪(定点)");
+		NP_Users_SetTag(client, "快枪");
 	}
 	else if (StrContains(g_client_last_classstring[client], "support") > -1)
 	{
@@ -6750,7 +6754,7 @@ public Action:Timer_PlayerRespawn(Handle:Timer, any:client)
 			//Lets confirm squad spawn
 			new bool:tSquadSpawned = false;
 
-			if (g_squadLeader[client] != 0)
+			if (g_squadLeader[client] > 0 && g_squadLeader[client] <= MaxClients)
 			{
 				if (IsClientInGame(g_squadLeader[client]))
 				{
@@ -7645,7 +7649,7 @@ public Action:Timer_VIPCheck_Main(Handle:timer, any:data)
 	{				
 		
 		//Format(textToPrint, sizeof(textToPrint), "Capture point with VIP in %d second to receive bonus supply!", g_vip_obj_count);
-		Format(textToPrintChat, sizeof(textToPrintChat), "\x04VIP 必须在 %d 秒内占领检查点来为队伍获得额外的补给点！", g_vip_obj_count);
+		Format(textToPrintChat, sizeof(textToPrintChat), "\x04VIP 必须在 %d 秒内占领检查点或摧毁军备来为队伍获得额外的补给点！", g_vip_obj_count);
 		PrintToChatAll("现在没有可破坏的任务目标。");
 		PrintHintTextToAll(textToPrintChat);
 		PrintToChatAll(textToPrintChat);
@@ -10485,17 +10489,17 @@ public Action OnTakeDamageHook(int victim, int &attacker, int &inflictor, float 
 		{
 			if (damagetype & DMG_BULLET)
 			{
-				if (GetRandomFloat(0.1, 100.00) <= 20.0)
+				if (GetRandomFloat(0.1, 100.00) <= 15.0)
 					bBleeding = true;
 			}
 			else if (damagetype & DMG_BLAST)
 			{
-				if (GetRandomFloat(0.1, 100.00) <= 20.0)
+				if (GetRandomFloat(0.1, 100.00) <= 15.0)
 					bBleeding = true;
 			}
 			else if (damagetype & DMG_SLASH)
 			{
-				if (GetRandomFloat(0.1, 100.00) <= 25.0)
+				if (GetRandomFloat(0.1, 100.00) <= 20.0)
 					bBleeding = true;
 			}
 
@@ -10674,7 +10678,7 @@ public Action Timer_Bleeding(Handle timer, int client)
 	if (g_iPlayerBleeding[client] != 0)
 	{
 		int iHealth = GetEntProp(client, Prop_Send, "m_iHealth");
-		int iBleedDamage = GetRandomInt(20, 25);
+		int iBleedDamage = GetRandomInt(14, 18);
 		bool bMajorBleeding = (float(iBleedDamage) >= 25.0/1.5) ? true : false;
 
 		if (g_iPlayerBleeding[client] > 0 && g_iPlayerBleeding[client] <= MaxClients && IsClientInGame(g_iPlayerBleeding[client]))

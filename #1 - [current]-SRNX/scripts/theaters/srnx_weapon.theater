@@ -23,7 +23,7 @@
 			"weapon_max_subslot"			"0" // can only be in the first explosive slot
 			"act_table"						"launcher"
 			"weapon_weight"					"80"
-			"weapon_cost"					"4"
+			"weapon_cost"					"2"
 			"weapon_abilities"				"ironsight"
 			"barrel_length"					"44"
 			"class_restricted"				"1"
@@ -129,7 +129,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"no_carry"
-				"clip_max_rounds"			"1" // 1 rpg per mag
+				"clip_max_rounds"			"2" // 1 rpg per mag
 				"clip_default"				"1"
 			}
 			"player_restrictions"
@@ -893,7 +893,7 @@
 			"act_table"				"shot"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"30"	// (3.3kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"weapon_cost"				"1"
+			"weapon_cost"				"0"
 			"fire_instantly"			"1"
 			"class_restricted"			"1"
 			"barrel_length"				"24"
@@ -982,7 +982,7 @@
 			"act_table"				"shot"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"30"	// (3.3kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"weapon_cost"				"1"
+			"weapon_cost"				"0"
 			"fire_instantly"			"1"
 			"class_restricted"			"1"
 			"barrel_length"				"24"
@@ -1071,7 +1071,7 @@
 			"act_table"				"shot"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"40"	// (3.3kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"weapon_cost"				"1"
+			"weapon_cost"				"0"
 			"fire_instantly"			"1"
 			"class_restricted"			"1"
 			"barrel_length"				"24"
@@ -1161,7 +1161,7 @@
 			"weapon_max_subslot"			"0" // can only be in the first explosive slot
 			"act_table"						"grenade"
 			"weapon_weight"					"85"
-			"weapon_cost"					"1"
+			"weapon_cost"					"2"
 			"explosives"
 			{
 				"entity"				"grenade_c4"
@@ -1279,7 +1279,7 @@
 			"weapon_slot"					"explosive"
 			"act_table"						"grenade"
 			"weapon_weight"					"5"
-			"weapon_cost"					"1"
+			"weapon_cost"					"0"
 			"class_restricted"				"0"
 			"fov"
 			{
@@ -1313,7 +1313,7 @@
 			"weapon_slot"					"explosive"
 			"act_table"						"grenade"
 			"weapon_weight"					"5"
-			"weapon_cost"					"1"
+			"weapon_cost"					"0"
 			"class_restricted"				"0"
 
 			"fov"
@@ -1348,7 +1348,7 @@
 			"weapon_slot"					"explosive"
 			"act_table"						"grenade"
 			"weapon_weight"					"10"
-			"weapon_cost"					"2"
+			"weapon_cost"					"3"
 			"class_restricted"				"1"
 			"weapon_max_subslot"			"0"
 			"fov"
@@ -1383,7 +1383,7 @@
 			"weapon_slot"					"explosive"
 			"act_table"						"grenade"
 			"weapon_weight"					"14"
-			"weapon_cost"					"2"
+			"weapon_cost"					"3"
 			"class_restricted"				"1"
 			"fov"
 			{
@@ -1416,12 +1416,13 @@
 			"print_desc"					"#weapon_flaregun_desc"
 			"view_model"					"models/weapons/v_p2a1.mdl"
 			"world_model"					"models/weapons/w_p2a1.mdl"
-			"weapon_slot"					"explosive"
+			"weapon_slot"					"melee"	//explosive
 			"weapon_max_subslot"			"0"
 			"act_table"						"pistol"
 			"weapon_weight"					"14"
 			"weapon_cost"					"0"
 			"weapon_abilities"				"ironsight"
+			"class_restricted"				"1"
 			"fire_instantly"				"1"
 			"explosives"
 			{
@@ -1465,7 +1466,7 @@
 			"weapon_slot"					"explosive"
 			"act_table"						"grenade"
 			"weapon_weight"					"5"
-			"weapon_cost"					"2"
+			"weapon_cost"					"0"
 			"class_restricted"				"1"
 			"weapon_max_subslot"			"0"
 
@@ -1504,7 +1505,7 @@
 			"weapon_slot"					"explosive"
 			"act_table"						"grenade"
 			"weapon_weight"					"3"
-			"weapon_cost"					"2"
+			"weapon_cost"					"0"
 			"class_restricted"				"1"
 			"weapon_max_subslot"			"0"
 
@@ -1536,7 +1537,7 @@
 			"weapon_slot"			"explosive"
 			"act_table"				"grenade"
 			"weapon_weight"			"6"
-			"weapon_cost"			"1"
+			"weapon_cost"			"0"
 			"class_restricted"		"1"
 			"weapon_max_subslot"	"2"			
 			"explosives"
@@ -5218,7 +5219,7 @@
 			"act_table"						"shortrifle"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"26" // new formula is (weight of weapon in kg + weight of 3 mags) x29.5
-			"weapon_cost"					"3"
+			"weapon_cost"					"2"
 			"barrel_length"					"14"
 			
 			"viewmodel_attachments"
@@ -5509,10 +5510,10 @@
 			"class_restricted"				"1"
 			"act_table"						"rifle_m14"
 			"weapon_abilities"				"ironsight"
-			"weapon_cost"					"4"
+			"weapon_cost"					"3"
 			"weapon_weight"					"144" 
 			"barrel_length"					"49"
-			"draw_speed"					"0.4"
+			"draw_speed"					"0.6"
 			"reload_speed"					"0.65"
 			
 			//higher is slower
@@ -5830,7 +5831,7 @@
 			"act_table"						"rifle_ak2"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"50" // (3.9kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"weapon_cost"					"3"
+			"weapon_cost"					"2"
 			"barrel_length"					"38"
 			
 			"fov"
@@ -5919,7 +5920,7 @@
 			"act_table"						"pdw"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"25" // (2.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
-			"weapon_cost"					"2"
+			"weapon_cost"					"1"
 			"burst_delay"					"0.15"
 			"barrel_length"					"16"
 			"draw_speed"					"1.15"
@@ -6008,7 +6009,7 @@
 			"act_table"					"sterling" // yes, its own special act_table
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"31"
-			"weapon_cost"				"2"
+			"weapon_cost"				"1"
 			"barrel_length"				"16"
 			"draw_speed"					"1.15"
 			"viewmodel_attachments"
@@ -6127,7 +6128,7 @@
 			"act_table"						"smg_magheld"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"36" // (4.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
-			"weapon_cost"					"2"
+			"weapon_cost"					"1"
 			"barrel_length"					"14"
 			"draw_speed"					"1.15"
 			
@@ -6303,7 +6304,7 @@
 			"act_table"						"shortrifle"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"32" // (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"weapon_cost"					"3"
+			"weapon_cost"					"2"
 			"class_restricted"				"1"
 			"barrel_length"					"16"
 			"viewmodel_attachments"
@@ -7640,8 +7641,8 @@
 			"weapon_slot"					"primary"
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
-			"weapon_weight"					"122" // 17 lbs + 2 200 round mags at 5 lbs
-			"weapon_cost"					"3"
+			"weapon_weight"					"157" // 17 lbs + 2 200 round mags at 5 lbs
+			"weapon_cost"					"4"
 			"closed_bolt"					"0"
 			"barrel_length"					"28"
 
@@ -7759,7 +7760,7 @@
 			{
 				"ammo_type"					"556_m27"
 				"clip_max"					"4"
-				"clip_max_rounds"			"200"
+				"clip_max_rounds"			"150"
 				"clip_default"				"0" // attempt to counter mag balance
 			}
 			"attachments"
@@ -7784,8 +7785,8 @@
 			"weapon_slot"					"primary"
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
-			"weapon_weight"					"93" // +13 lbs weapon + 150 556 round magazines @ 3.75 lbs each
-			"weapon_cost"					"3"
+			"weapon_weight"					"120" // +13 lbs weapon + 150 556 round magazines @ 3.75 lbs each
+			"weapon_cost"					"2"
 			"closed_bolt"					"0"
 			"barrel_length"					"24"	
 			"draw_speed"					"0.7"
@@ -7928,8 +7929,8 @@
 			"weapon_slot"					"primary"
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
-			"weapon_weight"					"142" // 18.5 + 100 round mag x2 (6.44 lbs each)
-			"weapon_cost"					"3"
+			"weapon_weight"					"180" // 18.5 + 100 round mag x2 (6.44 lbs each)
+			"weapon_cost"					"2"
 			"closed_bolt"					"0"
 			"barrel_length"					"30"	
 			"draw_speed"					"0.4"
@@ -8047,7 +8048,7 @@
 			{
 				"ammo_type"					"762x51_mk48_100rnd" //change
 				"clip_max"					"4"
-				"clip_max_rounds"			"100"
+				"clip_max_rounds"			"150"
 				"clip_default"				"0" // attempt to counter mag balance
 			}
 			"attachments"
@@ -8072,8 +8073,8 @@
 			"weapon_slot"					"primary"
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
-			"weapon_weight"					"160" // 18.5 + 100 round mag x2 (6.44 lbs each)
-			"weapon_cost"					"3"
+			"weapon_weight"					"200" // 18.5 + 100 round mag x2 (6.44 lbs each)
+			"weapon_cost"					"2"
 			"closed_bolt"					"0"
 			"barrel_length"					"30"	
 			"draw_speed"					"0.35"
@@ -8190,7 +8191,7 @@
 			{
 				"ammo_type"					"762x51_mk48_100rnd" //change
 				"clip_max"					"4"
-				"clip_max_rounds"			"100"
+				"clip_max_rounds"			"150"
 				"clip_default"				"0" // attempt to counter mag balance
 			}
 			"attachments"
@@ -8215,8 +8216,8 @@
 			"weapon_slot"					"primary"
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
-			"weapon_weight"					"84" //10.58 lbs + 2 75 rnd mags at 4 lbs each
-			"weapon_cost"					"2"
+			"weapon_weight"					"105" //10.58 lbs + 2 75 rnd mags at 4 lbs each
+			"weapon_cost"					"1"
 			"barrel_length"					"26"
 			"draw_speed"					"0.8"
 			//Higher is slower
@@ -8335,7 +8336,7 @@
 			"weapon_slot"				"primary"
 			"act_table"					"rifle_ak"
 			"weapon_abilities"			"ironsight, bipod"
-			"weapon_weight"				"74" //same logic as RPK just minus 2 lbs total for ammo difference
+			"weapon_weight"				"95" //same logic as RPK just minus 2 lbs total for ammo difference
 			"barrel_length"				"23"
 			"draw_speed"				"1.10"
 			
@@ -9147,8 +9148,8 @@
 		{
 			"entity_class"				"rocket"
 			"Model"						"models/weapons/w_rpg7_projectile.mdl"
-			"DetonateDamage"			"245" //230
-			"DetonateDamageRadius"		"825" //25% reduction //750
+			"DetonateDamage"			"270" //230
+			"DetonateDamageRadius"		"890" //25% reduction //750
 			"DetonatePenetrationRadius" "150"  //25% reduction //150
 			"RocketTopSpeed"			"3500" // you cannot go faster than 3500 //3500
 			"RocketStartSpeed"			"200" //200
@@ -9174,7 +9175,7 @@
 			"entity_class"				"rocket"
 			"Model"						"models/weapons/w_law_projectile.mdl"
 			"DetonateDamage" "210"
-			"DetonateDamageRadius" "748"	//650
+			"DetonateDamageRadius" "800"	//650
 			"DetonatePenetrationRadius" "100"
 			"RocketTopSpeed" "3000" // you cannot go faster than 3500
 			"RocketStartSpeed" "150" // default 200
@@ -9200,9 +9201,9 @@
 			"entity_class"				"remote"
 			"Model"						"models/weapons/w_c4.mdl"
 
-			"DetonateDamage"				"280" // 26% reduction from default
-			"DetonateDamageRadius"			"900" // 25% reduction from def
-			"DetonatePenetrationRadius" 	"200" // 17% reduction from default
+			"DetonateDamage"				"170" // 26% reduction from default
+			"DetonateDamageRadius"			"500" // 25% reduction from def
+			"DetonatePenetrationRadius" 	"150" // 17% reduction from default
 			"FuseTime"						"0.5"
 
 			"Health"						"50"
@@ -9230,7 +9231,7 @@
 
 			"DetonateDamage"				"322" // 26% reduction from default //280
 			"DetonateDamageRadius"			"1170" // 25% reduction from def //900
-			"DetonatePenetrationRadius" 	"230" // 17% reduction from default //200
+			"DetonatePenetrationRadius" 	"190" // 17% reduction from default //200
 			"FuseTime"						"0.5"
 
 			"Health"						"50"

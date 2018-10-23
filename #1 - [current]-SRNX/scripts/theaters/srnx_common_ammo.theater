@@ -54,7 +54,7 @@
 		// ========================================
 		"rocket_rpg7"
 		{
-			"carry"					"1"
+			"carry"					"0"
 		}
 		"rocket_at4"
 		{
@@ -65,7 +65,7 @@
 		// ========================================
 		"grenade_m79"
 		{
-			"carry"					"0"
+			"carry"					"1"
 		}
 		"grenade_m79_smoke"
 		{
@@ -73,7 +73,7 @@
 		}
 		"grenade_m79_incen"
 		{
-			"carry"					"0"
+			"carry"					"1"
 		}
 		"grenade_m67"
 		{
@@ -184,8 +184,8 @@
 			"brass_model"				"models/weapons/shells/9x19.mdl"
 			"Damage"
 			{
-				"10"					"80"
-				"8000"					"52"
+				"10"					"110" //80
+				"8000"					"100" //52
 			}
 			"PenetrationPower"
 			{
@@ -211,8 +211,8 @@
 			"brass_model"				"models/weapons/shells/9x19.mdl"
 			"Damage"
 			{
-				"10"					"80"
-				"8000"					"52"
+				"10"					"110" //80
+				"8000"					"100" //52
 			}
 			"PenetrationPower"
 			{
@@ -614,7 +614,7 @@
 			"brass_model"				"models/weapons/shells/45apc.mdl"
 			"Damage"
 			{
-				"10"					"85"
+				"10"					"115"
 				"8000"					"52"
 			}
 			"DamageHitgroups"
@@ -640,7 +640,7 @@
 			"brass_model"				"models/weapons/shells/45apc.mdl"
 			"Damage"
 			{
-				"10"					"85"
+				"10"					"115"
 				"8000"					"52"
 			}
 			"DamageHitgroups"
@@ -1908,7 +1908,7 @@
 		{
 			"import"    "556x45_sost"
 			"carry"					"4"
-			"magsize"				"200"
+			"magsize"				"150"
 			"tracer_frequency"			"4"
 			"tracer_type"				"whiz_with_line"
 			"tracer_lowammo"			"9"
@@ -1917,7 +1917,7 @@
 		{
 			"import"				"556x45"
 			//"carry"					"2"
-			"magsize"				"200"
+			"magsize"				"150"
 			"tracer_frequency"			"4"
 			"tracer_type"				"whiz_with_line"
 			"tracer_lowammo"			"9"
@@ -1926,7 +1926,7 @@
 		{
 			"import"				"556x45_hp"
 			"carry"					"2"
-			"magsize"				"200"
+			"magsize"				"150"
 			"tracer_frequency"			"4"
 			"tracer_type"				"whiz_with_line"
 			"tracer_lowammo"			"9"
@@ -1939,7 +1939,7 @@
 		{
 			"import"				"556x45_ap"
 			"carry"					"2"
-			"magsize"				"200"
+			"magsize"				"150"
 			"tracer_frequency"			"4"
 			"tracer_type"				"whiz_with_line"
 			"tracer_lowammo"			"9"
@@ -1979,19 +1979,19 @@
 		"762x51_mk48_100rnd"
 		{
 			"import"    "762x51"
-			"magsize"	"100"
+			"magsize"	"150"
 			"carry"		"3"
 		}
 		"762x51_mk48_100rnd_hp"
 		{
 			"import"    "762x51_hp"
-			"magsize"	"100"
+			"magsize"	"150"
 			"carry"		"3"
 		}
 		"762x51_mk48_100rnd_ap"
 		{
 			"import"    "762x51_ap"
-			"magsize"	"100"
+			"magsize"	"150"
 			"carry"		"3"
 		}
 		// ========================================
@@ -2494,7 +2494,7 @@
 			"brass_sound"				"BOUNCE_SHOTSHELL"
 			"Damage"
 			{
-				"800"					"100"
+				"800"					"160"
 				"2000"					"15"
 				"7000"					"5"
 			}
@@ -2525,8 +2525,9 @@
 			"brass_sound"				"BOUNCE_SHOTSHELL"
 			"Damage"
 			{
-				"800"					"318"
-				"4500"					"174"
+				"800"					"220"
+				"2000"					"75"
+				"4500"					"45"
 				"9000"					"5"
 			}
 			"PenetrationPower"

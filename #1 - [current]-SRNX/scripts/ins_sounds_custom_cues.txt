@@ -1127,12 +1127,13 @@
 	"rndwave"
 	{
 		"wave"  "*cues/snowmobilechase.ogg"
-		"wave"  "*cues/CallofDutyAdvancedWarfareOST18.ogg"
-		"wave"  "*cues/CallofDutyAdvancedWarfareOST23.ogg"
-		"wave"  "*cues/Zodiacchase.ogg"
+		"wave"  "*cues/callofdutyadvancedwarfareost18.ogg"
+		"wave"  "*cues/callofdutyadvancedwarfareost23.ogg"
+		"wave"  "*cues/zodiacchase.ogg"
 		"wave"  "*cues/toglory.ogg"
 		"wave"  "*cues/warsawtheme.ogg"
 		"wave"	"*cues/exodus.ogg"
+		"wave"	"*cues/tsfhSOV.ogg"
 	}
 }
 
