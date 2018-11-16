@@ -103,12 +103,12 @@ public OnConfigsExecuted()
 	// cache sounds in string array to be used
 	for (new i = 0; i < sizeof(RoamingSounds); i++) {
 		Format(buffer, sizeof(buffer), "sound/%s", RoamingSounds[i]);
-		AddFileToDownloadsTable(buffer);
+		//AddFileToDownloadsTable(buffer);
 		noncached++;
 	}
 	for (new i = 0; i < sizeof(DetonateYellSounds); i++) {
 		Format(buffer, sizeof(buffer), "sound/%s", DetonateYellSounds[i]);
-		AddFileToDownloadsTable(buffer);
+		//AddFileToDownloadsTable(buffer);
 		noncached++;
 	}
 	PrintToServer("[SUICIDE] Done adding %d sounds to download table", noncached);
@@ -340,7 +340,7 @@ public Action:Hook_OnTakeDamage(victim, &attacker, &inflictor, &Float:damage, &d
 { 
 	 	//PrintToServer("damagetype = %d", damagetype);
 
-	if (IsClientInGame(victim) && IsFakeClient(victim) && (StrContains(g_client_last_classstring[victim], "juggernaut") > -1)) 
+	if (IsClientInGame(victim) && IsFakeClient(victim) && (StrContains(g_client_last_classstring[victim], "juggernaut") > -1) && attacker != 0) 
 	{ 
 		new ActiveWeapon = GetEntPropEnt(attacker, Prop_Data, "m_hActiveWeapon");
 		if (ActiveWeapon < 0)

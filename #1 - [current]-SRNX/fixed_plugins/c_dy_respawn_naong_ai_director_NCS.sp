@@ -898,7 +898,6 @@ public OnPluginStart()
 
 	//if (GetConVarInt(sm_enable_squad_spawning) == 1)
 	RegConsoleCmd("sm_ss", SquadSpawn); 
-	RegConsoleCmd("vip", Cmd_VIP, "Check for info about VIP");
 
 	CreateConVar("Lua_Ins_Healthkit", PLUGIN_VERSION, PLUGIN_DESCRIPTION, FCVAR_NOTIFY | FCVAR_DONTRECORD);
 	
@@ -4980,17 +4979,6 @@ public Action:Event_ObjectDestroyed_Post(Handle:event, const String:name[], bool
 public Action:serverhelp(client, args) 
 { 
 	PrintToChat(client, "[服务器帮助] 浏览 SERNIX.DYNU.COM (英文版)来获取本服务器的更多资讯/指南.");
-	return Plugin_Handled;
-}
-//VIP Info Command (Credits: INS Server)
-public Action:Cmd_VIP(client, args)
-{
-	int nPlayerHealth = GetClientHealth(client);
-	if((g_nVIP_ID != 0) && (nPlayerHealth > 0))
-	{
-		PrintHintText(client, "\x04VIP\x01 needs to capture point within 5 minutes to earn bonus supply.");
-		PrintToChat(client, "\x04VIP\x01 needs to capture point within 5 minutes to earn bonus supply. Does not include destroying objectives.");
-	}
 	return Plugin_Handled;
 }
 //Squad Spawning Toggle
