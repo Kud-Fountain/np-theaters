@@ -111,14 +111,14 @@ public Action:Command_TP(client, args)
 	if(IsValidClient(target, true))
 	{
 		Toggle(target);
-		ReplyToCommand(client, "\x04[SM]\x01 You are in %sperson.", Third[client]? "third":"first");
+		ReplyToCommand(client, "\x04[SM]\x01 你现在是 %s人称。", Third[client]? "第三":"第一");
 		
 		return Plugin_Handled;
 	}
 	
 	else if(!IsPlayerAlive(target))
 	{
-		ReplyToCommand(client, "\x04[SM]\x01 You have to be alive to toggle your thirdperson mode.");
+		ReplyToCommand(client, "\x04[SM]\x01 你需要活着才能使用该指令。");
 		
 		return Plugin_Handled;
 	}

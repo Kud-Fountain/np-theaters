@@ -42,8 +42,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/us_ranger_infantry_00.mdl"
-				"viewmodel_hands"		"models/weapons/v_hdblu_sec_h.mdl"
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
 				{
@@ -160,8 +160,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/us_ranger_infantry_00_des.mdl"
-				"viewmodel_hands"		"models/weapons/v_hddes_sec_l.mdl"
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
 				{
@@ -263,8 +263,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/us_ranger_infantry_00.mdl"
-				"viewmodel_hands"		"models/weapons/v_hdblu_sec_m.mdl"
+				"player"				"models/characters/security_standard.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 
 				"bodygroups"
 				{
@@ -370,8 +370,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/us_ranger_infantry_00.mdl"
-				"viewmodel_hands"		"models/weapons/v_hdblu_sec_l.mdl"
+				"player"				"models/characters/security_standard.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 
 				"bodygroups"
 				{
@@ -442,8 +442,8 @@
 				"weapon_upgrade"		"underbarrel_gp25_he"
 				"weapon_upgrade"		"underbarrel_m203_he"
 				"weapon"			"weapon_at4"
-				//"weapon"			"weapon_rpg7"
-				//"weapon"			"weapon_law"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_law"
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_mk3"
 				"weapon"			"weapon_model10"
@@ -469,8 +469,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/us_ranger_infantry_00_des.mdl"
-				"viewmodel_hands"		"models/weapons/v_hddes_sec_l.mdl"
+				"player"				"models/characters/security_standard.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 
 				"bodygroups"
 				{
@@ -539,8 +539,8 @@
 				"weapon_upgrade"		"underbarrel_gp25_he"
 				"weapon_upgrade"		"underbarrel_m203_he"
 				"weapon"			"weapon_at4"
-				//"weapon"			"weapon_rpg7"
-				//"weapon"			"weapon_law"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_law"
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_mk3"
 				"weapon"			"weapon_model10"
@@ -565,8 +565,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/us_ranger_infantry_00.mdl"
-				"viewmodel_hands"		"models/weapons/v_hdblu_sec_l.mdl"
+				"player"				"models/characters/security_standard.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 
 				"bodygroups"
 				{
@@ -660,8 +660,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/us_ranger_infantry_00_des.mdl"
-				"viewmodel_hands"		"models/weapons/v_hddes_sec_l.mdl"
+				"player"				"models/characters/security_standard.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 
 				"bodygroups"
 				{
@@ -757,8 +757,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/us_ranger_infantry_00.mdl"
-				"viewmodel_hands"		"models/weapons/v_hdblu_sec_h.mdl"
+				"player"				"models/characters/security_standard.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 
 				"bodygroups"
 				{
@@ -853,8 +853,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/us_ranger_infantry_00_des.mdl"
-				"viewmodel_hands"		"models/weapons/v_hddes_sec_h.mdl"
+				"player"				"models/characters/security_standard.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 				
 				"bodygroups"
 				{
@@ -949,8 +949,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/us_ranger_infantry_00.mdl"
-				"viewmodel_hands"		"models/weapons/v_hdblu_sec_h.mdl"
+				"player"				"models/characters/security_heavy.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_h.mdl"
 				
 				"bodygroups"
 				{
@@ -1043,8 +1043,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/us_ranger_infantry_00_des.mdl"
-				"viewmodel_hands"		"models/weapons/v_hddes_sec_h.mdl"
+				"player"				"models/characters/security_heavy.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_h.mdl"
 				
 				"bodygroups"
 				{
@@ -1137,8 +1137,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/us_ranger_infantry_00_shad.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_shadc.mdl"
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
 				{
@@ -1244,8 +1244,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/us_ranger_infantry_00_shad.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_shadc.mdl"
+				"player"				"models/characters/security_standard.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 
 				"bodygroups"
 				{
@@ -1347,8 +1347,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/us_ranger_infantry_00_shad.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_shadc.mdl"
+				"player"				"models/characters/security_standard.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 
 				"bodygroups"
 				{
@@ -1449,8 +1449,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/us_ranger_infantry_00_shad.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_shadc.mdl"
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
 				{
@@ -1491,7 +1491,7 @@
 				//Upgrades
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
-				"weapon_upgrade"	"quick_reload_marks"
+				//"weapon_upgrade"	"quick_reload_marks"
 				"weapon_upgrade"	"fast_bolt_action_marks"
 				//Secondaries
 				"weapon"			"weapon_m1a1"
@@ -1547,8 +1547,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/us_ranger_infantry_00_shad.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_shadc.mdl"
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
 				{
@@ -1588,7 +1588,7 @@
 				//Upgrades
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
-				"weapon_upgrade"	"quick_reload_marks"
+				//"weapon_upgrade"	"quick_reload_marks"
 				"weapon_upgrade"	"fast_bolt_action_marks"
 				//Secondaries
 				"weapon"			"weapon_m1a1"
@@ -1644,8 +1644,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/us_ranger_infantry_00_shad.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_shadc.mdl"
+				"player"				"models/characters/security_standard.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 				
 				"bodygroups"
 				{
@@ -1744,8 +1744,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/us_ranger_infantry_00_shad.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_shadc.mdl"
+				"player"				"models/characters/security_heavy.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_h.mdl"
 				
 				"bodygroups"
 				{

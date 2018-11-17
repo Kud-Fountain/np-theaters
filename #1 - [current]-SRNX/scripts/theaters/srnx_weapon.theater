@@ -7646,7 +7646,8 @@
 			"closed_bolt"					"0"
 			"barrel_length"					"28"
 
-			"draw_speed"					"0.6"
+			"draw_speed"					"0.45"
+			"reload_speed"					"0.6"
 			
 			"ironsights"
 			{
@@ -7789,7 +7790,8 @@
 			"weapon_cost"					"2"
 			"closed_bolt"					"0"
 			"barrel_length"					"24"	
-			"draw_speed"					"0.7"
+			"draw_speed"					"0.55"
+			"reload_speed"					"0.6"
 			//Higher is slower
 			"ironsights"
 			{
@@ -7933,7 +7935,8 @@
 			"weapon_cost"					"2"
 			"closed_bolt"					"0"
 			"barrel_length"					"30"	
-			"draw_speed"					"0.4"
+			"draw_speed"					"0.25"
+			"reload_speed"					"0.6"
 
 			//Higher is slower
 			"ironsights"
@@ -8077,7 +8080,8 @@
 			"weapon_cost"					"2"
 			"closed_bolt"					"0"
 			"barrel_length"					"30"	
-			"draw_speed"					"0.35"
+			"draw_speed"					"0.2"
+			"reload_speed"					"0.6"
 			//Higher is slower
 			"ironsights"
 			{
@@ -8219,7 +8223,8 @@
 			"weapon_weight"					"105" //10.58 lbs + 2 75 rnd mags at 4 lbs each
 			"weapon_cost"					"1"
 			"barrel_length"					"26"
-			"draw_speed"					"0.8"
+			"draw_speed"					"0.65"
+			"reload_speed"					"0.6"
 			//Higher is slower
 			"ironsights"
 			{
@@ -8338,9 +8343,10 @@
 			"weapon_abilities"			"ironsight, bipod"
 			"weapon_weight"				"95" //same logic as RPK just minus 2 lbs total for ammo difference
 			"barrel_length"				"23"
-			"draw_speed"				"1.10"
+			//"draw_speed"				"1.10"
 			
-			"draw_speed"					"0.85"
+			"draw_speed"					"0.70"
+			"reload_speed"					"0.6"
 			//Higher is slower
 			"ironsights"
 			{

@@ -26,7 +26,7 @@
 		{
 			"print_name"				"#gear_ammocrate"
 			"print_desc"				"#gear_ammocrate_desc"
-			"gear_cost"					"2"
+			"gear_cost"					"1"
 			"gear_weight"				"20"
 			"gear_slot"					"backpack"
 			"class_restricted"			"1"

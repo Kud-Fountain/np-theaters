@@ -1,5 +1,9 @@
 #pragma semicolon 1
 
+#define _Insurgency_
+
+#include <NewPage>
+
 #include <sdkhooks>
 #include <sdktools>
 
@@ -23,8 +27,6 @@
 
 int g_iUAVCount = 0;
 int g_iOffsetGears = -1;
-int g_iOffsetMyWeapons = -1;
-int g_iPlayerLastKnife[MAXPLAYERS_INS+1] = {-1, ...};
 bool g_bUAVOnline = false;
 ConVar g_hCvarUAVCounts;
 ConVar g_hCvarUAVCooldown;
@@ -50,25 +52,18 @@ public void OnPluginStart()
 
 	HookEvent("grenade_detonate", Event_GrenadeDetonate, EventHookMode_Post);
 	HookEvent("weapon_deploy", Event_WeaponDeploy, EventHookMode_Pre);
-	HookEvent("player_spawn", Event_PlayerSpawn, EventHookMode_Pre);
 	HookEvent("round_start", Event_RoundStart, EventHookMode_Post);
 	HookEvent("player_activate", Event_PlayerActivate);
 
 	g_iOffsetGears = FindSendPropInfo("CINSPlayer", "m_iMyGear");
 	if (g_iOffsetGears == -1)
 		LogError("Offset Error: Unable to find Offset for \"m_iMyGear\"");
-
-	g_iOffsetMyWeapons = FindSendPropInfo("CINSPlayer", "m_hMyWeapons");
-	if (g_iOffsetMyWeapons == -1)
-		LogError("Offset Error: Unable to find Offset for \"m_hMyWeapons\"");
 }
 
 public void OnMapStart()
 {
 	PrecacheSound("Lua_sounds/uav_inbound.ogg");
 	PrecacheSound("ui/sfx/ringing_04.wav");
-
-	CreateTimer(0.1, ThinkTimer, _, TIMER_FLAG_NO_MAPCHANGE|TIMER_REPEAT);
 
 	g_bUAVOnline = false;
 }
@@ -115,24 +110,6 @@ public void SHook_OnPreThink(client)
 	if (bChanged)
 		SetEntProp(client, Prop_Send, "m_iPlayerFlags", iFlags);
 	return;
-}
-
-public Action Event_PlayerSpawn(Event event, const char[] name, bool dontBroadcast)
-{
-	int client = GetClientOfUserId(GetEventInt(event, "userid"));
-	if (client < 1 || client > MaxClients || !IsClientInGame(client) || GetClientTeam(client) != 2)
-		return Plugin_Continue;
-
-	// #Resupply Check
-	int iKnife = GetPlayerWeaponByName(client, "weapon_knife");
-	if (iKnife <= MaxClients || !IsValidEdict(iKnife))
-		iKnife = GivePlayerItem(client, "weapon_knife");
-	if (iKnife > MaxClients && IsValidEdict(iKnife))
-		g_iPlayerLastKnife[client] = EntIndexToEntRef(iKnife);
-
-	INS_OnPlayerResupplyed(client);
-
-	return Plugin_Continue;
 }
 
 public Action Event_GrenadeDetonate(Event event, const char[] name, bool dontBroadcast)
@@ -227,8 +204,6 @@ public Action Event_WeaponDeploy(Event event, const char[] name, bool dontBroadc
 	int client = GetClientOfUserId(GetEventInt(event, "userid"));
 	int deployWeapon = GetEventInt(event, "weaponid");
 
-	//PrintToChatAll("%L deploy weapon - %d", client, deployWeapon);
-
 	float enginetime = GetEngineTime();
 
 	g_fPlayerWeaponBlocked[client] = 0.0;
@@ -265,40 +240,7 @@ void PlayGameSoundToAll(const char[] sample)
 			ClientCommand(j, "playgamesound %s", sample);
 }
 
-public Action ThinkTimer(Handle timer)
-{
-	for (int i = 1;i < MaxClients;i++)
-	{	
-		if (!IsClientInGame(i))
-			continue;
-
-		if (!IsPlayerAlive(i))
-			continue;
-
-		int client = i;
-		if (g_iPlayerLastKnife[client] != -1)
-		{
-			// #Resupply Check
-			new iKnife = GetPlayerWeaponByName(client, "weapon_knife");
-			if (iKnife > MaxClients && IsValidEdict(iKnife))
-				iKnife = EntIndexToEntRef(iKnife);
-			else
-			{
-				iKnife = GivePlayerItem(client, "weapon_knife");
-				if (iKnife <= MaxClients || !IsValidEdict(iKnife))
-					iKnife = -1;
-				else iKnife = EntIndexToEntRef(iKnife);
-			}
-			if (iKnife != -1 && iKnife != g_iPlayerLastKnife[client])
-			{
-				g_iPlayerLastKnife[client] = iKnife;
-				INS_OnPlayerResupplyed(client);
-			}
-		}
-	}
-}
-
-void INS_OnPlayerResupplyed(int client)
+public void NP_Ins_OnPlayerResupplyed(int client)
 {
 	if (!IsPlayerAlive(client) || g_iOffsetGears == -1)
 		return;
@@ -312,27 +254,6 @@ void INS_OnPlayerResupplyed(int client)
 				LogToGame("%N has given p2a1 flaregun (%d)", client, iWeapon);
 		}
 	}
-}
-
-int GetPlayerWeaponByName(int client, const char[] weaponname)
-{
-	if (!IsClientInGame(client) || !IsPlayerAlive(client) || g_iOffsetMyWeapons == -1)
-		return -1;
-
-	for (int i = 0;i < 48;i++)
-	{
-		int weapon = GetEntDataEnt2(client, g_iOffsetMyWeapons+(4*i));
-		if (weapon == -1) break;
-
-		if (!IsValidEntity(weapon) || weapon <= MaxClients)
-			continue;
-
-		char classname[64];
-		GetEntityClassname(weapon, classname, sizeof(classname));
-		if (StrEqual(classname, weaponname, false))
-			return weapon;
-	}
-	return -1;
 }
 
 public Action Event_RoundStart(Event event, const char[] name, bool dontBroadcast)

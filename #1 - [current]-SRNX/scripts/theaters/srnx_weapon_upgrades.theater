@@ -1015,7 +1015,7 @@
 			"print_name"				"#fast_bolt_action"
 			"print_desc"				"#fast_bolt_action_desc"
 			"upgrade_cost"				"1"
-			"upgrade_slot"				"aesthetic"
+			"upgrade_slot"				"stock"
 			"bolt_speed"				"1.15"
 			
 			"allowed_weapons"
@@ -1031,9 +1031,10 @@
 		{
 			"print_name"				"#fast_bolt_action_marks"
 			"print_desc"				"#fast_bolt_action_marks_desc"
-			"upgrade_cost"				"2"
-			"upgrade_slot"				"aesthetic"
+			"upgrade_cost"				"3"
+			"upgrade_slot"				"stock"
 			"bolt_speed"				"1.45"
+			"reload_speed"				"1.40"
 			"class_restricted"			"1"
 			
 			"allowed_weapons"
