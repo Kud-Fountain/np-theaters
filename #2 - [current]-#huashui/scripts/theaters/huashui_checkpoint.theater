@@ -112,8 +112,8 @@
 
                 "models"
                 {
-                    "player"				"models/characters/security_light.mdl"
-                        "viewmodel_hands"		"models/weapons/v_hands_sec_h.mdl"
+                    "player"				"models/characters/german/player_german_paratrooper_01.mdl"
+                        "viewmodel_hands"		"models/weapons/v_hands_ger_gloves_paratrooper.mdl"
                         "bodygoups"
                         {
                             "kit"					"0"
@@ -251,8 +251,8 @@
 
                 "models"
                 {
-                    "player"			"models/characters/security_light.mdl"
-                        "viewmodel_hands"	"models/weapons/v_hands_sec_h.mdl"
+                    "player"			"models/characters/german/player_german_04.mdl"
+                        "viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
                         //				"attachments"
                         //				{
                         //					"helmet"
@@ -327,8 +327,8 @@
 
                 "models"
                 {
-                    "player"			"models/characters/security_light.mdl"
-                        "viewmodel_hands"	"models/weapons/v_hands_sec_h.mdl"
+                    "player"			"models/characters/german/player_german_paratrooper_04.mdl"
+                        "viewmodel_hands"	"models/weapons/v_hands_ger_gloves_wehrmacht.mdl"
                         //				"attachments"
                         //				{
                         //					"helmet"

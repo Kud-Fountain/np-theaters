@@ -23,7 +23,7 @@
 			"weapon_max_subslot"			"0" // can only be in the first explosive slot
 			"act_table"						"launcher"
 			"weapon_weight"					"80"
-			"weapon_cost"					"2"
+			"weapon_cost"					"1"
 			"weapon_abilities"				"ironsight"
 			"barrel_length"					"44"
 			"class_restricted"				"1"
@@ -96,7 +96,7 @@
 			"weapon_max_subslot"			"0" // can only be in the first explosive slot
 			"act_table"						"launcher_at4"
 			"weapon_weight"					"72"
-			"weapon_cost"					"4"
+			"weapon_cost"					"3"
 			"weapon_abilities"				"ironsight"
 			"barrel_length"					"40"
 			
@@ -129,7 +129,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"no_carry"
-				"clip_max_rounds"			"2" // 1 rpg per mag
+				"clip_max_rounds"			"1" // 1 rpg per mag
 				"clip_default"				"1"
 			}
 			"player_restrictions"
@@ -168,7 +168,7 @@
 			"weapon_max_subslot"			"1" // can only be in the first explosive slot
 			"act_table"						"launcher_at4"
 			"weapon_weight"					"30"
-			"weapon_cost"					"3"
+			"weapon_cost"					"2"
 			"weapon_abilities"				"ironsight"
 			"barrel_length"					"20"
 			

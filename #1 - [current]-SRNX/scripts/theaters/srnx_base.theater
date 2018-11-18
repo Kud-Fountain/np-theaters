@@ -145,10 +145,10 @@
 				"gear"				"gear_uav"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				//"gear"				"srnx_chest_rig3"
+				"gear"				"srnx_chest_rig3"
 				//"gear"				"srnx_chest_rig4"
-				"gear"				"srnx_chest_carrier1"
-				"gear"				"srnx_chest_carrier2"
+				//"gear"				"srnx_chest_carrier1"
+				//"gear"				"srnx_chest_carrier2"
 				//"gear"				"srnx_chest_carrier3"
 
 			}
@@ -249,10 +249,10 @@
 				"gear"				"gear_uav"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				//"gear"				"srnx_chest_rig3"
+				"gear"				"srnx_chest_rig3"
 				//"gear"				"srnx_chest_rig4"
-				"gear"				"srnx_chest_carrier1"
-				"gear"				"srnx_chest_carrier2"
+				//"gear"				"srnx_chest_carrier1"
+				//"gear"				"srnx_chest_carrier2"
 				//"gear"				"srnx_chest_carrier3"
 			}
 		}
@@ -346,10 +346,10 @@
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				//"gear"				"srnx_chest_rig3"
+				"gear"				"srnx_chest_rig3"
 				//"gear"				"srnx_chest_rig4"
-				"gear"				"srnx_chest_carrier1"
-				"gear"				"srnx_chest_carrier2"
+				//"gear"				"srnx_chest_carrier1"
+				//"gear"				"srnx_chest_carrier2"
 				//"gear"				"srnx_chest_carrier3"
 			}
 			"cost_modifiers"
@@ -454,10 +454,10 @@
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				//"gear"				"srnx_chest_rig3"
+				"gear"				"srnx_chest_rig3"
 				//"gear"				"srnx_chest_rig4"
-				"gear"				"srnx_chest_carrier1"
-				"gear"				"srnx_chest_carrier2"
+				//"gear"				"srnx_chest_carrier1"
+				//"gear"				"srnx_chest_carrier2"
 				//"gear"				"srnx_chest_carrier3"
 			}
 		}
@@ -551,10 +551,10 @@
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				//"gear"				"srnx_chest_rig3"
+				"gear"				"srnx_chest_rig3"
 				//"gear"				"srnx_chest_rig4"
-				"gear"				"srnx_chest_carrier1"
-				"gear"				"srnx_chest_carrier2"
+				//"gear"				"srnx_chest_carrier1"
+				//"gear"				"srnx_chest_carrier2"
 				//"gear"				"srnx_chest_carrier3"
 			}
 		}
@@ -644,12 +644,12 @@
 				//Gear
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"gear_ammocrate"
-				"gear"				"srnx_chest_carrier_eng1"
-				"gear"				"srnx_chest_carrier_eng2"
+				//"gear"				"srnx_chest_carrier_eng1"
+				//"gear"				"srnx_chest_carrier_eng2"
 				//"gear"				"srnx_chest_carrier_eng3"
 				"gear"				"srnx_chest_rig_eng1"
 				"gear"				"srnx_chest_rig_eng2"
-				//"gear"				"srnx_chest_rig_eng3"
+				"gear"				"srnx_chest_rig_eng3"
 				//"gear"				"srnx_chest_rig_eng4"
 			}
 		}
@@ -741,12 +741,12 @@
 				//Gear
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"gear_ammocrate"
-				"gear"				"srnx_chest_carrier_eng1"
-				"gear"				"srnx_chest_carrier_eng2"
+				//"gear"				"srnx_chest_carrier_eng1"
+				//"gear"				"srnx_chest_carrier_eng2"
 				//"gear"				"srnx_chest_carrier_eng3"
 				"gear"				"srnx_chest_rig_eng1"
 				"gear"				"srnx_chest_rig_eng2"
-				//"gear"				"srnx_chest_rig_eng3"
+				"gear"				"srnx_chest_rig_eng3"
 				//"gear"				"srnx_chest_rig_eng4"
 			}
 		}
@@ -839,10 +839,10 @@
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				//"gear"				"srnx_chest_rig3"
+				"gear"				"srnx_chest_rig3"
 				//"gear"				"srnx_chest_rig4"
-				"gear"				"srnx_chest_carrier1"
-				"gear"				"srnx_chest_carrier2"
+				//"gear"				"srnx_chest_carrier1"
+				//"gear"				"srnx_chest_carrier2"
 				//"gear"				"srnx_chest_carrier3"
 			}
 		}	
@@ -935,10 +935,10 @@
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				//"gear"				"srnx_chest_rig3"
+				"gear"				"srnx_chest_rig3"
 				//"gear"				"srnx_chest_rig4"
-				"gear"				"srnx_chest_carrier1"
-				"gear"				"srnx_chest_carrier2"
+				//"gear"				"srnx_chest_carrier1"
+				//"gear"				"srnx_chest_carrier2"
 				//"gear"				"srnx_chest_carrier3"
 			}
 		}	
@@ -1022,9 +1022,9 @@
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig_mg1"
 				"gear"				"srnx_chest_rig_mg2"
-				//"gear"				"srnx_chest_rig_mg3"
-				"gear"				"srnx_chest_carrier_mg1"
-				"gear"				"srnx_chest_carrier_mg2"
+				"gear"				"srnx_chest_rig_mg3"
+				//"gear"				"srnx_chest_carrier_mg1"
+				//"gear"				"srnx_chest_carrier_mg2"
 				//"gear"				"srnx_chest_carrier_mg3"
 
 			}
@@ -1116,9 +1116,9 @@
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig_mg1"
 				"gear"				"srnx_chest_rig_mg2"
-				//"gear"				"srnx_chest_rig_mg3"
-				"gear"				"srnx_chest_carrier_mg1"
-				"gear"				"srnx_chest_carrier_mg2"
+				"gear"				"srnx_chest_rig_mg3"
+				//"gear"				"srnx_chest_carrier_mg1"
+				//"gear"				"srnx_chest_carrier_mg2"
 				//"gear"				"srnx_chest_carrier_mg3"
 
 			}
@@ -1230,10 +1230,10 @@
 				"gear"				"gear_uav"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				//"gear"				"srnx_chest_rig3"
+				"gear"				"srnx_chest_rig3"
 				//"gear"				"srnx_chest_rig4"
-				"gear"				"srnx_chest_carrier1"
-				"gear"				"srnx_chest_carrier2"
+				//"gear"				"srnx_chest_carrier1"
+				//"gear"				"srnx_chest_carrier2"
 				//"gear"				"srnx_chest_carrier3"
 			}
 		}
@@ -1332,10 +1332,10 @@
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				//"gear"				"srnx_chest_rig3"
+				"gear"				"srnx_chest_rig3"
 				//"gear"				"srnx_chest_rig4"
-				"gear"				"srnx_chest_carrier1"
-				"gear"				"srnx_chest_carrier2"
+				//"gear"				"srnx_chest_carrier1"
+				//"gear"				"srnx_chest_carrier2"
 				//"gear"				"srnx_chest_carrier3"
 			}
 		}
@@ -1433,12 +1433,12 @@
 				//Gear
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"gear_ammocrate"
-				"gear"				"srnx_chest_carrier_eng1"
-				"gear"				"srnx_chest_carrier_eng2"
+				//"gear"				"srnx_chest_carrier_eng1"
+				//"gear"				"srnx_chest_carrier_eng2"
 				//"gear"				"srnx_chest_carrier_eng3"
 				"gear"				"srnx_chest_rig_eng1"
 				"gear"				"srnx_chest_rig_eng2"
-				//"gear"				"srnx_chest_rig_eng3"
+				"gear"				"srnx_chest_rig_eng3"
 				//"gear"				"srnx_chest_rig_eng4"
 			}
 		}
@@ -1525,10 +1525,10 @@
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				//"gear"				"srnx_chest_rig3"
+				"gear"				"srnx_chest_rig3"
 				//"gear"				"srnx_chest_rig4"
-				"gear"				"srnx_chest_carrier1"
-				"gear"				"srnx_chest_carrier2"
+				//"gear"				"srnx_chest_carrier1"
+				//"gear"				"srnx_chest_carrier2"
 				//"gear"				"srnx_chest_carrier3"
 			}
 			"cost_modifiers"
@@ -1622,10 +1622,10 @@
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				//"gear"				"srnx_chest_rig3"
+				"gear"				"srnx_chest_rig3"
 				//"gear"				"srnx_chest_rig4"
-				"gear"				"srnx_chest_carrier1"
-				"gear"				"srnx_chest_carrier2"
+				//"gear"				"srnx_chest_carrier1"
+				//"gear"				"srnx_chest_carrier2"
 				//"gear"				"srnx_chest_carrier3"
 			}
 			"cost_modifiers"
@@ -1730,10 +1730,10 @@
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				//"gear"				"srnx_chest_rig3"
+				"gear"				"srnx_chest_rig3"
 				//"gear"				"srnx_chest_rig4"
-				"gear"				"srnx_chest_carrier1"
-				"gear"				"srnx_chest_carrier2"
+				//"gear"				"srnx_chest_carrier1"
+				//"gear"				"srnx_chest_carrier2"
 				//"gear"				"srnx_chest_carrier3"
 			}
 		}
@@ -1830,10 +1830,10 @@
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
-				//"gear"				"srnx_chest_rig3"
+				"gear"				"srnx_chest_rig3"
 				//"gear"				"srnx_chest_rig4"
-				"gear"				"srnx_chest_carrier1"
-				"gear"				"srnx_chest_carrier2"
+				//"gear"				"srnx_chest_carrier1"
+				//"gear"				"srnx_chest_carrier2"
 				//"gear"				"srnx_chest_carrier3"
 			}
 			"cost_modifiers"
