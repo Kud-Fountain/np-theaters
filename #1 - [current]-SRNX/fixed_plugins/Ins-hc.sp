@@ -230,7 +230,7 @@ public Action Event_WeaponDeploy(Event event, const char[] name, bool dontBroadc
 
 	g_fPlayerWeaponBlocked[client] = 0.0;
 
-	if (deployWeapon == 94)	// #Deployed weapon_p2a1 flaregun (94)
+	if (deployWeapon == 26)	// #Deployed weapon_p2a1 flaregun (94)
 	{
 		if (g_fUAVCDTime[client] != 0.0)
 		{

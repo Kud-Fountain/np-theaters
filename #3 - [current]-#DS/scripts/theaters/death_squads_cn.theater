@@ -1,4 +1,4 @@
-"#base" "death_squads_coop_shared_wn.theater"
+"#base" "death_squads_coop_shared_cn.theater"
 
 "theater" {
 
@@ -22,22 +22,13 @@
 				// Investigation squad 
 				"#Fireteam_Bravo"	// small arms
 				{
+					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
 					"#Squad_Fireteam_Leader_Melee_Master"		"template_melee_master_security_coop"
 					"#Squad_Fireteam_Designated_Marksman"		"template_designated_marksman_security_coop"
 					"#Squad_Fireteam_Recon"				"template_recon_security_coop"
 					"#Squad_Fireteam_Rifleman"			"template_rifleman_security_coop"
 					"#Squad_Fireteam_Sniper"			"template_sniper_security_coop"
-					"#Squad_Fireteam_Support"			"template_support_security_coop"
-					"#Squad_Fireteam_Medic"				"template_medic_security_coop"
-				}
-				
-				"#Fireteam_Charlie" //CP
-				{
-					"#Squad_Fireteam_Leader_Melee_Master"		"template_melee_master_security_coop"
-					"#Squad_Fireteam_Recon"				"template_recon_security_coop"
-					"#Squad_Fireteam_Breacher"			"template_breacher_security_coop"
-					"#Squad_Fireteam_Designated_Marksman"		"template_designated_marksman_security_coop"
-					"#Squad_Fireteam_Sniper"			"template_sniper_security_coop"
+					//"#Squad_Fireteam_Support"			"template_support_security_coop"
 					"#Squad_Fireteam_Medic"				"template_medic_security_coop"
 				}
 			}
@@ -50,70 +41,70 @@
 				"#Cell_Alpha"	// assault team #1
 				{
 					// role name								preset
+					"#Squad_Cell_Leader_Militant"			"template_coop_militant"
 					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
+					"#Squad_Cell_Fighter"				"template_coop_fighter"
+					"#Squad_Cell_MachineGunner"			"template_coop_machinegunner"
+					"#Squad_Cell_Rocketeer"				"template_coop_rocketeer"
+					"#Squad_Cell_Sapper"				"template_coop_sapper"
+					"#Squad_Cell_Scout"				"template_coop_scout"
+					"#Squad_Cell_Sharpshooter"			"template_coop_sharpshooter"
+					"#Squad_Cell_Specialist"			"template_coop_specialist"
+					"#Squad_Cell_Striker"				"template_coop_striker"
 				}
 				
 				"#Cell_Bravo"	// assault team #2
 				{
 					// role name								preset
+					"#Squad_Cell_Leader_Militant"			"template_coop_militant"
 					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
+					"#Squad_Cell_Fighter"				"template_coop_fighter"
+					"#Squad_Cell_MachineGunner"			"template_coop_machinegunner"
+					"#Squad_Cell_Rocketeer"				"template_coop_rocketeer"
 				}
 				
 				"#Cell_Charlie"	// support team
 				{
 					// role name								preset
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
+					"#Squad_Cell_Leader_Striker"			"template_coop_striker"
+					"#Squad_Cell_Sapper"				"template_coop_sapper"
+					"#Squad_Cell_Scout"				"template_coop_scout"
+					"#Squad_Cell_Sharpshooter"			"template_coop_sharpshooter"
+					"#Squad_Cell_Specialist"			"template_coop_specialist"
 				}
 				
 				"#Cell_Delta"	// heavy weapons team
 				{
 					// role name								preset
+					"#Squad_Cell_Leader_Militant"			"template_coop_militant"
 					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
+					"#Squad_Cell_Fighter"				"template_coop_fighter"
+					"#Squad_Cell_MachineGunner"			"template_coop_machinegunner"
+					"#Squad_Cell_Rocketeer"				"template_coop_rocketeer"
 				}
 				
 				"#Cell_Echo" // 30ppl
 				{
 					// role name								preset
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
+					"#Squad_Cell_Leader_Striker"			"template_coop_striker"
+					"#Squad_Cell_Sapper"				"template_coop_sapper"
+					"#Squad_Cell_Scout"				"template_coop_scout"
+					"#Squad_Cell_Sharpshooter"			"template_coop_sharpshooter"
+					"#Squad_Cell_Specialist"			"template_coop_specialist"
 				}
 				"#Cell_Foxtrot"	// 40ppl
 				{
 					// role name								preset
+					"#Squad_Cell_Leader_Militant"			"template_coop_militant"
 					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
+					"#Squad_Cell_Fighter"				"template_coop_fighter"
+					"#Squad_Cell_MachineGunner"			"template_coop_machinegunner"
+					"#Squad_Cell_Rocketeer"				"template_coop_rocketeer"
+					"#Squad_Cell_Sapper"				"template_coop_sapper"
+					"#Squad_Cell_Scout"				"template_coop_scout"
+					"#Squad_Cell_Sharpshooter"			"template_coop_sharpshooter"
+					"#Squad_Cell_Specialist"			"template_coop_specialist"
+					"#Squad_Cell_Striker"				"template_coop_striker"
 				}
 			}
 		}

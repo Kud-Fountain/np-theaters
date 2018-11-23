@@ -5648,33 +5648,53 @@ public Action:Event_PlayerPickSquad_Post( Handle:event, const String:name[], boo
 	{
 		NP_Users_SetTag(client, "医疗");
 	}
-	else if (StrContains(g_client_last_classstring[client], "engineer") > -1)
+	else if (StrContains(g_client_last_classstring[client], "anti_armor") > -1)
 	{
-		NP_Users_SetTag(client, "工程");
+		NP_Users_SetTag(client, "破甲");
 	}
-	else if (StrContains(g_client_last_classstring[client], "leader") > -1)
+	else if (StrContains(g_client_last_classstring[client], "melee_master") > -1)
 	{
-		NP_Users_SetTag(client, "队长");
+		NP_Users_SetTag(client, "刀剑");
+	}
+	else if (StrContains(g_client_last_classstring[client], "breacher") > -1)
+	{
+		NP_Users_SetTag(client, "破障");
+	}
+	else if (StrContains(g_client_last_classstring[client], "demolitions") > -1)
+	{
+		NP_Users_SetTag(client, "爆破");
+	}
+	else if (StrContains(g_client_last_classstring[client], "breacher") > -1)
+	{
+		NP_Users_SetTag(client, "破障");
+	}
+	else if (StrContains(g_client_last_classstring[client], "specialist") > -1)
+	{
+		NP_Users_SetTag(client, "专家");
+	}
+	else if (StrContains(g_client_last_classstring[client], "recon") > -1)
+	{
+		NP_Users_SetTag(client, "侦察");
 	}
 	else if (StrContains(g_client_last_classstring[client], "marksman") > -1)
 	{
-		NP_Users_SetTag(client, "狙击");
-	}
-	else if (StrContains(g_client_last_classstring[client], "spotter") > -1)
-	{
 		NP_Users_SetTag(client, "神射");
 	}
-	else if (StrContains(g_client_last_classstring[client], "pointman") > -1)
+	else if (StrContains(g_client_last_classstring[client], "sniper") > -1)
 	{
-		NP_Users_SetTag(client, "快枪");
+		NP_Users_SetTag(client, "狙击");
+	}
+	else if (StrContains(g_client_last_classstring[client], "rifleman") > -1)
+	{
+		NP_Users_SetTag(client, "步枪");
 	}
 	else if (StrContains(g_client_last_classstring[client], "support") > -1)
 	{
 		NP_Users_SetTag(client, "机枪");
 	}
-	else if (StrContains(g_client_last_classstring[client], "rifleman_at") > -1)
+	else if (StrContains(g_client_last_classstring[client], "grenadier") > -1)
 	{
-		NP_Users_SetTag(client, "步枪(AT)");
+		NP_Users_SetTag(client, "榴弹");
 	}
 	else if (StrContains(g_client_last_classstring[client], "vip") > -1)
 	{
@@ -8321,7 +8341,7 @@ stock GetTeamSecCount() {
 				clients++;
 		}
 	}
-	return clients > 18 ? 18 :clients;
+	return clients > 14 ? 14 :clients;
 }
 
 // Get real client count

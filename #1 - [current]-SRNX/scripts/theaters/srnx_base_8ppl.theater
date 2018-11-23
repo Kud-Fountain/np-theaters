@@ -1759,13 +1759,9 @@
 
 			"buy_order" 
 			{
-				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_model10"
 				"weapon"			"weapon_knife"
-				"weapon"			"weapon_m67"
-				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_esapi"
-				"gear"				"srnx_daps_leba1"
-				"gear"				"srnx_devgru_3_b"
+				"gear"				"gear_uav"
 			}
 			"allowed_items"
 			{
@@ -1831,6 +1827,7 @@
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
 				"gear"				"srnx_chest_rig3"
+				"gear"				"gear_uav"
 				//"gear"				"srnx_chest_rig4"
 				//"gear"				"srnx_chest_carrier1"
 				//"gear"				"srnx_chest_carrier2"

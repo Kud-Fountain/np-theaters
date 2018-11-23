@@ -21,8 +21,8 @@
 				"HITGROUP_RIGHTLEG"		"1.00"
 			}
 			
-			//"player_model_override"		"models/characters/security_standard.mdl"
-			//"viewmodel_hands_override"	"models/weapons/v_hands_sec_l.mdl"
+			"player_model_override"		"models/characters/security_standard.mdl"
+			"viewmodel_hands_override"	"models/weapons/v_hands_sec_l.mdl"
 			
 			"team_access"				"security"
 		}
@@ -70,8 +70,8 @@
 				"HITGROUP_RIGHTLEG"			"1.00"
 			}
 			
-			//"player_model_override"		"models/characters/security_heavy.mdl"
-			//"viewmodel_hands_override"	"models/weapons/v_hands_sec_h.mdl"
+			"player_model_override"		"models/characters/security_heavy.mdl"
+			"viewmodel_hands_override"	"models/weapons/v_hands_sec_h.mdl"
 			
 			"team_access"				"security"
 		}

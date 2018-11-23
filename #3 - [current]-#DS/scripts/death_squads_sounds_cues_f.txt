@@ -1171,10 +1171,16 @@
 
 	"rndwave"
 	{
-		"wave"  "*cues/Daler Mehndi - Tunak Tunak Tun.ogg"
+		//"wave"  "*cues/Daler Mehndi - Tunak Tunak Tun.ogg"
 		"wave"  "*cues/CallofDutyAdvancedWarfareOST18.ogg"
 		"wave"  "*cues/CallofDutyAdvancedWarfareOST23.ogg"
 		"wave"  "*cues/Crysis 3 soundtrack - Canyon Encounter.ogg"
+		"wave"  "*cues/snowmobilechase.ogg"
+		"wave"  "*cues/zodiacchase.ogg"
+		"wave"  "*cues/toglory.ogg"
+		"wave"  "*cues/warsawtheme.ogg"
+		"wave"	"*cues/exodus.ogg"
+		"wave"	"*cues/tsfhSOV.ogg"
 	}
 }
 

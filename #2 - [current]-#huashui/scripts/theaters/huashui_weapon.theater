@@ -82,7 +82,7 @@
 		{
 			"ammo_clip"
 			{
-				"clip_default"				"1"
+				"clip_default"				"7"
 			}
 		}
 		"weapon_m203_smoke"
@@ -863,7 +863,7 @@
 				"ammo_type"					"762x54mm"
 				"clip_max"					"60"
 				"clip_max_rounds"			"5"
-				"clip_default"				"15"
+				"clip_default"				"30"
 			}
 			
 			"attachments"
@@ -968,7 +968,7 @@
 				"ammo_type"					"762x54mm"
 				"clip_max"					"60"
 				"clip_max_rounds"			"5"
-				"clip_default"				"15"
+				"clip_default"				"30"
 			}
 			
 			"attachments"
@@ -1083,7 +1083,7 @@
 				"ammo_type"				"762x63_clip"
 				"clip_max"				"12"
 				"clip_max_rounds"		"8"
-				"clip_default"			"3"
+				"clip_default"			"5"
 				"lose_rounds_reload"	"1"
 			}
 			
@@ -1207,7 +1207,7 @@
 				"ammo_type"				"792x57_clip"
 				"clip_max"				"12"
 				"clip_max_rounds"		"10"
-				"clip_default"			"3"
+				"clip_default"			"5"
 			}
 			
 			"attachments"
@@ -1368,8 +1368,8 @@
 			"weapon_slot"				"primary"
 			"act_table"					"shortrifle"
 			"weapon_abilities"			"ironsight"
-			"weapon_weight"				"115"
-			"weapon_cost"				"3"
+			"weapon_weight"				"230"
+			"weapon_cost"				"6"
 			"class_restricted"			"1"
 			"barrel_length"				"22"
 			
@@ -1696,8 +1696,8 @@
 			
 			"particles"
 			{
-				"particle_muzzleflash_1st"		"muzzleflash_m249_1p"
-				"particle_muzzleflash_3rd"		"muzzleflash_m249_3rd"
+				"particle_muzzleflash_1st"		"muzzleflash_m14_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_m14_3rd"
 				"particle_tracer"				"weapon_tracers"
 			}
 			
@@ -1839,8 +1839,8 @@
 			
 			"particles"
 			{
-				"particle_muzzleflash_1st"		"muzzleflash_m249_1p"
-				"particle_muzzleflash_3rd"		"muzzleflash_m249_3rd"
+				"particle_muzzleflash_1st"		"muzzleflash_m14_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_m14_3rd"
 				"particle_tracer"				"weapon_tracers_green"
 			}
 			
