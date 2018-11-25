@@ -57,7 +57,7 @@
 				{
 					// role name								preset
 					"#Squad_Cell_Leader_Militant"			"template_coop_militant"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
+					//"#Squad_Cell_Bomber"				"template_coop_bomber"
 					"#Squad_Cell_Fighter"				"template_coop_fighter"
 					"#Squad_Cell_MachineGunner"			"template_coop_machinegunner"
 					"#Squad_Cell_Rocketeer"				"template_coop_rocketeer"
@@ -77,7 +77,7 @@
 				{
 					// role name								preset
 					"#Squad_Cell_Leader_Militant"			"template_coop_militant"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
+					//"#Squad_Cell_Bomber"				"template_coop_bomber"
 					"#Squad_Cell_Fighter"				"template_coop_fighter"
 					"#Squad_Cell_MachineGunner"			"template_coop_machinegunner"
 					"#Squad_Cell_Rocketeer"				"template_coop_rocketeer"
@@ -96,7 +96,7 @@
 				{
 					// role name								preset
 					"#Squad_Cell_Leader_Militant"			"template_coop_militant"
-					"#Squad_Cell_Bomber"				"template_coop_bomber"
+					//"#Squad_Cell_Bomber"				"template_coop_bomber"
 					"#Squad_Cell_Fighter"				"template_coop_fighter"
 					"#Squad_Cell_MachineGunner"			"template_coop_machinegunner"
 					"#Squad_Cell_Rocketeer"				"template_coop_rocketeer"
