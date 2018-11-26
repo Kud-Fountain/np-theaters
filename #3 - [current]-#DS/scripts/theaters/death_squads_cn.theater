@@ -133,13 +133,13 @@
 			{
 				"weapon"					"weapon_kabar"
 				"weapon"					"weapon_c4_ied"
-				"gear"						"ins_super_armor"
+				//"gear"						"ins_super_armor"
 			}
 			"allowed_items"
 			{
 				"weapon"					"weapon_kabar"
 				"weapon"					"weapon_c4_ied"
-				"gear"						"ins_super_armor"
+				//"gear"						"ins_super_armor"
 			}
 		}
 		"template_coop_rocketeer"
@@ -170,8 +170,8 @@
 				"weapon"					"weapon_kabar"
 				"weapon"					"weapon_at4"
 				"gear"						"ins_chest_carrier"
-				"gear"						"ins_anti_explosion_clothing"
-				"gear"						"k63_helmet"
+				//"gear"						"ins_anti_explosion_clothing"
+				//"gear"						"k63_helmet"
 			}
 			"allowed_items"
 			{
@@ -184,8 +184,8 @@
 				"weapon"					"weapon_kabar"
 				"weapon"					"weapon_at4"
 				"gear"						"ins_chest_carrier"
-				"gear"						"ins_anti_explosion_clothing"
-				"gear"						"k63_helmet"
+				//"gear"						"ins_anti_explosion_clothing"
+				//"gear"						"k63_helmet"
 			}
 		}
 		"template_coop_scout"
@@ -222,8 +222,8 @@
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_m18"
 				"gear"					"ins_chest_carrier"
-				"gear"					"ins_light_armor"
-				"gear"					"ins_protection_group"
+				//"gear"					"ins_light_armor"
+				//"gear"					"ins_protection_group"
 			}
 			"allowed_items"
 			{
@@ -235,8 +235,8 @@
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_m18"
 				"gear"					"ins_chest_carrier"
-				"gear"					"ins_light_armor"
-				"gear"					"ins_protection_group"
+				//"gear"					"ins_light_armor"
+				//"gear"					"ins_protection_group"
 			}
 		}
 		"template_coop_fighter"
@@ -274,8 +274,8 @@
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_f1"
 				"gear"					"ins_chest_carrier"
-				"gear"					"ins_heavy_armor"
-				"gear"					"ins_protection_group"
+				//"gear"					"ins_heavy_armor"
+				//"gear"					"ins_protection_group"
 			}
 			"allowed_items"
 			{
@@ -288,8 +288,8 @@
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_f1"
 				"gear"					"ins_chest_carrier"
-				"gear"					"ins_heavy_armor"
-				"gear"					"ins_protection_group"
+				//"gear"					"ins_heavy_armor"
+				//"gear"					"ins_protection_group"
 			}
 		}
 		"template_coop_sapper"
@@ -320,8 +320,8 @@
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_ae_panzerfaust"
 				"gear"					"ins_chest_carrier"
-				"gear"					"ins_heavy_armor"
-				"gear"					"k63_helmet"			
+				//"gear"					"ins_heavy_armor"
+				//"gear"					"k63_helmet"			
 			}
 			"allowed_items"
 			{
@@ -334,8 +334,8 @@
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_ae_panzerfaust"
 				"gear"					"ins_chest_carrier"
-				"gear"					"ins_heavy_armor"
-				"gear"					"k63_helmet"	
+				//"gear"					"ins_heavy_armor"
+				//"gear"					"k63_helmet"	
 			}
 		}
 		"template_coop_specialist"
@@ -366,9 +366,9 @@
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_at4"
 				"gear"					"ins_chest_carrier"
-				"gear"					"ins_super_armor"
+				//"gear"					"ins_super_armor"
 				"gear"					"sunglasses"
-				"gear"					"maska_helmet"
+				//"gear"					"maska_helmet"
 			}
 			"allowed_items"
 			{
@@ -381,9 +381,9 @@
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_at4"
 				"gear"					"ins_chest_carrier"
-				"gear"					"ins_super_armor"
+				//"gear"					"ins_super_armor"
 				"gear"					"sunglasses"
-				"gear"					"maska_helmet"
+				//"gear"					"maska_helmet"
 			}
 		}
 		///////////////////////////////////////////////////////opfor/////////////////////////////////////////////////
@@ -416,7 +416,7 @@
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_molotov"
 				"gear"					"ins_chest_carrier"
-				"gear"					"ins_super_armor"
+				//"gear"					"ins_super_armor"
 			}
 			"allowed_items"
 			{
@@ -430,7 +430,7 @@
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_molotov"
 				"gear"					"ins_chest_carrier"
-				"gear"					"ins_super_armor"
+				//"gear"					"ins_super_armor"
 			}
 		}
 		"template_coop_sharpshooter"
@@ -460,8 +460,8 @@
 				"weapon_upgrade"				"underbarrel_bipod"
 				"weapon"					"weapon_kabar"
 				"weapon"					"weapon_m18"
-				"gear"						"ins_heavy_armor"
-				"gear"						"ins_protection_group"
+				//"gear"						"ins_heavy_armor"
+				//"gear"						"ins_protection_group"
 				"gear"						"ins_chest_carrier"
 			}
 			"allowed_items"
@@ -474,8 +474,8 @@
 				"weapon_upgrade"				"underbarrel_bipod"
 				"weapon"					"weapon_kabar"
 				"weapon"					"weapon_m18"
-				"gear"						"ins_heavy_armor"
-				"gear"						"ins_protection_group"
+				//"gear"						"ins_heavy_armor"
+				//"gear"						"ins_protection_group"
 				"gear"						"ins_chest_carrier"
 			}
 		}
@@ -502,8 +502,8 @@
 				"weapon_upgrade"				"ammo_fmj_rpk"
 				"weapon"					"weapon_kabar"
 				"weapon"					"weapon_molotov"
-				"gear"						"ins_heavy_armor"
-				"gear"						"ins_protection_group"
+				//"gear"						"ins_heavy_armor"
+				//"gear"						"ins_protection_group"
 				"gear"						"ins_chest_carrier"
 			}
 			"allowed_items"
@@ -512,8 +512,8 @@
 				"weapon_upgrade"				"ammo_fmj_rpk"
 				"weapon"					"weapon_kabar"
 				"weapon"					"weapon_molotov"
-				"gear"						"ins_heavy_armor"
-				"gear"						"ins_protection_group"
+				//"gear"						"ins_heavy_armor"
+				//"gear"						"ins_protection_group"
 				"gear"						"ins_chest_carrier"
 			}
 		}
@@ -542,9 +542,9 @@
 				"weapon_upgrade"				"siderail_lasersight_band"
 				"weapon"					"weapon_kabar"
 				"weapon"					"weapon_f1"
-				"gear"						"ins_super_armor"
+				//"gear"						"ins_super_armor"
 				"gear"						"ins_chest_carrier"
-				"gear"						"k63_helmet"
+				//"gear"						"k63_helmet"
 			}
 			"allowed_items"
 			{
@@ -554,9 +554,9 @@
 				"weapon_upgrade"				"siderail_lasersight_band"
 				"weapon"					"weapon_kabar"
 				"weapon"					"weapon_f1"
-				"gear"						"ins_super_armor"
+				//"gear"						"ins_super_armor"
 				"gear"						"ins_chest_carrier"
-				"gear"						"k63_helmet"
+				//"gear"						"k63_helmet"
 			}
 		}
 		// 

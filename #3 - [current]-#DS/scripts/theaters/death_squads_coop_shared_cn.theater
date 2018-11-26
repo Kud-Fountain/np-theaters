@@ -3,8 +3,8 @@
 
 "#base" "death_squads_gear_test_cn.theater"
 "#base" "death_squads_weapon.theater"
-"#base" "death_squads_custom_weapon_cn.theater"
-"#base" "death_squads_weapon_upgrades.theater"
+"#base" "death_squads_custom_weapon.theater"
+"#base" "death_squads_weapon_upgrades_cn.theater"
 
 "#base" "death_squads_base.theater"
 

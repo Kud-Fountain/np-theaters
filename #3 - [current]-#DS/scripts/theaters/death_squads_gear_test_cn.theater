@@ -191,6 +191,50 @@
 			
 			"team_access"				"security, insurgent"
 		}
+		"eft_gloves_l"
+		{
+			"print_name"				"#eft_gloves_l"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_sec_l_eft.mdl"
+			
+			"team_access"				"security, insurgent"
+		}
+		"eft_gloves_h"
+		{
+			"print_name"				"#eft_gloves_h"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_sec_h_eft.mdl"
+			
+			"team_access"				"security, insurgent"
+		}
+		"augmented_soldier_arms"
+		{
+			"print_name"				"#augmented_soldier_arms"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_augmented.mdl"
+			
+			"team_access"				"security, insurgent"
+		}
+		"warface_csf_arms"
+		{
+			"print_name"				"#warface_csf_arms"
+			"gear_slot"				"misc1"
+			"gear_cost"				"0"
+			"gear_weight"				"1"
+	
+			"viewmodel_hands_override"	"models/weapons/v_hands_warface.mdl"
+			
+			"team_access"				"security, insurgent"
+		}
 		"deltaforce_gloves_l"
 		{
 			"print_name"				"#deltaforce_gloves_l"
@@ -558,133 +602,6 @@
 			
 			"team_access"				"security"
 		}
-		/*
-		"sec_character_0"
-		{
-			"print_name"				"#sec_character_0"
-			"print_desc"				"#sec_character_desc"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/security_light.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_1"
-		{
-			"print_name"				"#sec_character_1"
-			"print_desc"				"#sec_character_desc"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/security_standard.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_2"
-		{
-			"print_name"				"#sec_character_2"
-			"print_desc"				"#sec_character_desc"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/security_heavy.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_3"
-		{
-			"print_name"				"#sec_character_3"
-			"print_desc"				"#sec_character_desc"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/civilian_vip_security.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_custom_0"
-		{
-			"print_name"				"#sec_character_custom_0"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/security_l_des.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_custom_1"
-		{
-			"print_name"				"#sec_character_custom_1"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/security_std_desr.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_custom_2"
-		{
-			"print_name"				"#sec_character_custom_2"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/security_h_des.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_custom_3"
-		{
-			"print_name"				"#sec_character_custom_3"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/civilian_vip_sec_desr.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_custom_4"
-		{
-			"print_name"				"#sec_character_custom_4"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/security_std_delr.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_custom_5"
-		{
-			"print_name"				"#sec_character_custom_5"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/security_h_del.mdl"
-			
-			"team_access"				"security"
-		}
-		"sec_character_custom_6"
-		{
-			"print_name"				"#sec_character_custom_6"
-			"gear_slot"				"backpack"
-			"gear_cost"				"0"
-			"gear_weight"				"1"	
-			
-			"player_model_override"		"models/characters/civilian_vip_sec_blue.mdl"
-			
-			"team_access"				"security"
-		}
-		*/
 		"sec_sniper_armor"
 		{
 			"print_name"				"#gear_sniper_armor"
@@ -807,13 +724,12 @@
 
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"		"0.85"
 				"HITGROUP_CHEST"	"0.85"
 				"HITGROUP_STOMACH"	"0.85"
-				"HITGROUP_LEFTARM"	"0.85"
-				"HITGROUP_RIGHTARM"	"0.85"
-				"HITGROUP_LEFTLEG"	"0.85"
-				"HITGROUP_RIGHTLEG"	"0.85"
+				"HITGROUP_LEFTARM"	"1.50"
+				"HITGROUP_RIGHTARM"	"1.50"
+				"HITGROUP_LEFTLEG"	"1.50"
+				"HITGROUP_RIGHTLEG"	"1.50"
 			}
 
 			"player_model_override"		"models/characters/anti_heavy_de.mdl"
@@ -835,13 +751,12 @@
 
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"		"0.85"
 				"HITGROUP_CHEST"	"0.85"
 				"HITGROUP_STOMACH"	"0.85"
-				"HITGROUP_LEFTARM"	"0.85"
-				"HITGROUP_RIGHTARM"	"0.85"
-				"HITGROUP_LEFTLEG"	"0.85"
-				"HITGROUP_RIGHTLEG"	"0.85"
+				"HITGROUP_LEFTARM"	"1.50"
+				"HITGROUP_RIGHTARM"	"1.50"
+				"HITGROUP_LEFTLEG"	"1.50"
+				"HITGROUP_RIGHTLEG"	"1.50"
 			}
 			"player_model_override"		"models/characters/anti_heavy.mdl"
 			"viewmodel_hands_override"	"models/weapons/v_hands_de_vip.mdl"
