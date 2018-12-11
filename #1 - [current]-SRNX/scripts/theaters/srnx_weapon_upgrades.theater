@@ -644,7 +644,7 @@
 			"print_desc"				"#fast_gunner_sp_desc"
 			"upgrade_cost"				"3"
 			"upgrade_slot"				"magazine"
-			"magsize_override"			"50"
+			"magsize_override"			"40"
 			"draw_speed"				"1.30"
 			"holster_speed"				"1.30"
 			"reload_speed"				"1.30"
@@ -834,8 +834,9 @@
 			"print_desc"				"#weapon_quick_draw_sling_sup_desc"
 			"upgrade_cost"				"3"
 			"upgrade_slot"				"stock"
-			"draw_speed"				"1.40"
-			"holster_speed"				"1.40"
+			"draw_speed"				"1.30"
+			"holster_speed"				"1.30"
+			"reload_speed"				"1.30"
 			"class_restricted"			"1"
 			
 			"allowed_weapons"
@@ -995,17 +996,21 @@
 		{
 			"print_name"				"#weapon_quick_reload_skill_marks"
 			"print_desc"				"#weapon_quick_reload_skill_marks_desc"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"3"
 			"upgrade_slot"				"stock"
-			"reload_speed"				"1.40"
+			"reload_speed"				"1.30"
 			"class_restricted"			"1"
 			
 			"allowed_weapons"
 			{	
 				"weapon"				"weapon_m107"
-				"weapon"				"weapon_m40a1"
-				"weapon"				"weapon_mosin"
-				"weapon"				"weapon_m40a5"
+				"weapon"				"weapon_sks"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_mk20_scar"
+				"weapon"				"weapon_svd"
+				//"weapon"				"weapon_m40a1"
+				//"weapon"				"weapon_mosin"
+				//"weapon"				"weapon_m40a5"
 			}
 			
 			"team_access"				"security,insurgent"
@@ -1033,8 +1038,8 @@
 			"print_desc"				"#fast_bolt_action_marks_desc"
 			"upgrade_cost"				"3"
 			"upgrade_slot"				"stock"
-			"bolt_speed"				"1.45"
-			"reload_speed"				"1.40"
+			"bolt_speed"				"1.50"
+			"reload_speed"				"1.5-"
 			"class_restricted"			"1"
 			
 			"allowed_weapons"

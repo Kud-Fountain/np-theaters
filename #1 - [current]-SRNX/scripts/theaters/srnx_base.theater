@@ -344,9 +344,9 @@
 				"weapon"			"weapon_m45"
 				//Gear
 				//"gear"				"srnx_devgru_1_a"
-				"gear"				"srnx_chest_rig1"
-				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
+				"gear"				"srnx_chest_rig1_sp"
+				"gear"				"srnx_chest_rig2_sp"
+				"gear"				"srnx_chest_rig3_sp"
 				//"gear"				"srnx_chest_rig4"
 				//"gear"				"srnx_chest_carrier1"
 				//"gear"				"srnx_chest_carrier2"

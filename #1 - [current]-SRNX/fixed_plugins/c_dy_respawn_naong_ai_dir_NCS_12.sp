@@ -8321,7 +8321,7 @@ stock GetTeamSecCount() {
 				clients++;
 		}
 	}
-	return clients > 8 ? 8 :clients;
+	return clients > 12 ? 12 :clients;
 }
 
 // Get real client count

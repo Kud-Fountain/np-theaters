@@ -4519,7 +4519,7 @@
 			"act_table"				"rifle_ak"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"52"
-			"weapon_cost"				"2"
+			"weapon_cost"				"3"
 			"barrel_length"				"28"
 			
 			"fov"
@@ -5420,7 +5420,7 @@
 			"weapon_slot"					"primary"
 			"act_table"						"rifle_m14"
 			"weapon_abilities"				"ironsight"
-			"weapon_cost"					"2"
+			"weapon_cost"					"3"
 			"weapon_weight"					"63" 
 			"barrel_length"					"28"
 			
@@ -5510,11 +5510,11 @@
 			"class_restricted"				"1"
 			"act_table"						"rifle_m14"
 			"weapon_abilities"				"ironsight"
-			"weapon_cost"					"3"
+			"weapon_cost"					"4"
 			"weapon_weight"					"144" 
 			"barrel_length"					"49"
-			"draw_speed"					"0.6"
-			"reload_speed"					"0.65"
+			"draw_speed"					"0.8"
+			"reload_speed"					"0.85"
 			
 			//higher is slower
 			"ironsights"
@@ -5748,7 +5748,7 @@
 			"act_table"						"rifle_ak2"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"48" // (3.9kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"weapon_cost"					"2"
+			"weapon_cost"					"3"
 			"barrel_length"					"22"
 			
 			"fov"
@@ -5831,7 +5831,7 @@
 			"act_table"						"rifle_ak2"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"50" // (3.9kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"weapon_cost"					"2"
+			"weapon_cost"					"3"
 			"barrel_length"					"38"
 			
 			"fov"
@@ -8457,7 +8457,7 @@
 		{
 			"import"						"ballistic_base"
 			"weapon_class"					"sniper_rifle"
-			"weapon_cost"					"2"
+			"weapon_cost"					"1"
 			"print_name"					"#weapon_m40a1g"
 			"print_desc"					"#weapon_m40a1g_desc"
 			"view_model"					"models/weapons/v_m40a1.mdl"
@@ -8635,7 +8635,7 @@
 		{
 			"import"				"ballistic_base"
 			"weapon_class"				"sniper_rifle"
-			"weapon_cost"				"2"
+			"weapon_cost"				"1"
 			"print_name"				"#weapon_m40a5_dy"
 			"print_desc"				"#weapon_m40a5_dy_desc"
 			"view_model"				"models/weapons/v_m40a5.mdl"
@@ -9207,7 +9207,7 @@
 			"entity_class"				"remote"
 			"Model"						"models/weapons/w_c4.mdl"
 
-			"DetonateDamage"				"170" // 26% reduction from default
+			"DetonateDamage"				"220" // 26% reduction from default
 			"DetonateDamageRadius"			"500" // 25% reduction from def
 			"DetonatePenetrationRadius" 	"150" // 17% reduction from default
 			"FuseTime"						"0.5"

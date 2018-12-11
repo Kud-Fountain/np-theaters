@@ -1096,6 +1096,93 @@
 			}
 			"team_access"	"security"		
 		}
+
+		"srnx_chest_rig1_sp" //3 base - .4 = 2.6
+		{
+			"print_name"	"#gear_chest_rig1_sp"
+			"print_desc"	"#gear_chest_rig1_sp_desc"
+			"gear_slot"				"vest"
+			"gear_cost"		"1"
+			"class_restricted" "1"
+			"gear_weight"	"43" // 2 (0.65 kg) * 54.5
+			"extra_ammo"
+			{
+				"primary"	"4" // 10
+				"secondary"
+				{
+					"0" "3" //4
+					"1"	"2" //pistol average in sling
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"	"0"
+			}
+            "player_model_bodygroups"
+			{
+				"kit"					"2"
+				"backpack"				"1"
+			}
+			"team_access"				"security"
+		}
+		"srnx_chest_rig2_sp" //3 base - .2 = 2.8
+		{
+			"print_name"	"#gear_chest_rig2_sp"
+			"print_desc"	"#gear_chest_rig2_sp_desc"
+			"gear_slot"		"vest"
+			"gear_cost"		"3"
+			"class_restricted" "1"
+			"gear_weight"	"68" // 4 (0.65 kg) * 54.5
+			"extra_ammo"
+			{
+				"primary"	"6" //12 lbs
+				"secondary"
+				{
+					"0" "5" //5 lbs
+					"1"	"3" //average in sling
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"	"0"
+			}
+            "player_model_bodygroups"
+			{
+				"kit"					"3"
+				"backpack"				"1"
+			}
+			"team_access"	"security"		
+		}
+		"srnx_chest_rig3_sp" // 3 lbs base - .2 per tier
+		{
+			"print_name"	"#gear_chest_rig3_sp"
+			"print_desc"	"#gear_chest_rig3_sp_desc"
+			"gear_slot"		"vest"
+			"gear_cost"		"4"
+			"class_restricted" "1"
+			"gear_weight"	"90" // 4 (0.65 kg) * 54.5
+			//"class_restricted" "1"
+			"extra_ammo"
+			{
+				"primary"	"8" //14 lbs
+				"secondary"
+				{
+					"0" "6" //6 lbs
+					"1"	"4" //averaged in sling
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"	"0"
+			}
+            "player_model_bodygroups"
+			{
+				"kit"					"4"
+				"backpack"				"2"
+			}
+			"team_access"	"security"		
+		}
+		
 		// "srnx_sling_ammo_belt"
 		// {
 		// 	"print_name"	"#gear_sling_ammo_belt"
