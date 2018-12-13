@@ -1491,7 +1491,7 @@
 				//Upgrades
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
-				//"weapon_upgrade"	"quick_reload_marks"
+				"weapon_upgrade"	"quick_reload_marks"
 				"weapon_upgrade"	"fast_bolt_action_marks"
 				//Secondaries
 				"weapon"			"weapon_m1a1"
@@ -1588,7 +1588,7 @@
 				//Upgrades
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
-				//"weapon_upgrade"	"quick_reload_marks"
+				"weapon_upgrade"	"quick_reload_marks"
 				"weapon_upgrade"	"fast_bolt_action_marks"
 				//Secondaries
 				"weapon"			"weapon_m1a1"
@@ -2176,6 +2176,7 @@
 				"weapon_upgrade"	"ammo_ap_galil"
 				//Explosive
 				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_rpg7"
 				
 			}
 			"allowed_weapons"
@@ -2197,6 +2198,7 @@
 				"weapon_upgrade"	"ammo_ap_galil"
 				//Explosive
 				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_rpg7"
 				
 			}
 		}
@@ -2237,6 +2239,7 @@
 				"weapon_upgrade"	"ammo_hp_mp7"
 				//Explosive
 				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
 				
 			}
 			"allowed_weapons"
@@ -2258,6 +2261,7 @@
 				"weapon_upgrade"	"ammo_hp_mp7"
 				//Explosive
 				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
 				
 			}
 		}
@@ -2298,6 +2302,7 @@
 				"weapon_upgrade"	"ammo_ap_kriss"
 				//Explosive
 				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
 				
 			}
 			"allowed_weapons"
@@ -2318,7 +2323,7 @@
 				"weapon_upgrade"	"ammo_ap_kriss"
 				//Explosive
 				"weapon"			"weapon_m84"
-				
+				"weapon"			"weapon_rpg7"
 			}
 		}
 		// Standard Model 4
@@ -2379,7 +2384,7 @@
 				"weapon_upgrade"	"ammo_hp_aks74u"
 				//Explosive
 				"weapon"			"weapon_f1"
-				
+				"weapon"			"weapon_rpg7"
 			}
 		}
 		// Machinegunner FIGHTER Model 1
@@ -2419,7 +2424,7 @@
 
 				//Explosive
 				"weapon"			"weapon_f1"
-				
+				"weapon"			"weapon_at4"
 			}
 			"allowed_weapons"
 			{
@@ -2440,6 +2445,7 @@
 
 				//Explosive
 				"weapon"			"weapon_f1"
+				"weapon"			"weapon_at4"
 			}
 		}
 		// Machinegunner FIGHTER Model 2
@@ -2477,7 +2483,7 @@
 
 				//Explosive
 				"weapon"			"weapon_f1"
-				
+				"weapon"			"weapon_at4"
 			}
 			"allowed_weapons"
 			{
@@ -2496,6 +2502,7 @@
 
 				//Explosive
 				"weapon"			"weapon_f1"
+				"weapon"			"weapon_at4"
 			}
 		}
 		// Machinegunner HEAVY Model 3
@@ -2535,7 +2542,7 @@
 
 				//Explosive
 				"weapon"			"weapon_f1"
-				
+				"weapon"			"weapon_at4"
 			}
 			"allowed_weapons"
 			{
@@ -2557,6 +2564,7 @@
 
 				//Explosive
 				"weapon"			"weapon_f1"
+				"weapon"			"weapon_at4"
 			}
 		}
 		// Machinegunner FIGHTER Model 4
@@ -2652,7 +2660,7 @@
 
 				//Explosive
 				"weapon"			"weapon_anm14"
-				
+				"weapon"			"weapon_at4"
 			}
 			"allowed_weapons"
 			{
@@ -2671,6 +2679,7 @@
 
 				//Explosive
 				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_at4"
 			}
 		}
 
@@ -2767,7 +2776,7 @@
 				"weapon_upgrade"	"ammo_ap_mp5"
 				//Explosive
 				"weapon"			"weapon_molotov"
-				
+				"weapon"			"weapon_at4"
 			}
 			"allowed_weapons"
 			{
@@ -2786,6 +2795,7 @@
 				"weapon_upgrade"	"ammo_ap_mp5"
 				//Explosive
 				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_at4"
 			}
 		}
 		// Striker HEAVY Model 3
@@ -2827,7 +2837,7 @@
 				"weapon_upgrade"	"ammo_ap_mp40"
 				//Explosive
 				"weapon"			"weapon_molotov"
-				
+				"weapon"			"weapon_at4"
 			}
 			"allowed_weapons"
 			{
@@ -2850,7 +2860,7 @@
 				"weapon_upgrade"	"ammo_ap_mp40"
 				//Explosive
 				"weapon"			"weapon_molotov"
-				
+				"weapon"			"weapon_at4"
 			}
 		}
 		// Striker MG Model 4
@@ -2947,7 +2957,7 @@
 				"weapon_upgrade"	"barrel_silencer_sec1"
 				//Explosive
 				"weapon"			"weapon_anm14"
-				
+				"weapon"			"weapon_law"
 			}
 			"allowed_weapons"
 			{
@@ -2968,7 +2978,7 @@
 				"weapon_upgrade"	"barrel_silencer_sec1"
 				//Explosive
 				"weapon"			"weapon_anm14"
-				
+				"weapon"			"weapon_law"
 			}
 		}
 		// Striker VIP Model 1
@@ -3006,7 +3016,7 @@
 				"weapon_upgrade"	"ammo_ap_mp40"
 				//Explosive
 				"weapon"			"weapon_m18"
-				
+				"weapon"			"weapon_law"
 			}
 			"allowed_weapons"
 			{
@@ -3025,6 +3035,7 @@
 				"weapon_upgrade"	"ammo_ap_mp40"
 				//Explosive
 				"weapon"			"weapon_m18"
+				"weapon"			"weapon_law"
 			}
 		}
 		// Scout LIGHT Model 1
@@ -3062,7 +3073,7 @@
 				"weapon_upgrade"	"ammo_ap_mp5"
 				//Explosive
 				"weapon"			"weapon_m18"
-				
+				"weapon"			"weapon_law"
 			}
 			"allowed_weapons"
 			{
@@ -3081,7 +3092,7 @@
 				"weapon_upgrade"	"ammo_ap_mp5"
 				//Explosive
 				"weapon"			"weapon_m18"
-				
+				"weapon"			"weapon_law"
 			}
 		}
 		// Scout LIGHT Model 2
@@ -3120,7 +3131,7 @@
 				"weapon_upgrade"	"ammo_hp_mp40"
 				//Explosive
 				"weapon"			"weapon_m18"
-				
+				"weapon"			"weapon_law"
 			}
 			"allowed_weapons"
 			{
@@ -3140,6 +3151,7 @@
 				"weapon_upgrade"	"ammo_hp_mp40"
 				//Explosive
 				"weapon"			"weapon_m18"
+				"weapon"			"weapon_law"
 			}
 		}
 		// Scout LIGHT Model 3
@@ -3177,7 +3189,7 @@
 				"weapon_upgrade"	"ammo_hp_kriss"
 				//Explosive
 				"weapon"			"weapon_m18"
-				
+				"weapon"			"weapon_law"
 			}
 			"allowed_weapons"
 			{
@@ -3196,6 +3208,7 @@
 				"weapon_upgrade"	"ammo_hp_kriss"
 				//Explosive
 				"weapon"			"weapon_m18"
+				"weapon"			"weapon_law"
 			}
 		}
 		// Scout VIP Model 1
@@ -3233,7 +3246,7 @@
 				"weapon_upgrade"	"ammo_ap_deagle"
 				//Explosive
 				"weapon"			"weapon_m18"
-				
+				"weapon"			"weapon_law"
 			}
 			"allowed_weapons"
 			{
@@ -3252,6 +3265,7 @@
 				"weapon_upgrade"	"ammo_ap_deagle"
 				//Explosive
 				"weapon"			"weapon_m18"
+				"weapon"			"weapon_law"
 			}
 		}
 		// Bomber HEAVY Model 1
@@ -3525,7 +3539,7 @@
 				"weapon_upgrade"	"ammo_ap_m1a1"
 				//Explosive
 				"weapon"			"weapon_f1"
-				
+				"weapon"			"weapon_law"
 			}
 			"allowed_weapons"
 			{
@@ -3545,7 +3559,7 @@
 				"weapon_upgrade"	"ammo_ap_m1a1"
 				//Explosive
 				"weapon"			"weapon_f1"
-				
+				"weapon"			"weapon_law"
 			}
 		}
 		// Sapper Model 3
@@ -3584,7 +3598,7 @@
 				"weapon_upgrade"	"ammo_hp_aks74u"
 				//Explosive
 				"weapon"			"weapon_molotov"
-				
+				"weapon"			"weapon_law"
 			}
 			"allowed_weapons"
 			{
@@ -3604,7 +3618,7 @@
 				"weapon_upgrade"	"ammo_hp_aks74u"
 				//Explosive
 				"weapon"			"weapon_molotov"
-				
+				"weapon"			"weapon_law"
 			}
 		}
 		// Sapper Model 4
@@ -3648,7 +3662,7 @@
 				"weapon_upgrade"	"ammo_ap_mp40"
 				//Explosive
 				"weapon"			"weapon_anm14"
-				
+				"weapon"			"weapon_law"
 			}
 			"allowed_weapons"
 			{
@@ -3673,7 +3687,7 @@
 				"weapon_upgrade"	"ammo_ap_mp40"
 				//Explosive
 				"weapon"			"weapon_anm14"
-				
+				"weapon"			"weapon_law"
 			}
 		}
 

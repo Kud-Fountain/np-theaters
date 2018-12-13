@@ -833,7 +833,7 @@
 			"print_name"				"#weapon_quick_draw_sling_sup"
 			"print_desc"				"#weapon_quick_draw_sling_sup_desc"
 			"upgrade_cost"				"3"
-			"upgrade_slot"				"stock"
+			"upgrade_slot"				"magazine"
 			"draw_speed"				"1.30"
 			"holster_speed"				"1.30"
 			"reload_speed"				"1.30"
@@ -996,7 +996,7 @@
 		{
 			"print_name"				"#weapon_quick_reload_skill_marks"
 			"print_desc"				"#weapon_quick_reload_skill_marks_desc"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"2"
 			"upgrade_slot"				"stock"
 			"reload_speed"				"1.30"
 			"class_restricted"			"1"
