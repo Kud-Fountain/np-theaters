@@ -42,8 +42,8 @@
 			"speed_crouch_walk"		"50"
 			"speed_crouch_run"		"70"
 			"speed_walk"			"80" // def: 80
-			"speed_run"				"130" // def: 170
-			"speed_sprint"			"288" // def: 288
+			"speed_run"				"100" // def: 170
+			"speed_sprint"			"310" // def: 288
 			"AccelerationByWeight"
 			{
 				//"60"				"4.4" //def: "4.20"

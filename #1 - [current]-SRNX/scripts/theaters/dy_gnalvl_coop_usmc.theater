@@ -78,7 +78,7 @@
 				"Seal Team [Charlie]"
 				{
 					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
-					//"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
+					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
 					"#Squad_Gnalvl_TeamLeader_Recon"	"Gnalvl_teamleader_recon_usmc"
 					"#Squad_Gnalvl_ReconMedic"			"gnalvl_recon_medic_usmc"
 					//"#Squad_Gnalvl_ReconMedic"			"gnalvl_recon_medic_usmc"
@@ -143,6 +143,7 @@
 				{
 					//role name		
 					//"Bot"		"bomber_ins_2"	
+					"Bot"		"juggernaut_3"
 					"Bot"		"sapper_ins_2"				
 					"Bot"		"sapper_ins_3"
 					"Bot"		"standard_ins_3"

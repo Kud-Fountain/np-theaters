@@ -309,7 +309,7 @@
 				//"weapon_upgrade"	"magazine_drum_75rd"
 				//"weapon_upgrade"	"magazine_drum_50rd"
 				"weapon_upgrade"	"fast_gunner_sp"
-				"weapon_upgrade"	"fast_gunner_sp_shotgun"
+				//"weapon_upgrade"	"fast_gunner_sp_shotgun"
 				"weapon_upgrade"	"fast_gunner_sp_pis"
 
 
@@ -626,6 +626,7 @@
 				"weapon_upgrade"		"underbarrel_m203_smoke"
 				"weapon_upgrade"		"underbarrel_gp25_smoke"
 				"weapon_upgrade"		"underbarrel_m320_smoke"
+				"weapon_upgrade"	"fast_gunner_sp_shotgun"
 
 				"weapon"			"weapon_mp7"
 				"weapon"			"weapon_czse3"
@@ -634,7 +635,7 @@
 				//Explosives
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_c4_clicker"
+				//"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_molotov"
 				//Pistols
 				"weapon"			"weapon_model10"
@@ -651,6 +652,18 @@
 				"gear"				"srnx_chest_rig_eng2"
 				"gear"				"srnx_chest_rig_eng3"
 				//"gear"				"srnx_chest_rig_eng4"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_ksg"		"-1"
+					"weapon_spas12"		"-1"
+					"weapon_m590"		"-1"
+					"weapon_nova"		"-1"
+					"weapon_toz"		"-1"
+					"weapon_saiga12"		"-1"
+				}
 			}
 		}
 		"Gnalvl_engineer_usmc_2"
@@ -723,7 +736,7 @@
 				"weapon"			"weapon_mac10"
 				"weapon"			"weapon_kingcobra"
 
-				
+				"weapon_upgrade"	"fast_gunner_sp_shotgun"
 				"weapon_upgrade"		"underbarrel_m203_smoke"
 				"weapon_upgrade"		"underbarrel_gp25_smoke"
 				"weapon_upgrade"		"underbarrel_m320_smoke"
@@ -731,7 +744,7 @@
 				//Explosives
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_c4_clicker"
+				//"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_molotov"
 				//Pistols
 				"weapon"			"weapon_model10"
@@ -748,6 +761,18 @@
 				"gear"				"srnx_chest_rig_eng2"
 				"gear"				"srnx_chest_rig_eng3"
 				//"gear"				"srnx_chest_rig_eng4"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_ksg"		"-1"
+					"weapon_spas12"		"-1"
+					"weapon_m590"		"-1"
+					"weapon_nova"		"-1"
+					"weapon_toz"		"-1"
+					"weapon_saiga12"		"-1"
+				}
 			}
 		}
 		"gnalvl_medic_usmc_1"
@@ -1373,6 +1398,7 @@
 			"allowed_items"
 			{
 				//Primaries
+				"weapon"			"weapon_saiga12"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_sa80"
@@ -1394,6 +1420,7 @@
 				// "weapon"			"weapon_m79_smoke"
 				// "weapon"			"weapon_m79_incen"
 
+				"weapon_upgrade"	"fast_gunner_sp_shotgun"
 				"weapon_upgrade"		"underbarrel_m203_smoke"
 				"weapon_upgrade"		"underbarrel_gp25_smoke"
 				"weapon_upgrade"		"underbarrel_m320_smoke"
@@ -1423,7 +1450,7 @@
 				//Explosives
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_c4_clicker"
+				//"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_molotov"
 				//Pistols
 				"weapon"			"weapon_model10"
@@ -1440,6 +1467,18 @@
 				"gear"				"srnx_chest_rig_eng2"
 				"gear"				"srnx_chest_rig_eng3"
 				//"gear"				"srnx_chest_rig_eng4"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_ksg"		"-1"
+					"weapon_spas12"		"-1"
+					"weapon_m590"		"-1"
+					"weapon_nova"		"-1"
+					"weapon_toz"		"-1"
+					"weapon_saiga12"		"-1"
+				}
 			}
 		}
 		"Gnalvl_marksman_usmc_1"
@@ -1762,10 +1801,11 @@
 				"weapon"			"weapon_aks74u"
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
+				"weapon"			"weapon_c4_clicker"
 				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_esapi"
-				"gear"				"srnx_daps_leba1"
-				"gear"				"srnx_devgru_3_b"
+				//"gear"				"srnx_esapi"
+				//"gear"				"srnx_daps_leba1"
+				//"gear"				"srnx_devgru_3_b"
 			}
 			"allowed_items"
 			{
@@ -1811,6 +1851,7 @@
 				"weapon"			"weapon_uzi"
 				"weapon"			"weapon_kriss"
 				"weapon"			"weapon_mk18_m0"
+				"weapon"			"weapon_c4_clicker"
 				
 				"weapon"			"weapon_mp7"
 				"weapon"			"weapon_czse3"

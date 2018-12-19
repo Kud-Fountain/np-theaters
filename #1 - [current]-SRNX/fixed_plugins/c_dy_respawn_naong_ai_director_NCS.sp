@@ -5650,7 +5650,7 @@ public Action:Event_PlayerPickSquad_Post( Handle:event, const String:name[], boo
 	}
 	else if (StrContains(g_client_last_classstring[client], "engineer") > -1)
 	{
-		NP_Users_SetTag(client, "工程");
+		NP_Users_SetTag(client, "霰弹");
 	}
 	else if (StrContains(g_client_last_classstring[client], "leader") > -1)
 	{

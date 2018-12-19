@@ -821,7 +821,7 @@
 			}
 			"weapon_slots"
 			{
-				"explosive"	"0"
+				"explosive"	"1"
 			}
             "player_model_bodygroups"
 			{
@@ -850,7 +850,7 @@
 			}
 			"weapon_slots"
 			{
-				"explosive"	"0"
+				"explosive"	"1"
 			}
             "player_model_bodygroups"
 			{

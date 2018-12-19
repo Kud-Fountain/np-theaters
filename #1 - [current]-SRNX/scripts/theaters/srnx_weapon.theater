@@ -1161,7 +1161,7 @@
 			"weapon_max_subslot"			"0" // can only be in the first explosive slot
 			"act_table"						"grenade"
 			"weapon_weight"					"85"
-			"weapon_cost"					"2"
+			"weapon_cost"					"1"
 			"explosives"
 			{
 				"entity"				"grenade_c4"
@@ -7646,8 +7646,8 @@
 			"closed_bolt"					"0"
 			"barrel_length"					"28"
 
-			"draw_speed"					"0.45"
-			"reload_speed"					"0.6"
+			"draw_speed"					"0.6"
+			"reload_speed"					"0.75"
 			
 			"ironsights"
 			{
@@ -7790,8 +7790,8 @@
 			"weapon_cost"					"2"
 			"closed_bolt"					"0"
 			"barrel_length"					"24"	
-			"draw_speed"					"0.55"
-			"reload_speed"					"0.6"
+			"draw_speed"					"0.7"
+			"reload_speed"					"0.75"
 			//Higher is slower
 			"ironsights"
 			{
@@ -7935,8 +7935,8 @@
 			"weapon_cost"					"2"
 			"closed_bolt"					"0"
 			"barrel_length"					"30"	
-			"draw_speed"					"0.25"
-			"reload_speed"					"0.6"
+			"draw_speed"					"0.4"
+			"reload_speed"					"0.75"
 
 			//Higher is slower
 			"ironsights"
@@ -8080,8 +8080,8 @@
 			"weapon_cost"					"2"
 			"closed_bolt"					"0"
 			"barrel_length"					"30"	
-			"draw_speed"					"0.2"
-			"reload_speed"					"0.6"
+			"draw_speed"					"0.35"
+			"reload_speed"					"0.75"
 			//Higher is slower
 			"ironsights"
 			{
@@ -8223,8 +8223,8 @@
 			"weapon_weight"					"105" //10.58 lbs + 2 75 rnd mags at 4 lbs each
 			"weapon_cost"					"1"
 			"barrel_length"					"26"
-			"draw_speed"					"0.65"
-			"reload_speed"					"0.6"
+			"draw_speed"					"0.8"
+			"reload_speed"					"0.75"
 			//Higher is slower
 			"ironsights"
 			{
@@ -8345,8 +8345,8 @@
 			"barrel_length"				"23"
 			//"draw_speed"				"1.10"
 			
-			"draw_speed"					"0.70"
-			"reload_speed"					"0.6"
+			"draw_speed"					"0.85"
+			"reload_speed"					"0.75"
 			//Higher is slower
 			"ironsights"
 			{
@@ -9207,7 +9207,7 @@
 			"entity_class"				"remote"
 			"Model"						"models/weapons/w_c4.mdl"
 
-			"DetonateDamage"				"220" // 26% reduction from default
+			"DetonateDamage"				"250" // 26% reduction from default
 			"DetonateDamageRadius"			"500" // 25% reduction from def
 			"DetonatePenetrationRadius" 	"150" // 17% reduction from default
 			"FuseTime"						"0.5"
