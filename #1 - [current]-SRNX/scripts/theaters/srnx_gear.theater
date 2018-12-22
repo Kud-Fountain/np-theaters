@@ -40,6 +40,22 @@
 			"team_access"				"security"
 		}
 		
+		"gear_christmas_hat"
+		{
+			"print_name"				"#gear_christmas_hat"
+			"print_desc"				"触发效果：Kud的仁慈，增加1点补给点"
+			"gear_cost"					"-1"
+			"gear_weight"				"0"
+			"gear_slot"					"misc1"
+			"class_restricted"			"1"
+
+			"entity"				"model"
+			"model"					"models/characters/helmet_head_xmas.mdl"
+
+			"class_restricted"			"1"
+			"team_access"				"security"
+		}
+		
 		"sec_nightvision_blue"
 		{
 			"print_name"	"#gear_nvg_blue"
@@ -1654,6 +1670,94 @@
                 "HITGROUP_HEAD"        "0.07"
             }
 			"penetration_power_loss"	"40"
+            "team_access"   		"insurgent"
+        }
+		
+		//christmas event
+		
+		"srnx_BOT_ins_helmet_standard_chris"
+        {
+            "print_name"    		"#ins_helmet"
+            "print_desc"   			"#ins_helmet_desc"
+            "class_restricted"      "0"
+            "gear_slot"             "head"
+            "gear_cost"             "0"
+            "gear_weight"   		"20"
+			"entity"				"model"
+            "model"                 "models/characters/helmet_head_xmas.mdl"
+            "DamageHitgroups"
+            {
+                "HITGROUP_HEAD"        "0.75"
+            }
+			"penetration_power_loss"	"25"
+            "team_access"   		"insurgent"
+        }
+		"srnx_BOT_ins_helmet_Maskah_chris"
+        {
+            "print_name"    		"#ins_helmet"
+            "print_desc"   			"#ins_helmet_desc"
+            "class_restricted"      "0"
+            "gear_slot"             "head"
+            "gear_cost"             "0"
+            "gear_weight"   		"20"
+			"entity"				"model"
+            "model"                 "models/characters/helmet_head_xmas.mdl"
+            "DamageHitgroups"
+            {
+                "HITGROUP_HEAD"        "0.70"
+            }
+			"penetration_power_loss"	"25"
+            "team_access"   		"insurgent"
+        }
+        "srnx_BOT_ins_helmet_k63_chris"
+        {
+            "print_name"    		"#ins_helmet"
+            "print_desc"   			"#ins_helmet_desc"
+            "class_restricted"      "0"
+            "gear_slot"             "head"
+            "gear_cost"             "0"
+            "gear_weight"   		"20"
+			"entity"				"model"
+            "model"                 "models/characters/helmet_head_xmas.mdl"
+            "DamageHitgroups"
+            {
+                "HITGROUP_HEAD"        "0.65"
+            }
+			"penetration_power_loss"	"25"
+            "team_access"   		"insurgent"
+        }
+        "srnx_BOT_ins_jugger_helmet_black_chris"
+        {
+            "print_name"    		"#ins_helmet"
+            "print_desc"   			"#ins_helmet_desc"
+            "class_restricted"      "0"
+            "gear_slot"             "head"
+            "gear_cost"             "0"
+            "gear_weight"   		"40"
+			"entity"				"model"
+            "model"                 "models/characters/helmet_head_xmas.mdl"
+            "DamageHitgroups"
+            {
+                "HITGROUP_HEAD"        "0.07"
+            }
+			"penetration_power_loss"	"40"
+            "team_access"   		"insurgent"
+        }
+		"srnx_BOT_chris"
+        {
+            "print_name"    		"#ins_helmet"
+            "print_desc"   			"#ins_helmet_desc"
+            "class_restricted"      "0"
+            "gear_slot"             "head"
+            "gear_cost"             "0"
+            "gear_weight"   		"0"
+			"entity"				"model"
+            "model"                 "models/characters/helmet_head_xmas.mdl"
+            "DamageHitgroups"
+            {
+                "HITGROUP_HEAD"        "1.00"
+            }
+			"penetration_power_loss"	"0"
             "team_access"   		"insurgent"
         }
 
