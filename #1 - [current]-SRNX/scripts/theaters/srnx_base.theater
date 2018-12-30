@@ -591,6 +591,7 @@
 			"allowed_items"
 			{
 				//Primaries
+				"weapon"			"weapon_saiga12"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_vz58"
 				"weapon"			"weapon_ak74"
@@ -730,6 +731,7 @@
 				"weapon"			"weapon_uzi"
 				"weapon"			"weapon_kriss"
 				"weapon"			"weapon_mk18_m0"
+				"weapon"			"weapon_saiga12"
 				
 				"weapon"			"weapon_mp7"
 				"weapon"			"weapon_czse3"

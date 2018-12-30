@@ -10,7 +10,7 @@
 		{
 			// default theater specific sounds
 			"sounds"			"scripts/ins_sounds_weapons.txt"
-			"sounds"			"scripts/ins_sounds_cues.txt"
+			"sounds"			"scripts/ins_sounds_custom_cues.txt"
 			"sounds"			"scripts/ins_sounds_voice.txt"
 			"sounds"			"scripts/ins_sounds_radial_security.txt"				
 			"sounds"			"scripts/ins_sounds_radial_insurgent.txt"				
@@ -29,6 +29,7 @@
 		"security"
 		{
 			"name"		"#Team_Security"
+			"logo"					"gameui/fac_sec"
 
 			"squads"
 			{
@@ -40,32 +41,38 @@
 					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_1"			
 					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_1"
 					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
-					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
+					//"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
 				}
 				"Support Team [Bravo]"
 				{
 					"#Squad_Gnalvl_TeamLeader"			"gnalvl_teamleader_usmc"
-					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_2"
+					//"#Squad_Gnalvl_TeamLeader"			"gnalvl_teamleader_usmc"
+					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
+					//"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_2"
 					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_2"
 					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_2"
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
-					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
+					//"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
+					
 				}
-				"Recon Team [Charlie]"
+				"Seal Team [Charlie]"
 				{
+					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
+					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
 					"#Squad_Gnalvl_TeamLeader_Recon"	"Gnalvl_teamleader_recon_usmc"
 					"#Squad_Gnalvl_ReconMedic"			"gnalvl_recon_medic_usmc"
+					//"#Squad_Gnalvl_ReconMedic"			"gnalvl_recon_medic_usmc"
+					//"#Squad_Gnalvl_Recon_Engineer"		"Gnalvl_recon_engineer_usmc"
 					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
 					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_2"
-					"#Squad_Gnalvl_Spotter"				"Gnalvl_spotter_usmc"
 				}
 			}
 		}
 		"insurgents"
 		{
 			"name"		"#team_insurgents"
-			"squads"
+			"logo"					"gameui/fac_ins"
 			{
 				"Team1"	// assault team #1
 				{
