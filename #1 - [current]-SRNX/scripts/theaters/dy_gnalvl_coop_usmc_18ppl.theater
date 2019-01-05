@@ -397,7 +397,7 @@
 			//"import"    "9x19"
 			"SuppressionIncrement"		"30"
 			"bulletcount"				"9"
-			"carry"						"56"
+			"carry"						"96"
 			"damageType"				"DMG_BUCKSHOT"
 			"brass_model"				"models/weapons/shells/12guage.mdl"
 			"brass_sound"				"BOUNCE_SHOTSHELL"

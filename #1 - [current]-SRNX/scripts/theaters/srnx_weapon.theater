@@ -7641,13 +7641,12 @@
 			"weapon_slot"					"primary"
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
-			"weapon_weight"					"157" // 17 lbs + 2 200 round mags at 5 lbs
+			"weapon_weight"					"133" // 17 lbs + 2 200 round mags at 5 lbs
 			"weapon_cost"					"4"
 			"closed_bolt"					"0"
 			"barrel_length"					"28"
 
 			"draw_speed"					"0.6"
-			"reload_speed"					"0.75"
 			
 			"ironsights"
 			{
@@ -7786,12 +7785,11 @@
 			"weapon_slot"					"primary"
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
-			"weapon_weight"					"120" // +13 lbs weapon + 150 556 round magazines @ 3.75 lbs each
+			"weapon_weight"					"104" // +13 lbs weapon + 150 556 round magazines @ 3.75 lbs each
 			"weapon_cost"					"2"
 			"closed_bolt"					"0"
 			"barrel_length"					"24"	
 			"draw_speed"					"0.7"
-			"reload_speed"					"0.75"
 			//Higher is slower
 			"ironsights"
 			{
@@ -7931,12 +7929,11 @@
 			"weapon_slot"					"primary"
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
-			"weapon_weight"					"180" // 18.5 + 100 round mag x2 (6.44 lbs each)
+			"weapon_weight"					"153" // 18.5 + 100 round mag x2 (6.44 lbs each)
 			"weapon_cost"					"2"
 			"closed_bolt"					"0"
 			"barrel_length"					"30"	
 			"draw_speed"					"0.4"
-			"reload_speed"					"0.75"
 
 			//Higher is slower
 			"ironsights"
@@ -8076,12 +8073,11 @@
 			"weapon_slot"					"primary"
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
-			"weapon_weight"					"200" // 18.5 + 100 round mag x2 (6.44 lbs each)
+			"weapon_weight"					"170" // 18.5 + 100 round mag x2 (6.44 lbs each)
 			"weapon_cost"					"2"
 			"closed_bolt"					"0"
 			"barrel_length"					"30"	
 			"draw_speed"					"0.35"
-			"reload_speed"					"0.75"
 			//Higher is slower
 			"ironsights"
 			{
@@ -8220,11 +8216,10 @@
 			"weapon_slot"					"primary"
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
-			"weapon_weight"					"105" //10.58 lbs + 2 75 rnd mags at 4 lbs each
+			"weapon_weight"					"90" //10.58 lbs + 2 75 rnd mags at 4 lbs each
 			"weapon_cost"					"1"
 			"barrel_length"					"26"
 			"draw_speed"					"0.8"
-			"reload_speed"					"0.75"
 			//Higher is slower
 			"ironsights"
 			{
@@ -8341,12 +8336,11 @@
 			"weapon_slot"				"primary"
 			"act_table"					"rifle_ak"
 			"weapon_abilities"			"ironsight, bipod"
-			"weapon_weight"				"95" //same logic as RPK just minus 2 lbs total for ammo difference
+			"weapon_weight"				"80" //same logic as RPK just minus 2 lbs total for ammo difference
 			"barrel_length"				"23"
 			//"draw_speed"				"1.10"
 			
 			"draw_speed"					"0.85"
-			"reload_speed"					"0.75"
 			//Higher is slower
 			"ironsights"
 			{
@@ -9207,7 +9201,7 @@
 			"entity_class"				"remote"
 			"Model"						"models/weapons/w_c4.mdl"
 
-			"DetonateDamage"				"250" // 26% reduction from default
+			"DetonateDamage"				"275" // 26% reduction from default
 			"DetonateDamageRadius"			"500" // 25% reduction from def
 			"DetonatePenetrationRadius" 	"150" // 17% reduction from default
 			"FuseTime"						"0.5"

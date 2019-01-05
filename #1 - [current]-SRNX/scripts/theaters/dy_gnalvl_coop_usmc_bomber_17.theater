@@ -29,7 +29,6 @@
 		"security"
 		{
 			"name"		"#Team_Security"
-			"logo"					"gameui/fac_sec"
 
 			"squads"
 			{
@@ -72,7 +71,7 @@
 		"insurgents"
 		{
 			"name"		"#team_insurgents"
-			"logo"					"gameui/fac_ins"
+			"squads"
 			{
 				"Team1"	// assault team #1
 				{

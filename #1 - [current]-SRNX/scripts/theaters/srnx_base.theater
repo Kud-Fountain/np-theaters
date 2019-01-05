@@ -1016,7 +1016,7 @@
 				//upgrades
 				//"weapon_upgrade"	"magazine_drum_75rd"
 				//"weapon_upgrade"	"ammo_beta75"
-				"weapon_upgrade"	"tactical_sling_sup"
+				//"weapon_upgrade"	"tactical_sling_sup"
 
 				//Secondaries
 				"weapon"			"weapon_m1a1"
@@ -1059,7 +1059,7 @@
 			{
 				"weapon_upgrade"
 				{
-					"tactical_sling"		"-1"
+					//"tactical_sling"		"-1"
 				}
 			}
 		}
@@ -1110,7 +1110,7 @@
 				//upgrades
 				//"weapon_upgrade"	"magazine_drum_75rd"
 				//"weapon_upgrade"	"ammo_beta75"
-				"weapon_upgrade"	"tactical_sling_sup"
+				//"weapon_upgrade"	"tactical_sling_sup"
 
 				//Secondaries
 				"weapon"			"weapon_m1a1"
@@ -1153,7 +1153,7 @@
 			{
 				"weapon_upgrade"
 				{
-					"tactical_sling"		"-1"
+					//"tactical_sling"		"-1"
 				}
 			}
 		}

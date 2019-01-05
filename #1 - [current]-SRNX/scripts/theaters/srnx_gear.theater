@@ -355,6 +355,7 @@
 			"gear_slot"		"accessory"
 			"gear_cost"		"0"
 			"gear_weight"	"1" // 75 (7.5kg) + 250 encumbrance
+			"class_restricted"		"1"
 
 			"player_model_bodygroups"
 			{
