@@ -25,6 +25,7 @@
             "sounds"			"scripts/audio/huashui_custom_sounds.txt"
 			// custom particles		//fix
 			//"particles"			"particles/doi_weapon_fx.pcf"
+			"particles"				"particles/blood_impact.pcf"
 		}
 	}
 	

@@ -25,6 +25,7 @@
 			
 			// coop specific
 			"sounds"			"scripts/ins_sounds_voice_coop.txt"
+			"particles"			"particles/blood_impact.pcf"
 		}
 	}
 
@@ -189,7 +190,7 @@
 				//Primaries
 				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_mk18"
-				"weapon"			"weapon_saiga12"
+				//"weapon"			"weapon_saiga12"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_m16a4"
@@ -279,7 +280,7 @@
 
 			"buy_order" 
 			{
-				"weapon"			"weapon_saiga12"
+				//"weapon"			"weapon_saiga12"
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_mk3"
 				"gear"				"srnx_chest_rig2"
@@ -290,7 +291,7 @@
 			"allowed_items"
 			{
 				//Primaries
-				"weapon"			"weapon_saiga12"
+				//"weapon"			"weapon_saiga12"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_galil_sar"
 				"weapon"			"weapon_m4a1"
@@ -812,7 +813,7 @@
 			"allowed_items"
 			{
 				//Primaries
-				"weapon"			"weapon_saiga12"
+				//"weapon"			"weapon_saiga12"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_m16a4"
@@ -908,7 +909,7 @@
 			"allowed_items"
 			{
 				//Primaries
-				"weapon"			"weapon_saiga12"
+				//"weapon"			"weapon_saiga12"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_m16a4"
@@ -1817,7 +1818,7 @@
 				// "weapon"			"weapon_m4a1"
 				// "weapon"			"weapon_scar"
 				// "weapon"			"weapon_sa80"
-				// "weapon"			"weapon_m16a4"
+				"weapon"			"weapon_m16a4"
 				// "weapon"			"weapon_fal"
 				// "weapon"			"weapon_l1a1"
 				// "weapon"			"weapon_m40a1"
@@ -1834,7 +1835,7 @@
 				// "weapon"			"weapon_g36c"
 				// "weapon"			"weapon_famas"
 				// "weapon"			"weapon_f2000"
-				// "weapon"			"weapon_svd"
+				"weapon"			"weapon_svd"
 
 				//Upgrades
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
@@ -1870,6 +1871,7 @@
 				"weapon"			"weapon_m93r"
 				"weapon"			"weapon_m45"
 				//Gear
+				"gear"				"srnx_ar500"
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_chest_rig2"
@@ -1886,7 +1888,8 @@
 					"weapon_anm14"		"-2"
 					"weapon_mk20_scar"	"1"
 					"weapon_rfb"	"1"
-					
+					"weapon_m16a4"	"3"
+					"weapon_svd"	"1"
 				}
 			}
 		}
