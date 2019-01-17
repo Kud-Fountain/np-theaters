@@ -654,6 +654,8 @@
 			"allowed_weapons"
 			{
 				//"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_fal"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_galil_sar"
 				"weapon"			"weapon_m4a1"
