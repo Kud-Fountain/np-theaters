@@ -2,6 +2,7 @@
 "#base" "srnx_gear.theater"
 "#base" "srnx_weapon.theater"
 "#base" "srnx_weapon_upgrades.theater"
+"#base"	"extra_weapon.theater"
 
 "theater"
 {
@@ -25,6 +26,7 @@
 			
 			// coop specific
 			"sounds"			"scripts/ins_sounds_voice_coop.txt"
+			"particles"         "particles/gas_grenades.pcf"
 		}
 	}
 
@@ -57,7 +59,7 @@
 
 			"buy_order" 
 			{
-				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_aug3"
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
 				"gear"				"gear_uav"

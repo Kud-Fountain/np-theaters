@@ -1,6 +1,6 @@
 
 "#base" "srnx_base.theater"
-"#base"	"srnx_insurgents_bombers.theater"
+//"#base"	"srnx_insurgents_bombers.theater"
 "theater"
 {
 	"core"
@@ -22,6 +22,7 @@
 			"sounds"			"scripts/ins_sounds_voice_coop.txt"
 			//Custom sounds 
 			"sounds"			"scripts/dy_lua_sounds_v1_2.txt"
+			"sounds"			"scripts/extra_weapon_cues.txt"
 		}
 	}
 	"teams"
@@ -45,26 +46,26 @@
 				}
 				"Support Team [Bravo]"
 				{
-					"#Squad_Gnalvl_TeamLeader"			"gnalvl_teamleader_usmc"
+					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
 					//"#Squad_Gnalvl_TeamLeader"			"gnalvl_teamleader_usmc"
 					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
-					//"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_2"
-					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_2"
-					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_2"
-					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
-					//"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
+					//"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_1"
+					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_1"
+					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
+					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
+					//"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
 					
 				}
 				"Seal Team [Charlie]"
 				{
 					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
 					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
-					"#Squad_Gnalvl_TeamLeader_Recon"	"Gnalvl_teamleader_recon_usmc"
-					"#Squad_Gnalvl_ReconMedic"			"gnalvl_recon_medic_usmc"
+					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
+					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
 					//"#Squad_Gnalvl_ReconMedic"			"gnalvl_recon_medic_usmc"
 					//"#Squad_Gnalvl_Recon_Engineer"		"Gnalvl_recon_engineer_usmc"
 					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
-					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_2"
+					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
 				}
 			}
 		}
@@ -79,50 +80,50 @@
 					"Bot"		"bomber_ins_1"
 					"Bot"		"bomber_ins_2"		
 					"Bot"		"bomber_ins_3" 		
-					"Bot"		"bomber_ins_4" 		
-					"Bot"		"bomber_ins_5"			
-					"Bot"		"bomber_ins_6"		
-					"Bot"		"bomber_ins_7"				
-					"Bot"		"bomber_ins_8" 	
+					"Bot"		"bomber_ins_4" 
+					"Bot"		"bomber_ins_1"
+					"Bot"		"bomber_ins_2"		
+					"Bot"		"bomber_ins_3" 		
+					"Bot"		"bomber_ins_4" 
 				}
 
 				"Team2"	// Support team #2
 				{
 					//role name
-					"Bot"		"bomber_ins_9"
-					"Bot"		"bomber_ins_10"		
-					"Bot"		"bomber_ins_1" 		
-					"Bot"		"bomber_ins_2" 		
-					"Bot"		"bomber_ins_3"			
-					"Bot"		"bomber_ins_4"		
-					"Bot"		"bomber_ins_5"				
-					"Bot"		"bomber_ins_6" 			
+					"Bot"		"bomber_ins_1"
+					"Bot"		"bomber_ins_2"		
+					"Bot"		"bomber_ins_3" 		
+					"Bot"		"bomber_ins_4" 
+					"Bot"		"bomber_ins_1"
+					"Bot"		"bomber_ins_2"		
+					"Bot"		"bomber_ins_3" 		
+					"Bot"		"bomber_ins_4" 			
 				}
 
 				"Team3"	// Recon team #3
 				{
 					//role name							
-					"Bot"		"bomber_ins_7"
-					"Bot"		"bomber_ins_8"		
-					"Bot"		"bomber_ins_9" 		
-					"Bot"		"bomber_ins_10" 		
-					"Bot"		"bomber_ins_1"			
+					"Bot"		"bomber_ins_1"
 					"Bot"		"bomber_ins_2"		
-					"Bot"		"bomber_ins_3"				
+					"Bot"		"bomber_ins_3" 		
+					"Bot"		"bomber_ins_4" 
+					"Bot"		"bomber_ins_1"
+					"Bot"		"bomber_ins_2"		
+					"Bot"		"bomber_ins_3" 		
 					"Bot"		"bomber_ins_4" 	
 				}
 
 				"Team4"	// Support team #4
 				{
 					//role name							
-					"Bot"		"bomber_ins_5"
-					"Bot"		"bomber_ins_6"		
-					"Bot"		"bomber_ins_7" 		
-					"Bot"		"bomber_ins_8" 		
-					"Bot"		"bomber_ins_9"			
-					"Bot"		"bomber_ins_10"		
-					"Bot"		"bomber_ins_1"				
-					"Bot"		"bomber_ins_2" 
+					"Bot"		"bomber_ins_1"
+					"Bot"		"bomber_ins_2"		
+					"Bot"		"bomber_ins_3" 		
+					"Bot"		"bomber_ins_4" 
+					"Bot"		"bomber_ins_1"
+					"Bot"		"bomber_ins_2"		
+					"Bot"		"bomber_ins_3" 		
+					"Bot"		"bomber_ins_4" 
 				}	
 				
 			}
@@ -353,7 +354,7 @@
 			//"import"    "9x19"
 			"SuppressionIncrement"		"30"
 			"bulletcount"				"9"
-			"carry"						"56"
+			"carry"						"96"
 			"damageType"				"DMG_BUCKSHOT"
 			"brass_model"				"models/weapons/shells/12guage.mdl"
 			"brass_sound"				"BOUNCE_SHOTSHELL"
@@ -414,13 +415,13 @@
 		"buckshot"
 		{
 			"import"				"00buck"
-			"carry"					"56"
+			"carry"					"96"
 			"flags_clear"				"AMMO_USE_MAGAZINES"
 		}
 		"slugs"
 		{
 			"import"				"slug"
-			"carry"					"56"
+			"carry"					"96"
 			"flags_clear"				"AMMO_USE_MAGAZINES"
 		}
 	}

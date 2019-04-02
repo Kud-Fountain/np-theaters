@@ -22,6 +22,7 @@
 			"sounds"			"scripts/ins_sounds_voice_coop.txt"
 			//Custom sounds 
 			"sounds"			"scripts/dy_lua_sounds_v1_2.txt"
+			"sounds"			"scripts/extra_weapon_cues.txt"
 		}
 	}
 	"teams"
@@ -65,27 +66,27 @@
 				}
 				"Support Team [Bravo]"
 				{
-					"#Squad_Gnalvl_TeamLeader"			"gnalvl_teamleader_usmc"
+					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
 					//"#Squad_Gnalvl_TeamLeader"			"gnalvl_teamleader_usmc"
 					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
-					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
-					//"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_2"
-					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_2"
-					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_2"
-					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
-					//"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_2"
+					//"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_1"
+					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_1"
+					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
+					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
+					//"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
 					
 				}
 				"Seal Team [Charlie]"
 				{
 					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
 					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
-					"#Squad_Gnalvl_TeamLeader_Recon"	"Gnalvl_teamleader_recon_usmc"
-					"#Squad_Gnalvl_ReconMedic"			"gnalvl_recon_medic_usmc"
+					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
+					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
+					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
 					//"#Squad_Gnalvl_ReconMedic"			"gnalvl_recon_medic_usmc"
 					//"#Squad_Gnalvl_Recon_Engineer"		"Gnalvl_recon_engineer_usmc"
 					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
-					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_2"
+					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
 				}
 			}
 		}
@@ -119,9 +120,8 @@
 				{
 					"Bot"		"standard_ins_1"
 					"Bot"		"mg_fighter_ins_1"		
-					"Bot"		"mg_fighter_ins_2" 		
-					"Bot"		"striker_ins_1" 		
-					"Bot"		"striker_ins_2"				
+					"Bot"		"mg_fighter_ins_2" 	
+					"Bot"		"striker_ins_1" 					
 					"Bot"		"sapper_ins_1"
 					"Bot"		"striker_ins_vip_1" 				
 					"Bot"		"scout_ins_1" 	
@@ -133,41 +133,30 @@
 					"Bot"		"standard_ins_2" 
 					"Bot"		"mg_fighter_ins_3"		
 					"Bot"		"mg_fighter_ins_4"		
-					"Bot"		"striker_ins_3" 		
-					"Bot"		"juggernaut_1" 	
-					"Bot"		"striker_ins_1"		
+					"Bot"		"striker_ins_2" 
+					"Bot"		"striker_ins_2"	//CP
+					"Bot"		"juggernaut_1" 		
 					"Bot"		"juggernaut_2" 			
-					"Bot"		"scout_ins_2" 		
+					"Bot"		"scout_ins_2" 	
+					"Bot"		"scout_ins_ex" 						
 				}
 
 				"Team3"	// Recon team #3 - 8 Bots
 				{
 					//role name		
-					//"Bot"		"bomber_ins_2"	
-					"Bot"		"juggernaut_3"
+					"Bot"		"striker_ins_3" 
 					"Bot"		"sapper_ins_2"				
 					"Bot"		"sapper_ins_3"
 					"Bot"		"standard_ins_3"
 					"Bot"		"standard_ins_4"			
 					"Bot"		"mg_fighter_ins_5"
-					"Bot"		"scout_ins_1"
-					"Bot"		"scout_ins_2"
-					"Bot"		"mg_fighter_ins_5"
-					//"Bot"		"bomber_ins_3" 	
-					//"Bot"		"bomber_ins_4" 
+					"Bot"		"scout_ins_3"
 				}	
 				"Team4"	// Recon team #4
 				{	 	
-					//"Bot"		"juggernaut_3"	
-					//"Bot"		"juggernaut_4" 
-					"Bot"		"striker_ins_2"
-					//"Bot"		"striker_ins_2"
-					"Bot"		"striker_ins_4" 		
 					"Bot"		"sapper_ins_4"
-					"Bot"		"striker_ins_1"
-					//"Bot"		"juggernaut_5"			
+					"Bot"		"striker_ins_4"		
 					"Bot"		"striker_ins_5"  			
-					"Bot"		"scout_ins_3"
 				}
 			}
 		}

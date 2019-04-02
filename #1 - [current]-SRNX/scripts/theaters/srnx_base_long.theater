@@ -1,5 +1,5 @@
 "#base" "srnx_base_player.theater"
-"#base" "srnx_gear.theater"
+"#base" "srnx_gear_long.theater"
 "#base" "srnx_weapon.theater"
 "#base" "srnx_weapon_upgrades.theater"
 "#base"	"extra_weapon.theater"
@@ -1711,7 +1711,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				// "bodygroups"
@@ -1770,7 +1770,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				// "bodygroups"
@@ -1831,7 +1831,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				// "bodygroups"
@@ -1887,7 +1887,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				// "bodygroups"
@@ -1943,7 +1943,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				// "bodygroups"
@@ -2001,7 +2001,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/sernx_vet_standard.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -2060,7 +2060,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/sernx_ins_standard.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -2119,7 +2119,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/sernx_vet_standard.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -2180,7 +2180,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/sernx_ins_standard.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -2241,7 +2241,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/srnix_vet_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -2298,7 +2298,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/srnix_ins_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -2352,7 +2352,7 @@
 			"team"			"insurgents"
 			"models"
 			{
-				"player"				"models/characters/srnix_vet_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -2415,7 +2415,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/srnix_ins_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -2473,7 +2473,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/srnix_vet_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -2531,7 +2531,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/sernx_ins_standard.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -2587,7 +2587,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/sernx_vet_standard.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -2644,7 +2644,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/srnix_ins_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -2707,7 +2707,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/sernx_vet_standard.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -2764,7 +2764,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/sernx_ins_standard.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -2825,7 +2825,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/srnix_vet_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -2882,7 +2882,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/srnix_ins_light.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -2938,7 +2938,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/srnix_vet_light.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -2997,7 +2997,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/srnix_ins_light.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -3053,7 +3053,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/srnix_ins_light.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -3109,7 +3109,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/srnix_vet_light.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -3166,7 +3166,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/srnix_ins_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -3210,7 +3210,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/srnix_vet_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -3252,7 +3252,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/srnix_ins_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -3294,7 +3294,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/srnix_vet_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -3338,7 +3338,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/sernx_ins_standard.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -3400,7 +3400,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/srnix_vet_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -3459,7 +3459,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/sernx_ins_standard.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -3518,7 +3518,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/sernx_vet_standard.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 				"viewmodel_hands"		"models/m2blu_h/v_hands_sec_l.mdl"
 
 				"bodygroups"

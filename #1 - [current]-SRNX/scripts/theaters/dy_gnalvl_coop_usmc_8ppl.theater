@@ -22,6 +22,7 @@
 			"sounds"			"scripts/ins_sounds_voice_coop.txt"
 			//Custom sounds 
 			"sounds"			"scripts/dy_lua_sounds_v1_2.txt"
+			"sounds"			"scripts/extra_weapon_cues.txt"
 		}
 	}
 	"teams"
@@ -107,9 +108,8 @@
 				{
 					"Bot"		"standard_ins_1"
 					"Bot"		"mg_fighter_ins_1"		
-					"Bot"		"mg_fighter_ins_2" 		
-					"Bot"		"striker_ins_1" 		
-					"Bot"		"striker_ins_2"				
+					"Bot"		"mg_fighter_ins_2" 	
+					"Bot"		"striker_ins_1" 					
 					"Bot"		"sapper_ins_1"
 					"Bot"		"striker_ins_vip_1" 				
 					"Bot"		"scout_ins_1" 	
@@ -121,40 +121,30 @@
 					"Bot"		"standard_ins_2" 
 					"Bot"		"mg_fighter_ins_3"		
 					"Bot"		"mg_fighter_ins_4"		
-					"Bot"		"striker_ins_3" 		
-					"Bot"		"juggernaut_1" 	
-					"Bot"		"striker_ins_1"		
+					"Bot"		"striker_ins_2" 
+					"Bot"		"striker_ins_2"	//CP
+					"Bot"		"juggernaut_1" 		
 					"Bot"		"juggernaut_2" 			
-					"Bot"		"scout_ins_2" 		
+					"Bot"		"scout_ins_2" 	
+					"Bot"		"scout_ins_ex" 						
 				}
 
 				"Team3"	// Recon team #3 - 8 Bots
 				{
 					//role name		
-					//"Bot"		"bomber_ins_2"	
+					"Bot"		"striker_ins_3" 
 					"Bot"		"sapper_ins_2"				
 					"Bot"		"sapper_ins_3"
 					"Bot"		"standard_ins_3"
 					"Bot"		"standard_ins_4"			
 					"Bot"		"mg_fighter_ins_5"
-					"Bot"		"scout_ins_1"
-					"Bot"		"scout_ins_2"
-					"Bot"		"mg_fighter_ins_5"
-					//"Bot"		"bomber_ins_3" 	
-					//"Bot"		"bomber_ins_4" 
+					"Bot"		"scout_ins_3"
 				}	
 				"Team4"	// Recon team #4
-				{	 	
-					//"Bot"		"juggernaut_3"	
-					//"Bot"		"juggernaut_4" 
-					"Bot"		"striker_ins_2"
-					//"Bot"		"striker_ins_2"
-					"Bot"		"striker_ins_4" 		
+				{	 			
 					"Bot"		"sapper_ins_4"
-					"Bot"		"striker_ins_1"
-					//"Bot"		"juggernaut_5"			
+					"Bot"		"striker_ins_4"		
 					"Bot"		"striker_ins_5"  			
-					"Bot"		"scout_ins_3"
 				}
 			}
 		}
@@ -384,7 +374,7 @@
 			//"import"    "9x19"
 			"SuppressionIncrement"		"30"
 			"bulletcount"				"9"
-			"carry"						"56"
+			"carry"						"96"
 			"damageType"				"DMG_BUCKSHOT"
 			"brass_model"				"models/weapons/shells/12guage.mdl"
 			"brass_sound"				"BOUNCE_SHOTSHELL"
@@ -445,13 +435,13 @@
 		"buckshot"
 		{
 			"import"				"00buck"
-			"carry"					"56"
+			"carry"					"96"
 			"flags_clear"				"AMMO_USE_MAGAZINES"
 		}
 		"slugs"
 		{
 			"import"				"slug"
-			"carry"					"56"
+			"carry"					"96"
 			"flags_clear"				"AMMO_USE_MAGAZINES"
 		}
 	}

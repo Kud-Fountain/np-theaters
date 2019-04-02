@@ -1653,7 +1653,7 @@
             "gear_cost"             "0"
             "gear_weight"   		"20"
 			"entity"				"model"
-            "model"                 "models/characters/ins_helmet_head.mdl"
+            //"model"                 "models/characters/ins_helmet_head.mdl"
             "DamageHitgroups"
             {
                 "HITGROUP_HEAD"        "0.75"
@@ -1670,7 +1670,7 @@
             "gear_cost"             "0"
             "gear_weight"   		"20"
 			"entity"				"model"
-            "model"                 "models/characters/msk_helmet_head.mdl"
+            //"model"                 "models/characters/msk_helmet_head.mdl"
             "DamageHitgroups"
             {
                 "HITGROUP_HEAD"        "0.70"
@@ -1687,7 +1687,7 @@
             "gear_cost"             "0"
             "gear_weight"   		"20"
 			"entity"				"model"
-            "model"                 "models/characters/k63_helmet_head.mdl"
+            //"model"                 "models/characters/k63_helmet_head.mdl"
             "DamageHitgroups"
             {
                 "HITGROUP_HEAD"        "0.65"
@@ -1742,7 +1742,7 @@
             "gear_cost"             "0"
             "gear_weight"   		"40"
 			"entity"				"model"
-            "model"                 "models/characters/custom/mlf_helmet_head.mdl"
+            //"model"                 "models/characters/custom/mlf_helmet_head.mdl"
             "DamageHitgroups"
             {
                 "HITGROUP_HEAD"        "0.07"

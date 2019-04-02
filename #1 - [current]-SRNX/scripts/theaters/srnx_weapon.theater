@@ -1308,17 +1308,17 @@
 			"weapon_type"					"grenade"
 			"print_name"					"#weapon_f1g"
 			"print_desc"					"#weapon_f1g_desc"
-			"view_model"					"models/weapons/v_f1.mdl"
-			"world_model"					"models/weapons/w_f1.mdl"
+			"view_model"					"models/weapons/v_no69.mdl"
+			"world_model"					"models/weapons/w_no69.mdl"
 			"weapon_slot"					"explosive"
 			"act_table"						"grenade"
-			"weapon_weight"					"5"
-			"weapon_cost"					"0"
+			"weapon_weight"					"20"
+			"weapon_cost"					"1"
 			"class_restricted"				"0"
 
 			"fov"
 			{
-				"fov_wpn_default"			"65"
+				"fov_wpn_default"			"70"
 			}
 			"explosives"
 			{
@@ -1334,7 +1334,7 @@
 			{
 				"special1"				"Weapon_M67.SpoonEject"
 			}
-			"team_access"	"insurgent"
+			"team_access"	"security, insurgent"
 		}
 		"weapon_anm14"
 		{
@@ -1461,12 +1461,12 @@
 			"weapon_type"					"grenade"
 			"print_name"					"#weapon_m18"
 			"print_desc"					"#weapon_m18_desc"
-			"view_model"					"models/weapons/v_m18.mdl"
-			"world_model"					"models/weapons/w_m18.mdl"
+			"view_model"					"models/weapons/v_m18t.mdl"
+			"world_model"					"models/weapons/w_m18t.mdl"
 			"weapon_slot"					"explosive"
 			"act_table"						"grenade"
-			"weapon_weight"					"5"
-			"weapon_cost"					"0"
+			"weapon_weight"					"29"
+			"weapon_cost"					"1"
 			"class_restricted"				"1"
 			"weapon_max_subslot"			"0"
 
@@ -1478,8 +1478,8 @@
 			"explosives"
 			{
 				"entity"					"grenade_m18"
-				"GrenadeRollSpeed"			"500"
-				"GrenadeThrowSpeed"			"1000"
+				//"GrenadeRollSpeed"			"500"
+				//"GrenadeThrowSpeed"			"1000"
 			}
 			"ammo_clip"
 			{
@@ -4195,7 +4195,7 @@
 			"act_table"						"rifle_ak"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"44" // (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"weapon_cost"					"3"//3
+			"weapon_cost"					"4"//3
 		    "barrel_length"					"23"
 			"class_restricted"				"1"
 			"viewmodel_attachments"
@@ -7658,7 +7658,7 @@
 			"weapon_slot"					"primary"
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
-			"weapon_weight"					"133" // 17 lbs + 2 200 round mags at 5 lbs
+			"weapon_weight"					"123" // 17 lbs + 2 200 round mags at 5 lbs
 			"weapon_cost"					"4"
 			"closed_bolt"					"0"
 			"barrel_length"					"28"
@@ -7777,7 +7777,7 @@
 			{
 				"ammo_type"					"556_m27"
 				"clip_max"					"4"
-				"clip_max_rounds"			"150"
+				"clip_max_rounds"			"200"
 				"clip_default"				"0" // attempt to counter mag balance
 			}
 			"attachments"
@@ -7802,7 +7802,7 @@
 			"weapon_slot"					"primary"
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
-			"weapon_weight"					"104" // +13 lbs weapon + 150 556 round magazines @ 3.75 lbs each
+			"weapon_weight"					"94" // +13 lbs weapon + 150 556 round magazines @ 3.75 lbs each
 			"weapon_cost"					"2"
 			"closed_bolt"					"0"
 			"barrel_length"					"24"	
@@ -7946,7 +7946,7 @@
 			"weapon_slot"					"primary"
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
-			"weapon_weight"					"153" // 18.5 + 100 round mag x2 (6.44 lbs each)
+			"weapon_weight"					"143" // 18.5 + 100 round mag x2 (6.44 lbs each)
 			"weapon_cost"					"2"
 			"closed_bolt"					"0"
 			"barrel_length"					"30"	
@@ -8090,7 +8090,7 @@
 			"weapon_slot"					"primary"
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
-			"weapon_weight"					"170" // 18.5 + 100 round mag x2 (6.44 lbs each)
+			"weapon_weight"					"150" // 18.5 + 100 round mag x2 (6.44 lbs each)
 			"weapon_cost"					"2"
 			"closed_bolt"					"0"
 			"barrel_length"					"30"	
@@ -8346,7 +8346,7 @@
 			"view_model"				"models/weapons/v_r74.mdl"
 			"world_model"				"models/weapons/w_r74.mdl"
 			"weapon_class"				"lmg"
-			"weapon_cost"				"1"
+			"weapon_cost"				"2"
 			"print_name"				"#weapon_rpk74m_dy"
 			"print_desc"				"#weapon_rpk74m_dy_desc"
 			"rounds_per_minute"			"650"
@@ -8744,21 +8744,41 @@
 		"grenade_m18"
 		{
 			"import"					"baseGrenade"
-			"entity_class"				"grenade_smoke"
-			"Model"						"models/weapons/w_m18.mdl"
-			"FuseTime"					"3.5"
-			"RocketStartSpeed"			"2500"
+			"entity_class"				"grenade_aoe"
+			"Model"						"models/weapons/w_m18t.mdl"
+			"DamageType"					"DMG_NERVEGAS, DMG_PREVENT_PHYSICS_FORCE, DMG_POISON"
+			"DetonateDamage"				"10"
+			"DetonateDamageRadius"			"240"
+			"FuseTime"						"3.5"
+			"DetonateUnderwater"			"0"
+			"Cookable"						"1"
+			"RocketStartSpeed"				"2000"
+			"ShakeAmplitude"				"0"
+			
+			"Deafen"						"0"
+			"AreaDamageTime"				"15"
+			"AreaDamageFrequency"			"1"
+			"AreaDamageMinRadius"			"200"
+			"AreaDamageMaxRadius"			"400"
+			"AreaDamageGrowSpeed"			"50"
+			"AreaDamageAmount"				"50"
+			
+			"Health"				"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
 			
 			"Particles"
 			{
-				"DetonateParticle"		"smokegrenade"
-				"SmokeColor"			"40 35 33 252" // why does the alpha have to be set so damn high?
+				"DetonateParticle"		"gasgrenade"
+				"SmokeColor"			"150 150 90 240" // why does the alpha have to be set so damn high?
+				"FollowOrigin"			"1"
+				"NormalUp"				"1"
 			}
 			
 			"Sounds"
 			{
-				"DetonateSound"			"BaseSmokeEffect.Sound"
-				"BounceSound"			"Weapon_M18.Bounce"
+				"DetonateSound"				"ANM14Incendiary.Burn"
+				"BounceSound"				"ANM14Incendiary.Bounce"
 			}
 		}
 		"grenade_m84"
@@ -8841,16 +8861,23 @@
 		{
 			"import"					"baseGrenade"
 			"entity_class"				"grenade_frag"
-			"Model"						"models/weapons/w_f1.mdl"
-			"DetonateDamage"			"160" 
+			"Model"						"models/weapons/w_no69.mdl"
+			"DetonateDamage"			"140" 
 			"DetonatePenetrationRadius" "40"
-			"DetonateDamageRadius"		"650"  //14% reduction from 750
-			"FuseTime"					"4"
+			"DetonateDamageRadius"		"750"  //14% reduction from 750
+			"FuseTime"					"5"
 			"RocketStartSpeed"			"2000"
+			"ImpactDetonation"			"1"
+			"Health"					"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
+
+			"ShakeAmplitude"			"200"
+			"ShakeFrequency"			"120"
+			"ShakeDuration"				"2"
+			"ShakeRadius"				"750"
 			
 			"Health"						"50"
-			"ReactExplosions"				"1"
-			"ReactBullets"					"1"
 			
 			"Particles"
 			{
@@ -8859,8 +8886,9 @@
 			}
 			"Sounds"
 			{
-				"DetonateSound"			"BaseGrenade.Explode"
-				"BounceSound"			"Weapon_M67.Bounce"
+				"DetonateSound"			"Weapon_no69.Explode"
+				"DetonateWaterSound"	"Weapon_no69.ExplodeWater"
+				"BounceSound"			"Weapon_no69.Bounce"
 			}
 		}
 		"grenade_anm14"
@@ -9075,12 +9103,26 @@
 		"grenade_m203_smoke"
 		{
 			"import"					"baseGrenade"
-			"entity_class"				"grenade_smoke"
+			"entity_class"				"grenade_aoe"
 			"Model"						"models/weapons/upgrades/a_projectile_m203.mdl"
+			"DamageType"					"DMG_NERVEGAS, DMG_PREVENT_PHYSICS_FORCE, DMG_POISON"
+			"DetonateDamage"				"10"
+			"DetonateDamageRadius"			"240"
+			"DetonateUnderwater"			"0"
 			"FuseTime"					"0"
 			"ImpactDetonation"			"1"
+			"Cookable"						"1"
 			"RocketStartSpeed"			"3000"
 			"ArmDelay"					"0.05"
+			"ShakeAmplitude"				"0"
+			
+			"Deafen"						"0"
+			"AreaDamageTime"				"12"
+			"AreaDamageFrequency"			"2"
+			"AreaDamageMinRadius"			"200"
+			"AreaDamageMaxRadius"			"300"
+			"AreaDamageGrowSpeed"			"50"
+			"AreaDamageAmount"				"50"
 			
 			"Health"						"50"
 			"ReactExplosions"				"1"
@@ -9088,8 +9130,10 @@
 			
 			"Particles"
 			{
-				"DetonateParticle"		"m203_smokegrenade"
-				"SmokeColor"			"40 35 33 252" // why does the alpha have to be set so damn high?
+				"DetonateParticle"		"gasgrenade"
+				"SmokeColor"			"150 150 90 240" // why does the alpha have to be set so damn high?
+				"FollowOrigin"			"1"
+				"NormalUp"				"1"
 			}
 			
 			"Sounds"
@@ -9293,12 +9337,25 @@
 		"grenade_m79_smoke"
 		{
 			"import"					"baseGrenade"
-			"entity_class"				"grenade_smoke"
+			"entity_class"				"grenade_aoe"
 			"Model"						"models/weapons/upgrades/a_projectile_m203.mdl"
+			"DetonateDamage"				"10"
+			"DetonateDamageRadius"			"240"
 			"FuseTime"					"0"
 			"ImpactDetonation"			"1"
 			"RocketStartSpeed"			"3000"
 			"ArmDelay"					"0.05"
+			"DetonateUnderwater"			"0"
+			"Cookable"						"1"
+			"ShakeAmplitude"				"0"
+			
+			"Deafen"						"0"
+			"AreaDamageTime"				"12"
+			"AreaDamageFrequency"			"2"
+			"AreaDamageMinRadius"			"200"
+			"AreaDamageMaxRadius"			"300"
+			"AreaDamageGrowSpeed"			"50"
+			"AreaDamageAmount"				"50"
 			
 			"Health"						"50"
 			"ReactExplosions"				"1"
@@ -9306,8 +9363,10 @@
 			
 			"Particles"
 			{
-				"DetonateParticle"		"m203_smokegrenade"
-				"SmokeColor"			"40 35 33 252" // why does the alpha have to be set so damn high?
+				"DetonateParticle"		"gasgrenade"
+				"SmokeColor"			"150 150 90 240" // why does the alpha have to be set so damn high?
+				"FollowOrigin"			"1"
+				"NormalUp"				"1"
 			}
 			
 			"Sounds"
