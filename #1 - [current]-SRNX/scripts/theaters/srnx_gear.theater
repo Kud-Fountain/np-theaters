@@ -230,6 +230,7 @@
 			"print_desc"	"#gear_nij_2_armor_desc"
 			"gear_slot"		"armor"
 			"gear_cost"		"1"
+			"class_restricted"		"1"
 			"gear_weight"	"40" // 75 (7.5kg) + 250 encumbrance	
 			
 			"DamageHitgroups"
@@ -257,14 +258,14 @@
 
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"0.60"
-				"HITGROUP_CHEST"			"0.60"
-				"HITGROUP_STOMACH"			"0.60"
-				"HITGROUP_LEFTARM"			"0.60"
-				"HITGROUP_RIGHTARM"			"0.60"
-				"HITGROUP_LEFTLEG"			"0.60"
-				"HITGROUP_RIGHTLEG"			"0.60"
-				"HITGROUP_GENERIC"			"0.60"
+				"HITGROUP_HEAD"				"0.55"
+				"HITGROUP_CHEST"			"0.55"
+				"HITGROUP_STOMACH"			"0.55"
+				"HITGROUP_LEFTARM"			"0.55"
+				"HITGROUP_RIGHTARM"			"0.55"
+				"HITGROUP_LEFTLEG"			"0.55"
+				"HITGROUP_RIGHTLEG"			"0.55"
+				"HITGROUP_GENERIC"			"0.55"
 			}
 			"explosive_damage_frac"		"0.75"
 			"penetration_power_loss"	"40"
@@ -281,20 +282,20 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"0.50"	// death
-				"HITGROUP_CHEST"			"0.50"
-				"HITGROUP_STOMACH"			"0.50"
-				"HITGROUP_LEFTARM"			"0.50"
-				"HITGROUP_RIGHTARM"			"0.50"
-				"HITGROUP_LEFTLEG"			"0.50"
-				"HITGROUP_RIGHTLEG"			"0.50"
-				"HITGROUP_GENERIC"			"0.50"
+				"HITGROUP_HEAD"				"0.45"	// death
+				"HITGROUP_CHEST"			"0.45"
+				"HITGROUP_STOMACH"			"0.45"
+				"HITGROUP_LEFTARM"			"0.45"
+				"HITGROUP_RIGHTARM"			"0.45"
+				"HITGROUP_LEFTLEG"			"0.45"
+				"HITGROUP_RIGHTLEG"			"0.45"
+				"HITGROUP_GENERIC"			"0.45"
 			}
 			"player_model_bodygroups"
 			{
 				"armor"					"1"
 			}
-			"explosive_damage_frac"		"0.60"
+			"explosive_damage_frac"		"0.55"
 			"penetration_power_loss"	"75"
 			
 			"team_access"				"security, insurgent"
@@ -309,14 +310,14 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"0.40"	// death
-				"HITGROUP_CHEST"			"0.40"
-				"HITGROUP_STOMACH"			"0.40"
-				"HITGROUP_LEFTARM"			"0.40"
-				"HITGROUP_RIGHTARM"			"0.40"
-				"HITGROUP_LEFTLEG"			"0.40"
-				"HITGROUP_RIGHTLEG"			"0.40"
-				"HITGROUP_GENERIC"			"0.40"
+				"HITGROUP_HEAD"				"0.35"	// death
+				"HITGROUP_CHEST"			"0.35"
+				"HITGROUP_STOMACH"			"0.35"
+				"HITGROUP_LEFTARM"			"0.35"
+				"HITGROUP_RIGHTARM"			"0.35"
+				"HITGROUP_LEFTLEG"			"0.35"
+				"HITGROUP_RIGHTLEG"			"0.35"
+				"HITGROUP_GENERIC"			"0.35"
 			}
 			"player_model_bodygroups"
 			{

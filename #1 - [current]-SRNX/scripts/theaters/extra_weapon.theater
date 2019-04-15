@@ -1347,7 +1347,7 @@
 		{
 			"print_name"				"#quick_reload6"
 			"print_desc"				"#quick_reload6_desc"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"upgrade_slot"				"aesthetic"
 			"class_restricted"			"0"
 			
