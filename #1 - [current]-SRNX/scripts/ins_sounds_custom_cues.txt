@@ -1796,3 +1796,291 @@
 		}
 	}
 }
+
+// --------------------------
+// VICKERS
+// --------------------------
+
+
+"Weapon_Vickers.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+    "pitch"			"95,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+	"wave"		    ")weapons/vickers/vickers_TP.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_Vickers.SingleDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                        
+
+		}
+	}
+
+}
+
+"Weapon_Vickers.SingleDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"95,105"
+	"soundlevel"  	"SNDLVL_150dB"
+	"wave"			")weapons/vickers/vickers_dist.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "ins_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+		}
+	} 
+}
+
+"Weapon_Vickers.SingleLocal"
+{
+	"channel"	    "CHAN_WEAPON"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"	"weapons/vickers/vickers_fp.wav"
+}
+
+// --------------------------
+// M1919
+// --------------------------
+
+
+"Weapon_M1919.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+    "pitch"			"95,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+	"wave"		    ")weapons/m1919/m1919_TP.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_M1919.SingleDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                        
+
+		}
+	}
+
+}
+
+"Weapon_M1919.SingleDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"95,105"
+	"soundlevel"  	"SNDLVL_150dB"
+	"wave"			")weapons/m1919/m1919_dist.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "ins_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+}
+} 
+}
+
+"Weapon_M1919.SingleLocal"
+{
+	"channel"	    "CHAN_WEAPON"
+	"volume"	    "1.0"
+    "pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"	"weapons/m1919/m1919_fp.wav"
+}
+
+
+
+// M1919 HANDLING
+
+"Weapon_M1919.Foley"
+{
+	"channel"			"CHAN_STATIC"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"			"weapons/M1919/handling/M1919_foley_01.wav" 
+	"wave"			"weapons/M1919/handling/M1919_foley_02.wav" 
+	"wave"			"weapons/M1919/handling/M1919_foley_03.wav" 
+	"wave"			"weapons/M1919/handling/M1919_foley_04.wav" 
+    }	
+}
+
+"Weapon_M1919.LidOpen"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.3"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/M1919/handling/M1919_LidOpen.wav" 
+}
+
+"Weapon_M1919.LinkRattle"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.3"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/M1919/handling/M1919_LinkRattle.wav" 
+}
+
+"Weapon_M1919.BeltJingle"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.3"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/M1919/handling/M1919_BeltJingle.wav" 
+}
+
+"Weapon_M1919.BeltAlign"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.3"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/M1919/handling/M1919_BeltAlign.wav" 
+}
+
+"Weapon_M1919.LidClose"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.4"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/M1919/handling/M1919_LidClose.wav" 
+}
+
+"Weapon_M1919.FetchMag"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.3"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/M1919/handling/M1919_FetchMag.wav"  
+}
+
+"Weapon_M1919.Boltback"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.25"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/M1919/handling/M1919_boltback.wav" 
+}
+
+"Weapon_M1919.Boltrelease"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.3"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/M1919/handling/M1919_boltrelease.wav"  
+}
+
+"Weapon_M1919.Rattle"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/M1919/handling/M1919_rattle.wav" 
+}
+
+"Weapon_M1919.Empty"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.2"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/M1919/handling/M1919_empty.wav"  
+}
+
+"Weapon_M1919.Shoulder"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.7"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/M1919/handling/M1919_shoulder_weapon.wav"  
+}
+
+"Weapon_M1919.BipodGroundHit"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.2"
+    "pitch"			"PITCH_NORM"
+	"wave"			"weapons/M1919/handling/M1919_DeployGroundHit.wav" 
+}

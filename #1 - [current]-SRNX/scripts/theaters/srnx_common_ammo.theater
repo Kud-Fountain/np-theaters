@@ -1103,7 +1103,7 @@
 			"Damage"
 			{
 				"10"					"70"
-				"8000"					"25"
+				"8000"					"15"
 			}
 
 			"PenetrationPower"
@@ -2767,6 +2767,35 @@
 			{
 				"0"						"1.0"
 				"1000"					"0.25"
+			}
+		}
+		
+		//vickers
+		"303_brit_belt"
+		{
+			"import"					"303_brit"
+			"carry"						"8"
+			"magsize"					"250"
+			"tracer_frequency"			"10"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"20" 
+			
+			"Damage"
+			{
+				"1000"					"85"
+				"8000"					"25"
+			}
+
+			"PenetrationPower"
+			{
+				"10"					"1500"
+				"15000"					"500"
+			}
+
+			"PenetrationDamage"
+			{
+				"0"						"1.0"
+				"1000"					"0.3"
 			}
 		}
 		

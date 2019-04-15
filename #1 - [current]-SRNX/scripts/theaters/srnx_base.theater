@@ -893,6 +893,7 @@
 				"weapon"			"weapon_nam_ppsh41"
 				"weapon"			"weapon_rpk74m"
 				"weapon"			"weapon_ae_mg42"
+				"weapon"			"weapon_vickers"
 				//"weapon"			"weapon_m16a4"
 				//"weapon"			"weapon_m4a1"
 				//"weapon"			"weapon_mk18"
@@ -2081,7 +2082,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_suomi"
+				"weapon"			"weapon_vickers"
 				//Secondary
 				"weapon"			"weapon_model10"
 				//"weapon_upgrade"	"magazine_extended_smg_40"
@@ -2101,7 +2102,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_suomi"
+				"weapon"			"weapon_vickers"
 				//Secondary
 				"weapon"			"weapon_model10"
 				//"weapon_upgrade"	"magazine_extended_smg_40"
@@ -2436,7 +2437,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_m60"
+				"weapon"			"weapon_vickers"
 				"weapon_upgrade"	"ammo_ap_mk48"
 				//Secondary
 				"weapon"			"weapon_kingcobra"
@@ -2456,7 +2457,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_m60"
+				"weapon"			"weapon_vickers"
 				"weapon_upgrade"	"ammo_ap_mk48"
 				//Secondary
 				"weapon"			"weapon_kingcobra"
