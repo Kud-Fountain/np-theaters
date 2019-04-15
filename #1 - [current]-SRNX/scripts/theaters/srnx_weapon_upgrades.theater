@@ -218,7 +218,7 @@
 
 			"recoil"
 			{
-				"recoil_vertical_frac"		"0.95"
+				"recoil_vertical_frac"		"1.05"
 				"recoil_lateral_frac"		"1.05"
 			}
 

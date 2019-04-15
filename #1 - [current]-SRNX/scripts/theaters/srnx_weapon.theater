@@ -2407,7 +2407,7 @@
 			"act_table"				"pistol"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"8"	// (0.7kg[weapon] + (0.1kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +2[encumbrance]
-			"weapon_cost"				"2"
+			"weapon_cost"				"1"
 			"class_restricted"			"1"
 			"barrel_length"				"10"
 			"reload_speed"					"1.10"
@@ -2511,7 +2511,7 @@
 			"act_table"					"pistol"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"10"
-			"weapon_cost"				"2"
+			"weapon_cost"				"1"
 			"class_restricted"			"1"
 			"barrel_length"				"12"
 			

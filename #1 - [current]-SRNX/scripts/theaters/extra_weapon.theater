@@ -225,6 +225,8 @@
 			}
 			"recoil"
 			{
+				"recoil_vertical_frac"		"0.85"
+				"recoil_lateral_frac"		"0.85"
 				"recoil_lateral_range"			"-1.40 2.15"
 				"recoil_vertical_range"			"1.95 2.99"
 				"recoil_aim_punch"			"0.3 0.5"
