@@ -15,10 +15,6 @@
 			"sounds"			"scripts/ins_sounds_responses_insurgent.txt"
 			"sounds"			"scripts/ins_sounds_hq.txt"
 			"sounds"			"scripts/ins_sounds_voice_coop.txt"
-            //"sounds"			"scripts/audio/doi_sounds_weapons.txt"
-            //"sounds"			"scripts/audio/huashui_custom_sounds.txt"
-			// custom particles		//fix
-			//"particles"			"particles/doi_weapon_fx.pcf"
 		}
 	}
 	
