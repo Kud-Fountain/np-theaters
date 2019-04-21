@@ -1119,6 +1119,26 @@
 			}
 		}
 		
+		//g43
+		"792x57_clip"
+		{
+			"import"		"762x38mm_clip"
+			"carry"			"12"
+			"magsize"		"10"
+			
+			"PenetrationPower"
+			{
+				"10"					"1000"
+				"20000"					"500"
+			}
+
+			"PenetrationDamage"
+			{
+				"0"						"1.0"
+				"1000"					"0.25"
+			}
+		}
+		
 		"792x57_belt"
 		{
 			"import"					"792x57"
@@ -1607,6 +1627,34 @@
 			"carry"					"10"
 			"magsize"				"15"
 		}
+		
+		// C96
+		"9x19mm_c96"
+		{
+			"import"					"9x19mm_smg"
+			"magsize"					"20"
+			"brass_model"				"models/weapons/shells/9x19.mdl"
+			
+			"Damage"
+			{
+				"1000"					"35"
+				"2500"					"25"
+				"10000"					"10"
+			}			
+			
+			"PenetrationPower"
+			{
+				"100"					"500"
+				"600"					"200"
+			}
+
+			"PenetrationDamage"
+			{
+				"0"						"1.0"
+				"800"					"0.25"
+			}
+		}
+		
 		
 		// ========================================
 		// AKM

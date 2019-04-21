@@ -822,6 +822,8 @@
 			"upgrade_slot"				"stock"
 			"draw_speed"				"1.20"
 			"holster_speed"				"1.20"
+			"draw_speed_next_weapon"	"1.20"
+			"holster_speed_prev_weapon"	"1.20"
 			"reload_speed"				"0.90"
 			
 			"allowed_weapons"
@@ -883,6 +885,8 @@
 				"weapon"				"weapon_m60"
 				"weapon"				"weapon_ae_mg42"
 				"weapon"				"weapon_vickers"
+				"weapon"				"weapon_c96carbine"
+				"weapon"				"weapon_g43"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_rpk74m"
 				"weapon"				"weapon_m40a1"
@@ -895,8 +899,56 @@
 				"weapon"				"weapon_m3greasegun"
 				"weapon"				"weapon_lewis"
 				"weapon"				"weapon_hk416"
+				"weapon"				"weapon_c96carbine"
 			}
-
+			"viewmodel_attachments"
+			{
+				"c96_sling"
+				{
+					"model"				"models\weapons\upgrades\a_sling_c96.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_c96carbine"
+					}
+				}
+				"sten_mp40"
+				{
+					"model"				"models\weapons\upgrades\a_sling_mp40.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_mp40"
+					}
+				}
+				"g43_sling"
+				{
+					"model"				"models\weapons\upgrades\a_sling_g43.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_g43"
+					}
+				}
+				"enfield_sling"
+				{
+					"model"				"models\weapons\upgrades\a_sling_enfield.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_enfield"
+					}
+				}
+				"garand_sling"
+				{
+					"model"				"models\weapons\upgrades\a_sling_garand.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_m1garand"
+					}
+				}
+			}
 		}
 		"tactical_sling_sup"
 		{
@@ -1051,6 +1103,8 @@
 				"weapon"				"weapon_m60"
 				"weapon"				"weapon_ae_mg42"
 				"weapon"				"weapon_vickers"
+				"weapon"				"weapon_c96carbine"
+				"weapon"				"weapon_g43"
 				"weapon"				"weapon_hk416"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_rpk74m"
@@ -1499,6 +1553,8 @@
 				"weapon"					"weapon_m60"
 				"weapon"					"weapon_ae_mg42"
 				"weapon"					"weapon_vickers"
+				"weapon"					"weapon_c96carbine"
+				"weapon"					"weapon_g43"
 				"weapon"					"weapon_rpk"
 				"weapon"					"weapon_saiga12"
 				"weapon"					"weapon_vz58"

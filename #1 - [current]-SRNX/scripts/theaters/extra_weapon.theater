@@ -6,6 +6,261 @@
 {
 	"weapons"
 	{
+		"weapon_c96carbine"
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"smg"
+			"print_name"				"#weapon_c96carbine"
+			"print_desc"				"#weapon_c96carbine_desc"
+			"view_model"				"models/weapons/v_c96_carbine.mdl"
+			"world_model"				"models/weapons/w_c96_carbine.mdl"
+			"rounds_per_minute"			"1000"
+			"closed_bolt"				"1"
+			"weapon_slot"				"primary"
+			"act_table"					"rifle_ak"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"38"
+			"weapon_cost"				"1"
+			"barrel_length"				"16"
+			
+			"viewmodel_attachments"
+			{
+				"standard_barrel"
+				{
+					"model"						"models/weapons/upgrades/a_barrel_c96_long.mdl"
+					"fallback_for_slot"			"underbarrel"
+				}
+				
+				"standard_magazine"
+				{
+					"model"						"models/weapons/upgrades/a_magazine_c96_20.mdl"
+					"fallback_for_slot"			"magazine"
+				}				
+			}
+			
+			"world_attachments"
+			{
+				"standard_magazine"
+				{
+					"model"						"models/weapons/upgrades/w_c96carbine_mag_20.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+			}
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-15"
+				"fov_plr_focus"				"-7"
+				"fov_wpn_default"			"70"
+				"fov_wpn_ironsight"			"82"
+				"fov_wpn_focus"				"77"
+			}
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_C96.Single"
+				"shot_single_local"			"Weapon_C96.SingleLocal"
+				"shot_silent"				"Weapon_C96.SingleSilenced"
+				"shot_silent_local"			"Weapon_C96.SingleSilencedLocal"
+				"empty"						"Weapon_C96.Empty"
+				"clipin"					"Weapon_C96.Magin"
+				"clipout"					"Weapon_C96.Magout"
+				"boltback"					"Weapon_C96.Boltback"
+				"boltrelease"				"Weapon_C96.Boltrelease"
+				"rofdown"					"Weapon_C96.ROF"
+				"rofup"						"Weapon_C96.ROF"
+			}
+			
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_mp40_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_mp40_3p"
+				"particle_tracer"				"weapon_tracers"
+			}
+			
+			"recoil"
+			{
+				"recoil_lateral_range"			"-1.4 1.7"
+				"recoil_vertical_range"			"1.8 2.4"
+				"recoil_aim_punch"				"0.3 0.5"
+				"recoil_rest_rate"				"6"
+				"recoil_rest_delay"				"0.14"
+				"recoil_roll_range"				"-1.45 -1.45"
+				"recoil_roll_rest_rate"			"150"
+				"recoil_freeaim_frac"			"0.4"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"				"5"		// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.78"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+			}
+			
+			"melee"
+			{
+				"MeleeWeaponIdleTime"	"0.1"
+				"MeleeDamage"			"40"
+				"MeleeRange"			"75"
+			}
+			
+			"ballistics"
+			{
+				"spread"					"0.9 0.9 0.9"
+				"FireModes"					"semi, full"
+				"bulletcount"				"1"
+				"maxrange"					"8000"
+			}
+			
+			"ammo_clip"
+			{
+				"ammo_type"					"9x19mm_c96"
+				"magsize_override"			"20"
+				"clip_max"					"12"
+				"clip_max_rounds"			"20"
+				"clip_default"				"3"
+			}
+			
+			"attachments"
+			{
+				"attachment_addon"			"Primary"
+			}
+			
+			"kitui_offset"
+			{
+				"position"					"21 -1 2"
+			}
+			
+			"team_access"					"security, insurgent"
+		}
+		
+		"weapon_g43"
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"rifle_controlled_fire"
+			"print_name"				"#weapon_g43"
+			"print_desc"				"#weapon_g43_desc"
+			"view_model"				"models/weapons/v_g43.mdl"
+			"world_model"				"models/weapons/w_g43.mdl"
+			"rounds_per_minute"			"500"
+			"weapon_slot"				"primary"
+			"act_table"					"rifle_ak2"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"48"
+			"weapon_cost"				"1"
+			"barrel_length"				"22"
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-20"
+				"fov_plr_focus"				"-10"
+				"fov_wpn_default"			"58"
+				"fov_wpn_ironsight"			"67"
+				"fov_wpn_focus"				"65"
+			}
+			
+			"viewmodel_offsets"
+			{
+				// x back, y left, z down
+				"VMOffset"				"0.80 0.00 0"
+			}
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_G43.Single"
+				"shot_single_local"			"Weapon_G43.SingleLocal"
+				"shot_silent"				"Weapon_G43.SingleSilenced"
+				"shot_silent_local"			"Weapon_G43.SingleSilencedLocal"
+				"empty"						"Weapon_G43.Empty"
+				"clipin"					"Weapon_G43.Clipin"
+				"clipout"					"Weapon_G43.Clipout"
+				"boltback"					"Weapon_G43.Boltback"
+				"boltforward"				"Weapon_G43.Boltforward"
+				"hit"						"Weapon_G43.Hit"
+
+				"thirdperson_prefix"		"Weapon_G43"	
+
+				// Bayonet Melee World Interaction
+				"melee_hit"					"Weapon_Bash.Melee"		
+			}
+			
+			"particles"
+			{
+				"particle_muzzleflash_1st"	"muzzleflash_sks_1p"
+				"particle_muzzleflash_3rd"	"muzzleflash_sks_3p"
+				"particle_tracer"			"weapon_tracers_green"
+			}
+			
+			"recoil"
+			{
+				"recoil_lateral_range"		"-0.7 0.9"
+				"recoil_vertical_range"		"2.2 2.5"
+				"recoil_aim_punch"			"0.4 0.6"
+				"recoil_rest_rate"			"7"
+				"recoil_rest_delay"			"0.12"
+				"recoil_roll_range"			"-1.4 -1.4"
+				"recoil_roll_rest_rate"		"200"
+				"recoil_freeaim_frac"		"0.8"
+				"recoil_ironsight_frac"		"1.0"
+				
+				//"recoil_lateral_range"			"-0.6 0.8"
+				//"recoil_vertical_range"			"2.0 2.2"
+				//"recoil_aim_punch"				"0.3 0.4"
+				//"recoil_rest_rate"				"5"
+				//"recoil_rest_delay"				"0.12"
+				//"recoil_roll_range"				"-1.2 -1.2"
+				//"recoil_roll_rest_rate"			"150"
+				//"recoil_freeaim_frac"			"0.8"
+				//"recoil_ironsight_frac"			"1.0"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"				"6"		// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.75"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+			}
+			
+			"melee"
+			{
+				"MeleeWeaponIdleTime"	"0.2"
+				"MeleeDamage"			"75"
+				"MeleeRange"			"75"
+			}
+			
+			"ballistics"
+			{
+				"spread"				"0.1 0.1 0.1"
+				"FireModes"				"semi"
+				"bulletcount"			"1"
+				"maxrange"				"12000"
+			}
+			
+			"sway"
+			{
+				"sway_radius_ironsight_frac"	"0.40"
+				"sway_amount_focus_frac"		"0.40"
+				"sway_speed_ironsight_frac"		"0.40"
+				"sway_speed_focus_frac"			"0.25"
+			}
+			
+			"ammo_clip"
+			{
+				"ammo_type"				"792x57_clip"
+				"clip_max"				"12"
+				"clip_max_rounds"		"10"
+				"clip_default"			"3"
+			}
+			
+			"attachments"
+			{
+				"attachment_addon"			"Primary"
+			}
+			
+			"kitui_offset"
+			{
+				"position"				"22 -4 1"
+			}
+			
+			"team_access"				"security, insurgent"
+		}
+		
 		"weapon_vickers"
 		{
 			"import"					"ballistic_base"
@@ -19,7 +274,7 @@
 			"weapon_slot"				"primary"
 			"act_table"					"lmg"
 			"weapon_abilities"			"ironsight, bipod"
-			"weapon_weight"				"168"
+			"weapon_weight"				"170"
 			"barrel_length"				"24"
 			
 			"fov"
@@ -1363,9 +1618,25 @@
 				"sway_speed_frac"		"1.9"
 			}
 			
+			"weapon_mods"
+			{
+				"weapon_g43"
+				{
+					"sway"
+					{
+						"sway_amount_focus_frac"		"0.25"
+						"sway_speed_focus_frac"			"0.20"
+						"sway_radius_crouch_frac"		"0.75"
+						"sway_radius_prone_frac"		"0.50"
+					}
+				}
+			}
+			
 			"allowed_weapons"
 			{
+				"weapon"				"weapon_g43"
 				"weapon"				"weapon_enfield"
+				"weapon"				"weapon_m1garand"
 			}
 			
 			"excluded_upgrades"
@@ -1388,6 +1659,32 @@
 						"weapon"			"weapon_enfield"
 					}
 				}
+				"4xscope_g43"
+				{
+					"model"					"models/weapons/upgrades/a_optic_zf4.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_g43"
+					}
+				}
+				"4xscope_garand"
+				{
+					"model"					"models/weapons/upgrades/a_optic_garand.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_m1garand"
+					}
+				}
 			}
 			
 			"world_attachments"
@@ -1399,6 +1696,24 @@
 					"weapons"
 					{
 						"weapon"				"weapon_enfield"
+					}
+				}
+				"Scope_G43"
+				{
+					"model"					"models/weapons/upgrades/w_scope_g43.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_g43"
+					}
+				}
+				"Scope_Garand"
+				{
+					"model"					"models/weapons/upgrades/w_scope_garand.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_m1garand"
 					}
 				}
 			}
@@ -1413,6 +1728,18 @@
 					"fov_wpn_scope"				"15"
 					"fov_wpn_ironsight"			"58"
 					"fov_wpn_focus"				"62"
+				}
+				"weapon_g43"
+				{
+					"fov_wpn_scope"				"15"
+					"fov_wpn_ironsight"			"46"
+					"fov_wpn_focus"				"51"
+				}
+				"weapon_m1garand"
+				{
+					"fov_wpn_scope"				"15"
+					"fov_wpn_ironsight"			"43"
+					"fov_wpn_focus"				"48"
 				}
 			}
 		}
@@ -1735,6 +2062,51 @@
 			}
 			
 			"team_access"				"security, insurgent"
+		}
+
+		"magazine_extended_c96"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"1"
+			"team_access"				"security, insurgent"
+
+			"print_name"				"#weapon_upgrade_magazine_extended_c96"
+			"print_desc"				"#weapon_upgrade_magazine_extended_c96_desc"
+
+			"magsize_override"			"40"
+			"class_restricted"			"1"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_c96carbine"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"magazine_c96carbine"
+				{
+					"ActSuffix"			"_MAG1"
+					"model"				"models/weapons/upgrades/a_magazine_c96_40.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_c96carbine"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"magazine_c96carbine"
+				{
+					"model"				"models/weapons/upgrades/w_c96carbine_mag_40.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_c96carbine"
+					}
+				}
+			}
 		}
 	}
 }

@@ -77,7 +77,7 @@
 				"weapon"			"weapon_aug3"
 				"weapon"			"weapon_g36c"
 				"weapon"			"weapon_l1a1"
-				"weapon"			"weapon_hk417"
+				//"weapon"			"weapon_hk417"
 				"weapon"			"weapon_sterling"
 				"weapon"			"weapon_sig553"
 				"weapon"			"weapon_mini14"
@@ -301,7 +301,7 @@
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_czse3"
 				"weapon"			"weapon_fal"
-				"weapon"			"weapon_hk416"
+				//"weapon"			"weapon_hk416"
 				//"weapon_upgrade"	"ammo_beta50"
 				//"weapon_upgrade"	"ammo_beta75"
 				"weapon_upgrade"	"magazine_drum_75rd"
@@ -382,6 +382,7 @@
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_m1a1"
 				"weapon"			"weapon_scar"
+				"weapon"			"weapon_g43"
 				//Secondaries
 				"weapon"			"weapon_m93r"
 				
@@ -732,6 +733,7 @@
 				"weapon"			"weapon_ump45"
 				"weapon"			"weapon_ak12u"
 				"weapon"			"weapon_suomi"
+				"weapon"			"weapon_c96carbine"
 				//Secondaries
 				"weapon"			"weapon_kingcobra"
 				"weapon"			"weapon_m45"
@@ -2202,9 +2204,7 @@
 				
 				//Primary
 				
-				"weapon"			"weapon_saiga12"
-				"weapon_upgrade"	"magazine_extended_saiga_12rd"
-				"weapon_upgrade"	"tacbuck"
+				"weapon"			"weapon_g43"
 				//Secondary
 				"weapon"			"weapon_model10"
 				//"weapon_upgrade"	"barrel_silencer_ins1"
