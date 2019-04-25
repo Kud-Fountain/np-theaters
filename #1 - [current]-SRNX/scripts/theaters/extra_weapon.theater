@@ -544,6 +544,11 @@
 			"weapon_cost"				"1"
 			"barrel_length"				"30"
 			"class_restricted"			"1"
+			"reload_speed"				"1.25"
+			"draw_speed"				"1.25"
+			"holster_speed"				"1.25"
+			"draw_speed_next_weapon"	"1.25"
+			"holster_speed_prev_weapon"	"1.25"
 			
 			"viewmodel_attachments"
 			{
