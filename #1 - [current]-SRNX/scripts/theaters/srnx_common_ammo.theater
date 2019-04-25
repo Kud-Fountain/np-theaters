@@ -2783,6 +2783,32 @@
 			}
 		}
 		
+		// Thompson M1a1 (30 by default)
+		"45acp_thompson_m1a1"
+		{
+			"import"				"45acp"
+			"magsize"				"30"
+			
+			"Damage"
+			{
+				"1000"					"48"
+				"2000"					"30"
+				"10000"					"18"
+			}
+
+			"PenetrationPower"
+			{
+				"100"					"800"
+				"600"					"200"
+			}
+
+			"PenetrationDamage"
+			{
+				"0"						"1.0"
+				"800"					"0.25"
+			}
+		}
+		
 		"303_brit"
 		{
 			"import"					"default"

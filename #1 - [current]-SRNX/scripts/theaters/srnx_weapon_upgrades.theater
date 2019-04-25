@@ -886,6 +886,7 @@
 				"weapon"				"weapon_ae_mg42"
 				"weapon"				"weapon_vickers"
 				"weapon"				"weapon_c96carbine"
+				"weapon"				"weapon_thompson_m1a1"
 				"weapon"				"weapon_g43"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_rpk74m"
@@ -899,7 +900,6 @@
 				"weapon"				"weapon_m3greasegun"
 				"weapon"				"weapon_lewis"
 				"weapon"				"weapon_hk416"
-				"weapon"				"weapon_c96carbine"
 			}
 			"viewmodel_attachments"
 			{
@@ -910,15 +910,6 @@
 					"weapons"
 					{
 						"weapon"		"weapon_c96carbine"
-					}
-				}
-				"sten_mp40"
-				{
-					"model"				"models\weapons\upgrades\a_sling_mp40.mdl"
-					
-					"weapons"
-					{
-						"weapon"		"weapon_mp40"
 					}
 				}
 				"g43_sling"
@@ -946,6 +937,15 @@
 					"weapons"
 					{
 						"weapon"		"weapon_m1garand"
+					}
+				}
+				"thompson_m1a1_sling"
+				{
+					"model"				"models\weapons\upgrades\a_sling_thompson_m1a1.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_thompson_m1a1"
 					}
 				}
 			}
@@ -1104,6 +1104,7 @@
 				"weapon"				"weapon_ae_mg42"
 				"weapon"				"weapon_vickers"
 				"weapon"				"weapon_c96carbine"
+				"weapon"				"weapon_thompson_m1a1"
 				"weapon"				"weapon_g43"
 				"weapon"				"weapon_hk416"
 				"weapon"				"weapon_rpk"
@@ -1554,6 +1555,7 @@
 				"weapon"					"weapon_ae_mg42"
 				"weapon"					"weapon_vickers"
 				"weapon"					"weapon_c96carbine"
+				"weapon"				"weapon_thompson_m1a1"
 				"weapon"					"weapon_g43"
 				"weapon"					"weapon_rpk"
 				"weapon"					"weapon_saiga12"

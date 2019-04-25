@@ -1667,7 +1667,8 @@
 			"allowed_items"
 			{
 				//Primaries
-				"weapon"			"weapon_m3greasegun"
+				//"weapon"			"weapon_m3greasegun"
+				"weapon"			"weapon_thompson_m1a1"
 				"weapon"			"weapon_m1garand"
 				"weapon"			"weapon_mk18_m0"
 				"weapon"			"weapon_aks74u"
@@ -2223,9 +2224,7 @@
 				
 				//Primary
 				
-				"weapon"			"weapon_saiga12"
-				"weapon_upgrade"	"magazine_extended_saiga_12rd"
-				"weapon_upgrade"	"tacbuck"
+				"weapon"			"weapon_g43"
 				//Secondary
 				"weapon"			"weapon_model10"
 				//"weapon_upgrade"	"barrel_silencer_ins1"
@@ -2728,8 +2727,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_sks"
-				"weapon_upgrade"	"ammo_ap_sks"
+				"weapon"			"weapon_thompson_m1a1"
 				//Secondary
 				"weapon"			"weapon_glock18"
 				"weapon_upgrade"	"magazine_extended_glock"
@@ -2747,8 +2745,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_sks"
-				"weapon_upgrade"	"ammo_ap_sks"
+				"weapon"			"weapon_thompson_m1a1"
 				//Secondary
 				"weapon"			"weapon_glock18"
 				"weapon_upgrade"	"magazine_extended_glock"

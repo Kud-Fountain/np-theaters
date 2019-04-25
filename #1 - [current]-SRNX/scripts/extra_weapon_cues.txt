@@ -1,4 +1,181 @@
 // --------------------------
+// M1928A1
+// --------------------------
+
+"Weapon_m1928a1.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+	"pitch"			"95,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+	"wave"	        ")weapons/m1928a1/m1928a1_tp.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_m1928a1.SingleDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                        
+
+		}
+	}
+}
+
+"Weapon_m1928a1.SingleDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"95,105"
+	"soundlevel"  	"SNDLVL_150dB"
+	"wave"			")weapons/m1928a1/m1928a1_dist.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+		}
+	} 
+}
+
+"Weapon_m1928a1.SingleLocal"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"	    "1.0"
+	"pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+    "wave"	        "weapons/m1928a1/m1928a1_fp.wav"	
+}
+
+
+// M1928A1 HANDLING
+
+"Weapon_m1928a1.MagRelease"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			    "weapons/m1928a1/handling/m1928a1_magrelease.wav" 
+}
+
+"Weapon_m1928a1.Magin"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/m1928a1/handling/m1928a1_magin.wav" 
+}
+
+"Weapon_m1928a1.Magout"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/m1928a1/handling/m1928a1_magout.wav" 
+}
+
+"Weapon_m1928a1.MagoutRattle"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/m1928a1/handling/m1928a1_magout_rattle.wav" 
+}
+
+"Weapon_m1928a1.Rattle"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/m1928a1/handling/m1928a1_rattle.wav" 
+}
+
+"Weapon_m1928a1.Boltrelease"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/m1928a1/handling/m1928a1_boltrelease.wav"  
+}
+
+"Weapon_m1928a1.Hit"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/m1928a1/handling/m1928a1_maghit.wav"
+}
+
+"Weapon_m1928a1.Empty"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/m1928a1/handling/m1928a1_empty.wav"  
+}
+
+"Weapon_m1928a1.ROF"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/m1928a1/handling/m1928a1_fireselect_1.wav"  
+}
+
+"Weapon_m1928a1.Magtap"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/m1928a1/handling/m1928a1_magtap.wav"  
+}
+
+// --------------------------
 // C96 Carbine MAUSER
 // --------------------------
 
