@@ -732,7 +732,7 @@
 				"weapon"			"weapon_mac10"
 				"weapon"			"weapon_ump45"
 				"weapon"			"weapon_ak12u"
-				"weapon"			"weapon_suomi"
+				//"weapon"			"weapon_suomi"
 				"weapon"			"weapon_c96carbine"
 				//Secondaries
 				"weapon"			"weapon_kingcobra"
