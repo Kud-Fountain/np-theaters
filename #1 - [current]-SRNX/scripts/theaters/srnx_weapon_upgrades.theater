@@ -215,12 +215,15 @@
 			"print_name"				"#magazine_extended_ppsh41"
 			"print_desc"				"更换为71发的弹鼓"
 			
-			"weapon_weight"				"45"
+			"weapon_weight"				"40"
 			
 			"magsize_override"			"71"
 			
-			"reload_speed"				"0.75"
-			"draw_speed"				"0.75"
+			"draw_speed_next_weapon"	"0.85"
+			"reload_speed"				"0.85"
+			"draw_speed"				"0.85"
+			"holster_speed"				"0.85"
+			"holster_speed_prev_weapon"	"0.85"
 
 			"recoil"
 			{
