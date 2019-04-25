@@ -67,7 +67,7 @@
 			"particles"
 			{
 				"particle_muzzleflash_1st"		"muzzleflash_mp40_1p"
-				"particle_muzzleflash_3rd"		"muzzleflash_mp40_3p"
+				"particle_muzzleflash_3rd"		"muzzleflash_mp40_3rd"
 				"particle_tracer"				"weapon_tracers"
 			}
 			
@@ -191,7 +191,7 @@
 			"particles"
 			{
 				"particle_muzzleflash_1st"		"muzzleflash_mp40_1p"
-				"particle_muzzleflash_3rd"		"muzzleflash_mp40_3p"
+				"particle_muzzleflash_3rd"		"muzzleflash_mp40_3rd"
 				"particle_tracer"				"weapon_tracers"
 			}
 			
@@ -302,7 +302,7 @@
 			"particles"
 			{
 				"particle_muzzleflash_1st"	"muzzleflash_sks_1p"
-				"particle_muzzleflash_3rd"	"muzzleflash_sks_3p"
+				"particle_muzzleflash_3rd"	"muzzleflash_sks_3rd"
 				"particle_tracer"			"weapon_tracers_green"
 			}
 			
