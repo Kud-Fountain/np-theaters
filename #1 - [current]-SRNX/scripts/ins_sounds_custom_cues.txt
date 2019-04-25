@@ -1126,6 +1126,7 @@
 
 	"rndwave"
 	{
+		"wave"  "*cues/INS_GameMusic_AboutToAttack_A.ogg"
 	}
 }
 

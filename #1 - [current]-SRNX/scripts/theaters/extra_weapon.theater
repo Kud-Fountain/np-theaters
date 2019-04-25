@@ -508,7 +508,7 @@
 			"particles"
 			{
 				"particle_muzzleflash_1st"		"muzzleflash_m249_1p"
-				"particle_muzzleflash_3rd"		"muzzleflash_m249_3p"
+				"particle_muzzleflash_3rd"		"muzzleflash_m249_3rd"
 				"particle_tracer"				"weapon_tracers"
 			}
 			
