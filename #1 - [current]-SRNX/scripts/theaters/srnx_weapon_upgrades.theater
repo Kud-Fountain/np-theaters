@@ -721,7 +721,7 @@
 		{
 			"print_name"				"#fast_gunner_sp"
 			"print_desc"				"#fast_gunner_sp_desc"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"2"
 			"upgrade_slot"				"magazine"
 			"magsize_override"			"50"
 			"draw_speed"				"1.30"
@@ -813,7 +813,7 @@
 		{
 			"print_name"				"#fast_gunner_sp_shotgun"
 			"print_desc"				"#fast_gunner_sp_shotgun_desc"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"2"
 			"upgrade_slot"				"magazine"
 			"draw_speed"				"1.30"
 			"holster_speed"				"1.30"
@@ -839,9 +839,9 @@
 		{
 			"print_name"				"#fast_gunner_sp_pis"
 			"print_desc"				"#fast_gunner_sp_pis_desc"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"2"
 			"upgrade_slot"				"magazine"
-			"magsize_override"			"12"
+			"magsize_override"			"18"
 			"draw_speed"				"1.45"
 			"holster_speed"				"1.45"
 			"draw_speed_next_weapon"	"1.45"
@@ -867,7 +867,7 @@
 		{
 			"print_name"				"#fast_gunner_sp_pis_1"
 			"print_desc"				"#fast_gunner_sp_pis_1_desc"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"2"
 			"upgrade_slot"				"magazine"
 			"draw_speed"				"1.45"
 			"holster_speed"				"1.45"
@@ -1218,7 +1218,7 @@
 			"print_desc"				"#weapon_quick_reload_skill_marks_desc"
 			"upgrade_cost"				"2"
 			"upgrade_slot"				"stock"
-			"reload_speed"				"1.30"
+			"reload_speed"				"1.35"
 			"class_restricted"			"1"
 			
 			"allowed_weapons"
@@ -1264,10 +1264,10 @@
 		{
 			"print_name"				"#fast_bolt_action_marks"
 			"print_desc"				"#fast_bolt_action_marks_desc"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"2"
 			"upgrade_slot"				"stock"
-			"bolt_speed"				"1.40"
-			"reload_speed"				"1.40"
+			"bolt_speed"				"1.30"
+			"reload_speed"				"1.30"
 			"class_restricted"			"1"
 			
 			"allowed_weapons"
