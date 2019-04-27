@@ -1,0 +1,88 @@
+"#base" "wn_default.theater"
+
+"theater"
+{
+	"core"
+	{
+		
+		"precache"
+		{
+			// default theater specific sounds
+			"sounds"			"scripts/ins_sounds_weapons.txt"
+			"sounds"			"scripts/ins_sounds_cues.txt"
+			"sounds"			"scripts/ins_sounds_voice.txt"
+			"sounds"			"scripts/ins_sounds_radial_security.txt"				
+			"sounds"			"scripts/ins_sounds_radial_insurgent.txt"				
+			"sounds"			"scripts/ins_sounds_responses_security.txt"
+			"sounds"			"scripts/ins_sounds_responses_insurgent.txt"
+			"sounds"			"scripts/ins_sounds_hq.txt"
+			"localize"			"resource/language_schinese.txt"
+		}
+	}
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				// assault squad
+				"#Fireteam_Alpha"	// small arms
+				{
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+				}
+				
+				// recon team
+				"#Fireteam_Bravo"
+				{
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+				}
+			}
+		}
+		
+		"insurgents"
+		{
+			"squads"
+			{
+				// assault group
+				"#Cell_Alpha"
+				{
+					"#Squad_JSW"	"template_jsw_insurgent"
+					"#Squad_JSW"	"template_jsw_insurgent"
+					"#Squad_JSW"	"template_jsw_insurgent"
+					"#Squad_JSW"	"template_jsw_insurgent"
+					"#Squad_JSW"	"template_jsw_insurgent"
+					"#Squad_JSW"	"template_jsw_insurgent"
+					"#Squad_JSW"	"template_jsw_insurgent"
+					"#Squad_JSW"	"template_jsw_insurgent"
+				}
+				
+				// scout cell
+				"#Cell_Bravo"
+				{
+					"#Squad_JSW"	"template_jsw_insurgent"
+					"#Squad_JSW"	"template_jsw_insurgent"
+					"#Squad_JSW"	"template_jsw_insurgent"
+					"#Squad_JSW"	"template_jsw_insurgent"
+					"#Squad_JSW"	"template_jsw_insurgent"
+					"#Squad_JSW"	"template_jsw_insurgent"
+					"#Squad_JSW"	"template_jsw_insurgent"
+					"#Squad_JSW"	"template_jsw_insurgent"
+				}
+			}
+		}
+	}
+}

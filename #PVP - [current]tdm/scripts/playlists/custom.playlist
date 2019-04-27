@@ -1,0 +1,133 @@
+// A modified version of pvp_sustained playlist
+// Use for some custom maps
+
+"playlist"
+{
+	"name"					""
+	"description"			""
+	"category"				"pvp" // Required: Menu category, should be "pvp", "coop", "solo" or "hidden"
+	
+	"require_maxplayers_max"		"34"	// Max player slots required for this playlist
+	
+	"allowed_maps"
+	{
+	}
+	
+	// recommended settings but can be changed
+	"cvars"
+	{
+		"mp_friendlyfire"				"0"	// friendly fire
+		"mp_tkpunish"					"1"	// How to punish team killing ( 0 = none, 1 = warning, 2 = kill )
+		"mp_minteamplayers"				"1"	// min players on each team to start the match
+		"sv_hud_deathmessages"			"1"	// death messages
+		"sv_hud_targetindicator"		"1"	// show friendly player names when looking at them
+		"mp_timer_pregame"				"60"	// timer for the pre-game (before the game starts, usually after map change or on mp_restartgame 1)
+		"mp_timer_preround"				"60"	// timer for the pre-round (before the round starts, usually after a previous round ends or on mp_restartround 1)
+		"mp_timer_postround"			"60"	// timer for the post-round (after the round starts)
+		"mp_timer_postgame"				"5"	// timer for the post-game (at the end of a game / map rotation)
+		"mp_voice_use_3d_voip"			"1"	// disabling this will turn off the 3d voip system and allow all players to hear one another
+		"mp_supply_gain"				"0"
+
+		// anti-cheat
+		"sv_battleye"					"1"
+	}
+	
+	"forced_cvars"
+	{
+		"ins_bot_quota"					"0"	// if set higher than 0, the server will add this many bots to each team
+		"mp_teams_auto_join"			"0"	// when enabled, players are automatically assigned to a team on join
+		"mp_teams_unbalance_limit"		"1"	// the amount of player difference between each team the server considers to be imbalanced
+		"mp_autoteambalance"			"1"	// should the server auto balance the teams if they are imbalanced?
+		"sv_deadtalk"					"1"	// enabling this will allow the dead and living to chat text each other
+		"sv_deadtalk_team"				"1"	// is deadchat limited to just your team?
+		"sv_deadvoice"					"1"	// enabling this will allow the dead and living to VOIP each other
+		"sv_vote_issue_changegamemode_allowed"	"0"	// no changegamemode
+		"host_timescale"				"1.0"
+		"stats_enabled"					"1"
+		"sv_allow_jumpshot"				"0"
+		
+		"occupy"
+		{
+			"mp_occupy_bonus_wave"				"0"
+			"mp_wave_count_perteam"				"0"
+			"mp_wave_capture_increment"			"1"
+			"mp_wave_dpr_perteam"				"0.2"
+			"mp_respawnwavetime_min"			"20"
+			"mp_respawnwavetime_max"			"30"
+			"mp_cp_capture_time"				"15"
+			"mp_supply_rate_winning_team_high"	"2"
+			"mp_supply_rate_losing_team_high"	"2"
+			"mp_supply_rate_winning_team_low"	"1"
+			"mp_supply_rate_losing_team_low"	"1"
+		}
+		
+		"skirmish"
+		{
+			"mp_wave_count_perteam"				"3"
+			"mp_wave_capture_increment"			"1"
+			"mp_wave_dpr_perteam"				"0.2"
+			"mp_respawnwavetime_min"			"20"
+			"mp_respawnwavetime_max"			"30"
+			"mp_cp_capture_time"				"30"
+			"mp_supply_rate_winning_team_high"	"2"
+			"mp_supply_rate_losing_team_high"	"2"
+			"mp_supply_rate_winning_team_low"	"1"
+			"mp_supply_rate_losing_team_low"	"1"
+		}
+		
+		"push"
+		{
+			"mp_wave_count_attackers"			"0"	//5
+			"mp_wave_count_defenders"			"0"	//15
+			"mp_wave_capture_increment"			"0"	//5
+			"mp_wave_dpr_attackers"				"0.2"
+			"mp_wave_dpr_defenders"				"0.2"
+			"mp_respawnwavetime_min"			"20"
+			"mp_respawnwavetime_max"			"35"
+			"mp_cp_capture_time"				"30"
+			"mp_supply_rate_winning_team_high"	"0"
+			"mp_supply_rate_losing_team_high"	"0"
+			"mp_supply_rate_winning_team_low"	"0"
+			"mp_supply_rate_losing_team_low"	"0"
+		}
+	}
+	
+	"solo_cvars"
+	{
+		"sv_battleye"							"0"
+		"ins_bot_quota"							"12"
+		"mp_teams_unbalance_limit"				"0"
+		"mp_teams_auto_join" 					"0"
+		"stats_enabled"							"0"
+	}
+	
+	"filters"
+	{
+		// Minimum player count filter, removing this key will remove this filter.
+		"players"
+		{
+			// Default min/max values are 0 to require_maxplayers_max
+		}
+		
+		"tags"
+		{
+			"deathmsgs"
+			{
+				"default"				"2"
+			}
+		}
+	}
+        
+    // Placeholder solo menu info
+    "solo_info"
+    {
+            "line_1"                ""
+            "line_2"                "Team: Security"
+            "line_3"                ""
+            "line_4"                ""
+            "line_5"                ""
+            "line_6"                "Team: Insurgents"
+            "line_7"                ""
+            "line_8"                ""
+    }
+}
