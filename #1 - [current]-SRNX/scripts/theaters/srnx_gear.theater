@@ -253,7 +253,7 @@
 			"print_name"	"#gear_nij_3a_armor"
 			"print_desc"	"#gear_nij_3a_armor_desc"
 			"gear_slot"		"armor"
-			"gear_cost"		"3"
+			"gear_cost"		"2"
 			"gear_weight"	"60" // 75 (7.5kg) + 250 encumbrance
 
 			"DamageHitgroups"
@@ -277,7 +277,7 @@
 			"print_name"	"#gear_SAPI_armor"
 			"print_desc"	"#gear_SAPI_armor_desc"
 			"gear_slot"				"armor"
-			"gear_cost"		"5"
+			"gear_cost"		"4"
 			"gear_weight"	"86" // 75 (7.5kg) + 250 encumbrance	
 			
 			"DamageHitgroups"
@@ -305,7 +305,7 @@
 			"print_name"	"#gear_ESAPI_armor"
 			"print_desc"	"#gear_ESAPI_armor_desc"
 			"gear_slot"				"armor"
-			"gear_cost"		"7"
+			"gear_cost"		"6"
 			"gear_weight"	"100" // 75 (7.5kg) + 250 encumbrance	
 			
 			"DamageHitgroups"
@@ -323,7 +323,7 @@
 			{
 				"armor"					"2"
 			}
-			"explosive_damage_frac"		"0.40"
+			"explosive_damage_frac"		"0.35"
 			"penetration_power_loss"	"80"
 			
 			"team_access"				"security, insurgent"
@@ -1080,16 +1080,16 @@
 			"print_name"	"#gear_chest_rig1"
 			"print_desc"	"#gear_chest_rig1_desc"
 			"gear_slot"				"vest"
-			"gear_cost"		"1"
+			"gear_cost"		"0"
 			"class_restricted" "1"
 			"gear_weight"	"43" // 2 (0.65 kg) * 54.5
 			"extra_ammo"
 			{
-				"primary"	"6" // 10
+				"primary"	"4" // 10
 				"secondary"
 				{
-					"0" "5" //4
-					"1"	"2" //pistol average in sling
+					"0" "3" //4
+					//"1"	"2" //pistol average in sling
 				}
 			}
 			"weapon_slots"
@@ -1113,16 +1113,16 @@
 			"gear_weight"	"68" // 4 (0.65 kg) * 54.5
 			"extra_ammo"
 			{
-				"primary"	"8" //12 lbs
+				"primary"	"6" //12 lbs
 				"secondary"
 				{
-					"0" "7" //5 lbs
-					"1"	"3" //average in sling
+					"0" "5" //5 lbs
+					//"1"	"3" //average in sling
 				}
 			}
 			"weapon_slots"
 			{
-				"explosive"	"0"
+				"explosive"	"1"
 			}
             "player_model_bodygroups"
 			{
@@ -1136,22 +1136,22 @@
 			"print_name"	"#gear_chest_rig3"
 			"print_desc"	"#gear_chest_rig3_desc"
 			"gear_slot"		"vest"
-			"gear_cost"		"3"
+			"gear_cost"		"4"
 			"class_restricted" "1"
 			"gear_weight"	"90" // 4 (0.65 kg) * 54.5
-			//"class_restricted" "1"
+
 			"extra_ammo"
 			{
 				"primary"	"10" //14 lbs
 				"secondary"
 				{
 					"0" "8" //6 lbs
-					"1"	"4" //averaged in sling
+					//"1"	"8" //averaged in sling
 				}
 			}
 			"weapon_slots"
 			{
-				"explosive"	"0"
+				"explosive"	"1"
 			}
             "player_model_bodygroups"
 			{
@@ -1196,16 +1196,16 @@
 			"print_name"	"#gear_chest_rig1_sp"
 			"print_desc"	"#gear_chest_rig1_sp_desc"
 			"gear_slot"				"vest"
-			"gear_cost"		"1"
+			"gear_cost"		"0"
 			"class_restricted" "1"
 			"gear_weight"	"43" // 2 (0.65 kg) * 54.5
 			"extra_ammo"
 			{
-				"primary"	"4" // 10
+				"primary"	"5" // 10
 				"secondary"
 				{
 					"0" "3" //4
-					"1"	"2" //pistol average in sling
+					//"1"	"2" //pistol average in sling
 				}
 			}
 			"weapon_slots"
@@ -1224,16 +1224,16 @@
 			"print_name"	"#gear_chest_rig2_sp"
 			"print_desc"	"#gear_chest_rig2_sp_desc"
 			"gear_slot"		"vest"
-			"gear_cost"		"3"
+			"gear_cost"		"2"
 			"class_restricted" "1"
 			"gear_weight"	"68" // 4 (0.65 kg) * 54.5
 			"extra_ammo"
 			{
-				"primary"	"6" //12 lbs
+				"primary"	"7" //12 lbs
 				"secondary"
 				{
 					"0" "5" //5 lbs
-					"1"	"3" //average in sling
+					//"1"	"3" //average in sling
 				}
 			}
 			"weapon_slots"
@@ -1258,16 +1258,16 @@
 			//"class_restricted" "1"
 			"extra_ammo"
 			{
-				"primary"	"8" //14 lbs
+				"primary"	"15" //14 lbs
 				"secondary"
 				{
-					"0" "6" //6 lbs
-					"1"	"4" //averaged in sling
+					"0" "8" //6 lbs
+					//"1"	"4" //averaged in sling
 				}
 			}
 			"weapon_slots"
 			{
-				"explosive"	"0"
+				"explosive"	"1"
 			}
             "player_model_bodygroups"
 			{

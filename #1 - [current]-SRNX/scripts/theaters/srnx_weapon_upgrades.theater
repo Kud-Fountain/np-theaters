@@ -211,6 +211,7 @@
 			"upgrade_slot"				"magazine"
 			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
 			
 			"print_name"				"#magazine_extended_ppsh41"
 			"print_desc"				"更换为71发的弹鼓"
