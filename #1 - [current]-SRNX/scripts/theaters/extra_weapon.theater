@@ -108,7 +108,7 @@
 				"ammo_type"				"45acp_thompson_m1a1"
 				"clip_max"				"12"
 				"clip_max_rounds"		"30"
-				"clip_default"			"3"
+				"clip_default"			"1"
 			}
 			
 			"attachments"
@@ -233,7 +233,7 @@
 				"magsize_override"			"20"
 				"clip_max"					"12"
 				"clip_max_rounds"			"20"
-				"clip_default"				"3"
+				"clip_default"				"1"
 			}
 			
 			"attachments"
@@ -487,9 +487,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"303_brit_belt"
-				"clip_max"				"2"
+				"clip_max"				"4"
 				"clip_max_rounds"		"250"
-				"clip_default"			"1"
+				"clip_default"			"0"
 			}
 			
 			"sounds"
@@ -981,7 +981,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"303_brit_pan_47rnd"
-				"clip_max"				"10"
+				"clip_max"				"6"
 				"clip_max_rounds"		"20"
 				"clip_default"			"1"
 			}
@@ -1099,7 +1099,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"762x54mm"
-				"clip_max"					"80"
+				"clip_max"					"96"
 				"clip_max_rounds"			"5"
 				"clip_default"				"0"
 			}
@@ -1299,7 +1299,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"792x57_belt"
-				"clip_max"				"10"
+				"clip_max"				"4"
 				"clip_max_rounds"		"250"
 				"clip_default"			"0"
 				"magsize_override"		"250"

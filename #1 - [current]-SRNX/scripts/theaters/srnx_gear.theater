@@ -253,7 +253,7 @@
 			"print_name"	"#gear_nij_3a_armor"
 			"print_desc"	"#gear_nij_3a_armor_desc"
 			"gear_slot"		"armor"
-			"gear_cost"		"2"
+			"gear_cost"		"1"
 			"gear_weight"	"60" // 75 (7.5kg) + 250 encumbrance
 
 			"DamageHitgroups"
@@ -277,7 +277,7 @@
 			"print_name"	"#gear_SAPI_armor"
 			"print_desc"	"#gear_SAPI_armor_desc"
 			"gear_slot"				"armor"
-			"gear_cost"		"4"
+			"gear_cost"		"3"
 			"gear_weight"	"86" // 75 (7.5kg) + 250 encumbrance	
 			
 			"DamageHitgroups"
@@ -305,7 +305,7 @@
 			"print_name"	"#gear_ESAPI_armor"
 			"print_desc"	"#gear_ESAPI_armor_desc"
 			"gear_slot"				"armor"
-			"gear_cost"		"6"
+			"gear_cost"		"5"
 			"gear_weight"	"100" // 75 (7.5kg) + 250 encumbrance	
 			
 			"DamageHitgroups"
@@ -699,15 +699,15 @@
 			"print_name"	"#gear_chest_rig_mg1"
 			"print_desc"	"#gear_chest_rig_mg1_desc"
 			"gear_slot"				"vest"
-			"gear_cost"		"1"
+			"gear_cost"		"0"
 			"class_restricted" "1"
 			"gear_weight"	"175" // 2 (0.65 kg) * 54.5
 			"extra_ammo"
 			{
-				"primary"	"8" // 10
+				"primary"	"2" // 10
 				"secondary"
 				{
-					"0" "6" //4
+					"0" "5" //4
 					"1"	"4" //pistol average in sling
 				}
 			}
@@ -732,10 +732,10 @@
 			"gear_weight"	"194" // 4 (0.65 kg) * 54.5
 			"extra_ammo"
 			{
-				"primary"	"7" //12 lbs
+				"primary"	"8" //12 lbs
 				"secondary"
 				{
-					"0" "3" //5 lbs
+					"0" "5" //5 lbs
 					"1"	"3" //average in sling
 				}
 			}
@@ -1275,6 +1275,34 @@
 				"backpack"				"2"
 			}
 			"team_access"	"security"		
+		}
+		"srnx_chest_rig1_mv" //3 base - .4 = 2.6
+		{
+			"print_name"	"#gear_chest_rig1_mv"
+			"print_desc"	"#gear_chest_rig1_mv_desc"
+			"gear_slot"				"vest"
+			"gear_cost"		"0"
+			"class_restricted" "1"
+			"gear_weight"	"43" // 2 (0.65 kg) * 54.5
+			"extra_ammo"
+			{
+				"primary"	"3" // 10
+				"secondary"
+				{
+					"0" "3" //4
+					//"1"	"2" //pistol average in sling
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"	"1"
+			}
+            "player_model_bodygroups"
+			{
+				"kit"					"2"
+				"backpack"				"1"
+			}
+			"team_access"				"security"
 		}
 		
 		// "srnx_sling_ammo_belt"

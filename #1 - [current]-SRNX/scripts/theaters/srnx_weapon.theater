@@ -1953,7 +1953,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"9x19mm"
-				"clip_max"					"8"
+				"clip_max"					"10"
 				"clip_max_rounds"			"30"
 				"clip_default"				"1"
 			}
@@ -2039,7 +2039,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"38special"
-				"clip_max"				"8"
+				"clip_max"				"10"
 				"clip_max_rounds"		"6"
 				"clip_default"			"1"
 				"lose_rounds_reload"	"1"
@@ -2183,7 +2183,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"45acp_pistol"
-				"clip_max"					"8"
+				"clip_max"					"10"
 				"clip_max_rounds"			"9"
 				"clip_default"				"1"
 			}
@@ -2290,7 +2290,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"9x18mm"
-				"clip_max"					"8"
+				"clip_max"					"10"
 				"clip_max_rounds"			"8"
 				"clip_default"				"1"
 			}
@@ -2380,7 +2380,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"45acp_pistol"
-				"clip_max"					"8"
+				"clip_max"					"10"
 				"clip_max_rounds"			"9"
 				"clip_default"				"1"
 			}
@@ -2486,7 +2486,7 @@
 				"ammo_type"				"9x19mm"
 				"clip_max"				"8"
 				"clip_max_rounds"			"17"
-				"clip_default"				"1"
+				"clip_default"				"0"
 			}
 			"attachments"
 			{
@@ -2593,7 +2593,7 @@
 			{
 				"ammo_type"				"45acp_pistol"
 				"magsize_override"			"12"
-				"clip_max"				"8"
+				"clip_max"				"10"
 				"clip_max_rounds"			"12"
 				"clip_default"				"1"
 			}
@@ -2679,7 +2679,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"357sw"
-				"clip_max"				"8"
+				"clip_max"				"10"
 				"clip_max_rounds"		"6"
 				"clip_default"			"1"
 				"lose_rounds_reload"	"1"
@@ -2767,7 +2767,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"357sw"
-				"clip_max"				"8"
+				"clip_max"				"10"
 				"clip_max_rounds"		"6"
 				"clip_default"			"1"
 				"lose_rounds_reload"	"1"
@@ -2863,7 +2863,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"50ae"
-				"clip_max"				"8"
+				"clip_max"				"10"
 				"clip_max_rounds"			"7"
 				"clip_default"				"1"
 			}
@@ -2981,7 +2981,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"556_stanag"
-				"clip_max"					"7"
+				"clip_max"					"12"
 				"clip_max_rounds"			"30"
 				"clip_default"				"0"
 			}
@@ -3094,7 +3094,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"556_stanag_m4"
-				"clip_max"					"7"
+				"clip_max"					"12"
 				"clip_max_rounds"			"30"
 				"clip_default"				"0"
 			}
@@ -3206,7 +3206,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"556_stanag_m4"
-				"clip_max"					"7"
+				"clip_max"					"12"
 				"clip_max_rounds"			"30"
 				"clip_default"				"0"
 			}
@@ -3651,7 +3651,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"762x38_box"
-				"clip_max"					"7"
+				"clip_max"					"12"
 				"clip_max_rounds"			"30"
 				"clip_default"				"0"
 			}
@@ -3951,7 +3951,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"762x38_box"//762x39mm_mag
-				"clip_max"					"7"
+				"clip_max"					"12"
 				"clip_max_rounds"			"30"
 				"clip_default"				"0"
 			}
@@ -4063,7 +4063,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"762x51_mag"
-				"clip_max"					"7"
+				"clip_max"					"12"
 				"clip_max_rounds"			"20"
 				"clip_default"				"0"
 			}
@@ -4167,7 +4167,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"762x51_box_20rnd"
-				"clip_max"					"7"
+				"clip_max"					"12"
 				"clip_max_rounds"			"30"
 				"clip_default"				"0"
 			}
@@ -4274,7 +4274,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"762x51_box_20rnd"
-				"clip_max"					"7"
+				"clip_max"					"12"
 				"clip_max_rounds"			"20"
 				"clip_default"				"0"
 			}
@@ -4584,7 +4584,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"762x51_mag"
-				"clip_max"				"7"
+				"clip_max"				"12"
 				"clip_max_rounds"			"20"
 				"clip_default"				"0"
 			}
@@ -4672,7 +4672,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"762x51_mag"
-				"clip_max"				"7"
+				"clip_max"				"12"
 				"clip_max_rounds"			"20"
 				"clip_default"				"0"
 			}
@@ -5489,7 +5489,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"762x51_mag"
-				"clip_max"					"7"
+				"clip_max"					"12"
 				"clip_max_rounds"			"20"
 				"clip_default"				"0"
 			}
@@ -5588,7 +5588,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"50_bmg_mag"
-				"clip_max"					"9"
+				"clip_max"					"12"
 				"clip_max_rounds"			"11"
 				"clip_default"				"0"
 			}
@@ -5700,7 +5700,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"30_carbine"
-				"clip_max"					"7"
+				"clip_max"					"12"
 				"clip_max_rounds"			"15"
 				"clip_default"				"0"
 			}
@@ -5812,7 +5812,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"762x38mm_clip"
-				"clip_max"					"7"
+				"clip_max"					"12"
 				"clip_max_rounds"			"30"
 				"clip_default"				"0"
 			}
@@ -5895,7 +5895,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"762x54mm_clip" //	7.62×54mmR
-				"clip_max"					"7"
+				"clip_max"					"12"
 				"clip_max_rounds"			"10"
 				"clip_default"				"0"
 			}
@@ -7153,7 +7153,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"buckshot"
-				"clip_max"					"56"
+				"clip_max"					"96"
 				"clip_max_rounds"			"8"
 				"clip_default"				"0"
 			}
@@ -7247,7 +7247,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"buckshot"
-				"clip_max"					"75"
+				"clip_max"					"96"
 				"clip_max_rounds"			"5"
 				"clip_default"				"0"
 			}
@@ -7342,7 +7342,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"buckshot"
-				"clip_max"					"72"
+				"clip_max"					"96"
 				"clip_max_rounds"			"6"
 				"clip_default"				"0"
 			}
@@ -7442,7 +7442,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"			"buckshot"
-				"clip_max"			"72"
+				"clip_max"			"96"
 				"clip_max_rounds"	"8"
 				"clip_default"		"0"
 			}
@@ -7538,7 +7538,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"buckshot"
-				"clip_max"				"72"
+				"clip_max"				"96"
 				"clip_max_rounds"		"8"
 				"clip_default"			"0"
 			}
@@ -7627,7 +7627,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"buckshot"
-				"clip_max"				"98"
+				"clip_max"				"140"
 				"clip_max_rounds"		"14"
 				"clip_default"			"0"
 			}
@@ -8304,7 +8304,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"762x38_drum"
-				"clip_max"					"4"
+				"clip_max"					"6"
 				"clip_max_rounds"			"75"
 				"clip_default"				"0"
 			}
@@ -8546,7 +8546,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"762x54mm"
-				"clip_max"					"62"
+				"clip_max"					"96"
 				"clip_max_rounds"			"5"
 				"clip_default"				"30"
 			}
@@ -8627,7 +8627,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"762x54mm"
-				"clip_max"					"62"
+				"clip_max"					"96"
 				"clip_max_rounds"			"5"
 				"clip_default"				"25"
 			}
@@ -8723,7 +8723,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"762x54mm"
-				"clip_max"				"62"
+				"clip_max"				"96"
 				"clip_max_rounds"			"5"
 				"clip_default"				"30"
 			}
