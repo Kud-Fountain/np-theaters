@@ -769,6 +769,44 @@
 				"weapon"			"weapon_mac10"
 				"weapon"			"weapon_mp5a4"
 			}
+			
+			"viewmodel_attachments"
+			{
+				"magzine_fal_fix"
+				{
+					"ActSuffix"			"_MAG1"
+					"model"				"models/weapons/upgrades/a_magazine_fal_20.mdl"
+
+					"weapons"
+					{
+						"weapon"		"weapon_fal"
+					}
+				}
+				
+				"magazine_ppsh_fix"
+				{
+					"ActSuffix"			"_MAG1"
+					"model"				"models/weapons/upgrades/v_ppshmag.mdl"
+
+					"weapons"
+					{
+						"weapon"		"weapon_nam_ppsh41"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"magazine_ppsh_fix_w"
+				{
+					"model"						"models/weapons/upgrades/w_ppshmag.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_nam_ppsh41"
+					}
+				}
+			}
 		}
 		"fast_gunner_sp_shotgun"
 		{
