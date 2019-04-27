@@ -393,6 +393,12 @@
 			"weapon_abilities"			"ironsight, bipod"
 			"weapon_weight"				"170"
 			"barrel_length"				"24"
+
+			"draw_speed"				"0.85"
+			"reload_speed"				"0.90"
+			"holster_speed"				"0.85"
+			"draw_speed_next_weapon"	"0.85"
+			"holster_speed_prev_weapon"	"0.85"
 			
 			"fov"
 			{
@@ -1213,8 +1219,11 @@
 			"barrel_length"				"26"
 			"class_restricted"			"1"	
 			
-			"draw_speed"				"0.6"
-			"reload_speed"				"0.7"
+			"draw_speed"				"0.80"
+			"reload_speed"				"0.85"
+			"holster_speed"				"0.80"
+			"draw_speed_next_weapon"	"0.80"
+			"holster_speed_prev_weapon"	"0.80"
 			
 			"fov"
 			{
