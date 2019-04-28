@@ -674,8 +674,8 @@
 			"brass_model"				"models/weapons/shells/545x39.mdl"
 			"Damage"
 			{
-				"10"					"85"
-				"8000"					"50"
+				"10"					"50"
+				"8000"					"10"
 			}
 			"PenetrationPower"
 			{
@@ -700,8 +700,8 @@
 			"brass_model"				"models/weapons/shells/545x39.mdl"
 			"Damage"
 			{
-				"10"					"85"
-				"8000"					"50"
+				"10"					"50"
+				"8000"					"10"
 			}
 			"DamageHitgroups"
 			{
@@ -726,8 +726,8 @@
 			"brass_model"				"models/weapons/shells/545x39.mdl"
 			"Damage"
 			{
-				"10"					"85"
-				"8000"					"50"
+				"10"					"50"
+				"8000"					"10"
 			}
 			"DamageHitgroups"
 			{
@@ -750,7 +750,7 @@
 			"import"				"545x39"
 			"tracer_frequency"			"4"
 			"tracer_type"				"whiz_with_line"
-			"tracer_lowammo"			"5"
+			"tracer_lowammo"			"10"
 		}
 		
 		"556x45"	// (currently assuming 855 not 855a) rough approx: 62gr 940m/s 1,767J
@@ -760,9 +760,9 @@
 			"brass_model"				"models/weapons/shells/556x45.mdl"
 			"Damage"
 			{
-				"10"					"110"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
-				"2700"					"80"
-				"12000"					"46"
+				"10"					"45"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
+				"2700"					"30"
+				"12000"					"15"
 			}
 			"PenetrationPower"	// Maybe offer or imply Mk318 rounds which are like combined HP and AP at high cost?
 			{
@@ -787,9 +787,9 @@
 			"brass_model"				"models/weapons/shells/556x45.mdl"
 			"Damage"
 			{
-				"10"					"110"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
-				"2700"					"80"
-				"12000"					"46"
+				"10"					"55"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
+				"2700"					"30"
+				"12000"					"15"
 			}
 			"DamageHitgroups"
 			{
@@ -814,9 +814,9 @@
 			"brass_model"				"models/weapons/shells/556x45.mdl"
 			"Damage"
 			{
-				"10"					"110"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
-				"2700"					"80"
-				"12000"					"46"
+				"10"					"50"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
+				"2700"					"30"
+				"12000"					"15"
 			}
 			"DamageHitgroups"
 			{
@@ -839,7 +839,7 @@
 			"import"				"556x45"
 			"tracer_frequency"			"3"
 			"tracer_type"				"whiz_with_line"
-			"tracer_lowammo"			"5"
+			"tracer_lowammo"			"10"
 		}
 		"556x45_car"	// 20                                                      " vs 14" barrel: 866m/s vs 922m/s
 		{
@@ -1102,14 +1102,25 @@
 			
 			"Damage"
 			{
-				"10"					"35"
-				"8000"					"10"
+				"10"					"40"
+				"8000"					"20"
 			}
 
 			"PenetrationPower"
 			{
 				"10"					"1500"
 				"1200"					"500"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "2.1"
+				"HITGROUP_CHEST"      "2.00"
+				"HITGROUP_STOMACH"    "2.00"
+				"HITGROUP_LEFTARM"    "0.42"
+				"HITGROUP_RIGHTARM"   "0.42"
+				"HITGROUP_LEFTLEG"    "0.42"
+				"HITGROUP_RIGHTLEG"   "0.42"
 			}
 
 			"PenetrationDamage"
@@ -1162,8 +1173,8 @@
 			"brass_model" "models/weapons/shells/762x39.mdl"
 			"Damage"
 			{
-				"10"					"110"
-				"12000"					"85"
+				"10"					"50"
+				"12000"					"10"
 			}
 			"PenetrationPower"
 			{
@@ -1188,8 +1199,8 @@
 			"brass_model" "models/weapons/shells/762x39.mdl"
 			"Damage"
 			{
-				"10"					"110"
-				"12000"					"85"
+				"10"					"50"
+				"12000"					"10"
 			}
 			"DamageHitgroups"
 			{
@@ -1214,8 +1225,8 @@
 			"brass_model" "models/weapons/shells/762x39.mdl"
 			"Damage"
 			{
-				"10"					"110"
-				"12000"					"85"
+				"10"					"50"
+				"12000"					"10"
 			}
 			"DamageHitgroups"
 			{
@@ -1238,7 +1249,7 @@
 			"import"				"762x39"
 			"tracer_frequency"			"4"
 			"tracer_type"				"whiz_with_line"
-			"tracer_lowammo"			"5"
+			"tracer_lowammo"			"10"
 		}
 		
 		"762x39_lc"
@@ -1471,6 +1482,93 @@
 			"tracer_frequency"			"3"
 			"tracer_type"				"whiz_with_line"
 			"tracer_lowammo"			"5"
+		}
+		
+		"762x51_mk48"	// 147gr 833 m/s 3,304J
+		{
+			"import"				"default"
+			"SuppressionIncrement"			"130"
+			"brass_model"				"models/weapons/shells/762x51.mdl"
+			"Damage"
+			{
+				"10"					"50"
+				"20000"					"10"
+			}
+			"PenetrationPower"
+			{
+				"10"					"1100"
+				"20000"					"600"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "2.47"
+				"HITGROUP_CHEST"      "2.37"
+				"HITGROUP_STOMACH"    "2.37"
+				"HITGROUP_LEFTARM"    "0.58"
+				"HITGROUP_RIGHTARM"   "0.58"
+				"HITGROUP_LEFTLEG"    "0.58"
+				"HITGROUP_RIGHTLEG"   "0.58"
+			}
+		}
+		"762x51_hp_mk48"
+		{
+			"import"				"default"
+			"SuppressionIncrement"			"130"
+			"brass_model"				"models/weapons/shells/762x51.mdl"
+			"Damage"
+			{
+				"10"					"50"
+				"20000"					"10"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "2.07"
+				"HITGROUP_CHEST"      "1.97"
+				"HITGROUP_STOMACH"    "1.97"
+				"HITGROUP_LEFTARM"    "0.78"
+				"HITGROUP_RIGHTARM"   "0.78"
+				"HITGROUP_LEFTLEG"    "0.78"
+				"HITGROUP_RIGHTLEG"   "0.78"
+			}
+			"PenetrationPower"
+			{
+				"10"					"400"
+				"12000"					"200"
+			}
+		}
+		"762x51_ap_mk48"
+		{
+			"import"				"default"
+			"SuppressionIncrement"			"130"
+			"brass_model"				"models/weapons/shells/762x51.mdl"
+			"Damage"
+			{
+				"10"					"50"
+				"20000"					"10"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "2.77"
+				"HITGROUP_CHEST"      "2.67"
+				"HITGROUP_STOMACH"    "2.66"
+				"HITGROUP_LEFTARM"    "0.38"
+				"HITGROUP_RIGHTARM"   "0.38"
+				"HITGROUP_LEFTLEG"    "0.38"
+				"HITGROUP_RIGHTLEG"   "0.38"
+			}
+			"PenetrationPower"
+			{
+				"10"					"1500"
+				"20000"					"800"
+			}
+		}
+		"762x51_tracer"
+		{
+			"import"				"762x51_mk48"
+			"tracer_frequency"			"4"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"10"
 		}
 		
 		"762x51"	// 147gr 833 m/s 3,304J
@@ -2234,19 +2332,19 @@
 		}
 		"762x51_mk48_100rnd"
 		{
-			"import"    "762x51"
+			"import"    "762x51_mk48"
 			"magsize"	"150"
 			"carry"		"8"
 		}
 		"762x51_mk48_100rnd_hp"
 		{
-			"import"    "762x51_hp"
+			"import"    "762x51_hp_mk48"
 			"magsize"	"150"
 			"carry"		"8"
 		}
 		"762x51_mk48_100rnd_ap"
 		{
-			"import"    "762x51_ap"
+			"import"    "762x51_ap_mk48"
 			"magsize"	"150"
 			"carry"		"8"
 		}
@@ -2842,6 +2940,17 @@
 				"10"					"1000"
 				"15000"					"400"
 			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.95"
+				"HITGROUP_CHEST"      "1.85"
+				"HITGROUP_STOMACH"    "1.85"
+				"HITGROUP_LEFTARM"    "0.52"
+				"HITGROUP_RIGHTARM"   "0.52"
+				"HITGROUP_LEFTLEG"    "0.52"
+				"HITGROUP_RIGHTLEG"   "0.52"
+			}
 
 			"PenetrationDamage"
 			{
@@ -2862,14 +2971,25 @@
 			
 			"Damage"
 			{
-				"1000"					"50"
-				"8000"					"25"
+				"1000"					"55"
+				"8000"					"20"
 			}
 
 			"PenetrationPower"
 			{
 				"10"					"1500"
 				"15000"					"500"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "2.1"
+				"HITGROUP_CHEST"      "2.00"
+				"HITGROUP_STOMACH"    "2.00"
+				"HITGROUP_LEFTARM"    "0.42"
+				"HITGROUP_RIGHTARM"   "0.42"
+				"HITGROUP_LEFTLEG"    "0.42"
+				"HITGROUP_RIGHTLEG"   "0.42"
 			}
 
 			"PenetrationDamage"
@@ -2903,6 +3023,17 @@
 			{
 				"0"						"1.0"
 				"1000"					"0.25"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "2.07"
+				"HITGROUP_CHEST"      "1.97"
+				"HITGROUP_STOMACH"    "1.97"
+				"HITGROUP_LEFTARM"    "0.48"
+				"HITGROUP_RIGHTARM"   "0.48"
+				"HITGROUP_LEFTLEG"    "0.48"
+				"HITGROUP_RIGHTLEG"   "0.48"
 			}
 		}
 		
