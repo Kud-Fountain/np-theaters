@@ -699,16 +699,16 @@
 			"print_name"	"#gear_chest_rig_mg1"
 			"print_desc"	"#gear_chest_rig_mg1_desc"
 			"gear_slot"				"vest"
-			"gear_cost"		"0"
+			"gear_cost"		"1"
 			"class_restricted" "1"
 			"gear_weight"	"175" // 2 (0.65 kg) * 54.5
 			"extra_ammo"
 			{
-				"primary"	"2" // 10
+				"primary"	"3" // 10
 				"secondary"
 				{
 					"0" "5" //4
-					"1"	"4" //pistol average in sling
+					//"1"	"4" //pistol average in sling
 				}
 			}
 			"weapon_slots"
@@ -727,16 +727,16 @@
 			"print_name"	"#gear_chest_rig_mg2"
 			"print_desc"	"#gear_chest_rig_mg2_desc"
 			"gear_slot"		"vest"
-			"gear_cost"		"2"
+			"gear_cost"		"3"
 			"class_restricted" "1"
 			"gear_weight"	"194" // 4 (0.65 kg) * 54.5
 			"extra_ammo"
 			{
-				"primary"	"8" //12 lbs
+				"primary"	"15" //12 lbs
 				"secondary"
 				{
 					"0" "5" //5 lbs
-					"1"	"3" //average in sling
+					//"1"	"3" //average in sling
 				}
 			}
 			"weapon_slots"

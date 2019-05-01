@@ -487,7 +487,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"303_brit_belt"
-				"clip_max"				"4"
+				"clip_max"				"5"
 				"clip_max_rounds"		"250"
 				"clip_default"			"0"
 			}
@@ -1299,7 +1299,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"792x57_belt"
-				"clip_max"				"4"
+				"clip_max"				"5"
 				"clip_max_rounds"		"250"
 				"clip_default"			"0"
 				"magsize_override"		"250"

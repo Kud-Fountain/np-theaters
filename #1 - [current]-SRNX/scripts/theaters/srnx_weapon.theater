@@ -7776,7 +7776,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"556_m27"
-				"clip_max"					"4"
+				"clip_max"					"5"
 				"clip_max_rounds"			"200"
 				"clip_default"				"0" // attempt to counter mag balance
 			}
@@ -7920,7 +7920,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"556_m27_mk46"
-				"clip_max"					"4"
+				"clip_max"					"6"
 				"clip_max_rounds"			"150"
 				"clip_default"				"0" // attempt to counter mag balance
 			}
@@ -8064,7 +8064,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"762x51_mk48_100rnd" //change
-				"clip_max"					"4"
+				"clip_max"					"6"
 				"clip_max_rounds"			"150"
 				"clip_default"				"0" // attempt to counter mag balance
 			}
@@ -8207,7 +8207,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"762x51_mk48_100rnd" //change
-				"clip_max"					"4"
+				"clip_max"					"6"
 				"clip_max_rounds"			"150"
 				"clip_default"				"0" // attempt to counter mag balance
 			}
@@ -8304,7 +8304,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"762x38_drum"
-				"clip_max"					"6"
+				"clip_max"					"9"
 				"clip_max_rounds"			"75"
 				"clip_default"				"0"
 			}
@@ -8424,7 +8424,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"545x39_drum"
-				"clip_max"				"6"
+				"clip_max"				"9"
 				"clip_max_rounds"			"75"
 				"clip_default"				"0"
 			}
