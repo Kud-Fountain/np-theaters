@@ -1943,7 +1943,7 @@
 			"import"				"base_optic_rail"
 			"print_name"					"#aimpointmag2x"
 			"print_desc"					"#aimpointmag2x_desc"
-			//"upgrade_cost"					"0"
+			"upgrade_cost"					"0"
 			"weight"						"5"
 			"allowed_weapons"
 			{
@@ -2424,7 +2424,7 @@
 		"optic_aimpoint"
 		{
 			"import"				"base_optic_rail"
-			//"upgrade_cost"					"0"
+			"upgrade_cost"					"0"
 			"print_name"					"#aimpointcomp"
 			"print_desc"					"#aimpointcomp_desc"
 			"weight"						"4"
@@ -2887,7 +2887,7 @@
 		{
 			"import"					"base_optic_rail"
 
-			//"upgrade_cost"				"0"
+			"upgrade_cost"				"0"
 			"print_name"				"#weapon_upgrade_pistoldot"
 			"print_desc"				"#weapon_upgrade_pistoldot_desc"
 			"team_access"				"security"
@@ -3348,7 +3348,7 @@
 			"import"				"base_optic_rail"
 			"print_name"					"#eotech553"
 			"print_desc"					"#eotech553_desc"
-			//"upgrade_cost"					"0"
+			"upgrade_cost"					"0"
 			"weight"						"4"
 			"allowed_weapons"
 			{
@@ -3876,7 +3876,7 @@
 		"optic_kobra"
 		{
 			"import"				"base_optic_rail"
-			//"upgrade_cost"				"0"
+			"upgrade_cost"				"0"
 			"print_name"				"#weapon_upgrade_kobra"
 			"print_desc"				"#weapon_upgrade_kobra_desc"
 			"weight"						"4"
