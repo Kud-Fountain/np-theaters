@@ -732,7 +732,7 @@
 			"gear_weight"	"194" // 4 (0.65 kg) * 54.5
 			"extra_ammo"
 			{
-				"primary"	"15" //12 lbs
+				"primary"	"6" //12 lbs
 				"secondary"
 				{
 					"0" "5" //5 lbs
@@ -1258,7 +1258,7 @@
 			//"class_restricted" "1"
 			"extra_ammo"
 			{
-				"primary"	"15" //14 lbs
+				"primary"	"10" //14 lbs
 				"secondary"
 				{
 					"0" "8" //6 lbs
