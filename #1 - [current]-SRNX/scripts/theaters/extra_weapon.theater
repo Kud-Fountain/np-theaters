@@ -391,7 +391,7 @@
 			"weapon_slot"				"primary"
 			"act_table"					"lmg"
 			"weapon_abilities"			"ironsight, bipod"
-			"weapon_weight"				"170"
+			"weapon_weight"				"140"
 			"barrel_length"				"24"
 
 			"draw_speed"				"0.85"
@@ -1215,7 +1215,7 @@
 			"weapon_slot"				"primary"
 			"act_table"					"lmg"
 			"weapon_abilities"			"ironsight, bipod"
-			"weapon_weight"				"190"
+			"weapon_weight"				"160"
 			"barrel_length"				"26"
 			"class_restricted"			"1"	
 			

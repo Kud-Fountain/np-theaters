@@ -7658,7 +7658,7 @@
 			"weapon_slot"					"primary"
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
-			"weapon_weight"					"123" // 17 lbs + 2 200 round mags at 5 lbs
+			"weapon_weight"					"135" // 17 lbs + 2 200 round mags at 5 lbs
 			"weapon_cost"					"4"
 			"closed_bolt"					"0"
 			"barrel_length"					"28"
@@ -7946,7 +7946,7 @@
 			"weapon_slot"					"primary"
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
-			"weapon_weight"					"143" // 18.5 + 100 round mag x2 (6.44 lbs each)
+			"weapon_weight"					"113" // 18.5 + 100 round mag x2 (6.44 lbs each)
 			"weapon_cost"					"2"
 			"closed_bolt"					"0"
 			"barrel_length"					"30"	
@@ -8090,7 +8090,7 @@
 			"weapon_slot"					"primary"
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
-			"weapon_weight"					"150" // 18.5 + 100 round mag x2 (6.44 lbs each)
+			"weapon_weight"					"135" // 18.5 + 100 round mag x2 (6.44 lbs each)
 			"weapon_cost"					"2"
 			"closed_bolt"					"0"
 			"barrel_length"					"30"	
