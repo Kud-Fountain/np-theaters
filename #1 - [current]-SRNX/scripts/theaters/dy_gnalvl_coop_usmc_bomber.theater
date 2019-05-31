@@ -1,6 +1,6 @@
 
 "#base" "srnx_base.theater"
-//"#base"	"srnx_insurgents_afghan_opfor.theater"
+//"#base"	"srnx_insurgents_bombers.theater"
 "theater"
 {
 	"core"
@@ -30,26 +30,6 @@
 		"security"
 		{
 			"name"		"#Team_Security"
-			"logo"					"gameui/fac_sec"
-			
-			"cost_modifiers"
-			{
-				"weapon"
-				{
-					//"weapon_base"				"-5"
-				}
-				"weapon_upgrade"
-				{
-					// "base_standard"		"-5"
-					// "base_scope"		"-5"
-					// "base_spring"		"-5"
-					// "base_scope"		"-5"
-					// "base_scope"		"-5"
-					// "base_scope"		"-5"
-					// "base_scope"		"-5"
-					// "base_scope"		"-5"
-				}
-			}
 
 			"squads"
 			{
@@ -69,7 +49,7 @@
 					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
 					//"#Squad_Gnalvl_TeamLeader"			"gnalvl_teamleader_usmc"
 					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
-					//"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_1"
+					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_1"
 					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_1"
 					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
@@ -93,71 +73,60 @@
 		"insurgents"
 		{
 			"name"		"#team_insurgents"
-			"logo"					"gameui/fac_ins"
-
-			"cost_modifiers"
-			{
-				"weapon"
-				{
-					"weapon_base"				"-5"
-				}
-				// "weapon_upgrade"
-				// {
-				// 	"base_standard"		"-5"
-				// 	"base_scope"		"-5"
-				// 	"base_spring"		"-5"
-				// 	"base_scope"		"-5"
-				// 	"base_scope"		"-5"
-				// 	"base_scope"		"-5"
-				// 	"base_scope"		"-5"
-				// 	"base_scope"		"-5"
-				// }
-			}
-
 			"squads"
 			{
-				"Team1"	// assault team #1 - 8 Bots
+				"Team1"	// assault team #1
 				{
-					"Bot"		"standard_ins_1"
-					"Bot"		"mg_fighter_ins_1"		
-					"Bot"		"mg_fighter_ins_2" 	
-					"Bot"		"striker_ins_1" 					
-					"Bot"		"sapper_ins_1"
-					"Bot"		"striker_ins_vip_1" 				
-					"Bot"		"scout_ins_1" 	
+					//role name
+					"Bot"		"bomber_ins_1"
+					"Bot"		"bomber_ins_2"		
+					"Bot"		"bomber_ins_3" 		
+					"Bot"		"bomber_ins_4" 
+					"Bot"		"bomber_ins_1"
+					"Bot"		"bomber_ins_2"		
+					"Bot"		"bomber_ins_3" 		
+					"Bot"		"bomber_ins_4" 
 				}
 
-				"Team2"	// Support team #2 - 8 Bots
+				"Team2"	// Support team #2
 				{
-					"Bot"		"bomber_ins_1" 
-					"Bot"		"standard_ins_2" 
-					"Bot"		"mg_fighter_ins_3"		
-					"Bot"		"mg_fighter_ins_4"		
-					"Bot"		"striker_ins_2" 
-					"Bot"		"striker_ins_2"	//CP
-					"Bot"		"juggernaut_1" 		
-					"Bot"		"juggernaut_2" 			
-					"Bot"		"scout_ins_2" 	
-					"Bot"		"scout_ins_ex" 						
+					//role name
+					"Bot"		"bomber_ins_1"
+					"Bot"		"bomber_ins_2"		
+					"Bot"		"bomber_ins_3" 		
+					"Bot"		"bomber_ins_4" 
+					"Bot"		"bomber_ins_1"
+					"Bot"		"bomber_ins_2"		
+					"Bot"		"bomber_ins_3" 		
+					"Bot"		"bomber_ins_4" 			
 				}
 
-				"Team3"	// Recon team #3 - 8 Bots
+				"Team3"	// Recon team #3
 				{
-					//role name		
-					"Bot"		"striker_ins_3" 
-					"Bot"		"sapper_ins_2"				
-					"Bot"		"sapper_ins_3"
-					"Bot"		"standard_ins_3"
-					"Bot"		"standard_ins_4"			
-					"Bot"		"mg_fighter_ins_5"
-					"Bot"		"scout_ins_3"
+					//role name							
+					"Bot"		"bomber_ins_1"
+					"Bot"		"bomber_ins_2"		
+					"Bot"		"bomber_ins_3" 		
+					"Bot"		"bomber_ins_4" 
+					"Bot"		"bomber_ins_1"
+					"Bot"		"bomber_ins_2"		
+					"Bot"		"bomber_ins_3" 		
+					"Bot"		"bomber_ins_4" 	
+				}
+
+				"Team4"	// Support team #4
+				{
+					//role name							
+					"Bot"		"bomber_ins_1"
+					"Bot"		"bomber_ins_2"		
+					"Bot"		"bomber_ins_3" 		
+					"Bot"		"bomber_ins_4" 
+					"Bot"		"bomber_ins_1"
+					"Bot"		"bomber_ins_2"		
+					"Bot"		"bomber_ins_3" 		
+					"Bot"		"bomber_ins_4" 
 				}	
-				"Team4"	// Recon team #4
-				{	 			
-					"Bot"		"sapper_ins_4"
-					"Bot"		"striker_ins_4"		
-					"Bot"		"striker_ins_5"  			
-				}
+				
 			}
 		}
 	}
