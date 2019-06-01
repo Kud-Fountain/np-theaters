@@ -54,39 +54,33 @@
 			"squads"
 			{
 				
-				"Assault Team [Alpha]"
+				"侦察梯队 [阿尔法]"
 				{
 					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
 					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
-					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_1"			
-					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_1"
-					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
-					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
-					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
-				}
-				"Support Team [Bravo]"
-				{
-					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
-					//"#Squad_Gnalvl_TeamLeader"			"gnalvl_teamleader_usmc"
 					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
+					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_1"	
 					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_1"
-					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_1"
-					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
-					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
-					//"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
-					
+					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
+					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
 				}
-				"Seal Team [Charlie]"
+				"支援梯队 [布拉沃]"
 				{
-					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
-					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
 					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
-					//"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_1"
+					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_1"
+					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_1"
+					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
+					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
+					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
+					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
+				}
+				"医疗梯队 [查理]"
+				{
+					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
 					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
-					//"#Squad_Gnalvl_ReconMedic"			"gnalvl_recon_medic_usmc"
-					//"#Squad_Gnalvl_Recon_Engineer"		"Gnalvl_recon_engineer_usmc"
-					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
-					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
+					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
+					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
+					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
 				}
 			}
 		}
