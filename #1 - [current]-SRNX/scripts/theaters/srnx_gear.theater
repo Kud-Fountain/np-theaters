@@ -1286,7 +1286,7 @@
 			"gear_weight"	"43" // 2 (0.65 kg) * 54.5
 			"extra_ammo"
 			{
-				"primary"	"3" // 10
+				"primary"	"4" // 10
 				"secondary"
 				{
 					"0" "3" //4
