@@ -766,8 +766,8 @@
 			"weapon_slot"				"primary"
 			"act_table"					"smg_magheld"
 			"weapon_abilities"			"ironsight"
-			"weapon_weight"				"90"
-			"weapon_cost"				"1"
+			"weapon_weight"				"48"
+			"weapon_cost"				"0"
 			"barrel_length"				"16"
 			
 			"fov"
