@@ -1598,7 +1598,7 @@
 		"barrel_heavybarrel"
 		{
 			"import"				"base_heavybarrel"
-			//"upgrade_cost"					"2"
+			"upgrade_cost"					"1"
 			"weight"						"18"
 			"draw_speed"					"0.95"
 			"allowed_weapons"
