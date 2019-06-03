@@ -58,14 +58,14 @@
 		}
 		"rocket_at4"
 		{
-			"carry"					"0"
+			"carry"					"1"
 		}
 		// ========================================
 		// GRENADES
 		// ========================================
 		"grenade_m79"
 		{
-			"carry"					"1"
+			"carry"					"2"
 		}
 		"grenade_m79_smoke"
 		{
@@ -73,7 +73,7 @@
 		}
 		"grenade_m79_incen"
 		{
-			"carry"					"1"
+			"carry"					"2"
 		}
 		"grenade_m67"
 		{
