@@ -128,9 +128,9 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"					"no_carry"
+				"ammo_type"					"rocket_rpg7"
 				"clip_max_rounds"			"1" // 1 rpg per mag
-				"clip_default"				"1"
+				"clip_default"				"2"
 			}
 			"player_restrictions"
 			{
@@ -893,7 +893,7 @@
 			"act_table"				"shot"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"30"	// (3.3kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"weapon_cost"				"1"
+			"weapon_cost"				"0"
 			"fire_instantly"			"1"
 			"class_restricted"			"1"
 			"barrel_length"				"24"
@@ -1313,7 +1313,7 @@
 			"weapon_slot"					"explosive"
 			"act_table"						"grenade"
 			"weapon_weight"					"20"
-			"weapon_cost"					"1"
+			"weapon_cost"					"0"
 			"class_restricted"				"0"
 
 			"fov"
@@ -8835,8 +8835,8 @@
 			"import"					"baseGrenade"
 			"entity_class"				"grenade_frag"
 			"Model"						"models/weapons/w_m67.mdl"
-			"DetonateDamage"			"160"
-			"DetonatePenetrationRadius" "40"
+			"DetonateDamage"			"170"
+			"DetonatePenetrationRadius" "60"
 			"DetonateDamageRadius"		"650"  //14% reduction from 750
 			"FuseTime"					"4"
 			"RocketStartSpeed"			"2000"
@@ -8864,7 +8864,7 @@
 			"Model"						"models/weapons/w_no69.mdl"
 			"DetonateDamage"			"140" 
 			"DetonatePenetrationRadius" "40"
-			"DetonateDamageRadius"		"750"  //14% reduction from 750
+			"DetonateDamageRadius"		"800"  //14% reduction from 750
 			"FuseTime"					"5"
 			"RocketStartSpeed"			"2000"
 			"ImpactDetonation"			"1"
