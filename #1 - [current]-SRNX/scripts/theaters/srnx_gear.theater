@@ -235,14 +235,14 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"0.70"
-				"HITGROUP_CHEST"			"0.70"
-				"HITGROUP_STOMACH"			"0.70"
-				"HITGROUP_LEFTARM"			"0.70"
-				"HITGROUP_RIGHTARM"			"0.70"
-				"HITGROUP_LEFTLEG"			"0.70"
-				"HITGROUP_RIGHTLEG"			"0.70"
-				"HITGROUP_GENERIC"			"0.70"
+				"HITGROUP_HEAD"				"0.60"
+				"HITGROUP_CHEST"			"0.60"
+				"HITGROUP_STOMACH"			"0.60"
+				"HITGROUP_LEFTARM"			"0.60"
+				"HITGROUP_RIGHTARM"			"0.60"
+				"HITGROUP_LEFTLEG"			"0.60"
+				"HITGROUP_RIGHTLEG"			"0.60"
+				"HITGROUP_GENERIC"			"0.60"
 			}
 			"explosive_damage_frac"		"0.90"
 			"penetration_power_loss"	"35"
@@ -258,17 +258,17 @@
 
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"0.55"
-				"HITGROUP_CHEST"			"0.55"
-				"HITGROUP_STOMACH"			"0.55"
-				"HITGROUP_LEFTARM"			"0.55"
-				"HITGROUP_RIGHTARM"			"0.55"
-				"HITGROUP_LEFTLEG"			"0.55"
-				"HITGROUP_RIGHTLEG"			"0.55"
-				"HITGROUP_GENERIC"			"0.55"
+				"HITGROUP_HEAD"				"0.5"
+				"HITGROUP_CHEST"			"0.5"
+				"HITGROUP_STOMACH"			"0.5"
+				"HITGROUP_LEFTARM"			"0.5"
+				"HITGROUP_RIGHTARM"			"0.5"
+				"HITGROUP_LEFTLEG"			"0.5"
+				"HITGROUP_RIGHTLEG"			"0.5"
+				"HITGROUP_GENERIC"			"0.5"
 			}
-			"explosive_damage_frac"		"0.75"
-			"penetration_power_loss"	"40"
+			"explosive_damage_frac"		"0.7"
+			"penetration_power_loss"	"50"
 			
 			"team_access"				"security, insurgent"
 		}
@@ -282,21 +282,21 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"0.45"	// death
-				"HITGROUP_CHEST"			"0.45"
-				"HITGROUP_STOMACH"			"0.45"
-				"HITGROUP_LEFTARM"			"0.45"
-				"HITGROUP_RIGHTARM"			"0.45"
-				"HITGROUP_LEFTLEG"			"0.45"
-				"HITGROUP_RIGHTLEG"			"0.45"
-				"HITGROUP_GENERIC"			"0.45"
+				"HITGROUP_HEAD"				"0.4"	// death
+				"HITGROUP_CHEST"			"0.4"
+				"HITGROUP_STOMACH"			"0.4"
+				"HITGROUP_LEFTARM"			"0.4"
+				"HITGROUP_RIGHTARM"			"0.4"
+				"HITGROUP_LEFTLEG"			"0.4"
+				"HITGROUP_RIGHTLEG"			"0.4"
+				"HITGROUP_GENERIC"			"0.4"
 			}
 			"player_model_bodygroups"
 			{
 				"armor"					"1"
 			}
-			"explosive_damage_frac"		"0.55"
-			"penetration_power_loss"	"75"
+			"explosive_damage_frac"		"0.5"
+			"penetration_power_loss"	"65"
 			
 			"team_access"				"security, insurgent"
 		}
@@ -310,14 +310,14 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"0.35"	// death
-				"HITGROUP_CHEST"			"0.35"
-				"HITGROUP_STOMACH"			"0.35"
-				"HITGROUP_LEFTARM"			"0.35"
-				"HITGROUP_RIGHTARM"			"0.35"
-				"HITGROUP_LEFTLEG"			"0.35"
-				"HITGROUP_RIGHTLEG"			"0.35"
-				"HITGROUP_GENERIC"			"0.35"
+				"HITGROUP_HEAD"				"0.3"	// death
+				"HITGROUP_CHEST"			"0.3"
+				"HITGROUP_STOMACH"			"0.3"
+				"HITGROUP_LEFTARM"			"0.3"
+				"HITGROUP_RIGHTARM"			"0.3"
+				"HITGROUP_LEFTLEG"			"0.3"
+				"HITGROUP_RIGHTLEG"			"0.3"
+				"HITGROUP_GENERIC"			"0.3"
 			}
 			"player_model_bodygroups"
 			{
