@@ -9185,8 +9185,8 @@
 			"entity_class"				"rocket"
 			"Model"						"models/weapons/w_at4_projectile.mdl"
 			"DetonateDamage"			"300"	//previously 250
-			"DetonateDamageRadius"		"1210" //10% increase over vanilla //1100
-			"DetonatePenetrationRadius" "300"  //66% increase //previously 200
+			"DetonateDamageRadius"		"850" //10% increase over vanilla //1100
+			"DetonatePenetrationRadius" "250"  //66% increase //previously 200
 			"RocketTopSpeed"			"3500" // you cannot go faster than 3500
 			"RocketStartSpeed"			"600" // default 200
 			"RocketAcceleration"		"400"
@@ -9209,7 +9209,7 @@
 		{
 			"entity_class"				"rocket"
 			"Model"						"models/weapons/w_rpg7_projectile.mdl"
-			"DetonateDamage"			"270" //230
+			"DetonateDamage"			"230" //230
 			"DetonateDamageRadius"		"890" //25% reduction //750
 			"DetonatePenetrationRadius" "150"  //25% reduction //150
 			"RocketTopSpeed"			"3500" // you cannot go faster than 3500 //3500
@@ -9235,9 +9235,9 @@
 		{
 			"entity_class"				"rocket"
 			"Model"						"models/weapons/w_law_projectile.mdl"
-			"DetonateDamage" "210"
-			"DetonateDamageRadius" "800"	//650
-			"DetonatePenetrationRadius" "100"
+			"DetonateDamage" "200"
+			"DetonateDamageRadius" "700"	//650
+			"DetonatePenetrationRadius" "400"
 			"RocketTopSpeed" "3000" // you cannot go faster than 3500
 			"RocketStartSpeed" "150" // default 200
 			"RocketAcceleration" "400"
