@@ -89,7 +89,7 @@
 			"weapon_type"					"projectile"
 			"print_name"					"#weapon_at4_dy"
 			"print_desc"					"#weapon_at4_dy_desc"
-			"single_use"					"1"
+			"single_use"					"0"
 			"view_model"					"models/weapons/v_at4.mdl"
 			"world_model"					"models/weapons/w_at4.mdl"
 			"weapon_slot"					"explosive"
