@@ -312,7 +312,7 @@
 		"magazine_extended_rifle_30rd"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
 			"class_restricted"			"0"
 			"weight"					"26"
