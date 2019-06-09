@@ -5839,7 +5839,7 @@
 			"act_table"						"rifle_ak2"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"50" // (3.9kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"weapon_cost"					"4"
+			"weapon_cost"					"3"
 			"barrel_length"					"38"
 			
 			"fov"

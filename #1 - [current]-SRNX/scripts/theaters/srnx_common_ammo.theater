@@ -151,6 +151,143 @@
 		// ========================================
 		// Bullets
 		// ========================================
+		"9x19mm_sten"
+		{
+			"import"				"9x19mm_smg"
+			"magsize"				"32"
+			"brass_model"				"models/weapons/shells/9x19.mdl"
+			
+			"Damage"
+			{
+				"10"					"100"
+				"8000"					"30"
+			}
+			
+			"PenetrationPower"
+			{
+				"10"					"800"
+				"8000"					"200"
+			}
+
+			"PenetrationDamage"
+			{
+				"10"						"1.0"
+				"8000"						"0.25"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.25"
+				"HITGROUP_CHEST"      "1.15"
+				"HITGROUP_STOMACH"    "1.15"
+				"HITGROUP_LEFTARM"    "0.55"
+				"HITGROUP_RIGHTARM"   "0.55"
+				"HITGROUP_LEFTLEG"    "0.55"
+				"HITGROUP_RIGHTLEG"   "0.55"
+			}
+		}
+		"30-06"
+		{
+			"import"					"default"
+			"brass_model"				"models/weapons/shells/762x54.mdl"
+			"carry"						"120"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+			"SuppressionIncrement"		"60"
+
+			"Damage"
+			{
+				"10"					"160"
+				"20000"					"100"
+			}
+
+			"PenetrationPower"
+			{
+				"10"					"1200"
+				"1500"					"800"
+			}
+
+			"PenetrationDamage"
+			{
+				"0"						"1.0"
+				"1500"					"0.35"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "6.00"
+				"HITGROUP_CHEST"      "5.9"
+				"HITGROUP_STOMACH"    "5.9"
+				"HITGROUP_LEFTARM"    "1.4"
+				"HITGROUP_RIGHTARM"   "1.4"
+				"HITGROUP_LEFTLEG"    "1.4"
+				"HITGROUP_RIGHTLEG"   "1.4"
+			}
+		}
+		
+		"792x57mm"
+		{
+			"import"					"default"
+			"brass_model"				"models/weapons/shells/762x54.mdl"
+			"carry"						"120"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+			"SuppressionIncrement"		"60"
+
+			"Damage"
+			{
+				"10"					"160"
+				"20000"					"100"
+			}
+
+			"PenetrationPower"
+			{
+				"10"					"1200"
+				"1500"					"800"
+			}
+
+			"PenetrationDamage"
+			{
+				"0"						"1.0"
+				"1500"					"0.35"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "6.00"
+				"HITGROUP_CHEST"      "5.9"
+				"HITGROUP_STOMACH"    "5.9"
+				"HITGROUP_LEFTARM"    "1.4"
+				"HITGROUP_RIGHTARM"   "1.4"
+				"HITGROUP_LEFTLEG"    "1.4"
+				"HITGROUP_RIGHTLEG"   "1.4"
+			}
+		}
+
+		"762x54mm"
+		{
+			"import"				"default"
+			"SuppressionIncrement"			"130"
+			"brass_model"				"models/weapons/shells/762x51.mdl"
+			"carry"					"120"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+			"Damage"
+			{
+				"10"					"205"
+				"20000"					"120"
+			}
+			"PenetrationPower"
+			{
+				"10"					"1400"
+				"20000"					"900"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "6.00"
+				"HITGROUP_CHEST"      "5.9"
+				"HITGROUP_STOMACH"    "5.9"
+				"HITGROUP_LEFTARM"    "1.4"
+				"HITGROUP_RIGHTARM"   "1.4"
+				"HITGROUP_LEFTLEG"    "1.4"
+				"HITGROUP_RIGHTLEG"   "1.4"
+			}
+		}
+		
 		"9x19"	// FMJ 115gr 381m/s  570J
 		{
 			"import"				"default"
@@ -1155,6 +1292,16 @@
 				"0"						"1.0"
 				"1000"					"0.25"
 			}
+		}
+		
+		"792x57_drum"
+		{
+			"import"					"792x57"
+			"carry"						"8"
+			"magsize"					"50"
+			"tracer_frequency"			"10"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"10"
 		}
 		
 		"792x57_belt"
@@ -2742,34 +2889,6 @@
 			}
 		}
 		
-		"762x54mm"
-		{
-			"import"				"default"
-			"SuppressionIncrement"			"130"
-			"brass_model"				"models/weapons/shells/762x51.mdl"
-			"carry"					"120"
-			"flags_clear"				"AMMO_USE_MAGAZINES"
-			"Damage"
-			{
-				"10"					"205"
-				"20000"					"120"
-			}
-			"PenetrationPower"
-			{
-				"10"					"1400"
-				"20000"					"900"
-			}
-			"DamageHitgroups"
-			{
-				"HITGROUP_HEAD"       "6.00"
-				"HITGROUP_CHEST"      "5.9"
-				"HITGROUP_STOMACH"    "5.9"
-				"HITGROUP_LEFTARM"    "1.4"
-				"HITGROUP_RIGHTARM"   "1.4"
-				"HITGROUP_LEFTLEG"    "1.4"
-				"HITGROUP_RIGHTLEG"   "1.4"
-			}
-		}
 		"762x54mm_hp"
 		{
 			"import"				"default"

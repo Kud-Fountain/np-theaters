@@ -6,6 +6,629 @@
 {
 	"weapons"
 	{
+		"weapon_mg34"
+		{
+			"import"					"ballistic_base"
+			"view_model"				"models/weapons/v_mg34.mdl"
+			"world_model"				"models/weapons/w_mg34.mdl"
+			"weapon_class"				"lmg"
+			"weapon_cost"				"1"
+			"print_name"				"#weapon_mg34"
+			"print_desc"				"#weapon_mg34_desc"
+			"rounds_per_minute"			"820"
+			"weapon_slot"				"primary"
+			"act_table"					"lmg"
+			"weapon_abilities"			"ironsight, bipod"
+			"weapon_weight"				"140"
+			"barrel_length"				"30"
+			"closed_bolt"				"0"
+			"reload_speed"				"1.50"
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-15"
+				"fov_plr_focus"				"-7"
+				"fov_wpn_default"			"70"
+				"fov_wpn_ironsight"			"74"
+				"fov_wpn_focus"				"70"
+			}
+			
+			"ironsights"
+			{
+				"in_time"	"0.45"
+				"out_time"	"0.40"
+			}
+			
+			"viewmodel_offsets"
+			{
+				// x back, y left, z down
+				"VMOffsetProne"				"0.50 0.00 2.00"
+			}
+			
+			"recoil"
+			{
+				"recoil_lateral_range"		"-1.9 2.2"
+				"recoil_vertical_range"		"2.0 2.2"
+				"recoil_aim_punch"			"0.4 0.5"
+				"recoil_rest_rate"			"7"
+				"recoil_rest_delay"			"0.12"
+				"recoil_roll_range"			"-1.8 -1.8"
+				"recoil_roll_rest_rate"		"200"
+				"recoil_freeaim_frac"		"0.5"
+				"recoil_ironsight_frac"		"1.5"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"				"6"		// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.75"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
+				"RecoilIronSightFracByWeight"
+				{
+					"0"					"1.0"
+				}
+				
+				"RecoilBipodFracByWeight"
+				{
+					"0"					"0.30"
+				}
+				
+				"RecoilCrouchFracByWeight"
+				{
+					"0"					"0.65"
+				}
+				
+				"RecoilProneFracByWeight"
+				{
+					"0"					"0.40"
+				}
+			}
+			
+			"freeaim"
+			{
+				"freeaim_frac"					"1.25"
+			}
+			
+			"melee"
+			{
+				"MeleeWeaponIdleTime"	"0.5"
+				"MeleeDamage"			"75"
+				"MeleeRange"			"75"
+			}
+			
+			"ballistics"
+			{
+				"spread"				"0.25 0.25 0.25"
+				"FireModes"				"full, semi"
+				"bulletcount"			"1"
+				"maxrange"				"10000"
+			}
+			
+			"ammo_clip"
+			{
+				"ammo_type"				"792x57_drum"
+				"clip_max"				"8"
+				"clip_max_rounds"		"50"
+				"clip_default"			"0"
+			}
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_MG34.Single"
+				"shot_single_local"			"Weapon_MG34.SingleLocal"
+				"shot_silent"				"Weapon_MG34.SingleSilenced"
+				"shot_silent_local"			"Weapon_MG34.SingleSilencedLocal"
+				"empty"						"Weapon_MG34.Empty"
+				"clipin"					"Weapon_MG34.Magin"
+				"clipout"					"Weapon_MG34.Magout"
+				"boltback"					"Weapon_MG34.Boltback"
+				"boltrelease"				"Weapon_MG34.Boltrelease"
+				"bipodin"					"Weapon_MG34.BipodDeploy"
+				"bipodout"					"Weapon_MG34.BipodRetract"
+				"rofdown"					"Weapon_MG34.ROF"
+				"rofup"						"Weapon_MG34.ROF"
+				
+				"thirdperson_prefix"		"Weapon_MG34"	
+			}
+			
+			"particles"
+			{
+				"particle_muzzleflash_1st"	"muzzleflash_m249_1p"
+				"particle_muzzleflash_3rd"	"muzzleflash_m249_3rd"	
+				"particle_tracer"				"weapon_tracers_green"
+			}
+			
+			"attachments"
+			{
+				"attachment_addon"		"primary2"
+			}
+			
+			"kitui_offset"
+			{
+				"position"				"23 -5 1"
+			}
+			
+			"team_access"				"security, insurgent"
+		}
+	
+		"weapon_sten_mk2"
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"smg"
+			"print_name"				"#weapon_sten_mk2"
+			"print_desc"				"#weapon_sten_desc"
+			"view_model"				"models/weapons/v_sten_mk2.mdl"
+			"world_model"				"models/weapons/w_sten.mdl"
+			"rounds_per_minute"			"550"
+			"weapon_slot"				"primary"
+			"act_table"					"rifle_ak2"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"90"
+			"weapon_cost"				"0"
+			"class_restricted"			"1"
+			"barrel_length"				"16"
+			"closed_bolt"				"0"			
+			
+			"viewmodel_attachments"
+			{
+				"barrel_standard"
+				{
+					"model"					"models\weapons\upgrades\a_stenmk2_barrel_standard.mdl"
+					"fallback_for_slot"		"barrel"
+				}
+			}
+			
+			"world_attachments"
+			{
+				"barrel_standard"
+				{
+					"model"					"models\weapons\upgrades\w_barrel_standard_mk2.mdl"
+					"fallback_for_slot"		"barrel"
+				}
+			}
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-15"
+				"fov_plr_focus"				"-7"
+				"fov_wpn_default"			"70"
+				"fov_wpn_ironsight"			"71"
+				"fov_wpn_focus"				"66"
+			}
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_sten.Single"
+				"shot_single_local"			"Weapon_sten.SingleLocal"
+				"shot_silent"				"Weapon_sten.SingleSilenced"
+				"shot_silent_local"			"Weapon_sten.SingleSilencedLocal"
+				"empty"						"Weapon_sten.Empty"
+				
+				"clipin"					"Weapon_sten.Magin"
+				"clipout"					"Weapon_sten.Magout"
+				//"boltback"				"Weapon_sten.Boltback"
+				"boltrelease"				"Weapon_sten.Boltrelease"
+				"rofdown"					"Weapon_sten.ROF"
+				"rofup"						"Weapon_sten.ROF"
+				"hit"						"Weapon_sten.Hit"
+				
+				"thirdperson_prefix"		"Weapon_sten"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_sten_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_sten_3p"
+				"particle_tracer"				"weapon_tracers"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-0.75 1.15"
+				"recoil_vertical_range"			"1.8 2.3"
+				"recoil_aim_punch"				"0.4 0.6"
+				"recoil_rest_rate"				"6"
+				"recoil_rest_delay"				"0.14"
+				"recoil_roll_range"				"-1.45 -1.45"
+				"recoil_roll_rest_rate"			"150"
+				"recoil_freeaim_frac"			"0.4"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"				"5"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.78"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+			}			
+			
+			"melee"
+			{
+				"MeleeWeaponIdleTime"	"0.3"
+				"MeleeDamage"			"40"
+				"MeleeRange"			"55"
+			}
+			
+			"ballistics"
+			{
+				"spread"					"0.8 0.8 0.8"
+				"FireModes"					"semi, full"
+				"bulletcount"				"1"
+				"maxrange"					"8000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"9x19mm_sten"
+				"clip_max"				"12"
+				"clip_max_rounds"		"32"
+				"clip_default"			"0"
+			}
+			"attachments"
+			{
+				"attachment_addon"		"Primary2"
+			}
+			"kitui_offset"
+			{
+				"position"				"22 0 3"
+			}
+			"team_access"				"security, insurgent"
+		}
+		
+		"weapon_sten_mk5"
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"smg"
+			"print_name"				"#weapon_sten_mk5"
+			"print_desc"				"#weapon_sten_desc"
+			"view_model"				"models/weapons/v_sten_mk5.mdl"
+			"world_model"				"models/weapons/w_sten_mk5.mdl"
+			"rounds_per_minute"			"550"
+			"weapon_slot"				"primary"
+			"act_table"					"rifle_ak2"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"90"
+			"weapon_cost"				"0"
+			"class_restricted"			"1"
+			"barrel_length"				"16"
+			"closed_bolt"				"0"		
+
+			"viewmodel_attachments"
+			{
+				"barrel_standard"
+				{
+					"model"					"models\weapons\upgrades\a_stenmk5_barrel_standard.mdl"
+					//"fallback_for_slot"		"barrel"
+				}
+			}
+			
+			"world_attachments"
+			{
+				"barrel_standard"
+				{
+					"model"					"models\weapons\upgrades\w_barrel_standard_mk5.mdl"
+					//"fallback_for_slot"		"barrel"
+				}
+			}
+
+			"fov"
+			{
+				"fov_plr_ironsight"			"-15"
+				"fov_plr_focus"				"-7"
+				"fov_wpn_default"			"70"
+				"fov_wpn_ironsight"			"71"
+				"fov_wpn_focus"				"66"
+			}
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_sten.Single"
+				"shot_single_local"			"Weapon_sten.SingleLocal"
+				"shot_silent"				"Weapon_sten.SingleSilenced"
+				"shot_silent_local"			"Weapon_sten.SingleSilencedLocal"
+				"empty"						"Weapon_sten.Empty"
+				
+				"clipin"					"Weapon_sten.Magin"
+				"clipout"					"Weapon_sten.Magout"
+				//"boltback"				"Weapon_sten.Boltback"
+				"boltrelease"				"Weapon_sten.Boltrelease"
+				"rofdown"					"Weapon_sten.ROF"
+				"rofup"						"Weapon_sten.ROF"
+				"hit"						"Weapon_sten.Hit"
+				
+				"thirdperson_prefix"		"Weapon_sten"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_mp40_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_mp40_3rd"
+				"particle_tracer"				"weapon_tracers"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-0.5 0.75"
+				"recoil_vertical_range"			"1.6 2.0"
+				"recoil_aim_punch"				"0.4 0.6"
+				"recoil_rest_rate"				"6"
+				"recoil_rest_delay"				"0.14"
+				"recoil_roll_range"				"-1.45 -1.45"
+				"recoil_roll_rest_rate"			"150"
+				"recoil_freeaim_frac"			"0.4"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"				"5"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.78"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+			}			
+			
+			"melee"
+			{
+				"MeleeWeaponIdleTime"	"0.3"
+				"MeleeDamage"			"40"
+				"MeleeRange"			"55"
+			}
+			
+			"ballistics"
+			{
+				"spread"					"0.8 0.8 0.8"
+				"FireModes"					"full"
+				"bulletcount"				"1"
+				"maxrange"					"8000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"9x19mm_sten"
+				"clip_max"				"12"
+				"clip_max_rounds"		"32"
+				"clip_default"			"0"
+			}
+			"attachments"
+			{
+				"attachment_addon"		"Primary2"
+			}
+			"kitui_offset"
+			{
+				"position"				"21 0 3"
+			}
+			"team_access"				"security, insurgent"
+		}
+	
+		"weapon_springfield"
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"sniper_rifle"
+			"weapon_cost"				"2"
+			"print_name"				"#weapon_springfield"
+			"print_desc"				"#weapon_springfield_desc"
+			"view_model"				"models/weapons/v_springfield.mdl"
+			"world_model"				"models/weapons/w_springfield.mdl"
+			"fire_cycle"				"0.2"
+			"weapon_slot"				"primary"
+			"act_table"					"bolt"
+			"closed_bolt"				"0"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"110"
+			"barrel_length"				"38"
+			"class_restricted"			"1"
+			
+			"viewmodel_attachments"
+			{
+				"optic"
+				{
+					"model"					"models\weapons\upgrades\a_iron_springfield.mdl"
+					"fallback_for_slot"		"optics"
+				}
+				
+				"bolt"
+				{
+					"model"					"models\weapons\upgrades\a_bolt_springfield_ext.mdl"
+					"fallback_for_slot"		"optics"
+				}
+			}
+			
+			"world_attachments"
+			{
+				"standard_optics"
+				{
+					"model"					"models/weapons/upgrades/w_iron_springfield.mdl"
+					"fallback_for_slot"		"optics"
+				}
+			}
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-20"
+				"fov_plr_focus"				"-10"
+				"fov_wpn_default"			"60"
+				"fov_wpn_ironsight"			"70"
+				"fov_wpn_focus"				"66"
+			}
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_Springfield.Single"
+				"shot_single_local"			"Weapon_Springfield.SingleLocal"
+				"shot_silent"				"Weapon_Springfield.SingleSilenced"
+				"shot_silent_local"			"Weapon_Springfield.SingleSilencedLocal"
+				"empty"						"Weapon_Springfield.Empty"
+				"clipin"					"Weapon_Springfield.Clipin"
+				"clipout"					"Weapon_Springfield.Clipout"
+				"boltback"					"Weapon_Springfield.Boltback"
+				"boltforward"				"Weapon_Springfield.Boltforward"
+				"hit"						"Weapon_Springfield.Hit"
+				
+				"thirdperson_prefix"		"Weapon_Springfield"
+
+				// Bayonet Melee World Interaction
+				"melee_hit"					"Weapon_Bash.Melee"			
+			}
+			
+			"particles"
+			{
+				"particle_muzzleflash_1st"	"muzzleflash_sks_1p"
+				"particle_muzzleflash_3rd"	"muzzleflash_sks_3rd"
+				"particle_tracer"			"weapon_tracers"
+			}
+			
+			"recoil"
+			{
+				"recoil_lateral_range"		"-2.2 3.4"
+				"recoil_vertical_range"		"5.5 6.4"
+				"recoil_aim_punch"			"0.8 0.95"
+				"recoil_rest_rate"			"12"
+				"recoil_rest_delay"			"0.05"
+				"recoil_roll_range"			"-5 -5"
+				"recoil_roll_rest_rate"		"70"
+			}
+			
+			"melee"
+			{
+				"MeleeWeaponIdleTime"	"0.3"
+				"MeleeDamage"			"75"
+				"MeleeRange"			"75"
+			}
+			
+			"ballistics"
+			{
+				"spread"					"0.05 0.05 0.05"
+				"FireModes"					"bolt"
+				"bulletcount"				"1"
+				"maxrange"					"20000"
+				"singleReload"				"1"
+			}
+			
+			"sway"
+			{
+				"sway_radius_ironsight_frac"	"0.40"
+				"sway_amount_focus_frac"		"0.40"
+				"sway_speed_ironsight_frac"		"0.40"
+				"sway_speed_focus_frac"			"0.25"
+			}
+			
+			"ammo_clip"
+			{
+				"ammo_type"					"30-06"
+				"clip_max"					"100"
+				"clip_max_rounds"			"5"
+				"clip_default"				"40"
+			}
+			
+			"attachments"
+			{
+				"attachment_addon"			"Primary2"
+			}
+			
+			"kitui_offset"
+			{
+				"position"					"23 -2 2"
+			}
+			
+			"team_access"					"security, insurgent"
+		}
+	
+		"weapon_k98"
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"sniper_rifle"
+			"weapon_cost"				"2"
+			"print_name"				"#weapon_k98"
+			"print_desc"				"#weapon_k98_desc"
+			"view_model"				"models/weapons/v_kar98k.mdl"
+			"world_model"				"models/weapons/w_kar98k.mdl"
+			"fire_cycle"				"0.2"
+			"closed_bolt"				"0"
+			"weapon_slot"				"primary"
+			"act_table"					"bolt"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"100"
+			"barrel_length"				"38"
+			"class_restricted"			"1"
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-20"
+				"fov_plr_focus"				"-10"
+				"fov_wpn_default"			"65"
+				"fov_wpn_ironsight"			"68"
+				"fov_wpn_focus"				"65"
+			}
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_Kar98.Single"
+				"shot_single_local"			"Weapon_Kar98.SingleLocal"
+				"shot_silent"				"Weapon_Kar98.SingleSilenced"
+				"shot_silent_local"			"Weapon_Kar98.SingleSilencedLocal"
+				"empty"						"Weapon_Kar98.Empty"
+				"clipin"					"Weapon_Kar98.Clipin"
+				"clipout"					"Weapon_Kar98.Clipout"
+				"boltback"					"Weapon_Kar98.Boltback"
+				"boltforward"				"Weapon_Kar98.Boltforward"
+				"hit"						"Weapon_Kar98.Hit"
+				
+				"thirdperson_prefix"		"Weapon_Kar98"
+				
+				// Bayonet Melee World Interaction
+				"melee_hit"					"Weapon_Bash.Melee"
+			}
+			
+			"particles"
+			{
+				"particle_muzzleflash_1st"	"muzzleflash_sks_1p"
+				"particle_muzzleflash_3rd"	"muzzleflash_sks_3rd"
+				"particle_tracer"			"weapon_tracers_green"
+			}
+			
+			"recoil"
+			{
+				"recoil_lateral_range"		"-2.2 3.4"
+				"recoil_vertical_range"		"7.5 8.4"
+				"recoil_aim_punch"			"0.8 0.95"
+				"recoil_rest_rate"			"12"
+				"recoil_rest_delay"			"0.05"
+				"recoil_roll_range"			"-5 -5"
+				"recoil_roll_rest_rate"		"70"
+				"recoil_ironsight_frac"		"1.0"
+			}
+			
+			"melee"
+			{
+				"MeleeWeaponIdleTime"	"0.2"
+				"MeleeDamage"			"75"
+				"MeleeRange"			"75"
+			}
+			
+			"ballistics"
+			{
+				"spread"					"0.05 0.05 0.05"
+				"FireModes"					"bolt"
+				"bulletcount"				"1"
+				"maxrange"					"20000"
+				"singleReload"				"1"
+			}
+			
+			"sway"
+			{
+				"sway_radius_ironsight_frac"	"0.40"
+				"sway_amount_focus_frac"		"0.40"
+				"sway_speed_ironsight_frac"		"0.40"
+				"sway_speed_focus_frac"			"0.25"
+			}
+			
+			"ammo_clip"
+			{
+				"ammo_type"					"792x57mm"
+				"clip_max"					"100"
+				"clip_max_rounds"			"5"
+				"clip_default"				"40"
+			}
+			
+			"attachments"
+			{
+				"attachment_addon"			"Primary2"
+			}
+			
+			"kitui_offset"
+			{
+				"position"					"25 -3 2"
+			}	
+			
+			"team_access"					"security, insurgent"
+		}
+		
 		"weapon_thompson_m1a1"
 		{
 			"import"					"ballistic_base"
@@ -981,7 +1604,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"303_brit_pan_47rnd"
-				"clip_max"				"6"
+				"clip_max"				"8"
 				"clip_max_rounds"		"20"
 				"clip_default"			"1"
 			}
@@ -1702,7 +2325,7 @@
 		"magazine_stripper_clips"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"1"
 			"class_restricted"			"0"
 			
 			"print_name"				"#magazine_stripper_clips"
@@ -1713,7 +2336,9 @@
 
 			"allowed_weapons"
 			{
+				"weapon"				"weapon_k98"
 				"weapon"				"weapon_enfield"
+				"weapon"				"weapon_springfield"
 			}
 
 			"viewmodel_attachments"
@@ -1722,6 +2347,7 @@
 				{
 					"ActSuffix"			"_CLIP"
 				}
+				
 				"clip_enfield"
 				{
 					"model"				"models/weapons/upgrades/a_enfield_stripper_clip.mdl"
@@ -1729,6 +2355,26 @@
 					"weapons"
 					{
 						"weapon"		"weapon_enfield"
+					}
+				}
+				
+				"clip_kar98k"
+				{
+					"model"				"models/weapons/upgrades/a_kar98k_stripper_clip.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_k98"
+					}
+				}
+				
+				"clip_springfield"
+				{
+					"model"				"models/weapons/upgrades/a_springfield_stripper_clip.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_springfield"
 					}
 				}
 			}			
@@ -1768,6 +2414,8 @@
 				"weapon"				"weapon_g43"
 				"weapon"				"weapon_enfield"
 				"weapon"				"weapon_m1garand"
+				"weapon"				"weapon_springfield"
+				"weapon"				"weapon_k98"
 			}
 			
 			"excluded_upgrades"
@@ -1816,6 +2464,33 @@
 						"weapon"			"weapon_m1garand"
 					}
 				}
+				"4xscope_springfield"
+				{
+					"model"					"models/weapons/upgrades/a_optic_springfield.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_springfield"
+					}
+				}
+				
+				"4xscope_k98"
+				{
+					"model"					"models/weapons/upgrades/a_optic_kar98k_4x.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope_4x"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_k98"
+					}
+				}
 			}
 			
 			"world_attachments"
@@ -1847,6 +2522,15 @@
 						"weapon"			"weapon_m1garand"
 					}
 				}
+				"Scope_springfield"
+				{
+					"model"					"models/weapons/upgrades/w_optic_springfield.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_springfield"
+					}
+				}
 			}
 			"optics_fov_override"
 			{
@@ -1872,6 +2556,18 @@
 					"fov_wpn_ironsight"			"43"
 					"fov_wpn_focus"				"48"
 				}
+				"weapon_k98"
+				{
+					"fov_wpn_scope"				"15"
+					"fov_wpn_ironsight"			"45"
+					"fov_wpn_focus"				"50"
+				}
+				"weapon_springfield"
+				{
+					"fov_wpn_scope"				"15"
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"55"
+				}
 			}
 		}
 		
@@ -1884,8 +2580,36 @@
 			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
 			
+			"sway"
+			{
+				"sway_radius_frac"		"1.8"
+				"sway_speed_frac"		"1.9"
+			}
+			
 			"weapon_mods"
 			{
+				"weapon_springfield"
+				{
+					"sway"
+					{
+						"sway_amount_focus_frac"		"0.25"
+						"sway_speed_focus_frac"			"0.20"
+						"sway_radius_crouch_frac"		"0.75"
+						"sway_radius_prone_frac"		"0.50"
+					}
+				}
+				
+				"weapon_k98"
+				{
+					"sway"
+					{
+						"sway_amount_focus_frac"		"0.25"
+						"sway_speed_focus_frac"			"0.20"
+						"sway_radius_crouch_frac"		"0.75"
+						"sway_radius_prone_frac"		"0.50"
+					}
+				}
+				
 				"weapon_enfield"
 				{
 					"sway"
@@ -1900,6 +2624,8 @@
 			
 			"allowed_weapons"
 			{
+				"weapon"				"weapon_springfield"
+				"weapon"				"weapon_k98"
 				"weapon"				"weapon_enfield"
 			}	
 
@@ -1923,10 +2649,47 @@
 						"weapon"			"weapon_enfield"
 					}
 				}
+				"7xscope_k98"
+				{
+					"model"					"models/weapons/upgrades/a_optic_kar98k.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_k98"
+					}
+				}
+				
+				"7xscope_springfield"
+				{
+					"model"					"models/weapons/upgrades/a_optic_springfield_7x.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope_7x"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_springfield"
+					}
+				}
 			}
 			
 			"world_attachments"
 			{
+				"Scope_kar98"
+				{
+					"model"					"models/weapons/upgrades/w_optic_kar98k.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_k98"
+					}
+				}
+				
 				"Scope_enfield"
 				{
 					"model"					"models/weapons/upgrades/w_optic_enfield.mdl"
@@ -1936,12 +2699,35 @@
 						"weapon"				"weapon_enfield"
 					}
 				}
+				
+				"Scope_springfield"
+				{
+					"model"					"models/weapons/upgrades/w_optic_springfield.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_springfield"
+					}
+				}
 			}
 			"optics_fov_override"
 			{
 				"fov_wpn_scope"				"10"
 				"fov_wpn_ironsight"			"37"
 				"fov_wpn_focus"				"43"
+				"weapon_springfield"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"46"
+					"fov_wpn_focus"				"51"
+				}
+				
+				"weapon_k98"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"66"
+					"fov_wpn_focus"				"68"
+				}
 				
 				"weapon_enfield"
 				{
@@ -1958,7 +2744,7 @@
 			"print_desc"				"#quick_reload6_desc"
 			"upgrade_cost"				"1"
 			"upgrade_slot"				"aesthetic"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			
 			"weight"					"-50"
 			"recoil_vertical_frac"		"1.15"
@@ -2042,7 +2828,7 @@
 			"print_desc"				"#quick_reload5_desc"
 			"upgrade_cost"				"1"
 			"upgrade_slot"				"aesthetic"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			
 			"spread_frac"					"0.85"
 			"weight"						"40"
@@ -2125,7 +2911,7 @@
 			"print_desc"				"#quick_reload7_desc"
 			"upgrade_cost"				"1"
 			"upgrade_slot"				"aesthetic"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			
 			"recoil_vertical_frac"		"0.85"
 			"recoil_lateral_frac"		"0.85"
@@ -2275,6 +3061,60 @@
 					"weapons"
 					{
 						"weapon"		"weapon_thompson_m1a1"
+					}
+				}
+			}
+		}
+		
+		"barrel_silencer"
+		{
+			"import"					"base_silencer"
+			"upgrade_cost"				"1"
+			"class_restricted"			"0"
+			"length"					"12"
+			"team_access"				"security, insurgent"
+	
+			"weapon_abilities"			"silencer"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sten_mk5"
+				"weapon"				"weapon_sten_mk2"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"silencer_sten_mk2"
+				{
+					"model"				"models/weapons/upgrades/a_stenmk2_silencer.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_sten_mk2"
+					}
+				}
+				
+				"silencer_sten_mk5"
+				{
+					"model"				"models/weapons/upgrades/a_stenmk5_silencer.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_sten_mk5"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"silencer_sten"
+				{
+					"model"				"models/weapons/upgrades/w_silencer_sten.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_sten_mk2"
+						"weapon"		"weapon_sten_mk5"
 					}
 				}
 			}

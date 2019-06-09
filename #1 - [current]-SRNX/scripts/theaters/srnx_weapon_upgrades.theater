@@ -434,6 +434,8 @@
 				"weapon"				"weapon_mp5a4"
 				"weapon"				"weapon_mp40"
 				"weapon"				"weapon_sterling"
+				"weapon"				"weapon_sten_mk5"
+				"weapon"				"weapon_sten_mk2"
 				//"weapon"				"weapon_czse3"
 				"weapon"				"weapon_mac10"
 				"weapon"				"weapon_uzi"
@@ -929,7 +931,8 @@
 				"weapon"				"weapon_l1a1"
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_sterling"
-				
+				"weapon"				"weapon_sten_mk5"
+				"weapon"				"weapon_sten_mk2"
 				"weapon"				"weapon_g36c"
 				"weapon"				"weapon_sig553"
 				"weapon"				"weapon_scar"
@@ -965,15 +968,36 @@
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_m40a5"
 				"weapon"				"weapon_enfield"
+				"weapon"				"weapon_springfield"
+				"weapon"				"weapon_k98"
 				"weapon"				"weapon_m1garand"
 				"weapon"				"weapon_suomi"
 				"weapon"				"weapon_nam_ppsh41"
 				"weapon"				"weapon_m3greasegun"
 				"weapon"				"weapon_lewis"
+				"weapon"				"weapon_mg34"
 				"weapon"				"weapon_hk416"
 			}
 			"viewmodel_attachments"
 			{
+				"sten_mk2_sling"
+				{
+					"model"				"models\weapons\upgrades\a_sling_stenmk2.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_sten_mk2"
+					}
+				}
+				"sten_mk5_sling"
+				{
+					"model"				"models\weapons\upgrades\a_sling_stenmk5.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_sten_mk5"
+					}
+				}
 				"c96_sling"
 				{
 					"model"				"models\weapons\upgrades\a_sling_c96.mdl"
@@ -999,6 +1023,24 @@
 					"weapons"
 					{
 						"weapon"		"weapon_enfield"
+					}
+				}
+				"springfield_sling"
+				{
+					"model"				"models\weapons\upgrades\a_sling_springfield.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_springfield"
+					}
+				}
+				"k98_sling"
+				{
+					"model"				"models\weapons\upgrades\a_sling_k98.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_k98"
 					}
 				}
 				"garand_sling"
@@ -1067,6 +1109,7 @@
 				"weapon"			"weapon_kingcobra"
 				"weapon"			"weapon_m107"
 				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_k98"
 			}
 			
 			"team_access"				"insurgent"
@@ -1145,7 +1188,8 @@
 				"weapon"				"weapon_l1a1"
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_sterling"
-				
+				"weapon"				"weapon_sten_mk5"
+				"weapon"				"weapon_sten_mk2"
 				"weapon"				"weapon_g36c"
 				"weapon"				"weapon_sig553"
 				"weapon"				"weapon_scar"
@@ -1190,11 +1234,14 @@
 				"weapon"				"weapon_rpk74m"
 				"weapon"				"weapon_m40a1"
 				"weapon"				"weapon_enfield"
+				"weapon"				"weapon_springfield"
+				"weapon"				"weapon_k98"
 				"weapon"				"weapon_m1garand"
 				"weapon"				"weapon_suomi"
 				"weapon"				"weapon_nam_ppsh41"
 				"weapon"				"weapon_m3greasegun"
 				"weapon"				"weapon_lewis"
+				"weapon"				"weapon_mg34"
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_m40a5"
 				"weapon"				"weapon_m203_he"
@@ -1255,6 +1302,8 @@
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_m40a1"
 				"weapon"				"weapon_enfield"
+				"weapon"				"weapon_springfield"
+				"weapon"				"weapon_k98"
 				"weapon"				"weapon_m40a5"
 			}
 			
@@ -1275,6 +1324,8 @@
 				"weapon"				"weapon_mosin"
 				"weapon"				"weapon_m40a1"
 				"weapon"				"weapon_enfield"
+				"weapon"				"weapon_springfield"
+				"weapon"				"weapon_k98"
 				"weapon"				"weapon_m40a5"
 			}
 			
@@ -1658,6 +1709,8 @@
 				"weapon"					"weapon_g3a3"
 				"weapon"					"weapon_ak12u"
 				"weapon"					"weapon_sterling"
+				"weapon"				"weapon_sten_mk5"
+				"weapon"				"weapon_sten_mk2"
 				"weapon"					"weapon_famas"
 				"weapon"					"weapon_f2000"
 				"weapon"					"weapon_g36c"
@@ -1668,6 +1721,8 @@
 				"weapon"					"weapon_m40a5"
 				"weapon"					"weapon_rpk74m"	
 				"weapon"					"weapon_enfield"
+				"weapon"				"weapon_springfield"
+				"weapon"				"weapon_k98"
 				"weapon"					"weapon_hk416"
 
 			}
