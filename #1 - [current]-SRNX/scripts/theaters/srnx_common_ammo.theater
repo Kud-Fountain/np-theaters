@@ -1297,7 +1297,7 @@
 		"792x57_drum"
 		{
 			"import"					"792x57"
-			"carry"						"8"
+			"carry"						"10"
 			"magsize"					"50"
 			"tracer_frequency"			"10"
 			"tracer_type"				"whiz_with_line"

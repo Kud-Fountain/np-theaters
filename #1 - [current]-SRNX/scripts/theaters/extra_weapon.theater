@@ -22,6 +22,7 @@
 			"weapon_weight"				"140"
 			"barrel_length"				"30"
 			"closed_bolt"				"0"
+			"class_restricted"			"1"
 			"reload_speed"				"1.50"
 			
 			"fov"
@@ -106,7 +107,7 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"792x57_drum"
-				"clip_max"				"8"
+				"clip_max"				"10"
 				"clip_max_rounds"		"50"
 				"clip_default"			"0"
 			}
@@ -173,7 +174,7 @@
 				"barrel_standard"
 				{
 					"model"					"models\weapons\upgrades\a_stenmk2_barrel_standard.mdl"
-					"fallback_for_slot"		"barrel"
+					//"fallback_for_slot"		"barrel"
 				}
 			}
 			
@@ -182,7 +183,7 @@
 				"barrel_standard"
 				{
 					"model"					"models\weapons\upgrades\w_barrel_standard_mk2.mdl"
-					"fallback_for_slot"		"barrel"
+					//"fallback_for_slot"		"barrel"
 				}
 			}
 			
@@ -215,8 +216,8 @@
 			}
 			"particles"
 			{
-				"particle_muzzleflash_1st"		"muzzleflash_sten_1p"
-				"particle_muzzleflash_3rd"		"muzzleflash_sten_3p"
+				"particle_muzzleflash_1st"		"muzzleflash_mp40_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_mp40_3rd"
 				"particle_tracer"				"weapon_tracers"
 			}
 			"recoil"
