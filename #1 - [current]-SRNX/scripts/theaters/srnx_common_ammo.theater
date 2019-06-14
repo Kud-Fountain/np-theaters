@@ -1302,6 +1302,35 @@
 			"tracer_frequency"			"10"
 			"tracer_type"				"whiz_with_line"
 			"tracer_lowammo"			"10"
+			
+			"Damage"
+			{
+				"10"					"85"
+				"8000"					"25"
+			}			
+
+			"PenetrationPower"
+			{
+				"10"					"1000"
+				"15000"					"400"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.95"
+				"HITGROUP_CHEST"      "1.85"
+				"HITGROUP_STOMACH"    "1.85"
+				"HITGROUP_LEFTARM"    "0.52"
+				"HITGROUP_RIGHTARM"   "0.52"
+				"HITGROUP_LEFTLEG"    "0.52"
+				"HITGROUP_RIGHTLEG"   "0.52"
+			}
+
+			"PenetrationDamage"
+			{
+				"0"						"1.0"
+				"1000"					"0.25"
+			}
 		}
 		
 		"792x57_belt"
@@ -1889,7 +1918,7 @@
 			
 			"Damage"
 			{
-				"1000"					"60"
+				"10"					"60"
 				"2500"					"45"
 				"10000"					"20"
 			}			
@@ -2989,7 +3018,7 @@
 			
 			"Damage"
 			{
-				"1000"					"48"
+				"10"					"48"
 				"2000"					"30"
 				"10000"					"18"
 			}
@@ -3015,7 +3044,7 @@
 			
 			"Damage"
 			{
-				"1000"					"60"
+				"10"					"60"
 				"2000"					"40"
 				"10000"					"28"
 			}
@@ -3051,7 +3080,7 @@
 			
 			"Damage"
 			{
-				"1000"					"75"
+				"10"					"75"
 				"8000"					"25"
 			}			
 
