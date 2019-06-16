@@ -2,6 +2,7 @@
 
 "#base" "huashui_gear.theater"
 "#base" "huashui_weapon.theater"
+"#base" "extra_weapon.theater"
 "#base" "huashui_weapon_upgrades.theater"
 
 "theater"

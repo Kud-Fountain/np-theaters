@@ -1,0 +1,127 @@
+"#base" "huashui_default_weapon.theater"
+
+"theater"
+{
+	"weapons"
+	{
+		"weapon_enfield"
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"sniper_rifle"
+			"weapon_cost"				"2"
+			"print_name"				"#weapon_enfield"
+			"print_desc"				"英军制式栓动步枪（10 发容量）"
+			"view_model"				"models/weapons/v_enfield.mdl"
+			"world_model"				"models/weapons/w_enfield.mdl"
+			"fire_cycle"				"0.2"
+			"closed_bolt"				"0"
+			"weapon_slot"				"primary"
+			"act_table"					"bolt"
+			"dual_magazines"			"1"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"110"
+			"barrel_length"				"38"
+			"class_restricted"			"1"
+			
+			"viewmodel_attachments"
+			{
+				"optic"
+				{
+					"model"					"models/weapons/upgrades/a_iron_enfield.mdl"
+					"fallback_for_slot"		"optics"
+				}
+			}
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-20"
+				"fov_plr_focus"				"-10"
+				"fov_wpn_default"			"65"
+				"fov_wpn_ironsight"			"70"
+				"fov_wpn_focus"				"67"
+			}
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_Enfield.Single"
+				"shot_single_local"			"Weapon_Enfield.SingleLocal"
+				//"shot_silent"				"Weapon_Enfield.SingleSilenced"
+				//"shot_silent_local"			"Weapon_Enfield.SingleSilencedLocal"
+				"empty"						"Weapon_Enfield.Empty"
+				"clipin"					"Weapon_Enfield.Clipin"
+				"clipout"					"Weapon_Enfield.Clipout"
+				"boltback"					"Weapon_Enfield.Boltback"
+				"boltforward"				"Weapon_Enfield.Boltforward"
+				"hit"						"Weapon_Enfield.Hit"
+				
+				"thirdperson_prefix"		"Weapon_Enfield"
+
+				// Bayonet Melee World Interaction
+				"melee_hit"					"Weapon_Bash.Melee"			
+			}
+			
+			"particles"
+			{
+				"particle_muzzleflash_1st"	"muzzleflash_sks_1p"
+				"particle_muzzleflash_3rd"	"muzzleflash_sks_3rd"
+				"particle_tracer"			"weapon_tracers_green"
+			}
+			
+			"recoil"
+			{
+				"recoil_lateral_range"		"-2.2 3.4"
+				"recoil_vertical_range"		"5.5 6.4"
+				"recoil_aim_punch"			"0.8 0.95"
+				"recoil_rest_rate"			"12"
+				"recoil_rest_delay"			"0.05"
+				"recoil_roll_range"			"-5 -5"
+				"recoil_roll_rest_rate"		"70"
+			}
+			
+			"ballistics"
+			{
+				"spread"					"0.05 0.05 0.05"
+				"FireModes"					"bolt"
+				"bulletcount"				"1"
+				"maxrange"					"20000"
+				"singleReload"				"1"
+				"dual_magazines"			"1"
+			}
+			
+			"melee"
+			{
+				"MeleeWeaponIdleTime"	"0.1"
+				"MeleeDamage"			"50"
+				"MeleeRange"			"75"
+			}
+			
+			"sway"
+			{
+				"sway_radius_ironsight_frac"	"0.40"
+				"sway_amount_focus_frac"		"0.40"
+				"sway_speed_ironsight_frac"		"0.40"
+				"sway_speed_focus_frac"			"0.25"
+			}
+			
+			"ammo_clip"
+			{
+				"ammo_type"					"762x54mm"
+				"clip_max"					"96"
+				"clip_max_rounds"			"5"
+				"clip_default"				"0"
+			}
+			
+			"attachments"
+			{
+				"attachment_addon"			"Primary2"
+			}
+			
+			"kitui_offset"
+			{
+				"position"					"23 -3 2"
+			}		
+			
+			"team_access"					"security, insurgent"
+		}
+	}
+}
