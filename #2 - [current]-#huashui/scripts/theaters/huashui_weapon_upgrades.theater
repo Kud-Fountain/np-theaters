@@ -177,6 +177,7 @@
 				"weapon"			"weapon_springfield"
 				"weapon"			"weapon_k98"
 				"weapon"			"weapon_g43"
+				"weapon"			"weapon_enfield"
 				"weapon"			"weapon_m1garand"
 				"weapon"			"weapon_thompson"
 				"weapon"			"weapon_stg44"
@@ -325,11 +326,48 @@
 				"sway_speed_frac"		"1.9"
 			}
 			
+			"weapon_mods"
+			{
+				"weapon_springfield"
+				{
+					"sway"
+					{
+						"sway_amount_focus_frac"		"0.25"
+						"sway_speed_focus_frac"			"0.20"
+						"sway_radius_crouch_frac"		"0.75"
+						"sway_radius_prone_frac"		"0.50"
+					}
+				}
+				
+				"weapon_k98"
+				{
+					"sway"
+					{
+						"sway_amount_focus_frac"		"0.25"
+						"sway_speed_focus_frac"			"0.20"
+						"sway_radius_crouch_frac"		"0.75"
+						"sway_radius_prone_frac"		"0.50"
+					}
+				}
+				
+				"weapon_enfield"
+				{
+					"sway"
+					{
+						"sway_amount_focus_frac"		"0.25"
+						"sway_speed_focus_frac"			"0.20"
+						"sway_radius_crouch_frac"		"0.75"
+						"sway_radius_prone_frac"		"0.50"
+					}
+				}
+			}
+			
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_springfield"
 				"weapon"				"weapon_k98"
 				"weapon"				"weapon_g43"
+				"weapon"				"weapon_enfield"
 			}
 			"viewmodel_attachments"
 			{
@@ -374,6 +412,20 @@
 						"weapon"				"weapon_g43"
 					}
 				}
+				
+				"7xscope_enfield"
+				{
+					"model"					"models/weapons/upgrades/a_optic_enfield_7x.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope_7x"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_enfield"
+					}
+				}
 			}
 			
 			"world_attachments"
@@ -396,6 +448,16 @@
 					"weapons"
 					{
 						"weapon"				"weapon_k98"
+					}
+				}
+				
+				"Scope_enfield"
+				{
+					"model"					"models/weapons/upgrades/w_optic_enfield.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_enfield"
 					}
 				}
 			}
@@ -424,6 +486,13 @@
 					"fov_wpn_scope"				"10"
 					"fov_wpn_ironsight"			"40"
 					"fov_wpn_focus"				"43"
+				}
+				
+				"weapon_enfield"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"59"
+					"fov_wpn_focus"				"62"
 				}
 			}
 		}
@@ -474,6 +543,7 @@
 				"weapon"			"weapon_ppk"
 				"weapon"			"weapon_luger"
 				"weapon"			"weapon_p38"
+				"weapon"			"weapon_enfield"
 				//"weapon"			"weapon_mosin"
 				//"weapon"			"weapon_m40a1"
 				//"weapon"			"weapon_model10"
@@ -497,6 +567,7 @@
 			{
 				"weapon"			"weapon_springfield"
 				"weapon"			"weapon_k98"
+				"weapon"			"weapon_enfield"
 				//"weapon"			"weapon_m1912"
 			}
 		}

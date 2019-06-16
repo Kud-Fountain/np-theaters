@@ -108,7 +108,7 @@
 				"ammo_type"					"762x54mm"
 				"clip_max"					"96"
 				"clip_max_rounds"			"5"
-				"clip_default"				"0"
+				"clip_default"				"20"
 			}
 			
 			"attachments"
