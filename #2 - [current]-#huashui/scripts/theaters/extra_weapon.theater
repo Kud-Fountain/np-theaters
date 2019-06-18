@@ -19,7 +19,7 @@
 			"act_table"					"bolt"
 			"dual_magazines"			"1"
 			"weapon_abilities"			"ironsight"
-			"weapon_weight"				"110"
+			"weapon_weight"				"115"
 			"barrel_length"				"38"
 			"class_restricted"			"1"
 			
@@ -122,6 +122,415 @@
 			}		
 			
 			"team_access"					"security, insurgent"
+		}
+		
+		"weapon_mac10"
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"smg"
+			"print_name"				"#weapon_mac10_dy"
+			"print_desc"				"#weapon_mac10_dy_desc"
+			"view_model"				"models/weapons/v_mc10pdw.mdl"
+			"world_model"				"models/weapons/w_mc10.mdl"
+			"rounds_per_minute"			"1090"
+			"weapon_slot"				"primary"
+			"weapon_max_subslot"			"0"
+			"act_table"					"pistol"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"128"	// (2.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
+			"weapon_cost"				"1"
+			"barrel_length"				"16"
+			"class_restricted"			"1"
+			"fov"
+			{
+				"fov_plr_ironsight"			"-25"
+				"fov_plr_focus"				"-12"
+				"fov_wpn_default"			"62"
+				"fov_wpn_ironsight"			"80"
+				"fov_wpn_focus"				"85"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_mac10.Single"
+				"shot_single_local"			"Weapon_mac10.SingleLocal"
+				"shot_silent"				"Weapon_MP5K.SingleSilenced"
+				"shot_silent_local"			"Weapon_MP5K.SingleSilencedLocal"
+				"empty"						"Weapon_MP5K.Empty"
+				"clipin"					"Weapon_ump45.Magin"
+				"clipout"					"Weapon_ump45.Magout"
+				"boltback"					"Weapon_ump45.Boltback"
+				"boltrelease"				"Weapon_ump45.Boltrelease"
+				"rofdown"					"Weapon_MP5K.ROF"
+				"rofup"						"Weapon_MP5K.ROF"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_mp5_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_mp5_3rd"
+				"particle_tracer"				"weapon_tracers"
+			}
+			"recoil"
+			{
+
+				"recoil_lateral_range"			"-0.65 0.95"
+				"recoil_vertical_range"			"1.22 1.727"
+				"recoil_aim_punch"				"0.4 0.6"
+				"recoil_rest_rate"				"5"
+				"recoil_rest_delay"				"0.14"
+				"recoil_roll_range"				"-1.25 -1.25"
+				"recoil_roll_rest_rate"			"150"
+				"recoil_freeaim_frac"			"0.25"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"		"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"			"5"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.82"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+			}
+			"ballistics"
+			{
+				"spread"				"0.40 0.40 0.40"
+				"FireModes"				"semi, full"
+				"bulletcount"			"1"
+				"maxrange"				"8000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"45acp"	//
+				"clip_max"				"13"
+				"clip_max_rounds"		"30"
+				"clip_default"			"3"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"primary"
+			}
+			"kitui_offset"
+			{
+				"position"				"18 0 1"
+			}
+			"team_access"				"security, insurgent"
+		}
+		
+		"weapon_kriss"
+		{
+			"import"						"ballistic_base"
+			"weapon_class"					"smg"
+			"print_name"					"#weapon_kriss"
+			"print_desc"					"#weapon_kriss_desc"
+			"view_model"					"models/weapons/v_krisvec.mdl"
+			"world_model"					"models/weapons/w_kris.mdl"
+			"rounds_per_minute"				"1200"
+			"weapon_slot"					"primary"
+			"weapon_max_subslot"			"0"
+			"act_table"						"smg_foregrip"
+			"weapon_abilities"				"ironsight"
+			"weapon_weight"					"128" // (2.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
+			"weapon_cost"					"2"
+			"burst_delay"					"0.15"
+			"barrel_length"					"12"
+			"class_restricted"				"1"
+			"fov"
+			{
+				"fov_plr_ironsight"			"-25"
+				"fov_plr_focus"				"-12"
+				"fov_wpn_default"			"62"
+
+				"fov_wpn_ironsight"			"80"
+				"fov_wpn_focus"				"85"
+			}
+			"sounds"
+			{
+				"shot_single"			"Weapon_kriss.Single"
+				"shot_single_local"		"Weapon_kriss.SingleLocal"
+				"shot_silent"			"Weapon_MP5K.SingleSilenced"
+				"shot_silent_local"		"Weapon_MP5K.SingleSilencedLocal"
+				"empty"					"Weapon_MP5K.Empty"
+				"clipin"				"Weapon_MP5K.Magin"
+				"clipout"				"Weapon_MP5K.Magout"
+				"boltback"				"Weapon_MP5K.Boltback"
+				"boltrelease"			"Weapon_MP5K.Boltrelease"
+				"rofdown"				"Weapon_MP5K.ROF"
+				"rofup"					"Weapon_MP5K.ROF"
+				"thirdperson_prefix"		"Weapon_MP5K"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"	"muzzleflash_mp5_1p"
+				"particle_muzzleflash_3rd"	"muzzleflash_mp5_3rd"	
+				"particle_tracer"			"weapon_tracers"	
+			}
+			"recoil"
+			{				
+				"recoil_lateral_range"				"-0.34 0.90"
+				"recoil_vertical_range"				"1.17 1.46"
+				"recoil_aim_punch"					"0.5 0.7"
+				"recoil_rest_rate"					"5"
+				"recoil_rest_delay"					"0.12"
+				"recoil_roll_range"					"-1.5 -1.5"
+				"recoil_roll_rest_rate"				"150"
+				"recoil_freeaim_frac"				"0.3"
+				
+				"recoil_additional_rest_per_shot" 	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time" 			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots" 			"5"		// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor" 		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+			}
+			"ballistics"
+			{
+				"spread"					"0.24 0.24 0.24"
+				"FireModes"					"semi, burst, full"
+				"bulletcount"				"1"
+				"maxrange"					"12000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"					"45acp"
+				"clip_max"					"13"
+				"clip_max_rounds"			"30"
+				"clip_default"				"3"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"primary"
+			}
+			"kitui_offset"
+			{
+				"position"				"18 0 1"
+			}
+			"team_access"	"security, insurgent"
+		}
+		
+		"weapon_deagle"
+		{
+			"import"				"pistol_base"
+			"weapon_class"				"pistol"
+			"print_name"				"#weapon_deagle_dy"
+			"print_desc"				"#weapon_deagle_dy_desc"
+			"view_model"				"models/weapons/v_dea.mdl"
+			"world_model"				"models/weapons/w_dea.mdl"
+			"rounds_per_minute"			"360"
+			"weapon_slot"				"secondary"
+			"act_table"					"pistol"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"96"
+			"weapon_cost"				"3"
+			"class_restricted"			"1"
+			"barrel_length"				"16"
+			
+			"viewmodel_attachments"
+			{
+				"standard_magazine"
+				{
+					"model"						"models/weapons/upgrades/a_magazine_dea_8.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+			}
+			
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-10"
+				"fov_plr_focus"				"-10"
+				"fov_wpn_default"			"84"
+				"fov_wpn_ironsight"			"84"
+				"fov_wpn_focus"				"89"
+			}
+			"viewmodel_offsets"
+			{
+				// x back, y left, z down
+				"VMOffsetStand"				"0.15 0.75 0.75"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_Deagle.Single"
+				"shot_single_local"			"Weapon_Deagle.SingleLocal"
+				"shot_silent"				"Weapon_M1911.SingleSilenced"
+				"shot_silent_local"			"Weapon_M1911.SingleSilencedLocal"
+				"empty"					"Weapon_M1911.Empty"
+				"magin"					"Weapon_Deagle.Magin"
+				"magout"				"Weapon_Deagle.Magout"
+				"slide_back"				"Weapon_M1911.slideback"
+				"slide_forward"				"Weapon_M1911.slideforward"
+				"safety"				"Weapon_M1911.safety"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_m9_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_m9_3rd"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-1.3 1.55"
+				"recoil_vertical_range"			"3.25 4.75"
+				"recoil_aim_punch"			"0.3 0.5"
+				"recoil_rest_rate"			"4"
+				"recoil_rest_delay"			"0.12"
+				"recoil_roll_range"			"-1.35 -1.35"
+				"recoil_roll_rest_rate"			"150"
+				"recoil_shot_reset_time"		"0.75"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_punch_additive_factor"		"1.0"	// How much of the view punch from the previous shot(s) get added to any additional shot fired (default 1.0)
+			}
+			"ballistics"
+			{
+				"spread"				"0.4 0.4 0.4"
+				"FireModes"				"semi"
+				"bulletcount"				"1"
+				"maxrange"				"8000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"50ae"
+				"clip_max"				"10"
+				"clip_max_rounds"			"7"
+				"clip_default"				"2"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"pistol"
+			}
+			"kitui_offset"
+			{
+				"position"				"12 -4 -1"
+			}
+			"team_access"				"insurgent, security"
+		}
+		
+		"weapon_m60"
+		{
+			"import"						"ballistic_base"
+			"weapon_class"					"lmg"
+			"print_name"					"#weapon_m60"
+			"print_desc"					"#weapon_m60_desc"
+			"view_model"					"models/weapons/v_m_60.mdl"
+			"world_model"					"models/weapons/w_m_60.mdl"
+			"rounds_per_minute"				"650"
+			"weapon_slot"					"primary"
+			"act_table"						"lmg"
+			"weapon_abilities"				"ironsight"
+			"weapon_weight"					"270" // 18.5 + 100 round mag x2 (6.44 lbs each)
+			"weapon_cost"					"4"
+			"closed_bolt"					"0"
+			"barrel_length"					"30"	
+
+			"fov"
+			{
+				"fov_plr_ironsight"			"-25"
+				"fov_plr_focus"				"-12"
+
+				"fov_wpn_default"			"60"
+
+				"fov_wpn_ironsight"			"68"
+				"fov_wpn_focus"				"70"
+
+			}
+			"viewmodel_offsets"
+			{
+				// x back, y left, z down
+				"VMOffsetProne"					"0.50 0.00 1.50"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_M60.Single"
+				"shot_single_local"			"Weapon_M60.SingleLocal"
+				"shot_silent"				"Weapon_M249.SingleSilenced"
+				"shot_silent_local"			"Weapon_M249.SingleSilencedLocal"				
+				"empty"						"Weapon_M60.Empty"
+				"clipin"					"Weapon_M60.Magin"
+				"clipout"					"Weapon_M60.Magout"
+				"boltback"					"Weapon_M60.Boltback"
+				"boltrelease"				"Weapon_M60.Boltrelease"
+				"bipodin"					"Weapon_M60.BipodDeploy"
+				"bipodout"					"Weapon_M60.BipodRetract"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"	"muzzleflash_m249_1p"
+				"particle_muzzleflash_3rd"	"muzzleflash_m249_3rd"	
+				"particle_tracer"			"weapon_tracers"	
+			}
+			"recoil"
+			{
+
+				"recoil_lateral_range"				"-2.0 2.9" //m249 "-2.3 3.2" //mk46 "-2.1 3.0"
+				"recoil_vertical_range"				"2.0 4.55" //m249 "1.65 4.2" //mk46 "1.95 4.5"
+				"recoil_aim_punch"					"0.45 0.70"
+				"recoil_rest_rate"					"22"
+				"recoil_rest_delay"					".12"
+				"recoil_roll_range"					"-2 -2" // Vibration strength 
+				"recoil_roll_rest_rate"				"200"	// Vibration Speed 
+				"recoil_additional_rest_per_shot" 	"2.6"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time" 			"0.6"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots" 			"5"		// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor" 		"0.92"	// How much of the view punch from the previous shot(s) get added to any additional shot fired. 1 = all, 0 = none, 0.5 = half (default = 1.0)
+				
+				"RecoilIronSightFracByWeight"
+				{
+					"0"						"0.95" // base = 1
+				}
+				
+				"RecoilBipodFracByWeight"
+				{
+					"0"						"0.25" // base = .3
+				}
+				
+				"RecoilCrouchFracByWeight"
+				{
+					"0"						"0.8" // base = .75
+				}
+
+				"RecoilStandFracByWeight"
+				{
+					"0"						"1.2" // base = 1
+				}
+				"RecoilProneFracByWeight"
+				{
+					"0"						"0.3" // base = 0.4
+				}
+				"RecoilLowStaminaFracByWeight"
+				{
+					"60"					"1.50" // base 1.4
+					"454"					"1.60" // base = 1.5
+				}
+			}
+			"sway"
+			{
+				"sway_style"				"noise"	// set to "lissajous" for lissajous curve (insmod style), set to "noise" for perlin noise (random)
+				"sway_speed"				"0.8"
+				"SwayRadiusByStamina"
+				{
+					"0"						"3.2"
+					"100"					"0.8"
+				}
+				"sway_radius_stand_frac"		"1.4"
+				"sway_amount_focus_penalty"		"1.0"
+				"sway_screen_ads_ratio"			"1.1"
+				"sway_viewmodel_ratio"			"1.1"
+
+			}
+			"ballistics"
+			{
+				"spread"					"0.19 0.19 0.19"
+				"FireModes"					"full"
+				"bulletcount"				"1"
+				"maxrange"					"40000"
+				"LowAmmoCount"				"15"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"					"762x51_mk48_100rnd" //change
+				"clip_max"					"7"
+				"clip_max_rounds"			"150"
+				"clip_default"				"1" // attempt to counter mag balance
+			}
+			"attachments"
+			{
+				"attachment_addon"			"primary"
+			}
+			"kitui_offset"
+			{
+				"position"				"37 -5 3"
+			}
+			"team_access"	"security, insurgent"
 		}
 	}
 }
