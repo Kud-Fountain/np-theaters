@@ -59,10 +59,11 @@
 
 			"buy_order" 
 			{
-				"weapon"			"weapon_aug3"
+				"weapon"			"weapon_sten_mk2"
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
 				"gear"				"gear_uav"
+				"gear"				"srnx_chest_rig1"
 				//"gear"				"srnx_chest_rig2"
 				//"gear"				"srnx_devgru_1_a"
 				//"gear"				"srnx_esapi"
@@ -285,9 +286,10 @@
 			"buy_order" 
 			{
 				//"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_nam_ppsh41"
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_mk3"
-				"gear"				"srnx_chest_rig2"
+				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_esapi"
 				"gear"				"srnx_daps_leba1"
 				//"gear"				"srnx_devgru_1_a"
@@ -365,9 +367,10 @@
 			"buy_order" 
 			{
 				//"weapon"			"weapon_m16a4"
+				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
-				"gear"				"srnx_chest_rig2"
+				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_esapi"
 				"gear"				"srnx_daps_leba1"
 				//"gear"				"srnx_devgru_1_a"
@@ -529,10 +532,12 @@
 
 			"buy_order" 
 			{
+				"weapon"			"weapon_toz"
 				"weapon"			"weapon_knife"
 				//"weapon"			"weapon_mk18"
 				//"weapon"			"weapon_c4_clicker"
 				"gear"				"gear_ammocrate"
+				"gear"				"srnx_chest_rig_eng1"
 				//"gear"				"srnx_chest_carrier_eng2"
 				//"gear"				"srnx_esapi"
 				//"gear"				"srnx_daps_leba1"
@@ -716,12 +721,12 @@
 			{
 				
 				//"weapon"			"weapon_sa80"
+				"weapon"			"weapon_m3greasegun"
 				"weapon"			"weapon_defib"
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
-				"gear"				"srnx_chest_rig2"
+				"gear"				"srnx_chest_rig1_mv"
 				"gear"				"srnx_esapi"
-				"gear"				"srnx_daps_leba1"
 				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
@@ -878,10 +883,10 @@
 
 			"buy_order" 
 			{
-				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_lewis"
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
-				"gear"				"srnx_chest_rig_mg2"
+				"gear"				"srnx_chest_rig_mg1"
 				"gear"				"srnx_esapi"
 				"gear"				"srnx_daps_leba1"
 				//"gear"				"srnx_devgru_1_a"
@@ -1378,12 +1383,11 @@
 			"buy_order" 
 			{
 				
-				"weapon"			"weapon_m14"
+				"weapon"			"weapon_enfield"
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
-				"gear"				"srnx_chest_rig2"
+				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_esapi"
-				"gear"				"srnx_daps_leba1"
 			}
 			"allowed_items"
 			{
@@ -1604,11 +1608,10 @@
 
 			"buy_order" 
 			{
-				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_m1garand"
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_c4_clicker"
-				"gear"				"srnx_chest_rig2"
+				"gear"				"srnx_chest_rig1"
 				//"gear"				"srnx_esapi"
 				//"gear"				"srnx_daps_leba1"
 				//"gear"				"srnx_devgru_3_b"
