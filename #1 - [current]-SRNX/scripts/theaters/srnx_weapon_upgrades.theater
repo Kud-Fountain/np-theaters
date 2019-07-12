@@ -594,14 +594,14 @@
 			"upgrade_slot"				"magazine"
 			"print_name"					"#weapon_upgrade_beta_50_dy"
 			"print_desc"					"#weapon_upgrade_50_beta_magazine_extended_dy_desc"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"0"
 			"class_restricted"			"1"
 			"team_acces"				"security, insurgent"
-			"weight"					"52" // Rough estimate of ammo weight + gameplay
+			"weight"					"50" // Rough estimate of ammo weight + gameplay
 			"magsize_override"			"50"
 			//"maxcarry_override"			"4"
-			"reload_speed"				"0.8"
-			"draw_speed"				"0.8"
+			"reload_speed"				"0.9"
+			"draw_speed"				"0.9"
 			"recoil"
 			{
 				"recoil_vertical_frac"		"0.95"
@@ -623,9 +623,7 @@
 			}
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_m16a4"
 				"weapon"					"weapon_m4a1"
-				"weapon"					"weapon_mk18"
 			}
 			"world_attachments"
 			{
@@ -640,14 +638,14 @@
 			"upgrade_slot"				"magazine"
 			"print_name"					"#weapon_upgrade_beta_75_dy"
 			"print_desc"					"#weapon_upgrade_75_beta_magazine_extended_dy_desc"
-			"upgrade_cost"				"4"
+			"upgrade_cost"				"1"
 			"class_restricted"			"1"
 			"team_acces"				"security, insurgent"
 			"weight"					"72" // Rough estimate of ammo weight + gameplay
 			"magsize_override"			"75"
 			//"maxcarry_override"			"4"
-				
-			"draw_speed"				"0.75"
+			"reload_speed"				"0.8"	
+			"draw_speed"				"0.8"
 			"recoil"
 			{
 				"recoil_vertical_frac"		"0.95"

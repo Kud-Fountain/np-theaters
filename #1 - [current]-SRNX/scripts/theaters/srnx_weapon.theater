@@ -3233,7 +3233,7 @@
 			"act_table"						"shortrifle"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"36" // (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
-			"weapon_cost"					"2"
+			"weapon_cost"					"3"
 			"barrel_length"					"22"
 			"class_restricted"				"1"
 			
