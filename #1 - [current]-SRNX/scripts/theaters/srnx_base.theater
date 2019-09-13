@@ -388,6 +388,7 @@
 				"weapon"			"weapon_m1a1"
 				"weapon"			"weapon_scar"
 				"weapon"			"weapon_g43"
+				"weapon"			"weapon_mp5a4"
 				//Secondaries
 				"weapon"			"weapon_m93r"
 				
@@ -755,8 +756,8 @@
 				"weapon_upgrade"		"underbarrel_gp25_smoke"
 				//m320s
 				"weapon_upgrade"		"underbarrel_m320_smoke"
-				"weapon_upgrade"		"ammo_beta50"
-				"weapon_upgrade"		"ammo_beta75"
+				//"weapon_upgrade"		"ammo_beta50"
+				//"weapon_upgrade"		"ammo_beta75"
 				//Pistols
 				//gear
 				//"gear"				"srnx_devgru_1_a"
@@ -1628,7 +1629,6 @@
 				"weapon"			"weapon_aks74u"
 				"weapon"			"weapon_mp40"
 				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_mp5a4"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_mr96"
 
