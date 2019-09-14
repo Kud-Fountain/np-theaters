@@ -6,25 +6,25 @@
 	{
 		"scoring"
 		{
-			"kill"						"2"
-			"kill_offensive"			"2"
-			"kill_defensive"			"2"
-			"kill_headshot_bonus"		"0"
-			"kill_savior"				"0"
-			"kill_bonus_domination"		"0"
-			"kill_bonus_revenge"		"0"
-			"assist"					"0"
-			
-			"obj_captured"				"0"	// points given when capture zone changes ownership
-			"obj_neutralized"			"0"	// not actually used by any built-in modes
-			"obj_reset"					"11"	// points given when defenders reset the progress to 0% (if progress got to at least 50%)
-			"obj_capture_tick"			"0"	// attacking points given every 10%
-			"obj_reset_tick"			"13"	// defending points given every 10%
-			"cache_destroyed"			"0"
-			"intel_captured"			"0"
-			"vip_killed"				"0"
-			"safehouse_secured"			"0"
-			"wave_complete"				"0"
+			"kill"						"20" 
+			"kill_offensive"			"20"
+			"kill_defensive"			"20" 
+			"kill_headshot_bonus"		"10"	
+			"kill_savior"				"10"	
+			"kill_bonus_domination"		"10"	
+			"kill_bonus_revenge"		"10"	
+			"assist"					"10"	
+
+			"obj_captured"				"200"
+			"obj_neutralized"			"5"
+			"obj_reset"					"20"	// points given when defenders reset the progress to 0% (if progress got to at least 50%)
+			"obj_capture_tick"			"10"	// attacking points given every 10%
+			"obj_reset_tick"			"10"	// defending points given every 10%
+			"cache_destroyed"			"300"
+			"intel_captured"			"100"
+			"vip_killed"				"100"
+			"safehouse_secured"			"100"
+			"wave_complete"				"100"
 		}
 		"suppression"
 		{
