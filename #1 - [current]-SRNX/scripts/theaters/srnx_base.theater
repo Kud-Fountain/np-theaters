@@ -304,6 +304,7 @@
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_czse3"
 				"weapon"			"weapon_fal"
+				"weapon"			"weapon_mp5a4"
 				//"weapon"			"weapon_hk416"
 				//"weapon_upgrade"	"ammo_beta50"
 				//"weapon_upgrade"	"ammo_beta75"
@@ -388,7 +389,6 @@
 				"weapon"			"weapon_m1a1"
 				"weapon"			"weapon_scar"
 				"weapon"			"weapon_g43"
-				"weapon"			"weapon_mp5a4"
 				//Secondaries
 				"weapon"			"weapon_m93r"
 				
