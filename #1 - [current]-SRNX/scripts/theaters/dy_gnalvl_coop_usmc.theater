@@ -133,7 +133,7 @@
 					"Bot"		"juggernaut_1" 		
 					"Bot"		"juggernaut_2" 			
 					"Bot"		"scout_ins_2" 	
-					"Bot"		"scout_ins_ex" 						
+					//"Bot"		"scout_ins_ex" 						
 				}
 
 				"Team3"	// Recon team #3 - 8 Bots
