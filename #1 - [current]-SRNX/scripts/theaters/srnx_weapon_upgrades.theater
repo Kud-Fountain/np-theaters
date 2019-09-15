@@ -1261,9 +1261,9 @@
 		{
 			"print_name"				"#weapon_quick_reload_skill_marks"
 			"print_desc"				"#weapon_quick_reload_skill_marks_desc"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"upgrade_slot"				"stock"
-			"reload_speed"				"1.45"
+			"reload_speed"				"1.50"
 			"class_restricted"			"1"
 			
 			"allowed_weapons"
@@ -1313,8 +1313,8 @@
 			"print_desc"				"#fast_bolt_action_marks_desc"
 			"upgrade_cost"				"2"
 			"upgrade_slot"				"stock"
-			"bolt_speed"				"1.50"
-			"reload_speed"				"1.50"
+			"bolt_speed"				"1.45"
+			"reload_speed"				"1.60"
 			"class_restricted"			"1"
 			
 			"allowed_weapons"
