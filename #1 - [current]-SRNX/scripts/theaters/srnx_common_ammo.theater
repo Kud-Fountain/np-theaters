@@ -811,7 +811,7 @@
 			"brass_model"				"models/weapons/shells/545x39.mdl"
 			"Damage"
 			{
-				"10"					"50"
+				"10"					"70"
 				"8000"					"10"
 			}
 			"PenetrationPower"
@@ -837,7 +837,7 @@
 			"brass_model"				"models/weapons/shells/545x39.mdl"
 			"Damage"
 			{
-				"10"					"50"
+				"10"					"70"
 				"8000"					"10"
 			}
 			"DamageHitgroups"
@@ -863,7 +863,7 @@
 			"brass_model"				"models/weapons/shells/545x39.mdl"
 			"Damage"
 			{
-				"10"					"50"
+				"10"					"70"
 				"8000"					"10"
 			}
 			"DamageHitgroups"
@@ -897,7 +897,7 @@
 			"brass_model"				"models/weapons/shells/556x45.mdl"
 			"Damage"
 			{
-				"10"					"45"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
+				"10"					"65"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
 				"2700"					"30"
 				"12000"					"15"
 			}
@@ -924,7 +924,7 @@
 			"brass_model"				"models/weapons/shells/556x45.mdl"
 			"Damage"
 			{
-				"10"					"55"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
+				"10"					"75"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
 				"2700"					"30"
 				"12000"					"15"
 			}
@@ -951,7 +951,7 @@
 			"brass_model"				"models/weapons/shells/556x45.mdl"
 			"Damage"
 			{
-				"10"					"50"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
+				"10"					"70"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
 				"2700"					"30"
 				"12000"					"15"
 			}
@@ -1305,7 +1305,7 @@
 			
 			"Damage"
 			{
-				"10"					"85"
+				"10"					"70"
 				"8000"					"25"
 			}			
 
@@ -1350,7 +1350,7 @@
 			"brass_model" "models/weapons/shells/762x39.mdl"
 			"Damage"
 			{
-				"10"					"50"
+				"10"					"70"
 				"12000"					"10"
 			}
 			"PenetrationPower"
@@ -1376,7 +1376,7 @@
 			"brass_model" "models/weapons/shells/762x39.mdl"
 			"Damage"
 			{
-				"10"					"50"
+				"10"					"70"
 				"12000"					"10"
 			}
 			"DamageHitgroups"
@@ -1402,7 +1402,7 @@
 			"brass_model" "models/weapons/shells/762x39.mdl"
 			"Damage"
 			{
-				"10"					"50"
+				"10"					"70"
 				"12000"					"10"
 			}
 			"DamageHitgroups"
@@ -3080,7 +3080,7 @@
 			
 			"Damage"
 			{
-				"10"					"75"
+				"10"					"85"
 				"8000"					"25"
 			}			
 
@@ -3189,7 +3189,7 @@
 		"762x63_clip"
 		{
 			"import"		"762x63mm"
-			"carry"			"9"
+			"carry"			"12"
 			"magsize"		"8"
 		}
 		

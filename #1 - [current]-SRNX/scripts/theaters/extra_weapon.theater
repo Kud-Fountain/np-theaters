@@ -23,7 +23,7 @@
 			"barrel_length"				"30"
 			"closed_bolt"				"0"
 			"class_restricted"			"1"
-			"reload_speed"				"1.50"
+			"reload_speed"				"1.25"
 			
 			"fov"
 			{
@@ -1250,7 +1250,7 @@
 			}
 			"ballistics"
 			{
-				"spread"				"0.60 0.60 0.60"
+				"spread"				"0.40 0.40 0.40"
 				"FireModes"				"semi, full"
 				"bulletcount"				"1"
 				"maxrange"				"8000"

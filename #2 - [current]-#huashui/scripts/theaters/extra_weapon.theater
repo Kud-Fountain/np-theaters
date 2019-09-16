@@ -406,7 +406,7 @@
 			"rounds_per_minute"				"650"
 			"weapon_slot"					"primary"
 			"act_table"						"lmg"
-			"weapon_abilities"				"ironsight"
+			"weapon_abilities"				"ironsight, bipod"
 			"weapon_weight"					"270" // 18.5 + 100 round mag x2 (6.44 lbs each)
 			"weapon_cost"					"4"
 			"closed_bolt"					"0"
