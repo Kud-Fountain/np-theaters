@@ -13,16 +13,16 @@
 			"kill_bonus_revenge"		"10"	
 			"assist"					"10"	
 
-			"obj_captured"				"200"
+			"obj_captured"				"100"
 			"obj_neutralized"			"5"
-			"obj_reset"					"20"	// points given when defenders reset the progress to 0% (if progress got to at least 50%)
-			"obj_capture_tick"			"10"	// attacking points given every 10%
-			"obj_reset_tick"			"10"	// defending points given every 10%
-			"cache_destroyed"			"300"
-			"intel_captured"			"100"
+			"obj_reset"					"10"	// points given when defenders reset the progress to 0% (if progress got to at least 50%)
+			"obj_capture_tick"			"2"	// attacking points given every 10%
+			"obj_reset_tick"			"2"	// defending points given every 10%
+			"cache_destroyed"			"100"
+			"intel_captured"			"50"
 			"vip_killed"				"100"
 			"safehouse_secured"			"100"
-			"wave_complete"				"100"
+			"wave_complete"				"50"
 		}
 		// Weight is in hectograms 
 		//100 lbs = 454 hectograms

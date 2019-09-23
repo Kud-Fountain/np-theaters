@@ -6,31 +6,6 @@
 
 "theater"
 {
-	"core"
-	{
-		"precache"
-		{
-			"localize"	"resource/gnalvlsrealism_schinese.txt"
-		}
-		"precache"
-		{
-			// default theater specific sounds
-			"sounds"			"scripts/ins_sounds_weapons.txt"
-			"sounds"			"scripts/ins_sounds_custom_cues.txt"
-			"sounds"			"scripts/ins_sounds_voice.txt"
-			"sounds"			"scripts/ins_sounds_radial_security.txt"				
-			"sounds"			"scripts/ins_sounds_radial_insurgent.txt"				
-			"sounds"			"scripts/ins_sounds_responses_security.txt"
-			"sounds"			"scripts/ins_sounds_responses_insurgent.txt"
-			"sounds"			"scripts/ins_sounds_hq.txt"
-			
-			// coop specific
-			"sounds"			"scripts/ins_sounds_voice_coop.txt"
-			"particles"         "particles/gas_grenades.pcf"
-		}
-	}
-
-
 	"player_templates"
 	{
 		//security class templates

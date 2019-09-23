@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models/props_vehicles/helicopter_rescue_windows"
+
+
+$envmap env_cubemap
+$envmaptint "[.4 .4 .4]"
+}

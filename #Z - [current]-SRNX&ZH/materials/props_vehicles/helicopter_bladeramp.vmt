@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+$translucent 1
+$baseTexture "models/props_vehicles/helicopter_bladeramp"
+}

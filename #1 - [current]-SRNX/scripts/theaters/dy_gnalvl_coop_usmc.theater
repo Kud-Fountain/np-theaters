@@ -23,6 +23,12 @@
 			//Custom sounds 
 			"sounds"			"scripts/dy_lua_sounds_v1_2.txt"
 			"sounds"			"scripts/extra_weapon_cues.txt"
+			
+			"particles"         "particles/gas_grenades.pcf"
+			
+			// lua
+			"localize"			"resource/lua_hoecp_armory_cn.txt"
+			"localize"			"resource/lua_zombiehorde_cn.txt"
 		}
 	}
 	"teams"
