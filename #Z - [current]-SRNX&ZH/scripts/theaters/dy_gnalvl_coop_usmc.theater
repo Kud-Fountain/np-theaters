@@ -66,6 +66,7 @@
 					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
 					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
 					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
+					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_1"
 				}
 				"支援梯队 [布拉沃]"
 				{
@@ -73,12 +74,13 @@
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
 					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
-					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_usmc_2"
+					"#Squad_Gnalvl_SDM2"				"Gnalvl_marksman_usmc_2"
 				}
 				"医疗梯队 [查理]"
 				{
 					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
 					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
+					#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
 				}
 			}
 		}
