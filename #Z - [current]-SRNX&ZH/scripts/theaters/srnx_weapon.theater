@@ -1226,16 +1226,33 @@
 		//Custom non_explosive Healthkit
 		"weapon_healthkit"
 		{
-			"weapon_weight"				"20"
-			"weapon_slot"					"melee"
-			"weapon_weight"				"20"
-			"weapon_cost"				"1"
+			"import"				"weapon_base"
+			"weapon_class"				"other_explosive"
+			"weapon_type"				"grenade"
+			"print_name"				"#weapon_healthkit_aus"
+			"print_desc"				"#weapon_healthkit_aus_desc"
+			"single_use"				"1"
+			"view_model"				"models/hlthkit/v_c4_sec.mdl"
+			"world_model"				"models/hlthkit/w_c4.mdl"
+			"weapon_slot"				"melee"
+			"weapon_max_subslot"			"2"
+			"act_table"				"grenade"
+			"weapon_weight"				"15"
+			"weapon_cost"				"0"
 			"class_restricted"			"1"
+			"explosives"
+			{
+				"entity"				"healthkit"
+				"GrenadeRollSpeed"			"0"
+				"GrenadeThrowSpeed"			"320"
+			}
 			"ammo_clip"
 			{
-				"clip_max"					"3"
-				"clip_default"				"3"
+				"ammo_type"				"healthkit"
+				"clip_max_rounds"			"-1"	// no clips
+				"clip_default"				"1"
 			}
+			"team_access"				"security"
 		}
 		
 		//========================================
@@ -1660,67 +1677,6 @@
 			{
 				"recoil_rest_rate"			"5"
 				"recoil_rest_delay"			"0.1"
-			}
-			"team_access"	"security, insurgent"
-		}
-		//This is the new entity for melee //Technically the kabar
-		"weapon_knife"
-		{
-			"import"					"weapon_base"
-			"weapon_class"					"melee"
-			"weapon_type"					"melee"
-			"print_name"					"#weapon_kabar"
-			"view_model"					"models/weapons/v_marinebayonet.mdl"
-			"world_model"					"models/weapons/w_marinebayonet.mdl"
-			"weapon_slot"					"melee"
-			"act_table"					"knife"
-			"weapon_weight"					"1"
-			"weapon_cost"					"0"
-			"class_restricted"				"0"
-			"barrel_length"					"-1"
-			
-			"ammo_clip"
-			{
-				"ammo_type"					"invalid"
-				"clip_max_rounds"			"-1" // no clips
-				"clip_default"				"0"
-			}
-			
-			"sounds"
-			{
-				"shot_single"				"Weapon_Knife.Single"
-				"melee_hit"					"Weapon_Knife.Melee_Hit"
-				"melee_hit_world"			"Weapon_Knife.Melee_HitWorld"
-			}
-			"melee"
-			{
-				"MeleeRange"				"75"
-				"MeleeDamage"				"60"
-				"MeleeDamageBehindBonus"	"200"
-				"MeleeDamageType"			"DMG_SLASH"
-				"MeleeWeaponIdleTime"		"2"
-				"SwingAttacks"
-				{
-					"slash1"
-					{
-						"Activity"				"ACT_VM_HITCENTER"
-						"PlayerAtivity"			"ACT_SHOOT_E2W_BAT"
-						"PlayerActivityIdle"	"ACT_SHOOT_E2W_IDLE_BAT"
-						"StartTime"				"0.1"
-						"EndTime"				"0.34"
-						"Duration"				"0.9"
-						"StartDirection"		"E"
-						"EndDirection"			"W"
-						"ForceDirection"		"15 -40 0"
-					}
-				}
-			}
-			"player_restrictions"
-			{
-				"allow_lean"				"1"
-				"allow_sprint"				"1"
-				"allow_jump"				"1"
-				"allow_sway"				"1"
 			}
 			"team_access"	"security, insurgent"
 		}

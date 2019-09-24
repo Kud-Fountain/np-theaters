@@ -35,7 +35,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_sten_mk2"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m67"
 				"gear"				"gear_uav"
 				"gear"				"srnx_chest_rig1"
@@ -157,7 +157,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_l1a1"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m67"
 				"gear"				"gear_uav"
 				//"gear"				"srnx_chest_rig2"
@@ -262,7 +262,7 @@
 			{
 				//"weapon"			"weapon_saiga12"
 				"weapon"			"weapon_nam_ppsh41"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_mk3"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_esapi"
@@ -285,9 +285,9 @@
 				//"weapon_upgrade"	"ammo_beta75"
 				"weapon_upgrade"	"magazine_drum_75rd"
 				"weapon_upgrade"	"magazine_drum_50rd"
-				"weapon_upgrade"	"fast_gunner_sp"
+				//"weapon_upgrade"	"fast_gunner_sp"
 				//"weapon_upgrade"	"fast_gunner_sp_shotgun"
-				"weapon_upgrade"	"fast_gunner_sp_pis"
+				//"weapon_upgrade"	"fast_gunner_sp_pis"
 
 
 				//Secondaries
@@ -345,7 +345,7 @@
 			{
 				//"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_esapi"
@@ -415,7 +415,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_m16a4"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig2"
 				"gear"				"srnx_esapi"
@@ -510,7 +510,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_toz"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_kabar"
 				//"weapon"			"weapon_mk18"
 				//"weapon"			"weapon_c4_clicker"
 				"gear"				"gear_ammocrate"
@@ -537,7 +537,7 @@
 				"weapon_upgrade"		"underbarrel_m203_smoke"
 				"weapon_upgrade"		"underbarrel_gp25_smoke"
 				"weapon_upgrade"		"underbarrel_m320_smoke"
-				"weapon_upgrade"	"fast_gunner_sp_shotgun"
+				//"weapon_upgrade"	"fast_gunner_sp_shotgun"
 
 				//Explosives
 				"weapon"			"weapon_m67"
@@ -585,7 +585,7 @@
 
 			"buy_order" 
 			{
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_kabar"
 				//"weapon"			"weapon_mk18"
 				//"weapon"			"weapon_c4_clicker"
 				"gear"				"gear_ammocrate"
@@ -635,7 +635,7 @@
 				"weapon"			"weapon_mac10"
 				"weapon"			"weapon_kingcobra"
 
-				"weapon_upgrade"	"fast_gunner_sp_shotgun"
+				//"weapon_upgrade"	"fast_gunner_sp_shotgun"
 				"weapon_upgrade"		"underbarrel_m203_smoke"
 				"weapon_upgrade"		"underbarrel_gp25_smoke"
 				"weapon_upgrade"		"underbarrel_m320_smoke"
@@ -700,7 +700,7 @@
 				//"weapon"			"weapon_sa80"
 				"weapon"			"weapon_m3greasegun"
 				//"weapon"			"weapon_defib"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig1_mv"
 				"gear"				"srnx_esapi"
@@ -769,7 +769,7 @@
 				
 				"weapon"			"weapon_sa80"
 				"weapon"			"weapon_defib"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig2"
 				"gear"				"srnx_esapi"
@@ -863,7 +863,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_lewis"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig_mg1"
 				"gear"				"srnx_esapi"
@@ -942,7 +942,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_m249"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig_mg2"
 				"gear"				"srnx_esapi"
@@ -1035,7 +1035,7 @@
 
 			"buy_order" 
 			{
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_m67"
 				"gear"				"gear_uav"
@@ -1244,7 +1244,7 @@
 
 			"buy_order" 
 			{
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_fal"
 				//"weapon"			"weapon_c4_clicker"
 				"gear"				"gear_ammocrate"
@@ -1278,7 +1278,7 @@
 				// "weapon"			"weapon_m79_smoke"
 				// "weapon"			"weapon_m79_incen"
 
-				"weapon_upgrade"	"fast_gunner_sp_shotgun"
+				//"weapon_upgrade"	"fast_gunner_sp_shotgun"
 				"weapon_upgrade"		"underbarrel_m203_smoke"
 				"weapon_upgrade"		"underbarrel_gp25_smoke"
 				"weapon_upgrade"		"underbarrel_m320_smoke"
@@ -1363,7 +1363,7 @@
 			{
 				
 				"weapon"			"weapon_enfield"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig1"
 				"gear"				"srnx_esapi"
@@ -1385,8 +1385,8 @@
 				"weapon_upgrade"	"optic_scope_mk4"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
-				"weapon_upgrade"	"quick_reload_marks"
-				"weapon_upgrade"	"fast_bolt_action_marks"
+				//"weapon_upgrade"	"quick_reload_marks"
+				//"weapon_upgrade"	"fast_bolt_action_marks"
 				"weapon"			"weapon_glock18"
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_m84"
@@ -1428,7 +1428,7 @@
 			{
 				
 				"weapon"			"weapon_m40a1"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig2"
 				"gear"				"srnx_esapi"
@@ -1447,8 +1447,8 @@
 				"weapon_upgrade"	"optic_scope_mk4"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
-				"weapon_upgrade"	"quick_reload_marks"
-				"weapon_upgrade"	"fast_bolt_action_marks"
+				//"weapon_upgrade"	"quick_reload_marks"
+				//"weapon_upgrade"	"fast_bolt_action_marks"
 				"weapon"			"weapon_glock18"
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_m84"
@@ -1491,7 +1491,7 @@
 			{
 				
 				"weapon"			"weapon_m40a1"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig2"
 				"gear"				"srnx_esapi"
@@ -1590,7 +1590,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_m1garand"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig1"
 				//"gear"				"srnx_esapi"
@@ -3530,11 +3530,13 @@
 			"buy_order"
 			{
 				"weapon"				"weapon_kabar"
+				"gear"				"srnx_BOT_juggernaut_armor"
 			}
 			"allowed_items"
 			{
 				"gear"				"ins_light_armor"
 				"gear"				"ins_heavy_armor"
+				"gear"				"srnx_BOT_juggernaut_armor"
 			}
 			"cost_modifiers"
 			{
@@ -3573,11 +3575,13 @@
 			"buy_order"
 			{
 				"weapon"				"weapon_kabar"
+				"gear"				"srnx_BOT_juggernaut_armor"
 			}
 			"allowed_items"
 			{
 				"gear"				"ins_light_armor"
 				"gear"				"ins_heavy_armor"
+				"gear"				"srnx_BOT_juggernaut_armor"
 			}
 			"cost_modifiers"
 			{
@@ -3624,11 +3628,13 @@
 			"buy_order"
 			{
 				"weapon"				"weapon_kabar"
+				"gear"				"srnx_BOT_juggernaut_armor"
 			}
 			"allowed_items"
 			{
 				"gear"				"ins_light_armor"
 				"gear"				"ins_heavy_armor"
+				"gear"				"srnx_BOT_juggernaut_armor"
 			}
 			"cost_modifiers"
 			{
@@ -3675,11 +3681,13 @@
 			"buy_order"
 			{
 				"weapon"				"weapon_kabar"
+				"gear"				"srnx_BOT_juggernaut_armor"
 			}
 			"allowed_items"
 			{
 				"gear"				"ins_light_armor"
 				"gear"				"ins_heavy_armor"
+				"gear"				"srnx_BOT_juggernaut_armor"
 			}
 			"cost_modifiers"
 			{

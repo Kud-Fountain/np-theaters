@@ -896,6 +896,7 @@
 			"draw_speed_next_weapon"	"1.20"
 			"holster_speed_prev_weapon"	"1.20"
 			"reload_speed"				"0.90"
+			"class_restricted"			"1"
 			
 			"allowed_weapons"
 			{
@@ -1123,6 +1124,7 @@
 			"draw_speed_next_weapon"	"1.20"
 			"holster_speed_prev_weapon"	"1.20"
 			"reload_speed"				"0.90"
+			"class_restricted"			"1"
 			
 			"allowed_weapons"
 			{
@@ -1152,6 +1154,7 @@
 			"draw_speed_next_weapon"	"0.90"
 			"holster_speed_prev_weapon"	"0.90"
 			"bolt_speed"				"0.90"
+			"class_restricted"			"1"
 			
 			"allowed_weapons"
 			{	
@@ -1294,6 +1297,7 @@
 			"draw_speed_next_weapon"	"0.90"
 			"holster_speed_prev_weapon"	"0.90"
 			"draw_speed"				"0.90"
+			"class_restricted"			"1"
 			
 			"allowed_weapons"
 			{
@@ -1342,6 +1346,7 @@
 			"draw_speed_next_weapon"	"0.90"
 			"holster_speed_prev_weapon"	"0.90"
 			"draw_speed"				"0.90"
+			"class_restricted"			"1"
 			
 			"allowed_weapons"
 			{

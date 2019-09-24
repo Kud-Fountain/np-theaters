@@ -21,7 +21,7 @@ public Plugin:myinfo =
 	url = "http://group.lua.kr"
 }
 
-#define		MAXPLAYER			12		// MAX SECURITY PLAYER SLOTS
+#define		MAXPLAYER			10		// MAX SECURITY PLAYER SLOTS
 
 #define		TEAM_NONE			0
 #define		TEAM_SPECTATOR		1
@@ -29,11 +29,11 @@ public Plugin:myinfo =
 #define		TEAM_ZOMBIES		3
 
 /**			WEAPON INDEX VALUES			**/
-#define		WEAPON_FLAREGUN		94
-#define		WEAPON_HEALTHKIT	1
-#define		WEAPON_LAW			15
-#define		WEAPON_AT4			3
-#define		WEAPON_KABAR		32
+#define		WEAPON_FLAREGUN		25
+#define		WEAPON_HEALTHKIT	21
+#define		WEAPON_LAW			3
+#define		WEAPON_AT4			2
+#define		WEAPON_KABAR		30
 
 #define ZOMBIE_DUMMY_WEAPON					"weapon_model10"
 #define ZOMBIE_COMMON_INDEX					0
@@ -2248,15 +2248,15 @@ public Action:Command_SetGear(client, args)
 			decl String:sName[32];
 			switch(StringToInt(value))
 			{
-				case 1: sName = "Light Armor";
-				case 3: sName = "Heavy Armor";
-				case 6: sName = "Chest Rig";
-				case 8: sName = "Chest Carrier";
-				case 10: sName = "Tactical Carrier";
-				case 12: sName = "Primary Sling";
-				case 13: sName = "Secondary Sling";
-				case 15: sName = "NVG";
-				default: sName = "Unknown";
+				//case 1: sName = "Light Armor";
+				//case 3: sName = "Heavy Armor";
+				//case 6: sName = "Chest Rig";
+				//case 8: sName = "Chest Carrier";
+				//case 10: sName = "Tactical Carrier";
+				//case 12: sName = "Primary Sling";
+				//case 13: sName = "Secondary Sling";
+				//case 15: sName = "NVG";
+				//default: sName = "Unknown";
 			}
 			PrintToChat(client, "\x04%N - m_iMyGear %d. %s (id: %d)", client, StringToInt(slots), sName, StringToInt(value));
 		}
@@ -3286,7 +3286,7 @@ public SHook_OnPreThink(client)
 								}
 								else PrintCenterText(client, "按 \"使用键 (F) 和切出刀\" 来维修路障");
 							}
-							else PrintCenterText(client, "呼叫 \"爆破手\" 来维修路障");
+							else PrintCenterText(client, "呼叫 \"霰弹专家\" 来维修路障");
 						}
 					}
 				}
@@ -4383,7 +4383,7 @@ public void OnGearDamaged(const char[] output, int caller, int activator, float 
 					SetEntProp(caller, Prop_Data, "m_iMaxHealth", iFixMaxHp);
 					SetEntPropFloat(caller, Prop_Data, "m_flLocalTime", 1.0);
 					DispatchKeyValue(caller, "targetname", "LuaCustomModel");
-					PrintToChatAll("\x04路障 \x01被破坏了。  \x08%s呼叫爆破手来进行修理！", COLOR_GOLD);
+					PrintToChatAll("\x04路障 \x01被破坏了。  \x08%s呼叫霰弹专家来进行修理！", COLOR_GOLD);
 				}
 			}
 		}
@@ -5113,15 +5113,15 @@ stock UpdateBotsConfig(iPlayers = 0, bool:bNotice = true, bool:bOnlyNoticeWhenUp
 	new iBotCount = 0;
 	switch(iPlayers)
 	{
-		case 11, 12: iBotCount = 22;
-		case 9, 10: iBotCount = 20;	
-		case 7, 8: iBotCount = 17;
-		case 5, 6: iBotCount = 14;
-		case 4: iBotCount = 13;
-		case 3: iBotCount = 11;
+		//case 11, 12: iBotCount = 22;
+		case 9, 10: iBotCount = 39;	
+		case 7, 8: iBotCount = 31;
+		case 5, 6: iBotCount = 25;
+		case 4: iBotCount = 20;
+		case 3: iBotCount = 15;
 		case 2: iBotCount = 8;
 		case 0, 1: iBotCount = 3;
-		default: iBotCount = 26;
+		default: iBotCount = 39;
 	}
 //	iBotCount = 2;
 	new bool:bUpdate = false;
@@ -5136,9 +5136,9 @@ stock UpdateBotsConfig(iPlayers = 0, bool:bNotice = true, bool:bOnlyNoticeWhenUp
 		bUpdate = true;
 	if (bNotice && bUpdate)
 	{
-		if (iBotCount >= 18) PrintToChatAll("\x08%s僵尸： \x04地狱", COLOR_INSURGENTS);
-		else if (iBotCount >= 14) PrintToChatAll("\x08%s僵尸：  \x05困难", COLOR_INSURGENTS);
-		else if (iBotCount >= 9) PrintToChatAll("\x08%s僵尸：  \x05正常", COLOR_INSURGENTS);
+		if (iBotCount >= 31) PrintToChatAll("\x08%s僵尸： \x04地狱", COLOR_INSURGENTS);
+		else if (iBotCount >= 25) PrintToChatAll("\x08%s僵尸：  \x05困难", COLOR_INSURGENTS);
+		else if (iBotCount >= 15) PrintToChatAll("\x08%s僵尸：  \x05正常", COLOR_INSURGENTS);
 		else PrintToChatAll("\x08%s僵尸：  \x01简单", COLOR_INSURGENTS);
 	}
 }
@@ -7777,13 +7777,13 @@ public Action:SHook_OnTakeDamage(victim, &attacker, &inflictor, &Float:damage, &
 				{
 					case 1:	// Head
 					{
-						damage *= 3.0;
+						damage *= 0.6;
 						bChanged = true;
 					}
 
 					default:
 					{
-						damage /= 2.0;
+						damage /= 0.3;
 						bChanged = true;
 					}
 				}

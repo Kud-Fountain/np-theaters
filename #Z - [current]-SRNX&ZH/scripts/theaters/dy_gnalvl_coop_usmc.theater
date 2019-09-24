@@ -25,6 +25,7 @@
 			"sounds"			"scripts/extra_weapon_cues.txt"
 			
 			"particles"         "particles/gas_grenades.pcf"
+			"localize"			"resource/gnalvlsrealism_schinese.txt"
 			
 			// lua
 			"localize"			"resource/lua_hoecp_armory_cn.txt"
