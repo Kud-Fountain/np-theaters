@@ -7783,7 +7783,7 @@ public Action:SHook_OnTakeDamage(victim, &attacker, &inflictor, &Float:damage, &
 
 					default:
 					{
-						damage /= 0.3;
+						damage *= 0.3;
 						bChanged = true;
 					}
 				}

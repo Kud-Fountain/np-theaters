@@ -10,14 +10,14 @@
 			"print_desc"				"#gear_healthkit_desc"
 			"gear_cost"				"1"
 			"gear_weight"				"20"
-			"gear_slot"					"backpack"
+			"gear_slot"					"misc1"
 			
 			"weapon_slots"
 			{
 				"melee"		"2"
 			}
 			
-			"class_restricted"		"1"
+			"class_restricted"		"0"
 			"team_access"				"security"
 		}
 		
@@ -25,7 +25,7 @@
 		{
 			"print_name"				"#gear_uav"
 			"print_desc"				"#gear_uav_desc"
-			"gear_cost"				"0"
+			"gear_cost"				"1"
 			"gear_weight"				"15"
 			"gear_slot"					"backpack"
 			"class_restricted"			"1"
@@ -43,7 +43,7 @@
 		{
 			"print_name"				"#gear_ammocrate"
 			"print_desc"				"#gear_ammocrate_desc"
-			"gear_cost"					"0"
+			"gear_cost"					"1"
 			"gear_weight"				"20"
 			"gear_slot"					"backpack"
 			"class_restricted"			"1"
