@@ -5160,7 +5160,7 @@ public Action:HudTimer(Handle:timer)
 			if (!IsClientInGame(client) || IsFakeClient(client)) continue;
 			GetClientInfo(client, "cl_language", language, sizeof(language));
 			if (StrContains(language, "korea", false) == -1)
-				PrintHintText(client, "在聊天窗口输入 \n \n /HELP \n \n 来获取帮助信息");
+				PrintHintText(client, "游戏即将开始！");
 			else
 				PrintHintText(client, "채팅창에 \n \n /HELP \n \n 를 입력하시면 게임 정보가 나옵니다");
 
@@ -12096,7 +12096,7 @@ public Action:Timer_SetNetClassName(Handle:timer, any:client)
 
 public INS_OnPlayerResupplyed(client)
 {
-	PrintToChat(client, "\x05 >>> \x01如需要更多帮助信息，请输入 \x08%s/HELP", COLOR_GOLD);
+	PrintToChat(client, "\x05 >>> \x01已重新补给", COLOR_GOLD);
 	if (IsPlayerAlive(client))
 	{
 		EmitSoundToAll("Lua_sounds/ammo_pickup.wav", client, SNDCHAN_STATIC, _, _, 1.0);
