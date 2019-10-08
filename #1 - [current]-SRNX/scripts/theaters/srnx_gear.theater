@@ -69,18 +69,6 @@
 			"team_access"				"security, insurgent"
 		}
 		
-		"gear_boot_speed"
-		{
-			"print_name"			"#gear_bootspeed"
-			"print_desc"			"#gear_bootspeed_desc"
-			"gear_slot"				"misc1"
-			"gear_cost"				"2"
-			"gear_weight"			"0"
-			"class_restricted"			"1"
-			
-			"team_access"				"security, insurgent"
-		}
-		
 		"sec_fr_suit_armor"
 		{
 			"print_name"				"#gear_fr_suit_armor"
@@ -238,10 +226,7 @@
 			
 			"team_access"				"security, insurgent"
 		}
-
-		/*##########################################
-		################  SEC ARMORS  ##############
-		##########################################*/
+		
 		"srnx_nij_2"
 		{
 			"print_name"	"#gear_nij_2_armor"
@@ -458,9 +443,6 @@
 			}
 			"team_access"				"security, insurgent"
 		}
-		/*##########################################
-		################  SEC HELMETS  #############
-		##########################################*/
 
 		"srnx_devgru_1_a" // Devgru light 1
         {
@@ -620,11 +602,7 @@
 			"penetration_power_loss"	"25"
             "team_access"   		"security, insurgent"
         }
-
-
-        /*##########################################
-		################  SEC CARRIERS  ############
-		##########################################*/
+		
 		//MG CARRIERS
 		"srnx_chest_carrier_mg1" //
 		{
@@ -1395,17 +1373,10 @@
 			
 		}
 
-		/*##########################################
-########################  BOT TEAM  #######################################################################
-		##########################################*/
-
 
 		
 //-----------------------BOTS BELOW THIS LINE EXCEPT NVG ---------//
 //----------------------------------------------------------------//
-		/*##########################################
-		################  BOT CARRIERS  ##################
-		##########################################*/
 		"srnx_sling_bot"
 		{
 			"print_name"	"#gear_sling"
@@ -1547,10 +1518,7 @@
 			}
 			"team_access"				"insurgent"
 		}
-		
-		/*##########################################
-		################ BOT ARMORS  ##################
-		##########################################*/
+
 		//Bot Armor
 		"srnx_BOT_nij_2"
 		{
@@ -1885,12 +1853,7 @@
 			"penetration_power_loss"	"0"
             "team_access"   		"insurgent"
         }
-
-
-
-        /*##########################################
-		################  BOT HELMETS  ##################
-		##########################################*/
+		
 		// "srnx_BOT_ins_helmet_dgreen" // Dark Green Helmet
   //       {
   //           "print_name"    		"#ins_helmet"
