@@ -81,7 +81,7 @@
 				"后援梯队 [查理]"
 				{
 					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
-					"#Squad_NMSL"						"Gnalvl_nmsl"
+					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
 					"#Squad_NMSL"						"Gnalvl_nmsl"
 					"#Squad_NMSL"						"Gnalvl_nmsl"
 				}

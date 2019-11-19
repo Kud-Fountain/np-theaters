@@ -1124,7 +1124,7 @@
 			"view_model"				"models/weapons/v_vickers.mdl"
 			"world_model"				"models/weapons/w_vickers.mdl"
 			"weapon_class"				"lmg"
-			"weapon_cost"				"5"
+			"weapon_cost"				"0"
 			"print_name"				"#weapon_vickers"
 			"print_desc"				"#weapon_vickers_desc"
 			"rounds_per_minute"			"500"

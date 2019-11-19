@@ -378,7 +378,7 @@
 			"print_name"	"#srnx_jugger"
 			"print_desc"	"#srnx_jugger_desc"
 			"gear_slot"		"armor"
-			"gear_cost"		"5"
+			"gear_cost"		"8"
 			"class_restricted"		"1"
 			"gear_weight"	"470" // jugger base
 			"extra_ammo"
