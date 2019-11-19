@@ -6,6 +6,67 @@
 {
 	"weapons"
 	{
+		"weapon_knife_jg"
+		{
+			"import"					"weapon_base"
+			"weapon_class"					"melee"
+			"weapon_type"					"melee"
+			"print_name"					"#weapon_kabar"
+			"view_model"					"models/weapons/v_marinebayonet.mdl"
+			"world_model"					"models/weapons/w_marinebayonet.mdl"
+			"weapon_slot"					"melee"
+			"act_table"					"knife"
+			"weapon_weight"					"0"
+			"weapon_cost"					"0"
+			"class_restricted"				"0"
+			"barrel_length"					"-1"
+			
+			"ammo_clip"
+			{
+				"ammo_type"					"invalid"
+				"clip_max_rounds"			"-1" // no clips
+				"clip_default"				"0"
+			}
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_Knife.Single"
+				"melee_hit"					"Weapon_Knife.Melee_Hit"
+				"melee_hit_world"			"Weapon_Knife.Melee_HitWorld"
+			}
+			"melee"
+			{
+				"MeleeRange"				"50"
+				"MeleeDamage"				"10"
+				"MeleeDamageBehindBonus"	"0"
+				"MeleeDamageType"			"DMG_SLASH"
+				"MeleeWeaponIdleTime"		"2"
+				"SwingAttacks"
+				{
+					"slash1"
+					{
+						"Activity"				"ACT_VM_HITCENTER"
+						"PlayerAtivity"			"ACT_SHOOT_E2W_BAT"
+						"PlayerActivityIdle"	"ACT_SHOOT_E2W_IDLE_BAT"
+						"StartTime"				"0.1"
+						"EndTime"				"0.34"
+						"Duration"				"0.9"
+						"StartDirection"		"E"
+						"EndDirection"			"W"
+						"ForceDirection"		"15 -40 0"
+					}
+				}
+			}
+			"player_restrictions"
+			{
+				"allow_lean"				"0"
+				"allow_sprint"				"0"
+				"allow_jump"				"0"
+				"allow_sway"				"0"
+				"allow_prone"				"0"
+			}
+			"team_access"	"security, insurgent"
+		}
 		"weapon_mg34"
 		{
 			"import"					"ballistic_base"
@@ -23,7 +84,13 @@
 			"barrel_length"				"30"
 			"closed_bolt"				"0"
 			"class_restricted"			"1"
-			"reload_speed"				"1.25"
+			"bolt_speed"				"1.20"
+			"reload_speed"				"1.20"
+			"draw_speed"				"1.20"
+			"holster_speed"				"1.20"
+			"draw_speed_next_weapon"	"1.20"
+			"holster_speed_prev_weapon"	"1.20"
+			"draw_speed"				"1.20"
 			
 			"fov"
 			{
@@ -167,7 +234,14 @@
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
 			"barrel_length"				"16"
-			"closed_bolt"				"0"			
+			"closed_bolt"				"0"	
+			"bolt_speed"				"1.20"
+			"reload_speed"				"1.20"
+			"draw_speed"				"1.20"
+			"holster_speed"				"1.20"
+			"draw_speed_next_weapon"	"1.20"
+			"holster_speed_prev_weapon"	"1.20"
+			"draw_speed"				"1.20"
 			
 			"viewmodel_attachments"
 			{
@@ -285,7 +359,14 @@
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
 			"barrel_length"				"16"
-			"closed_bolt"				"0"		
+			"closed_bolt"				"0"	
+			"bolt_speed"				"1.20"
+			"reload_speed"				"1.20"
+			"draw_speed"				"1.20"
+			"holster_speed"				"1.20"
+			"draw_speed_next_weapon"	"1.20"
+			"holster_speed_prev_weapon"	"1.20"
+			"draw_speed"				"1.20"
 
 			"viewmodel_attachments"
 			{
@@ -404,6 +485,13 @@
 			"weapon_weight"				"110"
 			"barrel_length"				"38"
 			"class_restricted"			"1"
+			"bolt_speed"				"1.20"
+			"reload_speed"				"1.20"
+			"draw_speed"				"1.20"
+			"holster_speed"				"1.20"
+			"draw_speed_next_weapon"	"1.20"
+			"holster_speed_prev_weapon"	"1.20"
+			"draw_speed"				"1.20"
 			
 			"viewmodel_attachments"
 			{
@@ -537,6 +625,13 @@
 			"weapon_weight"				"100"
 			"barrel_length"				"38"
 			"class_restricted"			"1"
+			"bolt_speed"				"1.20"
+			"reload_speed"				"1.20"
+			"draw_speed"				"1.20"
+			"holster_speed"				"1.20"
+			"draw_speed_next_weapon"	"1.20"
+			"holster_speed_prev_weapon"	"1.20"
+			"draw_speed"				"1.20"
 			
 			"fov"
 			{
@@ -647,6 +742,13 @@
 			"class_restricted"			"1"
 			"barrel_length"				"16"
 			"closed_bolt"				"0"
+			"bolt_speed"				"1.20"
+			"reload_speed"				"1.20"
+			"draw_speed"				"1.20"
+			"holster_speed"				"1.20"
+			"draw_speed_next_weapon"	"1.20"
+			"holster_speed_prev_weapon"	"1.20"
+			"draw_speed"				"1.20"
 			
 			"viewmodel_attachments"
 			{
@@ -763,6 +865,13 @@
 			"weapon_weight"				"38"
 			"weapon_cost"				"0"
 			"barrel_length"				"16"
+			"bolt_speed"				"1.20"
+			"reload_speed"				"1.20"
+			"draw_speed"				"1.20"
+			"holster_speed"				"1.20"
+			"draw_speed_next_weapon"	"1.20"
+			"holster_speed_prev_weapon"	"1.20"
+			"draw_speed"				"1.20"
 			
 			"viewmodel_attachments"
 			{
@@ -888,6 +997,13 @@
 			"weapon_weight"				"48"
 			"weapon_cost"				"1"
 			"barrel_length"				"22"
+			"bolt_speed"				"1.20"
+			"reload_speed"				"1.20"
+			"draw_speed"				"1.20"
+			"holster_speed"				"1.20"
+			"draw_speed_next_weapon"	"1.20"
+			"holster_speed_prev_weapon"	"1.20"
+			"draw_speed"				"1.20"
 			
 			"fov"
 			{
@@ -1008,21 +1124,23 @@
 			"view_model"				"models/weapons/v_vickers.mdl"
 			"world_model"				"models/weapons/w_vickers.mdl"
 			"weapon_class"				"lmg"
-			"weapon_cost"				"6"
+			"weapon_cost"				"5"
 			"print_name"				"#weapon_vickers"
 			"print_desc"				"#weapon_vickers_desc"
 			"rounds_per_minute"			"500"
 			"weapon_slot"				"primary"
 			"act_table"					"lmg"
 			"weapon_abilities"			"ironsight, bipod"
-			"weapon_weight"				"140"
+			"weapon_weight"				"0" //140
 			"barrel_length"				"24"
 
-			"draw_speed"				"0.85"
+			"bolt_speed"				"0.90"
 			"reload_speed"				"0.90"
-			"holster_speed"				"0.85"
-			"draw_speed_next_weapon"	"0.85"
-			"holster_speed_prev_weapon"	"0.85"
+			"draw_speed"				"0.90"
+			"holster_speed"				"0.90"
+			"draw_speed_next_weapon"	"0.90"
+			"holster_speed_prev_weapon"	"0.90"
+			"draw_speed"				"0.90"
 			
 			"fov"
 			{
@@ -1111,9 +1229,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"303_brit_belt"
-				"clip_max"				"5"
+				"clip_max"				"50"
 				"clip_max_rounds"		"250"
-				"clip_default"			"0"
+				"clip_default"			"-1"
 			}
 			
 			"sounds"
@@ -1152,6 +1270,15 @@
 				"position"				"22 -5 1"
 			}
 			
+			"player_restrictions"
+			{
+				"allow_lean"				"0"
+				"allow_sprint"				"0"
+				"allow_prone"				"0"
+				"allow_jump"				"0"
+				"allow_sway"				"0"
+			}
+			
 			"weapon_requirements"		"ironsights_bipod"
 			
 			"team_access"				"security, insurgent"
@@ -1174,11 +1301,13 @@
 			"weapon_cost"				"1"
 			"barrel_length"				"30"
 			"class_restricted"			"1"
-			"reload_speed"				"1.25"
-			"draw_speed"				"1.25"
-			"holster_speed"				"1.25"
-			"draw_speed_next_weapon"	"1.25"
-			"holster_speed_prev_weapon"	"1.25"
+			"bolt_speed"				"1.20"
+			"reload_speed"				"1.20"
+			"draw_speed"				"1.20"
+			"holster_speed"				"1.20"
+			"draw_speed_next_weapon"	"1.20"
+			"holster_speed_prev_weapon"	"1.20"
+			"draw_speed"				"1.20"
 			
 			"viewmodel_attachments"
 			{
@@ -1393,6 +1522,13 @@
 			"weapon_weight"				"48"
 			"weapon_cost"				"0"
 			"barrel_length"				"16"
+			"bolt_speed"				"1.20"
+			"reload_speed"				"1.20"
+			"draw_speed"				"1.20"
+			"holster_speed"				"1.20"
+			"draw_speed_next_weapon"	"1.20"
+			"holster_speed_prev_weapon"	"1.20"
+			"draw_speed"				"1.20"
 			
 			"fov"
 			{
@@ -1498,7 +1634,13 @@
 			"weapon_weight"				"105"
 			"weapon_cost"				"0"
 			"barrel_length"				"28"
-			"reload_speed"				"1.50"
+			"bolt_speed"				"1.20"
+			"reload_speed"				"1.20"
+			"draw_speed"				"1.20"
+			"holster_speed"				"1.20"
+			"draw_speed_next_weapon"	"1.20"
+			"holster_speed_prev_weapon"	"1.20"
+			"draw_speed"				"1.20"
 			
 			"fov"
 			{
@@ -1639,6 +1781,13 @@
 			"weapon_weight"				"110"
 			"barrel_length"				"38"
 			"class_restricted"			"1"
+			"bolt_speed"				"1.20"
+			"reload_speed"				"1.20"
+			"draw_speed"				"1.20"
+			"holster_speed"				"1.20"
+			"draw_speed_next_weapon"	"1.20"
+			"holster_speed_prev_weapon"	"1.20"
+			"draw_speed"				"1.20"
 			
 			"viewmodel_attachments"
 			{
@@ -1758,6 +1907,13 @@
 			"fire_cycle"				"0.2"
 			"weapon_max_subslot"			"0"
 			"class_restricted"			"1"//new class 0
+			"bolt_speed"				"1.20"
+			"reload_speed"				"1.20"
+			"draw_speed"				"1.20"
+			"holster_speed"				"1.20"
+			"draw_speed_next_weapon"	"1.20"
+			"holster_speed_prev_weapon"	"1.20"
+			"draw_speed"				"1.20"
 
 			"fov"
 			{
@@ -1843,11 +1999,13 @@
 			"barrel_length"				"26"
 			"class_restricted"			"1"	
 			
-			"draw_speed"				"0.80"
-			"reload_speed"				"0.85"
-			"holster_speed"				"0.80"
-			"draw_speed_next_weapon"	"0.80"
-			"holster_speed_prev_weapon"	"0.80"
+			"bolt_speed"				"1.20"
+			"reload_speed"				"1.20"
+			"draw_speed"				"1.20"
+			"holster_speed"				"1.20"
+			"draw_speed_next_weapon"	"1.20"
+			"holster_speed_prev_weapon"	"1.20"
+			"draw_speed"				"1.20"
 			
 			"fov"
 			{
@@ -2219,6 +2377,13 @@
 			"barrel_length"				"38"
 			"closed_bolt"				"0"
 			"class_restricted"			"1"
+			"bolt_speed"				"1.20"
+			"reload_speed"				"1.20"
+			"draw_speed"				"1.20"
+			"holster_speed"				"1.20"
+			"draw_speed_next_weapon"	"1.20"
+			"holster_speed_prev_weapon"	"1.20"
+			"draw_speed"				"1.20"
 			
 			"fov"
 			{

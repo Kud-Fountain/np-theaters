@@ -373,6 +373,45 @@
 			"penetration_power_loss"	"85"
 			"team_access"				"security, insurgent"
 		}
+		"srnx_jugger"
+		{
+			"print_name"	"#srnx_jugger"
+			"print_desc"	"#srnx_jugger_desc"
+			"gear_slot"		"armor"
+			"gear_cost"		"5"
+			"class_restricted"		"1"
+			"gear_weight"	"470" // jugger base
+			"extra_ammo"
+			{
+				"primary2"	"20" //8
+				"secondary2"
+				{
+					"0" "0"
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"	"0"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"0.05"	// death
+				"HITGROUP_CHEST"			"0.05"
+				"HITGROUP_STOMACH"			"0.05"
+				"HITGROUP_LEFTARM"			"0.05"
+				"HITGROUP_RIGHTARM"			"0.05"
+				"HITGROUP_LEFTLEG"			"0.05"
+				"HITGROUP_RIGHTLEG"			"0.05"
+				"HITGROUP_GENERIC"			"0.05"
+			}
+			"player_model_bodygroups"
+			{
+
+			}
+			"explosive_damage_frac"		"0.05"
+			"penetration_power_loss"	"85"
+			"team_access"				"security"
+		}
 		
 		"srnx_daps1"
 		{
@@ -626,6 +665,31 @@
 		################  SEC CARRIERS  ############
 		##########################################*/
 		//MG CARRIERS
+		"srnx_chest_rig_jugger" //
+		{
+			"print_name"	"#gear_chest_rig_jugger"
+			"print_desc"	"#gear_chest_rig_jugger_desc"
+			"gear_slot"		"vest"
+			"gear_cost"		"0"
+			"class_restricted" "1"
+			"gear_weight"	"0" // 0.4 kg * 54.5
+			"extra_ammo"
+			{
+				"primary2"	"20" //8
+				"secondary2"
+				{
+					"0" "0"
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"	"0"
+			}
+            "player_model_bodygroups"
+			{
+			}
+			"team_access"	"security"
+		}
 		"srnx_chest_carrier_mg1" //
 		{
 			"print_name"	"#gear_chest_carrier_mg1"

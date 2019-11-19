@@ -78,13 +78,16 @@
 					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_usmc_2"
 					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_usmc_2"
 				}
-				"医疗梯队 [查理]"
+				"后援梯队 [查理]"
 				{
 					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
-					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
-					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
-					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
-					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
+					"#Squad_NMSL"						"Gnalvl_nmsl"
+					"#Squad_NMSL"						"Gnalvl_nmsl"
+					"#Squad_NMSL"						"Gnalvl_nmsl"
+				}
+				"特殊梯队 [德尔塔]"
+				{
+					"#Squad_Jugger"						"Gnalvl_jugger"
 				}
 			}
 		}

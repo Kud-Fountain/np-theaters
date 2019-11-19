@@ -1999,6 +1999,11 @@
 			"print_desc"					"#aimpointmag2x_desc"
 			"upgrade_cost"					"0"
 			"weight"						"5"
+			"ironsights"
+			{
+				"in_time"				"0.2"
+				"out_time"				"0.2"
+			}
 			"allowed_weapons"
 			{
 				//sec weapons
@@ -2482,6 +2487,11 @@
 			"print_name"					"#aimpointcomp"
 			"print_desc"					"#aimpointcomp_desc"
 			"weight"						"4"
+			"ironsights"
+			{
+				"in_time"				"0.6"
+				"out_time"				"0.55"
+			}
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_galil_sar"
@@ -2946,6 +2956,11 @@
 			"print_desc"				"#weapon_upgrade_pistoldot_desc"
 			"team_access"				"security"
 			"weapon_weight"				"2"
+			"ironsights"
+			{
+				"in_time"				"0.6"
+				"out_time"				"0.55"
+			}
 			
 			"allowed_weapons"
 			{
@@ -2995,6 +3010,11 @@
 			"print_desc"				"#weapon_upgrade_elcan_desc"
 			"weight"						"5"
 			"class_restricted"			"1"
+			"ironsights"
+			{
+				"in_time"				"0.6"
+				"out_time"				"0.55"
+			}
 			"allowed_weapons"
 			{
 				// security weapons
@@ -3404,6 +3424,11 @@
 			"print_desc"					"#eotech553_desc"
 			"upgrade_cost"					"0"
 			"weight"						"4"
+			"ironsights"
+			{
+				"in_time"				"0.6"
+				"out_time"				"0.55"
+			}
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_galil_sar"
@@ -3934,6 +3959,11 @@
 			"print_name"				"#weapon_upgrade_kobra"
 			"print_desc"				"#weapon_upgrade_kobra_desc"
 			"weight"						"4"
+			"ironsights"
+			{
+				"in_time"				"0.6"
+				"out_time"				"0.55"
+			}
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_galil_sar"
@@ -4411,6 +4441,11 @@
 			"weight"						"5"
 			"class_restricted"				"1"
 			//"upgrade_cost"					"0"
+			"ironsights"
+			{
+				"in_time"				"0.6"
+				"out_time"				"0.55"
+			}
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_ak74"
@@ -4798,6 +4833,11 @@
 			//"upgrade_cost"					"0"
 			"class_restricted"				"0"
 			"weight"						"6"
+			"ironsights"
+			{
+				"in_time"				"0.6"
+				"out_time"				"0.55"
+			}
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_svd"
@@ -4855,6 +4895,11 @@
 			//"upgrade_cost"					"0"
 			"class_restricted"				"1"
 			"weight"						"6"
+			"ironsights"
+			{
+				"in_time"				"0.6"
+				"out_time"				"0.55"
+			}
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_mosin"
@@ -4984,6 +5029,11 @@
 			"class_restricted"				"1"
 			//"upgrade_cost"					"0"
 			"weight"						"6"
+			"ironsights"
+			{
+				"in_time"				"0.6"
+				"out_time"				"0.55"
+			}
 			"allowed_weapons"
 			{
 				"weapon"			"weapon_m14"
