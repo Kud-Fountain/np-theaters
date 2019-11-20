@@ -50,6 +50,8 @@
 				// "weapon"			"weapon_m79_smoke"
 				// "weapon"			"weapon_m79_incen"
 				//Primaries
+				"weapon"			"weapon_c96carbine"
+				"weapon"			"weapon_ump45"
 				"weapon"			"weapon_sten_mk2"
 				"weapon"			"weapon_aug3"
 				"weapon"			"weapon_g36c"
@@ -76,6 +78,7 @@
 
 				//Secondaries
 				"weapon"			"weapon_deagle"
+				"weapon"			"weapon_m45"
 				//"weapon"			"weapon_mini14"
 				//"weapon"			"weapon_mp40"
 				//"weapon"			"weapon_m590"
@@ -272,6 +275,9 @@
 			"allowed_items"
 			{
 				//Primaries
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_f2000"
+				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_nam_ppsh41"
 				"weapon"			"weapon_vz58"
 				"weapon"			"weapon_acr"
@@ -292,6 +298,7 @@
 
 				//Secondaries
 				"weapon"			"weapon_usp"
+				"weapon"			"weapon_kingcobra"
 				//Explosives
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_m84"
@@ -355,6 +362,8 @@
 			"allowed_items"
 			{
 				//Primaries
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_mp7"
 				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_famas"
 				"weapon"			"weapon_sten_mk5"
@@ -522,6 +531,7 @@
 			"allowed_items"
 			{
 				//Primaries
+				"weapon"			"weapon_m590"
 				"weapon"			"weapon_ksg"
 				"weapon"			"weapon_saiga12"
 				"weapon"			"weapon_spas12"
@@ -1533,7 +1543,7 @@
 			"allowed_items"
 			{
 				//Primaries
-				//"weapon"			"weapon_m3greasegun"
+				"weapon"			"weapon_m3greasegun"
 				"weapon"			"weapon_thompson_m1a1"
 				"weapon"			"weapon_m1garand"
 				"weapon"			"weapon_mk18_m0"
