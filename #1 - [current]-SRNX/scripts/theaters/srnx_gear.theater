@@ -69,18 +69,6 @@
 			"team_access"				"security, insurgent"
 		}
 		
-		"gear_boot_speed"
-		{
-			"print_name"			"#gear_bootspeed"
-			"print_desc"			"#gear_bootspeed_desc"
-			"gear_slot"				"misc1"
-			"gear_cost"				"2"
-			"gear_weight"			"0"
-			"class_restricted"			"1"
-			
-			"team_access"				"security, insurgent"
-		}
-		
 		"sec_fr_suit_armor"
 		{
 			"print_name"				"#gear_fr_suit_armor"
@@ -238,10 +226,7 @@
 			
 			"team_access"				"security, insurgent"
 		}
-
-		/*##########################################
-		################  SEC ARMORS  ##############
-		##########################################*/
+		
 		"srnx_nij_2"
 		{
 			"print_name"	"#gear_nij_2_armor"
@@ -383,15 +368,7 @@
 			"gear_weight"	"470" // jugger base
 			"extra_ammo"
 			{
-				"primary2"	"20" //8
-				"secondary2"
-				{
-					"0" "0"
-				}
-			}
-			"weapon_slots"
-			{
-				"explosive"	"0"
+				"primary"	"20" //8
 			}
 			"DamageHitgroups"
 			{
@@ -403,10 +380,6 @@
 				"HITGROUP_LEFTLEG"			"0.05"
 				"HITGROUP_RIGHTLEG"			"0.05"
 				"HITGROUP_GENERIC"			"0.05"
-			}
-			"player_model_bodygroups"
-			{
-
 			}
 			"explosive_damage_frac"		"0.05"
 			"penetration_power_loss"	"85"
@@ -497,9 +470,6 @@
 			}
 			"team_access"				"security, insurgent"
 		}
-		/*##########################################
-		################  SEC HELMETS  #############
-		##########################################*/
 
 		"srnx_devgru_1_a" // Devgru light 1
         {
@@ -660,36 +630,7 @@
             "team_access"   		"security, insurgent"
         }
 
-
-        /*##########################################
-		################  SEC CARRIERS  ############
-		##########################################*/
 		//MG CARRIERS
-		"srnx_chest_rig_jugger" //
-		{
-			"print_name"	"#gear_chest_rig_jugger"
-			"print_desc"	"#gear_chest_rig_jugger_desc"
-			"gear_slot"		"vest"
-			"gear_cost"		"0"
-			"class_restricted" "1"
-			"gear_weight"	"0" // 0.4 kg * 54.5
-			"extra_ammo"
-			{
-				"primary2"	"20" //8
-				"secondary2"
-				{
-					"0" "0"
-				}
-			}
-			"weapon_slots"
-			{
-				"explosive"	"0"
-			}
-            "player_model_bodygroups"
-			{
-			}
-			"team_access"	"security"
-		}
 		"srnx_chest_carrier_mg1" //
 		{
 			"print_name"	"#gear_chest_carrier_mg1"
@@ -1459,17 +1400,10 @@
 			
 		}
 
-		/*##########################################
-########################  BOT TEAM  #######################################################################
-		##########################################*/
-
 
 		
 //-----------------------BOTS BELOW THIS LINE EXCEPT NVG ---------//
 //----------------------------------------------------------------//
-		/*##########################################
-		################  BOT CARRIERS  ##################
-		##########################################*/
 		"srnx_sling_bot"
 		{
 			"print_name"	"#gear_sling"
@@ -1612,9 +1546,6 @@
 			"team_access"				"insurgent"
 		}
 		
-		/*##########################################
-		################ BOT ARMORS  ##################
-		##########################################*/
 		//Bot Armor
 		"srnx_BOT_nij_2"
 		{
@@ -1949,12 +1880,7 @@
 			"penetration_power_loss"	"0"
             "team_access"   		"insurgent"
         }
-
-
-
-        /*##########################################
-		################  BOT HELMETS  ##################
-		##########################################*/
+		
 		// "srnx_BOT_ins_helmet_dgreen" // Dark Green Helmet
   //       {
   //           "print_name"    		"#ins_helmet"
