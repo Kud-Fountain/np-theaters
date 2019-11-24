@@ -1957,7 +1957,6 @@
 				"weapon"			"weapon_m79"
 				"weapon"			"weapon_m3greasegun"
 				//Explosive
-				"weapon"			"weapon_molotov"
 				"weapon"			"weapon_rpg7"
 				
 			}
@@ -1978,7 +1977,6 @@
 				"weapon"			"weapon_m3greasegun"
 				"weapon_upgrade"	"ammo_ap_galil"
 				//Explosive
-				"weapon"			"weapon_molotov"
 				"weapon"			"weapon_rpg7"
 				
 			}
@@ -2017,7 +2015,6 @@
 				//"weapon_upgrade"	"magazine_extended_smg_40"
 				//"weapon_upgrade"	"ammo_hp_mp7"
 				//Explosive
-				"weapon"			"weapon_m84"
 				"weapon"			"weapon_rpg7"
 				
 			}
@@ -2079,7 +2076,6 @@
 				//"weapon_upgrade"	"ammo_ap_kriss"
 				//Explosive
 				"weapon"			"weapon_m84"
-				"weapon"			"weapon_rpg7"
 				
 			}
 			"allowed_weapons"
@@ -2195,7 +2191,6 @@
 
 				//Explosive
 				"weapon"			"weapon_f1"
-				"weapon"			"weapon_at4"
 			}
 			"allowed_weapons"
 			{
@@ -2214,7 +2209,6 @@
 
 				//Explosive
 				"weapon"			"weapon_f1"
-				"weapon"			"weapon_at4"
 			}
 		}
 		// Machinegunner FIGHTER Model 2
@@ -2251,7 +2245,6 @@
 
 				//Explosive
 				"weapon"			"weapon_f1"
-				"weapon"			"weapon_at4"
 			}
 			"allowed_weapons"
 			{
@@ -2269,7 +2262,6 @@
 
 				//Explosive
 				"weapon"			"weapon_f1"
-				"weapon"			"weapon_at4"
 			}
 		}
 		// Machinegunner HEAVY Model 3
@@ -2309,7 +2301,6 @@
 
 				//Explosive
 				"weapon"			"weapon_f1"
-				"weapon"			"weapon_at4"
 			}
 			"allowed_weapons"
 			{
@@ -2427,7 +2418,6 @@
 
 				//Explosive
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_at4"
 			}
 			"allowed_weapons"
 			{
@@ -2541,7 +2531,6 @@
 				//"weapon_upgrade"	"ammo_ap_mp5"
 				//Explosive
 				"weapon"			"weapon_molotov"
-				"weapon"			"weapon_at4"
 			}
 			"allowed_weapons"
 			{
@@ -2600,7 +2589,6 @@
 				//"weapon_upgrade"	"magazine_extended_smg_40"
 				//"weapon_upgrade"	"ammo_ap_mp40"
 				//Explosive
-				"weapon"			"weapon_molotov"
 				"weapon"			"weapon_at4"
 			}
 			"allowed_weapons"
