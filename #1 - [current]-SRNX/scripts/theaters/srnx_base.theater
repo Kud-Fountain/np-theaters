@@ -11,7 +11,7 @@
 		//security class templates
 		//USMC Templates:
 		
-		"Gnalvl_squadleader_usmc"
+		"Gnalvl_squadleader_medic"
 		{	
 			"team"			"security"			
 			"print_name"	"#Squad_Gnalvl_SquadLeader"	
@@ -240,7 +240,7 @@
 				//"gear"				"srnx_chest_carrier3"
 			}
 		}
-		"Gnalvl_pointman_usmc"
+		"gnalvl_pointman_medic"
 		{	
 			"team"			"security"
 			"print_name"	"#Squad_Gnalvl_Riflepoint"
@@ -324,7 +324,7 @@
 				}
 			}
 		}
-		"Gnalvl_rifleman_at_usmc_1"
+		"Gnalvl_rifleman_at_medic_1"
 		{	
 			"team"			"security"
 			"print_name"	"#Squad_Gnalvl_Rifleman_AT"
@@ -497,7 +497,7 @@
 				//"gear"				"srnx_chest_carrier3"
 			}
 		}
-		"Gnalvl_engineer_usmc_1"
+		"Gnalvl_engineer_medic_1"
 		{	
 			"team"			"security"
 			"print_name"	"#Squad_Gnalvl_Engineer"
@@ -688,7 +688,7 @@
 				}
 			}
 		}
-		"gnalvl_recon_fast"
+		"gnalvl_recon_fast_medic"
 		{	
 			"team"			"security"
 			"print_name"	"#Squad_Gnalvl_Recon"
@@ -925,7 +925,7 @@
 				//"gear"				"srnx_chest_carrier3"
 			}
 		}	
-		"Gnalvl_support_usmc_1"
+		"Gnalvl_support_medic_1"
 		{	
 			"team"			"security"
 			"print_name"	"#Squad_Gnalvl_MGGunner"
@@ -1427,7 +1427,7 @@
 				}
 			}
 		}
-		"Gnalvl_marksman_usmc_1"
+		"Gnalvl_marksman_medic_1"
 		{	
 			"team"			"security"
 			"print_name"	"#Squad_Gnalvl_SDM"
@@ -1495,7 +1495,7 @@
 				}
 			}
 		}
-		"Gnalvl_marksman_usmc_2"
+		"Gnalvl_marksman_medic_2"
 		{	
 			"team"			"security"
 			"print_name"	"#Squad_Gnalvl_SDM2"
@@ -1659,7 +1659,7 @@
 				//"gear"				"srnx_chest_carrier3"
 			}
 		}
-		"Gnalvl_vip_usmc"
+		"Gnalvl_vip_medic"
 		{	
 			"team"			"security"
 			"print_name"	"#Squad_Gnalvl_VIP"
