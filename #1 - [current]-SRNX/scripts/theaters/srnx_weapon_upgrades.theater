@@ -766,6 +766,17 @@
 						"weapon"		"weapon_nam_ppsh41"
 					}
 				}
+				
+				"magazine_c96carbine"
+				{
+					"ActSuffix"			"_MAG1"
+					"model"				"models/weapons/upgrades/a_magazine_c96_20.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_c96carbine"
+					}
+				}
 			}
 			
 			"world_attachments"
@@ -777,6 +788,16 @@
 					"weapons"
 					{
 						"weapon"		"weapon_nam_ppsh41"
+					}
+				}
+				
+				"magazine_c96carbine"
+				{
+					"model"				"models/weapons/upgrades/w_c96carbine_mag_20.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_c96carbine"
 					}
 				}
 			}
