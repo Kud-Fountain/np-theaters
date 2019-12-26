@@ -62,6 +62,8 @@
 					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_medic"
 					"#Squad_Gnalvl_Recon"				"gnalvl_recon_fast_medic"
 					"#Squad_Gnalvl_Recon"				"gnalvl_recon_fast_medic"
+					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_medic_2"
+					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_medic_2"
 					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_medic"
 					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_medic"
 				}
@@ -83,8 +85,6 @@
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_medic_1"
 					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_medic_1"
 					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_medic_1"
-					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_medic_2"
-					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_medic_2"
 				}
 			}
 		}
