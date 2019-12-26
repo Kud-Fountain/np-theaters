@@ -257,6 +257,7 @@
 			"print_desc"	"#gear_nij_3a_armor_desc"
 			"gear_slot"		"armor"
 			"gear_cost"		"1"
+			"class_restricted"		"1"
 			"gear_weight"	"60" // 75 (7.5kg) + 250 encumbrance
 
 			"DamageHitgroups"
@@ -281,6 +282,7 @@
 			"print_desc"	"#gear_SAPI_armor_desc"
 			"gear_slot"				"armor"
 			"gear_cost"		"3"
+			"class_restricted"		"1"
 			"gear_weight"	"86" // 75 (7.5kg) + 250 encumbrance	
 			
 			"DamageHitgroups"
@@ -309,6 +311,7 @@
 			"print_desc"	"#gear_ESAPI_armor_desc"
 			"gear_slot"				"armor"
 			"gear_cost"		"5"
+			"class_restricted"		"1"
 			"gear_weight"	"100" // 75 (7.5kg) + 250 encumbrance	
 			
 			"DamageHitgroups"

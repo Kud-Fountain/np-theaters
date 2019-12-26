@@ -717,6 +717,90 @@
 				}
 			}
 		}
+		"recon_gunner_m"
+		{
+			"print_name"				"#recon_gunner_m"
+			"print_desc"				"#recon_gunner_m_desc"
+			"upgrade_cost"				"2"
+			"upgrade_slot"				"magazine"
+			"weight"					"-50"
+			"draw_speed"				"1.20"
+			"holster_speed"				"1.20"
+			"draw_speed_next_weapon"	"1.20"
+			"holster_speed_prev_weapon"	"1.20"
+			"reload_speed"				"1.20"
+			//"bolt_speed"				"1.20"
+			"class_restricted"			"1"
+			
+			"allowed_weapons"
+			{
+				"weapon"			"weapon_m3greasegun"
+				"weapon"			"weapon_m4a1"
+				"weapon"			"weapon_mp7"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_ump45"
+				"weapon"			"weapon_c96carbine"
+				"weapon"			"weapon_nam_ppsh41"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"magzine_fal_fix"
+				{
+					"ActSuffix"			"_MAG1"
+					"model"				"models/weapons/upgrades/a_magazine_fal_20.mdl"
+
+					"weapons"
+					{
+						"weapon"		"weapon_fal"
+					}
+				}
+				
+				"magazine_ppsh_fix"
+				{
+					"ActSuffix"			"_MAG1"
+					"model"				"models/weapons/upgrades/v_ppshmag.mdl"
+
+					"weapons"
+					{
+						"weapon"		"weapon_nam_ppsh41"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"magazine_ppsh_fix_w"
+				{
+					"model"						"models/weapons/upgrades/w_ppshmag.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_nam_ppsh41"
+					}
+				}
+			}
+		}
+		"recon_gunner_pis"
+		{
+			"print_name"				"#recon_gunner_pis"
+			"print_desc"				"#recon_gunner_pis_desc"
+			"upgrade_cost"				"2"
+			"upgrade_slot"				"magazine"
+			"draw_speed"				"1.20"
+			"holster_speed"				"1.20"
+			"draw_speed_next_weapon"	"1.20"
+			"holster_speed_prev_weapon"	"1.20"
+			"reload_speed"				"1.20"
+			//"bolt_speed"				"1.20"
+			"class_restricted"			"1"
+			
+			"allowed_weapons"
+			{
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_m45"
+			}
+		}
 		"fast_gunner_sp"
 		{
 			"print_name"				"#fast_gunner_sp"

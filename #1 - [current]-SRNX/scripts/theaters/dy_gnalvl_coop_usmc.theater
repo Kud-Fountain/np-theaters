@@ -60,14 +60,21 @@
 				"侦察梯队 [阿尔法]"
 				{
 					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
+					"#Squad_Gnalvl_Recon"				"gnalvl_recon_fast"
+					"#Squad_Gnalvl_Recon"				"gnalvl_recon_fast"
+					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
+					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
+				}
+				"进攻梯队 [布拉沃]"
+				{
+					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
 					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
 					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
 					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_1"	
 					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_1"
-					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
-					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
+					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_1"
 				}
-				"支援梯队 [布拉沃]"
+				"支援梯队 [查理]"
 				{
 					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
 					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_1"
@@ -75,16 +82,9 @@
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
 					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
+					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
 					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_usmc_2"
 					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_usmc_2"
-				}
-				"医疗梯队 [查理]"
-				{
-					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
-					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
-					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
-					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
-					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
 				}
 			}
 		}
