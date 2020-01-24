@@ -23,6 +23,8 @@
 			//Custom sounds 
 			"sounds"			"scripts/dy_lua_sounds_v1_2.txt"
 			"sounds"			"scripts/extra_weapon_cues.txt"
+			"particles"         "particles/gas_grenades.pcf"
+			"localize"			"resource/gnalvlsrealism_schinese.txt"
 		}
 	}
 	"teams"
@@ -30,37 +32,58 @@
 		"security"
 		{
 			"name"		"#Team_Security"
+			"logo"					"gameui/fac_sec"
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					//"weapon_base"				"-5"
+				}
+				"weapon_upgrade"
+				{
+					// "base_standard"		"-5"
+					// "base_scope"		"-5"
+					// "base_spring"		"-5"
+					// "base_scope"		"-5"
+					// "base_scope"		"-5"
+					// "base_scope"		"-5"
+					// "base_scope"		"-5"
+					// "base_scope"		"-5"
+				}
+			}
 
 			"squads"
 			{
 				
 				"侦察梯队 [阿尔法]"
 				{
-					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
-					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
-					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_usmc"
-					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_1"	
-					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_usmc_1"
-					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
-					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_usmc"
+					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_medic"
+					"#Squad_Gnalvl_Recon"				"gnalvl_recon_fast_medic"
+					"#Squad_Gnalvl_Recon"				"gnalvl_recon_fast_medic"
+					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_medic_2"
+					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_medic_2"
+					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_medic"
+					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_medic"
 				}
-				"支援梯队 [布拉沃]"
+				"进攻梯队 [布拉沃]"
 				{
-					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
-					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_1"
-					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_usmc_1"
-					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
-					"#Squad_Gnalvl_Auto"				"Gnalvl_support_usmc_1"
-					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
-					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_usmc_1"
+					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_medic"
+					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_medic"
+					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_medic"
+					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_medic_1"	
+					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_medic_1"
+					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_medic_1"
 				}
-				"医疗梯队 [查理]"
+				"支援梯队 [查理]"
 				{
-					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_usmc"
-					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
-					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
-					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
-					"#Squad_Gnalvl_Medic"				"gnalvl_medic_usmc_1"
+					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_medic"
+					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_medic_1"
+					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_medic_1"
+					"#Squad_Gnalvl_Auto"				"Gnalvl_support_medic_1"
+					"#Squad_Gnalvl_Auto"				"Gnalvl_support_medic_1"
+					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_medic_1"
+					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_medic_1"
 				}
 			}
 		}
