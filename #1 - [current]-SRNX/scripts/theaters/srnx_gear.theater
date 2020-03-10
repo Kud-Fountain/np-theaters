@@ -256,23 +256,41 @@
 			"print_name"	"#gear_nij_3a_armor"
 			"print_desc"	"#gear_nij_3a_armor_desc"
 			"gear_slot"		"armor"
-			"gear_cost"		"1"
+			"gear_cost"		"0"
 			"class_restricted"		"1"
 			"gear_weight"	"60" // 75 (7.5kg) + 250 encumbrance
 
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"0.5"
-				"HITGROUP_CHEST"			"0.5"
-				"HITGROUP_STOMACH"			"0.5"
-				"HITGROUP_LEFTARM"			"0.5"
-				"HITGROUP_RIGHTARM"			"0.5"
-				"HITGROUP_LEFTLEG"			"0.5"
-				"HITGROUP_RIGHTLEG"			"0.5"
-				"HITGROUP_GENERIC"			"0.5"
+				"HITGROUP_HEAD"				"1.0"
+				"HITGROUP_CHEST"			"1.0"
+				"HITGROUP_STOMACH"			"1.0"
+				"HITGROUP_LEFTARM"			"1.0"
+				"HITGROUP_RIGHTARM"			"1.0"
+				"HITGROUP_LEFTLEG"			"1.0"
+				"HITGROUP_RIGHTLEG"			"1.0"
+				"HITGROUP_GENERIC"			"1.0"
 			}
-			"explosive_damage_frac"		"0.7"
-			"penetration_power_loss"	"50"
+			"explosive_damage_frac"		"0.8"
+			"penetration_power_loss"	"60"
+			
+			"extra_ammo"
+			{
+				"primary"	"5"
+				"secondary"
+				{
+					"0" "3"
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"	"1"
+			}
+            "player_model_bodygroups"
+			{
+				"kit"					"1"
+				"backpack"				"4"
+			}
 			
 			"team_access"				"security, insurgent"
 		}
