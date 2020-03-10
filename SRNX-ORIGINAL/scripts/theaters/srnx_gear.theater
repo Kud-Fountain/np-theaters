@@ -3,253 +3,60 @@
 	"player_gear"
 	{
 		//Perks - Credit INS server
-		
-		"gear_uav"
+		"gear_increase_weight_3"
 		{
-			"print_name"				"#gear_uav"
-			"print_desc"				"#gear_uav_desc"
-			"gear_cost"				"0"
-			"gear_weight"				"15"
-			"gear_slot"					"backpack"
-			"class_restricted"			"1"
-			 
-			"weapon_slots"
-			{
-				"melee"		"2"
-			}
-			
-			"class_restricted"			"1"
-			"team_access"				"security"
-		}
-		
-		"gear_ammocrate"
-		{
-			"print_name"				"#gear_ammocrate"
-			"print_desc"				"#gear_ammocrate_desc"
-			"gear_cost"					"0"
-			"gear_weight"				"20"
-			"gear_slot"					"backpack"
-			"class_restricted"			"1"
-
-			"weapon_slots"
-			{
-				"melee"		"2"
-			}
-
-			"class_restricted"			"1"
-			"team_access"				"security"
-		}
-		
-		"gear_iedjammer"
-		{
-			"print_name"				"#gear_iedjammer"
-			"print_desc"				"#gear_iedjammer_desc"
-			"gear_cost"					"1"
-			"gear_weight"				"45"
-			"gear_slot"					"backpack"
-			"class_restricted"			"1"
-
-			"weapon_slots"
-			{
-				"melee"		"2"
-			}
-
-			"class_restricted"			"1"
-			"team_access"				"security"
-		}
-		
-		"gear_spotter"
-		{
-			"print_name"			"#gear_spotter"
-			"print_desc"			"#gear_spotter_desc"
-			"gear_slot"				"misc1"
-			"gear_cost"				"2"
-			"class_restricted"			"1"
-			
-			"team_access"				"security, insurgent"
-		}
-		
-		"sec_fr_suit_armor"
-		{
-			"print_name"				"#gear_fr_suit_armor"
-			"print_desc"				"#gear_fr_suit_armor_desc"
-			"gear_slot"				"misc1"
-			"gear_cost"				"2"
-			"gear_weight"				"40"
-			"class_restricted"			"1"
-			
-			"player_model_override"		"models/characters/security_heavy.mdl"
-			"viewmodel_hands_override"	"models/weapons/v_hands_sec_h.mdl"
-			
-			"team_access"				"security"
-		}
-		
-		"gear_sunglasses"
-		{
-			"print_name"				"#gear_sunglasses"
-			"print_desc"				"#gear_sunglasses_desc"
-			"gear_slot"				"misc1"
-			"gear_cost"				"1"
-			"gear_weight"				"10"
-			"team_access"				"security, insurgent"
-			"class_restricted"			"1"
-			
-			"player_model_bodygroups"
-			{
-				"glasses"				"1"
-			}
-			
-			//"overlay"					//"overlays/hud_antiflash_mask"
-		}
-		
-		"gas_mask"
-		{
-			"print_name"			"#gear_gas_mask"
-			"print_desc"			"#gear_gas_mask_desc"
-			"gear_slot"				"misc1"
-			"gear_cost"				"2"
-			"gear_weight"			"40"
-			"entity"				"model"
-			"model"					"models/characters/a_gasmask.mdl"
-			"class_restricted"			"1"
-			
-			"player_model_bodygroups"
-			{
-				"mask"					"1"
-			}
-			
-			"overlay"					"overlays/hud_gas_mask"
-			"team_access"				"security, insurgent"
-		}
-		
-		"gear_christmas_hat"
-		{
-			"print_name"				"#gear_christmas_hat"
-			"print_desc"				"触发效果：Kud的仁慈，增加1点补给点"
-			"gear_cost"					"-1"
-			"gear_weight"				"0"
-			"gear_slot"					"misc1"
-			"class_restricted"			"1"
-
-			"entity"				"model"
-			"model"					"models/characters/helmet_head_xmas.mdl"
-
-			"class_restricted"			"1"
-			"team_access"				"security"
-		}
-		
-		"sec_nightvision_blue"
-		{
-			"print_name"	"#gear_nvg_blue"
-			"print_desc"	"#gear_nvg_desc"
-			"gear_slot"	"accessory"
-			"gear_cost"	"0"
-			"gear_weight"	"3"
-			"entity"	"nvg"
-			"model"		"models/characters/a_nightvision.mdl"
-
-			"settings"
-			{
-				"material"			"dev/sec_nightvision_blue"
-				"sound_on"			"Weapon_NVG.NvgOn"
-				"sound_off"			"Weapon_NVG.NvgOff"
-				"chromatic_aberation"		"0"
-				"dust_power"			"1.2"
-				"fade_in_time"			"0.3"
-				"fade_in_hold"			"0.1"
-				"fade_in_tonemap"		"170"
-				"fade_out_time"			"0.5"
-				"fade_out_hold"			"0.1"
-			}
-
-			"team_access"	"security"
-		}
-		
-		"sec_nightvision_grey"
-		{
-			"print_name"	"#gear_nvg_grey"
-			"print_desc"	"#gear_nvg_desc"
-			"gear_slot"	"accessory"
-			"gear_cost"	"0"
-			"gear_weight"	"3"
-			"entity"	"nvg"
-			"model"		"models/characters/a_nightvision.mdl"
-
-			"settings"
-			{
-				"material"			"dev/sec_nightvision_grey"
-				"sound_on"			"Weapon_NVG.NvgOn"
-				"sound_off"			"Weapon_NVG.NvgOff"
-				"chromatic_aberation"		"0"
-				"dust_power"			"1.2"
-				"fade_in_time"			"0.3"
-				"fade_in_hold"			"0.1"
-				"fade_in_tonemap"		"170"
-				"fade_out_time"			"0.5"
-				"fade_out_hold"			"0.1"
-			}
-
-			"team_access"	"security"
-		}
-
-		"gear_increase_weight"
-		{
-			"print_name"			"#gear_increaseweight"
+			"print_name"			"#gear_increaseweight_3"
 			"print_desc"			"#gear_increaseweight_desc"
 			"gear_slot"				"backpack"
-			"class_restricted"		"1"
-			"gear_cost"				"1"
+			"gear_cost"				"4"
+			"gear_weight"			"-60"
+			
+			"team_access"				"security, insurgent"
+		}
+		"gear_increase_weight_2"
+		{
+			"print_name"			"#gear_increaseweight_2"
+			"print_desc"			"#gear_increaseweight_desc"
+			"gear_slot"				"backpack"
+			"gear_cost"				"3"
 			"gear_weight"			"-30"
 			
 			"team_access"				"security, insurgent"
 		}
-		"gear_boot_speed"
+		"gear_increase_weight_1"
 		{
-			"print_name"			"#gear_bootspeed"
-			"print_desc"			"#gear_bootspeed_desc"
+			"print_name"			"#gear_increaseweight_1"
+			"print_desc"			"#gear_increaseweight_desc"
 			"gear_slot"				"backpack"
-			"class_restricted"		"1"
-			"gear_cost"				"1"
-			"gear_weight"			"0"
+			"gear_cost"				"2"
+			"gear_weight"			"-15"
 			
 			"team_access"				"security, insurgent"
 		}
-
-		"gear_boot_jump"
-		{
-			"print_name"			"#gear_bootjump"
-			"print_desc"			"#gear_bootjump_desc"
-			"gear_slot"				"backpack"
-			"class_restricted"		"1"
-			"gear_cost"				"1"
-			"gear_weight"			"0"
-			
-			"team_access"				"security, insurgent"
-		}
-		
+		/*##########################################
+		################  SEC ARMORS  ##############
+		##########################################*/
 		"srnx_nij_2"
 		{
 			"print_name"	"#gear_nij_2_armor"
 			"print_desc"	"#gear_nij_2_armor_desc"
 			"gear_slot"		"armor"
 			"gear_cost"		"1"
-			"class_restricted"		"1"
-			"gear_weight"	"60" // 75 (7.5kg) + 250 encumbrance	
+			"gear_weight"	"20" // 75 (7.5kg) + 250 encumbrance	
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"1.0"
-				"HITGROUP_CHEST"			"1.0"
-				"HITGROUP_STOMACH"			"1.0"
-				"HITGROUP_LEFTARM"			"1.0"
-				"HITGROUP_RIGHTARM"			"1.0"
-				"HITGROUP_LEFTLEG"			"1.0"
-				"HITGROUP_RIGHTLEG"			"1.0"
-				"HITGROUP_GENERIC"			"1.0"
+				"HITGROUP_HEAD"				"1.00"
+				"HITGROUP_CHEST"			"0.48"
+				"HITGROUP_STOMACH"			"0.48"
+				"HITGROUP_LEFTARM"			"1.00"
+				"HITGROUP_RIGHTARM"			"1.00"
+				"HITGROUP_LEFTLEG"			"1.00"
+				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_GENERIC"			"0.60"
 			}
-			"explosive_damage_frac"		"1.0"
-			//"penetration_power_loss"	"60"
-			
+			"explosive_damage_frac"		"0.60"
+			"penetration_power_loss"	"35"
 			"team_access"				"security, insurgent"
 		}
 		"srnx_nij_3a"
@@ -257,23 +64,22 @@
 			"print_name"	"#gear_nij_3a_armor"
 			"print_desc"	"#gear_nij_3a_armor_desc"
 			"gear_slot"		"armor"
-			"gear_cost"		"0"
-			"class_restricted"		"1"
-			"gear_weight"	"60" // 75 (7.5kg) + 250 encumbrance
+			"gear_cost"		"1"
+			"gear_weight"	"30" // 75 (7.5kg) + 250 encumbrance
 
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"1.0"
-				"HITGROUP_CHEST"			"1.0"
-				"HITGROUP_STOMACH"			"1.0"
-				"HITGROUP_LEFTARM"			"1.0"
-				"HITGROUP_RIGHTARM"			"1.0"
-				"HITGROUP_LEFTLEG"			"1.0"
-				"HITGROUP_RIGHTLEG"			"1.0"
-				"HITGROUP_GENERIC"			"1.0"
+				"HITGROUP_HEAD"				"1.00"
+				"HITGROUP_CHEST"			"0.43"
+				"HITGROUP_STOMACH"			"0.43"
+				"HITGROUP_LEFTARM"			"1.00"
+				"HITGROUP_RIGHTARM"			"1.00"
+				"HITGROUP_LEFTLEG"			"1.00"
+				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_GENERIC"			"0.60"
 			}
-			"explosive_damage_frac"		"1.0"
-			//"penetration_power_loss"	"60"
+			"explosive_damage_frac"		"0.60"
+			"penetration_power_loss"	"40"
 			
 			"team_access"				"security, insurgent"
 		}
@@ -282,29 +88,26 @@
 			"print_name"	"#gear_SAPI_armor"
 			"print_desc"	"#gear_SAPI_armor_desc"
 			"gear_slot"				"armor"
-			"gear_cost"		"3"
-			"class_restricted"		"1"
-			"gear_weight"	"86" // 75 (7.5kg) + 250 encumbrance	
+			"gear_cost"		"2"
+			"gear_weight"	"66" // 75 (7.5kg) + 250 encumbrance	
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"1.0"
-				"HITGROUP_CHEST"			"1.0"
-				"HITGROUP_STOMACH"			"1.0"
-				"HITGROUP_LEFTARM"			"1.0"
-				"HITGROUP_RIGHTARM"			"1.0"
-				"HITGROUP_LEFTLEG"			"1.0"
-				"HITGROUP_RIGHTLEG"			"1.0"
-				"HITGROUP_GENERIC"			"1.0"
+				"HITGROUP_HEAD"				"1.00"	// death
+				"HITGROUP_CHEST"			"0.23"
+				"HITGROUP_STOMACH"			"0.23"
+				"HITGROUP_LEFTARM"			"1.00"
+				"HITGROUP_RIGHTARM"			"1.00"
+				"HITGROUP_LEFTLEG"			"1.00"
+				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_GENERIC"			"0.80"
 			}
-			"explosive_damage_frac"		"1.0"
-			//"penetration_power_loss"	"60"
-
-            "player_model_bodygroups"
+			"player_model_bodygroups"
 			{
-				"kit"					"0"
-				"backpack"				"3"
+				"armor"					"1"
 			}
+			"explosive_damage_frac"		"0.80"
+			"penetration_power_loss"	"75"
 			
 			"team_access"				"security, insurgent"
 		}
@@ -313,23 +116,26 @@
 			"print_name"	"#gear_ESAPI_armor"
 			"print_desc"	"#gear_ESAPI_armor_desc"
 			"gear_slot"				"armor"
-			"gear_cost"		"5"
-			"class_restricted"		"1"
-			"gear_weight"	"100" // 75 (7.5kg) + 250 encumbrance	
+			"gear_cost"		"2"
+			"gear_weight"	"75" // 75 (7.5kg) + 250 encumbrance	
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"1.0"
-				"HITGROUP_CHEST"			"1.0"
-				"HITGROUP_STOMACH"			"1.0"
-				"HITGROUP_LEFTARM"			"1.0"
-				"HITGROUP_RIGHTARM"			"1.0"
-				"HITGROUP_LEFTLEG"			"1.0"
-				"HITGROUP_RIGHTLEG"			"1.0"
-				"HITGROUP_GENERIC"			"1.0"
+				"HITGROUP_HEAD"				"1.00"	// death
+				"HITGROUP_CHEST"			"0.19"
+				"HITGROUP_STOMACH"			"0.19"
+				"HITGROUP_LEFTARM"			"1.00"
+				"HITGROUP_RIGHTARM"			"1.00"
+				"HITGROUP_LEFTLEG"			"1.00"
+				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_GENERIC"			"0.80"
 			}
-			"explosive_damage_frac"		"1.0"
-			//"penetration_power_loss"	"60"
+			"player_model_bodygroups"
+			{
+				"armor"					"2"
+			}
+			"explosive_damage_frac"		"0.80"
+			"penetration_power_loss"	"80"
 			
 			"team_access"				"security, insurgent"
 		}
@@ -338,25 +144,24 @@
 			"print_name"	"#gear_AR500_armor"
 			"print_desc"	"#gear_AR500_armor_desc"
 			"gear_slot"		"armor"
-			"gear_cost"		"9"
-			"class_restricted"		"1"
-			"gear_weight"	"120" // 75 (7.5kg) + 250 encumbrance
+			"gear_cost"		"3"
+			"gear_weight"	"84" // 75 (7.5kg) + 250 encumbrance
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"0.30"	// death
-				"HITGROUP_CHEST"			"0.30"
-				"HITGROUP_STOMACH"			"0.30"
-				"HITGROUP_LEFTARM"			"0.30"
-				"HITGROUP_RIGHTARM"			"0.30"
-				"HITGROUP_LEFTLEG"			"0.30"
-				"HITGROUP_RIGHTLEG"			"0.30"
-				"HITGROUP_GENERIC"			"0.30"
+				"HITGROUP_HEAD"				"1.00"	// death
+				"HITGROUP_CHEST"			"0.15"
+				"HITGROUP_STOMACH"			"0.15"
+				"HITGROUP_LEFTARM"			"1.00"
+				"HITGROUP_RIGHTARM"			"1.00"
+				"HITGROUP_LEFTLEG"			"1.00"
+				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_GENERIC"			"0.80"
 			}
 			"player_model_bodygroups"
 			{
 				"armor"					"3"
 			}
-			"explosive_damage_frac"		"0.30"
+			"explosive_damage_frac"		"0.80"
 			"penetration_power_loss"	"85"
 			"team_access"				"security, insurgent"
 		}
@@ -368,8 +173,6 @@
 			"gear_slot"		"misc1"
 			"gear_cost"		"1"
 			"gear_weight"	"12" // 75 (7.5kg) + 250 encumbrance
-			"class_restricted"		"1"
-			
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"1.00"	// death
@@ -392,7 +195,6 @@
 			"gear_slot"		"misc1"
 			"gear_cost"		"1"
 			"gear_weight"	"18" // 75 (7.5kg) + 250 encumbrance
-			"class_restricted"		"1"
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"1.00"	// death
@@ -415,7 +217,6 @@
 			"gear_slot"		"misc1"
 			"gear_cost"		"2"
 			"gear_weight"	"28" // 75 (7.5kg) + 250 encumbrance
-			"class_restricted"		"1"
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"1.00"	// death
@@ -430,14 +231,14 @@
 			"penetration_power_loss"	"25"
 			"team_access"				"security, insurgent"
 		}
+		//12
 		"op_sunglasses"
 		{
 			"print_name"	"#op_sunglasses"
 			"print_desc"	"#op_sunglasses_desc"
 			"gear_slot"		"accessory"
-			"gear_cost"		"0"
+			"gear_cost"		"2"
 			"gear_weight"	"1" // 75 (7.5kg) + 250 encumbrance
-			"class_restricted"		"1"
 
 			"player_model_bodygroups"
 			{
@@ -445,16 +246,18 @@
 			}
 			"team_access"				"security, insurgent"
 		}
+		/*##########################################
+		################  SEC HELMETS  #############
+		##########################################*/
 
 		"srnx_devgru_1_a" // Devgru light 1
         {
             "print_name"    		"#gear_devgru_1"
             "print_desc"   			"#gear_devgru_1_desc"
-            //"class_restricted"		"0" //When trying to restrict, may not work
+            "class_restricted"		"0" //When trying to restrict, may not work
             "gear_slot"             "head"
             "gear_cost"             "0"
             "gear_weight"   		"14"
-			"class_restricted"		"1"
 			"entity"				"model"
             //"model"                 "models/srnx_helms/srnx_devgru_helm1.mdl"
             "DamageHitgroups"
@@ -472,11 +275,10 @@
         {
             "print_name"    		"#gear_devgru_1"
             "print_desc"   			"#gear_devgru_1_desc"
-            //"class_restricted"		"0" //When trying to restrict, may not work
+            "class_restricted"		"0" //When trying to restrict, may not work
             "gear_slot"             "head"
             "gear_cost"             "0"
             "gear_weight"   		"14"
-			"class_restricted"		"1"
 			"entity"				"model"
             //"model"                 "models/srnx_helms/srnx_devgru_helm1.mdl"
             "DamageHitgroups"
@@ -494,11 +296,10 @@
         {
             "print_name"    		"#gear_devgru_1"
             "print_desc"   			"#gear_devgru_1_desc"
-            //"class_restricted"		"0" //When trying to restrict, may not work
+            "class_restricted"		"0" //When trying to restrict, may not work
             "gear_slot"             "head"
             "gear_cost"             "0"
             "gear_weight"   		"14"
-			"class_restricted"		"1"
 			"entity"				"model"
             //"model"                 "models/srnx_helms/srnx_devgru_helm1.mdl"
             "DamageHitgroups"
@@ -516,11 +317,10 @@
         {
             "print_name"    		"#gear_devgru_2"
             "print_desc"   			"#gear_devgru_2_desc"
-            //"class_restricted"		"0"
+            "class_restricted"		"0"
             "gear_slot"             "head"
             "gear_cost"             "1"
             "gear_weight"   		"18"
-			"class_restricted"		"1"
 			"entity"				"model"
             //"model"                 "models/srnx_helms/sr_dgru_hlm2.mdl"
             "DamageHitgroups"
@@ -539,11 +339,10 @@
         {
             "print_name"    		"#gear_devgru_2"
             "print_desc"   			"#gear_devgru_2_desc"
-            //"class_restricted"		"0"
+            "class_restricted"		"0"
             "gear_slot"             "head"
             "gear_cost"             "1"
             "gear_weight"   		"18"
-			"class_restricted"		"1"
 			"entity"				"model"
             //"model"                 "models/srnx_helms/sr_dgru_hlm2.mdl"
             "DamageHitgroups"
@@ -562,11 +361,10 @@
         {
             "print_name"    		"#gear_devgru_3"
             "print_desc"   			"#gear_devgru_3_desc"
-            //"class_restricted"		"0"
+            "class_restricted"		"0"
             "gear_slot"             "head"
             "gear_cost"             "2"
             "gear_weight"   		"20"
-			"class_restricted"		"1"
 			"entity"				"model"
             //"model"                 "models/srnx_helms/srx_dgru_helm3.mdl"
             "DamageHitgroups"
@@ -585,11 +383,10 @@
         {
             "print_name"    		"#gear_devgru_3"
             "print_desc"   			"#gear_devgru_3_desc"
-            //"class_restricted"		"0"
+            "class_restricted"		"0"
             "gear_slot"             "head"
             "gear_cost"             "2"
             "gear_weight"   		"20"
-			"class_restricted"		"1"
 			"entity"				"model"
             //"model"                 "models/srnx_helms/srx_dgru_helm3.mdl"
             "DamageHitgroups"
@@ -604,7 +401,11 @@
 			"penetration_power_loss"	"25"
             "team_access"   		"security, insurgent"
         }
-		
+
+
+        /*##########################################
+		################  SEC CARRIERS  ############
+		##########################################*/
 		//MG CARRIERS
 		"srnx_chest_carrier_mg1" //
 		{
@@ -613,7 +414,7 @@
 			"gear_slot"		"vest"
 			"gear_cost"		"1"
 			"class_restricted" "1"
-			"gear_weight"	"100" // 0.4 kg * 54.5
+			"gear_weight"	"109" // 0.4 kg * 54.5
 			"extra_ammo"
 			{
 				"primary"	"4" //8
@@ -699,14 +500,14 @@
 			"gear_slot"				"vest"
 			"gear_cost"		"1"
 			"class_restricted" "1"
-			"gear_weight"	"175" // 2 (0.65 kg) * 54.5
+			"gear_weight"	"137" // 2 (0.65 kg) * 54.5
 			"extra_ammo"
 			{
-				"primary"	"3" // 10
+				"primary"	"5" // 10
 				"secondary"
 				{
-					"0" "5" //4
-					//"1"	"4" //pistol average in sling
+					"0" "4" //4
+					"1"	"2" //pistol average in sling
 				}
 			}
 			"weapon_slots"
@@ -725,16 +526,16 @@
 			"print_name"	"#gear_chest_rig_mg2"
 			"print_desc"	"#gear_chest_rig_mg2_desc"
 			"gear_slot"		"vest"
-			"gear_cost"		"3"
+			"gear_cost"		"2"
 			"class_restricted" "1"
 			"gear_weight"	"194" // 4 (0.65 kg) * 54.5
 			"extra_ammo"
 			{
-				"primary"	"6" //12 lbs
+				"primary"	"7" //12 lbs
 				"secondary"
 				{
-					"0" "5" //5 lbs
-					//"1"	"3" //average in sling
+					"0" "3" //5 lbs
+					"1"	"3" //average in sling
 				}
 			}
 			"weapon_slots"
@@ -913,7 +714,7 @@
 			}
 			"weapon_slots"
 			{
-				"explosive"	"1"
+				"explosive"	"0"
 			}
             "player_model_bodygroups"
 			{
@@ -942,7 +743,7 @@
 			}
 			"weapon_slots"
 			{
-				"explosive"	"1"
+				"explosive"	"0"
 			}
             "player_model_bodygroups"
 			{
@@ -1073,20 +874,21 @@
 		}
 
 		
-		"basic_chest_sniper" //3 base - .4 = 2.6
+		"srnx_chest_rig1" //3 base - .4 = 2.6
 		{
 			"print_name"	"#gear_chest_rig1"
 			"print_desc"	"#gear_chest_rig1_desc"
 			"gear_slot"				"vest"
-			"gear_cost"		"0"
+			"gear_cost"		"1"
 			"class_restricted" "1"
-			"gear_weight"	"60" // 2 (0.65 kg) * 54.5
+			"gear_weight"	"43" // 2 (0.65 kg) * 54.5
 			"extra_ammo"
 			{
-				"primary"	"0"
+				"primary"	"6" // 10
 				"secondary"
 				{
-					"0" "3"
+					"0" "5" //4
+					"1"	"2" //pistol average in sling
 				}
 			}
 			"weapon_slots"
@@ -1100,20 +902,21 @@
 			}
 			"team_access"				"security"
 		}
-		"basic_chest" //3 base - .2 = 2.8
+		"srnx_chest_rig2" //3 base - .2 = 2.8
 		{
 			"print_name"	"#gear_chest_rig2"
 			"print_desc"	"#gear_chest_rig2_desc"
 			"gear_slot"		"vest"
-			"gear_cost"		"0"
+			"gear_cost"		"2"
 			"class_restricted" "1"
-			"gear_weight"	"60" // 4 (0.65 kg) * 54.5
+			"gear_weight"	"68" // 4 (0.65 kg) * 54.5
 			"extra_ammo"
 			{
-				"primary"	"5"
+				"primary"	"8" //12 lbs
 				"secondary"
 				{
-					"0" "3"
+					"0" "7" //5 lbs
+					"1"	"3" //average in sling
 				}
 			}
 			"weapon_slots"
@@ -1122,31 +925,27 @@
 			}
             "player_model_bodygroups"
 			{
-				"kit"					"1"
-				"backpack"				"4"
-			}
-            "player_model_bodygroups"
-			{
 				"kit"					"3"
 				"backpack"				"1"
 			}
 			"team_access"	"security"		
 		}
-		"basic_chest_shotgun" // 3 lbs base - .2 per tier
+		"srnx_chest_rig3" // 3 lbs base - .2 per tier
 		{
 			"print_name"	"#gear_chest_rig3"
 			"print_desc"	"#gear_chest_rig3_desc"
 			"gear_slot"		"vest"
-			"gear_cost"		"0"
+			"gear_cost"		"3"
 			"class_restricted" "1"
-			"gear_weight"	"60" // 4 (0.65 kg) * 54.5
-
+			"gear_weight"	"90" // 4 (0.65 kg) * 54.5
+			//"class_restricted" "1"
 			"extra_ammo"
 			{
-				"primary"	"0"
+				"primary"	"10" //14 lbs
 				"secondary"
 				{
-					"0" "4"
+					"0" "8" //6 lbs
+					"1"	"4" //averaged in sling
 				}
 			}
 			"weapon_slots"
@@ -1160,21 +959,22 @@
 			}
 			"team_access"	"security"		
 		}
-		"basic_chest_mg" // 3 lbs base - .2 per tier
+		"srnx_chest_rig4" // 3 lbs base - .2 per tier
 		{
 			"print_name"	"#gear_chest_rig4"
 			"print_desc"	"#gear_chest_rig4_desc"
 			"gear_slot"		"vest"
-			"gear_cost"		"0"
+			"gear_cost"		"4"
 			"class_restricted" "1"
-			"gear_weight"	"60" // 4 (0.65 kg) * 54.5
-			"class_restricted" "1"
+			"gear_weight"	"114" // 4 (0.65 kg) * 54.5
+			//"class_restricted" "1"
 			"extra_ammo"
 			{
-				"primary"	"2"
+				"primary"	"12" //14 lbs
 				"secondary"
 				{
-					"0" "4"
+					"0" "10" //6 lbs
+					"1"	"5" //averaged in sling
 				}
 			}
 			"weapon_slots"
@@ -1189,154 +989,12 @@
 			}
 			"team_access"	"security"		
 		}
-
-		"srnx_chest_rig1_sp" //3 base - .4 = 2.6
-		{
-			"print_name"	"#gear_chest_rig1_sp"
-			"print_desc"	"#gear_chest_rig1_sp_desc"
-			"gear_slot"				"vest"
-			"gear_cost"		"0"
-			"class_restricted" "1"
-			"gear_weight"	"43" // 2 (0.65 kg) * 54.5
-			"extra_ammo"
-			{
-				"primary"	"5" // 10
-				"secondary"
-				{
-					"0" "3" //4
-					//"1"	"2" //pistol average in sling
-				}
-			}
-			"weapon_slots"
-			{
-				"explosive"	"0"
-			}
-            "player_model_bodygroups"
-			{
-				"kit"					"2"
-				"backpack"				"1"
-			}
-			"team_access"				"security"
-		}
-		"srnx_chest_rig2_sp" //3 base - .2 = 2.8
-		{
-			"print_name"	"#gear_chest_rig2_sp"
-			"print_desc"	"#gear_chest_rig2_sp_desc"
-			"gear_slot"		"vest"
-			"gear_cost"		"2"
-			"class_restricted" "1"
-			"gear_weight"	"68" // 4 (0.65 kg) * 54.5
-			"extra_ammo"
-			{
-				"primary"	"7" //12 lbs
-				"secondary"
-				{
-					"0" "5" //5 lbs
-					//"1"	"3" //average in sling
-				}
-			}
-			"weapon_slots"
-			{
-				"explosive"	"0"
-			}
-            "player_model_bodygroups"
-			{
-				"kit"					"3"
-				"backpack"				"1"
-			}
-			"team_access"	"security"		
-		}
-		"srnx_chest_rig3_sp" // 3 lbs base - .2 per tier
-		{
-			"print_name"	"#gear_chest_rig3_sp"
-			"print_desc"	"#gear_chest_rig3_sp_desc"
-			"gear_slot"		"vest"
-			"gear_cost"		"4"
-			"class_restricted" "1"
-			"gear_weight"	"90" // 4 (0.65 kg) * 54.5
-			//"class_restricted" "1"
-			"extra_ammo"
-			{
-				"primary"	"10" //14 lbs
-				"secondary"
-				{
-					"0" "8" //6 lbs
-					//"1"	"4" //averaged in sling
-				}
-			}
-			"weapon_slots"
-			{
-				"explosive"	"1"
-			}
-            "player_model_bodygroups"
-			{
-				"kit"					"4"
-				"backpack"				"2"
-			}
-			"team_access"	"security"		
-		}
-		"srnx_chest_rig1_mv" //3 base - .4 = 2.6
-		{
-			"print_name"	"#gear_chest_rig1_mv"
-			"print_desc"	"#gear_chest_rig1_mv_desc"
-			"gear_slot"				"vest"
-			"gear_cost"		"0"
-			"class_restricted" "1"
-			"gear_weight"	"43" // 2 (0.65 kg) * 54.5
-			"extra_ammo"
-			{
-				"primary"	"4" // 10
-				"secondary"
-				{
-					"0" "3" //4
-					//"1"	"2" //pistol average in sling
-				}
-			}
-			"weapon_slots"
-			{
-				"explosive"	"1"
-			}
-            "player_model_bodygroups"
-			{
-				"kit"					"2"
-				"backpack"				"1"
-			}
-			"team_access"				"security"
-		}
-		
-		// "srnx_sling_ammo_belt"
-		// {
-		// 	"print_name"	"#gear_sling_ammo_belt"
-		// 	"print_desc"	"#gear_sling_ammo_belt_desc"
-		// 	"gear_slot"		"accessory"
-		// 	"gear_cost"		"0"
-		// 	"gear_weight"	"15" // 4 (0.65 kg) * 54.5
-		// 	"weapon_slots"
-		// 	{
-		// 		"secondary"	"1"
-		// 	}
-		// 	"team_access"	"security"		
-		// }
-		// "srnx_sling"
-		// {
-		// 	"print_name"	"#gear_sling"
-		// 	"print_desc"	"#gear_sling_desc"
-		// 	"gear_slot"		"accessory"
-		// 	"gear_cost"		"1"
-		// 	"gear_weight"	"26" // 4 (0.65 kg) * 54.5
-		// 	"weapon_slots"
-		// 	{
-		// 		"secondary"	"1"
-		// 	}
-		// 	"team_access"	"security"		
-		// }
 		"srnx_holster"
 		{
 			"print_name"	"#gear_holster"
 			"print_desc"	"#gear_holster_desc"
 			"gear_slot"		"accessory"
 			"gear_cost"		"1"
-			"class_restricted"		"1"
 			"gear_weight"	"6" // 4 (0.65 kg) * 54.5
 			"weapon_slots"
 			{
@@ -1351,7 +1009,7 @@
 			"print_name"				"#gear_nvg"
 			"print_desc"				"#gear_nvg_desc"
 			"gear_slot"				"accessory"
-			"gear_cost"				"0"
+			"gear_cost"				"2"
 			"gear_weight"				"3"
 			"entity"				"nvg"
 			"model"					"models/characters/a_nightvision.mdl"
@@ -1376,10 +1034,13 @@
 			
 		}
 
+		//Bot Team
 
 		
-//-----------------------BOTS BELOW THIS LINE EXCEPT NVG ---------//
-//----------------------------------------------------------------//
+		/*##########################################
+		################  BOT CARRIERS  ##################
+		##########################################*/
+
 		"srnx_sling_bot"
 		{
 			"print_name"	"#gear_sling"
@@ -1521,7 +1182,10 @@
 			}
 			"team_access"				"insurgent"
 		}
-
+		
+		/*##########################################
+		################ BOT ARMORS  ##################
+		##########################################*/
 		//Bot Armor
 		"srnx_BOT_nij_2"
 		{
@@ -1534,15 +1198,15 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"1.00"
-				"HITGROUP_CHEST"			"0.82"
-				"HITGROUP_STOMACH"			"0.82"
+				"HITGROUP_CHEST"			"0.62"
+				"HITGROUP_STOMACH"			"0.62"
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
-				"HITGROUP_GENERIC"			"0.80"
+				"HITGROUP_GENERIC"			"0.60"
 			}
-			"explosive_damage_frac"		"0.85"
+			"explosive_damage_frac"		"0.60"
 			"penetration_power_loss"	"30"
 			
 			"team_access"				"insurgent"
@@ -1558,15 +1222,15 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"1.00"
-				"HITGROUP_CHEST"			"0.67"
-				"HITGROUP_STOMACH"			"0.67"
+				"HITGROUP_CHEST"			"0.47"
+				"HITGROUP_STOMACH"			"0.47"
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
-				"HITGROUP_GENERIC"			"0.80"
+				"HITGROUP_GENERIC"			"0.60"
 			}
-			"explosive_damage_frac"		"0.85"
+			"explosive_damage_frac"		"0.60"
 			"penetration_power_loss"	"33"
 			
 			"team_access"				"insurgent"
@@ -1582,15 +1246,15 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"1.00"	// death
-				"HITGROUP_CHEST"			"0.67"
-				"HITGROUP_STOMACH"			"0.67"
+				"HITGROUP_CHEST"			"0.37"
+				"HITGROUP_STOMACH"			"0.37"
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
-				"HITGROUP_GENERIC"			"1.00"
+				"HITGROUP_GENERIC"			"0.80"
 			}
-			"explosive_damage_frac"		"1.0"
+			"explosive_damage_frac"		"0.80"
 			"penetration_power_loss"	"70"
 			
 			"team_access"				"insurgent"
@@ -1606,15 +1270,15 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"1.00"	// death
-				"HITGROUP_CHEST"			"0.54"
-				"HITGROUP_STOMACH"			"0.54"
+				"HITGROUP_CHEST"			"0.34"
+				"HITGROUP_STOMACH"			"0.34"
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
-				"HITGROUP_GENERIC"			"1.00"
+				"HITGROUP_GENERIC"			"0.80"
 			}
-			"explosive_damage_frac"		"1.0"
+			"explosive_damage_frac"		"0.80"
 			"penetration_power_loss"	"75"
 			
 			"team_access"				"insurgent"
@@ -1629,15 +1293,15 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"1.00"	// death
-				"HITGROUP_CHEST"			"0.51"
-				"HITGROUP_STOMACH"			"0.51"
+				"HITGROUP_CHEST"			"0.31"
+				"HITGROUP_STOMACH"			"0.31"
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
-				"HITGROUP_GENERIC"			"1.00"
+				"HITGROUP_GENERIC"			"0.80"
 			}
-			"explosive_damage_frac"		"1.00"
+			"explosive_damage_frac"		"0.80"
 			"team_access"				"insurgent"
 			"penetration_power_loss"	"80"
 		}
@@ -1655,13 +1319,20 @@
 				"HITGROUP_STOMACH"			"1.00"
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
-				"HITGROUP_LEFTLEG"			"1.00"
-				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_LEFTLEG"			"0.80"
+				"HITGROUP_RIGHTLEG"			"0.80"
 			}
 		
 			"team_access"				"insurgent"
 			"penetration_power_loss"	"25"
 		}
+
+
+        /*##########################################
+		################  BOT HELMETS  ##################
+		##########################################*/
+	
+		
 		"srnx_BOT_ins_helmet_standard"
         {
             "print_name"    		"#ins_helmet"
@@ -1674,7 +1345,7 @@
             "model"                 "models/characters/ins_helmet_head.mdl"
             "DamageHitgroups"
             {
-                "HITGROUP_HEAD"        "0.85"
+                "HITGROUP_HEAD"        "0.75"
             }
 			"penetration_power_loss"	"25"
             "team_access"   		"insurgent"
@@ -1691,7 +1362,7 @@
             "model"                 "models/characters/msk_helmet_head.mdl"
             "DamageHitgroups"
             {
-                "HITGROUP_HEAD"        "0.80"
+                "HITGROUP_HEAD"        "0.70"
             }
 			"penetration_power_loss"	"25"
             "team_access"   		"insurgent"
@@ -1708,28 +1379,11 @@
             "model"                 "models/characters/k63_helmet_head.mdl"
             "DamageHitgroups"
             {
-                "HITGROUP_HEAD"        "0.75"
+                "HITGROUP_HEAD"        "0.65"
             }
 			"penetration_power_loss"	"25"
             "team_access"   		"insurgent"
         }
-   //      "srnx_BOT_ins_helmet_black"
-   //      {
-   //          "print_name"    		"#ins_helmet"
-   //          "print_desc"   			"#ins_helmet_desc"
-   //          "class_restricted"      "0"
-   //          "gear_slot"             "head"
-   //          "gear_cost"             "0"
-   //          "gear_weight"   		"20"
-			// "entity"				"model"
-   //          "model"                 "models/characters/ins_helmhd_opfr.mdl"
-   //          "DamageHitgroups"
-   //          {
-   //              "HITGROUP_HEAD"        "0.75"
-   //          }
-			// "penetration_power_loss"	"25"
-   //          "team_access"   		"insurgent"
-   //      }
 		"srnx_BOT_juggernaut_armor"
 		{
 			"print_name"	"#gear_AR500_armor"
@@ -1739,16 +1393,16 @@
 			"gear_weight"	"158" 
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"			"0.03"
-				"HITGROUP_STOMACH"			"0.03"
-				"HITGROUP_LEFTARM"			"0.05"
-				"HITGROUP_RIGHTARM"			"0.05"
-				"HITGROUP_LEFTLEG"			"0.05"
-				"HITGROUP_RIGHTLEG"			"0.05"
-				"HITGROUP_GENERIC"			"0.05"
+				"HITGROUP_CHEST"			"0.06"
+				"HITGROUP_STOMACH"			"0.06"
+				"HITGROUP_LEFTARM"			"0.09"
+				"HITGROUP_RIGHTARM"			"0.09"
+				"HITGROUP_LEFTLEG"			"0.09"
+				"HITGROUP_RIGHTLEG"			"0.09"
+				"HITGROUP_GENERIC"			"0.09"
 			}
 			"penetration_power_loss"	"100"
-			"explosive_damage_frac"		"0.1"
+			"explosive_damage_frac"		"0.15"
 			"team_access"				"insurgent"
 		}
         "srnx_BOT_ins_jugger_helmet_black"
@@ -1763,195 +1417,15 @@
             "model"                 "models/characters/custom/mlf_helmet_head.mdl"
             "DamageHitgroups"
             {
-                "HITGROUP_HEAD"        "0.05"
+                "HITGROUP_HEAD"        "0.09"
             }
 			"penetration_power_loss"	"40"
             "team_access"   		"insurgent"
         }
-		
-		//christmas event
-		
-		"srnx_BOT_ins_helmet_standard_chris"
-        {
-            "print_name"    		"#ins_helmet"
-            "print_desc"   			"#ins_helmet_desc"
-            "class_restricted"      "0"
-            "gear_slot"             "head"
-            "gear_cost"             "0"
-            "gear_weight"   		"20"
-			"entity"				"model"
-            "model"                 "models/characters/helmet_head_xmas.mdl"
-            "DamageHitgroups"
-            {
-                "HITGROUP_HEAD"        "0.75"
-            }
-			"penetration_power_loss"	"25"
-            "team_access"   		"insurgent"
-        }
-		"srnx_BOT_ins_helmet_Maskah_chris"
-        {
-            "print_name"    		"#ins_helmet"
-            "print_desc"   			"#ins_helmet_desc"
-            "class_restricted"      "0"
-            "gear_slot"             "head"
-            "gear_cost"             "0"
-            "gear_weight"   		"20"
-			"entity"				"model"
-            "model"                 "models/characters/helmet_head_xmas.mdl"
-            "DamageHitgroups"
-            {
-                "HITGROUP_HEAD"        "0.70"
-            }
-			"penetration_power_loss"	"25"
-            "team_access"   		"insurgent"
-        }
-        "srnx_BOT_ins_helmet_k63_chris"
-        {
-            "print_name"    		"#ins_helmet"
-            "print_desc"   			"#ins_helmet_desc"
-            "class_restricted"      "0"
-            "gear_slot"             "head"
-            "gear_cost"             "0"
-            "gear_weight"   		"20"
-			"entity"				"model"
-            "model"                 "models/characters/helmet_head_xmas.mdl"
-            "DamageHitgroups"
-            {
-                "HITGROUP_HEAD"        "0.65"
-            }
-			"penetration_power_loss"	"25"
-            "team_access"   		"insurgent"
-        }
-        "srnx_BOT_ins_jugger_helmet_black_chris"
-        {
-            "print_name"    		"#ins_helmet"
-            "print_desc"   			"#ins_helmet_desc"
-            "class_restricted"      "0"
-            "gear_slot"             "head"
-            "gear_cost"             "0"
-            "gear_weight"   		"40"
-			"entity"				"model"
-            "model"                 "models/characters/helmet_head_xmas.mdl"
-            "DamageHitgroups"
-            {
-                "HITGROUP_HEAD"        "0.07"
-            }
-			"penetration_power_loss"	"40"
-            "team_access"   		"insurgent"
-        }
-		"srnx_BOT_chris"
-        {
-            "print_name"    		"#ins_helmet"
-            "print_desc"   			"#ins_helmet_desc"
-            "class_restricted"      "0"
-            "gear_slot"             "head"
-            "gear_cost"             "0"
-            "gear_weight"   		"0"
-			"entity"				"model"
-            "model"                 "models/characters/helmet_head_xmas.mdl"
-            "DamageHitgroups"
-            {
-                "HITGROUP_HEAD"        "1.00"
-            }
-			"penetration_power_loss"	"0"
-            "team_access"   		"insurgent"
-        }
-		
-		// "srnx_BOT_ins_helmet_dgreen" // Dark Green Helmet
-  //       {
-  //           "print_name"    		"#ins_helmet"
-  //           "print_desc"   			"#ins_helmet_desc"
-  //           "class_restricted"      "0"
-  //           "gear_slot"             "head"
-  //           "gear_cost"             "0"
-  //           "gear_weight"   		"3"
-		// 	"entity"				"model"
-  //           "model"                 "models/insu_helms/ins_helmhd_opfr.mdl"
-  //           "DamageHitgroups"
-  //           {
-  //               "HITGROUP_HEAD"        "0.45"
-  //           }
-  //           "team_access"   		"insurgent"
-  //       }
-		// "srnx_BOT_ins_helmet_lgreen" // Green Helmet Light
-  //       {
-  //           "print_name"    		"#ins_helmet"
-  //           "print_desc"   			"#ins_helmet_desc"
-  //           "class_restricted"      "0"
-  //           "gear_slot"             "head"
-  //           "gear_cost"             "0"
-  //           "gear_weight"   		"3"
-		// 	"entity"				"model"
-  //           "model"                 "models/insu_helms/ins_helmhd_opfr.mdl"
-  //           "DamageHitgroups"
-  //           {
-  //               "HITGROUP_HEAD"        "0.50"
-  //           }
-  //           "team_access"   		"insurgent"
-  //       }
-		// "srnx_BOT_ins_helmet_k63" // Green Helmet Light
-  //       {
-  //           "print_name"    		"#ins_helmet"
-  //           "print_desc"   			"#ins_helmet_desc"
-  //           "class_restricted"      "0"
-  //           "gear_slot"             "head"
-  //           "gear_cost"             "0"
-  //           "gear_weight"   		"5"
-		// 	"entity"				"model"
-  //           "model"                 "models/insu_helms/ins_k63_ghelmet.mdl"
-  //           "DamageHitgroups"
-  //           {
-  //               "HITGROUP_HEAD"        "0.20"
-  //           }
-  //           "team_access"   		"insurgent"
-  //       }
-		// "srnx_BOT_ins_helmet_maskah" // Green Helmet Light
-  //       {
-  //           "print_name"    		"#ins_helmet"
-  //           "print_desc"   			"#ins_helmet_desc"
-  //           "class_restricted"      "0"
-  //           "gear_slot"             "head"
-  //           "gear_cost"             "0"
-  //           "gear_weight"   		"5"
-		// 	"entity"				"model"
-  //           "model"                 "models/insu_helms/ins_maskah_head.mdl"
-  //           "DamageHitgroups"
-  //           {
-  //               "HITGROUP_HEAD"        "0.30"
-  //           }
-  //           "team_access"   		"insurgent"
-  //       }
+
         
         "?nightmap"
 		{
-			// "sec_nightvision"
-			// {
-			// 	"print_name"				"#gear_nvg"
-			// 	"print_desc"				"#gear_nvg_desc"
-			// 	"gear_slot"				"accessory"
-			// 	"gear_cost"				"0"
-			// 	"gear_weight"				"3"
-			// 	"entity"				"nvg"
-			// 	"model"					"models/characters/a_nightvision.mdl"
-				
-			// 	"settings"
-			// 	{
-			// 		"material"				"dev/sec_nightvision"
-			// 		"sound_on"				"Weapon_NVG.NvgOn"
-			// 		"sound_off"				"Weapon_NVG.NvgOff"
-			// 		"chromatic_aberation"			"0"
-			// 		"dust_power"				"1.2"
-					
-			// 		"fade_in_time"				"0.25"
-			// 		"fade_in_hold"				"0.1"
-			// 		"fade_in_tonemap"			"170"
-					
-			// 		"fade_out_time"				"0.5"
-			// 		"fade_out_hold"				"0.1"
-			// 	}
-				
-			// 	"team_access"				"security"
-			// }
 			"ins_nightvision"
 			{
 				"print_name"				"#gear_nvg"

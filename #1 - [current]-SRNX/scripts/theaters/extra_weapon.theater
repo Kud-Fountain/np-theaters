@@ -23,7 +23,12 @@
 			"barrel_length"				"30"
 			"closed_bolt"				"0"
 			"class_restricted"			"1"
-			"reload_speed"				"1.25"
+			"draw_speed"				"1.40"
+			"holster_speed"				"1.40"
+			//"draw_speed_next_weapon"	"1.40"
+			//"holster_speed_prev_weapon"	"1.40"
+			"reload_speed"				"1.40"
+			//"bolt_speed"				"1.40"
 			
 			"fov"
 			{
@@ -167,7 +172,13 @@
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
 			"barrel_length"				"16"
-			"closed_bolt"				"0"			
+			"closed_bolt"				"0"	
+			"draw_speed"				"1.40"
+			"holster_speed"				"1.40"
+			//"draw_speed_next_weapon"	"1.40"
+			//"holster_speed_prev_weapon"	"1.40"
+			"reload_speed"				"1.40"
+			//"bolt_speed"				"1.40"			
 			
 			"viewmodel_attachments"
 			{
@@ -286,6 +297,12 @@
 			"class_restricted"			"1"
 			"barrel_length"				"16"
 			"closed_bolt"				"0"		
+			"draw_speed"				"1.40"
+			"holster_speed"				"1.40"
+			//"draw_speed_next_weapon"	"1.40"
+			//"holster_speed_prev_weapon"	"1.40"
+			"reload_speed"				"1.40"
+			//"bolt_speed"				"1.40"
 
 			"viewmodel_attachments"
 			{
@@ -404,6 +421,12 @@
 			"weapon_weight"				"110"
 			"barrel_length"				"38"
 			"class_restricted"			"1"
+			"draw_speed"				"1.40"
+			"holster_speed"				"1.40"
+			//"draw_speed_next_weapon"	"1.40"
+			//"holster_speed_prev_weapon"	"1.40"
+			"reload_speed"				"1.40"
+			"bolt_speed"				"1.40"
 			
 			"viewmodel_attachments"
 			{
@@ -502,9 +525,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"30-06"
-				"clip_max"					"100"
+				"clip_max"					"45"
 				"clip_max_rounds"			"5"
-				"clip_default"				"40"
+				"clip_default"				"45"
 			}
 			
 			"attachments"
@@ -537,6 +560,12 @@
 			"weapon_weight"				"100"
 			"barrel_length"				"38"
 			"class_restricted"			"1"
+			"draw_speed"				"1.40"
+			"holster_speed"				"1.40"
+			//"draw_speed_next_weapon"	"1.40"
+			//"holster_speed_prev_weapon"	"1.40"
+			"reload_speed"				"1.40"
+			"bolt_speed"				"1.40"
 			
 			"fov"
 			{
@@ -612,9 +641,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"792x57mm"
-				"clip_max"					"100"
+				"clip_max"					"45"
 				"clip_max_rounds"			"5"
-				"clip_default"				"40"
+				"clip_default"				"45"
 			}
 			
 			"attachments"
@@ -647,6 +676,12 @@
 			"class_restricted"			"1"
 			"barrel_length"				"16"
 			"closed_bolt"				"0"
+			"draw_speed"				"1.40"
+			"holster_speed"				"1.40"
+			//"draw_speed_next_weapon"	"1.40"
+			//"holster_speed_prev_weapon"	"1.40"
+			"reload_speed"				"1.40"
+			//"bolt_speed"				"1.40"
 			
 			"viewmodel_attachments"
 			{
@@ -761,8 +796,14 @@
 			"act_table"					"rifle_ak"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"38"
-			"weapon_cost"				"0"
+			"weapon_cost"				"1"
 			"barrel_length"				"16"
+			"draw_speed"				"1.40"
+			"holster_speed"				"1.40"
+			//"draw_speed_next_weapon"	"1.40"
+			//"holster_speed_prev_weapon"	"1.40"
+			"reload_speed"				"1.40"
+			//"bolt_speed"				"1.40"
 			
 			"viewmodel_attachments"
 			{
@@ -886,8 +927,14 @@
 			"act_table"					"rifle_ak2"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"48"
-			"weapon_cost"				"1"
+			"weapon_cost"				"0"
 			"barrel_length"				"22"
+			"draw_speed"				"1.40"
+			"holster_speed"				"1.40"
+			//"draw_speed_next_weapon"	"1.40"
+			//"holster_speed_prev_weapon"	"1.40"
+			"reload_speed"				"1.40"
+			//"bolt_speed"				"1.40"
 			
 			"fov"
 			{
@@ -986,7 +1033,7 @@
 				"ammo_type"				"792x57_clip"
 				"clip_max"				"12"
 				"clip_max_rounds"		"10"
-				"clip_default"			"3"
+				"clip_default"			"0"
 			}
 			
 			"attachments"
@@ -1018,11 +1065,12 @@
 			"weapon_weight"				"140"
 			"barrel_length"				"24"
 
-			"draw_speed"				"0.85"
-			"reload_speed"				"0.90"
-			"holster_speed"				"0.85"
-			"draw_speed_next_weapon"	"0.85"
-			"holster_speed_prev_weapon"	"0.85"
+			"draw_speed"				"1.40"
+			"holster_speed"				"1.40"
+			//"draw_speed_next_weapon"	"1.40"
+			//"holster_speed_prev_weapon"	"1.40"
+			"reload_speed"				"1.40"
+			//"bolt_speed"				"1.40"
 			
 			"fov"
 			{
@@ -1174,11 +1222,12 @@
 			"weapon_cost"				"1"
 			"barrel_length"				"30"
 			"class_restricted"			"1"
-			"reload_speed"				"1.25"
-			"draw_speed"				"1.25"
-			"holster_speed"				"1.25"
-			"draw_speed_next_weapon"	"1.25"
-			"holster_speed_prev_weapon"	"1.25"
+			"draw_speed"				"1.40"
+			"holster_speed"				"1.40"
+			//"draw_speed_next_weapon"	"1.40"
+			//"holster_speed_prev_weapon"	"1.40"
+			"reload_speed"				"1.40"
+			//"bolt_speed"				"1.40"
 			
 			"viewmodel_attachments"
 			{
@@ -1391,8 +1440,14 @@
 			"act_table"					"smg_magheld"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"48"
-			"weapon_cost"				"0"
+			"weapon_cost"				"1"
 			"barrel_length"				"16"
+			"draw_speed"				"1.40"
+			"holster_speed"				"1.40"
+			//"draw_speed_next_weapon"	"1.40"
+			//"holster_speed_prev_weapon"	"1.40"
+			"reload_speed"				"1.40"
+			//"bolt_speed"				"1.40"
 			
 			"fov"
 			{
@@ -1498,7 +1553,12 @@
 			"weapon_weight"				"105"
 			"weapon_cost"				"0"
 			"barrel_length"				"28"
-			"reload_speed"				"1.50"
+			"draw_speed"				"1.40"
+			"holster_speed"				"1.40"
+			//"draw_speed_next_weapon"	"1.40"
+			//"holster_speed_prev_weapon"	"1.40"
+			"reload_speed"				"1.40"
+			//"bolt_speed"				"1.40"
 			
 			"fov"
 			{
@@ -1639,6 +1699,12 @@
 			"weapon_weight"				"110"
 			"barrel_length"				"38"
 			"class_restricted"			"1"
+			"draw_speed"				"1.40"
+			"holster_speed"				"1.40"
+			//"draw_speed_next_weapon"	"1.40"
+			//"holster_speed_prev_weapon"	"1.40"
+			"reload_speed"				"1.40"
+			//"bolt_speed"				"1.40"
 			
 			"viewmodel_attachments"
 			{
@@ -1723,9 +1789,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"762x54mm"
-				"clip_max"					"96"
+				"clip_max"					"45"
 				"clip_max_rounds"			"5"
-				"clip_default"				"0"
+				"clip_default"				"45"
 			}
 			
 			"attachments"
@@ -1758,6 +1824,12 @@
 			"fire_cycle"				"0.2"
 			"weapon_max_subslot"			"0"
 			"class_restricted"			"1"//new class 0
+			"draw_speed"				"1.40"
+			"holster_speed"				"1.40"
+			//"draw_speed_next_weapon"	"1.40"
+			//"holster_speed_prev_weapon"	"1.40"
+			"reload_speed"				"1.40"
+			//"bolt_speed"				"1.40"
 
 			"fov"
 			{
@@ -1810,10 +1882,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"buckshot"
-				"clip_max"				"15"
+				"clip_max"				"55"
 				"clip_max_rounds"			"5"
-				"clip_default"				"1"
-				"magsize_override"			"5"
+				"clip_default"				"55"
 			}
 			"attachments"
 			{
@@ -1843,11 +1914,12 @@
 			"barrel_length"				"26"
 			"class_restricted"			"1"	
 			
-			"draw_speed"				"0.80"
-			"reload_speed"				"0.85"
-			"holster_speed"				"0.80"
-			"draw_speed_next_weapon"	"0.80"
-			"holster_speed_prev_weapon"	"0.80"
+			"draw_speed"				"1.40"
+			"holster_speed"				"1.40"
+			//"draw_speed_next_weapon"	"1.40"
+			//"holster_speed_prev_weapon"	"1.40"
+			"reload_speed"				"1.40"
+			//"bolt_speed"				"1.40"
 			
 			"fov"
 			{
@@ -2219,6 +2291,12 @@
 			"barrel_length"				"38"
 			"closed_bolt"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.40"
+			"holster_speed"				"1.40"
+			//"draw_speed_next_weapon"	"1.40"
+			//"holster_speed_prev_weapon"	"1.40"
+			"reload_speed"				"1.40"
+			//"bolt_speed"				"1.40"
 			
 			"fov"
 			{
@@ -2329,6 +2407,13 @@
 			"upgrade_cost"				"1"
 			"class_restricted"			"0"
 			
+			"draw_speed"				"1.30"
+			"holster_speed"				"1.30"
+			//"draw_speed_next_weapon"	"1.40"
+			//"holster_speed_prev_weapon"	"1.40"
+			"reload_speed"				"1.30"
+			"bolt_speed"				"1.30"
+			
 			"print_name"				"#magazine_stripper_clips"
 			"print_desc"				"#magazine_stripper_clips_desc"
 			
@@ -2388,6 +2473,12 @@
 			"print_desc"				"#optic_scope_4x_desc"
 			"class_restricted"			"0"
 			"upgrade_cost"				"1"
+			
+			"ironsights"
+			{
+				"in_time"		"0.2"
+				"out_time"		"0.2"
+			}
 			
 			
 			"sway"
@@ -2580,6 +2671,12 @@
 			"class_restricted"			"0"
 			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
+			
+			"ironsights"
+			{
+				"in_time"		"0.25"
+				"out_time"		"0.25"
+			}
 			
 			"sway"
 			{
@@ -2994,7 +3091,7 @@
 		"magazine_extended_c96"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"0"
 			"team_access"				"security, insurgent"
 
 			"print_name"				"#weapon_upgrade_magazine_extended_c96"
