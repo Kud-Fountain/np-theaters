@@ -532,5 +532,116 @@
 			}
 			"team_access"	"security, insurgent"
 		}
+		
+		"weapon_nam_ppsh41"
+		{
+			"import"				"ballistic_base"
+			"weapon_class"				"smg"
+			"print_name"				"#weapon_nam_ppsh41"
+			"print_desc"				""
+			"view_model"				"models/weapons/v_ppsh.mdl"
+			"world_model"				"models/weapons/w_ppsh.mdl"
+			"rounds_per_minute"			"1000"
+			"weapon_slot"				"primary"
+			"act_table"					"rifle_ak2"
+			"closed_bolt"				"0"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"40"	
+			"weapon_cost"				"1"
+			"barrel_length"				"30"
+			"class_restricted"			"1"
+			
+			"viewmodel_attachments"
+			{
+				"magazine"
+				{
+					"model"					"models/weapons/upgrades/v_ppshmag.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+				
+			}
+			
+			"world_attachments"
+			{
+				"magazine"
+				{
+					"model"						"models/weapons/upgrades/w_ppshmag.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+			}
+			
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-25"
+				"fov_plr_focus"				"-12"
+				"fov_wpn_default"			"62"
+				"fov_wpn_ironsight"			"80"
+				"fov_wpn_focus"				"85"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_PPSH.Single"
+				"shot_single_local"			"Weapon_PPSH.SingleLocal"
+				"shot_silent"				"Weapon_PPSH.SingleSilenced"
+				"shot_silent_local"			"Weapon_PPSH.SingleSilencedLocal"
+				"empty"					"Weapon_MP5K.Empty"
+				"clipin"				"Weapon_MP5K.Magin"
+				"clipout"				"Weapon_MP5K.Magout"
+				"boltback"				"Weapon_MP5K.Boltback"
+				"boltrelease"				"Weapon_MP5K.Boltrelease"
+				"rofdown"				"Weapon_MP5K.ROF"
+				"rofup"					"Weapon_MP5K.ROF"
+				
+				"thirdperson_prefix"		"Weapon_MP5K"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_mp5_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_mp5_3rd"
+				"particle_tracer"			"weapon_tracers"
+			}
+			"recoil"
+			{
+				"recoil_vertical_frac"		"0.85"
+				"recoil_lateral_frac"		"0.85"
+				"recoil_lateral_range"			"-1.40 2.15"
+				"recoil_vertical_range"			"1.95 2.99"
+				"recoil_aim_punch"			"0.3 0.5"
+				"recoil_rest_rate"			"5"
+				"recoil_rest_delay"			"0.14"
+				"recoil_roll_range"			"-1.25 -1.25"
+				"recoil_roll_rest_rate"			"150"
+				"recoil_freeaim_frac"			"0.25"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"		"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"			"5"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.82"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+			}
+			"ballistics"
+			{
+				"spread"				"0.40 0.40 0.40"
+				"FireModes"				"semi, full"
+				"bulletcount"				"1"
+				"maxrange"				"8000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"7.62×25nam"	
+				"clip_max"				"6"
+				"clip_max_rounds"			"35"
+				"clip_default"				"1"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"primary"
+			}
+			"kitui_offset"
+			{
+				"position"				"25 0 0"
+			}
+			"team_access"				"security, insurgent"
+		}
 	}
 }

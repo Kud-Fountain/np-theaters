@@ -1952,12 +1952,11 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_l1a1"
-				"weapon_upgrade"	"magazine_extended_rifle_30rd"
-				"weapon_upgrade"	"ammo_ap_l1a1"
+				"weapon"			"weapon_nam_ppsh41"
+				//"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				//Secondary
 				"weapon"			"weapon_model10"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
+				"weapon_upgrade"	"magazine_extended_ppsh41"
 				//"weapon_upgrade"	"ammo_ap_kriss"
 				//Explosive
 				"weapon"			"weapon_m84"

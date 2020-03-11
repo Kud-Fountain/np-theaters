@@ -117,6 +117,26 @@
 		// Bullets
 		// ========================================
 		
+		"7.62×25nam"	
+		{
+			"import"				"default"
+			"SuppressionIncrement"			"10"
+			"brass_model"				"models/weapons/shells/9x19.mdl"
+			
+			"Damage"
+			{
+				"1"						"110"
+				"5000"					"30"
+				"8000"					"15"
+			}
+			"PenetrationPower"
+			{
+				"10"					"400"
+				"8000"					"265"
+			}
+			
+		}
+		
 		"762x51_mk48"	// 147gr 833 m/s 3,304J
 		{
 			"import"				"default"

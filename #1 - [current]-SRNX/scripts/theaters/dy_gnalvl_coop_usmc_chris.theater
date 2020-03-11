@@ -57,32 +57,32 @@
 			"squads"
 			{
 				
-				"侦察梯队 [阿尔法]"
+				"[Alpha]"
 				{
 					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_medic"
-					"#Squad_Gnalvl_Recon"				"gnalvl_recon_fast_medic"
-					"#Squad_Gnalvl_Recon"				"gnalvl_recon_fast_medic"
+					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_medic"
+					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_medic"
 					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_medic_2"
 					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_medic_2"
 					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_medic"
 					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_medic"
 				}
-				"进攻梯队 [布拉沃]"
+				"[Bravo]"
 				{
 					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_medic"
-					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_medic"
-					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_medic"
+					"#Squad_Gnalvl_Auto"				"Gnalvl_support_medic_1"
+					"#Squad_Gnalvl_Auto"				"Gnalvl_support_medic_1"
+					"#Squad_Gnalvl_Auto2"				"Gnalvl_support_medic_2"
+					"#Squad_Gnalvl_Auto2"				"Gnalvl_support_medic_2"
 					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_medic_1"	
 					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_medic_1"
-					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_medic_1"
 				}
-				"支援梯队 [查理]"
+				"[Charlie]"
 				{
-					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_medic"
+					"#Squad_Gnalvl_Rifleman_AT2"			"Gnalvl_rifleman_at_medic_2"
+					"#Squad_Gnalvl_Rifleman_AT2"			"Gnalvl_rifleman_at_medic_2"
 					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_medic_1"
 					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_medic_1"
-					"#Squad_Gnalvl_Auto"				"Gnalvl_support_medic_1"
-					"#Squad_Gnalvl_Auto"				"Gnalvl_support_medic_1"
 					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_medic_1"
 					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_medic_1"
 				}
@@ -121,7 +121,9 @@
 					"Bot"		"mg_fighter_ins_2" 	
 					"Bot"		"striker_ins_1" 					
 					"Bot"		"sapper_ins_1"
-					"Bot"		"striker_ins_vip_1" 				
+					"Bot"		"striker_ins_vip_1" 
+					"Bot"		"juggernaut_1" 		
+					"Bot"		"juggernaut_2"
 					"Bot"		"scout_ins_1" 	
 				}
 
@@ -129,12 +131,11 @@
 				{
 					"Bot"		"bomber_ins_1" 
 					"Bot"		"standard_ins_2" 
+					"Bot"		"juggernaut_3"
 					"Bot"		"mg_fighter_ins_3"		
 					"Bot"		"mg_fighter_ins_4"		
 					"Bot"		"striker_ins_2" 
-					"Bot"		"striker_ins_2"	//CP
-					"Bot"		"juggernaut_1" 		
-					"Bot"		"juggernaut_2" 			
+					"Bot"		"striker_ins_2"	//CP 			
 					"Bot"		"scout_ins_2" 	
 					//"Bot"		"scout_ins_ex" 						
 				}

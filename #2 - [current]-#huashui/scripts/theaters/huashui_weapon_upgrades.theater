@@ -314,6 +314,59 @@
 			}
 		}
 		
+		"magazine_extended_ppsh41"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"1"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+			
+			"print_name"				"#magazine_extended_ppsh41"
+			"print_desc"				"#magazine_extended_ppsh41_desc"
+			
+			"weapon_weight"				"40"
+			
+			"magsize_override"			"71"
+
+			"recoil"
+			{
+				"recoil_vertical_frac"		"1.05"
+				"recoil_lateral_frac"		"1.05"
+			}
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_nam_ppsh41"
+			}
+
+			"viewmodel_attachments"
+			{
+				"magazine_ppsh41_drum"
+				{
+				    "ActSuffix"			"_MAG1"
+					"model"				"models/weapons/upgrades/v_ppshdrum.mdl"
+
+					"weapons"
+					{
+						"weapon"		"weapon_nam_ppsh41"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"magazine_drum"
+				{
+					"model"				"models/weapons/upgrades/w_ppshdrum.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_nam_ppsh41"
+					}
+				}
+			}	
+		}
+		
 		"barrel_silencer_sec1"
 		{
 			"import"					"base_silencer"
@@ -2320,6 +2373,7 @@
 				"weapon"			"weapon_thompson"
 				"weapon"			"weapon_stg44"
 				"weapon"			"weapon_bar"
+				"weapon"			"weapon_nam_ppsh41"
 
 				"weapon"			"weapon_m1912"
 			}
@@ -2682,6 +2736,7 @@
 				"weapon"			"weapon_luger"
 				"weapon"			"weapon_p38"
 				"weapon"			"weapon_enfield"
+				"weapon"			"weapon_nam_ppsh41"
 				//"weapon"			"weapon_mosin"
 				//"weapon"			"weapon_m40a1"
 				//"weapon"			"weapon_model10"

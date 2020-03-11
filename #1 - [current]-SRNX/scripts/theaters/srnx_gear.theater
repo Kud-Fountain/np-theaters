@@ -1534,15 +1534,15 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"1.00"
-				"HITGROUP_CHEST"			"0.82"
-				"HITGROUP_STOMACH"			"0.82"
+				"HITGROUP_CHEST"			"0.92"
+				"HITGROUP_STOMACH"			"0.92"
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
 				"HITGROUP_GENERIC"			"0.80"
 			}
-			"explosive_damage_frac"		"0.85"
+			"explosive_damage_frac"		"0.95"
 			"penetration_power_loss"	"30"
 			
 			"team_access"				"insurgent"
@@ -1558,15 +1558,15 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"1.00"
-				"HITGROUP_CHEST"			"0.67"
-				"HITGROUP_STOMACH"			"0.67"
+				"HITGROUP_CHEST"			"0.77"
+				"HITGROUP_STOMACH"			"0.77"
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
 				"HITGROUP_GENERIC"			"0.80"
 			}
-			"explosive_damage_frac"		"0.85"
+			"explosive_damage_frac"		"0.95"
 			"penetration_power_loss"	"33"
 			
 			"team_access"				"insurgent"
@@ -1606,8 +1606,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"1.00"	// death
-				"HITGROUP_CHEST"			"0.54"
-				"HITGROUP_STOMACH"			"0.54"
+				"HITGROUP_CHEST"			"0.64"
+				"HITGROUP_STOMACH"			"0.64"
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
@@ -1629,15 +1629,15 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"1.00"	// death
-				"HITGROUP_CHEST"			"0.51"
-				"HITGROUP_STOMACH"			"0.51"
+				"HITGROUP_CHEST"			"0.61"
+				"HITGROUP_STOMACH"			"0.61"
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
 				"HITGROUP_GENERIC"			"1.00"
 			}
-			"explosive_damage_frac"		"1.00"
+			"explosive_damage_frac"		"0.85"
 			"team_access"				"insurgent"
 			"penetration_power_loss"	"80"
 		}
@@ -1674,7 +1674,7 @@
             "model"                 "models/characters/ins_helmet_head.mdl"
             "DamageHitgroups"
             {
-                "HITGROUP_HEAD"        "0.85"
+                "HITGROUP_HEAD"        "0.95"
             }
 			"penetration_power_loss"	"25"
             "team_access"   		"insurgent"
@@ -1691,7 +1691,7 @@
             "model"                 "models/characters/msk_helmet_head.mdl"
             "DamageHitgroups"
             {
-                "HITGROUP_HEAD"        "0.80"
+                "HITGROUP_HEAD"        "0.90"
             }
 			"penetration_power_loss"	"25"
             "team_access"   		"insurgent"
@@ -1708,7 +1708,7 @@
             "model"                 "models/characters/k63_helmet_head.mdl"
             "DamageHitgroups"
             {
-                "HITGROUP_HEAD"        "0.75"
+                "HITGROUP_HEAD"        "0.85"
             }
 			"penetration_power_loss"	"25"
             "team_access"   		"insurgent"
@@ -1739,16 +1739,16 @@
 			"gear_weight"	"158" 
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"			"0.03"
-				"HITGROUP_STOMACH"			"0.03"
-				"HITGROUP_LEFTARM"			"0.05"
-				"HITGROUP_RIGHTARM"			"0.05"
-				"HITGROUP_LEFTLEG"			"0.05"
-				"HITGROUP_RIGHTLEG"			"0.05"
-				"HITGROUP_GENERIC"			"0.05"
+				"HITGROUP_CHEST"			"0.04"
+				"HITGROUP_STOMACH"			"0.04"
+				"HITGROUP_LEFTARM"			"0.02"
+				"HITGROUP_RIGHTARM"			"0.02"
+				"HITGROUP_LEFTLEG"			"0.02"
+				"HITGROUP_RIGHTLEG"			"0.02"
+				"HITGROUP_GENERIC"			"0.02"
 			}
 			"penetration_power_loss"	"100"
-			"explosive_damage_frac"		"0.1"
+			"explosive_damage_frac"		"0.2"
 			"team_access"				"insurgent"
 		}
         "srnx_BOT_ins_jugger_helmet_black"
@@ -1763,7 +1763,7 @@
             "model"                 "models/characters/custom/mlf_helmet_head.mdl"
             "DamageHitgroups"
             {
-                "HITGROUP_HEAD"        "0.05"
+                "HITGROUP_HEAD"        "0.04"
             }
 			"penetration_power_loss"	"40"
             "team_access"   		"insurgent"

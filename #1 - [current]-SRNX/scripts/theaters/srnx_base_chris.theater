@@ -2,39 +2,16 @@
 "#base" "srnx_gear.theater"
 "#base" "srnx_weapon.theater"
 "#base" "srnx_weapon_upgrades.theater"
+"#base"	"extra_weapon.theater"
 
 "theater"
 {
-	"core"
-	{
-		"precache"
-		{
-			"localize"	"resource/gnalvlsrealism_schinese.txt"
-		}
-		"precache"
-		{
-			// default theater specific sounds
-			"sounds"			"scripts/ins_sounds_weapons.txt"
-			"sounds"			"scripts/ins_sounds_custom_cues.txt"
-			"sounds"			"scripts/ins_sounds_voice.txt"
-			"sounds"			"scripts/ins_sounds_radial_security.txt"				
-			"sounds"			"scripts/ins_sounds_radial_insurgent.txt"				
-			"sounds"			"scripts/ins_sounds_responses_security.txt"
-			"sounds"			"scripts/ins_sounds_responses_insurgent.txt"
-			"sounds"			"scripts/ins_sounds_hq.txt"
-			
-			// coop specific
-			"sounds"			"scripts/ins_sounds_voice_coop.txt"
-		}
-	}
-
-
 	"player_templates"
 	{
 		//security class templates
 		//USMC Templates:
 		
-		"Gnalvl_squadleader_usmc"
+		"Gnalvl_squadleader_medic"
 		{	
 			"team"			"security"			
 			"print_name"	"#Squad_Gnalvl_SquadLeader"	
@@ -57,11 +34,11 @@
 
 			"buy_order" 
 			{
-				"weapon"			"weapon_l1a1"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_sten_mk2"
+				"weapon"			"weapon_defib"
 				"weapon"			"weapon_m67"
 				"gear"				"gear_uav"
-				"gear"				"gear_christmas_hat"
+				"gear"				"basic_chest"
 				//"gear"				"srnx_chest_rig2"
 				//"gear"				"srnx_devgru_1_a"
 				//"gear"				"srnx_esapi"
@@ -69,85 +46,55 @@
 			}
 			"allowed_items"
 			{
-				"gear"				"gear_christmas_hat"
 				// "weapon"			"weapon_m79"
 				// "weapon"			"weapon_m79_smoke"
 				// "weapon"			"weapon_m79_incen"
 				//Primaries
-				"weapon"			"weapon_l1a1"
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_vz58"
-				"weapon"			"weapon_m16a4"
-				"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_sa80"
-				"weapon"			"weapon_galil_sar"
-				"weapon"			"weapon_ak12u"
-				"weapon"			"weapon_spas12"
-				"weapon"			"weapon_ksg"
-				"weapon"			"weapon_acr"
-				"weapon"			"weapon_scar"
-				"weapon"			"weapon_g36c"
-				"weapon"			"weapon_f2000"
 				"weapon"			"weapon_aug3"
-				"weapon_upgrade"	"ammo_beta50"
+				"weapon"			"weapon_g36c"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_mini14"
+				"weapon"			"weapon_g3a3"
+				"weapon"			"weapon_fal"
+				//"weapon_upgrade"	"ammo_beta50"
 				//"weapon_upgrade"	"ammo_beta75"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
+				"weapon_upgrade"	"magazine_extended_rifle_42rnd_aug3"
 
 
 				//Secondaries
-				"weapon"			"weapon_m1a1"
-				"weapon"			"weapon_mini14"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_m590"
-				"weapon"			"weapon_nova"
-				"weapon"			"weapon_ump45"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_toz"
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_uzi"
-				"weapon"			"weapon_kriss"
-				"weapon"			"weapon_mk18_m0"
-				"weapon"			"weapon_mp7"
-				"weapon"			"weapon_czse3"
-				"weapon"			"weapon_mac10"
-				"weapon"			"weapon_kingcobra"
-				"weapon"			"weapon_czse3"
-				"weapon"			"weapon_mac10"
-				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_deagle"
 
 				//Explosives
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_m84"
+				//"weapon"			"weapon_m84"
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_mk3"
+				//"weapon"			"weapon_mk3"
+				//"weapon"			"weapon_m18"
 				"weapon_upgrade"		"underbarrel_m203_mk3"
 				"weapon_upgrade"		"underbarrel_m203_incendiary"
 				"weapon_upgrade"		"underbarrel_m203_he"
 				"weapon_upgrade"		"underbarrel_gp25_he"
 				"weapon_upgrade"		"underbarrel_gp25_incendiary"
-				"weapon_upgrade"		"underbarrel_gp25_mk3"
+				//"weapon_upgrade"		"underbarrel_gp25_mk3"
 				//"weapon_upgrade"		"underbarrel_m203_smoke"
 				//"weapon_upgrade"		"underbarrel_gp25_smoke"
 				//m320s
 				"weapon_upgrade"		"underbarrel_m320_he"
-				"weapon_upgrade"		"underbarrel_m320_mk3"
+				//"weapon_upgrade"		"underbarrel_m320_mk3"
 				"weapon_upgrade"		"underbarrel_m320_incendiary"
 				//"weapon_upgrade"		"underbarrel_m320_smoke"
 				"weapon_upgrade"		"magazine_drum_50rd"
 				//pistols
-				"weapon"			"weapon_model10"
-				"weapon"			"weapon_makarov"
-				"weapon"			"weapon_m93r"
-				"weapon"			"weapon_m45"
+				//"weapon"			"weapon_model10"
+				//"weapon"			"weapon_makarov"
+				//"weapon"			"weapon_m93r"
+				//"weapon"			"weapon_m45"
 				//Gear
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"gear_uav"
-				"gear"				"srnx_chest_rig1"
-				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
+				"gear"				"basic_chest"
 				//"gear"				"srnx_chest_rig4"
 				//"gear"				"srnx_chest_carrier1"
 				//"gear"				"srnx_chest_carrier2"
@@ -177,7 +124,6 @@
 
 			"buy_order" 
 			{
-				"gear"				"gear_christmas_hat"
 				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
@@ -189,11 +135,10 @@
 			}
 			"allowed_items"
 			{
-				"gear"				"gear_christmas_hat"
 				//Primaries
 				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_mk18"
-				"weapon"			"weapon_saiga12"
+				//"weapon"			"weapon_saiga12"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_m16a4"
@@ -251,16 +196,13 @@
 				//Gear
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"gear_uav"
-				"gear"				"srnx_chest_rig1"
-				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
 				//"gear"				"srnx_chest_rig4"
 				//"gear"				"srnx_chest_carrier1"
 				//"gear"				"srnx_chest_carrier2"
 				//"gear"				"srnx_chest_carrier3"
 			}
 		}
-		"Gnalvl_pointman_usmc"
+		"gnalvl_pointman_medic"
 		{	
 			"team"			"security"
 			"print_name"	"#Squad_Gnalvl_Riflepoint"
@@ -283,76 +225,54 @@
 
 			"buy_order" 
 			{
-				"gear"				"gear_christmas_hat"
-				"weapon"			"weapon_saiga12"
-				"weapon"			"weapon_knife"
-				"weapon"			"weapon_mk3"
-				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_esapi"
-				"gear"				"srnx_daps_leba1"
+				//"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_nam_ppsh41"
+				"weapon"			"weapon_defib"
+				"gear"				"basic_chest"
 				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
 			{
-				"gear"				"gear_christmas_hat"
 				//Primaries
-				"weapon"			"weapon_saiga12"
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_galil_sar"
-				"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_sa80"
-				"weapon"			"weapon_mk18"
-				"weapon"			"weapon_acr"
-				"weapon"			"weapon_ak12u"
-				"weapon"			"weapon_spas12"
-				"weapon"			"weapon_ksg"
-				"weapon"			"weapon_scar"
-				"weapon"			"weapon_sig553"
-				"weapon"			"weapon_g36c"
-				"weapon"			"weapon_famas"
+				//"weapon"			"weapon_vz58"
+				//"weapon"			"weapon_acr"
+				"weapon"			"weapon_kriss"
+				//"weapon"			"weapon_mk18"
+				"weapon"			"weapon_czse3"
+				//"weapon"			"weapon_ak12u"
+				//"weapon"			"weapon_fal"
+				"weapon"			"weapon_mp5a4"
+				"weapon"			"weapon_m3greasegun"
+				//"weapon"			"weapon_m4a1"
+				"weapon"			"weapon_mp7"
+				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_ump45"
+				"weapon"			"weapon_c96carbine"
+				"weapon"			"weapon_nam_ppsh41"
+				//"weapon"			"weapon_hk416"
 				//"weapon_upgrade"	"ammo_beta50"
 				//"weapon_upgrade"	"ammo_beta75"
 				//"weapon_upgrade"	"magazine_drum_75rd"
 				//"weapon_upgrade"	"magazine_drum_50rd"
-				"weapon_upgrade"	"fast_gunner_sp"
+				//"weapon_upgrade"	"fast_gunner_sp"
 				//"weapon_upgrade"	"fast_gunner_sp_shotgun"
-				"weapon_upgrade"	"fast_gunner_sp_pis"
+				//"weapon_upgrade"	"fast_gunner_sp_pis"
+				"weapon_upgrade"	"magazine_extended_ppsh41"
 
 
 				//Secondaries
-				"weapon"			"weapon_m1a1"
-				"weapon"			"weapon_mini14"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_m590"
-				"weapon"			"weapon_nova"
-				"weapon"			"weapon_ump45"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_toz"
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_uzi"
-				"weapon"			"weapon_kriss"
-				"weapon"			"weapon_mk18_m0"
-				
-				"weapon"			"weapon_mp7"
-				"weapon"			"weapon_czse3"
-				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_usp"
 				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_m45"
 				//Explosives
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_m84"
+				//"weapon"			"weapon_m84"
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_mk3"
+				//"weapon"			"weapon_mk3"
 				//Pistols
-				"weapon"			"weapon_model10"
-				"weapon"			"weapon_makarov"
-				"weapon"			"weapon_m93r"
-				"weapon"			"weapon_m45"
 				//Gear
 				//"gear"				"srnx_devgru_1_a"
-				"gear"				"srnx_chest_rig1_sp"
-				"gear"				"srnx_chest_rig2_sp"
-				"gear"				"srnx_chest_rig3_sp"
+				"gear"				"basic_chest"
 				//"gear"				"srnx_chest_rig4"
 				//"gear"				"srnx_chest_carrier1"
 				//"gear"				"srnx_chest_carrier2"
@@ -368,7 +288,7 @@
 				}
 			}
 		}
-		"Gnalvl_rifleman_at_usmc_1"
+		"Gnalvl_rifleman_at_medic_1"
 		{	
 			"team"			"security"
 			"print_name"	"#Squad_Gnalvl_Rifleman_AT"
@@ -392,55 +312,24 @@
 
 			"buy_order" 
 			{
-				"gear"				"gear_christmas_hat"
-				"weapon"			"weapon_m16a4"
-				"weapon"			"weapon_knife"
-				"weapon"			"weapon_m67"
-				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_esapi"
-				"gear"				"srnx_daps_leba1"
+				//"weapon"			"weapon_m16a4"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_defib"
+				"gear"				"basic_chest"
 				//"gear"				"srnx_devgru_1_a"
 
 			}
 			"allowed_items"
 			{
-				"gear"				"gear_christmas_hat"
 				//Primaries
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_m16a4"
-				"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_scar"
 				"weapon"			"weapon_sa80"
-				"weapon"			"weapon_mk18"
-				"weapon"			"weapon_spas12"
-				"weapon"			"weapon_ksg"
-				"weapon"			"weapon_acr"
-				"weapon"			"weapon_ak12u"
-				"weapon"			"weapon_sig553"
-				"weapon"			"weapon_g36c"
-				"weapon"			"weapon_famas"
-				"weapon"			"weapon_f2000"
-				//Secondaries
-				"weapon"			"weapon_m1a1"
-				"weapon"			"weapon_mini14"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_m590"
-				"weapon"			"weapon_nova"
-				"weapon"			"weapon_ump45"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_toz"
+				"weapon"			"weapon_m16a4"
+				"weapon"			"weapon_akm"
 				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_uzi"
-				"weapon"			"weapon_kriss"
-				"weapon"			"weapon_mk18_m0"
-				
-				"weapon"			"weapon_mp7"
-				"weapon"			"weapon_czse3"
-				"weapon"			"weapon_mac10"
-				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_m1a1"
+				//Secondaries
+				"weapon"			"weapon_m93r"
 				
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
@@ -450,29 +339,23 @@
 				"weapon_upgrade"		"underbarrel_gp25_he"
 				"weapon_upgrade"		"underbarrel_m203_he"
 				"weapon"			"weapon_at4"
-				"weapon"			"weapon_rpg7"
-				"weapon"			"weapon_law"
+				//"weapon"			"weapon_rpg7"
+				//"weapon"			"weapon_law"
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_mk3"
-				"weapon"			"weapon_model10"
-				"weapon"			"weapon_makarov"
-				"weapon"			"weapon_m93r"
-				"weapon"			"weapon_m45"
+				//"weapon"			"weapon_mk3"
 				//Gear
 				//"gear"				"srnx_devgru_1_a"
-				"gear"				"srnx_chest_rig1"
-				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
+				"gear"				"basic_chest"
 				//"gear"				"srnx_chest_rig4"
 				//"gear"				"srnx_chest_carrier1"
 				//"gear"				"srnx_chest_carrier2"
 				//"gear"				"srnx_chest_carrier3"
 			}
 		}
-		"Gnalvl_rifleman_at_usmc_2"
+		"Gnalvl_rifleman_at_medic_2"
 		{	
 			"team"			"security"
-			"print_name"	"#Squad_Gnalvl_Rifleman_AT"
+			"print_name"	"#Squad_Gnalvl_Rifleman_AT2"
 
 
 			"models"
@@ -492,55 +375,18 @@
 
 			"buy_order" 
 			{
-				"gear"				"gear_christmas_hat"
-				"weapon"			"weapon_m16a4"
-				"weapon"			"weapon_knife"
-				"weapon"			"weapon_m67"
-				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_esapi"
-				"gear"				"srnx_daps_leba1"
-				//"gear"				"srnx_devgru_1_a"
 
 			}
 			"allowed_items"
 			{
-				"gear"				"gear_christmas_hat"
 				//Primaries
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_l1a1"
-				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_m16a4"
-				"weapon"			"weapon_m4a1"
+				"weapon"			"weapon_f2000"
+				"weapon"			"weapon_famas"
 				"weapon"			"weapon_scar"
-				"weapon"			"weapon_sa80"
-				"weapon"			"weapon_mk18"
-				"weapon"			"weapon_spas12"
-				"weapon"			"weapon_ksg"
 				"weapon"			"weapon_acr"
 				"weapon"			"weapon_ak12u"
 				"weapon"			"weapon_sig553"
-				"weapon"			"weapon_g36c"
-				"weapon"			"weapon_famas"
-				"weapon"			"weapon_f2000"
-				//Secondaries
-				"weapon"			"weapon_m1a1"
-				"weapon"			"weapon_mini14"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_m590"
-				"weapon"			"weapon_nova"
-				"weapon"			"weapon_ump45"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_toz"
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_uzi"
-				"weapon"			"weapon_kriss"
-				"weapon"			"weapon_mk18_m0"
-				
-				"weapon"			"weapon_mp7"
-				"weapon"			"weapon_czse3"
-				"weapon"			"weapon_mac10"
-				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_m93r"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
 
@@ -548,27 +394,16 @@
 				"weapon_upgrade"		"underbarrel_m320_he"
 				"weapon_upgrade"		"underbarrel_gp25_he"
 				"weapon_upgrade"		"underbarrel_m203_he"
-				"weapon"			"weapon_at4"
-				"weapon"			"weapon_rpg7"
-				"weapon"			"weapon_law"
-				"weapon"			"weapon_m67"
-				"weapon"			"weapon_mk3"
-				"weapon"			"weapon_model10"
-				"weapon"			"weapon_makarov"
-				"weapon"			"weapon_m93r"
-				"weapon"			"weapon_m45"
+				//"weapon"			"weapon_at4"
+				//"weapon"			"weapon_rpg7"
+				//"weapon"			"weapon_law"
+				//"weapon"			"weapon_m67"
+				//"weapon"			"weapon_mk3"
 				//Gear
-				//"gear"				"srnx_devgru_1_a"
-				"gear"				"srnx_chest_rig1"
-				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
-				//"gear"				"srnx_chest_rig4"
-				//"gear"				"srnx_chest_carrier1"
-				//"gear"				"srnx_chest_carrier2"
-				//"gear"				"srnx_chest_carrier3"
+				"gear"				"basic_chest"
 			}
 		}
-		"Gnalvl_engineer_usmc_1"
+		"Gnalvl_engineer_medic_1"
 		{	
 			"team"			"security"
 			"print_name"	"#Squad_Gnalvl_Engineer"
@@ -589,11 +424,12 @@
 
 			"buy_order" 
 			{
-				"gear"				"gear_christmas_hat"
-				"weapon"			"weapon_knife"
-				"weapon"			"weapon_mk18"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_defib"
+				//"weapon"			"weapon_mk18"
 				//"weapon"			"weapon_c4_clicker"
 				"gear"				"gear_ammocrate"
+				"gear"				"basic_chest_shotgun"
 				//"gear"				"srnx_chest_carrier_eng2"
 				//"gear"				"srnx_esapi"
 				//"gear"				"srnx_daps_leba1"
@@ -601,80 +437,46 @@
 			}
 			"allowed_items"
 			{
-				"gear"				"gear_christmas_hat"
 				//Primaries
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_vz58"
-				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_mk18"
-				"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_sa80"
-				"weapon"			"weapon_acr"
-				"weapon"			"weapon_ak12u"
-				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_m590"
 				"weapon"			"weapon_ksg"
-				"weapon"			"weapon_scar"
-				"weapon"			"weapon_sig553"
-				"weapon"			"weapon_g36c"
-				"weapon"			"weapon_famas"
+				"weapon"			"weapon_saiga12"
+				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_nova"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_m1887"
 				"weapon"			"weapon_m79"
 				"weapon"			"weapon_m79_smoke"
 				"weapon"			"weapon_m79_incen"
-				//Secondaries
-				"weapon"			"weapon_m1a1"
-				"weapon"			"weapon_mini14"
-				"weapon"			"weapon_mp40"
 				"weapon"			"weapon_m590"
-				"weapon"			"weapon_nova"
-				"weapon"			"weapon_ump45"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_toz"
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_uzi"
-				"weapon"			"weapon_kriss"
-				"weapon"			"weapon_mk18_m0"
+				//Secondaries
 				
 				"weapon_upgrade"		"underbarrel_m203_smoke"
 				"weapon_upgrade"		"underbarrel_gp25_smoke"
 				"weapon_upgrade"		"underbarrel_m320_smoke"
-				"weapon_upgrade"	"fast_gunner_sp_shotgun"
+				//"weapon_upgrade"	"fast_gunner_sp_shotgun"
+				"weapon_upgrade"	"magazine_extended_saiga_12rd"
 
-				"weapon"			"weapon_mp7"
-				"weapon"			"weapon_czse3"
-				"weapon"			"weapon_mac10"
-				"weapon"			"weapon_kingcobra"
 				//Explosives
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_anm14"
 				//"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_molotov"
 				//Pistols
-				"weapon"			"weapon_model10"
-				"weapon"			"weapon_makarov"
-				"weapon"			"weapon_m93r"
-				"weapon"			"weapon_m45"
 				//Gear
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"gear_ammocrate"
 				//"gear"				"srnx_chest_carrier_eng1"
 				//"gear"				"srnx_chest_carrier_eng2"
 				//"gear"				"srnx_chest_carrier_eng3"
-				"gear"				"srnx_chest_rig_eng1"
-				"gear"				"srnx_chest_rig_eng2"
-				"gear"				"srnx_chest_rig_eng3"
+				"gear"				"basic_chest_shotgun"
 				//"gear"				"srnx_chest_rig_eng4"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_ksg"		"-1"
-					"weapon_spas12"		"-1"
-					"weapon_m590"		"-1"
-					"weapon_nova"		"-1"
-					"weapon_toz"		"-1"
-					"weapon_saiga12"		"-1"
+				
 				}
 			}
 		}
@@ -699,9 +501,8 @@
 
 			"buy_order" 
 			{
-				"gear"				"gear_christmas_hat"
 				"weapon"			"weapon_knife"
-				"weapon"			"weapon_mk18"
+				//"weapon"			"weapon_mk18"
 				//"weapon"			"weapon_c4_clicker"
 				"gear"				"gear_ammocrate"
 				//"gear"				"srnx_chest_carrier_eng2"
@@ -711,7 +512,6 @@
 			}
 			"allowed_items"
 			{
-				"gear"				"gear_christmas_hat"
 				//Primaries
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_vz58"
@@ -744,6 +544,7 @@
 				"weapon"			"weapon_uzi"
 				"weapon"			"weapon_kriss"
 				"weapon"			"weapon_mk18_m0"
+				"weapon"			"weapon_saiga12"
 				
 				"weapon"			"weapon_mp7"
 				"weapon"			"weapon_czse3"
@@ -789,6 +590,35 @@
 				}
 			}
 		}
+		"gnalvl_recon_fast_medic"
+		{	
+			"team"			"security"
+			"print_name"	"#Squad_Gnalvl_Recon"
+
+			"models"
+			{
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"us"					"1"
+					"head_ref"				"0"
+					"holster"				"1"
+					"kit"					"0"
+					"bag"					"0"
+				}
+			}
+
+			"buy_order" 
+			{
+				
+			}
+			"allowed_items"
+			{
+
+			}
+		}
 		"gnalvl_medic_usmc_1"
 		{	
 			"team"			"security"
@@ -811,75 +641,47 @@
 
 			"buy_order" 
 			{
-				"gear"				"gear_christmas_hat"
-				"weapon"			"weapon_sa80"
+				
+				//"weapon"			"weapon_sa80"
+				"weapon"			"weapon_m3greasegun"
 				"weapon"			"weapon_defib"
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
-				"gear"				"srnx_chest_rig2"
+				"gear"				"srnx_chest_rig1_mv"
 				"gear"				"srnx_esapi"
-				"gear"				"srnx_daps_leba1"
 				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
 			{
-				"gear"				"gear_christmas_hat"
 				//Primaries
-				"weapon"			"weapon_saiga12"
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_m16a4"
+				"weapon"			"weapon_m3greasegun"
 				"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_sa80"
-				"weapon"			"weapon_mk18"
-				"weapon"			"weapon_spas12"
-				"weapon"			"weapon_ksg"
-				"weapon"			"weapon_acr"
-				"weapon"			"weapon_ak12u"
-				"weapon"			"weapon_scar"
-				"weapon"			"weapon_sig553"
-				"weapon"			"weapon_g36c"
-				"weapon"			"weapon_famas"
-				"weapon"			"weapon_f2000"
-				//Secondaries
-				"weapon"			"weapon_m1a1"
-				"weapon"			"weapon_mini14"
-				"weapon"			"weapon_mp40"
 				"weapon"			"weapon_m590"
-				"weapon"			"weapon_nova"
-				"weapon"			"weapon_ump45"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_toz"
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_uzi"
-				"weapon"			"weapon_kriss"
-				"weapon"			"weapon_mk18_m0"
-				
 				"weapon"			"weapon_mp7"
-				"weapon"			"weapon_czse3"
+				"weapon"			"weapon_f2000"
 				"weapon"			"weapon_mac10"
+				"weapon"			"weapon_ump45"
+				"weapon"			"weapon_ak12u"
+				"weapon"			"weapon_c96carbine"
+				//Secondaries
 				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_m45"
 				//Explosives
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_mk3"
-				"weapon"			"weapon_m18"
+				//"weapon"			"weapon_m18"
 				"weapon"			"weapon_anm14"
 				//"weapon"			"weapon_healthkit"
 				"weapon_upgrade"		"underbarrel_m203_smoke"
 				"weapon_upgrade"		"underbarrel_gp25_smoke"
 				//m320s
 				"weapon_upgrade"		"underbarrel_m320_smoke"
+				//"weapon_upgrade"		"ammo_beta50"
+				//"weapon_upgrade"		"ammo_beta75"
 				//Pistols
-				"weapon"			"weapon_model10"
-				"weapon"			"weapon_makarov"
-				"weapon"			"weapon_m93r"
-				"weapon"			"weapon_m45"
 				//gear
 				//"gear"				"srnx_devgru_1_a"
-				"gear"				"srnx_chest_rig1"
-				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
+				"gear"				"srnx_chest_rig1_mv"
 				//"gear"				"srnx_chest_rig4"
 				//"gear"				"srnx_chest_carrier1"
 				//"gear"				"srnx_chest_carrier2"
@@ -908,7 +710,7 @@
 
 			"buy_order" 
 			{
-				"gear"				"gear_christmas_hat"
+				
 				"weapon"			"weapon_sa80"
 				"weapon"			"weapon_defib"
 				"weapon"			"weapon_knife"
@@ -920,9 +722,8 @@
 			}
 			"allowed_items"
 			{
-				"gear"				"gear_christmas_hat"
 				//Primaries
-				"weapon"			"weapon_saiga12"
+				//"weapon"			"weapon_saiga12"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_m16a4"
@@ -960,7 +761,7 @@
 				//Explosives
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_mk3"
-				"weapon"			"weapon_m18"
+				//"weapon"			"weapon_m18"
 				"weapon"			"weapon_anm14"
 				//"weapon"			"weapon_healthkit"
 				"weapon_upgrade"		"underbarrel_m203_smoke"
@@ -983,7 +784,7 @@
 				//"gear"				"srnx_chest_carrier3"
 			}
 		}	
-		"Gnalvl_support_usmc_1"
+		"Gnalvl_support_medic_1"
 		{	
 			"team"			"security"
 			"print_name"	"#Squad_Gnalvl_MGGunner"
@@ -1005,24 +806,20 @@
 
 			"buy_order" 
 			{
-				"gear"				"gear_christmas_hat"
-				"weapon"			"weapon_m249"
-				"weapon"			"weapon_knife"
-				"weapon"			"weapon_m67"
-				"gear"				"srnx_chest_rig_mg2"
-				"gear"				"srnx_esapi"
-				"gear"				"srnx_daps_leba1"
+				"weapon"			"weapon_lewis"
+				"weapon"			"weapon_defib"
+				"gear"				"basic_chest_mg"
 				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
 			{
-				"gear"				"gear_christmas_hat"
 				//Primaries
-				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_lewis"
 				"weapon"			"weapon_m249"
 				"weapon"			"weapon_m60"
-				//"weapon"			"weapon_galil_sar"
-				"weapon"			"weapon_rpk74m"
+				"weapon"			"weapon_mg34"
+				"weapon"			"weapon_ae_mg42"
+				"weapon"			"weapon_vickers"
 				//"weapon"			"weapon_m16a4"
 				//"weapon"			"weapon_m4a1"
 				//"weapon"			"weapon_mk18"
@@ -1030,42 +827,20 @@
 				"weapon"			"weapon_mk46"
 				"weapon"			"weapon_mk48"
 				//upgrades
-				//"weapon_upgrade"	"magazine_drum_75rd"
+				"weapon_upgrade"	"magazine_drum_75rd"
+				//"weapon_upgrade"	"magazine_drum_50rd"
 				//"weapon_upgrade"	"ammo_beta75"
-				"weapon_upgrade"	"tactical_sling_sup"
+				//"weapon_upgrade"	"tactical_sling_sup"
 
 				//Secondaries
-				"weapon"			"weapon_m1a1"
-				"weapon"			"weapon_mini14"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_m590"
-				"weapon"			"weapon_nova"
-				"weapon"			"weapon_ump45"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_toz"
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_uzi"
-				"weapon"			"weapon_kriss"
-				"weapon"			"weapon_mk18_m0"
-				
-				"weapon"			"weapon_mp7"
-				"weapon"			"weapon_czse3"
-				"weapon"			"weapon_mac10"
-				"weapon"			"weapon_kingcobra"
 				//Explosives
-				"weapon"			"weapon_m67"
-				"weapon"			"weapon_mk3"
+				//"weapon"			"weapon_mk3"
 				//Pistols
 				"weapon"			"weapon_model10"
-				"weapon"			"weapon_makarov"
-				"weapon"			"weapon_m93r"
-				"weapon"			"weapon_m45"
 				//GEAR
 				//"gear"				"srnx_devgru_1_a"
-				"gear"				"srnx_chest_rig_mg1"
-				"gear"				"srnx_chest_rig_mg2"
-				"gear"				"srnx_chest_rig_mg3"
+				"gear"				"basic_chest_mg"
+				//"gear"				"srnx_chest_rig_mg3"
 				//"gear"				"srnx_chest_carrier_mg1"
 				//"gear"				"srnx_chest_carrier_mg2"
 				//"gear"				"srnx_chest_carrier_mg3"
@@ -1075,11 +850,13 @@
 			{
 				"weapon_upgrade"
 				{
-					"tactical_sling"		"-1"
+				}
+				"gear"
+				{
 				}
 			}
 		}
-		"Gnalvl_support_usmc_2"
+		"Gnalvl_support_medic_2"
 		{	
 			"team"			"security"
 			"print_name"	"#Squad_Gnalvl_MGGunner"
@@ -1101,77 +878,41 @@
 
 			"buy_order" 
 			{
-				"gear"				"gear_christmas_hat"
-				"weapon"			"weapon_m249"
-				"weapon"			"weapon_knife"
-				"weapon"			"weapon_m67"
-				"gear"				"srnx_chest_rig_mg2"
-				"gear"				"srnx_esapi"
-				"gear"				"srnx_daps_leba1"
+				"weapon"			"weapon_galil_sar"
+				"gear"				"basic_chest_mg"
+				"weapon"			"weapon_defib"
 				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
 			{
-				"gear"				"gear_christmas_hat"
 				//Primaries
-				"weapon"			"weapon_rpk"
-				"weapon"			"weapon_m249"
-				"weapon"			"weapon_m60"
-				//"weapon"			"weapon_galil_sar"
+				"weapon"			"weapon_galil_sar"
 				"weapon"			"weapon_rpk74m"
-				//"weapon"			"weapon_m16a4"
-				//"weapon"			"weapon_m4a1"
-				//"weapon"			"weapon_mk18"
-				//"weapon"			"weapon_akm"
-				"weapon"			"weapon_mk46"
-				"weapon"			"weapon_mk48"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_vz58"
+				"weapon"			"weapon_m4a1"
+				"weapon"			"weapon_mk18"
+				
 				//upgrades
-				//"weapon_upgrade"	"magazine_drum_75rd"
-				//"weapon_upgrade"	"ammo_beta75"
-				"weapon_upgrade"	"tactical_sling_sup"
+				"weapon_upgrade"	"magazine_drum_75rd"
+				"weapon_upgrade"	"ammo_beta75"
+				//"weapon_upgrade"	"tactical_sling_sup"
 
 				//Secondaries
-				"weapon"			"weapon_m1a1"
-				"weapon"			"weapon_mini14"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_m590"
-				"weapon"			"weapon_nova"
-				"weapon"			"weapon_ump45"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_toz"
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_uzi"
-				"weapon"			"weapon_kriss"
-				"weapon"			"weapon_mk18_m0"
-				
-				"weapon"			"weapon_mp7"
-				"weapon"			"weapon_czse3"
-				"weapon"			"weapon_mac10"
-				"weapon"			"weapon_kingcobra"
 				//Explosives
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_mk3"
+				//"weapon"			"weapon_mk3"
 				//Pistols
 				"weapon"			"weapon_model10"
-				"weapon"			"weapon_makarov"
-				"weapon"			"weapon_m93r"
-				"weapon"			"weapon_m45"
 				//Gear
-				//"gear"				"srnx_devgru_1_a"
-				"gear"				"srnx_chest_rig_mg1"
-				"gear"				"srnx_chest_rig_mg2"
-				"gear"				"srnx_chest_rig_mg3"
-				//"gear"				"srnx_chest_carrier_mg1"
-				//"gear"				"srnx_chest_carrier_mg2"
-				//"gear"				"srnx_chest_carrier_mg3"
+				"gear"				"basic_chest_mg"
 
 			}
 			"cost_modifiers"
 			{
 				"weapon_upgrade"
 				{
-					"tactical_sling"		"-1"
+					//"tactical_sling"		"-1"
 				}
 			}
 		}
@@ -1197,7 +938,6 @@
 
 			"buy_order" 
 			{
-				"gear"				"gear_christmas_hat"
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_m67"
@@ -1209,7 +949,6 @@
 			}
 			"allowed_items"
 			{
-				"gear"				"gear_christmas_hat"
 				//Primaries
 				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_sks"
@@ -1306,7 +1045,6 @@
 
 			"buy_order" 
 			{
-				"gear"				"gear_christmas_hat"
 				"weapon"			"weapon_fal"
 				"weapon"			"weapon_defib"
 				"weapon"			"weapon_m67"
@@ -1317,7 +1055,7 @@
 			}
 			"allowed_items"
 			{
-				"gear"				"gear_christmas_hat"
+				
 				"weapon"			"weapon_model10"
 				//Primaries
 				"weapon"			"weapon_fal"
@@ -1363,7 +1101,7 @@
 				"weapon"			"weapon_kingcobra"
 				//Explosives
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_m18"
+				//"weapon"			"weapon_m18"
 				"weapon"			"weapon_mk3"
 				"weapon"			"weapon_anm14"
 				//"weapon"			"weapon_healthkit"
@@ -1379,8 +1117,8 @@
 				//Gear
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"srnx_chest_rig1"
-				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
+				//"gear"				"srnx_chest_rig2"
+				//"gear"				"srnx_chest_rig3"
 				//"gear"				"srnx_chest_rig4"
 				//"gear"				"srnx_chest_carrier1"
 				//"gear"				"srnx_chest_carrier2"
@@ -1409,7 +1147,6 @@
 
 			"buy_order" 
 			{
-				"gear"				"gear_christmas_hat"
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_fal"
 				//"weapon"			"weapon_c4_clicker"
@@ -1421,7 +1158,6 @@
 			}
 			"allowed_items"
 			{
-				"gear"				"gear_christmas_hat"
 				//Primaries
 				"weapon"			"weapon_saiga12"
 				"weapon"			"weapon_akm"
@@ -1506,7 +1242,7 @@
 				}
 			}
 		}
-		"Gnalvl_marksman_usmc_1"
+		"Gnalvl_marksman_medic_1"
 		{	
 			"team"			"security"
 			"print_name"	"#Squad_Gnalvl_SDM"
@@ -1528,73 +1264,34 @@
 
 			"buy_order" 
 			{
-				"gear"				"gear_christmas_hat"
-				"weapon"			"weapon_m40a1"
-				"weapon"			"weapon_knife"
-				"weapon"			"weapon_m67"
-				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_esapi"
-				"gear"				"srnx_daps_leba1"
+				
+				"weapon"			"weapon_enfield"
+				"weapon"			"weapon_defib"
+				"gear"				"basic_chest"
 			}
 			"allowed_items"
 			{
-				"gear"				"gear_christmas_hat"
-				//Primaries
+				"weapon"			"weapon_g43"
 				"weapon"			"weapon_sks"
 				"weapon"			"weapon_m14"
 				"weapon"			"weapon_m107"
 				"weapon"			"weapon_fal"
-				"weapon"			"weapon_m40a1"
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_l1a1"
-				"weapon"			"weapon_g3a3"
+				//"weapon"			"weapon_m40a1"
+				//"weapon"			"weapon_enfield"
+				//"weapon"			"weapon_mosin"
 				"weapon"			"weapon_mk20_scar"
 				"weapon"			"weapon_rfb"
-				"weapon"			"weapon_m40a5"
 				"weapon"			"weapon_svd"
-
-				//Upgrades
+				"weapon_upgrade"	"optic_elcan"
+				"weapon_upgrade"	"optic_scope_7x"
+				"weapon_upgrade"	"optic_po4x24"
+				"weapon_upgrade"	"optic_scope_mk4"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
-				"weapon_upgrade"	"quick_reload_marks"
-				"weapon_upgrade"	"fast_bolt_action_marks"
-				//Secondaries
-				"weapon"			"weapon_m1a1"
-				"weapon"			"weapon_mini14"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_m590"
-				"weapon"			"weapon_nova"
-				"weapon"			"weapon_ump45"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_toz"
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_uzi"
-				"weapon"			"weapon_kriss"
-				"weapon"			"weapon_mk18_m0"
-				
-				"weapon"			"weapon_mp7"
-				"weapon"			"weapon_czse3"
-				"weapon"			"weapon_mac10"
-				"weapon"			"weapon_kingcobra"
-				//Explosives
-				"weapon"			"weapon_m67"
-				"weapon"			"weapon_m84"
-				"weapon"			"weapon_mk3"
-				//Pistols
-				"weapon"			"weapon_model10"
-				"weapon"			"weapon_makarov"
-				"weapon"			"weapon_m93r"
-				"weapon"			"weapon_m45"
-				//Gear
-				//"gear"				"srnx_devgru_1_a"
-				"gear"				"srnx_chest_rig1"
-				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
-				//"gear"				"srnx_chest_rig4"
-				//"gear"				"srnx_chest_carrier1"
-				//"gear"				"srnx_chest_carrier2"
-				//"gear"				"srnx_chest_carrier3"
+				//"weapon_upgrade"	"quick_reload_marks"
+				//"weapon_upgrade"	"fast_bolt_action_marks"
+				"weapon"			"weapon_glock18"
+				"gear"				"basic_chest"
 			}
 			"cost_modifiers"
 			{
@@ -1605,10 +1302,10 @@
 				}
 			}
 		}
-		"Gnalvl_marksman_usmc_2"
+		"Gnalvl_marksman_medic_2"
 		{	
 			"team"			"security"
-			"print_name"	"#Squad_Gnalvl_SDM"
+			"print_name"	"#Squad_Gnalvl_SDM2"
 
 			"models"
 			{
@@ -1626,73 +1323,28 @@
 			}
 			"buy_order" 
 			{
-				"gear"				"gear_christmas_hat"
+				
 				"weapon"			"weapon_m40a1"
-				"weapon"			"weapon_knife"
-				"weapon"			"weapon_m67"
-				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_esapi"
-				"gear"				"srnx_daps_leba1"
+				"weapon"			"weapon_defib"
+				"gear"				"basic_chest_sniper"
 			}
 			"allowed_items"
 			{
-				"gear"				"gear_christmas_hat"
-				//Primaries
-				"weapon"			"weapon_sks"
-				"weapon"			"weapon_m14"
-				"weapon"			"weapon_m107"
-				"weapon"			"weapon_fal"
 				"weapon"			"weapon_m40a1"
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_l1a1"
-				"weapon"			"weapon_g3a3"
-				"weapon"			"weapon_mk20_scar"
-				"weapon"			"weapon_rfb"
-				"weapon"			"weapon_m40a5"
-				"weapon"			"weapon_svd"
-
-				//Upgrades
+				"weapon"			"weapon_enfield"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_springfield"
+				"weapon"			"weapon_k98"
+				"weapon_upgrade"	"optic_elcan"
+				"weapon_upgrade"	"optic_scope_7x"
+				"weapon_upgrade"	"optic_po4x24"
+				"weapon_upgrade"	"optic_scope_mk4"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
-				"weapon_upgrade"	"quick_reload_marks"
-				"weapon_upgrade"	"fast_bolt_action_marks"
-				//Secondaries
-				"weapon"			"weapon_m1a1"
-				"weapon"			"weapon_mini14"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_m590"
-				"weapon"			"weapon_nova"
-				"weapon"			"weapon_ump45"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_toz"
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_uzi"
-				"weapon"			"weapon_kriss"
-				"weapon"			"weapon_mk18_m0"
-				
-				"weapon"			"weapon_mp7"
-				"weapon"			"weapon_czse3"
-				"weapon"			"weapon_mac10"
-				"weapon"			"weapon_kingcobra"
-				//Explosives
-				"weapon"			"weapon_m67"
-				"weapon"			"weapon_m84"
-				"weapon"			"weapon_mk3"
-				//Pistols
-				"weapon"			"weapon_model10"
-				"weapon"			"weapon_makarov"
-				"weapon"			"weapon_m93r"
-				"weapon"			"weapon_m45"
-				//Gear
-				//"gear"				"srnx_devgru_1_a"
-				"gear"				"srnx_chest_rig1"
-				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
-				//"gear"				"srnx_chest_rig4"
-				//"gear"				"srnx_chest_carrier1"
-				//"gear"				"srnx_chest_carrier2"
-				//"gear"				"srnx_chest_carrier3"
+				//"weapon_upgrade"	"quick_reload_marks"
+				//"weapon_upgrade"	"fast_bolt_action_marks"
+				"weapon"			"weapon_glock18"
+				"gear"				"basic_chest_sniper"
 			}
 			"cost_modifiers"
 			{
@@ -1725,9 +1377,9 @@
 
 			"buy_order" 
 			{
-				"gear"				"gear_christmas_hat"
+				
 				"weapon"			"weapon_m40a1"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig2"
 				"gear"				"srnx_esapi"
@@ -1736,7 +1388,6 @@
 			}
 			"allowed_items"
 			{
-				"gear"				"gear_christmas_hat"
 				//Primaries
 				"weapon"			"weapon_sks"
 				"weapon"			"weapon_akm"
@@ -1804,7 +1455,7 @@
 				//"gear"				"srnx_chest_carrier3"
 			}
 		}
-		"Gnalvl_vip_usmc"
+		"Gnalvl_vip_medic"
 		{	
 			"team"			"security"
 			"print_name"	"#Squad_Gnalvl_VIP"
@@ -1826,83 +1477,36 @@
 
 			"buy_order" 
 			{
-				"gear"				"gear_christmas_hat"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_knife"
-				"weapon"			"weapon_m67"
-				"weapon"			"weapon_c4_clicker"
-				"gear"				"srnx_chest_rig2"
-				//"gear"				"srnx_esapi"
-				//"gear"				"srnx_daps_leba1"
-				//"gear"				"srnx_devgru_3_b"
+				"weapon"			"weapon_m1garand"
+				"weapon"			"weapon_defib"
+				"gear"				"basic_chest"
 			}
 			"allowed_items"
 			{
-				"gear"				"gear_christmas_hat"
 				//Primaries
-				// "weapon"			"weapon_sks"
-				// "weapon"			"weapon_akm"
-				// "weapon"			"weapon_m4a1"
-				// "weapon"			"weapon_scar"
-				// "weapon"			"weapon_sa80"
-				// "weapon"			"weapon_m16a4"
-				// "weapon"			"weapon_fal"
-				// "weapon"			"weapon_l1a1"
-				// "weapon"			"weapon_m40a1"
-				// "weapon"			"weapon_m40a5"
-				// "weapon"			"weapon_m14"
-				// "weapon"			"weapon_m107"
-				// "weapon"			"weapon_galil_sar"
-				// "weapon"			"weapon_g3a3"
-				// "weapon"			"weapon_acr"
-				// "weapon"			"weapon_scar"
-				"weapon"			"weapon_mk20_scar"
-				"weapon"			"weapon_rfb"
-				// "weapon"			"weapon_sig553"
-				// "weapon"			"weapon_g36c"
-				// "weapon"			"weapon_famas"
-				// "weapon"			"weapon_f2000"
-				// "weapon"			"weapon_svd"
+				//"weapon"			"weapon_m3greasegun"
+				"weapon"			"weapon_thompson_m1a1"
+				"weapon"			"weapon_m1garand"
+				"weapon"			"weapon_mk18_m0"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_mp5"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_mr96"
 
 				//Upgrades
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
 				//Secondaries
-				"weapon"			"weapon_m1a1"
-				"weapon"			"weapon_mini14"
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_m590"
-				"weapon"			"weapon_nova"
-				"weapon"			"weapon_ump45"
-				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_toz"
-				"weapon"			"weapon_sterling"
-				"weapon"			"weapon_uzi"
-				"weapon"			"weapon_kriss"
-				"weapon"			"weapon_mk18_m0"
 				"weapon"			"weapon_c4_clicker"
-				
-				"weapon"			"weapon_mp7"
-				"weapon"			"weapon_czse3"
-				"weapon"			"weapon_mac10"
-				"weapon"			"weapon_kingcobra"
 				//Explosives
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_m84"
-				"weapon"			"weapon_mk3"
+				//"weapon"			"weapon_m84"
+				//"weapon"			"weapon_mk3"
 				"weapon"			"weapon_anm14"
 				//Pistols
-				"weapon"			"weapon_model10"
-				"weapon"			"weapon_makarov"
-				"weapon"			"weapon_m93r"
-				"weapon"			"weapon_m45"
 				//Gear
-				//"gear"				"srnx_devgru_1_a"
-				"gear"				"srnx_chest_rig1"
-				"gear"				"srnx_chest_rig2"
-				"gear"				"srnx_chest_rig3"
-				//"gear"				"srnx_chest_rig4"
+				"gear"				"basic_chest"
 				//"gear"				"srnx_chest_carrier1"
 				//"gear"				"srnx_chest_carrier2"
 				//"gear"				"srnx_chest_carrier3"
@@ -1912,9 +1516,6 @@
 				"weapon"
 				{
 					"weapon_anm14"		"-2"
-					"weapon_mk20_scar"	"1"
-					"weapon_rfb"	"1"
-					
 				}
 			}
 		}
@@ -1945,9 +1546,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_vz58"
-				"weapon_upgrade"	"magazine_drum_75rd"
-				"weapon_upgrade"	"ammo_ap_akm"
+				"weapon"			"weapon_ae_mg42"
 				"weapon_upgrade"	"quick_reload"
 				"weapon_upgrade"	"juggernaut_sp"
 				//Secondary
@@ -1968,9 +1567,8 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_vz58"
-				"weapon_upgrade"	"magazine_drum_75rd"
-				"weapon_upgrade"	"ammo_ap_akm"
+				"weapon"			"weapon_ae_mg42"
+				"weapon_upgrade"	"quick_reload"
 				"weapon_upgrade"	"juggernaut_sp"
 				//Secondary
 				"weapon"			"weapon_kingcobra"
@@ -2008,12 +1606,11 @@
 				
 				//Primary
 				"weapon"			"weapon_m107"
-				"weapon_upgrade"	"ammo_ap_m107"
 				"weapon_upgrade"	"juggernaut_sp"
 				//Secondary
-				"weapon"			"weapon_aks74u"
-				"weapon_upgrade"	"ammo_hp_aks74u"
-				"weapon_upgrade"	"juggernaut_sp"
+				"weapon"			"weapon_model10"
+				//"weapon_upgrade"	"ammo_hp_aks74u"
+				//"weapon_upgrade"	"juggernaut_sp"
 
 				//Explosive
 				"weapon"			"weapon_rpg7"
@@ -2031,11 +1628,10 @@
 				//"weapon"			"weapon_rpk"
 				//"weapon_upgrade"	"ammo_ap_rpk"
 				"weapon"			"weapon_m107"
-				"weapon_upgrade"	"ammo_ap_m107"
 				"weapon_upgrade"	"juggernaut_sp"
 				//Secondary
-				"weapon"			"weapon_aks74u"
-				"weapon_upgrade"	"ammo_hp_aks74u"
+				"weapon"			"weapon_model10"
+				//"weapon_upgrade"	"ammo_hp_aks74u"
 
 				//Explosive
 				"weapon"			"weapon_rpg7"
@@ -2068,11 +1664,12 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_spas12"
+				"weapon"			"weapon_saiga12"
 				"weapon_upgrade"	"tacbuck"
+				"weapon_upgrade"	"juggernaut_sp"
 				//Secondary
-				"weapon"			"weapon_toz"
-				"weapon_upgrade"	"commbuck"
+				"weapon"			"weapon_model10"
+				//"weapon_upgrade"	"commbuck"
 
 				//Explosive
 				"weapon"			"weapon_f1"
@@ -2089,9 +1686,10 @@
 				//Primary
 				"weapon"			"weapon_spas12"
 				"weapon_upgrade"	"tacbuck"
+				"weapon_upgrade"	"juggernaut_sp"
 				//Secondary
-				"weapon"			"weapon_toz"
-				"weapon_upgrade"	"commbuck"
+				"weapon"			"weapon_model10"
+				//"weapon_upgrade"	"commbuck"
 
 				//Explosive
 				"weapon"			"weapon_f1"
@@ -2242,11 +1840,8 @@
 				//Primary
 				//Secondary
 				"weapon"			"weapon_m79"
-				"weapon"			"weapon_galil"
-				"weapon_upgrade"	"magazine_drum_75rd"
-				"weapon_upgrade"	"ammo_ap_galil"
+				"weapon"			"weapon_m3greasegun"
 				//Explosive
-				"weapon"			"weapon_molotov"
 				"weapon"			"weapon_rpg7"
 				
 			}
@@ -2264,11 +1859,9 @@
 				//Primary
 				//Secondary
 				"weapon"			"weapon_m79"
-				"weapon"			"weapon_galil"
-				"weapon_upgrade"	"magazine_drum_75rd"
+				"weapon"			"weapon_m3greasegun"
 				"weapon_upgrade"	"ammo_ap_galil"
 				//Explosive
-				"weapon"			"weapon_molotov"
 				"weapon"			"weapon_rpg7"
 				
 			}
@@ -2301,15 +1894,12 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_akm"
-				"weapon_upgrade"	"magazine_drum_75rd"
-				"weapon_upgrade"	"ammo_hp_akm"
+				"weapon"			"weapon_vickers"
 				//Secondary
-				"weapon"			"weapon_mp7"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_hp_mp7"
+				"weapon"			"weapon_model10"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_hp_mp7"
 				//Explosive
-				"weapon"			"weapon_m84"
 				"weapon"			"weapon_rpg7"
 				
 			}
@@ -2323,13 +1913,11 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_akm"
-				"weapon_upgrade"	"magazine_drum_75rd"
-				"weapon_upgrade"	"ammo_hp_akm"
+				"weapon"			"weapon_vickers"
 				//Secondary
-				"weapon"			"weapon_mp7"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_hp_mp7"
+				"weapon"			"weapon_model10"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_hp_mp7"
 				//Explosive
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_rpg7"
@@ -2368,12 +1956,11 @@
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"ammo_ap_l1a1"
 				//Secondary
-				"weapon"			"weapon_mac10"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_ap_kriss"
+				"weapon"			"weapon_model10"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_ap_kriss"
 				//Explosive
 				"weapon"			"weapon_m84"
-				"weapon"			"weapon_rpg7"
 				
 			}
 			"allowed_weapons"
@@ -2389,9 +1976,9 @@
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"ammo_ap_l1a1"
 				//Secondary
-				"weapon"			"weapon_mac10"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_ap_kriss"
+				"weapon"			"weapon_model10"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_ap_kriss"
 				//Explosive
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_rpg7"
@@ -2425,13 +2012,11 @@
 				
 				//Primary
 				
-				"weapon"			"weapon_saiga12"
-				"weapon_upgrade"	"magazine_extended_saiga_12rd"
-				"weapon_upgrade"	"tacbuck"
+				"weapon"			"weapon_g43"
 				//Secondary
-				"weapon"			"weapon_aks74u"
-				"weapon_upgrade"	"barrel_silencer_ins1"
-				"weapon_upgrade"	"ammo_hp_aks74u"
+				"weapon"			"weapon_model10"
+				//"weapon_upgrade"	"barrel_silencer_ins1"
+				//"weapon_upgrade"	"ammo_hp_aks74u"
 				//Explosive
 				"weapon"			"weapon_f1"
 				
@@ -2446,13 +2031,11 @@
 				
 				//Primary
 				
-				"weapon"			"weapon_saiga12"
-				"weapon_upgrade"	"magazine_extended_saiga_12rd"
-				"weapon_upgrade"	"tacbuck"
+				"weapon"			"weapon_g43"
 				//Secondary
-				"weapon"			"weapon_aks74u"
-				"weapon_upgrade"	"barrel_silencer_ins1"
-				"weapon_upgrade"	"ammo_hp_aks74u"
+				"weapon"			"weapon_model10"
+				//"weapon_upgrade"	"barrel_silencer_ins1"
+				//"weapon_upgrade"	"ammo_hp_aks74u"
 				//Explosive
 				"weapon"			"weapon_f1"
 				"weapon"			"weapon_rpg7"
@@ -2486,17 +2069,14 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_rpk"
-				"weapon_upgrade"	"barrel_silencer_heavy"
-				"weapon_upgrade"	"ammo_hp_rpk"
+				"weapon"			"weapon_ae_mg42"
 				//Secondary
-				"weapon"			"weapon_aks74u"
-				"weapon_upgrade"	"barrel_silencer_ins1"
-				"weapon_upgrade"	"ammo_hp_aks74u"
+				"weapon"			"weapon_m45"
+				//"weapon_upgrade"	"barrel_silencer_ins1"
+				//"weapon_upgrade"	"ammo_hp_aks74u"
 
 				//Explosive
 				"weapon"			"weapon_f1"
-				"weapon"			"weapon_at4"
 			}
 			"allowed_weapons"
 			{
@@ -2508,17 +2088,14 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_rpk"
-				"weapon_upgrade"	"barrel_silencer_heavy"
-				"weapon_upgrade"	"ammo_hp_rpk"
+				"weapon"			"weapon_ae_mg42"
 				//Secondary
-				"weapon"			"weapon_aks74u"
-				"weapon_upgrade"	"barrel_silencer_ins1"
-				"weapon_upgrade"	"ammo_hp_aks74u"
+				"weapon"			"weapon_m45"
+				//"weapon_upgrade"	"barrel_silencer_ins1"
+				//"weapon_upgrade"	"ammo_hp_aks74u"
 
 				//Explosive
 				"weapon"			"weapon_f1"
-				"weapon"			"weapon_at4"
 			}
 		}
 		// Machinegunner FIGHTER Model 2
@@ -2548,15 +2125,13 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_rpk74m"
-				"weapon_upgrade"	"ammo_ap_rpk74m"
+				"weapon"			"weapon_lewis"
 				//Secondary
 				"weapon"			"weapon_mr96"
 				"weapon_upgrade"	"ammo_ap_mr96"
 
 				//Explosive
 				"weapon"			"weapon_f1"
-				"weapon"			"weapon_at4"
 			}
 			"allowed_weapons"
 			{
@@ -2567,15 +2142,13 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_rpk74m"
-				"weapon_upgrade"	"ammo_ap_rpk74m"
+				"weapon"			"weapon_lewis"
 				//Secondary
 				"weapon"			"weapon_mr96"
 				"weapon_upgrade"	"ammo_ap_mr96"
 
 				//Explosive
 				"weapon"			"weapon_f1"
-				"weapon"			"weapon_at4"
 			}
 		}
 		// Machinegunner HEAVY Model 3
@@ -2609,13 +2182,12 @@
 				"weapon"			"weapon_m249"
 				"weapon_upgrade"	"ammo_hp_m249"
 				//Secondary
-				"weapon"			"weapon_mp5"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_ap_mp5"
+				"weapon"			"weapon_m45"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_ap_mp5"
 
 				//Explosive
 				"weapon"			"weapon_f1"
-				"weapon"			"weapon_at4"
 			}
 			"allowed_weapons"
 			{
@@ -2631,9 +2203,9 @@
 				"weapon"			"weapon_m249"
 				"weapon_upgrade"	"ammo_hp_m249"
 				//Secondary
-				"weapon"			"weapon_mp5"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_ap_mp5"
+				"weapon"			"weapon_m45"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_ap_mp5"
 
 				//Explosive
 				"weapon"			"weapon_f1"
@@ -2668,7 +2240,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_m60"
+				"weapon"			"weapon_vickers"
 				"weapon_upgrade"	"ammo_ap_mk48"
 				//Secondary
 				"weapon"			"weapon_kingcobra"
@@ -2688,7 +2260,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_m60"
+				"weapon"			"weapon_vickers"
 				"weapon_upgrade"	"ammo_ap_mk48"
 				//Secondary
 				"weapon"			"weapon_kingcobra"
@@ -2734,7 +2306,6 @@
 
 				//Explosive
 				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_at4"
 			}
 			"allowed_weapons"
 			{
@@ -2786,12 +2357,11 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_vz58"
-				"weapon_upgrade"	"ammo_ap_akm"
+				"weapon"			"weapon_springfield"
 				//Secondary
-				"weapon"			"weapon_uzi"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_hp_mp5"
+				"weapon"			"weapon_makarov"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_hp_mp5"
 				//Explosive
 				"weapon"			"weapon_rpg7"
 				
@@ -2806,12 +2376,11 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_vz58"
-				"weapon_upgrade"	"ammo_ap_akm"
+				"weapon"			"weapon_springfield"
 				//Secondary
-				"weapon"			"weapon_uzi"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_hp_mp5"
+				"weapon"			"weapon_makarov"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_hp_mp5"
 				//Explosive
 				"weapon"			"weapon_rpg7"
 				
@@ -2849,12 +2418,11 @@
 				"weapon_upgrade"	"barrel_heavybarrel"
 				"weapon_upgrade"	"ammo_ap_m107"
 				//Secondary
-				"weapon"			"weapon_czse3"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_ap_mp5"
+				"weapon"			"weapon_makarov"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_ap_mp5"
 				//Explosive
 				"weapon"			"weapon_molotov"
-				"weapon"			"weapon_at4"
 			}
 			"allowed_weapons"
 			{
@@ -2869,9 +2437,9 @@
 				"weapon_upgrade"	"barrel_heavybarrel"
 				"weapon_upgrade"	"ammo_ap_m107"
 				//Secondary
-				"weapon"			"weapon_czse3"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_ap_mp5"
+				"weapon"			"weapon_makarov"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_ap_mp5"
 				//Explosive
 				"weapon"			"weapon_molotov"
 				"weapon"			"weapon_at4"
@@ -2907,15 +2475,13 @@
 				
 				"weapon"			"weapon_m79_incen"
 				//Primary
-				"weapon"			"weapon_spas12"
-				"weapon_upgrade"	"tacbuck"
+				"weapon"			"weapon_m3greasegun"
 				//Secondary
-				"weapon"			"weapon_mp40"
-				"weapon_upgrade"	"barrel_silencer_ins1"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_ap_mp40"
+				//"weapon"			"weapon_makarov"
+				//"weapon_upgrade"	"barrel_silencer_ins1"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_ap_mp40"
 				//Explosive
-				"weapon"			"weapon_molotov"
 				"weapon"			"weapon_at4"
 			}
 			"allowed_weapons"
@@ -2930,13 +2496,12 @@
 				
 				"weapon"			"weapon_m79_incen"
 				//Primary
-				"weapon"			"weapon_spas12"
-				"weapon_upgrade"	"tacbuck"
+				"weapon"			"weapon_m3greasegun"
 				//Secondary
-				"weapon"			"weapon_mp40"
-				"weapon_upgrade"	"barrel_silencer_ins1"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_ap_mp40"
+				//"weapon"			"weapon_makarov"
+				//"weapon_upgrade"	"barrel_silencer_ins1"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_ap_mp40"
 				//Explosive
 				"weapon"			"weapon_molotov"
 				"weapon"			"weapon_at4"
@@ -2970,8 +2535,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_sks"
-				"weapon_upgrade"	"ammo_ap_sks"
+				"weapon"			"weapon_thompson_m1a1"
 				//Secondary
 				"weapon"			"weapon_glock18"
 				"weapon_upgrade"	"magazine_extended_glock"
@@ -2990,8 +2554,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_sks"
-				"weapon_upgrade"	"ammo_ap_sks"
+				"weapon"			"weapon_thompson_m1a1"
 				//Secondary
 				"weapon"			"weapon_glock18"
 				"weapon_upgrade"	"magazine_extended_glock"
@@ -3034,9 +2597,9 @@
 				"weapon_upgrade"	"ammo_beta50"
 				"weapon_upgrade"	"ammo_ap_m4"
 				//Secondary
-				"weapon"			"weapon_kriss"
-				"weapon_upgrade"	"ammo_hp_kriss"
-				"weapon_upgrade"	"barrel_silencer_sec1"
+				"weapon"			"weapon_makarov"
+				//"weapon_upgrade"	"ammo_hp_kriss"
+				//"weapon_upgrade"	"barrel_silencer_sec1"
 				//Explosive
 				"weapon"			"weapon_anm14"
 				"weapon"			"weapon_law"
@@ -3056,9 +2619,9 @@
 				"weapon_upgrade"	"ammo_beta50"
 				"weapon_upgrade"	"ammo_ap_m4"
 				//Secondary
-				"weapon"			"weapon_kriss"
-				"weapon_upgrade"	"ammo_hp_kriss"
-				"weapon_upgrade"	"barrel_silencer_sec1"
+				"weapon"			"weapon_makarov"
+				//"weapon_upgrade"	"ammo_hp_kriss"
+				//"weapon_upgrade"	"barrel_silencer_sec1"
 				//Explosive
 				"weapon"			"weapon_anm14"
 				"weapon"			"weapon_law"
@@ -3095,9 +2658,9 @@
 				"weapon"			"weapon_g3a3"
 				"weapon_upgrade"	"ammo_ap_g3a3"
 				//Secondary
-				"weapon"			"weapon_mp40"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_ap_mp40"
+				"weapon"			"weapon_makarov"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_ap_mp40"
 				//Explosive
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_law"
@@ -3115,9 +2678,9 @@
 				"weapon"			"weapon_g3a3"
 				"weapon_upgrade"	"ammo_ap_g3a3"
 				//Secondary
-				"weapon"			"weapon_mp40"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_ap_mp40"
+				"weapon"			"weapon_makarov"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_ap_mp40"
 				//Explosive
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_law"
@@ -3151,12 +2714,11 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_mosin"
-				"weapon_upgrade"	"ammo_ap_mosin"
+				"weapon"			"weapon_enfield"
 				//Secondary
-				"weapon"			"weapon_czse3"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_ap_mp5"
+				"weapon"			"weapon_deagle"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_ap_mp5"
 				//Explosive
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_law"
@@ -3171,12 +2733,12 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_enfield"
 				"weapon_upgrade"	"ammo_ap_mosin"
 				//Secondary
-				"weapon"			"weapon_czse3"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_ap_mp5"
+				"weapon"			"weapon_deagle"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_ap_mp5"
 				//Explosive
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_law"
@@ -3211,12 +2773,12 @@
 				
 				"weapon"			"weapon_m79_smoke"
 				//Primary
-				"weapon"			"weapon_svd"
-				"weapon_upgrade"	"ammo_ap_svd"
+				"weapon"			"weapon_mosin"
+				"weapon_upgrade"	"ammo_ap_mosin"
 				//Secondary
-				"weapon"			"weapon_sterling"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_hp_mp40"
+				//"weapon"			"weapon_deagle"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_hp_mp40"
 				//Explosive
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_law"
@@ -3232,12 +2794,12 @@
 				
 				"weapon"			"weapon_m79_smoke"
 				//Primary
-				"weapon"			"weapon_svd"
-				"weapon_upgrade"	"ammo_ap_svd"
+				"weapon"			"weapon_mosin"
+				"weapon_upgrade"	"ammo_ap_mosin"
 				//Secondary
-				"weapon"			"weapon_sterling"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_hp_mp40"
+				//"weapon"			"weapon_deagle"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_hp_mp40"
 				//Explosive
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_law"
@@ -3274,9 +2836,9 @@
 				"weapon"			"weapon_g3a3"
 				"weapon_upgrade"	"ammo_ap_g3a3"
 				//Secondary
-				"weapon"			"weapon_mac10"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_hp_kriss"
+				"weapon"			"weapon_deagle"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_hp_kriss"
 				//Explosive
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_law"
@@ -3294,9 +2856,9 @@
 				"weapon"			"weapon_g3a3"
 				"weapon_upgrade"	"ammo_ap_g3a3"
 				//Secondary
-				"weapon"			"weapon_mac10"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_hp_kriss"
+				"weapon"			"weapon_deagle"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_hp_kriss"
 				//Explosive
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_law"
@@ -3564,13 +3126,12 @@
 				
 				"weapon"			"weapon_m79_incen"
 				//Primary
-				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_m1887"
 				//"weapon_upgrade"	"barrel_silencer_heavy"
-				"weapon_upgrade"	"tacbuck"
 				//Secondary
-				"weapon"			"weapon_mk18_m0"
-				"weapon_upgrade"	"magazine_extended_rifle_30rd"
-				"weapon_upgrade"	"ammo_hp_m4"
+				//"weapon"			"weapon_glock18"
+				//"weapon_upgrade"	"magazine_extended_rifle_30rd"
+				//"weapon_upgrade"	"ammo_hp_m4"
 				//Explosive
 				"weapon"			"weapon_law"
 				
@@ -3586,13 +3147,13 @@
 				
 				"weapon"			"weapon_m79_incen"
 				//Primary
-				"weapon"			"weapon_ksg"
+				"weapon"			"weapon_m1887"
 				//"weapon_upgrade"	"barrel_silencer_heavy"
 				"weapon_upgrade"	"tacbuck"
 				//Secondary
-				"weapon"			"weapon_mk18_m0"
-				"weapon_upgrade"	"magazine_extended_rifle_30rd"
-				"weapon_upgrade"	"ammo_hp_m4"
+				//"weapon"			"weapon_glock18"
+				//"weapon_upgrade"	"magazine_extended_rifle_30rd"
+				//"weapon_upgrade"	"ammo_hp_m4"
 				//Explosive
 				"weapon"			"weapon_law"
 				
@@ -3630,9 +3191,9 @@
 				"weapon_upgrade"	"magazine_extended_saiga_12rd"
 				"weapon_upgrade"	"commbuck"
 				//Secondary
-				"weapon"			"weapon_m1a1"
-				"weapon_upgrade"	"magazine_extended_carbine_30rd"
-				"weapon_upgrade"	"ammo_ap_m1a1"
+				"weapon"			"weapon_glock18"
+				//"weapon_upgrade"	"magazine_extended_carbine_30rd"
+				//"weapon_upgrade"	"ammo_ap_m1a1"
 				//Explosive
 				"weapon"			"weapon_f1"
 				"weapon"			"weapon_law"
@@ -3651,9 +3212,9 @@
 				"weapon_upgrade"	"magazine_extended_saiga_12rd"
 				"weapon_upgrade"	"commbuck"
 				//Secondary
-				"weapon"			"weapon_m1a1"
-				"weapon_upgrade"	"magazine_extended_carbine_30rd"
-				"weapon_upgrade"	"ammo_ap_m1a1"
+				"weapon"			"weapon_glock18"
+				//"weapon_upgrade"	"magazine_extended_carbine_30rd"
+				//"weapon_upgrade"	"ammo_ap_m1a1"
 				//Explosive
 				"weapon"			"weapon_f1"
 				"weapon"			"weapon_law"
@@ -3687,12 +3248,11 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_fal"
-				"weapon_upgrade"	"magazine_extended_rifle_30rd"
-				"weapon_upgrade"	"ammo_hp_fal"
+				"weapon"			"weapon_sten_mk5"
+				"weapon_upgrade"	"magazine_extended_smg_40"
 				//Secondary
-				"weapon"			"weapon_aks74u"
-				"weapon_upgrade"	"ammo_hp_aks74u"
+				"weapon"			"weapon_glock18"
+				//"weapon_upgrade"	"ammo_hp_aks74u"
 				//Explosive
 				"weapon"			"weapon_molotov"
 				"weapon"			"weapon_law"
@@ -3707,12 +3267,12 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_fal"
-				"weapon_upgrade"	"magazine_extended_rifle_30rd"
+				"weapon"			"weapon_sten_mk5"
+				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_hp_fal"
 				//Secondary
-				"weapon"			"weapon_aks74u"
-				"weapon_upgrade"	"ammo_hp_aks74u"
+				"weapon"			"weapon_glock18"
+				//"weapon_upgrade"	"ammo_hp_aks74u"
 				//Explosive
 				"weapon"			"weapon_molotov"
 				"weapon"			"weapon_law"
@@ -3755,9 +3315,9 @@
 				"weapon_upgrade"		"barrel_silencer_sec1"
 
 				//Secondary
-				"weapon"			"weapon_mp40"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_ap_mp40"
+				//"weapon"			"weapon_glock18"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_ap_mp40"
 				//Explosive
 				"weapon"			"weapon_anm14"
 				"weapon"			"weapon_law"
@@ -3781,9 +3341,9 @@
 				"weapon_upgrade"		"barrel_silencer_sec1"
 
 				//Secondary
-				"weapon"			"weapon_mp40"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_ap_mp40"
+				//"weapon"			"weapon_glock18"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_ap_mp40"
 				//Explosive
 				"weapon"			"weapon_anm14"
 				"weapon"			"weapon_law"
