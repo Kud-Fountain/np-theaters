@@ -6886,7 +6886,7 @@
 			"world_model"					"models/weapons/w_uzi.mdl"
 			"rounds_per_minute"				"600"
 			"closed_bolt"					"0"
-			"weapon_slot"					"secondary"
+			"weapon_slot"					"primary"
 			"weapon_max_subslot"			"0"
 			"act_table"						"smg_foregrip"
 			"weapon_abilities"				"ironsight"

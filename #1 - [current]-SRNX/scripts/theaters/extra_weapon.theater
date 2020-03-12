@@ -767,7 +767,7 @@
 				"ammo_type"				"45acp_thompson_m1a1"
 				"clip_max"				"12"
 				"clip_max_rounds"		"30"
-				"clip_default"			"1"
+				"clip_default"			"0"
 			}
 			
 			"attachments"
@@ -898,7 +898,7 @@
 				"magsize_override"			"20"
 				"clip_max"					"12"
 				"clip_max_rounds"			"20"
-				"clip_default"				"1"
+				"clip_default"				"0"
 			}
 			
 			"attachments"
@@ -1309,7 +1309,7 @@
 				"ammo_type"				"7.62×25nam"	
 				"clip_max"				"6"
 				"clip_max_rounds"			"35"
-				"clip_default"				"1"
+				"clip_default"				"0"
 			}
 			"attachments"
 			{
@@ -1397,7 +1397,7 @@
 				"magsize_override"			"36"
 				"clip_max"					"12"
 				"clip_max_rounds"			"34"
-				"clip_default"				"3"
+				"clip_default"				"0"
 			}
 			"viewmodel_attachments"
 			{
@@ -1514,7 +1514,7 @@
 				"magsize_override"			"30"
 				"clip_max"					"12"
 				"clip_max_rounds"			"30"
-				"clip_default"				"1"
+				"clip_default"				"0"
 			}
 			
 			"melee"
@@ -1667,7 +1667,7 @@
 				"ammo_type"				"303_brit_pan_47rnd"
 				"clip_max"				"8"
 				"clip_max_rounds"		"20"
-				"clip_default"			"1"
+				"clip_default"			"0"
 			}
 			"attachments"
 			{

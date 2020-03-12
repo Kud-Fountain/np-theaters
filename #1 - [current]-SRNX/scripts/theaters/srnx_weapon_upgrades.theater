@@ -419,6 +419,34 @@
 				"weapon"				"weapon_famas"
 			}
 		}
+		"magazine_extended_mp7_40"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"2"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+			"weight"					"16"
+			"print_name"				"#weapon_upgrade_magazine_extended"
+			"print_desc"				"#weapon_upgrade_40_magazine_extended_dy_desc"
+
+			"magsize_override"			"40"
+			//"maxcarry_override"			"6"
+			
+			"reload_speed"				"0.85"
+			"draw_speed"				"0.85"
+			"holster_speed"				"0.85"
+			
+			"ironsights"
+			{
+				"in_time"		"0.2"
+				"out_time"		"0.2"
+			}
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_mp7"
+			}
+		}
 		"magazine_extended_smg_40"
 		{
 			"upgrade_slot"				"magazine"
@@ -448,11 +476,8 @@
 				"weapon"				"weapon_mp5a4"
 				"weapon"				"weapon_mp40"
 				"weapon"				"weapon_sterling"
-				"weapon"				"weapon_sten_mk5"
-				"weapon"				"weapon_sten_mk2"
 				"weapon"				"weapon_mac10"
 				"weapon"				"weapon_uzi"
-				"weapon"				"weapon_mp7"
 			}
 		}
 		"magazine_extended_smg_50"
