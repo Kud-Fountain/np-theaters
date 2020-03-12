@@ -398,12 +398,15 @@
 			"upgrade_slot"				"magazine"
 			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"1"
 			"weight"					"10"
 			"print_name"				"#weapon_upgrade_magazine_extended"
 			"print_desc"				"#weapon_upgrade_30_famas_magazine_extended_dy_desc"
 
-			"magsize_override"			"30"
+			"magsize_override"			"35"
+			
+			"reload_speed"				"0.9"
+			"draw_speed"				"0.9"
+			"holster_speed"				"0.9"
 			
 			"ironsights"
 			{
@@ -429,14 +432,14 @@
 			"magsize_override"			"40"
 			//"maxcarry_override"			"6"
 			
-			"reload_speed"				"0.9"
-			"draw_speed"				"0.9"
-			"holster_speed"				"0.9"
+			"reload_speed"				"0.85"
+			"draw_speed"				"0.85"
+			"holster_speed"				"0.85"
 			
 			"ironsights"
 			{
-				"in_time"		"0.15"
-				"out_time"		"0.15"
+				"in_time"		"0.2"
+				"out_time"		"0.2"
 			}
 
 			"allowed_weapons"
@@ -449,6 +452,7 @@
 				"weapon"				"weapon_sten_mk2"
 				"weapon"				"weapon_mac10"
 				"weapon"				"weapon_uzi"
+				"weapon"				"weapon_mp7"
 			}
 		}
 		"magazine_extended_smg_50"
@@ -459,7 +463,7 @@
 			"class_restricted"			"0"
 			"weight"					"16"
 			"print_name"				"#weapon_upgrade_magazine_extended"
-			"print_desc"				"#weapon_upgrade_50_magazine_extended_dy_desc"
+			"print_desc"				"#weapon_upgrade_50_magazine_smg_dy_desc"
 
 			"magsize_override"			"50"
 			//"maxcarry_override"			"6"

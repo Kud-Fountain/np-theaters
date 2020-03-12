@@ -1110,7 +1110,7 @@
 			"gear_weight"	"60" // 4 (0.65 kg) * 54.5
 			"extra_ammo"
 			{
-				"primary"	"5"
+				"primary"	"6"
 				"secondary"
 				{
 					"0" "3"
@@ -1171,7 +1171,7 @@
 			"class_restricted" "1"
 			"extra_ammo"
 			{
-				"primary"	"2"
+				"primary"	"3"
 				"secondary"
 				{
 					"0" "4"
@@ -1200,7 +1200,7 @@
 			"gear_weight"	"43" // 2 (0.65 kg) * 54.5
 			"extra_ammo"
 			{
-				"primary"	"5" // 10
+				"primary"	"6" // 10
 				"secondary"
 				{
 					"0" "3" //4
@@ -1739,8 +1739,8 @@
 			"gear_weight"	"158" 
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"			"0.04"
-				"HITGROUP_STOMACH"			"0.04"
+				"HITGROUP_CHEST"			"0.03"
+				"HITGROUP_STOMACH"			"0.03"
 				"HITGROUP_LEFTARM"			"0.02"
 				"HITGROUP_RIGHTARM"			"0.02"
 				"HITGROUP_LEFTLEG"			"0.02"
@@ -1763,7 +1763,7 @@
             "model"                 "models/characters/custom/mlf_helmet_head.mdl"
             "DamageHitgroups"
             {
-                "HITGROUP_HEAD"        "0.04"
+                "HITGROUP_HEAD"        "0.03"
             }
 			"penetration_power_loss"	"40"
             "team_access"   		"insurgent"
