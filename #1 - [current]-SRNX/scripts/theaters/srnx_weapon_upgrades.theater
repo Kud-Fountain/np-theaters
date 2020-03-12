@@ -220,9 +220,9 @@
 			
 			"magsize_override"			"71"
 			
-			"reload_speed"				"1.2"
-			"draw_speed"				"1.2"
-			"holster_speed"				"1.2"
+			"reload_speed"				"0.8"
+			"draw_speed"				"0.8"
+			"holster_speed"				"0.8"
 			
 			"ironsights"
 			{
@@ -274,6 +274,7 @@
 			"upgrade_slot"				"magazine"
 			"upgrade_cost"				"2"
 			"team_access"				"security, insurgent"
+			"class_restricted"			"1"
 			"weight" 					"18"
 			"print_name"				"#weapon_upgrade_magazine_extended"
 			"print_desc"				"#weapon_upgrade_30_magazine_extended_dy_desc"
@@ -395,9 +396,9 @@
 		"magazine_extended_rifle_30rd_famas"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"weight"					"10"
 			"print_name"				"#weapon_upgrade_magazine_extended"
 			"print_desc"				"#weapon_upgrade_30_famas_magazine_extended_dy_desc"
@@ -428,6 +429,10 @@
 			"magsize_override"			"40"
 			//"maxcarry_override"			"6"
 			
+			"reload_speed"				"0.9"
+			"draw_speed"				"0.9"
+			"holster_speed"				"0.9"
+			
 			"ironsights"
 			{
 				"in_time"		"0.15"
@@ -437,14 +442,42 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_mp5"
-				//"weapon"				"weapon_mp5a4"
+				"weapon"				"weapon_mp5a4"
 				"weapon"				"weapon_mp40"
 				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_sten_mk5"
 				"weapon"				"weapon_sten_mk2"
-				//"weapon"				"weapon_czse3"
 				"weapon"				"weapon_mac10"
 				"weapon"				"weapon_uzi"
+			}
+		}
+		"magazine_extended_smg_50"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"2"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+			"weight"					"16"
+			"print_name"				"#weapon_upgrade_magazine_extended"
+			"print_desc"				"#weapon_upgrade_50_magazine_extended_dy_desc"
+
+			"magsize_override"			"50"
+			//"maxcarry_override"			"6"
+			
+			"reload_speed"				"0.75"
+			"draw_speed"				"0.75"
+			"holster_speed"				"0.75"
+			
+			"ironsights"
+			{
+				"in_time"		"0.2"
+				"out_time"		"0.2"
+			}
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_kriss"
+				"weapon"				"weapon_czse3"
 			}
 		}
 		"magazine_extended_rifle_42rnd_aug3"
@@ -457,9 +490,9 @@
 			"print_name"				"#weapon_upgrade_magazine_extended"
 			"print_desc"				"#weapon_upgrade_42_magazine_extended_dy_desc"
 
-			"reload_speed"				"1.2"
-			"draw_speed"				"1.2"
-			"holster_speed"				"1.2"
+			"reload_speed"				"0.8"
+			"draw_speed"				"0.8"
+			"holster_speed"				"0.8"
 			"ironsights"
 			{
 				"in_time"		"0.1"
@@ -476,7 +509,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_aug3"
-				"weapon"				"weapon_f2000"
+				//"weapon"				"weapon_f2000"
 			}
 		}
 		"magazine_extended_saiga_12rd"
@@ -489,9 +522,9 @@
 			"print_name"				"#weapon_upgrade_magazine_extended"
 			"print_desc"				"#weapon_upgrade_12_magazine_extended_dy_desc"
 
-			"reload_speed"				"1.2"
-			"draw_speed"				"1.2"
-			"holster_speed"				"1.2"
+			"reload_speed"				"0.8"
+			"draw_speed"				"0.8"
+			"holster_speed"				"0.8"
 
 			"magsize_override"			"12"
 			"ironsights"
@@ -519,9 +552,9 @@
 			
 			"magsize_override"			"75"
 			//"maxcarry_override"			"4"
-			"reload_speed"				"1.15"
-			"draw_speed"				"1.15"
-			"holster_speed"				"1.15"
+			"reload_speed"				"0.85"
+			"draw_speed"				"0.85"
+			"holster_speed"				"0.85"
 			
 			"ironsights"
 			{
@@ -536,7 +569,7 @@
 			}
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_galil"
+				//"weapon"				"weapon_galil"
 				"weapon"				"weapon_galil_sar"
 				"weapon"				"weapon_akm"
 				"weapon"				"weapon_vz58"
@@ -663,9 +696,9 @@
 			"weight"					"72" // Rough estimate of ammo weight + gameplay
 			"magsize_override"			"75"
 			//"maxcarry_override"			"4"
-			"reload_speed"				"1.25"
-			"draw_speed"				"1.25"
-			"holster_speed"				"1.25"
+			"reload_speed"				"0.75"
+			"draw_speed"				"0.75"
+			"holster_speed"				"0.75"
 			
 			"ironsights"
 			{
@@ -716,7 +749,7 @@
 			"print_name"				"#weapon_upgrade_speedloader"
 			"print_desc"				"#weapon_upgrade_speedloader_desc"
 
-			"reload_speed"				"1.4"
+			//"reload_speed"				"1.0"
 
 			// some magic to disable single reload
 			"weapon_abilities"			"speedreload"
@@ -2143,8 +2176,8 @@
 			"weight"						"5"
 			"ironsights"
 			{
-				"in_time"				"0.15"
-				"out_time"				"0.15"
+				"in_time"				"0.2"
+				"out_time"				"0.2"
 			}
 			"allowed_weapons"
 			{
@@ -2629,11 +2662,6 @@
 			"print_name"					"#aimpointcomp"
 			"print_desc"					"#aimpointcomp_desc"
 			"weight"						"4"
-			"ironsights"
-			{
-				"in_time"				"0.1"
-				"out_time"				"0.1"
-			}
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_galil_sar"
@@ -3098,11 +3126,6 @@
 			"print_desc"				"#weapon_upgrade_pistoldot_desc"
 			"team_access"				"security"
 			"weapon_weight"				"2"
-			"ironsights"
-			{
-				"in_time"				"0.1"
-				"out_time"				"0.1"
-			}
 			
 			"allowed_weapons"
 			{
@@ -4096,11 +4119,6 @@
 			"print_name"				"#weapon_upgrade_kobra"
 			"print_desc"				"#weapon_upgrade_kobra_desc"
 			"weight"						"4"
-			"ironsights"
-			{
-				"in_time"			"0.1"
-				"out_time"			"0.1"
-			}
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_galil_sar"
@@ -4580,8 +4598,8 @@
 			//"upgrade_cost"					"0"
 			"ironsights"
 			{
-				"in_time"			"0.2"
-				"out_time"			"0.2"
+				"in_time"			"0.25"
+				"out_time"			"0.25"
 			}
 			"allowed_weapons"
 			{
@@ -4972,8 +4990,8 @@
 			"weight"						"6"
 			"ironsights"
 			{
-				"in_time"			"0.25"
-				"out_time"			"0.25"
+				"in_time"			"0.3"
+				"out_time"			"0.3"
 			}
 			"allowed_weapons"
 			{
@@ -5034,8 +5052,8 @@
 			"weight"						"6"
 			"ironsights"
 			{
-				"in_time"			"0.25"
-				"out_time"			"0.25"
+				"in_time"			"0.35"
+				"out_time"			"0.35"
 			}
 			"allowed_weapons"
 			{
@@ -5169,8 +5187,8 @@
 			
 			"ironsights"
 			{
-				"in_time"			"0.3"
-				"out_time"			"0.3"
+				"in_time"			"0.35"
+				"out_time"			"0.35"
 			}
 			
 			"allowed_weapons"

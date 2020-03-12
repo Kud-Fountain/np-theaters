@@ -1534,15 +1534,15 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"1.00"
-				"HITGROUP_CHEST"			"0.92"
-				"HITGROUP_STOMACH"			"0.92"
+				"HITGROUP_CHEST"			"0.97"
+				"HITGROUP_STOMACH"			"0.97"
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
 				"HITGROUP_GENERIC"			"0.80"
 			}
-			"explosive_damage_frac"		"0.95"
+			"explosive_damage_frac"		"1.0"
 			"penetration_power_loss"	"30"
 			
 			"team_access"				"insurgent"
@@ -1558,15 +1558,15 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"1.00"
-				"HITGROUP_CHEST"			"0.77"
-				"HITGROUP_STOMACH"			"0.77"
+				"HITGROUP_CHEST"			"0.82"
+				"HITGROUP_STOMACH"			"0.82"
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
 				"HITGROUP_RIGHTLEG"			"1.00"
 				"HITGROUP_GENERIC"			"0.80"
 			}
-			"explosive_damage_frac"		"0.95"
+			"explosive_damage_frac"		"1.0"
 			"penetration_power_loss"	"33"
 			
 			"team_access"				"insurgent"
@@ -1582,8 +1582,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"1.00"	// death
-				"HITGROUP_CHEST"			"0.67"
-				"HITGROUP_STOMACH"			"0.67"
+				"HITGROUP_CHEST"			"0.72"
+				"HITGROUP_STOMACH"			"0.72"
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
@@ -1606,8 +1606,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"1.00"	// death
-				"HITGROUP_CHEST"			"0.64"
-				"HITGROUP_STOMACH"			"0.64"
+				"HITGROUP_CHEST"			"0.69"
+				"HITGROUP_STOMACH"			"0.69"
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"
@@ -1629,8 +1629,8 @@
 			"DamageHitgroups"
 			{
 				"HITGROUP_HEAD"				"1.00"	// death
-				"HITGROUP_CHEST"			"0.61"
-				"HITGROUP_STOMACH"			"0.61"
+				"HITGROUP_CHEST"			"0.66"
+				"HITGROUP_STOMACH"			"0.66"
 				"HITGROUP_LEFTARM"			"1.00"
 				"HITGROUP_RIGHTARM"			"1.00"
 				"HITGROUP_LEFTLEG"			"1.00"

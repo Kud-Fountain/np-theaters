@@ -1811,7 +1811,7 @@
 		{
 			"import"				"ballistic_base"
 			"weapon_class"				"shotgun"
-			"weapon_cost"				"1"
+			"weapon_cost"				"2"
 			"print_name"				"#weapon_m1887"
 			"print_desc"				"A.D.1887/ Winchester Repeating Arms/ USA/ Lever-action/ 12 gauge/ 5+1 PR"
 			"view_model"				"models/weapons/v_m1887.mdl"

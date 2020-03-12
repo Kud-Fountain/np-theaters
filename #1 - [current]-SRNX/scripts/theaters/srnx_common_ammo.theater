@@ -1350,7 +1350,7 @@
 			"brass_model" "models/weapons/shells/762x39.mdl"
 			"Damage"
 			{
-				"10"					"70"
+				"10"					"90"
 				"12000"					"10"
 			}
 			"PenetrationPower"
@@ -1363,10 +1363,10 @@
 				"HITGROUP_HEAD"       "2.27"
 				"HITGROUP_CHEST"      "2.17"
 				"HITGROUP_STOMACH"    "2.17"
-				"HITGROUP_LEFTARM"    "0.58"
-				"HITGROUP_RIGHTARM"   "0.58"
-				"HITGROUP_LEFTLEG"    "0.58"
-				"HITGROUP_RIGHTLEG"   "0.58"
+				"HITGROUP_LEFTARM"    "1.58"
+				"HITGROUP_RIGHTARM"   "1.58"
+				"HITGROUP_LEFTLEG"    "1.58"
+				"HITGROUP_RIGHTLEG"   "1.58"
 			}
 		}
 		"762x39_hp"
