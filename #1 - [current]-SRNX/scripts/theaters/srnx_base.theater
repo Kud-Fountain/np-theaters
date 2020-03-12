@@ -242,12 +242,9 @@
 				//"weapon"			"weapon_ak12u"
 				//"weapon"			"weapon_fal"
 				"weapon"			"weapon_mp5a4"
-				//"weapon"			"weapon_m3greasegun"
-				//"weapon"			"weapon_m4a1"
-				"weapon"			"weapon_mp7"
 				"weapon"			"weapon_mac10"
-				//"weapon"			"weapon_ump45"
 				"weapon"			"weapon_uzi"
+				"weapon"			"weapon_ump45"
 				//"weapon"			"weapon_c96carbine"
 				"weapon"			"weapon_nam_ppsh41"
 				//"weapon"			"weapon_hk416"
@@ -1492,7 +1489,7 @@
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_mr96"
 				"weapon"			"weapon_m3greasegun"
-				"weapon"			"weapon_ump45"
+				"weapon"			"weapon_mp7"
 
 				//Upgrades
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
