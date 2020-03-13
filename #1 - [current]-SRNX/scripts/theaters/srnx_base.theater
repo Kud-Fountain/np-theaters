@@ -335,6 +335,7 @@
 				"weapon_upgrade"		"underbarrel_m320_he"
 				"weapon_upgrade"		"underbarrel_gp25_he"
 				"weapon_upgrade"		"underbarrel_m203_he"
+				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_at4"
 				//"weapon"			"weapon_rpg7"
 				//"weapon"			"weapon_law"
@@ -439,6 +440,7 @@
 				"weapon"			"weapon_nova"
 				"weapon"			"weapon_toz"
 				"weapon"			"weapon_m1887"
+				"weapon"			"weapon_c4_clicker"
 				//"weapon"			"weapon_m79"
 				//"weapon"			"weapon_m79_smoke"
 				//"weapon"			"weapon_m79_incen"
@@ -1512,7 +1514,7 @@
 			{
 				"weapon"
 				{
-					"weapon_anm14"		"-2"
+					
 				}
 			}
 		}
