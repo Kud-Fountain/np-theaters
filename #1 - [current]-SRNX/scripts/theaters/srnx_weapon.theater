@@ -7804,7 +7804,7 @@
 			"act_table"			"rifle_ak"
 			"weapon_abilities"	"ironsight"
 			"weapon_weight"		"36" //
-			"weapon_cost"		"4"
+			"weapon_cost"		"5"
 			"class_restricted"	"1"
 			"barrel_length"		"14"
 			"draw_speed"				"1.50"
@@ -9325,7 +9325,7 @@
 			"Model"						"models/weapons/w_no69.mdl"
 			"DetonateDamage"			"120" 
 			"DetonatePenetrationRadius" "40"
-			"DetonateDamageRadius"		"800"  //14% reduction from 750
+			"DetonateDamageRadius"		"700"  //14% reduction from 750
 			"FuseTime"					"5"
 			"RocketStartSpeed"			"2000"
 			"ImpactDetonation"			"1"
@@ -9646,7 +9646,7 @@
 			"entity_class"				"rocket"
 			"Model"						"models/weapons/w_at4_projectile.mdl"
 			"DetonateDamage"			"270"	//previously 250
-			"DetonateDamageRadius"		"850" //10% increase over vanilla //1100
+			"DetonateDamageRadius"		"722" //10% increase over vanilla //1100
 			"DetonatePenetrationRadius" "225"  //66% increase //previously 200
 			"RocketTopSpeed"			"3500" // you cannot go faster than 3500
 			"RocketStartSpeed"			"600" // default 200
@@ -9671,7 +9671,7 @@
 			"entity_class"				"rocket"
 			"Model"						"models/weapons/w_rpg7_projectile.mdl"
 			"DetonateDamage"			"190" //230
-			"DetonateDamageRadius"		"810" //25% reduction //750
+			"DetonateDamageRadius"		"688" //25% reduction //750
 			"DetonatePenetrationRadius" "135"  //25% reduction //150
 			"RocketTopSpeed"			"3500" // you cannot go faster than 3500 //3500
 			"RocketStartSpeed"			"200" //200
@@ -9697,7 +9697,7 @@
 			"entity_class"				"rocket"
 			"Model"						"models/weapons/w_law_projectile.mdl"
 			"DetonateDamage" "160"
-			"DetonateDamageRadius" "630"	//650
+			"DetonateDamageRadius" "535"	//650
 			"DetonatePenetrationRadius" "360"
 			"RocketTopSpeed" "3000" // you cannot go faster than 3500
 			"RocketStartSpeed" "150" // default 200
