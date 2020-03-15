@@ -2736,7 +2736,7 @@
 				"weapon"			"weapon_luger"
 				"weapon"			"weapon_p38"
 				"weapon"			"weapon_enfield"
-				"weapon"			"weapon_nam_ppsh41"
+				//"weapon"			"weapon_nam_ppsh41"
 				//"weapon"			"weapon_mosin"
 				//"weapon"			"weapon_m40a1"
 				//"weapon"			"weapon_model10"

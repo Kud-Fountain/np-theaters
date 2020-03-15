@@ -547,7 +547,7 @@
 			"closed_bolt"				"0"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"40"	
-			"weapon_cost"				"1"
+			"weapon_cost"				"2"
 			"barrel_length"				"30"
 			"class_restricted"			"1"
 			
