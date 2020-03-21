@@ -5731,7 +5731,7 @@
 			{
 				"ammo_type"					"556_box"
 				"clip_max"					"13"
-				"clip_max_rounds"			"20"
+				"clip_max_rounds"			"30"
 				"clip_default"				"0"
 			}
 			"attachments"

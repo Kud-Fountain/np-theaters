@@ -389,7 +389,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_mk18_m0"
-				"weapon"				"weapon_mini14"
+				//"weapon"				"weapon_mini14"
 			}
 
 		}
