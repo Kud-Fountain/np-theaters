@@ -2032,20 +2032,22 @@
 		"556_box"
 		{
 			"import"    "556x45_13i"
+			"magsize"					"30"
 		}
 		"556_hp_box"
 		{
 			"import"    "556x45_hp_13i"
+			"magsize"					"30"
 		}
 		"556_ap_box"
 		{
 			"import"    "556x45_ap_13i"
+			"magsize"					"30"
 		}
 		"556_sost_box"
 		{
 			"import"    "556x45_sost_13i"
-			"carry"						"12"
-			"magsize"					"20"
+			"magsize"					"30"
 		}
 		//Famas:
 		"556_f1"

@@ -335,12 +335,12 @@
 
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_fal"
-				"weapon"				"weapon_l1a1"
+				//"weapon"				"weapon_fal"
+				//"weapon"				"weapon_l1a1"
 				"weapon"				"weapon_m14"
 				"weapon"				"weapon_mk20_scar"
 				"weapon"				"weapon_rfb"
-				"weapon"				"weapon_g3a3"
+				//"weapon"				"weapon_g3a3"
 			}
 
 			"viewmodel_attachments"
@@ -356,6 +356,47 @@
 						"weapon"		"weapon_l1a1"
 					}
 				}
+				"magazine_g3a3"
+				{
+					"model"				"models/weapons/upgrades/a_magazine_g3a_l1a1_30.mdl"
+					"Main"				"1"
+
+					"weapons"
+					{
+						"weapon"		"weapon_g3a3"
+					}
+				}
+			}
+		}
+		"magazine_extended_g3a3_30rd"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"1"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+			"weight"					"26"
+			"print_name"				"#weapon_upgrade_magazine_extended"
+			"print_desc"				"#weapon_upgrade_30_g3a3_extended_dy_desc"
+
+			"magsize_override"			"40"
+			
+			"reload_speed"				"0.75"
+			"draw_speed"				"0.75"
+			"holster_speed"				"0.75"
+			
+			"ironsights"
+			{
+				"in_time"		"0.25"
+				"out_time"		"0.25"
+			}
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_g3a3"
+			}
+
+			"viewmodel_attachments"
+			{
 				"magazine_g3a3"
 				{
 					"model"				"models/weapons/upgrades/a_magazine_g3a_l1a1_30.mdl"
@@ -388,7 +429,7 @@
 
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_mk18_m0"
+				//"weapon"				"weapon_mk18_m0"
 				//"weapon"				"weapon_mini14"
 			}
 
