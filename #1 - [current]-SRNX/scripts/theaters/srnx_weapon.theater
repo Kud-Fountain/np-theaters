@@ -8913,7 +8913,7 @@
 		{
 			"import"						"ballistic_base"
 			"weapon_class"					"sniper_rifle"
-			"weapon_cost"					"1"
+			"weapon_cost"					"2"
 			"print_name"					"#weapon_m40a1g"
 			"print_desc"					"#weapon_m40a1g_desc"
 			"view_model"					"models/weapons/v_m40a1.mdl"
@@ -9015,7 +9015,7 @@
 		{
 			"import"						"ballistic_base"
 			"weapon_class"					"sniper_rifle"
-			"weapon_cost"					"1"
+			"weapon_cost"					"2"
 			"print_name"					"#weapon_mosing"
 			"print_desc"					"#weapon_mosing_desc"
 			"view_model"					"models/weapons/v_mosin.mdl"

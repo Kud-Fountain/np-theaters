@@ -408,7 +408,7 @@
 		{
 			"import"					"ballistic_base"
 			"weapon_class"				"sniper_rifle"
-			"weapon_cost"				"2"
+			"weapon_cost"				"3"
 			"print_name"				"#weapon_springfield"
 			"print_desc"				"#weapon_springfield_desc"
 			"view_model"				"models/weapons/v_springfield.mdl"
@@ -547,7 +547,7 @@
 		{
 			"import"					"ballistic_base"
 			"weapon_class"				"sniper_rifle"
-			"weapon_cost"				"2"
+			"weapon_cost"				"3"
 			"print_name"				"#weapon_k98"
 			"print_desc"				"#weapon_k98_desc"
 			"view_model"				"models/weapons/v_kar98k.mdl"
@@ -1685,7 +1685,7 @@
 		{
 			"import"					"ballistic_base"
 			"weapon_class"				"sniper_rifle"
-			"weapon_cost"				"3"
+			"weapon_cost"				"4"
 			"print_name"				"#weapon_enfield"
 			"print_desc"				"英军制式栓动步枪（10 发容量）"
 			"view_model"				"models/weapons/v_enfield.mdl"
