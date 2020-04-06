@@ -269,7 +269,7 @@
 				//Pistols
 				//Gear
 				//"gear"				"srnx_devgru_1_a"
-				"gear"				"basic_chest"
+				"gear"					"basic_chest_rm"
 				//"gear"				"srnx_chest_rig4"
 				//"gear"				"srnx_chest_carrier1"
 				//"gear"				"srnx_chest_carrier2"

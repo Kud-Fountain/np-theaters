@@ -521,6 +521,34 @@
 				"weapon"				"weapon_uzi"
 			}
 		}
+		"magazine_extended_scarl_40"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"1"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+			"weight"					"16"
+			"print_name"				"#weapon_upgrade_magazine_extended"
+			"print_desc"				"#weapon_upgrade_50_magazine_scarl_dy_desc"
+
+			"magsize_override"			"50"
+			//"maxcarry_override"			"6"
+			
+			"reload_speed"				"0.8"
+			"draw_speed"				"0.8"
+			"holster_speed"				"0.8"
+			
+			"ironsights"
+			{
+				"in_time"		"0.15"
+				"out_time"		"0.15"
+			}
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_scar"
+			}
+		}
 		"magazine_extended_smg_50"
 		{
 			"upgrade_slot"				"magazine"

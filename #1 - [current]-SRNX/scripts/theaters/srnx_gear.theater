@@ -1072,7 +1072,33 @@
 			"team_access"	"security"
 		}
 
-		
+		"basic_chest_rm" //3 base - .4 = 2.6
+		{
+			"print_name"	"#gear_chest_rm"
+			"print_desc"	"#gear_chest_rm_desc"
+			"gear_slot"				"vest"
+			"gear_cost"		"0"
+			"class_restricted" "1"
+			"gear_weight"	"60" // 2 (0.65 kg) * 54.5
+			"extra_ammo"
+			{
+				"primary"	"6"
+				"secondary"
+				{
+					"0" "3"
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"	"1"
+			}
+            "player_model_bodygroups"
+			{
+				"kit"					"2"
+				"backpack"				"2"
+			}
+			"team_access"				"security"
+		}
 		"basic_chest_sniper" //3 base - .4 = 2.6
 		{
 			"print_name"	"#gear_chest_rig1"
