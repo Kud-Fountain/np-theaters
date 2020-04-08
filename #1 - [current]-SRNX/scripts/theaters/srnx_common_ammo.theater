@@ -2305,19 +2305,19 @@
 		{
 			"import"				"762x33_hp"
 			"carry"					"12"
-			"magsize"				"15"
+			"magsize"				"30"
 		}
 		"30_carbine_ap"
 		{
 			"import"				"762x33_ap"
 			"carry"					"12"
-			"magsize"				"15"
+			"magsize"				"30"
 		}
 		"30_carbine_tracer"
 		{
 			"import"				"762x33_tracer"
 			"carry"					"12"
-			"magsize"				"15"
+			"magsize"				"30"
 		}
 		
 		// ========================================
