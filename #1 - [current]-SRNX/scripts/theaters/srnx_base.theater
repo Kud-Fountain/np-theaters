@@ -269,7 +269,7 @@
 				//Pistols
 				//Gear
 				//"gear"				"srnx_devgru_1_a"
-				"gear"					"basic_chest_rm"
+				"gear"					"basic_chest"
 				//"gear"				"srnx_chest_rig4"
 				//"gear"				"srnx_chest_carrier1"
 				//"gear"				"srnx_chest_carrier2"
@@ -401,7 +401,7 @@
 				//"weapon"			"weapon_m67"
 				//"weapon"			"weapon_mk3"
 				//Gear
-				"gear"				"basic_chest"
+				"gear"				"basic_chest_rm"
 			}
 		}
 		"Gnalvl_engineer_medic_1"
