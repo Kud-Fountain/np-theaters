@@ -78,6 +78,7 @@
 				}
 				"[Charlie]"
 				{
+					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_medic"
 					"#Squad_Gnalvl_Rifleman_AT2"			"Gnalvl_rifleman_at_medic_2"
 					"#Squad_Gnalvl_Rifleman_AT2"			"Gnalvl_rifleman_at_medic_2"
 					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_medic_1"

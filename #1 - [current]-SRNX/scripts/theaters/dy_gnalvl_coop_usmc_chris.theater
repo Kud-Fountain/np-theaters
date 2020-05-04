@@ -79,6 +79,7 @@
 				}
 				"[Charlie]"
 				{
+					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_medic"
 					"#Squad_Gnalvl_Rifleman_AT2"			"Gnalvl_rifleman_at_medic_2"
 					"#Squad_Gnalvl_Rifleman_AT2"			"Gnalvl_rifleman_at_medic_2"
 					"#Squad_Gnalvl_Engineer"			"Gnalvl_engineer_medic_1"
@@ -123,28 +124,26 @@
 					"Bot"		"sapper_ins_1"
 					"Bot"		"striker_ins_vip_1" 
 					"Bot"		"juggernaut_1" 		
-					"Bot"		"juggernaut_2"
 					"Bot"		"scout_ins_1" 	
 				}
 
 				"Team2"	// Support team #2 - 8 Bots
-				{
-					"Bot"		"bomber_ins_1" 
+				{ 
 					"Bot"		"standard_ins_2" 
-					"Bot"		"juggernaut_3"
 					"Bot"		"mg_fighter_ins_3"		
 					"Bot"		"mg_fighter_ins_4"		
 					"Bot"		"striker_ins_2" 
 					"Bot"		"striker_ins_2"	//CP 			
 					"Bot"		"scout_ins_2" 	
-					//"Bot"		"scout_ins_ex" 						
+					"Bot"		"striker_ins_3" 
+					"Bot"		"sapper_ins_2"					
 				}
 
 				"Team3"	// Recon team #3 - 8 Bots
 				{
 					//role name		
-					"Bot"		"striker_ins_3" 
-					"Bot"		"sapper_ins_2"				
+					"Bot"		"bomber_ins_1"	
+					"Bot"		"juggernaut_2"
 					"Bot"		"sapper_ins_3"
 					"Bot"		"standard_ins_3"
 					"Bot"		"standard_ins_4"			
@@ -155,7 +154,20 @@
 				{	 			
 					"Bot"		"sapper_ins_4"
 					"Bot"		"striker_ins_4"		
-					"Bot"		"striker_ins_5"  			
+					"Bot"		"striker_ins_5"
+					"Bot"		"striker_ins_4"		
+					"Bot"		"striker_ins_5" 					
+				}
+				"Team5"	// CP Team2
+				{	 			
+					"Bot"		"standard_ins_2" 
+					"Bot"		"mg_fighter_ins_3"		
+					"Bot"		"mg_fighter_ins_4"		
+					"Bot"		"striker_ins_2" 
+					"Bot"		"striker_ins_2"	//CP 			
+					"Bot"		"scout_ins_2" 	
+					"Bot"		"striker_ins_3" 
+					"Bot"		"sapper_ins_2"  			
 				}
 			}
 		}
