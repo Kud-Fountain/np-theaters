@@ -4175,8 +4175,8 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"				"-1.25 1.15"
-				"recoil_vertical_range"				"2.465 2.725"
+				"recoil_lateral_range"				"-1.00 0.90"
+				"recoil_vertical_range"				"2.065 2.325"
 				"recoil_aim_punch"					"0.7 1.0"
 				"recoil_rest_rate"					"6"
 				"recoil_rest_delay"					"0.18"

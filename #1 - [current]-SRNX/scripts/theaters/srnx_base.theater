@@ -892,7 +892,9 @@
 				
 				//upgrades
 				"weapon_upgrade"	"magazine_drum_75rd"
-				"weapon_upgrade"	"ammo_beta75"
+				//"weapon_upgrade"	"ammo_beta75"
+				"weapon_upgrade"	"magazine_drum_100rd"
+				"weapon_upgrade"	"ammo_beta50"
 				//"weapon_upgrade"	"tactical_sling_sup"
 
 				//Secondaries
