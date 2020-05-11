@@ -637,6 +637,57 @@
 			}
 
 		}
+		"magazine_drum_100rd"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"2"
+			"class_restricted"			"1"
+			"team_acces"				"security, insurgent"
+			"weight"					"60"
+			
+			"print_name"				"#weapon_upgrade_magazine_drum_100"
+			"print_desc"				"#weapon_upgrade_100_magazine_extended_dy_desc"
+			
+			"magsize_override"			"100"
+			//"maxcarry_override"			"4"
+			"reload_speed"				"0.70"
+			"draw_speed"				"0.70"
+			"holster_speed"				"0.70"
+			
+			"ironsights"
+			{
+				"in_time"				"0.2"
+				"out_time"				"0.2"
+			}
+
+			"recoil"
+			{
+				"recoil_vertical_frac"		"0.95"
+				"recoil_lateral_frac"		"1.05"
+			}
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_vz58"
+			}
+
+			"viewmodel_attachments"
+			{
+				"magazine_galil"
+				{
+					"ActSuffix"			"_MAG1"
+					"model"				"models/weapons/upgrades/a_magazine_galil_75.mdl"
+					"Main"				"1"
+				}
+			}
+			"world_attachments"
+			{
+				"magazine_galil"
+				{
+					"model"				"models/weapons/upgrades/w_magazine_galil_75.mdl"
+									
+				}			
+			}
+		}
 		"magazine_drum_75rd"
 		{
 			"upgrade_slot"				"magazine"
@@ -668,9 +719,9 @@
 			"allowed_weapons"
 			{
 				//"weapon"				"weapon_galil"
-				"weapon"				"weapon_galil_sar"
-				"weapon"				"weapon_akm"
-				"weapon"				"weapon_vz58"
+				//"weapon"				"weapon_galil_sar"
+				//"weapon"				"weapon_akm"
+				//"weapon"				"weapon_vz58"
 			}
 
 			"viewmodel_attachments"
@@ -750,8 +801,8 @@
 			"weight"					"50" // Rough estimate of ammo weight + gameplay
 			"magsize_override"			"50"
 			//"maxcarry_override"			"4"
-			"reload_speed"				"0.9"
-			"draw_speed"				"0.9"
+			"reload_speed"				"0.75"
+			"draw_speed"				"0.75"
 			"recoil"
 			{
 				"recoil_vertical_frac"		"0.95"
@@ -768,12 +819,15 @@
 						"weapon_m16a4"				"1.05"
 						"weapon_m4a1"				"1.05"
 						"weapon_mk18"				"1.05"
+						"weapon_galil_sar"			"1.05"
 					}
 				}
 			}
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_m4a1"
+				"weapon"					"weapon_mk18"
+				"weapon"					"weapon_galil_sar"
 			}
 			"world_attachments"
 			{
