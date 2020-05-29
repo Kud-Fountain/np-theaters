@@ -59,32 +59,32 @@
 				
 				"[拾荒大队]"
 				{
-					"#np_scavengers"			"np_scavengers"
-					"#np_scavengers"			"np_scavengers"
-					"#np_scavengers"			"np_scavengers"
-					"#np_scavengers"			"np_scavengers"
-					"#np_scavengers"			"np_scavengers"
-					"#np_scavengers"			"np_scavengers"
-					"#np_scavengers"			"np_scavengers"
-					"#np_scavengers"			"np_scavengers"
+					"#np_scavengers"			"np_scavengers_medic"
+					"#np_scavengers"			"np_scavengers_medic"
+					"#np_scavengers"			"np_scavengers_medic"
+					"#np_scavengers"			"np_scavengers_medic"
+					"#np_scavengers"			"np_scavengers_medic"
+					"#np_scavengers"			"np_scavengers_medic"
+					"#np_scavengers"			"np_scavengers_medic"
+					"#np_scavengers"			"np_scavengers_medic"
 				}
 				"[拾荒大队]"
 				{
-					"#np_scavengers"			"np_scavengers"
-					"#np_scavengers"			"np_scavengers"
-					"#np_scavengers"			"np_scavengers"
-					"#np_scavengers"			"np_scavengers"
-					"#np_scavengers"			"np_scavengers"
-					"#np_scavengers"			"np_scavengers"
-					"#np_scavengers"			"np_scavengers"
-					"#np_scavengers"			"np_scavengers"
+					"#np_scavengers"			"np_scavengers_medic"
+					"#np_scavengers"			"np_scavengers_medic"
+					"#np_scavengers"			"np_scavengers_medic"
+					"#np_scavengers"			"np_scavengers_medic"
+					"#np_scavengers"			"np_scavengers_medic"
+					"#np_scavengers"			"np_scavengers_medic"
+					"#np_scavengers"			"np_scavengers_medic"
+					"#np_scavengers"			"np_scavengers_medic"
 				}
 				"[拾荒大队]"
 				{
-					"#np_scavengers"			"np_scavengers"
-					"#np_scavengers"			"np_scavengers"
-					"#np_scavengers"			"np_scavengers"	
-					"#np_scavengers"			"np_scavengers"
+					"#np_scavengers"			"np_scavengers_medic"
+					"#np_scavengers"			"np_scavengers_medic"
+					"#np_scavengers"			"np_scavengers_medic"	
+					"#np_scavengers"			"np_scavengers_medic"
 				}
 			}
 		}
@@ -122,6 +122,7 @@
 					"Bot"		"striker_ins_1" 					
 					"Bot"		"sapper_ins_1"
 					"Bot"		"striker_ins_vip_1" 		
+					"Bot"		"juggernaut_1" 		
 					"Bot"		"scout_ins_1" 	
 				}
 
@@ -140,6 +141,7 @@
 				"Team3"	// Recon team #3 - 8 Bots
 				{
 					//role name		
+					"Bot"		"bomber_ins_1"	
 					"Bot"		"sapper_ins_3"
 					"Bot"		"standard_ins_3"
 					"Bot"		"standard_ins_4"			
