@@ -19,7 +19,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/security_light_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -109,7 +109,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/security_light_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -209,7 +209,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard.mdl"
+				"player"				"models/characters/security_standard_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 
 				"bodygroups"
@@ -293,7 +293,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard.mdl"
+				"player"				"models/characters/security_standard_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 
 				"bodygroups"
@@ -358,7 +358,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard.mdl"
+				"player"				"models/characters/security_standard_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 
 				"bodygroups"
@@ -411,7 +411,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard.mdl"
+				"player"				"models/characters/security_standard_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 
 				"bodygroups"
@@ -484,7 +484,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard.mdl"
+				"player"				"models/characters/security_standard_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 
 				"bodygroups"
@@ -594,7 +594,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/security_light_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -623,7 +623,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard.mdl"
+				"player"				"models/characters/security_standard_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 
 				"bodygroups"
@@ -692,7 +692,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard.mdl"
+				"player"				"models/characters/security_standard_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 				
 				"bodygroups"
@@ -788,7 +788,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_heavy.mdl"
+				"player"				"models/characters/security_heavy_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_h.mdl"
 				
 				"bodygroups"
@@ -860,7 +860,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_heavy.mdl"
+				"player"				"models/characters/security_heavy_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_h.mdl"
 				
 				"bodygroups"
@@ -922,7 +922,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/security_light_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -1029,7 +1029,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard.mdl"
+				"player"				"models/characters/security_standard_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 
 				"bodygroups"
@@ -1132,7 +1132,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard.mdl"
+				"player"				"models/characters/security_standard_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 
 				"bodygroups"
@@ -1248,7 +1248,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/security_light_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -1308,7 +1308,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/security_light_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -1361,7 +1361,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard.mdl"
+				"player"				"models/characters/security_standard_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 				
 				"bodygroups"
@@ -1461,7 +1461,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_security.mdl"
+				"player"				"models/characters/civilian_vip_security_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_vip.mdl"
 				
 				"bodygroups"

@@ -5508,13 +5508,7 @@
 			"spread_frac"					"0.04"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_m590"
-				"weapon"				"weapon_nova"
-				"weapon"				"weapon_toz"
-				"weapon"				"weapon_saiga12"
-				"weapon"				"weapon_spas12"
-				"weapon"				"weapon_ksg"
-				"weapon"				"weapon_m1887"
+
 			}
 			"ammo_type_override"			"slugs"	
 		}
@@ -5528,13 +5522,7 @@
 			"spread_frac"					"1.6"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_m590"
-				"weapon"					"weapon_nova"
-				"weapon"					"weapon_toz"
-				"weapon"					"weapon_saiga12"
-				"weapon"					"weapon_spas12"
-				"weapon"					"weapon_ksg"
-				"weapon"					"weapon_m1887"
+
 			}
 			"ammo_type_override"			"buckshot"	
 			
@@ -5549,13 +5537,7 @@
 			"spread_frac"					"0.6"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_m590"
-				"weapon"					"weapon_nova"
-				"weapon"					"weapon_toz"
-				"weapon"					"weapon_saiga12"
-				"weapon"					"weapon_spas12"
-				"weapon"					"weapon_ksg"
-				"weapon"					"weapon_m1887"
+
 			}
 			"ammo_type_override"			"buckshot"
 		}
@@ -5571,7 +5553,7 @@
 			"upgrade_cost"				"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_model10"
+
 			}
 			"ammo_type_override"		"38special_hp"
 		}
@@ -5584,7 +5566,7 @@
 			"upgrade_cost"				"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_model10"
+
 			}
 			"ammo_type_override"		"38special_ap"
 		}
@@ -5596,8 +5578,7 @@
 			"upgrade_cost"				"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_mr96"
-				"weapon"				"weapon_kingcobra"
+
 			}
 			"ammo_type_override"		"357sw_hp"
 		}
@@ -5610,8 +5591,7 @@
 			"upgrade_cost"				"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_mr96"
-				"weapon"				"weapon_kingcobra"
+
 			}
 			"ammo_type_override"		"357sw_ap"
 		}
@@ -5623,7 +5603,7 @@
 			"upgrade_cost"				"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_deagle"
+
 			}
 			"ammo_type_override"		"50ae_hp"
 		}
@@ -5636,7 +5616,7 @@
 			"upgrade_cost"				"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_deagle"
+
 			}
 			"ammo_type_override"		"50ae_ap"
 		}
@@ -5651,9 +5631,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_m9"
-				"weapon"				"weapon_m93r"
-				"weapon"				"weapon_glock18"
+
 
 			}
 			"ammo_type_override"			"9x19mm_hp"
@@ -5666,9 +5644,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_m9"
-				"weapon"				"weapon_m93r"
-				"weapon"				"weapon_glock18"
+
 			}
 			"ammo_type_override"			"9x19mm_ap"
 		}
@@ -5684,7 +5660,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_makarov"
+
 			}
 			"ammo_type_override"			"9x18mm_hp"
 		}
@@ -5696,7 +5672,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_makarov"
+
 			}
 			"ammo_type_override"			"9x18mm_ap"
 		}
@@ -5711,8 +5687,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_m45"
-				"weapon"				"weapon_usp"
+
 			}
 			"ammo_type_override"			"45acp_hp_pistol"
 		}
@@ -5724,8 +5699,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_m45"
-				"weapon"				"weapon_usp"
+
 			}
 			"ammo_type_override"			"45acp_ap_pistol"
 		}
@@ -5739,7 +5713,7 @@
 			"upgrade_cost"				"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_m1911"
+
 			}
 			"ammo_type_override"			"45acp_hp_pistol"
 		}
@@ -5749,7 +5723,7 @@
 			"upgrade_cost"				"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_m1911"
+
 			}
 			"ammo_type_override"			"45acp_ap_pistol"
 		}
@@ -5777,8 +5751,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_akm"
-				"weapon"				"weapon_vz58"
+
 			}
 			"ammo_type_override"			"762x38_hp_box"
 		}
@@ -5791,8 +5764,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_akm"
-				"weapon"				"weapon_vz58"
+
 			}
 			"ammo_type_override"			"762x38_ap_box"
 		}
@@ -5819,8 +5791,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_ak74"
-				"weapon"				"weapon_ak12u"
+
 			}
 			"ammo_type_override"			"545x39_hp"
 		}
@@ -5833,8 +5804,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_ak74"
-				"weapon"				"weapon_ak12u"
+
 			}
 			"ammo_type_override"			"545x39_ap"
 		}
@@ -5861,9 +5831,7 @@
 			"spread_frac"					"0.75"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_fal"
-				"weapon"				"weapon_mk20_scar"
-				"weapon"				"weapon_rfb"
+
 			}
 			"ammo_type_override"			"762x51_hp_box_20rnd"
 			//gnalvl = "ammo_type_override"			"762x51_mag_hp"
@@ -5877,9 +5845,7 @@
 			"print_desc"					"#weapon_upgrade_m993_ins_desc"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_fal"
-				"weapon"				"weapon_mk20_scar"
-				"weapon"				"weapon_rfb"
+
 			}
 			"ammo_type_override"			"762x51_ap_box_20rnd"
 			//gnalvl "ammo_type_override"			"762x51_mag_ap"
@@ -5893,8 +5859,7 @@
 			"spread_frac"					"0.75"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_l1a1"
-				"weapon"				"weapon_hk417"
+
 			}
 			"ammo_type_override"			"762x51_hp_box_20rnd"
 			//gnalvl = "ammo_type_override"			"762x51_mag_hp"
@@ -5908,8 +5873,7 @@
 			"print_desc"					"#weapon_upgrade_m993_l1_ins_desc"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_l1a1"
-				"weapon"				"weapon_hk417"
+
 			}
 			"ammo_type_override"			"762x51_ap_box_20rnd"
 			//gnalvl "ammo_type_override"			"762x51_mag_ap"
@@ -5923,7 +5887,7 @@
 			"spread_frac"					"0.75"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_g3a3"
+
 			}
 			"ammo_type_override"			"762x51_hp_box_20rnd"
 			//gnalvl = "ammo_type_override"			"762x51_mag_hp"
@@ -5937,7 +5901,7 @@
 			"print_desc"					"#weapon_upgrade_m993_l1_ins_desc"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_g3a3"
+
 			}
 			"ammo_type_override"			"762x51_ap_box_20rnd"
 			//gnalvl "ammo_type_override"			"762x51_mag_ap"
@@ -5963,9 +5927,7 @@
 			"upgrade_cost"				"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_galil"
-				"weapon"				"weapon_galil_sar"
-				"weapon"				"weapon_hk416"
+
 			}
 			"ammo_type_override"		"556_hp_35box"
 		}
@@ -5977,9 +5939,7 @@
 			"upgrade_cost"				"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_galil"
-				"weapon"				"weapon_galil_sar"
-				"weapon"				"weapon_hk416"
+
 			}
 			"ammo_type_override"		"556_ap_35box"
 		}
@@ -6005,7 +5965,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_aks74u"
+
 			}
 			"ammo_type_override"			"545x39_hp"
 		}
@@ -6018,7 +5978,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_aks74u"
+
 			}
 			"ammo_type_override"			"545x39_ap"
 		}
@@ -6044,7 +6004,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_m16a4"
+
 			}
 			"ammo_type_override"			"556_hp_stanag"
 		}
@@ -6057,7 +6017,7 @@
 			"spread_frac"					"1.5"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_m16a4"
+
 			}
 			"ammo_type_override"			"556_ap_stanag"
 		}
@@ -6081,7 +6041,7 @@
 			"spread_frac"					"0.5"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_famas"
+
 			}
 			"ammo_type_override"			"556_f1_hp_box"
 		}
@@ -6094,7 +6054,7 @@
 			"spread_frac"					"1.5"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_famas"
+
 			}
 			"ammo_type_override"			"556_f1_ap_box"
 		}
@@ -6108,16 +6068,7 @@
 			"spread_frac"					"0.5"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_mk18"
-				"weapon"				"weapon_aug3"
-				"weapon"				"weapon_mk18_m0"
-				"weapon"				"weapon_m4a1"
-				"weapon"				"weapon_sa80"
-				"weapon"				"weapon_acr"
-				"weapon"	             "weapon_sig553"
-				"weapon"				"weapon_g36c"
-				"weapon"				"weapon_f2000"
-				"weapon"				"weapon_scar"
+
 
 			}
 			"ammo_type_override"			"556_hp_stanag_m4"
@@ -6131,17 +6082,7 @@
 			"spread_frac"					"1.5"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_mk18"
-				"weapon"					"weapon_aug3"
-				"weapon"					"weapon_mk18_m0"
-				"weapon"					"weapon_m4a1"
-				"weapon"					"weapon_sa80"
-				"weapon"					"weapon_acr"
-				"weapon"				"weapon_g36c"
-				"weapon"	                "weapon_sig553"
-				"weapon"				"weapon_f2000"
-				"weapon"				"weapon_scar"
-				//"weapon"					"weapon_m1a1"
+
 			}
 			"ammo_type_override"			"556_ap_stanag_m4"
 		}
@@ -6166,12 +6107,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_mp5"
-				"weapon"				"weapon_colt9mm"
-				
-				"weapon"				"weapon_uzi"
-				"weapon"				"weapon_mp5a4"
-				"weapon"				"weapon_czse3"
+
 			}
 			"ammo_type_override"			"9x19mm_hp_smg"
 		}
@@ -6183,12 +6119,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_mp5"
-				"weapon"				"weapon_colt9mm"
-				
-				"weapon"				"weapon_uzi"
-				"weapon"				"weapon_mp5a4"
-				"weapon"				"weapon_czse3"
+
 			}
 			"ammo_type_override"			"9x19mm_ap_smg"
 		}
@@ -6214,8 +6145,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_mp40"
-				"weapon"				"weapon_sterling"
+
 			}
 			"ammo_type_override"			"9x19mm_hp_smg"
 		}
@@ -6227,8 +6157,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_mp40"
-				"weapon"				"weapon_sterling"
+
 
 			}
 			"ammo_type_override"			"9x19mm_ap_smg"
@@ -6255,7 +6184,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_ump45"
+
 			}
 			"ammo_type_override"			"45acp_hp_ump"
 		}
@@ -6267,7 +6196,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_ump45"
+
 			}
 			"ammo_type_override"			"45acp_ap_ump"
 		}
@@ -6279,8 +6208,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_kriss"
-				"weapon"				"weapon_mac10"
+
 			}
 			"ammo_type_override"			"45acp_hp"
 		}
@@ -6292,8 +6220,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_kriss"
-				"weapon"				"weapon_mac10"
+
 			}
 			"ammo_type_override"			"45acp_ap"
 		}
@@ -6306,7 +6233,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_mp7"
+
 			}
 			"ammo_type_override"			"45acp_hp"
 		}
@@ -6318,7 +6245,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_mp7"
+
 			}
 			"ammo_type_override"			"45acp_ap"
 		}
@@ -6344,7 +6271,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_mini14"
+
 			}
 			"ammo_type_override"			"556_hp_box"
 		}
@@ -6357,7 +6284,7 @@
 			"spread_frac"					"1.5"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_mini14"
+
 			}
 			"ammo_type_override"			"556_ap_box"
 		}
@@ -6384,7 +6311,7 @@
 			"spread_frac"					"1.5"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_m1a1"
+
 			}
 			"ammo_type_override"			"30_carbine_hp"
 		}
@@ -6397,7 +6324,7 @@
 			"spread_frac"					"1.5"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_m1a1"
+
 			}
 			"ammo_type_override"			"30_carbine_ap"
 		}
@@ -6425,7 +6352,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_sks"
+
 			}
 			"ammo_type_override"			"762x38mm_hp_clip"
 		}
@@ -6438,7 +6365,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_sks"
+
 			}
 			"ammo_type_override"			"762x38mm_ap_clip"
 		}
@@ -6452,7 +6379,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				//"weapon"				"weapon_m1garand"
+
 			}
 			"ammo_type_override"			"762x38mm_hp_m1"
 		}
@@ -6465,7 +6392,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				//"weapon"				"weapon_m1garand"
+
 			}
 			"ammo_type_override"			"762x38mm_ap_m1"
 		}
@@ -6481,8 +6408,7 @@
 			"spread_frac"					"0.75"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_mosin"
-				//"weapon"					"weapon_enfield"
+
 			}
 			"ammo_type_override"			"762x54mm_hp"
 		}
@@ -6495,8 +6421,7 @@
 			"spread_frac"					"0.88"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_mosin"
-				//"weapon"				"weapon_enfield"
+
 			}
 			"ammo_type_override"			"762x54mm_ap"
 		}
@@ -6512,7 +6437,7 @@
 			"spread_frac"					"0.75"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_svd"
+
 			}
 			"ammo_type_override"			"762x54mm_hp_clip"
 		}
@@ -6525,7 +6450,7 @@
 			"spread_frac"					"0.88"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_svd"
+
 			}
 			"ammo_type_override"			"762x54mm_ap_clip"
 		}
@@ -6542,7 +6467,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_m14"
+
 			}
 			"ammo_type_override"			"762x51_mag_hp"
 		}
@@ -6556,7 +6481,7 @@
 			"spread_frac"					"0.88"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_m14"
+
 			}
 			"ammo_type_override"			"762x51_mag_ap"
 		}
@@ -6573,7 +6498,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_m107"
+
 			}
 			"ammo_type_override"			"50_bmg_hp_mag"
 		}
@@ -6587,7 +6512,7 @@
 			"spread_frac"					"0.42"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_m107"
+
 			}
 			"ammo_type_override"			"50_bmg_ap_mag"
 		}
@@ -6603,8 +6528,7 @@
 			"spread_frac"					"0.88"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_m40a1"
-				"weapon"				"weapon_m40a5"
+
 
 			}
 			"ammo_type_override"			"762x51mm_ap"
@@ -6619,8 +6543,7 @@
 			"spread_frac"					"0.28"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_m40a1"
-				"weapon"				"weapon_m40a5"
+
 			}
 			"ammo_type_override"			"762x51mm_hp"
 		}
@@ -6636,7 +6559,7 @@
 			"spread_frac"					"0.5"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_m249"
+
 			}
 			"ammo_type_override"			"556_m27_hp"
 		}
@@ -6649,7 +6572,7 @@
 			"spread_frac"					"1.5"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_m249"
+
 			}
 			"ammo_type_override"			"556_m27_ap"
 		}
@@ -6662,7 +6585,7 @@
 			"spread_frac"					"0.5"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_mk46"
+
 			}
 			"ammo_type_override"			"556_m27_mk46_hp"
 		}
@@ -6675,7 +6598,7 @@
 			"spread_frac"					"1.5"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_mk46"
+
 			}
 			"ammo_type_override"			"556_m27_mk46_ap"
 		}
@@ -6688,8 +6611,7 @@
 			"spread_frac"					"0.5"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_mk48"
-				"weapon"				"weapon_m60"
+
 			}
 			"ammo_type_override"			"762x51_mk48_100rnd_hp"
 		}
@@ -6702,8 +6624,7 @@
 			"spread_frac"					"1.5"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_mk48"
-				"weapon"				"weapon_m60"
+
 			}
 			"ammo_type_override"			"762x51_mk48_100rnd_ap"
 		}
@@ -6716,8 +6637,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_rpk"
-				//"weapon"				"weapon_ae_mg42"
+
 			}
 			"ammo_type_override"			"762x38_hp_drum"
 		}
@@ -6730,8 +6650,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_rpk"
-				//"weapon"				"weapon_ae_mg42"
+
 			}
 			"ammo_type_override"			"762x38_ap_drum"
 		}
@@ -6744,7 +6663,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_rpk74m"
+
 			}
 			"ammo_type_override"			"545x39_hp_drum"
 		}
@@ -6757,7 +6676,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_rpk74m"
+
 			}
 			"ammo_type_override"			"545x39_ap_drum"
 		}
@@ -6775,7 +6694,7 @@
 			"spread_frac"					"0.5"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_mosin"
+
 			}
 			"ammo_type_override"			"762x54mm_sr"
 		}
@@ -6788,7 +6707,7 @@
 			"spread_frac"					"0.5"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_svd"
+
 			}
 			"ammo_type_override"			"762x54mm_sr_clip"
 		}
@@ -6802,9 +6721,7 @@
 			"spread_frac"					"1.25"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_mk18"
-				"weapon"					"weapon_aug3"
-				"weapon"					"weapon_mk18_m0"
+
 			}
 			"ammo_type_override"			"556_stanag_mk18_sost"
 		}
@@ -6817,7 +6734,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_m16a4"
+
 				
 			}
 			"ammo_type_override"			"556_stanag_m16_sost"
@@ -6832,8 +6749,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_m249"
-				"weapon"					"weapon_mk46"
+
 			}
 			"ammo_type_override"			"556_stanag_m249_sost"
 		}
@@ -6846,7 +6762,7 @@
 			"upgrade_cost"					"1"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_mini14"
+
 			}
 			"ammo_type_override"			"556_sost_box"
 		}
@@ -6859,7 +6775,7 @@
 			"spread_frac"					"0.83"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_akm"
+
 			}
 			"ammo_type_override"			"762x38_lc_box"
 		}
@@ -6872,7 +6788,7 @@
 			"spread_frac"					"0.5"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_mrp68"
+
 			}
 			"ammo_type_override"			"762x38_hp_box"
 		}
@@ -6885,7 +6801,7 @@
 			"spread_frac"					"0.75"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_mrp68"
+
 			}
 			"ammo_type_override"			"762x38_ap_box"
 		}
@@ -6898,7 +6814,7 @@
 			"spread_frac"					"0.83"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_sks"
+
 			}
 			"ammo_type_override"			"762x38_lc_clip"
 		}
@@ -6911,7 +6827,7 @@
 			"spread_frac"					"0.83"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_rpk"
+
 			}
 			"ammo_type_override"			"762x38_lc_drum"
 		}
@@ -6924,7 +6840,7 @@
 			"spread_frac"					"0.35"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_m14"
+
 			}
 			"ammo_type_override"			"762x51_mag_hp_lr"
 		}
