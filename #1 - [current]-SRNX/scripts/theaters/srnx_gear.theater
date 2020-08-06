@@ -1158,6 +1158,38 @@
 			}
 			"team_access"	"security"		
 		}
+		"basic_chest_fg" //3 base - .2 = 2.8
+		{
+			"print_name"	"#gear_chest_fg"
+			"print_desc"	"#gear_chest_fg_desc"
+			"gear_slot"		"vest"
+			"gear_cost"		"0"
+			"class_restricted" "1"
+			"gear_weight"	"60" // 4 (0.65 kg) * 54.5
+			"extra_ammo"
+			{
+				"primary"	"8"
+				"secondary"
+				{
+					"0" "3"
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"	"0"
+			}
+            "player_model_bodygroups"
+			{
+				"kit"					"0"
+				"backpack"				"3"
+			}
+            "player_model_bodygroups"
+			{
+				"kit"					"2"
+				"backpack"				"2"
+			}
+			"team_access"	"security"		
+		}
 		"basic_chest_shotgun" // 3 lbs base - .2 per tier
 		{
 			"print_name"	"#gear_chest_rig3"

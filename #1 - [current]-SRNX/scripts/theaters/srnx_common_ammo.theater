@@ -1963,22 +1963,22 @@
 		"762x51_box_20rnd"
 		{
 			"import"				"762x51"
-			"magsize"				"20"
+			"magsize"				"30"
 		}
 		"762x51_hp_box_20rnd"
 		{
 			"import"				"762x51_hp"
-			"magsize"				"20"
+			"magsize"				"30"
 		}
 		"762x51_ap_box_20rnd"
 		{
 			"import"				"762x51_ap"
-			"magsize"				"20"
+			"magsize"				"30"
 		}
 		"762x51_standard_box_20rnd"
 		{
 			"import"				"762x51_tracer"
-			"magsize"				"20"
+			"magsize"				"30"
 		}
 		
 		// ========================================
@@ -2214,26 +2214,26 @@
 		"762x51_mag_hp_lr"
 		{
 			"import"				"762x51_hp_lr"
-			"magsize"				"20"
+			"magsize"				"30"
 		}
 		"762x51_mag"
 		{
 			"import"				"762x51"
-			"magsize"				"20"
+			"magsize"				"30"
 		}
 		
 		"762x51_mag_ap"
 		{
 			"import"				"762x51_ap"
 			"carry"						"12"
-			"magsize"				"20"
+			"magsize"				"30"
 		}
 		
 		"762x51_mag_hp"
 		{
 			"import"				"762x51_hp"
 			"carry"						"12"
-			"magsize"				"20"
+			"magsize"				"30"
 		}
 		//Custom
 		"762x51_box_30rnd"
