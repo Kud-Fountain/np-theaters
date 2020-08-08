@@ -1,0 +1,53 @@
+"theater"
+{
+	"ammo"
+	{
+		"default"
+		{
+			"flags"					"AMMO_USE_MAGAZINES"
+			"carry"					"18"
+			"magsize"				"30"
+			"tracer_type"				"none"
+			
+			"SuppressionIncrement"			"60"
+			"PhysicsImpulse"
+			{
+				"50"					"800"
+				"2000"					"200"
+			}
+			"PenetrationDamage"
+			{
+				"0"					"1"
+				"100"					"0.5"
+				"200"					"0.1"
+			}
+			"Damage"
+			{
+				"10"					"100"
+				"8000"					"60"
+			}
+			"PenetrationPower"
+			{
+				"10"					"200"
+				"8000"					"135"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"1.00"
+				"HITGROUP_CHEST"			"1.00"
+				"HITGROUP_STOMACH"			"1.00"
+				"HITGROUP_LEFTARM"			"1.00"
+				"HITGROUP_RIGHTARM"			"1.00"
+				"HITGROUP_LEFTLEG"			"1.00"
+				"HITGROUP_RIGHTLEG"			"1.00"
+			}
+		}
+
+		"no_carry"
+		{
+			"carry"					"0"
+		}
+		
+		
+	}
+}
