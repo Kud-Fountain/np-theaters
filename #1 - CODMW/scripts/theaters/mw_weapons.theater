@@ -189,7 +189,14 @@
 			}
 			"sounds"
 			{
-
+				"magrelease"		"Weapon_GE50.Magrelease"
+				"empty"				"Weapon_GE50.Empty"
+				"magout"			"Weapon_GE50.Magout"
+				"magin"				"Weapon_GE50.Magin"
+				"maghit"			"Weapon_GE50.MagHit"
+				"boltrelease"		"Weapon_GE50.Boltrelease"
+				"magoutempty"		"Weapon_GE50.Empty.Magout"
+				"maginempty"		"Weapon_GE50.Empty.Magin"
 			}
 			"particles"
 			{
@@ -313,7 +320,16 @@
 			}
 			"sounds"
 			{
-
+				"boltback"				"Weapon_M16_M4.Boltback"
+				"boltrelease"			"Weapon_M16_M4.Boltrelease"
+				"hit"					"Weapon_M16_M4.Hit"
+				"empty"					"Weapon_M16_M4.Empty"
+				"rof"					"Weapon_M16_M4.ROF"
+				"magrelease"			"Weapon_M16_M4.Magrelease"
+				"magout"				"Weapon_M16_M4.Magout"
+				"magin"					"Weapon_M16_M4.Magin"
+				"magoutempty"			"Weapon_M16_M4.Empty.Magout"
+				"maginempty"			"Weapon_M16_M4.Empty.Magin"
 			}
 			"particles"
 			{
@@ -402,7 +418,16 @@
 			}
 			"sounds"
 			{
-
+				"rof"				"Weapon_M4_MW.ROF"
+				"magrelease"		"Weapon_M4_MW.Magrelease"
+				"magout"			"Weapon_M4_MW.Magout"
+				"magin"				"Weapon_M4_MW.Magin"
+				"hit"				"Weapon_M4_MW.Hit"
+				"boltrelease"		"Weapon_M4_MW.Boltrelease"
+				"empty"				"Weapon_M4_MW.Empty"
+				"boltback"			"Weapon_M4_MW.Boltback"
+				"magoutempty"		"Weapon_M4_MW.Empty.Magout"
+				"maginempty"		"Weapon_M4_MW.Empty.Magin"
 			}
 			"particles"
 			{
@@ -488,7 +513,16 @@
 			}
 			"sounds"
 			{
-
+				"boltlock"			"Weapon_Mp5_MW.Boltlock"
+				"boltrelease"		"Weapon_Mp5_MW.Boltrelease"
+				"empty"				"Weapon_Mp5_MW.Empty"
+				"rof"				"Weapon_Mp5_MW.ROF"
+				"magrelease"		"Weapon_Mp5_MW.MagRelease"
+				"magout"			"Weapon_Mp5_MW.Magout"
+				"magin"				"Weapon_Mp5_MW.Magin"
+				"boltback"			"Weapon_Mp5_MW.Boltback"
+				"magoutempty"		"Weapon_Mp5_MW.Empty.Magout"
+				"maginempty"		"Weapon_Mp5_MW.Empty.Magin"
 			}
 			"particles"
 			{
@@ -564,7 +598,15 @@
 			}
 			"sounds"
 			{
-
+				"boltback"		"Weapon_Mp7_MW.Boltback"
+				"boltrelease"	"Weapon_Mp7_MW.Boltrelease"
+				"empty"			"Weapon_Mp7_MW.Empty"
+				"rof"			"Weapon_Mp7_MW.ROF"
+				"magrelease"	"Weapon_Mp7_MW.MagRelease"
+				"magout"		"Weapon_Mp7_MW.Magout"
+				"magin"			"Weapon_Mp7_MW.Magin"
+				"magoutempty"	"Weapon_Mp7_MW.Empty.Magout"
+				"maginempty"	"Weapon_Mp7_MW.Empty.Magin"
 			}
 			"particles"
 			{
@@ -641,7 +683,16 @@
 			}
 			"sounds"
 			{
-				
+				"boltback"		"Weapon_p90.Boltback"
+				"boltrelease"	"Weapon_p90.Boltrelease"
+				"magrelease"	""Weapon_p90.MagRelease""
+				"magout"		"Weapon_p90.Magout"
+				"magin"			"Weapon_p90.Magin"
+				"maghit"		"Weapon_p90.MagHit"
+				"empty"			"Weapon_p90.Empty"
+				"rof"			"Weapon_p90.ROF"
+				"magoutempty"	"Weapon_p90.Empty.Magout"
+				"maginempty"	"Weapon_p90.Empty.Magin"
 			}
 			"particles"
 			{
@@ -808,7 +859,16 @@
 			}
 			"sounds"
 			{
-
+				"boltlock"		"Weapon_Fennec.Boltlock"
+				"boltrelease"	"Weapon_Fennec.Boltrelease"
+				"empty"			"Weapon_Fennec.Empty"
+				"rof"			"Weapon_Fennec.ROF"
+				"magrelease"	"Weapon_Fennec.MagRelease"
+				"magout"		"Weapon_Fennec.Magout"
+				"magin"			"Weapon_Fennec.Magin"
+				"boltback"		"Weapon_Fennec.Boltback"
+				"maginempty"	"Weapon_Fennec.Empty.Magin"
+				"magoutempty"	"Weapon_Fennec.Empty.Magout"
 			}
 			"particles"
 			{
@@ -965,7 +1025,15 @@
 			}
 			"sounds"
 			{
-
+				"rof"		"Weapon_SKS_MW.ROF"
+				"boltback"	"Weapon_SKS_MW.Boltback"
+				"boltrelease"	"Weapon_SKS_MW.Boltrelease"
+				"empty"		"Weapon_SKS_MW.Empty"
+				"magrelease"	"Weapon_SKS_MW.Magrelease"
+				"magout"		"Weapon_SKS_MW.Magout"
+				"magin"			"Weapon_SKS_MW.Magin"
+				"magoutempty"	"Weapon_SKS_MW.Empty.Magout"
+				"maginempty"	"Weapon_SKS_MW.Empty.Magin"
 			}
 			"particles"
 			{
@@ -1011,6 +1079,101 @@
 				"position"					"28 -6 2.5"
 			}
 			"team_access"	"security, insurgent"
+		}
+		
+		"weapon_ax50"
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"sniper_rifle"
+			"weapon_cost"				"0"
+			"print_name"				"#weapon_ax50"
+			"print_desc"				"#weapon_ax50_desc"
+			"view_model"				"models/weapons/v_ax50.mdl"
+			"world_model"				"models/weapons/w_ax50.mdl"
+			"fire_cycle"				"0.2"
+			"closed_bolt"				"0"
+			"weapon_slot"				"primary"
+			"act_table"					"bolt"
+			"dual_magazines"			"0"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"0"
+			"barrel_length"				"38"
+			"class_restricted"			"0"
+			
+			"viewmodel_attachments"
+			{
+				
+			}
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-20"
+				"fov_plr_focus"				"-10"
+				"fov_wpn_default"			"65"
+				"fov_wpn_ironsight"			"70"
+				"fov_wpn_focus"				"67"
+			}
+			
+			"sounds"
+			{
+		
+			}
+			
+			"particles"
+			{
+				"particle_muzzleflash_1st"	"muzzleflash_sks_1p"
+				"particle_muzzleflash_3rd"	"muzzleflash_sks_3rd"
+				"particle_tracer"			"weapon_tracers_green"
+			}
+			
+			"recoil"
+			{
+				"recoil_lateral_range"		"-2.2 3.4"
+				"recoil_vertical_range"		"5.5 6.4"
+				"recoil_aim_punch"			"0.8 0.95"
+				"recoil_rest_rate"			"12"
+				"recoil_rest_delay"			"0.05"
+				"recoil_roll_range"			"-5 -5"
+				"recoil_roll_rest_rate"		"70"
+			}
+			
+			"ballistics"
+			{
+				"spread"					"0.05 0.05 0.05"
+				"FireModes"					"bolt"
+				"bulletcount"				"1"
+				"maxrange"					"20000"
+				"singleReload"				"0"
+				"dual_magazines"			"0"
+			}
+			
+			"sway"
+			{
+				"sway_radius_ironsight_frac"	"0.40"
+				"sway_amount_focus_frac"		"0.40"
+				"sway_speed_ironsight_frac"		"0.40"
+				"sway_speed_focus_frac"			"0.25"
+			}
+			
+			"ammo_clip"
+			{
+				"ammo_type"					"ax50_ammo"
+				"clip_max"					"55"
+				"clip_max_rounds"			"5"
+				"clip_default"				"55"
+			}
+			
+			"attachments"
+			{
+				"attachment_addon"			"Primary2"
+			}
+			
+			"kitui_offset"
+			{
+				"position"					"23 -3 2"
+			}		
+			
+			"team_access"					"security, insurgent"
 		}
 	}
 }

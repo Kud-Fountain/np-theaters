@@ -48,6 +48,41 @@
 			"carry"					"0"
 		}
 		
-		
+		"kilo141_ammo"
+		{
+			"brass_model"				"models/weapons/shells/556x45.mdl"
+			"carry"					"12"
+			"magsize"				"30"
+			"SuppressionIncrement"			"50"
+			
+			"Damage"
+			{
+				"10"					"75"
+				"8000"					"30"
+			}
+			
+			"PenetrationPower"
+			{
+				"10"					"800"
+				"8000"					"200"
+			}
+
+			"PenetrationDamage"
+			{
+				"10"						"1.0"
+				"8000"						"0.25"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.25"
+				"HITGROUP_CHEST"      "1.15"
+				"HITGROUP_STOMACH"    "1.15"
+				"HITGROUP_LEFTARM"    "0.55"
+				"HITGROUP_RIGHTARM"   "0.55"
+				"HITGROUP_LEFTLEG"    "0.55"
+				"HITGROUP_RIGHTLEG"   "0.55"
+			}
+		}
 	}
 }
