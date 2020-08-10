@@ -1,0 +1,841 @@
+//.50 GS
+
+"Weapon_GE50.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+	"wave"	        ")reloads/iw8_decho/weap_decho_fire_npc_01.wav"	
+	"wave"	        ")reloads/iw8_decho/weap_decho_fire_npc_02.wav"
+	"wave"	        ")reloads/iw8_decho/weap_decho_fire_npc_03.wav"
+	"wave"	        ")reloads/iw8_decho/weap_decho_fire_npc_04.wav"
+	"wave"	        ")reloads/iw8_decho/weap_decho_fire_npc_05.wav"
+	"wave"	        ")reloads/iw8_decho/weap_decho_fire_npc_06.wav"
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_GE50.SingleDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                  "volume_accumulate"
+                        {
+                               "input3" "0.7"
+                        }
+
+		}
+	}
+
+}
+
+"Weapon_GE50.SingleDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_110dB"
+	"rndwave"
+	{
+	"wave"			")reloads/iw8_decho/weap_decho_fire_npc_dist_01.wav"
+	"wave"			")reloads/iw8_decho/weap_decho_fire_npc_dist_02.wav"
+	"wave"			")reloads/iw8_decho/weap_decho_fire_npc_dist_03.wav"
+	"wave"			")reloads/iw8_decho/weap_decho_fire_npc_dist_04.wav"
+	"wave"			")reloads/iw8_decho/weap_decho_fire_npc_dist_05.wav"
+	"wave"			")reloads/iw8_decho/weap_decho_fire_npc_dist_06.wav"
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+}
+} 
+}
+
+"Weapon_GE50.SingleLocal"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"	    "1.0"
+	"pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"rndwave"
+	{
+    "wave"	        "reloads/iw8_decho/weap_decho_fire_plr_01.wav"	
+	"wave"	        "reloads/iw8_decho/weap_decho_fire_plr_02.wav"
+	"wave"	        "reloads/iw8_decho/weap_decho_fire_plr_03.wav"
+	"wave"	        "reloads/iw8_decho/weap_decho_fire_plr_04.wav"
+	"wave"	        "reloads/iw8_decho/weap_decho_fire_plr_05.wav"
+	"wave"	        "reloads/iw8_decho/weap_decho_fire_plr_06.wav"
+	}
+}
+
+"Weapon_GE50.SingleSilenced"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_90dB"
+	"rndwave"
+	{
+	"wave"	        ")reloads/iw8_decho/weap_decho_sup_npc_01.wav"
+	"wave"	        ")reloads/iw8_decho/weap_decho_sup_npc_02.wav"
+	"wave"	        ")reloads/iw8_decho/weap_decho_sup_npc_03.wav"
+	"wave"	        ")reloads/iw8_decho/weap_decho_sup_npc_04.wav"
+	"wave"	        ")reloads/iw8_decho/weap_decho_sup_npc_05.wav"
+	"wave"	        ")reloads/iw8_decho/weap_decho_sup_npc_06.wav"
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_GE50.SingleSilencedDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+		"volume_xfade_start_dist"
+		{
+			"input2" "100"
+		}	
+		"volume_xfade_end_dist"
+		{
+			"input2" "1200"
+		}	
+
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                        "volume_accumulate"
+                        {
+                               "input3" "0.7"
+                        }
+
+		}
+	}
+
+}
+
+"Weapon_GE50.SingleSilencedDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_94dB"
+	"wave"			"weapons/universal/null.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+}
+} 
+}
+
+
+
+"Weapon_GE50.SingleSilencedLocal"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"rndwave"
+	{
+	"wave"			"reloads/iw8_decho/weap_decho_sup_plr_01.wav"
+	"wave"			"reloads/iw8_decho/weap_decho_sup_plr_02.wav"
+	"wave"			"reloads/iw8_decho/weap_decho_sup_plr_03.wav"
+	"wave"			"reloads/iw8_decho/weap_decho_sup_plr_04.wav"
+	"wave"			"reloads/iw8_decho/weap_decho_sup_plr_05.wav"
+	"wave"			"reloads/iw8_decho/weap_decho_sup_plr_06.wav"	
+	}
+}
+
+"Weapon_GE50.Magrelease"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"reloads/iw8_decho/wfoly_pi_decho_reload_empty_shake.wav" 
+}
+
+"Weapon_GE50.Magout"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"reloads/iw8_decho/wfoly_pi_decho_reload_magout_01.wav" 
+}
+
+"Weapon_GE50.Magin"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"reloads/iw8_decho/wfoly_pi_decho_reload_empty_magin_01.wav" 
+}
+
+"Weapon_GE50.Empty.Magout"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"reloads/iw8_decho/wfoly_pi_decho_reload_empty_magout_01.wav" 
+}
+
+"Weapon_GE50.Empty.Magin"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"reloads/iw8_decho/wfoly_pi_decho_reload_magin_01.wav" 
+}
+
+"Weapon_GE50.MagHit"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"reloads/iw8_decho/wfoly_pi_decho_reload_empty_mvmnt.wav" 
+}
+
+"Weapon_GE50.Boltrelease"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"reloads/iw8_decho/wfoly_pi_decho_reload_empty_charge_01.wav" 
+}
+
+//M16&M4
+
+"Weapon_M16_M4.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_M16_M4.SingleDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                  "volume_accumulate"
+                        {
+                               "input3" "0.7"
+                        }
+
+		}
+	}
+
+}
+
+"Weapon_M16_M4.SingleDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_110dB"
+	"rndwave"
+	{
+
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+}
+} 
+}
+
+"Weapon_M16_M4.SingleLocal"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"	    "1.0"
+	"pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"rndwave"
+	{
+    "wave"	        "reloads/iw8_mike4/weap_mike4_fire_plr_01.wav"	
+	"wave"	        "reloads/iw8_mike4/weap_mike4_fire_plr_02.wav"	
+	"wave"	        "reloads/iw8_mike4/weap_mike4_fire_plr_03.wav"	
+	"wave"	        "reloads/iw8_mike4/weap_mike4_fire_plr_04.wav"	
+	"wave"	        "reloads/iw8_mike4/weap_mike4_fire_plr_05.wav"	
+	"wave"	        "reloads/iw8_mike4/weap_mike4_fire_plr_06.wav"	
+	}
+}
+
+"Weapon_M16_M4.SingleSilenced"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_90dB"
+	"rndwave"
+	{
+	"wave"	        ""	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_M16A4.SingleSilencedDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+		"volume_xfade_start_dist"
+		{
+			"input2" "100"
+		}	
+		"volume_xfade_end_dist"
+		{
+			"input2" "1200"
+		}	
+
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                        "volume_accumulate"
+                        {
+                               "input3" "0.7"
+                        }
+
+		}
+	}
+
+}
+
+"Weapon_M16_M4.SingleSilencedDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_94dB"
+	"wave"			"weapons/universal/null.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+}
+} 
+}
+
+"Weapon_M16_M4.SingleSilencedLocal"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"			""	
+}
+
+"Weapon_M16_M4.Boltback"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"" 
+}
+
+"Weapon_M16_M4.Boltrelease"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"" 
+}
+
+"Weapon_M16_M4.Empty"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			""  
+}
+
+"Weapon_M16_M4.ROF"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"			"foley/selector/weap_ar_mike4_selector_off.wav"  
+	"wave"			"foley/selector/weap_ar_mike4_selector_on.wav"
+	}
+}
+
+"Weapon_M16_M4.MagHitrelease"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"" 
+}
+
+"Weapon_M16_M4.Magin"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"" 
+}
+
+"Weapon_M16_M4.Magout"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"foley/wpfoly_mike4_reload_magout_v2.wav" 
+}
+
+"Weapon_M16_M4.Empty.Magin"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"" 
+}
+
+"Weapon_M16_M4.Empty.Magout"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"foley/wpfoly_mike4_reload_empty_magout_v2.wav" 
+}
+
+//MP5
+
+"Weapon_MP5_MW.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_MP5_MW.SingleDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                  "volume_accumulate"
+                        {
+                               "input3" "0.7"
+                        }
+
+		}
+	}
+
+}
+
+"Weapon_MP5_MW.SingleDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_110dB"
+	"wave"			""
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+}
+} 
+}
+
+"Weapon_MP5_MW.SingleLocal"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"	    "1.0"
+	"pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+    "rndwave"
+	{
+	"wave"	        ")weapons/iw8_mpapa5/weap_mpapa5_fire_plr_01.wav"
+	"wave"	        ")weapons/iw8_mpapa5/weap_mpapa5_fire_plr_02.wav"
+	"wave"	        ")weapons/iw8_mpapa5/weap_mpapa5_fire_plr_03.wav"
+	"wave"	        ")weapons/iw8_mpapa5/weap_mpapa5_fire_plr_04.wav"
+	"wave"	        ")weapons/iw8_mpapa5/weap_mpapa5_fire_plr_05.wav"
+	"wave"	        ")weapons/iw8_mpapa5/weap_mpapa5_fire_plr_06.wav"
+	}	
+}
+
+"Weapon_MP5_MW.SingleSilenced"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_90dB"
+	"rndwave"
+	{
+	"wave"	        ""	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_MP5_MW.SingleSilencedDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+		"volume_xfade_start_dist"
+		{
+			"input2" "100"
+		}	
+		"volume_xfade_end_dist"
+		{
+			"input2" "1200"
+		}	
+
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                        "volume_accumulate"
+                        {
+                               "input3" "0.7"
+                        }
+
+		}
+	}
+
+}
+
+"Weapon_MP5_MW.SingleSilencedDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_94dB"
+	"wave"			"weapons/universal/null.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+}
+} 
+}
+
+"Weapon_MP5_MW.SingleSilencedLocal"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"rndwave"
+	{
+	"wave"			"weapons/iw8_mpapa5/weap_mpapa5_sup_fire_plr_01.wav"
+	"wave"			"weapons/iw8_mpapa5/weap_mpapa5_sup_fire_plr_02.wav"
+	"wave"			"weapons/iw8_mpapa5/weap_mpapa5_sup_fire_plr_03.wav"
+	"wave"			"weapons/iw8_mpapa5/weap_mpapa5_sup_fire_plr_04.wav"
+	"wave"			"weapons/iw8_mpapa5/weap_mpapa5_sup_fire_plr_05.wav"
+	"wave"			"weapons/iw8_mpapa5/weap_mpapa5_sup_fire_plr_06.wav"
+	}
+}
+
+"Weapon_MP5_MW.Boltlock"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"" 
+}
+
+"Weapon_MP5_MW.Boltrelease"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"reloads/iw8_mpapa5/wfoly_pi_mpapa5_reload_empty_fast_boltclose_01.wav"  
+}
+
+"Weapon_MP5_MW.Empty"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			""  
+}
+
+"Weapon_MP5_MW.ROF"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"			"foley/selector/weap_sm_mpapa5_selector_off.wav"  
+	"wave"			"foley/selector/weap_sm_mpapa5_selector_on.wav"
+	}
+}
+
+"Weapon_MP5_MW.MagRelease"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			    "" 
+}
+
+"Weapon_MP5_MW.Magin"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.4"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"reloads/iw8_mpapa5/wfoly_sm_mpapa5_reload_fast_magin_01.wav" 
+}
+
+"Weapon_MP5_MW.Magout"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.4"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"reloads/iw8_mpapa5/wfoly_pi_mpapa5_reload_magout_01.wav" 
+}
+
+"Weapon_MP5_MW.Empty.Magin"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.4"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"reloads/iw8_mpapa5/wfoly_pi_mpapa5_reload_empty_fast_magin_01.wav" 
+}
+
+"Weapon_MP5_MW.Empty.Magout"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.4"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"reloads/iw8_mpapa5/wfoly_pi_mpapa5_reload_empty_magout_01.wav" 
+}
+
+"Weapon_MP5_MW.Boltback"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"reloads/iw8_mpapa5/wfoly_pi_mpapa5_reload_empty_fast_boltopen_01.wav" 
+}

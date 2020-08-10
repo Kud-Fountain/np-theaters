@@ -189,6 +189,10 @@
 			}
 			"sounds"
 			{
+				"shot_single"		"Weapon_GE50.Single"
+				"shot_single_local"	"Weapon_GE50.SingleLocal"
+				"shot_silent"		"Weapon_GE50.SingleSilenced"
+				"shot_silent_local"	"Weapon_GE50.SingleSilencedLocal"
 				"magrelease"		"Weapon_GE50.Magrelease"
 				"empty"				"Weapon_GE50.Empty"
 				"magout"			"Weapon_GE50.Magout"
@@ -280,7 +284,7 @@
 				
 				"raresight"
 				{
-					"model"		"models/weapons/upgrades/a_rearsight_m16_m4.mdl"
+					"model"		"models/weapons/upgrades/a_rearsight_m16.mdl"
 					"fallback_for_slot"			"optics"
 				}
 				
@@ -288,6 +292,12 @@
 				{
 					"model"		"models/weapons/upgrades/a_frontsight_m16_m4.mdl"
 					"fallback_for_slot"			"optics"
+				}
+				
+				"muzzle"
+				{
+					"model"		"models/weapons/upgrades/a_muzzle_m16.mdl"
+					"fallback_for_slot"			"muzzle"		
 				}
 			}
 			"world_attachments"
@@ -302,6 +312,30 @@
 				{
 					"model"		"models/weapons/upgrades/w_barrel_m16.mdl"
 					"fallback_for_slot"			"barrel"
+				}
+				
+				"magazine"
+				{
+					"model"		"models/weapons/upgrades/w_mag_ar.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+				
+				"muzzle"
+				{
+					"model"		"models/weapons/upgrades/w_muzzle_ar.mdl"
+					"fallback_for_slot"			"muzzle"
+				}
+				
+				"frontsight"
+				{
+					"model"		"models/weapons/upgrades/w_frontsight_ar.mdl"
+					"fallback_for_slot"			"optics"
+				}
+				
+				"raresight"
+				{
+					"model"		"models/weapons/upgrades/w_rearsight_m16.mdl"
+					"fallback_for_slot"			"optics"
 				}
 			}
 			"fov"
@@ -320,6 +354,10 @@
 			}
 			"sounds"
 			{
+				"shot_single"		"Weapon_M16_M4.Single"
+				"shot_single_local"	"Weapon_M16_M4.SingleLocal"
+				"shot_silent"		"Weapon_M16_M4.SingleSilenced"
+				"shot_silent_local"	"Weapon_M16_M4.SingleSilencedLocal"
 				"boltback"				"Weapon_M16_M4.Boltback"
 				"boltrelease"			"Weapon_M16_M4.Boltrelease"
 				"hit"					"Weapon_M16_M4.Hit"
@@ -396,11 +434,79 @@
 			
 			"viewmodel_attachments"
 			{
-
+				"barrel"
+				{
+					"model"		"models/weapons/upgrades/a_barrel_m4.mdl"
+					"fallback_for_slot"			"barrel"
+				}
+				
+				"muzzle"
+				{
+					"model"		"models/weapons/upgrades/a_muzzle_m4.mdl"
+					"fallback_for_slot"			"muzzle"
+				}
+				
+				"stock"
+				{
+					"model"		"models/weapons/upgrades/a_stock_m4.mdl"
+					"fallback_for_slot"			"stock"
+				}
+				
+				"magazine"
+				{
+					"model"		"models/weapons/upgrades/a_mag_30_m16_m4.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+				
+				"raresight"
+				{
+					"model"		"models/weapons/upgrades/a_rearsight_m16_m4.mdl"
+					"fallback_for_slot"			"optics"
+				}
+				
+				"frontsight"
+				{
+					"model"		"models/weapons/upgrades/a_frontsight_m16_m4.mdl"
+					"fallback_for_slot"			"optics"
+				}
 			}
 			"world_attachments"
 			{
-
+				"stock"
+				{
+					"model"		"models/weapons/upgrades/w_stock_m4.mdl"
+					"fallback_for_slot"			"stock"
+				}
+				
+				"barrel"
+				{
+					"model"		"models/weapons/upgrades/w_barrel_m4.mdl"
+					"fallback_for_slot"			"barrel"
+				}
+				
+				"magazine"
+				{
+					"model"		"models/weapons/upgrades/w_mag_ar.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+				
+				"muzzle"
+				{
+					"model"		"models/weapons/upgrades/w_muzzle_ar.mdl"
+					"fallback_for_slot"			"muzzle"
+				}
+				
+				"frontsight"
+				{
+					"model"		"models/weapons/upgrades/w_frontsight_ar.mdl"
+					"fallback_for_slot"			"optics"
+				}
+				
+				"raresight"
+				{
+					"model"		"models/weapons/upgrades/w_rearsight_ar.mdl"
+					"fallback_for_slot"			"optics"
+				}
 			}
 			"fov"
 			{
@@ -418,16 +524,20 @@
 			}
 			"sounds"
 			{
-				"rof"				"Weapon_M4_MW.ROF"
-				"magrelease"		"Weapon_M4_MW.Magrelease"
-				"magout"			"Weapon_M4_MW.Magout"
-				"magin"				"Weapon_M4_MW.Magin"
-				"hit"				"Weapon_M4_MW.Hit"
-				"boltrelease"		"Weapon_M4_MW.Boltrelease"
-				"empty"				"Weapon_M4_MW.Empty"
-				"boltback"			"Weapon_M4_MW.Boltback"
-				"magoutempty"		"Weapon_M4_MW.Empty.Magout"
-				"maginempty"		"Weapon_M4_MW.Empty.Magin"
+				"shot_single"		"Weapon_M16_M4.Single"
+				"shot_single_local"	"Weapon_M16_M4.SingleLocal"
+				"shot_silent"		"Weapon_M16_M4.SingleSilenced"
+				"shot_silent_local"	"Weapon_M16_M4.SingleSilencedLocal"
+				"boltback"				"Weapon_M16_M4.Boltback"
+				"boltrelease"			"Weapon_M16_M4.Boltrelease"
+				"hit"					"Weapon_M16_M4.Hit"
+				"empty"					"Weapon_M16_M4.Empty"
+				"rof"					"Weapon_M16_M4.ROF"
+				"magrelease"			"Weapon_M16_M4.Magrelease"
+				"magout"				"Weapon_M16_M4.Magout"
+				"magin"					"Weapon_M16_M4.Magin"
+				"magoutempty"			"Weapon_M16_M4.Empty.Magout"
+				"maginempty"			"Weapon_M16_M4.Empty.Magin"
 			}
 			"particles"
 			{
@@ -495,11 +605,39 @@
 			
 			"viewmodel_attachments"
 			{
-
+				"magazine"
+				{
+					"model"		"models/weapons/upgrades/a_mag_mp5_30.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+				"handguard"
+				{
+					"model"		"models/weapons/upgrades/a_handguard_mp5.mdl"
+					"fallback_for_slot"			"underbarrel"
+				}
+				"stock"
+				{
+					"model"		"models/weapons/upgrades/a_stock_mp5.mdl"
+					"fallback_for_slot"			"stock"
+				}
 			}
 			"world_attachments"
 			{
-
+				"magazine"
+				{
+					"model"		"models/weapons/upgrades/w_mag_mp5_30.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+				"handguard"
+				{
+					"model"		"models/weapons/upgrades/w_handguard_mp5.mdl"
+					"fallback_for_slot"			"underbarrel"
+				}
+				"stock"
+				{
+					"model"		"models/weapons/upgrades/w_stock_mp5.mdl"
+					"fallback_for_slot"			"stock"
+				}
 			}
 
 			"fov"
@@ -513,6 +651,10 @@
 			}
 			"sounds"
 			{
+				"shot_single"		"Weapon_Mp5_MW.Single"
+				"shot_single_local"	"Weapon_Mp5_MW.SingleLocal"
+				"shot_silent"		"Weapon_Mp5_MW.SingleSilenced"
+				"shot_silent_local"	"Weapon_Mp5_MW.SingleSilencedLocal"
 				"boltlock"			"Weapon_Mp5_MW.Boltlock"
 				"boltrelease"		"Weapon_Mp5_MW.Boltrelease"
 				"empty"				"Weapon_Mp5_MW.Empty"
@@ -587,6 +729,59 @@
 			"weapon_cost"				"0"
 			"class_restricted"			"0"
 			"barrel_length"				"16"
+			
+			"viewmodel_attachments"
+			{
+				"magazine"
+				{
+					"model" 	"models/weapons/upgrades/a_mag_mp7_40.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+				
+				"stock"
+				{
+					"model" 	"models/weapons/upgrades/a_stock_mp7.mdl"
+					"fallback_for_slot"			"stock"
+				}
+				
+				"optics"
+				{
+					"model" 	"models/weapons/upgrades/a_sight_mp7.mdl"
+					"fallback_for_slot"			"optics"
+				}
+				
+				"muzzle"
+				{
+					"model" 	"models/weapons/upgrades/a_muzzle_mp7.mdl"
+					"fallback_for_slot"			"muzzle"
+				}
+			}
+			"world_attachments"
+			{
+				"magazine"
+				{
+					"model" 	"models/weapons/upgrades/w_mag_mp7_40.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+				
+				"stock"
+				{
+					"model" 	"models/weapons/upgrades/w_stock_mp7.mdl"
+					"fallback_for_slot"			"stock"
+				}
+				
+				"optics"
+				{
+					"model" 	"models/weapons/upgrades/w_sight_mp7.mdl"
+					"fallback_for_slot"			"optics"
+				}
+				
+				"muzzle"
+				{
+					"model" 	"models/weapons/upgrades/w_muzzle_mp7.mdl"
+					"fallback_for_slot"			"muzzle"
+				}
+			}
 
 			"fov"
 			{
@@ -640,7 +835,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"				"mp7_ammo"	//
+				"ammo_type"				"mp7_ammo"
 				"clip_max"				"13"
 				"clip_max_rounds"		"40"
 				"clip_default"			"0"
@@ -673,6 +868,42 @@
 			"class_restricted"			"0"
 			"barrel_length"				"16"
 
+			"viewmodel_attachments"
+			{
+				"stock"
+				{
+					"model"		"models/weapons/upgrades/a_stock_p90.mdl"
+					"fallback_for_slot"			"stock"
+				}
+				"muzzle"
+				{
+					"model"		"models/weapons/upgrades/a_muzzle_p90.mdl"
+					"fallback_for_slot"			"muzzle"
+				}
+				"sights"
+				{
+					"model"		"models/weapons/upgrades/a_sights_p90.mdl"
+					"fallback_for_slot"			"sights"
+				}
+			}
+			"world_attachments"
+			{
+				"stock"
+				{
+					"model"		"models/weapons/upgrades/w_stock_p90.mdl"
+					"fallback_for_slot"			"stock"
+				}
+				"muzzle"
+				{
+					"model"		"models/weapons/upgrades/w_muzzle_p90.mdl"
+					"fallback_for_slot"			"muzzle"
+				}
+				"sights"
+				{
+					"model"		"models/weapons/upgrades/w_sights_p90.mdl"
+					"fallback_for_slot"			"sights"
+				}
+			}
 			"fov"
 			{
 				"fov_plr_ironsight"			"-25"
@@ -760,12 +991,41 @@
 			
 			"viewmodel_attachments"
 			{
-
+				"magazine"
+				{
+					"model"		"models/weapons/upgrades/a_mag_25_aug.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+				"stock"
+				{
+					"model"		"models/weapons/upgrades/a_stock_aug.mdl"
+					"fallback_for_slot"			"stock"
+				}
+				"muzzle"
+				{
+					"model"		"models/weapons/upgrades/a_muzzle_aug.mdl"
+					"fallback_for_slot"			"muzzle"
+				}
 			}
 			"world_attachments"
 			{
-
+				"magazine"
+				{
+					"model"		"models/weapons/upgrades/w_mag_25_aug.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+				"stock"
+				{
+					"model"		"models/weapons/upgrades/w_stock_aug.mdl"
+					"fallback_for_slot"			"stock"
+				}
+				"muzzle"
+				{
+					"model"		"models/weapons/upgrades/w_muzzle_aug.mdl"
+					"fallback_for_slot"			"muzzle"
+				}
 			}
+
 			"fov"
 			{
 				"fov_plr_ironsight"			"-25"
@@ -847,6 +1107,53 @@
 			"weapon_cost"					"0"
 			"barrel_length"					"12"
 			"class_restricted"				"0"
+
+			"viewmodel_attachments"
+			{
+				"magazine"
+				{
+					"model"		"models/weapons/upgrades/a_mag_25_vector.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+				"stock"
+				{
+					"model"		"models/weapons/upgrades/a_stock_vector.mdl"
+					"fallback_for_slot"			"stock"
+				}
+				"muzzle"
+				{
+					"model"		"models/weapons/upgrades/a_muzzle_vector.mdl"
+					"fallback_for_slot"			"muzzle"
+				}
+				"sights"
+				{
+					"model"		"models/weapons/upgrades/a_sights_vector.mdl"
+					"fallback_for_slot"			"sights"
+				}
+			}
+			"world_attachments"
+			{
+				"magazine"
+				{
+					"model"		"models/weapons/upgrades/w_mag_25_vector.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+				"stock"
+				{
+					"model"		"models/weapons/upgrades/w_stock_vector.mdl"
+					"fallback_for_slot"			"stock"
+				}
+				"muzzle"
+				{
+					"model"		"models/weapons/upgrades/w_muzzle_vector.mdl"
+					"fallback_for_slot"			"muzzle"
+				}
+				"sights"
+				{
+					"model"		"models/weapons/upgrades/w_sights_vector.mdl"
+					"fallback_for_slot"			"sights"
+				}
+			}
 
 			"fov"
 			{
@@ -934,6 +1241,32 @@
 			"weapon_weight"					"0" 
 			"barrel_length"					"49"
 
+			"viewmodel_attachments"
+			{
+				"stock"
+				{
+					"model"		"models/weapons/upgrades/a_stock_barrett.mdl"
+					"fallback_for_slot"			"stock"
+				}
+				"muzzle"
+				{
+					"model"		"models/weapons/upgrades/a_muzzle_barrett.mdl"
+					"fallback_for_slot"			"muzzle"
+				}
+			}
+			"world_attachments"
+			{
+				"stock"
+				{
+					"model"		"models/weapons/upgrades/w_stock_barrett.mdl"
+					"fallback_for_slot"			"stock"
+				}
+				"muzzle"
+				{
+					"model"		"models/weapons/upgrades/w_muzzle_barrett.mdl"
+					"fallback_for_slot"			"muzzle"
+				}
+			}
 			"fov"
 			{
 				"fov_plr_ironsight"			"-25"
@@ -1014,6 +1347,43 @@
 			"weapon_cost"					"0"
 			"barrel_length"					"22"
 			
+			"viewmodel_attachments"
+			{
+				"magazine"
+				{
+					"model"		"models/weapons/upgrades/a_mag_20_sks.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+				"stock"
+				{
+					"model"		"models/weapons/upgrades/a_stock_sks.mdl"
+					"fallback_for_slot"			"stock"
+				}
+				"muzzle"
+				{
+					"model"		"models/weapons/upgrades/a_muzzle_sks.mdl"
+					"fallback_for_slot"			"muzzle"
+				}
+			}
+			"world_attachments"
+			{
+				"magazine"
+				{
+					"model"		"models/weapons/upgrades/w_mag_20_sks.mdl"
+					"fallback_for_slot"			"magazine"
+				}
+				"stock"
+				{
+					"model"		"models/weapons/upgrades/w_stock_sks.mdl"
+					"fallback_for_slot"			"stock"
+				}
+				"muzzle"
+				{
+					"model"		"models/weapons/upgrades/w_muzzle_sks.mdl"
+					"fallback_for_slot"			"muzzle"
+				}
+			}
+
 			"fov"
 			{
 				"fov_plr_ironsight"			"-25"
