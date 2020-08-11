@@ -793,6 +793,10 @@
 			}
 			"sounds"
 			{
+				"shot_single"		"Weapon_Mp7_MW.Single"
+				"shot_single_local"	"Weapon_Mp7_MW.SingleLocal"
+				"shot_silent"		"Weapon_Mp7_MW.SingleSilenced"
+				"shot_silent_local"	"Weapon_Mp7_MW.SingleSilencedLocal"
 				"boltback"		"Weapon_Mp7_MW.Boltback"
 				"boltrelease"	"Weapon_Mp7_MW.Boltrelease"
 				"empty"			"Weapon_Mp7_MW.Empty"
@@ -914,6 +918,10 @@
 			}
 			"sounds"
 			{
+				"shot_single"		"Weapon_p90.Single"
+				"shot_single_local"	"Weapon_p90.SingleLocal"
+				"shot_silent"		"Weapon_p90.SingleSilenced"
+				"shot_silent_local"	"Weapon_p90.SingleSilencedLocal"
 				"boltback"		"Weapon_p90.Boltback"
 				"boltrelease"	"Weapon_p90.Boltrelease"
 				"magrelease"	""Weapon_p90.MagRelease""
@@ -1166,6 +1174,10 @@
 			}
 			"sounds"
 			{
+				"shot_single"		"Weapon_Fennec.Single"
+				"shot_single_local"	"Weapon_Fennec.SingleLocal"
+				"shot_silent"		"Weapon_Fennec.SingleSilenced"
+				"shot_silent_local"	"Weapon_Fennec.SingleSilencedLocal"
 				"boltlock"		"Weapon_Fennec.Boltlock"
 				"boltrelease"	"Weapon_Fennec.Boltrelease"
 				"empty"			"Weapon_Fennec.Empty"
@@ -1395,6 +1407,10 @@
 			}
 			"sounds"
 			{
+				"shot_single"		"Weapon_SKS_MW.Single"
+				"shot_single_local"	"Weapon_SKS_MW.SingleLocal"
+				"shot_silent"		"Weapon_SKS_MW.SingleSilenced"
+				"shot_silent_local"	"Weapon_SKS_MW.SingleSilencedLocal"
 				"rof"		"Weapon_SKS_MW.ROF"
 				"boltback"	"Weapon_SKS_MW.Boltback"
 				"boltrelease"	"Weapon_SKS_MW.Boltrelease"
