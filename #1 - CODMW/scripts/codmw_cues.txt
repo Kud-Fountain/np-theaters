@@ -8,12 +8,12 @@
 	"soundlevel"  	"SNDLVL_94dB "
 	"rndwave"
 	{
-	"wave"	        ")reloads/iw8_decho/weap_decho_fire_npc_01.wav"	
-	"wave"	        ")reloads/iw8_decho/weap_decho_fire_npc_02.wav"
-	"wave"	        ")reloads/iw8_decho/weap_decho_fire_npc_03.wav"
-	"wave"	        ")reloads/iw8_decho/weap_decho_fire_npc_04.wav"
-	"wave"	        ")reloads/iw8_decho/weap_decho_fire_npc_05.wav"
-	"wave"	        ")reloads/iw8_decho/weap_decho_fire_npc_06.wav"
+	"wave"	        ")weapons/iw8_decho/weap_decho_fire_npc_01.wav"	
+	"wave"	        ")weapons/iw8_decho/weap_decho_fire_npc_02.wav"
+	"wave"	        ")weapons/iw8_decho/weap_decho_fire_npc_03.wav"
+	"wave"	        ")weapons/iw8_decho/weap_decho_fire_npc_04.wav"
+	"wave"	        ")weapons/iw8_decho/weap_decho_fire_npc_05.wav"
+	"wave"	        ")weapons/iw8_decho/weap_decho_fire_npc_06.wav"
 	}
 	
 	"soundentry_version" "2"
@@ -61,12 +61,12 @@
 	"soundlevel"  	"SNDLVL_110dB"
 	"rndwave"
 	{
-	"wave"			")reloads/iw8_decho/weap_decho_fire_npc_dist_01.wav"
-	"wave"			")reloads/iw8_decho/weap_decho_fire_npc_dist_02.wav"
-	"wave"			")reloads/iw8_decho/weap_decho_fire_npc_dist_03.wav"
-	"wave"			")reloads/iw8_decho/weap_decho_fire_npc_dist_04.wav"
-	"wave"			")reloads/iw8_decho/weap_decho_fire_npc_dist_05.wav"
-	"wave"			")reloads/iw8_decho/weap_decho_fire_npc_dist_06.wav"
+	"wave"			")weapons/iw8_decho/weap_decho_fire_npc_dist_01.wav"
+	"wave"			")weapons/iw8_decho/weap_decho_fire_npc_dist_02.wav"
+	"wave"			")weapons/iw8_decho/weap_decho_fire_npc_dist_03.wav"
+	"wave"			")weapons/iw8_decho/weap_decho_fire_npc_dist_04.wav"
+	"wave"			")weapons/iw8_decho/weap_decho_fire_npc_dist_05.wav"
+	"wave"			")weapons/iw8_decho/weap_decho_fire_npc_dist_06.wav"
 	}
 	
 	"soundentry_version" "2"
@@ -96,12 +96,12 @@
     "soundlevel"	"SNDLVL_GUNFIRE"
 	"rndwave"
 	{
-    "wave"	        "reloads/iw8_decho/weap_decho_fire_plr_01.wav"	
-	"wave"	        "reloads/iw8_decho/weap_decho_fire_plr_02.wav"
-	"wave"	        "reloads/iw8_decho/weap_decho_fire_plr_03.wav"
-	"wave"	        "reloads/iw8_decho/weap_decho_fire_plr_04.wav"
-	"wave"	        "reloads/iw8_decho/weap_decho_fire_plr_05.wav"
-	"wave"	        "reloads/iw8_decho/weap_decho_fire_plr_06.wav"
+    "wave"	        "weapons/iw8_decho/weap_decho_fire_plr_01.wav"	
+	"wave"	        "weapons/iw8_decho/weap_decho_fire_plr_02.wav"
+	"wave"	        "weapons/iw8_decho/weap_decho_fire_plr_03.wav"
+	"wave"	        "weapons/iw8_decho/weap_decho_fire_plr_04.wav"
+	"wave"	        "weapons/iw8_decho/weap_decho_fire_plr_05.wav"
+	"wave"	        "weapons/iw8_decho/weap_decho_fire_plr_06.wav"
 	}
 }
 
@@ -113,12 +113,12 @@
 	"soundlevel"  	"SNDLVL_90dB"
 	"rndwave"
 	{
-	"wave"	        ")reloads/iw8_decho/weap_decho_sup_npc_01.wav"
-	"wave"	        ")reloads/iw8_decho/weap_decho_sup_npc_02.wav"
-	"wave"	        ")reloads/iw8_decho/weap_decho_sup_npc_03.wav"
-	"wave"	        ")reloads/iw8_decho/weap_decho_sup_npc_04.wav"
-	"wave"	        ")reloads/iw8_decho/weap_decho_sup_npc_05.wav"
-	"wave"	        ")reloads/iw8_decho/weap_decho_sup_npc_06.wav"
+	"wave"	        ")weapons/iw8_decho/weap_decho_sup_npc_01.wav"
+	"wave"	        ")weapons/iw8_decho/weap_decho_sup_npc_02.wav"
+	"wave"	        ")weapons/iw8_decho/weap_decho_sup_npc_03.wav"
+	"wave"	        ")weapons/iw8_decho/weap_decho_sup_npc_04.wav"
+	"wave"	        ")weapons/iw8_decho/weap_decho_sup_npc_05.wav"
+	"wave"	        ")weapons/iw8_decho/weap_decho_sup_npc_06.wav"
 	}
 	
 	"soundentry_version" "2"
@@ -204,13 +204,22 @@
     "soundlevel"	"SNDLVL_GUNFIRE"
 	"rndwave"
 	{
-	"wave"			"reloads/iw8_decho/weap_decho_sup_plr_01.wav"
-	"wave"			"reloads/iw8_decho/weap_decho_sup_plr_02.wav"
-	"wave"			"reloads/iw8_decho/weap_decho_sup_plr_03.wav"
-	"wave"			"reloads/iw8_decho/weap_decho_sup_plr_04.wav"
-	"wave"			"reloads/iw8_decho/weap_decho_sup_plr_05.wav"
-	"wave"			"reloads/iw8_decho/weap_decho_sup_plr_06.wav"	
+	"wave"			"weapons/iw8_decho/weap_decho_sup_plr_01.wav"
+	"wave"			"weapons/iw8_decho/weap_decho_sup_plr_02.wav"
+	"wave"			"weapons/iw8_decho/weap_decho_sup_plr_03.wav"
+	"wave"			"weapons/iw8_decho/weap_decho_sup_plr_04.wav"
+	"wave"			"weapons/iw8_decho/weap_decho_sup_plr_05.wav"
+	"wave"			"weapons/iw8_decho/weap_decho_sup_plr_06.wav"	
 	}
+}
+
+"Weapon_GE50.Empty"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/weap_dryfire_pistol.wav"  
 }
 
 "Weapon_GE50.Magrelease"
@@ -286,7 +295,12 @@
 	"soundlevel"  	"SNDLVL_94dB "
 	"rndwave"
 	{
-
+		"wave"	        ")weapons/iw8_mike4/weap_mike4_fire_npc_01.wav"	
+		"wave"	        ")weapons/iw8_mike4/weap_mike4_fire_npc_02.wav"
+		"wave"	        ")weapons/iw8_mike4/weap_mike4_fire_npc_03.wav"
+		"wave"	        ")weapons/iw8_mike4/weap_mike4_fire_npc_04.wav"
+		"wave"	        ")weapons/iw8_mike4/weap_mike4_fire_npc_05.wav"
+		"wave"	        ")weapons/iw8_mike4/weap_mike4_fire_npc_06.wav"
 	}
 	
 	"soundentry_version" "2"
@@ -334,7 +348,12 @@
 	"soundlevel"  	"SNDLVL_110dB"
 	"rndwave"
 	{
-
+		"wave"	        ")weapons/iw8_mike4/weap_mike4_fire_npc_dist_01.wav"	
+		"wave"	        ")weapons/iw8_mike4/weap_mike4_fire_npc_dist_02.wav"
+		"wave"	        ")weapons/iw8_mike4/weap_mike4_fire_npc_dist_03.wav"
+		"wave"	        ")weapons/iw8_mike4/weap_mike4_fire_npc_dist_04.wav"
+		"wave"	        ")weapons/iw8_mike4/weap_mike4_fire_npc_dist_05.wav"
+		"wave"	        ")weapons/iw8_mike4/weap_mike4_fire_npc_dist_06.wav"
 	}
 	
 	"soundentry_version" "2"
@@ -381,7 +400,12 @@
 	"soundlevel"  	"SNDLVL_90dB"
 	"rndwave"
 	{
-	"wave"	        ""	
+	"wave"	        "weapons/iw8_mike4/weap_mike4_sup_npc_01.wav"	
+	"wave"	        "weapons/iw8_mike4/weap_mike4_sup_npc_02.wav"
+	"wave"	        "weapons/iw8_mike4/weap_mike4_sup_npc_03.wav"
+	"wave"	        "weapons/iw8_mike4/weap_mike4_sup_npc_04.wav"
+	"wave"	        "weapons/iw8_mike4/weap_mike4_sup_npc_05.wav"
+	"wave"	        "weapons/iw8_mike4/weap_mike4_sup_npc_06.wav"	
 	}
 	
 	"soundentry_version" "2"
@@ -463,7 +487,15 @@
 	"volume"		"1.0"
 	"pitch"			"100,105"
     "soundlevel"	"SNDLVL_GUNFIRE"
-	"wave"			""	
+	"rndwave"
+	{
+	"wave"	        "weapons/iw8_mike4/weap_mike4_sup_plr_01.wav"	
+	"wave"	        "weapons/iw8_mike4/weap_mike4_sup_plr_02.wav"
+	"wave"	        "weapons/iw8_mike4/weap_mike4_sup_plr_03.wav"
+	"wave"	        "weapons/iw8_mike4/weap_mike4_sup_plr_04.wav"
+	"wave"	        "weapons/iw8_mike4/weap_mike4_sup_plr_05.wav"
+	"wave"	        "weapons/iw8_mike4/weap_mike4_sup_plr_06.wav"	
+	}
 }
 
 "Weapon_M16_M4.Boltback"
@@ -472,7 +504,7 @@
 	"volume"		    "0.3"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"foley/wpfoly_mike4_raise_first_01.wav" 
 }
 
 "Weapon_M16_M4.Boltrelease"
@@ -481,7 +513,16 @@
 	"volume"		    "0.3"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"weapons/universal/null.wav"  //same sequence as boltback
+}
+
+"Weapon_M16_M4.Hit"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/universal/null.wav"  //same sequence as boltback 
 }
 
 "Weapon_M16_M4.Empty"
@@ -490,7 +531,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			""  
+	"wave"			"weapons/weap_dryfire_rifle.wav"  
 }
 
 "Weapon_M16_M4.ROF"
@@ -506,13 +547,13 @@
 	}
 }
 
-"Weapon_M16_M4.MagHitrelease"
+"Weapon_M16_M4.Magrelease"
 {
 	"channel"			"CHAN_ITEM"
 	"volume"		    "0.3"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"weapons/universal/null.wav"  //same sequence as magout
 }
 
 "Weapon_M16_M4.Magin"
@@ -521,7 +562,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"foley/wpfoly_mike4_reload_magin_v2.wav" 
 }
 
 "Weapon_M16_M4.Magout"
@@ -539,7 +580,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"foley/wpfoly_mike4_reload_empty_magin_v2_02.wav" 
 }
 
 "Weapon_M16_M4.Empty.Magout"
@@ -561,7 +602,12 @@
 	"soundlevel"  	"SNDLVL_94dB "
 	"rndwave"
 	{
-
+		"wave"	        ")weapons/iw8_mpapa5/weap_mpapa5_fire_npc_01.wav"	
+		"wave"	        ")weapons/iw8_mpapa5/weap_mpapa5_fire_npc_02.wav"
+		"wave"	        ")weapons/iw8_mpapa5/weap_mpapa5_fire_npc_03.wav"
+		"wave"	        ")weapons/iw8_mpapa5/weap_mpapa5_fire_npc_04.wav"
+		"wave"	        ")weapons/iw8_mpapa5/weap_mpapa5_fire_npc_05.wav"
+		"wave"	        ")weapons/iw8_mpapa5/weap_mpapa5_fire_npc_06.wav"
 	}
 	
 	"soundentry_version" "2"
@@ -607,7 +653,15 @@
 	"volume"		"1.0"
 	"pitch"			"100,105"
 	"soundlevel"  	"SNDLVL_110dB"
-	"wave"			""
+	"rndwave"
+	{
+	"wave"			")weapons/iw8_mpapa5/weap_mpapa5_fire_npc_dist_01.wav"
+	"wave"			")weapons/iw8_mpapa5/weap_mpapa5_fire_npc_dist_02.wav"
+	"wave"			")weapons/iw8_mpapa5/weap_mpapa5_fire_npc_dist_03.wav"
+	"wave"			")weapons/iw8_mpapa5/weap_mpapa5_fire_npc_dist_04.wav"
+	"wave"			")weapons/iw8_mpapa5/weap_mpapa5_fire_npc_dist_05.wav"
+	"wave"			")weapons/iw8_mpapa5/weap_mpapa5_fire_npc_dist_06.wav"
+	}
 	
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -653,7 +707,12 @@
 	"soundlevel"  	"SNDLVL_90dB"
 	"rndwave"
 	{
-	"wave"	        ""	
+	"wave"	        ")weapons/iw8_mpapa5/weap_mpapa5_sup_npc_01.wav"
+	"wave"	        ")weapons/iw8_mpapa5/weap_mpapa5_sup_npc_02.wav"
+	"wave"	        ")weapons/iw8_mpapa5/weap_mpapa5_sup_npc_03.wav"
+	"wave"	        ")weapons/iw8_mpapa5/weap_mpapa5_sup_npc_04.wav"
+	"wave"	        ")weapons/iw8_mpapa5/weap_mpapa5_sup_npc_05.wav"
+	"wave"	        ")weapons/iw8_mpapa5/weap_mpapa5_sup_npc_06.wav"	
 	}
 	
 	"soundentry_version" "2"
@@ -752,7 +811,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"weapons/universal/null.wav"  //same sequence as boltback
 }
 
 "Weapon_MP5_MW.Boltrelease"
@@ -770,7 +829,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			""  
+	"wave"			"weapons/weap_dryfire_smg.wav"  
 }
 
 "Weapon_MP5_MW.ROF"
@@ -792,7 +851,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			    "" 
+	"wave"			"weapons/universal/null.wav"  //same sequence as magout 
 }
 
 "Weapon_MP5_MW.Magin"
@@ -1059,7 +1118,7 @@
 	"volume"		    "0.3"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"relaods/iw8_mpapa7/wfoly_plr_sm_mpapa7_raise_first_charge.wav" 
 }
 
 "Weapon_Mp7_MW.Boltrelease"
@@ -1068,7 +1127,7 @@
 	"volume"		    "0.3"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"relaods/iw8_mpapa7/wfoly_plr_sm_mpapa7_raise_first_end.wav" 
 }
 
 "Weapon_Mp7_MW.Empty"
@@ -1077,7 +1136,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			""  
+	"wave"			"weapons/weap_dryfire_smg.wav"  
 }
 
 "Weapon_Mp7_MW.ROF"
@@ -1086,7 +1145,11 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			""  
+	"rndwave"
+	{
+	"wave"			"foley/selector/weap_mpapa7_selector_off.wav"  
+	"wave"			"foley/selector/weap_mpapa7_selector_on.wav"
+	}  
 }
 
 "Weapon_Mp7_MW.Magrelease"
@@ -1095,7 +1158,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"weapons/universal/null.wav"  //same sequence as magout 
 }
 
 "Weapon_Mp7_MW.Magin"
@@ -1104,7 +1167,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"relaods/iw8_mpapa7/wfoly_plr_sm_mpapa7_reload_magin.wav" 
 }
 
 "Weapon_Mp7_MW.Magout"
@@ -1113,7 +1176,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"reloads/iw8_mpapa7/wfoly_plr_sm_mpapa7_reload_magout.wav" 
 }
 
 "Weapon_Mp7_MW.Empty.Magin"
@@ -1122,7 +1185,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"reloads/iw8_mpapa7/wfoly_plr_sm_mpapa7_reload_empty_magin.wav" 
 }
 
 "Weapon_Mp7_MW.Empty.Magout"
@@ -1131,7 +1194,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"reloads/iw8_mpapa7/wfoly_plr_sm_mpapa7_reload_empty_magout.wav" 
 }
 
 // P90
@@ -1144,7 +1207,12 @@
 	"soundlevel"  	"SNDLVL_94dB "
 	"rndwave"
 	{
-	"wave"	        ")"	
+	"wave"	        ")weapons/iw8_papa90/weap_papa90_fire_npc_01.wav"	
+	"wave"	        ")weapons/iw8_papa90/weap_papa90_fire_npc_02.wav"
+	"wave"	        ")weapons/iw8_papa90/weap_papa90_fire_npc_03.wav"
+	"wave"	        ")weapons/iw8_papa90/weap_papa90_fire_npc_04.wav"
+	"wave"	        ")weapons/iw8_papa90/weap_papa90_fire_npc_05.wav"
+	"wave"	        ")weapons/iw8_papa90/weap_papa90_fire_npc_06.wav"
 	}
 	
 	"soundentry_version" "2"
@@ -1190,7 +1258,15 @@
 	"volume"		"1.0"
 	"pitch"			"100,105"
 	"soundlevel"  	"SNDLVL_110dB"
-	"wave"			")"
+	"rndwave"
+	{
+	"wave"			")weapons/iw8_papa90/weap_papa90_fire_npc_dist_01.wav"
+	"wave"			")weapons/iw8_papa90/weap_papa90_fire_npc_dist_02.wav"
+	"wave"			")weapons/iw8_papa90/weap_papa90_fire_npc_dist_03.wav"
+	"wave"			")weapons/iw8_papa90/weap_papa90_fire_npc_dist_04.wav"
+	"wave"			")weapons/iw8_papa90/weap_papa90_fire_npc_dist_05.wav"
+	"wave"			")weapons/iw8_papa90/weap_papa90_fire_npc_dist_06.wav"
+	}
 	
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1217,7 +1293,15 @@
 	"volume"	    "1.0"
 	"pitch"			"100,105"
     "soundlevel"	"SNDLVL_GUNFIRE"
-    "wave"	        ""	
+    "rndwave"
+	{
+    "wave"	        "weapons/iw8_papa90/weap_papa90_fire_plr_01.wav"	
+	"wave"	        "weapons/iw8_papa90/weap_papa90_fire_plr_02.wav"
+	"wave"	        "weapons/iw8_papa90/weap_papa90_fire_plr_03.wav"
+	"wave"	        "weapons/iw8_papa90/weap_papa90_fire_plr_04.wav"
+	"wave"	        "weapons/iw8_papa90/weap_papa90_fire_plr_05.wav"
+	"wave"	        "weapons/iw8_papa90/weap_papa90_fire_plr_06.wav"
+	}	
 }
 
 "Weapon_p90.SingleSilenced"
@@ -1228,7 +1312,12 @@
 	"soundlevel"  	"SNDLVL_90dB"
 	"rndwave"
 	{
-	"wave"	        ")"	
+	"wave"	        ")weapons/iw8_papa90/weap_papa90_sup_npc_01.wav"
+	"wave"	        ")weapons/iw8_papa90/weap_papa90_sup_npc_02.wav"
+	"wave"	        ")weapons/iw8_papa90/weap_papa90_sup_npc_03.wav"
+	"wave"	        ")weapons/iw8_papa90/weap_papa90_sup_npc_04.wav"
+	"wave"	        ")weapons/iw8_papa90/weap_papa90_sup_npc_05.wav"
+	"wave"	        ")weapons/iw8_papa90/weap_papa90_sup_npc_06.wav"
 	}
 	
 	"soundentry_version" "2"
@@ -1312,7 +1401,15 @@
 	"volume"		"1.0"
 	"pitch"			"100,105"
     "soundlevel"	"SNDLVL_GUNFIRE"
-	"wave"			""	
+	"rndwave"
+	{
+	"wave"			"weapons/iw8_papa90/weap_papa90_sup_plr_01.wav"
+	"wave"			"weapons/iw8_papa90/weap_papa90_sup_plr_02.wav"
+	"wave"			"weapons/iw8_papa90/weap_papa90_sup_plr_03.wav"
+	"wave"			"weapons/iw8_papa90/weap_papa90_sup_plr_04.wav"
+	"wave"			"weapons/iw8_papa90/weap_papa90_sup_plr_05.wav"
+	"wave"			"weapons/iw8_papa90/weap_papa90_sup_plr_06.wav"	
+	}	
 }
 
 "Weapon_p90.Boltback"
@@ -1321,7 +1418,7 @@
 	"volume"		    "0.3"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"weapons/m16A4/handling/M16_boltback.wav" 
+	"wave"			"reloads/iw8_papa90/wfoly_sm_papa90_reload_empty_chamber_01.wav" 
 }
 
 "Weapon_p90.Boltrelease"
@@ -1330,7 +1427,7 @@
 	"volume"		    "0.3"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"reloads/iw8_papa90/wfoly_sm_papa90_reload_empty_end.wav" 
 }
 
 "Weapon_p90.Magrelease"
@@ -1339,7 +1436,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"weapons/universal/null.wav"  //same sequence as magout 
 }
 
 "Weapon_p90.Magin"
@@ -1348,7 +1445,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"reloads/iw8_papa90/wfoly_sm_papa90_reload_magin_01.wav" 
 }
 
 "Weapon_p90.Magout"
@@ -1357,7 +1454,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"reloads/iw8_papa90/wfoly_sm_papa90_reload_magout_01.wav" 
 }
 
 "Weapon_p90.Empty.Magin"
@@ -1366,7 +1463,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"reloads/iw8_papa90/wfoly_sm_papa90_reload_empty_magin_01.wav" 
 }
 
 "Weapon_p90.Empty.Magout"
@@ -1375,7 +1472,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"reloads/iw8_papa90/wfoly_sm_papa90_reload_empty_magout_01.wav" 
 }
 
 "Weapon_p90.MagHit"
@@ -1384,7 +1481,11 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"rndwave"
+	{
+	"wave"			"reloads/iw8_papa90/wfoly_sm_papa90_reload_empty_hitmag_01.wav"  
+	"wave"			"reloads/iw8_papa90/wfoly_sm_papa90_reload_empty_hitmag_02.wav"
+	}  
 }
 
 "Weapon_p90.Empty"
@@ -1393,7 +1494,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			""  
+	"wave"			"weapons/weap_dryfire_smg.wav"  
 }
 
 "Weapon_p90.ROF"
@@ -1402,7 +1503,11 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			""  
+	"rndwave"
+	{
+	"wave"			"foley/selector/weap_papa90_selector_off.wav"  
+	"wave"			"foley/selector/weap_papa90_selector_on.wav"
+	}   
 }
 
 // AUG
@@ -1417,7 +1522,12 @@
 	"soundlevel"  	"SNDLVL_94dB "
 	"rndwave"
 	{
-	"wave"	        ")"	
+	"wave"	        ")weapons/iw8_victor/weap_victor_fire_npc_01.wav"	
+	"wave"	        ")weapons/iw8_victor/weap_victor_fire_npc_02.wav"
+	"wave"	        ")weapons/iw8_victor/weap_victor_fire_npc_03.wav"
+	"wave"	        ")weapons/iw8_victor/weap_victor_fire_npc_04.wav"
+	"wave"	        ")weapons/iw8_victor/weap_victor_fire_npc_05.wav"
+	"wave"	        ")weapons/iw8_victor/weap_victor_fire_npc_06.wav"	
 	}
 	
 	"soundentry_version" "2"
@@ -1463,7 +1573,15 @@
 	"volume"		"1.0"
 	"pitch"			"100,105"
 	"soundlevel"  	"SNDLVL_110dB"
-	"wave"			")"
+	"rndwave"
+	{
+	"wave"			")weapons/iw8_victor/weap_victor_fire_npc_dist_01.wav"
+	"wave"			")weapons/iw8_victor/weap_victor_fire_npc_dist_02.wav"
+	"wave"			")weapons/iw8_victor/weap_victor_fire_npc_dist_03.wav"
+	"wave"			")weapons/iw8_victor/weap_victor_fire_npc_dist_04.wav"
+	"wave"			")weapons/iw8_victor/weap_victor_fire_npc_dist_05.wav"
+	"wave"			")weapons/iw8_victor/weap_victor_fire_npc_dist_06.wav"
+	}
 	
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1490,7 +1608,15 @@
 	"volume"	    "1.0"
 	"pitch"			"100,105"
     "soundlevel"	"SNDLVL_GUNFIRE"
-    "wave"	        "weapons/m16A4/M16A4_fp.wav"	
+    "rndwave"
+	{
+    "wave"	        "weapons/iw8_victor/weap_victor_fire_plr_01.wav"
+	"wave"	        "weapons/iw8_victor/weap_victor_fire_plr_02.wav"
+	"wave"	        "weapons/iw8_victor/weap_victor_fire_plr_03.wav"
+	"wave"	        "weapons/iw8_victor/weap_victor_fire_plr_04.wav"
+	"wave"	        "weapons/iw8_victor/weap_victor_fire_plr_05.wav"
+	"wave"	        "weapons/iw8_victor/weap_victor_fire_plr_06.wav"	
+	}	
 }
 
 "Weapon_Fennec.SingleSilenced"
@@ -1501,7 +1627,12 @@
 	"soundlevel"  	"SNDLVL_90dB"
 	"rndwave"
 	{
-	"wave"	        ")"	
+	"wave"	        ")wweapons/iw8_victor/weap_victor_sup_fire_npc_01.wav"	
+	"wave"	        ")wweapons/iw8_victor/weap_victor_sup_fire_npc_02.wav"
+	"wave"	        ")wweapons/iw8_victor/weap_victor_sup_fire_npc_03.wav"
+	"wave"	        ")wweapons/iw8_victor/weap_victor_sup_fire_npc_04.wav"
+	"wave"	        ")wweapons/iw8_victor/weap_victor_sup_fire_npc_05.wav"
+	"wave"	        ")wweapons/iw8_victor/weap_victor_sup_fire_npc_06.wav"
 	}
 	
 	"soundentry_version" "2"
@@ -1556,7 +1687,7 @@
 	"volume"		"0.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			""
+	"wave"			"weapons/universal/null.wav"
 	
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1585,7 +1716,15 @@
 	"volume"		"1.0"
 	"pitch"			"100,105"
     "soundlevel"	"SNDLVL_GUNFIRE"
-	"wave"			""	
+	"rndwave"
+	{
+	"wave"			"weapons/iw8_victor/weap_victor_sup_fire_plr_01.wav"
+	"wave"			"weapons/iw8_victor/weap_victor_sup_fire_plr_02.wav"
+	"wave"			"weapons/iw8_victor/weap_victor_sup_fire_plr_03.wav"
+	"wave"			"weapons/iw8_victor/weap_victor_sup_fire_plr_04.wav"
+	"wave"			"weapons/iw8_victor/weap_victor_sup_fire_plr_05.wav"
+	"wave"			"weapons/iw8_victor/weap_victor_sup_fire_plr_06.wav"	
+	}	
 }
 
 "Weapon_Fennec.Boltlock"
@@ -1594,7 +1733,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"reloads/iw8_victor/wfoly_sm_victor_reload_empty_charge.wav" 
 }
 
 "Weapon_Fennec.Boltrelease"
@@ -1603,7 +1742,7 @@
 	"volume"		    "0.3"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			""  
+	"wave"			"reloads/iw8_victor/wfoly_sm_victor_reload_empty_end.wav"  
 }
 
 "Weapon_Fennec.Empty"
@@ -1612,7 +1751,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			""  
+	"wave"			"weapons/weap_dryfire_smg.wav"  
 }
 
 "Weapon_Fennec.ROF"
@@ -1621,7 +1760,11 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			""  
+	"rndwave"
+	{
+	"wave"			"foley/selector/weap_victor_selector_off.wav"  
+	"wave"			"foley/selector/weap_victor_selector_on.wav"
+	} 
 }
 
 "Weapon_Fennec.MagRelease"
@@ -1630,7 +1773,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			    "" 
+	"wave"			"weapons/universal/null.wav"  //same sequence as magout
 }
 
 "Weapon_Fennec.Magin"
@@ -1639,7 +1782,7 @@
 	"volume"		    "0.4"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"wfoly_sm_victor_reload_magin" 
 }
 
 "Weapon_Fennec.Magout"
@@ -1648,7 +1791,7 @@
 	"volume"		    "0.4"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"wfoly_sm_victor_reload_magout" 
 }
 
 "Weapon_Fennec.Empty.Magin"
@@ -1657,7 +1800,7 @@
 	"volume"		    "0.4"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"wfoly_sm_victor_reload_empty_magin" 
 }
 
 "Weapon_Fennec.Empty.Magout"
@@ -1666,7 +1809,7 @@
 	"volume"		    "0.4"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"wfoly_sm_victor_reload_empty_magout" 
 }
 
 "Weapon_Fennec.Boltback"
@@ -1675,7 +1818,7 @@
 	"volume"		    "0.3"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"weapons/universal/null.wav"  //same sequence as boltlock 
 }
 
 //SKS
@@ -1688,7 +1831,12 @@
 	"soundlevel"  	"SNDLVL_94dB "
 	"rndwave"
 	{
-	"wave"		    ")"	
+	"wave"	        ")weapons/iw8_sksierra/weap_sksierra_fire_npc_01.wav"	
+	"wave"	        ")weapons/iw8_sksierra/weap_sksierra_fire_npc_02.wav"
+	"wave"	        ")weapons/iw8_sksierra/weap_sksierra_fire_npc_03.wav"
+	"wave"	        ")weapons/iw8_sksierra/weap_sksierra_fire_npc_04.wav"
+	"wave"	        ")weapons/iw8_sksierra/weap_sksierra_fire_npc_05.wav"
+	"wave"	        ")weapons/iw8_sksierra/weap_sksierra_fire_npc_06.wav"
 	}
 	
 	"soundentry_version" "2"
@@ -1734,7 +1882,15 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_110dB"
-	"wave"			")"
+	"rndwave"
+	{
+	"wave"			")weapons/iw8_sksierra/weap_sksierra_fire_npc_dist_01.wav"
+	"wave"			")weapons/iw8_sksierra/weap_sksierra_fire_npc_dist_02.wav"
+	"wave"			")weapons/iw8_sksierra/weap_sksierra_fire_npc_dist_03.wav"
+	"wave"			")weapons/iw8_sksierra/weap_sksierra_fire_npc_dist_04.wav"
+	"wave"			")weapons/iw8_sksierra/weap_sksierra_fire_npc_dist_05.wav"
+	"wave"			")weapons/iw8_sksierra/weap_sksierra_fire_npc_dist_06.wav"
+	}
 	
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1761,7 +1917,15 @@
 	"volume"	    "1.0"
 	"pitch"			"PITCH_NORM"
     "soundlevel"	"SNDLVL_GUNFIRE"
-	"wave"	"weapons/m40a1/m40a1_fp.wav"
+	"rndwave"
+	{
+    "wave"	        "weapons/iw8_sksierra/weap_sksierra_fire_plr_01.wav"	
+	"wave"	        "weapons/iw8_sksierra/weap_sksierra_fire_plr_02.wav"
+	"wave"	        "weapons/iw8_sksierra/weap_sksierra_fire_plr_03.wav"
+	"wave"	        "weapons/iw8_sksierra/weap_sksierra_fire_plr_04.wav"
+	"wave"	        "weapons/iw8_sksierra/weap_sksierra_fire_plr_05.wav"
+	"wave"	        "weapons/iw8_sksierra/weap_sksierra_fire_plr_06.wav"
+	}
 }
 
 "Weapon_SKS_MW.SingleSilenced"
@@ -1772,7 +1936,12 @@
 	"soundlevel"  	"SNDLVL_90dB"
 	"rndwave"
 	{
-	"wave"	        ")"	
+	"wave"	        ")weapons/iw8_sksierra/weap_sksierra_sup_npc_01.wav"
+	"wave"	        ")weapons/iw8_sksierra/weap_sksierra_sup_npc_02.wav"
+	"wave"	        ")weapons/iw8_sksierra/weap_sksierra_sup_npc_03.wav"
+	"wave"	        ")weapons/iw8_sksierra/weap_sksierra_sup_npc_04.wav"
+	"wave"	        ")weapons/iw8_sksierra/weap_sksierra_sup_npc_05.wav"
+	"wave"	        ")weapons/iw8_sksierra/weap_sksierra_sup_npc_06.wav"
 	}
 	
 	"soundentry_version" "2"
@@ -1827,7 +1996,7 @@
 	"volume"		"0.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			""
+	"wave"			"weapons/universal/null.wav"
 	
 	"soundentry_version" "2"
 	"operator_stacks"
@@ -1854,7 +2023,15 @@
 	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
     "soundlevel"	"SNDLVL_GUNFIRE"
-	"wave"			""	
+	"rndwave"
+	{
+	"wave"			"weapons/iw8_sksierra/weap_sksierra_sup_plr_01.wav"
+	"wave"			"weapons/iw8_sksierra/weap_sksierra_sup_plr_02.wav"
+	"wave"			"weapons/iw8_sksierra/weap_sksierra_sup_plr_03.wav"
+	"wave"			"weapons/iw8_sksierra/weap_sksierra_sup_plr_04.wav"
+	"wave"			"weapons/iw8_sksierra/weap_sksierra_sup_plr_05.wav"
+	"wave"			"weapons/iw8_sksierra/weap_sksierra_sup_plr_06.wav"	
+	}	
 }
 
 "Weapon_SKS_MW.Empty"
@@ -1863,25 +2040,25 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"				"" 
+	"wave"				"weapons/weap_dryfire_rifle.wav" 
 }
 
-"Weapon_SKS_MW.BoltRelease"
+"Weapon_SKS_MW.End"
 {
 	"channel"			"CHAN_ITEM"
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"				"" 
+	"wave"				"weapons/iw8_sksierra/wfoly_sn_sksierra_reload_end.wav" 
 }
 
-"Weapon_SKS_MW.Boltback"
+"Weapon_SKS_MW.Raise"
 {
 	"channel"			"CHAN_ITEM"
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"				"" 
+	"wave"				"weapons/iw8_sksierra/wfoly_sn_sksierra_raise.wav" 
 }
 
 "Weapon_SKS_MW.ROF"
@@ -1890,7 +2067,11 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			""  
+	"rndwave"
+	{
+	"wave"			"foley/selector/weap_sksierra_selector_off.wav"  
+	"wave"			"foley/selector/weap_sksierra_selector_on.wav"
+	}    
 }
 
 "Weapon_SKS_MW.Magin"
@@ -1899,7 +2080,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"weapons/iw8_sksierra/wfoly_sn_sksierra_reload_magin.wav" 
 }
 
 "Weapon_SKS_MW.Magout"
@@ -1908,7 +2089,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"weapons/iw8_sksierra/wfoly_sn_sksierra_reload_magout.wav" 
 }
 
 "Weapon_SKS_MW.Empty.Magin"
@@ -1917,7 +2098,7 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"weapons/iw8_sksierra/wfoly_sn_sksierra_reload_empty_magin.wav" 
 }
 
 "Weapon_SKS_MW.Empty.Magout"
@@ -1926,16 +2107,34 @@
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"weapons/iw8_sksierra/wfoly_sn_sksierra_reload_empty_magout.wav" 
 }
 
-"Weapon_SKS_MW.Magrelease"
+"Weapon_SKS_MW.Charge"
 {
 	"channel"			"CHAN_ITEM"
 	"volume"		    "0.2"
 	"pitch"			    "PITCH_NORM"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"" 
+	"wave"			"weapons/iw8_sksierra/wfoly_sn_sksierra_reload_empty_charge.wav" 
+}
+
+"Weapon_SKS_MW.Rotate"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/iw8_sksierra/wfoly_sn_sksierra_reload_empty_rotate.wav" 
+}
+
+"Weapon_SKS_MW.EmptyEnd"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/iw8_sksierra/wfoly_sn_sksierra_reload_empty_end.wav" 
 }
 
 // ax50,amr,kilo141,aug
