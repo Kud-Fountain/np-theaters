@@ -26,6 +26,13 @@
 			
 			"particles"         "particles/gas_grenades.pcf"
 			"localize"			"resource/gnalvlsrealism_schinese.txt"
+			
+			// particle extra
+			"particles"         "particles/666.pcf"
+			"particles"         "particles/auraandtrailex.pcf"
+			"particles"         "particles/FX.pcf"
+			"particles"         "particles/goushi.pcf"
+			"particles"         "particles/iEx.pcf"
 		}
 	}
 	"teams"
