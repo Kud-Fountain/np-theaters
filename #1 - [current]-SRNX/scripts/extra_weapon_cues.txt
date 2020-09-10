@@ -1991,7 +1991,7 @@
 "Weapon_Lewis.Single"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"	    "1.0"
+	"volume"	    "0.8"
     "pitch"			"95,105"
 	"soundlevel"  	"SNDLVL_94dB "
 	"rndwave"
@@ -2036,7 +2036,7 @@
 "Weapon_Lewis.SingleDistant"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"1.0"
+	"volume"		"0.8"
 	"pitch"			"95,105"
 	"soundlevel"  	"SNDLVL_150dB"
 	"wave"			")weapons/lewis/lewis_dist.wav"

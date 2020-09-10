@@ -2574,8 +2574,8 @@
 				}
 				"weapon_vz58"
 				{
-					"fov_wpn_ironsight"			"60"
-					"fov_wpn_focus"				"67"
+					"fov_wpn_ironsight"			"63"
+					"fov_wpn_focus"				"70"
 				}
 				"weapon_mp7"
 				{
@@ -4511,8 +4511,8 @@
 
 				"weapon_vz58"
 				{
-					"fov_wpn_ironsight"		"65"
-					"fov_wpn_focus"			"70"
+					"fov_wpn_ironsight"		"66"
+					"fov_wpn_focus"			"71"
 				}
 				"weapon_g3a3"
 				{
