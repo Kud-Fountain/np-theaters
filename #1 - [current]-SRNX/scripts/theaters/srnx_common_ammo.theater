@@ -996,13 +996,13 @@
 			}
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"       "2.1"
-				"HITGROUP_CHEST"      "2.00"
-				"HITGROUP_STOMACH"    "2.00"
-				"HITGROUP_LEFTARM"    "0.42"
-				"HITGROUP_RIGHTARM"   "0.42"
-				"HITGROUP_LEFTLEG"    "0.42"
-				"HITGROUP_RIGHTLEG"   "0.42"
+				"HITGROUP_HEAD"       "1.8"
+				"HITGROUP_CHEST"      "1.70"
+				"HITGROUP_STOMACH"    "1.70"
+				"HITGROUP_LEFTARM"    "0.62"
+				"HITGROUP_RIGHTARM"   "0.62"
+				"HITGROUP_LEFTLEG"    "0.62"
+				"HITGROUP_RIGHTLEG"   "0.62"
 			}
 		}
 		"556x45_car_hp"
