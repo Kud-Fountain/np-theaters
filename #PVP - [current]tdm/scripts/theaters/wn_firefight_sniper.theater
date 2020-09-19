@@ -50,6 +50,18 @@
 					"#Squad_JSW_SNIPER"	"template_jsw_sniper_security"
 					"#Squad_JSW_SNIPER"	"template_jsw_sniper_security"
 				}
+
+				"#Fireteam_Charlie"
+				{
+					"#Squad_JSW_SNIPER"	"template_jsw_sniper_security"
+					"#Squad_JSW_SNIPER"	"template_jsw_sniper_security"
+					"#Squad_JSW_SNIPER"	"template_jsw_sniper_security"
+					"#Squad_JSW_SNIPER"	"template_jsw_sniper_security"
+					"#Squad_JSW_SNIPER"	"template_jsw_sniper_security"
+					"#Squad_JSW_SNIPER"	"template_jsw_sniper_security"
+					"#Squad_JSW_SNIPER"	"template_jsw_sniper_security"
+					"#Squad_JSW_SNIPER"	"template_jsw_sniper_security"
+				}
 			}
 		}
 		

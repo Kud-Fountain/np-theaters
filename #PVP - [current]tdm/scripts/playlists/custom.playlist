@@ -7,7 +7,7 @@
 	"description"			""
 	"category"				"pvp" // Required: Menu category, should be "pvp", "coop", "solo" or "hidden"
 	
-	"require_maxplayers_max"		"34"	// Max player slots required for this playlist
+	"require_maxplayers_max"		"48"	// Max player slots required for this playlist
 	
 	"allowed_maps"
 	{

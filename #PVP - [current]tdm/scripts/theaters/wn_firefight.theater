@@ -50,6 +50,18 @@
 					"#Squad_JSW"	"template_jsw_security"
 					"#Squad_JSW"	"template_jsw_security"
 				}
+				
+				"#Fireteam_Charlie"
+				{
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+					"#Squad_JSW"	"template_jsw_security"
+				}
 			}
 		}
 		
