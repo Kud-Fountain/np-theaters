@@ -80,6 +80,15 @@
 							"#Squad_Fireteam_Support"	"template_comp_support_security"
 							"#Squad_Fireteam_Comp_Sniper"	"template_comp_sniper_security"
 						}
+						"#security_defend"
+						{
+							"#Squad_Fireteam_Comp_Flanker"	"template_comp_flanker_security"
+							"#Squad_Fireteam_Comp_Flanker"	"template_comp_flanker_security"
+							"#Squad_Fireteam_Comp_Assault"	"template_comp_assault_security"
+							"#Squad_Fireteam_Comp_Assault"	"template_comp_assault_security"
+							"#Squad_Fireteam_Support"	"template_comp_support_security"
+							"#Squad_Fireteam_Comp_Sniper"	"template_comp_sniper_security"
+						}
 						//" "
 						//{
 						//	"交换位置槽位"	"template_empty_security"
@@ -92,6 +101,15 @@
 				
 					"squads"
 					{
+						"#security_attack"
+						{
+							"#Squad_Fireteam_Comp_Flanker"		"template_comp_flanker_security"
+							"#Squad_Fireteam_Comp_Flanker"		"template_comp_flanker_security"
+							"#Squad_Fireteam_Comp_Assault"		"template_comp_assault_security"
+							"#Squad_Fireteam_Comp_Assault"		"template_comp_assault_security"
+							"#Squad_Fireteam_Support"		"template_comp_support_security"
+							"#Squad_Fireteam_Comp_Sniper"		"template_comp_sniper_security"
+						}
 						"#security_attack"
 						{
 							"#Squad_Fireteam_Comp_Flanker"		"template_comp_flanker_security"
@@ -164,6 +182,15 @@
 							"#Squad_Fireteam_Support"	"template_comp_support_insurgent"
 							"#Squad_Fireteam_Comp_Sniper"	"template_comp_sniper_insurgent"
 						}
+						"#insurgents_defend"
+						{
+							"#Squad_Fireteam_Comp_Flanker"	"template_comp_flanker_insurgent"
+							"#Squad_Fireteam_Comp_Flanker"	"template_comp_flanker_insurgent"
+							"#Squad_Fireteam_Comp_Assault"	"template_comp_assault_insurgent"
+							"#Squad_Fireteam_Comp_Assault"	"template_comp_assault_insurgent"
+							"#Squad_Fireteam_Support"	"template_comp_support_insurgent"
+							"#Squad_Fireteam_Comp_Sniper"	"template_comp_sniper_insurgent"
+						}
 						//" "
 						//{
 						//	"交换位置槽位"	"template_empty_insurgent"
@@ -176,6 +203,15 @@
 				
 					"squads"
 					{
+						"#insurgents_attack"
+						{
+							"#Squad_Fireteam_Comp_Flanker"	"template_comp_flanker_insurgent"
+							"#Squad_Fireteam_Comp_Flanker"	"template_comp_flanker_insurgent"
+							"#Squad_Fireteam_Comp_Assault"	"template_comp_assault_insurgent"
+							"#Squad_Fireteam_Comp_Assault"	"template_comp_assault_insurgent"
+							"#Squad_Fireteam_Support"	"template_comp_support_insurgent"
+							"#Squad_Fireteam_Comp_Sniper"	"template_comp_sniper_insurgent"
+						}
 						"#insurgents_attack"
 						{
 							"#Squad_Fireteam_Comp_Flanker"	"template_comp_flanker_insurgent"
@@ -249,6 +285,7 @@
 				"weapon"			"weapon_m67" 
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_m84"
 				
 				// Attachments
 				"weapon_upgrade"	"optic_eotech"
@@ -372,9 +409,10 @@
 				"weapon"			"weapon_mk18"
 				
 				// Explosives
-				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m67" 
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_m84"
 				
 				// Attachements
 				"weapon_upgrade"	"optic_eotech"
@@ -383,7 +421,7 @@
 				"weapon_upgrade"	"underbarrel_foregrip_sec2"
 				
 				"weapon_upgrade"	"barrel_heavybarrel"
-				"weapon_upgrade"	"barrel_silencer_pistol"
+				//"weapon_upgrade"	"barrel_silencer_pistol"
 				"weapon_upgrade"	"barrel_silencer_sec1"
 				"weapon_upgrade"	"barrel_silencer_sec2"
 				
@@ -437,12 +475,15 @@
 				"weapon"			"weapon_m249"
 								
 				// Explosives
-				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_m67" 
 				"weapon"			"weapon_m18"
+				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_m84"
 				
 				// Attachements
 				"weapon_upgrade"	"optic_eotech"
 				"weapon_upgrade"	"optic_aimpoint"
+				"weapon_upgrade"	"optic_2xaimpoint"
 								
 				"weapon_upgrade"	"barrel_heavybarrel"
 				"weapon_upgrade"	"underbarrel_bipod"
@@ -464,13 +505,14 @@
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				
 				// Gear
-				//"gear"				"sec_heavy_armor"
+				"gear"				"sec_heavy_armor"
 			}
 			"cost_modifiers"
 			{
 				"gear"
 				{
 					"sec_light_armor"				"-1"
+					"sec_heavy_armor"				"-1"
 				}
 			}
 		}
@@ -507,8 +549,10 @@
 				"weapon"			"weapon_m40a1"
 				
 				// Explosives
-				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_m67" 
 				"weapon"			"weapon_m18"
+				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_m84"
 				
 				// Attachements
 				"weapon_upgrade"	"optic_eotech"
@@ -609,6 +653,7 @@
 				"weapon"			"weapon_f1"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_m84"
 				
 				// Attachements
 				"weapon_upgrade"	"optic_kobra"
@@ -664,10 +709,10 @@
 				"weapon"			"weapon_galil"
 				
 				// Explosives
-				"weapon"			"weapon_m84"
+				"weapon"			"weapon_f1"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_molotov"
-				"weapon"			"weapon_f1"
+				"weapon"			"weapon_m84"
 				
 				// Attachements
 				"weapon_upgrade"	"optic_kobra"
@@ -716,9 +761,10 @@
 				"weapon"			"weapon_galil"
 								
 				// Explosives
-				"weapon"			"weapon_m84"
+				"weapon"			"weapon_f1"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_m84"
 				
 				// Attachements
 				"weapon_upgrade"	"optic_kobra"
@@ -773,12 +819,15 @@
 				"weapon"			"weapon_rpk"
 				
 				// Explosives
-				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
 				"weapon"			"weapon_m18"
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_m84"
 				
 				// Attachements
 				"weapon_upgrade"	"optic_kobra"
 				"weapon_upgrade"	"optic_aimpoint"
+				"weapon_upgrade"	"optic_2xaimpoint"
 								
 				"weapon_upgrade"	"underbarrel_bipod"
 				"weapon_upgrade"	"underbarrel_foregrip_ins1"
@@ -810,6 +859,7 @@
 				"gear"
 				{
 					"ins_light_armor"		"-1"
+					"ins_heavy_armor"		"-1"
 				}
 			}
 		}
@@ -838,8 +888,10 @@
 				"weapon"			"weapon_mosin"
 				
 				// Explosives
-				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_f1"
 				"weapon"			"weapon_m18"
+				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_m84"
 				
 				// Attachements
 				"weapon_upgrade"	"optic_kobra"
@@ -928,8 +980,8 @@
 			"gear_weight"	"64"  //16
 			"extra_ammo"
 			{
-				"primary"	"0"
-				"secondary"	"0"
+				"primary"	"1"
+				"secondary"	"1"
 				"explosive"	"0"
 			}
 			"weapon_slots"
@@ -949,8 +1001,8 @@
 			"gear_weight"	"64"  //16 
 			"extra_ammo"
 			{
-				"primary"	"0"
-				"secondary"	"0"
+				"primary"	"1"
+				"secondary"	"1"
 				"explosive"	"0"
 			}
 			"weapon_slots"
@@ -1037,45 +1089,61 @@
 /// Weapons //////////////////////////////////////////////////////	
 "weapons"
 	{
+	//Player Settings
+		"weapon_base"
+		{
+			"player_restrictions"
+			{
+				"allow_jump_shoot"		"1"
+				"allow_reload_sprint"	"1"
+			}
+		}
 	
 	//Grenades
 		"weapon_m67"
 		{
-			"weapon_max_subslot"			"1"
-			"weapon_cost"					"2"
+			"weapon_max_subslot"			"0"
+			"weapon_cost"					"3"
 			"class_restricted"				"1"
 		}
 		
 		"weapon_f1"
 		{
-			"weapon_max_subslot"			"1"
-			"weapon_cost"					"2"
+			"weapon_max_subslot"			"0"
+			"weapon_cost"					"3"
 			"class_restricted"				"1"
 			
 		}
 		
 		"weapon_anm14"
 		{
-			"weapon_cost"					"1"
+			"weapon_cost"					"2"
 			"class_restricted"				"1"
 		}
 		
 		"weapon_molotov"
 		{
-			"weapon_cost"					"1"
+			"weapon_cost"					"2"
 			"class_restricted"				"1"
 		}
 		
 		"weapon_m18"
 		{
-			"weapon_cost"					"0"
+			"weapon_cost"					"1"
 			"class_restricted"				"1"
 		}
 		
 		"weapon_m84"
 		{
-			"weapon_cost"					"1"
+			"view_model"					"models/weapons/v_m84_test.mdl"
+			"weapon_cost"					"0"
 			"class_restricted"				"1"
+		}
+		
+		"grenade_m84"
+		{
+			"DetonateFlashDuration"			"6.0"
+			"DetonateDamageRadius"			"750"
 		}
 		
 	//Main
@@ -1302,6 +1370,7 @@
 				"weapon"				"weapon_mp5"
 				"weapon"				"weapon_ump45"
 				"weapon"				"weapon_galil_sar"
+				"weapon"				"weapon_l1a1"
 			}
 		}
 		
@@ -1327,6 +1396,7 @@
 				"weapon"				"weapon_ak74"
 				"weapon"				"weapon_aks74u"
 				"weapon"				"weapon_galil"
+				"weapon"				"weapon_m1a1"
 			}
 		}
 		
@@ -1387,6 +1457,7 @@
 				"weapon"				"weapon_galil"
 				"weapon"				"weapon_rpk"
 				"weapon"				"weapon_m249"
+				"weapon"				"weapon_m14"
 			}
 		}
 		
@@ -1408,6 +1479,7 @@
 				"weapon"				"weapon_galil_sar"
 				"weapon"				"weapon_m249"
 				"weapon"				"weapon_rpk"
+				"weapon"				"weapon_fal"
 			}
 		}
 		
@@ -1432,6 +1504,7 @@
 				"weapon"				"weapon_mp5"
 				"weapon"				"weapon_ump45"
 				"weapon"				"weapon_galil_sar"
+				"weapon"				"weapon_m249"
 				
 				// insurgent weapons
 				"weapon"				"weapon_ak74"
@@ -1444,6 +1517,7 @@
 				"weapon"				"weapon_sterling"
 				"weapon"				"weapon_toz"
 				"weapon"				"weapon_galil"
+				"weapon"				"weapon_rpk"
 			}
 		}
 		
@@ -1491,6 +1565,10 @@
 				"weapon"					"weapon_l1a1"
 				"weapon"					"weapon_m16a4"
 				"weapon"					"weapon_mosin"
+				"weapon"					"weapon_mini14"
+				"weapon"					"weapon_m14"
+				"weapon"					"weapon_sks"
+				"weapon"					"weapon_fal"
 			}
 		}
 		
@@ -1504,6 +1582,10 @@
 				"weapon"					"weapon_mosin"
 				"weapon"					"weapon_m1a1"
 				"weapon"					"weapon_m40a1"
+				"weapon"					"weapon_mini14"
+				"weapon"					"weapon_m14"
+				"weapon"					"weapon_sks"
+				"weapon"					"weapon_fal"
 			}
 		}
 		
