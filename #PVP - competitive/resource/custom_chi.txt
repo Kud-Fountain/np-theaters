@@ -1,0 +1,11 @@
+"lang"
+{
+	"Language"	"schinese"
+	"Tokens"
+	{
+		"security_defend"		"警戒部队"
+		"security_attack"		"警戒部队"
+		"insurgents_defend"		"叛乱分子"
+		"insurgents_attack"		"叛乱分子"
+	}
+}
