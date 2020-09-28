@@ -1,0 +1,93 @@
+"#base" "cncomp_np_push.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				"#security_attack"
+				{
+					"#Squad_Fireteam_Comp_Flanker"		"template_comp_flanker_security"
+					"#Squad_Fireteam_Comp_Flanker"		"template_comp_flanker_security"
+					"#Squad_Fireteam_Comp_Assault"		"template_comp_assault_security"
+					"#Squad_Fireteam_Comp_Assault"		"template_comp_assault_security"
+					"#Squad_Fireteam_Support"		"template_comp_support_security"
+					"#Squad_Fireteam_Comp_Sniper"		"template_comp_sniper_security"
+				}
+				"#security_attack"
+				{
+					"#Squad_Fireteam_Comp_Flanker"		"template_comp_flanker_security"
+					"#Squad_Fireteam_Comp_Flanker"		"template_comp_flanker_security"
+					"#Squad_Fireteam_Comp_Assault"		"template_comp_assault_security"
+					"#Squad_Fireteam_Comp_Assault"		"template_comp_assault_security"
+					"#Squad_Fireteam_Support"		"template_comp_support_security"
+					"#Squad_Fireteam_Comp_Sniper"		"template_comp_sniper_security"
+				}
+				"#security_attack"
+				{
+					"#Squad_Fireteam_Comp_Flanker"		"template_comp_flanker_security"
+					"#Squad_Fireteam_Comp_Flanker"		"template_comp_flanker_security"
+					"#Squad_Fireteam_Comp_Assault"		"template_comp_assault_security"
+					"#Squad_Fireteam_Comp_Assault"		"template_comp_assault_security"
+					"#Squad_Fireteam_Support"		"template_comp_support_security"
+					"#Squad_Fireteam_Comp_Sniper"		"template_comp_sniper_security"
+				}
+				"#security_attack"
+				{
+					"#Squad_Fireteam_Comp_Flanker"		"template_comp_flanker_security"
+					"#Squad_Fireteam_Comp_Flanker"		"template_comp_flanker_security"
+					"#Squad_Fireteam_Comp_Assault"		"template_comp_assault_security"
+					"#Squad_Fireteam_Comp_Assault"		"template_comp_assault_security"
+					"#Squad_Fireteam_Support"		"template_comp_support_security"
+					"#Squad_Fireteam_Comp_Sniper"		"template_comp_sniper_security"
+				}
+			}
+		}
+		
+		"insurgents"
+		{
+			"squads"
+			{
+				"#insurgents_attack"
+				{
+					"#Squad_Fireteam_Comp_Flanker"	"template_comp_flanker_insurgent"
+					"#Squad_Fireteam_Comp_Flanker"	"template_comp_flanker_insurgent"
+					"#Squad_Fireteam_Comp_Assault"	"template_comp_assault_insurgent"
+					"#Squad_Fireteam_Comp_Assault"	"template_comp_assault_insurgent"
+					"#Squad_Fireteam_Support"	"template_comp_support_insurgent"
+					"#Squad_Fireteam_Comp_Sniper"	"template_comp_sniper_insurgent"
+				}
+				"#insurgents_attack"
+				{
+					"#Squad_Fireteam_Comp_Flanker"	"template_comp_flanker_insurgent"
+					"#Squad_Fireteam_Comp_Flanker"	"template_comp_flanker_insurgent"
+					"#Squad_Fireteam_Comp_Assault"	"template_comp_assault_insurgent"
+					"#Squad_Fireteam_Comp_Assault"	"template_comp_assault_insurgent"
+					"#Squad_Fireteam_Support"	"template_comp_support_insurgent"
+					"#Squad_Fireteam_Comp_Sniper"	"template_comp_sniper_insurgent"
+				}
+				"#insurgents_attack"
+				{
+					"#Squad_Fireteam_Comp_Flanker"	"template_comp_flanker_insurgent"
+					"#Squad_Fireteam_Comp_Flanker"	"template_comp_flanker_insurgent"
+					"#Squad_Fireteam_Comp_Assault"	"template_comp_assault_insurgent"
+					"#Squad_Fireteam_Comp_Assault"	"template_comp_assault_insurgent"
+					"#Squad_Fireteam_Support"	"template_comp_support_insurgent"
+					"#Squad_Fireteam_Comp_Sniper"	"template_comp_sniper_insurgent"
+				}
+				"#insurgents_attack"
+				{
+					"#Squad_Fireteam_Comp_Flanker"	"template_comp_flanker_insurgent"
+					"#Squad_Fireteam_Comp_Flanker"	"template_comp_flanker_insurgent"
+					"#Squad_Fireteam_Comp_Assault"	"template_comp_assault_insurgent"
+					"#Squad_Fireteam_Comp_Assault"	"template_comp_assault_insurgent"
+					"#Squad_Fireteam_Support"	"template_comp_support_insurgent"
+					"#Squad_Fireteam_Comp_Sniper"	"template_comp_sniper_insurgent"
+				}
+			}
+		}
+	}
+}
