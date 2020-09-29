@@ -1135,7 +1135,7 @@
 		
 		"weapon_m84"
 		{
-			"view_model"					"models/weapons/v_m84_test.mdl"
+			"view_model"					"models/weapons/custom/v_m84_np.mdl"
 			"weapon_cost"					"0"
 			"class_restricted"				"1"
 		}
