@@ -551,7 +551,7 @@
 "Weapon_SCAR.Single"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"	    "0.8"
+	"volume"	    "0.6"
 	"pitch"			"100,105"
 	"soundlevel"  	"SNDLVL_94dB"
 	"rndwave"
@@ -599,7 +599,7 @@
 "Weapon_SCAR.SingleLocal"
 {
 	"channel"		"CHAN_WEAPON"
-	"volume"	    "0.8"
+	"volume"	    "0.6"
 	"pitch"			"100,105"
     "soundlevel"	"SNDLVL_GUNFIRE"
     "wave"	        "sernx_lua_sounds/weapons/scar_fire_v2.wav"	
@@ -3767,7 +3767,7 @@
 "Weapon_sa80.Single"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"	    "0.8"
+	"volume"	    "0.6"
 	"pitch"			"100,105"
 	"soundlevel"  	"SNDLVL_94dB"
 	"rndwave"
@@ -3815,7 +3815,7 @@
 "Weapon_sa80.SingleDistant"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.8"
+	"volume"		"0.6"
 	"pitch"			"100,105"
 	"soundlevel"  	"SNDLVL_110dB"
 	"wave"			")sernx_lua_sounds/weapons/sa80_dist.wav"
