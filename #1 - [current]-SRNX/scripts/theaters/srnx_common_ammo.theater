@@ -811,8 +811,8 @@
 			"brass_model"				"models/weapons/shells/545x39.mdl"
 			"Damage"
 			{
-				"10"					"70"
-				"8000"					"10"
+				"10"					"95"
+				"8000"					"25"
 			}
 			"PenetrationPower"
 			{
@@ -897,9 +897,9 @@
 			"brass_model"				"models/weapons/shells/556x45.mdl"
 			"Damage"
 			{
-				"10"					"65"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
-				"2700"					"30"
-				"12000"					"15"
+				"10"					"90"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
+				"2700"					"90"
+				"12000"					"25"
 			}
 			"PenetrationPower"	// Maybe offer or imply Mk318 rounds which are like combined HP and AP at high cost?
 			{
@@ -985,7 +985,7 @@
 			"brass_model"				"models/weapons/shells/556x45.mdl"
 			"Damage"
 			{
-				"10"					"100"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
+				"10"					"105"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
 				"2700"					"80"
 				"12000"					"46"
 			}
