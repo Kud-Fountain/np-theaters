@@ -9765,9 +9765,9 @@
 			"entity_class"				"remote"
 			"Model"						"models/weapons/w_ied.mdl"
 
-			"DetonateDamage"				"322" // 26% reduction from default //280
-			"DetonateDamageRadius"			"1170" // 25% reduction from def //900
-			"DetonatePenetrationRadius" 	"100" // 17% reduction from default //200
+			"DetonateDamage"				"162" // 26% reduction from default //280 //322
+			"DetonateDamageRadius"			"1000" // 25% reduction from def //900 //1170
+			"DetonatePenetrationRadius" 	"100" // 17% reduction from default //200 //100
 			"FuseTime"						"0.5"
 
 			"Health"						"50"

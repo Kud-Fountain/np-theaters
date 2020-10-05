@@ -137,11 +137,11 @@
 
 				"Team2"	// Support team #2 - 8 Bots
 				{ 
+					"Bot"		"bomber_ins_1"	
 					"Bot"		"standard_ins_2" 
 					"Bot"		"mg_fighter_ins_3"		
 					"Bot"		"mg_fighter_ins_4"		
-					"Bot"		"striker_ins_2" 
-					"Bot"		"striker_ins_2"	//CP 			
+					"Bot"		"striker_ins_2" 		
 					"Bot"		"scout_ins_2" 	
 					"Bot"		"striker_ins_3" 
 					"Bot"		"sapper_ins_2"					
@@ -150,6 +150,7 @@
 				"Team3"	// Recon team #3 - 8 Bots
 				{
 					//role name		
+					"Bot"		"bomber_ins_1"	
 					"Bot"		"bomber_ins_1"	
 					"Bot"		"juggernaut_2"
 					"Bot"		"sapper_ins_3"
