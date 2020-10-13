@@ -151,6 +151,40 @@
 		// ========================================
 		// Bullets
 		// ========================================
+		"9x39mm"
+		{
+			"import"	"default"
+			"SuppressionIncrement"	"80"
+			"brass_model"	"models/weapons/shells/762x51.mdl"
+			"Damage"
+			{
+				"10"	"120"
+				"5000"	"80"
+				"18000"	"65"
+			}
+			"PenetrationPower"
+			{
+				"10"	"400"
+				"18000"	"130"
+			}
+			"PenetrationDamage"
+			{
+				"0"	"1"
+				"400"	"0.75"
+				"600"	"0.10"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.25"
+				"HITGROUP_CHEST"      "1.15"
+				"HITGROUP_STOMACH"    "1.15"
+				"HITGROUP_LEFTARM"    "0.55"
+				"HITGROUP_RIGHTARM"   "0.55"
+				"HITGROUP_LEFTLEG"    "0.55"
+				"HITGROUP_RIGHTLEG"   "0.55"
+			}
+		}
+		
 		"9x19mm_sten"
 		{
 			"import"				"9x19mm_smg"
@@ -1755,7 +1789,7 @@
 			"brass_model"				"models/weapons/shells/762x51.mdl"
 			"Damage"
 			{
-				"10"					"160"
+				"10"					"195"
 				"20000"					"100"
 			}
 			"PenetrationPower"
@@ -3270,12 +3304,16 @@
 			"import"				"00buck"
 			"carry"					"56"
 			"flags_clear"				"AMMO_USE_MAGAZINES"
+			"brass_model"				"models/weapons/shells/12guage.mdl"
+			"brass_sound"				"BOUNCE_SHOTSHELL"
 		}
 		"slugs"
 		{
 			"import"				"slug"
 			"carry"					"56"
 			"flags_clear"				"AMMO_USE_MAGAZINES"
+			"brass_model"				"models/weapons/shells/12guage.mdl"
+			"brass_sound"				"BOUNCE_SHOTSHELL"
 		}
 	}
 }

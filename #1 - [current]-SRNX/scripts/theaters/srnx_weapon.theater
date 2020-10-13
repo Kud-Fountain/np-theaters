@@ -5868,7 +5868,7 @@
 			"class_restricted"				"1"
 			"act_table"						"rifle_m14"
 			"weapon_abilities"				"ironsight"
-			"weapon_cost"					"4"
+			"weapon_cost"					"5"
 			"weapon_weight"					"144" 
 			"barrel_length"					"49"
 			"draw_speed"				"1.65"
@@ -7514,7 +7514,7 @@
 		{
 			"import"						"ballistic_base"
 			"weapon_class"					"shotgun"
-			"weapon_cost"					"3"
+			"weapon_cost"					"2"
 			"print_name"					"#weapon_m590"
 			"print_desc"					"#weapon_m590_desc"
 			"view_model"					"models/weapons/v_m590.mdl"
@@ -7612,7 +7612,7 @@
 		{
 			"import"						"ballistic_base"
 			"weapon_class"					"shotgun"
-			"weapon_cost"					"2"
+			"weapon_cost"					"1"
 			"print_name"					"#weapon_nova"
 			"print_desc"					"#weapon_nova_desc"
 			"view_model"					"models/weapons/v_nova.mdl"
@@ -7709,7 +7709,7 @@
 		{
 			"import"						"ballistic_base"
 			"weapon_class"					"shotgun"
-			"weapon_cost"					"2"
+			"weapon_cost"					"1"
 			"print_name"					"#weapon_toz"
 			"print_desc"					"#weapon_toz_desc"
 			"view_model"					"models/weapons/v_toz.mdl"
@@ -7811,9 +7811,9 @@
 			"weapon_class"		"shotgun"
 			"print_name"		"#weapon_saiga12"
 			"print_desc"		"#weapon_saiga12_desc"
-			"view_model"		"models/weapons/saiga.mdl"
-			"world_model"		"models/weapons/w_aks74u.mdl"
-			"rounds_per_minute"	"600"
+			"view_model"				"models/weapons/v_saiga_12k.mdl"
+			"world_model"				"models/weapons/w_saiga_12k.mdl"
+			"rounds_per_minute"	"150"
 			"weapon_slot"		"primary"
 			"act_table"			"rifle_ak"
 			"weapon_abilities"	"ironsight"
@@ -7829,19 +7829,24 @@
 			"bolt_speed"				"1.65"
 			"viewmodel_attachments"
 			{
-				"foregrip"
-				{
-					"model"					"models/weapons/upgrades/a_standard_aks74u.mdl"
-					"fallback_for_slot"		"underbarrel"
-				}
+				"standard_magazine"
+				 {
+					 "model"						"models/weapons/mags/a_saiga_mag.mdl"
+					 "fallback_for_slot"			"magazine"
+				 }
+				 "standard_brake"
+				 {
+					 "model"						"models/weapons/upgrades/a_mb_saiga_k.mdl"
+					 "fallback_for_slot"			"barrel"
+				 }
 			}
 			"world_attachments"
 			{
-				"standard"
-				{
-					"model"					"models/weapons/upgrades/w_standard_aks74u.mdl"
-					"fallback_for_slot"		"underbarrel"
-				}
+				"w_magazine"
+				 {
+					 "model"						"models/weapons/mags/w_saiga_mag.mdl"
+					 "fallback_for_slot"			"magazine"
+				 }
 			}
 			"fov"
 			{
@@ -7921,7 +7926,7 @@
 		{
 			"import"					"ballistic_base"
 			"weapon_class"				"shotgun"
-			"weapon_cost"				"3"
+			"weapon_cost"				"2"
 			"print_name"				"#weapon_spas12_dy"
 			"print_desc"				"#weapon_spas12_dy_desc"
 			"view_model"				"models/weapons/v_spas.mdl"
@@ -8118,8 +8123,8 @@
 			"weapon_class"					"lmg"
 			"print_name"					"#weapon_m249g"
 			"print_desc"					"#weapon_m249g_desc"
-			"view_model"					"models/weapons/vanilla/v_m249.mdl"
-			"world_model"					"models/weapons/vanilla/w_m249.mdl"
+			"view_model"					"models/weapons/v_m249.mdl"
+			"world_model"					"models/weapons/w_m249.mdl"
 			"rounds_per_minute"				"800"
 			"weapon_slot"					"primary"
 			"act_table"						"lmg"
