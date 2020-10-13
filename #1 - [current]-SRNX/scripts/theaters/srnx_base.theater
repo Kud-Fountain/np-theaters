@@ -1611,7 +1611,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_m107"
+				"weapon"			"weapon_wa2000"
 				"weapon_upgrade"	"juggernaut_sp"
 				//Secondary
 				"weapon"			"weapon_model10"
@@ -3163,7 +3163,7 @@
 				
 				"weapon"			"weapon_m79_incen"
 				//Primary
-				"weapon"			"weapon_m1887"
+				"weapon"			"weapon_ae_m1014"
 				//"weapon_upgrade"	"barrel_silencer_heavy"
 				//Secondary
 				//"weapon"			"weapon_glock18"
@@ -3184,7 +3184,7 @@
 				
 				"weapon"			"weapon_m79_incen"
 				//Primary
-				"weapon"			"weapon_m1887"
+				"weapon"			"weapon_ae_m1014"
 				//"weapon_upgrade"	"barrel_silencer_heavy"
 				"weapon_upgrade"	"tacbuck"
 				//Secondary
@@ -3225,7 +3225,6 @@
 				//Primary
 				"weapon"			"weapon_saiga12"
 				"weapon_upgrade"	"magazine_extended_saiga_12rd"
-				"weapon_upgrade"	"commbuck"
 				//Secondary
 				"weapon"			"weapon_glock18"
 				//"weapon_upgrade"	"magazine_extended_carbine_30rd"
@@ -3245,7 +3244,6 @@
 				//Primary
 				"weapon"			"weapon_saiga12"
 				"weapon_upgrade"	"magazine_extended_saiga_12rd"
-				"weapon_upgrade"	"commbuck"
 				//Secondary
 				"weapon"			"weapon_glock18"
 				//"weapon_upgrade"	"magazine_extended_carbine_30rd"
