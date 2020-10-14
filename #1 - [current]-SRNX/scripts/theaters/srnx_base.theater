@@ -1334,6 +1334,7 @@
 			}
 			"allowed_items"
 			{
+				"weapon"			"weapon_msr"
 				"weapon"			"weapon_m40a1"
 				"weapon"			"weapon_enfield"
 				"weapon"			"weapon_mosin"

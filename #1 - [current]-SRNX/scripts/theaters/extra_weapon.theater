@@ -21,7 +21,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"160"	// (6.6kg[weapon] + (0.2kg[ammo] * (1+16)[mags]) )*10[kg->hg for int]  +32[encumbrance]
 			"barrel_length"				"38"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"draw_speed"				"1.9"
 			"holster_speed"				"1.9"
 			//"draw_speed_next_weapon"	"1.9"
@@ -224,19 +224,6 @@
 
 			"viewmodel_attachments"
 			{
-				"rearsight"
-				{
-					"model"					"models/weapons/upgrades/a_standard_m590.mdl"
-					"fallback_for_slot"			"optics"
-				}
-			}
-			"world_attachments"
-			{
-				"w_magazine"
-				 {
-					 "model"						"models/weapons/mags/w_saiga_mag.mdl"
-					 "fallback_for_slot"			"magazine"
-				 }
 			}
 			"fov"
 			{
@@ -281,7 +268,7 @@
 			"ballistics"
 			{
 				"spread"				"1.5 1.5 0.0"
-				"FireModes"				"semi, full"
+				"FireModes"				"pump"
 				"maxrange"				"5500"
 				"singleReload"				"1"
 				"tacticalreload"		"1"
