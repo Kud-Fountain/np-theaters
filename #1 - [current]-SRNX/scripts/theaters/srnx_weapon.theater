@@ -2570,7 +2570,7 @@
 			"act_table"				"pistol"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"8"	// (0.7kg[weapon] + (0.1kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +2[encumbrance]
-			"weapon_cost"				"1"
+			"weapon_cost"				"0"
 			"class_restricted"			"1"
 			"barrel_length"				"10"
 			"draw_speed"				"1.65"
@@ -7593,9 +7593,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"buckshot"
-				"clip_max"					"55"
+				"clip_max"					"75"
 				"clip_max_rounds"			"8"
-				"clip_default"				"55"
+				"clip_default"				"75"
 			}
 			"attachments"
 			{
@@ -7691,9 +7691,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"buckshot"
-				"clip_max"					"55"
+				"clip_max"					"75"
 				"clip_max_rounds"			"5"
-				"clip_default"				"55"
+				"clip_default"				"75"
 			}
 			"attachments"
 			{
@@ -7790,9 +7790,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"buckshot"
-				"clip_max"					"55"
+				"clip_max"					"75"
 				"clip_max_rounds"			"6"
-				"clip_default"				"55"
+				"clip_default"				"75"
 			}
 			"attachments"
 			{
@@ -7901,9 +7901,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"			"buckshot"
-				"clip_max"			"55"
+				"clip_max"			"75"
 				"clip_max_rounds"	"8"
-				"clip_default"		"55"
+				"clip_default"		"75"
 			}
 			"attachments"
 			{
@@ -7995,7 +7995,7 @@
 			"ballistics"
 			{
 				"spread"				"3.6 5.0 2.7"
-				"FireModes"				"semi, pump"
+				"FireModes"				"pump"
 				"maxrange"				"8000"
 				"singleReload"				"1"
 				"tacticalreload"			"1"
@@ -8003,9 +8003,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"buckshot"
-				"clip_max"				"55"
+				"clip_max"				"75"
 				"clip_max_rounds"		"8"
-				"clip_default"			"55"
+				"clip_default"			"75"
 			}
 			"attachments"
 			{
@@ -8098,9 +8098,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"buckshot"
-				"clip_max"				"55"
+				"clip_max"				"75"
 				"clip_max_rounds"		"14"
-				"clip_default"			"55"
+				"clip_default"			"75"
 			}
 			"attachments"
 			{
@@ -8932,7 +8932,7 @@
 		{
 			"import"						"ballistic_base"
 			"weapon_class"					"sniper_rifle"
-			"weapon_cost"					"2"
+			"weapon_cost"					"1"
 			"print_name"					"#weapon_m40a1g"
 			"print_desc"					"#weapon_m40a1g_desc"
 			"view_model"					"models/weapons/v_m40a1.mdl"
@@ -9015,9 +9015,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"762x54mm"
-				"clip_max"					"45"
+				"clip_max"					"65"
 				"clip_max_rounds"			"5"
-				"clip_default"				"45"
+				"clip_default"				"65"
 			}
 			"attachments"
 			{
@@ -9102,9 +9102,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"762x54mm"
-				"clip_max"					"45"
+				"clip_max"					"65"
 				"clip_max_rounds"			"5"
-				"clip_default"				"45"
+				"clip_default"				"65"
 			}
 			"attachments"
 			{
@@ -9203,9 +9203,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"762x54mm"
-				"clip_max"				"45"
+				"clip_max"				"65"
 				"clip_max_rounds"			"5"
-				"clip_default"				"45"
+				"clip_default"				"65"
 			}
 			"attachments"
 			{

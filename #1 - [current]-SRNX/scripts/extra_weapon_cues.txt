@@ -1,3 +1,157 @@
+//////msr///////
+
+"Weapon_msr.SingleDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_110dB"
+	"wave"			")armory_sounds/weapons/msr_dist.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "ins_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+		}
+	} 
+}
+
+"Weapon_msr.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+	"wave"		    ")armory_sounds/weapons/msr_fp.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_msr.SingleDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                        "volume_accumulate"
+                        {
+                               "input3" "0.7"
+                        }
+
+		}
+	}
+
+}
+		
+
+"Weapon_msr.SingleLocal"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"	        "armory_sounds/weapons/msr_tp.wav"
+}
+
+"Weapon_msr.SingleSilenced"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_90dB"
+	"rndwave"
+	{
+	"wave"	        ")armory_sounds/weapons/msr_suppressed_tp.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_mp40.SingleSilencedDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+		"volume_xfade_start_dist"
+		{
+			"input2" "100"
+		}	
+		"volume_xfade_end_dist"
+		{
+			"input2" "1200"
+		}	
+
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                        "volume_accumulate"
+                        {
+                               "input3" "0.7"
+                        }
+
+		}
+	}
+
+}
+
+
+"Weapon_msr.SingleSilencedLocal"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"			"armory_sounds/weapons/msr_suppressed_fp.wav"	
+}
+
 //////wa2000///////
 
 "Weapon_wa2000.SingleDistant"
