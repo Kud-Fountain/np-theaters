@@ -1946,7 +1946,7 @@
 			"import"				"base_heavybarrel"
 			"upgrade_cost"					"1"
 			"weight"						"18"
-			"draw_speed"					"0.95"
+			//"draw_speed"					"0.95"
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_asval"

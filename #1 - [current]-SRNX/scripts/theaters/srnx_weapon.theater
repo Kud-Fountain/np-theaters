@@ -4331,6 +4331,7 @@
 			{
 				"ammo_type"					"762x51_mag"
 				"clip_max"					"12"
+				"magsize_override"		"30"
 				"clip_max_rounds"			"30"
 				"clip_default"				"0"
 			}
@@ -4442,6 +4443,7 @@
 				"ammo_type"					"762x51_box_20rnd"
 				"clip_max"					"12"
 				"clip_max_rounds"			"30"
+				"magsize_override"		"30"
 				"clip_default"				"0"
 			}
 			"attachments"

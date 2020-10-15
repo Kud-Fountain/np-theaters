@@ -138,6 +138,36 @@
 			"reload_speed"				"1.65"
 			//"bolt_speed"				"1.65"
 			
+			"viewmodel_attachments"
+			{
+				"standard_bayonet"
+				{
+					"model"						"models/weapons/upgrades/a_fg42_bayonet_default.mdl"
+					"fallback_for_slot"			"underbarrel"
+				}
+				
+				"standard_iron"
+				{
+					"model"						"models/weapons/upgrades/a_iron_fg42_default.mdl"
+					"fallback_for_slot"			"optics"
+				}
+			}
+			
+			"world_attachments"
+			{
+				"standard_bayonet"
+				{
+					"model"						"models/weapons/upgrades/w_fg42_bayonet_default.mdl"
+					"fallback_for_slot"			"underbarrel"
+				}
+				
+				"standard_iron"
+				{
+					"model"						"models/weapons/upgrades/w_fg42_irons.mdl"
+					"fallback_for_slot"			"optics"
+				}
+			}
+			
 			"fov"
 			{
 				"fov_plr_ironsight"			"-20"
@@ -730,7 +760,7 @@
 				"ammo_type"				"303_brit_box_30rnd"
 				"clip_max"				"12"
 				"clip_max_rounds"		"30"
-				"clip_default"			"0"
+				"clip_default"			"2"
 			}
 			"attachments"
 			{

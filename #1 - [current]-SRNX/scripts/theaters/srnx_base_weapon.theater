@@ -300,5 +300,24 @@
 				"freeaim_screenratio"			"0"	// if this is 0 and freeaim_distance is set, that will just mean sway gets applied
 			}
 		}
+		
+		"base_heavybarrel"
+		{
+			"upgrade_slot"				"barrel"
+			"upgrade_cost"				"1"
+			"print_name"				"#weapon_upgrade_heavybarrel"
+			"print_desc"				"#weapon_upgrade_heavybarrel_desc"
+			
+			"recoil"
+			{
+				"recoil_lateral_frac"			"0.85"
+				"recoil_vertical_frac"			"0.85"
+			}
+			
+			"sway"
+			{
+				"sway_speed_frac"			"0.4"
+			}
+		}
 	}
 }

@@ -34,7 +34,7 @@
 
 			"buy_order" 
 			{
-				"weapon"			"weapon_sten_mk2"
+				"weapon"			"weapon_bar"
 				"weapon"			"weapon_defib"
 				"weapon"			"weapon_m67"
 				"gear"				"gear_uav"
@@ -2143,7 +2143,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_lewis"
+				"weapon"			"weapon_fg42"
 				//Secondary
 				"weapon"			"weapon_mr96"
 				"weapon_upgrade"	"ammo_ap_mr96"
@@ -2160,7 +2160,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_lewis"
+				"weapon"			"weapon_fg42"
 				//Secondary
 				"weapon"			"weapon_mr96"
 				"weapon_upgrade"	"ammo_ap_mr96"
@@ -2542,7 +2542,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_thompson_m1a1"
+				"weapon"			"weapon_stg44"
 				//Secondary
 				"weapon"			"weapon_glock18"
 				"weapon_upgrade"	"magazine_extended_glock"
@@ -2560,7 +2560,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_thompson_m1a1"
+				"weapon"			"weapon_stg44"
 				//Secondary
 				"weapon"			"weapon_glock18"
 				"weapon_upgrade"	"magazine_extended_glock"
@@ -2715,7 +2715,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_enfield"
+				"weapon"			"weapon_bar"
 				//Secondary
 				"weapon"			"weapon_deagle"
 				//"weapon_upgrade"	"magazine_extended_smg_40"
@@ -2733,8 +2733,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_enfield"
-				"weapon_upgrade"	"ammo_ap_mosin"
+				"weapon"			"weapon_bar"
 				//Secondary
 				"weapon"			"weapon_deagle"
 				//"weapon_upgrade"	"magazine_extended_smg_40"
@@ -3292,7 +3291,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_sten_mk5"
+				"weapon"			"weapon_owen"
 				"weapon_upgrade"	"magazine_extended_smg_40"
 				//Secondary
 				"weapon"			"weapon_glock18"
@@ -3311,7 +3310,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_sten_mk5"
+				"weapon"			"weapon_owen"
 				"weapon_upgrade"	"magazine_extended_smg_40"
 				"weapon_upgrade"	"ammo_hp_fal"
 				//Secondary
