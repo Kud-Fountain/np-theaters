@@ -151,93 +151,6 @@
 		// ========================================
 		// Bullets
 		// ========================================
-		//bar
-		"762x51_box_20rnd"
-		{
-			"import"				"762x51"
-			"magsize"				"20"
-		}
-		
-		//m1919
-		"30-06_belt"
-		{
-			"import"					"default"
-			"brass_model"				"models/weapons/shells/30-06_link.mdl"
-			"carry"						"3"
-			"magsize"					"250"
-			"tracer_frequency"			"5"
-			"tracer_type"				"whiz_with_line"
-			"tracer_lowammo"			"15"
-			"SuppressionIncrement"		"60"
-			
-			"Damage"
-			{
-				"10"					"60"
-				"8000"					"25"
-			}
-			"PenetrationPower"
-			{
-				"10"					"1500"
-				"15000"					"500"
-			}
-
-			"PenetrationDamage"
-			{
-				"0"						"1.0"
-				"1000"					"0.3"
-			}	
-
-			"DamageHitgroups"
-			{
-				"HITGROUP_HEAD"       "2.1"
-				"HITGROUP_CHEST"      "2.00"
-				"HITGROUP_STOMACH"    "2.00"
-				"HITGROUP_LEFTARM"    "0.42"
-				"HITGROUP_RIGHTARM"   "0.42"
-				"HITGROUP_LEFTLEG"    "0.42"
-				"HITGROUP_RIGHTLEG"   "0.42"
-			}
-		}
-		
-		//bren
-		"303_brit_box_30rnd"
-		{
-			"import"					"303_brit"
-			"carry"						"8"
-			"magsize"					"30"
-			"tracer_frequency"			"10"
-			"tracer_type"				"whiz_with_line"
-			"tracer_lowammo"			"5"
-
-			"Damage"
-			{
-				"1000"					"85"
-				"8000"					"40"
-			}
-
-			"PenetrationPower"
-			{
-				"10"					"1500"
-				"15000"					"500"
-			}
-
-			"PenetrationDamage"
-			{
-				"0"						"1.0"
-				"1000"					"0.3"
-			}
-			
-			"DamageHitgroups"
-			{
-				"HITGROUP_HEAD"       "1.95"
-				"HITGROUP_CHEST"      "1.85"
-				"HITGROUP_STOMACH"    "1.85"
-				"HITGROUP_LEFTARM"    "0.52"
-				"HITGROUP_RIGHTARM"   "0.52"
-				"HITGROUP_LEFTLEG"    "0.52"
-				"HITGROUP_RIGHTLEG"   "0.52"
-			}
-		}
 		"762x53mm"
 		{
 			"import"	"default"
@@ -283,8 +196,8 @@
 			"Damage"
 			{
 				"10"	"100"
-				"3500"	"85"
-				"8000"	"30"
+				"5000"	"85"
+				"8000"	"35"
 			}
 			"PenetrationPower"
 			{
@@ -312,7 +225,7 @@
 		"9x19mm_sten"
 		{
 			"import"				"9x19mm_smg"
-			//"magsize"				"32"
+			"magsize"				"32"
 			"brass_model"				"models/weapons/shells/9x19.mdl"
 			
 			"Damage"
@@ -1508,8 +1421,7 @@
 			"brass_model" "models/weapons/shells/762x39.mdl"
 			"Damage"
 			{
-				"10"					"100"
-				"8000"					"50"
+				"10"					"90"
 				"12000"					"10"
 			}
 			"PenetrationPower"
@@ -2486,7 +2398,7 @@
 		{
 			"import"				"762x39"
 			"carry"					"12"
-			//"magsize"				"30"
+			"magsize"				"30"
 		}
 		
 		"762x38mm_hp_clip"

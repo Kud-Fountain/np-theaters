@@ -4117,7 +4117,7 @@
 			"act_table"						"shortrifle"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"29" // (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]	
-			"weapon_cost"					"5"//2
+			"weapon_cost"					"3"//2
 			"class_restricted"				"1"
 			"barrel_length"					"22"
 			"draw_speed"				"1.50"
@@ -4213,7 +4213,7 @@
 			{
 				"ammo_type"					"762x38_box"//762x39mm_mag
 				"clip_max"					"12"
-				"clip_max_rounds"			"75"
+				"clip_max_rounds"			"30"
 				"clip_default"				"0"
 			}
 			"attachments"
@@ -4698,7 +4698,7 @@
 			"act_table"				"shortrifle"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"33"
-			"weapon_cost"				"0"
+			"weapon_cost"				"3"
 			"barrel_length"				"22"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
@@ -8703,7 +8703,7 @@
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"90" //10.58 lbs + 2 75 rnd mags at 4 lbs each
-			"weapon_cost"					"4"
+			"weapon_cost"					"3"
 			"barrel_length"					"26"
 			"draw_speed"				"1.50"
 			"holster_speed"				"1.50"
