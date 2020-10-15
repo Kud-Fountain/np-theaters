@@ -2028,6 +2028,10 @@
 				"weapon"					"weapon_bren_mk2"
 				"weapon"					"weapon_mg34"
 				"weapon"					"weapon_m1919"
+				"weapon"					"weapon_bar"
+				"weapon"					"weapon_stg44"
+				"weapon"					"weapon_fg42"
+				"weapon"					"weapon_owen"
 			}
 		}
 		// ========================================
@@ -2041,6 +2045,16 @@
 			
 			"viewmodel_attachments"
 			{
+				"Irons_fg42"
+				{
+					"model"					"models/weapons/upgrades/a_iron_fg42_down.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_fg42"
+					}
+				}
+				
 				// AKM Modkit
 				"ModKit03"
 				{

@@ -151,6 +151,13 @@
 		// ========================================
 		// Bullets
 		// ========================================
+		//bar
+		"762x51_box_20rnd"
+		{
+			"import"				"762x51"
+			"magsize"				"20"
+		}
+		
 		//m1919
 		"30-06_belt"
 		{
@@ -305,7 +312,7 @@
 		"9x19mm_sten"
 		{
 			"import"				"9x19mm_smg"
-			"magsize"				"32"
+			//"magsize"				"32"
 			"brass_model"				"models/weapons/shells/9x19.mdl"
 			
 			"Damage"
@@ -2479,7 +2486,7 @@
 		{
 			"import"				"762x39"
 			"carry"					"12"
-			"magsize"				"30"
+			//"magsize"				"30"
 		}
 		
 		"762x38mm_hp_clip"

@@ -50,6 +50,7 @@
 				// "weapon"			"weapon_m79_smoke"
 				// "weapon"			"weapon_m79_incen"
 				//Primaries
+				"weapon"			"weapon_bar"
 				"weapon"			"weapon_aug3"
 				"weapon"			"weapon_g36c"
 				"weapon"			"weapon_l1a1"
@@ -236,6 +237,7 @@
 				//Primaries
 				//"weapon"			"weapon_vz58"
 				//"weapon"			"weapon_acr"
+				"weapon"			"weapon_owen"
 				"weapon"			"weapon_asval"
 				"weapon"			"weapon_kriss"
 				//"weapon"			"weapon_mk18"
@@ -823,6 +825,7 @@
 			"allowed_items"
 			{
 				//Primaries
+				"weapon"			"weapon_fg42"
 				"weapon"			"weapon_m1919"
 				"weapon"			"weapon_lewis"
 				"weapon"			"weapon_m249"
@@ -1500,6 +1503,7 @@
 			{
 				//Primaries
 				//"weapon"			"weapon_m3greasegun"
+				"weapon"			"weapon_stg44"
 				"weapon"			"weapon_thompson_m1a1"
 				"weapon"			"weapon_m1garand"
 				"weapon"			"weapon_mk18_m0"
