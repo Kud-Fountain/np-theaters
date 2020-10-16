@@ -207,11 +207,11 @@
 			"draw_speed"				"0.8"
 			"holster_speed"				"0.8"
 
-			"recoil"
-			{
-				"recoil_vertical_frac"		"1.05"
-				"recoil_lateral_frac"		"1.05"
-			}
+			//"recoil"
+			//{
+			//	"recoil_vertical_frac"		"1.05"
+			//	"recoil_lateral_frac"		"1.05"
+			//}
 
 			"allowed_weapons"
 			{
@@ -485,21 +485,22 @@
 			"upgrade_slot"				"magazine"
 			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"weight"					"16"
 			"print_name"				"#weapon_upgrade_magazine_extended"
 			"print_desc"				"#weapon_upgrade_50_magazine_scarl_dy_desc"
 
-			"magsize_override"			"50"
+			"magsize_override"			"45"
 			//"maxcarry_override"			"6"
 			
-			"reload_speed"				"0.8"
-			"draw_speed"				"0.8"
-			"holster_speed"				"0.8"
+			"reload_speed"				"0.85"
+			"draw_speed"				"0.85"
+			"holster_speed"				"0.85"
 
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_scar"
+				//"weapon"				"weapon_scar"
+				"weapon"				"weapon_ae_coltcommando"
 			}
 		}
 		"magazine_extended_smg_50"
@@ -515,9 +516,9 @@
 			"magsize_override"			"50"
 			//"maxcarry_override"			"6"
 			
-			"reload_speed"				"0.75"
-			"draw_speed"				"0.75"
-			"holster_speed"				"0.75"
+			"reload_speed"				"0.8"
+			"draw_speed"				"0.8"
+			"holster_speed"				"0.8"
 
 			"allowed_weapons"
 			{
@@ -539,11 +540,11 @@
 			"draw_speed"				"0.8"
 			"holster_speed"				"0.8"
 			
-			"recoil"
-			{
-				"recoil_vertical_frac"		"0.95"
-				"recoil_lateral_frac"		"1.05"
-			}
+			//"recoil"
+			//{
+			//	"recoil_vertical_frac"		"0.95"
+			//	"recoil_lateral_frac"		"1.05"
+			//}
 			"magsize_override"			"30"
 			//"maxcarry_override"			"5"
 
@@ -563,15 +564,15 @@
 			"print_name"				"#weapon_upgrade_magazine_extended"
 			"print_desc"				"#weapon_upgrade_42_magazine_extended_dy_desc"
 
-			"reload_speed"				"0.8"
-			"draw_speed"				"0.8"
-			"holster_speed"				"0.8"
+			"reload_speed"				"0.85"
+			"draw_speed"				"0.85"
+			"holster_speed"				"0.85"
 			
-			"recoil"
-			{
-				"recoil_vertical_frac"		"0.95"
-				"recoil_lateral_frac"		"1.05"
-			}
+			//"recoil"
+			//{
+			//	"recoil_vertical_frac"		"0.95"
+			//	"recoil_lateral_frac"		"1.05"
+			//}
 			"magsize_override"			"42"
 			//"maxcarry_override"			"5"
 
@@ -619,7 +620,7 @@
 		"magazine_drum_100rd"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"class_restricted"			"1"
 			"team_acces"				"security, insurgent"
 			"weight"					"60"
@@ -629,15 +630,15 @@
 			
 			"magsize_override"			"100"
 			//"maxcarry_override"			"4"
-			"reload_speed"				"0.70"
-			"draw_speed"				"0.70"
-			"holster_speed"				"0.70"
+			"reload_speed"				"0.75"
+			"draw_speed"				"0.75"
+			"holster_speed"				"0.75"
 
-			"recoil"
-			{
-				"recoil_vertical_frac"		"0.95"
-				"recoil_lateral_frac"		"1.05"
-			}
+			//"recoil"
+			//{
+			//	"recoil_vertical_frac"		"0.95"
+			//	"recoil_lateral_frac"		"1.05"
+			//}
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_vz58"
@@ -724,11 +725,11 @@
 			//"maxcarry_override"			"4"
 			"reload_speed"				"0.8"
 			"draw_speed"				"0.8"
-			"recoil"
-			{
-				"recoil_vertical_frac"		"0.95"
-				"recoil_lateral_frac"		"1.05"
-			}
+			//"recoil"
+			//{
+			//	"recoil_vertical_frac"		"0.95"
+			//	"recoil_lateral_frac"		"1.05"
+			//}
 
 			"allowed_weapons"
 			{
@@ -768,13 +769,13 @@
 			"weight"					"50" // Rough estimate of ammo weight + gameplay
 			"magsize_override"			"50"
 			//"maxcarry_override"			"4"
-			"reload_speed"				"0.75"
-			"draw_speed"				"0.75"
-			"recoil"
-			{
-				"recoil_vertical_frac"		"0.95"
-				"recoil_lateral_frac"		"1.05"
-			}
+			"reload_speed"				"0.8"
+			"draw_speed"				"0.8"
+			//"recoil"
+			//{
+			//	"recoil_vertical_frac"		"0.95"
+			//	"recoil_lateral_frac"		"1.05"
+			//}
 			"viewmodel_attachments"
 			{
 				"magazine"
@@ -793,7 +794,7 @@
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_m4a1"
-				"weapon"					"weapon_mk18"
+				//"weapon"					"weapon_mk18"
 				"weapon"					"weapon_galil_sar"
 			}
 			"world_attachments"
@@ -815,19 +816,19 @@
 			"weight"					"72" // Rough estimate of ammo weight + gameplay
 			"magsize_override"			"75"
 			//"maxcarry_override"			"4"
-			"reload_speed"				"0.75"
-			"draw_speed"				"0.75"
-			"holster_speed"				"0.75"
+			"reload_speed"				"0.8"
+			"draw_speed"				"0.8"
+			"holster_speed"				"0.8"
 
-			"recoil"
-			{
-				"recoil_vertical_frac"		"0.95"
-				"recoil_lateral_frac"		"1.05"
-			}
+			//"recoil"
+			//{
+			//	"recoil_vertical_frac"		"0.95"
+			//	"recoil_lateral_frac"		"1.05"
+			//}
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_m16a4"
-				"weapon"					"weapon_m4a1"
+				//"weapon"					"weapon_m16a4"
+				//"weapon"					"weapon_m4a1"
 				"weapon"					"weapon_mk18"
 			}
 			"viewmodel_attachments"
@@ -1945,7 +1946,7 @@
 			"import"				"base_heavybarrel"
 			"upgrade_cost"					"1"
 			"weight"						"18"
-			"draw_speed"					"0.95"
+			//"draw_speed"					"0.95"
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_asval"
@@ -2023,7 +2024,10 @@
 				"weapon"				"weapon_springfield"
 				"weapon"				"weapon_k98"
 				"weapon"					"weapon_hk416"
-
+				"weapon"					"weapon_lewis"
+				"weapon"					"weapon_bren_mk2"
+				"weapon"					"weapon_mg34"
+				"weapon"					"weapon_m1919"
 			}
 		}
 		// ========================================
@@ -2890,7 +2894,7 @@
 				"weapon"					"weapon_rfb"
 				"weapon"					"weapon_g36c"
 				"weapon"					"weapon_mk20_scar"
-				"weapon"					"weapon_scar"
+				//"weapon"					"weapon_scar"
 				"weapon"					"weapon_famas"
 				"weapon"					"weapon_rpk74m"
 				"weapon"					"weapon_sig553"
@@ -2957,6 +2961,7 @@
 					
 					"weapons"
 					{
+						"weapon"				"weapon_czse3"
 						"weapon"				"weapon_mini14"
 						"weapon"				"weapon_mp5"
 						"weapon"				"weapon_asval"

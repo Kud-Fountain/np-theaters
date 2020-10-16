@@ -34,7 +34,7 @@
 
 			"buy_order" 
 			{
-				"weapon"			"weapon_sten_mk2"
+				"weapon"			"weapon_g36c"
 				"weapon"			"weapon_defib"
 				"weapon"			"weapon_m67"
 				"gear"				"gear_uav"
@@ -393,6 +393,7 @@
 				"weapon"			"weapon_m93r"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
+				"weapon_upgrade"	"magazine_extended_scarl_40"
 
 				//Explosives
 				"weapon_upgrade"		"underbarrel_m320_he"
@@ -405,6 +406,13 @@
 				//"weapon"			"weapon_mk3"
 				//Gear
 				"gear"				"basic_chest_rm"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_ae_coltcommando"		"2"
+				}
 			}
 		}
 		"Gnalvl_engineer_medic_1"
@@ -815,6 +823,7 @@
 			"allowed_items"
 			{
 				//Primaries
+				//"weapon"			"weapon_m1919"
 				"weapon"			"weapon_lewis"
 				"weapon"			"weapon_m249"
 				"weapon"			"weapon_m60"
@@ -887,6 +896,7 @@
 			"allowed_items"
 			{
 				//Primaries
+				//"weapon"			"weapon_bren_mk2"
 				"weapon"			"weapon_galil_sar"
 				"weapon"			"weapon_rpk74m"
 				"weapon"			"weapon_rpk"
@@ -896,7 +906,7 @@
 				
 				//upgrades
 				"weapon_upgrade"	"magazine_drum_75rd"
-				//"weapon_upgrade"	"ammo_beta75"
+				"weapon_upgrade"	"ammo_beta75"
 				"weapon_upgrade"	"magazine_drum_100rd"
 				"weapon_upgrade"	"ammo_beta50"
 				//"weapon_upgrade"	"tactical_sling_sup"
@@ -1460,6 +1470,73 @@
 				//"gear"				"srnx_chest_carrier3"
 			}
 		}
+		"Gnalvl_vip_fp_medic"
+		{	
+			"team"			"security"
+			"print_name"	"#Squad_Gnalvl_VIP_FP"
+
+			"models"
+			{
+				"player"				"models/characters/civilian_vip_security_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_vip.mdl"
+				
+				"bodygroups"
+				{
+					"us"					"2"
+					"head_ref"				"4"
+					"holster"				"1"
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+
+			"buy_order" 
+			{
+				"weapon"			"weapon_m1garand"
+				"weapon"			"weapon_defib"
+				"gear"				"basic_chest"
+			}
+			"allowed_items"
+			{
+				//Primaries
+				//"weapon"			"weapon_m3greasegun"
+				"weapon"			"weapon_thompson_m1a1"
+				"weapon"			"weapon_m1garand"
+				"weapon"			"weapon_mk18_m0"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_mp5"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_mr96"
+				"weapon"			"weapon_m3greasegun"
+				"weapon"			"weapon_mp7"
+				"weapon"			"weapon_air_fp"
+
+				//Upgrades
+				"weapon_upgrade"	"magazine_extended_rifle_30rd"
+				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
+				//Secondaries
+				"weapon"			"weapon_c4_clicker"
+				//Explosives
+				"weapon"			"weapon_m67"
+				//"weapon"			"weapon_m84"
+				//"weapon"			"weapon_mk3"
+				"weapon"			"weapon_anm14"
+				//Pistols
+				//Gear
+				"gear"				"basic_chest"
+				//"gear"				"srnx_chest_carrier1"
+				//"gear"				"srnx_chest_carrier2"
+				//"gear"				"srnx_chest_carrier3"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					
+				}
+			}
+		}
 		"Gnalvl_vip_medic"
 		{	
 			"team"			"security"
@@ -1500,6 +1577,7 @@
 				"weapon"			"weapon_mr96"
 				"weapon"			"weapon_m3greasegun"
 				"weapon"			"weapon_mp7"
+				//"weapon"			"weapon_air_fp"
 
 				//Upgrades
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
@@ -2183,8 +2261,7 @@
 				"weapon"			"weapon_knife"
 				//Primary1
 				//Primary
-				"weapon"			"weapon_m249"
-				"weapon_upgrade"	"ammo_hp_m249"
+				"weapon"			"weapon_ae_mg42"
 				//Secondary
 				"weapon"			"weapon_m45"
 				//"weapon_upgrade"	"magazine_extended_smg_40"
@@ -2204,8 +2281,7 @@
 				"weapon"			"weapon_knife"
 				//Primary1
 				//Primary
-				"weapon"			"weapon_m249"
-				"weapon_upgrade"	"ammo_hp_m249"
+				"weapon"			"weapon_ae_mg42"
 				//Secondary
 				"weapon"			"weapon_m45"
 				//"weapon_upgrade"	"magazine_extended_smg_40"
@@ -2244,8 +2320,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_vickers"
-				"weapon_upgrade"	"ammo_ap_mk48"
+				"weapon"			"weapon_m249"
 				//Secondary
 				"weapon"			"weapon_kingcobra"
 				"weapon_upgrade"	"ammo_hp_mr96"
@@ -2264,8 +2339,7 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_vickers"
-				"weapon_upgrade"	"ammo_ap_mk48"
+				"weapon"			"weapon_m249"
 				//Secondary
 				"weapon"			"weapon_kingcobra"
 				"weapon_upgrade"	"ammo_hp_mr96"

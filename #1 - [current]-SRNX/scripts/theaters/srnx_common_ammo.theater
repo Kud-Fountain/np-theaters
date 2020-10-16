@@ -145,12 +145,92 @@
 		}
 		"grenade_flares"
 		{
-			"carry"					"1"
+			"carry"					"0"
 		}
 		
 		// ========================================
 		// Bullets
 		// ========================================
+		//m1919
+		"30-06_belt"
+		{
+			"import"					"default"
+			"brass_model"				"models/weapons/shells/30-06_link.mdl"
+			"carry"						"3"
+			"magsize"					"250"
+			"tracer_frequency"			"5"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"15"
+			"SuppressionIncrement"		"60"
+			
+			"Damage"
+			{
+				"10"					"60"
+				"8000"					"25"
+			}
+			"PenetrationPower"
+			{
+				"10"					"1500"
+				"15000"					"500"
+			}
+
+			"PenetrationDamage"
+			{
+				"0"						"1.0"
+				"1000"					"0.3"
+			}	
+
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "2.1"
+				"HITGROUP_CHEST"      "2.00"
+				"HITGROUP_STOMACH"    "2.00"
+				"HITGROUP_LEFTARM"    "0.42"
+				"HITGROUP_RIGHTARM"   "0.42"
+				"HITGROUP_LEFTLEG"    "0.42"
+				"HITGROUP_RIGHTLEG"   "0.42"
+			}
+		}
+		
+		//bren
+		"303_brit_box_30rnd"
+		{
+			"import"					"303_brit"
+			"carry"						"8"
+			"magsize"					"30"
+			"tracer_frequency"			"10"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"5"
+
+			"Damage"
+			{
+				"1000"					"85"
+				"8000"					"40"
+			}
+
+			"PenetrationPower"
+			{
+				"10"					"1500"
+				"15000"					"500"
+			}
+
+			"PenetrationDamage"
+			{
+				"0"						"1.0"
+				"1000"					"0.3"
+			}
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.95"
+				"HITGROUP_CHEST"      "1.85"
+				"HITGROUP_STOMACH"    "1.85"
+				"HITGROUP_LEFTARM"    "0.52"
+				"HITGROUP_RIGHTARM"   "0.52"
+				"HITGROUP_LEFTLEG"    "0.52"
+				"HITGROUP_RIGHTLEG"   "0.52"
+			}
+		}
 		"762x53mm"
 		{
 			"import"	"default"
@@ -196,8 +276,8 @@
 			"Damage"
 			{
 				"10"	"100"
-				"5000"	"85"
-				"8000"	"35"
+				"3500"	"85"
+				"8000"	"30"
 			}
 			"PenetrationPower"
 			{
@@ -1421,7 +1501,8 @@
 			"brass_model" "models/weapons/shells/762x39.mdl"
 			"Damage"
 			{
-				"10"					"90"
+				"10"					"100"
+				"8000"					"50"
 				"12000"					"10"
 			}
 			"PenetrationPower"
