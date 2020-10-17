@@ -320,6 +320,7 @@
 			"allowed_items"
 			{
 				//Primaries
+				"weapon"			"weapon_sten_mk2"
 				"weapon"			"weapon_ae_coltcommando"
 				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_sa80"
@@ -1510,7 +1511,7 @@
 				"weapon"			"weapon_mr96"
 				"weapon"			"weapon_m3greasegun"
 				"weapon"			"weapon_mp7"
-				"weapon"			"weapon_air_fp"
+				"weapon"			"weapon_makarov_fp"
 
 				//Upgrades
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
@@ -1559,7 +1560,7 @@
 
 			"buy_order" 
 			{
-				"weapon"			"weapon_m1garand"
+				"weapon"			"weapon_doi2ins_m1garand"
 				"weapon"			"weapon_defib"
 				"gear"				"basic_chest"
 			}

@@ -3377,7 +3377,7 @@
 				"weapon"					"weapon_ae_coltcommando"
 				"weapon"					"weapon_sa80"
 				"weapon"					"weapon_m16a4"
-				"weapon"					"weapon_mp40"
+				//"weapon"					"weapon_mp40"
 				"weapon"					"weapon_m249"
 				"weapon"					"weapon_mk46"
 				"weapon"					"weapon_mk48"
@@ -6345,7 +6345,7 @@
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_svd"
-				"weapon"					"weapon_wa2000"
+				//"weapon"					"weapon_wa2000"
 			}
 			"viewmodel_attachments"
 			{
@@ -6417,7 +6417,7 @@
 				"weapon"					"weapon_l1a1"
 				"weapon"					"weapon_sks"
 				"weapon"					"weapon_svd"
-				"weapon"					"weapon_wa2000"
+				//"weapon"					"weapon_wa2000"
 				"weapon"					"weapon_g3a3"
 			}
 			"viewmodel_attachments"
@@ -6553,6 +6553,7 @@
 			{
 				"weapon"			"weapon_m14"
 				"weapon"			"weapon_m107"
+				"weapon"			"weapon_wa2000"
 				//"weapon"			"weapon_m249"
 				//"weapon"			"weapon_mk46"
 				//"weapon"			"weapon_mk48"
@@ -6594,6 +6595,7 @@
 					{
 						"weapon"				"weapon_m14"
 						"weapon"				"weapon_m107"
+						"wenpon"				"weapon_wa2000"
 						"weapon"				"weapon_rfb"
 						"weapon"				"weapon_mk20_scar"
 					}
@@ -6641,6 +6643,12 @@
 					"fov_wpn_focus"				"57"
 				}
 				"weapon_m107"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"57"
+				}
+				"weapon_wa2000"
 				{
 					"fov_wpn_scope"				"10"
 					"fov_wpn_ironsight"			"50"

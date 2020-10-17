@@ -74,7 +74,7 @@
 					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_medic_2"
 					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_medic_2"
 					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_medic"
-					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_fp_medic"
+					"#Squad_Gnalvl_VIP_FP"					"Gnalvl_vip_fp_medic"
 				}
 				"[Bravo]"
 				{
