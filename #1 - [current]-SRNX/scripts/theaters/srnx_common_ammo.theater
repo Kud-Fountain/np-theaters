@@ -279,8 +279,8 @@
 			"brass_model"	"models/weapons/shells/762x51.mdl"
 			"Damage"
 			{
-				"10"	"100"
-				"3500"	"85"
+				"10"	"80"
+				"3500"	"65"
 				"8000"	"30"
 			}
 			"PenetrationPower"
@@ -1505,7 +1505,7 @@
 			"brass_model" "models/weapons/shells/762x39.mdl"
 			"Damage"
 			{
-				"10"					"100"
+				"10"					"90"
 				"8000"					"50"
 				"12000"					"10"
 			}

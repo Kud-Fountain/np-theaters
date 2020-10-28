@@ -531,7 +531,7 @@
 			"upgrade_slot"				"magazine"
 			"upgrade_cost"				"2"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"weight"					"30"
 			"print_name"				"#weapon_upgrade_magazine_extended"
 			"print_desc"				"#weapon_upgrade_30_magazine_extended_dy_desc"
@@ -1793,6 +1793,7 @@
 				"weapon"					"weapon_sig553"
 				"weapon"					"weapon_rpk74m"
 				"weapon"					"weapon_mp5a4"
+				"weapon"					"weapon_groza"
 				"weapon"					"weapon_famas"
 				
 			}
@@ -2028,6 +2029,8 @@
 				"weapon"					"weapon_bren_mk2"
 				"weapon"					"weapon_mg34"
 				"weapon"					"weapon_m1919"
+				"weapon"					"weapon_doi2ins_izh43"
+				"weapon"					"weapon_groza"
 			}
 		}
 		// ========================================
@@ -2041,6 +2044,16 @@
 			
 			"viewmodel_attachments"
 			{
+				"ModKitGroza"
+				{
+					"model"					"models/weapons/upgrades/a_modkit_groza.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_groza"
+					}
+				}
+				
 				// AKM Modkit
 				"ModKit03"
 				{
@@ -2186,6 +2199,17 @@
 			
 			"world_attachments"
 			{
+				//Grozamodkit
+				"ModkitGroza"
+				{
+					"model"					"models/weapons/upgrades/w_modkit_groza.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_groza"
+					}
+				}
+				
 				// AKM/FAL modkit
 				"Modkit6"
 				{
@@ -2379,6 +2403,7 @@
 				"weapon"					"weapon_ak12u"
 				"weapon"					"weapon_sterling"
 				"weapon"					"weapon_ae_m1014"
+				"weapon"					"weapon_groza"
 			}
 			"viewmodel_attachments"
 			{
@@ -2467,6 +2492,11 @@
 				"fov_wpn_ironsight"			"39"
 				"fov_wpn_focus"				"39"
 				
+				"weapon_groza"
+				{
+					"fov_wpn_ironsight"			"62"
+					"fov_wpn_focus"				"67"
+				}
 				"weapon_ae_m1014"
 				{
 					"fov_wpn_ironsight"			"60"
@@ -2901,6 +2931,7 @@
 				"weapon"					"weapon_f2000"
 				"weapon"					"weapon_ak12u"
 				"weapon"					"weapon_sterling"
+				"weapon"					"weapon_groza"
 			}
 			"viewmodel_attachments"
 			{
@@ -2961,7 +2992,7 @@
 					
 					"weapons"
 					{
-						"weapon"				"weapon_czse3"
+						//"weapon"				"weapon_czse3"
 						"weapon"				"weapon_mini14"
 						"weapon"				"weapon_mp5"
 						"weapon"				"weapon_asval"
@@ -3354,6 +3385,11 @@
 					"fov_wpn_ironsight"			"63"
 					"fov_wpn_focus"				"70"
 				}
+				"weapon_groza"
+				{
+					"fov_wpn_ironsight"			"62"
+					"fov_wpn_focus"				"67"
+				}
 			}
 		}
 		
@@ -3430,6 +3466,7 @@
 				//"weapon"					"weapon_scar"
 				"weapon"					"weapon_famas"
 				"weapon"					"weapon_f2000"
+				"weapon"					"weapon_groza"
 			}
 			
 			"viewmodel_attachments"
@@ -3852,6 +3889,11 @@
 					"fov_wpn_ironsight"			"55"
 					"fov_wpn_focus"				"63"
 				}
+				"weapon_groza"
+				{
+					"fov_wpn_ironsight"			"62"
+					"fov_wpn_focus"				"67"
+				}
 			}
 		}
 
@@ -3973,6 +4015,7 @@
 				"weapon"					"weapon_rpk74m"
 				"weapon"					"weapon_mp5a4"
 				"weapon"					"weapon_m40a5"
+				//"wenpon"					"weapon_groza"
 
 				// team agnostic
 
@@ -4341,6 +4384,11 @@
 					"fov_wpn_ironsight"			"39"
 					"fov_wpn_focus"				"44"
 				}
+				"weapon_groza"
+				{
+					"fov_wpn_ironsight"			"62"
+					"fov_wpn_focus"				"67"
+				}
 			}
 		}
 		
@@ -4416,6 +4464,7 @@
 				//"weapon"					"weapon_scar"
 				"weapon"					"weapon_famas"
 				"weapon"					"weapon_f2000"
+				"weapon"					"weapon_groza"
 
 				// team agnostic
 				"weapon"				"weapon_galil"
@@ -4903,6 +4952,11 @@
 					"fov_wpn_ironsight"			"76"
 					"fov_wpn_focus"				"82"
 				}
+				"weapon_groza"
+				{
+					"fov_wpn_ironsight"			"62"
+					"fov_wpn_focus"				"67"
+				}
 			}
 		}
 		
@@ -4981,6 +5035,7 @@
 				"weapon"					"weapon_mk46"
 				"weapon"					"weapon_mk48"
 				"weapon"					"weapon_m249"
+				"weapon"					"weapon_groza"
 			}
 			
 			"viewmodel_attachments"
@@ -5409,6 +5464,11 @@
 					"fov_wpn_ironsight"			"60"
 					"fov_wpn_focus"				"70"
 				}
+				"weapon_groza"
+				{
+					"fov_wpn_ironsight"			"62"
+					"fov_wpn_focus"				"67"
+				}
 			}
 		}
 		
@@ -5488,6 +5548,7 @@
 				"weapon"					"weapon_mk48"
 				"weapon"					"weapon_m249"
 				"weapon"					"weapon_saiga12"
+				"weapon"					"weapon_groza"
 			}
 			
 			"viewmodel_attachments"
@@ -5926,6 +5987,11 @@
 				{
 					"fov_wpn_ironsight"			"60"
 					"fov_wpn_focus"				"70"
+				}
+				"weapon_groza"
+				{
+					"fov_wpn_ironsight"			"62"
+					"fov_wpn_focus"				"67"
 				}
 			}
 		}
@@ -8178,6 +8244,7 @@
 				"weapon"					"weapon_ak74"
 				"weapon"					"weapon_ak12u"
 				"weapon"					"weapon_vz58"
+				"weapon"					"weapon_groza"
 
 			}
 			"viewmodel_attachments"
@@ -8197,6 +8264,18 @@
 						"weapon"				"weapon_vz58"
 					}
 
+				}
+				
+				"Foregrip_Groza"
+				{
+					"model"					"models/weapons/upgrades/a_woodgrips_groza.mdl"
+					"Gesture"				"delta_foregrip"
+					"ActSuffix"				"_FOREGRIP"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_groza"
+					}
 				}
 				
 				"Foregrip_AKS"
@@ -8243,6 +8322,16 @@
 					"weapons"
 					{
 						"weapon"				"weapon_akm"
+					}
+				}
+				
+				"Foregrip_Groza"
+				{
+					"model"					"models/weapons/upgrades/w_foregrip_groza.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_groza"
 					}
 				}
 				
@@ -8595,6 +8684,7 @@
 				"weapon"					"weapon_famas"
 				"weapon"					"weapon_mp5a4"
 				"weapon"					"weapon_colt9mm"
+				"weapon"					"weapon_groza"
 
 			}
 			"viewmodel_attachments"
@@ -8630,6 +8720,7 @@
 						"weapon_rfb"				"0.75"
 						"weapon_mk20_scar"				"0.75"
 						"weapon_scar"				"0.75"
+						"weapon_groza"				"0.7"
 					}
 				}
 			}
@@ -9056,7 +9147,7 @@
 				"weapon"					"weapon_aug3"
 				"weapon"					"weapon_mk18_m0"
 				"weapon"					"weapon_m14"
-				"weapon"					"weapon_m107"
+				//"weapon"					"weapon_m107"
 				"weapon"					"weapon_mini14"
 				"weapon"					"weapon_ump45"
 				"weapon"					"weapon_czse3"
@@ -9199,6 +9290,7 @@
 				"weapon"				"weapon_l1a1"
 				"weapon"				"weapon_hk417"
 				"weapon"				"weapon_mp7"
+				"weapon"				"weapon_groza"
 
 				// insurgent
 				"weapon"				"weapon_akm"

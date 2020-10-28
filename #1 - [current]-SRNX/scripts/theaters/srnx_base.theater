@@ -50,6 +50,7 @@
 				// "weapon"			"weapon_m79_smoke"
 				// "weapon"			"weapon_m79_incen"
 				//Primaries
+				"weapon"			"weapon_groza"
 				"weapon"			"weapon_aug3"
 				"weapon"			"weapon_g36c"
 				"weapon"			"weapon_l1a1"
@@ -320,7 +321,7 @@
 			"allowed_items"
 			{
 				//Primaries
-				"weapon"			"weapon_sten_mk2"
+				//"weapon"			"weapon_sten_mk2"
 				"weapon"			"weapon_ae_coltcommando"
 				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_sa80"
@@ -445,6 +446,7 @@
 			"allowed_items"
 			{
 				//Primaries
+				"weapon"			"weapon_doi2ins_izh43"
 				"weapon"			"weapon_ae_m1014"
 				"weapon"			"weapon_m590"
 				"weapon"			"weapon_ksg"
@@ -3357,8 +3359,8 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_sten_mk5"
-				"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon"			"weapon_sten_mk5"
+				"weapon"			"weapon_doi2ins_izh43"
 				//Secondary
 				"weapon"			"weapon_glock18"
 				//"weapon_upgrade"	"ammo_hp_aks74u"
@@ -3376,9 +3378,8 @@
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_sten_mk5"
-				"weapon_upgrade"	"magazine_extended_smg_40"
-				"weapon_upgrade"	"ammo_hp_fal"
+				//"weapon"			"weapon_sten_mk5"
+				"weapon"			"weapon_doi2ins_izh43"
 				//Secondary
 				"weapon"			"weapon_glock18"
 				//"weapon_upgrade"	"ammo_hp_aks74u"
@@ -3417,13 +3418,10 @@
 				
 				"weapon"			"weapon_m79"
 				//Primary
-				"weapon"			"weapon_m4a1"
-				"weapon_upgrade"	"ammo_beta50"
-				"weapon_upgrade"		"ammo_ap_m4"
-				"weapon_upgrade"		"barrel_silencer_sec1"
+				"weapon"			"weapon_groza"
 
 				//Secondary
-				//"weapon"			"weapon_glock18"
+				"weapon"			"weapon_glock18"
 				//"weapon_upgrade"	"magazine_extended_smg_40"
 				//"weapon_upgrade"	"ammo_ap_mp40"
 				//Explosive
@@ -3442,13 +3440,10 @@
 				
 				"weapon"			"weapon_m79"
 				//Primary
-				"weapon"			"weapon_m4a1"
-				"weapon_upgrade"	"ammo_beta50"
-				"weapon_upgrade"		"ammo_ap_m4"
-				"weapon_upgrade"		"barrel_silencer_sec1"
+				"weapon"			"weapon_groza"
 
 				//Secondary
-				//"weapon"			"weapon_glock18"
+				"weapon"			"weapon_glock18"
 				//"weapon_upgrade"	"magazine_extended_smg_40"
 				//"weapon_upgrade"	"ammo_ap_mp40"
 				//Explosive

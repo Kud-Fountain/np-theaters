@@ -28,11 +28,13 @@
 			"localize"			"resource/gnalvlsrealism_schinese.txt"
 			
 			// particle extra
+			"particles"         "particles/fxparticle.pcf"
 			"particles"         "particles/666.pcf"
-			"particles"         "particles/auraandtrailex.pcf"
-			"particles"         "particles/FX.pcf"
+			//"particles"         "particles/auraandtrailex.pcf"
+			//"particles"         "particles/FX.pcf"
 			"particles"         "particles/goushi.pcf"
 			"particles"         "particles/iEx.pcf"
+			"particles"         "particles/888.pcf"
 		}
 	}
 	"teams"
@@ -72,7 +74,7 @@
 					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_medic_2"
 					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_medic_2"
 					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_medic"
-					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_medic"
+					"#Squad_Gnalvl_VIP_FP"					"Gnalvl_vip_fp_medic"
 				}
 				"[Bravo]"
 				{
@@ -138,17 +140,17 @@
 					"Bot"		"standard_ins_2" 
 					"Bot"		"mg_fighter_ins_3"		
 					"Bot"		"mg_fighter_ins_4"		
-					"Bot"		"striker_ins_2" 
-					"Bot"		"striker_ins_2"	//CP 			
+					"Bot"		"striker_ins_2"
+					"Bot"		"striker_ins_2"					
 					"Bot"		"scout_ins_2" 	
-					"Bot"		"striker_ins_3" 
-					"Bot"		"sapper_ins_2"					
+					"Bot"		"striker_ins_3"
+					"Bot"		"bomber_ins_1"
 				}
 
 				"Team3"	// Recon team #3 - 8 Bots
 				{
 					//role name		
-					"Bot"		"bomber_ins_1"	
+					"Bot"		"sapper_ins_2"
 					"Bot"		"juggernaut_2"
 					"Bot"		"sapper_ins_3"
 					"Bot"		"standard_ins_3"

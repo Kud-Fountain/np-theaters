@@ -28,11 +28,13 @@
 			"localize"			"resource/gnalvlsrealism_schinese.txt"
 			
 			// particle extra
+			"particles"         "particles/fxparticle.pcf"
 			"particles"         "particles/666.pcf"
-			"particles"         "particles/auraandtrailex.pcf"
-			"particles"         "particles/FX.pcf"
+			//"particles"         "particles/auraandtrailex.pcf"
+			//"particles"         "particles/FX.pcf"
 			"particles"         "particles/goushi.pcf"
 			"particles"         "particles/iEx.pcf"
+			"particles"         "particles/888.pcf"
 		}
 	}
 	"teams"
@@ -72,7 +74,7 @@
 					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_medic_2"
 					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_medic_2"
 					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_medic"
-					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_medic"
+					"#Squad_Gnalvl_VIP_FP"					"Gnalvl_vip_fp_medic"
 				}
 				"[Bravo]"
 				{
