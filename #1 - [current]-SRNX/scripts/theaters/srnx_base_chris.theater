@@ -39,6 +39,7 @@
 				"weapon"			"weapon_m67"
 				"gear"				"gear_uav"
 				"gear"				"basic_chest"
+				"gear"				"gear_christmas_hat"
 				//"gear"				"srnx_chest_rig2"
 				//"gear"				"srnx_devgru_1_a"
 				//"gear"				"srnx_esapi"
@@ -95,6 +96,7 @@
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"gear_uav"
 				"gear"				"basic_chest"
+				"gear"				"gear_christmas_hat"
 				//"gear"				"srnx_chest_rig4"
 				//"gear"				"srnx_chest_carrier1"
 				//"gear"				"srnx_chest_carrier2"
@@ -128,6 +130,7 @@
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
 				"gear"				"gear_uav"
+				"gear"				"gear_christmas_hat"
 				//"gear"				"srnx_chest_rig2"
 				//"gear"				"srnx_esapi"
 				//"gear"				"srnx_daps_leba1"
@@ -195,6 +198,7 @@
 				"weapon"			"weapon_m45"
 				//Gear
 				//"gear"				"srnx_devgru_1_a"
+				"gear"				"gear_christmas_hat"
 				"gear"				"gear_uav"
 				//"gear"				"srnx_chest_rig4"
 				//"gear"				"srnx_chest_carrier1"
@@ -230,6 +234,7 @@
 				"weapon"			"weapon_defib"
 				"gear"				"basic_chest"
 				//"gear"				"srnx_devgru_1_a"
+				"gear"				"gear_christmas_hat"
 			}
 			"allowed_items"
 			{
@@ -273,6 +278,7 @@
 				//Gear
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"basic_chest"
+				"gear"				"gear_christmas_hat"
 				//"gear"				"srnx_chest_rig4"
 				//"gear"				"srnx_chest_carrier1"
 				//"gear"				"srnx_chest_carrier2"
@@ -317,6 +323,7 @@
 				"weapon"			"weapon_defib"
 				"gear"				"basic_chest"
 				//"gear"				"srnx_devgru_1_a"
+				"gear"				"gear_christmas_hat"
 
 			}
 			"allowed_items"
@@ -346,6 +353,7 @@
 				//Gear
 				//"gear"				"srnx_devgru_1_a"
 				"gear"				"basic_chest"
+				"gear"				"gear_christmas_hat"
 				//"gear"				"srnx_chest_rig4"
 				//"gear"				"srnx_chest_carrier1"
 				//"gear"				"srnx_chest_carrier2"
@@ -375,7 +383,9 @@
 
 			"buy_order" 
 			{
-
+				"weapon"			"weapon_f2000"
+				"gear"				"basic_chest"
+				"gear"				"gear_christmas_hat"
 			}
 			"allowed_items"
 			{
@@ -401,6 +411,7 @@
 				//"weapon"			"weapon_mk3"
 				//Gear
 				"gear"				"basic_chest"
+				"gear"				"gear_christmas_hat"
 			}
 		}
 		"Gnalvl_engineer_medic_1"
@@ -434,6 +445,7 @@
 				//"gear"				"srnx_esapi"
 				//"gear"				"srnx_daps_leba1"
 				//"gear"				"srnx_devgru_1_a"
+				"gear"				"gear_christmas_hat"
 			}
 			"allowed_items"
 			{
@@ -465,6 +477,7 @@
 				//Pistols
 				//Gear
 				//"gear"				"srnx_devgru_1_a"
+				"gear"				"gear_christmas_hat"
 				"gear"				"gear_ammocrate"
 				//"gear"				"srnx_chest_carrier_eng1"
 				//"gear"				"srnx_chest_carrier_eng2"
@@ -649,6 +662,7 @@
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig1_mv"
 				"gear"				"srnx_esapi"
+				"gear"				"gear_christmas_hat"
 				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
@@ -678,6 +692,7 @@
 				"weapon_upgrade"		"underbarrel_m320_smoke"
 				//"weapon_upgrade"		"ammo_beta50"
 				//"weapon_upgrade"		"ammo_beta75"
+				"gear"				"gear_christmas_hat"
 				//Pistols
 				//gear
 				//"gear"				"srnx_devgru_1_a"
@@ -809,6 +824,7 @@
 				"weapon"			"weapon_lewis"
 				"weapon"			"weapon_defib"
 				"gear"				"basic_chest_mg"
+				"gear"				"gear_christmas_hat"
 				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
@@ -834,6 +850,7 @@
 
 				//Secondaries
 				//Explosives
+				"gear"				"gear_christmas_hat"
 				//"weapon"			"weapon_mk3"
 				//Pistols
 				"weapon"			"weapon_model10"
@@ -881,6 +898,7 @@
 				"weapon"			"weapon_galil_sar"
 				"gear"				"basic_chest_mg"
 				"weapon"			"weapon_defib"
+				"gear"				"gear_christmas_hat"
 				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
@@ -892,6 +910,7 @@
 				"weapon"			"weapon_vz58"
 				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_mk18"
+				"gear"				"gear_christmas_hat"
 				
 				//upgrades
 				"weapon_upgrade"	"magazine_drum_75rd"
@@ -1268,6 +1287,7 @@
 				"weapon"			"weapon_enfield"
 				"weapon"			"weapon_defib"
 				"gear"				"basic_chest"
+				"gear"				"gear_christmas_hat"
 			}
 			"allowed_items"
 			{
@@ -1276,6 +1296,7 @@
 				"weapon"			"weapon_m14"
 				"weapon"			"weapon_m107"
 				"weapon"			"weapon_fal"
+				"gear"				"gear_christmas_hat"
 				//"weapon"			"weapon_m40a1"
 				//"weapon"			"weapon_enfield"
 				//"weapon"			"weapon_mosin"
@@ -1327,6 +1348,7 @@
 				"weapon"			"weapon_m40a1"
 				"weapon"			"weapon_defib"
 				"gear"				"basic_chest_sniper"
+				"gear"				"gear_christmas_hat"
 			}
 			"allowed_items"
 			{
@@ -1335,6 +1357,7 @@
 				"weapon"			"weapon_mosin"
 				"weapon"			"weapon_springfield"
 				"weapon"			"weapon_k98"
+				"gear"				"gear_christmas_hat"
 				"weapon_upgrade"	"optic_elcan"
 				"weapon_upgrade"	"optic_scope_7x"
 				"weapon_upgrade"	"optic_po4x24"
@@ -1480,6 +1503,7 @@
 				"weapon"			"weapon_m1garand"
 				"weapon"			"weapon_defib"
 				"gear"				"basic_chest"
+				"gear"				"gear_christmas_hat"
 			}
 			"allowed_items"
 			{
@@ -1495,6 +1519,7 @@
 				"weapon"			"weapon_mr96"
 
 				//Upgrades
+				"gear"				"gear_christmas_hat"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				"weapon_upgrade"	"magazine_extended_rifle_30rd_556"
 				//Secondaries

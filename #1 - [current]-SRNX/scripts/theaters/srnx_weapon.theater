@@ -4213,8 +4213,8 @@
 			{
 				"ammo_type"					"762x38_box"//762x39mm_mag
 				"clip_max"					"12"
-				"clip_max_rounds"			"75"
-				"magsize_override"		"75"
+				"clip_max_rounds"			"50"
+				"magsize_override"		"50"
 				"clip_default"				"0"
 			}
 			"attachments"
@@ -6392,7 +6392,7 @@
 			"act_table"					"sterling" // yes, its own special act_table
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"31"
-			"weapon_cost"				"1"
+			"weapon_cost"				"0"
 			"barrel_length"				"16"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
