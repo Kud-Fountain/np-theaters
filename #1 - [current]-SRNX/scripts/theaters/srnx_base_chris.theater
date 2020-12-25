@@ -471,6 +471,8 @@
 				//"weapon"			"weapon_m79_smoke"
 				//"weapon"			"weapon_m79_incen"
 				//Secondaries
+				"weapon"			"weapon_kingcobra"
+				"weapon"			"weapon_m45"
 				
 				"weapon_upgrade"		"underbarrel_m203_smoke"
 				"weapon_upgrade"		"underbarrel_gp25_smoke"
