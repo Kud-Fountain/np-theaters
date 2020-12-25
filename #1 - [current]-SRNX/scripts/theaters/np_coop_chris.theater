@@ -144,13 +144,13 @@
 					"Bot"		"striker_ins_2"	//CP 			
 					"Bot"		"scout_ins_2" 	
 					"Bot"		"striker_ins_3" 
-					"Bot"		"sapper_ins_2"					
+					"Bot"		"bomber_ins_1"
 				}
 
 				"Team3"	// Recon team #3 - 8 Bots
 				{
 					//role name		
-					"Bot"		"bomber_ins_1"	
+					"Bot"		"sapper_ins_2"
 					"Bot"		"juggernaut_2"
 					"Bot"		"sapper_ins_3"
 					"Bot"		"standard_ins_3"
@@ -405,7 +405,7 @@
 			//"import"    "9x19"
 			"SuppressionIncrement"		"30"
 			"bulletcount"				"9"
-			"carry"						"56"
+			"carry"						"96"
 			"damageType"				"DMG_BUCKSHOT"
 			"brass_model"				"models/weapons/shells/12guage.mdl"
 			"brass_sound"				"BOUNCE_SHOTSHELL"
