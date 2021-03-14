@@ -4281,10 +4281,10 @@
 			}
 			"sounds"
 			{
-				"shot_single"				"weapon_fnfala.Single"
-				"shot_single_local"			"weapon_fnfala.SingleLocal"
-				"shot_silent"				"weapon_fnfala.SingleSilenced"
-				"shot_silent_local"			"weapon_fnfala.SingleSilencedLocal"
+				"shot_single"				"Weapon_FnFAL.Single"
+				"shot_single_local"			"Weapon_FnFAL.SingleLocal"
+				"shot_silent"				"Weapon_FnFAL.SingleSilenced"
+				"shot_silent_local"			"Weapon_FnFAL.SingleSilencedLocal"
 				"empty"						"Weapon_FnFAL.Empty"
 				"clipin"					"Weapon_FnFAL.Magin"
 				"clipout"					"Weapon_FnFAL.Magout"
@@ -4393,10 +4393,10 @@
 			}
 			"sounds"
 			{
-				"shot_single"				"weapon_fnfala.Single"
-				"shot_single_local"			"weapon_fnfala.SingleLocal"
-				"shot_silent"				"weapon_fnfala.SingleSilenced"
-				"shot_silent_local"			"weapon_fnfala.SingleSilencedLocal"
+				"shot_single"				"Weapon_FnFAL.Single"
+				"shot_single_local"			"Weapon_FnFAL.SingleLocal"
+				"shot_silent"				"Weapon_FnFAL.SingleSilenced"
+				"shot_silent_local"			"Weapon_FnFAL.SingleSilencedLocal"
 				"empty"						"Weapon_FnFAL.Empty"
 				"clipin"					"Weapon_FnFAL.Magin"
 				"clipout"					"Weapon_FnFAL.Magout"
