@@ -423,7 +423,7 @@
 
                 "models"
                 {
-                    "player"			"models/characters/insurgent_light.mdl"
+                    "player"			"models/characters/dismembered/insurgent_light.mdl"
                         "viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
                         "bodygoups"
                         {
@@ -460,7 +460,7 @@
 
                 "models"
                 {
-                    "player"			"models/characters/insurgent_light.mdl"
+                    "player"			"models/characters/dismembered/insurgent_light.mdl"
                         "viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
                         "bodygoups"
                         {
@@ -492,7 +492,7 @@
 
                 "models"
                 {
-                    "player"			"models/characters/insurgent_light.mdl"
+                    "player"			"models/characters/dismembered/insurgent_light.mdl"
                         "viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
                         "bodygoups"
                         {
@@ -526,7 +526,7 @@
 
                 "models"
                 {
-                    "player"				"models/characters/insurgent_light.mdl"
+                    "player"				"models/characters/dismembered/insurgent_light.mdl"
                         "viewmodel_hands"			"models/weapons/v_hands_ins_l.mdl"
                         //				"attachments"
                         //				{
@@ -572,7 +572,7 @@
 
                 "models"
                 {
-                    "player"			"models/characters/insurgent_light.mdl"
+                    "player"			"models/characters/dismembered/insurgent_light.mdl"
                         "viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
                         "bodygoups"
                         {
@@ -606,7 +606,7 @@
 
                 "models"
                 {
-                    "player"			"models/characters/civilian_vip_insurgent.mdl"
+                    "player"			"models/characters/dismembered/insurgent_standard.mdl"
                     "viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
 
                         "bodygoups"
@@ -642,7 +642,7 @@
 
                 "models"
                 {
-                    "player"			"models/characters/insurgent_light.mdl"
+                    "player"			"models/characters/dismembered/insurgent_light.mdl"
                         "viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
                         "bodygoups"
                         {
@@ -678,7 +678,7 @@
 
                 "models"
                 {
-                    "player"			"models/characters/insurgent_light.mdl"
+                    "player"			"models/characters/dismembered/insurgent_light.mdl"
                         "viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
                         "bodygoups"
                         {
@@ -717,7 +717,7 @@
 
                 "models"
                 {
-                    "player"			"models/characters/civilian_vip_insurgent.mdl"
+                    "player"			"models/characters/dismembered/insurgent_standard.mdl"
                         "viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
                         "bodygoups"
                         {
