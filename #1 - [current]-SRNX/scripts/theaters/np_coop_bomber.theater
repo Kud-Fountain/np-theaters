@@ -34,6 +34,7 @@
 			"particles"         "particles/goushi.pcf"
 			"particles"         "particles/iEx.pcf"
 			"particles"         "particles/888.pcf"
+			"particles"			"particles/blood_impact_go.pcf"
 		}
 	}
 	"teams"
