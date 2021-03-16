@@ -2744,6 +2744,33 @@
 
 				"weapon"			"weapon_m1912"
 			}
+			
+			"viewmodel_attachments"
+			{
+				"magazine_ppsh41"
+				{
+				    "ActSuffix"			"_MAG1"
+					"model"				"models/weapons/upgrades/v_ppshmag.mdl"
+
+					"weapons"
+					{
+						"weapon"		"weapon_nam_ppsh41"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"magazine"
+				{
+					"model"				"models/weapons/upgrades/w_ppshmag.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_nam_ppsh41"
+					}
+				}
+			}
 		}
 		"fast_bolt"
 		{
