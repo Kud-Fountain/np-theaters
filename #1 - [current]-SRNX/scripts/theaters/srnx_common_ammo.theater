@@ -1824,8 +1824,8 @@
 			"brass_model"				"models/weapons/shells/762x51.mdl"
 			"Damage"
 			{
-				"10"					"50"
-				"20000"					"10"
+				"10"					"80"
+				"20000"					"16"
 			}
 			"PenetrationPower"
 			{
@@ -3366,9 +3366,9 @@
 			"brass_sound"				"BOUNCE_SHOTSHELL"
 			"Damage"
 			{
-				"800"					"200"
-				"2000"					"20"
-				"7000"					"5"
+				"800"					"400"
+				"2000"					"40"
+				"7000"					"10"
 			}
 			"PenetrationPower"
 			{

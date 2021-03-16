@@ -287,7 +287,7 @@
 				"ammo_type"					"45acp"
 				"clip_max"					"13"
 				"clip_max_rounds"			"30"
-				"clip_default"				"3"
+				"clip_default"				"5"
 			}
 			"attachments"
 			{

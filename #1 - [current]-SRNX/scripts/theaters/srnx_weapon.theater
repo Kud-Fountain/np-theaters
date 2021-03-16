@@ -8419,7 +8419,7 @@
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"113" // 18.5 + 100 round mag x2 (6.44 lbs each)
-			"weapon_cost"					"3"
+			"weapon_cost"					"4"
 			"closed_bolt"					"0"
 			"barrel_length"					"30"	
 			"draw_speed"				"1.50"
@@ -8562,7 +8562,7 @@
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"135" // 18.5 + 100 round mag x2 (6.44 lbs each)
-			"weapon_cost"					"3"
+			"weapon_cost"					"4"
 			"closed_bolt"					"0"
 			"barrel_length"					"30"	
 			"draw_speed"				"1.50"

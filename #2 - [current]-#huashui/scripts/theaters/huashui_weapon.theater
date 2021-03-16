@@ -16,7 +16,7 @@
 			"weapon_cost"					"2"
 			"ammo_clip"
 			{
-				"clip_default"				"2"
+				"clip_default"				"3"
 			}
 		}
 		"weapon_m590"
