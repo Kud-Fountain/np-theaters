@@ -3366,9 +3366,9 @@
 			"brass_sound"				"BOUNCE_SHOTSHELL"
 			"Damage"
 			{
-				"800"					"400"
-				"2000"					"40"
-				"7000"					"10"
+				"800"					"800"
+				"2000"					"80"
+				"7000"					"20"
 			}
 			"PenetrationPower"
 			{
