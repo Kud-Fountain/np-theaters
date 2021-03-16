@@ -12,13 +12,13 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"			"1.00"
+				"HITGROUP_HEAD"			"0.40"
 				"HITGROUP_CHEST"		"0.40"
 				"HITGROUP_STOMACH"		"0.40"
-				"HITGROUP_LEFTARM"		"1.00"
-				"HITGROUP_RIGHTARM"		"1.00"
-				"HITGROUP_LEFTLEG"		"1.00"
-				"HITGROUP_RIGHTLEG"		"1.00"
+				"HITGROUP_LEFTARM"		"0.40"
+				"HITGROUP_RIGHTARM"		"0.40"
+				"HITGROUP_LEFTLEG"		"0.40"
+				"HITGROUP_RIGHTLEG"		"0.40"
 			}
 			
 			"player_model_override"		"models/characters/security_standard.mdl"
@@ -61,13 +61,13 @@
 			
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"1.00"	// death
+				"HITGROUP_HEAD"				"0.10"	// death
 				"HITGROUP_CHEST"			"0.10"
 				"HITGROUP_STOMACH"			"0.10"
-				"HITGROUP_LEFTARM"			"1.00"
-				"HITGROUP_RIGHTARM"			"1.00"
-				"HITGROUP_LEFTLEG"			"1.00"
-				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_LEFTARM"			"0.10"
+				"HITGROUP_RIGHTARM"			"0.10"
+				"HITGROUP_LEFTLEG"			"0.10"
+				"HITGROUP_RIGHTLEG"			"0.10"
 			}
 			
 			"player_model_override"		"models/characters/security_heavy.mdl"

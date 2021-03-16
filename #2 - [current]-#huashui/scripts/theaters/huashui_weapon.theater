@@ -82,7 +82,7 @@
 		{
 			"ammo_clip"
 			{
-				"clip_default"				"7"
+				"clip_default"				"1"
 			}
 		}
 		"weapon_m203_smoke"
