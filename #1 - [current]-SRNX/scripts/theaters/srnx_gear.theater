@@ -1229,7 +1229,7 @@
 			"class_restricted" "1"
 			"extra_ammo"
 			{
-				"primary"	"3"
+				"primary"	"4"
 				"secondary"
 				{
 					"0" "4"

@@ -314,8 +314,8 @@
 			
 			"Damage"
 			{
-				"10"					"75"
-				"8000"					"30"
+				"10"					"122"
+				"8000"					"70"
 			}
 			
 			"PenetrationPower"
@@ -450,8 +450,8 @@
 			"brass_model"				"models/weapons/shells/9x19.mdl"
 			"Damage"
 			{
-				"10"					"90"
-				"8000"					"52"
+				"10"					"122"
+				"8000"					"70"
 			}
 			"PenetrationPower"
 			{
@@ -880,8 +880,8 @@
 			"brass_model"				"models/weapons/shells/45apc.mdl"
 			"Damage"
 			{
-				"10"					"95"
-				"8000"					"52"
+				"10"					"123"
+				"8000"					"67"
 			}
 			"PenetrationPower"
 			{
