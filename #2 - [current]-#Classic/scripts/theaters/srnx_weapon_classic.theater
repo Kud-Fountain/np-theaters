@@ -416,6 +416,7 @@
 			"weapon_cost"		"0"
 			"weapon_abilities"	"ironsight"
 			"fire_instantly"	"1"
+			"class_restricted"	"1"
 			"sounds"
 			{
 				"shot_single"		"Weapon_m203.Single"
@@ -486,6 +487,7 @@
 			"weapon_cost"		"0"
 			"weapon_abilities"	"ironsight"
 			"fire_instantly"	"1"
+			"class_restricted"	"1"
 			"sounds"
 			{
 				"shot_single"		"Weapon_m203.Single"
@@ -543,6 +545,7 @@
 			"import"			"weapon_m203_incendiary"
 			"print_name"		"#weapon_gp25_incen"
 			"print_desc"		"#weapon_gp25_incen_desc"
+			"class_restricted"	"1"
 			"explosives"
 			{
 				"entity"			"grenade_gp25_incendiary"
@@ -571,6 +574,7 @@
 			"weapon_cost"					"0"
 			"weapon_abilities"				"ironsight"
 			"fire_instantly"				"1"
+			"class_restricted"				"1"
 			"sounds"
 			{
 				"shot_single"		 		"Weapon_m203.Single"
@@ -642,6 +646,7 @@
 			"weapon_cost"					"0"
 			"weapon_abilities"				"ironsight"
 			"fire_instantly"				"1"
+			"class_restricted"				"1"
 			"sounds"
 			{
 				"shot_single"		 		"Weapon_m203.Single"
@@ -699,7 +704,8 @@
 		{
 			"import"						"weapon_m203_smoke"
 			"print_name"					"#weapon_gp25_dy_smoke"
-			"print_desc"					"#weapon_gp25_dy_smoke_desc"	
+			"print_desc"					"#weapon_gp25_dy_smoke_desc"
+			"class_restricted"				"1"
 			"explosives"
 			{
 				"entity"					"grenade_gp25_smoke"
@@ -740,6 +746,7 @@
 			"weapon_cost"		"0"
 			"weapon_abilities"	"ironsight"
 			"fire_instantly"	"1"
+			"class_restricted"	"1"
 			"sounds"
 			{
 				"shot_single"		"Weapon_m203.Single"
@@ -810,6 +817,7 @@
 			"weapon_cost"		"0"
 			"weapon_abilities"	"ironsight"
 			"fire_instantly"	"1"
+			"class_restricted"	"1"
 			"sounds"
 			{
 				"shot_single"		"Weapon_m203.Single"
@@ -867,6 +875,7 @@
 			"import"			"weapon_m203_mk3"
 			"print_name"		"#weapon_gp25_stungrenMK3"
 			"print_desc"		"#weapon_gp25_stungrenMK3_desc"
+			"class_restricted"	"1"
 			"explosives"
 			{
 				"entity"			"grenade_gp25_mk3"
@@ -1351,6 +1360,7 @@
 			"weapon_cost"					"2"
 			"class_restricted"				"1"
 			"weapon_max_subslot"			"0"
+			"class_restricted"				"1"
 			"fov"
 			{
 				"fov_wpn_default"			"65"
@@ -1538,7 +1548,8 @@
 			"weapon_weight"			"6"
 			"weapon_cost"			"1"
 			"class_restricted"		"1"
-			"weapon_max_subslot"	"2"			
+			"weapon_max_subslot"	"2"		
+			"class_restricted"		"1"
 			"explosives"
 			{
 				"entity"				"grenade_mk3"
