@@ -3397,9 +3397,9 @@
 			"brass_sound"				"BOUNCE_SHOTSHELL"
 			"Damage"
 			{
-				"100"					"300"
-				"200"					"100"
-				"800"					"80"
+				"100"					"400"
+				"200"					"200"
+				"800"					"100"
 				"2000"					"55"
 				"4500"					"35"
 				"9000"					"5"
@@ -3411,13 +3411,13 @@
 			}
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"1.9"
-				"HITGROUP_CHEST"			"1.8"
-				"HITGROUP_STOMACH"			"1.8"
-				"HITGROUP_LEFTARM"			"0.8"
-				"HITGROUP_RIGHTARM"			"0.8"
-				"HITGROUP_LEFTLEG"			"0.8"
-				"HITGROUP_RIGHTLEG"			"0.8"
+				"HITGROUP_HEAD"				"2.0"
+				"HITGROUP_CHEST"			"1.9"
+				"HITGROUP_STOMACH"			"1.9"
+				"HITGROUP_LEFTARM"			"0.9"
+				"HITGROUP_RIGHTARM"			"0.9"
+				"HITGROUP_LEFTLEG"			"0.9"
+				"HITGROUP_RIGHTLEG"			"0.9"
 			}
 			
 		}
