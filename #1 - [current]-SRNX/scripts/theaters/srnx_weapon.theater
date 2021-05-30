@@ -7595,7 +7595,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"					"slug"
+				"ammo_type"					"buckshot"
 				"clip_max"					"75"
 				"clip_max_rounds"			"8"
 				"clip_default"				"75"
@@ -7693,7 +7693,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"					"slug"
+				"ammo_type"					"buckshot"
 				"clip_max"					"75"
 				"clip_max_rounds"			"5"
 				"clip_default"				"75"
@@ -7792,7 +7792,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"					"slug"
+				"ammo_type"					"buckshot"
 				"clip_max"					"75"
 				"clip_max_rounds"			"6"
 				"clip_default"				"75"
@@ -7903,7 +7903,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"			"slug"
+				"ammo_type"			"buckshot"
 				"clip_max"			"75"
 				"clip_max_rounds"	"8"
 				"clip_default"		"75"
@@ -8005,7 +8005,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"				"slug"
+				"ammo_type"				"buckshot"
 				"clip_max"				"75"
 				"clip_max_rounds"		"8"
 				"clip_default"			"75"
@@ -8100,7 +8100,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"				"slug"
+				"ammo_type"				"buckshot"
 				"clip_max"				"75"
 				"clip_max_rounds"		"14"
 				"clip_default"			"75"
