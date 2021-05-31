@@ -3359,7 +3359,7 @@
 			"import"				"default"
 			//"import"    "9x19"
 			"SuppressionIncrement"		"30"
-			"bulletcount"				"1"
+			"bulletcount"				"9"
 			"carry"						"56"
 			"damageType"				"DMG_BUCKSHOT"
 			"brass_model"				"models/weapons/shells/12guage.mdl"
@@ -3368,7 +3368,7 @@
 			{
 				"100"					"700"
 				"200"					"700"
-				"1300"					"700"
+				"1200"					"700"
 				"2000"					"50"
 				"4500"					"30"
 				"9000"					"5"
@@ -3380,13 +3380,13 @@
 			}
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"2.0"
-				"HITGROUP_CHEST"			"2.0"
-				"HITGROUP_STOMACH"			"2.0"
-				"HITGROUP_LEFTARM"			"1.0"
-				"HITGROUP_RIGHTARM"			"1.0"
-				"HITGROUP_LEFTLEG"			"1.0"
-				"HITGROUP_RIGHTLEG"			"1.0"
+				"HITGROUP_HEAD"				"9.0"
+				"HITGROUP_CHEST"			"9.0"
+				"HITGROUP_STOMACH"			"9.0"
+				"HITGROUP_LEFTARM"			"9.0"
+				"HITGROUP_RIGHTARM"			"9.0"
+				"HITGROUP_LEFTLEG"			"9.0"
+				"HITGROUP_RIGHTLEG"			"9.0"
 			}
 		}
 		"slug"
