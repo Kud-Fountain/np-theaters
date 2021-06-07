@@ -60,19 +60,7 @@
 			{
 				"weapon"
 				{
-					"weapon_base"				"-5"
 				}
-				// "weapon_upgrade"
-				// {
-				// 	"base_standard"		"-5"
-				// 	"base_scope"		"-5"
-				// 	"base_spring"		"-5"
-				// 	"base_scope"		"-5"
-				// 	"base_scope"		"-5"
-				// 	"base_scope"		"-5"
-				// 	"base_scope"		"-5"
-				// 	"base_scope"		"-5"
-				// }
 			}
 
 			"squads"
