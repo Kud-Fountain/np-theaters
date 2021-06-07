@@ -1563,8 +1563,7 @@
 			
 			"team_access"					"security, insurgent"
 		}
-	}
-}
+
 		"weapon_asval"
 		{
 			"import"					"ballistic_base"
@@ -1665,6 +1664,7 @@
 			}
 			"team_access"				"security, insurgent"
 		}
+		
 		"weapon_m19"
 		{
 			"import"						"pistol_base"
@@ -1756,6 +1756,7 @@
 			}
 			"team_access"	"security, insurgent"
 		}
+		
 		"weapon_m91"
 		{
 			"import"						"ballistic_base"
@@ -1928,3 +1929,5 @@
 			}
 			"team_access"	"security, insurgent"
 		}
+	}
+}
