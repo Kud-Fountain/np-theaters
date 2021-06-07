@@ -1,5 +1,5 @@
 "#base" "base_player.theater"
-"#base" "mw_gear.theater"
+//"#base" "mw_gear.theater"
 "#base" "mw_weapon.theater"
 "#base" "mw_weapon_upgrades.theater"
 
