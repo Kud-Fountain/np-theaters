@@ -1,0 +1,41 @@
+"#base" "base_player.theater"
+"#base" "mw_gear.theater"
+"#base" "mw_weapon.theater"
+"#base" "mw_weapon_upgrades.theater"
+
+"theater"
+{
+	"player_templates"
+	{
+		//security class templates
+		//USMC Templates:
+		
+		"test"
+		{	
+			"team"			"security"			
+			"print_name"	"#Test"	
+
+
+			"models"
+			{
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+				}
+			}
+
+			"buy_order" 
+			{
+			}
+			"allowed_items"
+			{
+			}
+		}
+	}
+}
+
+
+
+
