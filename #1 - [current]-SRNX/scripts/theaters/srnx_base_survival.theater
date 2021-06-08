@@ -13,7 +13,7 @@
 		
 		"Gnalvl_squadleader_medic"
 		{	
-			"team"			"security"			
+			"team"			"insurgents"			
 			"print_name"	"#Squad_Gnalvl_SquadLeader"	
 
 
@@ -35,7 +35,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_g36c"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
 				"weapon"			"weapon_m67"
 				"gear"				"gear_uav"
 				"gear"				"basic_chest"
@@ -105,7 +105,7 @@
 		}
 		"Gnalvl_teamleader_usmc"
 		{	
-			"team"			"security"
+			"team"			"insurgents"
 			"print_name"	"#Squad_Gnalvl_TeamLeader"
 
 			"models"
@@ -126,7 +126,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_l1a1"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
 				"weapon"			"weapon_m67"
 				"gear"				"gear_uav"
 				//"gear"				"srnx_chest_rig2"
@@ -205,7 +205,7 @@
 		}
 		"gnalvl_pointman_medic"
 		{	
-			"team"			"security"
+			"team"			"insurgents"
 			"print_name"	"#Squad_Gnalvl_Riflepoint"
 
 			"models"
@@ -228,7 +228,7 @@
 			{
 				//"weapon"			"weapon_saiga12"
 				"weapon"			"weapon_nam_ppsh41"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
 				"gear"				"basic_chest_fg"
 				//"gear"				"srnx_devgru_1_a"
 			}
@@ -289,7 +289,7 @@
 		}
 		"Gnalvl_rifleman_at_medic_1"
 		{	
-			"team"			"security"
+			"team"			"insurgents"
 			"print_name"	"#Squad_Gnalvl_Rifleman_AT"
 
 
@@ -313,7 +313,7 @@
 			{
 				//"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
 				"gear"				"basic_chest"
 				//"gear"				"srnx_devgru_1_a"
 
@@ -356,7 +356,7 @@
 		}
 		"Gnalvl_rifleman_at_medic_2"
 		{	
-			"team"			"security"
+			"team"			"insurgents"
 			"print_name"	"#Squad_Gnalvl_Rifleman_AT2"
 
 
@@ -378,7 +378,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_ak12u"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
 				"gear"				"basic_chest_rm"
 			}
 			"allowed_items"
@@ -419,7 +419,7 @@
 		}
 		"Gnalvl_engineer_medic_1"
 		{	
-			"team"			"security"
+			"team"			"insurgents"
 			"print_name"	"#Squad_Gnalvl_Engineer"
 
 			"models"
@@ -439,7 +439,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_toz"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
 				"gear"				"gear_ammocrate"
 				"gear"				"basic_chest_shotgun"
 			}
@@ -494,7 +494,7 @@
 		}
 		"Gnalvl_engineer_usmc_2"
 		{	
-			"team"			"security"
+			"team"			"insurgents"
 			"print_name"	"#Squad_Gnalvl_Engineer"
 
 			"models"
@@ -513,7 +513,7 @@
 
 			"buy_order" 
 			{
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
 				//"weapon"			"weapon_mk18"
 				//"weapon"			"weapon_c4_clicker"
 				"gear"				"gear_ammocrate"
@@ -604,7 +604,7 @@
 		}
 		"gnalvl_recon_fast_medic"
 		{	
-			"team"			"security"
+			"team"			"insurgents"
 			"print_name"	"#Squad_Gnalvl_Recon"
 
 			"models"
@@ -633,7 +633,7 @@
 		}
 		"gnalvl_medic_usmc_1"
 		{	
-			"team"			"security"
+			"team"			"insurgents"
 			"print_name"	"#Squad_Gnalvl_Medic"
 
 			"models"
@@ -656,8 +656,8 @@
 				
 				//"weapon"			"weapon_sa80"
 				"weapon"			"weapon_m3greasegun"
-				"weapon"			"weapon_knife"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
+				"weapon"			"weapon_defib"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig1_mv"
 				"gear"				"srnx_esapi"
@@ -702,7 +702,7 @@
 		}	
 		"gnalvl_medic_usmc_2"
 		{	
-			"team"			"security"
+			"team"			"insurgents"
 			"print_name"	"#Squad_Gnalvl_Medic"
 
 			"models"
@@ -724,8 +724,8 @@
 			{
 				
 				"weapon"			"weapon_sa80"
-				"weapon"			"weapon_knife"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
+				"weapon"			"weapon_defib"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig2"
 				"gear"				"srnx_esapi"
@@ -798,7 +798,7 @@
 		}	
 		"Gnalvl_support_medic_1"
 		{	
-			"team"			"security"
+			"team"			"insurgents"
 			"print_name"	"#Squad_Gnalvl_MGGunner"
 
 			"models"
@@ -819,7 +819,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_lewis"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
 				"gear"				"basic_chest_mg"
 				//"gear"				"srnx_devgru_1_a"
 			}
@@ -871,7 +871,7 @@
 		}
 		"Gnalvl_support_medic_2"
 		{	
-			"team"			"security"
+			"team"			"insurgents"
 			"print_name"	"#Squad_Gnalvl_MGGunner"
 
 			"models"
@@ -893,7 +893,7 @@
 			{
 				"weapon"			"weapon_galil_sar"
 				"gear"				"basic_chest_mg"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
 				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
@@ -934,7 +934,7 @@
 		}
 		"Gnalvl_teamleader_recon_usmc"
 		{	
-			"team"			"security"
+			"team"			"insurgents"
 			"print_name"	"#Squad_Gnalvl_TeamLeader_Recon"
 
 			"models"
@@ -954,7 +954,7 @@
 
 			"buy_order" 
 			{
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
 				"weapon"			"weapon_l1a1"
 				"weapon"			"weapon_m67"
 				"gear"				"gear_uav"
@@ -1041,7 +1041,7 @@
 		}
 		"gnalvl_recon_medic_usmc"
 		{	
-			"team"			"security"
+			"team"			"insurgents"
 			"print_name"	"#Squad_Gnalvl_ReconMedic"
 
 			"models"
@@ -1062,7 +1062,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_fal"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig2"
 				"gear"				"srnx_esapi"
@@ -1144,7 +1144,7 @@
 
 		"Gnalvl_recon_engineer_usmc"
 		{	
-			"team"			"security"
+			"team"			"insurgents"
 			"print_name"	"#Squad_Gnalvl_Engineer"
 
 			"models"
@@ -1163,7 +1163,7 @@
 
 			"buy_order" 
 			{
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
 				"weapon"			"weapon_fal"
 				//"weapon"			"weapon_c4_clicker"
 				"gear"				"gear_ammocrate"
@@ -1260,7 +1260,7 @@
 		}
 		"Gnalvl_marksman_medic_1"
 		{	
-			"team"			"security"
+			"team"			"insurgents"
 			"print_name"	"#Squad_Gnalvl_SDM"
 
 			"models"
@@ -1282,7 +1282,7 @@
 			{
 				
 				"weapon"			"weapon_enfield"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
 				"gear"				"basic_chest"
 			}
 			"allowed_items"
@@ -1321,7 +1321,7 @@
 		}
 		"Gnalvl_marksman_medic_2"
 		{	
-			"team"			"security"
+			"team"			"insurgents"
 			"print_name"	"#Squad_Gnalvl_SDM2"
 
 			"models"
@@ -1342,7 +1342,7 @@
 			{
 				
 				"weapon"			"weapon_m40a1"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
 				"gear"				"basic_chest_sniper"
 			}
 			"allowed_items"
@@ -1375,7 +1375,7 @@
 		}
 		"Gnalvl_spotter_usmc"
 		{	
-			"team"			"security"
+			"team"			"insurgents"
 			"print_name"	"#Squad_Gnalvl_Marksman"
 
 			"models"
@@ -1397,7 +1397,7 @@
 			{
 				
 				"weapon"			"weapon_m40a1"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig2"
 				"gear"				"srnx_esapi"
@@ -1475,7 +1475,7 @@
 		}
 		"Gnalvl_vip_fp_medic"
 		{	
-			"team"			"security"
+			"team"			"insurgents"
 			"print_name"	"#Squad_Gnalvl_VIP_FP"
 
 			"models"
@@ -1496,7 +1496,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_m1garand"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
 				"gear"				"basic_chest"
 			}
 			"allowed_items"
@@ -1542,7 +1542,7 @@
 		}
 		"Gnalvl_vip_medic"
 		{	
-			"team"			"security"
+			"team"			"insurgents"
 			"print_name"	"#Squad_Gnalvl_VIP"
 
 			"models"
@@ -1563,7 +1563,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_doi2ins_m1garand"
-				"weapon"			"weapon_knife"
+				"weapon"			"weapon_defib"
 				"gear"				"basic_chest"
 			}
 			"allowed_items"
@@ -1611,7 +1611,7 @@
 		// BOTS
 		"template_survival_base_01_security"
 		{
-			"team"			"insurgents"
+			"team"			"security"
 			"print_name"	"BOT" 
 			"models"
 			{
@@ -1670,7 +1670,7 @@
 		
 		"template_survival_officer_01_security"
 		{
-			"team"			"insurgents"
+			"team"			"security"
 			"print_name"	"BOT" 
 			"models"
 			{
@@ -1727,7 +1727,7 @@
 		
 		"template_survival_base_02_security"
 		{
-			"team"			"insurgents"
+			"team"			"security"
 			"print_name"	"BOT" 
 			"models"
 			{
@@ -1782,7 +1782,7 @@
 		
 		"template_survival_officer_02_security"
 		{
-			"team"			"insurgents"
+			"team"			"security"
 			"print_name"	"BOT" 
 			"models"
 			{
@@ -1838,7 +1838,7 @@
 		
 		"template_survival_base_03_security"
 		{
-			"team"			"insurgents"
+			"team"			"security"
 			"print_name"	"BOT" 
 			"models"
 			{
@@ -1894,7 +1894,7 @@
 		
 		"template_survival_officer_03_security"
 		{
-			"team"			"insurgents"
+			"team"			"security"
 			"print_name"	"BOT" 
 			"models"
 			{
@@ -1981,7 +1981,7 @@
 		
 		"template_survival_officer_04_security"
 		{
-			"team"			"insurgents"
+			"team"			"security"
 			"print_name"	"BOT" 
 			"models"
 			{
@@ -2076,7 +2076,7 @@
 		
 		"template_survival_officer_05_security"
 		{
-			"team"			"insurgents"
+			"team"			"security"
 			"print_name"	"BOT" 
 			"models"
 			{
@@ -2131,9 +2131,9 @@
 				
 			}
 		}
-		"template_survival_m249_security"
+		"template_survival_m249_juggernaut_security"
 		{	
-			"team"			"insurgents"
+			"team"			"security"
 			"print_name"	"BOT" 
 			"models"
 			{
@@ -2192,7 +2192,7 @@
 		
 		"template_survival_at4_bomber_security"
 		{
-			"team"			"insurgents"
+			"team"			"security"
 			"print_name"	"BOT" 
 			"models"
 			{
