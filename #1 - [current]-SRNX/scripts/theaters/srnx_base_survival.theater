@@ -1615,55 +1615,55 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"player"				"models/characters/insurgent_standard.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
-				// "bodygroups"
-				// {
-				// 	"backpack"					"-1"
-				// 	"glasses"					"-1"
-				// 	"kit"					"-1"
-				// }
+				"bodygroups"
+				{
+					
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
 
 			}
 			"buy_order" 
 			{
 				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_juggernaut_armor"
-				"gear"				"srnx_BOT_ins_jugger_helmet_black"
+				"gear"				"ins_BOT_carrier_p1_s6"
+				"gear"				"srnx_BOT_sapi"
+				"gear"				"srnx_BOT_ins_helmet_standard"
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_ae_mg42"
-				"weapon_upgrade"	"quick_reload"
-				"weapon_upgrade"	"juggernaut_sp"
+				"weapon"			"weapon_nam_ppsh41"
+				//"weapon_upgrade"	"magazine_extended_rifle_30rd"
 				//Secondary
-				"weapon"			"weapon_kingcobra"
-				"weapon_upgrade"	"ammo_hp_mr96"
-				"weapon_upgrade"	"juggernaut_sp"
-				
+				"weapon"			"weapon_model10"
+				"weapon_upgrade"	"magazine_extended_ppsh41"
+				//"weapon_upgrade"	"ammo_ap_kriss"
 				//Explosive
-				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_m84"
 				
 			}
 			"allowed_weapons"
 			{
 				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_juggernaut_armor"
-				"gear"				"srnx_BOT_ins_jugger_helmet_black"
+				"gear"				"ins_BOT_carrier_p1_s6"
+				"gear"				"srnx_BOT_sapi"
+				"gear"				"srnx_BOT_ins_helmet_standard"
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_ae_mg42"
-				"weapon_upgrade"	"quick_reload"
-				"weapon_upgrade"	"juggernaut_sp"
+				"weapon"			"weapon_nam_ppsh41"
+				"weapon_upgrade"	"magazine_extended_rifle_30rd"
+				"weapon_upgrade"	"ammo_ap_l1a1"
 				//Secondary
-				"weapon"			"weapon_kingcobra"
-				"weapon_upgrade"	"ammo_hp_mr96"
-
+				"weapon"			"weapon_model10"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_ap_kriss"
 				//Explosive
+				"weapon"			"weapon_m84"
 				"weapon"			"weapon_rpg7"
 			}
 		}
@@ -1905,34 +1905,43 @@
 				{
 					"backpack"					"-1"
 					"glasses"					"-1"
-					"kit"					"2"
+					"kit"					"-1"
 				}
 
 			}
-
 			"buy_order" 
 			{
-				//Gear
+				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_balance"
 				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"gear"				"srnx_BOT_ins_helmet_k63"
-				//Bomb Model (melee)
-				"weapon"			"weapon_suicide_bomb"
+				"gear"				"srnx_BOT_ins_helmet_Maskah"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_lewis"
+				//Secondary
+				"weapon"			"weapon_mr96"
+				"weapon_upgrade"	"ammo_ap_mr96"
+
 				//Explosive
-				"weapon"			"weapon_f1" 
+				"weapon"			"weapon_f1"
 			}
 			"allowed_weapons"
 			{
-				//Gear
+				//Carrier|Armor
 				"gear"				"ins_BOT_carrier_balance"
 				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"gear"				"srnx_BOT_ins_helmet_k63"
-				//Bomb Model (melee)
-				"weapon"			"weapon_suicide_bomb"
+				"gear"				"srnx_BOT_ins_helmet_Maskah"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_lewis"
+				//Secondary
+				"weapon"			"weapon_mr96"
+				"weapon_upgrade"	"ammo_ap_mr96"
+
 				//Explosive
-				"weapon"			"weapon_f1" 
+				"weapon"			"weapon_f1"
 			}
 		}
 		
@@ -2123,65 +2132,65 @@
 			}
 		}
 		"template_survival_m249_security"
-		{
+		{	
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_standard.mdl"
+				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
-				"bodygroups"
-				{
-					
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
+				// "bodygroups"
+				// {
+				// 	"backpack"					"-1"
+				// 	"glasses"					"-1"
+				// 	"kit"					"-1"
+				// }
 
 			}
 			"buy_order" 
 			{
 				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_sapi"
-				"gear"				"srnx_BOT_ins_helmet_standard"
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_juggernaut_armor"
+				"gear"				"srnx_BOT_ins_jugger_helmet_black"
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_nam_ppsh41"
-				//"weapon_upgrade"	"magazine_extended_rifle_30rd"
+				"weapon"			"weapon_ae_mg42"
+				"weapon_upgrade"	"quick_reload"
+				"weapon_upgrade"	"juggernaut_sp"
 				//Secondary
-				"weapon"			"weapon_model10"
-				"weapon_upgrade"	"magazine_extended_ppsh41"
-				//"weapon_upgrade"	"ammo_ap_kriss"
+				"weapon"			"weapon_kingcobra"
+				"weapon_upgrade"	"ammo_hp_mr96"
+				"weapon_upgrade"	"juggernaut_sp"
+				
 				//Explosive
-				"weapon"			"weapon_m84"
+				"weapon"			"weapon_rpg7"
 				
 			}
 			"allowed_weapons"
 			{
 				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_sapi"
-				"gear"				"srnx_BOT_ins_helmet_standard"
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_juggernaut_armor"
+				"gear"				"srnx_BOT_ins_jugger_helmet_black"
 				"weapon"			"weapon_knife"
 				
 				//Primary
-				"weapon"			"weapon_nam_ppsh41"
-				"weapon_upgrade"	"magazine_extended_rifle_30rd"
-				"weapon_upgrade"	"ammo_ap_l1a1"
+				"weapon"			"weapon_ae_mg42"
+				"weapon_upgrade"	"quick_reload"
+				"weapon_upgrade"	"juggernaut_sp"
 				//Secondary
-				"weapon"			"weapon_model10"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_ap_kriss"
+				"weapon"			"weapon_kingcobra"
+				"weapon_upgrade"	"ammo_hp_mr96"
+
 				//Explosive
-				"weapon"			"weapon_m84"
 				"weapon"			"weapon_rpg7"
 			}
 		}
 		
-		"template_survival_at4_security"
+		"template_survival_at4_bomber_security"
 		{
 			"team"			"insurgents"
 			"print_name"	"BOT" 
@@ -2194,45 +2203,35 @@
 				{
 					"backpack"					"-1"
 					"glasses"					"-1"
-					"kit"					"-1"
+					"kit"					"2"
 				}
 
 			}
+
 			"buy_order" 
 			{
-				//Carrier|Armor
+				//Gear
 				"gear"				"ins_BOT_carrier_balance"
 				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_ins_helmet_Maskah"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_lewis"
-				//Secondary
-				"weapon"			"weapon_mr96"
-				"weapon_upgrade"	"ammo_ap_mr96"
-
+				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_k63"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
 				//Explosive
-				"weapon"			"weapon_f1"
+				"weapon"			"weapon_f1" 
 			}
 			"allowed_weapons"
 			{
-				//Carrier|Armor
+				//Gear
 				"gear"				"ins_BOT_carrier_balance"
 				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_ins_helmet_Maskah"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_lewis"
-				//Secondary
-				"weapon"			"weapon_mr96"
-				"weapon_upgrade"	"ammo_ap_mr96"
-
+				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_k63"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
 				//Explosive
-				"weapon"			"weapon_f1"
+				"weapon"			"weapon_f1" 
 			}
-		}
 	}
 }
 
