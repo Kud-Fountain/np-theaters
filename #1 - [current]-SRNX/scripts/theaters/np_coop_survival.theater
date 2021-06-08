@@ -131,7 +131,7 @@
 					"#Squad_Fireteam_Specialist"		"template_survival_base_02_security"
 					"#Squad_Fireteam_Specialist"		"template_survival_officer_02_security"
 					"#Squad_Fireteam_Specialist"		"template_survival_base_03_security"
-					"#Squad_Fireteam_Specialist"		"template_survival_at4_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_03_security"
 					"#Squad_Fireteam_Specialist"		"template_survival_officer_04_security"
 					"#Squad_Fireteam_Specialist"		"template_survival_base_05_security"
 				}
@@ -144,7 +144,7 @@
 					"#Squad_Fireteam_Specialist"		"template_survival_officer_05_security"
 					"#Squad_Fireteam_Specialist"		"template_survival_officer_05_security"
 					"#Squad_Fireteam_Specialist"		"template_survival_base_01_security"
-					"#Squad_Fireteam_Specialist"		"template_survival_at4_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_03_security"
 				}
 				"#Fireteam_Charlie"
 				{
@@ -153,7 +153,7 @@
 					"#Squad_Fireteam_Specialist"		"template_survival_base_02_security"
 					"#Squad_Fireteam_Specialist"		"template_survival_officer_02_security"
 					"#Squad_Fireteam_Specialist"		"template_survival_base_03_security"
-					"#Squad_Fireteam_Specialist"		"template_survival_at4_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_03_security"
 					"#Squad_Fireteam_Specialist"		"template_survival_officer_04_security"
 					"#Squad_Fireteam_Specialist"		"template_survival_base_05_security"
 				}
@@ -164,7 +164,7 @@
 					"#Squad_Fireteam_Specialist"		"template_survival_base_02_security"
 					"#Squad_Fireteam_Specialist"		"template_survival_officer_02_security"
 					"#Squad_Fireteam_Specialist"		"template_survival_base_03_security"
-					"#Squad_Fireteam_Specialist"		"template_survival_at4_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_03_security"
 					"#Squad_Fireteam_Specialist"		"template_survival_officer_04_security"
 					"#Squad_Fireteam_Specialist"		"template_survival_base_05_security"
 				}
