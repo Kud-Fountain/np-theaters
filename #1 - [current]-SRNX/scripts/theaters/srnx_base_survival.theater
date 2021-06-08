@@ -35,7 +35,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_g36c"
-				"weapon"			"weapon_defib"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
 				"gear"				"gear_uav"
 				"gear"				"basic_chest"
@@ -228,7 +228,7 @@
 			{
 				//"weapon"			"weapon_saiga12"
 				"weapon"			"weapon_nam_ppsh41"
-				"weapon"			"weapon_defib"
+				"weapon"			"weapon_knife"
 				"gear"				"basic_chest_fg"
 				//"gear"				"srnx_devgru_1_a"
 			}
@@ -313,7 +313,7 @@
 			{
 				//"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_ak74"
-				"weapon"			"weapon_defib"
+				"weapon"			"weapon_knife"
 				"gear"				"basic_chest"
 				//"gear"				"srnx_devgru_1_a"
 
@@ -378,7 +378,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_ak12u"
-				"weapon"			"weapon_defib"
+				"weapon"			"weapon_knife"
 				"gear"				"basic_chest_rm"
 			}
 			"allowed_items"
@@ -439,7 +439,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_toz"
-				"weapon"			"weapon_defib"
+				"weapon"			"weapon_knife"
 				"gear"				"gear_ammocrate"
 				"gear"				"basic_chest_shotgun"
 			}
@@ -656,7 +656,7 @@
 				
 				//"weapon"			"weapon_sa80"
 				"weapon"			"weapon_m3greasegun"
-				"weapon"			"weapon_defib"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig1_mv"
@@ -724,7 +724,7 @@
 			{
 				
 				"weapon"			"weapon_sa80"
-				"weapon"			"weapon_defib"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig2"
@@ -819,7 +819,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_lewis"
-				"weapon"			"weapon_defib"
+				"weapon"			"weapon_knife"
 				"gear"				"basic_chest_mg"
 				//"gear"				"srnx_devgru_1_a"
 			}
@@ -893,7 +893,7 @@
 			{
 				"weapon"			"weapon_galil_sar"
 				"gear"				"basic_chest_mg"
-				"weapon"			"weapon_defib"
+				"weapon"			"weapon_knife"
 				//"gear"				"srnx_devgru_1_a"
 			}
 			"allowed_items"
@@ -1062,7 +1062,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_fal"
-				"weapon"			"weapon_defib"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig2"
 				"gear"				"srnx_esapi"
@@ -1282,7 +1282,7 @@
 			{
 				
 				"weapon"			"weapon_enfield"
-				"weapon"			"weapon_defib"
+				"weapon"			"weapon_knife"
 				"gear"				"basic_chest"
 			}
 			"allowed_items"
@@ -1342,7 +1342,7 @@
 			{
 				
 				"weapon"			"weapon_m40a1"
-				"weapon"			"weapon_defib"
+				"weapon"			"weapon_knife"
 				"gear"				"basic_chest_sniper"
 			}
 			"allowed_items"
@@ -1397,7 +1397,7 @@
 			{
 				
 				"weapon"			"weapon_m40a1"
-				"weapon"			"weapon_defib"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m67"
 				"gear"				"srnx_chest_rig2"
 				"gear"				"srnx_esapi"
@@ -1496,7 +1496,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_m1garand"
-				"weapon"			"weapon_defib"
+				"weapon"			"weapon_knife"
 				"gear"				"basic_chest"
 			}
 			"allowed_items"
@@ -1563,7 +1563,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_doi2ins_m1garand"
-				"weapon"			"weapon_defib"
+				"weapon"			"weapon_knife"
 				"gear"				"basic_chest"
 			}
 			"allowed_items"
@@ -1608,10 +1608,9 @@
 			}
 		}
 
-		// checkpoint BOT
-		// juggernaut bot 1
-		"juggernaut_1"
-		{	
+		// BOTS
+		"template_survival_base_01_security"
+		{
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
@@ -1668,240 +1667,9 @@
 				"weapon"			"weapon_rpg7"
 			}
 		}
-		// juggernaut bot 2
-		"juggernaut_2"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				// "bodygroups"
-				// {
-				// 	"backpack"					"-1"
-				// 	"glasses"					"-1"
-				// 	"kit"					"-1"
-				// }
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_juggernaut_armor"
-				"gear"				"srnx_BOT_ins_jugger_helmet_black"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_wa2000"
-				"weapon_upgrade"	"juggernaut_sp"
-				//Secondary
-				"weapon"			"weapon_model10"
-				//"weapon_upgrade"	"ammo_hp_aks74u"
-				//"weapon_upgrade"	"juggernaut_sp"
-
-				//Explosive
-				"weapon"			"weapon_rpg7"
-				
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_juggernaut_armor"
-				"gear"				"srnx_BOT_ins_jugger_helmet_black"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				//"weapon"			"weapon_rpk"
-				//"weapon_upgrade"	"ammo_ap_rpk"
-				"weapon"			"weapon_wa2000"
-				"weapon_upgrade"	"juggernaut_sp"
-				//Secondary
-				"weapon"			"weapon_model10"
-				//"weapon_upgrade"	"ammo_hp_aks74u"
-
-				//Explosive
-				"weapon"			"weapon_rpg7"
-			}
-		}
-		// juggernaut bot 3
-		"juggernaut_3"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				// "bodygroups"
-				// {
-				// 	"backpack"					"-1"
-				// 	"glasses"					"-1"
-				// 	"kit"					"-1"
-				// }
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_juggernaut_armor"
-				"gear"				"srnx_BOT_ins_jugger_helmet_black"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_saiga12"
-				"weapon_upgrade"	"tacbuck"
-				"weapon_upgrade"	"juggernaut_sp"
-				//Secondary
-				"weapon"			"weapon_model10"
-				//"weapon_upgrade"	"commbuck"
-
-				//Explosive
-				"weapon"			"weapon_f1"
-				
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_juggernaut_armor"
-				"gear"				"srnx_BOT_ins_jugger_helmet_black"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_spas12"
-				"weapon_upgrade"	"tacbuck"
-				"weapon_upgrade"	"juggernaut_sp"
-				//Secondary
-				"weapon"			"weapon_model10"
-				//"weapon_upgrade"	"commbuck"
-
-				//Explosive
-				"weapon"			"weapon_f1"
-			}
-		}
-		// juggernaut bot 4
-		"juggernaut_4"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				// "bodygroups"
-				// {
-				// 	"backpack"					"-1"
-				// 	"glasses"					"-1"
-				// 	"kit"					"-1"
-				// }
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_juggernaut_armor"
-				"gear"				"srnx_BOT_ins_jugger_helmet_black"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_m249"
-				"weapon_upgrade"	"ammo_ap_m249"
-				//Secondary
-				"weapon"			"weapon_deagle"
-				"weapon_upgrade"	"ammo_ap_deagle"
-
-				//Explosive
-				"weapon"			"weapon_anm14"
-				
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_juggernaut_armor"
-				"gear"				"srnx_BOT_ins_jugger_helmet_black"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_m249"
-				"weapon_upgrade"	"ammo_ap_m249"
-				//Secondary
-				"weapon"			"weapon_deagle"
-				"weapon_upgrade"	"ammo_ap_deagle"
-
-				//Explosive
-				"weapon"			"weapon_anm14"
-			}
-		}
-		// juggernaut bot 5
-		"juggernaut_5"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				// "bodygroups"
-				// {
-				// 	"backpack"					"-1"
-				// 	"glasses"					"-1"
-				// 	"kit"					"-1"
-				// }
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_juggernaut_armor"
-				"gear"				"srnx_BOT_ins_jugger_helmet_black"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_g3a3"
-				"weapon_upgrade"	"magazine_extended_rifle_30rd"
-				"weapon_upgrade"	"ammo_ap_g3a3"
-				//Secondary
-				"weapon"			"weapon_kingcobra"
-				"weapon_upgrade"	"ammo_hp_mr96"
-
-				//Explosive
-				"weapon"			"weapon_rpg7"
-				
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_juggernaut_armor"
-				"gear"				"srnx_BOT_ins_jugger_helmet_black"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_g3a3"
-				"weapon_upgrade"	"magazine_extended_rifle_30rd"
-				"weapon_upgrade"	"ammo_ap_g3a3"
-				//Secondary
-				"weapon"			"weapon_kingcobra"
-				"weapon_upgrade"	"ammo_hp_mr96"
-
-				//Explosive
-				"weapon"			"weapon_rpg7"
-			}
-		}
-		// Standard Model 1
-		"standard_ins_1"
-		{	
+		
+		"template_survival_officer_01_security"
+		{
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
@@ -1956,9 +1724,349 @@
 				
 			}
 		}
-		// Standard Model 2
-		"standard_ins_2"
-		{	
+		
+		"template_survival_base_02_security"
+		{
+			"team"			"insurgents"
+			"print_name"	"BOT" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_heavy.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_leba1"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_ae_mg42"
+				//Secondary
+				"weapon"			"weapon_m45"
+				//"weapon_upgrade"	"barrel_silencer_ins1"
+				//"weapon_upgrade"	"ammo_hp_aks74u"
+
+				//Explosive
+				"weapon"			"weapon_f1"
+			}
+			"allowed_weapons"
+			{
+				//Carrier|Armor
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_leba1"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_ae_mg42"
+				//Secondary
+				"weapon"			"weapon_m45"
+				//"weapon_upgrade"	"barrel_silencer_ins1"
+				//"weapon_upgrade"	"ammo_hp_aks74u"
+
+				//Explosive
+				"weapon"			"weapon_f1"
+			}
+		}
+		
+		"template_survival_officer_02_security"
+		{
+			"team"			"insurgents"
+			"print_name"	"BOT" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_springfield"
+				//Secondary
+				"weapon"			"weapon_makarov"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_hp_mp5"
+				//Explosive
+				"weapon"			"weapon_rpg7"
+				
+			}
+			"allowed_weapons"
+			{
+				//Carrier|Armor
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_springfield"
+				//Secondary
+				"weapon"			"weapon_makarov"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_hp_mp5"
+				//Explosive
+				"weapon"			"weapon_rpg7"
+				
+				
+			}
+		}
+		
+		"template_survival_base_03_security"
+		{
+			"team"			"insurgents"
+			"print_name"	"BOT" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"ins_BOT_carrier_p0_s7"
+				"gear"				"srnx_sling_bot"
+				"gear"				"srnx_BOT_nij_2"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_enfield"
+				//Secondary
+				"weapon"			"weapon_deagle"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_ap_mp5"
+				//Explosive
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_law"
+			}
+			"allowed_weapons"
+			{
+				//Carrier|Armor
+				"gear"				"ins_BOT_carrier_p0_s7"
+				"gear"				"srnx_sling_bot"
+				"gear"				"srnx_BOT_nij_2"
+				"weapon"			"weapon_knife"
+				
+				//Primary
+				"weapon"			"weapon_enfield"
+				"weapon_upgrade"	"ammo_ap_mosin"
+				//Secondary
+				"weapon"			"weapon_deagle"
+				//"weapon_upgrade"	"magazine_extended_smg_40"
+				//"weapon_upgrade"	"ammo_ap_mp5"
+				//Explosive
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_law"
+			}
+		}
+		
+		"template_survival_officer_03_security"
+		{
+			"team"			"insurgents"
+			"print_name"	"BOT" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_heavy.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"2"
+				}
+
+			}
+
+			"buy_order" 
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_k63"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+			"allowed_weapons"
+			{
+				//Gear
+				"gear"				"ins_BOT_carrier_balance"
+				"gear"				"srnx_BOT_ar500"
+				"gear"				"srnx_BOT_leba1"
+				"gear"				"srnx_BOT_ins_helmet_k63"
+				//Bomb Model (melee)
+				"weapon"			"weapon_suicide_bomb"
+				//Explosive
+				"weapon"			"weapon_f1" 
+			}
+		}
+		
+		"template_survival_base_04_security"
+		{
+			"team"					"security"
+			"print_name"				"Security Force 04 Class"
+			
+			"models"
+			{
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"					"sec_chest_carrier"
+				"gear"					"sec_heavy_armor"
+				"weapon"				"weapon_kabar"
+				"weapon"				"weapon_m4a1"
+				"weapon_upgrade"			"barrel_silencer_sec1"
+				"weapon_upgrade"			"siderail_lasersight_band"
+				"weapon"				"weapon_m67"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_m67"
+			}
+		}
+		
+		"template_survival_officer_04_security"
+		{
+			"team"			"insurgents"
+			"print_name"	"BOT" 
+			"models"
+			{
+				"player"				"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+
+				"bodygroups"
+				{
+					"backpack"					"-1"
+					"glasses"					"-1"
+					"kit"					"-1"
+				}
+
+			}
+			"buy_order" 
+			{
+				//Carrier|Armor
+				"gear"				"ins_BOT_carrier_p0_s7"
+				"gear"				"srnx_sling_bot"
+				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ins_helmet_maskah"
+				"weapon"			"weapon_knife"
+				
+				"weapon"			"weapon_m79_incen"
+				//Primary
+				"weapon"			"weapon_ae_m1014"
+				//"weapon_upgrade"	"barrel_silencer_heavy"
+				//Secondary
+				//"weapon"			"weapon_glock18"
+				//"weapon_upgrade"	"magazine_extended_rifle_30rd"
+				//"weapon_upgrade"	"ammo_hp_m4"
+				//Explosive
+				"weapon"			"weapon_law"
+				
+			}
+			"allowed_weapons"
+			{
+				//Carrier|Armor
+				"gear"				"ins_BOT_carrier_p0_s7"
+				"gear"				"srnx_sling_bot"
+				"gear"				"srnx_BOT_esapi"
+				"gear"				"srnx_BOT_ins_helmet_maskah"
+				"weapon"			"weapon_knife"
+				
+				"weapon"			"weapon_m79_incen"
+				//Primary
+				"weapon"			"weapon_ae_m1014"
+				//"weapon_upgrade"	"barrel_silencer_heavy"
+				"weapon_upgrade"	"tacbuck"
+				//Secondary
+				//"weapon"			"weapon_glock18"
+				//"weapon_upgrade"	"magazine_extended_rifle_30rd"
+				//"weapon_upgrade"	"ammo_hp_m4"
+				//Explosive
+				"weapon"			"weapon_law"
+				
+			}
+		}
+		"template_survival_base_05_security"
+		{
+			"team"					"security"
+			"print_name"				"Security Force 05 Class"
+			
+			"models"
+			{
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"					"sec_chest_carrier"
+				"gear"					"sec_heavy_armor"
+				"weapon"				"weapon_kabar"
+				"weapon"				"weapon_m4a1"
+				"weapon_upgrade"			"barrel_silencer_sec1"
+				"weapon_upgrade"			"ammo_ap_m4"
+				"weapon"				"weapon_m67"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_m67"
+			}
+		}
+		
+		"template_survival_officer_05_security"
+		{
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
@@ -2014,9 +2122,8 @@
 				
 			}
 		}
-		// Standard Model 3
-		"standard_ins_3"
-		{	
+		"template_survival_m249_security"
+		{
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
@@ -2073,121 +2180,9 @@
 				"weapon"			"weapon_rpg7"
 			}
 		}
-		// Standard Model 4
-		"standard_ins_4"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_sapi"
-				"gear"				"srnx_BOT_ins_helmet_standard"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				
-				"weapon"			"weapon_asval"
-				//Secondary
-				"weapon"			"weapon_model10"
-				//"weapon_upgrade"	"barrel_silencer_ins1"
-				//"weapon_upgrade"	"ammo_hp_aks74u"
-				//Explosive
-				"weapon"			"weapon_f1"
-				
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_sapi"
-				"gear"				"srnx_BOT_ins_helmet_standard"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				
-				"weapon"			"weapon_asval"
-				//Secondary
-				"weapon"			"weapon_model10"
-				//"weapon_upgrade"	"barrel_silencer_ins1"
-				//"weapon_upgrade"	"ammo_hp_aks74u"
-				//Explosive
-				"weapon"			"weapon_f1"
-				"weapon"			"weapon_rpg7"
-			}
-		}
-		// Machinegunner FIGHTER Model 1
-		"mg_fighter_ins_1"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
-				"gear"				"srnx_BOT_leba1"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_ae_mg42"
-				//Secondary
-				"weapon"			"weapon_m45"
-				//"weapon_upgrade"	"barrel_silencer_ins1"
-				//"weapon_upgrade"	"ammo_hp_aks74u"
-
-				//Explosive
-				"weapon"			"weapon_f1"
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_esapi"
-				"gear"				"srnx_BOT_leba1"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_ae_mg42"
-				//Secondary
-				"weapon"			"weapon_m45"
-				//"weapon_upgrade"	"barrel_silencer_ins1"
-				//"weapon_upgrade"	"ammo_hp_aks74u"
-
-				//Explosive
-				"weapon"			"weapon_f1"
-			}
-		}
-		// Machinegunner FIGHTER Model 2
-		"mg_fighter_ins_2"
-		{	
+		
+		"template_survival_at4_security"
+		{
 			"team"			"insurgents"
 			"print_name"	"BOT" 
 			"models"
@@ -2238,1222 +2233,6 @@
 				"weapon"			"weapon_f1"
 			}
 		}
-		// Machinegunner HEAVY Model 3
-		"mg_fighter_ins_3"
-		{	
-			"team"			"insurgents"
-			"models"
-			{
-				"player"				"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p0_s7"
-				"gear"				"srnx_sling_bot"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"gear"				"srnx_BOT_ins_helmet_k63"
-				"weapon"			"weapon_knife"
-				//Primary1
-				//Primary
-				"weapon"			"weapon_ae_mg42"
-				//Secondary
-				"weapon"			"weapon_m45"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_ap_mp5"
-
-				//Explosive
-				"weapon"			"weapon_f1"
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p0_s7"
-				"gear"				"srnx_sling_bot"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"gear"				"srnx_BOT_ins_helmet_k63"
-				"weapon"			"weapon_knife"
-				//Primary1
-				//Primary
-				"weapon"			"weapon_ae_mg42"
-				//Secondary
-				"weapon"			"weapon_m45"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_ap_mp5"
-
-				//Explosive
-				"weapon"			"weapon_f1"
-				"weapon"			"weapon_at4"
-			}
-		}
-		// Machinegunner FIGHTER Model 4
-		"mg_fighter_ins_4"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"gear"				"srnx_BOT_ins_helmet_Maskah"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_m249"
-				//Secondary
-				"weapon"			"weapon_kingcobra"
-				"weapon_upgrade"	"ammo_hp_mr96"
-
-				//Explosive
-				"weapon"			"weapon_rpg7"
-				
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"gear"				"srnx_BOT_ins_helmet_Maskah"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_m249"
-				//Secondary
-				"weapon"			"weapon_kingcobra"
-				"weapon_upgrade"	"ammo_hp_mr96"
-
-				//Explosive
-				"weapon"			"weapon_rpg7"
-			}
-		}
-		// Machinegunner FIGHTER Model 5
-		"mg_fighter_ins_5"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_rpk"
-				"weapon_upgrade"	"ammo_ap_rpk"
-				//Secondary
-				"weapon"			"weapon_m45"
-				"weapon_upgrade"	"ammo_hp_m45"
-
-				//Explosive
-				"weapon"			"weapon_anm14"
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_rpk"
-				"weapon_upgrade"	"ammo_ap_rpk"
-				//Secondary
-				"weapon"			"weapon_m45"
-				"weapon_upgrade"	"ammo_hp_m45"
-
-				//Explosive
-				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_at4"
-			}
-		}
-
-		// Striker MG Model 1
-		"striker_ins_1"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_springfield"
-				//Secondary
-				"weapon"			"weapon_makarov"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_hp_mp5"
-				//Explosive
-				"weapon"			"weapon_rpg7"
-				
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_springfield"
-				//Secondary
-				"weapon"			"weapon_makarov"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_hp_mp5"
-				//Explosive
-				"weapon"			"weapon_rpg7"
-				
-				
-			}
-		}
-		// Striker MG Model 2
-		"striker_ins_2"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_esapi"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_m107"
-				"weapon_upgrade"	"barrel_heavybarrel"
-				"weapon_upgrade"	"ammo_ap_m107"
-				//Secondary
-				"weapon"			"weapon_makarov"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_ap_mp5"
-				//Explosive
-				"weapon"			"weapon_molotov"
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_esapi"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_m107"
-				"weapon_upgrade"	"barrel_heavybarrel"
-				"weapon_upgrade"	"ammo_ap_m107"
-				//Secondary
-				"weapon"			"weapon_makarov"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_ap_mp5"
-				//Explosive
-				"weapon"			"weapon_molotov"
-				"weapon"			"weapon_at4"
-			}
-		}
-		// Striker HEAVY Model 3
-		"striker_ins_3"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p0_s7"
-				"gear"				"srnx_sling_bot"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"gear"				"srnx_BOT_ins_helmet_k63"
-				"weapon"			"weapon_knife"
-				
-				"weapon"			"weapon_m79_incen"
-				//Primary
-				"weapon"			"weapon_m3greasegun"
-				//Secondary
-				//"weapon"			"weapon_makarov"
-				//"weapon_upgrade"	"barrel_silencer_ins1"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_ap_mp40"
-				//Explosive
-				"weapon"			"weapon_at4"
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p0_s7"
-				"gear"				"srnx_sling_bot"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"gear"				"srnx_BOT_ins_helmet_k63"
-				"weapon"			"weapon_knife"
-				
-				"weapon"			"weapon_m79_incen"
-				//Primary
-				"weapon"			"weapon_m3greasegun"
-				//Secondary
-				//"weapon"			"weapon_makarov"
-				//"weapon_upgrade"	"barrel_silencer_ins1"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_ap_mp40"
-				//Explosive
-				"weapon"			"weapon_molotov"
-				"weapon"			"weapon_at4"
-			}
-		}
-		// Striker MG Model 4
-		"striker_ins_4"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_esapi"
-				"gear"				"srnx_BOT_leba1"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_thompson_m1a1"
-				//Secondary
-				"weapon"			"weapon_glock18"
-				"weapon_upgrade"	"magazine_extended_glock"
-				"weapon_upgrade"	"ammo_hp_m9"
-				//Explosive
-				"weapon"			"weapon_law"
-				
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_esapi"
-				"gear"				"srnx_BOT_leba1"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_thompson_m1a1"
-				//Secondary
-				"weapon"			"weapon_glock18"
-				"weapon_upgrade"	"magazine_extended_glock"
-				"weapon_upgrade"	"ammo_hp_m9"
-				//Explosive
-				"weapon"			"weapon_law"
-				
-			}
-		}
-		// Striker MG Model 5
-		"striker_ins_5"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p0_s7"
-				"gear"				"srnx_sling_bot"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_m4a1"
-				"weapon_upgrade"	"ammo_beta50"
-				"weapon_upgrade"	"ammo_ap_m4"
-				//Secondary
-				"weapon"			"weapon_makarov"
-				//"weapon_upgrade"	"ammo_hp_kriss"
-				//"weapon_upgrade"	"barrel_silencer_sec1"
-				//Explosive
-				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_law"
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p0_s7"
-				"gear"				"srnx_sling_bot"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_m4a1"
-				"weapon_upgrade"	"ammo_beta50"
-				"weapon_upgrade"	"ammo_ap_m4"
-				//Secondary
-				"weapon"			"weapon_makarov"
-				//"weapon_upgrade"	"ammo_hp_kriss"
-				//"weapon_upgrade"	"barrel_silencer_sec1"
-				//Explosive
-				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_law"
-			}
-		}
-		// Striker VIP Model 1
-		"striker_ins_vip_1"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_g3a3"
-				"weapon_upgrade"	"ammo_ap_g3a3"
-				//Secondary
-				"weapon"			"weapon_makarov"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_ap_mp40"
-				//Explosive
-				"weapon"			"weapon_m18"
-				"weapon"			"weapon_law"
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_g3a3"
-				"weapon_upgrade"	"ammo_ap_g3a3"
-				//Secondary
-				"weapon"			"weapon_makarov"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_ap_mp40"
-				//Explosive
-				"weapon"			"weapon_m18"
-				"weapon"			"weapon_law"
-			}
-		}
-		// Scout LIGHT Model 1
-		"scout_ins_1"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_light.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p0_s7"
-				"gear"				"srnx_sling_bot"
-				"gear"				"srnx_BOT_nij_2"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_enfield"
-				//Secondary
-				"weapon"			"weapon_deagle"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_ap_mp5"
-				//Explosive
-				"weapon"			"weapon_m18"
-				"weapon"			"weapon_law"
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p0_s7"
-				"gear"				"srnx_sling_bot"
-				"gear"				"srnx_BOT_nij_2"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_enfield"
-				"weapon_upgrade"	"ammo_ap_mosin"
-				//Secondary
-				"weapon"			"weapon_deagle"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_ap_mp5"
-				//Explosive
-				"weapon"			"weapon_m18"
-				"weapon"			"weapon_law"
-			}
-		}
-		// Scout LIGHT Model 2
-		"scout_ins_2"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_light.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p0_s7"
-				"gear"				"srnx_sling_bot"
-				"gear"				"srnx_BOT_nij_2"
-				"weapon"			"weapon_knife"
-				
-				"weapon"			"weapon_m79_smoke"
-				//Primary
-				"weapon"			"weapon_mosin"
-				"weapon_upgrade"	"ammo_ap_mosin"
-				//Secondary
-				"weapon"			"weapon_deagle"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_hp_mp40"
-				//Explosive
-				"weapon"			"weapon_m84"
-				"weapon"			"weapon_law"
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p0_s7"
-				"gear"				"srnx_sling_bot"
-				"gear"				"srnx_BOT_nij_2"
-				"weapon"			"weapon_knife"
-				
-				"weapon"			"weapon_m79_smoke"
-				//Primary
-				"weapon"			"weapon_mosin"
-				"weapon_upgrade"	"ammo_ap_mosin"
-				//Secondary
-				"weapon"			"weapon_deagle"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_hp_mp40"
-				//Explosive
-				"weapon"			"weapon_m18"
-				"weapon"			"weapon_law"
-			}
-		}
-		// Scout LIGHT Model 3
-		"scout_ins_3"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_light.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_nij_2"
-				"gear"				"srnx_BOT_leba1"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_g3a3"
-				"weapon_upgrade"	"ammo_ap_g3a3"
-				//Secondary
-				"weapon"			"weapon_deagle"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_hp_kriss"
-				//Explosive
-				"weapon"			"weapon_m84"
-				"weapon"			"weapon_law"
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_nij_2"
-				"gear"				"srnx_BOT_leba1"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_g3a3"
-				"weapon_upgrade"	"ammo_ap_g3a3"
-				//Secondary
-				"weapon"			"weapon_deagle"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_hp_kriss"
-				//Explosive
-				"weapon"			"weapon_m84"
-				"weapon"			"weapon_law"
-			}
-		}
-		"scout_ins_ex"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_light.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_nij_2"
-				"gear"				"srnx_BOT_ar500"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_k98"
-				"weapon_upgrade"			"optic_scope_7x_ds"
-				//Secondary
-				"weapon"			"weapon_deagle"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_hp_kriss"
-				//Explosive
-				"weapon"			"weapon_m18"
-				"weapon"			"weapon_law"
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_nij_2"
-				"gear"				"srnx_BOT_leba1"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_k98"
-				"weapon_upgrade"			"optic_scope_7x_ds"
-				//Secondary
-				"weapon"			"weapon_deagle"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_hp_kriss"
-				//Explosive
-				"weapon"			"weapon_m18"
-				"weapon"			"weapon_law"
-			}
-		}
-		// Scout VIP Model 1
-		"scout_ins_vip_1"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_light.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_nij_3a"
-				"gear"				"srnx_BOT_leba1"
-				"gear"				"srnx_BOT_ins_helmet_standard"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_rfb"
-				"weapon_upgrade"	"ammo_ap_fal"
-				//Secondary
-				"weapon"			"weapon_deagle"
-				"weapon_upgrade"	"ammo_ap_deagle"
-				//Explosive
-				"weapon"			"weapon_m84"
-				"weapon"			"weapon_law"
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_nij_3a"
-				"gear"				"srnx_BOT_leba1"
-				"gear"				"srnx_BOT_ins_helmet_standard"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_rfb"
-				"weapon_upgrade"	"ammo_ap_fal"
-				//Secondary
-				"weapon"			"weapon_deagle"
-				"weapon_upgrade"	"ammo_ap_deagle"
-				//Explosive
-				"weapon"			"weapon_m84"
-				"weapon"			"weapon_law"
-			}
-		}
-		// Bomber HEAVY Model 1
-		"bomber_ins_1"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"2"
-				}
-
-			}
-
-			"buy_order" 
-			{
-				//Gear
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"gear"				"srnx_BOT_ins_helmet_k63"
-				//Bomb Model (melee)
-				"weapon"			"weapon_suicide_bomb"
-				//Explosive
-				"weapon"			"weapon_f1" 
-			}
-			"allowed_weapons"
-			{
-				//Gear
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"gear"				"srnx_BOT_ins_helmet_k63"
-				//Bomb Model (melee)
-				"weapon"			"weapon_suicide_bomb"
-				//Explosive
-				"weapon"			"weapon_f1" 
-			}
-		}
-		// Bomber HEAVY Model 2
-		"bomber_ins_2"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"2"
-				}
-
-			}
-
-			"buy_order" 
-			{
-				//Gear
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				//Bomb Model (melee)
-				"weapon"			"weapon_suicide_bomb"
-				//Explosive
-				"weapon"			"weapon_f1" 
-			}
-			"allowed_weapons"
-			{
-				//Gear
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				//Bomb Model (melee)
-				"weapon"			"weapon_suicide_bomb"
-				//Explosive
-				"weapon"			"weapon_f1" 
-			}
-		}
-		// Bomber HEAVY Model 3
-		"bomber_ins_3"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"2"
-				}
-
-			}
-
-			"buy_order" 
-			{
-				//Gear
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				//Bomb Model (melee)
-				"weapon"			"weapon_suicide_bomb"
-				//Explosive
-				"weapon"			"weapon_f1" 
-			}
-			"allowed_weapons"
-			{
-				//Gear
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				//Bomb Model (melee)
-				"weapon"			"weapon_suicide_bomb"
-				//Explosive
-				"weapon"			"weapon_f1" 
-			}
-		}
-		// Bomber HEAVY Model 4
-		"bomber_ins_4"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"2"
-				}
-
-			}
-
-			"buy_order" 
-			{
-				//Gear
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"gear"				"srnx_BOT_ins_helmet_maskah"
-				//Bomb Model (melee)
-				"weapon"			"weapon_suicide_bomb"
-				//Explosive
-				"weapon"			"weapon_f1" 
-			}
-			"allowed_weapons"
-			{
-				//Gear
-				"gear"				"ins_BOT_carrier_balance"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"gear"				"srnx_BOT_ins_helmet_maskah"
-				//Bomb Model (melee)
-				"weapon"			"weapon_suicide_bomb"
-				//Explosive
-				"weapon"			"weapon_f1" 
-			}
-		}
-		// Sapper Model 1
-		"sapper_ins_1"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p0_s7"
-				"gear"				"srnx_sling_bot"
-				"gear"				"srnx_BOT_esapi"
-				"gear"				"srnx_BOT_ins_helmet_maskah"
-				"weapon"			"weapon_knife"
-				
-				"weapon"			"weapon_m79_incen"
-				//Primary
-				"weapon"			"weapon_ae_m1014"
-				//"weapon_upgrade"	"barrel_silencer_heavy"
-				//Secondary
-				//"weapon"			"weapon_glock18"
-				//"weapon_upgrade"	"magazine_extended_rifle_30rd"
-				//"weapon_upgrade"	"ammo_hp_m4"
-				//Explosive
-				"weapon"			"weapon_law"
-				
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p0_s7"
-				"gear"				"srnx_sling_bot"
-				"gear"				"srnx_BOT_esapi"
-				"gear"				"srnx_BOT_ins_helmet_maskah"
-				"weapon"			"weapon_knife"
-				
-				"weapon"			"weapon_m79_incen"
-				//Primary
-				"weapon"			"weapon_ae_m1014"
-				//"weapon_upgrade"	"barrel_silencer_heavy"
-				"weapon_upgrade"	"tacbuck"
-				//Secondary
-				//"weapon"			"weapon_glock18"
-				//"weapon_upgrade"	"magazine_extended_rifle_30rd"
-				//"weapon_upgrade"	"ammo_hp_m4"
-				//Explosive
-				"weapon"			"weapon_law"
-				
-			}
-		}
-		// Sapper Model 2
-		"sapper_ins_2"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_saiga12"
-				"weapon_upgrade"	"magazine_extended_saiga_12rd"
-				//Secondary
-				"weapon"			"weapon_glock18"
-				//"weapon_upgrade"	"magazine_extended_carbine_30rd"
-				//"weapon_upgrade"	"ammo_ap_m1a1"
-				//Explosive
-				"weapon"			"weapon_f1"
-				"weapon"			"weapon_law"
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				"weapon"			"weapon_saiga12"
-				"weapon_upgrade"	"magazine_extended_saiga_12rd"
-				//Secondary
-				"weapon"			"weapon_glock18"
-				//"weapon_upgrade"	"magazine_extended_carbine_30rd"
-				//"weapon_upgrade"	"ammo_ap_m1a1"
-				//Explosive
-				"weapon"			"weapon_f1"
-				"weapon"			"weapon_law"
-			}
-		}
-		// Sapper Model 3
-		"sapper_ins_3"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_esapi"
-				"gear"				"srnx_BOT_leba1"
-				"gear"				"srnx_BOT_ins_helmet_k63"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				//"weapon"			"weapon_sten_mk5"
-				"weapon"			"weapon_doi2ins_izh43"
-				//Secondary
-				"weapon"			"weapon_glock18"
-				//"weapon_upgrade"	"ammo_hp_aks74u"
-				//Explosive
-				"weapon"			"weapon_molotov"
-				"weapon"			"weapon_law"
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p1_s6"
-				"gear"				"srnx_BOT_esapi"
-				"gear"				"srnx_BOT_leba1"
-				"gear"				"srnx_BOT_ins_helmet_k63"
-				"weapon"			"weapon_knife"
-				
-				//Primary
-				//"weapon"			"weapon_sten_mk5"
-				"weapon"			"weapon_doi2ins_izh43"
-				//Secondary
-				"weapon"			"weapon_glock18"
-				//"weapon_upgrade"	"ammo_hp_aks74u"
-				//Explosive
-				"weapon"			"weapon_molotov"
-				"weapon"			"weapon_law"
-			}
-		}
-		// Sapper Model 4
-		"sapper_ins_4"
-		{	
-			"team"			"insurgents"
-			"print_name"	"BOT" 
-			"models"
-			{
-				"player"				"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-
-				"bodygroups"
-				{
-					"backpack"					"-1"
-					"glasses"					"-1"
-					"kit"					"-1"
-				}
-
-			}
-			"buy_order" 
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p0_s7"
-				"gear"				"srnx_sling_bot"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"weapon"			"weapon_knife"
-				
-				
-				"weapon"			"weapon_m79"
-				//Primary
-				"weapon"			"weapon_groza"
-
-				//Secondary
-				"weapon"			"weapon_glock18"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_ap_mp40"
-				//Explosive
-				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_law"
-			}
-			"allowed_weapons"
-			{
-				//Carrier|Armor
-				"gear"				"ins_BOT_carrier_p0_s7"
-				"gear"				"srnx_sling_bot"
-				"gear"				"srnx_BOT_ar500"
-				"gear"				"srnx_BOT_leba1"
-				"weapon"			"weapon_knife"
-				
-				
-				"weapon"			"weapon_m79"
-				//Primary
-				"weapon"			"weapon_groza"
-
-				//Secondary
-				"weapon"			"weapon_glock18"
-				//"weapon_upgrade"	"magazine_extended_smg_40"
-				//"weapon_upgrade"	"ammo_ap_mp40"
-				//Explosive
-				"weapon"			"weapon_anm14"
-				"weapon"			"weapon_law"
-			}
-		}
-
 	}
 }
 
