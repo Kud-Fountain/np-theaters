@@ -1,5 +1,5 @@
 "#base" "srnx_base_player.theater"
-"#base" "srnx_gear.theater"
+"#base" "srnx_gear_survival.theater"
 "#base" "srnx_weapon.theater"
 "#base" "srnx_weapon_upgrades.theater"
 "#base"	"extra_weapon.theater"
@@ -2232,6 +2232,7 @@
 				//Explosive
 				"weapon"			"weapon_f1" 
 			}
+		}
 	}
 }
 
