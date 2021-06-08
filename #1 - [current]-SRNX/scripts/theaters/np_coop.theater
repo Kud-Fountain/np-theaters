@@ -151,7 +151,7 @@
 				{
 					//role name		
 					"Bot"		"sapper_ins_2"
-					"Bot"		"juggernaut_2"
+					//"Bot"		"juggernaut_2"
 					"Bot"		"sapper_ins_3"
 					"Bot"		"standard_ins_3"
 					"Bot"		"standard_ins_4"			
