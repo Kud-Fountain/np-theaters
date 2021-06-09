@@ -19,7 +19,7 @@
 			}
 			
 			"class_restricted"			"1"
-			"team_access"				"security"
+			"team_access"				"security, insurgent"
 		}
 		
 		"gear_ammocrate"
@@ -37,7 +37,7 @@
 			}
 
 			"class_restricted"			"1"
-			"team_access"				"security"
+			"team_access"				"security, insurgent"
 		}
 		
 		"gear_iedjammer"
@@ -55,7 +55,7 @@
 			}
 
 			"class_restricted"			"1"
-			"team_access"				"security"
+			"team_access"				"security, insurgent"
 		}
 		
 		"gear_spotter"
@@ -81,7 +81,7 @@
 			"player_model_override"		"models/characters/security_heavy.mdl"
 			"viewmodel_hands_override"	"models/weapons/v_hands_sec_h.mdl"
 			
-			"team_access"				"security"
+			"team_access"				"security, insurgent"
 		}
 		
 		"gear_sunglasses"
@@ -135,7 +135,7 @@
 			"model"					"models/characters/helmet_head_xmas.mdl"
 
 			"class_restricted"			"1"
-			"team_access"				"security"
+			"team_access"				"security, insurgent"
 		}
 		
 		"sec_nightvision_blue"
@@ -162,7 +162,7 @@
 				"fade_out_hold"			"0.1"
 			}
 
-			"team_access"	"security"
+			"team_access"	"security, insurgent"
 		}
 		
 		"sec_nightvision_grey"
@@ -189,7 +189,7 @@
 				"fade_out_hold"			"0.1"
 			}
 
-			"team_access"	"security"
+			"team_access"	"security, insurgent"
 		}
 
 		"gear_increase_weight"
@@ -632,7 +632,7 @@
 				"kit"					"5"
 				"backpack"				"6"
 			}
-			"team_access"	"security"
+			"team_access"	"security, insurgent"
 		}
 		"srnx_chest_carrier_mg2" //3.4
 		{
@@ -660,7 +660,7 @@
 				"kit"					"5"
 				"backpack"				"2"
 			}
-			"team_access"				"security"
+			"team_access"				"security, insurgent"
 		}
 		"srnx_chest_carrier_mg3" //3.6 lbs base - .2 per tier
 		{
@@ -688,7 +688,7 @@
 				"kit"					"1"
 				"backpack"				"4"
 			}
-			"team_access"	"security"
+			"team_access"	"security, insurgent"
 		}
 
 		
@@ -718,7 +718,7 @@
 				"kit"					"5"
 				"backpack"				"6"
 			}
-			"team_access"				"security"
+			"team_access"				"security, insurgent"
 		}
 		"srnx_chest_rig_mg2" //3 base - .2 = 2.8
 		{
@@ -746,7 +746,7 @@
 				"kit"					"5"
 				"backpack"				"2"
 			}
-			"team_access"	"security"		
+			"team_access"	"security, insurgent"		
 		}
 		"srnx_chest_rig_mg3" // 3 lbs base - .2 per tier
 		{
@@ -775,7 +775,7 @@
 				"kit"					"1"
 				"backpack"				"4"
 			}
-			"team_access"	"security"		
+			"team_access"	"security, insurgent"		
 		}
 
 		//ENGINEER CARRIERS
@@ -805,7 +805,7 @@
 				"kit"					"9"
 				"backpack"				"2"
 			}
-			"team_access"	"security"
+			"team_access"	"security, insurgent"
 		}
 		"srnx_chest_carrier_eng2" //3.4
 		{
@@ -833,7 +833,7 @@
 				"kit"					"10"
 				"backpack"				"5"
 			}
-			"team_access"				"security"
+			"team_access"				"security, insurgent"
 		}
 		"srnx_chest_carrier_eng3" //3.6 lbs base - .2 per tier
 		{
@@ -862,7 +862,7 @@
 				"backpack"				"7"
 				"bag"					"1"
 			}
-			"team_access"	"security"
+			"team_access"	"security, insurgent"
 		}
 
 		
@@ -892,7 +892,7 @@
 				"kit"					"9"
 				"backpack"				"2"
 			}
-			"team_access"				"security"
+			"team_access"				"security, insurgent"
 		}
 		"srnx_chest_rig_eng2" //3 base - .2 = 2.8
 		{
@@ -920,7 +920,7 @@
 				"kit"					"10"
 				"backpack"				"2"
 			}
-			"team_access"	"security"		
+			"team_access"	"security, insurgent"		
 		}
 		"srnx_chest_rig_eng3" // 3 lbs base - .2 per tier
 		{
@@ -949,7 +949,7 @@
 				"kit"					"11"
 				"backpack"				"5"
 			}
-			"team_access"	"security"		
+			"team_access"	"security, insurgent"		
 		}
 		"srnx_chest_rig_eng4" // 3 lbs base - .2 per tier
 		{
@@ -979,7 +979,7 @@
 				"backpack"				"7"
 				"bag"					"1"
 			}
-			"team_access"	"security"		
+			"team_access"	"security, insurgent"		
 		}
 
 
@@ -1012,7 +1012,7 @@
 				"kit"					"6"
 				"backpack"				"1"
 			}
-			"team_access"	"security"
+			"team_access"	"security, insurgent"
 		}
 		"srnx_chest_carrier2" //3.4
 		{
@@ -1040,7 +1040,7 @@
 				"kit"					"7"
 				"backpack"				"2"
 			}
-			"team_access"				"security"
+			"team_access"				"security, insurgent"
 		}
 		"srnx_chest_carrier3" //3.6 lbs base - .2 per tier
 		{
@@ -1069,7 +1069,7 @@
 				"backpack"				"2"
 				
 			}
-			"team_access"	"security"
+			"team_access"	"security, insurgent"
 		}
 
 		"basic_chest_rm" //3 base - .4 = 2.6
@@ -1097,7 +1097,7 @@
 				"kit"					"2"
 				"backpack"				"2"
 			}
-			"team_access"				"security"
+			"team_access"				"security, insurgent"
 		}
 		"basic_chest_sniper" //3 base - .4 = 2.6
 		{
@@ -1124,7 +1124,7 @@
 				"kit"					"2"
 				"backpack"				"1"
 			}
-			"team_access"				"security"
+			"team_access"				"security, insurgent"
 		}
 		"basic_chest" //3 base - .2 = 2.8
 		{
@@ -1156,7 +1156,7 @@
 				"kit"					"3"
 				"backpack"				"1"
 			}
-			"team_access"	"security"		
+			"team_access"	"security, insurgent"		
 		}
 		"basic_chest_fg" //3 base - .2 = 2.8
 		{
@@ -1188,7 +1188,7 @@
 				"kit"					"2"
 				"backpack"				"2"
 			}
-			"team_access"	"security"		
+			"team_access"	"security, insurgent"		
 		}
 		"basic_chest_shotgun" // 3 lbs base - .2 per tier
 		{
@@ -1216,7 +1216,7 @@
 				"kit"					"4"
 				"backpack"				"2"
 			}
-			"team_access"	"security"		
+			"team_access"	"security, insurgent"		
 		}
 		"basic_chest_mg" // 3 lbs base - .2 per tier
 		{
@@ -1245,7 +1245,7 @@
 				"backpack"				"2"
 				
 			}
-			"team_access"	"security"		
+			"team_access"	"security, insurgent"		
 		}
 
 		"srnx_chest_rig1_sp" //3 base - .4 = 2.6
@@ -1274,7 +1274,7 @@
 				"kit"					"2"
 				"backpack"				"1"
 			}
-			"team_access"				"security"
+			"team_access"				"security, insurgent"
 		}
 		"srnx_chest_rig2_sp" //3 base - .2 = 2.8
 		{
@@ -1302,7 +1302,7 @@
 				"kit"					"3"
 				"backpack"				"1"
 			}
-			"team_access"	"security"		
+			"team_access"	"security, insurgent"		
 		}
 		"srnx_chest_rig3_sp" // 3 lbs base - .2 per tier
 		{
@@ -1331,7 +1331,7 @@
 				"kit"					"4"
 				"backpack"				"2"
 			}
-			"team_access"	"security"		
+			"team_access"	"security, insurgent"		
 		}
 		"srnx_chest_rig1_mv" //3 base - .4 = 2.6
 		{
@@ -1359,7 +1359,7 @@
 				"kit"					"2"
 				"backpack"				"1"
 			}
-			"team_access"				"security"
+			"team_access"				"security, insurgent"
 		}
 		
 		// "srnx_sling_ammo_belt"
@@ -1373,7 +1373,7 @@
 		// 	{
 		// 		"secondary"	"1"
 		// 	}
-		// 	"team_access"	"security"		
+		// 	"team_access"	"security, insurgent"		
 		// }
 		// "srnx_sling"
 		// {
@@ -1386,7 +1386,7 @@
 		// 	{
 		// 		"secondary"	"1"
 		// 	}
-		// 	"team_access"	"security"		
+		// 	"team_access"	"security, insurgent"		
 		// }
 		"srnx_holster"
 		{
@@ -1400,7 +1400,7 @@
 			{
 				"secondary"	"1"
 			}
-			"team_access"	"security"		
+			"team_access"	"security, insurgent"		
 		}
 		//First create a new entry under "player_gear" but outside of the "?nightmap"{} subsection
 		"sec_dayvision" // Custom "player_gear" entry
@@ -1430,7 +1430,7 @@
 				"fade_out_hold"				"0.1"
 			}
 			
-			"team_access"				"security"
+			"team_access"				"security, insurgent"
 			
 		}
 
@@ -2029,7 +2029,7 @@
 			// 		"fade_out_hold"				"0.1"
 			// 	}
 				
-			// 	"team_access"				"security"
+			// 	"team_access"				"security, insurgent"
 			// }
 			"ins_nightvision"
 			{
