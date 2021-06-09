@@ -41,8 +41,8 @@
 	{
 		"insurgents"
 		{
-			"name"		"#Team_Security"
-			"logo"					"gameui/fac_sec"
+			"name"		"#Team_Insurgents"
+			"logo"					"gameui/fac_ins"
 			
 			"cost_modifiers"
 			{
@@ -99,8 +99,8 @@
 		}
 		"security"
 		{
-			"name"		"#team_insurgents"
-			"logo"					"gameui/fac_ins"
+			"name"		"#team_security"
+			"logo"					"gameui/fac_sec"
 
 			"cost_modifiers"
 			{
