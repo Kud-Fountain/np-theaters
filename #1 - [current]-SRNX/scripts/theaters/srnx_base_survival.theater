@@ -19,8 +19,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"				"models/characters/insurgent_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_l.mdl"
 
 				"bodygroups"
 				{
@@ -110,8 +110,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"				"models/characters/insurgent_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_l.mdl"
 
 				"bodygroups"
 				{
@@ -210,8 +210,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
+				"player"				"models/characters/insurgent_standard_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -295,8 +295,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
+				"player"				"models/characters/insurgent_standard_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -362,8 +362,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
+				"player"				"models/characters/insurgent_standard_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -424,8 +424,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
+				"player"				"models/characters/insurgent_standard_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -499,8 +499,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
+				"player"				"models/characters/insurgent_standard_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -609,8 +609,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"				"models/characters/insurgent_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_l.mdl"
 
 				"bodygroups"
 				{
@@ -638,8 +638,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
+				"player"				"models/characters/insurgent_standard_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -707,8 +707,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
+				"player"				"models/characters/insurgent_standard_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_m.mdl"
 				
 				"bodygroups"
 				{
@@ -803,8 +803,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_heavy_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_h.mdl"
+				"player"				"models/characters/insurgent_heavy_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_h.mdl"
 				
 				"bodygroups"
 				{
@@ -876,8 +876,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_heavy_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_h.mdl"
+				"player"				"models/characters/insurgent_heavy_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_h.mdl"
 				
 				"bodygroups"
 				{
@@ -939,8 +939,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"				"models/characters/insurgent_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_l.mdl"
 
 				"bodygroups"
 				{
@@ -1046,8 +1046,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
+				"player"				"models/characters/insurgent_standard_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -1149,8 +1149,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
+				"player"				"models/characters/insurgent_standard_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_m.mdl"
 
 				"bodygroups"
 				{
@@ -1265,8 +1265,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"				"models/characters/insurgent_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_l.mdl"
 
 				"bodygroups"
 				{
@@ -1326,8 +1326,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"				"models/characters/insurgent_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_l.mdl"
 
 				"bodygroups"
 				{
@@ -1380,8 +1380,8 @@
 
 			"models"
 			{
-				"player"				"models/characters/security_standard_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
+				"player"				"models/characters/insurgent_standard_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ins_m.mdl"
 				
 				"bodygroups"
 				{
@@ -1480,7 +1480,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_security_f.mdl"
+				"player"				"models/characters/civilian_vip_insurgent_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_vip.mdl"
 				
 				"bodygroups"
@@ -1547,7 +1547,7 @@
 
 			"models"
 			{
-				"player"				"models/characters/civilian_vip_security_f.mdl"
+				"player"				"models/characters/civilian_vip_insurgent_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_vip.mdl"
 				
 				"bodygroups"
@@ -1615,7 +1615,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_standard.mdl"
+				"player"				"models/characters/security_standard.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -1674,7 +1674,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_standard.mdl"
+				"player"				"models/characters/security_standard.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -1731,7 +1731,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_heavy.mdl"
+				"player"				"models/characters/security_heavy.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -1786,7 +1786,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_standard.mdl"
+				"player"				"models/characters/security_standard.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -1842,7 +1842,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_light.mdl"
+				"player"				"models/characters/security_light.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -1898,7 +1898,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_heavy.mdl"
+				"player"				"models/characters/security_heavy.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -1985,7 +1985,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_standard.mdl"
+				"player"				"models/characters/security_standard.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -2080,7 +2080,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_standard.mdl"
+				"player"				"models/characters/security_standard.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
@@ -2196,7 +2196,7 @@
 			"print_name"	"BOT" 
 			"models"
 			{
-				"player"				"models/characters/insurgent_heavy.mdl"
+				"player"				"models/characters/security_heavy.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 
 				"bodygroups"
