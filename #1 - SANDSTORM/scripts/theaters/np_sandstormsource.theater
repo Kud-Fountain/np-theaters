@@ -57,7 +57,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/security_light_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
@@ -93,8 +93,8 @@
 				"weapon"					"weapon_sandstorm_steyrauga3"
 				"weapon"					"weapon_sandstorm_famas"
 				
-				"weapon_upgrade"			"underbarrel_m203_smoke"
-				"weapon_upgrade"			"underbarrel_gp25_smoke"				
+				//"weapon_upgrade"			"underbarrel_m203_smoke"
+				//"weapon_upgrade"			"underbarrel_gp25_smoke"				
 			}
 		}	
 	
@@ -105,7 +105,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/security_light_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
@@ -150,7 +150,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/security_light_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
@@ -186,8 +186,8 @@
 				"weapon"					"weapon_sandstorm_steyrauga3"
 				"weapon"					"weapon_sandstorm_famas"
 				
-				"weapon_upgrade"			"underbarrel_m203_smoke"
-				"weapon_upgrade"			"underbarrel_gp25_smoke"					
+				//"weapon_upgrade"			"underbarrel_m203_smoke"
+				//"weapon_upgrade"			"underbarrel_gp25_smoke"					
 			}
 		}
 
@@ -198,7 +198,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/security_light_f.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
@@ -246,7 +246,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/security_light_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
@@ -285,7 +285,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/security_light_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
@@ -338,7 +338,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/security_light_f.mdl"
 				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
@@ -379,7 +379,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/security_light_f.mdl"
 				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"

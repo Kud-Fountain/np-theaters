@@ -21,7 +21,7 @@
 				"HITGROUP_RIGHTLEG"		"1.00"
 			}
 			
-			"player_model_override"		"models/characters/security_standard.mdl"
+			"player_model_override"		"models/characters/security_standard_f.mdl"
 			
 			"team_access"				"security"
 		}
@@ -69,7 +69,7 @@
 				"HITGROUP_RIGHTLEG"			"1.00"
 			}
 			
-			"player_model_override"		"models/characters/security_heavy.mdl"
+			"player_model_override"		"models/characters/security_heavy_f.mdl"
 			
 			"team_access"				"security"
 		}
