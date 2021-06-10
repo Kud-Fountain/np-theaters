@@ -2,9 +2,9 @@
 "#base" "base_sandstormsource_common_ammo.theater"
 
 "#base" "np_sandstormsource_gear.theater"
-"#base" "sandstormsource_gloves.theater"
+"#base" "np_sandstormsource_gloves.theater"
 "#base" "np_sandstormsource_weapon.theater"
-"#base" "sandstormsource_weapon_upgrades.theater"
+"#base" "np_sandstormsource_weapon_upgrades.theater"
 
 "theater"
 {

@@ -10,7 +10,7 @@
 			
 			"viewmodel_hands_override"	"models/gloves1/v_hands_sec_h.mdl"
 			
-			"class_restricted"			"0"
+			"class_restricted"			"1"
             "gear_slot"					"head"
             "gear_cost"					"0"
             "gear_weight"				"0"
@@ -24,7 +24,7 @@
 			
 			"viewmodel_hands_override"	"models/gloves2/v_hands_ins_h.mdl"
 			
-			"class_restricted"			"0"
+			"class_restricted"			"1"
             "gear_slot"					"head"
             "gear_cost"					"0"
             "gear_weight"				"0"
@@ -38,7 +38,7 @@
 			
 			"viewmodel_hands_override"	"models/gloves3/v_hands_sec_h.mdl"
 			
-			"class_restricted"			"0"
+			"class_restricted"			"1"
             "gear_slot"					"head"
             "gear_cost"					"0"
             "gear_weight"				"0"
@@ -52,7 +52,7 @@
 			
 			"viewmodel_hands_override"	"models/gloves4/v_hands_ins_l.mdl"
 			
-			"class_restricted"			"0"
+			"class_restricted"			"1"
             "gear_slot"					"head"
             "gear_cost"					"0"
             "gear_weight"				"0"
@@ -66,7 +66,7 @@
 			
 			"viewmodel_hands_override"	"models/gloves5/v_hands_sec_h.mdl"
 			
-			"class_restricted"			"0"
+			"class_restricted"			"1"
             "gear_slot"					"head"
             "gear_cost"					"0"
             "gear_weight"				"0"
@@ -80,7 +80,7 @@
 			
 			"viewmodel_hands_override"	"models/gloves6/v_hands_sec_h.mdl"
 			
-			"class_restricted"			"0"
+			"class_restricted"			"1"
             "gear_slot"					"head"
             "gear_cost"					"0"
             "gear_weight"				"0"
@@ -94,7 +94,7 @@
 			
 			"viewmodel_hands_override"	"models/gloves7/v_hands_sec_h.mdl"
 			
-			"class_restricted"			"0"
+			"class_restricted"			"1"
             "gear_slot"					"head"
             "gear_cost"					"0"
             "gear_weight"				"0"

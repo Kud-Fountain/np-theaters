@@ -206,6 +206,7 @@
 			"gear_slot"		"accessory"
 			"gear_cost"		"0"
 			"gear_weight"	"0" // 4 (0.65 kg) * 54.5
+			"class_restricted" "1"
 			
 			"weapon_slots"
 			{
@@ -222,6 +223,7 @@
 			"gear_slot"		"accessory"
 			"gear_cost"		"0"
 			"gear_weight"	"0" // 4 (0.65 kg) * 54.5
+			"class_restricted" "1"
 			
 			"weapon_slots"
 			{
