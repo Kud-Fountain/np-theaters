@@ -84,8 +84,8 @@
 				"weapon"					"weapon_sandstorm_mk17"
 				"weapon"					"weapon_sandstorm_m1911"
 				"weapon"					"weapon_sandstorm_m67"
-				"weapon"					"weapon_sandstorm_molotov"
-				"weapon"					"weapon_sandstorm_anm14"
+				//"weapon"					"weapon_sandstorm_molotov"
+				//"weapon"					"weapon_sandstorm_anm14"
 				"gear"						"gear_uav"
 				
 				//"weapon_upgrade"			"underbarrel_m203_smoke"
@@ -127,8 +127,8 @@
 				"weapon"					"weapon_sandstorm_mk17"
 				"weapon"					"weapon_sandstorm_m1911"
 				"weapon"					"weapon_sandstorm_m67"
-				"weapon"					"weapon_sandstorm_molotov"
-				"weapon"					"weapon_sandstorm_anm14"
+				//"weapon"					"weapon_sandstorm_molotov"
+				//"weapon"					"weapon_sandstorm_anm14"
 				"gear"						"gear_ammocrate"
 				
 				//"weapon_upgrade"			"underbarrel_m203_smoke"
@@ -170,8 +170,8 @@
 				"weapon"					"weapon_sandstorm_honeybadger"
 				"weapon"					"weapon_sandstorm_glock17"
 				"weapon"					"weapon_sandstorm_m67"
-				"weapon"					"weapon_sandstorm_molotov"
-				"weapon"					"weapon_sandstorm_anm14"
+				//"weapon"					"weapon_sandstorm_molotov"
+				//"weapon"					"weapon_sandstorm_anm14"
 			}
 		}
 		
@@ -252,7 +252,7 @@
 				"weapon"					"weapon_sandstorm_asval"
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon"					"weapon_sandstorm_m67"
-				"weapon"					"weapon_sandstorm_molotov"
+				//"weapon"					"weapon_sandstorm_molotov"
 			}
 		}
 		
@@ -447,7 +447,7 @@
 				"weapon"					"weapon_sandstorm_rpk"
 				"weapon"					"weapon_sandstorm_m9"
 				"weapon"					"weapon_sandstorm_m67"
-				"weapon"					"weapon_sandstorm_anm14"
+				//"weapon"					"weapon_sandstorm_anm14"
 			}
 		}
 		
