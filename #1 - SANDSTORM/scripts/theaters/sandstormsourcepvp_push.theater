@@ -1,0 +1,133 @@
+"#base" "sandstormsourcepvp.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"?push_security_attack"
+			{
+				"squads"
+				{
+					"#Fireteam_Alpha"	// small arms
+					{
+						"#Squad_Sandstorm_Commander"			"template_sandstorm_security_commander"
+						"#Squad_Sandstorm_Observer"				"template_sandstorm_security_observer"
+						"#Squad_Sandstorm_Rifleman"				"template_sandstorm_security_rifleman"
+						"#Squad_Sandstorm_Rifleman"				"template_sandstorm_security_rifleman"
+						"#Squad_Sandstorm_Breacher"				"template_sandstorm_security_breacher"
+						"#Squad_Sandstorm_Demolitions"			"template_sandstorm_security_demolitions"
+						"#Squad_Sandstorm_Gunner"				"template_sandstorm_security_gunner"
+						"#Squad_Sandstorm_Marksman"				"template_sandstorm_security_marksman"
+					}
+					
+					"#Fireteam_Bravo"
+					{
+						"#Squad_Sandstorm_Commander"			"template_sandstorm_security_commander"
+						"#Squad_Sandstorm_Observer"				"template_sandstorm_security_observer"
+						"#Squad_Sandstorm_Advisor"				"template_sandstorm_security_advisor"
+						"#Squad_Sandstorm_Breacher"				"template_sandstorm_security_breacher"
+						"#Squad_Sandstorm_Demolitions"			"template_sandstorm_security_demolitions"
+						"#Squad_Sandstorm_Gunner"				"template_sandstorm_security_gunner"
+						"#Squad_Sandstorm_Gunner"				"template_sandstorm_security_gunner"
+						"#Squad_Sandstorm_Marksman"				"template_sandstorm_security_marksman"
+					}
+				}
+			}
+			
+			"?push_security_defend"
+			{
+				"squads"
+				{
+					"#Fireteam_Alpha"	// small arms
+					{
+						"#Squad_Sandstorm_Commander"			"template_sandstorm_security_commander"
+						"#Squad_Sandstorm_Observer"				"template_sandstorm_security_observer"
+						"#Squad_Sandstorm_Rifleman"				"template_sandstorm_security_rifleman"
+						"#Squad_Sandstorm_Rifleman"				"template_sandstorm_security_rifleman"
+						"#Squad_Sandstorm_Breacher"				"template_sandstorm_security_breacher"
+						"#Squad_Sandstorm_Demolitions"			"template_sandstorm_security_demolitions"
+						"#Squad_Sandstorm_Gunner"				"template_sandstorm_security_gunner"
+						"#Squad_Sandstorm_Marksman"				"template_sandstorm_security_marksman"
+					}
+					
+					"#Fireteam_Bravo"
+					{
+						"#Squad_Sandstorm_Commander"			"template_sandstorm_security_commander"
+						"#Squad_Sandstorm_Observer"				"template_sandstorm_security_observer"
+						"#Squad_Sandstorm_Advisor"				"template_sandstorm_security_advisor"
+						"#Squad_Sandstorm_Breacher"				"template_sandstorm_security_breacher"
+						"#Squad_Sandstorm_Demolitions"			"template_sandstorm_security_demolitions"
+						"#Squad_Sandstorm_Gunner"				"template_sandstorm_security_gunner"
+						"#Squad_Sandstorm_Gunner"				"template_sandstorm_security_gunner"
+						"#Squad_Sandstorm_Marksman"				"template_sandstorm_security_marksman"
+					}
+				}
+			}
+		}
+		
+		"insurgents"
+		{
+			"?push_insurgents_attack"
+			{
+				"squads"
+				{
+					"#Cell_Alpha"
+					{
+						"#Squad_Sandstorm_Commander"			"template_sandstorm_insurgent_commander"
+						"#Squad_Sandstorm_Observer"				"template_sandstorm_insurgent_observer"
+						"#Squad_Sandstorm_Rifleman"				"template_sandstorm_insurgent_rifleman"
+						"#Squad_Sandstorm_Rifleman"				"template_sandstorm_insurgent_rifleman"
+						"#Squad_Sandstorm_Breacher"				"template_sandstorm_insurgent_breacher"
+						"#Squad_Sandstorm_Demolitions"			"template_sandstorm_insurgent_demolitions"
+						"#Squad_Sandstorm_Gunner"				"template_sandstorm_insurgent_gunner"
+						"#Squad_Sandstorm_Marksman"				"template_sandstorm_insurgent_marksman"
+					}
+					
+					"#Cell_Bravo"
+					{
+						"#Squad_Sandstorm_Commander"			"template_sandstorm_insurgent_commander"
+						"#Squad_Sandstorm_Observer"				"template_sandstorm_insurgent_observer"
+						"#Squad_Sandstorm_Advisor"				"template_sandstorm_insurgent_advisor"
+						"#Squad_Sandstorm_Breacher"				"template_sandstorm_insurgent_breacher"
+						"#Squad_Sandstorm_Demolitions"			"template_sandstorm_insurgent_demolitions"
+						"#Squad_Sandstorm_Gunner"				"template_sandstorm_insurgent_gunner"
+						"#Squad_Sandstorm_Gunner"				"template_sandstorm_insurgent_gunner"
+						"#Squad_Sandstorm_Marksman"				"template_sandstorm_insurgent_marksman"
+					}
+				}
+			}
+			
+			"?push_insurgents_defend"
+			{
+				"squads"
+				{
+					"#Cell_Alpha"
+					{
+						"#Squad_Sandstorm_Commander"			"template_sandstorm_insurgent_commander"
+						"#Squad_Sandstorm_Observer"				"template_sandstorm_insurgent_observer"
+						"#Squad_Sandstorm_Rifleman"				"template_sandstorm_insurgent_rifleman"
+						"#Squad_Sandstorm_Rifleman"				"template_sandstorm_insurgent_rifleman"
+						"#Squad_Sandstorm_Breacher"				"template_sandstorm_insurgent_breacher"
+						"#Squad_Sandstorm_Demolitions"			"template_sandstorm_insurgent_demolitions"
+						"#Squad_Sandstorm_Gunner"				"template_sandstorm_insurgent_gunner"
+						"#Squad_Sandstorm_Marksman"				"template_sandstorm_insurgent_marksman"
+					}
+					
+					"#Cell_Bravo"
+					{
+						"#Squad_Sandstorm_Commander"			"template_sandstorm_insurgent_commander"
+						"#Squad_Sandstorm_Observer"				"template_sandstorm_insurgent_observer"
+						"#Squad_Sandstorm_Advisor"				"template_sandstorm_insurgent_advisor"
+						"#Squad_Sandstorm_Breacher"				"template_sandstorm_insurgent_breacher"
+						"#Squad_Sandstorm_Demolitions"			"template_sandstorm_insurgent_demolitions"
+						"#Squad_Sandstorm_Gunner"				"template_sandstorm_insurgent_gunner"
+						"#Squad_Sandstorm_Gunner"				"template_sandstorm_insurgent_gunner"
+						"#Squad_Sandstorm_Marksman"				"template_sandstorm_insurgent_marksman"
+					}
+				}
+			}
+		}
+	}
+}
