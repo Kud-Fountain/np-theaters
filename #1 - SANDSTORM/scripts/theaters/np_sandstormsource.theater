@@ -824,7 +824,6 @@
 			"buy_order"
 			{
 				"gear"						"ins_chest_rig"
-				"weapon"					"weapon_sandstorm_f1"
 				"weapon"					"weapon_sandstorm_m240"
 				"weapon"					"weapon_sandstorm_at4"
 				"weapon"					"weapon_sandstorm_kukri"
@@ -835,7 +834,6 @@
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_f1"
 				"weapon"					"weapon_sandstorm_m240"
 				"weapon"					"weapon_sandstorm_at4"
 				"weapon"					"weapon_sandstorm_kukri"
