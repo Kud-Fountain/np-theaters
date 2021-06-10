@@ -724,6 +724,37 @@
 			}
 		}
 		
+		// extra
+		"template_sandstorm_insurgent_bomber"
+		{
+			"team"						"insurgent"
+			"print_name"				"#Squad_Sandstorm_Bomber"
+			
+			"models"
+			{
+				"player"				"models/characters/insurgent_heavy.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}	
+			
+			"buy_order"
+			{
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_sandstorm_f1"
+				"weapon"					"weapon_suicide_bomb"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"					"weapon_sandstorm_f1"
+				"weapon"					"weapon_suicide_bomb"
+			}
+		}
+		
 		
 		// 
 		// END PLACEHOLDER BOT CLASS TEMPLATES

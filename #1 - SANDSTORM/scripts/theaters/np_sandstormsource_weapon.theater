@@ -5,6 +5,72 @@
 {
 	"weapons"
 	{
+		//Knife for bombers
+		"weapon_suicide_bomb"
+		{
+			"import"						"weapon_base"
+			"weapon_class"					"melee"
+			"weapon_type"					"melee"
+			"view_model"					"models/weapons/v_c4_ins.mdl"
+			"weapon_slot"					"melee"
+			"act_table"						"knife"
+			"world_model"					"models/weapons/w_ied.mdl"
+			"weapon_weight"					"1"
+			"weapon_cost"					"0"
+			"class_restricted"				"1"
+			"barrel_length"					"-1"
+			"print_name"					"Suicide Bomb"
+			"print_desc"					"GO BEUM"
+			"ammo_clip"
+			{
+				"ammo_type"					"invalid"
+				"clip_max_rounds"			"-1" // no clips
+				"clip_default"				"0"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_Knife.Single"
+				"melee_hit"					"Weapon_Knife.Melee_Hit"
+				"melee_hit_world"			"Weapon_Knife.Melee_HitWorld"
+			}
+			"melee"
+			{
+				"MeleeRange"				"125" // def 75
+				"MeleeDamage"				"60"
+				"MeleeDamageBehindBonus"	"200"
+				"MeleeDamageType"			"DMG_SLASH"
+				"MeleeWeaponIdleTime"		"2"
+				"SwingAttacks"
+				{
+					"slash1"
+					{
+						"Activity"				"ACT_VM_HITCENTER"
+						"PlayerAtivity"			"ACT_SHOOT_E2W_BAT"
+						"PlayerActivityIdle"	"ACT_SHOOT_E2W_IDLE_BAT"
+						"StartTime"				"0.1"
+						"EndTime"				"0.34"
+						"Duration"				"0.9"
+						"StartDirection"		"E"
+						"EndDirection"			"W"
+						"ForceDirection"		"15 -40 0"
+					}
+				}
+			}
+			"player_restrictions"
+			{
+				"allow_lean"				"1"
+				"allow_sprint"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"1"
+			}
+			"recoil"
+			{
+				"recoil_rest_rate"			"5"
+				"recoil_rest_delay"			"0.1"
+			}
+			"team_access"	"security, insurgent"
+		}
+		
 		// defib
 		"weapon_defib"
 		{

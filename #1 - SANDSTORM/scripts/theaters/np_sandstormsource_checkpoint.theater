@@ -49,6 +49,7 @@
 					"#Squad_Sandstorm_Rifleman"			"template_sandstorm_insurgent_rifleman"		// Rifleman
 					"#Squad_Sandstorm_Gunner"		    "template_sandstorm_insurgent_gunner"		// Gunner
 					"#Squad_Sandstorm_Gunner"		    "template_sandstorm_insurgent_gunner"		// Gunner
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"		// Bomber
 					"#Squad_Sandstorm_Marksman"			"template_sandstorm_insurgent_marksman"		// Marksman
 				}
 				
