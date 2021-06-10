@@ -11,14 +11,15 @@
 				// assault squad
 				"#Fireteam_Alpha"	// small arms
 				{
-					"#Squad_Sandstorm_Commander"			"template_sandstorm_coop_leader"
-					"#Squad_Sandstorm_Observer"				"template_sandstorm_coop_observer"
-					"#Squad_Sandstorm_Rifleman"				"template_sandstorm_coop_rifleman"
-					"#Squad_Sandstorm_Breacher"				"template_sandstorm_coop_breacher"
-					"#Squad_Sandstorm_Gunner"				"template_sandstorm_coop_gunner"
-					"#Squad_Sandstorm_Demolitions"			"template_sandstorm_coop_demolitions"
-					"#Squad_Sandstorm_Advisor"				"template_sandstorm_coop_advisor"
-					"#Squad_Sandstorm_Marksman"				"template_sandstorm_coop_marksman"
+					"#Squad_Sandstorm_Commander"			"template_sandstorm_coop_squadleader_medic"
+					"#Squad_Sandstorm_Observer"				"template_sandstorm_coop_rifleman_at_medic_2"
+					"#Squad_Sandstorm_Rifleman"				"template_sandstorm_coop_rifleman_at_medic_1"
+					"#Squad_Sandstorm_Breacher"				"template_sandstorm_coop_recon_fast_medic"
+					"#Squad_Sandstorm_Gunner"				"template_sandstorm_coop_marksman_medic_1"
+					"#Squad_Sandstorm_Demolitions"			"template_sandstorm_coop_support_medic_1"
+					"#Squad_Sandstorm_Advisor"				"template_sandstorm_coop_vip_medic"
+					"#Squad_Sandstorm_Marksman"				"template_sandstorm_coop_vip_fp_medic"
+					""										"template_sandstorm_coop_support_medic_1"
 				}
 			}
 		}

@@ -5,6 +5,146 @@
 {
 	"weapons"
 	{
+		// fire support
+		"weapon_makarov_fp"
+		{
+			"import"						"pistol_base"
+			"weapon_class"					"pistol"
+			"print_name"					"#weapon_makarov_fp_dy"
+			"print_desc"					"#weapon_makarov_fp_dy_desc"
+			"view_model"					"models/weapons/v_makarov.mdl"
+			"world_model"					"models/weapons/w_makarov.mdl"
+			"rounds_per_minute"				"700"
+			"weapon_slot"					"secondary"
+			"act_table"						"pistol"
+			"weapon_abilities"				"ironsight"
+			"weapon_weight"					"9" // (0.7kg[weapon] + (0.1kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +2[encumbrance]
+			"weapon_cost"					"1"
+			"class_restricted"				"1"
+			//"weapon_max_subslot"			"0"
+			"barrel_length"					"9"
+
+			"viewmodel_attachments"
+			{
+
+			}
+			
+			"world_attachments"
+			{
+
+			}
+
+			"fov"
+			{
+				"fov_plr_ironsight"			"-10"
+				"fov_plr_focus"				"-10"
+				"fov_wpn_default"			"74"
+
+				"fov_wpn_ironsight"			"72"
+				"fov_wpn_focus"				"77"
+			}
+			"viewmodel_offsets"
+			{
+				// x back, y left, z down
+				"VMOffsetStand"					"0.15 0.75 0.75"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_Makarov.Empty"
+				"shot_single_local"			"Weapon_Makarov.Empty"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"	""
+				"particle_muzzleflash_3rd"	""	
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"				"-0.75 0.85"
+				"recoil_vertical_range"				"0.65 0.85"
+				"recoil_aim_punch"					"0.5 0.6"
+				"recoil_rest_rate"					"4"
+				"recoil_rest_delay"					"0.18"
+				"recoil_roll_range"					"-1.35 -1.35"
+				"recoil_roll_rest_rate"				"180"
+				"recoil_shot_reset_time" 			"0.75"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_punch_additive_factor" 		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired (default 1.0)
+			}
+
+			"ballistics"
+			{
+				"spread"					"0.432 0.432 0.432"
+				"FireModes"					"semi"
+				"bulletcount"				"1"
+				"maxrange"					"6000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"					"grenade_flares"
+				"clip_max_rounds"			"1"
+				"clip_default"				"0"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"pistol"
+			}
+			"kitui_offset"
+			{
+				"position"				"12 -3 1.5"
+			}
+			"team_access"	"security, insurgent"
+		}
+	
+		// UAV
+		"weapon_p2a1"
+		{
+			"import"						"weapon_base"
+			"weapon_class"					"grenade_incendiary"
+			"weapon_type"					"projectile"
+			"print_name"					"#weapon_flaregun"
+			"print_desc"					"#weapon_flaregun_desc"
+			"view_model"					"models/weapons/v_p2a1.mdl"
+			"world_model"					"models/weapons/w_p2a1.mdl"
+			"weapon_slot"					"melee"	//explosive
+			"weapon_max_subslot"			"0"
+			"act_table"						"pistol"
+			"weapon_weight"					"14"
+			"weapon_cost"					"0"
+			"weapon_abilities"				"ironsight"
+			"class_restricted"				"1"
+			"fire_instantly"				"1"
+
+			"explosives"
+			{
+				"entity"					"grenade_flare"
+				"GrenadeRollSpeed"			"500"
+				"GrenadeThrowSpeed"			"1000"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"	"ins_weapon_m203"
+				"particle_muzzleflash_3rd"	"ins_weapon_m203"	
+			}
+			"ammo_clip"
+			{
+				"ammo_type"					"grenade_flares"
+				"clip_max_rounds"			"1"
+				"clip_default"				"0"
+			}
+			"fov"
+			{
+				"fov_wpn_default"			"62"
+				"fov_plr_ironsight"			"-10"
+				"fov_wpn_ironsight"			"74"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_p2a1.Single"
+				"shot_single_local"			"Weapon_p2a1.SingleLocal"
+			}
+			"team_access"	"security, insurgent"
+		}
+		
 		//Knife for bombers
 		"weapon_suicide_bomb"
 		{
@@ -770,7 +910,7 @@
 			"act_table"				"grenade"
 			"weapon_weight"				"0"
 			"weapon_cost"				"2"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			
 			"fov"
 			{
@@ -809,7 +949,7 @@
 			"act_table"				"grenade"
 			"weapon_weight"				"0"
 			"weapon_cost"				"2"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			
 			"fov"
 			{
@@ -848,7 +988,7 @@
 			"act_table"				"grenade"
 			"weapon_weight"				"0"
 			"weapon_cost"				"3"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			
 			"fov"
 			{
@@ -921,7 +1061,7 @@
 			"act_table"				"grenade"
 			"weapon_weight"				"0"
 			"weapon_cost"				"1"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			
 			"fov"
 			{
@@ -960,7 +1100,7 @@
 			"act_table"				"grenade"
 			"weapon_weight"				"0"
 			"weapon_cost"				"1"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			
 			"fov"
 			{
@@ -1068,7 +1208,7 @@
 			"act_table"					"knife"
 			"weapon_weight"				"0"
 			"weapon_cost"				"0"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"barrel_length"				"-1"
 			
 			"ammo_clip"
@@ -1580,7 +1720,7 @@
 			"weapon_abilities"			"ironsight, silencer"
 			"weapon_weight"				"0"
 			"weapon_cost"				"1"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"barrel_length"				"0"
 			
 			"fov"
@@ -1684,7 +1824,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
 			"weapon_cost"				"1"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"barrel_length"				"0"
 			
 			"fov"
@@ -1769,7 +1909,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
 			"weapon_cost"				"1"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"barrel_length"				"0"
 			
 			"fov"
@@ -1856,7 +1996,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
 			"weapon_cost"				"1"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"barrel_length"				"0"
 			
 			"fov"
@@ -1941,7 +2081,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
 			"weapon_cost"				"1"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"barrel_length"				"0"
 			
 			"fov"
@@ -2027,7 +2167,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
 			"weapon_cost"				"1"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"barrel_length"				"0"
 			
 			"viewmodel_attachments"
@@ -2134,7 +2274,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (0.7kg[weapon] + (0.1kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +2[encumbrance]
 			"weapon_cost"				"1"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"barrel_length"				"0"
 			
 			"viewmodel_attachments"
@@ -2244,7 +2384,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (0.7kg[weapon] + (0.1kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +2[encumbrance]
 			"weapon_cost"				"1"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"barrel_length"				"0"
 			
 			"viewmodel_attachments"
@@ -2355,7 +2495,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (0.7kg[weapon] + (0.1kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +2[encumbrance]
 			"weapon_cost"				"1"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"barrel_length"				"0"
 			
 			"viewmodel_attachments"
@@ -2466,7 +2606,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
 			"weapon_cost"				"1"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"barrel_length"				"0"
 			
 			"viewmodel_attachments"
