@@ -28,7 +28,7 @@
 			// sandstorm source specific			
 			"sounds"			"scripts/sandstorm_source_sounds.txt"	
 
-			"localize"			"resource/ui/sandstorm_source_schinese.txt"			
+			"localize"			"resource/ui/sandstorm_source_chinese.txt"			
 		}
 	}
 	
