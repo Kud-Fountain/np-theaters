@@ -1,9 +1,9 @@
 "#base" "base_sandstormsource_player.theater"
 "#base" "base_sandstormsource_common_ammo.theater"
 
-"#base" "sandstormsource_gear.theater"
+"#base" "np_sandstormsource_gear.theater"
 "#base" "sandstormsource_gloves.theater"
-"#base" "sandstormsource_weapon.theater"
+"#base" "np_sandstormsource_weapon.theater"
 "#base" "sandstormsource_weapon_upgrades.theater"
 
 "theater"
@@ -71,14 +71,14 @@
 			{	
 				"gear"						"sec_heavy_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_sandstorm_kabar"
+				"weapon"					"weapon_defib"
 				"weapon"					"weapon_sandstorm_m4a1"
 				"weapon_upgrade"			"optic_sandstorm_eotech"
 				"weapon"					"weapon_sandstorm_m18"
 			}
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_kabar"
+				"weapon"					"weapon_defib"
 				
 				"weapon"					"weapon_sandstorm_m16a4"
 				"weapon"					"weapon_sandstorm_m16a2"
@@ -119,14 +119,14 @@
 			{
 				"gear"						"sec_heavy_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_sandstorm_ak74bayonet"
+				"weapon"					"weapon_defib"
 				"weapon"					"weapon_sandstorm_m16a4"
 				"weapon_upgrade"			"optic_sandstorm_aimpoint"
 				"weapon"					"weapon_sandstorm_m67"
 			}
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_ak74bayonet"
+				"weapon"					"weapon_defib"
 			
 				"weapon"					"weapon_sandstorm_m16a4"
 				"weapon"					"weapon_sandstorm_m16a2"
@@ -164,14 +164,14 @@
 			{
 				"gear"						"sec_heavy_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_sandstorm_akmbayonet"
+				"weapon"					"weapon_defib"
 				"weapon"					"weapon_sandstorm_m16a4"
 				"weapon_upgrade"			"optic_sandstorm_aimpoint"
 				"weapon"					"weapon_sandstorm_m67"
 			}
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_akmbayonet"
+				"weapon"					"weapon_defib"
 			
 				"weapon"					"weapon_sandstorm_m16a4"
 				"weapon"					"weapon_sandstorm_m16a2"
@@ -212,7 +212,7 @@
 			{
 				"gear"						"sec_heavy_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_sandstorm_kcb77bayonet"
+				"weapon"					"weapon_defib"
 				"weapon"					"weapon_sandstorm_mp5a5"
 				"weapon_upgrade"			"optic_sandstorm_kobra"
 				"weapon_upgrade"			"barrel_silencer_mp5a5sd"
@@ -220,7 +220,7 @@
 			}
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_kcb77bayonet"
+				"weapon"					"weapon_defib"
 				
 				"weapon"					"weapon_sandstorm_m870"
 				"weapon"					"weapon_sandstorm_toz"
@@ -260,7 +260,7 @@
 			{
 				"gear"						"sec_heavy_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_sandstorm_m7bayonet"
+				"weapon"					"weapon_defib"
 				"weapon"					"weapon_sandstorm_m249"
 				"weapon"					"weapon_sandstorm_m67"
 				"weapon"					"weapon_sandstorm_m84"
@@ -268,7 +268,7 @@
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_m7bayonet"
+				"weapon"					"weapon_defib"
 				
 				"weapon"					"weapon_sandstorm_galil"
 				"weapon"					"weapon_sandstorm_galil_sar"
@@ -299,14 +299,14 @@
 			{
 				"gear"						"sec_heavy_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_sandstorm_m9bayonet"
+				"weapon"					"weapon_defib"
 				"weapon"					"weapon_sandstorm_g36k"
 				"weapon_upgrade"			"optic_sandstorm_kobra"
 				"weapon"					"weapon_sandstorm_c4_clicker"
 			}
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_m9bayonet"
+				"weapon"					"weapon_defib"
 			
 				"weapon"					"weapon_sandstorm_m16a4"
 				"weapon"					"weapon_sandstorm_m16a2"
@@ -352,14 +352,14 @@
 			{
 				"gear"						"sec_heavy_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_sandstorm_kukri_2"
+				"weapon"					"weapon_defib"
 				"weapon"					"weapon_sandstorm_l85a2"
 				"weapon_upgrade"			"optic_sandstorm_kobra"
 				"weapon"					"weapon_sandstorm_anm14"				
 			}
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_kukri_2"
+				"weapon"					"weapon_defib"
 			
 				"weapon"					"weapon_sandstorm_sks"
 				"weapon"					"weapon_sandstorm_mk17"
@@ -393,7 +393,7 @@
 			{
 				"gear"						"sec_heavy_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_sandstorm_m9bayonet"
+				"weapon"					"weapon_defib"
 				"weapon"					"weapon_sandstorm_m24"
 				"weapon_upgrade"			"optic_sandstorm_mk4"
 				"weapon_upgrade"			"underbarrel_bipod"	
@@ -401,7 +401,7 @@
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_m9bayonet"
+				"weapon"					"weapon_defib"
 			
 				"weapon"					"weapon_sandstorm_m24"
 				"weapon"					"weapon_sandstorm_mosin"
