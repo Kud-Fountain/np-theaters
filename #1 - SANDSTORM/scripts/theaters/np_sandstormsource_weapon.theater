@@ -1208,7 +1208,7 @@
 			"act_table"					"knife"
 			"weapon_weight"				"0"
 			"weapon_cost"				"0"
-			"class_restricted"			"1"
+			"class_restricted"			"0"
 			"barrel_length"				"-1"
 			
 			"ammo_clip"

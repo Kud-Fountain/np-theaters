@@ -491,6 +491,7 @@
 				"weapon"					"weapon_sandstorm_fal"
 				"weapon"					"weapon_sandstorm_g3a3"
 				"weapon"					"weapon_sandstorm_m4a1"
+				"weapon"					"weapon_sandstorm_m84"
 			}
 		}		
 		
@@ -530,6 +531,7 @@
 				"weapon"					"weapon_sandstorm_fal"
 				"weapon"					"weapon_sandstorm_g3a3"
 				"weapon"					"weapon_sandstorm_m4a1"
+				"weapon"					"weapon_sandstorm_f1"
 			}
 		}
 		
@@ -569,7 +571,9 @@
 				"weapon"					"weapon_sandstorm_ak74"
 				"weapon"					"weapon_sandstorm_fal"
 				"weapon"					"weapon_sandstorm_g3a3"
+				"weapon"					"weapon_sandstorm_tariq"
 				"weapon"					"weapon_sandstorm_m4a1"
+				"weapon"					"weapon_sandstorm_f1"
 			}
 		}
 
@@ -608,7 +612,9 @@
 				"weapon"					"weapon_sandstorm_mp5a5"
 				"weapon"					"weapon_sandstorm_aks74u"
 				"weapon"					"weapon_sandstorm_mk18"
+				"weapon"					"weapon_sandstorm_tariq"
 				"weapon"					"weapon_sandstorm_mp7"
+				"weapon"					"weapon_sandstorm_f1"
 				
 				"weapon"					"weapon_sandstorm_c4_clicker"
 			}
@@ -644,6 +650,7 @@
 				"weapon"					"weapon_sandstorm_galil"
 				"weapon"					"weapon_sandstorm_galil_sar"
 				"weapon"					"weapon_sandstorm_m249"
+				"weapon"					"weapon_sandstorm_tariq"
 				"weapon"					"weapon_sandstorm_rpk"
 			}
 		}
@@ -684,6 +691,7 @@
 				"weapon"					"weapon_sandstorm_fal"
 				"weapon"					"weapon_sandstorm_g3a3"
 				"weapon"					"weapon_sandstorm_m4a1"
+				"weapon"					"weapon_sandstorm_tariq"
 				
 				"weapon"					"weapon_sandstorm_molotov"
 				"weapon"					"weapon_sandstorm_at4"
@@ -727,6 +735,7 @@
 				"weapon"					"weapon_sandstorm_mk18"
 				"weapon"					"weapon_sandstorm_svd"
 				"weapon"					"weapon_sandstorm_m14"
+				"weapon"					"weapon_sandstorm_m9"
 			}
 		}
 		
@@ -761,6 +770,7 @@
 				"weapon"					"weapon_sandstorm_mosin"
 				"weapon"					"weapon_sandstorm_svd"
 				"weapon"					"weapon_sandstorm_m14"
+				"weapon"					"weapon_sandstorm_m9"
 			}
 		}
 		
