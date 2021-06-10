@@ -9,17 +9,24 @@
 			"squads"
 			{
 				// assault squad
-				"#Fireteam_Alpha"	// small arms
+				"#Fireteam_Assault_Squad"	// small arms
 				{
-					"#Squad_Sandstorm_Commander"			"template_sandstorm_coop_squadleader_medic"
-					"#Squad_Sandstorm_Observer"				"template_sandstorm_coop_rifleman_at_medic_2"
-					"#Squad_Sandstorm_Rifleman"				"template_sandstorm_coop_rifleman_at_medic_1"
-					"#Squad_Sandstorm_Breacher"				"template_sandstorm_coop_recon_fast_medic"
-					"#Squad_Sandstorm_Gunner"				"template_sandstorm_coop_marksman_medic_1"
-					"#Squad_Sandstorm_Demolitions"			"template_sandstorm_coop_support_medic_1"
-					"#Squad_Sandstorm_Advisor"				"template_sandstorm_coop_vip_medic"
-					"#Squad_Sandstorm_Marksman"				"template_sandstorm_coop_vip_fp_medic"
-					""										"template_sandstorm_coop_support_medic_1"
+					"#Squad_Gnalvl_SquadLeader"				"template_sandstorm_coop_squadleader_medic"
+					"#Squad_Gnalvl_Rifleman_AT2"			"template_sandstorm_coop_rifleman_at_medic_2"
+					"#Squad_Gnalvl_Rifleman_AT"				"template_sandstorm_coop_rifleman_at_medic_1"
+					"#Squad_Gnalvl_Riflepoint"				"template_sandstorm_coop_recon_fast_medic"
+					"#Squad_Gnalvl_Marksman"				"template_sandstorm_coop_marksman_medic_1"
+					"#Squad_Gnalvl_Auto"					"template_sandstorm_coop_support_medic_1"
+					"#Squad_Gnalvl_VIP"						"template_sandstorm_coop_vip_medic"
+					"#Squad_Gnalvl_VIP_FP"					"template_sandstorm_coop_vip_fp_medic"
+					"#Squad_Gnalvl_Auto2"					"template_sandstorm_coop_support_medic_2"
+					"#Squad_Gnalvl_SquadLeader"				"template_sandstorm_coop_squadleader_1_medic"
+				}
+				"#Fireteam_Medic_Engineer"
+				{
+				}
+				"#Fireteam_Backup"
+				{
 				}
 			}
 		}
@@ -38,6 +45,7 @@
 					"#Squad_Sandstorm_Gunner"			"template_sandstorm_insurgent_gunner"		// Gunner
 					"#Squad_Sandstorm_Gunner"		    "template_sandstorm_insurgent_gunner"		// Gunner
 					"#Squad_Sandstorm_Demolitions"		"template_sandstorm_insurgent_demolitions"	// Demolitions
+					"#Squad_Sandstorm_JUG"				"template_sandstorm_insurgent_juggernaut"
 					"#Squad_Sandstorm_Marksman"			"template_sandstorm_insurgent_marksman"		// Marksman
 				}
 				

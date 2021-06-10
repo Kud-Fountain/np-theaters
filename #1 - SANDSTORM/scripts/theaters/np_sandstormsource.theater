@@ -86,12 +86,55 @@
 				"weapon"					"weapon_sandstorm_m67"
 				"weapon"					"weapon_sandstorm_molotov"
 				"weapon"					"weapon_sandstorm_anm14"
-				"gear"						"gear_ammocrate"
+				"gear"						"gear_uav"
 				
 				//"weapon_upgrade"			"underbarrel_m203_smoke"
 				//"weapon_upgrade"			"underbarrel_gp25_smoke"				
 			}
 		}	
+		
+		"template_sandstorm_coop_squadleader_1_medic"
+		{
+			"team"						"security"
+			"print_name"				"#Squad_Sandstorm_Commander"
+			
+			"models"
+			{
+				"player"				"models/characters/security_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}	
+			
+			"buy_order"
+			{	
+				"gear"						"sec_heavy_armor"
+				"gear"						"sec_sandstorm_chest_carrier"
+				"weapon"					"weapon_defib"
+			}
+			"allowed_items"
+			{
+				"weapon"					"weapon_defib"
+				
+				"weapon"					"weapon_sandstorm_l85a2"
+				"weapon"					"weapon_sandstorm_g36k"
+				"weapon"					"weapon_sandstorm_fal"
+				"weapon"					"weapon_sandstorm_g3a3"
+				"weapon"					"weapon_sandstorm_mk17"
+				"weapon"					"weapon_sandstorm_m1911"
+				"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_sandstorm_molotov"
+				"weapon"					"weapon_sandstorm_anm14"
+				"gear"						"gear_ammocrate"
+				
+				//"weapon_upgrade"			"underbarrel_m203_smoke"
+				//"weapon_upgrade"			"underbarrel_gp25_smoke"				
+			}
+		}
 	
 		"template_sandstorm_coop_rifleman_at_medic_2"
 		{
@@ -249,7 +292,6 @@
 				"weapon"					"weapon_sandstorm_welrod"
 				"weapon"					"weapon_sandstorm_makarov"
 				"weapon"					"weapon_sandstorm_m67"
-				"gear"						"gear_uav"
 			}
 		}
 		
@@ -370,7 +412,7 @@
 			}
 		}
 		
-		"template_sandstorm_coop_support_medic_1"
+		"template_sandstorm_coop_support_medic_2"
 		{
 			"team"						"security"
 			"print_name"				"#Squad_Sandstorm_Marksman"
@@ -750,6 +792,46 @@
 			{
 				"weapon"					"weapon_sandstorm_f1"
 				"weapon"					"weapon_suicide_bomb"
+			}
+		}
+		
+		"template_sandstorm_insurgent_juggernaut"
+		{
+			"team"						"insurgent"
+			"print_name"				"#Squad_Sandstorm_JUG"
+			
+			"models"
+			{
+				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}	
+			
+			"buy_order"
+			{
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_sandstorm_f1"
+				"weapon"					"weapon_sandstorm_m240"
+				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_kukri"
+				"weapon"					"weapon_sandstorm_glock17"
+				"gear"						"srnx_BOT_juggernaut_armor"
+				"gear"						"srnx_BOT_ins_jugger_helmet_black"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"					"weapon_sandstorm_f1"
+				"weapon"					"weapon_sandstorm_m240"
+				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_kukri"
+				"weapon"					"weapon_sandstorm_glock17"
+				"gear"						"srnx_BOT_juggernaut_armor"
+				"gear"						"srnx_BOT_ins_jugger_helmet_black"
 			}
 		}
 		

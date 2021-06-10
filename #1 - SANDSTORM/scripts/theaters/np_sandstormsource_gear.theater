@@ -3,6 +3,46 @@
 	"player_gear"
 	{
 		// custom gear
+		"srnx_BOT_juggernaut_armor"
+		{
+			"print_name"	"#gear_AR500_armor"
+			"print_desc"	"#gear_AR500_armor_desc"
+			"gear_slot"		"armor"
+			"gear_cost"		"0"
+			"gear_weight"	"0" 
+			"DamageHitgroups"
+			{
+				"HITGROUP_CHEST"			"0.04"
+				"HITGROUP_STOMACH"			"0.04"
+				"HITGROUP_LEFTARM"			"0.03"
+				"HITGROUP_RIGHTARM"			"0.03"
+				"HITGROUP_LEFTLEG"			"0.03"
+				"HITGROUP_RIGHTLEG"			"0.03"
+				"HITGROUP_GENERIC"			"0.03"
+			}
+			"penetration_power_loss"	"100"
+			"explosive_damage_frac"		"0.2"
+			"team_access"				"insurgent"
+		}
+		
+		"srnx_BOT_ins_jugger_helmet_black"
+        {
+            "print_name"    		"#ins_helmet"
+            "print_desc"   			"#ins_helmet_desc"
+            "class_restricted"      "0"
+            "gear_slot"             "head"
+            "gear_cost"             "0"
+            "gear_weight"   		"0"
+			"entity"				"model"
+            "model"                 "models/characters/custom/mlf_helmet_head.mdl"
+            "DamageHitgroups"
+            {
+                "HITGROUP_HEAD"        "0.04"
+            }
+			"penetration_power_loss"	"40"
+            "team_access"   		"insurgent"
+        }
+		
 		"gear_uav"
 		{
 			"print_name"				"#gear_uav"
