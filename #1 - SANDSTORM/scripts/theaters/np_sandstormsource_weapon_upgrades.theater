@@ -4,6 +4,32 @@
 {
 	"weapon_upgrades"
 	{
+		// Extra
+		"siderail_lasersight_fp"
+		{
+			"import"				"base_lasersight_pistol"
+			"upgrade_cost"				"0"
+			"class_restricted"	"0"
+			"weight"						"5"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_makarov_fp"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"laser_mak"
+				{
+					"model"					"models/weapons/upgrades/a_laser_mak.mdl"
+					"Main"					"1"
+
+					"weapons"
+					{
+						"weapon"			"weapon_makarov_fp"
+					}
+				}
+			}
+		}
 	
 		// ========================================
 		// SHOTGUN AMMO TYPES
