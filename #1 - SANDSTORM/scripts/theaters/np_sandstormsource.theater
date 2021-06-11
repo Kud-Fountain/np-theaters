@@ -72,6 +72,7 @@
 				"gear"						"sec_heavy_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
 				"weapon"					"weapon_defib"
+				"gear"						"gear_uav"
 			}
 			"allowed_items"
 			{
@@ -115,6 +116,7 @@
 				"gear"						"sec_heavy_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
 				"weapon"					"weapon_defib"
+				"gear"						"gear_ammocrate"
 			}
 			"allowed_items"
 			{
@@ -393,6 +395,7 @@
 				"gear"						"sec_heavy_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
 				"weapon"					"weapon_defib"
+				"weapon"					"weapon_makarov_fp"
 			}
 			
 			"allowed_items"

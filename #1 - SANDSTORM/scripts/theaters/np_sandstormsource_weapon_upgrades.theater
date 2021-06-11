@@ -7209,7 +7209,7 @@
 			"print_name"				"#weapon_smoke_launcher"
 			"print_desc"				"#weapon_smoke_launcher_desc"
 			"attach_weapon"				"weapon_sandstorm_rifle_grenade_smoke"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			
 			"excluded_upgrades"
 			{
