@@ -18,7 +18,7 @@
 			}
 			
 			"class_restricted"			"1"
-			"team_access"				"security"
+			"team_access"				"security, insurgent"
 		}
 		
 		"gear_ammocrate"
@@ -36,7 +36,7 @@
 			}
 
 			"class_restricted"			"1"
-			"team_access"				"security"
+			"team_access"				"security, insurgent"
 		}
 
 		"srnx_BOT_juggernaut_armor"
@@ -46,6 +46,7 @@
 			"gear_slot"		"armor"
 			"gear_cost"		"0"
 			"gear_weight"	"0" 
+			"class_restricted"	"1"
 			"DamageHitgroups"
 			{
 				"HITGROUP_CHEST"			"0.04"
@@ -65,10 +66,10 @@
         {
             "print_name"    		"#ins_helmet"
             "print_desc"   			"#ins_helmet_desc"
-            "class_restricted"      "0"
             "gear_slot"             "head"
             "gear_cost"             "0"
             "gear_weight"   		"0"
+			"class_restricted"		"1"
 			"entity"				"model"
             "model"                 "models/characters/custom/mlf_helmet_head.mdl"
             "DamageHitgroups"
@@ -108,7 +109,7 @@
 			"print_name"				"#gear_light_armor"
 			"print_desc"				"#gear_light_armor_desc"
 			"gear_slot"				"armor"
-			"gear_cost"				"2"
+			"gear_cost"				"0"
 			"gear_weight"				"0"	// 25 (2.5kg) + 75 encumbrance
 			
 			"DamageHitgroups"
@@ -122,7 +123,7 @@
 				"HITGROUP_RIGHTLEG"			"1.00"
 			}
 			
-			"player_model_override"		"models/characters/insurgent_standard.mdl"
+			"player_model_override"		"models/characters/insurgent_standard_f.mdl"
 			"viewmodel_hands_override"	"models/weapons/v_hands_ins_l.mdl"
 			
 			"team_access"				"insurgent"
@@ -156,7 +157,7 @@
 			"print_name"				"#gear_heavy_armor"
 			"print_desc"				"#gear_heavy_armor_desc"
 			"gear_slot"				"armor"
-			"gear_cost"				"3"
+			"gear_cost"				"2"
 			"gear_weight"				"0"	// 75 (7.5kg) + 250 encumbrance
 			
 			"DamageHitgroups"
@@ -170,7 +171,7 @@
 				"HITGROUP_RIGHTLEG"			"1.00"
 			}
 			
-			"player_model_override"		"models/characters/insurgent_heavy.mdl"
+			"player_model_override"		"models/characters/insurgent_heavy_f.mdl"
 			"viewmodel_hands_override"	"models/weapons/v_hands_ins_h.mdl"
 			
 			"team_access"				"insurgent"
@@ -209,6 +210,7 @@
 			"gear_slot"				"vest"
 			"gear_cost"				"0"
 			"gear_weight"				"0"	// 22 (2.2kg) + 24 encumbrance
+			"class_restricted"			"1"
 			"extra_ammo"
 			{
 				"primary"				"4"
@@ -253,29 +255,26 @@
 		"ins_chest_carrier"
 		{
 			"print_name"				"#gear_chest_carrier"
-			"print_desc"				"#gear_chest_carrier_desc"
+			"print_desc"				"#gear_sandstorm_chest_carrier_desc"
 			"gear_slot"				"vest"
-			"gear_cost"				"2"
+			"gear_cost"				"0"
 			"gear_weight"				"0"	// 50 (5.0kg) + 50 encumbrance
 			"extra_ammo"
 			{
 				"primary"				"7"
 				"secondary"				"7"
-				"explosive"
-				{
-					"1"					"1"
-				}
+				"explosive"				"0"
 			}
 			"weapon_slots"
 			{
-				"explosive"				"1"
+				"explosive"				"0"
 			}
 			"player_model_bodygroups"
 			{
 				"kit"					"2"
 				"backpack"				"1"
 			}
-			"team_access"				"insurgent"
+			"team_access"				"security"
 		}
 	
 		"primary_sandstorm_sling"
