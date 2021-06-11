@@ -34,6 +34,7 @@
 					"#Squad_Gnalvl_VIP"						"template_sandstorm_coop_vip_medic"
 					"#Squad_Gnalvl_VIP_FP"					"template_sandstorm_coop_vip_fp_medic"
 					"#Squad_Gnalvl_Marksman"				"template_sandstorm_coop_marksman_medic_1"
+					"#Squad_Gnalvl_Marksman"				"template_sandstorm_coop_marksman_medic_1"
 					"#Squad_Gnalvl_Rifleman_AT2"			"template_sandstorm_coop_rifleman_at_medic_2"
 					"#Squad_Gnalvl_Rifleman_AT2"			"template_sandstorm_coop_rifleman_at_medic_2"
 				}

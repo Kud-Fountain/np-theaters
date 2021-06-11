@@ -176,7 +176,7 @@
         	"upgrade_slot"				"aesthetic"
 			"print_name"				"#weapon_upgrade_speed_reload"
 			"print_desc"				"#weapon_upgrade_speed_reload_desc"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"upgrade_cost"				"2"
 			"team_access"				"security, insurgent"
 			
@@ -825,7 +825,7 @@
 		"magazine_sandstorm_extended_pistol_45acp"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
 
 			"print_name"				"#weapon_upgrade_magazine_extended"
@@ -891,7 +891,7 @@
 		"magazine_sandstorm_extended_pistol"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
 
 			"print_name"				"#weapon_upgrade_magazine_extended"
@@ -959,7 +959,7 @@
 		"magazine_sandstorm_extended_pistol_20rd"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
 
 			"print_name"				"#weapon_upgrade_magazine_extended"
@@ -978,7 +978,7 @@
 		"magazine_sandstorm_extended_20rd"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
 
 			"print_name"				"#weapon_upgrade_magazine_extended"
@@ -995,7 +995,7 @@
 		"magazine_sandstorm_extended_rifle_30rd"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
 
 			"print_name"				"#weapon_upgrade_magazine_extended"
@@ -1057,7 +1057,7 @@
 		"magazine_sandstorm_extended_carbine_30rd"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
 
 			"print_name"				"#weapon_upgrade_magazine_extended"
@@ -1097,7 +1097,7 @@
 		"magazine_sandstorm_extended_pistol_31rd"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
 
 			"print_name"				"#weapon_upgrade_magazine_extended"
@@ -1115,7 +1115,7 @@
 		"magazine_sandstorm_extended_rifle_32rd"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
 
 			"print_name"				"#weapon_upgrade_magazine_extended"
@@ -1132,7 +1132,7 @@
 		"magazine_sandstorm_extended_rifle_35rd"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
 
 			"print_name"				"#weapon_upgrade_magazine_extended"
@@ -1160,7 +1160,7 @@
 		"magazine_sandstorm_extended_rifle_40rd"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
 
 			"print_name"				"#weapon_upgrade_magazine_extended"
@@ -1180,7 +1180,7 @@
 		"magazine_sandstorm_extended_rifle_42rd"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
 
 			"print_name"				"#weapon_upgrade_magazine_extended"
@@ -1197,7 +1197,7 @@
 		"magazine_sandstorm_extended_smg_50rd"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
 
 			"print_name"				"#weapon_upgrade_magazine_extended"
@@ -1215,7 +1215,7 @@
 		"magazine_sandstorm_drum_75rd"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"1"
 			"class_restricted"			"0"
 			"team_acces"				"security, insurgent"
 			"weight"					"0"
@@ -1259,7 +1259,7 @@
 		"magazine_sandstorm_box_100rd"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"1"
 			"class_restricted"			"0"
 			"team_acces"				"security, insurgent"
 			"weight"					"0"
@@ -1331,7 +1331,7 @@
 		"siderail_flashlight_rail"
 		{
 			"import"					"base_flashlight"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"team_access"				"security, insurgent"
 
 			"allowed_weapons"
@@ -1430,7 +1430,7 @@
 		"siderail_flashlight_band"
 		{
 			"import"					"base_flashlight"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"team_access"				"security, insurgent"
 			
 			"allowed_weapons"
@@ -1502,7 +1502,7 @@
 		"siderail_flashlight_shotgun"
 		{
 			"import"					"base_flashlight"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"team_access"				"security, insurgent"
 			"allowed_weapons"
 			{
@@ -1542,7 +1542,7 @@
 		"siderail_flashlight_pistol"
 		{
 			"import"					"base_flashlight_pistol"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"team_access"				"security, insurgent"
 
 			"allowed_weapons"
@@ -2518,7 +2518,7 @@
 		"optic_sandstorm_aimpoint"
 		{
 			"import"					"base_optic_rail"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"print_name"				"#weapon_upgrade_sandstorm_aimpoint"
 			"print_desc"				"#weapon_upgrade_sandstorm_aimpoint_desc"
 			"team_access"				"security, insurgent"
@@ -2884,7 +2884,7 @@
 		"optic_sandstorm_mro"
 		{
 			"import"					"base_optic_rail"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"print_name"				"#weapon_upgrade_sandstorm_mro"
 			"print_desc"				"#weapon_upgrade_sandstorm_mro_desc"
 			"team_access"				"security, insurgent"
@@ -3897,7 +3897,7 @@
 		"optic_sandstorm_eotech"
 		{
 			"import"					"base_optic_rail"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"print_name"				"#weapon_upgrade_sandstorm_holographic"
 			"print_desc"				"#weapon_upgrade_sandstorm_holographic_desc"
 			"team_access"				"security, insurgent"
@@ -4263,7 +4263,7 @@
 		"optic_sandstorm_kobra"
 		{
 			"import"					"base_optic_rail"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"print_name"				"#weapon_upgrade_sandstorm_kobra"
 			"print_desc"				"#weapon_upgrade_sandstorm_kobra_desc"
 			"team_access"				"security, insurgent"
@@ -6606,7 +6606,7 @@
 		"siderail_lasersight_sandstorm_rail"
 		{
 			"import"					"base_lasersight"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"1"
 			
 			"allowed_weapons"
 			{
@@ -6667,7 +6667,7 @@
 		"siderail_lasersight_rail" // SIDEMOUNT LASER
 		{
 			"import"					"base_lasersight"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"1"
 			
 			"allowed_weapons"
 			{
@@ -6703,7 +6703,7 @@
 		"siderail_lasersight_band"
 		{
 			"import"					"base_lasersight"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"1"
 			
 			"allowed_weapons"
 			{
@@ -6773,7 +6773,7 @@
 		"siderail_lasersight_shotgun_sec"
 		{
 			"import"					"base_lasersight"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"1"
 			
 			"allowed_weapons"
 			{
@@ -6793,7 +6793,7 @@
 		"siderail_lasersight_shotgun_ins"
 		{
 			"import"					"base_lasersight"
-			"upgrade_cost"				"4"
+			"upgrade_cost"				"1"
 			
 			"allowed_weapons"
 			{
@@ -6813,7 +6813,7 @@
 		"siderail_lasersight_pistol"
 		{
 			"import"					"base_lasersight_pistol"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"1"
 			
 			"allowed_weapons"
 			{

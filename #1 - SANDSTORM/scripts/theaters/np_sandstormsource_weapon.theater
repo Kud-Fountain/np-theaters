@@ -377,7 +377,7 @@
 			"weapon_max_subslot"			"0"	// can only be in the first explosive slot
 			"act_table"					"launcher"
 			"weapon_weight"				"0"
-			"weapon_cost"				"4"
+			"weapon_cost"				"3"
 			"weapon_abilities"			"ironsight"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
@@ -460,7 +460,7 @@
 			"weapon_max_subslot"		"0"	// can only be in the first explosive slot
 			"act_table"					"launcher_at4"
 			"weapon_weight"				"0"
-			"weapon_cost"				"4"
+			"weapon_cost"				"3"
 			"weapon_abilities"			"ironsight"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
@@ -961,7 +961,7 @@
 			"weapon_max_subslot"			"0"	// can only be in the first explosive slot
 			"act_table"				"grenade"
 			"weapon_weight"				"0"
-			"weapon_cost"				"4"
+			"weapon_cost"				"2"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -1055,7 +1055,7 @@
 			"weapon_slot"				"explosive"
 			"act_table"				"grenade"
 			"weapon_weight"				"0"
-			"weapon_cost"				"2"
+			"weapon_cost"				"0"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
