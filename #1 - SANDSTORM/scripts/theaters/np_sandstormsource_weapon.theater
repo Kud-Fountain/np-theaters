@@ -20,6 +20,12 @@
 			"weapon_cost"					"0"
 			"class_restricted"				"0"
 			"barrel_length"					"-1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"ammo_clip"
 			{
@@ -85,6 +91,12 @@
 			"class_restricted"				"1"
 			//"weapon_max_subslot"			"0"
 			"barrel_length"					"9"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 
 			"viewmodel_attachments"
 			{
@@ -175,6 +187,12 @@
 			"weapon_abilities"				"ironsight"
 			"class_restricted"				"1"
 			"fire_instantly"				"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 
 			"explosives"
 			{
@@ -288,6 +306,12 @@
 			"weapon_cost"					"0"
 			"class_restricted"				"0"
 			"barrel_length"					"-1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"ammo_clip"
 			{
@@ -357,6 +381,12 @@
 			"weapon_abilities"			"ironsight"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"sounds"
 			{
@@ -434,6 +464,12 @@
 			"weapon_abilities"			"ironsight"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"sounds"
 			{
@@ -513,6 +549,12 @@
 			"weapon_cost"			"1"
 			"weapon_abilities"		"ironsight"
 			"fire_instantly"		"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"sounds"
 			{
@@ -599,6 +641,12 @@
 			"weapon_cost"			"1"
 			"weapon_abilities"		"ironsight"
 			"fire_instantly"		"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"sounds"
 			{
@@ -685,6 +733,12 @@
 			"weapon_cost"				"4"
 			"weapon_abilities"			"ironsight"
 			"fire_instantly"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"sounds"
 			{
@@ -745,6 +799,12 @@
 			"import"					"weapon_m203_he"
 			"print_name"				"#weapon_gp25_he"
 			"print_desc"				"#weapon_m203_he_desc"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"explosives"
 			{
@@ -787,6 +847,12 @@
 			"weapon_cost"				"3"
 			"weapon_abilities"			"ironsight"
 			"fire_instantly"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"sounds"
 			{
@@ -847,6 +913,12 @@
 			"import"				"weapon_m203_smoke"
 			"print_name"				"#weapon_gp25_smoke"
 			"print_desc"				"#weapon_m203_smoke_desc"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			"explosives"
 			{
 				"entity"				"grenade_gp25_smoke"
@@ -891,6 +963,12 @@
 			"weapon_weight"				"0"
 			"weapon_cost"				"4"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"explosives"
 			{
@@ -930,6 +1008,12 @@
 			"weapon_weight"				"0"
 			"weapon_cost"				"4"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"explosives"
 			{
@@ -973,6 +1057,12 @@
 			"weapon_weight"				"0"
 			"weapon_cost"				"2"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -1012,6 +1102,12 @@
 			"weapon_weight"				"0"
 			"weapon_cost"				"2"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -1051,6 +1147,12 @@
 			"weapon_weight"				"0"
 			"weapon_cost"				"3"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -1091,6 +1193,12 @@
 			"weapon_weight"				"0"
 			"weapon_cost"				"3"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -1124,6 +1232,12 @@
 			"weapon_weight"				"0"
 			"weapon_cost"				"1"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -1163,6 +1277,12 @@
 			"weapon_weight"				"0"
 			"weapon_cost"				"1"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -1207,6 +1327,12 @@
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
 			"barrel_length"				"-1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"ammo_clip"
 			{
@@ -1272,6 +1398,12 @@
 			"weapon_cost"				"0"
 			"class_restricted"			"0"
 			"barrel_length"				"-1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"ammo_clip"
 			{
@@ -1344,6 +1476,12 @@
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
 			"barrel_length"				"-1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"ammo_clip"
 			{
@@ -1417,6 +1555,12 @@
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
 			"barrel_length"				"-1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"ammo_clip"
 			{
@@ -1489,6 +1633,12 @@
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
 			"barrel_length"				"-1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"ammo_clip"
 			{
@@ -1561,6 +1711,12 @@
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
 			"barrel_length"				"-1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"ammo_clip"
 			{
@@ -1633,6 +1789,12 @@
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
 			"barrel_length"				"-1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"ammo_clip"
 			{
@@ -1705,6 +1867,12 @@
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
 			"barrel_length"				"-1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"ammo_clip"
 			{
@@ -1784,6 +1952,12 @@
 			"weapon_cost"				"1"
 			"class_restricted"			"1"
 			"barrel_length"				"0"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -1888,6 +2062,12 @@
 			"weapon_cost"				"1"
 			"class_restricted"			"1"
 			"barrel_length"				"0"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -1973,6 +2153,12 @@
 			"weapon_cost"				"1"
 			"class_restricted"			"1"
 			"barrel_length"				"0"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -2060,6 +2246,12 @@
 			"weapon_cost"				"1"
 			"class_restricted"			"1"
 			"barrel_length"				"0"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -2145,6 +2337,12 @@
 			"weapon_cost"				"1"
 			"class_restricted"			"1"
 			"barrel_length"				"0"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -2231,6 +2429,12 @@
 			"weapon_cost"				"1"
 			"class_restricted"			"1"
 			"barrel_length"				"0"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -2338,6 +2542,12 @@
 			"weapon_cost"				"1"
 			"class_restricted"			"1"
 			"barrel_length"				"0"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -2448,6 +2658,12 @@
 			"weapon_cost"				"1"
 			"class_restricted"			"1"
 			"barrel_length"				"0"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -2559,6 +2775,12 @@
 			"weapon_cost"				"1"
 			"class_restricted"			"1"
 			"barrel_length"				"0"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -2670,6 +2892,12 @@
 			"weapon_cost"				"1"
 			"class_restricted"			"1"
 			"barrel_length"				"0"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -2781,6 +3009,12 @@
 			"weapon_cost"				"3"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -2908,6 +3142,12 @@
 			"weapon_cost"				"3"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -3018,6 +3258,12 @@
 			"weapon_cost"				"3"
 			"class_restricted"			"1"
 			"barrel_length"				"0"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -3130,6 +3376,12 @@
 			"weapon_cost"				"3"
 			"class_restricted"			"1"
 			"barrel_length"				"0"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -3227,6 +3479,12 @@
 			"weapon_cost"				"3"
 			"class_restricted"			"1"
 			"barrel_length"				"0"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -3338,6 +3596,12 @@
 			"weapon_weight"				"0"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"				"3"
 			"barrel_length"				"0"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -3450,6 +3714,12 @@
 			"weapon_cost"				"3"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -3563,6 +3833,12 @@
 			"weapon_cost"				"3"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -3679,6 +3955,12 @@
 			"weapon_cost"				"3"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -3802,6 +4084,12 @@
 			"weapon_cost"				"3"
 			"class_restricted"			"1"
 			"barrel_length"				"0"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -3914,6 +4202,12 @@
 			"weapon_cost"				"3"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -4026,6 +4320,12 @@
 			"weapon_cost"				"3"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -4153,6 +4453,12 @@
 			"weapon_cost"				"3"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -4266,6 +4572,12 @@
 			"burst_delay"				"0.22"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -4389,6 +4701,12 @@
 			"weapon_cost"				"3"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -4500,6 +4818,12 @@
 			"weapon_cost"				"3"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -4612,6 +4936,12 @@
 			"weapon_cost"				"3"
 			"class_restricted"			"1"
 			"barrel_length"				"0"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -4718,6 +5048,12 @@
 			"weapon_cost"				"3"
 			"class_restricted"			"1"
 			"barrel_length"				"0"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -4824,6 +5160,12 @@
 			"weapon_cost"				"3"
 			"class_restricted"			"1"
 			"barrel_length"				"0"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -4930,6 +5272,12 @@
 			"weapon_cost"				"3"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -5038,6 +5386,12 @@
 			"weapon_cost"				"3"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -5144,6 +5498,12 @@
 			"weapon_cost"				"3"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -5272,6 +5632,12 @@
 			"barrel_length"				"0"
 			"closed_bolt"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -5382,6 +5748,12 @@
 			"weapon_cost"				"2"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -5472,6 +5844,12 @@
 			"weapon_cost"				"2"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -5562,6 +5940,12 @@
 			"weapon_cost"				"2"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -5647,6 +6031,12 @@
 			"weapon_cost"				"2"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -5736,6 +6126,12 @@
 			"weapon_cost"				"2"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -5848,6 +6244,12 @@
 			"weapon_weight"				"0"
 			"weapon_cost"				"2"
 			"barrel_length"				"0"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -5957,6 +6359,12 @@
 			"weapon_cost"				"2"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -6061,6 +6469,13 @@
 			"weapon_weight"				"0"
 			"weapon_cost"				"2"
 			"barrel_length"				"0"
+			"class_restricted"			"1"	
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -6163,6 +6578,12 @@
 			"weapon_cost"				"2"
 			"barrel_length"				"0"
 			"class_restricted"			"1"	
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -6252,6 +6673,12 @@
 			"weapon_cost"				"2"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -6359,6 +6786,12 @@
 			"weapon_cost"				"2"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -6466,6 +6899,12 @@
 			"weapon_cost"				"2"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -6574,6 +7013,12 @@
 			"weapon_cost"				"1"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -6685,6 +7130,12 @@
 			"barrel_length"				"0"
 			"fire_cycle"				"0.2"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -6776,6 +7227,12 @@
 			"barrel_length"				"0"
 			"fire_cycle"				"0.2"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -6874,6 +7331,12 @@
 			"closed_bolt"				"0"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -6987,6 +7450,12 @@
 			"closed_bolt"				"0"
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -7097,6 +7566,12 @@
 			"weapon_weight"				"0"	// (4.8kg[weapon] + (2.0kg[ammo] * (1+2)[mags]) )*10[kg->hg for int]  +50[encumbrance]
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -7211,6 +7686,12 @@
 			"weapon_weight"				"0"	// (6.6kg[weapon] + (0.2kg[ammo] * (1+16)[mags]) )*10[kg->hg for int]  +32[encumbrance]
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"viewmodel_attachments"
 			{
@@ -7307,6 +7788,12 @@
 			"weapon_weight"				"0"	// (4.0kg[weapon] + (0.2kg[ammo] * (1+16)[mags]) )*10[kg->hg for int]  +32[encumbrance]
 			"barrel_length"				"0"
 			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
