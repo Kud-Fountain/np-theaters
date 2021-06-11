@@ -1,5 +1,5 @@
 "#base" "base_sandstormsource_player.theater"
-"#base" "base_sandstormsource_common_ammo.theater"
+"#base" "np_base_sandstormsource_common_ammo.theater"
 
 "#base" "np_sandstormsource_gear.theater"
 "#base" "np_sandstormsource_gloves.theater"
