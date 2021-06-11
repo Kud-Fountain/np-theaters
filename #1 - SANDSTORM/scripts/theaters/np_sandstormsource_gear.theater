@@ -3,6 +3,42 @@
 	"player_gear"
 	{
 		// custom gear
+		"gear_uav"
+		{
+			"print_name"				"#gear_uav"
+			"print_desc"				"#gear_uav_desc"
+			"gear_cost"				"0"
+			"gear_weight"				"15"
+			"gear_slot"					"backpack"
+			"class_restricted"			"1"
+			 
+			"weapon_slots"
+			{
+				"melee"		"2"
+			}
+			
+			"class_restricted"			"1"
+			"team_access"				"security"
+		}
+		
+		"gear_ammocrate"
+		{
+			"print_name"				"#gear_ammocrate"
+			"print_desc"				"#gear_ammocrate_desc"
+			"gear_cost"					"0"
+			"gear_weight"				"20"
+			"gear_slot"					"backpack"
+			"class_restricted"			"1"
+
+			"weapon_slots"
+			{
+				"melee"		"2"
+			}
+
+			"class_restricted"			"1"
+			"team_access"				"security"
+		}
+
 		"srnx_BOT_juggernaut_armor"
 		{
 			"print_name"	"#gear_AR500_armor"
@@ -42,42 +78,6 @@
 			"penetration_power_loss"	"40"
             "team_access"   		"insurgent"
         }
-		
-		"gear_uav"
-		{
-			"print_name"				"#gear_uav"
-			"print_desc"				"#gear_uav_desc"
-			"gear_cost"				"0"
-			"gear_weight"				"15"
-			"gear_slot"					"backpack"
-			"class_restricted"			"1"
-			 
-			"weapon_slots"
-			{
-				"melee"		"2"
-			}
-			
-			"class_restricted"			"1"
-			"team_access"				"security"
-		}
-		
-		"gear_ammocrate"
-		{
-			"print_name"				"#gear_ammocrate"
-			"print_desc"				"#gear_ammocrate_desc"
-			"gear_cost"					"0"
-			"gear_weight"				"20"
-			"gear_slot"					"backpack"
-			"class_restricted"			"1"
-
-			"weapon_slots"
-			{
-				"melee"		"2"
-			}
-
-			"class_restricted"			"1"
-			"team_access"				"security"
-		}
 		
 		// armor starts here
 		"sec_light_armor"
