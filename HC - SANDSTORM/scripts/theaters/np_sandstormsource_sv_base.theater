@@ -70,7 +70,7 @@
 			"buy_order"
 			{	
 				"gear"						"ins_heavy_armor"
-				"gear"						"ins_sandstorm_chest_carrier"
+				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_defib"
 				"gear"						"gear_uav"
 			}
@@ -114,7 +114,7 @@
 			"buy_order"
 			{	
 				"gear"						"ins_heavy_armor"
-				"gear"						"ins_sandstorm_chest_carrier"
+				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_defib"
 				"gear"						"gear_ammocrate"
 			}
@@ -158,7 +158,7 @@
 			"buy_order"
 			{
 				"gear"						"ins_heavy_armor"
-				"gear"						"ins_sandstorm_chest_carrier"
+				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_defib"
 			}
 			"allowed_items"
@@ -197,7 +197,7 @@
 			"buy_order"
 			{
 				"gear"						"ins_heavy_armor"
-				"gear"						"ins_sandstorm_chest_carrier"
+				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_defib"
 			}
 			"allowed_items"
@@ -240,7 +240,7 @@
 			"buy_order"
 			{
 				"gear"						"ins_heavy_armor"
-				"gear"						"ins_sandstorm_chest_carrier"
+				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_defib"
 			}
 			"allowed_items"
@@ -278,7 +278,7 @@
 			"buy_order"
 			{
 				"gear"						"ins_heavy_armor"
-				"gear"						"ins_sandstorm_chest_carrier"
+				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_defib"
 			}
 			
@@ -317,7 +317,7 @@
 			"buy_order"
 			{
 				"gear"						"ins_heavy_armor"
-				"gear"						"ins_sandstorm_chest_carrier"
+				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_defib"
 			}
 			"allowed_items"
@@ -352,7 +352,7 @@
 			"buy_order"
 			{
 				"gear"						"ins_heavy_armor"
-				"gear"						"ins_sandstorm_chest_carrier"
+				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_defib"			
 			}
 			"allowed_items"
@@ -393,7 +393,7 @@
 			"buy_order"
 			{
 				"gear"						"ins_heavy_armor"
-				"gear"						"ins_sandstorm_chest_carrier"
+				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_defib"
 				"weapon"					"weapon_makarov_fp"
 			}
@@ -435,7 +435,7 @@
 			"buy_order"
 			{
 				"gear"						"ins_heavy_armor"
-				"gear"						"ins_sandstorm_chest_carrier"
+				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_defib"
 			}
 			
