@@ -8299,5 +8299,49 @@
 			}
 		}
 		
+		"grenade_flare"
+		{
+			"import"					"baseGrenade"
+			"entity_class"				"grenade_aoe"
+			"Model"						"models/weapons/w_flare_projectile.mdl"
+			"DamageType"				"DMG_BURN"
+			"DetonateDamage"			"1" // det damage is for when it first goes off
+			"DetonatePenetrationRadius" "0"
+			"DetonateDamageRadius"		"64"
+			"FuseTime"					"1.5"
+			"Cookable"					"0"
+			"DetonateUnderwater"		"0"
+			"RocketStartSpeed"			"2000"
+			"ShakeAmplitude"			"0"
+
+			"Elasticity"				"0.1"
+
+			"Deafen"					"0"
+			"AreaDamageTime"			"18"
+			"AreaDamageFrequency"		"0.5"
+			"AreaDamageMinRadius"		"75"
+			"AreaDamageMaxRadius"		"95"
+			"AreaDamageGrowSpeed"		"9"
+			"AreaDamageAmount"			"1"
+			
+			"Health"						"50"
+			"ReactExplosions"				"1"
+			"ReactBullets"					"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"		"ins_flaregun_flare"
+				"DetonateWaterParticle"	"ins_flaregun_flare"
+				"TrailParticle"			"ins_flaregun_trail"
+				"BroadcastAll"			"1"
+				"FollowOrigin"			"1"
+				"NormalUp"				"1"
+			}
+			"Sounds"
+			{
+				"DetonateSound"			"Flare.Burn"
+				"BounceSound"			""
+			}
+		}	
 	}
 }
