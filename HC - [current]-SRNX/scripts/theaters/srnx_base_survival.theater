@@ -1565,6 +1565,7 @@
 				"weapon"			"weapon_doi2ins_m1garand"
 				"weapon"			"weapon_defib"
 				"gear"				"basic_chest"
+				"gear"				"gear_iedjammer"
 			}
 			"allowed_items"
 			{
@@ -1580,6 +1581,7 @@
 				"weapon"			"weapon_mr96"
 				"weapon"			"weapon_m3greasegun"
 				"weapon"			"weapon_mp7"
+				"gear"				"gear_iedjammer"
 				//"weapon"			"weapon_air_fp"
 
 				//Upgrades

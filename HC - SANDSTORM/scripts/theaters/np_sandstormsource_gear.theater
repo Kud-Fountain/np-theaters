@@ -38,6 +38,24 @@
 			"class_restricted"			"1"
 			"team_access"				"security"
 		}
+		
+		"gear_iedjammer"
+		{
+			"print_name"				"#gear_iedjammer"
+			"print_desc"				"#gear_iedjammer_desc"
+			"gear_cost"					"1"
+			"gear_weight"				"45"
+			"gear_slot"					"backpack"
+			"class_restricted"			"1"
+
+			"weapon_slots"
+			{
+				"melee"		"2"
+			}
+
+			"class_restricted"			"1"
+			"team_access"				"security"
+		}
 
 		"srnx_BOT_juggernaut_armor"
 		{

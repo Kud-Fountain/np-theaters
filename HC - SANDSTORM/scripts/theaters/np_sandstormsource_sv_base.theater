@@ -353,7 +353,8 @@
 			{
 				"gear"						"ins_heavy_armor"
 				"gear"						"ins_chest_rig"
-				"weapon"					"weapon_defib"			
+				"weapon"					"weapon_defib"	
+				"gear"						"gear_iedjammer"
 			}
 			"allowed_items"
 			{
@@ -370,6 +371,7 @@
 				"weapon"					"weapon_sandstorm_anm14"
 				"weapon"					"weapon_sandstorm_molotov"
 				"weapon"					"weapon_sandstorm_c4_clicker"
+				"gear"						"gear_iedjammer"
 			}
 		}
 		
