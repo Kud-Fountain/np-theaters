@@ -153,6 +153,7 @@
 			"gear_slot"					"armor"
 			"gear_cost"					"2"
 			"gear_weight"				"0"	// 75 (7.5kg) + 250 encumbrance
+			"class_restricted"			"1"
 			
 			"DamageHitgroups"
 			{

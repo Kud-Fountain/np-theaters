@@ -69,7 +69,7 @@
 			
 			"buy_order"
 			{	
-				"gear"						"sec_heavy_armor"
+				"gear"						"sec_light_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
 				"weapon"					"weapon_defib"
 				"gear"						"gear_uav"
@@ -113,7 +113,7 @@
 			
 			"buy_order"
 			{	
-				"gear"						"sec_heavy_armor"
+				"gear"						"sec_light_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
 				"weapon"					"weapon_defib"
 				"gear"						"gear_ammocrate"
@@ -157,7 +157,7 @@
 			
 			"buy_order"
 			{
-				"gear"						"sec_heavy_armor"
+				"gear"						"sec_light_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
 				"weapon"					"weapon_defib"
 			}
@@ -196,7 +196,7 @@
 			
 			"buy_order"
 			{
-				"gear"						"sec_heavy_armor"
+				"gear"						"sec_light_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
 				"weapon"					"weapon_defib"
 			}
@@ -239,7 +239,7 @@
 			
 			"buy_order"
 			{
-				"gear"						"sec_heavy_armor"
+				"gear"						"sec_light_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
 				"weapon"					"weapon_defib"
 			}
@@ -277,7 +277,7 @@
 			
 			"buy_order"
 			{
-				"gear"						"sec_heavy_armor"
+				"gear"						"sec_light_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
 				"weapon"					"weapon_defib"
 			}
@@ -316,7 +316,7 @@
 			
 			"buy_order"
 			{
-				"gear"						"sec_heavy_armor"
+				"gear"						"sec_light_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
 				"weapon"					"weapon_defib"
 			}
@@ -351,7 +351,7 @@
 			
 			"buy_order"
 			{
-				"gear"						"sec_heavy_armor"
+				"gear"						"sec_light_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
 				"weapon"					"weapon_defib"	
 				"gear"						"gear_iedjammer"
@@ -394,7 +394,7 @@
 			
 			"buy_order"
 			{
-				"gear"						"sec_heavy_armor"
+				"gear"						"sec_light_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
 				"weapon"					"weapon_defib"
 				"weapon"					"weapon_makarov_fp"
@@ -436,7 +436,7 @@
 			
 			"buy_order"
 			{
-				"gear"						"sec_heavy_armor"
+				"gear"						"sec_light_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
 				"weapon"					"weapon_defib"
 			}
