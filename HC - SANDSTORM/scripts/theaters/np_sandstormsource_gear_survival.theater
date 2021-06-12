@@ -331,64 +331,61 @@
 		}	
 		
 		
-		"?nightmap"
+		"sec_nightvision"
 		{
-			"sec_nightvision"
+			"print_name"				"#gear_nvg"
+			"print_desc"				"#gear_nvg_desc"
+			"gear_slot"				"accessory"
+			"gear_cost"				"0"
+			"gear_weight"				"0"
+			"entity"				"nvg"
+			"model"					"models/characters/a_nightvision.mdl"
+				
+			"settings"
 			{
-				"print_name"				"#gear_nvg"
-				"print_desc"				"#gear_nvg_desc"
-				"gear_slot"				"accessory"
-				"gear_cost"				"0"
-				"gear_weight"				"0"
-				"entity"				"nvg"
-				"model"					"models/characters/a_nightvision.mdl"
-				
-				"settings"
-				{
-					"material"				"dev/sec_nightvision"
-					"sound_on"				"Weapon_NVG.NvgOn"
-					"sound_off"				"Weapon_NVG.NvgOff"
-					"chromatic_aberation"			"0"
-					"dust_power"				"1.2"
+				"material"				"dev/sec_nightvision"
+				"sound_on"				"Weapon_NVG.NvgOn"
+				"sound_off"				"Weapon_NVG.NvgOff"
+				"chromatic_aberation"			"0"
+				"dust_power"				"1.2"
 					
-					"fade_in_time"				"0.3"
-					"fade_in_hold"				"0.1"
-					"fade_in_tonemap"			"170"
+				"fade_in_time"				"0.3"
+				"fade_in_hold"				"0.1"
+				"fade_in_tonemap"			"170"
 					
-					"fade_out_time"				"0.5"
-					"fade_out_hold"				"0.1"
-				}
-				
-				"team_access"				"security"
+				"fade_out_time"				"0.5"
+				"fade_out_hold"				"0.1"
 			}
-			"ins_nightvision"
+				
+			"team_access"				"security"
+		}
+		"ins_nightvision"
+		{
+			"print_name"				"#gear_nvg"
+			"print_desc"				"#gear_nvg_desc"
+			"gear_slot"				"accessory"
+			"gear_cost"				"0"
+			"gear_weight"				"0"
+			"entity"				"nvg"
+			"model"					"models/characters/a_nightvision.mdl"
+				
+			"settings"
 			{
-				"print_name"				"#gear_nvg"
-				"print_desc"				"#gear_nvg_desc"
-				"gear_slot"				"accessory"
-				"gear_cost"				"0"
-				"gear_weight"				"0"
-				"entity"				"nvg"
-				"model"					"models/characters/a_nightvision.mdl"
-				
-				"settings"
-				{
-					"material"				"dev/ins_nightvision"
-					"sound_on"				"Weapon_NVG.InsNvgOn"
-					"sound_off"				"Weapon_NVG.InsNvgOff"
-					"chromatic_aberation"			"0"
-					"dust_power"				"1.2"
+				"material"				"dev/ins_nightvision"
+				"sound_on"				"Weapon_NVG.InsNvgOn"
+				"sound_off"				"Weapon_NVG.InsNvgOff"
+				"chromatic_aberation"			"0"
+				"dust_power"				"1.2"
 					
-					"fade_in_time"				"0.3"
-					"fade_in_hold"				"0.1"
-					"fade_in_tonemap"			"170"
+				"fade_in_time"				"0.3"
+				"fade_in_hold"				"0.1"
+				"fade_in_tonemap"			"170"
 					
-					"fade_out_time"				"0.5"
-					"fade_out_hold"				"0.1"
-				}
-				
-				"team_access"				"insurgent"
+				"fade_out_time"				"0.5"
+				"fade_out_hold"				"0.1"
 			}
+				
+			"team_access"				"insurgent"
 		}
 	}
 }
