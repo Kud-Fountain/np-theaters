@@ -70,6 +70,7 @@
 			"upgrade_slot"				"stock"
 			"draw_speed"				"1.5"
 			"holster_speed"				"1.5"
+			"class_restricted"			"1"
 			
 			"allowed_weapons"
 			{	
