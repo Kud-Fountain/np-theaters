@@ -54,7 +54,7 @@
 			}
 
 			"class_restricted"			"1"
-			"team_access"				"security"
+			"team_access"				"security, insurgent"
 		}
 
 		"srnx_BOT_juggernaut_armor"
