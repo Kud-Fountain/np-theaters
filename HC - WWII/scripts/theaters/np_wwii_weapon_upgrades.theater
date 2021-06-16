@@ -169,7 +169,7 @@
 			"print_name"				"#weapon_upgrade_doi2ins_magazine_extended_c96"
 			"print_desc"				"#weapon_upgrade_doi2ins_magazine_extended_c96_desc"
 
-			"magsize_override"			"40"
+			"magsize_override"			"20"
 			"class_restricted"			"0"
 
 			"allowed_weapons"
@@ -429,6 +429,7 @@
 		"stock_doi2ins_browninghp"
 		{
 			"import"					"base_stock"
+			"upgrade_cost"				"1"
 			"class_restricted"			"0"
 			
 			"allowed_weapons"
@@ -453,6 +454,7 @@
 		"stock_doi2ins_c96"
 		{
 			"import"					"base_stock"
+			"upgrade_cost"				"1"
 			"class_restricted"			"0"
 			
 			"allowed_weapons"
@@ -539,7 +541,7 @@
 			"import"					"base_bipod"
 			"print_name"				"#weapon_upgrade_doi2ins_bipod"
 			"print_desc"				"#weapon_upgrade_doi2ins_bipod_desc"			
-			"upgrade_cost"				"0"
+			"upgrade_cost"				"2"
 			
 			"class_restricted"			"0"
 			"team_access"				"security, insurgent"
@@ -1298,7 +1300,6 @@
 			
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_doi2ins_springfield"
 				"weapon"				"weapon_doi2ins_springfield_worn"
 			}
 			
@@ -1394,7 +1395,6 @@
 			
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_doi2ins_k98"
 				"weapon"				"weapon_doi2ins_k98_veteran"
 			}
 			
@@ -1501,7 +1501,6 @@
 			
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_doi2ins_enfield"
 				"weapon"				"weapon_doi2ins_enfield_veteran"
 			}
 			

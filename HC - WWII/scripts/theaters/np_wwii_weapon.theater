@@ -1730,6 +1730,135 @@
 			"team_access"				"security, insurgent"
 		}	
 		
+		"weapon_doi2ins_m1paratrooper"
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"rifle_controlled_fire"
+			"print_name"				"#weapon_doi2ins_m1paratrooper"
+			"print_desc"				"#weapon_doi2ins_m1paratrooper_desc"
+			"view_model"				"models/doi2ins/v_m1a1para.mdl"
+			"world_model"				"models/doi2ins/w_m1a1para.mdl"
+			"rounds_per_minute"			"500"
+			"weapon_slot"				"primary"
+			"act_table"					"rifle_ak2"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"0"
+			"weapon_cost"				"1"
+			"barrel_length"				"20"			
+			"fire_cycle"				"0.2"
+			"class_restricted"			"0"
+			
+			"viewmodel_attachments"
+			{
+				"standard_optic"
+				{
+					"model"					"models/doi2ins/upgrades/a_iron_m1a1_s.mdl"
+					"fallback_for_slot"		"optics"
+				}
+				
+				"standard_magazine"
+				{
+					"model"					"models/doi2ins/upgrades/a_magazine_m1a1_15.mdl"
+					"fallback_for_slot"		"magazine"
+				}
+			}
+			
+			"world_attachments"
+			{
+				"standard_optics"
+				{
+					"model"					"models/doi2ins/upgrades/w_iron_m1a1_s.mdl"
+					"fallback_for_slot"		"optics"
+				}
+				
+				"standard_magazine"
+				{
+					"model"					"models/doi2ins/upgrades/w_magazine_m1a1_15.mdl"
+					"fallback_for_slot"		"magazine"
+				}
+			}
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-15"
+				"fov_plr_focus"				"-7"
+				"fov_wpn_default"			"65"
+				"fov_wpn_ironsight"			"76"
+				"fov_wpn_focus"				"66"
+			}
+			
+			"freeaim"
+			{
+				"freeaim_frac"					"0.85"
+			}
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_m1carbine.Single"
+				"shot_single_local"			"Weapon_m1carbine.SingleLocal"
+				"shot_silent"				"Weapon_m1carbine.SingleSilenced"
+				"shot_silent_local"			"Weapon_m1carbine.SingleSilencedLocal"
+				"empty"						"Weapon_m1carbine.Empty"
+				"clipin"					"Weapon_m1carbine.Magin"
+				"clipout"					"Weapon_m1carbine.Magout"
+				"boltback"					"Weapon_m1carbine.Boltback"
+				"boltforward"				"Weapon_m1carbine.Boltrelease"
+			}
+			
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_akm_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_m14_3rd"
+				"particle_tracer"				"weapon_tracers"
+			}
+			
+			"recoil"
+			{
+				"recoil_lateral_range"			"-0.2 0.4"
+				"recoil_vertical_range"			"1.1 1.3"
+				"recoil_aim_punch"				"0.2 0.3"
+				"recoil_rest_rate"				"5"
+				"recoil_rest_delay"				"0.12"
+				"recoil_roll_range"				"-1.2 -1.2"
+				"recoil_roll_rest_rate"			"150"
+				"recoil_freeaim_frac"			"0.7"
+				"recoil_ironsight_frac"			"0.85"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"				"6"		// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.75"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+			}
+			
+			"ballistics"
+			{
+				"spread"				"0.1 0.1 0.1"
+				"FireModes"				"semi"
+				"bulletcount"			"1"
+				"maxrange"				"10000"
+			}
+			
+			"ammo_clip"
+			{
+				"ammo_type"				"30_m1carbine_mag"
+				"clip_max"				"7"
+				"clip_max_rounds"		"15"
+				"clip_default"			"1"
+			}
+
+			"attachments"
+			{
+				"attachment_addon"			"Primary"
+			}
+			
+			"kitui_offset"
+			{
+				"position"					"22 -1 2"
+			}
+			
+			"team_access"					"security, insurgent"
+		}
+		
 		"weapon_doi2ins_m1carbine"
 		{
 			"import"					"ballistic_base"

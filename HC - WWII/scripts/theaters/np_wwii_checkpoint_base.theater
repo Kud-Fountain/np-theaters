@@ -173,6 +173,7 @@
 				"weapon"					"grenade_rifle_springfield"
 				"weapon"					"weapon_doi2ins_springfield_worn"
 				"weapon"					"weapon_doi2ins_m1garand"
+				"weapon"					"weapon_doi2ins_m1paratrooper"
 				"weapon"					"weapon_doi2ins_m1911"
 				"weapon"					"weapon_doi2ins_mk2"
 				"weapon"					"weapon_doi2ins_welrod"
@@ -475,7 +476,7 @@
 			"buy_order"
 			{
 				"gear"						"sec_light_armor"
-				"gear"						"sec_sandstorm_chest_carrier"
+				"gear"						"sec_wwii_chest_carrier"
 				"weapon"					"weapon_defib"
 			}
 			
@@ -483,7 +484,6 @@
 			{
 				"weapon"					"weapon_defib"
 				
-				"weapon"					"weapon_doi2ins_springfield"
 				"weapon"					"weapon_doi2ins_springfield_worn"
 				"weapon"					"weapon_doi2ins_m1911"
 				"weapon"					"weapon_doi2ins_sw1917"
