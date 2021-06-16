@@ -7318,7 +7318,7 @@
 		{
 			"import"					"ballistic_base"
 			"weapon_class"				"lmg"
-			"weapon_cost"				"4"
+			"weapon_cost"				"3"
 			"print_name"				"#weapon_sandstorm_m240"
 			"print_desc"				"#weapon_sandstorm_m240_desc"
 			"view_model"				"models/sndstrm/v_m240.mdl"
@@ -7437,7 +7437,7 @@
 		{
 			"import"					"ballistic_base"
 			"weapon_class"				"lmg"
-			"weapon_cost"				"4"
+			"weapon_cost"				"6"
 			"print_name"				"#weapon_sandstorm_m249"
 			"print_desc"				"#weapon_sandstorm_m249_desc"
 			"view_model"				"models/sndstrm/v_m249.mdl"

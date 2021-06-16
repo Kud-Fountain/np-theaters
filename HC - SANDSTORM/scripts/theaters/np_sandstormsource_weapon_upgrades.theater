@@ -1286,7 +1286,7 @@
 		"magazine_sandstorm_box_100rd"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"1"
 			"class_restricted"			"0"
 			"team_acces"				"security, insurgent"
 			"weight"					"0"
