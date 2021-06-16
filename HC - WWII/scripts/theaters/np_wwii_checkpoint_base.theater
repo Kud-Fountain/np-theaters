@@ -1,5 +1,5 @@
-"#base" "base_wwii_player.theater"
-"#base" "np_base_wwii_common_ammo.theater"
+"#base" "np_wwii_base_player.theater"
+"#base" "np_wwii_base_common_ammo.theater"
 
 "#base" "np_wwii_gear.theater"
 "#base" "np_wwii_gloves.theater"
