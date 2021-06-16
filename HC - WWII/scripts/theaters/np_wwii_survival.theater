@@ -1,0 +1,97 @@
+"theater"
+{
+	"teams"
+	{
+		"insurgents"
+		{
+			"squads"
+			{
+				"#Fireteam_American_Squad"	
+				{
+					"#Squad_Gnalvl_VIP_FP"					"template_wwii_coop_vip_fp_medic"
+					"#Squad_Gnalvl_Rifleman_AT2"			"template_wwii_coop_rifleman_at_medic_2"
+					"#Squad_Gnalvl_Rifleman_AT2"			"template_wwii_coop_rifleman_at_medic_2"
+					"#Squad_Gnalvl_Rifleman_AT"				"template_wwii_coop_rifleman_at_medic_1"
+					"#Squad_Gnalvl_Marksman"				"template_wwii_coop_marksman_medic_1"
+				}
+				"#Fireteam_Commonwealth_Squad"	
+				{
+					"#Squad_Gnalvl_SquadLeader"				"template_wwii_coop_squadleader_cw_medic"
+					"#Squad_Gnalvl_Rifleman_AT"				"template_wwii_coop_rifleman_at_medic_1"
+					"#Squad_Gnalvl_Rifleman_AT"				"template_wwii_coop_rifleman_at_medic_1"
+					"#Squad_Gnalvl_Auto"					"template_wwii_coop_support_medic_1"
+					"#Squad_Gnalvl_Auto2"					"template_wwii_coop_support_medic_2"
+				}
+				"#Fireteam_Germany_Squad"	
+				{
+					"#Squad_Gnalvl_VIP"						"template_wwii_coop_vip_medic"
+					"#Squad_Gnalvl_Rifleman_AT2"			"template_wwii_coop_rifleman_at_medic_2"
+					"#Squad_Gnalvl_Rifleman_AT2"			"template_wwii_coop_rifleman_at_medic_2"
+					"#Squad_Gnalvl_Rifleman_AT"				"template_wwii_coop_rifleman_at_medic_1"
+					"#Squad_Gnalvl_Auto"					"template_wwii_coop_support_medic_1"
+				}
+				"#Fireteam_Soviet_Squad"	
+				{
+					"#Squad_Gnalvl_SquadLeader"				"template_wwii_coop_squadleader_1_medic"
+					"#Squad_Gnalvl_Rifleman_AT2"			"template_wwii_coop_rifleman_at_medic_2"
+					"#Squad_Gnalvl_Rifleman_AT2"			"template_wwii_coop_rifleman_at_medic_2"
+					"#Squad_Gnalvl_Auto2"					"template_wwii_coop_support_medic_2"
+					"#Squad_Gnalvl_Marksman"				"template_wwii_coop_marksman_medic_1"
+				}
+			}
+		}
+		
+		"security"
+		{
+			"squads"
+			{
+				
+				// From original survival mode
+				"#Fireteam_Alpha"
+				{
+					"#Squad_Fireteam_Specialist"		"template_survival_base_01_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_01_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_base_02_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_02_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_base_03_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_03_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_base_05_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_base_05_security"
+				}
+				"#Fireteam_Bravo"
+				{
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_05_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_base_01_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_05_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_05_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_05_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_base_01_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_03_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_at4_bomber_security"
+				}
+				"#Fireteam_Charlie"
+				{
+					"#Squad_Fireteam_Specialist"		"template_survival_base_01_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_01_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_base_02_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_02_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_base_03_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_03_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_04_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_base_05_security"
+				}
+				"#Fireteam_Delta"
+				{
+					"#Squad_Fireteam_Specialist"		"template_survival_base_01_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_01_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_base_02_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_02_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_base_03_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_03_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_officer_04_security"
+					"#Squad_Fireteam_Specialist"		"template_survival_m249_juggernaut_security"
+				}
+			}
+		}
+	}
+}

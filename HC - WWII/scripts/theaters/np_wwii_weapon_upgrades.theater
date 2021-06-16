@@ -33,6 +33,100 @@
 			}
 		}
 		
+		// ========================================
+		// PERK UPGRADES
+		// ========================================
+		
+		"doi2ins_perk_quick_reload"
+		{
+			"print_name"				"#doi2ins_quick_reload"
+			"print_desc"				"#doi2ins_quick_reload_desc"
+			"upgrade_cost"				"1"
+			"upgrade_slot"				"aesthetic"
+			"reload_speed"				"1.6"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_doi2ins_m1911"
+				"weapon"				"weapon_doi2ins_sw1917"
+				"weapon"				"weapon_doi2ins_c96"
+				"weapon"				"weapon_doi2ins_browninghp"
+				"weapon"				"weapon_doi2ins_welrod"
+				"weapon"				"weapon_doi2ins_ithaca"
+				"weapon"				"weapon_doi2ins_stevens620"
+				"weapon"				"weapon_doi2ins_m1912"
+				"weapon"				"weapon_doi2ins_m1897" 
+			}
+			
+			"team_access"				"security, insurgent"
+		}
+		
+		"doi2ins_perk_quick_reload_double_barrel"
+		{
+			"print_name"				"#doi2ins_quick_reload"
+			"print_desc"				"#doi2ins_quick_reload_double_barrel_desc"
+			"upgrade_cost"				"5"
+			"upgrade_slot"				"aesthetic"
+			"reload_speed"				"0.75"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_doi2ins_izh43"    
+			}
+		
+			"team_access"				"security, insurgent"
+		}
+		
+		// ========================================
+		// Flash Hider
+		// ========================================
+		
+		"barrel_doi2ins_flash_hider"
+		{
+			"upgrade_slot"				"barrel"
+			"print_name"				"#weapon_upgrade_doi2ins_flash_hider"
+			"print_desc"				"#weapon_upgrade_doi2ins_flash_hider_desc"			
+			"upgrade_cost"				"1"
+			"class_restricted"			"0"
+			"length"					"6"
+			"team_access"				"security, insurgent"
+	
+			"weapon_abilities"				"silencer"
+			"particle_1p"					"muzzleflash_suppressed_1p"
+			"particle_attach"				"muzzle_supp"	
+			
+			"recoil"
+			{
+				"recoil_lateral_frac"			"0.8"
+				"recoil_vertical_frac"			"0.5"
+			}
+			
+			"sway"
+			{
+				"sway_speed_frac"			"0.8"
+				"sway_radius_frac"			"0.8"
+			}				
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_doi2ins_m3greasegun"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"flash_hider_m3_greasegun"
+				{
+					"model"				"models/doi2ins/upgrades/a_flash_hider_m3.mdl"
+					
+					"weapons"
+					{
+						"weapon"		"weapon_doi2ins_m3greasegun"
+					}
+				}
+			}
+
+		}
+		
 		//extended magazine
 		
 		"magazine_doi2ins_extended_nambu14"
@@ -240,7 +334,7 @@
 		"magazine_doi2ins_stripper_clips"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"2"
 			"team_access"				"security, insurgent"
 			"class_restricted"			"0"
 			
@@ -258,6 +352,7 @@
 				"weapon"				"weapon_doi2ins_enfield_veteran"
 				"weapon"				"weapon_doi2ins_springfield"
 				"weapon"				"weapon_doi2ins_springfield_worn"
+				"weapon"				"weapon_doi2ins_mosin"
 			}
 
 			"viewmodel_attachments"

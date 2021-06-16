@@ -1,0 +1,105 @@
+"theater"
+{
+	"player_gear"
+	{
+	
+		"gloves_hardknuckle_fingerless"
+        {
+            "print_name"				"#gloves_hardknuckle_fingerless"
+            "print_desc"				"#gloves_hardknuckle_fingerless_desc"
+			
+			"viewmodel_hands_override"	"models/gloves1/v_hands_sec_h.mdl"
+			
+			"class_restricted"			"1"
+            "gear_slot"					"head"
+            "gear_cost"					"0"
+            "gear_weight"				"0"
+            "team_access"				"security, insurgent"
+        }
+		
+		"gloves_leather"
+        {
+            "print_name"				"#gloves_leather"
+            "print_desc"				"#gloves_leather_desc"
+			
+			"viewmodel_hands_override"	"models/gloves2/v_hands_ins_h.mdl"
+			
+			"class_restricted"			"1"
+            "gear_slot"					"head"
+            "gear_cost"					"0"
+            "gear_weight"				"0"
+            "team_access"				"security, insurgent"
+        }	
+
+		"gloves_hardknuckle"
+        {
+            "print_name"				"#gloves_hardknuckle"
+            "print_desc"				"#gloves_hardknuckle_desc"
+			
+			"viewmodel_hands_override"	"models/gloves3/v_hands_sec_h.mdl"
+			
+			"class_restricted"			"1"
+            "gear_slot"					"head"
+            "gear_cost"					"0"
+            "gear_weight"				"0"
+            "team_access"				"security, insurgent"
+        }	
+
+		"gloves_fingerless"
+        {
+            "print_name"				"#gloves_fingerless"
+            "print_desc"				"#gloves_fingerless_desc"
+			
+			"viewmodel_hands_override"	"models/gloves4/v_hands_ins_l.mdl"
+			
+			"class_restricted"			"1"
+            "gear_slot"					"head"
+            "gear_cost"					"0"
+            "gear_weight"				"0"
+            "team_access"				"security, insurgent"
+        }		
+		
+		"gloves_tactical"
+        {
+            "print_name"				"#gloves_tactical"
+            "print_desc"				"#gloves_tactical_desc"
+			
+			"viewmodel_hands_override"	"models/gloves5/v_hands_sec_h.mdl"
+			
+			"class_restricted"			"1"
+            "gear_slot"					"head"
+            "gear_cost"					"0"
+            "gear_weight"				"0"
+            "team_access"				"security, insurgent"
+        }	
+
+		"gloves_tactical_cadpat"
+        {
+            "print_name"				"#gloves_tactical_cadpat"
+            "print_desc"				"#gloves_tactical_cadpat_desc"
+			
+			"viewmodel_hands_override"	"models/gloves6/v_hands_sec_h.mdl"
+			
+			"class_restricted"			"1"
+            "gear_slot"					"head"
+            "gear_cost"					"0"
+            "gear_weight"				"0"
+            "team_access"				"security, insurgent"
+        }	
+
+		"gloves_tactical_m90"
+        {
+            "print_name"				"#gloves_tactical_m90"
+            "print_desc"				"#gloves_tactical_m90_desc"
+			
+			"viewmodel_hands_override"	"models/gloves7/v_hands_sec_h.mdl"
+			
+			"class_restricted"			"1"
+            "gear_slot"					"head"
+            "gear_cost"					"0"
+            "gear_weight"				"0"
+            "team_access"				"security, insurgent"
+        }			
+
+	}
+}
