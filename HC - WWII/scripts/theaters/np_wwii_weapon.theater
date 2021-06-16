@@ -1,3 +1,6 @@
+"#base" "base_wwii_weapon.theater"
+"#base" "base_wwii_explosives.theater"
+
 "theater"
 {
 	"weapon"
