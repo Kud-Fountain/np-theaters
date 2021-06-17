@@ -3,8 +3,12 @@
 
 "#base" "np_wwii_gear.theater"
 "#base" "np_wwii_gloves.theater"
-"#base" "np_wwii_weapon.theater"
-"#base" "np_wwii_weapon_upgrades.theater"
+"#base" "doi2ins_weapons_american.theater"
+"#base" "doi2ins_weapons_axis.theater"
+"#base" "doi2ins_weapons_commonwealth.theater"
+"#base" "doi2ins_weapons_soviet.theater"
+"#base" "doi2ins_weapons_japanese.theater"
+"#base" "doi2ins_weapon_upgrades.theater"
 
 "theater"
 {
@@ -970,10 +974,10 @@
 		}
 		
 		// extra
-		"template_wwii_axis_bomber"
+		"template_sandstorm_insurgent_bomber"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_wwii_Bomber"
+			"print_name"				"#Squad_Sandstorm_Bomber"
 			
 			"models"
 			{
@@ -989,21 +993,21 @@
 			"buy_order"
 			{
 				"gear"						"ins_chest_rig"
-				"weapon"					"weapon_doi2ins_panzerfaust"
+				"weapon"					"weapon_sandstorm_f1"
 				"weapon"					"weapon_suicide_bomb"
 			}
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_doi2ins_panzerfaust"
+				"weapon"					"weapon_sandstorm_f1"
 				"weapon"					"weapon_suicide_bomb"
 			}
 		}
 		
-		"template_wwii_axis_juggernaut"
+		"template_sandstorm_insurgent_juggernaut"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_wwii_JUG"
+			"print_name"				"#Squad_Sandstorm_JUG"
 			
 			"models"
 			{
@@ -1019,29 +1023,23 @@
 			"buy_order"
 			{
 				"gear"						"ins_chest_rig"
-				"weapon"					"weapon_doi2ins_mg42"
-				"weapon"					"weapon_doi2ins_panzerschreck"
-				"weapon"					"weapon_doi2ins_gravityknife"
-				"weapon"					"weapon_doi2ins_p38"
+				"weapon"					"weapon_sandstorm_m240"
+				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_kukri"
+				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
 			}
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_doi2ins_mg42"
-				"weapon"					"weapon_doi2ins_panzerschreck"
-				"weapon"					"weapon_doi2ins_gravityknife"
-				"weapon"					"weapon_doi2ins_p38
+				"weapon"					"weapon_sandstorm_m240"
+				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_kukri"
+				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
 			}
 		}
-		
-		
-		// 
-		// END PLACEHOLDER BOT CLASS TEMPLATES
-		// 
 	}
-	
 }
