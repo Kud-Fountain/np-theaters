@@ -3,12 +3,12 @@
 
 "#base" "np_wwii_gear.theater"
 "#base" "np_wwii_gloves.theater"
-"#base" "doi2ins_weapons_american.theater"
-"#base" "doi2ins_weapons_axis.theater"
-"#base" "doi2ins_weapons_commonwealth.theater"
-"#base" "doi2ins_weapons_soviet.theater"
-"#base" "doi2ins_weapons_japanese.theater"
-"#base" "doi2ins_weapon_upgrades.theater"
+"#base" "np_wwii_weapons_american.theater"
+"#base" "np_wwii_weapons_commonwealth.theater"
+"#base" "np_wwii_weapons_axis.theater"
+"#base" "np_wwii_weapons_soviet.theater"
+"#base" "np_wwii_weapons_japanese.theater"
+"#base" "np_wwii_weapon_upgrades.theater"
 
 "theater"
 {
@@ -40,7 +40,7 @@
 			"particles"    		"particles/doi_impact_fx.pcf"
 			"particles"			"particles/doi_weapon_fx.pcf"	
 			
-			"localize"       	"resource/doiins_english.txt"
+			"localize"       	"resource/np_wwii_schinese.txt"
 		}
 		
 		// use this to register any acts not registered by the game DLL
@@ -57,6 +57,7 @@
 			"name"					"#Team_Security"
 			"logo"					"gameui/fac_sec"
 		}
+		
 		
 		"insurgents"
 		{
@@ -180,7 +181,6 @@
 			{
 				"weapon"					"weapon_defib"
 			
-				"weapon"					"grenade_rifle_springfield"
 				"weapon"					"weapon_doi2ins_springfield_worn"
 				"weapon"					"weapon_doi2ins_m1garand"
 				"weapon"					"weapon_doi2ins_m1paratrooper"
@@ -301,8 +301,7 @@
 				"weapon"					"weapon_doi2ins_webley"
 				"weapon"					"weapon_doi2ins_welrod"
 				"weapon"					"weapon_doi2ins_bazooka"
-				"weapon"					"weapon_doi2ins_piat"
-				"weapon"					"weapon_rifle_grenade_enfield"					
+				"weapon"					"weapon_doi2ins_piat"				
 			}
 		}
 		
@@ -342,7 +341,7 @@
 				"weapon"					"weapon_doi2ins_sw1917"
 				"weapon"					"weapon_doi2ins_bazooka"
 				"weapon"					"weapon_doi2ins_browninghp"
-				"weapon"					"weapon_doi2ins_tnt"					
+				"weapon"					"weapon_doi2ins_tnt"
 			}
 		}
 		
@@ -787,7 +786,7 @@
 				"gear"						"ins_light_armor"
 				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_doi2ins_gravityknife"
-				"weapon"					"weapon_doi2ins_g43"
+				"weapon"					"weapon_doi2ins_k98"
 				"weapon"					"weapon_doi2ins_p38"
 				"weapon"					"weapon_doi2ins_stielhandgranate"
 			}
@@ -822,14 +821,14 @@
 				"gear"						"ins_light_armor"
 				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_doi2ins_gravityknife"
-				"weapon"					"weapon_doi2ins_c96carbine"
+				"weapon"					"weapon_doi2ins_mp40"
 				"weapon"					"weapon_doi2ins_c96"
 				"weapon"					"weapon_doi2ins_stielhandgranate"
 			}
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_doi2ins_c96carbine"
+				"weapon"					"weapon_doi2ins_mp40"
 				"weapon"					"weapon_doi2ins_c96"
 				"weapon"					"weapon_doi2ins_stielhandgranate"
 				"weapon"					"weapon_doi2ins_gravityknife"
@@ -890,7 +889,7 @@
 				"gear"						"ins_light_armor"
 				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_doi2ins_gravityknife"
-				"weapon"					"weapon_doi2ins_mp40"
+				"weapon"					"weapon_doi2ins_k98"
 				"weapon"					"weapon_doi2ins_ppk"
 				"weapon"					"weapon_doi2ins_panzerschreck"
 			}
@@ -926,7 +925,7 @@
 				"weapon"					"weapon_doi2ins_gravityknife"
 				"weapon"					"weapon_doi2ins_ppsh41"
 				"weapon"					"weapon_doi2ins_sw1917"
-				"weapon"					"weapon_doi2ins_molotov"
+				"weapon"					"weapon_doi2ins_no77"
 			}
 			
 			"allowed_items"
@@ -934,8 +933,7 @@
 				"weapon"					"weapon_doi2ins_gravityknife"
 				"weapon"					"weapon_doi2ins_ppsh41"
 				"weapon"					"weapon_doi2ins_sw1917"
-				"weapon"					"weapon_doi2ins_panzerfaust"
-				"weapon"					"weapon_doi2ins_molotov"
+				"weapon"					"weapon_doi2ins_no77"
 			}
 		}
 		
@@ -974,10 +972,10 @@
 		}
 		
 		// extra
-		"template_sandstorm_insurgent_bomber"
+		"template_wwii_axis_bomber"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_Bomber"
+			"print_name"				"#Squad_wwii_Bomber"
 			
 			"models"
 			{
@@ -993,21 +991,21 @@
 			"buy_order"
 			{
 				"gear"						"ins_chest_rig"
-				"weapon"					"weapon_sandstorm_f1"
+				"weapon"					"weapon_doi2ins_stielhandgranate"
 				"weapon"					"weapon_suicide_bomb"
 			}
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_f1"
+				"weapon"					"weapon_doi2ins_stielhandgranate"
 				"weapon"					"weapon_suicide_bomb"
 			}
 		}
 		
-		"template_sandstorm_insurgent_juggernaut"
+		"template_wwii_axis_juggernaut"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_JUG"
+			"print_name"				"#Squad_wwii_JUG"
 			
 			"models"
 			{
@@ -1023,20 +1021,21 @@
 			"buy_order"
 			{
 				"gear"						"ins_chest_rig"
-				"weapon"					"weapon_sandstorm_m240"
-				"weapon"					"weapon_sandstorm_at4"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_glock17"
+				"weapon"					"weapon_doi2ins_mg42"
+				"weapon"					"weapon_doi2ins_panzerschreck"
+				"weapon"					"weapon_doi2ins_gravityknife"
+				"weapon"					"weapon_doi2ins_ppk"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
 			}
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_m240"
-				"weapon"					"weapon_sandstorm_at4"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_glock17"
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_doi2ins_mg42"
+				"weapon"					"weapon_doi2ins_panzerschreck"
+				"weapon"					"weapon_doi2ins_gravityknife"
+				"weapon"					"weapon_doi2ins_ppk"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
 			}

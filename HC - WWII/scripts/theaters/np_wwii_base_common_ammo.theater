@@ -898,9 +898,9 @@
 
 			"Damage"
 			{
-				"1"					"1"
-				"500"				"1"
-				"2000"				"1"
+				"1"					"150"
+				"500"				"150"
+				"2000"				"150"
 			}	
 			
 			"PenetrationPower"
@@ -916,13 +916,13 @@
 			}
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"200.00"
-				"HITGROUP_CHEST"			"1.00"
-				"HITGROUP_STOMACH"			"1.00"
-				"HITGROUP_LEFTARM"			"1.00"
-				"HITGROUP_RIGHTARM"			"1.00"
-				"HITGROUP_LEFTLEG"			"1.00"
-				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_HEAD"				"1.00"
+				"HITGROUP_CHEST"			"0.01"
+				"HITGROUP_STOMACH"			"0.01"
+				"HITGROUP_LEFTARM"			"0.01"
+				"HITGROUP_RIGHTARM"			"0.01"
+				"HITGROUP_LEFTLEG"			"0.01"
+				"HITGROUP_RIGHTLEG"			"0.01"
 			}
 			
 		}
