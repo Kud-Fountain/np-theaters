@@ -1,15 +1,20 @@
-"#base" "base_sandstormsource_player.theater"
-"#base" "np_base_sandstormsource_common_ammo.theater"
+"#base" "np_wwii_base_player.theater"
+"#base" "np_wwii_base_common_ammo.theater"
 
-"#base" "np_sandstormsource_gear_survival.theater"
-"#base" "np_sandstormsource_gloves.theater"
-"#base" "np_sandstormsource_weapon.theater"
-"#base" "np_sandstormsource_weapon_upgrades.theater"
+"#base" "np_wwii_gear.theater"
+"#base" "np_wwii_gloves.theater"
+"#base" "np_wwii_weapons_american.theater"
+"#base" "np_wwii_weapons_commonwealth.theater"
+"#base" "np_wwii_weapons_axis.theater"
+"#base" "np_wwii_weapons_soviet.theater"
+"#base" "np_wwii_weapons_japanese.theater"
+"#base" "np_wwii_weapon_upgrades.theater"
 
 "theater"
 {
 	"core"
 	{
+
 		"precache"
 		{
 			// default theater specific sounds
@@ -25,11 +30,15 @@
 			// coop specific
 			"sounds"			"scripts/ins_sounds_voice_coop.txt"
 			
-			// sandstorm source specific			
-			"sounds"			"scripts/sandstorm_source_sounds.txt"	
-
-			"localize"			"resource/ui/sandstorm_source_chinese.txt"			
+			// sandstorm source specific		
+			"localize"       	"resource/np_wwii_schinese.txt"
 		}
+		
+		// use this to register any acts not registered by the game DLL
+		// "activities"
+		// {
+		// "act"                "ACT_VM_SOMETHING"
+		// }
 	}
 	
 	"teams"
@@ -37,28 +46,29 @@
 		"security"
 		{
 			"name"					"#Team_Security"
-			"logo"					"gameui/fac_sec_sandstorm"
+			"logo"					"gameui/fac_sec"
 		}
+		
 		
 		"insurgents"
 		{
 			"name"					"#Team_Insurgent"
-			"logo"					"gameui/fac_ins_sandstorm"
+			"logo"					"gameui/fac_ins"
 		}
 	}
 	
 	"player_templates"
 	{
 	
-		"template_sandstorm_coop_squadleader_medic"
+		"template_wwii_coop_squadleader_medic"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_Commander"
+			"print_name"				"#Squad_Gnalvl_Uav_SquadLeader"
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_ins_l.mdl"
+				"player"				"models/characters/security_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
 				{
@@ -69,8 +79,8 @@
 			
 			"buy_order"
 			{	
-				"gear"						"ins_light_armor"
-				"gear"						"ins_chest_carrier"
+				"gear"						"sec_light_armor"
+				"gear"						"sec_wwii_chest_carrier"
 				"weapon"					"weapon_defib"
 				"gear"						"gear_uav"
 			}
@@ -78,31 +88,32 @@
 			{
 				"weapon"					"weapon_defib"
 				
-				"weapon"					"weapon_sandstorm_l85a2"
-				"weapon"					"weapon_sandstorm_g36k"
-				"weapon"					"weapon_sandstorm_fal"
-				"weapon"					"weapon_sandstorm_g3a3"
-				"weapon"					"weapon_sandstorm_mk17"
-				"weapon"					"weapon_sandstorm_m1911"
-				"weapon"					"weapon_sandstorm_m67"
-				//"weapon"					"weapon_sandstorm_molotov"
-				//"weapon"					"weapon_sandstorm_anm14"
-				"gear"						"gear_uav"
+				"weapon"					"weapon_doi2ins_bren_mk2"
+				"weapon"					"weapon_doi2ins_thompson_m1928a1"
+				"weapon"					"weapon_doi2ins_owen"
+				"weapon"					"weapon_doi2ins_owen_mk2"
+				"weapon"					"weapon_doi2ins_sten_mk2"
+				"weapon"					"weapon_doi2ins_sten_mk5"
+				"weapon"					"weapon_doi2ins_webley"
+				"weapon"					"weapon_doi2ins_welrod"
+				"weapon"					"weapon_doi2ins_no36"
+				"weapon"					"weapon_doi2ins_no69"
 				
-				//"weapon_upgrade"			"underbarrel_m203_smoke"
-				//"weapon_upgrade"			"underbarrel_gp25_smoke"				
+				
+				"gear"						"gear_uav"
+								
 			}
 		}	
 		
-		"template_sandstorm_coop_squadleader_1_medic"
+		"template_wwii_coop_squadleader_1_medic"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_Commander"
+			"print_name"				"#Squad_Gnalvl_Ammo_SquadLeader"
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_ins_l.mdl"
+				"player"				"models/characters/security_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
 				{
@@ -113,40 +124,35 @@
 			
 			"buy_order"
 			{	
-				"gear"						"ins_light_armor"
-				"gear"						"ins_chest_carrier"
+				"gear"						"sec_light_armor"
+				"gear"						"sec_wwii_chest_carrier"
 				"weapon"					"weapon_defib"
 				"gear"						"gear_ammocrate"
 			}
 			"allowed_items"
 			{
 				"weapon"					"weapon_defib"
-				
-				"weapon"					"weapon_sandstorm_l85a2"
-				"weapon"					"weapon_sandstorm_g36k"
-				"weapon"					"weapon_sandstorm_fal"
-				"weapon"					"weapon_sandstorm_g3a3"
-				"weapon"					"weapon_sandstorm_mk17"
-				"weapon"					"weapon_sandstorm_m1911"
-				"weapon"					"weapon_sandstorm_m67"
-				//"weapon"					"weapon_sandstorm_molotov"
-				//"weapon"					"weapon_sandstorm_anm14"
-				"gear"						"gear_ammocrate"
-				
-				//"weapon_upgrade"			"underbarrel_m203_smoke"
-				//"weapon_upgrade"			"underbarrel_gp25_smoke"				
+
+				"weapon"					"weapon_doi2ins_welrod"
+				"weapon"					"weapon_doi2ins_tokarev"
+				"weapon"					"weapon_doi2ins_c96carbine"
+				"weapon"					"weapon_doi2ins_fg42"
+				"weapon"					"weapon_doi2ins_sw1917"
+				"weapon"					"weapon_doi2ins_molotov"
+				"weapon"					"weapon_doi2ins_f1"
+				"gear"						"gear_ammocrate"				
 			}
 		}
 	
-		"template_sandstorm_coop_rifleman_at_medic_2"
+		"template_wwii_coop_rifleman_at_medic_us"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_Observer"
+			"print_name"				"#Squad_Gnalvl_Rifleman_AT2"
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_ins_l.mdl"
+				"player"				"models/characters/security_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
 				{
@@ -157,35 +163,108 @@
 			
 			"buy_order"
 			{
-				"gear"						"ins_light_armor"
-				"gear"						"ins_chest_carrier"
+				"gear"						"sec_light_armor"
+				"gear"						"sec_wwii_chest_carrier"
 				"weapon"					"weapon_defib"
 			}
 			"allowed_items"
 			{
 				"weapon"					"weapon_defib"
 			
-				"weapon"					"weapon_sandstorm_m16a4"
-				"weapon"					"weapon_sandstorm_ak74"
-				"weapon"					"weapon_sandstorm_famas"
-				"weapon"					"weapon_sandstorm_m4a1"
-				"weapon"					"weapon_sandstorm_honeybadger"
-				"weapon"					"weapon_sandstorm_glock17"
-				"weapon"					"weapon_sandstorm_m67"
-				//"weapon"					"weapon_sandstorm_molotov"
-				//"weapon"					"weapon_sandstorm_anm14"
+				"weapon"					"weapon_doi2ins_springfield_worn"
+				"weapon"					"weapon_doi2ins_m1garand"
+				"weapon"					"weapon_doi2ins_m1paratrooper"
+				"weapon"					"weapon_doi2ins_m1911"
+				"weapon"					"weapon_doi2ins_mk2"
+				"weapon"					"weapon_doi2ins_welrod"
+				"weapon"					"weapon_doi2ins_nambu"
 			}
 		}
 		
-		"template_sandstorm_coop_rifleman_at_medic_1"
+		"template_wwii_coop_rifleman_at_medic_gm"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_Rifleman"
+			"print_name"				"#Squad_Gnalvl_Rifleman_AT2"
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_ins_l.mdl"
+				"player"				"models/characters/security_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"						"sec_light_armor"
+				"gear"						"sec_wwii_chest_carrier"
+				"weapon"					"weapon_defib"
+			}
+			"allowed_items"
+			{
+				"weapon"					"weapon_defib"
+			
+				"weapon"					"weapon_doi2ins_g43"
+				"weapon"					"weapon_doi2ins_k98"
+				"weapon"					"weapon_doi2ins_k98_veteran"
+				"weapon"					"weapon_doi2ins_stielhandgranate"
+				"weapon"					"weapon_doi2ins_c96"
+				"weapon"					"weapon_doi2ins_ppk"
+				"weapon"					"weapon_doi2ins_welrod"
+				"weapon"					"weapon_doi2ins_nambu"
+			}
+		}
+		
+		"template_wwii_coop_rifleman_at_medic_ussr"
+		{
+			"team"						"insurgent"
+			"print_name"				"#Squad_Gnalvl_Rifleman_AT2"
+			
+			"models"
+			{
+				"player"				"models/characters/security_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"						"sec_light_armor"
+				"gear"						"sec_wwii_chest_carrier"
+				"weapon"					"weapon_defib"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"					"weapon_defib"
+				
+				"weapon"					"weapon_doi2ins_mosin"
+				"weapon"					"weapon_doi2ins_izh43"
+				"weapon"					"weapon_doi2ins_f1"
+				"weapon"					"weapon_doi2ins_sw1917"
+				"weapon"					"weapon_doi2ins_welrod"
+				"weapon"					"weapon_doi2ins_nambu"
+			}
+		}
+		
+		"template_wwii_coop_rifleman_at_medic_cw"
+		{
+			"team"						"insurgent"
+			"print_name"				"#Squad_Gnalvl_Rifleman_AT"
+			
+			"models"
+			{
+				"player"				"models/characters/security_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
 				{
@@ -196,39 +275,115 @@
 			
 			"buy_order"
 			{
-				"gear"						"ins_light_armor"
-				"gear"						"ins_chest_carrier"
+				"gear"						"sec_light_armor"
+				"gear"						"sec_wwii_chest_carrier"
 				"weapon"					"weapon_defib"
 			}
 			"allowed_items"
 			{
 				"weapon"					"weapon_defib"
 			
-				"weapon"					"weapon_sandstorm_toz"
-				"weapon"					"weapon_sandstorm_m870"
-				"weapon"					"weapon_sandstorm_mp5a5"
-				"weapon"					"weapon_sandstorm_akm"
-				"weapon"					"weapon_sandstorm_vhs2"
-				"weapon"					"weapon_sandstorm_sigp226"
-				"weapon"					"weapon_sandstorm_m67"
-				"weapon"					"weapon_sandstorm_c4_clicker"
-				"weapon"					"weapon_sandstorm_rpg7"
-				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_doi2ins_enfield"
+				"weapon"					"weapon_doi2ins_enfield_veteran"
+				"weapon"					"weapon_doi2ins_m1897"
+				"weapon"					"weapon_doi2ins_m1912"
+				"weapon"					"weapon_doi2ins_browninghp"
+				"weapon"					"weapon_doi2ins_webley"
+				"weapon"					"weapon_doi2ins_welrod"
+				"weapon"					"weapon_doi2ins_bazooka"
+				"weapon"					"weapon_doi2ins_piat"				
+			}
+		}
+		
+		"template_wwii_coop_rifleman_at_medic_us2"
+		{
+			"team"						"insurgent"
+			"print_name"				"#Squad_Gnalvl_Rifleman_AT"
+			
+			"models"
+			{
+				"player"				"models/characters/security_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}	
+			
+			"buy_order"
+			{
+				"gear"						"sec_light_armor"
+				"gear"						"sec_wwii_chest_carrier"
+				"weapon"					"weapon_defib"
+			}
+			"allowed_items"
+			{
+				"weapon"					"weapon_defib"
 				
-				//"weapon_upgrade"			"underbarrel_m203_smoke"
-				//"weapon_upgrade"			"underbarrel_gp25_smoke"					
+				"weapon"					"weapon_doi2ins_m1carbine"
+				"weapon"					"weapon_doi2ins_springfield"
+				"weapon"					"weapon_doi2ins_ithaca"
+				"weapon"					"weapon_doi2ins_stevens620"
+				"weapon"					"weapon_doi2ins_m1911"
+				"weapon"					"weapon_doi2ins_sw1917"
+				"weapon"					"weapon_doi2ins_bazooka"
+				"weapon"					"weapon_doi2ins_browninghp"
+				"weapon"					"weapon_doi2ins_tnt"
+			}
+		}
+		
+		"template_wwii_coop_rifleman_at_medic_gm2"
+		{
+			"team"						"insurgent"
+			"print_name"				"#Squad_Gnalvl_Rifleman_AT"
+			
+			"models"
+			{
+				"player"				"models/characters/security_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}	
+			
+			"buy_order"
+			{
+				"gear"						"sec_light_armor"
+				"gear"						"sec_wwii_chest_carrier"
+				"weapon"					"weapon_defib"
+			}
+			"allowed_items"
+			{
+				"weapon"					"weapon_defib"
+			
+				"weapon"					"weapon_doi2ins_k98"
+				"weapon"					"weapon_doi2ins_mp40"
+				"weapon"					"weapon_doi2ins_m1897"
+				"weapon"					"weapon_doi2ins_c96"
+				"weapon"					"weapon_doi2ins_ppk"
+				"weapon"					"weapon_doi2ins_luger"
+				"weapon"					"weapon_doi2ins_p38"
+				"weapon"					"weapon_doi2ins_sprengbuchse"
+				"weapon"					"weapon_doi2ins_hafthohlladung"
+				"weapon"					"weapon_doi2ins_panzerfaust"
+				"weapon"					"weapon_doi2ins_panzerschreck"
 			}
 		}
 
-		"template_sandstorm_coop_recon_fast_medic"
+		"template_wwii_coop_recon_fast_medic_cw"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_Breacher"
+			"print_name"				"#Squad_Gnalvl_Auto2"
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light_f.mdl"
-				"viewmodel_hands"			"models/weapons/v_hands_ins_l.mdl"
+				"player"				"models/characters/security_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
 				{
@@ -239,34 +394,35 @@
 			
 			"buy_order"
 			{
-				"gear"						"ins_light_armor"
-				"gear"						"ins_chest_carrier"
+				"gear"						"sec_light_armor"
+				"gear"						"sec_wwii_chest_carrier"
 				"weapon"					"weapon_defib"
 			}
 			"allowed_items"
 			{
 				"weapon"					"weapon_defib"
 				
-				"weapon"					"weapon_sandstorm_uzi"
-				"weapon"					"weapon_sandstorm_sterling"
-				"weapon"					"weapon_sandstorm_mp5a2"
-				"weapon"					"weapon_sandstorm_mp7"
-				"weapon"					"weapon_sandstorm_asval"
-				"weapon"					"weapon_sandstorm_tariq"
-				"weapon"					"weapon_sandstorm_m67"
-				//"weapon"					"weapon_sandstorm_molotov"
+				"weapon"					"weapon_doi2ins_thompson_m1928a1"
+				"weapon"					"weapon_doi2ins_owen"
+				"weapon"					"weapon_doi2ins_owen_mk2"
+				"weapon"					"weapon_doi2ins_sten_mk2"
+				"weapon"					"weapon_doi2ins_sten_mk5"
+				"weapon"					"weapon_doi2ins_webley"
+				"weapon"					"weapon_doi2ins_welrod"
+				"weapon"					"weapon_doi2ins_no36"
+				"weapon"					"weapon_doi2ins_no69"
 			}
 		}
 		
-		"template_sandstorm_coop_marksman_medic_1"
+		"template_wwii_coop_recon_fast_medic_ussr"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_Gunner"
+			"print_name"				"#Squad_Gnalvl_Auto2"
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_ins_l.mdl"
+				"player"				"models/characters/security_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
 				{
@@ -277,8 +433,45 @@
 			
 			"buy_order"
 			{
-				"gear"						"ins_light_armor"
-				"gear"						"ins_chest_carrier"
+				"gear"						"sec_light_armor"
+				"gear"						"sec_wwii_chest_carrier"
+				"weapon"					"weapon_defib"
+			}
+			"allowed_items"
+			{
+				"weapon"					"weapon_defib"
+				
+				"weapon"					"weapon_doi2ins_ppsh41"
+				"weapon"					"weapon_doi2ins_welrod"
+				"weapon"					"weapon_doi2ins_tokarev"
+				"weapon"					"weapon_doi2ins_mp40"
+				"weapon"					"weapon_doi2ins_stg44"
+				"weapon"					"weapon_doi2ins_sw1917"
+				"weapon"					"weapon_doi2ins_molotov"
+			}
+		}
+		
+		"template_wwii_coop_marksman_medic_us"
+		{
+			"team"						"insurgent"
+			"print_name"				"#Squad_Gnalvl_Marksman"
+			
+			"models"
+			{
+				"player"				"models/characters/security_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"						"sec_light_armor"
+				"gear"						"sec_wwii_chest_carrier"
 				"weapon"					"weapon_defib"
 			}
 			
@@ -286,26 +479,24 @@
 			{
 				"weapon"					"weapon_defib"
 				
-				"weapon"					"weapon_sandstorm_mosin"
-				"weapon"					"weapon_sandstorm_m24"
-				"weapon"					"weapon_sandstorm_sks"
-				"weapon"					"weapon_sandstorm_m14"
-				"weapon"					"weapon_sandstorm_svd"
-				"weapon"					"weapon_sandstorm_welrod"
-				"weapon"					"weapon_sandstorm_makarov"
-				"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_doi2ins_springfield_worn"
+				"weapon"					"weapon_doi2ins_m1911"
+				"weapon"					"weapon_doi2ins_sw1917"
+				"weapon"					"weapon_doi2ins_browninghp"
+				"weapon"					"weapon_doi2ins_mk2"
+				"weapon"					"weapon_doi2ins_welrod"
 			}
 		}
 		
-		"template_sandstorm_coop_support_medic_1"
+		"template_wwii_coop_marksman_medic_ussr"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_Demolitions"
+			"print_name"				"#Squad_Gnalvl_Marksman"
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_ins_l.mdl"
+				"player"				"models/characters/security_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
 				{
@@ -316,31 +507,67 @@
 			
 			"buy_order"
 			{
-				"gear"						"ins_light_armor"
-				"gear"						"ins_chest_carrier"
+				"gear"						"sec_light_armor"
+				"gear"						"sec_wwii_chest_carrier"
+				"weapon"					"weapon_defib"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"					"weapon_defib"
+				
+				"weapon"					"weapon_doi2ins_mosin"
+				"weapon"					"weapon_doi2ins_welrod"
+				"weapon"					"weapon_doi2ins_tokarev"
+			}
+		}
+		
+		"template_wwii_coop_support_medic_1"
+		{
+			"team"						"insurgent"
+			"print_name"				"#Squad_Gnalvl_Auto"
+			
+			"models"
+			{
+				"player"				"models/characters/security_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"						"sec_light_armor"
+				"gear"						"sec_wwii_chest_carrier"
 				"weapon"					"weapon_defib"
 			}
 			"allowed_items"
 			{
 				"weapon"					"weapon_defib"
 			
-				"weapon"					"weapon_sandstorm_galil"
-				"weapon"					"weapon_sandstorm_m240"
-				"weapon"					"weapon_sandstorm_m249"
-				"weapon"					"weapon_sandstorm_hipower"
-				"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_doi2ins_vickers"
+				"weapon"					"weapon_doi2ins_lewis"
+				"weapon"					"weapon_doi2ins_m1919"
+				"weapon"					"weapon_doi2ins_sw1917"
+				"weapon"					"weapon_doi2ins_no36"
+				"weapon"					"weapon_doi2ins_no69"
+				"weapon"					"weapon_doi2ins_bren_mk2"
 			}
 		}
 		
-		"template_sandstorm_coop_vip_medic"
+		"template_wwii_coop_vip_medic"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_Advisor"
+			"print_name"				"#Squad_Gnalvl_VIP"
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light_f.mdl"
-				"viewmodel_hands"			"models/weapons/v_hands_ins_l.mdl"
+				"player"					"models/characters/security_light_f.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
 				{
@@ -351,8 +578,8 @@
 			
 			"buy_order"
 			{
-				"gear"						"ins_light_armor"
-				"gear"						"ins_chest_carrier"
+				"gear"						"sec_light_armor"
+				"gear"						"sec_sandstorm_chest_carrier"
 				"weapon"					"weapon_defib"	
 				"gear"						"gear_iedjammer"
 			}
@@ -360,30 +587,30 @@
 			{
 				"weapon"					"weapon_defib"
 			
-				"weapon"					"weapon_sandstorm_greasegun"
-				"weapon"					"weapon_sandstorm_m1garand"
-				"weapon"					"weapon_sandstorm_m16a2"
-				"weapon"					"weapon_sandstorm_aks74u"
-				"weapon"					"weapon_sandstorm_mk18"
-				"weapon"					"weapon_sandstorm_m45"
-				"weapon"					"weapon_sandstorm_pf940"
-				"weapon"					"weapon_sandstorm_m67"
-				"weapon"					"weapon_sandstorm_anm14"
-				"weapon"					"weapon_sandstorm_molotov"
-				"weapon"					"weapon_sandstorm_c4_clicker"
+				"weapon"					"weapon_doi2ins_stg44"
+				"weapon"					"weapon_doi2ins_mp40"
+				"weapon"					"weapon_doi2ins_fg42"
+				"weapon"					"weapon_doi2ins_c96carbine"
+				"weapon"					"weapon_doi2ins_c96"
+				"weapon"					"weapon_doi2ins_ppk"
+				"weapon"					"weapon_doi2ins_luger"
+				"weapon"					"weapon_doi2ins_p38"
+				"weapon"					"weapon_doi2ins_stielhandgranate"
+				"weapon"					"weapon_doi2ins_geballteladung"
+				"weapon"					"weapon_doi2ins_mg34"
 				"gear"						"gear_iedjammer"
 			}
 		}
 		
-		"template_sandstorm_coop_vip_fp_medic"
+		"template_wwii_coop_vip_fp_medic"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_Marksman"
+			"print_name"				"#Squad_Gnalvl_VIP_FP"
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_ins_l.mdl"
+				"player"				"models/characters/security_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
 				{
@@ -394,8 +621,8 @@
 			
 			"buy_order"
 			{
-				"gear"						"ins_light_armor"
-				"gear"						"ins_chest_carrier"
+				"gear"						"sec_light_armor"
+				"gear"						"sec_wwii_chest_carrier"
 				"weapon"					"weapon_defib"
 				"weapon"					"weapon_makarov_fp"
 			}
@@ -404,28 +631,25 @@
 			{
 				"weapon"					"weapon_defib"
 			
-				"weapon"					"weapon_sandstorm_greasegun"
-				"weapon"					"weapon_sandstorm_m1garand"
-				"weapon"					"weapon_sandstorm_m16a2"
-				"weapon"					"weapon_sandstorm_aks74u"
-				"weapon"					"weapon_sandstorm_mk18"
-				"weapon"					"weapon_sandstorm_m67"
-				"weapon"					"weapon_sandstorm_anm14"
-				"weapon"					"weapon_sandstorm_molotov"
-				"weapon"					"weapon_sandstorm_c4_clicker"
-				"weapon"					"weapon_makarov_fp"
+				"weapon"					"weapon_doi2ins_m3greasegun"
+				"weapon"					"weapon_doi2ins_thompson_m1a1"
+				"weapon"					"weapon_doi2ins_bar"
+				"weapon"					"weapon_doi2ins_browninghp"
+				"weapon"					"weapon_doi2ins_sw1917"
+				"weapon"					"weapon_doi2ins_m1911"
+				"weapon"					"weapon_doi2ins_mk2"
 			}
 		}
 		
-		"template_sandstorm_coop_support_medic_2"
+		"template_wwii_coop_support_medic_2"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_Marksman"
+			"print_name"				"#Squad_Gnalvl_Auto2"
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_ins_l.mdl"
+				"player"				"models/characters/security_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
 				{
@@ -436,8 +660,8 @@
 			
 			"buy_order"
 			{
-				"gear"						"ins_light_armor"
-				"gear"						"ins_chest_carrier"
+				"gear"						"sec_light_armor"
+				"gear"						"sec_wwii_chest_carrier"
 				"weapon"					"weapon_defib"
 			}
 			
@@ -445,14 +669,11 @@
 			{
 				"weapon"					"weapon_defib"
 			
-				"weapon"					"weapon_sandstorm_qbz03"
-				"weapon"					"weapon_sandstorm_steyrauga3"
-				"weapon"					"weapon_sandstorm_alphaak"
-				"weapon"					"weapon_sandstorm_galil_sar"
-				"weapon"					"weapon_sandstorm_rpk"
-				"weapon"					"weapon_sandstorm_m9"
-				"weapon"					"weapon_sandstorm_m67"
-				//"weapon"					"weapon_sandstorm_anm14"
+				"weapon"					"weapon_doi2ins_mg34"
+				"weapon"					"weapon_doi2ins_mg42"
+				"weapon"					"weapon_doi2ins_m1919"
+				"weapon"					"weapon_doi2ins_luger"
+				"weapon"					"weapon_doi2ins_stielhandgranate"
 			}
 		}
 		
@@ -460,14 +681,14 @@
 		// BEGIN PLACEHOLDER BOT CLASS TEMPLATES
 		// 
 		
-		"template_survival_base_01_security"
+		"template_wwii_axis_squadleader"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Commander"
+			"print_name"				"#Squad_wwii_Squadleader"
 			
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/insurgent_light.mdl"
 			
 				"bodygroups"
 				{
@@ -478,36 +699,31 @@
 			
 			"buy_order"
 			{
-				"gear"						"sec_light_armor"
-				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_g36k"
-				"weapon_upgrade"			"barrel_silencer_sandstorm_sec2"
-				"weapon"					"weapon_sandstorm_m84"
+				"gear"						"ins_light_armor"
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_doi2ins_stg44"
+				"weapon"					"weapon_doi2ins_ppk"
+				"weapon"					"weapon_doi2ins_nebelhandgranate"
+				"weapon"					"weapon_doi2ins_gravityknife"
 			}
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_m16a4"
-				"weapon"					"weapon_sandstorm_m16a2"
-				"weapon"					"weapon_sandstorm_akm"
-				"weapon"					"weapon_sandstorm_g36k"
-				"weapon"					"weapon_sandstorm_ak74"
-				"weapon"					"weapon_sandstorm_fal"
-				"weapon"					"weapon_sandstorm_g3a3"
-				"weapon"					"weapon_sandstorm_m4a1"
-				"weapon"					"weapon_sandstorm_m84"
+				"weapon"					"weapon_doi2ins_stg44"
+				"weapon"					"weapon_doi2ins_ppk"
+				"weapon"					"weapon_doi2ins_nebelhandgranate"
+				"weapon"					"weapon_doi2ins_gravityknife"
 			}
 		}		
 		
-		"template_survival_officer_01_security"
+		"template_wwii_insurgent_observer"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Observer"
+			"print_name"				"#Squad_wwii_Observer"
 			
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/insurgent_light.mdl"
 			
 				"bodygroups"
 				{
@@ -518,36 +734,30 @@
 			
 			"buy_order"
 			{
-				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_m16a4"
-				"weapon_upgrade"			"optic_sandstorm_aimpoint"
-				"weapon"					"weapon_sandstorm_hipower"
-				"weapon"					"weapon_sandstorm_f1"
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_doi2ins_c96"
+				"weapon"					"weapon_doi2ins_mp40"
+				"weapon"					"weapon_doi2ins_stielhandgranate"
+				"weapon"					"weapon_doi2ins_gravityknife"
 			}
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_m16a4"
-				"weapon"					"weapon_sandstorm_m16a2"
-				"weapon"					"weapon_sandstorm_akm"
-				"weapon"					"weapon_sandstorm_g36k"
-				"weapon"					"weapon_sandstorm_ak74"
-				"weapon"					"weapon_sandstorm_fal"
-				"weapon"					"weapon_sandstorm_g3a3"
-				"weapon"					"weapon_sandstorm_m4a1"
-				"weapon"					"weapon_sandstorm_f1"
+				"weapon"					"weapon_doi2ins_c96"
+				"weapon"					"weapon_doi2ins_mp40"
+				"weapon"					"weapon_doi2ins_stielhandgranate"
+				"weapon"					"weapon_doi2ins_gravityknife"
 			}
 		}
 		
-		"template_survival_base_02_security"
+		"template_wwii_axis_rifleman"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Rifleman"
+			"print_name"				"#Squad_wwii_Rifleman"
 			
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/insurgent_light.mdl"
 			
 				"bodygroups"
 				{
@@ -558,34 +768,27 @@
 			
 			"buy_order"
 			{
-				"gear"						"sec_light_armor"
-				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_ak74"
-				"weapon_upgrade"			"optic_sandstorm_aimpoint"
-				"weapon"					"weapon_sandstorm_tariq"
-				"weapon"					"weapon_sandstorm_f1"
+				"gear"						"ins_light_armor"
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_doi2ins_gravityknife"
+				"weapon"					"weapon_doi2ins_k98"
+				"weapon"					"weapon_doi2ins_p38"
+				"weapon"					"weapon_doi2ins_stielhandgranate"
 			}
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_m16a4"
-				"weapon"					"weapon_sandstorm_m16a2"
-				"weapon"					"weapon_sandstorm_akm"
-				"weapon"					"weapon_sandstorm_g36k"
-				"weapon"					"weapon_sandstorm_ak74"
-				"weapon"					"weapon_sandstorm_fal"
-				"weapon"					"weapon_sandstorm_g3a3"
-				"weapon"					"weapon_sandstorm_tariq"
-				"weapon"					"weapon_sandstorm_m4a1"
-				"weapon"					"weapon_sandstorm_f1"
+				"weapon"					"weapon_doi2ins_g43"
+				"weapon"					"weapon_doi2ins_p38"
+				"weapon"					"weapon_doi2ins_stielhandgranate"
+				"weapon"					"weapon_doi2ins_gravityknife"
 			}
 		}
 
-		"template_survival_officer_02_security"
+		"template_wwii_axis_breacher"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Breacher"
+			"print_name"				"#Squad_wwii_Breacher"
 			
 			"models"
 			{
@@ -600,39 +803,31 @@
 			
 			"buy_order"
 			{
-				"gear"						"sec_light_armor"
-				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_toz"
-				"weapon_upgrade"			"optic_sandstorm_kobra"
-				"weapon"					"weapon_sandstorm_tariq"
-				"weapon"					"weapon_sandstorm_f1"
+				"gear"						"ins_light_armor"
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_doi2ins_gravityknife"
+				"weapon"					"weapon_doi2ins_mp40"
+				"weapon"					"weapon_doi2ins_c96"
+				"weapon"					"weapon_doi2ins_stielhandgranate"
 			}
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_m870"
-				"weapon"					"weapon_sandstorm_toz"
-				"weapon"					"weapon_sandstorm_mp5a2"
-				"weapon"					"weapon_sandstorm_mp5a5"
-				"weapon"					"weapon_sandstorm_aks74u"
-				"weapon"					"weapon_sandstorm_mk18"
-				"weapon"					"weapon_sandstorm_tariq"
-				"weapon"					"weapon_sandstorm_mp7"
-				"weapon"					"weapon_sandstorm_f1"
-				
-				"weapon"					"weapon_sandstorm_c4_clicker"
+				"weapon"					"weapon_doi2ins_mp40"
+				"weapon"					"weapon_doi2ins_c96"
+				"weapon"					"weapon_doi2ins_stielhandgranate"
+				"weapon"					"weapon_doi2ins_gravityknife"
 			}
 		}
 		
-		"template_survival_base_03_security"
+		"template_wwii_axis_machine_gunner"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Gunner"
+			"print_name"				"#Squad_wwii_Gunner"
 			
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/insurgent_light.mdl"
 			
 				"bodygroups"
 				{
@@ -643,31 +838,29 @@
 			
 			"buy_order"
 			{
-				"gear"						"sec_light_armor"
-				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_rpk"
-				"weapon"					"weapon_sandstorm_tariq"
+				"gear"						"ins_light_armor"
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_doi2ins_gravityknife"
+				"weapon"					"weapon_doi2ins_mg34"
+				"weapon"					"weapon_doi2ins_luger"
 			}
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_galil"
-				"weapon"					"weapon_sandstorm_galil_sar"
-				"weapon"					"weapon_sandstorm_m249"
-				"weapon"					"weapon_sandstorm_tariq"
-				"weapon"					"weapon_sandstorm_rpk"
+				"weapon"					"weapon_doi2ins_mg34"
+				"weapon"					"weapon_doi2ins_luger"
+				"weapon"					"weapon_doi2ins_gravityknife"
 			}
 		}
 		
-		"template_survival_base_05_security"
+		"template_wwii_axis_demolitions"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Demolitions"
+			"print_name"				"#Squad_wwii_Demolitions"
 			
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/insurgent_light.mdl"
 			
 				"bodygroups"
 				{
@@ -678,41 +871,31 @@
 			
 			"buy_order"
 			{
-				"gear"						"sec_light_armor"
-				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_g3a3"
-				"weapon"					"weapon_sandstorm_tariq"
-				"weapon"					"weapon_sandstorm_rpg7"
+				"gear"						"ins_light_armor"
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_doi2ins_gravityknife"
+				"weapon"					"weapon_doi2ins_k98"
+				"weapon"					"weapon_doi2ins_ppk"
+				"weapon"					"weapon_doi2ins_panzerschreck"
 			}
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_m16a4"
-				"weapon"					"weapon_sandstorm_m16a2"
-				"weapon"					"weapon_sandstorm_akm"
-				"weapon"					"weapon_sandstorm_g36k"
-				"weapon"					"weapon_sandstorm_ak74"
-				"weapon"					"weapon_sandstorm_fal"
-				"weapon"					"weapon_sandstorm_g3a3"
-				"weapon"					"weapon_sandstorm_m4a1"
-				"weapon"					"weapon_sandstorm_tariq"
-				
-				"weapon"					"weapon_sandstorm_molotov"
-				"weapon"					"weapon_sandstorm_at4"
-				"weapon"					"weapon_sandstorm_rpg7"
-				"weapon"					"weapon_sandstorm_c4_clicker"
+				"weapon"					"weapon_doi2ins_mp40"
+				"weapon"					"weapon_doi2ins_ppk"
+				"weapon"					"weapon_doi2ins_panzerschreck"
+				"weapon"					"weapon_doi2ins_gravityknife"
 			}
 		}
 		
-		"template_survival_officer_05_security"
+		"template_wwii_axis_advisor"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Advisor"
+			"print_name"				"#Squad_wwii_Advisor"
 			
 			"models"
 			{
-				"player"				"models/characters/security_light.mdl"
+				"player"				"models/characters/insurgent_light.mdl"
 			
 				"bodygroups"
 				{
@@ -723,36 +906,65 @@
 			
 			"buy_order"
 			{
-				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_l85a2"
-				"weapon_upgrade"			"optic_sandstorm_aimpoint"
-				"weapon"					"weapon_sandstorm_m9"
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_doi2ins_gravityknife"
+				"weapon"					"weapon_doi2ins_ppsh41"
+				"weapon"					"weapon_doi2ins_sw1917"
+				"weapon"					"weapon_doi2ins_no77"
 			}
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_sks"
-				"weapon"					"weapon_sandstorm_mk17"
-				"weapon"					"weapon_sandstorm_aks74u"
-				"weapon"					"weapon_sandstorm_alphaak"
-				"weapon"					"weapon_sandstorm_l85a2"
-				"weapon"					"weapon_sandstorm_mk18"
-				"weapon"					"weapon_sandstorm_svd"
-				"weapon"					"weapon_sandstorm_m14"
-				"weapon"					"weapon_sandstorm_m9"
+				"weapon"					"weapon_doi2ins_gravityknife"
+				"weapon"					"weapon_doi2ins_ppsh41"
+				"weapon"					"weapon_doi2ins_sw1917"
+				"weapon"					"weapon_doi2ins_no77"
+			}
+		}
+		
+		"template_wwii_axis_marksman"
+		{
+			"team"						"security"
+			"print_name"				"#Squad_wwii_Marksman"
+			
+			"models"
+			{
+				"player"				"models/characters/insurgent_light.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}	
+			
+			"buy_order"
+			{
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_doi2ins_gravityknife"
+				"weapon"					"weapon_doi2ins_k98"
+				"weapon"					"weapon_doi2ins_ppk"
+				"weapon"					"weapon_doi2ins_panzerfaust"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"					"weapon_doi2ins_k98"
+				"weapon"					"weapon_doi2ins_ppk"
+				"weapon"					"weapon_doi2ins_panzerfaust"
+				"weapon"					"weapon_doi2ins_gravityknife"
 			}
 		}
 		
 		// extra
-		"template_survival_at4_bomber_security"
+		"template_wwii_axis_bomber"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Bomber"
+			"print_name"				"#Squad_wwii_Bomber"
 			
 			"models"
 			{
-				"player"				"models/characters/security_heavy.mdl"
+				"player"				"models/characters/insurgent_heavy.mdl"
 			
 				"bodygroups"
 				{
@@ -763,22 +975,22 @@
 			
 			"buy_order"
 			{
-				"gear"						"sec_light_armor"
-				"weapon"					"weapon_sandstorm_f1"
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_doi2ins_stielhandgranate"
 				"weapon"					"weapon_suicide_bomb"
 			}
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_f1"
+				"weapon"					"weapon_doi2ins_stielhandgranate"
 				"weapon"					"weapon_suicide_bomb"
 			}
 		}
 		
-		"template_survival_m249_juggernaut_security"
+		"template_wwii_axis_juggernaut"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_JUG"
+			"print_name"				"#Squad_wwii_JUG"
 			
 			"models"
 			{
@@ -793,30 +1005,25 @@
 			
 			"buy_order"
 			{
-				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_sandstorm_m240"
-				"weapon"					"weapon_sandstorm_at4"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_glock17"
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_doi2ins_mg42"
+				"weapon"					"weapon_doi2ins_panzerschreck"
+				"weapon"					"weapon_doi2ins_gravityknife"
+				"weapon"					"weapon_doi2ins_ppk"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
 			}
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_m240"
-				"weapon"					"weapon_sandstorm_at4"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_glock17"
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_doi2ins_mg42"
+				"weapon"					"weapon_doi2ins_panzerschreck"
+				"weapon"					"weapon_doi2ins_gravityknife"
+				"weapon"					"weapon_doi2ins_ppk"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
 			}
 		}
-		
-		
-		// 
-		// END PLACEHOLDER BOT CLASS TEMPLATES
-		// 
 	}
-	
 }

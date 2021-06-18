@@ -141,15 +141,13 @@
 			"allowed_items"
 			{
 				"weapon"					"weapon_defib"
-				
-				"weapon"					"weapon_doi2ins_ppsh41"
+
 				"weapon"					"weapon_doi2ins_welrod"
 				"weapon"					"weapon_doi2ins_tokarev"
 				"weapon"					"weapon_doi2ins_c96carbine"
 				"weapon"					"weapon_doi2ins_fg42"
 				"weapon"					"weapon_doi2ins_sw1917"
 				"weapon"					"weapon_doi2ins_molotov"
-				"weapon"					"weapon_doi2ins_f1"
 				"gear"						"gear_ammocrate"				
 			}
 		}
@@ -252,13 +250,13 @@
 				"gear"						"sec_wwii_chest_carrier"
 				"weapon"					"weapon_defib"
 			}
+			
 			"allowed_items"
 			{
 				"weapon"					"weapon_defib"
-			
+				
 				"weapon"					"weapon_doi2ins_mosin"
 				"weapon"					"weapon_doi2ins_izh43"
-				"weapon"					"weapon_doi2ins_svt40"
 				"weapon"					"weapon_doi2ins_f1"
 				"weapon"					"weapon_doi2ins_sw1917"
 				"weapon"					"weapon_doi2ins_welrod"
@@ -331,8 +329,7 @@
 			"allowed_items"
 			{
 				"weapon"					"weapon_defib"
-			
-				"weapon"					"grenade_rifle_springfield"
+				
 				"weapon"					"weapon_doi2ins_m1carbine"
 				"weapon"					"weapon_doi2ins_springfield"
 				"weapon"					"weapon_doi2ins_ithaca"
@@ -374,7 +371,6 @@
 			
 				"weapon"					"weapon_doi2ins_k98"
 				"weapon"					"weapon_doi2ins_mp40"
-				"weapon"					"weapon_rifle_grenade_k98"
 				"weapon"					"weapon_doi2ins_m1897"
 				"weapon"					"weapon_doi2ins_c96"
 				"weapon"					"weapon_doi2ins_ppk"
@@ -457,11 +453,9 @@
 				"weapon"					"weapon_doi2ins_welrod"
 				"weapon"					"weapon_doi2ins_tokarev"
 				"weapon"					"weapon_doi2ins_mp40"
-				"weapon"					"weapon_doi2ins_svt40"
 				"weapon"					"weapon_doi2ins_stg44"
 				"weapon"					"weapon_doi2ins_sw1917"
 				"weapon"					"weapon_doi2ins_molotov"
-				"weapon"					"weapon_doi2ins_f1"
 			}
 		}
 		
@@ -533,7 +527,6 @@
 				"weapon"					"weapon_doi2ins_mosin"
 				"weapon"					"weapon_doi2ins_welrod"
 				"weapon"					"weapon_doi2ins_tokarev"
-				"weapon"					"weapon_doi2ins_f1"
 			}
 		}
 		
@@ -698,7 +691,7 @@
 		
 		"template_wwii_axis_squadleader"
 		{
-			"team"						"insurgents"
+			"team"						"insurgent"
 			"print_name"				"#Squad_wwii_Squadleader"
 			
 			"models"
@@ -733,7 +726,7 @@
 		
 		"template_wwii_insurgent_observer"
 		{
-			"team"						"insurgents"
+			"team"						"insurgent"
 			"print_name"				"#Squad_wwii_Observer"
 			
 			"models"
