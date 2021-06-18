@@ -1,6 +1,7 @@
 "#base" "np_wwii_base_weapon.theater"
 "#base" "np_wwii_base_explosives.theater"
 "#base" "np_wwii_base_common_ammo.theater"
+"#base"	"np_wwii_common_ammo.theater"
 
 
 "theater"
@@ -308,7 +309,7 @@
 		{
 			"import"				"ballistic_base"
 			"weapon_class"				"sniper_rifle"
-			"weapon_cost"				"0"
+			"weapon_cost"				"1"
 			"print_name"				"#weapon_doi2ins_mosin"
 			"print_desc"				"#weapon_doi2ins_mosin_desc"
 			"view_model"				"models/doi2ins/v_mosin.mdl"
@@ -375,7 +376,7 @@
 			}
 			"attachments"
 			{
-				"attachment_addon"			"primary2"
+				"attachment_addon"			"primary"
 			}
 			"kitui_offset"
 			{

@@ -1,7 +1,7 @@
 "#base" "np_wwii_base_weapon.theater"
 "#base" "np_wwii_base_explosives.theater"
 "#base" "np_wwii_base_common_ammo.theater"
-
+"#base"	"np_wwii_common_ammo.theater"
 
 "theater"
 {
