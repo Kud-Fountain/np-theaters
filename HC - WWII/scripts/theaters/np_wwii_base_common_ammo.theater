@@ -6,7 +6,7 @@
 		"default"	// set for AKM values as baseline
 		{
 			"flags"					"AMMO_USE_MAGAZINES"
-			"carry"					"12"
+			"carry"					"1"
 			"magsize"				"30"
 			"tracer_type"				"none"
 			

@@ -16,7 +16,7 @@
 			"obj_captured"				"50"	// points given when capture zone changes ownership
 			"obj_neutralized"			"20"	// not actually used by any built-in modes
 			"obj_reset"				"20"	// points given when defenders reset the progress to 0% (if progress got to at least 50%)
-			"obj_capture_tick"			"10"	// attacking points given every 10%
+			"obj_capture_tick"			"20"	// attacking points given every 10%
 			"obj_reset_tick"			"10"	// defending points given every 10%
 			"cache_destroyed"			"100"
 			"intel_captured"			"100"

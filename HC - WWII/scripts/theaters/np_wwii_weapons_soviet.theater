@@ -26,7 +26,7 @@
 			"weapon_max_subslot"		"1"	// UP TO 2ND EXPLOSIVE SLOT			
 			"act_table"					"grenade"
 			"weapon_weight"				"0"
-			"weapon_cost"				"2"
+			"weapon_cost"				"1"
 			"class_restricted"			"1"
 			
 			"fov"
@@ -143,9 +143,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"7.62×25_pistol"
-				"clip_max"					"12"
+				"clip_max"					"4"
 				"clip_max_rounds"			"8"
-				"clip_default"				"4"
+				"clip_default"				"1"
 			}
 			"attachments"
 			{
@@ -231,20 +231,13 @@
 				"maxrange"				"8000"
 				"bulletcount"			"1"
 			}
-			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.5"
-				"MeleeDamage"			"110"
-				"MeleeRange"			"75"
-			}
-			
+
 			"ammo_clip"
 			{
 				"ammo_type"				"buckshot"
-				"clip_max"				"48"
+				"clip_max"				"60"
 				"clip_max_rounds"			"2"	
-				"clip_default"				"24"
+				"clip_default"				"30"
 			}
 			"attachments"
 			{
@@ -265,7 +258,7 @@
 		{
 			"import"				"ballistic_base"
 			"weapon_class"				"sniper_rifle"
-			"weapon_cost"				"1"
+			"weapon_cost"				"0"
 			"print_name"				"#weapon_doi2ins_mosin"
 			"print_desc"				"#weapon_doi2ins_mosin_desc"
 			"view_model"				"models/doi2ins/v_mosin.mdl"
@@ -326,9 +319,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"762x54mm"
-				"clip_max"				"60"
+				"clip_max"				"80"
 				"clip_max_rounds"			"5"
-				"clip_default"				"15"
+				"clip_default"				"40"
 			}
 			"attachments"
 			{
@@ -443,9 +436,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"7.62×25_smg"	
-				"clip_max"				"12"
+				"clip_max"				"6"
 				"clip_max_rounds"			"35"
-				"clip_default"				"4"
+				"clip_default"				"1"
 			}
 			"attachments"
 			{
@@ -510,9 +503,9 @@
 			"entity_class"				"grenade_aoe"
 			"Model"					"models/doi2ins/w_molotov.mdl"
 			"DamageType"				"DMG_BURN, DMG_PREVENT_PHYSICS_FORCE"
-			"DetonateDamage"			"100"	// det damage is for when it first goes off
-			"DetonatePenetrationRadius"		"0"
-			"DetonateDamageRadius"			"240"
+			"DetonateDamage"			"150"	// det damage is for when it first goes off
+			"DetonatePenetrationRadius"		"10"
+			"DetonateDamageRadius"			"250"
 			"FuseTime"				"0"
 			"Cookable"				"0"
 			"DetonateUnderwater"			"0"
@@ -524,10 +517,10 @@
 			"Elasticity"				"0.0"
 			
 			"Deafen"				"0"
-			"AreaDamageTime"			"24"
-			"AreaDamageFrequency"			"0.44"
-			"AreaDamageMinRadius"			"240"
-			"AreaDamageMaxRadius"			"260"
+			"AreaDamageTime"			"18"
+			"AreaDamageFrequency"			"0.50"
+			"AreaDamageMinRadius"			"250"
+			"AreaDamageMaxRadius"			"300"
 			"AreaDamageGrowSpeed"			"9"
 			"AreaDamageAmount"			"18"
 			

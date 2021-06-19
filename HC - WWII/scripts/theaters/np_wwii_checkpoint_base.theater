@@ -180,6 +180,7 @@
 				"weapon"					"weapon_defib"
 			
 				"weapon"					"weapon_doi2ins_springfield_worn"
+				"weapon"					"weapon_doi2ins_m1garand_worn"
 				"weapon"					"weapon_doi2ins_m1garand"
 				"weapon"					"weapon_doi2ins_m1paratrooper"
 				"weapon"					"weapon_doi2ins_m1911"
@@ -217,6 +218,7 @@
 				"weapon"					"weapon_defib"
 			
 				"weapon"					"weapon_doi2ins_g43"
+				"weapon"					"weapon_doi2ins_g43_worn"
 				"weapon"					"weapon_doi2ins_k98"
 				"weapon"					"weapon_doi2ins_k98_veteran"
 				"weapon"					"weapon_doi2ins_stielhandgranate"
@@ -488,6 +490,8 @@
 				"weapon"					"weapon_defib"
 				
 				"weapon"					"weapon_doi2ins_springfield_worn"
+				"weapon"					"weapon_doi2ins_springfield"
+				"weapon_upgrade"			"optic_doi2ins_scope_7x_springfield"
 				"weapon"					"weapon_doi2ins_m1911"
 				"weapon"					"weapon_doi2ins_sw1917"
 				"weapon"					"weapon_doi2ins_browninghp"
@@ -525,6 +529,7 @@
 				"weapon"					"weapon_defib"
 				
 				"weapon"					"weapon_doi2ins_mosin"
+				"weapon_upgrade"			"optic_doi2ins_scope_7x_mosin"
 				"weapon"					"weapon_doi2ins_welrod"
 				"weapon"					"weapon_doi2ins_tokarev"
 			}
@@ -563,7 +568,7 @@
 				"weapon"					"weapon_doi2ins_sw1917"
 				"weapon"					"weapon_doi2ins_no36"
 				"weapon"					"weapon_doi2ins_no69"
-				"weapon"					"weapon_doi2ins_bren_mk2"
+				//"weapon"					"weapon_doi2ins_bren_mk2"
 			}
 		}
 		

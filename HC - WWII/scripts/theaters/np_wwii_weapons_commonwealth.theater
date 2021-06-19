@@ -24,7 +24,7 @@
 			"weapon_max_subslot"		"2"	// UP TO 3RD EXPLOSIVE SLOT
 			"act_table"					"grenade"
 			"weapon_weight"				"0"
-			"weapon_cost"				"1"
+			"weapon_cost"				"0"
 			"class_restricted"			"1"
 			
 			"fov"
@@ -70,7 +70,7 @@
 			"weapon_max_subslot"		"2"	// UP TO 3RD EXPLOSIVE SLOT
 			"act_table"					"grenade"
 			"weapon_weight"				"0"
-			"weapon_cost"				"1"
+			"weapon_cost"				"0"
 			"class_restricted"			"1"
 			
 			"fov"
@@ -288,18 +288,11 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"9x19_hp"
-				"clip_max"				"13"
+				"clip_max"				"4"
 				"clip_max_rounds"		"7"
-				"clip_default"			"2"
+				"clip_default"			"1"
 			}
-			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.3"
-				"MeleeDamage"			"40"
-				"MeleeRange"			"55"
-			}
-			
+
 			"attachments"
 			{
 				"attachment_addon"		"pistol"
@@ -378,13 +371,7 @@
 				"recoil_freeaim_frac"				"0.6"
 				"recoil_ironsight_frac"				"0.8"
 			}			
-			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.3"
-				"MeleeDamage"			"40"
-				"MeleeRange"			"55"
-			}
+
 			"ballistics"
 			{
 				"spread"				"1.2 1.2 1.2"
@@ -397,9 +384,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"9x19_r" 
-				"clip_max"				"6"
+				"clip_max"				"4"
 				"clip_max_rounds"		"6"
-				"clip_default"			"30"
+				"clip_default"			"3"
 				"lose_rounds_reload"	"1"
 			}
 			
@@ -431,7 +418,7 @@
 			"act_table"					"pistol"
 			"weapon_abilities"			"ironsight, silencer"
 			"weapon_weight"				"0"
-			"weapon_cost"				"1"
+			"weapon_cost"				"0"
 			"class_restricted"			"1"
 			"barrel_length"				"16"
 			
@@ -483,14 +470,7 @@
 				"recoil_shot_reset_time"		"0.75"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
 				"recoil_punch_additive_factor"	"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired (default 1.0)
 			}			
-			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.3"
-				"MeleeDamage"			"40"
-				"MeleeRange"			"55"
-			}
-			
+
 			"ballistics"
 			{
 				"spread"				"0.3 0.3 0.3"
@@ -502,8 +482,8 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"9x19mm_w"
-				"clip_max"				"32"
-				"clip_max_rounds"		"32"
+				"clip_max"				"4"
+				"clip_max_rounds"		"5"
 				"clip_default"			"3"
 			}
 			
@@ -595,12 +575,7 @@
 				"recoil_shot_max_shots"			"5"	// Max number of shots to account for for the additional rest (default = 5)
 				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
 			}
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.2"
-				"MeleeDamage"			"50"
-				"MeleeRange"			"75"
-			}
+
 			"ballistics"
 			{
 				"spread"				"2.0 2.0 0.0"
@@ -612,9 +587,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"buckshot"
-				"clip_max"				"48"
+				"clip_max"				"60"
 				"clip_max_rounds"			"7"
-				"clip_default"				"24"
+				"clip_default"				"30"
 			}
 			"attachments"
 			{
@@ -715,14 +690,7 @@
 				"singleReload"				"1"
 				"dual_magazines"			"1"
 			}
-			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.1"
-				"MeleeDamage"			"50"
-				"MeleeRange"			"75"
-			}
-			
+
 			"sway"
 			{
 				"sway_radius_ironsight_frac"	"0.40"
@@ -734,9 +702,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"303_clip_enfield"
-				"clip_max"					"60"
-				"clip_max_rounds"			"5"
-				"clip_default"				"30"
+				"clip_max"					"80"
+				"clip_max_rounds"			"10"
+				"clip_default"				"40"
 			}
 			
 			"attachments"
@@ -836,14 +804,7 @@
 				"singleReload"				"1"
 				"dual_magazines"			"1"
 			}
-			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.1"
-				"MeleeDamage"			"50"
-				"MeleeRange"			"75"
-			}
-			
+
 			"sway"
 			{
 				"sway_radius_ironsight_frac"	"0.40"
@@ -855,9 +816,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"303_clip_enfield"
-				"clip_max"					"60"
-				"clip_max_rounds"			"5"
-				"clip_default"				"30"
+				"clip_max"					"80"
+				"clip_max_rounds"			"10"
+				"clip_default"				"40"
 			}
 			
 			"attachments"
@@ -889,7 +850,7 @@
 			"act_table"					"smg_magheld"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
-			"weapon_cost"				"3"
+			"weapon_cost"				"2"
 			"class_restricted"			"1"
 			"barrel_length"				"16"
 			"closed_bolt"				"0"					
@@ -944,14 +905,7 @@
 				"recoil_shot_max_shots"				"5"	// Max number of shots to account for for the additional rest (default = 5)
 				"recoil_punch_additive_factor"		"0.78"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
 			}
-			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.3"
-				"MeleeDamage"			"40"
-				"MeleeRange"			"55"
-			}
-			
+
 			"ballistics"
 			{
 				"spread"					"0.8 0.8 0.8"
@@ -963,9 +917,9 @@
 			{
 				"ammo_type"				"9x19mm_sten"
 				"magsize_override"		"33"
-				"clip_max"				"12"
+				"clip_max"				"6"
 				"clip_max_rounds"		"33"
-				"clip_default"			"4"
+				"clip_default"			"1"
 			}
 			"attachments"
 			{
@@ -991,7 +945,7 @@
 			"act_table"					"smg_magheld"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
-			"weapon_cost"				"3"
+			"weapon_cost"				"2"
 			"class_restricted"			"1"
 			"barrel_length"				"16"
 			"closed_bolt"				"0"					
@@ -1046,14 +1000,7 @@
 				"recoil_shot_max_shots"				"5"	// Max number of shots to account for for the additional rest (default = 5)
 				"recoil_punch_additive_factor"		"0.78"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
 			}
-			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.3"
-				"MeleeDamage"			"40"
-				"MeleeRange"			"55"
-			}
-			
+
 			"ballistics"
 			{
 				"spread"					"0.8 0.8 0.8"
@@ -1065,9 +1012,9 @@
 			{
 				"ammo_type"				"9x19mm_sten"
 				"magsize_override"		"33"
-				"clip_max"				"12"
+				"clip_max"				"5"
 				"clip_max_rounds"		"33"
-				"clip_default"			"4"
+				"clip_default"			"3"
 			}
 			"attachments"
 			{
@@ -1093,7 +1040,7 @@
 			"act_table"					"rifle_ak2"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
-			"weapon_cost"				"3"
+			"weapon_cost"				"2"
 			"class_restricted"			"1"
 			"barrel_length"				"16"
 			"closed_bolt"				"0"			
@@ -1165,14 +1112,7 @@
 				"recoil_shot_max_shots"				"5"	// Max number of shots to account for for the additional rest (default = 5)
 				"recoil_punch_additive_factor"		"0.78"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
 			}			
-			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.3"
-				"MeleeDamage"			"40"
-				"MeleeRange"			"55"
-			}
-			
+
 			"ballistics"
 			{
 				"spread"					"0.8 0.8 0.8"
@@ -1183,9 +1123,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"9x19mm_sten"
-				"clip_max"				"12"
+				"clip_max"				"6"
 				"clip_max_rounds"		"32"
-				"clip_default"			"4"
+				"clip_default"			"1"
 			}
 			"attachments"
 			{
@@ -1213,7 +1153,7 @@
 			"act_table"					"shortrifle"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"100"
-			"weapon_cost"				"3"
+			"weapon_cost"				"1"
 			"class_restricted"			"1"
 			"barrel_length"				"16"
 			"closed_bolt"				"0"
@@ -1295,14 +1235,7 @@
 				"recoil_shot_max_shots"				"5"	// Max number of shots to account for for the additional rest (default = 5)
 				"recoil_punch_additive_factor"		"0.78"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
 			}
-			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.1"
-				"MeleeDamage"			"50"
-				"MeleeRange"			"75"
-			}
-			
+
 			"ballistics"
 			{
 				"spread"					"0.8 0.8 0.8"
@@ -1313,9 +1246,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"45acp_thompson"
-				"clip_max"				"12"
+				"clip_max"				"4"
 				"clip_max_rounds"		"20"
-				"clip_default"			"4"
+				"clip_default"			"1"
 			}
 			"attachments"
 			{
@@ -1337,12 +1270,12 @@
 			"print_desc"				"#weapon_doi2ins_sten_desc"
 			"view_model"				"models/doi2ins/v_sten_mk5.mdl"
 			"world_model"				"models/doi2ins/w_sten_mk5.mdl"
-			"rounds_per_minute"			"550"
+			"rounds_per_minute"			"600"
 			"weapon_slot"				"primary"
 			"act_table"					"rifle_ak2"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
-			"weapon_cost"				"3"
+			"weapon_cost"				"2"
 			"class_restricted"			"1"
 			"barrel_length"				"16"
 			"closed_bolt"				"0"			
@@ -1414,14 +1347,7 @@
 				"recoil_shot_max_shots"				"5"	// Max number of shots to account for for the additional rest (default = 5)
 				"recoil_punch_additive_factor"		"0.78"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
 			}			
-			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.3"
-				"MeleeDamage"			"40"
-				"MeleeRange"			"55"
-			}
-			
+
 			"ballistics"
 			{
 				"spread"					"0.8 0.8 0.8"
@@ -1432,9 +1358,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"9x19mm_sten"
-				"clip_max"				"12"
+				"clip_max"				"5"
 				"clip_max_rounds"		"32"
-				"clip_default"			"4"
+				"clip_default"			"3"
 			}
 			"attachments"
 			{
@@ -1459,7 +1385,7 @@
 			"print_desc"				"#weapon_doi2ins_bren_desc"
 			"view_model"				"models/doi2ins/v_bren.mdl"
 			"world_model"				"models/doi2ins/w_bren.mdl"
-			"rounds_per_minute"			"520"
+			"rounds_per_minute"			"550"
 			"weapon_slot"				"primary"
 			"weapon_max_subslot"		"0"	// 1st primary slot only
 			"act_table"					"lmg"
@@ -1547,14 +1473,7 @@
 					"0"					"0.5"
 				}
 			}
-			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.5"
-				"MeleeDamage"			"75"
-				"MeleeRange"			"75"
-			}
-			
+
 			"ballistics"
 			{
 				"spread"				"0.15 0.15 0.15"
@@ -1566,9 +1485,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"303_brit_box_30rnd"
-				"clip_max"				"12"
+				"clip_max"				"6"
 				"clip_max_rounds"		"30"
-				"clip_default"			"4"
+				"clip_default"			"1"
 			}
 			"attachments"
 			{
@@ -1598,7 +1517,7 @@
 			"act_table"					"lmg"
 			"weapon_abilities"			"ironsight, bipod"
 			"weapon_weight"				"0"
-			"weapon_cost"				"3"
+			"weapon_cost"				"2"
 			"barrel_length"				"28"
 			"class_restricted"			"1"
 			
@@ -1679,12 +1598,7 @@
 					"0"					"0.5"
 				}
 			}
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.5"
-				"MeleeDamage"			"90"
-				"MeleeRange"			"75"
-			}
+
 			"ballistics"
 			{
 				"spread"				"0.15 0.15 0.15"
@@ -1707,9 +1621,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"303_brit_pan_47rnd"
-				"clip_max"				"12"
+				"clip_max"				"5"
 				"clip_max_rounds"		"20"
-				"clip_default"			"4"
+				"clip_default"			"1"
 			}
 			"attachments"
 			{
@@ -1802,14 +1716,7 @@
 					"0"					"0.7"
 				}
 			}
-			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.5"
-				"MeleeDamage"			"85"
-				"MeleeRange"			"55"
-			}
-			
+
 			"freeaim"
 			{
 				"freeaim_frac"					"2.0"
@@ -1832,9 +1739,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"303_brit_belt"
-				"clip_max"				"12"
+				"clip_max"				"3"
 				"clip_max_rounds"		"250"
-				"clip_default"			"4"
+				"clip_default"			"0"
 			}
 			
 			"sounds"
@@ -1919,14 +1826,7 @@
 				"recoil_rest_rate"			"30"
 				"recoil_rest_delay"			"0"
 			}			
-			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.2"
-				"MeleeDamage"			"75"
-				"MeleeRange"			"55"
-			}
-			
+
 			"explosives"
 			{
 				"entity"				"mortar_piat"
@@ -1935,7 +1835,7 @@
 			{
 				"ammo_type"					"mortar_piat"	// "rocket_rpg7"
 				"clip_max_rounds"			"1"	// 1 rpg per mag
-				"clip_default"				"1"	// 1
+				"clip_default"				"0"	// 1
 			}
 			"player_restrictions"
 			{
@@ -2308,9 +2208,9 @@
 			"import"					"baseGrenade"
 			"entity_class"				"grenade_frag"
 			"Model"						"models/doi2ins/w_mills.mdl"
-			"DetonateDamage"			"130"
-			"DetonatePenetrationRadius"	"40"
-			"DetonateDamageRadius"		"950"
+			"DetonateDamage"			"200"
+			"DetonatePenetrationRadius"	"50"
+			"DetonateDamageRadius"		"900"
 			"FuseTime"					"3"
 			"RocketStartSpeed"			"2000"
 			
@@ -2341,8 +2241,8 @@
 			"import"						"baseGrenade"
 			"entity_class"					"grenade_frag"
 			"Model"							"models/doi2ins/w_bazooka_projectile.mdl"
-			"DetonateDamage"				"180"
-			"DetonateDamageRadius"			"800"
+			"DetonateDamage"				"220"
+			"DetonateDamageRadius"			"1000"
 			"DetonatePenetrationRadius"		"120"
 			"FuseTime"						"0"
 			"ImpactDetonation"				"1"
@@ -2379,7 +2279,7 @@
 			"import"					"baseGrenade"
 			"entity_class"				"grenade_frag"
 			"Model"						"models/doi2ins/w_no69.mdl"
-			"DetonateDamage"			"120"
+			"DetonateDamage"			"170"
 			"DetonatePenetrationRadius"	"40"
 			"DetonateDamageRadius"		"750"
 			"FuseTime"					"-1"
@@ -2481,8 +2381,8 @@
 			"entity_class"				"grenade_frag"
 			"Model"						"models/doi2ins/w_grenade_enfield.mdl"
 			
-			"DetonateDamage"			"120"
-			"DetonatePenetrationRadius"	"40"
+			"DetonateDamage"			"150"
+			"DetonatePenetrationRadius"	"50"
 			"DetonateDamageRadius"		"750"
 			"FuseTime"					"0"
 			"ImpactDetonation"			"1"
