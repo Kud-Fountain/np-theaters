@@ -1010,8 +1010,8 @@
 				"weapon"					"weapon_doi2ins_panzerschreck"
 				"weapon"					"weapon_doi2ins_gravityknife"
 				"weapon"					"weapon_doi2ins_ppk"
-				"gear"						"srnx_BOT_juggernaut_armor"
-				"gear"						"srnx_BOT_ins_jugger_helmet_black"
+				//"gear"						"srnx_BOT_juggernaut_armor"
+				//"gear"						"srnx_BOT_ins_jugger_helmet_black"
 			}
 			
 			"allowed_items"
@@ -1021,8 +1021,8 @@
 				"weapon"					"weapon_doi2ins_panzerschreck"
 				"weapon"					"weapon_doi2ins_gravityknife"
 				"weapon"					"weapon_doi2ins_ppk"
-				"gear"						"srnx_BOT_juggernaut_armor"
-				"gear"						"srnx_BOT_ins_jugger_helmet_black"
+				//"gear"						"srnx_BOT_juggernaut_armor"
+				//"gear"						"srnx_BOT_ins_jugger_helmet_black"
 			}
 		}
 	}
