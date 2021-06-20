@@ -1,4 +1,4 @@
-"#base" "doi2ins_base_weapon_upgrades.theater"
+"#base" "np_wwii_base_weapon_upgrades.theater"
 
 "theater"
 {
@@ -56,30 +56,30 @@
 			{
 				"weapon"				"weapon_doi2ins_m1911"
 				"weapon"				"weapon_doi2ins_sw1917"
-				"weapon"				"weapon_doi2ins_springfield"
-				"weapon"				"weapon_doi2ins_springfield_worn"
-				"weapon"				"weapon_doi2ins_m1garand"
-				"weapon"				"weapon_doi2ins_m1garand_worn"
-				"weapon"				"weapon_doi2ins_m1carbine"
-				"weapon"				"weapon_doi2ins_m1paratrooper"
-				"weapon"				"weapon_doi2ins_m3greasegun"
-				"weapon"				"weapon_doi2ins_thompson_m1a1"
-				"weapon"				"weapon_doi2ins_bar"
-				"weapon"				"weapon_doi2ins_m1919"
+				//"weapon"				"weapon_doi2ins_springfield"
+				//"weapon"				"weapon_doi2ins_springfield_worn"
+				//"weapon"				"weapon_doi2ins_m1garand"
+				//"weapon"				"weapon_doi2ins_m1garand_worn"
+				//"weapon"				"weapon_doi2ins_m1carbine"
+				//"weapon"				"weapon_doi2ins_m1paratrooper"
+				//"weapon"				"weapon_doi2ins_m3greasegun"
+				//"weapon"				"weapon_doi2ins_thompson_m1a1"
+				//"weapon"				"weapon_doi2ins_bar"
+				//"weapon"				"weapon_doi2ins_m1919"
 				"weapon"				"weapon_doi2ins_c96"
 				"weapon"				"weapon_doi2ins_ppk"
 				"weapon"				"weapon_doi2ins_luger"
 				"weapon"				"weapon_doi2ins_p38"
-				"weapon"				"weapon_doi2ins_k98"			
-				"weapon"				"weapon_doi2ins_k98_veteran"			
-				"weapon"                "weapon_doi2ins_g43"
-				"weapon"				"weapon_doi2ins_g43_worn"
-				"weapon"                "weapon_doi2ins_stg44"
-				"weapon"				"weapon_doi2ins_fg42"
-				"weapon"				"weapon_doi2ins_mp40"
-				"weapon"				"weapon_doi2ins_c96carbine"
-				"weapon"				"weapon_doi2ins_mg42"
-				"weapon"				"weapon_doi2ins_mg34"
+				//"weapon"				"weapon_doi2ins_k98"			
+				//"weapon"				"weapon_doi2ins_k98_veteran"			
+				//"weapon"               	"weapon_doi2ins_g43"
+				//"weapon"				"weapon_doi2ins_g43_worn"
+				//"weapon"                "weapon_doi2ins_stg44"
+				//"weapon"				"weapon_doi2ins_fg42"
+				//"weapon"				"weapon_doi2ins_mp40"
+				//"weapon"				"weapon_doi2ins_c96carbine"
+				//"weapon"				"weapon_doi2ins_mg42"
+				//"weapon"				"weapon_doi2ins_mg34"
 				"weapon"				"weapon_doi2ins_browninghp"
 				"weapon"				"weapon_doi2ins_webley"
 				"weapon"				"weapon_doi2ins_welrod"
@@ -87,19 +87,19 @@
 				"weapon"				"weapon_doi2ins_stevens620"
 				"weapon"				"weapon_doi2ins_m1912"
 				"weapon"				"weapon_doi2ins_m1897"
-				"weapon"				"weapon_doi2ins_enfield"
-				"weapon"                "weapon_doi2ins_enfield_veteran"
-				"weapon"				"weapon_doi2ins_owen"
-				"weapon"				"weapon_doi2ins_owen_mk2"
-				"weapon"				"weapon_doi2ins_sten_mk2"
-				"weapon"				"weapon_doi2ins_thompson_m1928a1"
-				"weapon"    			"weapon_doi2ins_sten_mk5"
-				"weapon"				"weapon_doi2ins_bren_mk2"
-				"weapon"				"weapon_doi2ins_lewis"
-				"weapon"                "weapon_doi2ins_vickers"
+				//"weapon"				"weapon_doi2ins_enfield"
+				//"weapon"                "weapon_doi2ins_enfield_veteran"
+				//"weapon"				"weapon_doi2ins_owen"
+				//"weapon"				"weapon_doi2ins_owen_mk2"
+				//"weapon"				"weapon_doi2ins_sten_mk2"
+				//"weapon"				"weapon_doi2ins_thompson_m1928a1"
+				//"weapon"    			"weapon_doi2ins_sten_mk5"
+				//"weapon"				"weapon_doi2ins_bren_mk2"
+				//"weapon"				"weapon_doi2ins_lewis"
+				//"weapon"                "weapon_doi2ins_vickers"
 				"weapon"				"weapon_doi2ins_nambu"
 				"weapon"				"weapon_doi2ins_tokarev"  
-				"weapon"				"weapon_doi2ins_ppsh41"
+				//"weapon"				"weapon_doi2ins_ppsh41"
 				"weapon"				"weapon_doi2ins_mosin"
 			}
 		
@@ -113,9 +113,9 @@
 		{
 			"print_name"				"#doi2ins_quick_reload"
 			"print_desc"				"#doi2ins_quick_reload_double_barrel_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"4"
 			"upgrade_slot"				"aesthetic"
-			"reload_speed"				"2.2"
+			"reload_speed"				"3.0"
 			
 			"allowed_weapons"
 			{
@@ -131,9 +131,9 @@
 		{
 			"print_name"				"#doi2ins_fast_pump_action"
 			"print_desc"				"#doi2ins_fast_pump_action_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"2"
 			"upgrade_slot"				"barrel"
-			"bolt_speed"				"1.4"
+			"bolt_speed"				"1.5"
 			
 			"allowed_weapons"
 			{
@@ -157,7 +157,7 @@
 			"print_name"				"#weapon_mod_bar_decreased_rof"
 			"print_desc"				"#weapon_mod_bar_decreased_rof_desc"
 			"class_restricted"			"0"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"team_access"				"security, insurgent"
 			
 			"weapon_mods"
@@ -172,7 +172,7 @@
 			
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_doi2ins_bar"
+				//"weapon"				"weapon_doi2ins_bar"
 			}
 		}		
 		
@@ -219,7 +219,7 @@
 					
 					"weapons"
 					{
-						"weapon"		"weapon_doi2ins_m3greasegun"
+						//"weapon"		"weapon_doi2ins_m3greasegun"
 					}
 				}
 			}
@@ -296,7 +296,7 @@
 			"import"					"base_bipod"
 			"print_name"				"#weapon_upgrade_doi2ins_bipod"
 			"print_desc"				"#weapon_upgrade_doi2ins_bipod_desc"			
-			"upgrade_cost"				"0"
+			"upgrade_cost"				"1"
 			
 			"class_restricted"			"0"
 			"team_access"				"security, insurgent"
@@ -343,14 +343,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -380,14 +380,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -406,14 +406,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -451,14 +451,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -487,14 +487,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -522,14 +522,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -557,14 +557,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -592,14 +592,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -629,14 +629,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -665,14 +665,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -702,14 +702,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -738,14 +738,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -775,14 +775,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -810,14 +810,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -846,14 +846,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -883,14 +883,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -917,14 +917,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -952,14 +952,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -987,14 +987,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -1022,14 +1022,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -1059,14 +1059,14 @@
 		{
 			"print_name"				"#weapon_upgrade_doi2ins_sling"
 			"print_desc"				"#weapon_upgrade_doi2ins_sling_desc"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"stock"
 			
 			
-			"draw_speed"				"1.5"
-			"holster_speed"				"1.5"
-			"draw_speed_next_weapon"	"1.5"
-			"holster_speed_prev_weapon"	"1.5"
+			"draw_speed"				"1.0"
+			"holster_speed"				"1.0"
+			"draw_speed_next_weapon"	"1.0"
+			"holster_speed_prev_weapon"	"1.0"
 			
 			"allowed_weapons"
 			{
@@ -1109,7 +1109,7 @@
 
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_doi2ins_nambu"
+				//"weapon"				"weapon_doi2ins_nambu"
 			}
 			
 			"viewmodel_attachments"
@@ -1130,7 +1130,7 @@
 		"magazine_doi2ins_extended_c96"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"3"
 			"team_access"				"security, insurgent"
 
 			"print_name"				"#weapon_upgrade_doi2ins_magazine_extended_c96"
@@ -1214,7 +1214,7 @@
 		"magazine_doi2ins_extended_thompson_50rd"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"4"
 			"team_access"				"security, insurgent"
 			
 			"print_name"				"#weapon_upgrade_doi2ins_magazine_extended_thompson_50"
@@ -1257,7 +1257,7 @@
 		"magazine_doi2ins_extended_ppsh41"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"4"
 			"team_access"				"security, insurgent"
 			
 			"print_name"				"#magazine_doi2ins_extended_ppsh41"
@@ -1307,9 +1307,9 @@
 		"magazine_doi2ins_stripper_clips"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"2"
 			"team_access"				"security, insurgent"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			
 			"print_name"				"#weapon_upgrade_doi2ins_stripper_clip"
 			"print_desc"				"#weapon_upgrade_doi2ins_stripper_clip_desc"
@@ -1325,6 +1325,7 @@
 				"weapon"				"weapon_doi2ins_enfield_veteran"
 				"weapon"				"weapon_doi2ins_springfield"
 				"weapon"				"weapon_doi2ins_springfield_worn"
+				//"weapon"				"weapon_doi2ins_mosin"
 			}
 
 			"viewmodel_attachments"
@@ -1463,7 +1464,7 @@
 		"underbarrel_doi2ins_foregrip"
 		{
 			"import"					"base_foregrip"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"class_restricted"			"0"
 			
 			"allowed_weapons"
@@ -1604,7 +1605,7 @@
 			
 			"class_restricted"			"0"
 			
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"team_access"				"security, insurgent"
 			
 			"allowed_weapons"
@@ -1921,7 +1922,7 @@
 			"import"					"base_optic_rail"
 			"print_name"				"#weapon_upgrade_doi2ins_scope_4x"
 			"print_desc"				"#weapon_upgrade_doi2ins_scope_4x_desc"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"upgrade_cost"				"2"
 			"team_access"				"security, insurgent"
 			
@@ -1995,7 +1996,7 @@
 			"import"					"base_optic_rail"
 			"print_name"				"#weapon_upgrade_doi2ins_scope_4x"
 			"print_desc"				"#weapon_upgrade_doi2ins_scope_4x_desc"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"upgrade_cost"				"2"
 			"team_access"				"security, insurgent"
 			
@@ -2079,7 +2080,7 @@
 			"import"					"base_optic_rail"
 			"print_name"				"#weapon_upgrade_doi2ins_scope_4x"
 			"print_desc"				"#weapon_upgrade_doi2ins_scope_4x_desc"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"upgrade_cost"				"2"
 			"team_access"				"security, insurgent"
 			
@@ -2097,7 +2098,7 @@
 			
 			"excluded_upgrades"
 			{
-				"0"						"magazine_doi2ins_stripper_clips"
+				"1"						"magazine_doi2ins_stripper_clips"
 			}
 			
 			"viewmodel_attachments"
@@ -2158,7 +2159,7 @@
 			"import"					"base_optic_rail"
 			"print_name"				"#weapon_upgrade_doi2ins_scope_7x"
 			"print_desc"				"#weapon_upgrade_doi2ins_scope_7x_desc"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"upgrade_cost"				"3"
 			"team_access"				"security, insurgent"
 			
@@ -2218,7 +2219,7 @@
 			"import"					"base_optic_rail"
 			"print_name"				"#weapon_upgrade_doi2ins_scope_7x"
 			"print_desc"				"#weapon_upgrade_doi2ins_scope_7x_desc"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"upgrade_cost"				"3"
 			"team_access"				"security, insurgent"
 			
@@ -2244,7 +2245,7 @@
 			
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_doi2ins_springfield"
+				//"weapon"				"weapon_doi2ins_springfield"
 				"weapon"				"weapon_doi2ins_springfield_worn"
 			}
 			
@@ -2315,7 +2316,7 @@
 			"import"					"base_optic_rail"
 			"print_name"				"#weapon_upgrade_doi2ins_scope_7x"
 			"print_desc"				"#weapon_upgrade_doi2ins_scope_7x_desc"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"upgrade_cost"				"3"
 			"team_access"				"security, insurgent"
 			
@@ -2342,8 +2343,8 @@
 			
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_doi2ins_k98"
-				"weapon"				"weapon_doi2ins_k98_veteran"
+				//"weapon"				"weapon_doi2ins_k98"
+				//"weapon"				"weapon_doi2ins_k98_veteran"
 			}
 			
 			"excluded_upgrades"
@@ -2413,7 +2414,7 @@
 			"import"					"base_optic_rail"
 			"print_name"				"#weapon_upgrade_doi2ins_scope_7x"
 			"print_desc"				"#weapon_upgrade_doi2ins_scope_7x_desc"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"upgrade_cost"				"3"
 			"team_access"				"security, insurgent"
 			
@@ -2452,13 +2453,13 @@
 			
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_doi2ins_enfield"
-				"weapon"				"weapon_doi2ins_enfield_veteran"
+				//"weapon"				"weapon_doi2ins_enfield"
+				//"weapon"				"weapon_doi2ins_enfield_veteran"
 			}
 			
 			"excluded_upgrades"
 			{
-				"0"						"magazine_doi2ins_stripper_clips"
+				"1"						"magazine_doi2ins_stripper_clips"
 			}
 			
 			"viewmodel_attachments"
@@ -2522,11 +2523,11 @@
 
 		"clothwrap_doi2ins_enfield"
 		{
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"aesthetic"
 			"print_name"				"#doi2ins_clothwrap"
 			"print_desc"				"#doi2ins_clothwrap_desc"
-			"reload_speed"				"1.6"
+			"reload_speed"				"1.0"
 
 						
 			"allowed_weapons"
@@ -2566,11 +2567,11 @@
 		
 		"clothwrap_doi2ins_m1garand"
 		{
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"aesthetic"
 			"print_name"				"#doi2ins_clothwrap"
 			"print_desc"				"#doi2ins_clothwrap_desc"
-			"reload_speed"				"1.6"
+			"reload_speed"				"1.0"
 
 						
 			"allowed_weapons"
@@ -2610,11 +2611,11 @@
 		
 		"clothwrap_doi2ins_springfield"
 		{
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"aesthetic"
 			"print_name"				"#doi2ins_clothwrap"
 			"print_desc"				"#doi2ins_clothwrap_desc"
-			"reload_speed"				"1.6"
+			"reload_speed"				"1.0"
 
 						
 			"allowed_weapons"
@@ -2655,11 +2656,11 @@
 		
 		"clothwrap_doi2ins_g43"
 		{
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"aesthetic"
 			"print_name"				"#doi2ins_clothwrap"
 			"print_desc"				"#doi2ins_clothwrap_desc"
-			"reload_speed"				"1.6"
+			"reload_speed"				"1.0"
 
 			"allowed_weapons"
 			{
@@ -2699,11 +2700,11 @@
 		
 		"clothwrap_doi2ins_k98"
 		{
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"upgrade_slot"				"aesthetic"
 			"print_name"				"#doi2ins_clothwrap"
 			"print_desc"				"#doi2ins_clothwrap_desc"
-			"reload_speed"				"1.6"
+			"reload_speed"				"1.0"
 
 			"allowed_weapons"
 			{
@@ -2749,7 +2750,7 @@
 		{
 			"IsBase"				"1"
 			"upgrade_slot"			"underbarrel"
-			"class_restricted"		"0"
+			"class_restricted"		"2"
 		}
 		
 		
@@ -2822,8 +2823,8 @@
 			
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_doi2ins_m1garand"
-				"weapon"				"weapon_doi2ins_m1garand_worn"
+				//"weapon"				"weapon_doi2ins_m1garand"
+				//"weapon"				"weapon_doi2ins_m1garand_worn"
 			}
 			
 			"viewmodel_attachments"
@@ -2885,7 +2886,7 @@
 		"underbarrel_doi2ins_rifle_grenade_enfield"
 		{
 			"import"					"underbarrel_launcher_base_enfield"
-			"upgrade_cost"				"0"
+			"upgrade_cost"				"2"
 			"print_name"			"#weapon_doi2ins_rifle_grenade"
 			"print_desc"			"#weapon_doi2ins_rifle_grenade_desc"
 			"attach_weapon"				"weapon_rifle_grenade_enfield"
@@ -2958,7 +2959,7 @@
 			"print_name"				"#weapon_upgrade_doi2ins_wp_rocket"
 			"print_desc"				"#weapon_upgrade_doi2ins_wp_rocket_desc"
 			"class_restricted"			"0"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"2"
 			"upgrade_slot"				"magazine"
 			"team_access"				"security, insurgent"
 			
@@ -3041,8 +3042,6 @@
 				
 			}
 		}
-						
-
 
 	}
 }

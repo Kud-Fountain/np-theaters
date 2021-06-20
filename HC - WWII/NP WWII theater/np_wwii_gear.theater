@@ -171,19 +171,55 @@
 			"team_access"				"insurgent"
 		}
 		
-		"sec_wwii_chest_rig"
+		"wwii_S_kit"
 		{
-			"print_name"				"#gear_chest_rig"
-			"print_desc"				"#gear_wwii_chest_rig_desc"
+			"print_name"				"#wwii_S_kit"
+			"print_desc"				"#wwii_S_kit"
 			"gear_slot"					"vest"
 			"gear_cost"					"0"
-			"gear_weight"				"0"	// 22 (2.2kg) + 24 encumbrance
+			"gear_weight"				"0"	// 50 (5.0kg) + 50 encumbrance
 			"class_restricted"			"1"
+			
 			"extra_ammo"
 			{
-				"primary"				"8"
-				"secondary"				"2"
+				"primary"				"4"
+				"secondary"				"4"
+				
+				"explosive"
+				{
+					"6"		"3" // an extra explosive in the second slot only, sub-slots are 0 indexed
+				}
+			}
+			"weapon_slots"
+			{
 				"explosive"				"0"
+			}
+			"player_model_bodygroups"
+			{
+				"kit"					"1"
+				"backpack"				"0"
+			}			
+			"team_access"				"security"
+		}
+		
+		"wwii_M_kit"
+		{
+			"print_name"				"#wwii_M_kit"
+			"print_desc"				"#wwii_M_kit"
+			"gear_slot"					"vest"
+			"gear_cost"					"0"
+			"gear_weight"				"0"	// 50 (5.0kg) + 50 encumbrance
+			"class_restricted"			"1"
+			
+			"extra_ammo"
+			{
+				"primary"				"4"
+				"secondary"				"4"
+				
+				"explosive"
+				{
+					"6"		"3" // an extra explosive in the second slot only, sub-slots are 0 indexed
+				}
 			}
 			"weapon_slots"
 			{
@@ -192,8 +228,39 @@
 			"player_model_bodygroups"
 			{
 				"kit"					"1"
-				"backpack"				"2"
+				"backpack"				"0"
+			}			
+			"team_access"				"security"
+		}
+		
+		"wwii_L_kit"
+		{
+			"print_name"				"#wwii_L_kit"
+			"print_desc"				"#wwii_L_kit_desc"
+			"gear_slot"					"vest"
+			"gear_cost"					"0"
+			"gear_weight"				"0"	// 50 (5.0kg) + 50 encumbrance
+			"class_restricted"			"1"
+			
+			"extra_ammo"
+			{
+				"primary"				"4"
+				"secondary"				"4"
+				
+				"explosive"
+				{
+					"6"		"3" // an extra explosive in the second slot only, sub-slots are 0 indexed
+				}
 			}
+			"weapon_slots"
+			{
+				"explosive"				"2"
+			}
+			"player_model_bodygroups"
+			{
+				"kit"					"2"
+				"backpack"				"1"
+			}			
 			"team_access"				"security"
 		}
 		
@@ -221,30 +288,7 @@
 			}
 			"team_access"				"insurgent"
 		}
-		"sec_wwii_chest_carrier"
-		{
-			"print_name"				"#gear_chest_carrier"
-			"print_desc"				"#gear_wwii_chest_carrier_desc"
-			"gear_slot"					"vest"
-			"gear_cost"					"0"
-			"gear_weight"				"0"	// 50 (5.0kg) + 50 encumbrance
-			"extra_ammo"
-			{
-				"primary"				"7"
-				"secondary"				"3"
-				"explosive"				"0"
-			}
-			"weapon_slots"
-			{
-				"explosive"				"0"
-			}
-			"player_model_bodygroups"
-			{
-				"kit"					"2"
-				"backpack"				"1"
-			}
-			"team_access"				"security"
-		}
+
 		"ins_chest_carrier"
 		{
 			"print_name"				"#gear_chest_carrier"

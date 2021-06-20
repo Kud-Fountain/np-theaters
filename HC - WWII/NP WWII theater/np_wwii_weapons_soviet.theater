@@ -1,7 +1,7 @@
-"#base" "doi2ins_base_weapon.theater"
-"#base" "doi2ins_base_explosives.theater"
-"#base" "doi2ins_base_common_ammo.theater"
-"#base" "doi2ins_ammo.theater"
+"#base" "np_wwii_base_weapon.theater"
+"#base" "np_wwii_base_explosives.theater"
+"#base" "np_wwii_base_common_ammo.theater"
+"#base"	"np_wwii_common_ammo.theater"
 
 
 "theater"
@@ -26,8 +26,8 @@
 			"weapon_max_subslot"		"1"	// UP TO 2ND EXPLOSIVE SLOT			
 			"act_table"					"grenade"
 			"weapon_weight"				"0"
-			"weapon_cost"				"2"
-			"class_restricted"			"0"
+			"weapon_cost"				"1"
+			"class_restricted"			"1"
 			
 			"fov"
 			{
@@ -46,7 +46,7 @@
 			}
 			"team_access"				"security, insurgent"
 		}
-		
+
 		// ========================================
 		// PISTOLS
 		// ========================================
@@ -66,7 +66,7 @@
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"0"
 			"weapon_cost"					"1"
-			"class_restricted"				"0"
+			"class_restricted"				"1"
 			"barrel_length"					"15"
 			
 			"fov"
@@ -143,9 +143,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"					"7.62×25_pistol"
-				"clip_max"					"12"
+				"clip_max"					"4"
 				"clip_max_rounds"			"8"
-				"clip_default"				"4"
+				"clip_default"				"1"
 			}
 			"attachments"
 			{
@@ -159,7 +159,7 @@
 		}
 		
 		// ========================================
-		// PISTOLS
+		// shotguns
 		// ========================================
 
 		
@@ -172,13 +172,13 @@
 			"view_model"				"models/doi2ins/v_ww2_doublebarrel.mdl"  
 			"world_model"				"models/doi2ins/w_doublebarrel_ww2.mdl" 
 			"rounds_per_minute"			"2280"
-			"weapon_slot"				"secondary"
+			"weapon_slot"				"primary"
 			"act_table"					"shot"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (3.3kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"				"2"
 			"fire_instantly"			"1"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"barrel_length"				"24"
 			"closed_bolt"				"0"
 			
@@ -231,20 +231,13 @@
 				"maxrange"				"8000"
 				"bulletcount"			"1"
 			}
-			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.5"
-				"MeleeDamage"			"110"
-				"MeleeRange"			"75"
-			}
-			
+
 			"ammo_clip"
 			{
 				"ammo_type"				"buckshot"
-				"clip_max"				"48"
+				"clip_max"				"60"
 				"clip_max_rounds"			"2"	
-				"clip_default"				"24"
+				"clip_default"				"30"
 			}
 			"attachments"
 			{
@@ -276,7 +269,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (4.0kg[weapon] + (0.2kg[ammo] * (1+16)[mags]) )*10[kg->hg for int]  +32[encumbrance]
 			"barrel_length"				"38"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			
 			"fov"
 			{
@@ -326,13 +319,13 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"762x54mm"
-				"clip_max"				"60"
+				"clip_max"				"80"
 				"clip_max_rounds"			"5"
-				"clip_default"				"15"
+				"clip_default"				"40"
 			}
 			"attachments"
 			{
-				"attachment_addon"			"primary2"
+				"attachment_addon"			"primary"
 			}
 			"kitui_offset"
 			{
@@ -344,9 +337,7 @@
 		// ========================================
 		// SEMI-AUTO WEAPONS
 		// ========================================
-		
 
-		
 		// ========================================
 		// SUB-MACHINE GUNS
 		// ========================================
@@ -365,9 +356,9 @@
 			"closed_bolt"				"0"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	
-			"weapon_cost"				"3"
+			"weapon_cost"				"4"
 			"barrel_length"				"30"
-			"class_restricted" 			"0"
+			"class_restricted" 			"1"
 			
 			"viewmodel_attachments"
 			{
@@ -445,9 +436,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"7.62×25_smg"	
-				"clip_max"				"12"
+				"clip_max"				"6"
 				"clip_max_rounds"			"35"
-				"clip_default"				"4"
+				"clip_default"				"1"
 			}
 			"attachments"
 			{
@@ -512,9 +503,9 @@
 			"entity_class"				"grenade_aoe"
 			"Model"					"models/doi2ins/w_molotov.mdl"
 			"DamageType"				"DMG_BURN, DMG_PREVENT_PHYSICS_FORCE"
-			"DetonateDamage"			"100"	// det damage is for when it first goes off
-			"DetonatePenetrationRadius"		"0"
-			"DetonateDamageRadius"			"240"
+			"DetonateDamage"			"150"	// det damage is for when it first goes off
+			"DetonatePenetrationRadius"		"10"
+			"DetonateDamageRadius"			"250"
 			"FuseTime"				"0"
 			"Cookable"				"0"
 			"DetonateUnderwater"			"0"
@@ -526,10 +517,10 @@
 			"Elasticity"				"0.0"
 			
 			"Deafen"				"0"
-			"AreaDamageTime"			"24"
-			"AreaDamageFrequency"			"0.44"
-			"AreaDamageMinRadius"			"240"
-			"AreaDamageMaxRadius"			"260"
+			"AreaDamageTime"			"18"
+			"AreaDamageFrequency"			"0.50"
+			"AreaDamageMinRadius"			"250"
+			"AreaDamageMaxRadius"			"300"
 			"AreaDamageGrowSpeed"			"9"
 			"AreaDamageAmount"			"18"
 			

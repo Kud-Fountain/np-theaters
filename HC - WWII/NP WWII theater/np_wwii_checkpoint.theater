@@ -1,49 +1,50 @@
-"#base" "np_wwii_survival_base.theater"
+"#base" "np_wwii_checkpoint_base.theater"
 
 "theater"
 {
 	"teams"
 	{
-		"insurgents"
+		"security"
 		{
 			"squads"
 			{
-				"#Fireteam_American_Squad"	
+				// 1st Squad
+				"#Fireteam_Alpha"	// small arms
 				{
-					"#Squad_Gnalvl_VIP_FP"					"template_wwii_coop_vip_fp_medic"
-					"#Squad_Gnalvl_Rifleman_AT2"			"template_wwii_coop_rifleman_at_medic_us"
-					"#Squad_Gnalvl_Rifleman_AT2"			"template_wwii_coop_rifleman_at_medic_us"
-					"#Squad_Gnalvl_Rifleman_AT"				"template_wwii_coop_rifleman_at_medic_us2"
-					"#Squad_Gnalvl_Marksman"				"template_wwii_coop_marksman_medic_us"
+					"#BoltGrenadier"                     		"template_security_coop_BoltGrenadier_default"
+					"#BoltGrenadier"                     		"template_security_coop_BoltGrenadier_default"
+					"#SemiGrenadier"	                       	"template_security_coop_SemiGrenadier_default"
+					"#SemiGrenadier"	                       	"template_security_coop_SemiGrenadier_default"
+					"#BreakerA"	                                "template_security_coop_BreakerA_default"
+					"#Machinegunner"	                     	"template_security_coop_Machinegunner_default"
+					"#Sniper"	                            	"template_security_coop_Sniper_default"
+					
 				}
-				"#Fireteam_Commonwealth_Squad"	
+				// 2nd Squad
+				"#Fireteam_Bravo"	// small arms
 				{
-					"#Squad_Gnalvl_Uav_SquadLeader"			"template_wwii_coop_squadleader_medic"
-					"#Squad_Gnalvl_Rifleman_AT"				"template_wwii_coop_rifleman_at_medic_cw"
-					"#Squad_Gnalvl_Rifleman_AT"				"template_wwii_coop_rifleman_at_medic_cw"
-					"#Squad_Gnalvl_Auto"					"template_wwii_coop_support_medic_1"
-					"#Squad_Gnalvl_Auto2"					"template_wwii_coop_recon_fast_medic_cw"
-				}
-				"#Fireteam_Germany_Squad"	
+					"#BoltGrenadier"                     		"template_security_coop_BoltGrenadier_default"
+					"#BoltGrenadier"                     		"template_security_coop_BoltGrenadier_default"
+					"#SemiGrenadier"	                       	"template_security_coop_SemiGrenadier_default"
+					"#SemiGrenadier"	                       	"template_security_coop_SemiGrenadier_default"
+					"#BreakerB"	                                "template_security_coop_BreakerB_default"
+					"#Machinegunner"	                     	"template_security_coop_Machinegunner_default"
+					"#Sniper"	                            	"template_security_coop_Sniper_default"
+				}					
+				// 3nd Squad
+				"#Fireteam_Bravo"	// small arms
 				{
-					"#Squad_Gnalvl_VIP"						"template_wwii_coop_vip_medic"
-					"#Squad_Gnalvl_Rifleman_AT2"			"template_wwii_coop_rifleman_at_medic_gm"
-					"#Squad_Gnalvl_Rifleman_AT2"			"template_wwii_coop_rifleman_at_medic_gm"
-					"#Squad_Gnalvl_Rifleman_AT"				"template_wwii_coop_rifleman_at_medic_gm2"
-					"#Squad_Gnalvl_Auto"					"template_wwii_coop_support_medic_2"
-				}
-				"#Fireteam_Soviet_Squad"	
-				{
-					"#Squad_Gnalvl_Backup_SquadLeader"		"template_wwii_coop_squadleader_1_medic"
-					"#Squad_Gnalvl_Rifleman_AT2"			"template_wwii_coop_rifleman_at_medic_ussr"
-					"#Squad_Gnalvl_Rifleman_AT2"			"template_wwii_coop_rifleman_at_medic_ussr"
-					"#Squad_Gnalvl_Auto2"					"template_wwii_coop_recon_fast_medic_ussr"
-					"#Squad_Gnalvl_Marksman"				"template_wwii_coop_marksman_medic_ussr"
+					"#VIP1"	                                	"template_security_coop_VIP1_default"
+					"#VIP2"	                                	"template_security_coop_VIP2_default"
+					"#Assaulter"	                    	    "template_security_coop_Assaulter_default"
+					"#Assaulter"	                    	    "template_security_coop_Assaulter_default"
+					"#Support"	                                "template_security_coop_Support_default"
+					"#Support"	                                "template_security_coop_Support_default"
 				}
 			}
 		}
 		
-		"security"
+		"insurgents"
 		{
 			"squads"
 			{
