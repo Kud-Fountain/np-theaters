@@ -18,6 +18,8 @@
 			"sounds"			"scripts/ins_sounds_responses_insurgent.txt"
 			"sounds"			"scripts/ins_sounds_hq.txt"
 			
+			"sounds"			"scripts/audio/doi_sounds_world.txt"
+			
 			// coop specific
 			"sounds"			"scripts/ins_sounds_voice_coop.txt"
 			//Custom sounds 
