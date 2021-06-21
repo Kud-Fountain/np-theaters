@@ -8,6 +8,291 @@
 {
 	"weapons"
 	{
+		// fire support
+		"weapon_makarov_fp"
+		{
+			"import"						"pistol_base"
+			"weapon_class"					"pistol"
+			"print_name"					"#weapon_makarov_fp_dy"
+			"print_desc"					"#weapon_makarov_fp_dy_desc"
+			"view_model"					"models/weapons/v_makarov.mdl"
+			"world_model"					"models/weapons/w_makarov.mdl"
+			"rounds_per_minute"				"700"
+			"weapon_slot"					"secondary"
+			"act_table"						"pistol"
+			"weapon_abilities"				"ironsight"
+			"weapon_weight"					"9" // (0.7kg[weapon] + (0.1kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +2[encumbrance]
+			"weapon_cost"					"1"
+			"class_restricted"				"1"
+			//"weapon_max_subslot"			"0"
+			"barrel_length"					"9"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
+
+			"viewmodel_attachments"
+			{
+
+			}
+			
+			"world_attachments"
+			{
+
+			}
+
+			"fov"
+			{
+				"fov_plr_ironsight"			"-10"
+				"fov_plr_focus"				"-10"
+				"fov_wpn_default"			"74"
+
+				"fov_wpn_ironsight"			"72"
+				"fov_wpn_focus"				"77"
+			}
+			"viewmodel_offsets"
+			{
+				// x back, y left, z down
+				"VMOffsetStand"					"0.15 0.75 0.75"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_Makarov.Empty"
+				"shot_single_local"			"Weapon_Makarov.Empty"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"	""
+				"particle_muzzleflash_3rd"	""	
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"				"-0.75 0.85"
+				"recoil_vertical_range"				"0.65 0.85"
+				"recoil_aim_punch"					"0.5 0.6"
+				"recoil_rest_rate"					"4"
+				"recoil_rest_delay"					"0.18"
+				"recoil_roll_range"					"-1.35 -1.35"
+				"recoil_roll_rest_rate"				"180"
+				"recoil_shot_reset_time" 			"0.75"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_punch_additive_factor" 		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired (default 1.0)
+			}
+
+			"ballistics"
+			{
+				"spread"					"0.432 0.432 0.432"
+				"FireModes"					"semi"
+				"bulletcount"				"1"
+				"maxrange"					"6000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"					"grenade_flares"
+				"clip_max_rounds"			"1"
+				"clip_default"				"0"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"pistol"
+			}
+			"kitui_offset"
+			{
+				"position"				"12 -3 1.5"
+			}
+			"team_access"	"security, insurgent"
+		}
+	
+		// UAV
+		"weapon_p2a1"
+		{
+			"import"						"weapon_base"
+			"weapon_class"					"grenade_incendiary"
+			"weapon_type"					"projectile"
+			"print_name"					"#weapon_flaregun"
+			"print_desc"					"#weapon_flaregun_desc"
+			"view_model"					"models/weapons/v_p2a1.mdl"
+			"world_model"					"models/weapons/w_p2a1.mdl"
+			"weapon_slot"					"melee"	//explosive
+			"weapon_max_subslot"			"0"
+			"act_table"						"pistol"
+			"weapon_weight"					"14"
+			"weapon_cost"					"0"
+			"weapon_abilities"				"ironsight"
+			"class_restricted"				"1"
+			"fire_instantly"				"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
+
+			"explosives"
+			{
+				"entity"					"grenade_flare"
+				"GrenadeRollSpeed"			"500"
+				"GrenadeThrowSpeed"			"1000"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"	"ins_weapon_m203"
+				"particle_muzzleflash_3rd"	"ins_weapon_m203"	
+			}
+			"ammo_clip"
+			{
+				"ammo_type"					"grenade_flares"
+				"clip_max_rounds"			"1"
+				"clip_default"				"0"
+			}
+			"fov"
+			{
+				"fov_wpn_default"			"62"
+				"fov_plr_ironsight"			"-10"
+				"fov_wpn_ironsight"			"74"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_p2a1.Single"
+				"shot_single_local"			"Weapon_p2a1.SingleLocal"
+			}
+			"team_access"	"security, insurgent"
+		}
+		
+		//Knife for bombers
+		"weapon_suicide_bomb"
+		{
+			"import"						"weapon_base"
+			"weapon_class"					"melee"
+			"weapon_type"					"melee"
+			"view_model"					"models/weapons/v_c4_ins.mdl"
+			"weapon_slot"					"melee"
+			"act_table"						"knife"
+			"world_model"					"models/weapons/w_ied.mdl"
+			"weapon_weight"					"1"
+			"weapon_cost"					"0"
+			"class_restricted"				"1"
+			"barrel_length"					"-1"
+			"print_name"					"Suicide Bomb"
+			"print_desc"					"GO BEUM"
+			"ammo_clip"
+			{
+				"ammo_type"					"invalid"
+				"clip_max_rounds"			"-1" // no clips
+				"clip_default"				"0"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_Knife.Single"
+				"melee_hit"					"Weapon_Knife.Melee_Hit"
+				"melee_hit_world"			"Weapon_Knife.Melee_HitWorld"
+			}
+			"melee"
+			{
+				"MeleeRange"				"125" // def 75
+				"MeleeDamage"				"60"
+				"MeleeDamageBehindBonus"	"200"
+				"MeleeDamageType"			"DMG_SLASH"
+				"MeleeWeaponIdleTime"		"2"
+				"SwingAttacks"
+				{
+					"slash1"
+					{
+						"Activity"				"ACT_VM_HITCENTER"
+						"PlayerAtivity"			"ACT_SHOOT_E2W_BAT"
+						"PlayerActivityIdle"	"ACT_SHOOT_E2W_IDLE_BAT"
+						"StartTime"				"0.1"
+						"EndTime"				"0.34"
+						"Duration"				"0.9"
+						"StartDirection"		"E"
+						"EndDirection"			"W"
+						"ForceDirection"		"15 -40 0"
+					}
+				}
+			}
+			"player_restrictions"
+			{
+				"allow_lean"				"1"
+				"allow_sprint"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"1"
+			}
+			"recoil"
+			{
+				"recoil_rest_rate"			"5"
+				"recoil_rest_delay"			"0.1"
+			}
+			"team_access"	"security, insurgent"
+		}
+		
+		// defib
+		"weapon_defib"
+		{
+			"import"					"weapon_base"
+			"weapon_class"					"melee"
+			"weapon_type"					"melee"
+			"print_name"					"#weapon_defib"
+			"view_model"					"models/weapons/v_defibr.mdl"
+			"world_model"					"models/weapons/w_defibr.mdl"
+			"weapon_slot"					"melee"
+			"act_table"					"knife"
+			"weapon_weight"					"1"
+			"weapon_cost"					"0"
+			"class_restricted"				"0"
+			"barrel_length"					"-1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
+			
+			"ammo_clip"
+			{
+				"ammo_type"					"invalid"
+				"clip_max_rounds"			"-1" // no clips
+				"clip_default"				"0"
+			}
+			
+			"sounds"
+			{
+				"shot_single"				"Flesh.BulletImpactDistant"
+				"melee_hit"					"Flesh.BulletImpactDistant"
+				"melee_hit_world"			"Flesh.BulletImpactDistant"
+			}
+			"melee"
+			{
+				"MeleeRange"				"75"
+				"MeleeDamage"				"40"
+				"MeleeDamageBehindBonus"	"150"
+				"MeleeDamageType"			"DMG_SLASH"
+				"MeleeWeaponIdleTime"		"2"
+				"SwingAttacks"
+				{
+					"slash1"
+					{
+						"Activity"				"ACT_VM_HITCENTER"
+						"PlayerAtivity"			"ACT_SHOOT_E2W_BAT"
+						"PlayerActivityIdle"	"ACT_SHOOT_E2W_IDLE_BAT"
+						"StartTime"				"0.1"
+						"EndTime"				"0.34"
+						"Duration"				"0.9"
+						"StartDirection"		"E"
+						"EndDirection"			"W"
+						"ForceDirection"		"15 -40 0"
+					}
+				}
+			}
+			"player_restrictions"
+			{
+				"allow_lean"				"1"
+				"allow_sprint"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"1"
+			}
+			"team_access"	"security, insurgent"
+		}
 
 		// ========================================
 		// HEALTHKIT
@@ -15,7 +300,7 @@
 
 
 
-		"weapon_defib"
+		"weapon_defib2"
 		{
 			"import"					"weapon_base"
 			"weapon_class"				"other_explosive"
@@ -69,7 +354,7 @@
 			"weapon_max_subslot"		"2"	// UP TO 3RD EXPLOSIVE SLOT
 			"act_table"					"grenade"
 			"weapon_weight"				"0"
-			"weapon_cost"				"1"
+			"weapon_cost"				"0"
 			"class_restricted"			"1"
 			
 			"fov"
@@ -117,7 +402,7 @@
 			"weapon_max_subslot"		"0"	// 1st explosive slot only
 			"act_table"					"grenade"
 			"weapon_weight"				"0"
-			"weapon_cost"				"2"
+			"weapon_cost"				"1"
 			"barrel_length"				"-1"
 			"class_restricted"			"1"
 			
@@ -663,8 +948,8 @@
 			{
 				"ammo_type"				"buckshot"
 				"clip_max"				"60"
-				"magsize_override"         "8"
-				"clip_max_rounds"			"8"
+				"magsize_override"         "7"
+				"clip_max_rounds"			"7"
 				"clip_default"				"30"
 			}
 			"attachments"
@@ -687,7 +972,7 @@
 		{
 			"import"					"ballistic_base"
 			"weapon_class"				"sniper_rifle"
-			"weapon_cost"				"2"
+			"weapon_cost"				"0"
 			"print_name"				"#weapon_doi2ins_springfield"
 			"print_desc"				"#weapon_doi2ins_springfield_desc"
 			"view_model"				"models/doi2ins/v_springfield.mdl"
@@ -952,7 +1237,7 @@
 			"act_table"					"rifle_clip"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
-			"weapon_cost"				"3"
+			"weapon_cost"				"2"
 			"barrel_length"				"38"
 			"closed_bolt"				"0"
 			"class_restricted"			"1"
@@ -1183,7 +1468,7 @@
 			"act_table"					"rifle_ak2"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
-			"weapon_cost"				"2"
+			"weapon_cost"				"1"
 			"barrel_length"				"20"			
 			"fire_cycle"				"0.2"
 			"class_restricted"			"1"
@@ -1313,7 +1598,7 @@
 			"act_table"					"rifle_ak2"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
-			"weapon_cost"				"0"
+			"weapon_cost"				"1"
 			"barrel_length"				"20"			
 			"fire_cycle"				"0.2"
 			"class_restricted"			"1"
@@ -1416,13 +1701,6 @@
 				"clip_default"			"2"
 			}
 			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.1"
-				"MeleeDamage"			"50"
-				"MeleeRange"			"75"
-			}
-			
 			"attachments"
 			{
 				"attachment_addon"			"Primary"
@@ -1455,7 +1733,7 @@
 			"act_table"					"smg_magheld"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
-			"weapon_cost"				"0"
+			"weapon_cost"				"3"
 			"barrel_length"				"16"
 			"class_restricted"			"1"
 			
@@ -1536,13 +1814,6 @@
 				"clip_default"				"2"
 			}
 			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.2"
-				"MeleeDamage"			"50"
-				"MeleeRange"			"75"
-			}
-			
 			"attachments"
 			{
 				"attachment_addon"			"Primary"
@@ -1569,7 +1840,7 @@
 			"act_table"					"shortrifle"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
-			"weapon_cost"				"2"
+			"weapon_cost"				"3"
 			"class_restricted"			"1"
 			"barrel_length"				"16"
 			"closed_bolt"				"1"
@@ -1637,14 +1908,7 @@
 				"recoil_shot_max_shots"				"5"	// Max number of shots to account for for the additional rest (default = 5)
 				"recoil_punch_additive_factor"		"0.78"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
 			}
-			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.2"
-				"MeleeDamage"			"50"
-				"MeleeRange"			"75"
-			}
-			
+
 			"ballistics"
 			{
 				"spread"					"0.8 0.8 0.8"
@@ -1691,7 +1955,7 @@
 			"act_table"					"lmg"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
-			"weapon_cost"				"0"
+			"weapon_cost"				"4"
 			"barrel_length"				"28"
 			"closed_bolt"				"0"
 			"class_restricted"			"1"
@@ -1768,13 +2032,6 @@
 				}
 			}
 			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.35"
-				"MeleeDamage"			"75"
-				"MeleeRange"			"75"
-			}
-			
 			"ballistics"
 			{
 				"spread"				"0.15 0.15 0.15"
@@ -1812,7 +2069,7 @@
 			"view_model"				"models/doi2ins/v_m1919.mdl"
 			"world_model"				"models/doi2ins/w_m1919.mdl"
 			"weapon_class"				"lmg"
-			"weapon_cost"				"3"
+			"weapon_cost"				"4"
 			"print_name"				"#weapon_doi2ins_M1919"
 			"print_desc"				"#weapon_doi2ins_M1919_desc"
 			"rounds_per_minute"			"550"
@@ -1927,13 +2184,6 @@
 				"rofup"						"Weapon_M1919.ROF"
 				
 				"thirdperson_prefix"		"Weapon_M1919"	
-			}
-			
-			"melee"
-			{
-				"MeleeWeaponIdleTime"	"0.5"
-				"MeleeDamage"			"75"
-				"MeleeRange"			"75"
 			}
 			
 			"particles"
@@ -2154,7 +2404,7 @@
 			"weapon_max_subslot"		"0"	// can only be in the first explosive slot
 			"act_table"					"launcher"
 			"weapon_weight"				"0"
-			"weapon_cost"				"3"
+			"weapon_cost"				"2"
 			"weapon_abilities"			"ironsight"
 			"barrel_length"				"44"
 			"class_restricted"			"1"

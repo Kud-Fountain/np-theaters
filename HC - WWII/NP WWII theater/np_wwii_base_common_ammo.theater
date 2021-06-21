@@ -84,8 +84,8 @@
 			"Damage"
 			{
 				"1"						"60"
-				"100"					"60"
-				"5000"					"32"
+				"100"					"40"
+				"5000"					"20"
 			}
 			"PenetrationPower"
 			{
@@ -268,15 +268,16 @@
 		"7.62×25_smg"	
 		{
 			"import"					"default"
+			"carry"						"6"
 			"SuppressionIncrement"		"10"
 			"magsize"					"35"
 			"brass_model"				"models/weapons/shells/9x19.mdl"
 			
 			"Damage"
 			{
-				"1"						"52"
-				"5000"					"47"
-				"8000"					"30"
+				"1"						"50"
+				"5000"					"40"
+				"8000"					"20"
 			}
 			"PenetrationPower"
 			{
@@ -436,7 +437,7 @@
 		"9x19mm_smg"
 		{
 			"import"				"9x19"
-			"carry"					"12"
+			"carry"					"6"
 			"magsize"				"30"
 
 			"Damage"
@@ -492,7 +493,7 @@
 		{
 			"import"				"762x39"
 			"carry"					"12"
-			"magsize"				"30"
+			"magsize"				"20"
 		}
 		
 		// ========================================
@@ -551,13 +552,13 @@
 		"buckshot"
 		{
 			"import"				"00buck"
-			"carry"					"72"
+			"carry"					"60"
 			"flags_clear"				"AMMO_USE_MAGAZINES"
 		}
 		"slugs"
 		{
 			"import"				"slug"
-			"carry"					"72"
+			"carry"					"60"
 			"flags_clear"				"AMMO_USE_MAGAZINES"
 		}
 		
