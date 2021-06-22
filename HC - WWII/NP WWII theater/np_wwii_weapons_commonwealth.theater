@@ -384,9 +384,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"9x19_r" 
-				"clip_max"				"4"
+				"clip_max"				"36"
 				"clip_max_rounds"		"6"
-				"clip_default"			"3"
+				"clip_default"			"18"
 				"lose_rounds_reload"	"1"
 			}
 			
@@ -483,7 +483,7 @@
 			{
 				"ammo_type"				"9x19mm_w"
 				"clip_max"				"4"
-				"clip_max_rounds"		"5"
+				"clip_max_rounds"		"10"
 				"clip_default"			"3"
 			}
 			

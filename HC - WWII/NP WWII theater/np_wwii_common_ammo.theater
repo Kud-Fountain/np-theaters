@@ -769,12 +769,13 @@
 		{
 			"import"					"9x19"
 			"magsize"					"13"
+			"carry"						"3"
 			"brass_model"				"models/doi2ins/shells/9x19.mdl"
 			
 			"Damage"
 			{
-				"1000"					"45"
-				"2500"					"25"
+				"1000"					"40"
+				"2500"					"20"
 				"10000"					"10"
 			}
 			
@@ -796,6 +797,7 @@
 		{
 			"import"					"9x19mm_smg"
 			"magsize"					"20"
+			"carry"						"6"
 			"brass_model"				"models/doi2ins/shells/9x19.mdl"
 			
 			"Damage"
@@ -822,6 +824,7 @@
 		{
 			"import"					"9x19"
 			"magsize"					"10"
+			"carry"						"4"
 			"brass_model"				"models/doi2ins/shells/9x19.mdl"	
 			
 			"PenetrationPower"
@@ -848,9 +851,9 @@
 			
 			"Damage"
 			{
-				"1000"					"46"
-				"2500"					"38"
-				"10000"					"15"
+				"1000"					"60"
+				"2500"					"40"
+				"10000"					"18"
 			}
 			
 			"PenetrationPower"
@@ -871,7 +874,8 @@
 		"9x19mm_w"
 		{
 			"import"				"9x19mm_smg"
-			"magsize"				"8"		
+			"carry"					"4"
+			"magsize"				"10"		
 
 			"Damage"
 			{
@@ -898,6 +902,7 @@
 		"8x22_pistol"
 		{
 			"import"				"9x19mm_smg"
+			"carry"					"3"
 			"magsize"				"8"		
 
 			"Damage"
