@@ -89,8 +89,8 @@
 			"buy_order"
 			{	
 				"gear"						"sec_light_armor"
-				"gear"						"sec_wwii_chest_carrier"
 				"weapon"					"weapon_defib"
+				"gear"						"doi2ins_light_kit"
 				"gear"						"gear_uav"
 			}
 			"allowed_items"
@@ -99,6 +99,7 @@
 				
 				"weapon"					"weapon_doi2ins_bren_mk2"
 				"weapon"					"weapon_doi2ins_thompson_m1928a1"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_owen"
 				"weapon"					"weapon_doi2ins_owen_mk2"
 				"weapon"					"weapon_doi2ins_sten_mk2"
@@ -134,7 +135,7 @@
 			"buy_order"
 			{	
 				"gear"						"sec_light_armor"
-				"gear"						"sec_wwii_chest_carrier"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_defib"
 				"gear"						"gear_ammocrate"
 			}
@@ -143,6 +144,7 @@
 				"weapon"					"weapon_defib"
 
 				"weapon"					"weapon_doi2ins_welrod"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_tokarev"
 				"weapon"					"weapon_doi2ins_ppsh41"
 				"weapon"					"weapon_doi2ins_c96carbine"
@@ -173,7 +175,7 @@
 			"buy_order"
 			{
 				"gear"						"sec_light_armor"
-				"gear"						"sec_wwii_chest_carrier"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_defib"
 			}
 			"allowed_items"
@@ -181,6 +183,7 @@
 				"weapon"					"weapon_defib"
 			
 				"weapon"					"weapon_doi2ins_springfield_worn"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_springfield"
 				"weapon"					"weapon_doi2ins_m1garand_worn"
 				"weapon"					"weapon_doi2ins_m1garand"
@@ -212,7 +215,7 @@
 			"buy_order"
 			{
 				"gear"						"sec_light_armor"
-				"gear"						"sec_wwii_chest_carrier"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_defib"
 			}
 			"allowed_items"
@@ -221,6 +224,7 @@
 			
 				"weapon"					"weapon_doi2ins_g43"
 				"weapon"					"weapon_doi2ins_g43_worn"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_k98"
 				"weapon"					"weapon_doi2ins_k98_veteran"
 				"weapon"					"weapon_doi2ins_stielhandgranate"
@@ -251,7 +255,7 @@
 			"buy_order"
 			{
 				"gear"						"sec_light_armor"
-				"gear"						"sec_wwii_chest_carrier"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_defib"
 			}
 			
@@ -260,6 +264,7 @@
 				"weapon"					"weapon_defib"
 				
 				"weapon"					"weapon_doi2ins_mosin"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_izh43"
 				"weapon"					"weapon_doi2ins_f1"
 				"weapon"					"weapon_doi2ins_sw1917"
@@ -288,7 +293,7 @@
 			"buy_order"
 			{
 				"gear"						"sec_light_armor"
-				"gear"						"sec_wwii_chest_carrier"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_defib"
 			}
 			"allowed_items"
@@ -297,6 +302,7 @@
 			
 				"weapon"					"weapon_doi2ins_enfield"
 				"weapon"					"weapon_doi2ins_enfield_veteran"
+				"gear"						"doi2ins_light_kit"
 				"weapon_upgrade"			"underbarrel_doi2ins_rifle_grenade_enfield"
 				"weapon"					"weapon_doi2ins_m1897"
 				"weapon"					"weapon_doi2ins_m1912"
@@ -328,7 +334,7 @@
 			"buy_order"
 			{
 				"gear"						"sec_light_armor"
-				"gear"						"sec_wwii_chest_carrier"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_defib"
 			}
 			"allowed_items"
@@ -336,6 +342,7 @@
 				"weapon"					"weapon_defib"
 				
 				"weapon"					"weapon_doi2ins_m1carbine"
+				"gear"						"doi2ins_light_kit"
 				"weapon_upgrade"			"underbarrel_doi2ins_rifle_grenade_springfield"
 				"weapon"					"weapon_doi2ins_springfield_worn"
 				"weapon"					"weapon_doi2ins_springfield"
@@ -369,7 +376,7 @@
 			"buy_order"
 			{
 				"gear"						"sec_light_armor"
-				"gear"						"sec_wwii_chest_carrier"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_defib"
 			}
 			"allowed_items"
@@ -378,6 +385,7 @@
 			
 				"weapon"					"weapon_doi2ins_k98"
 				"weapon"					"weapon_doi2ins_k98_veteran"
+				"gear"						"doi2ins_light_kit"
 				"weapon_upgrade"			"underbarrel_doi2ins_rifle_grenade_k98"
 				"weapon"					"weapon_doi2ins_mp40"
 				"weapon"					"weapon_doi2ins_m1897"
@@ -412,7 +420,7 @@
 			"buy_order"
 			{
 				"gear"						"sec_light_armor"
-				"gear"						"sec_wwii_chest_carrier"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_defib"
 			}
 			"allowed_items"
@@ -421,6 +429,7 @@
 				
 				"weapon"					"weapon_doi2ins_thompson_m1928a1"
 				"weapon"					"weapon_doi2ins_owen"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_owen_mk2"
 				"weapon"					"weapon_doi2ins_sten_mk2"
 				"weapon"					"weapon_doi2ins_sten_mk5"
@@ -451,7 +460,7 @@
 			"buy_order"
 			{
 				"gear"						"sec_light_armor"
-				"gear"						"sec_wwii_chest_carrier"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_defib"
 			}
 			"allowed_items"
@@ -459,6 +468,7 @@
 				"weapon"					"weapon_defib"
 				
 				"weapon"					"weapon_doi2ins_ppsh41"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_welrod"
 				"weapon"					"weapon_doi2ins_tokarev"
 				"weapon"					"weapon_doi2ins_mp40"
@@ -488,7 +498,7 @@
 			"buy_order"
 			{
 				"gear"						"sec_light_armor"
-				"gear"						"sec_wwii_chest_carrier"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_defib"
 			}
 			
@@ -498,6 +508,7 @@
 				
 				"weapon"					"weapon_doi2ins_springfield_worn"
 				"weapon"					"weapon_doi2ins_springfield"
+				"gear"						"doi2ins_light_kit"
 				"weapon_upgrade"			"optic_doi2ins_scope_7x_springfield"
 				"weapon"					"weapon_doi2ins_m1911"
 				"weapon"					"weapon_doi2ins_sw1917"
@@ -527,7 +538,7 @@
 			"buy_order"
 			{
 				"gear"						"sec_light_armor"
-				"gear"						"sec_wwii_chest_carrier"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_defib"
 			}
 			
@@ -536,6 +547,7 @@
 				"weapon"					"weapon_defib"
 				
 				"weapon"					"weapon_doi2ins_mosin"
+				"gear"						"doi2ins_light_kit"
 				"weapon_upgrade"			"optic_doi2ins_scope_7x_mosin"
 				"weapon"					"weapon_doi2ins_welrod"
 				"weapon"					"weapon_doi2ins_tokarev"
@@ -562,7 +574,7 @@
 			"buy_order"
 			{
 				"gear"						"sec_light_armor"
-				"gear"						"sec_wwii_chest_carrier"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_defib"
 			}
 			"allowed_items"
@@ -570,6 +582,7 @@
 				"weapon"					"weapon_defib"
 			
 				"weapon"					"weapon_doi2ins_vickers"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_lewis"
 				"weapon"					"weapon_doi2ins_m1919"
 				"weapon"					"weapon_doi2ins_sw1917"
@@ -586,8 +599,8 @@
 			
 			"models"
 			{
-				"player"					"models/characters/security_light_f.mdl"
-				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
+				"player"				"models/characters/security_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
 			
 				"bodygroups"
 				{
@@ -599,7 +612,7 @@
 			"buy_order"
 			{
 				"gear"						"sec_light_armor"
-				"gear"						"sec_wwii_chest_carrier"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_defib"	
 				"gear"						"gear_iedjammer"
 			}
@@ -608,6 +621,7 @@
 				"weapon"					"weapon_defib"
 			
 				"weapon"					"weapon_doi2ins_stg44"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_mp40"
 				"weapon"					"weapon_doi2ins_fg42"
 				"weapon"					"weapon_doi2ins_c96carbine"
@@ -642,7 +656,7 @@
 			"buy_order"
 			{
 				"gear"						"sec_light_armor"
-				"gear"						"sec_wwii_chest_carrier"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_defib"
 				"weapon"					"weapon_makarov_fp"
 			}
@@ -652,6 +666,7 @@
 				"weapon"					"weapon_defib"
 			
 				"weapon"					"weapon_doi2ins_m3greasegun"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_makarov_fp"
 				"weapon"					"weapon_doi2ins_thompson_m1a1"
 				"weapon"					"weapon_doi2ins_bar"
@@ -682,7 +697,7 @@
 			"buy_order"
 			{
 				"gear"						"sec_light_armor"
-				"gear"						"sec_wwii_chest_carrier"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_defib"
 			}
 			
@@ -691,6 +706,7 @@
 				"weapon"					"weapon_defib"
 			
 				"weapon"					"weapon_doi2ins_mg34"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_mg42"
 				"weapon"					"weapon_doi2ins_m1919"
 				"weapon"					"weapon_doi2ins_luger"
@@ -709,7 +725,8 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light.mdl"
+				"player"			"models/characters/german/player_german_paratrooper_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger_gloves_paratrooper.mdl"
 			
 				"bodygroups"
 				{
@@ -721,7 +738,7 @@
 			"buy_order"
 			{
 				"gear"						"ins_light_armor"
-				"gear"						"ins_chest_rig"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_stg44"
 				"weapon"					"weapon_doi2ins_ppk"
 				"weapon"					"weapon_doi2ins_nebelhandgranate"
@@ -744,7 +761,8 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light.mdl"
+				"player"				"models/characters/german/player_german_paratrooper_01.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ger_gloves_paratrooper.mdl"
 			
 				"bodygroups"
 				{
@@ -755,7 +773,7 @@
 			
 			"buy_order"
 			{
-				"gear"						"ins_chest_rig"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_c96"
 				"weapon"					"weapon_doi2ins_mp40"
 				"weapon"					"weapon_doi2ins_stielhandgranate"
@@ -778,7 +796,8 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light.mdl"
+				"player"				"models/characters/german/player_german_paratrooper_01.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ger_gloves_paratrooper.mdl"
 			
 				"bodygroups"
 				{
@@ -790,7 +809,7 @@
 			"buy_order"
 			{
 				"gear"						"ins_light_armor"
-				"gear"						"ins_chest_rig"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_gravityknife"
 				"weapon"					"weapon_doi2ins_k98"
 				"weapon"					"weapon_doi2ins_p38"
@@ -814,7 +833,8 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light.mdl"
+				"player"				"models/characters/german/player_german_paratrooper_01.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ger_gloves_paratrooper.mdl"
 			
 				"bodygroups"
 				{
@@ -826,7 +846,7 @@
 			"buy_order"
 			{
 				"gear"						"ins_light_armor"
-				"gear"						"ins_chest_rig"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_gravityknife"
 				"weapon"					"weapon_doi2ins_mp40"
 				"weapon"					"weapon_doi2ins_c96"
@@ -849,7 +869,8 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light.mdl"
+				"player"				"models/characters/german/player_german_paratrooper_01.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ger_gloves_paratrooper.mdl"
 			
 				"bodygroups"
 				{
@@ -861,7 +882,7 @@
 			"buy_order"
 			{
 				"gear"						"ins_light_armor"
-				"gear"						"ins_chest_rig"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_gravityknife"
 				"weapon"					"weapon_doi2ins_mg34"
 				"weapon"					"weapon_doi2ins_luger"
@@ -882,7 +903,8 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light.mdl"
+				"player"				"models/characters/german/player_german_paratrooper_01.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ger_gloves_paratrooper.mdl"
 			
 				"bodygroups"
 				{
@@ -894,7 +916,7 @@
 			"buy_order"
 			{
 				"gear"						"ins_light_armor"
-				"gear"						"ins_chest_rig"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_gravityknife"
 				"weapon"					"weapon_doi2ins_k98"
 				"weapon"					"weapon_doi2ins_ppk"
@@ -917,7 +939,8 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light.mdl"
+				"player"				"models/characters/german/player_german_paratrooper_01.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ger_gloves_paratrooper.mdl"
 			
 				"bodygroups"
 				{
@@ -928,7 +951,7 @@
 			
 			"buy_order"
 			{
-				"gear"						"ins_chest_rig"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_gravityknife"
 				"weapon"					"weapon_doi2ins_ppsh41"
 				"weapon"					"weapon_doi2ins_sw1917"
@@ -951,7 +974,8 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light.mdl"
+				"player"				"models/characters/german/player_german_paratrooper_01.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ger_gloves_paratrooper.mdl"
 			
 				"bodygroups"
 				{
@@ -962,7 +986,7 @@
 			
 			"buy_order"
 			{
-				"gear"						"ins_chest_rig"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_gravityknife"
 				"weapon"					"weapon_doi2ins_k98"
 				"weapon"					"weapon_doi2ins_ppk"
@@ -986,7 +1010,8 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_heavy.mdl"
+				"player"				"models/characters/german/player_german_paratrooper_01.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ger_gloves_paratrooper.mdl"
 			
 				"bodygroups"
 				{
@@ -997,7 +1022,7 @@
 			
 			"buy_order"
 			{
-				"gear"						"ins_chest_rig"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_stielhandgranate"
 				"weapon"					"weapon_suicide_bomb"
 			}
@@ -1016,7 +1041,8 @@
 			
 			"models"
 			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"player"				"models/characters/german/player_german_paratrooper_01.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ger_gloves_paratrooper.mdl"
 			
 				"bodygroups"
 				{
@@ -1027,7 +1053,7 @@
 			
 			"buy_order"
 			{
-				"gear"						"ins_chest_rig"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_mg42"
 				"weapon"					"weapon_doi2ins_panzerschreck"
 				"weapon"					"weapon_doi2ins_gravityknife"
@@ -1038,7 +1064,7 @@
 			
 			"allowed_items"
 			{
-				"gear"						"ins_chest_rig"
+				"gear"						"doi2ins_light_kit"
 				"weapon"					"weapon_doi2ins_mg42"
 				"weapon"					"weapon_doi2ins_panzerschreck"
 				"weapon"					"weapon_doi2ins_gravityknife"
