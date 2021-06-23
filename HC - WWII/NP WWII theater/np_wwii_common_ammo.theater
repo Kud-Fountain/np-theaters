@@ -193,7 +193,7 @@
 		"792x57_clip"
 		{
 			"import"		"762x38mm_clip"
-			"carry"			"12"
+			"carry"			"8"
 			"magsize"		"10"
 			
 			"PenetrationPower"
@@ -544,7 +544,7 @@
 		"303_brit_box_30rnd"
 		{
 			"import"					"303_brit"
-			"carry"						"8"
+			"carry"						"6"
 			"magsize"					"30"
 			"tracer_frequency"			"10"
 			"tracer_type"				"whiz_with_line"
@@ -659,7 +659,7 @@
 		"9x19mm_b"
 		{
 			"import"				"9x19"
-			"carry"					"10"
+			"carry"					"3"
 			"magsize"				"8"
 			
 			"PenetrationPower"
@@ -709,7 +709,7 @@
 		"32_acp"
 		{
 			"import"				"32acp"
-			"carry"					"10"
+			"carry"					"4"
 			"magsize"				"7"
 			
 			"PenetrationPower"
@@ -902,7 +902,7 @@
 		"8x22_pistol"
 		{
 			"import"				"9x19mm_smg"
-			"carry"					"3"
+			"carry"					"4"
 			"magsize"				"8"		
 
 			"Damage"

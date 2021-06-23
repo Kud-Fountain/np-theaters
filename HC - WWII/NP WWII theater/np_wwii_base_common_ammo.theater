@@ -66,7 +66,7 @@
 		}
 		"grenade_molotov"
 		{
-			"carry"					"3"
+			"carry"					"1"
 		}
 		"grenade_flares"
 		{
@@ -156,6 +156,7 @@
 		"45acp_pistol"	// FMJ (US Army Ball) 230gr 250m/s  477J
 		{
 			"import"				"45acp"
+			"carry"					"4"
 			"magsize"				"7"
 			"Damage"
 			{
@@ -294,6 +295,7 @@
 		"7.62×25_pistol"	
 		{
 			"import"					"default"
+			"carry"						"3"
 			"SuppressionIncrement"		"10"
 			"magsize"					"8"
 			"brass_model"				"models/weapons/shells/9x19.mdl"

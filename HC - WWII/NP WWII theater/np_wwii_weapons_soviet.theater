@@ -237,7 +237,7 @@
 				"ammo_type"				"buckshot"
 				"clip_max"				"60"
 				"clip_max_rounds"			"2"	
-				"clip_default"				"30"
+				"clip_default"				"44"
 			}
 			"attachments"
 			{
