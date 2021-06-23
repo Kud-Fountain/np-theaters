@@ -1370,8 +1370,8 @@
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
 				"weapon"				"weapon_sandstorm_sig_mpx"
-				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_m4a1"
+				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_sig_mcx"
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
@@ -1397,13 +1397,13 @@
 						"weapon"			"weapon_sandstorm_l85a2"
 						"weapon"			"weapon_sandstorm_saiga_12"
 						"weapon"			"weapon_sandstorm_sig_mpx"
-						"weapon"			"weapon_sandstorm_steyrauga3"
 						"weapon"			"weapon_sandstorm_honeybadger"						
 						"weapon"			"weapon_sandstorm_m4a1"
 						"weapon"			"weapon_sandstorm_sig_mcx"
 						"weapon"			"weapon_sandstorm_g36k"
-						"weapon"			"weapon_sandstorm_vhs2"						
-					}
+						"weapon"			"weapon_sandstorm_vhs2"		
+						"weapon"			"weapon_sandstorm_steyrauga3"
+					}					
 
 				}
 				
@@ -1419,17 +1419,7 @@
 						"weapon"			"weapon_sandstorm_sig_mpx"
 						"weapon"			"weapon_sandstorm_honeybadger"
 					}
-				}	
-				
-				"standard_steyrauga3"
-				{
-					"model"					"models/sndstrm/upgrades/a_standard3_saug.mdl"
-					
-					"weapons"
-					{
-						"weapon"			"weapon_sandstorm_steyrauga3"
-					}
-				}									
+				}								
 				
 				"standard_m4a1"
 				{
@@ -1449,7 +1439,17 @@
 					{
 						"weapon"			"weapon_sandstorm_g36k"
 					}
-				}							
+				}
+
+				"standard_Steyr_AUG"
+				{
+					"model"					"models/sndstrm/upgrades/a_standard5_saug.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_sandstorm_steyrauga3"
+					}
+				}				
 				
 			}
 		}
@@ -1948,8 +1948,6 @@
 			{
 				"weapon"				"weapon_sandstorm_m4a1"
 				"weapon"				"weapon_sandstorm_m16a4"
-				"weapon"				"weapon_sandstorm_famas"
-				"weapon"				"weapon_sandstorm_m16a2"
 			}
 			
 			"viewmodel_attachments"
@@ -1962,7 +1960,7 @@
 					{
 						"weapon"		"weapon_sandstorm_m4a1"
 					}
-				}	
+				}
 
 				"iron_sight_m16"
 				{
@@ -1971,27 +1969,6 @@
 					"weapons"
 					{
 						"weapon"		"weapon_sandstorm_m16a4"
-					}
-				}	
-				
-				"iron_sight_famas"
-				{
-					"model"				"models/sndstrm/upgrades/a_carryhandle_fms.mdl"
-					
-					"weapons"
-					{
-						"weapon"		"weapon_sandstorm_famas"
-					}
-				}	
-								
-
-				"iron_sight_m16a2"
-				{
-					"model"				"models/sndstrm/upgrades/a_carryhandle_ma2.mdl"
-					
-					"weapons"
-					{
-						"weapon"		"weapon_sandstorm_m16a2"
 					}
 				}				
 			}
@@ -2006,7 +1983,7 @@
 					{
 						"weapon"			"weapon_sandstorm_m4a1"
 					}			
-				}					
+				}	
 
 				"iron_sight_m16"
 				{
@@ -2016,27 +1993,7 @@
 					{
 						"weapon"			"weapon_sandstorm_m16a4"
 					}			
-				}	
-				
-				"iron_sight_famas"
-				{
-					"model"					"models/sndstrm/upgrades/w_flipfms.mdl"
-				
-					"weapons"
-					{
-						"weapon"			"weapon_sandstorm_famas"
-					}			
 				}					
-
-				"iron_sight_m16a2"
-				{
-					"model"					"models/sndstrm/upgrades/w_flipma2.mdl"
-				
-					"weapons"
-					{
-						"weapon"			"weapon_sandstorm_m16a2"
-					}			
-				}				
 			}		
 		
 		}
@@ -2064,12 +2021,28 @@
 			
 			"viewmodel_attachments"
 			{
-				"2xScope_Large"
+				"Kobra_Normal"
 				{
-					"model"					"models/sndstrm/upgrades/a_optic_pkas15_l.mdl"
-					"AnimIronSights"			"4x_zoom"
-					"AnimIdle"				"4x_idle"
-					"Gesture"				"delta_aimp2x"
+					"model"					"models/sndstrm/upgrades/a_optic_pk_as.mdl"
+					"AnimIronSights"			"zoom"
+					"AnimIdle"				"idle"
+					"Gesture"				"delta_kobra"
+					"Main"					"1"
+					"ReticleScale"				"0.7"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_sandstorm_uzi"
+						"weapon"				"weapon_sandstorm_sterling"
+					}
+				}
+				
+				"Kobra_XLarge"
+				{
+					"model"					"models/sndstrm/upgrades/a_optic_pk_as_xl.mdl"
+					"AnimIronSights"			"zoom"
+					"AnimIdle"				"idle"
+					"Gesture"				"delta_kobra"
 					"Main"					"1"
 					
 					"weapons"
@@ -2077,12 +2050,12 @@
 						"weapon"				"weapon_sandstorm_vhs2"
 					}
 				}
-				"2xScope_Normal"
+				"Kobra_Large"
 				{
-					"model"					"models/sndstrm/upgrades/a_optic_pkas15.mdl"
-					"AnimIronSights"			"4x_zoom"
-					"AnimIdle"				"4x_idle"
-					"Gesture"				"delta_aimp2x"
+					"model"					"models/sndstrm/upgrades/a_optic_pk_as_l.mdl"
+					"AnimIronSights"			"zoom"
+					"AnimIdle"				"idle"
+					"Gesture"				"delta_kobra"
 					"Main"					"1"
 					
 					"excluded_weapons"
@@ -2092,66 +2065,59 @@
 						"weapon"				"weapon_sandstorm_sterling"
 					}
 				}
-				
-				"2xScope_Small"
-				{
-					"model"					"models/sndstrm/upgrades/a_optic_pkas15_m.mdl"
-					"AnimIronSights"			"4x_zoom"
-					"AnimIdle"				"4x_idle"
-					"Gesture"				"delta_aimp2x"
-					"Main"					"1"
-					
-					"weapons"
-					{
-						"weapon"				"weapon_sandstorm_uzi"
-						"weapon"				"weapon_sandstorm_sterling"
-					}
-				}
 			}
 			
 			"world_attachments"
 			{
-				"Scope"
+				// Optic
+				"Kobra"
 				{
-					"model"					"models/sndstrm/upgrades/w_pkas15.mdl"
+					"model"					"models/sndstrm/upgrades/w_kobra.mdl"
 				}
+			}
+			
+			"optics"
+			{
+				"optic_holographic"			"1"
+				"optic_material"			"models/weapons/optics/kobra_dot"
+				"optic_paralax_distance"		"4"
+				"optic_reticle_size"			"0.15"
 			}
 			
 			"optics_fov_override"
 			{
-				"fov_wpn_scope"				"16"
-				"fov_wpn_ironsight"			"39"
-				"fov_wpn_focus"				"39"
-				
-				"weapon_sandstorm_vhs2"
-				{
-					"fov_wpn_ironsight"			"63"
-					"fov_wpn_focus"				"70"
-				}				
-				
-				"weapon_sandstorm_m870"
-				{
-					"fov_wpn_ironsight"			"60"
-					"fov_wpn_focus"				"68"
-				}
+				"fov_wpn_ironsight"			"58"
+				"fov_wpn_focus"				"68"				
 
 				"weapon_sandstorm_toz"
 				{
-					"fov_wpn_ironsight"			"46"
-					"fov_wpn_focus"				"54"
+					"fov_wpn_ironsight"			"54"
+					"fov_wpn_focus"				"60"
+				}
+
+				"weapon_sandstorm_vhs2"
+				{
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"70"
+				}				
+
+				"weapon_sandstorm_m870"
+				{
+					"fov_wpn_ironsight"			"61"
+					"fov_wpn_focus"				"70"
 				}
 				
 				"weapon_sandstorm_uzi"
 				{
-					"fov_wpn_ironsight"			"43"
-					"fov_wpn_focus"				"51"
+					"fov_wpn_ironsight"			"56"
+					"fov_wpn_focus"				"63"
 				}	
 
 				"weapon_sandstorm_sterling"
 				{
-					"fov_wpn_ironsight"			"43"
-					"fov_wpn_focus"				"51"
-				}						
+					"fov_wpn_ironsight"			"56"
+					"fov_wpn_focus"				"63"
+				}			
 				
 			}
 		}
@@ -2172,6 +2138,7 @@
 				"weapon"				"weapon_sandstorm_famas"
 				"weapon"				"weapon_sandstorm_m16a2"
 				"weapon"				"weapon_sandstorm_m4a1"
+				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_sig_mcx"
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
@@ -2182,7 +2149,6 @@
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
 				"weapon"				"weapon_sandstorm_sig_mpx"
-				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m870"
 				"weapon"				"weapon_sandstorm_m14"
@@ -2229,6 +2195,7 @@
 						"weapon"				"weapon_sandstorm_famas"
 						"weapon"				"weapon_sandstorm_m16a2"
 						"weapon"				"weapon_sandstorm_m4a1"
+						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_sig_mcx"
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
@@ -2251,6 +2218,7 @@
 						"weapon"				"weapon_sandstorm_famas"
 						"weapon"				"weapon_sandstorm_m16a2"
 						"weapon"				"weapon_sandstorm_m4a1"
+						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_sig_mcx"
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
@@ -2323,6 +2291,12 @@
 					"fov_wpn_focus"				"70"
 				}
 				
+				"weapon_sandstorm_steyrauga3"
+				{
+					"fov_wpn_ironsight"			"63"
+					"fov_wpn_focus"				"70"
+				}				
+				
 				"weapon_sandstorm_sig_mcx"
 				{
 					"fov_wpn_ironsight"			"63"
@@ -2378,12 +2352,6 @@
 				}		
 		
 				"weapon_sandstorm_sig_mpx"
-				{
-					"fov_wpn_ironsight"			"59"
-					"fov_wpn_focus"				"67"
-				}					
-
-				"weapon_sandstorm_steyrauga3"
 				{
 					"fov_wpn_ironsight"			"59"
 					"fov_wpn_focus"				"67"
@@ -2561,6 +2529,7 @@
 				"weapon"				"weapon_sandstorm_famas"
 				"weapon"				"weapon_sandstorm_m16a2"
 				"weapon"				"weapon_sandstorm_m4a1"
+				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_sig_mcx"
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
@@ -2571,7 +2540,6 @@
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
 				"weapon"				"weapon_sandstorm_sig_mpx"
-				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m870"
 				"weapon"				"weapon_sandstorm_m14"
@@ -2615,6 +2583,7 @@
 						"weapon"				"weapon_sandstorm_famas"
 						"weapon"				"weapon_sandstorm_m16a2"
 						"weapon"				"weapon_sandstorm_m4a1"
+						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_sig_mcx"
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
@@ -2637,6 +2606,7 @@
 						"weapon"				"weapon_sandstorm_famas"
 						"weapon"				"weapon_sandstorm_m16a2"
 						"weapon"				"weapon_sandstorm_m4a1"
+						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_sig_mcx"
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
@@ -2719,6 +2689,12 @@
 					"fov_wpn_focus"				"63"
 				}
 				
+				"weapon_sandstorm_steyrauga3"
+				{
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"63"
+				}				
+				
 				"weapon_sandstorm_sig_mcx"
 				{
 					"fov_wpn_ironsight"			"55"
@@ -2760,12 +2736,6 @@
 					"fov_wpn_ironsight"			"58"
 					"fov_wpn_focus"				"66"
 				}						
-				
-				"weapon_sandstorm_steyrauga3"
-				{
-					"fov_wpn_ironsight"			"58"
-					"fov_wpn_focus"				"66"
-				}					
 
 				"weapon_sandstorm_honeybadger"
 				{
@@ -2923,6 +2893,7 @@
 				"weapon"				"weapon_sandstorm_galil_sar"
 				"weapon"				"weapon_sandstorm_l1a1"
 				"weapon"				"weapon_sandstorm_m4a1"
+				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_sig_mcx"
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
@@ -2932,7 +2903,6 @@
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
 				"weapon"				"weapon_sandstorm_sig_mpx"
-				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m870"
 				"weapon"				"weapon_sandstorm_m14"
@@ -2968,6 +2938,7 @@
 					"weapons"
 					{
 						"weapon"				"weapon_sandstorm_m4a1"
+						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_sig_mcx"
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
@@ -2987,6 +2958,7 @@
 						"weapon"				"weapon_sandstorm_mp5a2"
 						"weapon"				"weapon_sandstorm_mp7"
 						"weapon"				"weapon_sandstorm_m4a1"
+						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_sig_mcx"
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
@@ -3051,6 +3023,12 @@
 					"fov_wpn_focus"				"63"
 				}
 				
+				"weapon_sandstorm_steyrauga3"
+				{
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"63"
+				}				
+				
 				"weapon_sandstorm_sig_mcx"
 				{
 					"fov_wpn_ironsight"			"55"
@@ -3088,12 +3066,6 @@
 				}					
 				
 				"weapon_sandstorm_sig_mpx"
-				{
-					"fov_wpn_ironsight"			"58"
-					"fov_wpn_focus"				"66"
-				}					
-				
-				"weapon_sandstorm_steyrauga3"
 				{
 					"fov_wpn_ironsight"			"58"
 					"fov_wpn_focus"				"66"
@@ -3236,6 +3208,7 @@
 				// security weapons
 				"weapon"				"weapon_sandstorm_galil_sar"
 				"weapon"				"weapon_sandstorm_m4a1"
+				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_sig_mcx"
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
@@ -3246,7 +3219,6 @@
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
 				"weapon"				"weapon_sandstorm_sig_mpx"
-				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m14"
 				"weapon"				"weapon_sandstorm_mk17"
@@ -3287,6 +3259,7 @@
 					"excluded_weapons"
 					{
 						"weapon"				"weapon_sandstorm_m4a1"
+						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_sig_mcx"
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
@@ -3294,7 +3267,6 @@
 						"weapon"				"weapon_sandstorm_l85a2"
 						"weapon"				"weapon_sandstorm_saiga_12"
 						"weapon"				"weapon_sandstorm_sig_mpx"
-						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_honeybadger"
 						"weapon"				"weapon_sandstorm_asval"
 					}
@@ -3311,6 +3283,7 @@
 					"weapons"
 					{
 						"weapon"				"weapon_sandstorm_m4a1"
+						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_sig_mcx"
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
@@ -3318,7 +3291,6 @@
 						"weapon"				"weapon_sandstorm_l85a2"
 						"weapon"				"weapon_sandstorm_saiga_12"
 						"weapon"				"weapon_sandstorm_sig_mpx"
-						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_honeybadger"
 						"weapon"				"weapon_sandstorm_asval"
 					}
@@ -3344,6 +3316,12 @@
 					"fov_wpn_ironsight"			"62"
 					"fov_wpn_focus"				"64"
 				}
+				
+				"weapon_sandstorm_steyrauga3"
+				{
+					"fov_wpn_ironsight"			"62"
+					"fov_wpn_focus"				"64"
+				}				
 				
 				"weapon_sandstorm_sig_mcx"
 				{
@@ -3386,13 +3364,7 @@
 					"fov_wpn_ironsight"			"70"
 					"fov_wpn_focus"				"72"
 				}				
-				
-				"weapon_sandstorm_steyrauga3"
-				{
-					"fov_wpn_ironsight"			"70"
-					"fov_wpn_focus"				"72"
-				}				
-				
+
 				"weapon_sandstorm_honeybadger"
 				{
 					"fov_wpn_ironsight"			"70"
@@ -3575,6 +3547,7 @@
 				"weapon"				"weapon_sandstorm_famas"
 				"weapon"				"weapon_sandstorm_m16a2"
 				"weapon"				"weapon_sandstorm_m4a1"
+				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_sig_mcx"
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
@@ -3585,7 +3558,6 @@
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
 				"weapon"				"weapon_sandstorm_sig_mpx"
-				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m14"
 				"weapon"				"weapon_sandstorm_mk17"
@@ -3629,6 +3601,7 @@
 						"weapon"				"weapon_sandstorm_famas"
 						"weapon"				"weapon_sandstorm_m16a2"
 						"weapon"				"weapon_sandstorm_m4a1"
+						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_sig_mcx"
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
@@ -3636,7 +3609,6 @@
 						"weapon"				"weapon_sandstorm_l85a2"
 						"weapon"				"weapon_sandstorm_saiga_12"
 						"weapon"				"weapon_sandstorm_sig_mpx"
-						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_honeybadger"
 						"weapon"				"weapon_sandstorm_asval"
 					}
@@ -3656,6 +3628,7 @@
 						"weapon"				"weapon_sandstorm_famas"
 						"weapon"				"weapon_sandstorm_m16a2"
 						"weapon"				"weapon_sandstorm_m4a1"
+						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_sig_mcx"
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
@@ -3663,7 +3636,6 @@
 						"weapon"				"weapon_sandstorm_l85a2"
 						"weapon"				"weapon_sandstorm_saiga_12"
 						"weapon"				"weapon_sandstorm_sig_mpx"
-						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_honeybadger"
 						"weapon"				"weapon_sandstorm_asval"
 					}
@@ -3708,6 +3680,12 @@
 					"fov_wpn_focus"				"64"
 				}
 				
+				"weapon_sandstorm_steyrauga3"
+				{
+					"fov_wpn_ironsight"			"62"
+					"fov_wpn_focus"				"64"
+				}				
+				
 				"weapon_sandstorm_sig_mcx"
 				{
 					"fov_wpn_ironsight"			"62"
@@ -3750,12 +3728,6 @@
 					"fov_wpn_focus"				"72"
 				}				
 
-				"weapon_sandstorm_steyrauga3"
-				{
-					"fov_wpn_ironsight"			"70"
-					"fov_wpn_focus"				"72"
-				}				
-				
 				"weapon_sandstorm_honeybadger"
 				{
 					"fov_wpn_ironsight"			"70"
@@ -3938,6 +3910,7 @@
 				"weapon"				"weapon_sandstorm_famas"
 				"weapon"				"weapon_sandstorm_m16a2"
 				"weapon"				"weapon_sandstorm_m4a1"
+				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_sig_mcx"
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
@@ -3948,7 +3921,6 @@
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
 				"weapon"				"weapon_sandstorm_sig_mpx"
-				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m870"
 				"weapon"				"weapon_sandstorm_m14"
@@ -4016,6 +3988,7 @@
 						"weapon"				"weapon_sandstorm_famas"
 						"weapon"				"weapon_sandstorm_m16a2"
 						"weapon"				"weapon_sandstorm_m4a1"
+						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_sig_mcx"
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
@@ -4023,7 +3996,6 @@
 						"weapon"				"weapon_sandstorm_l85a2"
 						"weapon"				"weapon_sandstorm_saiga_12"
 						"weapon"				"weapon_sandstorm_sig_mpx"
-						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_honeybadger"
 						"weapon"				"weapon_sandstorm_uzi"
 						"weapon"				"weapon_sandstorm_sterling"
@@ -4045,7 +4017,6 @@
 						"weapon"				"weapon_sandstorm_l85a2"
 						"weapon"				"weapon_sandstorm_saiga_12"
 						"weapon"				"weapon_sandstorm_sig_mpx"
-						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_honeybadger"
 						// "weapon"				"weapon_sandstorm_m249"
 						// "weapon"				"weapon_sandstorm_m240"
@@ -4065,6 +4036,7 @@
 						"weapon"				"weapon_sandstorm_famas"
 						"weapon"				"weapon_sandstorm_m16a2"
 						"weapon"				"weapon_sandstorm_m4a1"
+						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_sig_mcx"
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
@@ -4103,12 +4075,6 @@
 			{
 				"fov_wpn_ironsight"			"68"
 				"fov_wpn_focus"				"79"			
-				
-				"weapon_sandstorm_steyrauga3"
-				{
-					"fov_wpn_ironsight"			"76"
-					"fov_wpn_focus"				"82"
-				}	
 
 				"weapon_sandstorm_honeybadger"
 				{
@@ -4324,6 +4290,7 @@
 				"weapon"				"weapon_sandstorm_famas"
 				"weapon"				"weapon_sandstorm_m16a2"
 				"weapon"				"weapon_sandstorm_m4a1"
+				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_sig_mcx"
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
@@ -4332,7 +4299,6 @@
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
 				"weapon"				"weapon_sandstorm_sig_mpx"
-				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m870"
 				"weapon"				"weapon_sandstorm_m14"
@@ -4381,6 +4347,7 @@
 						"weapon"				"weapon_sandstorm_famas"
 						"weapon"				"weapon_sandstorm_m16a2"
 						"weapon"				"weapon_sandstorm_m4a1"
+						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_sig_mcx"
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
@@ -4403,6 +4370,7 @@
 						"weapon"				"weapon_sandstorm_famas"
 						"weapon"				"weapon_sandstorm_m16a2"
 						"weapon"				"weapon_sandstorm_m4a1"
+						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_sig_mcx"
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
@@ -4544,6 +4512,12 @@
 					"fov_wpn_focus"				"70"
 				}
 				
+				"weapon_sandstorm_steyrauga3"
+				{
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"70"
+				}				
+				
 				"weapon_sandstorm_sig_mcx"
 				{
 					"fov_wpn_ironsight"			"60"
@@ -4585,13 +4559,7 @@
 					"fov_wpn_ironsight"			"65"
 					"fov_wpn_focus"				"75"
 				}				
-
-				"weapon_sandstorm_steyrauga3"
-				{
-					"fov_wpn_ironsight"			"65"
-					"fov_wpn_focus"				"75"
-				}				
-				
+		
 				"weapon_sandstorm_honeybadger"
 				{
 					"fov_wpn_ironsight"			"65"
@@ -4701,7 +4669,6 @@
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
 				"weapon"				"weapon_sandstorm_sig_mpx"
-				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_mp5a5"
 				"weapon"				"weapon_sandstorm_mp5a2"
@@ -4749,6 +4716,7 @@
 						"weapon"				"weapon_sandstorm_famas"
 						"weapon"				"weapon_sandstorm_m16a2"
 						"weapon"				"weapon_sandstorm_m4a1"
+						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_sig_mcx"
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
@@ -4776,6 +4744,7 @@
 						"weapon"				"weapon_sandstorm_famas"
 						"weapon"				"weapon_sandstorm_m16a2"
 						"weapon"				"weapon_sandstorm_m4a1"
+						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_sig_mcx"
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
@@ -4934,13 +4903,7 @@
 					"fov_wpn_ironsight"			"64"
 					"fov_wpn_focus"				"68"
 				}									
-				
-				"weapon_sandstorm_steyrauga3"
-				{
-					"fov_wpn_ironsight"			"64"
-					"fov_wpn_focus"				"68"
-				}					
-				
+
 				"weapon_sandstorm_honeybadger"
 				{
 					"fov_wpn_ironsight"			"64"
@@ -5636,9 +5599,9 @@
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
 				"weapon"				"weapon_sandstorm_sig_mpx"
-				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m4a1"
+				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_sig_mcx"
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
@@ -5660,9 +5623,9 @@
 						"weapon_sandstorm_l85a2"		"0.5"
 						"weapon_sandstorm_saiga_12"		"0.5"
 						"weapon_sandstorm_sig_mpx" 		"0.5"
-						"weapon_sandstorm_steyrauga3"	"0.5"
 						"weapon_sandstorm_honeybadger"	"0.5"
 						"weapon_sandstorm_m4a1"			"0.5"
+						"weapon_sandstorm_steyrauga3"	"0.5"
 						"weapon_sandstorm_sig_mcx"		"0.5"
 						"weapon_sandstorm_g36k"			"0.5"
 						"weapon_sandstorm_vhs2"			"0.5"
@@ -5710,6 +5673,16 @@
 					}
 				}
 				
+				"Standard_Steyr_AUG"
+				{
+					"model"					"models/sndstrm/upgrades/a_standard4_saug.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_sandstorm_steyrauga3"
+					}
+				}				
+				
 				"Standard_G36K"
 				{
 					"model"					"models/sndstrm/upgrades/a_standard4_g36k.mdl"
@@ -5738,6 +5711,7 @@
 					{
 						"weapon"				"weapon_sandstorm_m4a1"
 						"weapon"				"weapon_sandstorm_sig_mcx"
+						"weapon"				"weapon_sandstorm_steyrauga3"
 					}
 				}
 				
@@ -5839,7 +5813,8 @@
 			
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_sandstorm_m4a1"		
+				"weapon"					"weapon_sandstorm_m4a1"	
+				"weapon"					"weapon_sandstorm_steyrauga3"
 				"weapon"					"weapon_sandstorm_sig_mcx"
 				"weapon"					"weapon_sandstorm_m16a4"
 				"weapon"					"weapon_sandstorm_famas"
@@ -5865,7 +5840,6 @@
 				"weapon"					"weapon_sandstorm_l85a2"
 				"weapon"					"weapon_sandstorm_saiga_12"
 				"weapon"					"weapon_sandstorm_sig_mpx"
-				"weapon"					"weapon_sandstorm_steyrauga3"
 				"weapon"					"weapon_sandstorm_m24"
 				"weapon"					"weapon_sandstorm_mosin"
 				"weapon"					"weapon_sandstorm_svd"
@@ -6037,6 +6011,7 @@
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_sandstorm_m4a1"
+				"weapon"					"weapon_sandstorm_steyrauga3"
 				"weapon"					"weapon_sandstorm_sig_mcx"
 				"weapon"					"weapon_sandstorm_m16a4"
 				"weapon"					"weapon_sandstorm_famas"
@@ -6064,7 +6039,6 @@
 				"weapon"					"weapon_sandstorm_l85a2"
 				"weapon"					"weapon_sandstorm_saiga_12"
 				"weapon"					"weapon_sandstorm_sig_mpx"
-				"weapon"					"weapon_sandstorm_steyrauga3"
 				"weapon"					"weapon_sandstorm_m24"
 				"weapon"					"weapon_sandstorm_mosin"
 				"weapon"					"weapon_sandstorm_svd"
@@ -6282,6 +6256,7 @@
 				"weapon"				"weapon_sandstorm_famas"
 				"weapon"				"weapon_sandstorm_m16a2"
 				"weapon"				"weapon_sandstorm_m4a1"
+				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_sig_mcx"
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
@@ -6332,7 +6307,6 @@
 				"weapon"				"weapon_sandstorm_saiga_12"
 				"weapon"				"weapon_sandstorm_sig_mpx"
 				"weapon"				"weapon_sandstorm_honeybadger"
-				"weapon"				"weapon_sandstorm_steyrauga3"
 			}
 			
 			"viewmodel_attachments"
@@ -6347,7 +6321,6 @@
 						"weapon"		"weapon_sandstorm_l85a2"
 						"weapon"		"weapon_sandstorm_saiga_12"
 						"weapon"		"weapon_sandstorm_sig_mpx"
-						"weapon"		"weapon_sandstorm_steyrauga3"
 					}					
 				}
 				
@@ -6644,7 +6617,6 @@
 				"weapon"				"weapon_sandstorm_sig_mcx"
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
-				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m14"	
 				"weapon"				"weapon_sandstorm_mk17"
@@ -6659,7 +6631,6 @@
 					"weapons"
 					{
 						"weapon"				"weapon_sandstorm_honeybadger"
-						"weapon"				"weapon_sandstorm_m4a1"	
 						"weapon"				"weapon_sandstorm_sig_mcx"
 						"weapon"				"weapon_sandstorm_g36k"
 					}						
@@ -6683,8 +6654,7 @@
 						"weapon"				"weapon_sandstorm_m14"
 						"weapon"				"weapon_sandstorm_mk17"	
 						"weapon"				"weapon_sandstorm_vhs2"
-						"weapon"				"weapon_sandstorm_steyrauga3"
-					}				
+					}						
 					
 				}				
 				
@@ -6701,7 +6671,8 @@
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_mk18"
 				"weapon"				"weapon_sandstorm_saiga_12"
-				"weapon"				"weapon_sandstorm_sig_mpx"								
+				"weapon"				"weapon_sandstorm_sig_mpx"	
+				"weapon"				"weapon_sandstorm_steyrauga3"				
 			}
 			
 			"viewmodel_attachments"
@@ -6711,6 +6682,16 @@
 					"model"					"models/weapons/upgrades/a_laser_rail.mdl"
 					"Main"					"1"
 				}
+				
+				"standard_Steyr_AUG"
+				{
+					"model"					"models/sndstrm/upgrades/a_standard5_saug.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_sandstorm_steyrauga3"	
+					}
+				}				
 				
 				"standard_l85a2"
 				{
@@ -7279,6 +7260,16 @@
 					}
 				}
 				
+				"Standard_Steyr_AUG"
+				{
+					"model"					"models/sndstrm/upgrades/a_standard6_saug.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_sandstorm_steyrauga3"
+					}
+				}				
+				
 				"Standard_G36K"
 				{
 					"model"					"models/sndstrm/upgrades/a_standard6_g36k.mdl"
@@ -7347,6 +7338,7 @@
 				"weapon"				"weapon_sandstorm_famas"
 				"weapon"				"weapon_sandstorm_m16a2"
 				"weapon"				"weapon_sandstorm_m4a1"
+				"weapon"				"weapon_sandstorm_steyrauga3"
 				"weapon"				"weapon_sandstorm_sig_mcx"
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
