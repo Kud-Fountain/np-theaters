@@ -3607,30 +3607,42 @@
 			{
 				"flipsights"
 				{
-					"model"					"models/sndstrm/upgrades/a_standard_saug.mdl"
+					"model"					"models/sndstrm/upgrades/a_carryhandleaug.mdl"
 					"fallback_for_slot"			"optics"
 				}
-				"rail"
+				"standard_m4a1"
 				{
-					"model"					"models/sndstrm/upgrades/a_standard2_saug.mdl"
+					"model"					"models/sndstrm/upgrades/a_standard_saug.mdl"
+					"fallback_for_slot"			"underbarrel"
+				}
+				"standard2_m4a1"
+				{
+					"model"					"models/weapons/upgrades/a_standard2_m4a1.mdl"
+					"fallback_for_slot"			"underbarrel"
+				}
+				"standard3_m4a1"
+				{
+					"model"					"models/weapons/upgrades/a_standard3_m4a1.mdl"
 					"fallback_for_slot"			"siderail"
 				}
 			}
+			
 			"world_attachments"
 			{
 				"flipsights"
 				{
-					"model"					"models/sndstrm/upgrades/w_saugup2.mdl"
+					"model"					"models/sndstrm/upgrades/w_flipaug.mdl"
 					"fallback_for_slot"			"optics"
 				}
 			}
+			
 			"fov"
 			{
 				"fov_plr_ironsight"			"-25"
 				"fov_plr_focus"				"-12"
 				"fov_wpn_default"			"68"
-				"fov_wpn_ironsight"			"80"
-				"fov_wpn_focus"				"81"
+				"fov_wpn_ironsight"			"74"
+				"fov_wpn_focus"				"79"
 			}
 			"viewmodel_offsets"
 			{
@@ -3643,13 +3655,13 @@
 				"shot_single_local"			"Weapon_sandstorm_M16A4.SingleLocal"
 				"shot_silent"				"Weapon_sandstorm_M16A4.SingleSilenced"
 				"shot_silent_local"			"Weapon_sandstorm_M16A4.SingleSilencedLocal"
-				"empty"					"Weapon_mk18.Empty"
-				"clipin"				"Weapon_mk18.Magin"
-				"clipout"				"Weapon_mk18.Magout"
-				"boltback"				"Weapon_mk18.Boltback"
-				"boltrelease"				"Weapon_mk18.Boltrelease"
-				"rofdown"				"Weapon_mk18.ROF"
-				"rofup"					"Weapon_mk18.ROF"
+				"empty"					"Weapon_M4a1.Empty"
+				"clipin"				"Weapon_M4a1.Magin"
+				"clipout"				"Weapon_M4a1.Magout"
+				"boltback"				"Weapon_M4a1.Boltback"
+				"boltrelease"				"Weapon_M4a1.Boltrelease"
+				"rofdown"				"Weapon_M4a1.ROF"
+				"rofup"					"Weapon_M4a1.ROF"
 			}
 			"particles"
 			{
