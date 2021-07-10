@@ -1,1 +1,0 @@
-# NP Theaters Git
