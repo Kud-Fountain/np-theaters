@@ -55,7 +55,7 @@
 					"#Squad_Sandstorm_Gunner"			"template_sandstorm_insurgent_gunner"		// Gunner
 					"#Squad_Sandstorm_Gunner"		    "template_sandstorm_insurgent_gunner"		// Gunner
 					"#Squad_Sandstorm_Demolitions"		"template_sandstorm_insurgent_demolitions"	// Demolitions
-					"#Squad_Sandstorm_JUG"				"template_sandstorm_insurgent_juggernaut"
+					//"#Squad_Sandstorm_JUG"				"template_sandstorm_insurgent_juggernaut"
 					"#Squad_Sandstorm_Marksman"			"template_sandstorm_insurgent_marksman"		// Marksman
 				}
 				

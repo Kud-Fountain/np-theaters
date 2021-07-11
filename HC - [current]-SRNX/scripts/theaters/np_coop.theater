@@ -27,6 +27,11 @@
 			"sounds"			"scripts/extra_weapon_cues.txt"
 			
 			"particles"         "particles/gas_grenades.pcf"
+			"particles"         "particles/666.pcf"
+			"particles"         "particles/888.pcf"
+			"particles"         "particles/fxparticle.pcf"
+			"particles"         "particles/trails.pcf"
+			
 			"localize"			"resource/gnalvlsrealism_schinese.txt"
 		}
 	}

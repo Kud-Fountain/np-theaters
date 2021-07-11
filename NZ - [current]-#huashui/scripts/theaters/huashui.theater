@@ -26,6 +26,11 @@
             "sounds"			"scripts/audio/huashui_custom_sounds.txt"
 			
 			"sounds"			"scripts/audio/doi_sounds_world.txt"
+			
+			"particles"         "particles/666.pcf"
+			"particles"         "particles/888.pcf"
+			"particles"         "particles/fxparticle.pcf"
+			"particles"         "particles/trails.pcf"
 			// custom particles		//fix
 			//"particles"			"particles/doi_weapon_fx.pcf"
 			//"particles"				"particles/blood_impact.pcf"

@@ -26,7 +26,12 @@
 			"sounds"			"scripts/ins_sounds_voice_coop.txt"
 			
 			// sandstorm source specific			
-			"sounds"			"scripts/sandstorm_source_sounds.txt"	
+			"sounds"			"scripts/sandstorm_source_sounds.txt"
+
+			"particles"         "particles/666.pcf"
+			"particles"         "particles/888.pcf"
+			"particles"         "particles/fxparticle.pcf"
+			"particles"         "particles/trails.pcf"
 
 			"localize"			"resource/ui/sandstorm_source_chinese.txt"			
 		}
@@ -286,6 +291,7 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_sandstorm_m110"
 				"weapon"					"weapon_sandstorm_mosin"
 				"weapon"					"weapon_sandstorm_m24"
 				"weapon"					"weapon_sandstorm_sks"
