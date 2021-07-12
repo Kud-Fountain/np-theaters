@@ -7799,7 +7799,7 @@
 			//"draw_speed_next_weapon"	"1.9"
 			//"holster_speed_prev_weapon"	"1.9"
 			"reload_speed"				"1.9"
-			//"bolt_speed"				"1.9"
+			"bolt_speed"				"1.9"
 			
 			"viewmodel_attachments"
 			{
@@ -7901,7 +7901,7 @@
 			//"draw_speed_next_weapon"	"1.9"
 			//"holster_speed_prev_weapon"	"1.9"
 			"reload_speed"				"1.9"
-			//"bolt_speed"				"1.9"
+			"bolt_speed"				"1.9"
 			
 			"fov"
 			{
