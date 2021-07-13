@@ -3,6 +3,7 @@
 
 "#base" "np_sandstormsource_gear_survival.theater"
 "#base" "np_sandstormsource_gloves.theater"
+"#base" "np_sandstormsource_weapon_expansion.theater"
 "#base" "np_sandstormsource_weapon.theater"
 "#base" "np_sandstormsource_weapon_upgrades.theater"
 
@@ -29,6 +30,11 @@
 			
 			// sandstorm source specific			
 			"sounds"			"scripts/sandstorm_source_sounds.txt"	
+
+			"particles"         "particles/666.pcf"
+			"particles"         "particles/888.pcf"
+			"particles"         "particles/fxparticle.pcf"
+			"particles"         "particles/trails.pcf"
 
 			"localize"			"resource/ui/sandstorm_source_chinese.txt"			
 		}
@@ -86,6 +92,7 @@
 				"weapon"					"weapon_sandstorm_g3a3"
 				"weapon"					"weapon_sandstorm_mk17"
 				"weapon"					"weapon_sandstorm_m1911"
+				"weapon"					"weapon_vietnam_tt33"
 				"weapon"					"weapon_sandstorm_m67"
 				//"weapon"					"weapon_sandstorm_molotov"
 				//"weapon"					"weapon_sandstorm_anm14"
@@ -130,6 +137,7 @@
 				"weapon"					"weapon_sandstorm_g3a3"
 				"weapon"					"weapon_sandstorm_mk17"
 				"weapon"					"weapon_sandstorm_m1911"
+				"weapon"					"weapon_vietnam_tt33"
 				"weapon"					"weapon_sandstorm_m67"
 				//"weapon"					"weapon_sandstorm_molotov"
 				//"weapon"					"weapon_sandstorm_anm14"
@@ -166,7 +174,8 @@
 			"allowed_items"
 			{
 				"weapon"					"weapon_defib"
-			
+				
+				"weapon"					"weapon_vietnam_car15"
 				"weapon"					"weapon_sandstorm_m16a4"
 				"weapon"					"weapon_sandstorm_ak74"
 				"weapon"					"weapon_sandstorm_famas"
@@ -249,6 +258,7 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_vietnam_type56"
 				"weapon"					"weapon_sandstorm_uzi"
 				"weapon"					"weapon_sandstorm_sterling"
 				"weapon"					"weapon_sandstorm_mp5a2"
@@ -288,6 +298,7 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_vietnam_m40"
 				"weapon"					"weapon_sandstorm_m110"
 				"weapon"					"weapon_sandstorm_mosin"
 				"weapon"					"weapon_sandstorm_m24"
