@@ -39,6 +39,8 @@
 		{
 			"import"					"base_ammo_slugs"
 			"team_access"				"security, insurgent"
+			
+			"ammo_type_override"			"slugs"
 
 			"allowed_weapons"
 			{
@@ -51,6 +53,8 @@
 		{
 			"import"					"base_ammo_slugs_saiga12"
 			"team_access"				"security, insurgent"
+			
+			"ammo_type_override"			"slugs_saiga12"
 
 			"allowed_weapons"
 			{
@@ -6176,6 +6180,414 @@
 		}
 
 		// ========================================
+		// AIMING FOREGRIP
+		// ========================================	
+
+		"underbarrel_aiminggrip_sandstorm_sec1"
+		{
+			"import"					"base_aiminggrip"
+			"team_access"				"security, insurgent"
+			
+			"weapon_mods"
+			{		
+			
+				"weapon_sandstorm_m16a4"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}
+				
+				"weapon_sandstorm_famas"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}		
+
+				"weapon_sandstorm_m16a2"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}
+
+				"weapon_sandstorm_mk18"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}		
+
+				"weapon_vietnam_car15"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}	
+
+				"weapon_sandstorm_l85a2"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}	
+
+				"weapon_sandstorm_saiga_12"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}	
+
+				"weapon_sandstorm_sig_mpx"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}	
+
+				"weapon_sandstorm_honeybadger"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}
+
+				"weapon_sandstorm_m4a1"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}			
+
+				"weapon_sandstorm_steyrauga3"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}	
+
+				"weapon_sandstorm_sig_mcx"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}			
+
+				"weapon_sandstorm_g36k"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}	
+
+				"weapon_sandstorm_vhs2"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}					
+				
+			}
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m16a4"
+				"weapon"				"weapon_sandstorm_famas"
+				"weapon"				"weapon_sandstorm_m16a2"
+				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_vietnam_car15"
+				"weapon"				"weapon_sandstorm_l85a2"
+				"weapon"				"weapon_sandstorm_saiga_12"
+				"weapon"				"weapon_sandstorm_sig_mpx"
+				"weapon"				"weapon_sandstorm_honeybadger"
+				"weapon"				"weapon_sandstorm_m4a1"
+				"weapon"				"weapon_sandstorm_steyrauga3"
+				"weapon"				"weapon_sandstorm_sig_mcx"
+				"weapon"				"weapon_sandstorm_g36k"
+				"weapon"				"weapon_sandstorm_vhs2"
+			}
+			"viewmodel_attachments"
+			{
+				"Foregrip"
+				{
+					"model"					"models/sndstrm/upgrades/a_foregrip_aim.mdl"
+					"Gesture"				"delta_foregrip"
+					"ActSuffix"				"_FOREGRIP"
+					
+					"scales"
+					{
+						"weapon_sandstorm_m16a4"		"0.5"
+						"weapon_sandstorm_famas"		"0.5"
+						"weapon_sandstorm_m16a2"		"0.5"
+						"weapon_sandstorm_mk18"			"0.5"
+						"weapon_vietnam_car15"			"0.5"
+						"weapon_sandstorm_l85a2"		"0.5"
+						"weapon_sandstorm_saiga_12"		"0.5"
+						"weapon_sandstorm_sig_mpx" 		"0.5"
+						"weapon_sandstorm_honeybadger"	"0.5"
+						"weapon_sandstorm_m4a1"			"0.5"
+						"weapon_sandstorm_steyrauga3"	"0.5"
+						"weapon_sandstorm_sig_mcx"		"0.5"
+						"weapon_sandstorm_g36k"			"0.5"
+						"weapon_sandstorm_vhs2"			"0.5"
+					}
+				}
+				
+				"Standard_M16A4"
+				{
+					"model"					"models/weapons/upgrades/a_standard2_m16a4.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_sandstorm_m16a4"
+					}
+				}
+				
+				"Standard_FAMAS"
+				{
+					"model"					"models/sndstrm/upgrades/a_standard2_famas.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_sandstorm_famas"
+					}
+				}				
+				
+				"Standard_M16A2"
+				{
+					"model"					"models/sndstrm/upgrades/a_standard2_m16a2.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_sandstorm_m16a2"
+					}
+				}				
+				
+				"Standard_M4A1"
+				{
+					"model"					"models/sndstrm/upgrades/a_standard4_m4a1.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_sandstorm_m4a1"
+						"weapon"				"weapon_sandstorm_sig_mcx"
+					}
+				}
+				
+				"Standard_Steyr_AUG"
+				{
+					"model"					"models/sndstrm/upgrades/a_standard4_saug.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_sandstorm_steyrauga3"
+					}
+				}				
+				
+				"Standard_G36K"
+				{
+					"model"					"models/sndstrm/upgrades/a_standard4_g36k.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_sandstorm_g36k"
+					}
+				}				
+
+				"Standard_VHS2"
+				{
+					"model"					"models/sndstrm/upgrades/a_standard4_vhs2.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_sandstorm_vhs2"
+					}
+				}
+
+				"Standard2_M4A1"
+				{
+					"model"					"models/weapons/upgrades/a_standard2_m4a1.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_sandstorm_m4a1"
+						"weapon"				"weapon_sandstorm_sig_mcx"
+						"weapon"				"weapon_sandstorm_steyrauga3"
+					}
+				}
+				
+				"Standard2_G36K"
+				{
+					"model"					"models/weapons/upgrades/a_standard2_m4a1.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_sandstorm_g36k"
+					}
+				}				
+				
+				"Standard2_VHS2"
+				{
+					"model"					"models/weapons/upgrades/a_standard2_m4a1.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_sandstorm_vhs2"
+					}
+				}				
+
+			}
+			"world_attachments"
+			{
+				"Foregrip"
+				{
+					"model"					"models/weapons/upgrades/w_foregrip_sec1.mdl"
+				}
+			}
+		}
+		
+		"underbarrel_aiminggrip_sandstorm_sec2"
+		{
+			"import"					"base_aiminggrip"
+			"team_access"				"security, insurgent"
+
+			"weapon_mods"
+			{		
+			
+				"weapon_sandstorm_m14"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}	
+
+				"weapon_sandstorm_m110"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}	
+
+				"weapon_sandstorm_mk17"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}	
+
+				"weapon_sandstorm_m870"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}		
+
+				"weapon_sandstorm_galil_sar"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}			
+
+				"weapon_sandstorm_l1a1"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}					
+				
+			}
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m14"
+				"weapon"				"weapon_sandstorm_m110"
+				"weapon"				"weapon_sandstorm_mk17"
+				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_sandstorm_galil_sar"
+				"weapon"				"weapon_sandstorm_l1a1"
+			}
+			"viewmodel_attachments"
+			{
+				"Foregrip"
+				{
+					"model"					"models/sndstrm/upgrades/a_foregrip_aim2.mdl"
+					"Gesture"				"delta_foregrip"
+					"ActSuffix"				"_FOREGRIP"
+					
+					"scales"
+					{
+						"weapon_sandstorm_m14"			"0.45"
+						"weapon_sandstorm_m110"			"0.45"
+						"weapon_sandstorm_mk17"			"0.45"
+						"weapon_sandstorm_m870"			"0.55"
+						"weapon_sandstorm_galil_sar"	"0.45"
+						"weapon_sandstorm_l1a1"			"0.45"
+					}
+				}
+				
+				"Standard_GALIL"
+				{
+					"model"					"models/sndstrm/upgrades/a_standard_galil.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_sandstorm_galil_sar"
+					}
+				}
+			}
+			"world_attachments"
+			{
+				"Foregrip"
+				{
+					"model"					"models/weapons/upgrades/w_foregrip_sec2.mdl"
+				}
+			}
+		}
+
+		// ========================================
 		// MUZZLE UPGRADES
 		// ========================================	
 
@@ -6556,7 +6968,7 @@
 			"import"					"base_silencer"
 			"upgrade_cost"				"2"
 			"class_restricted"			"0"
-			"length"					"0"
+			"length"					"8"
 			"team_access"				"security, insurgent"
 
 			"allowed_weapons"
@@ -6596,7 +7008,7 @@
 			"import"					"base_silencer"
 			"upgrade_cost"				"2"
 			"class_restricted"			"0"
-			"length"					"0"
+			"length"					"8"
 			"team_access"				"security, insurgent"
 
 			"allowed_weapons"
@@ -6636,7 +7048,7 @@
 			"import"					"base_silencer"
 			"upgrade_cost"				"2"
 			"class_restricted"			"0"
-			"length"					"0"
+			"length"					"12"
 			"team_access"				"security, insurgent"
 			
 			"allowed_weapons"
@@ -6691,7 +7103,7 @@
 			"import"					"base_silencer"
 			"upgrade_cost"				"2"
 			"class_restricted"			"0"
-			"length"					"0"
+			"length"					"12"
 			"team_access"				"security, insurgent"
 			
 			"allowed_weapons"
@@ -6753,7 +7165,7 @@
 			"import"					"base_silencer"
 			"upgrade_cost"				"2"
 			"class_restricted"			"0"
-			"length"					"0"
+			"length"					"12"
 			"team_access"				"security, insurgent"
 			
 			"allowed_weapons"
@@ -6840,7 +7252,7 @@
 			"import"					"base_silencer"
 			"upgrade_cost"				"2"
 			"class_restricted"			"0"
-			"length"					"0"
+			"length"					"8"
 			"team_access"				"security, insurgent"
 
 			"allowed_weapons"
@@ -6893,7 +7305,7 @@
 			"import"					"base_silencer"
 			"upgrade_cost"				"2"
 			"class_restricted"			"0"
-			"length"					"0"
+			"length"					"8"
 			"team_access"				"security, insurgent"
 			
 			"allowed_weapons"
@@ -6932,7 +7344,7 @@
 			"import"					"base_silencer"
 			"upgrade_cost"				"2"
 			"class_restricted"			"0"
-			"length"					"0"
+			"length"					"12"
 			"team_access"				"security, insurgent"
 
 			"allowed_weapons"

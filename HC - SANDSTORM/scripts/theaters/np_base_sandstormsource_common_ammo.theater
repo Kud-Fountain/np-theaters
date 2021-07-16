@@ -831,6 +831,7 @@
 				"HITGROUP_RIGHTLEG"			"1.00"
 			}
 		}
+		
 		"slug"
 		{
 			"brass_model"				"models/weapons/shells/12guage.mdl"
@@ -846,6 +847,24 @@
 				"8000"					"10"
 			}
 		}
+		
+		"slug_saiga12"
+		{
+			"brass_model"				"models/weapons/shells/12guage.mdl"
+			"magsize"					"10"
+			
+			"Damage"
+			{
+				"800"					"288"
+				"4500"					"144"
+				"9000"					"40"
+			}
+			"PenetrationPower"
+			{
+				"100"					"650"
+				"8000"					"10"
+			}
+		}		
 
 		// ========================================
 		// NOT MAGAZINES
@@ -878,13 +897,15 @@
 			"import"				"00buck"
 			"carry"					"12"
 			"magsize"				"10"
+			"flags"					"AMMO_USE_MAGAZINES"
 		}
 		
 		"slugs_saiga12"
 		{
-			"import"				"slug"
+			"import"				"slug_saiga12"
 			"carry"					"12"
 			"magsize"				"10"
+			"flags"					"AMMO_USE_MAGAZINES"
 		}		
 		
 		// ========================================

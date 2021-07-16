@@ -379,7 +379,7 @@
 			"weapon_weight"				"0"
 			"weapon_cost"				"3"
 			"weapon_abilities"			"ironsight"
-			"barrel_length"				"0"
+			"barrel_length"				"44"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -462,7 +462,7 @@
 			"weapon_weight"				"0"
 			"weapon_cost"				"3"
 			"weapon_abilities"			"ironsight"
-			"barrel_length"				"0"
+			"barrel_length"				"40"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -1951,7 +1951,7 @@
 			"weapon_weight"				"0"
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
-			"barrel_length"				"0"
+			"barrel_length"				"16"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"
@@ -2061,7 +2061,7 @@
 			"weapon_weight"				"0"
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
-			"barrel_length"				"0"
+			"barrel_length"				"16"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"
@@ -2152,7 +2152,7 @@
 			"weapon_weight"				"0"
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
-			"barrel_length"				"0"
+			"barrel_length"				"16"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"
@@ -2245,7 +2245,7 @@
 			"weapon_weight"				"0"
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
-			"barrel_length"				"0"
+			"barrel_length"				"16"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"
@@ -2336,7 +2336,7 @@
 			"weapon_weight"				"0"
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
-			"barrel_length"				"0"
+			"barrel_length"				"16"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"
@@ -2428,7 +2428,7 @@
 			"weapon_weight"				"0"
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
-			"barrel_length"				"0"
+			"barrel_length"				"16"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"
@@ -2541,7 +2541,7 @@
 			"weapon_weight"				"0"	// (0.7kg[weapon] + (0.1kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +2[encumbrance]
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
-			"barrel_length"				"0"
+			"barrel_length"				"16"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"
@@ -2657,7 +2657,7 @@
 			"weapon_weight"				"0"	// (0.7kg[weapon] + (0.1kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +2[encumbrance]
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
-			"barrel_length"				"0"
+			"barrel_length"				"16"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"
@@ -2774,7 +2774,7 @@
 			"weapon_weight"				"0"	// (0.7kg[weapon] + (0.1kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +2[encumbrance]
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
-			"barrel_length"				"0"
+			"barrel_length"				"16"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"
@@ -2891,7 +2891,7 @@
 			"weapon_weight"				"0"
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
-			"barrel_length"				"0"
+			"barrel_length"				"16"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"
@@ -3006,8 +3006,8 @@
 			"act_table"					"shortrifle"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
-			"weapon_cost"				"3"
-			"barrel_length"				"0"
+			"weapon_cost"				"4"
+			"barrel_length"				"22"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -3140,7 +3140,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"				"3"
-			"barrel_length"				"0"
+			"barrel_length"				"28"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -3257,7 +3257,7 @@
 			"weapon_weight"				"160"	// (3.3kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"				"3"
 			"class_restricted"			"1"
-			"barrel_length"				"0"
+			"barrel_length"				"24"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"
@@ -3375,7 +3375,7 @@
 			"weapon_weight"				"0"	// (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"				"3"
 			"class_restricted"			"1"
-			"barrel_length"				"0"
+			"barrel_length"				"22"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"
@@ -3478,7 +3478,7 @@
 			"weapon_weight"				"0"	// (3.3kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"				"3"
 			"class_restricted"			"1"
-			"barrel_length"				"0"
+			"barrel_length"				"24"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"
@@ -3581,7 +3581,7 @@
 			"team_access"				"security, insurgent"
 		}
 
-		"weapon_sandstorm_steyrauga3" // BUILT OFF MK18
+		"weapon_sandstorm_steyrauga3" // BUILT OFF M4A1
 		{
 			"import"					"ballistic_base"
 			"weapon_class"				"rifle_automatic_fire"
@@ -3595,7 +3595,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"				"3"
-			"barrel_length"				"0"
+			"barrel_length"				"22"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"
@@ -3724,7 +3724,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"				"3"
-			"barrel_length"				"0"
+			"barrel_length"				"20"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -3843,7 +3843,7 @@
 			"weapon_abilities"			"ironsight, silencer"
 			"weapon_weight"				"0"	// (2.4kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"				"3"
-			"barrel_length"				"0"
+			"barrel_length"				"20"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -3951,7 +3951,7 @@
 			"team_access"				"security, insurgent"
 		}
 		
-		"weapon_sandstorm_vhs2" // BUILT OF M4A1
+		"weapon_sandstorm_vhs2" // BUILT OFF M4A1
 		{
 			"import"					"ballistic_base"
 			"weapon_class"				"rifle_automatic_fire"
@@ -3965,7 +3965,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"				"3"
-			"barrel_length"				"0"
+			"barrel_length"				"22"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -4095,7 +4095,7 @@
 			"weapon_weight"				"0"	// (3.3kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"				"3"
 			"class_restricted"			"1"
-			"barrel_length"				"0"
+			"barrel_length"				"24"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"
@@ -4212,7 +4212,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"				"3"
-			"barrel_length"				"0"
+			"barrel_length"				"20"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -4330,7 +4330,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"				"3"
-			"barrel_length"				"0"
+			"barrel_length"				"22"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -4463,7 +4463,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"				"3"
-			"barrel_length"				"0"
+			"barrel_length"				"20"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -4582,7 +4582,7 @@
 			"weapon_weight"				"0"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"				"3"
 			"burst_delay"				"0.22"
-			"barrel_length"				"0"
+			"barrel_length"				"22"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -4710,8 +4710,8 @@
 			"act_table"					"rifle_ak"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
-			"weapon_cost"				"3"
-			"barrel_length"				"0"
+			"weapon_cost"				"2"
+			"barrel_length"				"28"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -4827,8 +4827,8 @@
 			"act_table"					"rifle_ak"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
-			"weapon_cost"				"3"
-			"barrel_length"				"0"
+			"weapon_cost"				"4"
+			"barrel_length"				"28"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -4947,7 +4947,7 @@
 			"weapon_weight"				"0"	// (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"				"3"
 			"class_restricted"			"1"
-			"barrel_length"				"0"
+			"barrel_length"				"22"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"
@@ -5059,7 +5059,7 @@
 			"weapon_weight"				"0"	// (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"				"3"
 			"class_restricted"			"1"
-			"barrel_length"				"0"
+			"barrel_length"				"22"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"
@@ -5171,7 +5171,7 @@
 			"weapon_weight"				"0"	// (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"				"3"
 			"class_restricted"			"1"
-			"barrel_length"				"0"
+			"barrel_length"				"22"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"
@@ -5282,7 +5282,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"				"3"
-			"barrel_length"				"0"
+			"barrel_length"				"28"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -5396,7 +5396,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"				"3"
-			"barrel_length"				"0"
+			"barrel_length"				"28"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -5508,7 +5508,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"				"3"
-			"barrel_length"				"0"
+			"barrel_length"				"28"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -5641,7 +5641,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
 			"weapon_cost"				"2"
-			"barrel_length"				"0"
+			"barrel_length"				"28"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -5737,7 +5737,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"120"
 			"weapon_cost"				"2"
-			"barrel_length"				"0"
+			"barrel_length"				"38"
 			"closed_bolt"				"0"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
@@ -5854,7 +5854,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
 			"weapon_cost"				"2"
-			"barrel_length"				"0"
+			"barrel_length"				"28"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -5950,7 +5950,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
 			"weapon_cost"				"2"
-			"barrel_length"				"0"
+			"barrel_length"				"28"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -6046,7 +6046,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (3.9kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"				"2"
-			"barrel_length"				"0"
+			"barrel_length"				"22"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -6137,7 +6137,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (3.9kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"				"2"
-			"barrel_length"				"0"
+			"barrel_length"				"22"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -6232,7 +6232,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"				"2"
-			"barrel_length"				"0"
+			"barrel_length"				"20"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -6351,7 +6351,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
 			"weapon_cost"				"2"
-			"barrel_length"				"0"
+			"barrel_length"				"16"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"
@@ -6465,7 +6465,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
 			"weapon_cost"				"2"
-			"barrel_length"				"0"
+			"barrel_length"				"16"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -6576,7 +6576,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
 			"weapon_cost"				"2"
-			"barrel_length"				"0"
+			"barrel_length"				"16"
 			"class_restricted"			"1"	
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -6684,7 +6684,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
 			"weapon_cost"				"4"
-			"barrel_length"				"0"
+			"barrel_length"				"16"
 			"class_restricted"			"1"	
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -6779,7 +6779,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
 			"weapon_cost"				"2"
-			"barrel_length"				"0"
+			"barrel_length"				"16"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -6892,7 +6892,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
 			"weapon_cost"				"2"
-			"barrel_length"				"0"
+			"barrel_length"				"16"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -7005,7 +7005,7 @@
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"				"2"
-			"barrel_length"				"0"
+			"barrel_length"				"16"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -7118,8 +7118,8 @@
 			"act_table"					"shortrifle"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
-			"weapon_cost"				"1"
-			"barrel_length"				"0"
+			"weapon_cost"				"3"
+			"barrel_length"				"20"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
@@ -7235,7 +7235,7 @@
 			"act_table"					"shot"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.5kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"barrel_length"				"0"
+			"barrel_length"				"18"
 			"fire_cycle"				"0.2"
 			"class_restricted"			"1"
 			"draw_speed"				"1.9"
@@ -7332,7 +7332,7 @@
 			"act_table"					"shot"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (3.2kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"barrel_length"				"0"
+			"barrel_length"				"18"
 			"fire_cycle"				"0.2"
 			"class_restricted"			"1"
 			"draw_speed"				"1.9"
@@ -7437,7 +7437,7 @@
 			"weapon_abilities"			"ironsight, bipod"
 			"weapon_weight"				"0"	// (7.5kg[weapon] + (2.5kg[ammo] * (1+1)[mags]) )*10[kg->hg for int]  +150[encumbrance]
 			"closed_bolt"				"0"
-			"barrel_length"				"0"
+			"barrel_length"				"28"
 			"class_restricted"			"1"
 			"draw_speed"				"1.50"
 			"holster_speed"				"1.50"
@@ -7541,7 +7541,7 @@
 
 
 		
-		"weapon_sandstorm_m249"
+		"weapon_sandstorm_m249" // BUILT OFF M249
 		{
 			"import"					"ballistic_base"
 			"weapon_class"				"lmg"
@@ -7556,7 +7556,7 @@
 			"weapon_abilities"			"ironsight, bipod"
 			"weapon_weight"				"0"	// (7.5kg[weapon] + (2.5kg[ammo] * (1+1)[mags]) )*10[kg->hg for int]  +150[encumbrance]
 			"closed_bolt"				"0"
-			"barrel_length"				"0"
+			"barrel_length"				"28"
 			"class_restricted"			"1"
 			"draw_speed"				"1.50"
 			"holster_speed"				"1.50"
@@ -7672,7 +7672,7 @@
 			"act_table"					"rifle_ak"
 			"weapon_abilities"			"ironsight, bipod"
 			"weapon_weight"				"0"	// (4.8kg[weapon] + (2.0kg[ammo] * (1+2)[mags]) )*10[kg->hg for int]  +50[encumbrance]
-			"barrel_length"				"0"
+			"barrel_length"				"26"
 			"class_restricted"			"1"
 			"draw_speed"				"1.50"
 			"holster_speed"				"1.50"
@@ -7792,7 +7792,7 @@
 			"act_table"					"bolt"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (6.6kg[weapon] + (0.2kg[ammo] * (1+16)[mags]) )*10[kg->hg for int]  +32[encumbrance]
-			"barrel_length"				"0"
+			"barrel_length"				"38"
 			"class_restricted"			"1"
 			"draw_speed"				"1.9"
 			"holster_speed"				"1.9"
@@ -7894,7 +7894,7 @@
 			"act_table"					"bolt"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (4.0kg[weapon] + (0.2kg[ammo] * (1+16)[mags]) )*10[kg->hg for int]  +32[encumbrance]
-			"barrel_length"				"0"
+			"barrel_length"				"38"
 			"class_restricted"			"1"
 			"draw_speed"				"1.9"
 			"holster_speed"				"1.9"
