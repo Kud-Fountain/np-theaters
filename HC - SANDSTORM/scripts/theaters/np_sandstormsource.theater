@@ -7,6 +7,16 @@
 "#base" "np_sandstormsource_weapon.theater"
 "#base" "np_sandstormsource_weapon_upgrades.theater"
 
+//doi
+"#base" "np_doi2ins_weapons_american.theater"
+"#base" "np_doi2ins_weapons_axis.theater"
+"#base" "np_doi2ins_weapons_commonwealth.theater"
+"#base" "np_doi2ins_weapons_soviet.theater"
+"#base" "np_doi2ins_weapons_japanese.theater"
+"#base" "np_doi2ins_weapon_upgrades.theater"
+
+"#base" "doi2ins_flamethrower_addon.theater"
+
 "theater"
 {
 	"core"
@@ -23,6 +33,10 @@
 			"sounds"			"scripts/ins_sounds_responses_insurgent.txt"
 			"sounds"			"scripts/ins_sounds_hq.txt"
 			
+			"sounds"			"scripts/doi2ins_audio/ins_sounds_weapons.txt"		
+			"sounds"			"scripts/doi2ins_audio/doi_sounds_weapons.txt"	
+			"sounds"			"scripts/doi2ins_audio/doi2ins_sounds_weapons.txt"
+			
 			// coop specific
 			"sounds"			"scripts/ins_sounds_voice_coop.txt"
 			
@@ -33,8 +47,19 @@
 			"particles"         "particles/888.pcf"
 			"particles"         "particles/fxparticle.pcf"
 			"particles"         "particles/trails.pcf"
+			
+			"particles"   	    "particles/doi_destructible_fx.pcf"
+			"particles"      	"particles/doi_explosion_fx.pcf"
+			"particles"         "particles/doi_explosion_fx_b.pcf"
+			"particles"    		"particles/doi_explosion_fx_grenade.pcf"
+			"particles"   	    "particles/doi_explosion_fx_new.pcf"
+			"particles"    		"particles/doi_explosions_smoke.pcf"
+			"particles"    		"particles/doi_impact_fx.pcf"
+			"particles"			"particles/doi_weapon_fx.pcf"
 
-			"localize"			"resource/ui/sandstorm_source_chinese.txt"			
+			"localize"			"resource/sandstorm_source_chinese.txt"
+			
+			"localize"       	"resource/doiins_schinese.txt"
 		}
 	}
 	

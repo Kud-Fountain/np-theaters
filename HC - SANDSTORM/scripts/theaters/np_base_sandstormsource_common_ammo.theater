@@ -1760,7 +1760,65 @@
 			"tracer_frequency"			"3"
 			"tracer_type"				"whiz_with_line"
 			"tracer_lowammo"			"7"
-		}		
+		}
+
+		// ========================================
+		// PPSh-41 
+		// ========================================
 		
+		"7.62×25_smg"	
+		{
+			"import"					"default"
+			"SuppressionIncrement"		"10"
+			"magsize"					"35"
+			"brass_model"				"models/weapons/shells/9x19.mdl"
+			
+			"Damage"
+			{
+				"1"						"52"
+				"5000"					"47"
+				"8000"					"30"
+			}
+			"PenetrationPower"
+			{
+				"10"					"300"
+				"8000"					"135"
+			}
+			
+		}
+		
+		// ========================================
+		// Nambu Pistol
+		// ========================================
+		
+		"8x22_pistol"	
+		{
+			"import"				"default"
+			"SuppressionIncrement"			"10"
+			"brass_model"				"models/weapons/shells/9x19.mdl"
+			"magsize"				"8"
+			"Damage"
+			{
+				"1"						"38"
+				"5000"					"30"
+				"8000"					"18"
+			}
+			"PenetrationPower"
+			{
+				"10"					"141"
+				"8000"					"85"
+			}
+			
+		}
+		
+		// ========================================
+		// m1a1
+		// ========================================
+		"30_carbine"
+		{
+			"import"				"762x33"
+			"carry"					"12"
+			"magsize"				"15"
+		}
 	}
 }
