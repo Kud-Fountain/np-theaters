@@ -1,7 +1,6 @@
-"#base" "doi2ins_base_weapon.theater"
-"#base" "doi2ins_base_explosives.theater"
-"#base" "doi2ins_base_common_ammo.theater"
-"#base" "doi2ins_ammo.theater"
+"#base" "np_base_sandstormsource_weapon.theater"
+"#base" "base_sandstormsource_explosives.theater"
+"#base" "np_base_sandstormsource_common_ammo.theater"
 
 
 "theater"
@@ -380,7 +379,7 @@
 			"view_model"				"models/doi2ins/v_ppsh.mdl"
 			"world_model"				"models/doi2ins/w_ppsh.mdl"
 			"rounds_per_minute"			"1000"
-			"weapon_slot"				"secondary"
+			"weapon_slot"				"primary"
 			"act_table"					"rifle_ak2"
 			"closed_bolt"				"0"
 			"weapon_abilities"			"ironsight"

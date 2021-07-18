@@ -1,7 +1,6 @@
-"#base" "doi2ins_base_weapon.theater"
-"#base" "doi2ins_base_explosives.theater"
-"#base" "doi2ins_base_common_ammo.theater"
-"#base" "doi2ins_ammo.theater"
+"#base" "np_base_sandstormsource_weapon.theater"
+"#base" "base_sandstormsource_explosives.theater"
+"#base" "np_base_sandstormsource_common_ammo.theater"
 
 
 "theater"

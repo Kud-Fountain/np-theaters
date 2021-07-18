@@ -1,0 +1,178 @@
+"theater"
+{
+	"ammo"
+	{
+		"flame_proj"
+		{
+			"flags_clear"			"AMMO_USE_MAGAZINES"
+			"carry"					"500"
+		}
+
+	}
+
+	"weapons"
+	{
+		"weapon_flamethrower"
+		{
+			"IsBase"					"1"
+			"import"					"weapon_base"
+			
+			"print_name"				"#weapon_flamethrower"
+			"print_desc"				"#weapon_flamethrower_desc"
+			
+			"weapon_class"				"launcher"
+			"weapon_type"				"projectile"
+			"act_table"					"smg_magheld"
+			// "weapon_abilities"			"ironsight"
+			"single_use"				"0"
+			"fire_instantly"			"1"
+			// "draw_speed"				"0.8"
+			// "holster_speed"			"0.8"
+			// "rounds_per_minute"		"1000"
+			// "reload_speed"			"0.9"
+			
+			"weapon_slot"				"primary"
+			"weapon_weight"				"64"
+			"barrel_length"				"34"
+			"weapon_cost"				"6"
+			"class_restricted"			"1"
+			
+			"sounds"
+			{
+				"shot_single"				""
+				"shot_single_local"			""
+				"empty"						""
+				"load"						""
+				"unload"					""
+				"hit"						""
+			}
+			
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"flamethrower"
+				"particle_muzzleflash_3rd"		"flamethrower"
+				"particle_muzzle_smoke"			"no_particle"
+			}
+			"explosives"
+			{
+				"entity"				"flame_proj"
+				"remove_on_deplete"		"0"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"flame_proj"
+				"clip_max_rounds"		"-1"
+				"clip_max"				"500"
+				"clip_default"			"500"	
+			}
+			"ironsights"
+			{
+				"in_time"				"0.50"
+				"out_time"				"0.45"
+			}
+			"kitui_offset"
+			{
+				"position"				"17 -4 2"
+			}
+		}
+		
+		"weapon_flamethrower_sec"
+		{
+			"import"					"weapon_flamethrower"
+			"weapon_max_subslot"		"0"	// 1st primary slot only
+			"view_model"				"models/weapons/v_flame_mk2.mdl"
+			"world_model"				"models/weapons/w_m2.mdl"
+			
+			"companion_gear"			"fuel_tank_sec"
+			
+			"fov"
+			{
+				"fov_plr_ironsight"		"-10"
+				"fov_plr_focus"			"-10"
+				"fov_wpn_default"		"67"
+				"fov_wpn_sprint"		"67"
+				"fov_wpn_ironsight"		"67"
+				"fov_wpn_focus"			"79"
+			}
+			
+			"team_access"	"security"
+		}
+
+	}
+	
+	"explosives"
+	{
+		"flame_proj"
+		{
+			"entity_class"					"grenade_frag"
+			"Model"							"models/weapons/flame_projectile.mdl"
+			"DamageType"					"DMG_BURN, DMG_PREVENT_PHYSICS_FORCE"
+			
+			"DetonateDamage"				"48"
+			"DetonateDamageRadius"			"128"
+			"DetonatePenetrationRadius"		"48"
+			"FuseTime"						"0.25"
+			"ImpactDetonation"				"1"
+			"DetonateUnderwater"			"0"
+			
+			"RocketStartSpeed"				"1200"
+			"RocketTopSpeed"				"1200"
+			
+			"Health"						"1"
+			"ReactExplosions"				"0"
+			"ReactBullets"					"0"
+			
+			"ShakeAmplitude"				"0"
+			"ShakeFrequency"				"0"
+			"ShakeDuration"					"0"
+			"ShakeRadius"					"0"
+			
+			"Deafen"						"0"
+			
+			"UseVPhysics"					"0"
+			
+			"Cookable"						"0"
+			
+			"ImpactDamage"
+			{
+				"0"							"0"
+				"10000"						"0"
+			}
+			
+			"Particles"
+			{
+				"DetonateParticle"			"no_particle"
+				"DetonateWaterParticle"		"no_particle"
+				"TrailParticle"				"no_particle"
+				
+				"BroadcastAll"				"1"
+				"FollowOrigin"				"1"
+				"NormalUp"					"1"
+			}
+			
+			"Sounds"
+			{
+				"DetonateSound"				""
+				"DetonateWaterSound"		""
+			}
+		}
+	}
+	
+	"player_gear"
+	{
+		"fuel_tank_sec"
+		{
+			"entity"					"model"
+			"model"						"models/characters/m2_tank.mdl"
+			"print_name"				"#fuel_tank"
+			"print_desc"				"#fuel_tank_desc"
+			"gear_slot"					"vest"
+			"gear_cost"					"0"
+			"gear_weight"				"192"
+			"class_restricted"			"1"
+			
+			"team_access"				"security"
+		}
+
+	}
+}

@@ -15,7 +15,7 @@
 "#base" "np_doi2ins_weapons_japanese.theater"
 "#base" "np_doi2ins_weapon_upgrades.theater"
 
-"#base" "doi2ins_flamethrower_addon.theater"
+"#base" "np_doi2ins_flamethrower_addon.theater"
 
 "theater"
 {
@@ -109,6 +109,14 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_doi2ins_m1paratrooper"
+				"weapon"					"weapon_doi2ins_stg44"
+				"weapon"					"weapon_doi2ins_thompson_m1a1"
+				
+				"weapon"					"weapon_doi2ins_luger"
+				"weapon"					"weapon_doi2ins_m1911"
+				"weapon"					"weapon_doi2ins_nambu"
+				
 				"weapon"					"weapon_sandstorm_l85a2"
 				"weapon"					"weapon_sandstorm_l1a1"
 				"weapon"					"weapon_sandstorm_g36k"
@@ -155,6 +163,14 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_doi2ins_m1paratrooper"
+				"weapon"					"weapon_doi2ins_stg44"
+				"weapon"					"weapon_doi2ins_thompson_m1a1"
+				
+				"weapon"					"weapon_doi2ins_luger"
+				"weapon"					"weapon_doi2ins_m1911"
+				"weapon"					"weapon_doi2ins_nambu"
+				
 				"weapon"					"weapon_sandstorm_l1a1"
 				"weapon"					"weapon_sandstorm_l85a2"
 				"weapon"					"weapon_sandstorm_g36k"
@@ -200,6 +216,14 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_doi2ins_m1carbine"
+				"weapon"					"weapon_doi2ins_stg44"
+				"weapon"					"weapon_doi2ins_fg42"
+				
+				"weapon"					"weapon_doi2ins_p38"
+				"weapon"					"weapon_doi2ins_nambu"
+				"weapon"					"weapon_doi2ins_c96"
+				
 				"weapon"					"weapon_sandstorm_sig_mcx"
 				"weapon"					"weapon_vietnam_car15"
 				"weapon"					"weapon_sandstorm_m16a4"
@@ -240,6 +264,16 @@
 			"allowed_items"
 			{
 				"weapon"					"weapon_defib"
+				
+				"weapon"					"weapon_doi2ins_bazooka"
+				"weapon"					"weapon_doi2ins_m1carbine"
+				
+				"weapon"					"weapon_doi2ins_panzerschreck"
+				"weapon"					"weapon_doi2ins_panzerfaust"
+				"weapon"					"weapon_doi2ins_piat"
+				"weapon"					"weapon_doi2ins_tnt"
+				"weapon"					"weapon_doi2ins_sprengbuchse"
+				"weapon"					"weapon_doi2ins_hafthohlladung"
 				
 				"weapon"					"weapon_sandstorm_saiga_12"
 				"weapon"					"weapon_sandstorm_toz"
@@ -285,6 +319,15 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_doi2ins_thompson_m1928a1"
+				"weapon"					"weapon_doi2ins_sten_mk2"
+				"weapon"					"weapon_doi2ins_owen"
+				"weapon"					"weapon_doi2ins_ppsh41"
+				
+				"weapon"					"weapon_doi2ins_ppk"
+				
+				"weapon"					"weapon_doi2ins_geballteladung"
+				
 				"weapon"					"weapon_sandstorm_sig_mpx"
 				"weapon"					"weapon_vietnam_type56"
 				"weapon"					"weapon_sandstorm_uzi"
@@ -326,6 +369,15 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_doi2ins_springfield"
+				"weapon"					"weapon_doi2ins_enfield"
+				"weapon"					"weapon_doi2ins_g43"
+				
+				"weapon"					"weapon_doi2ins_c96"
+				"weapon"					"weapon_doi2ins_webley"
+				"weapon"					"weapon_doi2ins_sw1917"
+				
+				
 				"weapon"					"weapon_vietnam_m40"
 				"weapon"					"weapon_sandstorm_m110"
 				"weapon"					"weapon_sandstorm_mosin"
@@ -365,7 +417,15 @@
 			"allowed_items"
 			{
 				"weapon"					"weapon_defib"
-			
+				
+				"weapon"					"weapon_doi2ins_bar"
+				"weapon"					"weapon_doi2ins_mg42"
+				"weapon"					"weapon_doi2ins_m1919"
+				"weapon"					"weapon_doi2ins_vickers"
+				
+				"weapon"					"weapon_doi2ins_ppk"
+				"weapon"					"weapon_doi2ins_webley"
+				
 				"weapon"					"weapon_sandstorm_galil"
 				"weapon"					"weapon_sandstorm_m240"
 				"weapon"					"weapon_sandstorm_m249"
@@ -456,6 +516,18 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_doi2ins_mp40"
+				"weapon"					"weapon_doi2ins_thompson_m1a1"
+				
+				"weapon"					"weapon_doi2ins_c96"
+				"weapon"					"weapon_doi2ins_c96carbine"
+				"weapon"					"weapon_doi2ins_nambu"
+				
+				"weapon"					"weapon_doi2ins_tnt"
+				"weapon"					"weapon_doi2ins_sprengbuchse"
+				"weapon"					"weapon_doi2ins_hafthohlladung"
+				"weapon"					"weapon_doi2ins_sten_mk5"
+				
 				"weapon"					"weapon_sandstorm_saiga_12"
 				"weapon"					"weapon_sandstorm_ace52"
 				"weapon"					"weapon_sandstorm_greasegun"
@@ -506,7 +578,14 @@
 			"allowed_items"
 			{
 				"weapon"					"weapon_defib"
-			
+				
+				"weapon"					"weapon_doi2ins_bren_mk2"
+				"weapon"					"weapon_doi2ins_lewis"
+				"weapon"					"weapon_doi2ins_mg34"
+				"weapon"					"weapon_flamethrower"
+				"weapon"					"weapon_doi2ins_c96"
+				"weapon"					"weapon_doi2ins_webley"
+				
 				"weapon"					"weapon_sandstorm_qbz03"
 				"weapon"					"weapon_sandstorm_steyrauga3"
 				"weapon"					"weapon_sandstorm_alphaak"
