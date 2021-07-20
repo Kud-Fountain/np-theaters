@@ -7,6 +7,8 @@
 "#base" "np_sandstormsource_weapon.theater"
 "#base" "np_sandstormsource_weapon_upgrades.theater"
 
+"#base" "np_sandstormsource_extras_addons.theater"
+
 "theater"
 {
 	"core"
@@ -34,7 +36,7 @@
 			"particles"         "particles/fxparticle.pcf"
 			"particles"         "particles/trails.pcf"
 
-			"localize"			"resource/ui/sandstorm_source_chinese.txt"			
+			"localize"			"resource/sandstorm_source_chinese.txt"			
 		}
 	}
 	

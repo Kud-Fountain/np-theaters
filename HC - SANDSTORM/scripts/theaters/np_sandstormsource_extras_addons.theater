@@ -1,0 +1,2870 @@
+"#base" "base_sandstormsource_weapon_upgrades.theater"
+
+"theater"
+{
+	"weapon_upgrades"
+	{
+	
+		// ========================================
+		// OPERATOR TRAINING
+		// ========================================
+
+		"weapon_upgrade_sandstorm_operator_training"
+		{
+			"print_name"				"#operator_training"
+			"print_desc"				"#operator_training_desc"
+			"upgrade_cost"				"3"
+			"upgrade_slot"				"aesthetic"
+			"draw_speed"				"1.5"
+			"holster_speed"				"1.5"
+			"draw_speed_next_weapon"	"1.5"
+			"holster_speed_prev_weapon"	"1.5"
+			"reload_speed"				"1.4"			
+			
+			"recoil"
+			{
+				"recoil_lateral_frac"			"0.70"
+				"recoil_vertical_frac"			"0.70"
+			}
+			
+			"sway"
+			{
+				"sway_radius_frac"			"0.75"
+				"sway_speed"				"1.20"
+			}			
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m9"
+				"weapon"				"weapon_sandstorm_hipower"
+				"weapon"				"weapon_sandstorm_sigp226"
+				"weapon"				"weapon_sandstorm_pf940"
+				"weapon"				"weapon_sandstorm_m45"
+				"weapon"				"weapon_sandstorm_makarov"
+				"weapon"				"weapon_sandstorm_tariq"
+				"weapon"				"weapon_sandstorm_glock17"
+				"weapon"				"weapon_sandstorm_m1911"
+				"weapon"				"weapon_vietnam_tt33"
+				"weapon"				"weapon_sandstorm_m16a4"
+				"weapon"				"weapon_sandstorm_m16a2"
+				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_vietnam_car15"
+				"weapon"				"weapon_sandstorm_l85a2"
+				"weapon"				"weapon_sandstorm_saiga_12"
+				"weapon"				"weapon_sandstorm_sig_mpx"
+				"weapon"				"weapon_sandstorm_steyrauga3"
+				"weapon"				"weapon_sandstorm_m4a1"
+				"weapon"				"weapon_sandstorm_sig_mcx"
+				"weapon"				"weapon_sandstorm_vhs2"
+				"weapon"				"weapon_sandstorm_g36k"
+				"weapon"				"weapon_sandstorm_galil"
+				"weapon"				"weapon_sandstorm_galil_sar"
+				"weapon"				"weapon_sandstorm_alphaak"
+				"weapon"				"weapon_sandstorm_akm"
+				"weapon"				"weapon_vietnam_type56"
+				"weapon"				"weapon_sandstorm_ak74"
+				"weapon"				"weapon_sandstorm_qbz03"
+				"weapon"				"weapon_sandstorm_fal"
+				"weapon"				"weapon_sandstorm_ace52"
+				"weapon"				"weapon_sandstorm_l1a1"
+				"weapon"				"weapon_sandstorm_g3a3"
+				"weapon"				"weapon_sandstorm_mk17"
+				"weapon"				"weapon_sandstorm_m14"
+				"weapon"				"weapon_sandstorm_m110"
+				"weapon"				"weapon_sandstorm_svd"
+				"weapon"				"weapon_sandstorm_sks"
+				"weapon"				"weapon_sandstorm_mp7"
+				"weapon"				"weapon_sandstorm_mp5a5"
+				"weapon"				"weapon_sandstorm_mp5a2"
+				"weapon"				"weapon_sandstorm_aks74u"
+				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_sandstorm_m240"
+				"weapon"				"weapon_sandstorm_rpk"
+				"weapon"				"weapon_sandstorm_uzi"
+				"weapon"				"weapon_sandstorm_sterling"
+				"weapon"				"weapon_sandstorm_greasegun"
+				"weapon"				"weapon_sandstorm_asval"
+				"weapon"				"weapon_sandstorm_honeybadger"
+				"weapon"				"weapon_sandstorm_welrod"
+				"weapon"				"weapon_sandstorm_famas"
+				"weapon"				"weapon_sandstorm_m24"
+				"weapon"				"weapon_vietnam_m40"				
+				"weapon"				"weapon_sandstorm_mosin"
+				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_sandstorm_toz"
+				"weapon"				"weapon_sandstorm_m1garand"
+			}
+			
+			"team_access"				"security"
+		}	
+		
+		// ========================================
+		// INSURGENT TRAINING
+		// ========================================
+
+		"weapon_upgrade_sandstorm_elite_insurgent"
+		{
+			"print_name"				"#insurgent_training"
+			"print_desc"				"#insurgent_training_desc"
+			"upgrade_cost"				"3"
+			"upgrade_slot"				"aesthetic"
+			"draw_speed"				"1.5"
+			"holster_speed"				"1.5"
+			"draw_speed_next_weapon"	"1.5"
+			"holster_speed_prev_weapon"	"1.5"
+			"reload_speed"				"1.4"			
+			
+			"recoil"
+			{
+				"recoil_lateral_frac"			"0.70"
+				"recoil_vertical_frac"			"0.70"
+			}
+			
+			"sway"
+			{
+				"sway_radius_frac"			"0.75"
+				"sway_speed"				"1.20"
+			}			
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m9"
+				"weapon"				"weapon_sandstorm_hipower"
+				"weapon"				"weapon_sandstorm_sigp226"
+				"weapon"				"weapon_sandstorm_pf940"
+				"weapon"				"weapon_sandstorm_m45"
+				"weapon"				"weapon_sandstorm_makarov"
+				"weapon"				"weapon_sandstorm_tariq"
+				"weapon"				"weapon_sandstorm_glock17"
+				"weapon"				"weapon_sandstorm_m1911"
+				"weapon"				"weapon_vietnam_tt33"
+				"weapon"				"weapon_sandstorm_m16a4"
+				"weapon"				"weapon_sandstorm_m16a2"
+				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_vietnam_car15"
+				"weapon"				"weapon_sandstorm_l85a2"
+				"weapon"				"weapon_sandstorm_saiga_12"
+				"weapon"				"weapon_sandstorm_sig_mpx"
+				"weapon"				"weapon_sandstorm_steyrauga3"
+				"weapon"				"weapon_sandstorm_m4a1"
+				"weapon"				"weapon_sandstorm_sig_mcx"
+				"weapon"				"weapon_sandstorm_vhs2"
+				"weapon"				"weapon_sandstorm_g36k"
+				"weapon"				"weapon_sandstorm_galil"
+				"weapon"				"weapon_sandstorm_galil_sar"
+				"weapon"				"weapon_sandstorm_alphaak"
+				"weapon"				"weapon_sandstorm_akm"
+				"weapon"				"weapon_vietnam_type56"
+				"weapon"				"weapon_sandstorm_ak74"
+				"weapon"				"weapon_sandstorm_qbz03"
+				"weapon"				"weapon_sandstorm_fal"
+				"weapon"				"weapon_sandstorm_ace52"
+				"weapon"				"weapon_sandstorm_l1a1"
+				"weapon"				"weapon_sandstorm_g3a3"
+				"weapon"				"weapon_sandstorm_mk17"
+				"weapon"				"weapon_sandstorm_m14"
+				"weapon"				"weapon_sandstorm_m110"
+				"weapon"				"weapon_sandstorm_svd"
+				"weapon"				"weapon_sandstorm_sks"
+				"weapon"				"weapon_sandstorm_mp7"
+				"weapon"				"weapon_sandstorm_mp5a5"
+				"weapon"				"weapon_sandstorm_mp5a2"
+				"weapon"				"weapon_sandstorm_aks74u"
+				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_sandstorm_m240"
+				"weapon"				"weapon_sandstorm_rpk"
+				"weapon"				"weapon_sandstorm_uzi"
+				"weapon"				"weapon_sandstorm_sterling"
+				"weapon"				"weapon_sandstorm_greasegun"
+				"weapon"				"weapon_sandstorm_asval"
+				"weapon"				"weapon_sandstorm_honeybadger"
+				"weapon"				"weapon_sandstorm_welrod"
+				"weapon"				"weapon_sandstorm_famas"
+				"weapon"				"weapon_sandstorm_m24"
+				"weapon"				"weapon_vietnam_m40"
+				"weapon"				"weapon_sandstorm_mosin"
+				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_sandstorm_toz"
+				"weapon"				"weapon_sandstorm_m1garand"
+			}
+			
+			"team_access"				"insurgent"
+		}			
+		
+	
+		// ========================================
+		// AMMO UPGRADES
+		// ========================================
+		
+		// ========================================
+		// 9X19MM AMMO UPGRADES
+		// ========================================		
+	
+		"ammo_sandstorm_hp_9x19mm"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m9"
+				"weapon"				"weapon_sandstorm_hipower"
+				"weapon"				"weapon_sandstorm_sigp226"
+				"weapon"				"weapon_sandstorm_pf940"
+				"weapon"				"weapon_sandstorm_tariq"
+				"weapon"				"weapon_sandstorm_glock17"
+			}
+			"ammo_type_override"			"9x19mm_hp"
+		}
+		
+		"ammo_sandstorm_ap_9x19mm"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m9"
+				"weapon"				"weapon_sandstorm_hipower"
+				"weapon"				"weapon_sandstorm_sigp226"
+				"weapon"				"weapon_sandstorm_pf940"
+				"weapon"				"weapon_sandstorm_tariq"
+				"weapon"				"weapon_sandstorm_glock17"
+			}
+			"ammo_type_override"			"9x19mm_ap"
+		}
+
+		// ========================================
+		// 9X18MM AMMO UPGRADES
+		// ========================================	
+		
+		"ammo_sandstorm_hp_9x18mm"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_makarov"
+			}
+			"ammo_type_override"			"9x18mm_hp"
+		}
+		
+		"ammo_sandstorm_ap_9x18mm"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_makarov"
+			}
+			"ammo_type_override"			"9x18mm_ap"
+		}		
+
+		// ========================================
+		// 45 ACP AMMO UPGRADES
+		// ========================================
+		
+		"ammo_sandstorm_hp_45acp"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m45"
+				"weapon"				"weapon_sandstorm_m1911"
+			}
+			"ammo_type_override"			"45acp_hp_pistol"
+		}
+		
+		"ammo_sandstorm_ap_45acp"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m45"
+				"weapon"				"weapon_sandstorm_m1911"
+			}
+			"ammo_type_override"			"45acp_ap_pistol"
+		}
+		
+		// ========================================
+		// 762x25mm Tokarev AMMO UPGRADES
+		// ========================================
+		
+		"ammo_sandstorm_hp_762x25mm"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_vietnam_tt33"
+			}
+			"ammo_type_override"			"762x25mm_hp"
+		}
+		
+		"ammo_sandstorm_ap_762x25mm"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_vietnam_tt33"
+			}
+			"ammo_type_override"			"762x25mm_ap"
+		}		
+
+		// ========================================
+		// 5.56 STANAG AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_556_stanag"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m16a2"
+				"weapon"				"weapon_sandstorm_steyrauga3"
+				"weapon"				"weapon_sandstorm_vhs2"
+				"weapon"				"weapon_sandstorm_m16a4"
+				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_vietnam_car15"
+				"weapon"				"weapon_sandstorm_m4a1"
+				"weapon"				"weapon_sandstorm_l85a2"
+				"weapon"				"weapon_sandstorm_g36k"
+			}
+			"ammo_type_override"			"556_hp_stanag"
+		}
+		
+		"ammo_sandstorm_ap_556_stanag"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m16a2"
+				"weapon"				"weapon_sandstorm_steyrauga3"
+				"weapon"				"weapon_sandstorm_vhs2"
+				"weapon"				"weapon_sandstorm_m16a4"
+				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_vietnam_car15"
+				"weapon"				"weapon_sandstorm_m4a1"
+				"weapon"				"weapon_sandstorm_l85a2"
+				"weapon"				"weapon_sandstorm_g36k"
+			}
+			"ammo_type_override"			"556_ap_stanag"
+		}	
+
+		// ========================================
+		// 5.56 25-ROUND MAGAZINE AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_556_25rnd"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_famas"
+			}
+			"ammo_type_override"			"556_hp_famas"
+		}
+		
+		"ammo_sandstorm_ap_556_25rnd"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_famas"
+			}
+			"ammo_type_override"			"556_ap_famas"
+		}
+
+		// ========================================
+		// 300 BLACKOUT AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_300_blackout"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_honeybadger"
+			}
+			"ammo_type_override"			"300_hp_blackout"
+		}
+		
+		"ammo_sandstorm_ap_300_blackout"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_honeybadger"
+			}
+			"ammo_type_override"			"300_ap_blackout"
+		}	
+
+		// ========================================
+		// 9X39MM AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_9x39mm"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_asval"
+			}
+			"ammo_type_override"			"9x39mm_hp_asval"
+		}
+		
+		"ammo_sandstorm_ap_9x39mm"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_asval"
+			}
+			"ammo_type_override"			"9x39mm_ap_asval"
+		}
+
+		// ========================================
+		// 5.56 35-ROUND BOX AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_556_35rnd"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_galil"
+				"weapon"				"weapon_sandstorm_galil_sar"
+			}
+			"ammo_type_override"			"556_hp_35box"
+		}
+		
+		"ammo_sandstorm_ap_556_35rnd"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_galil"
+				"weapon"				"weapon_sandstorm_galil_sar"
+			}
+			"ammo_type_override"			"556_ap_35box"
+		}	
+
+		// ========================================
+		// 7.62x38 BOX AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_762_box"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_alphaak"
+				"weapon"				"weapon_sandstorm_akm"
+				"weapon"				"weapon_vietnam_type56"
+			}
+			"ammo_type_override"			"762x38_hp_box"
+		}
+		
+		"ammo_sandstorm_ap_762_box"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_alphaak"
+				"weapon"				"weapon_sandstorm_akm"
+				"weapon"				"weapon_vietnam_type56"
+			}
+			"ammo_type_override"			"762x38_ap_box"
+		}	
+
+		// ========================================
+		// 545x39 AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_545x39"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_ak74"
+				"weapon"				"weapon_sandstorm_aks74u"
+				"weapon"				"weapon_sandstorm_qbz03"
+			}
+			"ammo_type_override"			"545x39_hp"
+		}
+		
+		"ammo_sandstorm_ap_545x39"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_ak74"
+				"weapon"				"weapon_sandstorm_aks74u"
+				"weapon"				"weapon_sandstorm_qbz03"
+			}
+			"ammo_type_override"			"545x39_ap"
+		}	
+
+		// ========================================
+		// 762x51 20-ROUND BOX AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_762x51"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_fal"
+				"weapon"				"weapon_sandstorm_ace52"
+				"weapon"				"weapon_sandstorm_l1a1"
+				"weapon"				"weapon_sandstorm_g3a3"
+			}
+			"ammo_type_override"			"762x51_hp_box_20rnd"
+		}
+		
+		"ammo_sandstorm_ap_762x51"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_fal"
+				"weapon"				"weapon_sandstorm_ace52"
+				"weapon"				"weapon_sandstorm_l1a1"
+				"weapon"				"weapon_sandstorm_g3a3"
+			}
+			"ammo_type_override"			"762x51_ap_box_20rnd"
+		}	
+
+		// ========================================
+		// 762x51 20-ROUND MAGAZINE AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_762x51_mag"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_mk17"
+				"weapon"				"weapon_sandstorm_m14"
+			}
+			"ammo_type_override"			"762x51_mag_hp"
+		}
+		
+		"ammo_sandstorm_ap_762x51_mag"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_mk17"
+				"weapon"				"weapon_sandstorm_m14"
+			}
+			"ammo_type_override"			"762x51_mag_ap"
+		}	
+		
+		// ========================================
+		// 762x51 10-ROUND MAGAZINE AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_762x51_10_mag"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m110"
+			}
+			"ammo_type_override"			"762x51_10_mag_hp"
+		}
+		
+		"ammo_sandstorm_ap_762x51_10_mag"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m110"
+			}
+			"ammo_type_override"			"762x51_10_mag_ap"
+		}		
+
+		// ========================================
+		// 762x63 8-ROUND CLIP AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_762x63"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m1garand"
+			}
+			"ammo_type_override"			"762x63_clip_hp"
+		}
+		
+		"ammo_sandstorm_ap_762x63"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m1garand"
+			}
+			"ammo_type_override"			"762x63_clip_ap"
+		}	
+		
+		// ========================================
+		// 762x38 10-ROUND MAGAZINE AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_762x38_10rnd"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_svd"
+			}
+			"ammo_type_override"			"762x38mm_hp_clip_10rd"
+		}
+		
+		"ammo_sandstorm_ap_762x38_10rnd"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_svd"
+			}
+			"ammo_type_override"			"762x38mm_ap_clip_10rd"
+		}			
+	
+		// ========================================
+		// 762x38 20-ROUND CLIP AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_762x38_20rnd"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_sks"
+			}
+			"ammo_type_override"			"762x38mm_hp_clip"
+		}
+		
+		"ammo_sandstorm_ap_762x38_20rnd"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_sks"
+			}
+			"ammo_type_override"			"762x38mm_ap_clip"
+		}	
+
+		// ========================================
+		// 9x19mm 30-ROUND MAGAZINE AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_9x19mm_smg"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_sig_mpx"
+				"weapon"				"weapon_sandstorm_sterling"
+				"weapon"				"weapon_sandstorm_mp5a5"
+				"weapon"				"weapon_sandstorm_mp5a2"
+			}
+			"ammo_type_override"			"9x19mm_hp_smg"
+		}
+		
+		"ammo_sandstorm_ap_9x19mm_smg"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_sig_mpx"
+				"weapon"				"weapon_sandstorm_sterling"
+				"weapon"				"weapon_sandstorm_mp5a5"
+				"weapon"				"weapon_sandstorm_mp5a2"
+			}
+			"ammo_type_override"			"9x19mm_ap_smg"
+		}	
+
+		// ========================================
+		// 45 ACP 30-ROUND MAGAZINE AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_45acp_smg"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_greasegun"
+			}
+			"ammo_type_override"			"45acp_smg_hp"
+		}
+		
+		"ammo_sandstorm_ap_45acp_smg"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_greasegun"
+			}
+			"ammo_type_override"			"45acp_smg_ap"
+		}
+
+		// ========================================
+		// 9x19mm 25-ROUND MAGAZINE AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_9x19mm_25rnd"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_uzi"
+			}
+			"ammo_type_override"			"9x19mm_hp_smg_25rd"
+		}
+		
+		"ammo_sandstorm_ap_9x19mm_25rnd"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_uzi"
+			}
+			"ammo_type_override"			"9x19mm_ap_smg_25rd"
+		}	
+
+		// ========================================
+		// 762x51 50-ROUND BOX AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_762x51_box"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m240"
+			}
+			"ammo_type_override"			"762x51_hp_box"
+		}
+		
+		"ammo_sandstorm_ap_762x51_box"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m240"
+			}
+			"ammo_type_override"			"762x51_ap_box"
+		}	
+		
+		// ========================================
+		// 556 200-ROUND BOX AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_556_box"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m249"
+			}
+			"ammo_type_override"			"556_m27_hp"
+		}
+		
+		"ammo_sandstorm_ap_556_box"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m249"
+			}
+			"ammo_type_override"			"556_m27_hp"
+		}
+
+		// ========================================
+		// 762 75-ROUND DRUM AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_762_drum"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_rpk"
+			}
+			"ammo_type_override"			"762x38_hp_drum"
+		}
+		
+		"ammo_sandstorm_ap_762_drum"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_rpk"
+			}
+			"ammo_type_override"			"762x38_ap_drum"
+		}
+
+		// ========================================
+		// FREEAIM
+		// ========================================	
+
+		"weapon_mod_sandstorm_ads_freeaim"
+		{
+        	"upgrade_slot"				"stock"
+			"print_name"				"#weapon_mod_ads_freeaim"
+			"print_desc"				"#weapon_mod_ads_freeaim_desc"
+			"class_restricted"			"0"
+			"upgrade_cost"				"1"
+			"team_access"				"security, insurgent"			
+			
+			"weapon_mods"
+			{		
+			
+				"weapon_sandstorm_m9"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}	
+
+				"weapon_sandstorm_hipower"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_sigp226"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_pf940"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_m45"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_makarov"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_tariq"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_glock17"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_m1911"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+			
+				"weapon_vietnam_tt33"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}			
+
+				"weapon_sandstorm_m16a4"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_m16a2"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_mk18"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+				
+				"weapon_vietnam_car15"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}				
+				
+				"weapon_sandstorm_l85a2"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}				
+				
+				"weapon_sandstorm_saiga_12"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}				
+
+				"weapon_sandstorm_sig_mpx"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_steyrauga3"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_m4a1"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+				
+				"weapon_sandstorm_sig_mcx"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}				
+
+				"weapon_sandstorm_vhs2"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_g36k"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_galil"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_galil_sar"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_alphaak"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_akm"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+				
+				"weapon_vietnam_type56"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}				
+
+				"weapon_sandstorm_ak74"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_qbz03"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_fal"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_ace52"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_l1a1"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_g3a3"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_mkl7"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_m14"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_m110"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_svd"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_sks"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_mp7"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_mp5a5"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_mp5a2"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_aks74u"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_m249"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_m240"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_rpk"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_uzi"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_sterling"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_greasegun"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_asval"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_honeybadger"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_welrod"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_famas"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_m24"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+				
+				"weapon_vietnam_m40"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}				
+
+				"weapon_sandstorm_mosin"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}	
+
+				"weapon_sandstorm_m870"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_toz"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_sandstorm_m1garand"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}					
+																				
+			}
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m9"
+				"weapon"				"weapon_sandstorm_hipower"
+				"weapon"				"weapon_sandstorm_sigp226"
+				"weapon"				"weapon_sandstorm_pf940"
+				"weapon"				"weapon_sandstorm_m45"
+				"weapon"				"weapon_sandstorm_makarov"
+				"weapon"				"weapon_sandstorm_tariq"
+				"weapon"				"weapon_sandstorm_glock17"
+				"weapon"				"weapon_sandstorm_m1911"
+				"weapon"				"weapon_vietnam_tt33"
+				"weapon"				"weapon_sandstorm_m16a4"
+				"weapon"				"weapon_sandstorm_m16a2"
+				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_vietnam_car15"
+				"weapon"				"weapon_sandstorm_saiga_12"
+				"weapon"				"weapon_sandstorm_sig_mpx"
+				"weapon"				"weapon_sandstorm_steyrauga3"
+				"weapon"				"weapon_sandstorm_m4a1"
+				"weapon"				"weapon_sandstorm_sig_mcx"
+				"weapon"				"weapon_sandstorm_vhs2"
+				"weapon"				"weapon_sandstorm_l85a2"
+				"weapon"				"weapon_sandstorm_g36k"
+				"weapon"				"weapon_sandstorm_galil"
+				"weapon"				"weapon_sandstorm_galil_sar"
+				"weapon"				"weapon_sandstorm_alphaak"
+				"weapon"				"weapon_sandstorm_akm"
+				"weapon"				"weapon_vietnam_type56"
+				"weapon"				"weapon_sandstorm_ak74"
+				"weapon"				"weapon_sandstorm_qbz03"
+				"weapon"				"weapon_sandstorm_fal"
+				"weapon"				"weapon_sandstorm_ace52"
+				"weapon"				"weapon_sandstorm_l1a1"
+				"weapon"				"weapon_sandstorm_g3a3"
+				"weapon"				"weapon_sandstorm_mk17"
+				"weapon"				"weapon_sandstorm_m14"
+				"weapon"				"weapon_sandstorm_m110"
+				"weapon"				"weapon_sandstorm_svd"
+				"weapon"				"weapon_sandstorm_sks"
+				"weapon"				"weapon_sandstorm_mp7"
+				"weapon"				"weapon_sandstorm_mp5a5"
+				"weapon"				"weapon_sandstorm_mp5a2"
+				"weapon"				"weapon_sandstorm_aks74u"
+				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_sandstorm_m240"
+				"weapon"				"weapon_sandstorm_rpk"
+				"weapon"				"weapon_sandstorm_uzi"
+				"weapon"				"weapon_sandstorm_sterling"
+				"weapon"				"weapon_sandstorm_greasegun"
+				"weapon"				"weapon_sandstorm_asval"
+				"weapon"				"weapon_sandstorm_honeybadger"
+				"weapon"				"weapon_sandstorm_welrod"
+				"weapon"				"weapon_sandstorm_famas"
+				"weapon"				"weapon_sandstorm_m24"
+				"weapon"				"weapon_vietnam_m40"
+				"weapon"				"weapon_sandstorm_mosin"
+				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_sandstorm_toz"
+				"weapon"				"weapon_sandstorm_m1garand"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"v_g3a3"
+				{
+					"model"					"models/sndstrm/vg3a3.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_g3a3"
+					}
+				}
+				
+				"v_greasegun"
+				{
+					"model"					"models/sndstrm/upgrades/a_stock_extended_m3.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_greasegun"
+					}					
+				}					
+			}
+			
+			"world_attachments"
+			{
+				"w_g3a3"
+				{
+					"model"					"models/sndstrm/wg3a3.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_g3a3"
+					}
+				}
+			}
+			
+		}		
+
+
+		// ========================================
+		// HIGHER FOV
+		// ========================================	
+
+		"weapon_mod_sandstorm_higher_fov"
+		{
+        	"upgrade_slot"				"stock"
+			"print_name"				"#weapon_mod_higher_fov"
+			"print_desc"				"#weapon_mod_higher_fov_desc"
+			"class_restricted"			"0"
+			"upgrade_cost"				"1"
+			"team_access"				"security, insurgent"			
+			
+			"weapon_mods"
+			{		
+
+				"weapon_sandstorm_welrod"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-10"
+						"fov_wpn_default"			"95"
+						"fov_wpn_ironsight"			"100"
+						"fov_wpn_focus"				"79"
+					}			
+				}
+			
+				"weapon_sandstorm_m9"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-10"
+						"fov_wpn_default"			"95"
+						"fov_wpn_ironsight"			"100"
+						"fov_wpn_focus"				"79"
+					}			
+				}
+
+				"weapon_sandstorm_hipower"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-10"
+						"fov_wpn_default"			"95"
+						"fov_wpn_ironsight"			"100"
+						"fov_wpn_focus"				"79"
+					}			
+				}
+
+				"weapon_sandstorm_sigp226"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-10"
+						"fov_wpn_default"			"95"
+						"fov_wpn_ironsight"			"100"
+						"fov_wpn_focus"				"79"
+					}			
+				}	
+
+				"weapon_sandstorm_pf940"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-10"
+						"fov_wpn_default"			"95"
+						"fov_wpn_ironsight"			"100"
+						"fov_wpn_focus"				"79"
+					}			
+				}	
+
+				"weapon_sandstorm_m45"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-10"
+						"fov_wpn_default"			"90"
+						"fov_wpn_ironsight"			"100"
+						"fov_wpn_focus"				"79"
+					}			
+				}	
+
+				"weapon_sandstorm_makarov"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-10"
+						"fov_wpn_default"			"90"
+						"fov_wpn_ironsight"			"100"
+						"fov_wpn_focus"				"77"
+					}			
+				}	
+
+				"weapon_sandstorm_tariq"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-10"
+						"fov_wpn_default"			"90"
+						"fov_wpn_ironsight"			"100"
+						"fov_wpn_focus"				"77"
+					}			
+				}	
+
+				"weapon_sandstorm_glock17"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-10"
+						"fov_wpn_default"			"90"
+						"fov_wpn_ironsight"			"100"
+						"fov_wpn_focus"				"77"
+					}			
+				}	
+
+				"weapon_sandstorm_glock17"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-10"
+						"fov_wpn_default"			"90"
+						"fov_wpn_ironsight"			"100"
+						"fov_wpn_focus"				"77"
+					}			
+				}
+
+				"weapon_sandstorm_m1911"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-10"
+						"fov_wpn_default"			"90"
+						"fov_wpn_ironsight"			"100"
+						"fov_wpn_focus"				"79"
+					}			
+				}
+				
+				"weapon_vietnam_tt33"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-10"
+						"fov_wpn_default"			"90"
+						"fov_wpn_ironsight"			"100"
+						"fov_wpn_focus"				"79"
+					}			
+				}				
+
+				"weapon_sandstorm_sig_mcx"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"74"
+						"fov_wpn_focus"				"79"
+					}			
+				}		
+
+				"weapon_sandstorm_ace52"
+				{			
+					"fov"
+					{
+						"priority"					"0"
+						"fov_wpn_default"			"90"
+						"fov_wpn_ironsight"			"59"
+						"fov_wpn_focus"				"68"
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+					}			
+				}	
+
+				"weapon_sandstorm_m16a2"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"72"
+						"fov_wpn_focus"				"75"
+					}			
+				}		
+
+				"weapon_sandstorm_qbz03"
+				{			
+					"fov"
+					{
+						"priority"					"0"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"68"
+						"fov_wpn_focus"				"73"
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+					}			
+				}
+
+				"weapon_sandstorm_famas"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"72"
+						"fov_wpn_focus"				"75"
+					}			
+				}	
+
+				"weapon_sandstorm_steyrauga3"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"74"
+						"fov_wpn_focus"				"79"
+					}			
+				}	
+
+				"weapon_sandstorm_honeybadger"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"80"
+						"fov_wpn_focus"				"81"
+					}			
+				}		
+
+				"weapon_sandstorm_asval"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"83"
+						"fov_wpn_focus"				"86"
+					}			
+				}	
+
+				"weapon_sandstorm_vhs2"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"74"
+						"fov_wpn_focus"				"79"
+					}			
+				}	
+
+				"weapon_sandstorm_m16a4"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"72"
+						"fov_wpn_focus"				"75"
+					}			
+				}	
+
+				"weapon_sandstorm_mk18"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"80"
+						"fov_wpn_focus"				"81"
+					}			
+				}	
+				
+				"weapon_vietnam_car15"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"80"
+						"fov_wpn_focus"				"81"
+					}			
+				}					
+
+				"weapon_sandstorm_m4a1"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"74"
+						"fov_wpn_focus"				"79"
+					}			
+				}
+
+				"weapon_sandstorm_l85a2"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"80"
+						"fov_wpn_focus"				"81"
+					}			
+				}
+
+				"weapon_sandstorm_g36k"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"74"
+						"fov_wpn_focus"				"79"
+					}			
+				}			
+
+				"weapon_sandstorm_galil"
+				{			
+					"fov"
+					{
+						"fov_wpn_default"			"95"
+						"fov_wpn_ironsight"			"68"
+						"fov_wpn_focus"				"73"
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+					}			
+				}	
+
+				"weapon_sandstorm_galil_sar"
+				{			
+					"fov"
+					{
+						"fov_wpn_default"			"95"
+						"fov_wpn_ironsight"			"68"
+						"fov_wpn_focus"				"73"
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+					}			
+				}	
+
+				"weapon_sandstorm_alphaak"
+				{			
+					"fov"
+					{
+						"priority"					"0"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"68"
+						"fov_wpn_focus"				"73"
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+					}			
+				}	
+
+				"weapon_sandstorm_akm"
+				{			
+					"fov"
+					{
+						"priority"					"0"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"68"
+						"fov_wpn_focus"				"73"
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+					}			
+				}		
+
+				"weapon_vietnam_type56"
+				{			
+					"fov"
+					{
+						"priority"					"0"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"68"
+						"fov_wpn_focus"				"73"
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+					}			
+				}
+
+				"weapon_sandstorm_ak74"
+				{			
+					"fov"
+					{
+						"priority"					"0"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"68"
+						"fov_wpn_focus"				"73"
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+					}			
+				}		
+
+				"weapon_sandstorm_fal"
+				{			
+					"fov"
+					{
+						"priority"					"0"
+						"fov_wpn_default"			"90"
+						"fov_wpn_ironsight"			"59"
+						"fov_wpn_focus"				"68"
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+					}			
+				}	
+
+				"weapon_sandstorm_l1a1"
+				{			
+					"fov"
+					{
+						"priority"				"0"
+						"fov_wpn_default"			"90"
+						"fov_wpn_ironsight"			"59"
+						"fov_wpn_focus"				"68"
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+					}			
+				}
+
+				"weapon_sandstorm_g3a3"
+				{			
+					"fov"
+					{
+						"priority"					"0"
+						"fov_wpn_default"			"90"
+						"fov_wpn_ironsight"			"59"
+						"fov_wpn_focus"				"68"
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+					}			
+				}	
+
+				"weapon_sandstorm_m1garand"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-20"
+						"fov_plr_focus"				"-10"
+						"fov_wpn_default"			"90"
+						"fov_wpn_ironsight"			"73"
+						"fov_wpn_focus"				"66"
+					}			
+				}	
+
+				"weapon_sandstorm_mk17"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"80"
+						"fov_wpn_focus"				"85"
+					}			
+				}	
+
+				"weapon_sandstorm_m14"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"80"
+						"fov_wpn_focus"				"85"
+					}			
+				}	
+				
+				"weapon_sandstorm_m110"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"80"
+						"fov_wpn_focus"				"85"
+					}			
+				}					
+
+				"weapon_sandstorm_svd"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"76"
+						"fov_wpn_focus"				"81"
+					}			
+				}
+
+				"weapon_sandstorm_sks"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"76"
+						"fov_wpn_focus"				"81"
+					}			
+				}		
+
+				"weapon_sandstorm_sig_mpx"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"80"
+						"fov_wpn_focus"				"81"
+					}			
+				}
+
+				"weapon_sandstorm_greasegun"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-15"
+						"fov_plr_focus"				"-7"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"71"
+						"fov_wpn_focus"				"68"
+					}			
+				}	
+
+				"weapon_sandstorm_sterling"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"79"
+						"fov_wpn_focus"				"82"
+					}			
+				}	
+
+				"weapon_sandstorm_uzi"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"79"
+						"fov_wpn_focus"				"82"
+					}			
+				}	
+
+				"weapon_sandstorm_mp7"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"80"
+						"fov_wpn_focus"				"85"
+					}			
+				}		
+
+				"weapon_sandstorm_mp5a5"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"80"
+						"fov_wpn_focus"				"85"
+					}			
+				}	
+
+				"weapon_sandstorm_mp5a2"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"80"
+						"fov_wpn_focus"				"85"
+					}			
+				}	
+
+				"weapon_sandstorm_aks74u"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"72"
+						"fov_wpn_focus"				"77"
+					}			
+				}	
+
+				"weapon_sandstorm_saiga_12"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"80"
+						"fov_wpn_focus"				"81"
+					}			
+				}		
+
+				"weapon_sandstorm_m870"
+				{			
+					"fov"
+					{
+						"fov_wpn_scope"				"0"
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"74"
+						"fov_wpn_focus"				"79"
+					}			
+				}	
+
+				"weapon_sandstorm_toz"
+				{			
+					"fov"
+					{
+						"fov_wpn_scope"				"0"
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"64"
+						"fov_wpn_focus"				"69"
+					}			
+				}	
+
+				"weapon_sandstorm_m240"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"68"
+						"fov_wpn_focus"				"70"
+					}			
+				}
+
+				"weapon_sandstorm_m249"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"68"
+						"fov_wpn_focus"				"70"
+					}			
+				}					
+					
+				"weapon_sandstorm_rpk"
+				{			
+					"fov"
+					{
+						"priority"					"0"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"68"
+						"fov_wpn_focus"				"73"
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+					}			
+				}
+
+				"weapon_sandstorm_m24"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"94"
+						"fov_wpn_ironsight"			"56"
+						"fov_wpn_focus"				"58"
+					}			
+				}	
+
+				"weapon_vietnam_m40"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"94"
+						"fov_wpn_ironsight"			"56"
+						"fov_wpn_focus"				"58"
+					}			
+				}					
+					
+				"weapon_sandstorm_mosin"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"94"
+						"fov_wpn_ironsight"			"60"
+						"fov_wpn_focus"				"58"
+					}			
+				}						
+					
+			}
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_welrod"
+				"weapon"				"weapon_sandstorm_m9"
+				"weapon"				"weapon_sandstorm_hipower"
+				"weapon"				"weapon_sandstorm_sigp226"
+				"weapon"				"weapon_sandstorm_pf940"
+				"weapon"				"weapon_sandstorm_m45"
+				"weapon"				"weapon_sandstorm_makarov"
+				"weapon"				"weapon_sandstorm_tariq"
+				"weapon"				"weapon_sandstorm_glock17"
+				"weapon"				"weapon_sandstorm_m1911"
+				"weapon"				"weapon_vietnam_tt33"
+				"weapon"				"weapon_sandstorm_sig_mcx"
+				"weapon"				"weapon_sandstorm_ace52"
+				"weapon"				"weapon_sandstorm_m16a2"
+				"weapon"				"weapon_sandstorm_qbz03"
+				"weapon"				"weapon_sandstorm_famas"
+				"weapon"				"weapon_sandstorm_steyrauga3"
+				"weapon"				"weapon_sandstorm_honeybadger"
+				"weapon"				"weapon_sandstorm_asval"
+				"weapon"				"weapon_sandstorm_vhs2"
+				"weapon"				"weapon_sandstorm_m16a4"
+				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_vietnam_car15"
+				"weapon"				"weapon_sandstorm_m4a1"
+				"weapon"				"weapon_sandstorm_l85a2"
+				"weapon"				"weapon_sandstorm_g36k"
+				"weapon"				"weapon_sandstorm_galil"
+				"weapon"				"weapon_sandstorm_galil_sar"
+				"weapon"				"weapon_sandstorm_alphaak"
+				"weapon"				"weapon_sandstorm_akm"
+				"weapon"				"weapon_vietnam_type56"
+				"weapon"				"weapon_sandstorm_ak74"
+				"weapon"				"weapon_sandstorm_fal"
+				"weapon"				"weapon_sandstorm_l1a1"
+				"weapon"				"weapon_sandstorm_g3a3"
+				"weapon"				"weapon_sandstorm_m1garand"
+				"weapon"				"weapon_sandstorm_mk17"
+				"weapon"				"weapon_sandstorm_m14"
+				"weapon"				"weapon_sandstorm_m110"
+				"weapon"				"weapon_sandstorm_svd"
+				"weapon"				"weapon_sandstorm_sks"
+				"weapon"				"weapon_sandstorm_sig_mpx"
+				"weapon"				"weapon_sandstorm_greasegun"
+				"weapon"				"weapon_sandstorm_sterling"
+				"weapon"				"weapon_sandstorm_uzi"
+				"weapon"				"weapon_sandstorm_mp7"
+				"weapon"				"weapon_sandstorm_mp5a5"
+				"weapon"				"weapon_sandstorm_mp5a2"
+				"weapon"				"weapon_sandstorm_aks74u"
+				"weapon"				"weapon_sandstorm_saiga_12"
+				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_sandstorm_toz"
+				"weapon"				"weapon_sandstorm_m240"
+				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_sandstorm_rpk"
+				"weapon"				"weapon_sandstorm_m24"
+				"weapon"				"weapon_vietnam_m40"
+				"weapon"				"weapon_sandstorm_mosin"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"v_g3a3"
+				{
+					"model"					"models/sndstrm/vg3a3.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_g3a3"
+					}
+				}
+				
+				"v_greasegun"
+				{
+					"model"					"models/sndstrm/upgrades/a_stock_extended_m3.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_greasegun"
+					}					
+				}				
+			}
+			
+			"world_attachments"
+			{
+				"w_g3a3"
+				{
+					"model"					"models/sndstrm/wg3a3.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_g3a3"
+					}
+				}
+			}
+			
+		}		
+
+	
+		"barrel_sandstorm_fast_pump_action"
+		{
+			"print_name"				"#fast_pump_action"
+			"print_desc"				"#fast_pump_action_desc"
+			"upgrade_cost"				"1"
+			"upgrade_slot"				"underbarrel"
+			"bolt_speed"				"1.4"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_sandstorm_toz"				
+			}
+			
+			"team_access"				"security, insurgent"
+				
+		}	
+	
+	}
+}
