@@ -7208,7 +7208,7 @@
 			{
 				"ammo_type"				"buckshot_saiga12"
 				"clip_max"				"12"
-				"clip_max_rounds"			"10"
+				"clip_max_rounds"			"12"
 				"clip_default"				"3"
 			}
 			"attachments"
