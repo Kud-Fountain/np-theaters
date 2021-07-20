@@ -5481,7 +5481,7 @@
 			"print_desc"				"#weapon_upgrade_sandstorm_scope_mk4_desc"
 			"team_access"				"security, insurgent"
 			"class_restricted"			"0"
-			"weapon_cost"				"3"
+			"upgrade_cost"				"3"
 			
 			"allowed_weapons"
 			{
