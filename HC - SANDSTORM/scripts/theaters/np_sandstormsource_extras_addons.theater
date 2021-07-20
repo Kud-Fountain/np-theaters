@@ -856,7 +856,7 @@
 			"print_name"				"#weapon_mod_ads_freeaim"
 			"print_desc"				"#weapon_mod_ads_freeaim_desc"
 			"class_restricted"			"0"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"team_access"				"security, insurgent"			
 			
 			"weapon_mods"
@@ -2019,7 +2019,7 @@
 			"print_name"				"#weapon_mod_higher_fov"
 			"print_desc"				"#weapon_mod_higher_fov_desc"
 			"class_restricted"			"0"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"team_access"				"security, insurgent"			
 			
 			"weapon_mods"
