@@ -5338,7 +5338,7 @@
 			"print_name"				"#weapon_upgrade_sandstorm_scope_mosin"
 			"print_desc"				"#weapon_upgrade_sandstorm_scope_mosin_desc"
 			"class_restricted"			"0"
-			"upgrade_cost"				"4"
+			"upgrade_cost"				"3"
 			"team_access"				"security, insurgent"
 			"class_restricted"			"0"
 			
@@ -5481,6 +5481,7 @@
 			"print_desc"				"#weapon_upgrade_sandstorm_scope_mk4_desc"
 			"team_access"				"security, insurgent"
 			"class_restricted"			"0"
+			"weapon_cost"				"3"
 			
 			"allowed_weapons"
 			{

@@ -13,7 +13,7 @@
 		{
 			"print_name"				"#operator_training"
 			"print_desc"				"#operator_training_desc"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"5"
 			"upgrade_slot"				"aesthetic"
 			"draw_speed"				"1.5"
 			"holster_speed"				"1.5"
