@@ -78,6 +78,7 @@
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_aks74u"
 				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
 				"weapon"				"weapon_sandstorm_rpk"
 				"weapon"				"weapon_sandstorm_uzi"
@@ -171,6 +172,7 @@
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_aks74u"
 				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
 				"weapon"				"weapon_sandstorm_rpk"
 				"weapon"				"weapon_sandstorm_uzi"
@@ -769,6 +771,32 @@
 		}	
 
 		// ========================================
+		// 762x51 200-ROUND BOX AMMO UPGRADES
+		// ========================================
+
+		"ammo_sandstorm_hp_762x51_200box"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_vietnam_m60"
+			}
+			"ammo_type_override"			"762x51_hp_200box"
+		}
+		
+		"ammo_sandstorm_ap_762x51_200box"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_vietnam_m60"
+			}
+			"ammo_type_override"			"762x51_ap_200box"
+		}	
+		
+		// ========================================
 		// 762x51 50-ROUND BOX AMMO UPGRADES
 		// ========================================
 
@@ -792,7 +820,7 @@
 				"weapon"				"weapon_sandstorm_m240"
 			}
 			"ammo_type_override"			"762x51_ap_box"
-		}	
+		}			
 		
 		// ========================================
 		// 556 200-ROUND BOX AMMO UPGRADES
@@ -1635,6 +1663,24 @@
 						"freeaim_frac_ads"				"1.0"
 					}				
 				}
+				
+				"weapon_vietnam_m60"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}				
 
 				"weapon_sandstorm_m240"
 				{			
@@ -1953,6 +1999,7 @@
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_aks74u"
 				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
 				"weapon"				"weapon_sandstorm_rpk"
 				"weapon"				"weapon_sandstorm_uzi"
@@ -2694,6 +2741,18 @@
 						"fov_wpn_ironsight"			"68"
 						"fov_wpn_focus"				"70"
 					}			
+				}			
+
+				"weapon_vietnam_m60"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"68"
+						"fov_wpn_focus"				"70"
+					}			
 				}					
 					
 				"weapon_sandstorm_rpk"
@@ -2803,6 +2862,7 @@
 				"weapon"				"weapon_sandstorm_toz"
 				"weapon"				"weapon_sandstorm_m240"
 				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_rpk"
 				"weapon"				"weapon_sandstorm_m24"
 				"weapon"				"weapon_vietnam_m40"

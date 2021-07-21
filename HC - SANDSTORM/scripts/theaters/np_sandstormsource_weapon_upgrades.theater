@@ -828,6 +828,18 @@
 						"clip_default"			"1"
 						"lose_rounds_reload"	"1"
 					}
+				}
+
+				"weapon_vietnam_m60"
+				{
+					"ammo_clip"
+					{
+						"ammo_type"				"762x51_200box"
+						"clip_max"				"4"
+						"clip_max_rounds"		"50"
+						"clip_default"			"1"
+						"lose_rounds_reload"	"1"
+					}
 				}					
 
 				"weapon_sandstorm_rpk"
@@ -889,6 +901,7 @@
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_aks74u"
 				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
 				"weapon"				"weapon_sandstorm_rpk"
 				"weapon"				"weapon_sandstorm_uzi"
@@ -1411,7 +1424,88 @@
 			
 			"ammo_type_override"		"9x19mm_aptracer_welrod"
 		}		
+	
+		// ========================================
+		// LASER SIGHT AND FLASHLIGHT
+		// ========================================			
 		
+		"siderail_laserflashlight_rail"
+		{
+			"import"					"base_laserflashlight"
+			"upgrade_cost"				"0"
+			"team_access"				"security, insurgent"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m16a4"
+				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_sandstorm_sig_mpx"
+				"weapon"				"weapon_sandstorm_m4a1"
+				"weapon"				"weapon_sandstorm_steyrauga3"
+				"weapon"				"weapon_sandstorm_sig_mcx"
+				"weapon"				"weapon_sandstorm_g36k"
+				"weapon"				"weapon_sandstorm_m14"
+				"weapon"				"weapon_sandstorm_m110"		
+				"weapon"				"weapon_sandstorm_honeybadger"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"flashlight_rail"
+				{
+					"model"					"models/sndstrm/upgrades/a_flashlaser_rail.mdl"
+
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_m16a4"
+						"weapon"			"weapon_sandstorm_m14"
+						"weapon"			"weapon_sandstorm_m110"
+						"weapon"			"weapon_sandstorm_mk18"	
+						"weapon"			"weapon_sandstorm_sig_mpx"
+						"weapon"			"weapon_sandstorm_honeybadger"						
+						"weapon"			"weapon_sandstorm_m4a1"
+						"weapon"			"weapon_sandstorm_sig_mcx"
+						"weapon"			"weapon_sandstorm_g36k"	
+						"weapon"			"weapon_sandstorm_steyrauga3"
+					}					
+
+				}
+				
+				"standard_mk18"
+				{
+					"model"					"models/weapons/upgrades/a_standard3_mk18.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_mk18"
+						"weapon"			"weapon_sandstorm_sig_mpx"
+						"weapon"			"weapon_sandstorm_honeybadger"
+					}
+				}								
+				
+				"standard_g36k"
+				{
+					"model"					"models/sndstrm/upgrades/a_standard5_g36k.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_g36k"
+					}
+				}
+
+				"standard_Steyr_AUG"
+				{
+					"model"					"models/sndstrm/upgrades/a_standard5_saug.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_sandstorm_steyrauga3"
+					}
+				}				
+				
+			}
+		}
+	
 		// ========================================
 		// FLASHLIGHTS
 		// ========================================			
@@ -1533,6 +1627,7 @@
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_mp7"
 				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
 				"weapon"				"weapon_sandstorm_asval"
 
@@ -2206,6 +2301,7 @@
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
 				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
 				"weapon"				"weapon_sandstorm_m24"
 				"weapon"				"weapon_vietnam_m40"
@@ -2387,6 +2483,12 @@
 					"fov_wpn_ironsight"			"42"
 					"fov_wpn_focus"				"52"
 				}
+				
+				"weapon_vietnam_m60"
+				{
+					"fov_wpn_ironsight"			"42"
+					"fov_wpn_focus"				"52"
+				}				
 				
 				"weapon_sandstorm_m240"
 				{
@@ -2625,6 +2727,7 @@
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
 				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
 				"weapon"				"weapon_sandstorm_m24"
 				"weapon"				"weapon_vietnam_m40"
@@ -2909,6 +3012,12 @@
 					"fov_wpn_focus"				"58"
 				}
 				
+				"weapon_vietnam_m60"
+				{
+					"fov_wpn_ironsight"			"49"
+					"fov_wpn_focus"				"58"
+				}				
+				
 				"weapon_sandstorm_m240"
 				{
 					"fov_wpn_ironsight"			"49"
@@ -3022,6 +3131,7 @@
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
 				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
 				"weapon"				"weapon_sandstorm_mk18"
 				"weapon"				"weapon_vietnam_car15"
@@ -3263,6 +3373,12 @@
 					"fov_wpn_focus"				"58"
 				}
 				
+				"weapon_vietnam_m60"
+				{
+					"fov_wpn_ironsight"			"49"
+					"fov_wpn_focus"				"58"
+				}				
+				
 				"weapon_sandstorm_m240"
 				{
 					"fov_wpn_ironsight"			"49"
@@ -3363,6 +3479,7 @@
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
 				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
 				"weapon"				"weapon_sandstorm_m24"
 				"weapon"				"weapon_vietnam_m40"
@@ -3557,6 +3674,12 @@
 					"fov_wpn_focus"				"50"
 				}
 				
+				"weapon_vietnam_m60"
+				{
+					"fov_wpn_ironsight"			"44"
+					"fov_wpn_focus"				"50"
+				}				
+				
 				"weapon_sandstorm_m240"
 				{
 					"fov_wpn_ironsight"			"44"
@@ -3732,6 +3855,7 @@
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
 				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
 				"weapon"				"weapon_sandstorm_m24"
 				"weapon"				"weapon_vietnam_m40"
@@ -3950,6 +4074,12 @@
 					"fov_wpn_focus"				"50"
 				}
 				
+				"weapon_vietnam_m60"
+				{
+					"fov_wpn_ironsight"			"44"
+					"fov_wpn_focus"				"50"
+				}				
+				
 				"weapon_sandstorm_m240"
 				{
 					"fov_wpn_ironsight"			"44"
@@ -4125,6 +4255,7 @@
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
 				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
 				"weapon"				"weapon_sandstorm_m24"
 				"weapon"				"weapon_vietnam_m40"
@@ -4363,6 +4494,12 @@
 					"fov_wpn_focus"				"66"
 				}
 				
+				"weapon_vietnam_m60"
+				{
+					"fov_wpn_ironsight"			"61"
+					"fov_wpn_focus"				"66"
+				}				
+				
 				"weapon_sandstorm_m240"
 				{
 					"fov_wpn_ironsight"			"61"
@@ -4547,6 +4684,7 @@
 				"weapon"				"weapon_sandstorm_m110"
 				"weapon"				"weapon_sandstorm_mk17"
 				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
 				"weapon"				"weapon_sandstorm_mp5a5"
 				"weapon"				"weapon_sandstorm_mp5a2"
@@ -4570,6 +4708,7 @@
 						"weapon"				"weapon_sandstorm_mp5a2"
 						"weapon"				"weapon_sandstorm_mp7"
 						"weapon"				"weapon_sandstorm_m249"
+						"weapon"				"weapon_vietnam_m60"
 						"weapon"				"weapon_sandstorm_m240"
 						"weapon"				"weapon_sandstorm_uzi"
 						"weapon"				"weapon_sandstorm_sterling"
@@ -4618,6 +4757,7 @@
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
 						"weapon"				"weapon_sandstorm_m249"
+						"weapon"				"weapon_vietnam_m60"
 						"weapon"				"weapon_sandstorm_m240"
 						"weapon"				"weapon_sandstorm_uzi"
 						"weapon"				"weapon_sandstorm_sterling"
@@ -4931,6 +5071,7 @@
 				"weapon"				"weapon_sandstorm_famas"
 				"weapon"				"weapon_sandstorm_m16a2"
 				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
 				"weapon"				"weapon_sandstorm_m24"
 				"weapon"				"weapon_vietnam_m40"
@@ -4966,6 +5107,7 @@
 						"weapon"				"weapon_sandstorm_sks"
 						"weapon"				"weapon_sandstorm_svd"
 						"weapon"				"weapon_sandstorm_m249"
+						"weapon"				"weapon_vietnam_m60"
 						"weapon"				"weapon_sandstorm_m240"
 						"weapon"				"weapon_sandstorm_galil"
 						"weapon"				"weapon_sandstorm_galil_sar"
@@ -5021,6 +5163,7 @@
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
 						"weapon"				"weapon_sandstorm_m249"
+						"weapon"				"weapon_vietnam_m60"
 						"weapon"				"weapon_sandstorm_m240"
 						"weapon"				"weapon_sandstorm_galil"
 						"weapon"				"weapon_sandstorm_galil_sar"
@@ -5199,6 +5342,12 @@
 					"fov_wpn_ironsight"			"40"
 					"fov_wpn_focus"				"48"
 				}
+				
+				"weapon_vietnam_m60"
+				{
+					"fov_wpn_ironsight"			"40"
+					"fov_wpn_focus"				"48"
+				}				
 				
 				"weapon_sandstorm_m240"
 				{
@@ -6643,6 +6792,7 @@
 				"weapon"					"weapon_sandstorm_m110"
 				"weapon"					"weapon_sandstorm_m240"
 				"weapon"					"weapon_sandstorm_m249"
+				"weapon"					"weapon_vietnam_m60"
 				"weapon"					"weapon_sandstorm_rpk"
 				"weapon"					"weapon_sandstorm_m9"
 				"weapon"					"weapon_sandstorm_hipower"
@@ -6847,6 +6997,7 @@
 				"weapon"					"weapon_sandstorm_m110"
 				"weapon"					"weapon_sandstorm_m240"
 				"weapon"					"weapon_sandstorm_m249"
+				"weapon"					"weapon_vietnam_m60"
 				"weapon"					"weapon_sandstorm_rpk"			
 				"weapon"					"weapon_sandstorm_m9"
 				"weapon"					"weapon_sandstorm_hipower"
@@ -7352,6 +7503,7 @@
 			{
 				"weapon"				"weapon_sandstorm_m870"
 				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
 				"weapon"				"weapon_sandstorm_rpk"
 				"weapon"				"weapon_sandstorm_toz"
@@ -7387,6 +7539,7 @@
 					"weapons"
 					{
 						"weapon"				"weapon_sandstorm_m249"
+						"weapon"				"weapon_vietnam_m60"
 						"weapon"				"weapon_sandstorm_m240"
 					}
 				}
@@ -7413,6 +7566,7 @@
 					{
 						"weapon"				"weapon_sandstorm_m870"
 						"weapon"				"weapon_sandstorm_m249"
+						"weapon"				"weapon_vietnam_m60"
 						"weapon"				"weapon_sandstorm_m240"
 					}
 				}
@@ -7546,6 +7700,7 @@
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_mp7"
 				"weapon"				"weapon_sandstorm_m249"
+				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
 				"weapon"				"weapon_sandstorm_l1a1"
 				"weapon"				"weapon_sandstorm_uzi"

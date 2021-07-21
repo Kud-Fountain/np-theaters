@@ -66,23 +66,23 @@
 				
 				"[Alpha]"
 				{
-					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_medic"
-					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_medic"
-					"#Squad_Gnalvl_Riflepoint"			"gnalvl_pointman_medic"
-					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_medic_2"
-					"#Squad_Gnalvl_SDM2"					"Gnalvl_marksman_medic_2"
-					"#Squad_Gnalvl_VIP"					"Gnalvl_vip_medic"
+					"#Squad_Gnalvl_Rifleman_AT2"			"Gnalvl_rifleman_at_medic_2"
+					"#Squad_Gnalvl_Rifleman_AT2"			"Gnalvl_rifleman_at_medic_2"
+					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_medic_1"
+					"#Squad_Gnalvl_SDM"					"Gnalvl_marksman_medic_1"
+					"#Squad_Gnalvl_VIP_JAM"					"Gnalvl_vip_jam_medic"
+					"#Squad_Gnalvl_VIP_UAV"					"Gnalvl_vip_uav_medic"
 					"#Squad_Gnalvl_VIP_FP"					"Gnalvl_vip_fp_medic"
 				}
 				"[Bravo]"
 				{
-					"#Squad_Gnalvl_SquadLeader"			"Gnalvl_squadleader_medic"
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_medic_1"
 					"#Squad_Gnalvl_Auto"				"Gnalvl_support_medic_1"
 					"#Squad_Gnalvl_Auto2"				"Gnalvl_support_medic_2"
 					"#Squad_Gnalvl_Auto2"				"Gnalvl_support_medic_2"
-					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_medic_1"	
-					"#Squad_Gnalvl_Rifleman_AT"			"Gnalvl_rifleman_at_medic_1"
+					"#Squad_Gnalvl_Auto2"				"Gnalvl_support_medic_2"
+					"#Squad_Gnalvl_Rifleman_AT2"			"Gnalvl_rifleman_at_medic_2"
+					"#Squad_Gnalvl_Rifleman_AT2"			"Gnalvl_rifleman_at_medic_2"
 				}
 				"[Charlie]"
 				{

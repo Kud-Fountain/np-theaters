@@ -1762,5 +1762,39 @@
 			"tracer_lowammo"			"7"
 		}		
 		
+		// ========================================
+		// M240B
+		// ========================================
+		
+		"762x51_200box"
+		{
+			"import"				"762x51"
+			"carry"					"6"
+			"magsize"				"200"
+			"tracer_frequency"			"3"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"7"
+		}
+		
+		"762x51_hp_200box"
+		{
+			"import"				"762x51_hp"
+			"carry"					"6"
+			"magsize"				"200"
+			"tracer_frequency"			"3"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"7"
+		}
+
+		"762x51_ap_200box"
+		{
+			"import"				"762x51_ap"
+			"carry"					"6"
+			"magsize"				"200"
+			"tracer_frequency"			"3"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"7"
+		}		
+		
 	}
 }

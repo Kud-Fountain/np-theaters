@@ -115,7 +115,7 @@
 			"act_table"					"rifle_ak"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"64"	// (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"weapon_cost"				"0"
+			"weapon_cost"				"4"
 			"barrel_length"				"16"
 			"weapon_max_subslot"			"0"
 			"class_restricted"			"1"//new class 0
