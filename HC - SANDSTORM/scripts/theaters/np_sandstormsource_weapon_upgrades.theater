@@ -83,6 +83,7 @@
 				"weapon"				"weapon_sandstorm_sigp226"
 				"weapon"				"weapon_sandstorm_pf940"
 				"weapon"				"weapon_sandstorm_m45"
+				"weapon"				"weapon_vietnam_m1911a1"
 				"weapon"				"weapon_sandstorm_makarov"
 				"weapon"				"weapon_sandstorm_tariq"
 				"weapon"				"weapon_sandstorm_glock17"
@@ -288,6 +289,18 @@
 						"lose_rounds_reload"	"1"
 					}
 				}
+				
+				"weapon_vietnam_m1911a1"
+				{
+					"ammo_clip"
+					{
+						"ammo_type"				"45acp_pistol"
+						"clip_max"				"10"
+						"clip_max_rounds"		"7"
+						"clip_default"			"2"
+						"lose_rounds_reload"	"1"
+					}
+				}				
 
 				"weapon_sandstorm_makarov"
 				{
@@ -863,6 +876,7 @@
 				"weapon"				"weapon_sandstorm_sigp226"
 				"weapon"				"weapon_sandstorm_pf940"
 				"weapon"				"weapon_sandstorm_m45"
+				"weapon"				"weapon_vietnam_m1911a1"
 				"weapon"				"weapon_sandstorm_makarov"
 				"weapon"				"weapon_sandstorm_tariq"
 				"weapon"				"weapon_sandstorm_glock17"
@@ -934,6 +948,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_m45"
+				"weapon"				"weapon_vietnam_m1911a1"
 				"weapon"				"weapon_sandstorm_m1911"
 			}
 			
@@ -947,6 +962,7 @@
 					"weapons"
 					{
 						"weapon"		"weapon_sandstorm_m1911"
+						"weapon"		"weapon_vietnam_m1911a1"
 					}
 				}
 				
@@ -959,7 +975,8 @@
 					{
 						"weapon"		"weapon_sandstorm_m45"
 					}
-				}						
+				}	
+					
 			}
 			
 			"world_attachments"
@@ -971,6 +988,7 @@
 					"weapons"
 					{
 						"weapon"		"weapon_sandstorm_m1911"
+						"weapon"		"weapon_vietnam_m1911a1"
 					}
 				}
 				
@@ -1432,7 +1450,7 @@
 		"siderail_laserflashlight_rail"
 		{
 			"import"					"base_laserflashlight"
-			"upgrade_cost"				"0"
+			"upgrade_cost"				"2"
 			"team_access"				"security, insurgent"
 
 			"allowed_weapons"
@@ -1743,6 +1761,7 @@
 				"weapon"				"weapon_sandstorm_sigp226"
 				"weapon"				"weapon_sandstorm_pf940"
 				"weapon"				"weapon_sandstorm_m45"
+				"weapon"				"weapon_vietnam_m1911a1"
 				"weapon"				"weapon_sandstorm_m1911"
 				"weapon"				"weapon_vietnam_tt33"
 				"weapon"				"weapon_sandstorm_makarov"
@@ -6799,6 +6818,7 @@
 				"weapon"					"weapon_sandstorm_sigp226"
 				"weapon"					"weapon_sandstorm_pf940"
 				"weapon"					"weapon_sandstorm_m45"
+				"weapon"					"weapon_vietnam_m1911a1"
 				"weapon"					"weapon_sandstorm_makarov"
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon"					"weapon_sandstorm_glock17"
@@ -7004,6 +7024,7 @@
 				"weapon"					"weapon_sandstorm_sigp226"
 				"weapon"					"weapon_sandstorm_pf940"
 				"weapon"					"weapon_sandstorm_m45"
+				"weapon"					"weapon_vietnam_m1911a1"
 				"weapon"					"weapon_sandstorm_makarov"
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon"					"weapon_sandstorm_glock17"
@@ -7467,6 +7488,7 @@
 				"weapon"				"weapon_sandstorm_sigp226"
 				"weapon"				"weapon_sandstorm_pf940"
 				"weapon"				"weapon_sandstorm_m45"
+				"weapon"				"weapon_vietnam_m1911a1"
 				"weapon"				"weapon_sandstorm_makarov"
 				"weapon"				"weapon_sandstorm_tariq"
 				"weapon"				"weapon_sandstorm_glock17"
@@ -7817,6 +7839,7 @@
 				"weapon"				"weapon_sandstorm_m1911"
 				"weapon"				"weapon_vietnam_tt33"
 				"weapon"				"weapon_sandstorm_m45"
+				"weapon"				"weapon_vietnam_m1911a1"
 			}
 			"viewmodel_attachments"
 			{
@@ -8410,9 +8433,18 @@
 					{
 						"weapon"				"weapon_sandstorm_akm"
 						"weapon"				"weapon_vietnam_type56"
-						"weapon"				"weapon_sandstorm_alphaak"
 					}
 				}
+				// a bit of a hack to restore the standard fixture on the ALPHA AK
+				"Standard_ALPHA_AK"
+				{
+					"model"					"models/sndstrm/upgrades/a_standard_aak.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_sandstorm_alphaak"
+					}
+				}				
 				// a bit of a hack to restore the standard fixture on the AK74 ;)
 				"Standard_AK74"
 				{
@@ -8450,9 +8482,18 @@
 					{
 						"weapon"				"weapon_sandstorm_akm"
 						"weapon"				"weapon_vietnam_type56"
-						"weapon"				"weapon_sandstorm_alphaak"
 					}
 				}
+				
+				"Standard_ALPHA_AK"
+				{
+					"model"					"models/sndstrm/upgrades/w_standard_aak.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_sandstorm_alphaak"
+					}
+				}				
 				
 				"Standard_AK74"
 				{

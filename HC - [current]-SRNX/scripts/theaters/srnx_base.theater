@@ -531,7 +531,7 @@
 				//"gear"				"srnx_chest_carrier_eng2"
 				//"gear"				"srnx_chest_carrier_eng3"
 				"gear"				"basic_chest_shotgun"
-				//"gear"				"srnx_chest_rig_eng4"
+				//"gear"				"basic_chest"
 			}
 			"cost_modifiers"
 			{
@@ -1660,7 +1660,7 @@
 				"weapon"			"weapon_mr96"
 				"weapon"			"weapon_m3greasegun"
 				"weapon"			"weapon_mp7"
-				"weapon"			"weapon_makarov_fp"
+				//"weapon"			"weapon_makarov_fp"
 				
 				"weapon"			"weapon_asval"
 				"weapon"			"weapon_kriss"

@@ -6517,7 +6517,7 @@
 			"act_table"						"smg_magheld"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"36" // (4.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
-			"weapon_cost"					"2"
+			"weapon_cost"					"1"
 			"barrel_length"					"14"
 			"class_restricted"				"1"
 			"draw_speed"				"1.65"
@@ -6612,7 +6612,7 @@
 			"act_table"						"smg_magheld"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"28" // (2.5kg[weapon] + (0.7kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +8[encumbrance]
-			"weapon_cost"					"1"
+			"weapon_cost"					"2"
 			"class_restricted"				"1"
 			"barrel_length"					"18"
 			"draw_speed"				"1.85"
@@ -6706,7 +6706,7 @@
 			"act_table"						"shortrifle"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"32" // (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"weapon_cost"					"2"
+			"weapon_cost"					"3"
 			"class_restricted"				"1"
 			"barrel_length"					"16"
 			"draw_speed"				"1.65"
@@ -7190,7 +7190,7 @@
 			"act_table"						"smg_foregrip"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"28" // (2.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
-			"weapon_cost"					"3"
+			"weapon_cost"					"4"
 			"burst_delay"					"0.15"
 			"barrel_length"					"12"
 			"class_restricted"				"1"
@@ -7284,7 +7284,7 @@
 			"act_table"						"smg_foregrip" // ****REPLACE****
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"28" // new formula is (weight of weapon in kg + weight of 3 mags) x29.5
-			"weapon_cost"					"3"
+			"weapon_cost"					"4"
 			"barrel_length"					"18"
 			"class_restricted"				"1"
 			"draw_speed"				"1.85"

@@ -40,6 +40,7 @@
 				"weapon"				"weapon_sandstorm_sigp226"
 				"weapon"				"weapon_sandstorm_pf940"
 				"weapon"				"weapon_sandstorm_m45"
+				"weapon"				"weapon_vietnam_m1911a1"
 				"weapon"				"weapon_sandstorm_makarov"
 				"weapon"				"weapon_sandstorm_tariq"
 				"weapon"				"weapon_sandstorm_glock17"
@@ -271,6 +272,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_m45"
+				"weapon"				"weapon_vietnam_m1911a1"
 				"weapon"				"weapon_sandstorm_m1911"
 			}
 			"ammo_type_override"			"45acp_hp_pistol"
@@ -283,6 +285,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_m45"
+				"weapon"				"weapon_vietnam_m1911a1"
 				"weapon"				"weapon_sandstorm_m1911"
 			}
 			"ammo_type_override"			"45acp_ap_pistol"
@@ -393,6 +396,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_honeybadger"
+				"weapon"				"weapon_sandstorm_sig_mcx"
 			}
 			"ammo_type_override"			"300_hp_blackout"
 		}
@@ -404,6 +408,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_honeybadger"
+				"weapon"				"weapon_sandstorm_sig_mcx"
 			}
 			"ammo_type_override"			"300_ap_blackout"
 		}	
@@ -963,6 +968,24 @@
 				}
 
 				"weapon_sandstorm_m45"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+
+				"weapon_vietnam_m1911a1"
 				{			
 					"freeaim"
 					{
@@ -1961,6 +1984,7 @@
 				"weapon"				"weapon_sandstorm_sigp226"
 				"weapon"				"weapon_sandstorm_pf940"
 				"weapon"				"weapon_sandstorm_m45"
+				"weapon"				"weapon_vietnam_m1911a1"
 				"weapon"				"weapon_sandstorm_makarov"
 				"weapon"				"weapon_sandstorm_tariq"
 				"weapon"				"weapon_sandstorm_glock17"
@@ -2133,6 +2157,18 @@
 				}	
 
 				"weapon_sandstorm_m45"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-10"
+						"fov_wpn_default"			"90"
+						"fov_wpn_ironsight"			"100"
+						"fov_wpn_focus"				"79"
+					}			
+				}	
+
+				"weapon_vietnam_m1911a1"
 				{			
 					"fov"
 					{
@@ -2814,6 +2850,7 @@
 				"weapon"				"weapon_sandstorm_sigp226"
 				"weapon"				"weapon_sandstorm_pf940"
 				"weapon"				"weapon_sandstorm_m45"
+				"weapon"				"weapon_vietnam_m1911a1"
 				"weapon"				"weapon_sandstorm_makarov"
 				"weapon"				"weapon_sandstorm_tariq"
 				"weapon"				"weapon_sandstorm_glock17"
