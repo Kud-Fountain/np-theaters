@@ -530,8 +530,8 @@
 				//"gear"				"srnx_chest_carrier_eng1"
 				//"gear"				"srnx_chest_carrier_eng2"
 				//"gear"				"srnx_chest_carrier_eng3"
-				"gear"				"basic_chest_shotgun"
-				//"gear"				"basic_chest"
+				//"gear"				"basic_chest_shotgun"
+				"gear"				"basic_chest"
 			}
 			"cost_modifiers"
 			{
