@@ -487,7 +487,7 @@
 				"weapon"			"weapon_toz"
 				"weapon"			"weapon_defib"
 				"gear"				"gear_ammocrate"
-				"gear"				"basic_chest_shotgun"
+				"gear"				"basic_chest"
 			}
 			"allowed_items"
 			{
