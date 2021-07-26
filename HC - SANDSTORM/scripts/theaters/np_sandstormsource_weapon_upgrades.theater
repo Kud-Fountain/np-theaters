@@ -60,6 +60,33 @@
 			{
 				"weapon"				"weapon_sandstorm_saiga_12"
 			}
+		}
+
+		"ammo_flechettes"
+		{
+			"import"					"base_ammo_flechettes"
+			"team_access"				"security, insurgent"
+			
+			"ammo_type_override"			"flechettes"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_sandstorm_toz"
+			}
+		}
+		
+		"ammo_flechettes_saiga12"
+		{
+			"import"					"base_ammo_flechettes"
+			"team_access"				"security, insurgent"
+			
+			"ammo_type_override"			"flechettes_saiga12"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_saiga_12"
+			}
 		}		
 
 		// ========================================
@@ -1213,7 +1240,7 @@
 			"print_name"				"#weapon_upgrade_magazine_extended"
 			"print_desc"				"#weapon_upgrade_magazine_30rd_desc"
 
-			"magsize_override"			"20"
+			"magsize_override"			"30"
 
 			"allowed_weapons"
 			{

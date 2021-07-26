@@ -832,6 +832,36 @@
 			}
 		}
 		
+		"flechette"
+		{
+			"import"				"default"
+			"bulletcount"				"28"
+			"damageType"				"DMG_BUCKSHOT"
+			"brass_model"				"models/weapons/shells/12guage.mdl"
+			"brass_sound"				"BOUNCE_SHOTSHELL"
+			"Damage"
+			{
+				"800"					"32" // 324 total possible
+				"2000"					"18" // 162 (rounded up)
+				"7000"					"6" // 54 (rounded down)
+			}
+			"PenetrationPower"
+			{
+				"1000"					"120"
+				"8000"					"20"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"1.00"
+				"HITGROUP_CHEST"			"0.60"
+				"HITGROUP_STOMACH"			"0.60"
+				"HITGROUP_LEFTARM"			"1.00"
+				"HITGROUP_RIGHTARM"			"1.00"
+				"HITGROUP_LEFTLEG"			"1.00"
+				"HITGROUP_RIGHTLEG"			"1.00"
+			}
+		}		
+		
 		"slug"
 		{
 			"brass_model"				"models/weapons/shells/12guage.mdl"
@@ -847,24 +877,6 @@
 				"8000"					"10"
 			}
 		}
-		
-		"slug_saiga12"
-		{
-			"brass_model"				"models/weapons/shells/12guage.mdl"
-			"magsize"					"10"
-			
-			"Damage"
-			{
-				"800"					"288"
-				"4500"					"144"
-				"9000"					"40"
-			}
-			"PenetrationPower"
-			{
-				"100"					"650"
-				"8000"					"10"
-			}
-		}		
 
 		// ========================================
 		// NOT MAGAZINES
@@ -887,7 +899,14 @@
 			"carry"					"72"
 			"flags_clear"				"AMMO_USE_MAGAZINES"
 		}
-				
+			
+		"flechettes"
+		{
+			"import"				"flechette"
+			"carry"					"72"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+		}
+			
 		// ========================================
 		// saiga-12 shotgun
 		// ========================================
@@ -902,11 +921,20 @@
 		
 		"slugs_saiga12"
 		{
-			"import"				"slug_saiga12"
+			"import"				"slug"
 			"carry"					"12"
 			"magsize"				"12"
 			"flags"					"AMMO_USE_MAGAZINES"
-		}		
+		}	
+
+		"flechettes_saiga12"
+		{
+			"import"				"flechette"
+			"carry"					"12"
+			"magsize"				"12"
+			"flags"					"AMMO_USE_MAGAZINES"
+		}
+					
 		
 		// ========================================
 		// m40a1
