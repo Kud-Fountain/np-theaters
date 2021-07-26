@@ -177,6 +177,7 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_vietnam_xm16e1"
 				"weapon"					"weapon_sandstorm_sig_mcx"
 				"weapon"					"weapon_vietnam_car15"
 				"weapon"					"weapon_sandstorm_m16a4"
@@ -218,6 +219,9 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_vietnam_model605"
+				"weapon"					"weapon_workshop_fiveseven"
+				"weapon"					"weapon_workshop_fiveseven_microh1"
 				"weapon"					"weapon_sandstorm_saiga_12"
 				"weapon"					"weapon_sandstorm_toz"
 				"weapon"					"weapon_sandstorm_m870"
@@ -262,6 +266,7 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_workshop_p90"
 				"weapon"					"weapon_sandstorm_sig_mpx"
 				"weapon"					"weapon_vietnam_type56"
 				"weapon"					"weapon_sandstorm_uzi"
@@ -303,6 +308,8 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_workshop_fiveseven"
+				"weapon"					"weapon_workshop_fiveseven_microh1"
 				"weapon"					"weapon_vietnam_m40"
 				"weapon"					"weapon_sandstorm_m110"
 				"weapon"					"weapon_sandstorm_mosin"
@@ -381,6 +388,7 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_workshop_p90"
 				"weapon"					"weapon_sandstorm_saiga_12"
 				"weapon"					"weapon_sandstorm_ace52"
 				"weapon"					"weapon_sandstorm_greasegun"
@@ -485,7 +493,9 @@
 			"allowed_items"
 			{
 				"weapon"					"weapon_defib"
-			
+				
+				"weapon"					"weapon_workshop_fiveseven"
+				"weapon"					"weapon_workshop_fiveseven_microh1"
 				"weapon"					"weapon_sandstorm_qbz03"
 				"weapon"					"weapon_sandstorm_steyrauga3"
 				"weapon"					"weapon_sandstorm_alphaak"

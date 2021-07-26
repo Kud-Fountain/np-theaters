@@ -78,6 +78,8 @@
 			
 			"allowed_weapons"
 			{	
+				"weapon"				"weapon_workshop_fiveseven"
+				"weapon"				"weapon_workshop_fiveseven_microh1"
 				"weapon"				"weapon_sandstorm_m9"
 				"weapon"				"weapon_sandstorm_hipower"
 				"weapon"				"weapon_sandstorm_sigp226"
@@ -117,6 +119,51 @@
 			"team_access"				"security, insurgent"
 		}	
 
+		// ========================================
+		// OPTICS (AESTHETIC)
+		// ========================================	
+
+
+		"weapon_skin_glock17_olivedrab"
+		{
+			"upgrade_cost"				"0"
+			"upgrade_slot"				"optics"
+			"print_name"				"#weapon_skin_glock17_olivedrab"
+			"print_desc"				"#weapon_skin_glock17_olivedrab_desc"
+						
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_glock17"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"glock17_olivedrab"
+				{
+					"model"				"models/sndstrm/v_glockod.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_glock17"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"glock17_olivedrab"
+				{
+					"model"				"models/sndstrm/w_glockod.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_glock17"
+					}
+				}
+			}
+		}
+		
+		
 		// ========================================
 		// STOCK (AESTHETIC)
 		// ========================================	
@@ -218,6 +265,31 @@
 						
 			"weapon_mods"
 			{
+			
+				"weapon_workshop_fiveseven"
+				{
+					"ammo_clip"
+					{
+						"ammo_type"				"57x28_20rndmagazine"
+						"clip_max"				"10"
+						"clip_max_rounds"		"20"
+						"clip_default"			"2"
+						"lose_rounds_reload"	"1"
+					}
+				}
+
+				"weapon_workshop_fiveseven_microh1"
+				{
+					"ammo_clip"
+					{
+						"ammo_type"				"57x28_20rndmagazine"
+						"clip_max"				"10"
+						"clip_max_rounds"		"20"
+						"clip_default"			"2"
+						"lose_rounds_reload"	"1"
+					}
+				}				
+			
 				"weapon_sandstorm_m9"
 				{
 					"ammo_clip"
@@ -373,6 +445,30 @@
 						"lose_rounds_reload"	"1"
 					}
 				}
+				
+				"weapon_vietnam_xm16e1"
+				{
+					"ammo_clip"
+					{
+						"ammo_type"				"556_18rndmagazine"
+						"clip_max"				"12"
+						"clip_max_rounds"		"18"
+						"clip_default"			"3"
+					 	"lose_rounds_reload"	"1"
+					}
+				}
+
+				"weapon_vietnam_model605"
+				{
+					"ammo_clip"
+					{
+						"ammo_type"				"556_18rndmagazine"
+						"clip_max"				"12"
+						"clip_max_rounds"		"18"
+						"clip_default"			"3"
+					 	"lose_rounds_reload"	"1"
+					}
+				}					
 				
 				"weapon_sandstorm_m16a2"
 				{
@@ -709,6 +805,18 @@
 						"lose_rounds_reload"	"1"
 					}
 				}	
+				
+				"weapon_workshop_p90"
+				{
+					"ammo_clip"
+					{
+						"ammo_type"				"57x28_50rndmagazine"
+						"clip_max"				"12"
+						"clip_max_rounds"		"50"
+						"clip_default"			"3"
+						"lose_rounds_reload"	"1"
+					}
+				}					
 
 				"weapon_sandstorm_mp5a5"
 				{
@@ -871,6 +979,8 @@
 
 			"allowed_weapons"
 			{
+				"weapon"				"weapon_workshop_fiveseven"
+				"weapon"				"weapon_workshop_fiveseven_microh1"
 				"weapon"				"weapon_sandstorm_m9"
 				"weapon"				"weapon_sandstorm_hipower"
 				"weapon"				"weapon_sandstorm_sigp226"
@@ -882,6 +992,8 @@
 				"weapon"				"weapon_sandstorm_glock17"
 				"weapon"				"weapon_sandstorm_m1911"
 				"weapon"				"weapon_vietnam_tt33"
+				"weapon"				"weapon_vietnam_xm16e1"
+				"weapon"				"weapon_vietnam_model605"
 				"weapon"				"weapon_sandstorm_m16a4"
 				"weapon"				"weapon_sandstorm_m16a2"
 				"weapon"				"weapon_sandstorm_mk18"
@@ -911,6 +1023,7 @@
 				"weapon"				"weapon_sandstorm_svd"
 				"weapon"				"weapon_sandstorm_sks"
 				"weapon"				"weapon_sandstorm_mp7"
+				"weapon"				"weapon_workshop_p90"
 				"weapon"				"weapon_sandstorm_mp5a5"
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_aks74u"
@@ -1089,7 +1202,25 @@
 				"weapon"				"weapon_sandstorm_m9"
 				"weapon"				"weapon_sandstorm_sigp226"
 			}
-		}			
+		}		
+
+		"magazine_sandstorm_extended_pistol_30rd"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"1"
+			"team_access"				"security, insurgent"
+
+			"print_name"				"#weapon_upgrade_magazine_extended"
+			"print_desc"				"#weapon_upgrade_magazine_30rd_desc"
+
+			"magsize_override"			"20"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_workshop_fiveseven"
+				"weapon"				"weapon_workshop_fiveseven_microh1"
+			}
+		}		
 
 		"magazine_sandstorm_extended_20rd"
 		{
@@ -1184,6 +1315,8 @@
 
 			"allowed_weapons"
 			{
+				"weapon"				"weapon_vietnam_xm16e1"
+				"weapon"				"weapon_vietnam_model605"
 				"weapon"				"weapon_sandstorm_asval"
 				"weapon"				"weapon_sandstorm_sks"
 			}
@@ -1641,9 +1774,12 @@
 			"allowed_weapons"
 			{
 				// security
+				"weapon"				"weapon_vietnam_xm16e1"
+				"weapon"				"weapon_vietnam_model605"
 				"weapon"				"weapon_sandstorm_mp5a5"
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_mp7"
+				"weapon"				"weapon_workshop_p90"
 				"weapon"				"weapon_sandstorm_m249"
 				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
@@ -1757,6 +1893,8 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_m9"
+				"weapon"				"weapon_workshop_fiveseven"
+				"weapon"				"weapon_workshop_fiveseven_microh1"
 				"weapon"				"weapon_sandstorm_hipower"
 				"weapon"				"weapon_sandstorm_sigp226"
 				"weapon"				"weapon_sandstorm_pf940"
@@ -1778,6 +1916,8 @@
 					"weapons"
 					{
 						"weapon"			"weapon_sandstorm_m9"
+						"weapon"			"weapon_workshop_fiveseven"
+						"weapon"			"weapon_workshop_fiveseven_microh1"
 					}
 				}
 				
@@ -1822,6 +1962,8 @@
 					"excluded_weapons"
 					{
 						"weapon"			"weapon_sandstorm_m9"
+						"weapon"			"weapon_workshop_fiveseven"
+						"weapon"			"weapon_workshop_fiveseven_microh1"
 						"weapon"			"weapon_sandstorm_hipower"
 						"weapon"			"weapon_sandstorm_sigp226"
 						"weapon"			"weapon_sandstorm_pf940"
@@ -1955,6 +2097,7 @@
 						"weapon"				"weapon_sandstorm_mp5a5"
 						"weapon"				"weapon_sandstorm_mp5a2"
 						"weapon"				"weapon_sandstorm_mp7"
+						"weapon"				"weapon_workshop_p90"
 						"weapon"				"weapon_sandstorm_m870"
 					}
 				}
@@ -2068,6 +2211,7 @@
 						"weapon"				"weapon_sandstorm_mp5a5"
 						"weapon"				"weapon_sandstorm_mp5a2"
 						"weapon"				"weapon_sandstorm_mp7"
+						"weapon"				"weapon_workshop_p90"
 						"weapon"				"weapon_sandstorm_m870"
 						"weapon"				"weapon_sandstorm_toz"
 					}
@@ -2338,11 +2482,14 @@
 				"weapon"				"weapon_sandstorm_mp5a5"
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_mp7"
+				"weapon"				"weapon_workshop_p90"
 				"weapon"				"weapon_sandstorm_l1a1"
 				"weapon"				"weapon_sandstorm_g3a3"
 				"weapon"				"weapon_sandstorm_uzi"
 				"weapon"				"weapon_sandstorm_sterling"
 				"weapon"				"weapon_sandstorm_asval"
+				"weapon"				"weapon_vietnam_xm16e1"
+				"weapon"				"weapon_vietnam_model605"
 				
 				// insurgent weapons
 				"weapon"				"weapon_sandstorm_akm"
@@ -2396,6 +2543,7 @@
 						"weapon"				"weapon_sandstorm_mp5a5"
 						"weapon"				"weapon_sandstorm_mp5a2"
 						"weapon"				"weapon_sandstorm_mp7"
+						"weapon"				"weapon_workshop_p90"
 						"weapon"				"weapon_sandstorm_m16a4"
 						"weapon"				"weapon_sandstorm_famas"
 						"weapon"				"weapon_sandstorm_m16a2"
@@ -2406,6 +2554,8 @@
 						"weapon"				"weapon_sandstorm_vhs2"
 						"weapon"				"weapon_sandstorm_uzi"
 						"weapon"				"weapon_sandstorm_sterling"
+						"weapon"				"weapon_vietnam_xm16e1"
+						"weapon"				"weapon_vietnam_model605"
 					}
 				}
 				
@@ -2419,9 +2569,12 @@
 					
 					"weapons"
 					{
+						"weapon"				"weapon_vietnam_xm16e1"
+						"weapon"				"weapon_vietnam_model605"
 						"weapon"				"weapon_sandstorm_mp5a5"
 						"weapon"				"weapon_sandstorm_mp5a2"
 						"weapon"				"weapon_sandstorm_mp7"
+						"weapon"				"weapon_workshop_p90"
 						"weapon"				"weapon_sandstorm_uzi"
 						"weapon"				"weapon_sandstorm_sterling"
 					}
@@ -2441,7 +2594,18 @@
 				"fov_wpn_scope"				"16"
 				"fov_wpn_ironsight"			"39"
 				"fov_wpn_focus"				"39"
-							
+				
+				"weapon_vietnam_xm16e1"
+				{
+					"fov_wpn_ironsight"			"48"
+					"fov_wpn_focus"				"57"
+				}	
+
+				"weapon_vietnam_model605"
+				{
+					"fov_wpn_ironsight"			"48"
+					"fov_wpn_focus"				"57"
+				}					
 				
 				"weapon_sandstorm_asval"
 				{
@@ -2598,6 +2762,12 @@
 					"fov_wpn_ironsight"			"48"
 					"fov_wpn_focus"				"56"
 				}
+				
+				"weapon_workshop_p90"
+				{
+					"fov_wpn_ironsight"			"48"
+					"fov_wpn_focus"				"56"
+				}				
 								
 				"weapon_sandstorm_mp5a2"
 				{
@@ -2763,9 +2933,12 @@
 				"weapon"				"weapon_sandstorm_mp5a5"
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_mp7"
+				"weapon"				"weapon_workshop_p90"
 				"weapon"				"weapon_sandstorm_uzi"
 				"weapon"				"weapon_sandstorm_sterling"
 				"weapon"				"weapon_sandstorm_asval"
+				"weapon"				"weapon_vietnam_xm16e1"
+				"weapon"				"weapon_vietnam_model605"
 
 				// insurgent weapons
 				"weapon"				"weapon_sandstorm_ak74"
@@ -2816,9 +2989,12 @@
 					
 					"excluded_weapons"
 					{
+						"weapon"				"weapon_vietnam_xm16e1"
+						"weapon"				"weapon_vietnam_model605"
 						"weapon"				"weapon_sandstorm_mp5a5"
 						"weapon"				"weapon_sandstorm_mp5a2"
 						"weapon"				"weapon_sandstorm_mp7"
+						"weapon"				"weapon_workshop_p90"
 						"weapon"				"weapon_sandstorm_m16a4"
 						"weapon"				"weapon_sandstorm_famas"
 						"weapon"				"weapon_sandstorm_m16a2"
@@ -2842,9 +3018,12 @@
 					
 					"weapons"
 					{
+						"weapon"				"weapon_vietnam_xm16e1"
+						"weapon"				"weapon_vietnam_model605"
 						"weapon"				"weapon_sandstorm_mp5a5"
 						"weapon"				"weapon_sandstorm_mp5a2"
 						"weapon"				"weapon_sandstorm_mp7"
+						"weapon"				"weapon_workshop_p90"
 						"weapon"				"weapon_sandstorm_uzi"
 						"weapon"				"weapon_sandstorm_sterling"
 					}
@@ -2886,6 +3065,18 @@
 			{
 				"fov_wpn_ironsight"			"52"
 				"fov_wpn_focus"				"60"
+				
+				"weapon_vietnam_xm16e1"
+				{
+					"fov_wpn_ironsight"			"53"
+					"fov_wpn_focus"				"61"
+				}	
+
+				"weapon_vietnam_model605"
+				{
+					"fov_wpn_ironsight"			"53"
+					"fov_wpn_focus"				"61"
+				}					
 				
 				"weapon_sandstorm_m16a4"
 				{
@@ -2987,7 +3178,13 @@
 				{
 					"fov_wpn_ironsight"			"52"
 					"fov_wpn_focus"				"60"
-				}				
+				}
+
+				"weapon_workshop_p90"
+				{
+					"fov_wpn_ironsight"			"52"
+					"fov_wpn_focus"				"60"
+				}					
 
 				"weapon_sandstorm_m870"
 				{
@@ -3142,6 +3339,8 @@
 			"allowed_weapons"
 			{
 				// security weapons
+				"weapon"				"weapon_vietnam_xm16e1"
+				"weapon"				"weapon_vietnam_model605"
 				"weapon"				"weapon_sandstorm_galil_sar"
 				"weapon"				"weapon_sandstorm_l1a1"
 				"weapon"				"weapon_sandstorm_m4a1"
@@ -3165,6 +3364,7 @@
 				"weapon"				"weapon_sandstorm_mp5a5"
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_mp7"
+				"weapon"				"weapon_workshop_p90"
 				"weapon"				"weapon_sandstorm_asval"
 
 				// insurgent weapons
@@ -3210,9 +3410,12 @@
 					
 					"excluded_weapons"
 					{
+						"weapon"				"weapon_vietnam_xm16e1"
+						"weapon"				"weapon_vietnam_model605"
 						"weapon"				"weapon_sandstorm_mp5a5"
 						"weapon"				"weapon_sandstorm_mp5a2"
 						"weapon"				"weapon_sandstorm_mp7"
+						"weapon"				"weapon_workshop_p90"
 						"weapon"				"weapon_sandstorm_m4a1"
 						"weapon"				"weapon_sandstorm_steyrauga3"
 						"weapon"				"weapon_sandstorm_sig_mcx"
@@ -3233,9 +3436,12 @@
 					
 					"weapons"
 					{
+						"weapon"				"weapon_vietnam_xm16e1"
+						"weapon"				"weapon_vietnam_model605"
 						"weapon"				"weapon_sandstorm_mp5a5"
 						"weapon"				"weapon_sandstorm_mp5a2"
 						"weapon"				"weapon_sandstorm_mp7"
+						"weapon"				"weapon_workshop_p90"
 						"weapon"				"weapon_sandstorm_uzi"
 						"weapon"				"weapon_sandstorm_sterling"
 					}
@@ -3277,6 +3483,18 @@
 			{
 				"fov_wpn_ironsight"			"52"
 				"fov_wpn_focus"				"60"
+
+				"weapon_vietnam_xm16e1"
+				{
+					"fov_wpn_ironsight"			"53"
+					"fov_wpn_focus"				"61"
+				}
+								
+				"weapon_vietnam_model605"
+				{
+					"fov_wpn_ironsight"			"53"
+					"fov_wpn_focus"				"61"
+				}				
 
 				"weapon_sandstorm_m4a1"
 				{
@@ -3360,7 +3578,13 @@
 				{
 					"fov_wpn_ironsight"			"52"
 					"fov_wpn_focus"				"60"
-				}				
+				}	
+
+				"weapon_workshop_p90"
+				{
+					"fov_wpn_ironsight"			"52"
+					"fov_wpn_focus"				"60"
+				}					
 
 				"weapon_sandstorm_m870"
 				{
@@ -3491,6 +3715,8 @@
 			"allowed_weapons"
 			{
 				// security weapons
+				"weapon"				"weapon_vietnam_xm16e1"
+				"weapon"				"weapon_vietnam_model605"
 				"weapon"				"weapon_sandstorm_galil_sar"
 				"weapon"				"weapon_sandstorm_m4a1"
 				"weapon"				"weapon_sandstorm_steyrauga3"
@@ -3514,6 +3740,7 @@
 				"weapon"				"weapon_sandstorm_mp5a5"
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_mp7"
+				"weapon"				"weapon_workshop_p90"
 				"weapon"				"weapon_sandstorm_l1a1"
 				"weapon"				"weapon_sandstorm_g3a3"
 				"weapon"				"weapon_sandstorm_uzi"
@@ -3602,6 +3829,18 @@
 				"fov_wpn_scope"				"14"
 				"fov_wpn_ironsight"			"56"
 				"fov_wpn_focus"				"64"		
+				
+				"weapon_vietnam_xm16e1"
+				{
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"58"
+				}	
+
+				"weapon_vietnam_model605"
+				{
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"58"
+				}					
 				
 				"weapon_sandstorm_m4a1"
 				{
@@ -3733,7 +3972,13 @@
 				{
 					"fov_wpn_ironsight"			"55"
 					"fov_wpn_focus"				"60"
-				}				
+				}		
+
+				"weapon_workshop_p90"
+				{
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"60"
+				}						
 				
 				"weapon_sandstorm_l1a1"
 				{
@@ -3864,6 +4109,8 @@
 			"allowed_weapons"
 			{
 				// security weapons
+				"weapon"				"weapon_vietnam_xm16e1"
+				"weapon"				"weapon_vietnam_model605"
 				"weapon"				"weapon_sandstorm_galil_sar"
 				"weapon"				"weapon_sandstorm_m16a4"
 				"weapon"				"weapon_sandstorm_famas"
@@ -3890,6 +4137,7 @@
 				"weapon"				"weapon_sandstorm_mp5a5"
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_mp7"
+				"weapon"				"weapon_workshop_p90"
 				"weapon"				"weapon_sandstorm_l1a1"
 				"weapon"				"weapon_sandstorm_g3a3"
 				"weapon"				"weapon_sandstorm_uzi"
@@ -3984,6 +4232,18 @@
 				"fov_wpn_scope"				"14"
 				"fov_wpn_ironsight"			"56"
 				"fov_wpn_focus"				"64"			
+
+				"weapon_vietnam_xm16e1"
+				{
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"58"
+				}
+				
+				"weapon_vietnam_model605"
+				{
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"58"
+				}				
 				
 				"weapon_sandstorm_m16a4"
 				{
@@ -4135,6 +4395,12 @@
 					"fov_wpn_focus"				"60"
 				}				
 				
+				"weapon_workshop_p90"
+				{
+					"fov_wpn_ironsight"			"55"
+					"fov_wpn_focus"				"60"
+				}					
+				
 				"weapon_sandstorm_l1a1"
 				{
 					"fov_wpn_ironsight"			"49"
@@ -4264,6 +4530,8 @@
 			"allowed_weapons"
 			{
 				// security weapons
+				"weapon"				"weapon_vietnam_xm16e1"
+				"weapon"				"weapon_vietnam_model605"
 				"weapon"				"weapon_sandstorm_galil_sar"
 				"weapon"				"weapon_sandstorm_m16a4"
 				"weapon"				"weapon_sandstorm_famas"
@@ -4291,6 +4559,7 @@
 				"weapon"				"weapon_sandstorm_mp5a5"
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_mp7"
+				"weapon"				"weapon_workshop_p90"
 				"weapon"				"weapon_sandstorm_l1a1"
 				"weapon"				"weapon_sandstorm_g3a3"
 				"weapon"				"weapon_sandstorm_uzi"
@@ -4327,9 +4596,12 @@
 					
 					"weapons"
 					{
+						"weapon"				"weapon_vietnam_xm16e1"
+						"weapon"				"weapon_vietnam_model605"
 						"weapon"				"weapon_sandstorm_mp5a5"
 						"weapon"				"weapon_sandstorm_mp5a2"
 						"weapon"				"weapon_sandstorm_mp7"
+						"weapon"				"weapon_workshop_p90"
 						"weapon"				"weapon_sandstorm_uzi"
 						"weapon"				"weapon_sandstorm_sterling"
 					}
@@ -4345,9 +4617,12 @@
 					
 					"excluded_weapons"
 					{
+						"weapon"				"weapon_vietnam_xm16e1"
+						"weapon"				"weapon_vietnam_model605"
 						"weapon"				"weapon_sandstorm_mp5a5"
 						"weapon"				"weapon_sandstorm_mp5a2"
 						"weapon"				"weapon_sandstorm_mp7"
+						"weapon"				"weapon_workshop_p90"
 						"weapon"				"weapon_sandstorm_m16a4"
 						"weapon"				"weapon_sandstorm_famas"
 						"weapon"				"weapon_sandstorm_m16a2"
@@ -4447,6 +4722,18 @@
 				"fov_wpn_ironsight"			"68"
 				"fov_wpn_focus"				"79"			
 
+				"weapon_vietnam_xm16e1"
+				{
+					"fov_wpn_ironsight"			"46"
+					"fov_wpn_focus"				"55"
+				}
+				
+				"weapon_vietnam_model605"
+				{
+					"fov_wpn_ironsight"			"46"
+					"fov_wpn_focus"				"55"
+				}				
+
 				"weapon_sandstorm_honeybadger"
 				{
 					"fov_wpn_ironsight"			"76"
@@ -4460,6 +4747,12 @@
 				}
 				
 				"weapon_sandstorm_mp7"
+				{
+					"fov_wpn_ironsight"			"56"
+					"fov_wpn_focus"				"64"
+				}				
+				
+				"weapon_workshop_p90"
 				{
 					"fov_wpn_ironsight"			"56"
 					"fov_wpn_focus"				"64"
@@ -4681,6 +4974,8 @@
 				"weapon"				"weapon_sandstorm_asval"
 
 				// security weapons
+				"weapon"				"weapon_vietnam_xm16e1"
+				"weapon"				"weapon_vietnam_model605"
 				"weapon"				"weapon_sandstorm_galil_sar"
 				"weapon"				"weapon_sandstorm_m16a4"
 				"weapon"				"weapon_sandstorm_famas"
@@ -4708,6 +5003,7 @@
 				"weapon"				"weapon_sandstorm_mp5a5"
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_mp7"
+				"weapon"				"weapon_workshop_p90"
 			}
 			
 			"viewmodel_attachments"
@@ -4723,9 +5019,12 @@
 					
 					"weapons"
 					{
+						"weapon"				"weapon_vietnam_xm16e1"
+						"weapon"				"weapon_vietnam_model605"
 						"weapon"				"weapon_sandstorm_mp5a5"
 						"weapon"				"weapon_sandstorm_mp5a2"
 						"weapon"				"weapon_sandstorm_mp7"
+						"weapon"				"weapon_workshop_p90"
 						"weapon"				"weapon_sandstorm_m249"
 						"weapon"				"weapon_vietnam_m60"
 						"weapon"				"weapon_sandstorm_m240"
@@ -4764,9 +5063,12 @@
 					
 					"excluded_weapons"
 					{
+						"weapon"				"weapon_vietnam_xm16e1"
+						"weapon"				"weapon_vietnam_model605"
 						"weapon"				"weapon_sandstorm_mp5a5"
 						"weapon"				"weapon_sandstorm_mp5a2"
 						"weapon"				"weapon_sandstorm_mp7"
+						"weapon"				"weapon_workshop_p90"
 						"weapon"				"weapon_sandstorm_m16a4"
 						"weapon"				"weapon_sandstorm_famas"
 						"weapon"				"weapon_sandstorm_m16a2"
@@ -4805,6 +5107,18 @@
 			{
 				"fov_wpn_ironsight"			"58"
 				"fov_wpn_focus"				"68"				
+	
+				"weapon_vietnam_xm16e1"
+				{
+					"fov_wpn_ironsight"			"49"
+					"fov_wpn_focus"				"58"
+				}	
+				
+				"weapon_vietnam_model605"
+				{
+					"fov_wpn_ironsight"			"49"
+					"fov_wpn_focus"				"58"
+				}					
 	
 				"weapon_sandstorm_akm"
 				{
@@ -4998,6 +5312,12 @@
 					"fov_wpn_focus"				"63"
 				}				
 
+				"weapon_workshop_p90"
+				{
+					"fov_wpn_ironsight"			"56"
+					"fov_wpn_focus"				"63"
+				}
+				
 				"weapon_sandstorm_m14"
 				{
 					"fov_wpn_ironsight"			"50"
@@ -5085,6 +5405,8 @@
 				"weapon"				"weapon_sandstorm_asval"
 
 				// security weapons
+				"weapon"				"weapon_vietnam_xm16e1"
+				"weapon"				"weapon_vietnam_model605"
 				"weapon"				"weapon_sandstorm_galil_sar"
 				"weapon"				"weapon_sandstorm_m16a4"
 				"weapon"				"weapon_sandstorm_famas"
@@ -5103,6 +5425,7 @@
 				"weapon"				"weapon_sandstorm_mp5a5"
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_mp7"
+				"weapon"				"weapon_workshop_p90"
 			}
 			
 			"viewmodel_attachments"
@@ -5117,12 +5440,15 @@
 					
 					"weapons"
 					{
+						"weapon"				"weapon_vietnam_xm16e1"
+						"weapon"				"weapon_vietnam_model605"
 						"weapon"				"weapon_sandstorm_m14"
 						"weapon"				"weapon_sandstorm_m110"
 						"weapon"				"weapon_sandstorm_mk17"
 						"weapon"				"weapon_sandstorm_mp5a5"
 						"weapon"				"weapon_sandstorm_mp5a2"
 						"weapon"				"weapon_sandstorm_mp7"
+						"weapon"				"weapon_workshop_p90"
 						"weapon"				"weapon_sandstorm_sks"
 						"weapon"				"weapon_sandstorm_svd"
 						"weapon"				"weapon_sandstorm_m249"
@@ -5165,12 +5491,15 @@
 					
 					"excluded_weapons"
 					{
+						"weapon"				"weapon_vietnam_xm16e1"
+						"weapon"				"weapon_vietnam_model605"
 						"weapon"				"weapon_sandstorm_m14"
 						"weapon"				"weapon_sandstorm_m110"
 						"weapon"				"weapon_sandstorm_mk17"
 						"weapon"				"weapon_sandstorm_mp5a5"
 						"weapon"				"weapon_sandstorm_mp5a2"
 						"weapon"				"weapon_sandstorm_mp7"
+						"weapon"				"weapon_workshop_p90"
 						"weapon"				"weapon_sandstorm_sks"
 						"weapon"				"weapon_sandstorm_svd"
 						"weapon"				"weapon_sandstorm_m16a4"
@@ -5205,6 +5534,18 @@
 				"fov_wpn_scope"				"12"
 				"fov_wpn_ironsight"			"39"
 				"fov_wpn_focus"				"39"
+
+				"weapon_vietnam_xm16e1"
+				{
+					"fov_wpn_ironsight"			"45"
+					"fov_wpn_focus"				"52"
+				}
+				
+				"weapon_vietnam_model605"
+				{
+					"fov_wpn_ironsight"			"45"
+					"fov_wpn_focus"				"52"
+				}				
 
 				"weapon_sandstorm_akm"
 				{
@@ -5403,6 +5744,12 @@
 					"fov_wpn_ironsight"			"45"
 					"fov_wpn_focus"				"52"
 				}	
+				
+				"weapon_workshop_p90"
+				{
+					"fov_wpn_ironsight"			"45"
+					"fov_wpn_focus"				"52"
+				}					
 
 				"weapon_sandstorm_uzi"
 				{
@@ -6303,6 +6650,8 @@
 
 			"allowed_weapons"
 			{
+				"weapon"				"weapon_vietnam_xm16e1"
+				"weapon"				"weapon_vietnam_model605"
 				"weapon"				"weapon_sandstorm_m14"
 				"weapon"				"weapon_sandstorm_m110"
 				"weapon"				"weapon_sandstorm_mk17"
@@ -6320,6 +6669,8 @@
 					
 					"scales"
 					{
+						"weapon_vietnam_xm16e1"			"0.45"
+						"weapon_vietnam_model605"		"0.45"
 						"weapon_sandstorm_m14"			"0.45"
 						"weapon_sandstorm_m110"			"0.45"
 						"weapon_sandstorm_mk17"			"0.45"
@@ -6774,6 +7125,8 @@
 			
 			"allowed_weapons"
 			{
+				"weapon"					"weapon_vietnam_xm16e1"
+				"weapon"					"weapon_vietnam_model605"
 				"weapon"					"weapon_sandstorm_m4a1"	
 				"weapon"					"weapon_sandstorm_steyrauga3"
 				"weapon"					"weapon_sandstorm_sig_mcx"
@@ -6794,6 +7147,7 @@
 				"weapon"					"weapon_sandstorm_mp5a2"
 			    "weapon"					"weapon_sandstorm_mp5a5"
 				"weapon"					"weapon_sandstorm_mp7"
+				"weapon"					"weapon_workshop_p90"
 				"weapon"					"weapon_sandstorm_sks"
 				"weapon"					"weapon_sandstorm_aks74u"
 				"weapon"					"weapon_sandstorm_mk17"
@@ -6814,6 +7168,8 @@
 				"weapon"					"weapon_vietnam_m60"
 				"weapon"					"weapon_sandstorm_rpk"
 				"weapon"					"weapon_sandstorm_m9"
+				"weapon"					"weapon_workshop_fiveseven"
+				"weapon"					"weapon_workshop_fiveseven_microh1"
 				"weapon"					"weapon_sandstorm_hipower"
 				"weapon"					"weapon_sandstorm_sigp226"
 				"weapon"					"weapon_sandstorm_pf940"
@@ -6828,6 +7184,8 @@
 				"weapon"					"weapon_sandstorm_galil_sar"
 				"weapon"					"weapon_sandstorm_honeybadger"
 				"weapon"					"weapon_sandstorm_m1garand"
+				"weapon"					"weapon_sandstorm_m870"
+				"weapon"					"weapon_sandstorm_toz"	
 			}
 
 			"excluded_upgrades"
@@ -6978,6 +7336,8 @@
 
 			"allowed_weapons"
 			{
+				"weapon"					"weapon_vietnam_xm16e1"
+				"weapon"					"weapon_vietnam_model605"
 				"weapon"					"weapon_sandstorm_m4a1"
 				"weapon"					"weapon_sandstorm_steyrauga3"
 				"weapon"					"weapon_sandstorm_sig_mcx"
@@ -7000,6 +7360,7 @@
 				"weapon"					"weapon_sandstorm_mp5a2"
 			    "weapon"					"weapon_sandstorm_mp5a5"
 				"weapon"					"weapon_sandstorm_mp7"
+				"weapon"					"weapon_workshop_p90"
 				"weapon"					"weapon_sandstorm_sks"
 				"weapon"					"weapon_sandstorm_aks74u"
 				"weapon"					"weapon_sandstorm_mk17"
@@ -7020,6 +7381,8 @@
 				"weapon"					"weapon_vietnam_m60"
 				"weapon"					"weapon_sandstorm_rpk"			
 				"weapon"					"weapon_sandstorm_m9"
+				"weapon"					"weapon_workshop_fiveseven"
+				"weapon"					"weapon_workshop_fiveseven_microh1"
 				"weapon"					"weapon_sandstorm_hipower"
 				"weapon"					"weapon_sandstorm_sigp226"
 				"weapon"					"weapon_sandstorm_pf940"
@@ -7226,6 +7589,8 @@
 			
 			"allowed_weapons"
 			{
+				"weapon"				"weapon_vietnam_xm16e1"
+				"weapon"				"weapon_vietnam_model605"
 				"weapon"				"weapon_sandstorm_galil_sar"
 				"weapon"				"weapon_sandstorm_m16a4"
 				"weapon"				"weapon_sandstorm_famas"
@@ -7241,6 +7606,7 @@
 				"weapon"				"weapon_sandstorm_m24"
 				"weapon"				"weapon_vietnam_m40"
 				"weapon"				"weapon_sandstorm_mp7"
+				"weapon"				"weapon_workshop_p90"
 				"weapon"				"weapon_sandstorm_svd"
 			}
 			"viewmodel_attachments"
@@ -7251,6 +7617,8 @@
 					
 					"scales"
 					{
+						"weapon_vietnam_xm16e1"		"0.80"
+						"weapon_vietnam_model605"	"0.80"
 						"weapon_sandstorm_m14"		"0.90"
 						"weapon_sandstorm_m110"		"0.90"
 						"weapon_sandstorm_mk17"		"0.90"
@@ -7259,6 +7627,7 @@
 						"weapon_sandstorm_svd"		"0.85"
 						"weapon_sandstorm_galil_sar""0.90"
 						"weapon_sandstorm_mp7"		"0.75"
+						"weapon_workshop_p90"		"0.75"
 					}
 				}
 			}
@@ -7484,6 +7853,8 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_m9"
+				"weapon"				"weapon_workshop_fiveseven"
+				"weapon"				"weapon_workshop_fiveseven_microh1"
 				"weapon"				"weapon_sandstorm_hipower"
 				"weapon"				"weapon_sandstorm_sigp226"
 				"weapon"				"weapon_sandstorm_pf940"
@@ -7717,10 +8088,13 @@
 			"allowed_weapons"
 			{
 				// security
+				"weapon"				"weapon_vietnam_xm16e1"
+				"weapon"				"weapon_vietnam_model605"
 				"weapon"				"weapon_sandstorm_galil_sar"
 				"weapon"				"weapon_sandstorm_mp5a5"
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_mp7"
+				"weapon"				"weapon_workshop_p90"
 				"weapon"				"weapon_sandstorm_m249"
 				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
@@ -7830,6 +8204,8 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_m9"
+				"weapon"				"weapon_workshop_fiveseven"
+				"weapon"				"weapon_workshop_fiveseven_microh1"
 				"weapon"				"weapon_sandstorm_hipower"
 				"weapon"				"weapon_sandstorm_sigp226"
 				"weapon"				"weapon_sandstorm_pf940"
@@ -7851,6 +8227,8 @@
 					"weapons"
 					{
 						"weapon"			"weapon_sandstorm_m9"
+						"weapon"			"weapon_workshop_fiveseven"
+						"weapon"			"weapon_workshop_fiveseven_microh1"
 					}
 				}
 				
@@ -7895,6 +8273,8 @@
 					"excluded_weapons"
 					{
 						"weapon"			"weapon_sandstorm_m9"
+						"weapon"			"weapon_workshop_fiveseven"
+						"weapon"			"weapon_workshop_fiveseven_microh1"
 						"weapon"			"weapon_sandstorm_hipower"
 						"weapon"			"weapon_sandstorm_sigp226"
 						"weapon"			"weapon_sandstorm_pf940"

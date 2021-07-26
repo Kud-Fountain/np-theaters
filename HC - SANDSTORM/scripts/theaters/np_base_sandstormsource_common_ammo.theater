@@ -1259,7 +1259,67 @@
 		{
 			"import"				"556x45_car_tracer"
 		}
+	
+		// ========================================
+		// Colt 18 Round Magazine
+		// ========================================
 		
+		"556_18rndmagazine"
+		{
+			"import"				"556x45"
+			"magsize"				"18"
+		}
+		"556_hp_18rndmagazine"
+		{
+			"import"				"556x45_hp"
+			"magsize"				"18"
+		}
+		"556_ap_18rndmagazine"
+		{
+			"import"				"556x45_ap"
+			"magsize"				"18"
+		}
+
+		// ========================================
+		// Five-seveN 20 ROUND MAGAZINE
+		// ========================================
+		
+		"57x28_20rndmagazine"
+		{
+			"import"				"556x45"
+			"magsize"				"20"
+		}
+		"57x28_hp_20rndmagazine"
+		{
+			"import"				"556x45_hp"
+			"magsize"				"20"
+		}
+		"57x28_ap_20rndmagazine"
+		{
+			"import"				"556x45_ap"
+			"magsize"				"20"
+		}	
+		
+		// ========================================
+		// P90 50 ROUND MAGAZINE
+		// ========================================
+		
+		"57x28_50rndmagazine"
+		{
+			"import"				"556x45"
+			"magsize"				"50"
+		}
+		"57x28_hp_50rndmagazine"
+		{
+			"import"				"556x45_hp"
+			"magsize"				"50"
+		}
+		"57x28_ap_50rndmagazine"
+		{
+			"import"				"556x45_ap"
+			"magsize"				"50"
+		}		
+	
 		// ========================================
 		// galil
 		// ========================================

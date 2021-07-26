@@ -2765,14 +2765,14 @@
 			"weapon_class"				"pistol"
 			"print_name"				"#weapon_sandstorm_glock17"
 			"print_desc"				"#weapon_sandstorm_glock17_desc"
-			"view_model"				"models/sndstrm/v_glock17.mdl"
-			"world_model"				"models/sndstrm/w_glock17.mdl"
+			"view_model"				"models/sndstrm/v_glockcl.mdl"
+			"world_model"				"models/sndstrm/w_glockcl.mdl"
 			"rounds_per_minute"			"700"
 			"weapon_slot"				"secondary"
 			"act_table"					"pistol"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (0.7kg[weapon] + (0.1kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +2[encumbrance]
-			"weapon_cost"				"0"
+			"weapon_cost"				"1"
 			"class_restricted"			"1"
 			"barrel_length"				"16"
 			"draw_speed"				"1.65"
@@ -2784,6 +2784,12 @@
 			
 			"viewmodel_attachments"
 			{
+				"standard_glock17"
+				{
+					"model"						"models/sndstrm/v_glock17.mdl"
+					"fallback_for_slot"			"optics"
+				}			
+			
 				"standard_magazine"
 				{
 					"model"						"models/sndstrm/upgrades/a_magazine_glock17_8.mdl"
@@ -2793,6 +2799,12 @@
 			
 			"world_attachments"
 			{
+				"standard_glock17"
+				{
+					"model"						"models/sndstrm/w_glock17.mdl"
+					"fallback_for_slot"			"optics"
+				}				
+			
 				"standard_magazine"
 				{
 					"model"						"models/sndstrm/upgrades/w_magazine_glock17_8.mdl"
@@ -3476,7 +3488,7 @@
 			"act_table"					"shortrifle"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (3.3kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"weapon_cost"				"3"
+			"weapon_cost"				"2"
 			"class_restricted"			"1"
 			"barrel_length"				"24"
 			"draw_speed"				"1.65"
@@ -3842,7 +3854,7 @@
 			"act_table"					"rifle_ak2"
 			"weapon_abilities"			"ironsight, silencer"
 			"weapon_weight"				"0"	// (2.4kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +16[encumbrance]
-			"weapon_cost"				"3"
+			"weapon_cost"				"2"
 			"barrel_length"				"20"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
@@ -4580,7 +4592,7 @@
 			"act_table"					"shortrifle"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
-			"weapon_cost"				"3"
+			"weapon_cost"				"2"
 			"burst_delay"				"0.22"
 			"barrel_length"				"22"
 			"class_restricted"			"1"
