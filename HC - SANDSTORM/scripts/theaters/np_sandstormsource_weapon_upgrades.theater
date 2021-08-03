@@ -104,7 +104,8 @@
 			"class_restricted"			"1"
 			
 			"allowed_weapons"
-			{	
+			{
+				"weapon"				"weapon_sandstorm_manurhinmr73"			
 				"weapon"				"weapon_workshop_fiveseven"
 				"weapon"				"weapon_workshop_fiveseven_microh1"
 				"weapon"				"weapon_sandstorm_m9"
@@ -133,7 +134,7 @@
 			"print_desc"				"#weapon_upgrade_greased_bolt_desc"
 			"upgrade_cost"				"1"
 			"upgrade_slot"				"stock"
-			"bolt_speed"				"1.5"
+			"bolt_speed"				"1.6"
 			
 			"allowed_weapons"
 			{
@@ -185,6 +186,51 @@
 					"weapons"
 					{
 						"weapon"			"weapon_sandstorm_glock17"
+					}
+				}
+			}
+		}
+		
+		
+		// ========================================
+		// MAGAZINE (AESTHETIC)
+		// ========================================	
+
+
+		"weapon_skin_xm21_camo"
+		{
+			"upgrade_cost"				"0"
+			"upgrade_slot"				"magazine"
+			"print_name"				"#weapon_skin_xm21_camo"
+			"print_desc"				"#weapon_skin_xm21_camo_desc"
+						
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_vietnam_xm21"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"glock17_olivedrab"
+				{
+					"model"				"models/vietnam/v_c21.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_vietnam_xm21"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"glock17_olivedrab"
+				{
+					"model"				"models/vietnam/w_c21.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_vietnam_xm21"
 					}
 				}
 			}
@@ -269,6 +315,42 @@
 					"weapons"
 					{
 						"weapon"			"weapon_sandstorm_m1garand"
+					}
+				}
+			}
+		}
+
+		// ========================================
+		// SPEED LOADER 
+		// ========================================
+
+		"magazine_speedloader"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"1"
+			"team_access"				"security, insurgent"
+
+			"print_name"				"#weapon_upgrade_speedloader"
+			"print_desc"				"#weapon_upgrade_speedloader_desc"
+
+			// some magic to disable single reload
+			"weapon_abilities"			"speedreload"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_manurhinmr73"
+			}
+
+			"viewmodel_attachments"
+			{
+				"speedloader_38"
+				{
+					"ActSuffix"			"_SPEED"
+					"model"				"models/sndstrm/upgrades/a_speedloader_rev.mdl"
+
+					"weapons"
+					{
+						"weapon"		"weapon_sandstorm_manurhinmr73"
 					}
 				}
 			}
@@ -783,7 +865,19 @@
 						"clip_default"			"3"
 						"lose_rounds_reload"	"1"
 					}
-				}		
+				}	
+
+				"weapon_vietnam_xm21"
+				{
+					"ammo_clip"
+					{
+						"ammo_type"				"762x51_mag"
+						"clip_max"				"12"
+						"clip_max_rounds"		"20"
+						"clip_default"			"3"
+						"lose_rounds_reload"	"1"
+					}
+				}					
 
 				"weapon_sandstorm_m110"
 				{
@@ -1046,6 +1140,7 @@
 				"weapon"				"weapon_sandstorm_g3a3"
 				"weapon"				"weapon_sandstorm_mk17"
 				"weapon"				"weapon_sandstorm_m14"
+				"weapon"				"weapon_vietnam_xm21"
 				"weapon"				"weapon_sandstorm_m110"
 				"weapon"				"weapon_sandstorm_svd"
 				"weapon"				"weapon_sandstorm_sks"
@@ -1710,6 +1805,7 @@
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
 				"weapon"				"weapon_sandstorm_m14"
+				"weapon"				"weapon_vietnam_xm21"
 				"weapon"				"weapon_sandstorm_m110"		
 				"weapon"				"weapon_sandstorm_mk17"
 				"weapon"				"weapon_sandstorm_honeybadger"
@@ -1727,6 +1823,7 @@
 						"weapon"			"weapon_sandstorm_famas"
 						"weapon"			"weapon_sandstorm_m16a2"
 						"weapon"			"weapon_sandstorm_m14"
+						"weapon"			"weapon_vietnam_xm21"
 						"weapon"			"weapon_sandstorm_m110"
 						"weapon"			"weapon_sandstorm_mk17"
 						"weapon"			"weapon_sandstorm_mk18"	
@@ -2503,6 +2600,7 @@
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m870"
 				"weapon"				"weapon_sandstorm_m14"
+				"weapon"				"weapon_vietnam_xm21"
 				"weapon"				"weapon_sandstorm_m110"
 				"weapon"				"weapon_sandstorm_mk17"
 				"weapon"				"weapon_sandstorm_galil_sar"
@@ -2760,6 +2858,12 @@
 					"fov_wpn_focus"				"51"
 				}
 				
+				"weapon_vietnam_xm21"
+				{
+					"fov_wpn_ironsight"			"41"
+					"fov_wpn_focus"				"51"
+				}				
+				
 				"weapon_sandstorm_m110"
 				{
 					"fov_wpn_ironsight"			"41"
@@ -2955,6 +3059,7 @@
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m870"
 				"weapon"				"weapon_sandstorm_m14"
+				"weapon"				"weapon_vietnam_xm21"
 				"weapon"				"weapon_sandstorm_m110"
 				"weapon"				"weapon_sandstorm_mk17"
 				"weapon"				"weapon_sandstorm_mp5a5"
@@ -3076,6 +3181,11 @@
 				{
 					"optic_reticle_size"			".05"
 				}
+				
+				"weapon_vietnam_xm21"
+				{
+					"optic_reticle_size"			".05"
+				}				
 				
 				"weapon_sandstorm_m110"
 				{
@@ -3224,6 +3334,12 @@
 					"fov_wpn_ironsight"			"49"
 					"fov_wpn_focus"				"58"
 				}
+				
+				"weapon_vietnam_xm21"
+				{
+					"fov_wpn_ironsight"			"49"
+					"fov_wpn_focus"				"58"
+				}				
 				
 				"weapon_sandstorm_m110"
 				{
@@ -3386,6 +3502,7 @@
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m870"
 				"weapon"				"weapon_sandstorm_m14"
+				"weapon"				"weapon_vietnam_xm21"
 				"weapon"				"weapon_sandstorm_m110"
 				"weapon"				"weapon_sandstorm_mk17"
 				"weapon"				"weapon_sandstorm_mp5a5"
@@ -3494,6 +3611,11 @@
 				{
 					"optic_reticle_size"			".05"
 				}
+			
+				"weapon_vietnam_xm21"
+				{
+					"optic_reticle_size"			".05"
+				}			
 				
 				"weapon_sandstorm_m110"
 				{
@@ -3624,6 +3746,12 @@
 					"fov_wpn_ironsight"			"49"
 					"fov_wpn_focus"				"58"
 				}
+				
+				"weapon_vietnam_xm21"
+				{
+					"fov_wpn_ironsight"			"49"
+					"fov_wpn_focus"				"58"
+				}				
 				
 				"weapon_sandstorm_m110"
 				{
@@ -3762,6 +3890,7 @@
 				"weapon"				"weapon_sandstorm_sig_mpx"
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m14"
+				"weapon"				"weapon_vietnam_xm21"
 				"weapon"				"weapon_sandstorm_m110"
 				"weapon"				"weapon_sandstorm_mk17"
 				"weapon"				"weapon_sandstorm_mp5a5"
@@ -3940,6 +4069,12 @@
 					"fov_wpn_ironsight"			"42"
 					"fov_wpn_focus"				"49"
 				}
+				
+				"weapon_vietnam_xm21"
+				{
+					"fov_wpn_ironsight"			"42"
+					"fov_wpn_focus"				"49"
+				}				
 				
 				"weapon_sandstorm_m110"
 				{
@@ -4159,6 +4294,7 @@
 				"weapon"				"weapon_sandstorm_sig_mpx"
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m14"
+				"weapon"				"weapon_vietnam_xm21"
 				"weapon"				"weapon_sandstorm_m110"
 				"weapon"				"weapon_sandstorm_mk17"
 				"weapon"				"weapon_sandstorm_mp5a5"
@@ -4361,6 +4497,12 @@
 					"fov_wpn_ironsight"			"42"
 					"fov_wpn_focus"				"49"
 				}
+				
+				"weapon_vietnam_xm21"
+				{
+					"fov_wpn_ironsight"			"42"
+					"fov_wpn_focus"				"49"
+				}				
 				
 				"weapon_sandstorm_m110"
 				{
@@ -4581,6 +4723,7 @@
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m870"
 				"weapon"				"weapon_sandstorm_m14"
+				"weapon"				"weapon_vietnam_xm21"
 				"weapon"				"weapon_sandstorm_m110"
 				"weapon"				"weapon_sandstorm_mk17"
 				"weapon"				"weapon_sandstorm_mp5a5"
@@ -4733,6 +4876,11 @@
 					"optic_reticle_size"			"0.2"
 				}
 				
+				"weapon_vietnam_xm21"
+				{
+					"optic_reticle_size"			"0.2"
+				}				
+				
 				"weapon_sandstorm_m110"
 				{
 					"optic_reticle_size"			"0.2"
@@ -4796,6 +4944,12 @@
 					"fov_wpn_ironsight"			"50"
 					"fov_wpn_focus"				"59"
 				}
+				
+				"weapon_vietnam_xm21"
+				{
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"59"
+				}				
 				
 				"weapon_sandstorm_m110"
 				{
@@ -5022,6 +5176,7 @@
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m870"
 				"weapon"				"weapon_sandstorm_m14"
+				"weapon"				"weapon_vietnam_xm21"
 				"weapon"				"weapon_sandstorm_m110"
 				"weapon"				"weapon_sandstorm_mk17"
 				"weapon"				"weapon_sandstorm_m249"
@@ -5351,6 +5506,12 @@
 					"fov_wpn_focus"				"60"
 				}
 				
+				"weapon_vietnam_xm21"
+				{
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"60"
+				}				
+				
 				"weapon_sandstorm_m110"
 				{
 					"fov_wpn_ironsight"			"50"
@@ -5470,6 +5631,7 @@
 						"weapon"				"weapon_vietnam_xm16e1"
 						"weapon"				"weapon_vietnam_model605"
 						"weapon"				"weapon_sandstorm_m14"
+						"weapon"				"weapon_vietnam_xm21"
 						"weapon"				"weapon_sandstorm_m110"
 						"weapon"				"weapon_sandstorm_mk17"
 						"weapon"				"weapon_sandstorm_mp5a5"
@@ -5521,6 +5683,7 @@
 						"weapon"				"weapon_vietnam_xm16e1"
 						"weapon"				"weapon_vietnam_model605"
 						"weapon"				"weapon_sandstorm_m14"
+						"weapon"				"weapon_vietnam_xm21"
 						"weapon"				"weapon_sandstorm_m110"
 						"weapon"				"weapon_sandstorm_mk17"
 						"weapon"				"weapon_sandstorm_mp5a5"
@@ -6191,6 +6354,61 @@
 				}
 			}
 		}		
+		
+		"optic_vietnam_redfield_artel_scope"
+		{
+			"import"					"base_scope"
+			"print_name"				"#weapon_upgrade_vietnam_redfield_artel_scope"
+			"print_desc"				"#weapon_upgrade_vietnam_redfield_artel_scope_desc"
+			"team_access"				"security, insurgent"
+			"class_restricted"			"0"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_vietnam_xm21"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"mk4scope_xm21"
+				{
+					"model"					"models/vietnam/upgrades/a_optic_tel_l.mdl"
+					"AnimIronSights"			"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_vietnam_xm21"
+					}
+				}
+
+			}
+			
+			"optics_fov_override"
+			{
+				"fov_wpn_scope"				"10"
+				"fov_wpn_ironsight"			"46"
+				"fov_wpn_focus"				"50"
+				
+				"weapon_vietnam_xm21"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"57"
+				}
+			
+			}
+			
+			"world_attachments"
+			{
+				"Scope"
+				{
+					"model"					"models/vietnam/upgrades/w_scope_tel.mdl"
+				}
+			}
+		}				
 
 		
 		// ========================================
@@ -6680,6 +6898,7 @@
 				"weapon"				"weapon_vietnam_xm16e1"
 				"weapon"				"weapon_vietnam_model605"
 				"weapon"				"weapon_sandstorm_m14"
+				"weapon"				"weapon_vietnam_xm21"
 				"weapon"				"weapon_sandstorm_m110"
 				"weapon"				"weapon_sandstorm_mk17"
 				"weapon"				"weapon_sandstorm_m870"
@@ -6699,6 +6918,7 @@
 						"weapon_vietnam_xm16e1"			"0.45"
 						"weapon_vietnam_model605"		"0.45"
 						"weapon_sandstorm_m14"			"0.45"
+						"weapon_vietnam_xm21"			"0.45"
 						"weapon_sandstorm_m110"			"0.45"
 						"weapon_sandstorm_mk17"			"0.45"
 						"weapon_sandstorm_m870"			"0.55"
@@ -7039,6 +7259,15 @@
 						"out_time"				"0.08"
 					}				
 				}	
+				
+				"weapon_vietnam_xm21"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}					
 
 				"weapon_sandstorm_m110"
 				{			
@@ -7090,6 +7319,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_m14"
+				"weapon"				"weapon_vietnam_xm21"
 				"weapon"				"weapon_sandstorm_m110"
 				"weapon"				"weapon_sandstorm_mk17"
 				"weapon"				"weapon_sandstorm_m870"
@@ -7107,6 +7337,7 @@
 					"scales"
 					{
 						"weapon_sandstorm_m14"			"0.45"
+						"weapon_vietnam_xm21"			"0.45"
 						"weapon_sandstorm_m110"			"0.45"
 						"weapon_sandstorm_mk17"			"0.45"
 						"weapon_sandstorm_m870"			"0.55"
@@ -7189,6 +7420,7 @@
 				"weapon"					"weapon_sandstorm_mosin"
 				"weapon"					"weapon_sandstorm_svd"
 				"weapon"					"weapon_sandstorm_m14"
+				"weapon"					"weapon_vietnam_xm21"
 				"weapon"					"weapon_sandstorm_m110"
 				"weapon"					"weapon_sandstorm_m240"
 				"weapon"					"weapon_sandstorm_m249"
@@ -7222,22 +7454,6 @@
 			
 			"viewmodel_attachments"
 			{
-				"m4a1_flash_hider"
-				{
-					"model"					"models/sndstrm/muzzle/a_mb_acr_b.mdl"
-					
-					"weapons"
-					{
-						"weapon"		"weapon_sandstorm_m4a1"
-						"weapon"		"weapon_sandstorm_sig_mcx"
-					}					
-					
-					"scales"
-					{
-						"weapon_sandstorm_m4a1"		"1.10"
-						"weapon_sandstorm_sig_mcx"	"1.20"
-					}	
-				}
 				
 				"mp5a5sd"
 				{
@@ -7402,6 +7618,7 @@
 				"weapon"					"weapon_sandstorm_mosin"
 				"weapon"					"weapon_sandstorm_svd"
 				"weapon"					"weapon_sandstorm_m14"
+				"weapon"					"weapon_vietnam_xm21"
 				"weapon"					"weapon_sandstorm_m110"
 				"weapon"					"weapon_sandstorm_m240"
 				"weapon"					"weapon_sandstorm_m249"
@@ -7427,22 +7644,6 @@
 			
 			"viewmodel_attachments"
 			{
-				"m4a1_muzzle_brake"
-				{
-					"model"					"models/sndstrm/muzzle/a_mb1_556.mdl"
-				
-					"weapons"
-					{
-						"weapon"		"weapon_sandstorm_m4a1"
-						"weapon"		"weapon_sandstorm_sig_mcx"
-					}				
-				
-					"scales"
-					{
-						"weapon_sandstorm_m4a1"		"1"
-						"weapon_sandstorm_sig_mcx"	"1"
-					}			
-				}
 				
 				"mp5a5sd"
 				{
@@ -7628,6 +7829,7 @@
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_vhs2"
 				"weapon"				"weapon_sandstorm_m14"
+				"weapon"				"weapon_vietnam_xm21"
 				"weapon"				"weapon_sandstorm_m110"
 				"weapon"				"weapon_sandstorm_mk17"
 				"weapon"				"weapon_sandstorm_m24"
@@ -7647,6 +7849,7 @@
 						"weapon_vietnam_xm16e1"		"0.80"
 						"weapon_vietnam_model605"	"0.80"
 						"weapon_sandstorm_m14"		"0.90"
+						"weapon_vietnam_xm21"		"0.90"
 						"weapon_sandstorm_m110"		"0.90"
 						"weapon_sandstorm_mk17"		"0.90"
 						"weapon_sandstorm_m24"		"1.0"
@@ -8014,6 +8217,7 @@
 				"weapon"				"weapon_sandstorm_vhs2"
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m14"	
+				"weapon"				"weapon_vietnam_xm21"
 				"weapon"				"weapon_sandstorm_m110"	
 				"weapon"				"weapon_sandstorm_mk17"
 			}
@@ -8048,6 +8252,7 @@
 						"weapon"				"weapon_sandstorm_famas"
 						"weapon"				"weapon_sandstorm_m16a2"
 						"weapon"				"weapon_sandstorm_m14"
+						"weapon"				"weapon_vietnam_xm21"
 						"weapon"				"weapon_sandstorm_m110"	
 						"weapon"				"weapon_sandstorm_mk17"	
 						"weapon"				"weapon_sandstorm_vhs2"
@@ -8323,6 +8528,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_m14"
+				"weapon"				"weapon_vietnam_xm21"
 				"weapon"				"weapon_sandstorm_m110"	
 				"weapon"				"weapon_sandstorm_mk17"
 				"weapon"				"weapon_sandstorm_m24"
@@ -8412,6 +8618,16 @@
 						"weapon"				"weapon_sandstorm_m14"
 					}
 				}
+				
+				"Bipod_M21"
+				{
+					"model"					"models/vietnam/upgrades/a_bipod_m21.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_vietnam_xm21"
+					}
+				}				
 				
 				"Bipod_M110"
 				{
@@ -8535,6 +8751,7 @@
 					"weapons"
 					{
 						"weapon"				"weapon_sandstorm_m14"
+						"weapon"				"weapon_vietnam_xm21"
 						"weapon"				"weapon_sandstorm_m110"
 						"weapon"				"weapon_sandstorm_m24"
 						"weapon"				"weapon_vietnam_m40"

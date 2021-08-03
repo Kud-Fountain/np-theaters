@@ -450,7 +450,7 @@
 				"weapon_upgrade"		"underbarrel_m320_he"
 				"weapon_upgrade"		"underbarrel_gp25_he"
 				"weapon_upgrade"		"underbarrel_m203_he"
-				"weapon"			"weapon_c4_clicker"
+				//"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_m67"
 
 				//"gear"				"basic_chest"

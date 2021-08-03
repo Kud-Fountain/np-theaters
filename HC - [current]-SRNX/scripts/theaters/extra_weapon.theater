@@ -422,7 +422,7 @@
 			"act_table"					"rifle_ak2"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"100"	// (3.9kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"weapon_cost"				"4"
+			"weapon_cost"				"5"
 			"barrel_length"				"22"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
@@ -739,7 +739,7 @@
 			"act_table"					"rifle_ak2"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"80"	// (2.9kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +16[encumbrance]
-			"weapon_cost"				"2"
+			"weapon_cost"				"1"
 			"barrel_length"				"20"
 			"weapon_max_subslot"			"0"
 			"class_restricted"			"1"
