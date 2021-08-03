@@ -186,6 +186,7 @@
 				"weapon"					"weapon_sandstorm_m4a1"
 				"weapon"					"weapon_sandstorm_honeybadger"
 				"weapon"					"weapon_sandstorm_glock17"
+				"weapon"					"weapon_sandstorm_manurhinmr73"
 				"weapon"					"weapon_sandstorm_m67"
 				//"weapon"					"weapon_sandstorm_molotov"
 				//"weapon"					"weapon_sandstorm_anm14"
@@ -317,6 +318,7 @@
 				"weapon"					"weapon_sandstorm_sks"
 				"weapon"					"weapon_sandstorm_m14"
 				"weapon"					"weapon_sandstorm_svd"
+				"weapon"					"weapon_vietnam_xm21"
 				"weapon"					"weapon_sandstorm_welrod"
 				"weapon"					"weapon_sandstorm_makarov"
 				"weapon"					"weapon_vietnam_m1911a1"
@@ -398,6 +400,7 @@
 				"weapon"					"weapon_sandstorm_mk18"
 				"weapon"					"weapon_sandstorm_m45"
 				"weapon"					"weapon_sandstorm_pf940"
+				"weapon"					"weapon_sandstorm_manurhinmr73"
 				"weapon"					"weapon_sandstorm_m67"
 				"weapon"					"weapon_sandstorm_anm14"
 				"weapon"					"weapon_sandstorm_molotov"
@@ -455,6 +458,7 @@
 				"weapon"					"weapon_sandstorm_molotov"
 				"weapon"					"weapon_sandstorm_c4_clicker"
 				"weapon"					"weapon_makarov_fp"
+				"weapon"					"weapon_sandstorm_manurhinmr73"
 			}
 			
 			"cost_modifiers"
