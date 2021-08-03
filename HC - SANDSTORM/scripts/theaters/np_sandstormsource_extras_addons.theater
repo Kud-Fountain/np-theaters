@@ -3314,7 +3314,7 @@
 		"shotgun_choke_improved"
 		{
 			"upgrade_slot"					"barrel"
-			"upgrade_cost"					"3"
+			"upgrade_cost"					"2"
 			"team_access"					"security, insurgent"
 			"print_name"					"#shotgun_improved_cylinder"
 			"print_desc"					"#shotgun_improved_cylinder_desc"			
@@ -3337,7 +3337,7 @@
 		"shotgun_choke_modified"
 		{
 			"upgrade_slot"					"barrel"
-			"upgrade_cost"					"4"
+			"upgrade_cost"					"3"
 			"team_access"					"security, insurgent"
 			"print_name"					"#shotgun_choke_modified"
 			"print_desc"					"#shotgun_choke_modified_desc"			
@@ -3360,7 +3360,7 @@
 		"shotgun_choke_full"
 		{
 			"upgrade_slot"					"barrel"
-			"upgrade_cost"					"5"
+			"upgrade_cost"					"4"
 			"team_access"					"security, insurgent"
 			"print_name"					"#shotgun_choke_full"
 			"print_desc"					"#shotgun_choke_full_desc"			

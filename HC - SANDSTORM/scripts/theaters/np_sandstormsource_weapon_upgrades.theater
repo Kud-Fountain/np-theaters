@@ -1705,7 +1705,7 @@
 		"siderail_laserflashlight_rail"
 		{
 			"import"					"base_laserflashlight"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
 
 			"allowed_weapons"
@@ -8204,7 +8204,7 @@
 		"siderail_lasersight_sandstorm_rail"
 		{
 			"import"					"base_lasersight"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			
 			"allowed_weapons"
 			{
@@ -8266,7 +8266,7 @@
 		"siderail_lasersight_rail" // SIDEMOUNT LASER
 		{
 			"import"					"base_lasersight"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			
 			"allowed_weapons"
 			{
@@ -8315,7 +8315,7 @@
 		"siderail_lasersight_band"
 		{
 			"import"					"base_lasersight"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			
 			"allowed_weapons"
 			{
@@ -8390,7 +8390,7 @@
 		"siderail_lasersight_shotgun_sec"
 		{
 			"import"					"base_lasersight"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			
 			"allowed_weapons"
 			{
@@ -8411,7 +8411,7 @@
 		"siderail_lasersight_shotgun_ins"
 		{
 			"import"					"base_lasersight"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			
 			"allowed_weapons"
 			{
@@ -8431,7 +8431,7 @@
 		"siderail_lasersight_pistol"
 		{
 			"import"					"base_lasersight_pistol"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			
 			"allowed_weapons"
 			{
