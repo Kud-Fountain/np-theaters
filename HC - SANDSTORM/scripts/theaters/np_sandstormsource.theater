@@ -224,6 +224,7 @@
 				"weapon"					"weapon_workshop_fiveseven"
 				"weapon"					"weapon_workshop_fiveseven_microh1"
 				"weapon"					"weapon_sandstorm_saiga_12"
+				"weapon"					"weapon_coldwar_gallosa12"
 				"weapon"					"weapon_sandstorm_toz"
 				"weapon"					"weapon_sandstorm_m870"
 				"weapon"					"weapon_sandstorm_mp5a5"
@@ -267,6 +268,7 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_coldwar_gallosa12"
 				"weapon"					"weapon_workshop_p90"
 				"weapon"					"weapon_sandstorm_sig_mpx"
 				"weapon"					"weapon_vietnam_type56"
@@ -278,6 +280,14 @@
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon"					"weapon_sandstorm_m67"
 				//"weapon"					"weapon_sandstorm_molotov"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_coldwar_gallosa12"			"1"
+				}
 			}
 		}
 		
@@ -319,6 +329,7 @@
 				"weapon"					"weapon_sandstorm_m14"
 				"weapon"					"weapon_sandstorm_svd"
 				"weapon"					"weapon_vietnam_xm21"
+				"weapon"					"weapon_workshop_m98b"
 				"weapon"					"weapon_sandstorm_welrod"
 				"weapon"					"weapon_sandstorm_makarov"
 				"weapon"					"weapon_vietnam_m1911a1"
@@ -390,6 +401,7 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_coldwar_gallosa12"
 				"weapon"					"weapon_workshop_p90"
 				"weapon"					"weapon_sandstorm_saiga_12"
 				"weapon"					"weapon_sandstorm_ace52"
@@ -412,6 +424,7 @@
 			{
 				"weapon"
 				{
+					"weapon_coldwar_gallosa12"			"1"
 					"weapon_sandstorm_saiga_12"			"1"
 				}
 			}
@@ -446,6 +459,7 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_coldwar_gallosa12"
 				"weapon"					"weapon_sandstorm_saiga_12"
 				"weapon"					"weapon_sandstorm_ace52"
 				"weapon"					"weapon_sandstorm_greasegun"
@@ -465,6 +479,7 @@
 			{
 				"weapon"
 				{
+					"weapon_coldwar_gallosa12"			"1"
 					"weapon_sandstorm_saiga_12"			"1"
 				}
 			}
@@ -500,6 +515,7 @@
 				
 				"weapon"					"weapon_workshop_fiveseven"
 				"weapon"					"weapon_workshop_fiveseven_microh1"
+				"weapon"					"weapon_coldwar_krig6"
 				"weapon"					"weapon_sandstorm_qbz03"
 				"weapon"					"weapon_sandstorm_steyrauga3"
 				"weapon"					"weapon_sandstorm_alphaak"

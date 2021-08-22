@@ -45,6 +45,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_coldwar_gallosa12"
 				"weapon"				"weapon_sandstorm_toz"
 			}
 		}
@@ -72,6 +73,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_coldwar_gallosa12"
 				"weapon"				"weapon_sandstorm_toz"
 			}
 		}
@@ -614,6 +616,18 @@
 						"lose_rounds_reload"	"1"
 					}
 				}
+				
+				"weapon_coldwar_krig6"
+				{
+					"ammo_clip"
+					{
+						"ammo_type"				"556_stanag"
+						"clip_max"				"12"
+						"clip_max_rounds"		"30"
+						"clip_default"			"3"
+						"lose_rounds_reload"	"1"
+					}
+				}				
 
 				"weapon_vietnam_car15"
 				{
@@ -1022,7 +1036,19 @@
 						"clip_default"			"3"
 						"lose_rounds_reload"	"1"
 					}
-				}	
+				}
+
+				"weapon_workshop_m98b"
+				{
+					"ammo_clip"
+					{
+						"ammo_type"				"338lapua"
+						"clip_max"				"12"
+						"clip_max_rounds"		"10"
+						"clip_default"			"3"
+						"lose_rounds_reload"	"1"
+					}
+				}				
 
 				"weapon_sandstorm_honeybadger"
 				{
@@ -1118,6 +1144,7 @@
 				"weapon"				"weapon_sandstorm_m16a4"
 				"weapon"				"weapon_sandstorm_m16a2"
 				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_coldwar_krig6"
 				"weapon"				"weapon_vietnam_car15"
 				"weapon"				"weapon_sandstorm_saiga_12"
 				"weapon"				"weapon_sandstorm_sig_mpx"
@@ -1157,6 +1184,7 @@
 				"weapon"				"weapon_sandstorm_sterling"
 				"weapon"				"weapon_sandstorm_greasegun"
 				"weapon"				"weapon_sandstorm_asval"
+				"weapon"				"weapon_workshop_m98b"
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_welrod"
 				"weapon"				"weapon_sandstorm_famas"
@@ -1527,6 +1555,7 @@
 				"weapon"				"weapon_sandstorm_alphaak"
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_coldwar_krig6"
 				"weapon"				"weapon_vietnam_car15"
 			}
 		}		
@@ -1701,6 +1730,95 @@
 		// ========================================
 		// LASER SIGHT AND FLASHLIGHT
 		// ========================================			
+
+		"siderail_laserflashlight_pistol"
+		{
+			"import"					"base_laserflashlight"
+			"upgrade_cost"				"1"
+			"team_access"				"security, insurgent"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m9"
+				"weapon"				"weapon_workshop_fiveseven"
+				"weapon"				"weapon_workshop_fiveseven_microh1"
+				"weapon"				"weapon_sandstorm_hipower"
+				"weapon"				"weapon_sandstorm_sigp226"
+				"weapon"				"weapon_sandstorm_pf940"
+				"weapon"				"weapon_sandstorm_m45"
+				"weapon"				"weapon_vietnam_m1911a1"
+				"weapon"				"weapon_sandstorm_m1911"
+				"weapon"				"weapon_vietnam_tt33"
+				"weapon"				"weapon_sandstorm_makarov"
+				"weapon"				"weapon_sandstorm_tariq"
+				"weapon"				"weapon_sandstorm_glock17"
+			}
+			"viewmodel_attachments"
+			{
+				"flashlight_m9"
+				{
+					"model"					"models/sndstrm/upgrades/a_flashlight_m9.mdl"
+					"Main"					"1"
+
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_m9"
+						"weapon"			"weapon_workshop_fiveseven"
+						"weapon"			"weapon_workshop_fiveseven_microh1"
+					}
+				}
+				
+				"flashlight_hipower"
+				{
+					"model"					"models/sndstrm/upgrades/a_flashlight_hi.mdl"
+					"Main"					"1"
+
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_hipower"
+					}
+				}				
+				
+				"flashlight_sigp226"
+				{
+					"model"					"models/sndstrm/upgrades/a_flashlight_26.mdl"
+					"Main"					"1"
+
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_sigp226"
+					}
+				}				
+				
+				"flashlight_pf940"
+				{
+					"model"					"models/sndstrm/upgrades/a_flashlight_pf.mdl"
+					"Main"					"1"
+
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_pf940"
+					}
+				}				
+
+				"flashlight_mak"
+				{
+					"model"					"models/weapons/upgrades/a_flashlight_mak.mdl"
+					"Main"					"1"
+
+					"excluded_weapons"
+					{
+						"weapon"			"weapon_sandstorm_m9"
+						"weapon"			"weapon_workshop_fiveseven"
+						"weapon"			"weapon_workshop_fiveseven_microh1"
+						"weapon"			"weapon_sandstorm_hipower"
+						"weapon"			"weapon_sandstorm_sigp226"
+						"weapon"			"weapon_sandstorm_pf940"
+					}
+				}
+			}
+		}
+
 		
 		"siderail_laserflashlight_rail"
 		{
@@ -1712,6 +1830,7 @@
 			{
 				"weapon"				"weapon_sandstorm_m16a4"
 				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_coldwar_krig6"
 				"weapon"				"weapon_sandstorm_sig_mpx"
 				"weapon"				"weapon_sandstorm_m4a1"
 				"weapon"				"weapon_sandstorm_steyrauga3"
@@ -1734,6 +1853,7 @@
 						"weapon"			"weapon_sandstorm_m14"
 						"weapon"			"weapon_sandstorm_m110"
 						"weapon"			"weapon_sandstorm_mk18"	
+						"weapon"			"weapon_coldwar_krig6"
 						"weapon"			"weapon_sandstorm_sig_mpx"
 						"weapon"			"weapon_sandstorm_honeybadger"						
 						"weapon"			"weapon_sandstorm_m4a1"
@@ -1754,7 +1874,17 @@
 						"weapon"			"weapon_sandstorm_sig_mpx"
 						"weapon"			"weapon_sandstorm_honeybadger"
 					}
-				}								
+				}	
+
+				"standard_krig6"
+				{
+					"model"					"models/coldwar/upgrades/a_standard3_krig.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_coldwar_krig6"
+					}
+				}					
 				
 				"standard_g36k"
 				{
@@ -1795,6 +1925,7 @@
 				"weapon"				"weapon_sandstorm_famas"
 				"weapon"				"weapon_sandstorm_m16a2"
 				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_coldwar_krig6"
 				"weapon"				"weapon_vietnam_car15"
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
@@ -1827,6 +1958,7 @@
 						"weapon"			"weapon_sandstorm_m110"
 						"weapon"			"weapon_sandstorm_mk17"
 						"weapon"			"weapon_sandstorm_mk18"	
+						"weapon"			"weapon_coldwar_krig6"
 						"weapon"			"weapon_vietnam_car15"
 						"weapon"			"weapon_sandstorm_l85a2"
 						"weapon"			"weapon_sandstorm_saiga_12"
@@ -1854,7 +1986,17 @@
 						"weapon"			"weapon_sandstorm_sig_mpx"
 						"weapon"			"weapon_sandstorm_honeybadger"
 					}
-				}								
+				}	
+
+				"standard_krig6"
+				{
+					"model"					"models/coldwar/upgrades/a_standard3_krig.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_coldwar_krig6"
+					}
+				}					
 				
 				"standard_m4a1"
 				{
@@ -1908,6 +2050,7 @@
 				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
 				"weapon"				"weapon_sandstorm_asval"
+				"weapon"				"weapon_workshop_m98b"
 
 				// insurgent
 				"weapon"				"weapon_sandstorm_akm"
@@ -1974,6 +2117,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_coldwar_gallosa12"
 				"weapon"				"weapon_sandstorm_m24"
 				"weapon"				"weapon_vietnam_m40"
 				"weapon"				"weapon_sandstorm_toz"
@@ -1989,6 +2133,7 @@
 					"weapons"
 					{
 						"weapon"			"weapon_sandstorm_m870"
+						"weapon"			"weapon_coldwar_gallosa12"
 						"weapon"			"weapon_sandstorm_m24"
 						"weapon"			"weapon_vietnam_m40"
 					}
@@ -2223,6 +2368,7 @@
 						"weapon"				"weapon_sandstorm_mp7"
 						"weapon"				"weapon_workshop_p90"
 						"weapon"				"weapon_sandstorm_m870"
+						"weapon"				"weapon_coldwar_gallosa12"
 					}
 				}
 				
@@ -2268,6 +2414,17 @@
 					"weapons"
 					{
 						"weapon"				"weapon_sandstorm_asval"
+					}
+				}
+
+				// M98B Modkit
+				"ModKitM98B"
+				{
+					"model"					"models/workshp/upgrades/a_modkit_m98b.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_workshop_m98b"
 					}
 				}				
 				
@@ -2337,6 +2494,7 @@
 						"weapon"				"weapon_sandstorm_mp7"
 						"weapon"				"weapon_workshop_p90"
 						"weapon"				"weapon_sandstorm_m870"
+						"weapon"				"weapon_coldwar_gallosa12"
 						"weapon"				"weapon_sandstorm_toz"
 					}
 				}
@@ -2384,7 +2542,7 @@
 					{
 						"weapon"				"weapon_sandstorm_asval"
 					}
-				}				
+				}					
 
 			}
 		}
@@ -2466,6 +2624,7 @@
 				// security weapons
 				"weapon"				"weapon_sandstorm_vhs2"
 				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_coldwar_gallosa12"
 				"weapon"				"weapon_sandstorm_uzi"
 				
 				// insurgent weapons
@@ -2558,6 +2717,12 @@
 					"fov_wpn_focus"				"70"
 				}
 				
+				"weapon_coldwar_gallosa12"
+				{
+					"fov_wpn_ironsight"			"61"
+					"fov_wpn_focus"				"70"
+				}				
+				
 				"weapon_sandstorm_uzi"
 				{
 					"fov_wpn_ironsight"			"56"
@@ -2593,12 +2758,14 @@
 				"weapon"				"weapon_sandstorm_m24"
 				"weapon"				"weapon_vietnam_m40"
 				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_coldwar_krig6"
 				"weapon"				"weapon_vietnam_car15"
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
 				"weapon"				"weapon_sandstorm_sig_mpx"
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_coldwar_gallosa12"
 				"weapon"				"weapon_sandstorm_m14"
 				"weapon"				"weapon_vietnam_xm21"
 				"weapon"				"weapon_sandstorm_m110"
@@ -2613,6 +2780,7 @@
 				"weapon"				"weapon_sandstorm_uzi"
 				"weapon"				"weapon_sandstorm_sterling"
 				"weapon"				"weapon_sandstorm_asval"
+				"weapon"				"weapon_workshop_m98b"
 				"weapon"				"weapon_vietnam_xm16e1"
 				"weapon"				"weapon_vietnam_model605"
 				
@@ -2736,7 +2904,13 @@
 				{
 					"fov_wpn_ironsight"			"44"
 					"fov_wpn_focus"				"53"
-				}				
+				}		
+
+				"weapon_workshop_m98b"
+				{
+					"fov_wpn_ironsight"			"44"
+					"fov_wpn_focus"				"53"
+				}					
 				
 				"weapon_sandstorm_m16a4"
 				{
@@ -2820,7 +2994,13 @@
 				{
 					"fov_wpn_ironsight"			"59"
 					"fov_wpn_focus"				"67"
-				}	
+				}
+
+				"weapon_coldwar_krig6"
+				{
+					"fov_wpn_ironsight"			"59"
+					"fov_wpn_focus"				"67"
+				}					
 				
 				"weapon_vietnam_car15"
 				{
@@ -2881,6 +3061,12 @@
 					"fov_wpn_ironsight"			"60"
 					"fov_wpn_focus"				"68"
 				}
+				
+				"weapon_coldwar_gallosa12"
+				{
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"68"
+				}				
 
 				"weapon_sandstorm_mp5a5"
 				{
@@ -3052,12 +3238,14 @@
 				"weapon"				"weapon_sandstorm_m24"
 				"weapon"				"weapon_vietnam_m40"
 				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_coldwar_krig6"
 				"weapon"				"weapon_vietnam_car15"
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
 				"weapon"				"weapon_sandstorm_sig_mpx"
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_coldwar_gallosa12"
 				"weapon"				"weapon_sandstorm_m14"
 				"weapon"				"weapon_vietnam_xm21"
 				"weapon"				"weapon_sandstorm_m110"
@@ -3268,6 +3456,12 @@
 					"fov_wpn_ironsight"			"58"
 					"fov_wpn_focus"				"66"
 				}
+				
+				"weapon_coldwar_krig6"
+				{
+					"fov_wpn_ironsight"			"58"
+					"fov_wpn_focus"				"66"
+				}				
 
 				"weapon_vietnam_car15"
 				{
@@ -3328,6 +3522,12 @@
 					"fov_wpn_ironsight"			"56"
 					"fov_wpn_focus"				"64"
 				}
+				
+				"weapon_coldwar_gallosa12"
+				{
+					"fov_wpn_ironsight"			"56"
+					"fov_wpn_focus"				"64"
+				}				
 				
 				"weapon_sandstorm_m14"
 				{
@@ -3465,7 +3665,7 @@
 				{
 					"fov_wpn_ironsight"			"48"
 					"fov_wpn_focus"				"56"
-				}			
+				}						
 				
 			}
 		}		
@@ -3495,12 +3695,14 @@
 				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
 				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_coldwar_krig6"
 				"weapon"				"weapon_vietnam_car15"
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
 				"weapon"				"weapon_sandstorm_sig_mpx"
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_coldwar_gallosa12"
 				"weapon"				"weapon_sandstorm_m14"
 				"weapon"				"weapon_vietnam_xm21"
 				"weapon"				"weapon_sandstorm_m110"
@@ -3510,6 +3712,7 @@
 				"weapon"				"weapon_sandstorm_mp7"
 				"weapon"				"weapon_workshop_p90"
 				"weapon"				"weapon_sandstorm_asval"
+				"weapon"				"weapon_workshop_m98b"
 
 				// insurgent weapons
 				"weapon"				"weapon_sandstorm_ak74"
@@ -3680,6 +3883,12 @@
 					"fov_wpn_ironsight"			"58"
 					"fov_wpn_focus"				"66"
 				}
+				
+				"weapon_coldwar_krig6"
+				{
+					"fov_wpn_ironsight"			"58"
+					"fov_wpn_focus"				"66"
+				}				
 
 				"weapon_vietnam_car15"
 				{
@@ -3740,6 +3949,12 @@
 					"fov_wpn_ironsight"			"56"
 					"fov_wpn_focus"				"64"
 				}
+				
+				"weapon_coldwar_gallosa12"
+				{
+					"fov_wpn_ironsight"			"56"
+					"fov_wpn_focus"				"64"
+				}				
 				
 				"weapon_sandstorm_m14"
 				{
@@ -3853,6 +4068,12 @@
 				{
 					"fov_wpn_ironsight"			"48"
 					"fov_wpn_focus"				"56"
+				}	
+
+				"weapon_workshop_m98b"
+				{
+					"fov_wpn_ironsight"			"48"
+					"fov_wpn_focus"				"56"
 				}					
 				
 			}
@@ -3884,6 +4105,7 @@
 				"weapon"				"weapon_sandstorm_m24"
 				"weapon"				"weapon_vietnam_m40"
 				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_coldwar_krig6"
 				"weapon"				"weapon_vietnam_car15"
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
@@ -3902,6 +4124,7 @@
 				"weapon"				"weapon_sandstorm_uzi"
 				"weapon"				"weapon_sandstorm_sterling"
 				"weapon"				"weapon_sandstorm_asval"
+				"weapon"				"weapon_workshop_m98b"
 
 				// insurgent weapons
 				"weapon"				"weapon_sandstorm_akm"
@@ -3937,12 +4160,14 @@
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
 						"weapon"				"weapon_sandstorm_mk18"
+						"weapon"				"weapon_coldwar_krig6"
 						"weapon"				"weapon_vietnam_car15"
 						"weapon"				"weapon_sandstorm_l85a2"
 						"weapon"				"weapon_sandstorm_saiga_12"
 						"weapon"				"weapon_sandstorm_sig_mpx"
 						"weapon"				"weapon_sandstorm_honeybadger"
 						"weapon"				"weapon_sandstorm_asval"
+						"weapon"				"weapon_workshop_m98b"
 					}
 				}
 				
@@ -3962,12 +4187,14 @@
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
 						"weapon"				"weapon_sandstorm_mk18"
+						"weapon"				"weapon_coldwar_krig6"
 						"weapon"				"weapon_vietnam_car15"
 						"weapon"				"weapon_sandstorm_l85a2"
 						"weapon"				"weapon_sandstorm_saiga_12"
 						"weapon"				"weapon_sandstorm_sig_mpx"
 						"weapon"				"weapon_sandstorm_honeybadger"
 						"weapon"				"weapon_sandstorm_asval"
+						"weapon"				"weapon_workshop_m98b"
 					}
 				}
 			}
@@ -4033,6 +4260,12 @@
 					"fov_wpn_ironsight"			"70"
 					"fov_wpn_focus"				"72"
 				}
+				
+				"weapon_coldwar_krig6"
+				{
+					"fov_wpn_ironsight"			"70"
+					"fov_wpn_focus"				"72"
+				}				
 				
 				"weapon_vietnam_car15"
 				{
@@ -4254,7 +4487,13 @@
 				{
 					"fov_wpn_ironsight"			"47"
 					"fov_wpn_focus"				"54"
-				}				
+				}	
+
+				"weapon_workshop_m98b"
+				{
+					"fov_wpn_ironsight"			"47"
+					"fov_wpn_focus"				"54"
+				}					
 				
 			}
 		}
@@ -4288,6 +4527,7 @@
 				"weapon"				"weapon_sandstorm_m24"
 				"weapon"				"weapon_vietnam_m40"
 				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_coldwar_krig6"
 				"weapon"				"weapon_vietnam_car15"
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
@@ -4306,6 +4546,7 @@
 				"weapon"				"weapon_sandstorm_uzi"
 				"weapon"				"weapon_sandstorm_sterling"
 				"weapon"				"weapon_sandstorm_asval"
+				"weapon"				"weapon_workshop_m98b"
 
 				// insurgent weapons
 				"weapon"				"weapon_sandstorm_akm"
@@ -4344,12 +4585,14 @@
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
 						"weapon"				"weapon_sandstorm_mk18"
+						"weapon"				"weapon_coldwar_krig6"
 						"weapon"				"weapon_vietnam_car15"
 						"weapon"				"weapon_sandstorm_l85a2"
 						"weapon"				"weapon_sandstorm_saiga_12"
 						"weapon"				"weapon_sandstorm_sig_mpx"
 						"weapon"				"weapon_sandstorm_honeybadger"
 						"weapon"				"weapon_sandstorm_asval"
+						"weapon"				"weapon_workshop_m98b"
 					}
 				}
 				
@@ -4372,12 +4615,14 @@
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
 						"weapon"				"weapon_sandstorm_mk18"
+						"weapon"				"weapon_coldwar_krig6"
 						"weapon"				"weapon_vietnam_car15"
 						"weapon"				"weapon_sandstorm_l85a2"
 						"weapon"				"weapon_sandstorm_saiga_12"
 						"weapon"				"weapon_sandstorm_sig_mpx"
 						"weapon"				"weapon_sandstorm_honeybadger"
 						"weapon"				"weapon_sandstorm_asval"
+						"weapon"				"weapon_workshop_m98b"
 					}
 				}
 			}
@@ -4461,6 +4706,12 @@
 					"fov_wpn_ironsight"			"70"
 					"fov_wpn_focus"				"72"
 				}
+				
+				"weapon_coldwar_krig6"
+				{
+					"fov_wpn_ironsight"			"70"
+					"fov_wpn_focus"				"72"
+				}				
 				
 				"weapon_vietnam_car15"
 				{
@@ -4682,6 +4933,12 @@
 				{
 					"fov_wpn_ironsight"			"47"
 					"fov_wpn_focus"				"54"
+				}	
+
+				"weapon_workshop_m98b"
+				{
+					"fov_wpn_ironsight"			"47"
+					"fov_wpn_focus"				"54"
 				}					
 				
 			}
@@ -4716,12 +4973,14 @@
 				"weapon"				"weapon_sandstorm_m24"
 				"weapon"				"weapon_vietnam_m40"
 				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_coldwar_krig6"
 				"weapon"				"weapon_vietnam_car15"
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
 				"weapon"				"weapon_sandstorm_sig_mpx"
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_coldwar_gallosa12"
 				"weapon"				"weapon_sandstorm_m14"
 				"weapon"				"weapon_vietnam_xm21"
 				"weapon"				"weapon_sandstorm_m110"
@@ -4735,6 +4994,7 @@
 				"weapon"				"weapon_sandstorm_uzi"
 				"weapon"				"weapon_sandstorm_sterling"
 				"weapon"				"weapon_sandstorm_asval"
+				"weapon"				"weapon_workshop_m98b"
 
 				// insurgent weapons
 				"weapon"				"weapon_sandstorm_akm"
@@ -4802,6 +5062,7 @@
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
 						"weapon"				"weapon_sandstorm_mk18"
+						"weapon"				"weapon_coldwar_krig6"
 						"weapon"				"weapon_vietnam_car15"
 						"weapon"				"weapon_sandstorm_l85a2"
 						"weapon"				"weapon_sandstorm_saiga_12"
@@ -4810,6 +5071,7 @@
 						"weapon"				"weapon_sandstorm_uzi"
 						"weapon"				"weapon_sandstorm_sterling"
 						"weapon"				"weapon_sandstorm_asval"
+						"weapon"				"weapon_workshop_m98b"
 					}
 				}
 				
@@ -4824,6 +5086,7 @@
 					"weapons"
 					{
 						"weapon"				"weapon_sandstorm_mk18"
+						"weapon"				"weapon_coldwar_krig6"
 						"weapon"				"weapon_vietnam_car15"
 						"weapon"				"weapon_sandstorm_l85a2"
 						"weapon"				"weapon_sandstorm_saiga_12"
@@ -4852,6 +5115,7 @@
 						"weapon"				"weapon_sandstorm_g36k"
 						"weapon"				"weapon_sandstorm_vhs2"
 						"weapon"				"weapon_sandstorm_asval"
+						"weapon"				"weapon_workshop_m98b"
 					}
 				}
 			}
@@ -4980,6 +5244,12 @@
 					"fov_wpn_ironsight"			"62"
 					"fov_wpn_focus"				"68"
 				}
+				
+				"weapon_coldwar_gallosa12"
+				{
+					"fov_wpn_ironsight"			"62"
+					"fov_wpn_focus"				"68"
+				}				
 				
 				"weapon_sandstorm_m249"
 				{
@@ -5117,7 +5387,13 @@
 				{
 					"fov_wpn_ironsight"			"54"
 					"fov_wpn_focus"				"61"
-				}				
+				}	
+
+				"weapon_workshop_m98b"
+				{
+					"fov_wpn_ironsight"			"54"
+					"fov_wpn_focus"				"61"
+				}					
 				
 			}
 		}
@@ -5153,6 +5429,7 @@
 				"weapon"				"weapon_sandstorm_uzi"
 				"weapon"				"weapon_sandstorm_sterling"
 				"weapon"				"weapon_sandstorm_asval"
+				"weapon"				"weapon_workshop_m98b"
 
 				// security weapons
 				"weapon"				"weapon_vietnam_xm16e1"
@@ -5169,12 +5446,14 @@
 				"weapon"				"weapon_sandstorm_m24"
 				"weapon"				"weapon_vietnam_m40"
 				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_coldwar_krig6"
 				"weapon"				"weapon_vietnam_car15"
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
 				"weapon"				"weapon_sandstorm_sig_mpx"
 				"weapon"				"weapon_sandstorm_honeybadger"
 				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_coldwar_gallosa12"
 				"weapon"				"weapon_sandstorm_m14"
 				"weapon"				"weapon_vietnam_xm21"
 				"weapon"				"weapon_sandstorm_m110"
@@ -5446,6 +5725,12 @@
 					"fov_wpn_focus"				"75"
 				}
 				
+				"weapon_coldwar_krig6"
+				{
+					"fov_wpn_ironsight"			"65"
+					"fov_wpn_focus"				"75"
+				}				
+				
 				"weapon_vietnam_car15"
 				{
 					"fov_wpn_ironsight"			"65"
@@ -5542,6 +5827,12 @@
 					"fov_wpn_focus"				"70"
 				}
 				
+				"weapon_coldwar_gallosa12"
+				{
+					"fov_wpn_ironsight"			"61"
+					"fov_wpn_focus"				"70"
+				}				
+				
 				"weapon_sandstorm_uzi"
 				{
 					"fov_wpn_ironsight"			"56"
@@ -5558,7 +5849,13 @@
 				{
 					"fov_wpn_ironsight"			"47"
 					"fov_wpn_focus"				"54"
-				}				
+				}
+
+				"weapon_workshop_m98b"
+				{
+					"fov_wpn_ironsight"			"47"
+					"fov_wpn_focus"				"54"
+				}					
 				
 			}
 		}
@@ -5591,6 +5888,7 @@
 				"weapon"				"weapon_sandstorm_sks"
 				"weapon"				"weapon_sandstorm_svd"
 				"weapon"				"weapon_sandstorm_asval"
+				"weapon"				"weapon_workshop_m98b"
 
 				// security weapons
 				"weapon"				"weapon_vietnam_xm16e1"
@@ -5605,6 +5903,7 @@
 				"weapon"				"weapon_sandstorm_m24"
 				"weapon"				"weapon_vietnam_m40"
 				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_coldwar_krig6"
 				"weapon"				"weapon_vietnam_car15"
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
@@ -5857,6 +6156,12 @@
 					"fov_wpn_focus"				"68"
 				}	
 				
+				"weapon_coldwar_krig6"
+				{
+					"fov_wpn_ironsight"			"64"
+					"fov_wpn_focus"				"68"
+				}					
+				
 				"weapon_vietnam_car15"
 				{
 					"fov_wpn_ironsight"			"64"
@@ -5957,7 +6262,13 @@
 				{
 					"fov_wpn_ironsight"			"42"
 					"fov_wpn_focus"				"48"
-				}				
+				}	
+
+				"weapon_workshop_m98b"
+				{
+					"fov_wpn_ironsight"			"42"
+					"fov_wpn_focus"				"48"
+				}					
 				
 			}
 		}
@@ -6197,6 +6508,7 @@
 				"weapon"				"weapon_sandstorm_m16a4"
 				"weapon"				"weapon_sandstorm_famas"
 				"weapon"				"weapon_sandstorm_m16a2"
+				"weapon"				"weapon_workshop_m98b"
 			}
 			"viewmodel_attachments"
 			{
@@ -6211,6 +6523,7 @@
 					"weapons"
 					{
 						"weapon"				"weapon_sandstorm_m24"
+						"weapon"				"weapon_workshop_m98b"
 					}
 				}
 				
@@ -6258,7 +6571,14 @@
 					"fov_wpn_scope"				"10"
 					"fov_wpn_ironsight"			"50"
 					"fov_wpn_focus"				"57"
-				}				
+				}
+
+				"weapon_workshop_m98b"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"46"
+					"fov_wpn_focus"				"50"
+				}					
 
 				"weapon_sandstorm_mk17"
 				{
@@ -6428,6 +6748,7 @@
 				"weapon"				"weapon_sandstorm_g3a3"
 				"weapon"				"weapon_sandstorm_galil"
 				"weapon"				"weapon_sandstorm_asval"
+				"weapon"				"weapon_workshop_m98b"
 			}
 			
 			"viewmodel_attachments"
@@ -6443,6 +6764,7 @@
 						"weapon_sandstorm_sks"		"0.5"
 						"weapon_sandstorm_svd"		"0.5"
 						"weapon_sandstorm_asval"	"0.5"
+						"weapon_workshop_m98b"		"0.5"
 						"weapon_sandstorm_fal"		"0.45"
 						"weapon_sandstorm_ace52"	"0.45"
 						"weapon_sandstorm_g3a3"		"0.45"
@@ -6737,6 +7059,7 @@
 				"weapon"				"weapon_sandstorm_famas"
 				"weapon"				"weapon_sandstorm_m16a2"
 				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_coldwar_krig6"
 				"weapon"				"weapon_vietnam_car15"
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
@@ -6762,6 +7085,7 @@
 						"weapon_sandstorm_famas"		"0.5"
 						"weapon_sandstorm_m16a2"		"0.5"
 						"weapon_sandstorm_mk18"			"0.5"
+						"weapon_coldwar_krig6"   		"0.5"
 						"weapon_vietnam_car15"			"0.5"
 						"weapon_sandstorm_l85a2"		"0.5"
 						"weapon_sandstorm_saiga_12"		"0.5"
@@ -6902,6 +7226,7 @@
 				"weapon"				"weapon_sandstorm_m110"
 				"weapon"				"weapon_sandstorm_mk17"
 				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_coldwar_gallosa12"
 				"weapon"				"weapon_sandstorm_galil_sar"
 				"weapon"				"weapon_sandstorm_l1a1"
 			}
@@ -6922,6 +7247,7 @@
 						"weapon_sandstorm_m110"			"0.45"
 						"weapon_sandstorm_mk17"			"0.45"
 						"weapon_sandstorm_m870"			"0.55"
+						"weapon_coldwar_gallosa12"      "0.55"
 						"weapon_sandstorm_galil_sar"	"0.45"
 						"weapon_sandstorm_l1a1"			"0.45"
 					}
@@ -6993,6 +7319,15 @@
 						"out_time"				"0.08"
 					}				
 				}		
+				
+				"weapon_coldwar_krig6"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}					
 
 				"weapon_vietnam_car15"
 				{			
@@ -7092,6 +7427,7 @@
 				"weapon"				"weapon_sandstorm_famas"
 				"weapon"				"weapon_sandstorm_m16a2"
 				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_coldwar_krig6"
 				"weapon"				"weapon_vietnam_car15"
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
@@ -7117,6 +7453,7 @@
 						"weapon_sandstorm_famas"		"0.5"
 						"weapon_sandstorm_m16a2"		"0.5"
 						"weapon_sandstorm_mk18"			"0.5"
+						"weapon_coldwar_krig6"			"0.5"
 						"weapon_vietnam_car15"			"0.5"
 						"weapon_sandstorm_l85a2"		"0.5"
 						"weapon_sandstorm_saiga_12"		"0.5"
@@ -7295,6 +7632,15 @@
 						"out_time"				"0.08"
 					}				
 				}		
+				
+				"weapon_coldwar_gallosa12"
+				{			
+					"ironsights"
+					{
+						"in_time"				"0.15"
+						"out_time"				"0.08"
+					}				
+				}					
 
 				"weapon_sandstorm_galil_sar"
 				{			
@@ -7323,6 +7669,7 @@
 				"weapon"				"weapon_sandstorm_m110"
 				"weapon"				"weapon_sandstorm_mk17"
 				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_coldwar_gallosa12"
 				"weapon"				"weapon_sandstorm_galil_sar"
 				"weapon"				"weapon_sandstorm_l1a1"
 			}
@@ -7341,6 +7688,7 @@
 						"weapon_sandstorm_m110"			"0.45"
 						"weapon_sandstorm_mk17"			"0.45"
 						"weapon_sandstorm_m870"			"0.55"
+						"weapon_coldwar_gallosa12"      "0.55"
 						"weapon_sandstorm_galil_sar"	"0.45"
 						"weapon_sandstorm_l1a1"			"0.45"
 					}
@@ -7411,6 +7759,7 @@
 				"weapon"					"weapon_sandstorm_mk17"
 				"weapon"					"weapon_sandstorm_alphaak"
 				"weapon"					"weapon_sandstorm_mk18"
+				"weapon"					"weapon_coldwar_krig6"
 				"weapon"					"weapon_vietnam_car15"
 				"weapon"					"weapon_sandstorm_l85a2"
 				"weapon"					"weapon_sandstorm_saiga_12"
@@ -7444,7 +7793,9 @@
 				"weapon"					"weapon_sandstorm_honeybadger"
 				"weapon"					"weapon_sandstorm_m1garand"
 				"weapon"					"weapon_sandstorm_m870"
+				"weapon"					"weapon_coldwar_gallosa12"
 				"weapon"					"weapon_sandstorm_toz"	
+				"weapon"					"weapon_workshop_m98b"
 			}
 
 			"excluded_upgrades"
@@ -7598,6 +7949,7 @@
 				"weapon"					"weapon_sandstorm_g3a3"
 				"weapon"					"weapon_sandstorm_vhs2"
 				"weapon"					"weapon_sandstorm_m870"
+				"weapon"					"weapon_coldwar_gallosa12"
 				"weapon"					"weapon_sandstorm_toz"
 				"weapon"					"weapon_sandstorm_uzi"
 				"weapon"					"weapon_sandstorm_mp5a2"
@@ -7609,6 +7961,7 @@
 				"weapon"					"weapon_sandstorm_mk17"
 				"weapon"					"weapon_sandstorm_alphaak"
 				"weapon"					"weapon_sandstorm_mk18"
+				"weapon"					"weapon_coldwar_krig6"
 				"weapon"					"weapon_vietnam_car15"
 				"weapon"					"weapon_sandstorm_l85a2"
 				"weapon"					"weapon_sandstorm_saiga_12"
@@ -7640,6 +7993,7 @@
 				"weapon"					"weapon_sandstorm_galil"
 				"weapon"					"weapon_sandstorm_galil_sar"			
 				"weapon"					"weapon_sandstorm_honeybadger"
+				"weapon"					"weapon_workshop_m98b"
 			}
 			
 			"viewmodel_attachments"
@@ -7837,6 +8191,7 @@
 				"weapon"				"weapon_sandstorm_mp7"
 				"weapon"				"weapon_workshop_p90"
 				"weapon"				"weapon_sandstorm_svd"
+				"weapon"				"weapon_workshop_m98b"
 			}
 			"viewmodel_attachments"
 			{
@@ -7858,6 +8213,7 @@
 						"weapon_sandstorm_galil_sar""0.90"
 						"weapon_sandstorm_mp7"		"0.75"
 						"weapon_workshop_p90"		"0.75"
+						"weapon_workshop_m98b"		"1.00"
 					}
 				}
 			}
@@ -7881,6 +8237,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_coldwar_krig6"
 				"weapon"				"weapon_vietnam_car15"
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_saiga_12"
@@ -7897,6 +8254,7 @@
 					"weapons"
 					{
 						"weapon"		"weapon_sandstorm_mk18"
+						"weapon"		"weapon_coldwar_krig6"
 						"weapon"		"weapon_sandstorm_l85a2"
 						"weapon"		"weapon_sandstorm_saiga_12"
 						"weapon"		"weapon_sandstorm_sig_mpx"
@@ -8125,6 +8483,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_coldwar_gallosa12"
 				"weapon"				"weapon_sandstorm_m249"
 				"weapon"				"weapon_vietnam_m60"
 				"weapon"				"weapon_sandstorm_m240"
@@ -8141,6 +8500,7 @@
 					"weapons"
 					{
 						"weapon"				"weapon_sandstorm_m870"
+						"weapon"				"weapon_coldwar_gallosa12"
 						"weapon"				"weapon_sandstorm_toz"
 					}
 				}
@@ -8188,6 +8548,7 @@
 					"weapons"
 					{
 						"weapon"				"weapon_sandstorm_m870"
+						"weapon"				"weapon_coldwar_gallosa12"
 						"weapon"				"weapon_sandstorm_m249"
 						"weapon"				"weapon_vietnam_m60"
 						"weapon"				"weapon_sandstorm_m240"
@@ -8272,6 +8633,7 @@
 			{
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_mk18"
+				"weapon"				"weapon_coldwar_krig6"
 				"weapon"				"weapon_vietnam_car15"
 				"weapon"				"weapon_sandstorm_saiga_12"
 				"weapon"				"weapon_sandstorm_sig_mpx"	
@@ -8309,6 +8671,16 @@
 						"weapon"				"weapon_sandstorm_sig_mpx"
 					}
 				}
+				
+				"standard_krig6"
+				{
+					"model"					"models/coldwar/upgrades/a_standard3_krig.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_coldwar_krig6"
+					}
+				}				
 			}
 		}
 		
@@ -8334,6 +8706,7 @@
 				"weapon"				"weapon_sandstorm_uzi"
 				"weapon"				"weapon_sandstorm_sterling"
 				"weapon"				"weapon_sandstorm_asval"
+				"weapon"				"weapon_workshop_m98b"
 
 				// insurgent
 				"weapon"				"weapon_sandstorm_akm"
@@ -8395,6 +8768,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_m870"
+				"weapon"				"weapon_coldwar_gallosa12"
 				"weapon"				"weapon_sandstorm_m24"
 				"weapon"				"weapon_vietnam_m40"
 			}

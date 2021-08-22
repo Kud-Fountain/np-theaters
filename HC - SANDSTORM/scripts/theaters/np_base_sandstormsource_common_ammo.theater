@@ -789,6 +789,85 @@
 				"20000"					"800"
 			}
 		}
+
+
+
+		"338"	// 147gr 833 m/s 3,304J
+		{
+			"import"				"default"
+			"SuppressionIncrement"			"90"
+			"brass_model"				"models/weapons/shells/762x51.mdl"
+			"Damage"
+			{
+				"10"					"550" //180
+				"20000"					"200" //120
+			}
+			"PenetrationPower"
+			{
+				"10"					"1100"
+				"20000"					"600"
+			}
+		}
+
+		"338_hp"
+		{
+			"import"				"338"
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"1.00"
+				"HITGROUP_CHEST"			"1.00"
+				"HITGROUP_STOMACH"			"1.00"
+				"HITGROUP_LEFTARM"			"2.00"
+				"HITGROUP_RIGHTARM"			"2.00"
+				"HITGROUP_LEFTLEG"			"3.00"
+				"HITGROUP_RIGHTLEG"			"3.00"
+			}
+			"PenetrationPower"
+			{
+				"10"					"600"
+				"12000"					"400"
+			}
+		}
+		
+		"338_ap"
+		{
+			"import"				"338"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"5.00"
+				"HITGROUP_CHEST"			"5.00"
+				"HITGROUP_STOMACH"			"5.00"
+				"HITGROUP_LEFTARM"			"1.00"
+				"HITGROUP_RIGHTARM"			"1.00"
+				"HITGROUP_LEFTLEG"			"1.00"
+				"HITGROUP_RIGHTLEG"			"1.00"
+			}
+			"PenetrationPower"
+			{
+				"10"					"1800"
+				"20000"					"1100"
+			}
+		}
+
+		
+		"338lapua"
+		{
+			"import"				"338"
+			"magsize"				"10"
+		}
+
+		"338lapua_hp"
+		{
+			"import"				"338_hp"
+			"magsize"				"10"
+		}	
+		
+		"338lapua_ap"
+		{
+			"import"				"338_ap"
+			"magsize"				"10"
+		}		
 		
 		"762x54"	// 181gr 786m/s  3,614J
 		{

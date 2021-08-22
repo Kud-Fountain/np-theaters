@@ -3097,7 +3097,7 @@
 		// ========================================
 		// ASSAULT RIFLES
 		// ========================================
-		
+	
 		"weapon_sandstorm_sig_mcx" // BUILT OFF M4A1
 		{
 			"import"					"ballistic_base"
@@ -3473,7 +3473,7 @@
 			"act_table"					"rifle_ak"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"weapon_cost"				"3"
+			"weapon_cost"				"2"
 			"class_restricted"			"1"
 			"barrel_length"				"22"
 			"draw_speed"				"1.65"
@@ -5040,7 +5040,7 @@
 			"act_table"					"rifle_ak"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			"weapon_cost"				"3"
+			"weapon_cost"				"2"
 			"class_restricted"			"1"
 			"barrel_length"				"22"
 			"draw_speed"				"1.65"
