@@ -799,8 +799,8 @@
 			"brass_model"				"models/weapons/shells/762x51.mdl"
 			"Damage"
 			{
-				"10"					"1300" //180
-				"20000"					"900" //120
+				"10"					"300" //180
+				"20000"					"200" //120
 			}
 			"PenetrationPower"
 			{
@@ -891,8 +891,8 @@
 			"Damage"
 			{
 				//"200"					"27"
-				"400"					"270" // 324 total possible 27
-				"800"					"170"
+				"400"					"50" // 324 total possible 27
+				"800"					"25"
 				"2000"					"14" // 162 (rounded up) 14
 				"7000"					"4" // 54 (rounded down) 4
 			}
@@ -923,7 +923,7 @@
 			"Damage"
 			{
 				//"200"					"32"
-				"400"					"320" // 324 total possible 32
+				"400"					"300" // 324 total possible 32
 				"800"					"250"
 				"2000"					"18" // 162 (rounded up) 18
 				"7000"					"6" // 54 (rounded down) 6
@@ -950,8 +950,8 @@
 			"brass_model"				"models/weapons/shells/12guage.mdl"
 			"Damage"
 			{
-				"800"					"1100" //288
-				"4500"					"900" //144
+				"800"					"900" //288
+				"4500"					"700" //144
 				"9000"					"40" //40
 			}
 			"PenetrationPower"
