@@ -3428,6 +3428,7 @@
 			"upgrade_cost"				"1"
 			"upgrade_slot"				"underbarrel"
 			"bolt_speed"				"1.8"
+			"class_restricted"			"1"
 			
 			"allowed_weapons"
 			{
@@ -3450,7 +3451,7 @@
 			"team_access"					"security, insurgent"
 			"print_name"					"#shotgun_improved_cylinder"
 			"print_desc"					"#shotgun_improved_cylinder_desc"			
-			"spread_frac"					"0.85"				
+			"spread_frac"					"0.85"
 
 			"excluded_upgrades"
 			{

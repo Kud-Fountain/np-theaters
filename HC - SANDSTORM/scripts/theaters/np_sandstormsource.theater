@@ -909,6 +909,82 @@
 			}
 		}
 		
+		"template_sandstorm_insurgent_juggernaut2"
+		{
+			"team"						"insurgent"
+			"print_name"				"#Squad_Sandstorm_JUG"
+			
+			"models"
+			{
+				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}	
+			
+			"buy_order"
+			{
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_workshop_m98b"
+				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_kukri"
+				"weapon"					"weapon_sandstorm_glock17"
+				"gear"						"srnx_BOT_juggernaut_armor"
+				"gear"						"srnx_BOT_ins_jugger_helmet_black"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"					"weapon_workshop_m98b"
+				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_kukri"
+				"weapon"					"weapon_sandstorm_glock17"
+				"gear"						"srnx_BOT_juggernaut_armor"
+				"gear"						"srnx_BOT_ins_jugger_helmet_black"
+			}
+		}
+		
+		"template_sandstorm_insurgent_juggernaut3"
+		{
+			"team"						"insurgent"
+			"print_name"				"#Squad_Sandstorm_JUG"
+			
+			"models"
+			{
+				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}	
+			
+			"buy_order"
+			{
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_sandstorm_saiga_12"
+				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_kukri"
+				"weapon"					"weapon_sandstorm_glock17"
+				"gear"						"srnx_BOT_juggernaut_armor"
+				"gear"						"srnx_BOT_ins_jugger_helmet_black"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"					"weapon_sandstorm_saiga_12"
+				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_kukri"
+				"weapon"					"weapon_sandstorm_glock17"
+				"gear"						"srnx_BOT_juggernaut_armor"
+				"gear"						"srnx_BOT_ins_jugger_helmet_black"
+			}
+		}
+		
 		
 		// 
 		// END PLACEHOLDER BOT CLASS TEMPLATES
