@@ -799,8 +799,8 @@
 			"brass_model"				"models/weapons/shells/762x51.mdl"
 			"Damage"
 			{
-				"10"					"550" //180
-				"20000"					"200" //120
+				"10"					"1300" //180
+				"20000"					"900" //120
 			}
 			"PenetrationPower"
 			{
@@ -890,9 +890,9 @@
 			"brass_sound"				"BOUNCE_SHOTSHELL"
 			"Damage"
 			{
-				"800"					"27" // 324 total possible
-				"2000"					"14" // 162 (rounded up)
-				"7000"					"4" // 54 (rounded down)
+				"800"					"27" // 324 total possible 27
+				"2000"					"14" // 162 (rounded up) 14
+				"7000"					"4" // 54 (rounded down) 4
 			}
 			"PenetrationPower"
 			{
@@ -901,13 +901,13 @@
 			}
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"1.00"
-				"HITGROUP_CHEST"			"0.60"
-				"HITGROUP_STOMACH"			"0.60"
-				"HITGROUP_LEFTARM"			"1.00"
-				"HITGROUP_RIGHTARM"			"1.00"
-				"HITGROUP_LEFTLEG"			"1.00"
-				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_HEAD"				"8.00"
+				"HITGROUP_CHEST"			"7.60"
+				"HITGROUP_STOMACH"			"7.60"
+				"HITGROUP_LEFTARM"			"8.00"
+				"HITGROUP_RIGHTARM"			"8.00"
+				"HITGROUP_LEFTLEG"			"8.00"
+				"HITGROUP_RIGHTLEG"			"8.00"
 			}
 		}
 		
@@ -920,9 +920,9 @@
 			"brass_sound"				"BOUNCE_SHOTSHELL"
 			"Damage"
 			{
-				"800"					"32" // 324 total possible
-				"2000"					"18" // 162 (rounded up)
-				"7000"					"6" // 54 (rounded down)
+				"800"					"32" // 324 total possible 32
+				"2000"					"18" // 162 (rounded up) 18
+				"7000"					"6" // 54 (rounded down) 6
 			}
 			"PenetrationPower"
 			{
@@ -931,13 +931,13 @@
 			}
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"				"1.00"
-				"HITGROUP_CHEST"			"0.60"
-				"HITGROUP_STOMACH"			"0.60"
-				"HITGROUP_LEFTARM"			"1.00"
-				"HITGROUP_RIGHTARM"			"1.00"
-				"HITGROUP_LEFTLEG"			"1.00"
-				"HITGROUP_RIGHTLEG"			"1.00"
+				"HITGROUP_HEAD"				"8.00"
+				"HITGROUP_CHEST"			"7.60"
+				"HITGROUP_STOMACH"			"7.60"
+				"HITGROUP_LEFTARM"			"8.00"
+				"HITGROUP_RIGHTARM"			"8.00"
+				"HITGROUP_LEFTLEG"			"8.00"
+				"HITGROUP_RIGHTLEG"			"8.00"
 			}
 		}		
 		
@@ -946,14 +946,24 @@
 			"brass_model"				"models/weapons/shells/12guage.mdl"
 			"Damage"
 			{
-				"800"					"288"
-				"4500"					"144"
-				"9000"					"40"
+				"800"					"288" //288
+				"4500"					"144" //144
+				"9000"					"40" //40
 			}
 			"PenetrationPower"
 			{
 				"100"					"650"
 				"8000"					"10"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"4.00"
+				"HITGROUP_CHEST"			"3.60"
+				"HITGROUP_STOMACH"			"3.60"
+				"HITGROUP_LEFTARM"			"4.00"
+				"HITGROUP_RIGHTARM"			"4.00"
+				"HITGROUP_LEFTLEG"			"4.00"
+				"HITGROUP_RIGHTLEG"			"4.00"
 			}
 		}
 

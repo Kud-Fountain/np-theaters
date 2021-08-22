@@ -144,7 +144,7 @@
 				"weapon"				"weapon_vietnam_m40"
 				"weapon"				"weapon_sandstorm_mosin"
 				"weapon"				"weapon_sandstorm_welrod"
-				"weapon"				"weapon_workshop_m98b"
+				//"weapon"				"weapon_workshop_m98b"
 			}
 			
 			"team_access"				"security, insurgent"
