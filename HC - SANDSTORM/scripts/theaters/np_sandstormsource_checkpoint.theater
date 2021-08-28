@@ -101,6 +101,7 @@
 				"#Cell_Echo"	// insurgent team #5
 				{
 					// role name						preset
+					"#Squad_Sandstorm_JUG"				"template_sandstorm_insurgent_juggernaut4"
 					"#Squad_Sandstorm_Commander"		"template_sandstorm_insurgent_commander"	// Commander
 					"#Squad_Sandstorm_Rifleman"			"template_sandstorm_insurgent_rifleman"		// Rifleman
 					"#Squad_Sandstorm_Rifleman"			"template_sandstorm_insurgent_rifleman"		// Rifleman
