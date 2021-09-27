@@ -1934,7 +1934,7 @@
 		// PISTOLS
 		// ========================================
 	
-		"weapon_sandstorm_manurhinmr73"
+		"weapon_sandstorm_manurhinmr73" // BUILT OFF MODEL 10
 		{
 			"import"					"pistol_base"
 			"weapon_class"				"pistol"
@@ -6690,17 +6690,17 @@
 			}
 			"sounds"
 			{
-				"shot_single"				"Weapon_sandstorm_MP5K.Single"
-				"shot_single_local"			"Weapon_sandstorm_MP5K.SingleLocal"
-				"shot_silent"				"Weapon_sandstorm_MP5K.SingleSilenced"
-				"shot_silent_local"			"Weapon_sandstorm_MP5K.SingleSilencedLocal"
-				"empty"						"Weapon_Sterling.Empty"
-				"clipin"					"Weapon_Sterling.Magin"
-				"clipout"					"weapon_Sterling.Magout"
-				"boltback"					"weapon_Sterling.Boltback"
-				"boltrelease"				"weapon_Sterling.Boltrelease"
-				"rofdown"					"weapon_Sterling.ROF"
-				"rofup"						"weapon_Sterling.ROF"
+				"shot_single"				"Weapon_sandstorm_uzi.Single"
+				"shot_single_local"			"Weapon_sandstorm_uzi.SingleLocal"
+				"shot_silent"				"Weapon_sandstorm_uzi.SingleSilenced"
+				"shot_silent_local"			"Weapon_sandstorm_uzi.SingleSilencedLocal"
+				"empty"					"Weapon_sandstorm_uzi.Empty"
+				"clipin"				"Weapon_sandstorm_uzi.Magin"
+				"clipout"				"Weapon_sandstorm_uzi.Magout"
+				"boltback"				"Weapon_sandstorm_uzi.Boltback"
+				"boltrelease"			"Weapon_sandstorm_uzi.Boltrelease"
+				"rofdown"				"Weapon_sandstorm_uzi.ROF"
+				"rofup"					"Weapon_sandstorm_uzi.ROF"				
 			}	
 			"particles"
 			{

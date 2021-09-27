@@ -35,9 +35,11 @@
 			
 			"allowed_weapons"
 			{
+				"weapon"				"weapon_codmw19_striker45"
 				"weapon"				"weapon_vietnam_xm16e1"
 				"weapon"				"weapon_vietnam_model605"
 				"weapon"				"weapon_sandstorm_m9"
+				"weapon"				"weapon_workshop_glock21"
 				"weapon"				"weapon_sandstorm_manurhinmr73"
 				"weapon"				"weapon_workshop_fiveseven"
 				"weapon"				"weapon_workshop_fiveseven_microh1"
@@ -65,6 +67,7 @@
 				"weapon"				"weapon_sandstorm_vhs2"
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_galil"
+				"weapon"				"weapon_vietnam_akmtactical"
 				"weapon"				"weapon_sandstorm_galil_sar"
 				"weapon"				"weapon_sandstorm_alphaak"
 				"weapon"				"weapon_sandstorm_akm"
@@ -84,6 +87,7 @@
 				"weapon"				"weapon_sandstorm_mp7"
 				"weapon"				"weapon_workshop_p90"
 				"weapon"				"weapon_sandstorm_mp5a5"
+				"weapon"				"weapon_codmwr_miniuzi"
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_aks74u"
 				"weapon"				"weapon_sandstorm_m249"
@@ -187,6 +191,7 @@
 			
 			"allowed_weapons"
 			{
+				"weapon"				"weapon_codmw19_striker45"
 				"weapon"				"weapon_sandstorm_m9"
 				"weapon"				"weapon_sandstorm_manurhinmr73"
 				"weapon"				"weapon_sandstorm_hipower"
@@ -212,6 +217,7 @@
 				"weapon"				"weapon_sandstorm_vhs2"
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_galil"
+				"weapon"				"weapon_vietnam_akmtactical"
 				"weapon"				"weapon_sandstorm_galil_sar"
 				"weapon"				"weapon_sandstorm_alphaak"
 				"weapon"				"weapon_sandstorm_akm"
@@ -230,6 +236,7 @@
 				"weapon"				"weapon_sandstorm_sks"
 				"weapon"				"weapon_sandstorm_mp7"
 				"weapon"				"weapon_sandstorm_mp5a5"
+				"weapon"				"weapon_codmwr_miniuzi"
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_aks74u"
 				"weapon"				"weapon_sandstorm_m249"
@@ -428,6 +435,32 @@
 		}
 		
 		// ========================================
+		// 45 ACP 25-ROUND MAGAZINE
+		// ========================================
+		
+		"ammo_sandstorm_hp_25rnd_45acp"
+		{
+			"import"				"base_ammo_hp"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_codmw19_striker45"
+			}
+			"ammo_type_override"			"45acp_hp"
+		}
+		
+		"ammo_sandstorm_ap_25rnd_45acp"
+		{
+			"import"				"base_ammo_ap"
+			"upgrade_cost"				"3"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_codmw19_striker45"
+			}
+			"ammo_type_override"			"45acp_ap"
+		}		
+		
+		// ========================================
 		// 762x25mm Tokarev AMMO UPGRADES
 		// ========================================
 		
@@ -605,6 +638,33 @@
 			}
 			"ammo_type_override"			"556_ap_famas"
 		}
+		
+		// ========================================
+		// GLOCK 21 AMMO UPGRADES
+		// ========================================
+		
+		"ammo_sandstorm_hp_glock21"
+		{
+			"import"					"base_ammo_hp"
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_workshop_glock21"
+			}
+			"ammo_type_override"		"45glock_hp"
+		}
+		
+		"ammo_sandstorm_ap_glock21"
+		{
+
+			"import"					"base_ammo_ap"
+			"upgrade_cost"				"2"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_workshop_glock21"
+			}
+			"ammo_type_override"		"45glock_ap"
+		}		
 
 		// ========================================
 		// 300 BLACKOUT AMMO UPGRADES
@@ -671,6 +731,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_galil"
+				"weapon"				"weapon_vietnam_akmtactical"
 				"weapon"				"weapon_sandstorm_galil_sar"
 			}
 			"ammo_type_override"			"556_hp_35box"
@@ -683,6 +744,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_galil"
+				"weapon"				"weapon_vietnam_akmtactical"
 				"weapon"				"weapon_sandstorm_galil_sar"
 			}
 			"ammo_type_override"			"556_ap_35box"
@@ -953,6 +1015,7 @@
 				"weapon"				"weapon_sandstorm_sig_mpx"
 				"weapon"				"weapon_sandstorm_sterling"
 				"weapon"				"weapon_sandstorm_mp5a5"
+				"weapon"				"weapon_codmwr_miniuzi"
 				"weapon"				"weapon_sandstorm_mp5a2"
 			}
 			"ammo_type_override"			"9x19mm_hp_smg"
@@ -967,6 +1030,7 @@
 				"weapon"				"weapon_sandstorm_sig_mpx"
 				"weapon"				"weapon_sandstorm_sterling"
 				"weapon"				"weapon_sandstorm_mp5a5"
+				"weapon"				"weapon_codmwr_miniuzi"
 				"weapon"				"weapon_sandstorm_mp5a2"
 			}
 			"ammo_type_override"			"9x19mm_ap_smg"
@@ -1143,6 +1207,24 @@
 			
 			"weapon_mods"
 			{		
+
+				"weapon_codmw19_striker45"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}	
 			
 				"weapon_sandstorm_manurhinmr73"
 				{			
@@ -1179,6 +1261,24 @@
 						"freeaim_frac_ads"				"1.0"
 					}				
 				}
+				
+				"weapon_workshop_glock21"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}				
 
 				"weapon_workshop_fiveseven"
 				{			
@@ -1683,6 +1783,24 @@
 						"freeaim_frac_ads"				"1.0"
 					}				
 				}
+				
+				"weapon_vietnam_akmtactical"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}				
 
 				"weapon_sandstorm_galil_sar"
 				{			
@@ -2025,6 +2143,24 @@
 						"freeaim_frac_ads"				"1.0"
 					}				
 				}
+				
+				"weapon_codmwr_miniuzi"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}				
 
 				"weapon_sandstorm_mp5a2"
 				{			
@@ -2408,9 +2544,11 @@
 			
 			"allowed_weapons"
 			{
+				"weapon"				"weapon_codmw19_striker45"
 				"weapon"				"weapon_vietnam_xm16e1"
 				"weapon"				"weapon_vietnam_model605"
 				"weapon"				"weapon_sandstorm_m9"
+				"weapon"				"weapon_workshop_glock21"
 				"weapon"				"weapon_sandstorm_manurhinmr73"
 				"weapon"				"weapon_workshop_fiveseven"
 				"weapon"				"weapon_workshop_fiveseven_microh1"
@@ -2438,6 +2576,7 @@
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_galil"
+				"weapon"				"weapon_vietnam_akmtactical"
 				"weapon"				"weapon_sandstorm_galil_sar"
 				"weapon"				"weapon_sandstorm_alphaak"
 				"weapon"				"weapon_sandstorm_akm"
@@ -2457,6 +2596,7 @@
 				"weapon"				"weapon_sandstorm_mp7"
 				"weapon"				"weapon_workshop_p90"
 				"weapon"				"weapon_sandstorm_mp5a5"
+				"weapon"				"weapon_codmwr_miniuzi"
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_aks74u"
 				"weapon"				"weapon_sandstorm_m249"
@@ -2570,6 +2710,18 @@
 						"fov_wpn_focus"				"79"
 					}			
 				}
+				
+				"weapon_workshop_glock21"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-10"
+						"fov_wpn_default"			"95"
+						"fov_wpn_ironsight"			"100"
+						"fov_wpn_focus"				"79"
+					}			
+				}				
 				
 				"weapon_workshop_fiveseven"
 				{			
@@ -2968,6 +3120,18 @@
 						"fov_plr_focus"				"-12"
 					}			
 				}	
+				
+				"weapon_vietnam_akmtactical"
+				{			
+					"fov"
+					{
+						"fov_wpn_default"			"95"
+						"fov_wpn_ironsight"			"68"
+						"fov_wpn_focus"				"73"
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+					}			
+				}					
 
 				"weapon_sandstorm_galil_sar"
 				{			
@@ -3239,6 +3403,30 @@
 						"fov_wpn_focus"				"85"
 					}			
 				}	
+				
+				"weapon_codmw19_striker45"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"80"
+						"fov_wpn_focus"				"85"
+					}			
+				}				
+				
+				"weapon_codmwr_miniuzi"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"80"
+						"fov_wpn_focus"				"85"
+					}			
+				}				
 
 				"weapon_sandstorm_mp5a2"
 				{			
@@ -3404,10 +3592,12 @@
 			
 			"allowed_weapons"
 			{
+				"weapon"				"weapon_codmw19_striker45"
 				"weapon"				"weapon_vietnam_xm16e1"
 				"weapon"				"weapon_vietnam_model605"
 				"weapon"				"weapon_sandstorm_welrod"
 				"weapon"				"weapon_sandstorm_m9"
+				"weapon"				"weapon_workshop_glock21"
 				"weapon"				"weapon_sandstorm_manurhinmr73"
 				"weapon"				"weapon_workshop_fiveseven"
 				"weapon"				"weapon_workshop_fiveseven_microh1"
@@ -3439,6 +3629,7 @@
 				"weapon"				"weapon_sandstorm_l85a2"
 				"weapon"				"weapon_sandstorm_g36k"
 				"weapon"				"weapon_sandstorm_galil"
+				"weapon"				"weapon_vietnam_akmtactical"
 				"weapon"				"weapon_sandstorm_galil_sar"
 				"weapon"				"weapon_sandstorm_alphaak"
 				"weapon"				"weapon_sandstorm_akm"
@@ -3461,6 +3652,7 @@
 				"weapon"				"weapon_sandstorm_mp7"
 				"weapon"				"weapon_workshop_p90"
 				"weapon"				"weapon_sandstorm_mp5a5"
+				"weapon"				"weapon_codmwr_miniuzi"
 				"weapon"				"weapon_sandstorm_mp5a2"
 				"weapon"				"weapon_sandstorm_aks74u"
 				"weapon"				"weapon_sandstorm_saiga_12"
@@ -3545,7 +3737,7 @@
 			"team_access"					"security, insurgent"
 			"print_name"					"#shotgun_improved_cylinder"
 			"print_desc"					"#shotgun_improved_cylinder_desc"			
-			"spread_frac"					"0.85"
+			"spread_frac"					"0.85"				
 
 			"excluded_upgrades"
 			{

@@ -140,7 +140,7 @@
 				"HITGROUP_RIGHTLEG"			"1.00"
 			}
 			
-			"player_model_override"		"models/characters/insurgent_standard.mdl"
+			"player_model_override"		"models/characters/dismembered/insurgent_standard.mdl"
 			"viewmodel_hands_override"	"models/weapons/v_hands_ins_l.mdl"
 			
 			"team_access"				"insurgent"
@@ -189,7 +189,7 @@
 				"HITGROUP_RIGHTLEG"			"1.00"
 			}
 			
-			"player_model_override"		"models/characters/insurgent_heavy.mdl"
+			"player_model_override"		"models/characters/dismembered/insurgent_heavy.mdl"
 			"viewmodel_hands_override"	"models/weapons/v_hands_ins_h.mdl"
 			
 			"team_access"				"insurgent"

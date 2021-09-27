@@ -1357,7 +1357,100 @@
 			"tracer_type"			"whiz_with_line"
 			"tracer_lowammo"		"6"
 		}		
+	
+		// ========================================
+		// GLOCK 21 - 13 ROUND MAGAZINE
+		// ========================================
 		
+		"45glock"
+		{
+			"import"				"default"
+			"magsize"				"13"
+			"SuppressionIncrement"			"30"
+			"carry"					"42"
+			"brass_model"				"models/weapons/shells/45apc.mdl"
+			"Damage"
+			{
+				"10"					"155"
+				"8000"					"122"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "2.0"
+				"HITGROUP_CHEST"      "1.8"
+				"HITGROUP_STOMACH"    "1.8"
+				"HITGROUP_LEFTARM"    "0.90"
+				"HITGROUP_RIGHTARM"   "0.90"
+				"HITGROUP_LEFTLEG"    "0.90"
+				"HITGROUP_RIGHTLEG"   "0.90"
+			}
+			"PenetrationPower"
+			{
+				"10"					"500"
+				"8000"					"375"
+			}
+
+		}
+		
+		"45glock_hp"
+		{
+			"import"				"default"
+			"magsize"				"13"
+			"SuppressionIncrement"			"40"
+			"carry"					"42"
+			"brass_model"				"models/weapons/shells/45apc.mdl"
+			"Damage"
+			{
+				"10"					"200"
+				"8000"					"180"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "2.2"
+				"HITGROUP_CHEST"      "1.6"
+				"HITGROUP_STOMACH"    "1.6"
+				"HITGROUP_LEFTARM"    "1.2"
+				"HITGROUP_RIGHTARM"   "1.2"
+				"HITGROUP_LEFTLEG"    "1.2"
+				"HITGROUP_RIGHTLEG"   "1.2"
+			}
+
+			"PenetrationPower"
+			{
+				"10"					"300"
+				"8000"					"225"
+			}
+		}
+		
+		"45glock_ap"
+		{
+			"import"				"default"
+			"magsize"				"13"
+			"SuppressionIncrement"			"50"
+			"carry"					"42"
+			"brass_model"				"models/weapons/shells/45apc.mdl"
+			"Damage"
+			{
+				"10"					"250"
+				"8000"					"200"
+			}
+			"PenetrationPower"
+			{
+				"10"					"900"
+				"8000"					"750"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "2.4"
+				"HITGROUP_CHEST"      "2.2"
+				"HITGROUP_STOMACH"    "2.2"
+				"HITGROUP_LEFTARM"    "0.9"
+				"HITGROUP_RIGHTARM"   "0.9"
+				"HITGROUP_LEFTLEG"    "0.9"
+				"HITGROUP_RIGHTLEG"   "0.9"
+			}
+		}					
+	
 		// ========================================
 		// AKM
 		// ========================================

@@ -36,7 +36,11 @@
 			"particles"         "particles/fxparticle.pcf"
 			"particles"         "particles/trails.pcf"
 
-			"localize"			"resource/sandstorm_source_chinese.txt"			
+			"localize"			"resource/sandstorm_source_chinese.txt"
+			
+			// dismemberment specific	
+			"sounds"			"scripts/dismemberment_sounds.txt"
+			"particles"  		"particles/blood_fx.pcf"
 		}
 	}
 	
