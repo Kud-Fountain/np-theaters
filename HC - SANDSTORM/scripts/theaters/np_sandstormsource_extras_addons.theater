@@ -110,6 +110,53 @@
 			"team_access"				"security"
 		}	
 		
+		"weapon_upgrade_sandstorm_operator_training_railcovers"
+		{
+			"print_name"				"#operator_training_railcovers"
+			"print_desc"				"#operator_training_railcovers_desc"
+			"upgrade_cost"				"3"
+			"upgrade_slot"				"aesthetic"
+			"draw_speed"				"1.5"
+			"holster_speed"				"1.5"
+			"draw_speed_next_weapon"	"1.5"
+			"holster_speed_prev_weapon"	"1.5"
+			"reload_speed"				"1.4"			
+			
+			"recoil"
+			{
+				"recoil_lateral_frac"			"0.70"
+				"recoil_vertical_frac"			"0.70"
+			}
+			
+			"sway"
+			{
+				"sway_radius_frac"			"0.75"
+				"sway_speed"				"1.20"
+			}			
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m16a4"
+			}
+			
+			"viewmodel_attachments"
+			{
+			
+				"m16a4_railcovers_view"
+				{
+					"model"				"models/sndstrm/upgrades/a_stanrail_m16a4.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_m16a4"
+					}
+				}
+				
+			}				
+			
+			"team_access"				"security"
+		}		
+		
 		// ========================================
 		// INSURGENT TRAINING
 		// ========================================
@@ -209,7 +256,54 @@
 			"team_access"				"insurgent"
 		}			
 		
-	
+		"weapon_upgrade_sandstorm_elite_insurgent_railcovers"
+		{
+			"print_name"				"#insurgent_training_railcovers"
+			"print_desc"				"#insurgent_training_railcovers_desc"
+			"upgrade_cost"				"3"
+			"upgrade_slot"				"aesthetic"
+			"draw_speed"				"1.5"
+			"holster_speed"				"1.5"
+			"draw_speed_next_weapon"	"1.5"
+			"holster_speed_prev_weapon"	"1.5"
+			"reload_speed"				"1.4"			
+			
+			"recoil"
+			{
+				"recoil_lateral_frac"			"0.70"
+				"recoil_vertical_frac"			"0.70"
+			}
+			
+			"sway"
+			{
+				"sway_radius_frac"			"0.75"
+				"sway_speed"				"1.20"
+			}			
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m16a4"
+			}
+			
+			"viewmodel_attachments"
+			{
+			
+				"m16a4_railcovers_view"
+				{
+					"model"				"models/sndstrm/upgrades/a_stanrail_m16a4.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_m16a4"
+					}
+				}
+				
+			}				
+			
+			"team_access"				"insurgent"
+		}	
+
+		
 		// ========================================
 		// AMMO UPGRADES
 		// ========================================

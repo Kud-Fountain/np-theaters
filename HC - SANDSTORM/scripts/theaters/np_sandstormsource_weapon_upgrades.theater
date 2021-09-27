@@ -1197,6 +1197,62 @@
 	
 		}
 
+
+		// ========================================
+		// SPEED RELOAD WITH RAIL COVERS
+		// ========================================
+	
+
+		"weapon_upgrade_sandstorm_speed_reload_railcovers"
+		{
+        	"upgrade_slot"				"aesthetic"
+			"print_name"				"#weapon_upgrade_speed_reload_railcovers"
+			"print_desc"				"#weapon_upgrade_speed_reload_railcovers_desc"
+			"class_restricted"			"0"
+			"upgrade_cost"				"2"
+			"team_access"				"security, insurgent"
+			
+			"reload_speed"				"1.5"		
+						
+			"weapon_mods"
+			{		
+
+				"weapon_sandstorm_m16a4"
+				{
+					"ammo_clip"
+					{
+						"ammo_type"				"556_stanag"
+						"clip_max"				"12"
+						"clip_max_rounds"		"30"
+						"clip_default"			"3"
+						"lose_rounds_reload"	"1"
+					}
+				}
+				
+			}
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m16a4"
+			}
+
+			"viewmodel_attachments"
+			{
+			
+				"m16a4_railcovers_view"
+				{
+					"model"				"models/sndstrm/upgrades/a_stanrail_m16a4.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_m16a4"
+					}
+				}
+				
+			}		
+	
+		}
+
 	
 		// ========================================
 		// MAGAZINE/AMMO CAPACITY UPGRADES
