@@ -1689,9 +1689,9 @@
 			{
 				"weapon"				"weapon_sandstorm_uzi"
 				"weapon"				"weapon_codmw19_striker45"
-				"weapon"				"weapon_codmwr_miniuzi"
+				//"weapon"				"weapon_codmwr_miniuzi"
 			}
-		}			
+		}
 		
 		"magazine_sandstorm_extended_rifle_35rd"
 		{
@@ -1775,8 +1775,26 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_sterling"
+				"weapon"				"weapon_codmwr_miniuzi"
 			}
-		}				
+		}
+
+		"magazine_sandstorm_extended_miniuzi_50rd"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"1"
+			"team_access"				"security, insurgent"
+
+			"print_name"				"#weapon_upgrade_magazine_extended"
+			"print_desc"				"#weapon_upgrade_magazine_50rd_desc"
+
+			"magsize_override"			"50"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_codmwr_miniuzi"
+			}
+		}
 		
 	
 		"magazine_sandstorm_drum_75rd"
@@ -2035,7 +2053,7 @@
 
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_workshop_glock21"
+				//"weapon"				"weapon_workshop_glock21"
 			}
 			"viewmodel_attachments"
 			{
@@ -2270,7 +2288,7 @@
 		"siderail_flashlight_workshop_glock21"
 		{
 			"import"					"base_flashlight_pistol"
-			"upgrade_cost"				"1"
+			"upgrade_cost"				"0"
 			"team_access"				"security, insurgent"
 
 			"allowed_weapons"
@@ -2304,7 +2322,7 @@
 
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_workshop_glock21"
+				//"weapon"				"weapon_workshop_glock21"
 			}
 			"viewmodel_attachments"
 			{					
@@ -2316,7 +2334,7 @@
 
 					"weapons"
 					{
-						"weapon"			"weapon_workshop_glock21"
+						//"weapon"			"weapon_workshop_glock21"
 					}
 				}	
 				
@@ -9186,7 +9204,7 @@
 		"siderail_lasersight_workshop_glock21"
 		{
 			"import"					"base_lasersight_pistol"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"0"
 			
 			"allowed_weapons"
 			{			
@@ -9218,7 +9236,7 @@
 			
 			"allowed_weapons"
 			{			
-				"weapon"				"weapon_workshop_glock21"
+				//"weapon"				"weapon_workshop_glock21"
 			}
 			"viewmodel_attachments"
 			{	
