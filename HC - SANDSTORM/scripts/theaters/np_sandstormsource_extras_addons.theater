@@ -441,7 +441,7 @@
 		"ammo_sandstorm_hp_25rnd_45acp"
 		{
 			"import"				"base_ammo_hp"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_codmw19_striker45"
@@ -452,7 +452,7 @@
 		"ammo_sandstorm_ap_25rnd_45acp"
 		{
 			"import"				"base_ammo_ap"
-			"upgrade_cost"				"3"
+			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_codmw19_striker45"

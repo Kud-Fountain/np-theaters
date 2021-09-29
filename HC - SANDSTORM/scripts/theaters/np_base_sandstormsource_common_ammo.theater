@@ -1371,8 +1371,8 @@
 			"brass_model"				"models/weapons/shells/45apc.mdl"
 			"Damage"
 			{
-				"10"					"155"
-				"8000"					"122"
+				"10"					"60" //155
+				"8000"					"32" //122
 			}
 			"DamageHitgroups"
 			{
@@ -1401,8 +1401,8 @@
 			"brass_model"				"models/weapons/shells/45apc.mdl"
 			"Damage"
 			{
-				"10"					"200"
-				"8000"					"180"
+				"10"					"60"
+				"8000"					"32"
 			}
 			"DamageHitgroups"
 			{
@@ -1431,8 +1431,8 @@
 			"brass_model"				"models/weapons/shells/45apc.mdl"
 			"Damage"
 			{
-				"10"					"250"
-				"8000"					"200"
+				"10"					"60"
+				"8000"					"32"
 			}
 			"PenetrationPower"
 			{
@@ -1654,7 +1654,7 @@
 
 			"Damage"
 			{
-				"10"					"60"
+				"10"					"70"
 				"16000"					"32"
 			}
 		}
