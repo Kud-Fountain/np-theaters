@@ -429,7 +429,7 @@
 				{
 					"ammo_clip"
 					{
-						"ammo_type"				"57x28_20rndmagazine"
+						"ammo_type"				"45acp_pistol"
 						"clip_max"				"10"
 						"clip_max_rounds"		"20"
 						"clip_default"			"2"
@@ -441,7 +441,7 @@
 				{
 					"ammo_clip"
 					{
-						"ammo_type"				"57x28_20rndmagazine"
+						"ammo_type"				"45acp_pistol"
 						"clip_max"				"10"
 						"clip_max_rounds"		"20"
 						"clip_default"			"2"

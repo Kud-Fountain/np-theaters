@@ -5830,7 +5830,7 @@
 			"weapon_slot"				"primary"
 			"act_table"					"rifle_clip"
 			"weapon_abilities"			"ironsight"
-			"weapon_weight"				"120"
+			"weapon_weight"				"0"
 			"weapon_cost"				"2"
 			"barrel_length"				"38"
 			"closed_bolt"				"0"
