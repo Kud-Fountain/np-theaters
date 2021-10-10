@@ -1691,7 +1691,7 @@
 				"weapon"				"weapon_codmw19_striker45"
 				//"weapon"				"weapon_codmwr_miniuzi"
 			}
-		}
+		}			
 		
 		"magazine_sandstorm_extended_rifle_35rd"
 		{
@@ -1777,7 +1777,7 @@
 				"weapon"				"weapon_sandstorm_sterling"
 				//"weapon"				"weapon_codmwr_miniuzi"
 			}
-		}
+		}				
 
 		"magazine_sandstorm_extended_miniuzi_50rd"
 		{
@@ -1978,7 +1978,7 @@
 						"weapon"			"weapon_workshop_fiveseven"
 						"weapon"			"weapon_workshop_fiveseven_microh1"
 					}
-				}
+				}		
 				
 				"flashlight_hipower"
 				{
@@ -1989,7 +1989,7 @@
 					{
 						"weapon"			"weapon_sandstorm_hipower"
 					}
-				}				
+				}					
 				
 				"flashlight_sigp226"
 				{
@@ -2029,17 +2029,31 @@
 					"model"					"models/weapons/upgrades/a_flashlight_mak.mdl"
 					"Main"					"1"
 
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_makarov"
+						"weapon"			"weapon_sandstorm_glock17"
+					}
+				}
+				
+				"flashlight_m3x"
+				{
+					"model"					"models/sndstrm/upgrades/a_flashlight_m3x.mdl"
+					"Main"					"1"
+
 					"excluded_weapons"
 					{
 						"weapon"			"weapon_sandstorm_m9"
 						"weapon"			"weapon_workshop_fiveseven"
 						"weapon"			"weapon_workshop_fiveseven_microh1"
-						"weapon"			"weapon_sandstorm_hipower"
 						"weapon"			"weapon_sandstorm_sigp226"
 						"weapon"			"weapon_sandstorm_pf940"
 						"weapon"			"weapon_workshop_glock21"
+						"weapon"			"weapon_sandstorm_makarov"
+						"weapon"			"weapon_sandstorm_glock17"
+						"weapon"			"weapon_sandstorm_hipower"
 					}
-				}
+				}				
 			}
 		}
 
@@ -2071,7 +2085,6 @@
 
 			}
 		}
-
 		
 		"siderail_laserflashlight_rail"
 		{
@@ -2284,62 +2297,9 @@
 				
 			}
 		}
-	
-		"siderail_flashlight_workshop_glock21"
-		{
-			"import"					"base_flashlight_pistol"
-			"upgrade_cost"				"0"
-			"team_access"				"security, insurgent"
 
-			"allowed_weapons"
-			{
-				"weapon"				"weapon_workshop_glock21"
-			}
-			"viewmodel_attachments"
-			{					
-				
-				"flashlight_glock21"
-				{
-					"model"					"models/workshp/upgrades/a_flashlight_gb.mdl"
-					"Main"					"1"
-
-					"weapons"
-					{
-						"weapon"			"weapon_workshop_glock21"
-					}
-				}	
-				
-			}
-		}	
 		
 		
-		"siderail_flashlight_workshop_glock21od"
-		{
-			"import"					"base_flashlight_pistol"
-			"upgrade_cost"				"1"
-			"team_access"				"security, insurgent"
-			"print_name"				"#glock21_od_flashlight"
-
-			"allowed_weapons"
-			{
-				//"weapon"				"weapon_workshop_glock21"
-			}
-			"viewmodel_attachments"
-			{					
-				
-				"flashlight_glock21_olivedrab"
-				{
-					"model"					"models/workshp/upgrades/a_flashlight_21.mdl"
-					"Main"					"1"
-
-					"weapons"
-					{
-						//"weapon"			"weapon_workshop_glock21"
-					}
-				}	
-				
-			}
-		}	
 
 	
 		"siderail_flashlight_band"
@@ -2501,7 +2461,7 @@
 						"weapon"			"weapon_workshop_fiveseven"
 						"weapon"			"weapon_workshop_fiveseven_microh1"
 					}
-				}
+				}		
 				
 				"flashlight_hipower"
 				{
@@ -2512,7 +2472,7 @@
 					{
 						"weapon"			"weapon_sandstorm_hipower"
 					}
-				}				
+				}					
 				
 				"flashlight_sigp226"
 				{
@@ -2534,6 +2494,17 @@
 					{
 						"weapon"			"weapon_sandstorm_pf940"
 					}
+				}		
+
+				"flashlight_glock21"
+				{
+					"model"					"models/workshp/upgrades/a_flashlight_gb.mdl"
+					"Main"					"1"
+
+					"weapons"
+					{
+						"weapon"			"weapon_workshop_glock21"
+					}
 				}				
 
 				"flashlight_mak"
@@ -2541,18 +2512,89 @@
 					"model"					"models/weapons/upgrades/a_flashlight_mak.mdl"
 					"Main"					"1"
 
+					"weapons"
+					{
+						"weapon"			"weapon_sandstorm_makarov"
+						"weapon"			"weapon_sandstorm_glock17"
+					}
+				}
+				
+				"flashlight_m3x"
+				{
+					"model"					"models/sndstrm/upgrades/a_flashlight_m3x.mdl"
+					"Main"					"1"
+
 					"excluded_weapons"
 					{
 						"weapon"			"weapon_sandstorm_m9"
 						"weapon"			"weapon_workshop_fiveseven"
 						"weapon"			"weapon_workshop_fiveseven_microh1"
-						"weapon"			"weapon_sandstorm_hipower"
 						"weapon"			"weapon_sandstorm_sigp226"
 						"weapon"			"weapon_sandstorm_pf940"
+						"weapon"			"weapon_workshop_glock21"
+						"weapon"			"weapon_sandstorm_makarov"
+						"weapon"			"weapon_sandstorm_glock17"
+						"weapon"			"weapon_sandstorm_hipower"
 					}
-				}
+				}				
 			}
 		}
+	
+		"siderail_flashlight_workshop_glock21"
+		{
+			"import"					"base_flashlight_pistol"
+			"upgrade_cost"				"0"
+			"team_access"				"security, insurgent"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_workshop_glock21"
+			}
+			"viewmodel_attachments"
+			{					
+				
+				"flashlight_glock21"
+				{
+					"model"					"models/workshp/upgrades/a_flashlight_gb.mdl"
+					"Main"					"1"
+
+					"weapons"
+					{
+						"weapon"			"weapon_workshop_glock21"
+					}
+				}	
+				
+			}
+		}		
+		
+		"siderail_flashlight_workshop_glock21od"
+		{
+			"import"					"base_flashlight_pistol"
+			"upgrade_cost"				"0"
+			"team_access"				"security, insurgent"
+			"print_name"				"#glock21_od_flashlight"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_workshop_glock21"
+			}
+			"viewmodel_attachments"
+			{					
+				
+				"flashlight_glock21_olivedrab"
+				{
+					"model"					"models/workshp/upgrades/a_flashlight_21.mdl"
+					"Main"					"1"
+
+					"weapons"
+					{
+						"weapon"			"weapon_workshop_glock21"
+					}
+				}	
+				
+			}
+		}	
+		
 		
 		// ========================================
 		// OPTIC ATTACHMENTS
