@@ -90,6 +90,8 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_vietnam_thompson"
+				"weapon"					"weapon_sandstorm_hk417a2"
 				"weapon"					"weapon_vietnam_akmtactical"
 				"weapon"					"weapon_sandstorm_l85a2"
 				"weapon"					"weapon_sandstorm_l1a1"
@@ -97,6 +99,7 @@
 				"weapon"					"weapon_sandstorm_fal"
 				"weapon"					"weapon_sandstorm_g3a3"
 				"weapon"					"weapon_sandstorm_mk17"
+				"weapon"					"weapon_vietnam_swm1917"
 				"weapon"					"weapon_workshop_glock21"
 				"weapon"					"weapon_sandstorm_m1911"
 				"weapon"					"weapon_vietnam_tt33"
@@ -138,6 +141,8 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_vietnam_thompson"
+				"weapon"					"weapon_sandstorm_hk417a2"
 				"weapon"					"weapon_vietnam_akmtactical"
 				"weapon"					"weapon_sandstorm_l1a1"
 				"weapon"					"weapon_sandstorm_l85a2"
@@ -146,6 +151,7 @@
 				"weapon"					"weapon_sandstorm_g3a3"
 				"weapon"					"weapon_sandstorm_mk17"
 				"weapon"					"weapon_sandstorm_m1911"
+				"weapon"					"weapon_vietnam_swm1917"
 				"weapon"					"weapon_workshop_glock21"
 				"weapon"					"weapon_vietnam_tt33"
 				"weapon"					"weapon_sandstorm_m67"
@@ -185,6 +191,9 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_vietnam_m2carbine"
+				"weapon"					"weapon_sandstorm_qbz03"
+				"weapon"					"weapon_sandstorm_steyrauga3"
 				"weapon"					"weapon_vietnam_xm16e1"
 				"weapon"					"weapon_sandstorm_sig_mcx"
 				"weapon"					"weapon_vietnam_car15"
@@ -228,6 +237,9 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_vietnam_m2carbine"
+				"weapon"					"weapon_vietnam_ithacam37"
+				"weapon"					"weapon_sandstorm_mk18"
 				"weapon"					"weapon_codmw19_striker45"
 				"weapon"					"weapon_vietnam_model605"
 				"weapon"					"weapon_workshop_fiveseven"
@@ -276,6 +288,11 @@
 			"allowed_items"
 			{
 				"weapon"					"weapon_defib"
+				
+				"weapon"					"weapon_sandstorm_vector"
+				"weapon"					"weapon_vietnam_m2carbine"
+				"weapon"					"weapon_vietnam_thompson"
+				"weapon"					"weapon_sandstorm_aks74u"
 				"weapon"					"weapon_codmw19_striker45"
 				"weapon"					"weapon_codmwr_miniuzi"
 				"weapon"					"weapon_coldwar_gallosa12"
@@ -330,6 +347,8 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_sandstorm_m110a1"
+				"weapon"					"weapon_sandstorm_m82a1"
 				"weapon"					"weapon_workshop_fiveseven"
 				"weapon"					"weapon_workshop_fiveseven_microh1"
 				"weapon"					"weapon_vietnam_m40"
@@ -375,6 +394,7 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_vietnam_swm1917"
 				"weapon"					"weapon_vietnam_m60"
 				"weapon"					"weapon_sandstorm_galil"
 				"weapon"					"weapon_sandstorm_m240"
@@ -413,6 +433,11 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_vietnam_m2carbine"
+				"weapon"					"weapon_vietnam_ithacam37"
+				"weapon"					"weapon_vietnam_thompson"
+				"weapon"					"weapon_vietnam_swm1917"
+				"weapon"					"weapon_vietnam_mp40"
 				"weapon"					"weapon_coldwar_gallosa12"
 				"weapon"					"weapon_workshop_p90"
 				"weapon"					"weapon_sandstorm_saiga_12"
@@ -438,6 +463,7 @@
 				{
 					"weapon_coldwar_gallosa12"			"1"
 					"weapon_sandstorm_saiga_12"			"1"
+					"weapon_vietnam_ithacam37"			"1"
 				}
 			}
 		}
@@ -471,6 +497,10 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_vietnam_m2carbine"
+				"weapon"					"weapon_vietnam_ithacam37"
+				"weapon"					"weapon_vietnam_swm1917"
+				"weapon"					"weapon_vietnam_mp40"
 				"weapon"					"weapon_coldwar_gallosa12"
 				"weapon"					"weapon_sandstorm_saiga_12"
 				"weapon"					"weapon_sandstorm_ace52"
@@ -493,6 +523,7 @@
 				{
 					"weapon_coldwar_gallosa12"			"1"
 					"weapon_sandstorm_saiga_12"			"1"
+					"weapon_vietnam_ithacam37"			"1"
 				}
 			}
 		}

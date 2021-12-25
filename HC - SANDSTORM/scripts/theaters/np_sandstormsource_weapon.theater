@@ -2045,12 +2045,12 @@
 			"weapon_cost"				"0"
 			"class_restricted"			"1"
 			"barrel_length"				"16"
-			"draw_speed"				"1.65"
-			"holster_speed"				"1.65"
+			"draw_speed"				"1.75"
+			"holster_speed"				"1.75"
 			//"draw_speed_next_weapon"	"1.65"
 			//"holster_speed_prev_weapon"	"1.65"
-			"reload_speed"				"1.65"
-			//"bolt_speed"				"1.65"
+			"reload_speed"				"1.75"
+			"bolt_speed"				"1.75"
 			
 			"fov"
 			{
@@ -5722,6 +5722,233 @@
 		// SEMI-AUTOMATIC RIFLES AND CARBINES
 		// ========================================
 
+		"weapon_sandstorm_m110a1" // BUILT OFF L1A1
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"rifle_automatic_fire"
+			"print_name"				"#weapon_sandstorm_m110a1"
+			"print_desc"				"#weapon_sandstorm_m110a1_desc"
+			"view_model"				"models/sndstrm/v_m110.mdl"
+			"world_model"				"models/sndstrm/w_m110.mdl"
+			"rounds_per_minute"			"620"
+			"weapon_slot"				"primary"
+			"act_table"					"rifle_fal"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"0"	// (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
+			"weapon_cost"				"3"
+			"barrel_length"				"28"
+			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
+			
+			"viewmodel_attachments"
+			{
+				"optics"
+				{
+					"model"					"models/sndstrm/upgrades/a_standard_m110.mdl"
+					"fallback_for_slot"		"optics"
+				}
+				"magazine"
+				{
+					"model"					"models/sndstrm/upgrades/a_magazine_m110_20.mdl"
+					"fallback_for_slot"		"magazine"
+				}
+			}
+			
+			"fov"
+			{
+				"priority"				"0"
+				"fov_wpn_default"			"55"
+				"fov_wpn_ironsight"			"59"
+				"fov_wpn_focus"				"68"
+				"fov_plr_ironsight"			"-25"
+				"fov_plr_focus"				"-12"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_sandstorm_M110.Single"
+				"shot_single_local"			"Weapon_sandstorm_M110.SingleLocal"
+				"shot_silent"				"Weapon_sandstorm_M110.SingleSilenced"
+				"shot_silent_local"			"Weapon_sandstorm_M110.SingleSilencedLocal"
+				"empty"						"Weapon_FnFAL.Empty"
+				"clipin"					"Weapon_FnFAL.Magin"
+				"clipout"					"Weapon_FnFAL.Magout"
+				"boltback"					"Weapon_FnFAL.Boltback"
+				"boltrelease"				"Weapon_FnFAL.Boltrelease"
+				"rofdown"					"Weapon_FnFAL.ROF"
+				"rofup"						"Weapon_FnFAL.ROF"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_fal_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_fal_3rd"
+				"particle_tracer"				"weapon_tracers"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-0.5 0.8"
+				"recoil_vertical_range"			"3.225 3.6"
+				"recoil_aim_punch"				"0.5 0.8"
+				"recoil_rest_rate"				"7"
+				"recoil_rest_delay"				"0.12"
+				"recoil_roll_range"				"-1.8 -1.8"
+				"recoil_roll_rest_rate"			"200"
+				"recoil_freeaim_frac"			"0.5"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"				"7"		// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.88"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
+				"RecoilBipodFracByWeight"
+				{
+					"0"					"0.36"
+				}
+			}
+			"ballistics"
+			{
+				"spread"					"0.16 0.16 0.16"
+				"FireModes"					"semi"
+				"bulletcount"				"1"
+				"maxrange"					"10000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"					"762x51_box_20rnd"
+				"clip_max"					"12"
+				"clip_max_rounds"			"20"
+				"clip_default"				"3"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"primary2"
+			}
+			"kitui_offset"
+			{
+				"position"				"23 -3 1"
+			}
+			"team_access"				"security, insurgent"
+		}
+
+		"weapon_sandstorm_hk417a2" // BUILT OFF FAL 
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"rifle_automatic_fire"
+			"print_name"				"#weapon_sandstorm_hk417a2"
+			"print_desc"				"#weapon_sandstorm_hk417a2_desc"
+			"view_model"				"models/sndstrm/v_417.mdl"
+			"world_model"				"models/sndstrm/w_417.mdl"
+			"rounds_per_minute"			"700"
+			"weapon_slot"				"primary"
+			"act_table"					"rifle_fal"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"0"	// (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
+			"weapon_cost"				"3"
+			"barrel_length"				"28"
+			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
+			
+			"viewmodel_attachments"
+			{
+				"optics"
+				{
+					"model"					"models/sndstrm/upgrades/a_standard_417.mdl"
+					"fallback_for_slot"		"optics"
+				}
+				"magazine"
+				{
+					"model"					"models/sndstrm/upgrades/a_magazine_417_20.mdl"
+					"fallback_for_slot"		"magazine"
+				}
+			}
+			
+			"fov"
+			{
+				"priority"				"0"
+				"fov_wpn_default"			"55"
+				"fov_wpn_ironsight"			"59"
+				"fov_wpn_focus"				"68"
+				"fov_plr_ironsight"			"-25"
+				"fov_plr_focus"				"-12"
+			}
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_sandstorm_M110.Single"
+				"shot_single_local"			"Weapon_sandstorm_M110.SingleLocal"
+				"shot_silent"				"Weapon_sandstorm_M110.SingleSilenced"
+				"shot_silent_local"			"Weapon_sandstorm_M110.SingleSilencedLocal"
+				"empty"						"Weapon_FnFAL.Empty"
+				"clipin"					"Weapon_FnFAL.Magin"
+				"clipout"					"Weapon_FnFAL.Magout"
+				"boltback"					"Weapon_FnFAL.Boltback"
+				"boltrelease"				"Weapon_FnFAL.Boltrelease"
+				"rofdown"					"Weapon_FnFAL.ROF"
+				"rofup"						"Weapon_FnFAL.ROF"
+				
+				"thirdperson_prefix"		"Weapon_FnFAL"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_fal_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_fal_3rd"
+				"particle_tracer"				"weapon_tracers"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-0.5 0.8"
+				"recoil_vertical_range"			"3.225 3.6"
+				"recoil_aim_punch"				"0.5 0.8"
+				"recoil_rest_rate"				"7"
+				"recoil_rest_delay"				"0.12"
+				"recoil_roll_range"				"-1.8 -1.8"
+				"recoil_roll_rest_rate"			"200"
+				"recoil_freeaim_frac"			"0.5"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"				"7"		// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.88"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
+				"RecoilBipodFracByWeight"
+				{
+					"0"					"0.36"
+				}
+			}
+			"ballistics"
+			{
+				"spread"					"0.16 0.16 0.16"
+				"FireModes"					"semi"
+				"bulletcount"				"1"
+				"maxrange"					"10000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"					"762x51_box_20rnd"
+				"clip_max"					"12"
+				"clip_max_rounds"			"20"
+				"clip_default"				"3"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"primary2"
+			}
+			"kitui_offset"
+			{
+				"position"				"23 -3 1"
+			}
+			"team_access"				"security, insurgent"
+		}
+
 		"weapon_sandstorm_m110" // BUILT OFF M14
 		{
 			"import"					"ballistic_base"
@@ -5743,7 +5970,7 @@
 			//"draw_speed_next_weapon"	"1.65"
 			//"holster_speed_prev_weapon"	"1.65"
 			"reload_speed"				"1.65"
-			//"bolt_speed"				"1.65
+			//"bolt_speed"				"1.65"
 			
 			"fov"
 			{
@@ -5756,10 +5983,10 @@
 			
 			"sounds"
 			{
-				"shot_single"				"Weapon_sandstorm_M14.Single"
-				"shot_single_local"			"Weapon_sandstorm_M14.SingleLocal"
-				"shot_silent"				"Weapon_sandstorm_M14.SingleSilenced"
-				"shot_silent_local"			"Weapon_sandstorm_M14.SingleSilencedLocal"
+				"shot_single"				"Weapon_sandstorm_M110.Single"
+				"shot_single_local"			"Weapon_sandstorm_M110.SingleLocal"
+				"shot_silent"				"Weapon_sandstorm_M110.SingleSilenced"
+				"shot_silent_local"			"Weapon_sandstorm_M110.SingleSilencedLocal"
 				"empty"					"Weapon_M14.Empty"
 				"clipin"				"Weapon_M14.Magin"
 				"clipout"				"Weapon_M14.Magout"
@@ -6312,6 +6539,196 @@
 		// ========================================
 		// SUB-MACHINE GUNS
 		// ========================================
+
+		"weapon_sandstorm_vector" // BUILT OFF MP5K
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"smg"
+			"print_name"				"#weapon_sandstorm_vector"
+			"print_desc"				"#weapon_sandstorm_vector_desc"
+			"view_model"				"models/sndstrm/v_vectpdw.mdl" 
+			"world_model"				"models/sndstrm/w_vect.mdl" 
+			"rounds_per_minute"			"1200"
+			"weapon_slot"				"primary"
+			"act_table"					"pdw"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"0"	// (2.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
+			"weapon_cost"				"2"
+			"barrel_length"				"16"
+			"class_restricted"			"1"	
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-25"
+				"fov_plr_focus"				"-12"
+				"fov_wpn_default"			"62"
+				"fov_wpn_ironsight"			"80"
+				"fov_wpn_focus"				"85"
+			}
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_vector.Single"
+				"shot_single_local"			"Weapon_vector.SingleLocal"
+				"shot_silent"				"Weapon_vector.SingleSilenced"
+				"shot_silent_local"			"Weapon_vector.SingleSilencedLocal"
+				"empty"						"Weapon_MP5K.Empty"
+				"clipin"					"Weapon_MP5K.Magin"
+				"clipout"					"Weapon_MP5K.Magout"
+				"boltback"					"Weapon_MP5K.Boltback"
+				"boltrelease"				"Weapon_MP5K.Boltrelease"
+				"rofdown"					"Weapon_MP5K.ROF"
+				"rofup"						"Weapon_MP5K.ROF"
+				
+				"thirdperson_prefix"		"Weapon_MP5K"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_mp5_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_mp5_3rd"
+				"particle_tracer"			"weapon_tracers"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-0.55 0.85"
+				"recoil_vertical_range"			"1.725 1.95"
+				"recoil_aim_punch"			"0.3 0.5"
+				"recoil_rest_rate"			"5"
+				"recoil_rest_delay"			"0.14"
+				"recoil_roll_range"			"-1.25 -1.25"
+				"recoil_roll_rest_rate"			"150"
+				"recoil_freeaim_frac"			"0.25"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"		"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"			"5"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.82"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+			}
+			"ballistics"
+			{
+				"spread"				"0.25 0.25 0.25"
+				"FireModes"				"semi, burst, full"
+				"bulletcount"				"1"
+				"maxrange"				"8000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"					"45acp"
+				"clip_max"					"12"
+				"clip_max_rounds"			"25"
+				"clip_default"				"3"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"primary"
+			}
+			"kitui_offset"
+			{
+				"position"				"18 0 1"
+			}
+			"team_access"				"security, insurgent"
+		}
+
+		"weapon_sandstorm_p90" // BUILT OFF MP5K
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"smg"
+			"print_name"				"#weapon_sandstorm_p90"
+			"print_desc"				"#weapon_sandstorm_p90_desc"
+			"view_model"				"models/workshp/v_p_90pdw.mdl" // Uses previous expansion assets - does not require expansion
+			"world_model"				"models/workshp/w_p_90.mdl" // Uses previous expansion assets - does not require expansion
+			"rounds_per_minute"			"860"
+			"weapon_slot"				"primary"
+			"act_table"					"pdw"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"0"	// (2.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
+			"weapon_cost"				"2"
+			"barrel_length"				"16"
+			"class_restricted"			"1"	
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-25"
+				"fov_plr_focus"				"-12"
+				"fov_wpn_default"			"62"
+				"fov_wpn_ironsight"			"80"
+				"fov_wpn_focus"				"85"
+			}
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_p90.Single"
+				"shot_single_local"			"Weapon_p90.SingleLocal"
+				"shot_silent"				"Weapon_sandstorm_MP5K.SingleSilenced"
+				"shot_silent_local"			"Weapon_sandstorm_MP5K.SingleSilencedLocal"
+				"empty"						"Weapon_MP5K.Empty"
+				"clipin"					"Weapon_p90.Magin"
+				"clipout"					"Weapon_p90.Magout"
+				"boltback"					"Weapon_p90.Boltback"
+				"boltrelease"				"Weapon_p90.Boltrelease"
+				"rofdown"					"Weapon_MP5K.ROF"
+				"rofup"						"Weapon_MP5K.ROF"
+				
+				"thirdperson_prefix"		"Weapon_MP5K"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_mp5_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_mp5_3rd"
+				"particle_tracer"			"weapon_tracers"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-0.55 0.85"
+				"recoil_vertical_range"			"1.725 1.95"
+				"recoil_aim_punch"			"0.3 0.5"
+				"recoil_rest_rate"			"5"
+				"recoil_rest_delay"			"0.14"
+				"recoil_roll_range"			"-1.25 -1.25"
+				"recoil_roll_rest_rate"			"150"
+				"recoil_freeaim_frac"			"0.25"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"		"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"			"5"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.82"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+			}
+			"ballistics"
+			{
+				"spread"				"0.30 0.30 0.30"
+				"FireModes"				"semi, full"
+				"bulletcount"				"1"
+				"maxrange"				"8000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"57x28_50rndmagazine"
+				"clip_max"				"12"
+				"clip_max_rounds"			"50"
+				"clip_default"				"3"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"primary"
+			}
+			"kitui_offset"
+			{
+				"position"				"18 0 1"
+			}
+			"team_access"				"security, insurgent"
+		}
 
 		"weapon_sandstorm_sig_mpx" // BUILT OFF MK18
 		{
@@ -7872,6 +8289,103 @@
 		// ========================================
 		// SNIPER RIFLES
 		// ========================================
+
+		"weapon_sandstorm_m82a1" // BUILT OFF M14
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"rifle_controlled_fire"
+			"print_name"				"#weapon_sandstorm_m82a1"
+			"print_desc"				"#weapon_sandstorm_m82a1_desc"
+			"view_model"				"models/sndstrm/v_m82.mdl"
+			"world_model"				"models/sndstrm/w_m82.mdl"
+			"rounds_per_minute"			"730"
+			"weapon_slot"				"primary"
+			"act_table"					"rifle_m14"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"0"
+			"weapon_cost"				"6"
+			"barrel_length"				"28"
+			"class_restricted"			"1"
+			"draw_speed"				"1.9"
+			"holster_speed"				"1.9"
+			//"draw_speed_next_weapon"	"1.9"
+			//"holster_speed_prev_weapon"	"1.9"
+			"reload_speed"				"1.9"
+			"bolt_speed"				"1.9"
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-25"
+				"fov_plr_focus"				"-12"
+				"fov_wpn_default"			"62"
+				"fov_wpn_ironsight"			"80"
+				"fov_wpn_focus"				"85"
+			}
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_sandstorm_M82A1.Single"
+				"shot_single_local"			"Weapon_sandstorm_M82A1.SingleLocal"
+				"shot_silent"				"Weapon_sandstorm_M82A1.SingleSilenced"
+				"shot_silent_local"			"Weapon_sandstorm_M82A1.SingleSilencedLocal"
+				"empty"					"Weapon_sandstorm_M82A1.Empty"
+				"clipin"				"Weapon_sandstorm_M82A1.Magin"
+				"clipout"				"Weapon_sandstorm_M82A1.Magout"
+				"boltback"				"Weapon_sandstorm_M82A1.Boltback"
+				"boltforward"				"Weapon_sandstorm_M82A1.Boltrelease"
+				"hit"					"Weapon_sandstorm_M82A1.Hit"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_m14_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_m14_3rd"
+				"particle_tracer"			"weapon_tracers"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-0.3 0.5"
+				"recoil_vertical_range"			"4.6 5.4"
+				"recoil_aim_punch"			"0.6 0.8"
+				"recoil_rest_rate"			"5"
+				"recoil_rest_delay"			"0.1"
+				"recoil_roll_range"			"-2 -2"
+				"recoil_roll_rest_rate"			"200"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"		"0.3"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"			"6"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.75"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+				
+				"RecoilBipodFracByWeight"
+				{
+					"0"					"0.4"
+				}
+			}
+			"ballistics"
+			{
+				"spread"				"0.08 0.08 0.08"
+				"FireModes"				"semi"
+				"bulletcount"				"1"
+				"maxrange"				"50000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"50bmg"
+				"clip_max"				"12"
+				"clip_max_rounds"			"5"
+				"clip_default"				"3"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"primary2"
+			}
+			"kitui_offset"
+			{
+				"position"				"28 0 3"
+			}
+			"team_access"				"security, insurgent"
+		}
+
 		
 		"weapon_sandstorm_m24" // BUILT OFF M40A1
 		{

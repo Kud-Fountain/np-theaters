@@ -57,7 +57,7 @@
 		{
 			"carry"					"1"
 		}	
-		
+	
 		// ========================================
 		// GRENADES
 		// ========================================
@@ -114,7 +114,7 @@
 		"grenade_sandstorm_rifle_smoke"
 		{
 			"carry"					"3"
-		}		
+		}				
 
 		"grenade_flares"
 		{
@@ -1153,8 +1153,139 @@
 		}
 		
 		// ========================================
+		// 50 BMG
+		// ========================================
+		
+		"50bmg"
+		{
+			"import"					"default"
+			"SuppressionIncrement"		"330"
+			"magsize"					"5"
+			"brass_model"				"models/weapons/shells/762x54.mdl"
+			
+			"Damage"
+			{
+				"10"					"700" //405
+				"20000"					"600" //none
+				"40000"					"300" //320
+			}
+			"PenetrationPower"
+			{
+				"10"					"2400"
+				"40000"					"1900"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "8.00"
+				"HITGROUP_CHEST"      "7.9"
+				"HITGROUP_STOMACH"    "7.9"
+				"HITGROUP_LEFTARM"    "3.4"
+				"HITGROUP_RIGHTARM"   "3.4"
+				"HITGROUP_LEFTLEG"    "3.4"
+				"HITGROUP_RIGHTLEG"   "3.4"
+			}
+		}			
+		
+		// ========================================
 		// MAGAZINES (shouldn't this be on the weapon? Or a diff theater file?)
 		// ========================================
+
+
+
+		// ========================================
+		// S&W Model 1917
+		// ========================================
+		
+		"45"
+		{
+			"import"				"default"
+			"magsize"				"6"
+			"SuppressionIncrement"			"30"
+			"carry"					"42"
+			"flags_clear"			"AMMO_USE_MAGAZINES"
+			"brass_model"				"models/weapons/shells/45apc.mdl"
+			"Damage"
+			{
+				"10"					"155"
+				"8000"					"122"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "2.0"
+				"HITGROUP_CHEST"      "1.8"
+				"HITGROUP_STOMACH"    "1.8"
+				"HITGROUP_LEFTARM"    "0.80"
+				"HITGROUP_RIGHTARM"   "0.80"
+				"HITGROUP_LEFTLEG"    "0.80"
+				"HITGROUP_RIGHTLEG"   "0.80"
+			}
+			"PenetrationPower"
+			{
+				"10"					"400"
+				"8000"					"275"
+			}
+
+		}
+		"45_hp"
+		{
+			"import"				"default"
+			"magsize"				"6"
+			"SuppressionIncrement"			"30"
+			"carry"					"42"
+			"flags_clear"			"AMMO_USE_MAGAZINES"
+			"brass_model"				"models/weapons/shells/45apc.mdl"
+			"Damage"
+			{
+				"10"					"200"
+				"8000"					"180"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "1.5"
+				"HITGROUP_CHEST"      "1.4"
+				"HITGROUP_STOMACH"    "1.4"
+				"HITGROUP_LEFTARM"    "1.3"
+				"HITGROUP_RIGHTARM"   "1.3"
+				"HITGROUP_LEFTLEG"    "1.3"
+				"HITGROUP_RIGHTLEG"   "1.3"
+			}
+
+			"PenetrationPower"
+			{
+				"10"					"300"
+				"8000"					"225"
+			}
+		}
+		"45_ap"
+		{
+			"import"				"default"
+			"magsize"				"6"
+			"SuppressionIncrement"			"30"
+			"carry"					"42"
+			"flags_clear"			"AMMO_USE_MAGAZINES"
+			"brass_model"				"models/weapons/shells/45apc.mdl"
+			"Damage"
+			{
+				"10"					"250"
+				"8000"					"200"
+			}
+			"PenetrationPower"
+			{
+				"10"					"900"
+				"8000"					"750"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "2.3"
+				"HITGROUP_CHEST"      "2.2"
+				"HITGROUP_STOMACH"    "2.2"
+				"HITGROUP_LEFTARM"    "0.8"
+				"HITGROUP_RIGHTARM"   "0.8"
+				"HITGROUP_LEFTLEG"    "0.8"
+				"HITGROUP_RIGHTLEG"   "0.8"
+			}
+		}	
+
 
 		// ========================================
 		// MANURHIN MR96
@@ -1752,6 +1883,38 @@
 				"10"					"100"
 				"16000"					"72"
 			}
+		}		
+		
+		// ========================================
+		// M2 Carbine
+		// ========================================
+		
+		"30_carbine"
+		{
+			"import"				"762x33"
+			"carry"					"12"
+			"magsize"				"15"
+		}
+		
+		"30_carbine_hp"
+		{
+			"import"				"762x33_hp"
+			"carry"					"12"
+			"magsize"				"15"
+		}
+		
+		"30_carbine_ap"
+		{
+			"import"				"762x33_ap"
+			"carry"					"12"
+			"magsize"				"15"
+		}
+		
+		"30_carbine_tracer"
+		{
+			"import"				"762x33_tracer"
+			"carry"					"12"
+			"magsize"				"15"
 		}		
 		
 		// ========================================
