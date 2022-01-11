@@ -1656,7 +1656,7 @@
 		"magazine_sandstorm_extended_m82a1_10rd"
 		{
 			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"2"
+			"upgrade_cost"				"1"
 			"team_access"				"security, insurgent"
 
 			"print_name"				"#weapon_upgrade_magazine_extended"
@@ -1877,7 +1877,24 @@
 				"weapon"				"weapon_codmw19_striker45"
 				//"weapon"				"weapon_codmwr_miniuzi"
 			}
-		}			
+		}
+
+		"magazine_sandstorm_extended_smg_35rd"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"1"
+			"team_access"				"security, insurgent"
+
+			"print_name"				"#weapon_upgrade_magazine_extended"
+			"print_desc"				"#weapon_upgrade_magazine_35rd_desc"
+
+			"magsize_override"			"35"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_vector"
+			}
+		}
 		
 		"magazine_sandstorm_extended_rifle_35rd"
 		{

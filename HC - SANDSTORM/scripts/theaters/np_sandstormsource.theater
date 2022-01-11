@@ -296,7 +296,7 @@
 				"weapon"					"weapon_codmw19_striker45"
 				"weapon"					"weapon_codmwr_miniuzi"
 				"weapon"					"weapon_coldwar_gallosa12"
-				"weapon"					"weapon_workshop_p90"
+				"weapon"					"weapon_sandstorm_p90"
 				"weapon"					"weapon_sandstorm_sig_mpx"
 				"weapon"					"weapon_vietnam_type56"
 				"weapon"					"weapon_sandstorm_uzi"
@@ -347,6 +347,7 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_sandstorm_hk417a2"
 				"weapon"					"weapon_sandstorm_m110a1"
 				"weapon"					"weapon_sandstorm_m82a1"
 				"weapon"					"weapon_workshop_fiveseven"
@@ -439,7 +440,7 @@
 				"weapon"					"weapon_vietnam_swm1917"
 				"weapon"					"weapon_vietnam_mp40"
 				"weapon"					"weapon_coldwar_gallosa12"
-				"weapon"					"weapon_workshop_p90"
+				"weapon"					"weapon_sandstorm_p90"
 				"weapon"					"weapon_sandstorm_saiga_12"
 				"weapon"					"weapon_sandstorm_ace52"
 				"weapon"					"weapon_sandstorm_greasegun"
@@ -597,12 +598,14 @@
 				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_sandstorm_kukri"
 				"weapon"					"weapon_sandstorm_g36k"
+				"weapon"					"weapon_vietnam_m2carbine"
 				"weapon_upgrade"			"barrel_silencer_sandstorm_sec2"
 				"weapon"					"weapon_sandstorm_m84"
 			}
 			
 			"allowed_items"
 			{
+				"weapon"					"weapon_vietnam_m2carbine"
 				"weapon"					"weapon_sandstorm_m16a4"
 				"weapon"					"weapon_sandstorm_m16a2"
 				"weapon"					"weapon_sandstorm_akm"
@@ -832,7 +835,7 @@
 			{
 				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_l85a2"
+				"weapon"					"weapon_sandstorm_p90"
 				"weapon_upgrade"			"optic_sandstorm_aimpoint"
 				"weapon"					"weapon_sandstorm_m9"
 			}
@@ -844,6 +847,7 @@
 				"weapon"					"weapon_sandstorm_aks74u"
 				"weapon"					"weapon_sandstorm_alphaak"
 				"weapon"					"weapon_sandstorm_l85a2"
+				"weapon"					"weapon_sandstorm_p90"
 				"weapon"					"weapon_sandstorm_mk18"
 				"weapon"					"weapon_sandstorm_svd"
 				"weapon"					"weapon_sandstorm_m14"
@@ -870,13 +874,14 @@
 			{
 				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_m24"
+				"weapon"					"weapon_sandstorm_m110a1"
 				"weapon_upgrade"			"optic_sandstorm_mk4"
 				"weapon"					"weapon_sandstorm_m9"
 			}
 			
 			"allowed_items"
 			{
+				"weapon"					"weapon_sandstorm_m110a1"
 				"weapon"					"weapon_sandstorm_m24"
 				"weapon"					"weapon_sandstorm_mosin"
 				"weapon"					"weapon_sandstorm_svd"
@@ -972,7 +977,7 @@
 			"buy_order"
 			{
 				"gear"						"ins_chest_rig"
-				"weapon"					"weapon_workshop_m98b"
+				"weapon"					"weapon_sandstorm_m82a1"
 				"weapon"					"weapon_sandstorm_at4"
 				"weapon"					"weapon_sandstorm_kukri"
 				"weapon"					"weapon_sandstorm_glock17"
@@ -982,6 +987,7 @@
 			
 			"allowed_items"
 			{
+				"weapon"					"weapon_sandstorm_m82a1"
 				"weapon"					"weapon_workshop_m98b"
 				"weapon"					"weapon_sandstorm_at4"
 				"weapon"					"weapon_sandstorm_kukri"
@@ -1048,7 +1054,7 @@
 			"buy_order"
 			{
 				"gear"						"ins_chest_rig"
-				"weapon"					"weapon_vietnam_m60"
+				"weapon"					"weapon_sandstorm_hk417a2"
 				"weapon"					"weapon_sandstorm_at4"
 				"weapon"					"weapon_sandstorm_kukri"
 				"weapon"					"weapon_sandstorm_glock17"
@@ -1058,6 +1064,7 @@
 			
 			"allowed_items"
 			{
+				"weapon"					"weapon_sandstorm_hk417a2"
 				"weapon"					"weapon_vietnam_m60"
 				"weapon"					"weapon_sandstorm_at4"
 				"weapon"					"weapon_sandstorm_kukri"

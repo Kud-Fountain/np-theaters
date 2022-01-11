@@ -16,7 +16,7 @@
 			"world_model"					"models/weapons/w_marinebayonet.mdl"
 			"weapon_slot"					"melee"
 			"act_table"					"knife"
-			"weapon_weight"					"1"
+			"weapon_weight"					"0"
 			"weapon_cost"					"0"
 			"class_restricted"				"0"
 			"barrel_length"					"-1"
@@ -86,7 +86,7 @@
 			"weapon_slot"					"secondary"
 			"act_table"						"pistol"
 			"weapon_abilities"				"ironsight"
-			"weapon_weight"					"9" // (0.7kg[weapon] + (0.1kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +2[encumbrance]
+			"weapon_weight"					"0" // (0.7kg[weapon] + (0.1kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +2[encumbrance]
 			"weapon_cost"					"1"
 			"class_restricted"				"1"
 			//"weapon_max_subslot"			"0"
@@ -182,7 +182,7 @@
 			"weapon_slot"					"melee"	//explosive
 			"weapon_max_subslot"			"0"
 			"act_table"						"pistol"
-			"weapon_weight"					"14"
+			"weapon_weight"					"0"
 			"weapon_cost"					"0"
 			"weapon_abilities"				"ironsight"
 			"class_restricted"				"1"
@@ -235,7 +235,7 @@
 			"weapon_slot"					"melee"
 			"act_table"						"knife"
 			"world_model"					"models/weapons/w_ied.mdl"
-			"weapon_weight"					"1"
+			"weapon_weight"					"0"
 			"weapon_cost"					"0"
 			"class_restricted"				"1"
 			"barrel_length"					"-1"
@@ -302,7 +302,7 @@
 			"world_model"					"models/weapons/w_defibr.mdl"
 			"weapon_slot"					"melee"
 			"act_table"					"knife"
-			"weapon_weight"					"1"
+			"weapon_weight"					"0"
 			"weapon_cost"					"0"
 			"class_restricted"				"0"
 			"barrel_length"					"-1"
@@ -3354,7 +3354,7 @@
 			"weapon_slot"				"primary"
 			"act_table"					"shortrifle"
 			"weapon_abilities"			"ironsight"
-			"weapon_weight"				"160"	// (3.3kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +24[encumbrance]
+			"weapon_weight"				"0"	// (3.3kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"				"3"
 			"class_restricted"			"1"
 			"barrel_length"				"24"
@@ -6553,7 +6553,7 @@
 			"act_table"					"pdw"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
-			"weapon_cost"				"2"
+			"weapon_cost"				"1"
 			"barrel_length"				"16"
 			"class_restricted"			"1"	
 			"draw_speed"				"1.65"
@@ -6648,7 +6648,7 @@
 			"act_table"					"pdw"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
-			"weapon_cost"				"2"
+			"weapon_cost"				"5"
 			"barrel_length"				"16"
 			"class_restricted"			"1"	
 			"draw_speed"				"1.65"
@@ -8303,7 +8303,7 @@
 			"act_table"					"rifle_m14"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
-			"weapon_cost"				"6"
+			"weapon_cost"				"7"
 			"barrel_length"				"28"
 			"class_restricted"			"1"
 			"draw_speed"				"1.9"
