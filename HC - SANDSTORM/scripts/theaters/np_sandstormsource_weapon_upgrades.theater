@@ -9289,7 +9289,7 @@
 		"underbarrel_sandstorm_grip_qbz03"
 		{
 			"import"					"base_foregrip"
-			"upgrade_cost"				"3"
+			//"upgrade_cost"				"3"
 
 			"allowed_weapons"
 			{
