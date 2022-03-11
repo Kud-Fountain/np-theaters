@@ -104,6 +104,8 @@
 				"weapon"					"weapon_sandstorm_m1911"
 				"weapon"					"weapon_vietnam_tt33"
 				"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_sandstorm_mk18tan"
+				"weapon"					"weapon_sandstorm_hk416d"
 				//"weapon"					"weapon_sandstorm_molotov"
 				//"weapon"					"weapon_sandstorm_anm14"
 				"gear"						"gear_uav"
@@ -155,6 +157,8 @@
 				"weapon"					"weapon_workshop_glock21"
 				"weapon"					"weapon_vietnam_tt33"
 				"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_sandstorm_mk18tan"
+				"weapon"					"weapon_sandstorm_hk416d"
 				//"weapon"					"weapon_sandstorm_molotov"
 				//"weapon"					"weapon_sandstorm_anm14"
 				"gear"						"gear_ammocrate"
@@ -194,7 +198,7 @@
 				"weapon"					"weapon_vietnam_m2carbine"
 				"weapon"					"weapon_sandstorm_qbz03"
 				"weapon"					"weapon_sandstorm_steyrauga3"
-				"weapon"					"weapon_vietnam_xm16e1"
+				//"weapon"					"weapon_vietnam_xm16e1"
 				"weapon"					"weapon_sandstorm_sig_mcx"
 				"weapon"					"weapon_vietnam_car15"
 				"weapon"					"weapon_sandstorm_m16a4"
@@ -205,6 +209,10 @@
 				"weapon"					"weapon_sandstorm_glock17"
 				"weapon"					"weapon_sandstorm_manurhinmr73"
 				"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_sandstorm_mp443"
+				"weapon"					"weapon_sandstorm_qbz97"
+				"weapon"					"weapon_sandstorm_hk416d"
+				
 				//"weapon"					"weapon_sandstorm_molotov"
 				//"weapon"					"weapon_sandstorm_anm14"
 			}
@@ -240,7 +248,7 @@
 				"weapon"					"weapon_vietnam_m2carbine"
 				"weapon"					"weapon_vietnam_ithacam37"
 				"weapon"					"weapon_sandstorm_mk18"
-				"weapon"					"weapon_codmw19_striker45"
+				//"weapon"					"weapon_codmw19_striker45"
 				"weapon"					"weapon_vietnam_model605"
 				"weapon"					"weapon_workshop_fiveseven"
 				"weapon"					"weapon_workshop_fiveseven_microh1"
@@ -293,7 +301,7 @@
 				"weapon"					"weapon_vietnam_m2carbine"
 				"weapon"					"weapon_vietnam_thompson"
 				"weapon"					"weapon_sandstorm_aks74u"
-				"weapon"					"weapon_codmw19_striker45"
+				//"weapon"					"weapon_codmw19_striker45"
 				"weapon"					"weapon_codmwr_miniuzi"
 				"weapon"					"weapon_coldwar_gallosa12"
 				"weapon"					"weapon_sandstorm_p90"
@@ -307,6 +315,8 @@
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon"					"weapon_workshop_glock21"
 				"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_sandstorm_mp443"
+				"weapon"					"weapon_sandstorm_apc9pro"
 				//"weapon"					"weapon_sandstorm_molotov"
 			}
 			
@@ -360,10 +370,11 @@
 				"weapon"					"weapon_sandstorm_m14"
 				"weapon"					"weapon_sandstorm_svd"
 				"weapon"					"weapon_vietnam_xm21"
-				"weapon"					"weapon_workshop_m98b"
+				"weapon"					"weapon_sandstorm_vssvintorez"
+				//"weapon"					"weapon_workshop_m98b"
 				"weapon"					"weapon_sandstorm_welrod"
 				"weapon"					"weapon_sandstorm_makarov"
-				"weapon"					"weapon_vietnam_m1911a1"
+				//"weapon"					"weapon_vietnam_m1911a1"
 				"weapon"					"weapon_sandstorm_m67"
 			}
 		}
@@ -403,6 +414,7 @@
 				"weapon"					"weapon_sandstorm_hipower"
 				"weapon"					"weapon_workshop_glock21"
 				"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_sandstorm_hkusp45"
 			}
 		}
 		
@@ -455,6 +467,7 @@
 				"weapon"					"weapon_sandstorm_anm14"
 				"weapon"					"weapon_sandstorm_molotov"
 				"weapon"					"weapon_sandstorm_c4_clicker"
+				"weapon"					"weapon_sandstorm_mk18tan"
 				"gear"						"gear_iedjammer"
 			}
 			
@@ -514,6 +527,7 @@
 				"weapon"					"weapon_sandstorm_anm14"
 				"weapon"					"weapon_sandstorm_molotov"
 				"weapon"					"weapon_sandstorm_c4_clicker"
+				"weapon"					"weapon_sandstorm_mk18tan"
 				"weapon"					"weapon_makarov_fp"
 				"weapon"					"weapon_sandstorm_manurhinmr73"
 			}
@@ -568,6 +582,8 @@
 				"weapon"					"weapon_sandstorm_rpk"
 				"weapon"					"weapon_sandstorm_m9"
 				"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_sandstorm_hkusp45"
+				"weapon"					"weapon_sandstorm_ak12"
 				//"weapon"					"weapon_sandstorm_anm14"
 			}
 		}
@@ -988,7 +1004,7 @@
 			"allowed_items"
 			{
 				"weapon"					"weapon_sandstorm_m82a1"
-				"weapon"					"weapon_workshop_m98b"
+				//"weapon"					"weapon_workshop_m98b"
 				"weapon"					"weapon_sandstorm_at4"
 				"weapon"					"weapon_sandstorm_kukri"
 				"weapon"					"weapon_sandstorm_glock17"

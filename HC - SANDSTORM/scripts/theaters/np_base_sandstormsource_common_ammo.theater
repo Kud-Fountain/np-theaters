@@ -1382,7 +1382,7 @@
 		}	
 		
 		// ========================================
-		// 9x19mm
+		// 9x19mm - 15 Rounds
 		// ========================================
 		
 		"9x19mm"
@@ -1403,6 +1403,29 @@
 			"carry"					"10"
 			"magsize"				"15"
 		}
+		
+		// ========================================
+		// 9x19mm - 18 Rounds
+		// ========================================
+		
+		"9x19mm_18"
+		{
+			"import"				"9x19"
+			"carry"					"10"
+			"magsize"				"18"
+		}
+		"9x19mm_18_hp"
+		{
+			"import"				"9x19_hp"
+			"carry"					"10"
+			"magsize"				"18"
+		}
+		"9x19mm_18_ap"
+		{
+			"import"				"9x19_ap"
+			"carry"					"10"
+			"magsize"				"18"
+		}		
 		
 		// ========================================
 		// 762x25mm Tokarev
@@ -1717,17 +1740,17 @@
 		
 		"57x28_20rndmagazine"
 		{
-			"import"				"45acp_pistol" //556x45
+			"import"				"556x45"
 			"magsize"				"20"
 		}
 		"57x28_hp_20rndmagazine"
 		{
-			"import"				"45acp_hp_pistol"
+			"import"				"556x45_hp"
 			"magsize"				"20"
 		}
 		"57x28_ap_20rndmagazine"
 		{
-			"import"				"45acp_ap_pistol"
+			"import"				"556x45_ap"
 			"magsize"				"20"
 		}	
 		
@@ -1785,7 +1808,7 @@
 
 			"Damage"
 			{
-				"10"					"70"
+				"10"					"60"
 				"16000"					"32"
 			}
 		}
