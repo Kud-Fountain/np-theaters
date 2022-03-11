@@ -3436,11 +3436,11 @@
 			"weapon_weight"				"0"	// (4.8kg[weapon] + (2.0kg[ammo] * (1+2)[mags]) )*10[kg->hg for int]  +50[encumbrance]
 			"barrel_length"				"26"
 			"class_restricted"			"1"
-			"draw_speed"				"1.65"
-			"holster_speed"				"1.65"
+			"draw_speed"				"1.50"
+			"holster_speed"				"1.50"
 			//"draw_speed_next_weapon"	"1.65"
 			//"holster_speed_prev_weapon"	"1.65"
-			"reload_speed"				"1.65"
+			"reload_speed"				"1.50"
 			//"bolt_speed"				"1.65
 			
 			"fov"
