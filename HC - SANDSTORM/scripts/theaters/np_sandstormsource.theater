@@ -446,6 +446,8 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_sandstorm_mp443"
+				"weapon"					"weapon_sandstorm_hkusp45"
 				"weapon"					"weapon_vietnam_m2carbine"
 				"weapon"					"weapon_vietnam_ithacam37"
 				"weapon"					"weapon_vietnam_thompson"
@@ -511,6 +513,8 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_sandstorm_mp443"
+				"weapon"					"weapon_sandstorm_hkusp45"
 				"weapon"					"weapon_vietnam_m2carbine"
 				"weapon"					"weapon_vietnam_ithacam37"
 				"weapon"					"weapon_vietnam_swm1917"
