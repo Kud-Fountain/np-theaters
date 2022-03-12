@@ -600,7 +600,7 @@
 			"upgrade_cost"				"1"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_sandstorm_m2carbine"
+				"weapon"				"weapon_vietnam_m2carbine"
 			}
 			"ammo_type_override"			"30_carbine_hp"
 		}
@@ -611,7 +611,7 @@
 			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
-				"weapon"				"weapon_sandstorm_m2carbine"
+				"weapon"				"weapon_vietnam_m2carbine"
 			}
 			"ammo_type_override"			"30_carbine_ap"
 		}		
