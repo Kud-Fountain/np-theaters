@@ -2,7 +2,7 @@
 {
 	"player_gear"
 	{
-		"sec_light_armor"
+		"sec_light_armor_f"
 		{
 			"print_name"				"#gear_light_armor"
 			"print_desc"				"#gear_light_armor_desc"
@@ -26,7 +26,7 @@
 			
 			"team_access"				"security"
 		}
-		"ins_light_armor"
+		"ins_light_armor_f"
 		{
 			"print_name"				"#gear_light_armor"
 			"print_desc"				"#gear_light_armor_desc"
@@ -51,7 +51,7 @@
 			"team_access"				"insurgent"
 		}
 		
-		"sec_heavy_armor"
+		"sec_heavy_armor_f"
 		{
 			"print_name"				"#gear_heavy_armor"
 			"print_desc"				"#gear_heavy_armor_desc"
@@ -75,7 +75,7 @@
 			
 			"team_access"				"security"
 		}
-		"ins_heavy_armor"
+		"ins_heavy_armor_f"
 		{
 			"print_name"				"#gear_heavy_armor"
 			"print_desc"				"#gear_heavy_armor_desc"

@@ -124,7 +124,7 @@
 
             "buy_order"
             {
-                "gear"				"sec_heavy_armor"
+                "gear"				"sec_heavy_armor_f"
                     "gear"				"sec_chest_rig"
                     "weapon"			"weapon_kabar"
                     "weapon"			"weapon_m16a4"
@@ -276,7 +276,7 @@
 
             "buy_order"
             {
-                "gear"				"sec_heavy_armor"
+                "gear"				"sec_heavy_armor_f"
                     "gear"				"sec_chest_rig"
                     "weapon"			"weapon_kabar"
                     "weapon"			"weapon_m249"
@@ -353,7 +353,7 @@
 
             "buy_order"
             {
-                "gear"				"sec_heavy_armor"
+                "gear"				"sec_heavy_armor_f"
                     "gear"				"sec_chest_carrier"
                     "weapon"			"weapon_kabar"
                     "weapon"			"weapon_m590"
@@ -397,7 +397,7 @@
             {
                 "gear"
                 {
-                    "sec_heavy_armor"	"0"
+                    "sec_heavy_armor_f"	"0"
                 }
                 "weapon_upgrade"
                 {
@@ -434,7 +434,7 @@
 
             "buy_order"
             {
-                "gear"				"ins_heavy_armor"
+                "gear"				"ins_heavy_armor_f"
                     "gear"				"ins_chest_carrier"
                     "weapon"			"weapon_gurkha"
                     //"weapon"			"weapon_m1911"
@@ -544,7 +544,7 @@
 
             "buy_order"
             {
-                "gear"					"ins_light_armor"
+                "gear"					"ins_light_armor_f"
                     "gear"					"ins_chest_carrier"
                     "weapon"				"weapon_gurkha"
                     "weapon"				"weapon_ak74"
@@ -584,7 +584,7 @@
             "buy_order"
             {
                 "gear"				"ins_chest_rig"
-                "gear"				"ins_light_armor"
+                "gear"				"ins_light_armor_f"
                     "weapon"			"weapon_gurkha"
                     "weapon"			"weapon_rpk"
                     "weapon_upgrade"		"ammo_ap_rpk"
@@ -654,7 +654,7 @@
             "buy_order"
             {
                 "gear"				"ins_chest_rig"
-                "gear"				"ins_heavy_armor"
+                "gear"				"ins_heavy_armor_f"
                     "weapon"			"weapon_sks"
                     "weapon_upgrade"	"ammo_ap_sks"
                     "weapon_upgrade"	"optic_scope_7x"
@@ -689,7 +689,7 @@
 
             "buy_order"
             {
-                "gear"				"ins_light_armor"
+                "gear"				"ins_light_armor_f"
                     "gear"				"ins_chest_rig"
                     "weapon"			"weapon_mosin"
                     "weapon_upgrade"    "ammo_ap_mosin"
