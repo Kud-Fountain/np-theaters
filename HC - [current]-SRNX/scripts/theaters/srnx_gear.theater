@@ -79,7 +79,7 @@
 			"class_restricted"			"1"
 			
 			"player_model_override"		"models/characters/security_heavy.mdl"
-			"viewmodel_hands_override"	"models/weapons/v_hands_sec_h.mdl"
+			//"viewmodel_hands_override"	"models/weapons/v_hands_sec_h.mdl"
 			
 			"team_access"				"security"
 		}

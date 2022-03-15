@@ -5,6 +5,8 @@
 "#base" "extra_weapon.theater"
 "#base" "huashui_weapon_upgrades.theater"
 
+"#base" "np_viewarms.theater"
+
 "theater"
 {
 	"core"

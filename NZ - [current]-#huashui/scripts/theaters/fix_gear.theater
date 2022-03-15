@@ -22,7 +22,7 @@
 			}
 			
 			"player_model_override"		"models/characters/security_standard.mdl"
-			"viewmodel_hands_override"	"models/weapons/v_hands_sec_l.mdl"
+			//"viewmodel_hands_override"	"models/weapons/v_hands_sec_l.mdl"
 			
 			"team_access"				"security"
 		}
@@ -46,7 +46,7 @@
 			}
 			
 			"player_model_override"		"models/characters/insurgent_standard.mdl"
-			"viewmodel_hands_override"	"models/weapons/v_hands_ins_l.mdl"
+			//"viewmodel_hands_override"	"models/weapons/v_hands_ins_l.mdl"
 			
 			"team_access"				"insurgent"
 		}
@@ -71,7 +71,7 @@
 			}
 			
 			"player_model_override"		"models/characters/security_heavy.mdl"
-			"viewmodel_hands_override"	"models/weapons/v_hands_sec_h.mdl"
+			//"viewmodel_hands_override"	"models/weapons/v_hands_sec_h.mdl"
 			
 			"team_access"				"security"
 		}
@@ -95,7 +95,7 @@
 			}
 			
 			"player_model_override"		"models/characters/insurgent_heavy.mdl"
-			"viewmodel_hands_override"	"models/weapons/v_hands_ins_h.mdl"
+			//"viewmodel_hands_override"	"models/weapons/v_hands_ins_h.mdl"
 			
 			"team_access"				"insurgent"
 		}

@@ -4,6 +4,8 @@
 "#base" "srnx_weapon_upgrades.theater"
 "#base"	"extra_weapon.theater"
 
+"#base"	np_viewarms.theater"
+
 "theater"
 {
 	"player_templates"

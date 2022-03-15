@@ -66,16 +66,16 @@
 			"gear_weight"	"0" 
 			"DamageHitgroups"
 			{
-				"HITGROUP_CHEST"			"0.05"
-				"HITGROUP_STOMACH"			"0.05"
-				"HITGROUP_LEFTARM"			"0.04"
-				"HITGROUP_RIGHTARM"			"0.04"
-				"HITGROUP_LEFTLEG"			"0.04"
-				"HITGROUP_RIGHTLEG"			"0.04"
-				"HITGROUP_GENERIC"			"0.04"
+				"HITGROUP_CHEST"			"0.04"
+				"HITGROUP_STOMACH"			"0.04"
+				"HITGROUP_LEFTARM"			"0.03"
+				"HITGROUP_RIGHTARM"			"0.03"
+				"HITGROUP_LEFTLEG"			"0.03"
+				"HITGROUP_RIGHTLEG"			"0.03"
+				"HITGROUP_GENERIC"			"0.03"
 			}
 			"penetration_power_loss"	"100"
-			"explosive_damage_frac"		"0.15"
+			"explosive_damage_frac"		"0.1"
 			"team_access"				"insurgent"
 		}
 		
@@ -91,7 +91,7 @@
             "model"                 "models/characters/custom/mlf_helmet_head.mdl"
             "DamageHitgroups"
             {
-                "HITGROUP_HEAD"        "0.05"
+                "HITGROUP_HEAD"        "0.04"
             }
 			"penetration_power_loss"	"40"
             "team_access"   		"insurgent"
@@ -141,7 +141,7 @@
 			}
 			
 			"player_model_override"		"models/characters/insurgent_standard_f.mdl"
-			"viewmodel_hands_override"	"models/weapons/v_hands_ins_l.mdl"
+			//"viewmodel_hands_override"	"models/weapons/v_hands_ins_l.mdl"
 			
 			"team_access"				"insurgent"
 		}
@@ -190,7 +190,7 @@
 			}
 			
 			"player_model_override"		"models/characters/insurgent_heavy_f.mdl"
-			"viewmodel_hands_override"	"models/weapons/v_hands_ins_h.mdl"
+			//"viewmodel_hands_override"	"models/weapons/v_hands_ins_h.mdl"
 			
 			"team_access"				"insurgent"
 		}

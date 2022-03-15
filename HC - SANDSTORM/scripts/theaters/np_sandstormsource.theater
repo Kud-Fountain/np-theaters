@@ -2,6 +2,7 @@
 "#base" "np_base_sandstormsource_common_ammo.theater"
 
 "#base" "np_sandstormsource_gear.theater"
+"#base"	"np_viewarms.theatr"
 "#base" "np_sandstormsource_gloves.theater"
 "#base" "np_sandstormsource_weapon_expansion.theater"
 "#base" "np_sandstormsource_weapon.theater"
@@ -620,7 +621,7 @@
 				"weapon"					"weapon_sandstorm_g36k"
 				"weapon"					"weapon_vietnam_m2carbine"
 				"weapon_upgrade"			"barrel_silencer_sandstorm_sec2"
-				"weapon"					"weapon_sandstorm_m84"
+				"weapon"					"weapon_sandstorm_anm14"
 			}
 			
 			"allowed_items"
@@ -634,6 +635,7 @@
 				"weapon"					"weapon_sandstorm_fal"
 				"weapon"					"weapon_sandstorm_g3a3"
 				"weapon"					"weapon_sandstorm_m4a1"
+				"weapon"					"weapon_sandstorm_anm14"
 			}
 		}		
 		
@@ -673,6 +675,7 @@
 				"weapon"					"weapon_sandstorm_fal"
 				"weapon"					"weapon_sandstorm_g3a3"
 				"weapon"					"weapon_sandstorm_m4a1"
+				"weapon"					"weapon_sandstorm_f1"
 			}
 		}
 		
@@ -700,7 +703,7 @@
 				"weapon"					"weapon_sandstorm_ak74"
 				"weapon_upgrade"			"optic_sandstorm_aimpoint"
 				"weapon"					"weapon_sandstorm_tariq"
-				"weapon"					"weapon_sandstorm_f1"
+				"weapon"					"weapon_sandstorm_at4"
 			}
 			
 			"allowed_items"
@@ -713,6 +716,7 @@
 				"weapon"					"weapon_sandstorm_fal"
 				"weapon"					"weapon_sandstorm_g3a3"
 				"weapon"					"weapon_sandstorm_m4a1"
+				"weapon"					"weapon_sandstorm_at4"
 			}
 		}
 
@@ -752,6 +756,7 @@
 				"weapon"					"weapon_sandstorm_aks74u"
 				"weapon"					"weapon_sandstorm_mk18"
 				"weapon"					"weapon_sandstorm_mp7"
+				"weapon"					"weapon_sandstorm_f1"
 				
 				"weapon"					"weapon_sandstorm_c4_clicker"
 			}
@@ -780,6 +785,7 @@
 				"weapon"					"weapon_sandstorm_kukri"
 				"weapon"					"weapon_sandstorm_rpk"
 				"weapon"					"weapon_sandstorm_tariq"
+				"weapon"					"weapon_sandstorm_anm14"
 			}
 			
 			"allowed_items"
@@ -788,6 +794,7 @@
 				"weapon"					"weapon_sandstorm_galil_sar"
 				"weapon"					"weapon_sandstorm_m249"
 				"weapon"					"weapon_sandstorm_rpk"
+				"weapon"					"weapon_sandstorm_anm14"
 			}
 		}
 		
@@ -858,6 +865,7 @@
 				"weapon"					"weapon_sandstorm_p90"
 				"weapon_upgrade"			"optic_sandstorm_aimpoint"
 				"weapon"					"weapon_sandstorm_m9"
+				"weapon"					"weapon_sandstorm_molotov"
 			}
 			
 			"allowed_items"
@@ -871,6 +879,7 @@
 				"weapon"					"weapon_sandstorm_mk18"
 				"weapon"					"weapon_sandstorm_svd"
 				"weapon"					"weapon_sandstorm_m14"
+				"weapon"					"weapon_sandstorm_molotov"
 			}
 		}
 		
@@ -897,6 +906,7 @@
 				"weapon"					"weapon_sandstorm_m110a1"
 				"weapon_upgrade"			"optic_sandstorm_mk4"
 				"weapon"					"weapon_sandstorm_m9"
+				"weapon"					"weapon_sandstorm_m67"
 			}
 			
 			"allowed_items"
@@ -906,6 +916,7 @@
 				"weapon"					"weapon_sandstorm_mosin"
 				"weapon"					"weapon_sandstorm_svd"
 				"weapon"					"weapon_sandstorm_m14"
+				"weapon"					"weapon_sandstorm_m67"
 			}
 		}
 		
@@ -965,6 +976,7 @@
 				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
+				"weapon"					"weapon_sandstorm_m67"
 			}
 			
 			"allowed_items"
@@ -975,6 +987,7 @@
 				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
+				"weapon"					"weapon_sandstorm_m67"
 			}
 		}
 		
@@ -1003,6 +1016,7 @@
 				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
+				"weapon"					"weapon_sandstorm_anm14"
 			}
 			
 			"allowed_items"
@@ -1014,6 +1028,7 @@
 				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
+				"weapon"					"weapon_sandstorm_anm14"
 			}
 		}
 		
@@ -1042,6 +1057,7 @@
 				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
+				"weapon"					"weapon_sandstorm_rpg7"
 			}
 			
 			"allowed_items"
@@ -1052,6 +1068,7 @@
 				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
+				"weapon"					"weapon_sandstorm_rpg7"
 			}
 		}
 		
@@ -1080,6 +1097,7 @@
 				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
+				"weapon"					"weapon_sandstorm_at4"
 			}
 			
 			"allowed_items"
@@ -1091,6 +1109,7 @@
 				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
+				"weapon"					"weapon_sandstorm_at4"
 			}
 		}
 		
