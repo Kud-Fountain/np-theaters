@@ -6,6 +6,8 @@
 "#base" "Lua_insgamer_S2_custom_weapon.theater"
 "#base" "np_Lua_HOECP_S2_gear.theater"
 
+"#base" "np_viewarms.theater"
+
 "theater"
 {
 	"weapons"

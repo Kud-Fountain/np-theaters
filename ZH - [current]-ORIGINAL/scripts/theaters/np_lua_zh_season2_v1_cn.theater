@@ -1,7 +1,5 @@
 "#base" "np_Lua_season2_default.theater"
 
-"#base" "np_viewarms.theater"
-
 "theater"
 {
 	"core"
