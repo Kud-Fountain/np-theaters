@@ -535,5 +535,11 @@
 			"gear_slot"					"misc2"
 			"viewmodel_hands_override"	"models/wn_custom/arms/altina_orion_arms.mdl"
 		}
+		
+		"hands_elysia"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/elysia_arms.mdl"
+		}
 	}
 }
