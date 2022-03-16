@@ -203,8 +203,8 @@
 			}
 			"team_access"				"insurgent"
 		}
-		"?nightmap"
-		{
+		//"?nightmap"
+		//{
 			"sec_nightvision"
 			{
 				"print_name"				"#gear_nvg"
@@ -261,6 +261,6 @@
 				
 				"team_access"				"insurgent"
 			}
-		}
+		//}
 	}
 }
