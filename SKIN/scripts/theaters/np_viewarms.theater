@@ -541,5 +541,11 @@
 			"gear_slot"					"misc2"
 			"viewmodel_hands_override"	"models/wn_custom/arms/elysia_arms.mdl"
 		}
+		
+		"hands_matsuri_aki"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/matsuri_aki_arms.mdl"
+		}
 	}
 }
