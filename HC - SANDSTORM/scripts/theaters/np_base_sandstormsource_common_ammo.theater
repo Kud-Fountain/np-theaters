@@ -1740,18 +1740,42 @@
 		
 		"57x28_20rndmagazine"
 		{
-			"import"				"556x45"
+			"import"				"45acp" //556x45
 			"magsize"				"20"
+			
+			// 45acp_pistol
+			"Damage"
+			{
+				"1"						"50" //76
+				"100"					"50" //76
+				"5000"					"32"
+			}
 		}
 		"57x28_hp_20rndmagazine"
 		{
-			"import"				"556x45_hp"
+			"import"				"45acp_hp" //556x45_hp
 			"magsize"				"20"
+			
+			// 45acp_hp
+			"Damage"
+			{
+				"1"						"50" //76
+				"100"					"50" //76
+				"5000"					"32"
+			}
 		}
 		"57x28_ap_20rndmagazine"
 		{
-			"import"				"556x45_ap"
+			"import"				"45acp_ap" //556x45_ap
 			"magsize"				"20"
+			
+			// 45acp_ap
+			"Damage"
+			{
+				"1"						"50" //76
+				"100"					"50" //76
+				"5000"					"32"
+			}
 		}	
 		
 		// ========================================

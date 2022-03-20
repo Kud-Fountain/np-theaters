@@ -494,8 +494,6 @@
 				"weapon"				"weapon_sandstorm_m45"
 				"weapon"				"weapon_sandstorm_hkusp45"
 				"weapon"				"weapon_sandstorm_m1911"
-				"weapon"				"weapon_workshop_fiveseven"
-				"weapon"				"weapon_workshop_fiveseven_microh1"
 			}
 			"ammo_type_override"			"45acp_hp_pistol"
 		}
@@ -509,8 +507,6 @@
 				"weapon"				"weapon_sandstorm_m45"
 				"weapon"				"weapon_sandstorm_hkusp45"
 				"weapon"				"weapon_sandstorm_m1911"
-				"weapon"				"weapon_workshop_fiveseven"
-				"weapon"				"weapon_workshop_fiveseven_microh1"
 			}
 			"ammo_type_override"			"45acp_ap_pistol"
 		}
@@ -631,8 +627,8 @@
 			"upgrade_cost"				"1"
 			"allowed_weapons"
 			{
-				//"weapon"				"weapon_workshop_fiveseven"
-				//"weapon"				"weapon_workshop_fiveseven_microh1"
+				"weapon"				"weapon_workshop_fiveseven"
+				"weapon"				"weapon_workshop_fiveseven_microh1"
 			}
 			"ammo_type_override"			"57x28_hp_20rndmagazine"
 		}
@@ -643,8 +639,8 @@
 			"upgrade_cost"				"2"
 			"allowed_weapons"
 			{
-				//"weapon"				"weapon_workshop_fiveseven"
-				//"weapon"				"weapon_workshop_fiveseven_microh1"
+				"weapon"				"weapon_workshop_fiveseven"
+				"weapon"				"weapon_workshop_fiveseven_microh1"
 			}
 			"ammo_type_override"			"57x28_ap_20rndmagazine"
 		}	
