@@ -196,6 +196,80 @@
 			"tracer_type"				"whiz_with_line"
 			"tracer_lowammo"			"5"
 		}
+		
+		"10mm"	// FMJ 115gr 381m/s  570J
+		{
+			"import"				"default"
+			"SuppressionIncrement"			"20"
+			"brass_model"				"models/weapons/shells/9x19.mdl"
+			"Damage"
+			{
+				"1"						"80"
+				"100"					"80"
+				"5000"					"52"
+			}
+			"PenetrationPower"
+			{
+				"10"					"250"
+				"8000"					"185"
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"1.00"
+				"HITGROUP_CHEST"			"0.80"
+				"HITGROUP_STOMACH"			"0.80"
+				"HITGROUP_LEFTARM"			"1.30"
+				"HITGROUP_RIGHTARM"			"1.30"
+				"HITGROUP_LEFTLEG"			"1.30"
+				"HITGROUP_RIGHTLEG"			"1.30"
+			}
+		}
+		"10mm_hp"
+		{
+			"import"				"10mm"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"0.90"
+				"HITGROUP_CHEST"			"0.75"
+				"HITGROUP_STOMACH"			"0.80"
+				"HITGROUP_LEFTARM"			"2.00"
+				"HITGROUP_RIGHTARM"			"2.00"
+				"HITGROUP_LEFTLEG"			"3.00"
+				"HITGROUP_RIGHTLEG"			"3.00"
+			}
+			"PenetrationPower"
+			{
+				"10"					"200"
+				"8000"					"125"
+			}
+		}
+		"10mm_ap"
+		{
+			"import"				"10mm"
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"3.00"
+				"HITGROUP_CHEST"			"3.00"
+				"HITGROUP_STOMACH"			"3.00"
+				"HITGROUP_LEFTARM"			"1.10"
+				"HITGROUP_RIGHTARM"			"1.10"
+				"HITGROUP_LEFTLEG"			"1.10"
+				"HITGROUP_RIGHTLEG"			"1.10"
+			}
+			"PenetrationPower"
+			{
+				"10"					"550"
+				"8000"					"250"
+			}
+		}
+		"10mm_tracer"
+		{
+			"import"				"10mm"
+			"tracer_frequency"			"4"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"5"
+		}
+		
 
 		"38special" // 158gr 290m/s 420J
 		{
@@ -731,7 +805,7 @@
 			"brass_model"				"models/weapons/shells/762x51.mdl"
 			"Damage"
 			{
-				"10"					"128" //160
+				"10"					"160"
 				"20000"					"100"
 			}
 			"PenetrationPower"
@@ -1176,13 +1250,13 @@
 			}
 			"DamageHitgroups"
 			{
-				"HITGROUP_HEAD"       "8.00"
-				"HITGROUP_CHEST"      "7.9"
-				"HITGROUP_STOMACH"    "7.9"
-				"HITGROUP_LEFTARM"    "3.4"
-				"HITGROUP_RIGHTARM"   "3.4"
-				"HITGROUP_LEFTLEG"    "3.4"
-				"HITGROUP_RIGHTLEG"   "3.4"
+				"HITGROUP_HEAD"       "9.0"
+				"HITGROUP_CHEST"      "9.0"
+				"HITGROUP_STOMACH"    "9.0"
+				"HITGROUP_LEFTARM"    "4.4"
+				"HITGROUP_RIGHTARM"   "4.4"
+				"HITGROUP_LEFTLEG"    "4.4"
+				"HITGROUP_RIGHTLEG"   "4.4"
 			}
 		}			
 		
@@ -1403,6 +1477,30 @@
 			"carry"					"10"
 			"magsize"				"15"
 		}
+
+		// ========================================
+		// 9x19mm - 17 Rounds
+		// ========================================
+		
+		"9x19mm_17"
+		{
+			"import"				"9x19"
+			"carry"					"10"
+			"magsize"				"17"
+		}
+		"9x19mm_17_hp"
+		{
+			"import"				"9x19_hp"
+			"carry"					"10"
+			"magsize"				"17"
+		}
+		"9x19mm_17_ap"
+		{
+			"import"				"9x19_ap"
+			"carry"					"10"
+			"magsize"				"17"
+		}	
+
 		
 		// ========================================
 		// 9x19mm - 18 Rounds
@@ -1746,8 +1844,8 @@
 			// 45acp_pistol
 			"Damage"
 			{
-				"1"						"50" //76
-				"100"					"50" //76
+				"1"						"45" //76
+				"100"					"45" //76
 				"5000"					"32"
 			}
 		}
@@ -1759,8 +1857,8 @@
 			// 45acp_hp
 			"Damage"
 			{
-				"1"						"50" //76
-				"100"					"50" //76
+				"1"						"45" //76
+				"100"					"45" //76
 				"5000"					"32"
 			}
 		}
@@ -1772,8 +1870,8 @@
 			// 45acp_ap
 			"Damage"
 			{
-				"1"						"50" //76
-				"100"					"50" //76
+				"1"						"45" //76
+				"100"					"45" //76
 				"5000"					"32"
 			}
 		}	
@@ -1821,9 +1919,11 @@
 			"import"				"556x45_car_tracer"
 			"magsize"				"35"
 		}
+		
 		// ========================================
 		// mp5k, mp40
 		// ========================================
+		
 		"9x19mm_smg"
 		{
 			"import"				"9x19"
@@ -1857,6 +1957,44 @@
 			"carry"					"12"
 			"magsize"				"30"
 		}
+		
+		// ========================================
+		// MP5 - 10MM
+		// ========================================
+		
+		"10mm_smg"
+		{
+			"import"				"10mm"
+			"carry"					"12"
+			"magsize"				"30"
+
+			"Damage"
+			{
+				"10"					"60"
+				"16000"					"32"
+			}
+		}
+		
+		"10mm_hp_smg"
+		{
+			"import"				"10mm_hp"
+			"carry"					"12"
+			"magsize"				"30"
+		}
+		
+		"10mm_ap_smg"
+		{
+			"import"				"10mm_ap"
+			"carry"					"12"
+			"magsize"				"30"
+		}
+		
+		"10mm_tracer_smg"
+		{
+			"import"				"10mm_tracer"
+			"carry"					"12"
+			"magsize"				"30"
+		}		
 		
 		// ========================================
 		// uzi
