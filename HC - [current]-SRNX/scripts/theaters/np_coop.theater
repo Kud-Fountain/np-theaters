@@ -33,6 +33,7 @@
 			"particles"         "particles/trails.pcf"
 			
 			"localize"			"resource/gnalvlsrealism_schinese.txt"
+			"localize"			"resource/map_translation.txt"
 		}
 	}
 	"teams"

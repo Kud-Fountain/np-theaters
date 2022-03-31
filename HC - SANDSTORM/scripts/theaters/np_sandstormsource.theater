@@ -38,6 +38,7 @@
 			"particles"         "particles/trails.pcf"
 
 			"localize"			"resource/sandstorm_source_chinese.txt"
+			"localize"			"resource/map_translation.txt"
 			
 			// dismemberment specific	
 			"sounds"			"scripts/dismemberment_sounds.txt"
@@ -364,7 +365,7 @@
 			{
 				"weapon"					"weapon_defib"
 				
-				"weapon"					"weapon_codmw19_mp510"
+				"weapon"					"weapon_sandstorm_m16a4"
 				"weapon"					"weapon_codmw19_p320"
 				"weapon"					"weapon_sandstorm_hk417a2"
 				"weapon"					"weapon_sandstorm_m110a1"

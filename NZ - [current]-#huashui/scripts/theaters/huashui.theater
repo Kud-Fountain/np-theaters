@@ -15,6 +15,7 @@
 		{
 			// default theater specific sounds
 			"localize"			"resource/nvzhuang_schinese.txt"
+			"localize"			"resource/map_translation.txt"
 			"sounds"			"scripts/ins_sounds_weapons.txt"
 			"sounds"			"scripts/ins_sounds_cues.txt"
 			"sounds"			"scripts/ins_sounds_voice.txt"

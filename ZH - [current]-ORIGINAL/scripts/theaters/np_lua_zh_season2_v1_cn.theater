@@ -17,6 +17,7 @@
 			"sounds"			"scripts/ins_sounds_voice_coop.txt"
 			"sounds"			"scripts/Lua_HOECP_Armory_S2_sounds.txt"
 			"localize"			"resource/ui/Lua_HOECP_Armory_S2_%language%.txt"
+			"localize"			"resource/map_translation.txt"
 			//"localize"			"resource/ui/Lua_ZombieHorde.txt"
 		}
 	}
