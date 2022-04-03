@@ -620,17 +620,19 @@
 			{
 				"gear"						"srnx_player_juggernaut_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_defib"
+				"weapon"					"weapon_sandstorm_kabar"
 			}
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_defib"
+				"weapon"					"weapon_sandstorm_kabar"
 				
 				"weapon"					"weapon_codmw19_ak47"
 				"weapon"					"weapon_vietnam_m60"
 				"weapon"					"weapon_sandstorm_m240"
 				"weapon"					"weapon_sandstorm_m249"
+				"weapon"					"weapon_sandstorm_saiga_12"
+				"weapon"					"weapon_sandstorm_m870"
 				"weapon"					"weapon_vietnam_swm1917"
 				"weapon"					"weapon_sandstorm_hipower"
 				"weapon"					"weapon_workshop_glock21"
@@ -649,7 +651,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 			
 				"bodygroups"
 				{
@@ -683,7 +685,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 			
 				"bodygroups"
 				{
@@ -723,7 +725,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 			
 				"bodygroups"
 				{
@@ -763,7 +765,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 			
 				"bodygroups"
 				{
@@ -803,7 +805,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"player"				"models/wn_custom/blackmand_long.mdl"
 			
 				"bodygroups"
 				{
@@ -815,7 +817,7 @@
 			"buy_order"
 			{
 				"gear"						"ins_chest_rig"
-				"weapon"					"weapon_sandstorm_saiga_12"
+				"weapon"					"weapon_sandstorm_m110a1"
 				"weapon"					"weapon_sandstorm_at4"
 				"weapon"					"weapon_sandstorm_kukri"
 				"weapon"					"weapon_sandstorm_hipower"
@@ -826,10 +828,50 @@
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_saiga_12"
+				"weapon"					"weapon_sandstorm_m110a1"
 				"weapon"					"weapon_sandstorm_at4"
 				"weapon"					"weapon_sandstorm_kukri"
 				"weapon"					"weapon_sandstorm_hipower"
+				"gear"						"srnx_BOT_juggernaut_armor_ex"
+				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
+				"weapon"					"weapon_sandstorm_molotov"
+			}
+		}
+		
+		"template_sandstorm_insurgent_juggernaut_ex5"
+		{
+			"team"						"insurgent"
+			"print_name"				"#Squad_Sandstorm_JUG"
+			
+			"models"
+			{
+				"player"				"models/wn_custom/blackmand_long.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}	
+			
+			"buy_order"
+			{
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_sandstorm_honeybadger"
+				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_kukri"
+				"weapon"					"weapon_sandstorm_glock17"
+				"gear"						"srnx_BOT_juggernaut_armor_ex"
+				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
+				"weapon"					"weapon_sandstorm_molotov"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"					"weapon_sandstorm_honeybadger"
+				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_kukri"
+				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor_ex"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
 				"weapon"					"weapon_sandstorm_molotov"
