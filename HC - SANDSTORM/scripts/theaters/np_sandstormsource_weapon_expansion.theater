@@ -25,7 +25,7 @@
 			"act_table"					"pdw"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
-			"weapon_cost"				"1"
+			"weapon_cost"				"2"
 			"barrel_length"				"16"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
@@ -348,7 +348,7 @@
 			"act_table"					"smg_magheld"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (4.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
-			"weapon_cost"				"1"
+			"weapon_cost"				"0"
 			"barrel_length"				"16"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
@@ -441,7 +441,7 @@
 			"act_table"					"pdw"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
-			"weapon_cost"				"3"
+			"weapon_cost"				"2"
 			"barrel_length"				"16"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
@@ -540,7 +540,7 @@
 			"act_table"					"rifle_m14"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"
-			"weapon_cost"				"2"
+			"weapon_cost"				"3"
 			"barrel_length"				"28"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
@@ -889,7 +889,7 @@
 			"act_table"					"shortrifle"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
-			"weapon_cost"				"2"
+			"weapon_cost"				"1"
 			"barrel_length"				"20"
 			"class_restricted"			"1"
 			"draw_speed"				"1.65"
@@ -1007,7 +1007,7 @@
 			"act_table"					"rifle_ak2"
 			"weapon_abilities"			"ironsight"
 			"weapon_weight"				"0"	// (2.9kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +16[encumbrance]
-			"weapon_cost"				"2"
+			"weapon_cost"				"0"
 			"class_restricted"			"1"
 			"barrel_length"				"20"
 			"draw_speed"				"1.65"
@@ -1432,7 +1432,7 @@
 		{
 			"import"					"ballistic_base"
 			"weapon_class"				"shotgun"
-			"weapon_cost"				"1"
+			"weapon_cost"				"0"
 			"print_name"				"#weapon_vietnam_ithacam37"
 			"print_desc"				"#weapon_vietnam_ithacam37_desc"
 			"view_model"				"models/vietnam/v_m37.mdl"

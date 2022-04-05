@@ -10,7 +10,7 @@
 			"import"				"base_lasersight_pistol"
 			"upgrade_cost"				"0"
 			"class_restricted"	"0"
-			"weight"						"5"
+			"weight"						"0"
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_makarov_fp"

@@ -64,15 +64,15 @@
 	"player_templates"
 	{
 	
-		"template_sandstorm_coop_squadleader_medic"
+		"template_sandstorm_coop_sleader_medic"
 		{
 			"team"						"security"
 			"print_name"				"#Squad_Sandstorm_Commander"
 			
 			"models"
 			{
-				"player"				"models/characters/security_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"				"models/characters/security_standard_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 			
 				"bodygroups"
 				{
@@ -92,41 +92,41 @@
 			{
 				"weapon"					"weapon_defib"
 				
-				"weapon"					"weapon_codmw19_p320"
-				"weapon"					"weapon_vietnam_thompson"
-				"weapon"					"weapon_sandstorm_hk417a2"
-				"weapon"					"weapon_vietnam_akmtactical"
-				"weapon"					"weapon_sandstorm_l85a2"
-				"weapon"					"weapon_sandstorm_l1a1"
-				"weapon"					"weapon_sandstorm_g36k"
-				"weapon"					"weapon_sandstorm_fal"
 				"weapon"					"weapon_sandstorm_g3a3"
+				"weapon"					"weapon_sandstorm_l1a1"
 				"weapon"					"weapon_sandstorm_mk17"
-				"weapon"					"weapon_vietnam_swm1917"
-				"weapon"					"weapon_workshop_glock21"
-				"weapon"					"weapon_sandstorm_m1911"
-				"weapon"					"weapon_vietnam_tt33"
-				"weapon"					"weapon_sandstorm_m67"
-				"weapon"					"weapon_sandstorm_mk18tan"
+				"weapon"					"weapon_sandstorm_ace52"
 				"weapon"					"weapon_sandstorm_hk416d"
-				//"weapon"					"weapon_sandstorm_molotov"
-				//"weapon"					"weapon_sandstorm_anm14"
-				"gear"						"gear_uav"
+				"weapon"					"weapon_sandstorm_fal"
+				"weapon"					"weapon_sandstorm_mk18"
+				"weapon"					"weapon_sandstorm_mk18tan"
+				"weapon"					"weapon_sandstorm_sig_mcx"
+				"weapon"					"weapon_sandstorm_steyrauga3"
+				"weapon"					"weapon_sandstorm_qbz03"
+				"weapon"					"weapon_coldwar_krig6"
+				"weapon"					"weapon_sandstorm_m4a1"
 				
-				//"weapon_upgrade"			"underbarrel_m203_smoke"
-				//"weapon_upgrade"			"underbarrel_gp25_smoke"				
+				"weapon"					"weapon_vietnam_tt33"
+				"weapon"					"weapon_sandstorm_mp443"
+				"weapon"					"weapon_codmw19_p320"
+				"weapon"					"weapon_workshop_glock21"
+				
+				"weapon"					"weapon_sandstorm_anm14"
+				"weapon"					"weapon_sandstorm_molotov"
+
+				"gear"						"gear_uav"			
 			}
 		}	
 		
-		"template_sandstorm_coop_squadleader_1_medic"
+		"template_sandstorm_coop_scout_medic"
 		{
 			"team"						"security"
 			"print_name"				"#Squad_Sandstorm_Commander"
 			
 			"models"
 			{
-				"player"				"models/characters/security_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"				"models/characters/security_heavy_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_h.mdl"
 			
 				"bodygroups"
 				{
@@ -140,47 +140,42 @@
 				"gear"						"sec_light_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
 				"weapon"					"weapon_defib"
-				"gear"						"gear_ammocrate"
 			}
 			"allowed_items"
 			{
 				"weapon"					"weapon_defib"
 				
-				"weapon"					"weapon_codmw19_p320"
-				"weapon"					"weapon_vietnam_thompson"
-				"weapon"					"weapon_sandstorm_hk417a2"
-				"weapon"					"weapon_vietnam_akmtactical"
-				"weapon"					"weapon_sandstorm_l1a1"
-				"weapon"					"weapon_sandstorm_l85a2"
-				"weapon"					"weapon_sandstorm_g36k"
-				"weapon"					"weapon_sandstorm_fal"
-				"weapon"					"weapon_sandstorm_g3a3"
-				"weapon"					"weapon_sandstorm_mk17"
-				"weapon"					"weapon_sandstorm_m1911"
-				"weapon"					"weapon_vietnam_swm1917"
-				"weapon"					"weapon_workshop_glock21"
-				"weapon"					"weapon_vietnam_tt33"
-				"weapon"					"weapon_sandstorm_m67"
-				"weapon"					"weapon_sandstorm_mk18tan"
-				"weapon"					"weapon_sandstorm_hk416d"
-				//"weapon"					"weapon_sandstorm_molotov"
-				//"weapon"					"weapon_sandstorm_anm14"
-				"gear"						"gear_ammocrate"
+				"weapon"					"weapon_sandstorm_p90"
+				"weapon"					"weapon_sandstorm_vector"
+				"weapon"					"weapon_sandstorm_uzi"
+				"weapon"					"weapon_sandstorm_mini"
+				"weapon"					"weapon_codmwr_miniuzi"
+				"weapon"					"weapon_sandstorm_mp7"
+				"weapon"					"weapon_sandstorm_sig_mcx"
+				"weapon"					"weapon_sandstorm_asval"
+				"weapon"					"weapon_vietnam_type56"
+				"weapon"					"weapon_sandstorm_mp5a2"
+				"weapon"					"weapon_codmw19_mp510"
+				"weapon"					"weapon_sandstorm_saiga_12"
+				"weapon"					"weapon_sandstorm_m870"
 				
-				//"weapon_upgrade"			"underbarrel_m203_smoke"
-				//"weapon_upgrade"			"underbarrel_gp25_smoke"				
+				"weapon"					"weapon_sandstorm_m1911"
+				"weapon"					"weapon_sandstorm_glock17"
+				"weapon"					"weapon_sandstorm_tariq"
+				"weapon"					"weapon_workshop_glock21"
+				"weapon"					"weapon_sandstorm_hkusp45"				
 			}
 		}
 	
-		"template_sandstorm_coop_rifleman_at_medic_2"
+		"template_sandstorm_coop_firesupport_medic"
 		{
 			"team"						"security"
 			"print_name"				"#Squad_Sandstorm_Observer"
 			
 			"models"
 			{
-				"player"				"models/characters/security_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"				"models/characters/security_heavy_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_h.mdl"
 			
 				"bodygroups"
 				{
@@ -199,39 +194,37 @@
 			{
 				"weapon"					"weapon_defib"
 				
-				"weapon"					"weapon_codmw19_ak47" 
-				"weapon"					"weapon_vietnam_m2carbine"
-				"weapon"					"weapon_sandstorm_qbz03"
-				"weapon"					"weapon_sandstorm_steyrauga3"
-				//"weapon"					"weapon_vietnam_xm16e1"
-				"weapon"					"weapon_sandstorm_sig_mcx"
-				"weapon"					"weapon_vietnam_car15"
-				"weapon"					"weapon_sandstorm_m16a4"
-				"weapon"					"weapon_sandstorm_ak74"
-				"weapon"					"weapon_sandstorm_famas"
-				"weapon"					"weapon_sandstorm_m4a1"
-				"weapon"					"weapon_sandstorm_honeybadger"
-				"weapon"					"weapon_sandstorm_glock17"
-				"weapon"					"weapon_sandstorm_manurhinmr73"
-				"weapon"					"weapon_sandstorm_m67"
-				"weapon"					"weapon_sandstorm_mp443"
-				"weapon"					"weapon_sandstorm_qbz97"
-				"weapon"					"weapon_sandstorm_hk416d"
+				"weapon"					"weapon_sandstorm_galil" 
+				"weapon"					"weapon_vietnam_akmtactical"
+				"weapon"					"weapon_sandstorm_ak12"
+				"weapon"					"weapon_sandstorm_rpk"
+				"weapon"					"weapon_sandstorm_galil_sar"
+				"weapon"					"weapon_sandstorm_m14"
+				"weapon"					"weapon_sandstorm_l85a2"
 				
-				//"weapon"					"weapon_sandstorm_molotov"
-				//"weapon"					"weapon_sandstorm_anm14"
+				"weapon"					"weapon_sandstorm_makarov"
+				"weapon"					"weapon_codmw19_p320"
+				"weapon"					"weapon_sandstorm_pf940"
+				"weapon"					"weapon_workshop_glock21"
+			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"optic_sandstorm_mk4"		"99"
+				}
 			}
 		}
 		
-		"template_sandstorm_coop_rifleman_at_medic_1"
+		"template_sandstorm_coop_marksniper_medic"
 		{
 			"team"						"security"
 			"print_name"				"#Squad_Sandstorm_Rifleman"
 			
 			"models"
 			{
-				"player"				"models/characters/security_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"				"models/characters/security_standard_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 			
 				"bodygroups"
 				{
@@ -250,42 +243,31 @@
 			{
 				"weapon"					"weapon_defib"
 				
-				"weapon"					"weapon_codmw19_mp510"
-				"weapon"					"weapon_codmw19_ak47" 
-				"weapon"					"weapon_vietnam_m2carbine"
-				"weapon"					"weapon_vietnam_ithacam37"
-				"weapon"					"weapon_sandstorm_mk18"
-				//"weapon"					"weapon_codmw19_striker45"
-				"weapon"					"weapon_vietnam_model605"
-				"weapon"					"weapon_workshop_fiveseven"
-				"weapon"					"weapon_workshop_fiveseven_microh1"
-				"weapon"					"weapon_sandstorm_saiga_12"
-				"weapon"					"weapon_coldwar_gallosa12"
-				"weapon"					"weapon_sandstorm_toz"
-				"weapon"					"weapon_sandstorm_m870"
-				"weapon"					"weapon_sandstorm_mp5a5"
-				"weapon"					"weapon_sandstorm_akm"
-				"weapon"					"weapon_sandstorm_vhs2"
-				"weapon"					"weapon_sandstorm_sigp226"
-				"weapon"					"weapon_sandstorm_m67"
-				"weapon"					"weapon_sandstorm_c4_clicker"
-				"weapon"					"weapon_sandstorm_rpg7"
-				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_hk417a2"
+				"weapon"					"weapon_sandstorm_vssvintorez" 
+				"weapon"					"weapon_sandstorm_m110a1"
+				"weapon"					"weapon_sandstorm_sks"
+				"weapon"					"weapon_sandstorm_m14"
+				"weapon"					"weapon_sandstorm_m110"
+				"weapon"					"weapon_sandstorm_l1a1"
+				"weapon"					"weapon_sandstorm_m82a1"
 				
-				//"weapon_upgrade"			"underbarrel_m203_smoke"
-				//"weapon_upgrade"			"underbarrel_gp25_smoke"					
+				"weapon"					"weapon_sandstorm_makarov"
+				"weapon"					"weapon_sandstorm_m9"
+				"weapon"					"weapon_sandstorm_mp443"
+				"weapon"					"weapon_workshop_glock21"
 			}
 		}
 
-		"template_sandstorm_coop_recon_fast_medic"
+		"template_sandstorm_coop_heavygunner_medic"
 		{
 			"team"						"security"
 			"print_name"				"#Squad_Sandstorm_Breacher"
 			
 			"models"
 			{
-				"player"				"models/characters/security_light_f.mdl"
-				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
+				"player"				"models/characters/security_heavy_f.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_h.mdl"
 			
 				"bodygroups"
 				{
@@ -304,48 +286,37 @@
 			{
 				"weapon"					"weapon_defib"
 				
-				"weapon"					"weapon_codmw19_mp510"
-				"weapon"					"weapon_sandstorm_vector"
-				"weapon"					"weapon_vietnam_m2carbine"
-				"weapon"					"weapon_vietnam_thompson"
-				"weapon"					"weapon_sandstorm_aks74u"
-				//"weapon"					"weapon_codmw19_striker45"
-				"weapon"					"weapon_codmwr_miniuzi"
-				"weapon"					"weapon_coldwar_gallosa12"
-				"weapon"					"weapon_sandstorm_p90"
-				"weapon"					"weapon_sandstorm_sig_mpx"
-				"weapon"					"weapon_vietnam_type56"
-				"weapon"					"weapon_sandstorm_uzi"
-				"weapon"					"weapon_sandstorm_sterling"
-				"weapon"					"weapon_sandstorm_mp5a2"
-				"weapon"					"weapon_sandstorm_mp7"
-				"weapon"					"weapon_sandstorm_asval"
-				"weapon"					"weapon_sandstorm_tariq"
+				"weapon"					"weapon_sandstorm_m240"
+				"weapon"					"weapon_sandstorm_m249"
+				"weapon"					"weapon_vietnam_m60"
+				"weapon"					"weapon_sandstorm_l1a1"
+				"weapon"					"weapon_sandstorm_galil"
+				"weapon"					"weapon_vietnam_akmtactical"
+				"weapon"					"weapon_sandstorm_rpk"
+				
 				"weapon"					"weapon_workshop_glock21"
-				"weapon"					"weapon_sandstorm_m67"
 				"weapon"					"weapon_sandstorm_mp443"
-				"weapon"					"weapon_sandstorm_apc9pro"
-				//"weapon"					"weapon_sandstorm_molotov"
+				"weapon"					"weapon_sandstorm_hipower"
+				"weapon"					"weapon_sandstorm_makarov"
 			}
 			
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_coldwar_gallosa12"			"1"
 				}
 			}
 		}
 		
-		"template_sandstorm_coop_marksman_medic_1"
+		"template_sandstorm_coop_battlesapper_medic"
 		{
 			"team"						"security"
 			"print_name"				"#Squad_Sandstorm_Gunner"
 			
 			"models"
 			{
-				"player"				"models/characters/security_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"				"models/characters/security_standard_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 			
 				"bodygroups"
 				{
@@ -359,45 +330,48 @@
 				"gear"						"sec_light_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
 				"weapon"					"weapon_defib"
+				"gear"						"gear_ammocrate"
 			}
 			
 			"allowed_items"
 			{
 				"weapon"					"weapon_defib"
 				
-				"weapon"					"weapon_sandstorm_m16a4"
-				"weapon"					"weapon_codmw19_p320"
-				"weapon"					"weapon_sandstorm_hk417a2"
-				"weapon"					"weapon_sandstorm_m110a1"
-				"weapon"					"weapon_sandstorm_m82a1"
-				"weapon"					"weapon_workshop_fiveseven"
-				"weapon"					"weapon_workshop_fiveseven_microh1"
-				"weapon"					"weapon_vietnam_m40"
-				"weapon"					"weapon_sandstorm_m110"
-				"weapon"					"weapon_sandstorm_mosin"
-				"weapon"					"weapon_sandstorm_m24"
-				"weapon"					"weapon_sandstorm_sks"
-				"weapon"					"weapon_sandstorm_m14"
-				"weapon"					"weapon_sandstorm_svd"
-				"weapon"					"weapon_vietnam_xm21"
-				"weapon"					"weapon_sandstorm_vssvintorez"
-				//"weapon"					"weapon_workshop_m98b"
-				"weapon"					"weapon_sandstorm_welrod"
+				"weapon"					"weapon_vietnam_m2carbine"
+				"weapon"					"weapon_sandstorm_ak74"
+				"weapon"					"weapon_sandstorm_honeybadger"
+				"weapon"					"weapon_sandstorm_sig_mcx"
+				"weapon"					"weapon_sandstorm_mp7"
+				"weapon"					"weapon_sandstorm_p90"
+				"weapon"					"weapon_coldwar_gallosa12"
+				"weapon"					"weapon_sandstorm_saiga_12"
+				"weapon"					"weapon_sandstorm_sterling"
+				"weapon"					"weapon_sandstorm_vhs2"
+				"weapon"					"weapon_sandstorm_l85a2"
+				"weapon"					"weapon_sandstorm_m4a1"
+				
 				"weapon"					"weapon_sandstorm_makarov"
-				//"weapon"					"weapon_vietnam_m1911a1"
-				"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_codmw19_p320"
+				"weapon"					"weapon_workshop_fiveseven_microh1"
+				"weapon"					"weapon_sandstorm_pf940"
+				"weapon"					"weapon_workshop_glock21"
+				
+				"weapon"					"weapon_sandstorm_anm14"
+				"weapon"					"weapon_sandstorm_c4_clicker"
+				
+				"gear"						"gear_ammocrate"
 			}
 		}
 		
-		"template_sandstorm_coop_support_medic_1"
+		"template_sandstorm_coop_breacher_medic"
 		{
 			"team"						"security"
 			"print_name"				"#Squad_Sandstorm_Demolitions"
 			
 			"models"
 			{
-				"player"				"models/characters/security_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"player"				"models/characters/security_heavy_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_h.mdl"
 			
 				"bodygroups"
 				{
@@ -417,27 +391,41 @@
 				"weapon"					"weapon_defib"
 				
 				"weapon"					"weapon_codmw19_ak47"
-				"weapon"					"weapon_vietnam_swm1917"
-				"weapon"					"weapon_vietnam_m60"
-				"weapon"					"weapon_sandstorm_galil"
-				"weapon"					"weapon_sandstorm_m240"
-				"weapon"					"weapon_sandstorm_m249"
-				"weapon"					"weapon_sandstorm_hipower"
+				"weapon"					"weapon_sandstorm_akm"
+				"weapon"					"weapon_sandstorm_m870"
+				"weapon"					"weapon_sandstorm_g36k"
+				"weapon"					"weapon_sandstorm_alphaak"
+				"weapon"					"weapon_vietnam_mp40"
+				"weapon"					"weapon_sandstorm_m1garand"
+				"weapon"					"weapon_sandstorm_vhs2"
+				"weapon"					"weapon_vietnam_ithacam37"
+				"weapon"					"weapon_sandstorm_saiga_12"
+				"weapon"					"weapon_sandstorm_vhs2"
+				"weapon"					"weapon_coldwar_krig6"
+				
+				"weapon"					"weapon_sandstorm_pf940"
+				"weapon"					"weapon_sandstorm_glock17"
+				"weapon"					"weapon_sandstorm_mp443"
+				"weapon"					"weapon_vietnam_tt33"
 				"weapon"					"weapon_workshop_glock21"
-				"weapon"					"weapon_sandstorm_m67"
-				"weapon"					"weapon_sandstorm_hkusp45"
+				
+				"weapon"					"weapon_sandstorm_anm14"
+				"weapon"					"weapon_sandstorm_molotov"
+				"weapon"					"weapon_sandstorm_c4_clicker"
+				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_rpg7"
 			}
 		}
 		
-		"template_sandstorm_coop_vip_medic"
+		"template_sandstorm_coop_ssniper_medic"
 		{
 			"team"						"security"
 			"print_name"				"#Squad_Sandstorm_Advisor"
 			
 			"models"
 			{
-				"player"				"models/characters/security_light_f.mdl"
-				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
+				"player"				"models/characters/security_standard_f.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_m.mdl"
 			
 				"bodygroups"
 				{
@@ -451,157 +439,254 @@
 				"gear"						"sec_light_armor"
 				"gear"						"sec_sandstorm_chest_carrier"
 				"weapon"					"weapon_defib"	
-				"gear"						"gear_iedjammer"
 			}
 			"allowed_items"
 			{
 				"weapon"					"weapon_defib"
 				
-				"weapon"					"weapon_codmw19_mp510"
-				"weapon"					"weapon_sandstorm_mp443"
-				"weapon"					"weapon_sandstorm_hkusp45"
-				"weapon"					"weapon_vietnam_m2carbine"
-				"weapon"					"weapon_vietnam_ithacam37"
-				"weapon"					"weapon_vietnam_thompson"
-				"weapon"					"weapon_vietnam_swm1917"
-				"weapon"					"weapon_vietnam_mp40"
-				"weapon"					"weapon_coldwar_gallosa12"
-				"weapon"					"weapon_sandstorm_p90"
-				"weapon"					"weapon_sandstorm_saiga_12"
-				"weapon"					"weapon_sandstorm_ace52"
-				"weapon"					"weapon_sandstorm_greasegun"
-				"weapon"					"weapon_sandstorm_m1garand"
-				"weapon"					"weapon_sandstorm_m16a2"
-				"weapon"					"weapon_sandstorm_aks74u"
-				"weapon"					"weapon_sandstorm_mk18"
-				"weapon"					"weapon_sandstorm_m45"
-				"weapon"					"weapon_sandstorm_pf940"
-				"weapon"					"weapon_sandstorm_manurhinmr73"
-				"weapon"					"weapon_sandstorm_m67"
-				"weapon"					"weapon_sandstorm_anm14"
-				"weapon"					"weapon_sandstorm_molotov"
-				"weapon"					"weapon_sandstorm_c4_clicker"
-				"weapon"					"weapon_sandstorm_mk18tan"
-				"gear"						"gear_iedjammer"
-			}
-			
-			"cost_modifiers"
-			{
-				"weapon"
-				{
-					"weapon_coldwar_gallosa12"			"1"
-					"weapon_sandstorm_saiga_12"			"1"
-					"weapon_vietnam_ithacam37"			"1"
-				}
-			}
-		}
-		
-		"template_sandstorm_coop_vip_fp_medic"
-		{
-			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Marksman"
-			
-			"models"
-			{
-				"player"				"models/characters/security_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-			
-				"bodygroups"
-				{
-					"kit"					"0"
-					"backpack"				"0"
-				}
-			}
-			
-			"buy_order"
-			{
-				"gear"						"sec_light_armor"
-				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_defib"
-				"weapon"					"weapon_makarov_fp"
-			}
-			
-			"allowed_items"
-			{
-				"weapon"					"weapon_defib"
+				"weapon"					"weapon_sandstorm_mosin"
+				"weapon"					"weapon_vietnam_m40"
+				"weapon"					"weapon_sandstorm_m24"
+				"weapon"					"weapon_sandstorm_m82a1"
+				"weapon"					"weapon_sandstorm_svd"
+				"weapon"					"weapon_sandstorm_m16a4"
+				"weapon"					"weapon_vietnam_xm21"
 				
-				"weapon"					"weapon_codmw19_mp510"
-				"weapon"					"weapon_sandstorm_mp443"
-				"weapon"					"weapon_sandstorm_hkusp45"
-				"weapon"					"weapon_vietnam_m2carbine"
-				"weapon"					"weapon_vietnam_ithacam37"
-				"weapon"					"weapon_vietnam_swm1917"
-				"weapon"					"weapon_vietnam_mp40"
-				"weapon"					"weapon_coldwar_gallosa12"
-				"weapon"					"weapon_sandstorm_saiga_12"
-				"weapon"					"weapon_sandstorm_ace52"
-				"weapon"					"weapon_sandstorm_greasegun"
-				"weapon"					"weapon_sandstorm_m1garand"
-				"weapon"					"weapon_sandstorm_m16a2"
-				"weapon"					"weapon_sandstorm_aks74u"
-				"weapon"					"weapon_sandstorm_mk18"
-				"weapon"					"weapon_sandstorm_m67"
-				"weapon"					"weapon_sandstorm_anm14"
-				"weapon"					"weapon_sandstorm_molotov"
-				"weapon"					"weapon_sandstorm_c4_clicker"
-				"weapon"					"weapon_sandstorm_mk18tan"
-				"weapon"					"weapon_makarov_fp"
-				"weapon"					"weapon_sandstorm_manurhinmr73"
-			}
-			
-			"cost_modifiers"
-			{
-				"weapon"
-				{
-					"weapon_coldwar_gallosa12"			"1"
-					"weapon_sandstorm_saiga_12"			"1"
-					"weapon_vietnam_ithacam37"			"1"
-				}
-			}
-		}
-		
-		"template_sandstorm_coop_support_medic_2"
-		{
-			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Marksman"
-			
-			"models"
-			{
-				"player"				"models/characters/security_light_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
-			
-				"bodygroups"
-				{
-					"kit"					"0"
-					"backpack"				"0"
-				}
-			}
-			
-			"buy_order"
-			{
-				"gear"						"sec_light_armor"
-				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_defib"
-			}
-			
-			"allowed_items"
-			{
-				"weapon"					"weapon_defib"
-				
-				"weapon"					"weapon_vietnam_akmtactical"
-				"weapon"					"weapon_workshop_fiveseven"
-				"weapon"					"weapon_workshop_fiveseven_microh1"
-				"weapon"					"weapon_coldwar_krig6"
-				"weapon"					"weapon_sandstorm_qbz03"
-				"weapon"					"weapon_sandstorm_steyrauga3"
-				"weapon"					"weapon_sandstorm_alphaak"
-				"weapon"					"weapon_sandstorm_galil_sar"
-				"weapon"					"weapon_sandstorm_rpk"
+				"weapon"					"weapon_sandstorm_makarov"
 				"weapon"					"weapon_sandstorm_m9"
-				"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_workshop_fiveseven"
+				"weapon"					"weapon_workshop_glock21"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+				}
+			}
+		}
+		
+		"template_sandstorm_coop_engi_medic"
+		{
+			"team"						"security"
+			"print_name"				"#Squad_Sandstorm_Marksman"
+			
+			"models"
+			{
+				"player"				"models/characters/security_standard_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"						"sec_light_armor"
+				"gear"						"sec_sandstorm_chest_carrier"
+				"weapon"					"weapon_defib"
+				"gear"						"gear_iedjammer"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"					"weapon_defib"
+				
+				"weapon"					"weapon_sandstorm_toz"
+				"weapon"					"weapon_sandstorm_mp7"
+				"weapon"					"weapon_sandstorm_p90"
+				"weapon"					"weapon_sandstorm_aks74u"
+				"weapon"					"weapon_vietnam_m2carbine"
+				"weapon"					"weapon_sandstorm_famas"
+				"weapon"					"weapon_sandstorm_honeybadger"
+				"weapon"					"weapon_sandstorm_sterling"
+				"weapon"					"weapon_coldwar_krig6"
+				
+				"weapon"					"weapon_workshop_glock21"
+				"weapon"					"weapon_sandstorm_manurhinmr73"
+				"weapon"					"weapon_sandstorm_pf940"
+				"weapon"					"weapon_vietnam_swm1917"
+				
+				"weapon"					"weapon_sandstorm_anm14"
+				"weapon"					"weapon_sandstorm_molotov"
+				
+				"gear"						"gear_iedjammer"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+				}
+			}
+		}
+		
+		"template_sandstorm_coop_vip_medic"
+		{
+			"team"						"security"
+			"print_name"				"#Squad_Sandstorm_Marksman"
+			
+			"models"
+			{
+				"player"				"models/characters/security_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"						"sec_light_armor"
+				"gear"						"sec_sandstorm_chest_carrier"
+				"weapon"					"weapon_defib"
+				"weapon"					"weapon_makarov_fp"
+				"weapon_upgrade"			"siderail_lasersight_fp"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"					"weapon_defib"
+				
+				"weapon"					"weapon_sandstorm_mp7"
+				"weapon"					"weapon_sandstorm_hk417a2"
+				"weapon"					"weapon_codmw19_mp510"
+				"weapon"					"weapon_sandstorm_mk18"
+				"weapon"					"weapon_sandstorm_mk18tan"
+				"weapon"					"weapon_sandstorm_hk416d"
+				"weapon"					"weapon_sandstorm_ace52"
+				"weapon"					"weapon_sandstorm_mp5a5"
+				"weapon"					"weapon_sandstorm_g36k"
+				"weapon"					"weapon_vietnam_thompson"
+				"weapon"					"weapon_sandstorm_saiga_12"
+				
+				"weapon"					"weapon_workshop_glock21"
+				"weapon"					"weapon_sandstorm_m45"
 				"weapon"					"weapon_sandstorm_hkusp45"
-				"weapon"					"weapon_sandstorm_ak12"
-				//"weapon"					"weapon_sandstorm_anm14"
+				"weapon"					"weapon_makarov_fp"
+				"weapon"					"weapon_sandstorm_pf940"
+				
+				"weapon"					"weapon_sandstorm_anm14"
+				"weapon"					"weapon_sandstorm_molotov"
+				"weapon"					"weapon_sandstorm_c4_clicker"
+			}
+		}
+		
+		"template_sandstorm_coop_vip2_medic"
+		{
+			"team"						"security"
+			"print_name"				"#Squad_Sandstorm_Marksman"
+			
+			"models"
+			{
+				"player"				"models/characters/security_light_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"						"sec_light_armor"
+				"gear"						"sec_sandstorm_chest_carrier"
+				"weapon"					"weapon_defib"
+				"weapon"					"weapon_makarov_fp"
+				"weapon_upgrade"			"siderail_lasersight_fp"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"					"weapon_defib"
+				
+				"weapon"					"weapon_sandstorm_sig_mpx"
+				"weapon"					"weapon_sandstorm_sig_mcx"
+				"weapon"					"weapon_sandstorm_p90"
+				"weapon"					"weapon_sandstorm_mk18"
+				"weapon"					"weapon_sandstorm_mk18tan"
+				"weapon"					"weapon_sandstorm_vhs2"
+				"weapon"					"weapon_sandstorm_ace52"
+				"weapon"					"weapon_sandstorm_aks74u"
+				"weapon"					"weapon_codmwr_miniuzi"
+				"weapon"					"weapon_vietnam_thompson"
+				"weapon"					"weapon_sandstorm_saiga_12"
+				
+				"weapon"					"weapon_workshop_glock21"
+				"weapon"					"weapon_codmw19_p320"
+				"weapon"					"weapon_sandstorm_sigp226"
+				"weapon"					"weapon_makarov_fp"
+				"weapon"					"weapon_sandstorm_pf940"
+				
+				"weapon"					"weapon_sandstorm_anm14"
+				"weapon"					"weapon_sandstorm_molotov"
+				"weapon"					"weapon_sandstorm_c4_clicker"
+			}
+		}
+		
+		"template_sandstorm_coop_weaponexpert_medic"
+		{
+			"team"						"security"
+			"print_name"				"#Squad_Sandstorm_Marksman"
+			
+			"models"
+			{
+				"player"				"models/characters/security_heavy_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_h.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"gear"						"sec_light_armor"
+				"gear"						"sec_sandstorm_chest_carrier"
+				"weapon"					"weapon_defib"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"					"weapon_defib"
+				
+				"weapon"					"weapon_sandstorm_sterling"
+				"weapon"					"weapon_sandstorm_alphaak"
+				"weapon"					"weapon_sandstorm_mk18"
+				"weapon"					"weapon_sandstorm_mk18tan"
+				"weapon"					"weapon_sandstorm_m16a2"
+				"weapon"					"weapon_sandstorm_honeybadger"
+				"weapon"					"weapon_sandstorm_hk416d"
+				"weapon"					"weapon_sandstorm_mp5a2"
+				"weapon"					"weapon_vietnam_mp40"
+				"weapon"					"weapon_sandstorm_m1garand"
+				"weapon"					"weapon_vietnam_m2carbine"
+				"weapon"					"weapon_sandstorm_greasegun"
+				"weapon"					"weapon_vietnam_model605"
+				"weapon"					"weapon_sandstorm_famas"
+				"weapon"					"weapon_sandstorm_sig_mcx"
+				"weapon"					"weapon_sandstorm_m4a1"
+				"weapon"					"weapon_sandstorm_m16a4"
+				
+				"weapon"					"weapon_sandstorm_manurhinmr73"
+				"weapon"					"weapon_vietnam_swm1917"
+				"weapon"					"weapon_sandstorm_hkusp45"
+				"weapon"					"weapon_sandstorm_sigp226"
+				"weapon"					"weapon_sandstorm_welrod"
+				"weapon"					"weapon_sandstorm_pf940"
+				
+				"weapon"					"weapon_sandstorm_anm14"
+				"weapon"					"weapon_sandstorm_molotov"
 			}
 		}
 		
@@ -641,6 +726,8 @@
 				"weapon"					"weapon_sandstorm_rpg7"
 				"weapon"					"weapon_sandstorm_at4"
 				"weapon"					"weapon_sandstorm_anm14"
+				
+				"gear"						"srnx_player_juggernaut_armor"
 			}
 		}
 		

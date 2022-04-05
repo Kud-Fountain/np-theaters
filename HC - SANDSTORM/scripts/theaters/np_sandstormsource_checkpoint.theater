@@ -11,32 +11,32 @@
 				// assault squad
 				"#Fireteam_Assault_Squad"	// small arms
 				{
-					"#Squad_Gnalvl_SquadLeader"				"template_sandstorm_coop_squadleader_medic"
-					"#Squad_Gnalvl_Riflepoint"				"template_sandstorm_coop_recon_fast_medic"
-					"#Squad_Gnalvl_Rifleman_AT2"			"template_sandstorm_coop_rifleman_at_medic_2"
-					"#Squad_Gnalvl_Rifleman_AT2"			"template_sandstorm_coop_rifleman_at_medic_2"
-					"#Squad_Gnalvl_Auto"					"template_sandstorm_coop_support_medic_1"
-					"#Squad_Gnalvl_Rifleman_AT"				"template_sandstorm_coop_rifleman_at_medic_1"
-					"#Squad_Gnalvl_Auto2"					"template_sandstorm_coop_support_medic_2"
+					"#squad_sleader"				"template_sandstorm_coop_sleader_medic"
+					"#squad_scout"					"template_sandstorm_coop_scout_medic"
+					"#squad_breacher"				"template_sandstorm_coop_breacher_medic"
+					"#squad_battlesapper"			"template_sandstorm_coop_battlesapper_medic"
+					"#squad_firesupport"			"template_sandstorm_coop_firesupport_medic"
+					"#squad_heavygunner"			"template_sandstorm_coop_heavygunner_medic"
+					"#squad_marksniper"				"template_sandstorm_coop_marksniper_medic"
 				}
-				"#Fireteam_Medic_Engineer"
+				"#Fireteam_Support"
 				{
-					"#Squad_Gnalvl_SquadLeader"				"template_sandstorm_coop_squadleader_1_medic"
-					"#Squad_Gnalvl_Riflepoint"				"template_sandstorm_coop_recon_fast_medic"
-					"#Squad_Gnalvl_Rifleman_AT2"			"template_sandstorm_coop_rifleman_at_medic_2"
-					"#Squad_Gnalvl_Rifleman_AT2"			"template_sandstorm_coop_rifleman_at_medic_2"
-					"#Squad_Gnalvl_Auto"					"template_sandstorm_coop_support_medic_1"
-					"#Squad_Gnalvl_Rifleman_AT"				"template_sandstorm_coop_rifleman_at_medic_1"
-					"#Squad_Gnalvl_Auto2"					"template_sandstorm_coop_support_medic_2"
+					"#squad_sleader"				"template_sandstorm_coop_sleader_medic"
+					"#squad_scout"					"template_sandstorm_coop_scout_medic"
+					"#squad_breacher"				"template_sandstorm_coop_breacher_medic"
+					"#squad_battlesapper"			"template_sandstorm_coop_battlesapper_medic"
+					"#squad_firesupport"			"template_sandstorm_coop_firesupport_medic"
+					"#squad_heavygunner"			"template_sandstorm_coop_heavygunner_medic"
+					"#squad_marksniper"				"template_sandstorm_coop_marksniper_medic"
 				}
 				"#Fireteam_Backup"
 				{
-					"#Squad_Gnalvl_VIP"						"template_sandstorm_coop_vip_medic"
-					"#Squad_Gnalvl_VIP_FP"					"template_sandstorm_coop_vip_fp_medic"
-					"#Squad_Gnalvl_Marksman"				"template_sandstorm_coop_marksman_medic_1"
-					"#Squad_Gnalvl_Marksman"				"template_sandstorm_coop_marksman_medic_1"
-					"#Squad_Gnalvl_Rifleman_AT2"			"template_sandstorm_coop_rifleman_at_medic_2"
-					"#Squad_Gnalvl_Rifleman_AT2"			"template_sandstorm_coop_rifleman_at_medic_2"
+					"#squad_weaponexpert"			"template_sandstorm_coop_weaponexpert_medic"
+					"#squad_engi"					"template_sandstorm_coop_engi_medic"
+					"#squad_vip"					"template_sandstorm_coop_vip_medic"
+					"#squad_vip"					"template_sandstorm_coop_vip2_medic"
+					"#squad_ssniper"				"template_sandstorm_coop_ssniper_medic"
+					"#squad_ssniper"				"template_sandstorm_coop_ssniper_medic"
 				}
 			}
 		}
