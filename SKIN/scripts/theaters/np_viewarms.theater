@@ -559,5 +559,17 @@
 			"gear_slot"					"misc2"
 			"viewmodel_hands_override"	"models/wn_custom/arms/nailin_arms.mdl"
 		}
+		
+		"hands_godzilla"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/godzilla_arms.mdl"
+		}
+		
+		"hands_delta_8bit"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/delta_8bit_arms.mdl"
+		}
 	}
 }
