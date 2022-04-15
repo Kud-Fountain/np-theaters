@@ -577,5 +577,11 @@
 			"gear_slot"					"misc2"
 			"viewmodel_hands_override"	"models/wn_custom/arms/eula_arms.mdl"
 		}
+		
+		"hands_dnf_mage_f"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/dnf_mage_f_arms.mdl"
+		}
 	}
 }
