@@ -571,5 +571,11 @@
 			"gear_slot"					"misc2"
 			"viewmodel_hands_override"	"models/wn_custom/arms/delta_8bit_arms.mdl"
 		}
+		
+		"hands_eula"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/eula_arms.mdl"
+		}
 	}
 }
