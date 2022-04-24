@@ -56,6 +56,8 @@
 				"weapon"				"weapon_sandstorm_m1911"
 				"weapon"				"weapon_vietnam_tt33"
 				"weapon"				"weapon_sandstorm_m16a4"
+				"weapon"				"weapon_workshop_br10"
+				"weapon"				"weapon_codmw19_an94"
 				"weapon"				"weapon_sandstorm_m16a2"
 				"weapon"				"weapon_sandstorm_mk18"
 				"weapon"				"weapon_sandstorm_mk18tan"
@@ -224,6 +226,8 @@
 				"weapon"				"weapon_sandstorm_m1911"
 				"weapon"				"weapon_vietnam_tt33"
 				"weapon"				"weapon_sandstorm_m16a4"
+				"weapon"				"weapon_workshop_br10"
+				"weapon"				"weapon_codmw19_an94"
 				"weapon"				"weapon_sandstorm_m16a2"
 				"weapon"				"weapon_sandstorm_mk18"
 				"weapon"				"weapon_sandstorm_mk18tan"
@@ -936,6 +940,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_ak74"
+				"weapon"				"weapon_codmw19_an94"
 				"weapon"				"weapon_sandstorm_aks74u"
 				"weapon"				"weapon_sandstorm_qbz03"
 			}
@@ -949,6 +954,7 @@
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_sandstorm_ak74"
+				"weapon"				"weapon_codmw19_an94"
 				"weapon"				"weapon_sandstorm_aks74u"
 				"weapon"				"weapon_sandstorm_qbz03"
 			}
@@ -1004,6 +1010,7 @@
 				"weapon"				"weapon_sandstorm_mk17"
 				"weapon"				"weapon_sandstorm_m14"
 				"weapon"				"weapon_vietnam_xm21"
+				"weapon"				"weapon_workshop_br10"
 			}
 			"ammo_type_override"			"762x51_mag_hp"
 		}
@@ -1017,6 +1024,7 @@
 				"weapon"				"weapon_sandstorm_mk17"
 				"weapon"				"weapon_sandstorm_m14"
 				"weapon"				"weapon_vietnam_xm21"
+				"weapon"				"weapon_workshop_br10"
 			}
 			"ammo_type_override"			"762x51_mag_ap"
 		}	
@@ -1724,6 +1732,42 @@
 						"freeaim_frac_ads"				"1.0"
 					}				
 				}
+				
+				"weapon_workshop_br10"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}				
+				
+				"weapon_codmw19_an94"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}				
 
 				"weapon_vietnam_model605"
 				{			
@@ -3010,6 +3054,8 @@
 				"weapon"				"weapon_sandstorm_m1911"
 				"weapon"				"weapon_vietnam_tt33"
 				"weapon"				"weapon_sandstorm_m16a4"
+				"weapon"				"weapon_workshop_br10"
+				"weapon"				"weapon_codmw19_an94"
 				"weapon"				"weapon_sandstorm_m16a2"
 				"weapon"				"weapon_sandstorm_mk18"
 				"weapon"				"weapon_sandstorm_mk18tan"
@@ -3536,6 +3582,30 @@
 						"fov_wpn_focus"				"75"
 					}			
 				}	
+				
+				"weapon_workshop_br10"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"72"
+						"fov_wpn_focus"				"75"
+					}			
+				}					
+				
+				"weapon_codmw19_an94"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-25"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"100"
+						"fov_wpn_ironsight"			"72"
+						"fov_wpn_focus"				"75"
+					}			
+				}					
 
 				"weapon_vietnam_model605"
 				{			
@@ -4275,6 +4345,8 @@
 				"weapon"				"weapon_vietnam_m2carbine"
 				"weapon"				"weapon_sandstorm_vhs2"
 				"weapon"				"weapon_sandstorm_m16a4"
+				"weapon"				"weapon_workshop_br10"
+				"weapon"				"weapon_codmw19_an94"
 				"weapon"				"weapon_sandstorm_mk18"
 				"weapon"				"weapon_sandstorm_mk18tan"
 				"weapon"				"weapon_sandstorm_car15"

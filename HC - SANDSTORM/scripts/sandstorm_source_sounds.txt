@@ -7483,3 +7483,336 @@
     "soundlevel"	"SNDLVL_GUNFIRE"
 	"wave"		    "sandstorm/mp443/mp443_fp.wav"		
 }
+
+// --------------------------
+// AN-94
+// --------------------------
+
+
+"Weapon_AN94.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_94dB "
+	"rndwave"
+	{
+	"wave"	        ")codmw19/an94/M16A4_tp.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start3"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_AN94.SingleDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                  "volume_accumulate"
+                        {
+                               "input3" "0.7"
+                        }
+
+		}
+	}
+
+}
+
+"Weapon_AN94.SingleDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_110dB"
+	"wave"			")codmw19/an94/M16A4_dist.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+}
+} 
+}
+
+"Weapon_AN94.SingleLocal"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"	    "1.0"
+	"pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+    "wave"	        "codmw19/an94/M16A4_fp.wav"	
+}
+
+"Weapon_AN94.SingleSilenced"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"	    "1.0"
+	"pitch"			"100,105"
+	"soundlevel"  	"SNDLVL_90dB"
+	"rndwave"
+	{
+	"wave"	        ")codmw19/an94/M16A4_suppressed_tp.wav"	
+	}
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "INS_distance_weapon_start"
+			"import_stack" "INS_limit_start"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_AN94.SingleSilencedDistant"
+			}
+		}
+		
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ThirdWeapons"
+			}
+		"volume_xfade_start_dist"
+		{
+			"input2" "100"
+		}	
+		"volume_xfade_end_dist"
+		{
+			"input2" "1200"
+		}	
+
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			                        "volume_accumulate"
+                        {
+                               "input3" "0.7"
+                        }
+
+		}
+	}
+
+}
+
+"Weapon_AN94.SingleSilencedDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  	"SNDLVL_94dB"
+	"wave"			"weapons/universal/null.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "INS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "INS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+}
+} 
+}
+
+
+
+"Weapon_AN94.SingleSilencedLocal"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"pitch"			"100,105"
+    "soundlevel"	"SNDLVL_GUNFIRE"
+	"wave"			"codmw19/an94/M16A4_suppressed_fp.wav"	
+}
+
+// M16 HANDLING
+
+"Weapon_AN94.Magrelease"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"codmw19/an94/handling/M16_magrelease.wav" 
+}
+
+"Weapon_AN94.MagHitrelease"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"codmw19/an94/handling/M16_maghitrelease.wav" 
+}
+
+"Weapon_AN94.Magin"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"codmw19/an94/handling/M16_magin.wav" 
+}
+
+"Weapon_AN94.Magout"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"codmw19/an94/handling/M16_magout.wav" 
+}
+
+"Weapon_AN94.Boltback"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"codmw19/an94/handling/M16_boltback.wav" 
+}
+
+"Weapon_AN94.Boltrelease"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.3"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"codmw19/an94/handling/M16_boltrelease.wav" 
+}
+
+"Weapon_AN94.Hit"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"codmw19/an94/handling/M16_hit.wav" 
+}
+
+"Weapon_AN94.Empty"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"codmw19/an94/handling/M16_empty.wav"  
+}
+
+"Weapon_AN94.ROF"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"		    "0.2"
+	"pitch"			    "PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"codmw19/an94/handling/M16_fireselect.wav"  
+}
+
+// RIOT SHIELD
+
+"Weapon_RiotShield.Single"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"	    "0.5"
+	"pitch"			"95,105"
+    "soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"          "weapons/knife/riot_shield_impact_01.wav"
+	"wave"          "weapons/knife/riot_shield_impact_02.wav"
+	"wave"          "weapons/knife/riot_shield_impact_03.wav"
+	"wave"          "weapons/knife/riot_shield_impact_04.wav"
+	}
+} 
+
+"Weapon_RiotShield.Melee_Hit"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"	    "0.5"
+	"pitch"			"95,105"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"          "weapons/knife/riot_shield_impact_01.wav"
+	"wave"          "weapons/knife/riot_shield_impact_02.wav"
+	"wave"          "weapons/knife/riot_shield_impact_03.wav"
+	"wave"          "weapons/knife/riot_shield_impact_04.wav"
+	}
+} 
+
+"Weapon_RiotShield.Melee_HitWorld"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"	    "0.5"
+	"pitch"			"95,105"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+	"wave"          "weapons/knife/riot_shield_impact_01.wav"
+	"wave"          "weapons/knife/riot_shield_impact_02.wav"
+	"wave"          "weapons/knife/riot_shield_impact_03.wav"
+	"wave"          "weapons/knife/riot_shield_impact_04.wav"
+	}
+}
+
+// ENGINEER SHOVEL
+
+"Weapon_enttool.Hit"
+{
+	"channel"		    "CHAN_ITEM"
+	"volume"		    "0.5"
+	"soundlevel"	    "SNDLVL_65dB"
+	"pitch"			    "95,105"
+	"rndwave"
+	{
+	"wave"				"engineer/shovel/ent_tool_melee_01.wav" 
+	"wave"				"engineer/shovel/ent_tool_melee_02.wav" 
+	"wave"             	        "engineer/shovel/ent_tool_melee_03.wav" 
+	"wave"				"engineer/shovel/ent_tool_melee_04.wav" 
+	"wave"				"engineer/shovel/ent_tool_melee_05.wav" 
+	"wave"             	        "engineer/shovel/ent_tool_melee_06.wav" 	
+	}
+}

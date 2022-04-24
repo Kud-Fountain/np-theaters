@@ -3,12 +3,12 @@
 
 "#base" "np_sandstormsource_gear.theater"
 "#base"	"np_viewarms.theater"
-"#base" "np_sandstormsource_gloves.theater"
+//"#base" "np_sandstormsource_gloves.theater"
 "#base" "np_sandstormsource_weapon_expansion.theater"
 "#base" "np_sandstormsource_weapon.theater"
 "#base" "np_sandstormsource_weapon_upgrades.theater"
 
-"#base" "np_sandstormsource_extras_addons.theater"
+"#base" "np_sandstormsource_exp_addons.theater"
 
 "theater"
 {

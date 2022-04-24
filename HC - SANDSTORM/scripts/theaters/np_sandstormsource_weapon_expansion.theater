@@ -104,6 +104,22 @@
 			{
 				"position"				"18 0 1"
 			}
+		
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/rifle"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}				
+			
 			"team_access"				"security, insurgent"
 		}
 
@@ -220,6 +236,22 @@
 			{
 				"position"				"28 -2 2"
 			}
+			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/rifle"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}					
+			
 			"team_access"				"security, insurgent"
 		}
 
@@ -331,6 +363,22 @@
 			{
 				"position"				"22 -4 2"
 			}
+			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/rifle"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}					
+			
 			"team_access"				"security, insurgent"
 		}
 
@@ -425,6 +473,22 @@
 			{
 				"position"				"22 -4 2"
 			}
+			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/rifle"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}					
+			
 			"team_access"				"security, insurgent"
 		}
 
@@ -520,6 +584,22 @@
 			{
 				"position"				"18 0 1"
 			}
+			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/rifle"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}					
+			
 			"team_access"				"security, insurgent"
 		}
 
@@ -638,12 +718,288 @@
 			{
 				"position"				"28 0 3"
 			}
+			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/rifle"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}					
+			
 			"team_access"				"security, insurgent"
 		}
 	
 		// ========================================
 		// ASSAULT RIFLES
 		// ========================================
+
+		"weapon_workshop_br10" // BUILT OFF M16A4
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"rifle_controlled_fire"
+			"print_name"				"#weapon_workshop_br10"
+			"print_desc"				"#weapon_workshop_br10_desc"
+			"view_model"				"models/workshp/v_br_10.mdl"
+			"world_model"				"models/workshp/wbr10.mdl"
+			"rounds_per_minute"			"600"
+			"burst_delay"				"0.15"
+			"bursts"					"1"
+			"weapon_slot"				"primary"
+			"act_table"					"shortrifle"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"0"	// (3.3kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +24[encumbrance]
+			"weapon_cost"				"3"
+			"class_restricted"			"1"
+			"barrel_length"				"24"
+			
+			"viewmodel_attachments"
+			{
+				"carryhandle"
+				{
+					"model"					"models/workshp/upgrades/a_carryhandlebr10.mdl"
+					"fallback_for_slot"			"optics"
+				}
+				"rail_large"
+				{
+					"model"					"models/workshp/upgrades/a_standard_br_10.mdl"
+					"fallback_for_slot"			"underbarrel"
+				}
+				
+			}
+			"world_attachments"
+			{
+				"flipsights"
+				{
+					"model"					"models/workshp/upgrades/w_br10up1.mdl"
+					"fallback_for_slot"			"optics"
+				}
+			}
+			"fov"
+			{
+				"fov_plr_ironsight"			"-25"
+				"fov_plr_focus"				"-12"
+				"fov_wpn_default"			"68"
+				"fov_wpn_ironsight"			"72"
+				"fov_wpn_focus"				"75"
+			}
+			"viewmodel_offsets"
+			{
+				// x back, y left, z down
+				"VMOffsetStand"				"0.65 -0.10 0.5"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_sandstorm_M14.Single"
+				"shot_single_local"			"Weapon_sandstorm_M14.SingleLocal"
+				"shot_silent"				"Weapon_sandstorm_M14.SingleSilenced"
+				"shot_silent_local"			"Weapon_sandstorm_M14.SingleSilencedLocal"
+				"empty"					"Weapon_M16A4.Empty"
+				"clipin"				"Weapon_M16A4.Magin"
+				"clipout"				"Weapon_M16A4.Magout"
+				"boltback"				"Weapon_M16A4.Boltback"
+				"boltrelease"				"Weapon_M16A4.Boltrelease"
+				"rofdown"				"Weapon_M16A4.ROF"
+				"rofup"					"Weapon_M16A4.ROF"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_m16_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_m16_3rd"
+				"particle_tracer"			"weapon_tracers"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-0.35 0.45"
+				"recoil_vertical_range"			"1.550 1.900"
+				"recoil_aim_punch"			"0.4 0.8"
+				"recoil_rest_rate"			"5"
+				"recoil_rest_delay"			"0.12"
+				"recoil_roll_range"			"-1.5 -1.5"
+				"recoil_roll_rest_rate"			"150"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"		"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"			"5"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+			}
+			"ballistics"
+			{
+				"spread"				"0.11 0.11 0.11"
+				"FireModes"				"burst, semi, full"
+				"bulletcount"				"1"
+				"maxrange"				"12000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"762x51_mag"
+				"clip_max"				"12"
+				"clip_max_rounds"			"20"
+				"clip_default"				"3"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"primary"
+			}
+			"kitui_offset"
+			{
+				"position"				"30 -3 3"
+			}
+			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/rifle"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}					
+			
+			"team_access"				"security, insurgent"
+		}
+
+		"weapon_codmw19_an94" // BUILT OFF M16A4
+		{
+			"import"					"ballistic_base"
+			"weapon_class"				"rifle_controlled_fire"
+			"print_name"				"#weapon_codmw19_an94"
+			"print_desc"				"#weapon_codmw19_an94_desc"
+			"view_model"				"models/codmw19/v_an_94.mdl"
+			"world_model"				"models/codmw19/wan94.mdl"
+			"rounds_per_minute"			"600"
+			"burst_delay"				"0.01"
+			"bursts"					"1"
+			"weapon_slot"				"primary"
+			"act_table"					"shortrifle"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"0"	// (3.3kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +24[encumbrance]
+			"weapon_cost"				"3"
+			"class_restricted"			"1"
+			"barrel_length"				"24"
+			
+			"viewmodel_attachments"
+			{
+				"carryhandle"
+				{
+					"model"					"models/codmw19/upgrades/a_carryhandlean94.mdl"
+					"fallback_for_slot"			"optics"
+				}
+				"rail_large"
+				{
+					"model"					"models/weapons/upgrades/a_standard_m16a4.mdl"
+					"fallback_for_slot"			"underbarrel"
+				}
+				
+			}
+			"world_attachments"
+			{
+				"flipsights"
+				{
+					"model"					"models/codmw19/upgrades/w_an94up1.mdl"
+					"fallback_for_slot"			"optics"
+				}
+			}
+			"fov"
+			{
+				"fov_plr_ironsight"			"-25"
+				"fov_plr_focus"				"-12"
+				"fov_wpn_default"			"68"
+				"fov_wpn_ironsight"			"72"
+				"fov_wpn_focus"				"75"
+			}
+			"viewmodel_offsets"
+			{
+				// x back, y left, z down
+				"VMOffsetStand"				"0.65 -0.10 0.5"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_sandstorm_M16A4.Single"
+				"shot_single_local"			"Weapon_sandstorm_M16A4.SingleLocal"
+				"shot_silent"				"Weapon_sandstorm_M16A4.SingleSilenced"
+				"shot_silent_local"			"Weapon_sandstorm_M16A4.SingleSilencedLocal"
+				"empty"					"Weapon_M16A4.Empty"
+				"clipin"				"Weapon_M16A4.Magin"
+				"clipout"				"Weapon_M16A4.Magout"
+				"boltback"				"Weapon_M16A4.Boltback"
+				"boltrelease"				"Weapon_M16A4.Boltrelease"
+				"rofdown"				"Weapon_M16A4.ROF"
+				"rofup"					"Weapon_M16A4.ROF"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_m16_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_m16_3rd"
+				"particle_tracer"			"weapon_tracers"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-0.65 0.65"
+				"recoil_vertical_range"			"1.875 2.175"
+				"recoil_aim_punch"			"0.4 0.8"
+				"recoil_rest_rate"			"5"
+				"recoil_rest_delay"			"0.12"
+				"recoil_roll_range"			"-1.5 -1.5"
+				"recoil_roll_rest_rate"			"150"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"		"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"			"5"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+			}
+			"ballistics"
+			{
+				"spread"				"0.18 0.18 0.18"
+				"FireModes"				"burst, full"
+				"bulletcount"				"1"
+				"maxrange"				"10000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"545x39"
+				"clip_max"				"12"
+				"clip_max_rounds"			"30"
+				"clip_default"				"3"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"primary"
+			}
+			"kitui_offset"
+			{
+				"position"				"30 -3 3"
+			}
+			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/rifle"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}					
+			
+			"team_access"				"security, insurgent"
+		}
 
 		"weapon_codmw19_ak47" // BUILT OFF AKM
 		{
@@ -753,6 +1109,21 @@
 			{
 				"position"				"23 -3 1"
 			}
+			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/rifle"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}					
 			
 			"team_access"				"security, insurgent"
 		}
@@ -873,6 +1244,22 @@
 			{
 				"position"				"24 0 3"
 			}
+		
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/rifle"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}				
+			
 			"team_access"				"security, insurgent"
 		}
 
@@ -991,6 +1378,22 @@
 			{
 				"position"				"24 0 3"
 			}
+	
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/rifle"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}			
+			
 			"team_access"				"security, insurgent"
 		}
 
@@ -1081,6 +1484,22 @@
 			{
 				"position"				"28 0 3"
 			}
+			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/rifle"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}					
+			
 			"team_access"				"security, insurgent"
 		}
 
@@ -1192,6 +1611,21 @@
 			{
 				"position"				"23 -3 1"
 			}
+			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/rifle"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}					
 			
 			"team_access"				"security, insurgent"
 		}		
@@ -1314,6 +1748,22 @@
 			{
 				"in_time"				"0.4"
 			}
+			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/rifle"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}					
+			
 			"team_access"				"security, insurgent"
 		}		
 
@@ -1420,6 +1870,22 @@
 			{
 				"position"				"33 -2 3"
 			}
+			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/sniper"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}				
+			
 			"team_access"				"security, insurgent"
 		}	
 	
@@ -1525,6 +1991,22 @@
 			{
 				"position"				"20 -2 2"
 			}
+			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/shotgun"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}				
+			
 			"team_access"				"security, insurgent"
 		}
 
@@ -1622,6 +2104,22 @@
 			{
 				"position"				"32 0 3"
 			}
+			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/shotgun"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}				
+			
 			"team_access"				"security, insurgent"
 		}
 	
@@ -1726,6 +2224,21 @@
 				"position"				"12 -3 0"
 			}
 			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/pistol"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}			
+			
 			"team_access"				"security, insurgent"
 		}
 
@@ -1819,6 +2332,22 @@
 			{
 				"position"				"12 -3 0"
 			}
+			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/pistol"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}			
+			
 			"team_access"				"security, insurgent"
 		}	
 
@@ -1919,6 +2448,21 @@
 				"position"				"12 -3 0"
 			}
 			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/pistol"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}			
+			
 			"team_access"				"security, insurgent"
 		}
 		
@@ -2011,6 +2555,22 @@
 			{
 				"position"				"12 -3 0"
 			}
+			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/pistol"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}			
+			
 			"team_access"				"security, insurgent"
 		}
 
@@ -2102,6 +2662,22 @@
 			{
 				"position"				"12 -3 0"
 			}
+			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/pistol"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}			
+			
 			"team_access"				"security, insurgent"
 		}
 	
@@ -2212,6 +2788,22 @@
 			{
 				"position"				"12 -3 0"
 			}
+		
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/pistol"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}		
+			
 			"team_access"				"security, insurgent"
 		}	
 	
