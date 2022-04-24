@@ -67,7 +67,7 @@
 		"template_sandstorm_coop_sleader_medic"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Commander"
+			"print_name"				"#squad_sleader"
 			
 			"models"
 			{
@@ -92,6 +92,7 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_workshop_br10"
 				"weapon"					"weapon_sandstorm_g3a3"
 				"weapon"					"weapon_sandstorm_l1a1"
 				"weapon"					"weapon_sandstorm_mk17"
@@ -121,7 +122,7 @@
 		"template_sandstorm_coop_scout_medic"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Commander"
+			"print_name"				"#squad_scout"
 			
 			"models"
 			{
@@ -170,7 +171,7 @@
 		"template_sandstorm_coop_firesupport_medic"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Observer"
+			"print_name"				"#squad_firesupport"
 			
 			"models"
 			{
@@ -219,7 +220,7 @@
 		"template_sandstorm_coop_marksniper_medic"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Rifleman"
+			"print_name"				"#squad_marksniper"
 			
 			"models"
 			{
@@ -243,6 +244,7 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_workshop_br10"
 				"weapon"					"weapon_sandstorm_hk417a2"
 				"weapon"					"weapon_sandstorm_vssvintorez" 
 				"weapon"					"weapon_sandstorm_m110a1"
@@ -262,7 +264,7 @@
 		"template_sandstorm_coop_heavygunner_medic"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Breacher"
+			"print_name"				"#squad_heavygunner"
 			
 			"models"
 			{
@@ -311,7 +313,7 @@
 		"template_sandstorm_coop_battlesapper_medic"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Gunner"
+			"print_name"				"#squad_battlesapper"
 			
 			"models"
 			{
@@ -366,7 +368,7 @@
 		"template_sandstorm_coop_breacher_medic"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Demolitions"
+			"print_name"				"#squad_breacher"
 			
 			"models"
 			{
@@ -390,6 +392,7 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_codmw19_an94"
 				"weapon"					"weapon_codmw19_ak47"
 				"weapon"					"weapon_sandstorm_akm"
 				"weapon"					"weapon_sandstorm_m870"
@@ -420,7 +423,7 @@
 		"template_sandstorm_coop_ssniper_medic"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Advisor"
+			"print_name"				"#squad_ssniper"
 			
 			"models"
 			{
@@ -444,6 +447,7 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_workshop_br10"
 				"weapon"					"weapon_sandstorm_mosin"
 				"weapon"					"weapon_vietnam_m40"
 				"weapon"					"weapon_sandstorm_m24"
@@ -469,7 +473,7 @@
 		"template_sandstorm_coop_engi_medic"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Marksman"
+			"print_name"				"#squad_engi"
 			
 			"models"
 			{
@@ -527,7 +531,7 @@
 		"template_sandstorm_coop_vip_medic"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Marksman"
+			"print_name"				"#squad_vip"
 			
 			"models"
 			{
@@ -581,7 +585,7 @@
 		"template_sandstorm_coop_vip2_medic"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Marksman"
+			"print_name"				"#squad_vip"
 			
 			"models"
 			{
@@ -635,7 +639,7 @@
 		"template_sandstorm_coop_weaponexpert_medic"
 		{
 			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_Marksman"
+			"print_name"				"#squad_weaponexpert"
 			
 			"models"
 			{
@@ -660,6 +664,7 @@
 			{
 				"weapon"					"weapon_defib"
 				
+				"weapon"					"weapon_codmw19_an94"
 				"weapon"					"weapon_sandstorm_sterling"
 				"weapon"					"weapon_sandstorm_alphaak"
 				"weapon"					"weapon_sandstorm_mk18"
@@ -730,6 +735,8 @@
 				"gear"						"srnx_player_juggernaut_armor"
 			}
 		}
+		
+		// insurgents
 		
 		"template_sandstorm_insurgent_jug_bomber"
 		{
@@ -972,7 +979,7 @@
 		"template_sandstorm_insurgent_commander"
 		{
 			"team"						"insurgents"
-			"print_name"				"#Squad_Sandstorm_Commander"
+			"print_name"				"#squad_sleader"
 			
 			"models"
 			{
@@ -1018,7 +1025,7 @@
 		"template_sandstorm_insurgent_observer"
 		{
 			"team"						"insurgents"
-			"print_name"				"#Squad_Sandstorm_Observer"
+			"print_name"				"#squad_scout"
 			
 			"models"
 			{
@@ -1059,7 +1066,7 @@
 		"template_sandstorm_insurgent_rifleman"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_Rifleman"
+			"print_name"				"#squad_scout"
 			
 			"models"
 			{
@@ -1102,7 +1109,7 @@
 		"template_sandstorm_insurgent_breacher"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_Breacher"
+			"print_name"				"#squad_breacher"
 			
 			"models"
 			{
@@ -1145,7 +1152,7 @@
 		"template_sandstorm_insurgent_gunner"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_Gunner"
+			"print_name"				"#squad_heavygunner"
 			
 			"models"
 			{
@@ -1182,7 +1189,7 @@
 		"template_sandstorm_insurgent_demolitions"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_Demolitions"
+			"print_name"				"#squad_breacher"
 			
 			"models"
 			{
@@ -1226,7 +1233,7 @@
 		"template_sandstorm_insurgent_advisor"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_Advisor"
+			"print_name"				"#squad_battlesapper"
 			
 			"models"
 			{
@@ -1269,7 +1276,7 @@
 		"template_sandstorm_insurgent_marksman"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_Marksman"
+			"print_name"				"#squad_marksniper"
 			
 			"models"
 			{
@@ -1307,7 +1314,7 @@
 		"template_sandstorm_insurgent_bomber"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_Bomber"
+			"print_name"				"#Squad_Sandstorm_SuicideBomber"
 			
 			"models"
 			{
@@ -1337,7 +1344,7 @@
 		"template_sandstorm_insurgent_juggernaut"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_JUG"
+			"print_name"				"#squad_jug"
 			
 			"models"
 			{
@@ -1377,7 +1384,7 @@
 		"template_sandstorm_insurgent_juggernaut2"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_JUG"
+			"print_name"				"#squad_jug"
 			
 			"models"
 			{
@@ -1418,7 +1425,7 @@
 		"template_sandstorm_insurgent_juggernaut3"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_JUG"
+			"print_name"				"#squad_jug"
 			
 			"models"
 			{
@@ -1458,7 +1465,7 @@
 		"template_sandstorm_insurgent_juggernaut4"
 		{
 			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_JUG"
+			"print_name"				"#squad_jug"
 			
 			"models"
 			{
