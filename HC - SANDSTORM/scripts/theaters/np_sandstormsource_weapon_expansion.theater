@@ -108,7 +108,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/rifle"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -240,7 +240,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/rifle"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -367,7 +367,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/rifle"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -477,7 +477,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/rifle"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -588,7 +588,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/rifle"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -722,7 +722,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/rifle"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -862,7 +862,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/rifle"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -998,7 +998,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/rifle"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -1125,7 +1125,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/rifle"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -1260,7 +1260,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/rifle"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -1394,7 +1394,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/rifle"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -1500,7 +1500,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/rifle"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -1627,7 +1627,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/rifle"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -1764,7 +1764,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/rifle"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -1886,7 +1886,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/sniper"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -2007,7 +2007,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/shotgun"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -2120,7 +2120,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/shotgun"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -2239,7 +2239,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/pistol"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -2348,7 +2348,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/pistol"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -2463,7 +2463,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/pistol"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -2571,7 +2571,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/pistol"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -2678,7 +2678,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/pistol"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
@@ -2804,7 +2804,7 @@
 			"third_person"
 			{
 			 	"reticle"				"ss_crosshairs/pistol"
-				"scope_first_person"			"1"
+				//"scope_first_person"			"1"
 				
 			 	// recoil settings
 			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
