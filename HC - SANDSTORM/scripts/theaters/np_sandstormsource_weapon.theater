@@ -388,6 +388,22 @@
 				"allow_jump"				"1"
 				"allow_sway"				"1"
 			}
+			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/defibrillator"
+				//"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}
+			
 			"team_access"	"security, insurgent"
 		}
 
