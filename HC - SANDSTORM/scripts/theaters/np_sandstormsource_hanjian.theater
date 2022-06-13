@@ -986,7 +986,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light.mdl"
+				"player"				"models/wn_custom/serenazuma.mdl"
 			
 				"bodygroups"
 				{
@@ -1032,7 +1032,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light.mdl"
+				"player"				"models/wn_custom/serenazuma.mdl"
 			
 				"bodygroups"
 				{
@@ -1073,7 +1073,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light.mdl"
+				"player"				"models/wn_custom/serenazuma.mdl"
 			
 				"bodygroups"
 				{
@@ -1116,7 +1116,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light.mdl"
+				"player"				"models/wn_custom/serenazuma.mdl"
 			
 				"bodygroups"
 				{
@@ -1159,7 +1159,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light.mdl"
+				"player"				"models/wn_custom/serenazuma.mdl"
 			
 				"bodygroups"
 				{
@@ -1196,7 +1196,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light.mdl"
+				"player"				"models/wn_custom/serenazuma.mdl"
 			
 				"bodygroups"
 				{
@@ -1240,7 +1240,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light.mdl"
+				"player"				"models/wn_custom/serenazuma.mdl"
 			
 				"bodygroups"
 				{
@@ -1283,7 +1283,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_light.mdl"
+				"player"				"models/wn_custom/serenazuma.mdl"
 			
 				"bodygroups"
 				{
@@ -1321,7 +1321,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/insurgent_heavy.mdl"
+				"player"				"models/wn_custom/serenazuma.mdl"
 			
 				"bodygroups"
 				{
@@ -1351,7 +1351,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"player"				"models/wn_custom/serenazuma.mdl"
 			
 				"bodygroups"
 				{
@@ -1391,7 +1391,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"player"				"models/wn_custom/serenazuma.mdl"
 			
 				"bodygroups"
 				{
@@ -1432,7 +1432,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"player"				"models/wn_custom/serenazuma.mdl"
 			
 				"bodygroups"
 				{
@@ -1472,7 +1472,7 @@
 			
 			"models"
 			{
-				"player"				"models/characters/custom/mlfcn_insurgent_heavy.mdl"
+				"player"				"models/wn_custom/serenazuma.mdl"
 			
 				"bodygroups"
 				{

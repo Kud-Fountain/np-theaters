@@ -607,5 +607,83 @@
 			"gear_slot"					"misc2"
 			"viewmodel_hands_override"	"models/wn_custom/arms/aponia_arms.mdl"
 		}
+		
+		"hands_augustvpar"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/augustvpar_arms.mdl"
+		}
+		
+		"hands_nekogc1"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/nekogc1_arms1.mdl"
+		}
+		
+		"hands_serenazuma"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/serenazuma_arms.mdl"
+		}
+		
+		"hands_excalibur"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/excalibur_arms.mdl"
+		}
+		
+		"hands_excalibur"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/excalibur_arms.mdl"
+		}
+		
+		"hands_griseo"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/griseo_arms.mdl"
+		}
+		
+		"hands_hela"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/hela_arms.mdl"
+		}
+		
+		"hands_koyori"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/koyori_arms_s1.mdl"
+		}
+		
+		"hands_maya"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/maya_arms.mdl"
+		}
+		
+		"hands_rurudo"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/rurudo_arms.mdl"
+		}
+		
+		"hands_small_miku"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/small_miku_arms.mdl"
+		}
+		
+		"hands_taiho"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/taiho_arms.mdl"
+		}
+		
+		"hands_yuni"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/yuni_arms.mdl"
+		}
 	}
 }
