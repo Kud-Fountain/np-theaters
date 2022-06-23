@@ -697,5 +697,17 @@
 			"gear_slot"					"misc2"
 			"viewmodel_hands_override"	"models/wn_custom/arms/karin_arms.mdl"
 		}
+		
+		"hands_hk416_v2"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/hk416_v2_arms.mdl"
+		}
+		
+		"hands_chloe"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/chloe_arms.mdl"
+		}
 	}
 }
