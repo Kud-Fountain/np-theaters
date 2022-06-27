@@ -6,6 +6,7 @@
 		{
 			"print_name"				"#character_sec_light"
 			"print_desc"				""
+			"class_restricted"			"1"
 
 			"gear_slot"				"head"
 			"gear_cost"				"0"
@@ -20,6 +21,8 @@
 		{
 			"print_name"				"#character_sec_standard"
 			"print_desc"				""
+			"class_restricted"			"1"
+			
 			"gear_slot"				"head"
 			"gear_cost"				"0"
 			"gear_weight"				"0"	
@@ -33,6 +36,8 @@
 		{
 			"print_name"				"#character_sec_heavy"
 			"print_desc"				""
+			"class_restricted"			"1"
+			
 			"gear_slot"				"head"
 			"gear_cost"				"0"
 			"gear_weight"				"0"	
@@ -46,6 +51,8 @@
 		{
 			"print_name"				"#character_scp_light"
 			"print_desc"				"#character_scp_desc"
+			"class_restricted"			"1"
+			
 			"gear_slot"				"head"
 			"gear_cost"				"0"
 			"gear_weight"				"0"	
@@ -59,6 +66,8 @@
 		{
 			"print_name"				"#character_scp_standard"
 			"print_desc"				"#character_scp_desc"
+			"class_restricted"			"1"
+			
 			"gear_slot"				"head"
 			"gear_cost"				"0"
 			"gear_weight"				"0"	
@@ -72,6 +81,8 @@
 		{
 			"print_name"				"#character_scp_heavy"
 			"print_desc"				"#character_scp_desc"
+			"class_restricted"			"1"
+			
 			"gear_slot"				"head"
 			"gear_cost"				"0"
 			"gear_weight"				"0"	
@@ -85,6 +96,8 @@
 		{
 			"print_name"				"#character_vip_ins"
 			"print_desc"				"#character_vip_desc"
+			"class_restricted"			"1"
+			
 			"gear_slot"				"head"
 			"gear_cost"				"0"
 			"gear_weight"				"0"	
@@ -102,6 +115,8 @@
 		{
 			"print_name"				"#character_vip_sec"
 			"print_desc"				"#character_vip_desc"
+			"class_restricted"			"1"
+			
 			"gear_slot"				"head"
 			"gear_cost"				"0"
 			"gear_weight"				"0"	
@@ -119,6 +134,8 @@
 		{
 			"print_name"				"#character_umbrella_standard"
 			"print_desc"				"#character_umbrella_standard_desc"
+			"class_restricted"			"1"
+			
 			"gear_slot"				"head"
 			"gear_cost"				"0"
 			"gear_weight"				"0"	
@@ -132,6 +149,8 @@
 		{
 			"print_name"				"#character_umbrella_heavy"
 			"print_desc"				"#character_umbrella_heavy_desc"
+			"class_restricted"			"1"
+			
 			"gear_slot"				"head"
 			"gear_cost"				"0"
 			"gear_weight"				"0"	
@@ -145,6 +164,8 @@
 		{
 			"print_name"				"#character_un_light"
 			"print_desc"				"#character_un_desc"
+			"class_restricted"			"1"
+			
 			"gear_slot"				"head"
 			"gear_cost"				"0"
 			"gear_weight"				"0"	
@@ -158,6 +179,8 @@
 		{
 			"print_name"				"#character_un_standard"
 			"print_desc"				"#character_un_desc"
+			"class_restricted"			"1"
+			
 			"gear_slot"				"head"
 			"gear_cost"				"0"
 			"gear_weight"				"0"	
@@ -171,6 +194,8 @@
 		{
 			"print_name"				"#character_un_heavy"
 			"print_desc"				"#character_un_desc"
+			"class_restricted"			"1"
+			
 			"gear_slot"				"head"
 			"gear_cost"				"0"
 			"gear_weight"				"0"	
@@ -184,6 +209,8 @@
 		{
 			"print_name"				"#character_multicam_light"
 			"print_desc"				"#character_multicam_desc"
+			"class_restricted"			"1"
+			
 			"gear_slot"				"head"
 			"gear_cost"				"0"
 			"gear_weight"				"0"	
@@ -197,6 +224,8 @@
 		{
 			"print_name"				"#character_multicam_standard"
 			"print_desc"				"#character_multicam_desc"
+			"class_restricted"			"1"
+			
 			"gear_slot"				"head"
 			"gear_cost"				"0"
 			"gear_weight"				"0"	
@@ -210,6 +239,8 @@
 		{
 			"print_name"				"#character_multicam_heavy"
 			"print_desc"				"#character_multicam_desc"
+			"class_restricted"			"1"
+			
 			"gear_slot"				"head"
 			"gear_cost"				"0"
 			"gear_weight"				"0"	

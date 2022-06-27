@@ -46,6 +46,14 @@
 					"#Squad_Fireteam_Engineer"						"template_coop_engineer"
 					"#Squad_Fireteam_Support"						"template_coop_lmg"
 				}
+				"Squad <Charlie>"
+				{
+					"#Squad_Lua_Leader_Medic"						"template_coop_medic"
+					"#Squad_Fireteam_Specialist"					"template_coop_specialist"
+					"#Squad_Fireteam_Rifleman"						"template_coop_rifleman"
+					"#Squad_Fireteam_Engineer"						"template_coop_engineer"
+					"#Squad_Fireteam_Designated_Marksman"			"template_coop_sniper"
+				}
 			}
 		}
 
