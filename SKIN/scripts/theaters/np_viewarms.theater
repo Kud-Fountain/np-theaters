@@ -745,5 +745,53 @@
 			"gear_slot"					"misc2"
 			"viewmodel_hands_override"	"models/wn_custom/arms/xiaolian_arms1.mdl"
 		}
+		
+		"hands_bremerton"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/bremerton_arms.mdl"
+		}
+		
+		"hands_luis"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/luis_arms.mdl"
+		}
+		
+		"hands_luna"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/luna_arms.mdl"
+		}
+		
+		"hands_pela"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/pela_arms.mdl"
+		}
+		
+		"hands_succubus"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/succubus_arms.mdl"
+		}
+		
+		"hands_smallhaku"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/smallhaku_arms.mdl"
+		}
+		
+		"hands_rindo"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/rindo_arms.mdl"
+		}
+		
+		"hands_usaki_nono"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/usaki_nono_arms.mdl"
+		}
 	}
 }
