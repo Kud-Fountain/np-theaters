@@ -793,5 +793,29 @@
 			"gear_slot"					"misc2"
 			"viewmodel_hands_override"	"models/wn_custom/arms/usaki_nono_arms.mdl"
 		}
+		
+		"hands_usaki_nono"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/usaki_nono_arms.mdl"
+		}
+		
+		"hands_serestia"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/serestia_arms.mdl"
+		}
+		
+		"hands_rushia"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/rushia_arms.mdl"
+		}
+		
+		"hands_elaina2"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/elaina_arms2.mdl"
+		}
 	}
 }
