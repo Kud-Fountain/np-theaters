@@ -93,12 +93,12 @@
 				"weapon"					"weapon_defib"
 				
 				"weapon"					"weapon_workshop_br10"
-				"weapon"					"weapon_sandstorm_g3a3"
+				//"weapon"					"weapon_sandstorm_g3a3"
 				"weapon"					"weapon_sandstorm_l1a1"
 				"weapon"					"weapon_sandstorm_mk17"
 				"weapon"					"weapon_sandstorm_ace52"
 				"weapon"					"weapon_sandstorm_hk416d"
-				"weapon"					"weapon_sandstorm_fal"
+				//"weapon"					"weapon_sandstorm_fal"
 				"weapon"					"weapon_sandstorm_mk18"
 				"weapon"					"weapon_sandstorm_mk18tan"
 				"weapon"					"weapon_sandstorm_sig_mcx"
@@ -157,7 +157,7 @@
 				"weapon"					"weapon_vietnam_type56"
 				"weapon"					"weapon_sandstorm_mp5a2"
 				"weapon"					"weapon_codmw19_mp510"
-				"weapon"					"weapon_sandstorm_saiga_12"
+				//"weapon"					"weapon_sandstorm_saiga_12"
 				"weapon"					"weapon_sandstorm_m870"
 				"weapon"					"weapon_sandstorm_apc9pro"
 				
@@ -203,6 +203,7 @@
 				"weapon"					"weapon_sandstorm_galil_sar"
 				"weapon"					"weapon_sandstorm_m14"
 				"weapon"					"weapon_sandstorm_l85a2"
+				"weapon"					"weapon_sandstorm_fal"
 				
 				"weapon"					"weapon_sandstorm_makarov"
 				"weapon"					"weapon_codmw19_p320"
@@ -214,6 +215,7 @@
 				"weapon_upgrade"
 				{
 					"optic_sandstorm_mk4"		"99"
+					"underbarrel_bipod"		"-2"
 				}
 			}
 		}
@@ -260,6 +262,18 @@
 				"weapon"					"weapon_sandstorm_mp443"
 				"weapon"					"weapon_workshop_glock21"
 			}
+			
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"underbarrel_bipod"		"-2"
+				}
+				"weapon"
+				{
+					"weapon_sandstorm_l1a1"		"-1"
+				}
+			}
 		}
 
 		"template_sandstorm_coop_heavygunner_medic"
@@ -305,8 +319,13 @@
 			
 			"cost_modifiers"
 			{
+				"weapon_upgrade"
+				{
+					"underbarrel_bipod"		"-2"
+				}
 				"weapon"
 				{
+					"weapon_sandstorm_l1a1"		"-1"
 				}
 			}
 		}
@@ -343,7 +362,7 @@
 				"weapon"					"weapon_vietnam_m2carbine"
 				"weapon"					"weapon_sandstorm_ak74"
 				"weapon"					"weapon_sandstorm_honeybadger"
-				"weapon"					"weapon_sandstorm_sig_mcx"
+				//"weapon"					"weapon_sandstorm_sig_mcx"
 				"weapon"					"weapon_sandstorm_mp7"
 				"weapon"					"weapon_sandstorm_p90"
 				"weapon"					"weapon_coldwar_gallosa12"
@@ -399,13 +418,15 @@
 				"weapon"					"weapon_sandstorm_m870"
 				"weapon"					"weapon_sandstorm_g36k"
 				"weapon"					"weapon_sandstorm_alphaak"
-				"weapon"					"weapon_vietnam_mp40"
+				//"weapon"					"weapon_vietnam_mp40"
 				"weapon"					"weapon_sandstorm_m1garand"
 				"weapon"					"weapon_sandstorm_vhs2"
 				"weapon"					"weapon_vietnam_ithacam37"
-				"weapon"					"weapon_sandstorm_saiga_12"
+				//"weapon"					"weapon_sandstorm_saiga_12"
 				"weapon"					"weapon_sandstorm_vhs2"
 				"weapon"					"weapon_coldwar_krig6"
+				"weapon"					"weapon_sandstorm_qbz03"
+				"weapon"					"weapon_sandstorm_mp5a2"
 				
 				"weapon"					"weapon_sandstorm_pf940"
 				"weapon"					"weapon_sandstorm_glock17"
@@ -418,6 +439,14 @@
 				"weapon"					"weapon_sandstorm_c4_clicker"
 				"weapon"					"weapon_sandstorm_at4"
 				"weapon"					"weapon_sandstorm_rpg7"
+				
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"underbarrel_gp25_he"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon_sandstorm_mp5a2"		"-2"
 			}
 		}
 		
@@ -465,8 +494,9 @@
 			
 			"cost_modifiers"
 			{
-				"weapon"
+				"weapon_upgrade"
 				{
+					"underbarrel_bipod"		"-2"
 				}
 			}
 		}
@@ -510,6 +540,7 @@
 				"weapon"					"weapon_sandstorm_sterling"
 				"weapon"					"weapon_coldwar_krig6"
 				"weapon"					"weapon_sandstorm_qbz97"
+				"weapon"					"weapon_sandstorm_sig_mcx"
 				
 				"weapon"					"weapon_workshop_glock21"
 				"weapon"					"weapon_sandstorm_manurhinmr73"
@@ -581,6 +612,20 @@
 				"weapon"					"weapon_sandstorm_anm14"
 				"weapon"					"weapon_sandstorm_molotov"
 				"weapon"					"weapon_sandstorm_c4_clicker"
+				
+				// merge
+				"weapon"					"weapon_sandstorm_sig_mpx"
+				"weapon"					"weapon_sandstorm_sig_mcx"
+				"weapon"					"weapon_sandstorm_p90"
+				"weapon"					"weapon_sandstorm_vhs2"
+				"weapon"					"weapon_sandstorm_aks74u"
+				"weapon"					"weapon_codmwr_miniuzi"
+				"weapon"					"weapon_sandstorm_qbz97"
+				
+				"weapon"					"weapon_codmw19_p320"
+				"weapon"					"weapon_sandstorm_sigp226"
+				
+				"weapon"					"weapon_vietnam_mp40_se"
 			}
 		}
 		
@@ -685,6 +730,8 @@
 				"weapon"					"weapon_sandstorm_sig_mcx"
 				"weapon"					"weapon_sandstorm_m4a1"
 				"weapon"					"weapon_sandstorm_m16a4"
+				"weapon"					"weapon_sandstorm_g3a3"
+				"weapon"					"weapon_sandstorm_fal"
 				
 				"weapon"					"weapon_sandstorm_manurhinmr73"
 				"weapon"					"weapon_vietnam_swm1917"
@@ -800,7 +847,7 @@
 				"weapon"					"weapon_sandstorm_m9"
 				"gear"						"srnx_BOT_juggernaut_armor_ex"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
-				"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_sandstorm_f1"
 			}
 			
 			"allowed_items"
@@ -811,7 +858,7 @@
 				"weapon"					"weapon_sandstorm_m9"
 				"gear"						"srnx_BOT_juggernaut_armor_ex"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
-				"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_sandstorm_f1"
 			}
 		}
 		
@@ -880,7 +927,7 @@
 				"weapon"					"weapon_sandstorm_hipower"
 				"gear"						"srnx_BOT_juggernaut_armor_ex"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
-				"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_sandstorm_f1"
 			}
 			
 			"allowed_items"
@@ -891,7 +938,7 @@
 				"weapon"					"weapon_sandstorm_hipower"
 				"gear"						"srnx_BOT_juggernaut_armor_ex"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
-				"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_sandstorm_f1"
 			}
 		}
 		
@@ -1005,6 +1052,8 @@
 				"weapon"					"weapon_sandstorm_mp443"
 				"weapon_upgrade"			"barrel_silencer_sandstorm_sec2"
 				"weapon"					"weapon_sandstorm_anm14"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"underbarrel_gp25_he"
 			}
 			
 			"allowed_items"
@@ -1022,6 +1071,8 @@
 				"weapon"					"weapon_sandstorm_g3a3"
 				"weapon"					"weapon_sandstorm_m4a1"
 				"weapon"					"weapon_sandstorm_anm14"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"underbarrel_gp25_he"
 			}
 		}		
 		
@@ -1091,6 +1142,8 @@
 				"weapon_upgrade"			"optic_sandstorm_aimpoint"
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon"					"weapon_sandstorm_at4"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"underbarrel_gp25_he"
 			}
 			
 			"allowed_items"
@@ -1106,6 +1159,8 @@
 				"weapon"					"weapon_sandstorm_g3a3"
 				"weapon"					"weapon_sandstorm_m4a1"
 				"weapon"					"weapon_sandstorm_at4"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"underbarrel_gp25_he"
 			}
 		}
 
@@ -1209,9 +1264,12 @@
 			{
 				"gear"						"ins_light_armor"
 				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_sandstorm_m4a1"
 				"weapon"					"weapon_sandstorm_kukri"
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon"					"weapon_sandstorm_rpg7"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"underbarrel_gp25_he"
 			}
 			
 			"allowed_items"
@@ -1230,6 +1288,8 @@
 				"weapon"					"weapon_sandstorm_at4"
 				"weapon"					"weapon_sandstorm_rpg7"
 				"weapon"					"weapon_sandstorm_c4_clicker"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"underbarrel_gp25_he"
 			}
 		}
 		
@@ -1299,7 +1359,7 @@
 				"weapon"					"weapon_sandstorm_m110a1"
 				"weapon_upgrade"			"optic_sandstorm_mk4"
 				"weapon"					"weapon_sandstorm_m9"
-				"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_sandstorm_f1"
 			}
 			
 			"allowed_items"
@@ -1309,7 +1369,7 @@
 				"weapon"					"weapon_sandstorm_mosin"
 				"weapon"					"weapon_sandstorm_svd"
 				"weapon"					"weapon_sandstorm_m14"
-				"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_sandstorm_f1"
 			}
 		}
 		
@@ -1369,7 +1429,7 @@
 				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
-				"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_sandstorm_f1"
 			}
 			
 			"allowed_items"
@@ -1380,7 +1440,7 @@
 				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
-				"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_sandstorm_f1"
 			}
 		}
 		
@@ -1490,7 +1550,9 @@
 				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
-				"weapon"					"weapon_sandstorm_at4"
+				//"weapon"					"weapon_sandstorm_at4"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"underbarrel_gp25_he"
 			}
 			
 			"allowed_items"
@@ -1503,6 +1565,8 @@
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
 				"weapon"					"weapon_sandstorm_at4"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"underbarrel_gp25_he"
 			}
 		}
 		

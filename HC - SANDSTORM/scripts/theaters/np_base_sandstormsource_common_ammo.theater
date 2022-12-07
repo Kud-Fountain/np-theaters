@@ -863,6 +863,32 @@
 				"20000"					"800"
 			}
 		}
+		
+		"762x51_sp"
+		{
+			"import"				"762x51"
+			"Damage"
+			{
+				"10"					"1500" //405
+				//"20000"					"600" //none
+				"40000"					"600" //320
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "9.0"
+				"HITGROUP_CHEST"      "9.0"
+				"HITGROUP_STOMACH"    "9.0"
+				"HITGROUP_LEFTARM"    "4.4"
+				"HITGROUP_RIGHTARM"   "4.4"
+				"HITGROUP_LEFTLEG"    "4.4"
+				"HITGROUP_RIGHTLEG"   "4.4"
+			}
+			"PenetrationPower"
+			{
+				"10"					"2400"
+				"40000"					"1900"
+			}
+		}
 
 
 
@@ -953,6 +979,32 @@
 		{
 			"import"				"762x51_ap"
 			"brass_model"			"models/weapons/shells/762x54.mdl"
+		}
+		
+		"762x54_sp"
+		{
+			"import"				"762x51_ap"
+			"Damage"
+			{
+				"10"					"1500" //405
+				//"20000"					"600" //none
+				"40000"					"600" //320
+			}
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "9.0"
+				"HITGROUP_CHEST"      "9.0"
+				"HITGROUP_STOMACH"    "9.0"
+				"HITGROUP_LEFTARM"    "4.4"
+				"HITGROUP_RIGHTARM"   "4.4"
+				"HITGROUP_LEFTLEG"    "4.4"
+				"HITGROUP_RIGHTLEG"   "4.4"
+			}
+			"PenetrationPower"
+			{
+				"10"					"2400"
+				"40000"					"1900"
+			}
 		}
 		
 		"00buck"
@@ -1111,6 +1163,12 @@
 			"carry"					"120"
 			"flags_clear"				"AMMO_USE_MAGAZINES"
 		}
+		"762x51mm_sp"
+		{
+			"import"				"762x51_ap"
+			"carry"					"120"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+		}
 		
 		// ========================================
 		// mosin
@@ -1122,6 +1180,12 @@
 			"flags_clear"				"AMMO_USE_MAGAZINES"
 		}
 		"762x54mm_ap"
+		{
+			"import"				"762x54_ap"
+			"carry"					"120"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+		}
+		"762x54mm_sp"
 		{
 			"import"				"762x54_ap"
 			"carry"					"120"

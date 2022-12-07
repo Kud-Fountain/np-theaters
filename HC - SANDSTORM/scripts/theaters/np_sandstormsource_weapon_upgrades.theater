@@ -2285,7 +2285,7 @@
 				}				
 			}
 		}
-	
+		
 		"magazine_sandstorm_box_100rd"
 		{
 			"upgrade_slot"				"magazine"
@@ -2306,10 +2306,62 @@
 			}
 		}
 	
+		"magazine_sandstorm_box_200"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"4"
+			"class_restricted"			"0"
+			"team_acces"				"security, insurgent"
+			"weight"					"0"
+			
+			"print_name"				"#weapon_upgrade_magazine_box"
+			"print_desc"				"#weapon_upgrade_magazine_200_desc"
+			
+			"magsize_override"			"200"
+			"maxcarry_override"			"8"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m240"
+			}
+		}
+	
 		// ========================================
 		// AMMO TYPE UPGRADES
-		// ========================================				
+		// ========================================		
 		
+		"ammo_sp_m24m40"
+		{
+			"import"					"base_ammo_ap"
+			"upgrade_cost"				"4"
+			
+			"print_name"				"#weapon_upgrade_sp_ammo"
+			"print_desc"				"#weapon_upgrade_sp_ammo_desc"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_m24"
+				"weapon"				"weapon_vietnam_m40"
+			}
+			
+			"ammo_type_override"		"762x51mm_sp"
+		}	
+		
+		"ammo_sp_mosin"
+		{
+			"import"					"base_ammo_ap"
+			"upgrade_cost"				"4"
+			
+			"print_name"				"#weapon_upgrade_sp_ammo"
+			"print_desc"				"#weapon_upgrade_sp_ammo_desc"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_sandstorm_mosin"
+			}
+			
+			"ammo_type_override"		"762x54mm_sp"
+		}	
 		
 		// ========================================
 		// WELROD AMMO UPGRADES
@@ -13045,7 +13097,7 @@
 		"underbarrel_m203_he"
 		{
 			"import"				"underbarrel_m203_base"
-			"upgrade_cost"				"4"
+			"upgrade_cost"				"1"
 			"print_name"				"#weapon_explosive_launcher"
 			"print_desc"				"#weapon_explosive_launcher_desc"
 			"attach_weapon"				"weapon_m203_he"
@@ -13217,7 +13269,7 @@
 		"underbarrel_gp25_he"
 		{
 			"import"				"underbarrel_gp25_base"
-			"upgrade_cost"				"4"
+			"upgrade_cost"				"1"
 			"print_name"				"#weapon_explosive_launcher"
 			"print_desc"				"#weapon_explosive_launcher_desc"
 			"attach_weapon"				"weapon_gp25_he"

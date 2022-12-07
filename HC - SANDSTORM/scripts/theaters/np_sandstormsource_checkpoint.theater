@@ -34,7 +34,7 @@
 					"#squad_weaponexpert"			"template_sandstorm_coop_weaponexpert_medic"
 					"#squad_engi"					"template_sandstorm_coop_engi_medic"
 					"#squad_vip"					"template_sandstorm_coop_vip_medic"
-					"#squad_vip"					"template_sandstorm_coop_vip2_medic"
+					"#squad_vip"					"template_sandstorm_coop_vip_medic"
 					"#squad_ssniper"				"template_sandstorm_coop_ssniper_medic"
 					"#squad_ssniper"				"template_sandstorm_coop_ssniper_medic"
 				}
