@@ -877,5 +877,65 @@
 			"gear_slot"					"misc2"
 			"viewmodel_hands_override"	"models/wn_custom/arms/maya2_arms1.mdl"
 		}
+		
+		"hands_ash"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/ash_arms1.mdl"
+		}
+		
+		"hands_elaina2kk"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/elaina2_arms1.mdl"
+		}
+		
+		"hands_foxhowl"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/foxhowl_arms1.mdl"
+		}
+		
+		"hands_ganyu2"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/ganyu2_arms1.mdl"
+		}
+		
+		"hands_hsr_bronya"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/hsr_bronya_arms1.mdl"
+		}
+		
+		"hands_hsr_seele"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/hsr_seele_arms1.mdl"
+		}
+		
+		"hands_klara"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/klara_arms1.mdl"
+		}
+		
+		"hands_leefa"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/leefa_arms1.mdl"
+		}
+		
+		"hands_lisushang"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/lisushang_arms1.mdl"
+		}
+		
+		"hands_mika"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/mika_arms1.mdl"
+		}
 	}
 }
