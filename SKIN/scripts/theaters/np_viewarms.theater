@@ -1063,5 +1063,11 @@
 			"gear_slot"					"misc2"
 			"viewmodel_hands_override"	"models/wn_custom/arms/yayoi_akikawa_arms1.mdl"
 		}
+		
+		"hands_bianca_abystigma"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/bianca_abystigma_arms1.mdl"
+		}
 	}
 }
