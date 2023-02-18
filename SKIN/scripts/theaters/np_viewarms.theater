@@ -1069,5 +1069,23 @@
 			"gear_slot"					"misc2"
 			"viewmodel_hands_override"	"models/wn_custom/arms/bianca_abystigma_arms1.mdl"
 		}
+		
+		"hands_bailu"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/bailu_arms1.mdl"
+		}
+		
+		"hands_silwolf"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/silwolf_arms1.mdl"
+		}
+		
+		"hands_smart_falcon"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/smart_falcon_arms1.mdl"
+		}
 	}
 }
