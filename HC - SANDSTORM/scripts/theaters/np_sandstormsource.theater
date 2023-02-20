@@ -10,6 +10,8 @@
 
 "#base" "np_sandstormsource_exp_addons.theater"
 
+"#base" "np_season10_weapons.theater"
+
 "theater"
 {
 	"core"
@@ -31,6 +33,7 @@
 			
 			// sandstorm source specific			
 			"sounds"			"scripts/sandstorm_source_sounds.txt"
+			"sounds"			"scripts/s10_weapons_sounds.txt"
 
 			"particles"         "particles/666.pcf"
 			"particles"         "particles/888.pcf"
@@ -114,6 +117,8 @@
 				
 				"weapon"					"weapon_sandstorm_anm14"
 				"weapon"					"weapon_sandstorm_molotov"
+				
+				"weapon"					"weapon_deagle"
 
 				"gear"						"gear_uav"			
 			}
@@ -378,6 +383,8 @@
 				"weapon"					"weapon_sandstorm_pf940"
 				"weapon"					"weapon_workshop_glock21"
 				
+				"weapon"					"weapon_swat_m500a"
+				
 				"weapon"					"weapon_sandstorm_anm14"
 				"weapon"					"weapon_sandstorm_c4_clicker"
 				
@@ -486,6 +493,8 @@
 				"weapon"					"weapon_sandstorm_m16a4"
 				"weapon"					"weapon_vietnam_xm21"
 				
+				"weapon"					"weapon_awm"
+				
 				"weapon"					"weapon_sandstorm_makarov"
 				"weapon"					"weapon_sandstorm_m9"
 				"weapon"					"weapon_workshop_fiveseven"
@@ -546,6 +555,8 @@
 				"weapon"					"weapon_sandstorm_manurhinmr73"
 				"weapon"					"weapon_sandstorm_pf940"
 				"weapon"					"weapon_vietnam_swm1917"
+				
+				"weapon"					"weapon_swat_m500a"
 				
 				"weapon"					"weapon_sandstorm_anm14"
 				"weapon"					"weapon_sandstorm_molotov"
@@ -624,8 +635,6 @@
 				
 				"weapon"					"weapon_codmw19_p320"
 				"weapon"					"weapon_sandstorm_sigp226"
-				
-				"weapon"					"weapon_vietnam_mp40_se"
 			}
 		}
 		
@@ -739,6 +748,8 @@
 				"weapon"					"weapon_sandstorm_sigp226"
 				"weapon"					"weapon_sandstorm_welrod"
 				"weapon"					"weapon_sandstorm_pf940"
+				
+				"weapon"					"weapon_deagle"
 				
 				"weapon"					"weapon_sandstorm_anm14"
 				"weapon"					"weapon_sandstorm_molotov"

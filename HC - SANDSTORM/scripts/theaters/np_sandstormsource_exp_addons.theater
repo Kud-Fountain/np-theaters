@@ -127,6 +127,10 @@
 				"weapon"				"weapon_vietnam_ithacam37"
 				"weapon"				"weapon_sandstorm_m1garand"
 				"weapon"				"weapon_sandstorm_vssvintorez"
+
+				"weapon"				"weapon_swat_m500a"
+				"weapon"				"weapon_deagle"
+				"weapon"				"weapon_awm"
 			}
 			
 			"team_access"				"security"
@@ -294,6 +298,10 @@
 				"weapon"				"weapon_vietnam_ithacam37"
 				"weapon"				"weapon_sandstorm_m1garand"
 				"weapon"				"weapon_sandstorm_vssvintorez"
+				
+				"weapon"				"weapon_swat_m500a"
+				"weapon"				"weapon_deagle"
+				"weapon"				"weapon_awm"
 			}
 			
 			"team_access"				"insurgent"
@@ -3027,8 +3035,61 @@
 						"freeaim_frac"					"1.0"
 						"freeaim_frac_ads"				"1.0"
 					}				
-				}					
-																				
+				}
+
+				"weapon_swat_m500a"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
+				
+				"weapon_deagle"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}		
+
+				"weapon_awm"
+				{			
+					"freeaim"
+					{
+						"freeaim_distance"				"10.25"
+						"freeaim_distance_bipod"		"10.25"
+						"freeaim_screenratio"			"0.91"
+						"freeaim_screenratio_bipod"		"0.91"
+				
+						"freeaim_ads"					"1"
+						"freeaim_distance_ads"			"7.25"
+						"freeaim_screenratio_ads"		"1.00"
+
+						"freeaim_frac"					"1.0"
+						"freeaim_frac_ads"				"1.0"
+					}				
+				}
 			}
 			
 			"allowed_weapons"
@@ -3125,6 +3186,10 @@
 				"weapon"				"weapon_sandstorm_toz"
 				"weapon"				"weapon_vietnam_ithacam37"
 				"weapon"				"weapon_sandstorm_m1garand"
+				
+				"weapon"				"weapon_awm"
+				"weapon"				"weapon_swat_m500a"
+				"weapon"				"weapon_deagle"
 			}
 			
 			"viewmodel_attachments"
@@ -3376,18 +3441,6 @@
 						"fov_wpn_focus"				"77"
 					}			
 				}	
-
-				"weapon_sandstorm_glock17"
-				{			
-					"fov"
-					{
-						"fov_plr_ironsight"			"-10"
-						"fov_plr_focus"				"-10"
-						"fov_wpn_default"			"90"
-						"fov_wpn_ironsight"			"100"
-						"fov_wpn_focus"				"77"
-					}			
-				}
 
 				"weapon_sandstorm_m1911"
 				{			
@@ -4305,7 +4358,43 @@
 						"fov_wpn_ironsight"			"60"
 						"fov_wpn_focus"				"58"
 					}			
-				}						
+				}
+
+				"weapon_swat_m500a"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"94"
+						"fov_wpn_ironsight"			"60"
+						"fov_wpn_focus"				"58"
+					}			
+				}	
+
+				"weapon_deagle"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-10"
+						"fov_wpn_default"			"90"
+						"fov_wpn_ironsight"			"100"
+						"fov_wpn_focus"				"77"
+					}			
+				}	
+				
+				"weapon_awm"
+				{			
+					"fov"
+					{
+						"fov_plr_ironsight"			"-10"
+						"fov_plr_focus"				"-12"
+						"fov_wpn_default"			"94"
+						"fov_wpn_ironsight"			"60"
+						"fov_wpn_focus"				"58"
+					}			
+				}
 					
 			}
 			
@@ -4403,6 +4492,10 @@
 				"weapon"				"weapon_sandstorm_m24"
 				"weapon"				"weapon_vietnam_m40"
 				"weapon"				"weapon_sandstorm_mosin"
+				
+				"weapon"				"weapon_swat_m500a"
+				"weapon"				"weapon_deagle"
+				"weapon"				"weapon_awm"
 			}
 			
 			"viewmodel_attachments"
@@ -4450,6 +4543,8 @@
 				"weapon"				"weapon_coldwar_gallosa12"
 				"weapon"				"weapon_sandstorm_toz"	
 				"weapon"				"weapon_vietnam_ithacam37"
+				
+				"weapon"				"weapon_swat_m500a"
 			}
 			
 			"team_access"				"security, insurgent"		
@@ -4480,6 +4575,8 @@
 				"weapon"				"weapon_coldwar_gallosa12"
 				"weapon"				"weapon_sandstorm_toz"	
 				"weapon"				"weapon_sandstorm_saiga_12"
+				
+				"weapon"				"weapon_swat_m500a"
 			}
 		}
 		
@@ -4504,6 +4601,8 @@
 				"weapon"				"weapon_coldwar_gallosa12"
 				"weapon"				"weapon_sandstorm_toz"	
 				"weapon"				"weapon_sandstorm_saiga_12"		
+				
+				"weapon"				"weapon_swat_m500a"
 			}
 		}
 		
@@ -4528,9 +4627,10 @@
 				"weapon"				"weapon_coldwar_gallosa12"
 				"weapon"				"weapon_sandstorm_toz"	
 				"weapon"				"weapon_sandstorm_saiga_12"
+				
+				"weapon"				"weapon_swat_m500a"
 			}
-		}		
-		
+		}
 	
 	}
 }
