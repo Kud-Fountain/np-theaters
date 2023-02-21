@@ -852,10 +852,10 @@
 			"buy_order"
 			{
 				"gear"						"ins_chest_rig"
-				"weapon"					"weapon_sandstorm_m240"
+				"weapon"					"weapon_awm"
 				"weapon"					"weapon_sandstorm_at4"
 				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_m9"
+				"weapon"					"weapon_deagle"
 				"gear"						"srnx_BOT_juggernaut_armor_ex"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
 				"weapon"					"weapon_sandstorm_f1"
@@ -863,10 +863,10 @@
 			
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_m240"
+				"weapon"					"weapon_awm"
 				"weapon"					"weapon_sandstorm_at4"
 				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_m9"
+				"weapon"					"weapon_deagle"
 				"gear"						"srnx_BOT_juggernaut_armor_ex"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
 				"weapon"					"weapon_sandstorm_f1"
@@ -1275,9 +1275,9 @@
 			{
 				"gear"						"ins_light_armor"
 				"gear"						"ins_chest_rig"
-				"weapon"					"weapon_sandstorm_m4a1"
+				"weapon"					"weapon_swat_m500a"
 				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_tariq"
+				"weapon"					"weapon_deagle"
 				"weapon"					"weapon_sandstorm_rpg7"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
@@ -1294,6 +1294,8 @@
 				"weapon"					"weapon_sandstorm_fal"
 				"weapon"					"weapon_sandstorm_g3a3"
 				"weapon"					"weapon_sandstorm_m4a1"
+				"weapon"					"weapon_swat_m500a"
+				"weapon"					"weapon_deagle"
 				
 				"weapon"					"weapon_sandstorm_molotov"
 				"weapon"					"weapon_sandstorm_at4"
