@@ -1099,5 +1099,65 @@
 			"gear_slot"					"misc2"
 			"viewmodel_hands_override"	"models/wn_custom/arms/iroha_arms1.mdl"
 		}
+		
+		"hands_aluona"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/aluona_arms1.mdl"
+		}
+		
+		"hands_karin2"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/karin2_arms1.mdl"
+		}
+		
+		"hands_katrina_balbastre"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/katrina_balbastre_arms1.mdl"
+		}
+		
+		"hands_kokoa"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/kokoa_arms1.mdl"
+		}
+		
+		"hands_meiyun"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/meiyun_arms1.mdl"
+		}
+		
+		"hands_mona_vrc"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/mona_vrc_arms1.mdl"
+		}
+		
+		"hands_nazuna"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/nazuna_arms1.mdl"
+		}
+		
+		"hands_sophie_neuenmuller"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/sophie_neuenmuller_arms1.mdl"
+		}
+		
+		"hands_yelan"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/yelan_arms1.mdl"
+		}
+		
+		"hands_yuuka_hayase"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/yuuka_hayase_arms1.mdl"
+		}
 	}
 }
