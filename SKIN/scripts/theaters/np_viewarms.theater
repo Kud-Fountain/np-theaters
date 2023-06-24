@@ -1159,5 +1159,101 @@
 			"gear_slot"					"misc2"
 			"viewmodel_hands_override"	"models/wn_custom/arms/yuuka_hayase_arms1.mdl"
 		}
+		
+		"hands_asta"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/asta_arms1.mdl"
+		}
+		
+		"hands_ba_toki"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/ba_toki_arms1.mdl"
+		}
+		
+		"hands_cocolia"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/cocolia_arms1.mdl"
+		}
+		
+		"hands_elysia_pristine"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/elysia_pristine_arms1.mdl"
+		}
+		
+		"hands_fuxuan"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/fuxuan_arms1.mdl"
+		}
+		
+		"hands_liachan"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/liachan_arms1.mdl"
+		}
+		
+		"hands_xueyi"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/xueyi_arms1.mdl"
+		}
+		
+		"hands_yukong"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/yukong_arms1.mdl"
+		}
+		
+		"hands_mint"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/mint_arms1.mdl"
+		}
+		
+		"hands_natasha"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/natasha_arms1.mdl"
+		}
+		
+		"hands_nikke_alice"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/nikke_alice_arms1.mdl"
+		}
+		
+		"hands_nikke_anis"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/nikke_anis_arms1.mdl"
+		}
+		
+		"hands_qiulinglan"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/qiulinglan_arms1.mdl"
+		}
+		
+		"hands_nikke_anis"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/nikke_anis_arms1.mdl"
+		}
+		
+		"hands_qingque"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/qingque_arms1.mdl"
+		}
+		
+		"hands_"fiona"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/fiona_arms1.mdl"
+		}
 	}
 }
