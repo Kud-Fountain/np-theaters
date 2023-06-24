@@ -1250,7 +1250,7 @@
 			"viewmodel_hands_override"	"models/wn_custom/arms/qingque_arms1.mdl"
 		}
 		
-		"hands_"fiona"
+		"hands_fiona"
 		{
 			"gear_slot"					"misc2"
 			"viewmodel_hands_override"	"models/wn_custom/arms/fiona_arms1.mdl"
