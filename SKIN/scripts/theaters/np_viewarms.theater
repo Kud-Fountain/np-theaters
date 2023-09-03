@@ -1255,5 +1255,107 @@
 			"gear_slot"					"misc2"
 			"viewmodel_hands_override"	"models/wn_custom/arms/fiona_arms1.mdl"
 		}
+		
+		"hands_atsuko"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/atsuko_arms1.mdl"
+		}
+		
+		"hands_bronya_ol"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/bronya_ol_arms1.mdl"
+		}
+		
+		"hands_cheeta"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/cheeta_arms1.mdl"
+		}
+		
+		"hands_colphne"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/colphne_arms1.mdl"
+		}
+		
+		"hands_darture"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/darture_arms1.mdl"
+		}
+		
+		"hands_feelgoody_8"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/feelgoody_8_arms1.mdl"
+		}
+		
+		"hands_hiyori_tsuchinaga"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/hiyori_tsuchinaga_arms1.mdl"
+		}
+		
+		"hands_klee_n"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/klee_n_arms1.mdl"
+		}
+		
+		"hands_lynette"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/lynette_arms1.mdl"
+		}
+		
+		"hands_maya_yuezhe"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/maya_yuezhe_arms1.mdl"
+		}
+		
+		"hands_nishikigi_chisoku"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/nishikigi_chisoku_arms1.mdl"
+		}
+		
+		"hands_qiongjiu"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/qiongjiu_arms1.mdl"
+		}
+		
+		"hands_sabrina"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/sabrina_arms1.mdl"
+		}
+		
+		"hands_sharkry"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/sharkry_arms1.mdl"
+		}
+		
+		"hands_sapphy_yuzhe"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/sapphy_yuzhe_arms1.mdl"
+		}
+		
+		"hands_tokibunnygirl"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/tokibunnygirl_arms1.mdl"
+		}
+		
+		"hands_vepley"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/vepley_arms1.mdl"
+		}
 	}
 }
