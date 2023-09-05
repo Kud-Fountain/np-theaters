@@ -61,15 +61,15 @@
 				"#Cell_Bravo"	// insurgent team #2
 				{
 					// role name						preset
-					"#squad_sleader"		"template_sandstorm_insurgent_commander"
-					"#squad_scout"			"template_sandstorm_insurgent_observer"
-					"#squad_scout"			"template_sandstorm_insurgent_rifleman"
+					"#squad_sleader"		"template_sandstorm_insurgent_commander2"
+					"#squad_scout"			"template_sandstorm_insurgent_observer2"
+					"#squad_scout"			"template_sandstorm_insurgent_rifleman2"
 					"#squad_scout"			"template_sandstorm_insurgent_advisor"
 					"#squad_heavygunner"		    "template_sandstorm_insurgent_breacher"
-					"#squad_heavygunner"		    "template_sandstorm_insurgent_gunner"
+					"#squad_heavygunner"		    "template_sandstorm_insurgent_gunner2"
 					"#squad_jug"				"template_sandstorm_insurgent_juggernaut"
 					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
-					"#squad_marksniper"			"template_sandstorm_insurgent_marksman"
+					"#squad_marksniper"			"template_sandstorm_insurgent_marksman2"
 				}
 				
 				"#Cell_Charlie"	// insurgent team #3
@@ -78,11 +78,11 @@
 					"#squad_jug"				"template_sandstorm_insurgent_juggernaut2"
 					"#squad_sleader"		"template_sandstorm_insurgent_commander"
 					"#squad_scout"			"template_sandstorm_insurgent_observer"
-					"#squad_scout"			"template_sandstorm_insurgent_rifleman"
+					"#squad_scout"			"template_sandstorm_insurgent_rifleman2"
 					"#squad_heavygunner"			"template_sandstorm_insurgent_breacher"
-					"#squad_heavygunner"		    "template_sandstorm_insurgent_advisor"
-					"#squad_heavygunner"		    "template_sandstorm_insurgent_gunner"
-					"#squad_marksniper"			"template_sandstorm_insurgent_marksman"
+					"#squad_heavygunner"		    "template_sandstorm_insurgent_advisor2"
+					"#squad_heavygunner"		    "template_sandstorm_insurgent_gunner2"
+					"#squad_marksniper"			"template_sandstorm_insurgent_marksman2"
 				}
 				
 				"#Cell_Delta"	// insurgent team #4
@@ -106,7 +106,7 @@
 					"#squad_scout"			"template_sandstorm_insurgent_observer"
 					"#squad_scout"			"template_sandstorm_insurgent_rifleman"
 					"#squad_heavygunner"			"template_sandstorm_insurgent_breacher"
-					"#squad_heavygunner"			"template_sandstorm_insurgent_gunner"
+					"#squad_heavygunner"			"template_sandstorm_insurgent_gunner2"
 					"#squad_breacher"		"template_sandstorm_insurgent_demolitions"
 					"#squad_breacher"		"template_sandstorm_insurgent_demolitions"
 				}
@@ -116,9 +116,9 @@
 					// role name						preset
 					"#squad_sleader"		"template_sandstorm_insurgent_commander"
 					"#squad_scout"			"template_sandstorm_insurgent_observer"	
-					"#squad_scout"			"template_sandstorm_insurgent_observer"	
-					"#squad_scout"			"template_sandstorm_insurgent_rifleman"	
-					"#squad_scout"			"template_sandstorm_insurgent_advisor"
+					"#squad_scout"			"template_sandstorm_insurgent_observer2"	
+					"#squad_scout"			"template_sandstorm_insurgent_rifleman2"	
+					"#squad_scout"			"template_sandstorm_insurgent_advisor2"
 					"#squad_heavygunner"			"template_sandstorm_insurgent_breacher"	
 					"#squad_heavygunner"			"template_sandstorm_insurgent_gunner"
 				}

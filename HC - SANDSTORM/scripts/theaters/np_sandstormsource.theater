@@ -1087,7 +1087,60 @@
 				"weapon_upgrade"			"underbarrel_gp25_he"
 				"weapon"					"weapon_sandstorm_at4"
 			}
-		}		
+		}	
+
+		"template_sandstorm_insurgent_commander2"
+		{
+			"team"						"insurgents"
+			"print_name"				"#squad_sleader"
+			
+			"models"
+			{
+				"player"				"models/characters/insurgent_light.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}	
+			
+			"buy_order"
+			{
+				"gear"						"ins_light_armor"
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_sandstorm_kukri"
+				"weapon"					"weapon_sandstorm_famas"
+				"weapon"					"weapon_sandstorm_hk416d"
+				"weapon"					"weapon_sandstorm_mp443"
+				"weapon_upgrade"			"barrel_silencer_sandstorm_sec2"
+				//"weapon"					"weapon_sandstorm_anm14"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"underbarrel_gp25_he"
+				"weapon"					"weapon_sandstorm_at4"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"					"weapon_vietnam_m2carbine"
+				"weapon"					"weapon_sandstorm_mp443"
+				"weapon"					"weapon_sandstorm_m16a4"
+				"weapon"					"weapon_sandstorm_m16a2"
+				"weapon"					"weapon_sandstorm_akm"
+				"weapon"					"weapon_sandstorm_g36k"
+				"weapon"					"weapon_sandstorm_ak74"
+				"weapon"					"weapon_sandstorm_ak12"
+				"weapon"					"weapon_sandstorm_hk416d"
+				"weapon"					"weapon_sandstorm_fal"
+				"weapon"					"weapon_sandstorm_g3a3"
+				"weapon"					"weapon_sandstorm_m4a1"
+				//"weapon"					"weapon_sandstorm_anm14"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"underbarrel_gp25_he"
+				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_famas"
+			}
+		}
 		
 		"template_sandstorm_insurgent_observer"
 		{
@@ -1132,6 +1185,50 @@
 			}
 		}
 		
+		"template_sandstorm_insurgent_observer2"
+		{
+			"team"						"insurgents"
+			"print_name"				"#squad_scout"
+			
+			"models"
+			{
+				"player"				"models/characters/insurgent_light.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}	
+			
+			"buy_order"
+			{
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_sandstorm_kukri"
+				"weapon"					"weapon_sandstorm_p90"
+				"weapon_upgrade"			"optic_sandstorm_aimpoint"
+				"weapon"					"weapon_sandstorm_hkusp45"
+				//"weapon"					"weapon_sandstorm_f1"
+				"weapon"					"weapon_sandstorm_at4"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"					"weapon_sandstorm_vssvintorez"
+				"weapon"					"weapon_sandstorm_m16a2"
+				"weapon"					"weapon_sandstorm_hkusp45"
+				"weapon"					"weapon_sandstorm_akm"
+				"weapon"					"weapon_sandstorm_g36k"
+				"weapon"					"weapon_sandstorm_ak74"
+				"weapon"					"weapon_sandstorm_fal"
+				"weapon"					"weapon_sandstorm_g3a3"
+				"weapon"					"weapon_sandstorm_m4a1"
+				//"weapon"					"weapon_sandstorm_f1"
+				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_p90"
+			}
+		}
+		
 		"template_sandstorm_insurgent_rifleman"
 		{
 			"team"						"insurgent"
@@ -1154,6 +1251,54 @@
 				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_sandstorm_kukri"
 				"weapon"					"weapon_codmw19_ak47"
+				"weapon_upgrade"			"optic_sandstorm_aimpoint"
+				"weapon"					"weapon_sandstorm_tariq"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"underbarrel_gp25_he"
+				"weapon"					"weapon_sandstorm_rpg7"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"					"weapon_sandstorm_m16a4"
+				"weapon"					"weapon_sandstorm_m16a2"
+				"weapon"					"weapon_codmw19_ak47"
+				"weapon"					"weapon_sandstorm_tariq"
+				"weapon"					"weapon_sandstorm_akm"
+				"weapon"					"weapon_sandstorm_g36k"
+				"weapon"					"weapon_sandstorm_ak74"
+				"weapon"					"weapon_sandstorm_fal"
+				"weapon"					"weapon_sandstorm_g3a3"
+				"weapon"					"weapon_sandstorm_m4a1"
+				//"weapon"					"weapon_sandstorm_at4"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"underbarrel_gp25_he"
+				"weapon"					"weapon_sandstorm_rpg7"
+			}
+		}
+		
+		"template_sandstorm_insurgent_rifleman2"
+		{
+			"team"						"insurgent"
+			"print_name"				"#squad_scout"
+			
+			"models"
+			{
+				"player"				"models/characters/insurgent_light.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}	
+			
+			"buy_order"
+			{
+				"gear"						"ins_light_armor"
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_sandstorm_kukri"
+				"weapon"					"weapon_sandstorm_fal"
 				"weapon_upgrade"			"optic_sandstorm_aimpoint"
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon_upgrade"			"underbarrel_m203_he"
@@ -1247,6 +1392,45 @@
 				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_sandstorm_kukri"
 				"weapon"					"weapon_sandstorm_m240"
+				"weapon"					"weapon_sandstorm_tariq"
+				"weapon"					"weapon_sandstorm_molotov"
+				//"weapon"					"weapon_sandstorm_rpg7"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"					"weapon_sandstorm_galil"
+				"weapon"					"weapon_sandstorm_galil_sar"
+				"weapon"					"weapon_sandstorm_m240"
+				"weapon"					"weapon_sandstorm_tariq"
+				"weapon"					"weapon_sandstorm_rpk"
+				"weapon"					"weapon_sandstorm_molotov"
+				//"weapon"					"weapon_sandstorm_rpg7"
+			}
+		}
+		
+		"template_sandstorm_insurgent_gunner2"
+		{
+			"team"						"insurgent"
+			"print_name"				"#squad_heavygunner"
+			
+			"models"
+			{
+				"player"				"models/characters/insurgent_light.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}	
+			
+			"buy_order"
+			{
+				"gear"						"ins_light_armor"
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_sandstorm_kukri"
+				"weapon"					"weapon_sandstorm_rpk"
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon"					"weapon_sandstorm_molotov"
 				//"weapon"					"weapon_sandstorm_rpg7"
@@ -1360,6 +1544,52 @@
 			}
 		}
 		
+		"template_sandstorm_insurgent_advisor2"
+		{
+			"team"						"insurgent"
+			"print_name"				"#squad_battlesapper"
+			
+			"models"
+			{
+				"player"				"models/characters/insurgent_light.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}	
+			
+			"buy_order"
+			{
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_sandstorm_kukri"
+				"weapon"					"weapon_sandstorm_sig_mpx"
+				"weapon_upgrade"			"optic_sandstorm_aimpoint"
+				"weapon"					"weapon_sandstorm_m9"
+				"weapon"					"weapon_sandstorm_molotov"
+				//"weapon"					"weapon_sandstorm_rpg7"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"					"weapon_sandstorm_sks"
+				"weapon"					"weapon_sandstorm_mk17"
+				"weapon"					"weapon_sandstorm_aks74u"
+				"weapon"					"weapon_sandstorm_alphaak"
+				"weapon"					"weapon_sandstorm_l85a2"
+				"weapon"					"weapon_sandstorm_p90"
+				"weapon"					"weapon_sandstorm_apc9pro"
+				"weapon"					"weapon_sandstorm_m9"
+				"weapon"					"weapon_sandstorm_mk18"
+				"weapon"					"weapon_sandstorm_svd"
+				"weapon"					"weapon_sandstorm_m14"
+				"weapon"					"weapon_sandstorm_molotov"
+				//"weapon"					"weapon_sandstorm_rpg7"
+				"weapon"					"weapon_sandstorm_sig_mpx"
+			}
+		}
+		
 		"template_sandstorm_insurgent_marksman"
 		{
 			"team"						"insurgent"
@@ -1397,6 +1627,47 @@
 				"weapon"					"weapon_sandstorm_m14"
 				"weapon"					"weapon_sandstorm_m67"
 				//"weapon"					"weapon_sandstorm_at4"
+			}
+		}
+		
+		"template_sandstorm_insurgent_marksman2"
+		{
+			"team"						"insurgent"
+			"print_name"				"#squad_marksniper"
+			
+			"models"
+			{
+				"player"				"models/characters/insurgent_light.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}	
+			
+			"buy_order"
+			{
+				"gear"						"ins_chest_rig"
+				"weapon"					"weapon_sandstorm_kukri"
+				"weapon"					"weapon_sandstorm_m1garand"
+				"weapon_upgrade"			"optic_sandstorm_mk4"
+				"weapon"					"weapon_sandstorm_m9"
+				"weapon"					"weapon_sandstorm_m67"
+				//"weapon"					"weapon_sandstorm_at4"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"					"weapon_sandstorm_m110a1"
+				"weapon"					"weapon_sandstorm_m24"
+				"weapon"					"weapon_sandstorm_mosin"
+				"weapon"					"weapon_sandstorm_svd"
+				"weapon"					"weapon_sandstorm_m9"
+				"weapon"					"weapon_sandstorm_m14"
+				"weapon"					"weapon_sandstorm_m67"
+				//"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_m1garand"
 			}
 		}
 		
