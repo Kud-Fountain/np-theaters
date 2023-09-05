@@ -49,78 +49,78 @@
 				"#Cell_Alpha"	// insurgent team #1
 				{
 					// role name						preset
-					"#squad_sleader"		"template_sandstorm_insurgent_commander"	// Commander
-					"#squad_scout"			"template_sandstorm_insurgent_rifleman"		// Rifleman
-					"#squad_scout"			"template_sandstorm_insurgent_rifleman"		// Rifleman
-					"#squad_heavygunner"			"template_sandstorm_insurgent_gunner"		// Gunner
-					"#squad_heavygunner"		    "template_sandstorm_insurgent_gunner"		// Gunner
-					"#squad_breacher"		"template_sandstorm_insurgent_demolitions"	// Demolitions
-					"#squad_marksniper"			"template_sandstorm_insurgent_marksman"		// Marksman
+					"#squad_sleader"		"template_sandstorm_insurgent_commander"
+					"#squad_scout"			"template_sandstorm_insurgent_observer"
+					"#squad_scout"			"template_sandstorm_insurgent_rifleman"
+					"#squad_heavygunner"			"template_sandstorm_insurgent_breacher"
+					"#squad_heavygunner"		    "template_sandstorm_insurgent_gunner"
+					"#squad_breacher"		"template_sandstorm_insurgent_demolitions"
+					"#squad_marksniper"			"template_sandstorm_insurgent_marksman"
 				}
 				
 				"#Cell_Bravo"	// insurgent team #2
 				{
 					// role name						preset
-					"#squad_sleader"		"template_sandstorm_insurgent_commander"	// Commander
-					"#squad_scout"			"template_sandstorm_insurgent_rifleman"		// Rifleman
-					"#squad_scout"			"template_sandstorm_insurgent_rifleman"		// Rifleman
-					"#squad_scout"			"template_sandstorm_insurgent_rifleman"		// Rifleman
-					"#squad_heavygunner"		    "template_sandstorm_insurgent_gunner"		// Gunner
-					"#squad_heavygunner"		    "template_sandstorm_insurgent_gunner"		// Gunner
+					"#squad_sleader"		"template_sandstorm_insurgent_commander"
+					"#squad_scout"			"template_sandstorm_insurgent_observer"
+					"#squad_scout"			"template_sandstorm_insurgent_rifleman"
+					"#squad_scout"			"template_sandstorm_insurgent_advisor"
+					"#squad_heavygunner"		    "template_sandstorm_insurgent_breacher"
+					"#squad_heavygunner"		    "template_sandstorm_insurgent_gunner"
 					"#squad_jug"				"template_sandstorm_insurgent_juggernaut"
-					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"		// Bomber
-					"#squad_marksniper"			"template_sandstorm_insurgent_marksman"		// Marksman
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#squad_marksniper"			"template_sandstorm_insurgent_marksman"
 				}
 				
 				"#Cell_Charlie"	// insurgent team #3
 				{
 					// role name						preset
 					"#squad_jug"				"template_sandstorm_insurgent_juggernaut2"
-					"#squad_sleader"		"template_sandstorm_insurgent_commander"	// Commander
-					"#squad_scout"			"template_sandstorm_insurgent_rifleman"		// Rifleman
-					"#squad_scout"			"template_sandstorm_insurgent_rifleman"		// Rifleman
-					"#squad_heavygunner"			"template_sandstorm_insurgent_gunner"		// Gunner
-					"#squad_heavygunner"		    "template_sandstorm_insurgent_gunner"		// Gunner
-					"#squad_heavygunner"		    "template_sandstorm_insurgent_gunner"		// Gunner
-					"#squad_marksniper"			"template_sandstorm_insurgent_marksman"		// Marksman
+					"#squad_sleader"		"template_sandstorm_insurgent_commander"
+					"#squad_scout"			"template_sandstorm_insurgent_observer"
+					"#squad_scout"			"template_sandstorm_insurgent_rifleman"
+					"#squad_heavygunner"			"template_sandstorm_insurgent_breacher"
+					"#squad_heavygunner"		    "template_sandstorm_insurgent_advisor"
+					"#squad_heavygunner"		    "template_sandstorm_insurgent_gunner"
+					"#squad_marksniper"			"template_sandstorm_insurgent_marksman"
 				}
 				
 				"#Cell_Delta"	// insurgent team #4
 				{
 					// role name						preset
 					"#squad_jug"				"template_sandstorm_insurgent_juggernaut3"
-					"#squad_sleader"		"template_sandstorm_insurgent_commander"	// Commander
-					"#squad_scout"			"template_sandstorm_insurgent_rifleman"		// Rifleman
-					"#squad_scout"			"template_sandstorm_insurgent_rifleman"		// Rifleman
-					"#squad_heavygunner"			"template_sandstorm_insurgent_gunner"		// Gunner
-					"#squad_heavygunner"		    "template_sandstorm_insurgent_gunner"		// Gunner
-					"#squad_breacher"		"template_sandstorm_insurgent_demolitions"	// Demolitions
-					"#squad_marksniper"			"template_sandstorm_insurgent_marksman"		// Marksman
+					"#squad_sleader"		"template_sandstorm_insurgent_commander"
+					"#squad_scout"			"template_sandstorm_insurgent_observer"
+					"#squad_scout"			"template_sandstorm_insurgent_rifleman"
+					"#squad_heavygunner"			"template_sandstorm_insurgent_breacher"
+					"#squad_heavygunner"		    "template_sandstorm_insurgent_gunner"
+					"#squad_breacher"		"template_sandstorm_insurgent_demolitions"
+					"#squad_marksniper"			"template_sandstorm_insurgent_marksman"
 				}
 				
 				"#Cell_Echo"	// insurgent team #5
 				{
 					// role name						preset
 					"#squad_jug"				"template_sandstorm_insurgent_juggernaut4"
-					"#squad_sleader"		"template_sandstorm_insurgent_commander"	// Commander
-					"#squad_scout"			"template_sandstorm_insurgent_rifleman"		// Rifleman
-					"#squad_scout"			"template_sandstorm_insurgent_rifleman"		// Rifleman
-					"#squad_heavygunner"			"template_sandstorm_insurgent_gunner"		// Gunner
-					"#squad_heavygunner"			"template_sandstorm_insurgent_gunner"		// Gunner
-					"#squad_breacher"		"template_sandstorm_insurgent_demolitions"	// Demolitions
-					"#squad_breacher"		"template_sandstorm_insurgent_demolitions"	// Demolitions
+					"#squad_sleader"		"template_sandstorm_insurgent_commander"
+					"#squad_scout"			"template_sandstorm_insurgent_observer"
+					"#squad_scout"			"template_sandstorm_insurgent_rifleman"
+					"#squad_heavygunner"			"template_sandstorm_insurgent_breacher"
+					"#squad_heavygunner"			"template_sandstorm_insurgent_gunner"
+					"#squad_breacher"		"template_sandstorm_insurgent_demolitions"
+					"#squad_breacher"		"template_sandstorm_insurgent_demolitions"
 				}
 				
 				"#Cell_Foxtrot"	// insurgent team #6
 				{
 					// role name						preset
-					"#squad_sleader"		"template_sandstorm_insurgent_commander"	// Commander
-					"#squad_scout"			"template_sandstorm_insurgent_rifleman"		// Rifleman
-					"#squad_scout"			"template_sandstorm_insurgent_rifleman"		// Rifleman
-					"#squad_scout"			"template_sandstorm_insurgent_rifleman"		// Rifleman
-					"#squad_scout"			"template_sandstorm_insurgent_rifleman"		// Rifleman
-					"#squad_heavygunner"			"template_sandstorm_insurgent_gunner"		// Gunner
-					"#squad_heavygunner"			"template_sandstorm_insurgent_gunner"		// Gunner
+					"#squad_sleader"		"template_sandstorm_insurgent_commander"
+					"#squad_scout"			"template_sandstorm_insurgent_observer"	
+					"#squad_scout"			"template_sandstorm_insurgent_observer"	
+					"#squad_scout"			"template_sandstorm_insurgent_rifleman"	
+					"#squad_scout"			"template_sandstorm_insurgent_advisor"
+					"#squad_heavygunner"			"template_sandstorm_insurgent_breacher"	
+					"#squad_heavygunner"			"template_sandstorm_insurgent_gunner"
 				}
 			}
 		}
