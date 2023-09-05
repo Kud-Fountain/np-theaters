@@ -1062,7 +1062,7 @@
 				"weapon"					"weapon_sandstorm_hk416d"
 				"weapon"					"weapon_sandstorm_mp443"
 				"weapon_upgrade"			"barrel_silencer_sandstorm_sec2"
-				"weapon"					"weapon_sandstorm_anm14"
+				//"weapon"					"weapon_sandstorm_anm14"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
 				"weapon"					"weapon_sandstorm_at4"
@@ -1156,7 +1156,6 @@
 				"weapon"					"weapon_codmw19_ak47"
 				"weapon_upgrade"			"optic_sandstorm_aimpoint"
 				"weapon"					"weapon_sandstorm_tariq"
-				"weapon"					"weapon_sandstorm_at4"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
 				"weapon"					"weapon_sandstorm_rpg7"
@@ -1249,7 +1248,7 @@
 				"weapon"					"weapon_sandstorm_kukri"
 				"weapon"					"weapon_sandstorm_m240"
 				"weapon"					"weapon_sandstorm_tariq"
-				"weapon"					"weapon_sandstorm_anm14"
+				//"weapon"					"weapon_sandstorm_anm14"
 				"weapon"					"weapon_sandstorm_rpg7"
 			}
 			
@@ -1384,7 +1383,7 @@
 				"weapon"					"weapon_sandstorm_m110a1"
 				"weapon_upgrade"			"optic_sandstorm_mk4"
 				"weapon"					"weapon_sandstorm_m9"
-				"weapon"					"weapon_sandstorm_f1"
+				//"weapon"					"weapon_sandstorm_f1"
 				"weapon"					"weapon_sandstorm_at4"
 			}
 			
@@ -1394,6 +1393,7 @@
 				"weapon"					"weapon_sandstorm_m24"
 				"weapon"					"weapon_sandstorm_mosin"
 				"weapon"					"weapon_sandstorm_svd"
+				"weapon"					"weapon_sandstorm_m9"
 				"weapon"					"weapon_sandstorm_m14"
 				"weapon"					"weapon_sandstorm_f1"
 				"weapon"					"weapon_sandstorm_at4"
@@ -1420,7 +1420,7 @@
 			"buy_order"
 			{
 				"gear"						"ins_chest_rig"
-				"weapon"					"weapon_sandstorm_f1"
+				//"weapon"					"weapon_sandstorm_f1"
 				"weapon"					"weapon_suicide_bomb"
 				"weapon"					"weapon_sandstorm_at4"
 			}
@@ -1458,7 +1458,7 @@
 				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
-				"weapon"					"weapon_sandstorm_f1"
+				//"weapon"					"weapon_sandstorm_f1"
 			}
 			
 			"allowed_items"
@@ -1534,7 +1534,7 @@
 			{
 				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_sandstorm_saiga_12"
-				"weapon"					"weapon_sandstorm_at4"
+				//"weapon"					"weapon_sandstorm_at4"
 				"weapon"					"weapon_sandstorm_kukri"
 				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor"
