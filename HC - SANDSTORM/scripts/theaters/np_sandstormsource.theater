@@ -1065,6 +1065,7 @@
 				"weapon"					"weapon_sandstorm_anm14"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
+				"weapon"					"weapon_sandstorm_at4"
 			}
 			
 			"allowed_items"
@@ -1084,6 +1085,7 @@
 				"weapon"					"weapon_sandstorm_anm14"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
+				"weapon"					"weapon_sandstorm_at4"
 			}
 		}		
 		
@@ -1111,6 +1113,7 @@
 				"weapon_upgrade"			"optic_sandstorm_aimpoint"
 				"weapon"					"weapon_sandstorm_hkusp45"
 				"weapon"					"weapon_sandstorm_f1"
+				"weapon"					"weapon_sandstorm_at4"
 			}
 			
 			"allowed_items"
@@ -1125,6 +1128,7 @@
 				"weapon"					"weapon_sandstorm_g3a3"
 				"weapon"					"weapon_sandstorm_m4a1"
 				"weapon"					"weapon_sandstorm_f1"
+				"weapon"					"weapon_sandstorm_at4"
 			}
 		}
 		
@@ -1155,6 +1159,7 @@
 				"weapon"					"weapon_sandstorm_at4"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
+				"weapon"					"weapon_sandstorm_rpg7"
 			}
 			
 			"allowed_items"
@@ -1172,6 +1177,7 @@
 				"weapon"					"weapon_sandstorm_at4"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
+				"weapon"					"weapon_sandstorm_rpg7"
 			}
 		}
 
@@ -1200,6 +1206,7 @@
 				"weapon_upgrade"			"optic_sandstorm_kobra"
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon"					"weapon_sandstorm_f1"
+				"weapon"					"weapon_sandstorm_rpg7"
 			}
 			
 			"allowed_items"
@@ -1215,6 +1222,7 @@
 				"weapon"					"weapon_sandstorm_f1"
 				
 				"weapon"					"weapon_sandstorm_c4_clicker"
+				"weapon"					"weapon_sandstorm_rpg7"
 			}
 		}
 		
@@ -1242,6 +1250,7 @@
 				"weapon"					"weapon_sandstorm_m240"
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon"					"weapon_sandstorm_anm14"
+				"weapon"					"weapon_sandstorm_rpg7"
 			}
 			
 			"allowed_items"
@@ -1252,6 +1261,7 @@
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon"					"weapon_sandstorm_rpk"
 				"weapon"					"weapon_sandstorm_anm14"
+				"weapon"					"weapon_sandstorm_rpg7"
 			}
 		}
 		
@@ -1330,6 +1340,7 @@
 				"weapon_upgrade"			"optic_sandstorm_aimpoint"
 				"weapon"					"weapon_sandstorm_m9"
 				"weapon"					"weapon_sandstorm_molotov"
+				"weapon"					"weapon_sandstorm_rpg7"
 			}
 			
 			"allowed_items"
@@ -1346,6 +1357,7 @@
 				"weapon"					"weapon_sandstorm_svd"
 				"weapon"					"weapon_sandstorm_m14"
 				"weapon"					"weapon_sandstorm_molotov"
+				"weapon"					"weapon_sandstorm_rpg7"
 			}
 		}
 		
@@ -1373,6 +1385,7 @@
 				"weapon_upgrade"			"optic_sandstorm_mk4"
 				"weapon"					"weapon_sandstorm_m9"
 				"weapon"					"weapon_sandstorm_f1"
+				"weapon"					"weapon_sandstorm_at4"
 			}
 			
 			"allowed_items"
@@ -1383,6 +1396,7 @@
 				"weapon"					"weapon_sandstorm_svd"
 				"weapon"					"weapon_sandstorm_m14"
 				"weapon"					"weapon_sandstorm_f1"
+				"weapon"					"weapon_sandstorm_at4"
 			}
 		}
 		
@@ -1408,12 +1422,14 @@
 				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_sandstorm_f1"
 				"weapon"					"weapon_suicide_bomb"
+				"weapon"					"weapon_sandstorm_at4"
 			}
 			
 			"allowed_items"
 			{
 				"weapon"					"weapon_sandstorm_f1"
 				"weapon"					"weapon_suicide_bomb"
+				"weapon"					"weapon_sandstorm_at4"
 			}
 		}
 		
