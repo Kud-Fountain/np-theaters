@@ -1393,8 +1393,8 @@
 				"weapon"					"weapon_sandstorm_kukri"
 				"weapon"					"weapon_sandstorm_m240"
 				"weapon"					"weapon_sandstorm_tariq"
-				"weapon"					"weapon_sandstorm_molotov"
-				//"weapon"					"weapon_sandstorm_rpg7"
+				//"weapon"					"weapon_sandstorm_molotov"
+				"weapon"					"weapon_sandstorm_rpg7"
 			}
 			
 			"allowed_items"
@@ -1404,8 +1404,8 @@
 				"weapon"					"weapon_sandstorm_m240"
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon"					"weapon_sandstorm_rpk"
-				"weapon"					"weapon_sandstorm_molotov"
-				//"weapon"					"weapon_sandstorm_rpg7"
+				//"weapon"					"weapon_sandstorm_molotov"
+				"weapon"					"weapon_sandstorm_rpg7"
 			}
 		}
 		
@@ -1432,8 +1432,8 @@
 				"weapon"					"weapon_sandstorm_kukri"
 				"weapon"					"weapon_sandstorm_rpk"
 				"weapon"					"weapon_sandstorm_tariq"
-				"weapon"					"weapon_sandstorm_molotov"
-				//"weapon"					"weapon_sandstorm_rpg7"
+				//"weapon"					"weapon_sandstorm_molotov"
+				"weapon"					"weapon_sandstorm_rpg7"
 			}
 			
 			"allowed_items"
@@ -1443,8 +1443,8 @@
 				"weapon"					"weapon_sandstorm_m240"
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon"					"weapon_sandstorm_rpk"
-				"weapon"					"weapon_sandstorm_molotov"
-				//"weapon"					"weapon_sandstorm_rpg7"
+				//"weapon"					"weapon_sandstorm_molotov"
+				"weapon"					"weapon_sandstorm_rpg7"
 			}
 		}
 		
@@ -1613,8 +1613,8 @@
 				"weapon"					"weapon_sandstorm_m110a1"
 				"weapon_upgrade"			"optic_sandstorm_mk4"
 				"weapon"					"weapon_sandstorm_m9"
-				"weapon"					"weapon_sandstorm_m67"
-				//"weapon"					"weapon_sandstorm_at4"
+				//"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_sandstorm_at4"
 			}
 			
 			"allowed_items"
@@ -1625,8 +1625,8 @@
 				"weapon"					"weapon_sandstorm_svd"
 				"weapon"					"weapon_sandstorm_m9"
 				"weapon"					"weapon_sandstorm_m14"
-				"weapon"					"weapon_sandstorm_m67"
-				//"weapon"					"weapon_sandstorm_at4"
+				//"weapon"					"weapon_sandstorm_m67"
+				"weapon"					"weapon_sandstorm_at4"
 			}
 		}
 		
