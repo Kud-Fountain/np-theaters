@@ -1357,5 +1357,59 @@
 			"gear_slot"					"misc2"
 			"viewmodel_hands_override"	"models/wn_custom/arms/vepley_arms1.mdl"
 		}
+		
+		"hands_arisu"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/arisu_arms1.mdl"
+		}
+		
+		"hands_azumaseren_new"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/azumaseren_new_arms1.mdl"
+		}
+		
+		"hands_baihua"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/baihua1_arms1.mdl"
+		}
+		
+		"hands_furina"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/furina_arms1.mdl"
+		}
+		
+		"hands_kirara"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/kirara_arms1.mdl"
+		}
+		
+		"hands_lynx"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/lynx_arms1.mdl"
+		}
+		
+		"hands_seren_azuma_live"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/seren_azuma_live_arms1.mdl"
+		}
+		
+		"hands_theresa_adult"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/theresa_adult_arms1.mdl"
+		}
+		
+		"hands_theresa_bloodmoon"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/theresa_bloodmoon_arms1.mdl"
+		}
 	}
 }
