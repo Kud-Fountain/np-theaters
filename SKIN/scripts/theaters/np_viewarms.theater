@@ -1361,7 +1361,7 @@
 		"hands_baihua"
 		{
 			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/baihua1_arms1.mdl"
+			"viewmodel_hands_override"	"models/wn_custom/arms/baihua_arms1.mdl"
 		}
 		
 		"hands_furina"
