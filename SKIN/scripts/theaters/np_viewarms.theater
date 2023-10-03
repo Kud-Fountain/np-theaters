@@ -2,17 +2,17 @@
 {
 	"player_gear"
 	{
-		"hands_akai_haato"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/akai_haato_old_arms.mdl"
-		}
+//		"hands_akai_haato"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/akai_haato_old_arms.mdl"
+//		}
 		
-		"hands_akai_haato_off"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/akai_haato_arms.mdl"
-		}
+//		"hands_akai_haato_off"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/akai_haato_arms.mdl"
+//		}
 		
 		"hands_akatsuki"
 		{
@@ -62,47 +62,47 @@
 			"viewmodel_hands_override"	"models/wn_custom/arms/enterprise_arms.mdl"
 		}
 		
-		"hands_fubuki_chan"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/fubuki_arms.mdl"
-		}
+//		"hands_fubuki_chan"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/fubuki_arms.mdl"
+//		}
 		
-		"hands_g11"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/g11_arms.mdl"
-		}
+//		"hands_g11"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/g11_arms.mdl"
+//		}
 		
-		"hands_gbf_ferry"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/ferry_arms.mdl"
-		}
+//		"hands_gbf_ferry"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/ferry_arms.mdl"
+//		}
 		
-		"hands_gf_type95"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/type95_arms.mdl"
-		}
+//		"hands_gf_type95"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/type95_arms.mdl"
+//		}
 		
-		"hands_gf_ump9"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/ump9_arms.mdl"
-		}
+//		"hands_gf_ump9"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/ump9_arms.mdl"
+//		}
 		
-		"hands_gf_ump45"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/ump45_arms.mdl"
-		}
+//		"hands_gf_ump45"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/ump45_arms.mdl"
+//		}
 		
-		"hands_gf_wa2000"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/wa2000_arms.mdl"
-		}
+//		"hands_gf_wa2000"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/wa2000_arms.mdl"
+//		}
 		
 		"hands_glorious"
 		{
@@ -122,11 +122,11 @@
 			"viewmodel_hands_override"	"models/wn_custom/arms/hk416_arms.mdl"
 		}
 		
-		"hands_hk416_star"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/hk416_star_arms.mdl"
-		}
+//		"hands_hk416_star"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/hk416_star_arms.mdl"
+//		}
 		
 		"hands_javelin"
 		{
@@ -164,23 +164,23 @@
 			"viewmodel_hands_override"	"models/wn_custom/arms/laffey_arms.mdl"
 		}
 		
-		"hands_mariana"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/mariana_arms.mdl"
-		}
+//		"hands_mariana"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/mariana_arms.mdl"
+//		}
 		
-		"hands_mei4_ship"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/mei4_arms.mdl"
-		}
+//		"hands_mei4_ship"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/mei4_arms.mdl"
+//		}
 		
-		"hands_miku_ouka"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/miko_ouka_arms.mdl"
-		}
+//		"hands_miku_ouka"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/miko_ouka_arms.mdl"
+//		}
 		
 		"hands_minato_aqua"
 		{
@@ -200,11 +200,11 @@
 			"viewmodel_hands_override"	"models/wn_custom/arms/pekora_arms.mdl"
 		}
 		
-		"hands_raiden_mei_adult"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/raiden_mei_adult_arms.mdl"
-		}
+//		"hands_raiden_mei_adult"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/raiden_mei_adult_arms.mdl"
+//		}
 		
 		"hands_rozaliya_2"
 		{
@@ -212,17 +212,17 @@
 			"viewmodel_hands_override"	"models/wn_custom/arms/rozaliya_arms.mdl"
 		}
 		
-		"hands_rita_766"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/rita_arms.mdl"
-		}
+//		"hands_rita_766"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/rita_arms.mdl"
+//		}
 		
-		"hands_saint_louis"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/st_louis_arms.mdl"
-		}
+//		"hands_saint_louis"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/st_louis_arms.mdl"
+//		}
 		
 		"hands_sop_mod_ii"
 		{
@@ -248,11 +248,11 @@
 			"viewmodel_hands_override"	"models/wn_custom/arms/tiara_arms.mdl"
 		}
 		
-		"hands_yae_sakura_n"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/yae_sakura_arms.mdl"
-		}
+//		"hands_yae_sakura_n"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/yae_sakura_arms.mdl"
+//		}
 		
 		"hands_yukikaze"
 		{
@@ -260,23 +260,23 @@
 			"viewmodel_hands_override"	"models/wn_custom/arms/yukikaze_arms.mdl"
 		}
 		
-		"hands_z23"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/z23_arms.mdl"
-		}
+//		"hands_z23"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/z23_arms.mdl"
+//		}
 		
-		"hands_durandal"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/durandal_arms.mdl"
-		}
+//		"hands_durandal"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/durandal_arms.mdl"
+//		}
 		
-		"hands_hinata"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/hinata_arms.mdl"
-		}
+//		"hands_hinata"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/hinata_arms.mdl"
+//		}
 		
 		"hands_theresa_guanxing"
 		{
@@ -290,11 +290,11 @@
 			"viewmodel_hands_override"	"models/wn_custom/arms/seele_white_arms.mdl"
 		}
 		
-		"hands_sucrose"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/sucrose_arms.mdl"
-		}
+//		"hands_sucrose"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/sucrose_arms.mdl"
+//		}
 		
 		"hands_amiya"
 		{
@@ -392,11 +392,11 @@
 			"viewmodel_hands_override"	"models/wn_custom/arms/oguri_cap_arms.mdl"
 		}
 		
-		"hands_hung"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/hung_arms.mdl"
-		}
+//		"hands_hung"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/hung_arms.mdl"
+//		}
 		
 		"hands_sangonomiya_kokomi"
 		{
@@ -434,11 +434,11 @@
 			"viewmodel_hands_override"	"models/wn_custom/arms/florence_arms.mdl"
 		}
 		
-		"hands_persicaria"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/persicaria_arms.mdl"
-		}
+//		"hands_persicaria"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/persicaria_arms.mdl"
+//		}
 		
 		"hands_hi3_delta"
 		{
@@ -506,11 +506,11 @@
 			"viewmodel_hands_override"	"models/wn_custom/arms/amamiya_kokoro_arms.mdl"
 		}
 		
-		"hands_negev"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/negev_arms.mdl"
-		}
+//		"hands_negev"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/negev_arms.mdl"
+//		}
 		
 		"hands_chino_classic"
 		{
@@ -542,11 +542,11 @@
 			"viewmodel_hands_override"	"models/wn_custom/arms/elysia_arms.mdl"
 		}
 		
-		"hands_matsuri_aki"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/matsuri_aki_arms.mdl"
-		}
+//		"hands_matsuri_aki"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/matsuri_aki_arms.mdl"
+//		}
 		
 		"hands_konno_junko"
 		{
@@ -590,17 +590,17 @@
 			"viewmodel_hands_override"	"models/wn_custom/arms/isa_gai_arms.mdl"
 		}
 		
-		"hands_claudia"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/claudia_arms.mdl"
-		}
+//		"hands_claudia"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/claudia_arms.mdl"
+//		}
 		
-		"hands_patricia"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/patricia_arms.mdl"
-		}
+//		"hands_patricia"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/patricia_arms.mdl"
+//		}
 		
 		"hands_aponia"
 		{
@@ -626,17 +626,11 @@
 			"viewmodel_hands_override"	"models/wn_custom/arms/serenazuma_arms.mdl"
 		}
 		
-		"hands_excalibur"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/excalibur_arms.mdl"
-		}
-		
-		"hands_excalibur"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/excalibur_arms.mdl"
-		}
+//		"hands_excalibur"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/excalibur_arms.mdl"
+//		}
 		
 		"hands_griseo"
 		{
@@ -674,11 +668,11 @@
 			"viewmodel_hands_override"	"models/wn_custom/arms/small_miku_arms.mdl"
 		}
 		
-		"hands_taiho"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/taiho_arms.mdl"
-		}
+//		"hands_taiho"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/taiho_arms.mdl"
+//		}
 		
 		"hands_yuni"
 		{
@@ -786,12 +780,6 @@
 		{
 			"gear_slot"					"misc2"
 			"viewmodel_hands_override"	"models/wn_custom/arms/rindo_arms.mdl"
-		}
-		
-		"hands_usaki_nono"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/usaki_nono_arms.mdl"
 		}
 		
 		"hands_usaki_nono"
@@ -1112,29 +1100,29 @@
 			"viewmodel_hands_override"	"models/wn_custom/arms/karin2_arms1.mdl"
 		}
 		
-		"hands_katrina_balbastre"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/katrina_balbastre_arms1.mdl"
-		}
+//		"hands_katrina_balbastre"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/katrina_balbastre_arms1.mdl"
+//		}
 		
-		"hands_kokoa"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/kokoa_arms1.mdl"
-		}
+//		"hands_kokoa"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/kokoa_arms1.mdl"
+//		}
 		
-		"hands_meiyun"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/meiyun_arms1.mdl"
-		}
+//		"hands_meiyun"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/meiyun_arms1.mdl"
+//		}
 		
-		"hands_mona_vrc"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/mona_vrc_arms1.mdl"
-		}
+//		"hands_mona_vrc"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/mona_vrc_arms1.mdl"
+//		}
 		
 		"hands_nazuna"
 		{
@@ -1142,11 +1130,11 @@
 			"viewmodel_hands_override"	"models/wn_custom/arms/nazuna_arms1.mdl"
 		}
 		
-		"hands_sophie_neuenmuller"
-		{
-			"gear_slot"					"misc2"
-			"viewmodel_hands_override"	"models/wn_custom/arms/sophie_neuenmuller_arms1.mdl"
-		}
+//		"hands_sophie_neuenmuller"
+//		{
+//			"gear_slot"					"misc2"
+//			"viewmodel_hands_override"	"models/wn_custom/arms/sophie_neuenmuller_arms1.mdl"
+//		}
 		
 		"hands_yelan"
 		{
