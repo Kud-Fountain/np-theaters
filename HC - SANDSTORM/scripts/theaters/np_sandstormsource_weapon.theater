@@ -465,8 +465,8 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"no_carry"	// "rocket_rpg7"
-				"clip_max_rounds"			"99"	// 1 rpg per mag
-				"clip_default"				"99"	// 1
+				"clip_max_rounds"			"999"	// 1 rpg per mag
+				"clip_default"				"999"	// 1
 			}
 			"player_restrictions"
 			{
