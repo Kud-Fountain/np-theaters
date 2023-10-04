@@ -411,6 +411,105 @@
 		// ROCKETS
 		// ========================================
 		
+		"weapon_sandstorm_rpg7_sp"
+		{
+			"import"					"weapon_base"
+			"weapon_class"				"launcher"
+			"weapon_type"				"projectile"
+			"print_name"				"#weapon_sandstorm_rpg7"
+			"print_desc"				"#weapon_rpg7_desc"
+			"single_use"				"0"
+			"view_model"				"models/sndstrm/v_rpg.mdl"
+			"world_model"				"models/sndstrm/w_rpg7.mdl"
+			"weapon_slot"				"explosive"
+			"weapon_max_subslot"			"0"	// can only be in the first explosive slot
+			"act_table"					"launcher"
+			"weapon_weight"				"0"
+			"weapon_cost"				"0"
+			"weapon_abilities"			"ironsight"
+			"barrel_length"				"44"
+			"class_restricted"			"1"
+			"draw_speed"				"1.65"
+			"holster_speed"				"1.65"
+			//"draw_speed_next_weapon"	"1.65"
+			//"holster_speed_prev_weapon"	"1.65"
+			"reload_speed"				"1.65"
+			//"bolt_speed"				"1.65"
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_RPG7.Single"
+				"shot_single_local"			"Weapon_RPG7.SingleLocal"
+				"empty"					"Weapon_RPG7.Empty"
+				"load"					"Weapon_RPG7.Load"
+				"unload"				"Weapon_RPG7.Unload"
+				"hit"					"Weapon_RPG7.Hit"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-1.0 1.0"
+				"recoil_vertical_range"			"4.0 6.0"
+				"recoil_aim_punch"			"1.0 1.0"
+				"recoil_rest_rate"			"12"
+				"recoil_rest_delay"			"0"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"ins_weapon_rpg_frontblast"
+				"particle_muzzleflash_3rd"		"ins_weapon_rpg_frontblast"
+			}
+			"explosives"
+			{
+				"entity"				"rocket_rpg7"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"no_carry"	// "rocket_rpg7"
+				"clip_max_rounds"			"99"	// 1 rpg per mag
+				"clip_default"				"99"	// 1
+			}
+			"player_restrictions"
+			{
+				"allow_lean"				"1"
+				"allow_sprint"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"1"
+			}
+			"fov"
+			{
+				"fov_plr_ironsight"			"-10"
+				"fov_plr_focus"				"-15"
+				"fov_wpn_default"			"60"
+				"fov_wpn_ironsight"			"48"
+				"fov_wpn_focus"				"48"
+			}
+			"kitui_offset"
+			{
+				"position"				"24 0 3"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"launcher" //New attachment for RPGs - Brightside
+			}
+			
+			"third_person"
+			{
+			 	"reticle"				"ss_crosshairs/rocket_launcher"
+				"scope_first_person"			"1"
+				
+			 	// recoil settings
+			 	"recoil_frac_aim"			"0.08" // third-person aim punch fraction
+			 	"recoil_frac_cam_pitch"		"0.04" // third-person camera pitch punch fraction
+			 	"recoil_frac_cam_yaw"		"0.06" // third-person camera yaw punch fraction
+
+				// spread settings
+			 	"spread_frac_speed"			"1.0" // third-person stance spread fraction
+			 	"spread_frac_spray"			"0.2" // third-person spray spread fraction						
+			}				
+			
+			"team_access"				"security, insurgent"
+		}
+		
 		"weapon_sandstorm_rpg7"
 		{
 			"import"					"weapon_base"
@@ -1229,7 +1328,7 @@
 			"act_table"				"grenade"
 			"weapon_weight"				"0"
 			"weapon_cost"				"0"
-			"class_restricted"			"0"
+			"class_restricted"			"1"
 			"draw_speed"				"1.65"
 			"holster_speed"				"1.65"
 			//"draw_speed_next_weapon"	"1.65"

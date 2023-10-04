@@ -1,0 +1,123 @@
+"#base" "np_sandstormsource.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				// assault squad
+				"#Fireteam_Assault_Squad"	// small arms
+				{
+					"#squad_sleader"				"template_sandstorm_coop_sleader_medic"
+					"#squad_scout"					"template_sandstorm_coop_scout_medic"
+					"#squad_breacher"				"template_sandstorm_coop_breacher_medic"
+					"#squad_battlesapper"			"template_sandstorm_coop_battlesapper_medic"
+					"#squad_firesupport"			"template_sandstorm_coop_firesupport_medic"
+					"#squad_heavygunner"			"template_sandstorm_coop_heavygunner_medic"
+					"#squad_marksniper"				"template_sandstorm_coop_marksniper_medic"
+				}
+				"#Fireteam_Support"
+				{
+					"#squad_sleader"				"template_sandstorm_coop_sleader_medic"
+					"#squad_scout"					"template_sandstorm_coop_scout_medic"
+					"#squad_breacher"				"template_sandstorm_coop_breacher_medic"
+					"#squad_battlesapper"			"template_sandstorm_coop_battlesapper_medic"
+					"#squad_firesupport"			"template_sandstorm_coop_firesupport_medic"
+					"#squad_heavygunner"			"template_sandstorm_coop_heavygunner_medic"
+					"#squad_marksniper"				"template_sandstorm_coop_marksniper_medic"
+				}
+				"#Fireteam_Backup"
+				{
+					"#squad_weaponexpert"			"template_sandstorm_coop_weaponexpert_medic"
+					"#squad_engi"					"template_sandstorm_coop_engi_medic"
+					"#squad_vip"					"template_sandstorm_coop_vip_medic"
+					"#squad_vip"					"template_sandstorm_coop_vip_medic"
+					"#squad_ssniper"				"template_sandstorm_coop_ssniper_medic"
+					"#squad_ssniper"				"template_sandstorm_coop_ssniper_medic"
+				}
+			}
+		}
+		
+		"insurgents"
+		{
+			"squads"
+			{
+				
+				"#Cell_Alpha"	// insurgent team #1
+				{
+					// role name						preset
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+				}
+				
+				"#Cell_Bravo"	// insurgent team #2
+				{
+					// role name						preset
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+				}
+				
+				"#Cell_Charlie"	// insurgent team #3
+				{
+					// role name						preset
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+				}
+				
+				"#Cell_Delta"	// insurgent team #4
+				{
+					// role name						preset
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+				}
+				
+				"#Cell_Echo"	// insurgent team #5
+				{
+					// role name						preset
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+				}
+				
+				"#Cell_Foxtrot"	// insurgent team #6
+				{
+					// role name						preset
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
+				}
+			}
+		}
+	}
+}
