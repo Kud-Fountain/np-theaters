@@ -53,10 +53,10 @@
 					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
 					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
 					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
 				}
 				
 				"#Cell_Bravo"	// insurgent team #2
@@ -66,11 +66,10 @@
 					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
 					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
 					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
 				}
 				
 				"#Cell_Charlie"	// insurgent team #3
@@ -80,10 +79,10 @@
 					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
 					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
 					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
 				}
 				
 				"#Cell_Delta"	// insurgent team #4
@@ -93,10 +92,10 @@
 					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
 					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
 					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
 				}
 				
 				"#Cell_Echo"	// insurgent team #5
@@ -106,10 +105,10 @@
 					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
 					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
 					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
 				}
 				
 				"#Cell_Foxtrot"	// insurgent team #6
@@ -119,9 +118,10 @@
 					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
 					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
 					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4"
 				}
 			}
 		}

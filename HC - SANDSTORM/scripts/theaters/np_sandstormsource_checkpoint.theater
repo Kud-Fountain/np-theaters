@@ -56,6 +56,7 @@
 					"#squad_heavygunner"		    "template_sandstorm_insurgent_gunner"
 					"#squad_breacher"		"template_sandstorm_insurgent_demolitions"
 					"#squad_marksniper"			"template_sandstorm_insurgent_marksman"
+					"#squad_scout"			"template_sandstorm_insurgent_advisor2"
 				}
 				
 				"#Cell_Bravo"	// insurgent team #2
@@ -65,7 +66,6 @@
 					"#squad_scout"			"template_sandstorm_insurgent_observer2"
 					"#squad_scout"			"template_sandstorm_insurgent_rifleman2"
 					"#squad_scout"			"template_sandstorm_insurgent_advisor"
-					"#squad_heavygunner"		    "template_sandstorm_insurgent_breacher"
 					"#squad_heavygunner"		    "template_sandstorm_insurgent_gunner2"
 					"#squad_jug"				"template_sandstorm_insurgent_juggernaut"
 					"#Squad_Sandstorm_Bomber"			"template_sandstorm_insurgent_bomber"
@@ -118,7 +118,6 @@
 					"#squad_scout"			"template_sandstorm_insurgent_observer"	
 					"#squad_scout"			"template_sandstorm_insurgent_observer2"	
 					"#squad_scout"			"template_sandstorm_insurgent_rifleman2"	
-					"#squad_scout"			"template_sandstorm_insurgent_advisor2"
 					"#squad_heavygunner"			"template_sandstorm_insurgent_breacher"	
 					"#squad_heavygunner"			"template_sandstorm_insurgent_gunner"
 				}

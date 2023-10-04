@@ -794,251 +794,12 @@
 			}
 			"allowed_items"
 			{
-				"weapon"					"weapon_sandstorm_rpg7_sp"			
+				"weapon"					"weapon_sandstorm_rpg7_sp"
+				"weapon"					"weapon_sandstorm_at4_sp"
 			}
 		}
 		
 		// insurgents
-		
-		"template_sandstorm_insurgent_jug_bomber"
-		{
-			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_Bomber"
-			
-			"models"
-			{
-				"player"				"models/wn_custom/blackmand_long.mdl"
-			
-				"bodygroups"
-				{
-					"kit"					"0"
-					"backpack"				"0"
-				}
-			}	
-			
-			"buy_order"
-			{
-				"gear"						"ins_chest_rig"
-				"weapon"					"weapon_sandstorm_f1"
-				"weapon"					"weapon_suicide_bomb"
-				"gear"						"srnx_BOT_juggernaut_armor_ex"
-				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
-			}
-			
-			"allowed_items"
-			{
-				"weapon"					"weapon_sandstorm_f1"
-				"weapon"					"weapon_suicide_bomb"
-				"gear"						"srnx_BOT_juggernaut_armor_ex"
-				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
-				"weapon"					"weapon_sandstorm_m67"
-			}
-		}
-		
-		"template_sandstorm_insurgent_juggernaut_ex1"
-		{
-			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_JUG"
-			
-			"models"
-			{
-				"player"				"models/wn_custom/blackmand_long.mdl"
-			
-				"bodygroups"
-				{
-					"kit"					"0"
-					"backpack"				"0"
-				}
-			}	
-			
-			"buy_order"
-			{
-				"gear"						"ins_chest_rig"
-				"weapon"					"weapon_awm"
-				"weapon"					"weapon_sandstorm_at4"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_deagle"
-				"gear"						"srnx_BOT_juggernaut_armor_ex"
-				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
-				"weapon"					"weapon_sandstorm_f1"
-			}
-			
-			"allowed_items"
-			{
-				"weapon"					"weapon_awm"
-				"weapon"					"weapon_sandstorm_at4"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_deagle"
-				"gear"						"srnx_BOT_juggernaut_armor_ex"
-				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
-				"weapon"					"weapon_sandstorm_f1"
-				"weapon"					"weapon_sandstorm_m67"
-			}
-		}
-		
-		"template_sandstorm_insurgent_juggernaut_ex2"
-		{
-			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_JUG"
-			
-			"models"
-			{
-				"player"				"models/wn_custom/blackmand_long.mdl"
-			
-				"bodygroups"
-				{
-					"kit"					"0"
-					"backpack"				"0"
-				}
-			}	
-			
-			"buy_order"
-			{
-				"gear"						"ins_chest_rig"
-				"weapon"					"weapon_sandstorm_m249"
-				"weapon"					"weapon_sandstorm_at4"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_glock17"
-				"gear"						"srnx_BOT_juggernaut_armor_ex"
-				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
-				"weapon"					"weapon_sandstorm_f1"
-			}
-			
-			"allowed_items"
-			{
-				"weapon"					"weapon_sandstorm_m249"
-				"weapon"					"weapon_sandstorm_at4"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_glock17"
-				"gear"						"srnx_BOT_juggernaut_armor_ex"
-				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
-				"weapon"					"weapon_sandstorm_f1"
-				"weapon"					"weapon_sandstorm_m67"
-			}
-		}
-		
-		"template_sandstorm_insurgent_juggernaut_ex3"
-		{
-			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_JUG"
-			
-			"models"
-			{
-				"player"				"models/wn_custom/blackmand_long.mdl"
-			
-				"bodygroups"
-				{
-					"kit"					"0"
-					"backpack"				"0"
-				}
-			}	
-			
-			"buy_order"
-			{
-				"gear"						"ins_chest_rig"
-				"weapon"					"weapon_sandstorm_saiga_12"
-				"weapon"					"weapon_sandstorm_at4"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_hipower"
-				"gear"						"srnx_BOT_juggernaut_armor_ex"
-				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
-				"weapon"					"weapon_sandstorm_f1"
-			}
-			
-			"allowed_items"
-			{
-				"weapon"					"weapon_sandstorm_saiga_12"
-				"weapon"					"weapon_sandstorm_at4"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_hipower"
-				"gear"						"srnx_BOT_juggernaut_armor_ex"
-				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
-				"weapon"					"weapon_sandstorm_f1"
-				"weapon"					"weapon_sandstorm_m67"
-			}
-		}
-		
-		"template_sandstorm_insurgent_juggernaut_ex4"
-		{
-			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_JUG"
-			
-			"models"
-			{
-				"player"				"models/wn_custom/blackmand_long.mdl"
-			
-				"bodygroups"
-				{
-					"kit"					"0"
-					"backpack"				"0"
-				}
-			}	
-			
-			"buy_order"
-			{
-				"gear"						"ins_chest_rig"
-				"weapon"					"weapon_sandstorm_m110a1"
-				"weapon"					"weapon_sandstorm_at4"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_hipower"
-				"gear"						"srnx_BOT_juggernaut_armor_ex"
-				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
-				"weapon"					"weapon_sandstorm_molotov"
-			}
-			
-			"allowed_items"
-			{
-				"weapon"					"weapon_sandstorm_m110a1"
-				"weapon"					"weapon_sandstorm_at4"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_hipower"
-				"gear"						"srnx_BOT_juggernaut_armor_ex"
-				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
-				"weapon"					"weapon_sandstorm_molotov"
-				"weapon"					"weapon_sandstorm_m67"
-			}
-		}
-		
-		"template_sandstorm_insurgent_juggernaut_ex5"
-		{
-			"team"						"insurgent"
-			"print_name"				"#Squad_Sandstorm_JUG"
-			
-			"models"
-			{
-				"player"				"models/wn_custom/blackmand_long.mdl"
-			
-				"bodygroups"
-				{
-					"kit"					"0"
-					"backpack"				"0"
-				}
-			}	
-			
-			"buy_order"
-			{
-				"gear"						"ins_chest_rig"
-				"weapon"					"weapon_sandstorm_honeybadger"
-				"weapon"					"weapon_sandstorm_at4"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_glock17"
-				"gear"						"srnx_BOT_juggernaut_armor_ex"
-				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
-				"weapon"					"weapon_sandstorm_molotov"
-			}
-			
-			"allowed_items"
-			{
-				"weapon"					"weapon_sandstorm_honeybadger"
-				"weapon"					"weapon_sandstorm_at4"
-				"weapon"					"weapon_sandstorm_kukri"
-				"weapon"					"weapon_sandstorm_glock17"
-				"gear"						"srnx_BOT_juggernaut_armor_ex"
-				"gear"						"srnx_BOT_ins_jugger_helmet_black_ex"
-				"weapon"					"weapon_sandstorm_molotov"
-				"weapon"					"weapon_sandstorm_m67"
-			}
-		}
 		
 		// 
 		// BEGIN PLACEHOLDER BOT CLASS TEMPLATES, NORMAL CLASS
@@ -1072,7 +833,7 @@
 				//"weapon"					"weapon_sandstorm_anm14"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
-				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_at4_sp"
 			}
 			
 			"allowed_items"
@@ -1092,7 +853,7 @@
 				//"weapon"					"weapon_sandstorm_anm14"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
-				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_at4_sp"
 				"weapon"					"weapon_sandstorm_m67"
 			}
 		}	
@@ -1125,7 +886,7 @@
 				//"weapon"					"weapon_sandstorm_anm14"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
-				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_at4_sp"
 			}
 			
 			"allowed_items"
@@ -1145,7 +906,7 @@
 				//"weapon"					"weapon_sandstorm_anm14"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
-				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_at4_sp"
 				"weapon"					"weapon_sandstorm_famas"
 				"weapon"					"weapon_sandstorm_m67"
 			}
@@ -1175,7 +936,7 @@
 				"weapon_upgrade"			"optic_sandstorm_aimpoint"
 				"weapon"					"weapon_sandstorm_hkusp45"
 				//"weapon"					"weapon_sandstorm_f1"
-				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_at4_sp"
 			}
 			
 			"allowed_items"
@@ -1190,7 +951,7 @@
 				"weapon"					"weapon_sandstorm_g3a3"
 				"weapon"					"weapon_sandstorm_m4a1"
 				//"weapon"					"weapon_sandstorm_f1"
-				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_at4_sp"
 				"weapon"					"weapon_sandstorm_m67"
 			}
 		}
@@ -1219,7 +980,7 @@
 				"weapon_upgrade"			"optic_sandstorm_aimpoint"
 				"weapon"					"weapon_sandstorm_hkusp45"
 				//"weapon"					"weapon_sandstorm_f1"
-				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_at4_sp"
 			}
 			
 			"allowed_items"
@@ -1234,7 +995,7 @@
 				"weapon"					"weapon_sandstorm_g3a3"
 				"weapon"					"weapon_sandstorm_m4a1"
 				//"weapon"					"weapon_sandstorm_f1"
-				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_at4_sp"
 				"weapon"					"weapon_sandstorm_p90"
 				"weapon"					"weapon_sandstorm_m67"
 			}
@@ -1266,7 +1027,7 @@
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
-				"weapon"					"weapon_sandstorm_rpg7"
+				"weapon"					"weapon_sandstorm_at4_sp"
 			}
 			
 			"allowed_items"
@@ -1284,7 +1045,7 @@
 				//"weapon"					"weapon_sandstorm_at4"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
-				"weapon"					"weapon_sandstorm_rpg7"
+				"weapon"					"weapon_sandstorm_at4_sp"
 				"weapon"					"weapon_sandstorm_m67"
 			}
 		}
@@ -1315,7 +1076,7 @@
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
-				"weapon"					"weapon_sandstorm_rpg7"
+				"weapon"					"weapon_sandstorm_rpg7_sp"
 			}
 			
 			"allowed_items"
@@ -1333,7 +1094,7 @@
 				//"weapon"					"weapon_sandstorm_at4"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
-				"weapon"					"weapon_sandstorm_rpg7"
+				"weapon"					"weapon_sandstorm_rpg7_sp"
 				"weapon"					"weapon_sandstorm_m67"
 			}
 		}
@@ -1363,7 +1124,7 @@
 				"weapon_upgrade"			"optic_sandstorm_kobra"
 				"weapon"					"weapon_sandstorm_tariq"
 				//"weapon"					"weapon_sandstorm_f1"
-				"weapon"					"weapon_sandstorm_rpg7"
+				"weapon"					"weapon_sandstorm_at4_sp"
 			}
 			
 			"allowed_items"
@@ -1379,7 +1140,7 @@
 				//"weapon"					"weapon_sandstorm_f1"
 				
 				"weapon"					"weapon_sandstorm_c4_clicker"
-				"weapon"					"weapon_sandstorm_rpg7"
+				"weapon"					"weapon_sandstorm_at4_sp"
 				"weapon"					"weapon_sandstorm_m67"
 			}
 		}
@@ -1408,7 +1169,7 @@
 				"weapon"					"weapon_sandstorm_m240"
 				"weapon"					"weapon_sandstorm_tariq"
 				//"weapon"					"weapon_sandstorm_molotov"
-				"weapon"					"weapon_sandstorm_rpg7"
+				"weapon"					"weapon_sandstorm_rpg7_sp"
 			}
 			
 			"allowed_items"
@@ -1419,7 +1180,7 @@
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon"					"weapon_sandstorm_rpk"
 				//"weapon"					"weapon_sandstorm_molotov"
-				"weapon"					"weapon_sandstorm_rpg7"
+				"weapon"					"weapon_sandstorm_rpg7_sp"
 				"weapon"					"weapon_sandstorm_m67"
 			}
 		}
@@ -1448,7 +1209,7 @@
 				"weapon"					"weapon_sandstorm_rpk"
 				"weapon"					"weapon_sandstorm_tariq"
 				//"weapon"					"weapon_sandstorm_molotov"
-				"weapon"					"weapon_sandstorm_rpg7"
+				"weapon"					"weapon_sandstorm_at4_sp"
 			}
 			
 			"allowed_items"
@@ -1459,7 +1220,7 @@
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon"					"weapon_sandstorm_rpk"
 				//"weapon"					"weapon_sandstorm_molotov"
-				"weapon"					"weapon_sandstorm_rpg7"
+				"weapon"					"weapon_sandstorm_at4_sp"
 				"weapon"					"weapon_sandstorm_m67"
 			}
 		}
@@ -1487,7 +1248,7 @@
 				"weapon"					"weapon_swat_m500a"
 				"weapon"					"weapon_sandstorm_kukri"
 				"weapon"					"weapon_deagle"
-				"weapon"					"weapon_sandstorm_rpg7"
+				"weapon"					"weapon_sandstorm_rpg7_sp"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
 			}
@@ -1508,7 +1269,7 @@
 				
 				"weapon"					"weapon_sandstorm_molotov"
 				"weapon"					"weapon_sandstorm_at4"
-				"weapon"					"weapon_sandstorm_rpg7"
+				"weapon"					"weapon_sandstorm_rpg7_sp"
 				"weapon"					"weapon_sandstorm_c4_clicker"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
@@ -1540,7 +1301,7 @@
 				"weapon_upgrade"			"optic_sandstorm_aimpoint"
 				"weapon"					"weapon_sandstorm_m9"
 				"weapon"					"weapon_sandstorm_molotov"
-				//"weapon"					"weapon_sandstorm_rpg7"
+				//"weapon"					"weapon_sandstorm_rpg7_sp"
 			}
 			
 			"allowed_items"
@@ -1557,7 +1318,7 @@
 				"weapon"					"weapon_sandstorm_svd"
 				"weapon"					"weapon_sandstorm_m14"
 				"weapon"					"weapon_sandstorm_molotov"
-				//"weapon"					"weapon_sandstorm_rpg7"
+				//"weapon"					"weapon_sandstorm_rpg7_sp"
 				"weapon"					"weapon_sandstorm_m67"
 			}
 		}
@@ -1586,7 +1347,7 @@
 				"weapon_upgrade"			"optic_sandstorm_aimpoint"
 				"weapon"					"weapon_sandstorm_m9"
 				"weapon"					"weapon_sandstorm_molotov"
-				//"weapon"					"weapon_sandstorm_rpg7"
+				//"weapon"					"weapon_sandstorm_at4_sp"
 			}
 			
 			"allowed_items"
@@ -1603,7 +1364,7 @@
 				"weapon"					"weapon_sandstorm_svd"
 				"weapon"					"weapon_sandstorm_m14"
 				"weapon"					"weapon_sandstorm_molotov"
-				//"weapon"					"weapon_sandstorm_rpg7"
+				//"weapon"					"weapon_sandstorm_at4_sp"
 				"weapon"					"weapon_sandstorm_sig_mpx"
 				"weapon"					"weapon_sandstorm_m67"
 			}
@@ -1633,7 +1394,7 @@
 				"weapon_upgrade"			"optic_sandstorm_mk4"
 				"weapon"					"weapon_sandstorm_m9"
 				//"weapon"					"weapon_sandstorm_m67"
-				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_at4_sp"
 			}
 			
 			"allowed_items"
@@ -1645,7 +1406,7 @@
 				"weapon"					"weapon_sandstorm_m9"
 				"weapon"					"weapon_sandstorm_m14"
 				//"weapon"					"weapon_sandstorm_m67"
-				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_at4_sp"
 				"weapon"					"weapon_sandstorm_m67"
 			}
 		}
@@ -1674,7 +1435,7 @@
 				"weapon_upgrade"			"optic_sandstorm_mk4"
 				"weapon"					"weapon_sandstorm_m9"
 				"weapon"					"weapon_sandstorm_m67"
-				//"weapon"					"weapon_sandstorm_at4"
+				//"weapon"					"weapon_sandstorm_at4_sp"
 			}
 			
 			"allowed_items"
@@ -1686,7 +1447,7 @@
 				"weapon"					"weapon_sandstorm_m9"
 				"weapon"					"weapon_sandstorm_m14"
 				"weapon"					"weapon_sandstorm_m67"
-				//"weapon"					"weapon_sandstorm_at4"
+				//"weapon"					"weapon_sandstorm_at4_sp"
 				"weapon"					"weapon_sandstorm_m1garand"
 				"weapon"					"weapon_sandstorm_m67"
 			}
@@ -1834,7 +1595,7 @@
 				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
-				"weapon"					"weapon_sandstorm_rpg7"
+				"weapon"					"weapon_sandstorm_at4_sp"
 			}
 			
 			"allowed_items"
@@ -1845,7 +1606,7 @@
 				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor"
 				"gear"						"srnx_BOT_ins_jugger_helmet_black"
-				"weapon"					"weapon_sandstorm_rpg7"
+				"weapon"					"weapon_sandstorm_at4_sp"
 				"weapon"					"weapon_sandstorm_m67"
 			}
 		}
@@ -1870,7 +1631,7 @@
 			{
 				"gear"						"ins_chest_rig"
 				"weapon"					"weapon_sandstorm_hk417a2"
-				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_at4_sp"
 				"weapon"					"weapon_sandstorm_kukri"
 				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor"
@@ -1883,7 +1644,7 @@
 			{
 				"weapon"					"weapon_sandstorm_hk417a2"
 				"weapon"					"weapon_vietnam_m60"
-				"weapon"					"weapon_sandstorm_at4"
+				"weapon"					"weapon_sandstorm_at4_sp"
 				"weapon"					"weapon_sandstorm_kukri"
 				"weapon"					"weapon_sandstorm_glock17"
 				"gear"						"srnx_BOT_juggernaut_armor"
@@ -1914,13 +1675,43 @@
 			{
 				"gear"						"ins_heavy_armor"
 				"gear"						"ins_chest_rig"
-				"weapon"					"weapon_sandstorm_kukri"
+				//"weapon"					"weapon_sandstorm_kukri"
 				"weapon"					"weapon_sandstorm_rpg7_sp"
 			}
 			
 			"allowed_items"
 			{
 				"weapon"					"weapon_sandstorm_rpg7_sp"
+			}
+		}
+		
+		"template_sandstorm_insurgent_at4"
+		{
+			"team"						"insurgents"
+			"print_name"				"#squad_sleader"
+			
+			"models"
+			{
+				"player"				"models/characters/insurgent_light_f.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}	
+			
+			"buy_order"
+			{
+				"gear"						"ins_heavy_armor"
+				"gear"						"ins_chest_rig"
+				//"weapon"					"weapon_sandstorm_kukri"
+				"weapon"					"weapon_sandstorm_at4_sp"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"					"weapon_sandstorm_at4_sp"
 			}
 		}
 		
