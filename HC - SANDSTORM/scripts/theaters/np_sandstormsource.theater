@@ -799,6 +799,37 @@
 			}
 		}
 		
+		"template_sandstorm_coop_ied_medic_bomber"
+		{
+			"team"						"security"
+			"print_name"				"#Squad_Sandstorm_SuicideBomber"
+			
+			"models"
+			{
+				"player"				"models/characters/security_standard_f.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
+			
+				"bodygroups"
+				{
+					"kit"					"0"
+					"backpack"				"0"
+				}
+			}	
+			
+			"buy_order"
+			{	
+				"gear"						"sec_light_armor"
+				"gear"						"sec_sandstorm_chest_carrier"
+				"weapon"					"weapon_suicide_bomb"
+				"weapon"					"weapon_sandstorm_m67"
+			}
+			"allowed_items"
+			{
+				"weapon"					"weapon_suicide_bomb"
+				"weapon"					"weapon_sandstorm_m67"
+			}
+		}
+		
 		// insurgents
 		
 		// 
@@ -1655,7 +1686,7 @@
 			}
 		}
 		
-		"template_sandstorm_insurgent_rpg"
+		"template_sandstorm_insurgent_rpg_bomber"
 		{
 			"team"						"insurgents"
 			"print_name"				"#squad_sleader"
@@ -1685,7 +1716,7 @@
 			}
 		}
 		
-		"template_sandstorm_insurgent_at4"
+		"template_sandstorm_insurgent_at4_bomber"
 		{
 			"team"						"insurgents"
 			"print_name"				"#squad_sleader"

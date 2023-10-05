@@ -50,78 +50,78 @@
 				"#Cell_Alpha"	// insurgent team #1
 				{
 					// role name						preset
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
 				}
 				
 				"#Cell_Bravo"	// insurgent team #2
 				{
 					// role name						preset
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
 				}
 				
 				"#Cell_Charlie"	// insurgent team #3
 				{
 					// role name						preset
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
 				}
 				
 				"#Cell_Delta"	// insurgent team #4
 				{
 					// role name						preset
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
 				}
 				
 				"#Cell_Echo"	// insurgent team #5
 				{
 					// role name						preset
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
 				}
 				
 				"#Cell_Foxtrot"	// insurgent team #6
 				{
 					// role name						preset
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_rpg"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
-					"#squad_rpg"			"template_sandstorm_insurgent_at4"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_rpg_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
+					"#squad_rpg"			"template_sandstorm_insurgent_at4_bomber"
 				}
 			}
 		}
