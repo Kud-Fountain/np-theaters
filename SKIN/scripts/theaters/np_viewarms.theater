@@ -1405,5 +1405,41 @@
 			"gear_slot"					"misc2"
 			"viewmodel_hands_override"	"models/wn_custom/arms/lumine_tactical_arms1.mdl"
 		}
+		
+		"hands_minatoaqua_qua"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/minatoaqua_arms1.mdl"
+		}
+		
+		"hands_myoya"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/myoya_arms1.mdl"
+		}
+		
+		"hands_roberta"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/roberta_arms1.mdl"
+		}
+		
+		"hands_shiroko"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/shiroko_arms1.mdl"
+		}
+		
+		"hands_midori"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/midori_arms1.mdl"
+		}
+		
+		"hands_momoi"
+		{
+			"gear_slot"					"misc2"
+			"viewmodel_hands_override"	"models/wn_custom/arms/momoi_arms1.mdl"
+		}
 	}
 }
