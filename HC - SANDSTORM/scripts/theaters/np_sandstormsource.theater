@@ -799,37 +799,6 @@
 			}
 		}
 		
-		"template_sandstorm_coop_ied_medic_bomber"
-		{
-			"team"						"security"
-			"print_name"				"#Squad_Sandstorm_SuicideBomber"
-			
-			"models"
-			{
-				"player"				"models/characters/security_standard_f.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
-			
-				"bodygroups"
-				{
-					"kit"					"0"
-					"backpack"				"0"
-				}
-			}	
-			
-			"buy_order"
-			{	
-				"gear"						"sec_light_armor"
-				"gear"						"sec_sandstorm_chest_carrier"
-				"weapon"					"weapon_suicide_bomb"
-				"weapon"					"weapon_sandstorm_m67"
-			}
-			"allowed_items"
-			{
-				"weapon"					"weapon_suicide_bomb"
-				"weapon"					"weapon_sandstorm_m67"
-			}
-		}
-		
 		// insurgents
 		
 		// 
@@ -1107,7 +1076,7 @@
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
-				"weapon"					"weapon_sandstorm_rpg7_sp"
+				"weapon"					"weapon_sandstorm_rpg7"
 			}
 			
 			"allowed_items"
@@ -1125,7 +1094,7 @@
 				//"weapon"					"weapon_sandstorm_at4"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
-				"weapon"					"weapon_sandstorm_rpg7_sp"
+				"weapon"					"weapon_sandstorm_rpg7"
 				"weapon"					"weapon_sandstorm_m67"
 			}
 		}
@@ -1200,7 +1169,7 @@
 				"weapon"					"weapon_sandstorm_m240"
 				"weapon"					"weapon_sandstorm_tariq"
 				//"weapon"					"weapon_sandstorm_molotov"
-				"weapon"					"weapon_sandstorm_rpg7_sp"
+				"weapon"					"weapon_sandstorm_rpg7"
 			}
 			
 			"allowed_items"
@@ -1211,7 +1180,7 @@
 				"weapon"					"weapon_sandstorm_tariq"
 				"weapon"					"weapon_sandstorm_rpk"
 				//"weapon"					"weapon_sandstorm_molotov"
-				"weapon"					"weapon_sandstorm_rpg7_sp"
+				"weapon"					"weapon_sandstorm_rpg7"
 				"weapon"					"weapon_sandstorm_m67"
 			}
 		}
@@ -1279,7 +1248,7 @@
 				"weapon"					"weapon_swat_m500a"
 				"weapon"					"weapon_sandstorm_kukri"
 				"weapon"					"weapon_deagle"
-				"weapon"					"weapon_sandstorm_rpg7_sp"
+				"weapon"					"weapon_sandstorm_rpg7"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
 			}
@@ -1300,7 +1269,7 @@
 				
 				"weapon"					"weapon_sandstorm_molotov"
 				"weapon"					"weapon_sandstorm_at4"
-				"weapon"					"weapon_sandstorm_rpg7_sp"
+				"weapon"					"weapon_sandstorm_rpg7"
 				"weapon"					"weapon_sandstorm_c4_clicker"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"underbarrel_gp25_he"
@@ -1332,7 +1301,7 @@
 				"weapon_upgrade"			"optic_sandstorm_aimpoint"
 				"weapon"					"weapon_sandstorm_m9"
 				"weapon"					"weapon_sandstorm_molotov"
-				//"weapon"					"weapon_sandstorm_rpg7_sp"
+				//"weapon"					"weapon_sandstorm_rpg7"
 			}
 			
 			"allowed_items"
@@ -1349,7 +1318,7 @@
 				"weapon"					"weapon_sandstorm_svd"
 				"weapon"					"weapon_sandstorm_m14"
 				"weapon"					"weapon_sandstorm_molotov"
-				//"weapon"					"weapon_sandstorm_rpg7_sp"
+				//"weapon"					"weapon_sandstorm_rpg7"
 				"weapon"					"weapon_sandstorm_m67"
 			}
 		}
